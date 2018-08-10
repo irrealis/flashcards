@@ -1,6 +1,18 @@
 #!/usr/bin/env python3
 
-import yaml
+import yaml, pypandoc
+import markdown
+from markdown.extensions.abbr import AbbrExtension
+from markdown.extensions.attr_list import AttrListExtension
+from markdown.extensions.codehilite import CodeHiliteExtension
+from markdown.extensions.def_list import DefListExtension
+from markdown.extensions.fenced_code import FencedCodeExtension
+from markdown.extensions.footnotes import FootnoteExtension
+from markdown.extensions.nl2br import Nl2BrExtension
+from markdown.extensions.sane_lists import SaneListExtension
+from markdown.extensions.smart_strong import SmartEmphasisExtension
+from markdown.extensions.tables import TableExtension
+
 import argparse, http.client, json
 
 
@@ -92,18 +104,68 @@ def parse_cmdline():
   return parser.parse_args()
 
 
+def format_text(
+  text,
+  useMarkdown,
+  markdownStyle,
+  markdownLineNums,
+  markdownTabLength,
+):
+  if useMarkdown:
+    #html_ish = pypandoc.convert_text(
+    #  text,
+    #  'html',
+    #  'markdown_github+backtick_code_blocks+fenced_code_attributes'
+    #)
+    html_ish = markdown.markdown(text, output_format="xhtml1",
+      extensions=[
+        SmartEmphasisExtension(),
+        FencedCodeExtension(),
+        FootnoteExtension(),
+        AttrListExtension(),
+        DefListExtension(),
+        TableExtension(),
+        AbbrExtension(),
+        Nl2BrExtension(),
+        CodeHiliteExtension(
+          noclasses = True,
+          pygments_style = markdownStyle,
+          linenums = markdownLineNums
+        ),
+        SaneListExtension()
+      ],
+      lazy_ol = False,
+      tab_length = markdownTabLength,
+    )
+  else:
+    # Preserve whitespace.
+    html_ish = text.replace('\n', '<br>').replace(' ', '&nbsp;')
+  return html_ish
+
+
 def data_to_flashcards_params(data):
   '''Convert data to format accepted by AnkiConnect.'''
+  tags = data["tags"]
+  deckName = data["deckName"]
+  modelName = data["modelName"]
+  useMarkdown = data.get("useMarkdown", True)
+  markdownStyle = data.get("markdownStyle", "tango")
+  markdownLineNums = data.get("markdownLineNums", False)
+  markdownTabLength = data.get("markdownTabLength", 4)
   params = dict(
     notes = [
       dict(
-        tags = data["tags"],
-        deckName = data["deckName"],
-        modelName = data["modelName"],
+        tags = tags,
+        deckName = deckName,
+        modelName = modelName,
         fields = {
-          k: v.
-            replace('\n', '<br>').
-            replace(' ', '&nbsp;')
+          k: format_text(
+            v,
+            useMarkdown,
+            markdownStyle,
+            markdownLineNums,
+            markdownTabLength,
+          )
           for (k, v) in note.items()
         }
       )
