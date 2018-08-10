@@ -1,0 +1,36 @@
+deckName: Misc
+modelName: BasicMathJax
+tags:
+- Misc
+- Companies
+- Verily
+- VerilySensorProjects
+
+notes:
+
+- Front: |
+    What are some Verily sensor projects?
+  Back: |
+    - Miniaturized CGM
+    - Smart Lens Program
+    - Study Watch
+
+- Front: |
+    What is Verily's _Miniaturized CGM_ project?
+  Back: |
+    - Continuous Glucose Monitors for people with diabetes.
+    - Partner: _Dexcom_.
+
+- Front: |
+    What is Verily's _Smart Lens Program_ project?
+  Back: |
+    - Contact lenses with wireless sensing.
+    - Applications include glucose sensing and accomodative vision correction.
+    - Partner: _Alcon,_ subsidiary of _Novartis_.
+
+- Front: |
+    What is Verily's _Study Watch_ project?
+  Back: |
+    - Smart watch. Verily-developed hardware and data platform.
+    - Collects physiological and environment data.
+    - For clinical studies.
