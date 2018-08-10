@@ -1,0 +1,17 @@
+deckName: Misc
+modelName: BasicMathJax
+tags:
+- Misc
+- Companies
+- Verily
+- VerilyProjectTypes
+
+notes:
+
+- Front: |
+    What are four types of Verily projects?
+  Back: |
+    - Sensors
+    - Interventions
+    - Health platforms and population-health tools
+    - Precision medicine
