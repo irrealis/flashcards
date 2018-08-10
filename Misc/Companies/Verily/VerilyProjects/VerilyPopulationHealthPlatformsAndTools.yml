@@ -1,0 +1,42 @@
+deckName: Misc
+modelName: BasicMathJax
+tags:
+- Misc
+- Companies
+- Verily
+- VerilyProjects
+- VerilyPopulationHealthPlatformsAndTools
+
+notes:
+
+- Front: |
+    What are some Verily health platforms and population-health tools?
+  Back: |
+    - Healthcare performance measurement
+    - NHS early-intervention program
+    - Onduo
+    
+    
+- Front: |
+    What is Verily's _Healthcare performance measurement_ project?
+  Back: |
+    - Quality-performance data analysis and reporting across:
+        - Healthcare delivery systems
+        - Patient populations
+    - Partner: _3M Health Information Systems_.
+    
+    
+- Front: |
+    What is Verily's _NHS Early Intervention_ program?
+  Back: |
+    - Risk-prediction models driving chronic-disease-care innovation.
+    - Partners:
+        - _NHS Heywood, Middleton, and Rochdale Clinical Commissioning Group_
+        - _Merck Sharp & Dohme Limited_
+    
+    
+- Front: |
+    What is Verily's _Onduo_ program?
+  Back: |
+    - Comprehensive, simple, intelligent diabetes-management solutions.
+    - Partner: _Sanofi_
