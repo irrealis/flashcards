@@ -86,7 +86,8 @@ def parse_cmdline():
   )
   parser.add_argument(
     "input",
-    help = "YAML file with flashcard content"
+    nargs = '+',
+    help = "YAML file(s) with flashcard content"
   )
   return parser.parse_args()
 
@@ -112,36 +113,49 @@ def data_to_flashcards_params(data):
   return params
 
 
-def try_anki_connect_version(connection):
+def anki_connect_version(connection):
   return connection.send(action = "version")
 
 
-def try_send_flashcards_to_anki(connection, params):
-  return connection.send(
+def send_flashcards_to_anki(connection, params):
+  return connection.send_as_json(
     action = "addNotes",
     params = params
   )
+
+
+def load_and_send_flashcards_to_anki(yaml_input_file):
+  flashcard_data = yaml.load(yaml_input_file)
+  flashcard_params = data_to_flashcards_params(flashcard_data)
+
+  # Send data to AnkiConnect with request to create flashcards.
+  connection = AnkiConnectClient()
+  http_response, result_data = send_flashcards_to_anki(connection, flashcard_params)
+
+  # Report any errors.
+  notes = flashcard_data["notes"]
+  results = result_data["result"]
+  for note, result in zip(notes, results):
+    if result is None:
+      print("\n*** Couldn't add note: {}".format(note))
+
+  if result_data["error"]:
+    print("\n--- HTTP response:\n{} {}\n--- AnkiConnect error description:\n{}".format(
+      http_response.status,
+      http_response.reason,
+      result_data["error"]
+    ))
 
 
 def main():
   cmdline_args = parse_cmdline()
 
   # Load and parse flashcard data from input YAML file.
-  with open(cmdline_args.input) as yaml_file:
-    flashcard_data = yaml.load(yaml_file)
-  flashcard_params = data_to_flashcards_params(flashcard_data)
-
-  # Send data to AnkiConnect with request to create flashcards.
-  connection = AnkiConnectClient()
-  result_data = try_send_flashcards_to_anki(connection, flashcard_params)
-
-  # Report any errors.
-  notes = flashcard_data["notes"]
-  errors = (result is None for result in result_data["result"])
-  for note, error in zip(notes, errors):
-    if error:
-      print("\n*** Couldn't add note: {}".format(note))
-
+  for input_filename in cmdline_args.input:
+    with open(input_filename) as yaml_input_file:
+      print("\nSending file '{}' to Anki...".format(input_filename))
+      load_and_send_flashcards_to_anki(yaml_input_file)
+  print("\nDone.\n")
 
 if __name__ == "__main__":
   main()
