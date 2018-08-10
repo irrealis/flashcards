@@ -6,6 +6,8 @@ tags:
 - Verily
 - VerilySWEPosition
 
+markdownTabLength: 2
+
 notes:
 
 - Front: |
@@ -27,5 +29,5 @@ notes:
   Back: |
     - Design/build data-processing systems to curate/transform/refine raw clinical data into useful/intuitive output datasets.
     - Develop APIs and output formats meeting needs of biostatisticians, clinical researchers, and analysis experts.
-        - While maintaining all relevant contractual or regulatory obligations (e.g. HIPAA compliance).
+      - While maintaining all relevant contractual or regulatory obligations (e.g. HIPAA compliance).
     - Collaborate with consumers of curated data in order to iterate towards a system that makes thes consumers happier and more productive.

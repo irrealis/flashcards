@@ -7,6 +7,8 @@ tags:
 - VerilyProjects
 - VerilyPopulationHealthPlatformsAndTools
 
+markdownTabLength: 2
+
 notes:
 
 - Front: |
@@ -21,8 +23,8 @@ notes:
     What is Verily's _Healthcare performance measurement_ project?
   Back: |
     - Quality-performance data analysis and reporting across:
-        - Healthcare delivery systems
-        - Patient populations
+      - Healthcare delivery systems
+      - Patient populations
     - Partner: _3M Health Information Systems_.
     
     
@@ -31,8 +33,8 @@ notes:
   Back: |
     - Risk-prediction models driving chronic-disease-care innovation.
     - Partners:
-        - _NHS Heywood, Middleton, and Rochdale Clinical Commissioning Group_
-        - _Merck Sharp & Dohme Limited_
+      - _NHS Heywood, Middleton, and Rochdale Clinical Commissioning Group_
+      - _Merck Sharp & Dohme Limited_
     
     
 - Front: |
