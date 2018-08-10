@@ -117,6 +117,7 @@ def format_text(
     #  'html',
     #  'markdown_github+backtick_code_blocks+fenced_code_attributes'
     #)
+    noclasses = markdownStyle != 'default'
     html_ish = markdown.markdown(text, output_format="xhtml1",
       extensions=[
         SmartEmphasisExtension(),
@@ -128,7 +129,7 @@ def format_text(
         AbbrExtension(),
         Nl2BrExtension(),
         CodeHiliteExtension(
-          noclasses = True,
+          noclasses = noclasses,
           pygments_style = markdownStyle,
           linenums = markdownLineNums
         ),
