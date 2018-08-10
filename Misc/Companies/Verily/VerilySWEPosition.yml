@@ -1,0 +1,31 @@
+deckName: Misc
+modelName: BasicMathJax
+tags:
+- Misc
+- Companies
+- Verily
+- VerilySWEPosition
+
+notes:
+
+- Front: |
+    What are the qualifications for this position?
+  Back: |
+    Minimum qualifications:
+    
+    - BA/BS degree in Computer Science, Electrical Engineering, or a related field, or equivalent practical experience in software engineering.
+    - 2 years experience with Java or a similar general-purpose object-oriented programming language.
+
+    Preferred qualifications:
+    
+    - Knowledge and experience with Java development.
+    - Interest or experience with data processing platforms like MapReduce, BigQuery, or Google Cloud offerings.
+    
+    
+- Front: |
+    What are the responsibilities of this position?
+  Back: |
+    - Design/build data-processing systems to curate/transform/refine raw clinical data into useful/intuitive output datasets.
+    - Develop APIs and output formats meeting needs of biostatisticians, clinical researchers, and analysis experts.
+        - While maintaining all relevant contractual or regulatory obligations (e.g. HIPAA compliance).
+    - Collaborate with consumers of curated data in order to iterate towards a system that makes thes consumers happier and more productive.
