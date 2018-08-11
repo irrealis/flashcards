@@ -97,6 +97,12 @@ def parse_cmdline():
     description = "Send Anki flashcards parsed from YAML."
   )
   parser.add_argument(
+    "-d", "--debug",
+    action = 'store_true',
+    default = False,
+    help = "Use slower routines for debugging"
+  )
+  parser.add_argument(
     "input",
     nargs = '+',
     help = "YAML file(s) with flashcard content"
@@ -161,7 +167,7 @@ def data_to_flashcards_params(data):
         modelName = modelName,
         fields = {
           k: format_text(
-            v,
+            str(v),
             useMarkdown,
             markdownStyle,
             markdownLineNums,
@@ -187,6 +193,27 @@ def send_flashcards_to_anki(connection, params):
   )
 
 
+def load_and_send_individual_flashcards_to_anki(yaml_input_file):
+  flashcard_data = yaml.load(yaml_input_file)
+  flashcard_params = data_to_flashcards_params(flashcard_data)
+
+  connection = AnkiConnectClient()
+
+  for note in flashcard_params["notes"]:
+    http_response, result_data = connection.send_as_json(
+      action = "addNote",
+      params = dict(
+        note = note
+      )
+    )
+    if result_data.get("error", None):
+      print("\n*** Couldn't add note: {}\n--- AnkiConnect error description:\n{}\n--- HTTP response:\n{} {}".format(
+        note,
+        result_data["error"],
+        http_response.status,
+        http_response.reason,
+      ))
+
 def load_and_send_flashcards_to_anki(yaml_input_file):
   flashcard_data = yaml.load(yaml_input_file)
   flashcard_params = data_to_flashcards_params(flashcard_data)
@@ -203,21 +230,25 @@ def load_and_send_flashcards_to_anki(yaml_input_file):
       print("\n*** Couldn't add note: {}".format(note))
 
   if result_data["error"]:
-    print("\n--- HTTP response:\n{} {}\n--- AnkiConnect error description:\n{}".format(
+    print("\n--- AnkiConnect error description:\n{}\n--- HTTP response:\n{} {}\n".format(
+      result_data["error"],
       http_response.status,
       http_response.reason,
-      result_data["error"]
     ))
 
 
 def main():
   cmdline_args = parse_cmdline()
+  print("cmdline_args:", cmdline_args)
 
   # Load and parse flashcard data from input YAML file.
   for input_filename in cmdline_args.input:
     with open(input_filename) as yaml_input_file:
       print("\nSending file '{}' to Anki...".format(input_filename))
-      load_and_send_flashcards_to_anki(yaml_input_file)
+      if cmdline_args.debug:
+        load_and_send_individual_flashcards_to_anki(yaml_input_file)
+      else:
+        load_and_send_flashcards_to_anki(yaml_input_file)
   print("\nDone.\n")
 
 if __name__ == "__main__":
