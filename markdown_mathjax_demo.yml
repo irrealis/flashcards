@@ -15,12 +15,12 @@ notes:
 
     - This is a Markdown list.
       - This is a nested list.
-    - Note: $\LaTeX$ works.
+    - Note: \\(\LaTeX\\) works.
 
   Back: |
       - This is another Markdown list.
         - This is a nested list.
-          $$\textrm{This is an equation:} \sum \limits_{n=0}^\infty a_n$$
+          \\[\textrm{This is an equation:} \sum \limits_{n=0}^\infty a_n\\]
 - Front: |
     MathJax/Markdown:
     
@@ -28,10 +28,10 @@ notes:
     print("This is a Python code fence.")
     ```
     
-    Inline math, $x^2 = 4$, followed by block math:
-    $$\sum \limits_{n=0}^\infty a_n$$
+    Inline math, \\(x^2 = 4\\), followed by block math:
+    \\[\sum \limits_{n=0}^\infty a_n\\]
     And again:
-    $$\forall n \in \mathbb{N}: n - 5 \ge 0 \rightarrow n - 4 \ge 0$$
+    \\[\forall n \in \mathbb{N}: n - 5 \ge 0 \rightarrow n - 4 \ge 0\\]
 
   Back: |
     More MathJax/Markdown:
@@ -40,7 +40,7 @@ notes:
     print("This is a Python code fence.")
     ```
     
-    Inline math, $x^2 = 4$, followed by block math:
-    $$\sum \limits_{n=0}^\infty a_n$$
+    Inline math, \\(x^2 = 4\\), followed by block math:
+    \\[\sum \limits_{n=0}^\infty a_n\\]
     And again:
-    $$\forall n \in \mathbb{N}: n - 5 \ge 0 \rightarrow n - 4 \ge 0$$
+    \\[\forall n \in \mathbb{N}: n - 5 \ge 0 \rightarrow n - 4 \ge 0\\]
