@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 
+from anki_connect_client import AnkiConnectClient
+
 import yaml, pypandoc
 import markdown
+
 from markdown.extensions.abbr import AbbrExtension
 from markdown.extensions.attr_list import AttrListExtension
 from markdown.extensions.codehilite import CodeHiliteExtension
@@ -13,83 +16,7 @@ from markdown.extensions.sane_lists import SaneListExtension
 from markdown.extensions.smart_strong import SmartEmphasisExtension
 from markdown.extensions.tables import TableExtension
 
-import argparse, http.client, json
-
-
-class AnkiConnectException(Exception):
-  pass
-
-
-class AnkiConnectClient(object):
-  server_version = 6
-
-  def __init__(self, hostname = None, port = None):
-    self.connection = None
-    self.connect(hostname, port)
-
-  def __del__(self):
-    self.close()
-
-  def connect(self, hostname = None, port = None):
-    '''Open HTTP connection to AnkiConnect.'''
-    self.close()
-    if hostname is None: hostname = '127.0.0.1'
-    if port is None: port = 8765
-    self.hostname = hostname
-    self.port = port
-    self.connection = http.client.HTTPConnection(self.hostname, self.port)
-
-  def close(self):
-    '''Close HTTP connection to AnkiConnect.'''
-    if self.connection: self.connection.close()
-
-  def send_raw(self, data):
-    '''Send raw data to AnkiConnect.'''
-    self.close()
-    self.connection.request("POST", "", data)
-    response = self.connection.getresponse()
-    return response
-
-  def send_as_json(self, data = None, version = None, **d):
-    '''
-    Convert data to JSON, then send to AnkiConnect.
-
-    Returns both HTTP response and any data from AnkiConnect.
-    '''
-    # To simplify calling `send_as_json`, named parameters can be used in
-    # place of a data dict.
-    if data is None: data = d
-
-    # If AnkiConnect version isn't supplied, use this class's default.
-    if version is None: version = AnkiConnectClient.server_version
-    data.setdefault("version", version)
-    json_data = json.dumps(data)
-    http_response = self.send_raw(json_data)
-    json_result_data = http_response.read()
-    result_data = json.loads(json_result_data)
-    return http_response, result_data
-
-  def send(self, data = None, version = None, **d):
-    '''
-    Simplified send of data to AnkiConnect in JSON format.
-
-    Returns any data from AnkiConnect.
-    '''
-    http_response, result_data = self.send_as_json(data, version, **d)
-
-    # Propagate error if indicated by non-None value in "error" field.
-    # Note: AnkiConnect doesn't use this field for certain errors.
-    if result_data["error"] is not None:
-      msg = "error: {}, http status: {}, http reason: {}".format(
-        result_data["error"],
-        http_response.status,
-        http_response.reason,
-      )
-      raise AnkiConnectException(msg)
-
-    # If no error indicated in "error" field, return data from AnkiConnect.
-    return result_data
-
+import argparse
 
 def parse_cmdline():
   '''Parse command-line arguments.'''
