@@ -2,8 +2,9 @@
 *.py?
 __pycache__
 
-# Vim swapfiles
+# Vim cruft
 *.sw?
+*.vim
 
 # History files
 .Rhistory
