@@ -1,3 +1,7 @@
+# Python cruft
+*.py?
+__pycache__
+
 # Vim swapfiles
 *.sw?
 
