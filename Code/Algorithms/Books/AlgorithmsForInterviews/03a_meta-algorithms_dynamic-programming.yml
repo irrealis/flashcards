@@ -11,3 +11,22 @@ tags:
 markdownTabLength: 4
 
 notes:
+
+
+- Front: |
+    ## 03.01: Longest nondecreasing subsequence
+
+    In genomics, given two gene sequences, we try to find if parts of one gene are the same as the other. Thus it is important to find the longest common subsequence of the two sequences. One way to solve this problem is to construct a new sequence where for each literal in one sequence, we insert its position into the other sequence and then find the longest nondecreasing subsequence of this new subsequence. For example, if the two sequences are \\(\langle 1, 3, 5, 2, 7 \rangle\\) and \\(\langle 1, 2, 3, 5, 7 \rangle\\), we would construct a new sequence where for each position in the first sequence, we would list its position in the second sequence like so, \\(\langle 1, 3, 4, 2, 5\rangle\\). Then we find the 1ongest nondecreasing sequence which is \\(\langle 1, 3, 4, 5 \rangle\\). Now, if we use the numbers of the new sequence as indices into the second sequence, we get \\(\langle 1, 3, 5, 7 \rangle\\) which is our longest common subsequence.
+
+    Given an array of integers \\(A\\) of length \\(n\\), find the longest sequence \\(\langle i_1, \ldots, i_k \rangle\\) such that \\(i_j < i_{j十1}\\) and \\(A[i_j] \leq A[i_{j+1}\\) for any \\(j \in [1 , k 一 1]\\).
+
+    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 31.
+
+  Python: |
+    **To-do: Python.**
+
+  Java: |
+    **To-do: Java.**
+
+  C++: |
+    **To-do: C++.**
