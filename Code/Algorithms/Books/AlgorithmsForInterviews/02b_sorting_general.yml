@@ -68,3 +68,24 @@ notes:
 
   C++: |
     **To-do: C++.**
+
+
+- Front: |
+    ## 02.05 Efficient trials
+
+    You are the coach of a cycling team with 25 members and need to determine the fastest, second-fastest, and third-fastest cyclists for selection to the Olympic team.
+
+    You will be evaluating the cyclists using a time-trial course on which only 5 cyclists can race at a time. You can use the completion times from a time-trial to rank the 5 cyclists amongst themselves --- no ties are possible. Because conditions can change over time, you cannot compare performances across different time-trials. The relative speeds of cyclists does not change --- if A beats B in one time-trial and B beats C in another time-trial, then A is guaranteed to beat C if they are in the same time-trial.
+
+    What is the minimum number of time-trials needed to determine who to send to the Olympics?
+
+    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 24-5.
+
+  Python: |
+    **To-do: Python.**
+
+  Java: |
+    **To-do: Java.**
+
+  C++: |
+    **To-do: C++.**
