@@ -87,3 +87,22 @@ notes:
 
   C++: |
     **To-do: C++.**
+
+
+- Front: |
+    ## 01.20: Contained intervals
+
+    In various applications (such as laying out computer chips), it is important to find when a given shape is completely contained inside another shape. Let's do a simpler version of this problem where we are just concerned with line segments along a straight line.
+
+    Write a function that takes a set of open intervales on the real line \\((a_i, b_i)\\) for \\(i \in \\{0,1,\ldots,n-1\\}\\) and determines if there exists some interval \\((a_l, b_l)\\) that is completely contained inside another interval \\((a_m, b_m)\\). If such pairs of intervals exist, then return one such pair.
+
+    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 21.
+
+  Python: |
+    **To-do: Python.**
+
+  Java: |
+    **To-do: Java.**
+
+  C++: |
+    **To-do: C++.**
