@@ -11,3 +11,22 @@ tags:
 markdownTabLength: 4
 
 notes:
+
+
+- Front: |
+    ## 01.08: Anagrams
+
+    Anagrams are populare word play puzzles, why by rearranging letters of one set of words, you get another set of words. For example, "eleven plus two" is an anagram for "twelve plus one". Crossword puzzle enthusiasts would like to be able to generate all possible anagrams for a given set of letters.
+
+    Given a dictionary of English words, return the set of all words grouped into subsets of words that are all anagrams of each other.
+
+    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 18.
+
+  Python: |
+    **To-do: Python.**
+
+  Java: |
+    **To-do: Java.**
+
+  C++: |
+    **To-do: C++.**
