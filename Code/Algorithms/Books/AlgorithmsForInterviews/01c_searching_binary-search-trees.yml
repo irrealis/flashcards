@@ -146,3 +146,22 @@ notes:
 
   C++: |
     **To-do: C++.**
+
+
+- Front: |
+    ## 01.23: Matrix search
+
+    Let \\(A\\) be an \\(n \times n\\) matrix whose entries are real numbers. Assume that along any column and along any row of \\(A\\), the entries appear in increasing sorted order.
+
+    Design an efficient algorithm that decides whether a real number \\(x\\) appears in \\(A\\).  How many entries of \\(A\\) does your algorithm inspect in the worst-case? Can you prove a tight lower bound that any such algorithm has to consider in the worst-case?
+
+    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 22.
+
+  Python: |
+    **To-do: Python.**
+
+  Java: |
+    **To-do: Java.**
+
+  C++: |
+    **To-do: C++.**
