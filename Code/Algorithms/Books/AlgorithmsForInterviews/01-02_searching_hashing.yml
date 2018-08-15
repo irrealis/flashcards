@@ -146,3 +146,22 @@ notes:
 
   C++: |
     **To-do: C++.**
+
+
+- Front: |
+    ## 01.15: Search for frequent items
+
+    In practice, we may not be interested in just the majority token but all the tokens whose count exceeds say 1% of the total token count. It is easy to show that it is impossible to do this in a single pass when you have limited memory but if you are allowed to pass through the stream twice, it is possible to identify the common tokens.
+
+    You are reading a sequence o strings separated by white space from a very large stream. You are allowed to read the stream twice. Devise an algorithm that uses only \\(O(k)\\) memory to identify all the words that occur more than \\(\lceil \frac{n}{k} \rceil\\) times in the stream, where \\(n\\) is the length of the stream.
+
+    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 19-20.
+
+  Python: |
+    **To-do: Python.**
+
+  Java: |
+    **To-do: Java.**
+
+  C++: |
+    **To-do: C++.**
