@@ -68,3 +68,24 @@ notes:
 
   C++: |
     **To-do: C++.**
+
+
+- Front: |
+    ## 01.11: Pairing users by attributes
+
+    You are building a social networking site where each user specifies a set of attributes. You would like to pair each user with another unpaired user that specified exactly the same set of attributes.
+
+    Specifically, you are given a sequence of users where each user has a unique key, say a 32-bit integer and a set of attributes specified as a set of strings. As soon as you read a user, you should pair it with another previously read user with identical attributes who is currently unpaired, if such a user exists. If the user cannot be paired, you should keep him in the unpaired set.
+
+    How would you implement this matching process efficiently? How would you implement it if we allow an approximate match of attributes as well?
+
+    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 18.
+
+  Python: |
+    **To-do: Python.**
+
+  Java: |
+    **To-do: Java.**
+
+  C++: |
+    **To-do: C++.**
