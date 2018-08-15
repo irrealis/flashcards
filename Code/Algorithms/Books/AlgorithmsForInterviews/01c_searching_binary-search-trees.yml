@@ -68,3 +68,22 @@ notes:
 
   C++: |
     **To-do: C++.**
+
+
+- Front: |
+    ## 01.19: Intersecting lines
+
+    Suppose you are designing a rectangular printed circuit board (PCB) where you are supposed to connect a set of points from one edge to another set of points at the opposite edge. The metal lines connecting these points should not intersect with each other; otherwise, there will be a short circuit. Your job is to determine if it is feasible to route the metal lines on the PCB surface in a way that avoids short circuits. Let's assume we connect each pair using a straight line of metal. It is a proven fact that you can connect the pairs without intersection (using either straight or curved lines) iff you can connect them using straight lines that do not intersect.
+
+    How would you determine if a given set of straight lines intersect in a given rectangle or not?
+
+    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 21.
+
+  Python: |
+    **To-do: Python.**
+
+  Java: |
+    **To-do: Java.**
+
+  C++: |
+    **To-do: C++.**
