@@ -108,3 +108,22 @@ notes:
 
   C++: |
     **To-do: C++.**
+
+
+- Front: |
+    ## 02.07 Privacy and anonymization
+
+    The Massachusetts Group Insurance Commission had a bright idea back in the mid 1990s -- it decided to release "anonymized" data on state employees that showed every single hospital visit they had. The goal was to help the researchers. The state spent time removing identifiers such as name, address, and social security number. The Governor of Massachusetts assured the public that this was sufficient to protect patient privacy. Then a graduate student, Latanya sweeney, saw significant pitfalls in this approach. She requested a copy of the data and by collating the data multiple columns, she was able to identify the health records of the Governor. This demonstrated that extreme care needs to be taken in anonymizing data. One way of ensuring privacy is to aggregate data such that any record can be mapped to at least \\(k\\) individuals, for some large value of \\(k\\).
+
+    Suppose you are given a matrix \\(M\\), where each row represents an individual and each column represents m attribute about the individual such as age or gender. Given a set of columns to be deleted, you want to determine if each row has at least \\(k\\) duplicate rows with exactly the same contents in the remaining columns. How would you verify this efficiently?
+
+    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 25-6.
+
+  Python: |
+    **To-do: Python.**
+
+  Java: |
+    **To-do: Java.**
+
+  C++: |
+    **To-do: C++.**
