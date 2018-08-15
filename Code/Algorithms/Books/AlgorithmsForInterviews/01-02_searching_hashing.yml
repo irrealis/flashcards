@@ -49,3 +49,22 @@ notes:
 
   C++: |
     **To-do: C++.**
+
+
+- Front: |
+    ## 01.10: Anonymous letter
+
+    A hash can be viewed as a dictionary. As a result, hashing commonly appears when processing with strings.
+
+    You are required to write a method that takes two text documents: an anonymous letter \\(L\\) and a text from a magazine \\(M\\). Your method is to return tru if \\(L\\) can be written using \\(M\\) and false otherwise. (If a letter appears \\(k\\) times in \\(L\\), it must appear at least \\(k\\) times in \\(M\\).)
+
+    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 18.
+
+  Python: |
+    **To-do: Python.**
+
+  Java: |
+    **To-do: Java.**
+
+  C++: |
+    **To-do: C++.**
