@@ -30,3 +30,22 @@ notes:
 
   C++: |
     **To-do: C++.**
+
+
+- Front: |
+    ## 03.02: Frog crossing
+
+    DP is often used to compute a plan for performing a task that consists of a series of actions in an optimum way. Here is an example with an interesting twist.
+
+    There is a river that is \\(n\\) meters wide. At every meter from the edge, there may or may not be a stone. A frog needs to cross the river. However the frog has the limitation that if it has just jumped \\(x\\) meters, then its next jump must be between \\(x-1\\) and \\(x+1\\) meters, inclusive. Assume the first jump can be of only 1 meter. Given the position of the stones, how would you determine whether the frog can make it to the other end or not? Analyze the runtime of your algorithm.
+
+    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 31-2.
+
+  Python: |
+    **To-do: Python.**
+
+  Java: |
+    **To-do: Java.**
+
+  C++: |
+    **To-do: C++.**
