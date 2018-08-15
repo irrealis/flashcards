@@ -68,3 +68,22 @@ notes:
 
   C++: |
     **To-do: C++.**
+
+
+- Front: |
+    ## 03.04: Word breaking
+
+    Suppose you are designing a search engine. In addition to getting keywords from a page's content, you would like to get keywords from URLs. For example, _bedbathandbeyond.com_ should be associated with "bed bath and beyond" (in this version of the problem we also allow "bed bat hand beyond" to be associated with it).
+
+    Given a dictionary that can tell you whether a string is a valid word or not in constant time and given a string \\(s\\) of length \\(n\\), provide an efficient algorithm that can tell whether \\(s\\) can be reconstituted as a sequence of valid words. In the event that the string is valid, your algorithm should output the corresponding sequence of words.
+
+    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 32.
+
+  Python: |
+    **To-do: Python.**
+
+  Java: |
+    **To-do: Java.**
+
+  C++: |
+    **To-do: C++.**
