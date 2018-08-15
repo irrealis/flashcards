@@ -11,3 +11,22 @@ tags:
 markdownTabLength: 4
 
 notes:
+
+
+- Front: |
+    ## 01.16: Search BST for a key
+
+    Searching for a key in a BST is very similar to searching in a sorted array. Recursion is more natural but for performance, a while-loop is preferred.
+
+    Given a BST \\(T\\), first write a recursive function that searches for key \\(K\\), then write an iterative function.
+
+    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 20.
+
+  Python: |
+    **To-do: Python.**
+
+  Java: |
+    **To-do: Java.**
+
+  C++: |
+    **To-do: C++.**
