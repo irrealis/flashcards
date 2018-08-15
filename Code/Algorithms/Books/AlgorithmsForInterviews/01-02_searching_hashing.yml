@@ -108,3 +108,22 @@ notes:
 
   C++: |
     **To-do: C++.**
+
+
+- Front: |
+    ## 01.13: Missing element
+
+    A robot needs to travel along a path that includes several ascents and descents. When it goes up, it uses its battery as a source of energy and when it goes down, it recovers the potential energy back into the batter. The battery recharginc process is ideal: on descending, every Joule of gravitational potential energy converts into a Joul of electrical energy that is stored in the battery. The battery has a limited capacity and once it reaches its storage capacity, the energy generated from the robot going down is lost.
+
+    Given a robot with the energy regeneration ability described above, the mass of the robot \\(m\\), and a sequence of three-dimensional cooredinates that the robot needs to traverse, how would you determine the minimum battery capacity needed for the robot to complete the trajectory? (Assume the robot starts with a fully charged battery and the battery is used only for overcoming gravity.)
+
+    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 19.
+
+  Python: |
+    **To-do: Python.**
+
+  Java: |
+    **To-do: Java.**
+
+  C++: |
+    **To-do: C++.**
