@@ -75,3 +75,22 @@ notes:
 
   C++: |
     **To-do: C++.**
+
+
+- Front: |
+    ## 02.13: Circuit simulation
+
+    While performing timing analysis of a digital circuit, a component is characterized by a Boolean function of the Boolean values at its inputs and the delay of propagating changes from the inputs to the output. For example, a gate may compute the AND function and have a delay of 1 nanosecond from each input to the output or a wire may simply propagate signal from one end to another in 0.5 nanoseconds. In order to simulate how the entire circuit would behave when a set of inputs are given to the circuit, we use "event-driven simulation". Here each event represents a change in the signal value and triggers one or more events in the future.
+
+    You are given a set of nodes, \\(V_1,\ldots,V_n\\) such that the value for each node at time \\(t_0\\) is 0. An event \\(\langle t,v,p \rangle\\) is a triplet that represents change in the value for node \\(v\\) at time \\(t\\) to potential \\(p\\) (\\(p\\) can be either 0 or 1). You are given a set of input events. Each node \\(v_i\\) also has a function \\(F_i\\) associated with it that maps an input event to a set of output events (output events can happen only after an input event). How would you efficiently compute all the events that will happen as a result of the input events?
+
+    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 28.
+
+  Python: |
+    **To-do: Python.**
+
+  Java: |
+    **To-do: Java.**
+
+  C++: |
+    **To-do: C++.**
