@@ -165,3 +165,22 @@ notes:
 
   C++: |
     **To-do: C++.**
+
+
+- Front: |
+    ## 01.24: Checking simplicity
+
+    A polygon is defined to be simple if non of its edges intersect with each other except at their endpoints.
+
+    Give an \\(O(n \log n)\\) time algorithm to determine if a polygon with \\(n\\) vertices is simple.
+
+    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 22.
+
+  Python: |
+    **To-do: Python.**
+
+  Java: |
+    **To-do: Java.**
+
+  C++: |
+    **To-do: C++.**
