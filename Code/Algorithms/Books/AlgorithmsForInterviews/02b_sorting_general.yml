@@ -11,3 +11,22 @@ tags:
 markdownTabLength: 4
 
 notes:
+
+
+- Front: |
+    ## 02.02: TeraSort
+
+    The sorting algorithms alluded to above assume that all the data you need to sort will fit in RAM. What if your data will not fit in memory?
+
+    Sort a file containing \\(10^{12}\\) 100-byte strings.
+
+    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 24.
+
+  Python: |
+    **To-do: Python.**
+
+  Java: |
+    **To-do: Java.**
+
+  C++: |
+    **To-do: C++.**
