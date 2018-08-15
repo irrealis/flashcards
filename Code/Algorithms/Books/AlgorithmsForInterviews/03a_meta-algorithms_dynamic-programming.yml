@@ -126,3 +126,24 @@ notes:
 
   C++: |
     **To-do: C++.**
+
+
+- Front: |
+    ## 03.07: Load balancing
+
+    Suppose you want to build a large distributed storage system on the web. Millions of users will store terabytes of data on your servers. One way to design the system would be to hash each user's login ID, partition the hash ranges into equal-sized buckets, and store the data for each bucket of users on one server. For this scheme, mapping a user to the server that serves the user is a simple hash computation.
+
+    However if a small number of users occupy a large fraction of the storage space, hashing will not achieve a balanced partition. One way to solve this problem is to make the hash buckets have a nonuniform width based on the load in that hash range.
+
+    You have \\(n\\) users with unique hashes \\(h_1\\) through \\(h_n\\) and \\(m\\) servers, numbered 1 to \\(m\\). User \\(i\\) has \\(B_i\\) bytes to store. You need to find numbers \\(K_1\\) through \\(K_m\\) such that all users with hashes between \\(K_j\\) and \\(K_{j十1}\\) get assigned to server \\(j\\). Design an algorithm to find the numbers \\(K_1\\) through \\(K_m\\) that minimizes the load on the most heavily loaded server.
+
+    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 33-4.
+
+  Python: |
+    **To-do: Python.**
+
+  Java: |
+    **To-do: Java.**
+
+  C++: |
+    **To-do: C++.**
