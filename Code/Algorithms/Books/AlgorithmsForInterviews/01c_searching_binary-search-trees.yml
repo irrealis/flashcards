@@ -106,3 +106,20 @@ notes:
 
   C++: |
     **To-do: C++.**
+
+
+- Front: |
+    ## 01.21: View from the top
+
+    This is a simplified version of a problem that often comes up in computer graphics --- you are given a million overlapping line segments of different colors situated at different heights. Implement a function that draw the lines as seen from the top.
+
+    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 21-2.
+
+  Python: |
+    **To-do: Python.**
+
+  Java: |
+    **To-do: Java.**
+
+  C++: |
+    **To-do: C++.**
