@@ -16,7 +16,7 @@ notes:
 - Front: |
     ## 01.08: Anagrams
 
-    Anagrams are populare word play puzzles, why by rearranging letters of one set of words, you get another set of words. For example, "eleven plus two" is an anagram for "twelve plus one". Crossword puzzle enthusiasts would like to be able to generate all possible anagrams for a given set of letters.
+    Anagrams are popular word play puzzles, why by rearranging letters of one set of words, you get another set of words. For example, "eleven plus two" is an anagram for "twelve plus one". Crossword puzzle enthusiasts would like to be able to generate all possible anagrams for a given set of letters.
 
     Given a dictionary of English words, return the set of all words grouped into subsets of words that are all anagrams of each other.
 
