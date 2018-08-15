@@ -123,3 +123,26 @@ notes:
 
   C++: |
     **To-do: C++.**
+
+
+- Front: |
+    ## 01.22: Completion search
+
+    You are working in the finance office for ABC corporation. There are \\(n\\) employees --- employee \\(i\\) received $\\(s_i\\) in compensation last year; the total compensation was $\\(S\\).
+
+    This year, the corporation needs to cut payroll expenses to $\\(S'\\). The CEO wants to put a cap \\(\sigma\\) on salaries --- every employee who earned more that $\\(\sigma\\) last year will be paid $\\(\sigma\\) this year; employees who earned less than $\\(\sigma\\) will see no change in their salary.
+
+    For example, if \\((s_1,s_2,s_3,s_4,s_5) = (90,30,100,40,20)\\) and \\(S' = 210\\), then 60 is a suitable value for \\(\sigma\\).
+
+    Design an efficient algorithm for finding such a \\(\sigma\\), if one exists.
+
+    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 22.
+
+  Python: |
+    **To-do: Python.**
+
+  Java: |
+    **To-do: Java.**
+
+  C++: |
+    **To-do: C++.**
