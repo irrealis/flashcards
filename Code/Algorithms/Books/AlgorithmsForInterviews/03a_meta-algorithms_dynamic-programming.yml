@@ -107,3 +107,22 @@ notes:
 
   C++: |
     **To-do: C++.**
+
+
+- Front: |
+    ## 03.06: Red or blue house majority
+
+    Suppose you want to place a bet on the outcome of the coming elections. Specifically, you are betting if the US House of Representatives will have a Democratic or a Republican majority. A polling company has computed the probability of winning for each candidate in the individual election. You are interested in just one number -- what is the probability that the Republican Party is going to have a majority in the House?
+
+    Given that a party needs 223 or more seats to win a majority in the House, how would you compute the probability of a Republican win? Assume each race is independent and that the probability of a Republican winning the race \\(i\\) is \\(p_i\\).
+
+    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 33.
+
+  Python: |
+    **To-do: Python.**
+
+  Java: |
+    **To-do: Java.**
+
+  C++: |
+    **To-do: C++.**
