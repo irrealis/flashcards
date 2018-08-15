@@ -150,3 +150,25 @@ notes:
 
   C++: |
     **To-do: C++.**
+
+
+- Front: |
+    ## 01.07: Intersect two sorted arrays
+
+    A natural implementation for a search engine is to retrieve documents that match the set of words in a query by maintaining an inverted index. Each page is assigned an integer identifier, its _document-id_. An inverted index is a mapping that takes a word \\(w\\) and returns a sorted array of page-ids which contain \\(w\\) -- the sort could be, for example, the page rank in descending order. When a query contains multiple words, the search engine finds the sorted array for each word and then computes the intersection of these arrays --- these are the pages containing all the words in the query. The most computationally intensive step of doing this is finding the intersection of the sorted arrays.
+
+    Given sorted arrays \\(A\\) and \\(B\\) of lengths \\(n\\) and \\(m\\) respectively, return an array \\(C\\) containing the elements common to \\(A\\) and \\(B\\). the array \\(C\\) should be free of duplicates. How would you perform this intersection if:
+
+    1. \\(n \approx m\\)?
+    2. \\(n \ll m\\)?
+
+    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 17.
+
+  Python: |
+    **To-do: Python.**
+
+  Java: |
+    **To-do: Java.**
+
+  C++: |
+    **To-do: C++.**
