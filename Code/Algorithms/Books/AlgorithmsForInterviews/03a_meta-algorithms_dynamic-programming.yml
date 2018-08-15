@@ -147,3 +147,24 @@ notes:
 
   C++: |
     **To-do: C++.**
+
+
+- Front: |
+    ## 03.08: Voltage selection
+
+    You are given a logic circuit that can be modeled as a rooted tree --- the leaves are the primary inputs, the internal nodes are the gates, and the root is the single output of the circuit.
+
+    Each gate can be powered by a high or low supply voltage. A gate powered by a lower supply voltage consumes less power but has a weaker output signal. You want to minimize power while ensuring that the circuit is reliable. To ensure reliability, you should not have a gate powered by a low supply voltage drive another gate powered by a low supply voltage. All gates consume 1 nanowatt when connected to the low supply voltage and 2 nanowatts when connected to the high supply voltage.
+
+    Design an efficient algorithm that takes as input a logic circuit and selects supply voltages for each gate to minimize power consumption while ensuring reliable operation.
+
+    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 34.
+
+  Python: |
+    **To-do: Python.**
+
+  Java: |
+    **To-do: Java.**
+
+  C++: |
+    **To-do: C++.**
