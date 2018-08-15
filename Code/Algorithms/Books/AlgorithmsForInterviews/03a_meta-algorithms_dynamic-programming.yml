@@ -87,3 +87,23 @@ notes:
 
   C++: |
     **To-do: C++.**
+
+
+- Front: |
+    ## 03.05: Ties in a presidential election
+
+    The US President is elected by the members of the Electoral College. The number of electors per state and Washington, DC range from as few as three to as many as 55. In each state as well as washington, DC, all electors in that state cast their vote for the same candidate.
+
+    Suppose there are two candidates in the presidential election. How would you programmatically determine if a tie is a possibility?
+
+    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 33.
+    (Modified from original question, removing "Table 2".)
+
+  Python: |
+    **To-do: Python.**
+
+  Java: |
+    **To-do: Java.**
+
+  C++: |
+    **To-do: C++.**
