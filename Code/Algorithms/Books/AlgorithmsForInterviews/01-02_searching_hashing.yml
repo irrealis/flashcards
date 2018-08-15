@@ -127,3 +127,22 @@ notes:
 
   C++: |
     **To-do: C++.**
+
+
+- Front: |
+    ## 01.14: Search for majority
+
+    There are several applications wher you want to identify tokens in a given stream that have more than a certain fraction of the total number of occurrences in a relatively inexpensive manner. For example, we may want to identify the users using the largest fraction of the network bandwidth or IP addresses originating the most HTTP requests. Here we will try to solve a simplified version of this problem called "majority-find".
+
+    You are reading a sequence of words from a very long stream. You know _a priori_ that more than half the worlds are repetitions of a single word \\(W\\) but the positions where \\(W\\) occurs are unknown. Design an efficient algorithm that reads this stream only once and uses only a constant amount of memory to identify \\(W\\).
+
+    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 19.
+
+  Python: |
+    **To-do: Python.**
+
+  Java: |
+    **To-do: Java.**
+
+  C++: |
+    **To-do: C++.**
