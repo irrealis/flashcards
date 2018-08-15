@@ -208,3 +208,38 @@ notes:
 
   C++: |
     **To-do: C++.**
+
+
+- Front: |
+    ## 03.11: Maximizing expressions
+
+    The value of an arithmetic expression depends upon the order in which the operations are performed. For example, depending upon how one parenthesizes the expression \\(5 - 3 \cdot 4 + 6\\), one can obtain anyone of the following values:
+
+    \\[
+    \begin{align}
+      -25 & = 5 - (3 \cdot (4 + 6)) \\\\
+      -13 & = 5 - ((3 \cdot 4) + 6) \\\\
+       20 & = (5 - 3) \cdot (4 + 6) \\\\
+       -1 & = (5 - (3 \cdot 4)) + 6 \\\\
+       14 & = ((5 - 3) \cdot 4) + 6
+    \end{align}
+    \\]
+
+    Given an unparenthesized expression of the form \\(v_0 \circ_0 v_1 \circ_1 \cdots \circ_{n-2} v_{n-1}\\), where \\(v_0, \ldots, v_{n-1}\\) are operands with known real values and \\(\circ_0, \ldots, \circ_{n-2}\\) are specified operations, we want to parenthesize the expression so as to maximize its value.
+
+    1. Devise an algorithm to solve this problem in the special case that the operands are all positive and the only operations are \\(\cdot\\) and \\(+\\).
+
+    2. Explain how you would modify your algorithm to deal with the case in which the operands can be positive and negative and \\(+\\) and \\(-\\) are the only operations.
+
+    3. Suggest how you would generalize your approach to include multiplication and division (pretend divide-by-zero never occurs).
+
+    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 35.
+
+  Python: |
+    **To-do: Python.**
+
+  Java: |
+    **To-do: Java.**
+
+  C++: |
+    **To-do: C++.**
