@@ -127,3 +127,22 @@ notes:
 
   C++: |
     **To-do: C++.**
+
+
+- Front: |
+    ## 02.08 Variable length sort
+
+    Most sorting algorithms rely on a basic swap step. When records are of different lengths, the swap step becomes nontrivial.
+
+    Sort lines of a text file that has a million lines such that the average length of a line is 100 characters but the longest line is one million characters long.
+
+    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 26.
+
+  Python: |
+    **To-do: Python.**
+
+  Java: |
+    **To-do: Java.**
+
+  C++: |
+    **To-do: C++.**
