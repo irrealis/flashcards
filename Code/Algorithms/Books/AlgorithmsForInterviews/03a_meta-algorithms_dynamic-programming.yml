@@ -49,3 +49,22 @@ notes:
 
   C++: |
     **To-do: C++.**
+
+
+- Front: |
+    ## 03.03: Cutting paper
+
+    We now consider an optimum planning problem in two dimensions. You are given an \\(L \times W\\) rectangular piece of kite-paper, where \\(L\\) and \\(W\\) are positive integers, and a list of \\(n\\) kinds of kites that can be made using the paper. The \\(i\\)-th kite design, \\(i \in [1, n]\\), requires an \\(l_i \times w_i\\) rectangle of kite-paper; this kite sells for \\(p_i\\). Assume \\(l_i, w_i, p_i\\) are positive integers. You have a machine that can cut rectangular pieces of kite-paper either horizontally or vertically.
+
+    Design an algorithm that computes a profit-maximizing strategy for cutting the kite-paper. You can make as many instances of a given kite as you want. There is no cost to cutting kite-paper.
+
+    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 32.
+
+  Python: |
+    **To-do: Python.**
+
+  Java: |
+    **To-do: Java.**
+
+  C++: |
+    **To-do: C++.**
