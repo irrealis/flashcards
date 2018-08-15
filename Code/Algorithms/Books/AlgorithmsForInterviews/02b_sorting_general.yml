@@ -89,3 +89,22 @@ notes:
 
   C++: |
     **To-do: C++.**
+
+
+- Front: |
+    ## 02.06 Least-distance sorting
+
+    You come across a collection of 20 stone statues in a line. You want to sort them by height, with the shortest statue on the left. The statues are very heavy and you want to move them the least possible distance.
+
+    Design a sorting algorithm that minimizes the total distance that the statues are moved.
+
+    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 25.
+
+  Python: |
+    **To-do: Python.**
+
+  Java: |
+    **To-do: Java.**
+
+  C++: |
+    **To-do: C++.**
