@@ -189,3 +189,22 @@ notes:
 
   C++: |
     **To-do: C++.**
+
+
+- Front: |
+    ## 03.10: Triangulation
+
+    Let \\(P\\) be a convex polgon with \\(n\\) vertices specified by their \\(x\\) and \\(y\\) coordinates. A triangulation of \\(P\\) is a collection of \\(n-3\\) diagonals of \\(P\\) such that no two diagonals intersect, except possibly at their endpoints. Observe that a triangulation splits the polygon's interior into \\(n-2\\) disjoint triangles. Define the cost of a triangulation to be the sum of the lengths of the diagonals that it is made up of.
+
+    Design an efficient algorithm for finding a triangulation that minimizes the cost.
+
+    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 35.
+
+  Python: |
+    **To-do: Python.**
+
+  Java: |
+    **To-do: Java.**
+
+  C++: |
+    **To-do: C++.**
