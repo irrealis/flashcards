@@ -30,3 +30,22 @@ notes:
 
   C++: |
     **To-do: C++.**
+
+
+- Front: |
+    ## 01.17: Search BST for \\(x > k\\)
+
+    BSTs offer more than the ability to search for a key --- they can be used to find the min and max elements, look for the successor or predecessor of a given search key (which may or may not be present in the BST), and enumerate the elements in a sorted order.
+
+    Given a BST \\(T\\) and a key \\(K\\), write a method that searches for the first entry larger than \\(K\\).
+
+    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 20.
+
+  Python: |
+    **To-do: Python.**
+
+  Java: |
+    **To-do: Java.**
+
+  C++: |
+    **To-do: C++.**
