@@ -111,3 +111,23 @@ notes:
 
   C++: |
     **To-do: C++.**
+
+
+
+- Front: |
+    ## 01.05: Search a sorted array of unknown length
+
+    Suppose you do not know the length of \\(A\\) in advance; accessing \\(A[i]\\) for \\(i\\) beyond the end of the array throws an exception.
+
+    Find the index of the first occurrence in \\(A\\) of a specified key \\(k\\); return -1 if \\(k\\) does not appear in \\(A\\).
+
+    &mdash; Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 16.
+
+  Python: |
+    **To-do: Python.**
+
+  Java: |
+    **To-do: Java.**
+
+  C++: |
+    **To-do: C++.**
