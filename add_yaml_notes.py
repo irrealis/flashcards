@@ -2,7 +2,7 @@
 
 from anki_connect_client import AnkiConnectClient
 
-import yaml, pypandoc
+import yaml
 import markdown
 
 from markdown.extensions.abbr import AbbrExtension
@@ -14,9 +14,11 @@ from markdown.extensions.footnotes import FootnoteExtension
 from markdown.extensions.nl2br import Nl2BrExtension
 from markdown.extensions.sane_lists import SaneListExtension
 from markdown.extensions.smart_strong import SmartEmphasisExtension
+from markdown.extensions.smarty import SmartyExtension
 from markdown.extensions.tables import TableExtension
 
 import argparse
+
 
 def parse_cmdline():
   '''Parse command-line arguments.'''
@@ -45,11 +47,11 @@ def format_text(
   markdownTabLength,
 ):
   if useMarkdown:
-    #html_ish = pypandoc.convert_text(
-    #  text,
-    #  'html',
-    #  'markdown_github+backtick_code_blocks+fenced_code_attributes'
-    #)
+    # html_ish = pypandoc.convert_text(
+    #   text,
+    #   'html',
+    #   'markdown_github+backtick_code_blocks+fenced_code_attributes'
+    # )
     noclasses = markdownStyle != 'default'
     html_ish = markdown.markdown(text, output_format="xhtml1",
       extensions=[
@@ -66,7 +68,8 @@ def format_text(
           pygments_style = markdownStyle,
           linenums = markdownLineNums
         ),
-        SaneListExtension()
+        SaneListExtension(),
+        SmartyExtension()
       ],
       lazy_ol = False,
       tab_length = markdownTabLength,
@@ -134,12 +137,17 @@ def load_and_send_individual_flashcards_to_anki(yaml_input_file):
       )
     )
     if result_data.get("error", None):
-      print("\n*** Couldn't add note: {}\n--- AnkiConnect error description:\n{}\n--- HTTP response:\n{} {}".format(
+      print("\n*** Couldn't add note: {}".format(
         note,
+      ))
+      print("--- AnkiConnect error description:\n{}".format(
         result_data["error"],
+      ))
+      print("--- HTTP response:\n{} {}".format(
         http_response.status,
         http_response.reason,
       ))
+
 
 def load_and_send_flashcards_to_anki(yaml_input_file):
   flashcard_data = yaml.load(yaml_input_file)
@@ -147,7 +155,10 @@ def load_and_send_flashcards_to_anki(yaml_input_file):
 
   # Send data to AnkiConnect with request to create flashcards.
   connection = AnkiConnectClient()
-  http_response, result_data = send_flashcards_to_anki(connection, flashcard_params)
+  http_response, result_data = send_flashcards_to_anki(
+    connection,
+    flashcard_params
+  )
 
   # Report any errors.
   notes = flashcard_data["notes"]
@@ -157,8 +168,10 @@ def load_and_send_flashcards_to_anki(yaml_input_file):
       print("\n*** Couldn't add note: {}".format(note))
 
   if result_data["error"]:
-    print("\n--- AnkiConnect error description:\n{}\n--- HTTP response:\n{} {}\n".format(
+    print("\n--- AnkiConnect error description:\n{}".format(
       result_data["error"],
+    ))
+    print("--- HTTP response:\n{} {}\n".format(
       http_response.status,
       http_response.reason,
     ))
@@ -177,6 +190,7 @@ def main():
       else:
         load_and_send_flashcards_to_anki(yaml_input_file)
   print("\nDone.\n")
+
 
 if __name__ == "__main__":
   main()
