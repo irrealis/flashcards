@@ -89,3 +89,22 @@ notes:
 
   C++: |
     **To-do: C++.**
+
+
+- Front: |
+    ## 01.12: Missing element
+
+    Hashing can be used to find an element which is not present in a given set.
+
+    Given an array \\(A\\) of integers, find an integer \\(k\\) that is not present in \\(A\\). Assume that the integers are 32-bit signed integers.
+
+    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 18-9.
+
+  Python: |
+    **To-do: Python.**
+
+  Java: |
+    **To-do: Java.**
+
+  C++: |
+    **To-do: C++.**
