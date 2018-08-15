@@ -30,3 +30,22 @@ notes:
 
   C++: |
     **To-do: C++.**
+
+
+- Front: |
+    ## 01.09: Search for a pair which sums to \\(S\\)
+
+    Let \\(A\\) be a sorted array of integers and \\(S\\) a target integer.
+
+    Design an efficient algorithm for determining if there exist a pair of indices \\(i,j\\) (not necessarily distinct) such that \\(A[i]+A[j]=S\\).
+
+    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 18.
+
+  Python: |
+    **To-do: Python.**
+
+  Java: |
+    **To-do: Java.**
+
+  C++: |
+    **To-do: C++.**
