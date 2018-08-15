@@ -168,3 +168,24 @@ notes:
 
   C++: |
     **To-do: C++.**
+
+
+- Front: |
+    ## 03.09: Optimum buffer insertion
+
+    You are given a tree-structured logic circuit that can be modeled as a rooted tree, exactly as in Problem 03.08. Signals degrade as they pass through successive gates.
+
+    You can overcome this degradation by "buffering" gates --- buffering enhances its output but does not change its logical functionality.
+
+    How would you efficiently compute the least number of gates to buffer in the circuit so that after buffering, every path of \\(k\\) or more gates has at least one buffered gate? More formally, given a rooted tree, how would you color the edges of the graph in green or red such that no path from a node to any ancestor contains more than \\(k\\) successive red edges and the number of green edges is minimized?
+
+    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 34-5.
+
+  Python: |
+    **To-do: Python.**
+
+  Java: |
+    **To-do: Java.**
+
+  C++: |
+    **To-do: C++.**
