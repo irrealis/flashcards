@@ -56,3 +56,22 @@ notes:
 
   C++: |
     **To-do: C++.**
+
+
+- Front: |
+    ## 02.12: Running averages
+
+    Suppose you are given a real-valued time series (e.g., temperature measured by a sensor) with some noise added to it. In order to extract meaningful trends from noisy time series data, it is necessary to perform smoothing. If the noise has a Gaussian distribution and the noise added to successive samples is independent and identically distributed, then the running average does a good job of smoothing. However if the noise can have an arbitrary distribution, then the running median does a better job.
+
+    Given a sequence of trillion real numbers on a disk, how would you compute the running mean of every thousand entries, i.e., the first point would be the mean of \\(a[0],\ldots,a[999]\\), the second point would be the mean of \\(a[1],\ldots,a[1000]\\), the third point would be the mean of \\(a[2],\ldots,a[1001]\\), etc.? Repeat the calculation for median rather than mean.
+
+    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 27-8.
+
+  Python: |
+    **To-do: Python.**
+
+  Java: |
+    **To-do: Java.**
+
+  C++: |
+    **To-do: C++.**
