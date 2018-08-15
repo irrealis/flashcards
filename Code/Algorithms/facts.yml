@@ -1,0 +1,19 @@
+deckName: Staging
+modelName: BasicMathJax
+tags:
+- Code
+- Facts
+
+markdownTabLength: 4
+
+notes:
+
+
+- Front: |
+    What are some uses of binary search trees?
+
+  Back: |
+    - Search for a key.
+    - Find min and max elements.
+    - Look for successor or predecessor of a given search key.
+    - Enumerate the elements in a sorted order.
