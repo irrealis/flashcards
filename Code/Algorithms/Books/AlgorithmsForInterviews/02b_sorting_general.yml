@@ -30,3 +30,22 @@ notes:
 
   C++: |
     **To-do: C++.**
+
+
+- Front: |
+    ## 02.03 Finding the winner and runner-up
+
+    There are 128 players participating in a tennis tournament. Assume that the "\\(x\\) beats \\(y\\)" relationship is transitive, i.e., for all players A, B, and C, if A beats B and B beats C, then A beats C.
+
+    What is the least number of matches we need to organize to find the best player? How many matches do you need to find the best and the second best player?
+
+    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 24.
+
+  Python: |
+    **To-do: Python.**
+
+  Java: |
+    **To-do: Java.**
+
+  C++: |
+    **To-do: C++.**
