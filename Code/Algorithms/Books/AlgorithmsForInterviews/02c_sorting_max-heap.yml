@@ -11,3 +11,29 @@ tags:
 markdownTabLength: 4
 
 notes:
+
+
+- Front: |
+    ## 02.10: Merging sorted arrays
+
+    You are given 500 files, each containing stock quote information for an SP500 company. Each line contains an update of the following form:
+
+    ```
+    1232111 131 B 1000 270
+    2212313 246 S 100 111.01
+    ```
+
+    The first number is the update time expressed as the number of milliseconds since the start of the day's trading. Each file individually is sorted by this value. Your task is to create a single file containing all the updates sorted by the update time. The individual files are of the order of 1-100 megabytes; the combined file will be of the order of 5 gigabytes.
+
+    Design an algorithm that takes the files as described above and writes a single file containing the lines appearing in the individual files sorted by the update time. The algorithm should use very little memory, ideally of the order of a few kilobytes.
+
+    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 27.
+
+  Python: |
+    **To-do: Python.**
+
+  Java: |
+    **To-do: Java.**
+
+  C++: |
+    **To-do: C++.**
