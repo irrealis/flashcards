@@ -49,3 +49,22 @@ notes:
 
   C++: |
     **To-do: C++.**
+
+
+- Front: |
+    ## 02.04 Finding the min and max simultaneously
+
+    Given a set of numbers, you can find either the min or max of the set in \\(N-1\\) comparisoms each. whm you need to find both, can you do better than \\(2N-3\\) comparisons?
+
+    Find the min and max elements from a set of \\(N\\) elements using no more than \\(\frac{3N}{2}-1\\) comparisons.
+
+    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 24.
+
+  Python: |
+    **To-do: Python.**
+
+  Java: |
+    **To-do: Java.**
+
+  C++: |
+    **To-do: C++.**
