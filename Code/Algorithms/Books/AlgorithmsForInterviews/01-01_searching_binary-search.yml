@@ -131,3 +131,22 @@ notes:
 
   C++: |
     **To-do: C++.**
+
+
+- Front: |
+    ## 01.06: Missing element, limited resources
+
+    The storage capacity of hard drives dwarves that of RAM. This can lead to interesting time-space tradeoffs.
+
+    Given a file of roughly 300 million social security numbers (9-digit numbers), find a 9-digit number that is not in the file. You have unlimited drive space but only 2 megabytes of RAM at your disposal.
+
+    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 16.
+
+  Python: |
+    **To-do: Python.**
+
+  Java: |
+    **To-do: Java.**
+
+  C++: |
+    **To-do: C++.**
