@@ -49,3 +49,22 @@ notes:
 
   C++: |
     **To-do: C++.**
+
+
+- Front: |
+    ## 01.18: Searching two sorted arrays
+
+    Given a sorted array \\(A\\), if you want to find the \\(k\\)-th smallest element, you can simply return \\(A[k 一 1]\\) which is an \\(O(1)\\) operation. If you are given two sorted arrays of length \\(n\\) and \\(m\\) and you need to find the \\(k\\)-th smallest element in the union of the two arrays, you could potentially merge the two sorted arrays and then look for the answer but that would take \\(O(n+m)\\) time. You can build the merged array only till the first \\(k\\) elements. This would be a \\(O(k)\\) operation. Can you do better than this?
+
+    You are given two sorted arrays of lengths \\(m\\) and \\(n\\). Give a \\(O(\log m + \log n)\\) time algorithm for computing the \\(k\\)-th smallest element in the union of the two arrays. Keep in mind that the elements may be repeated.
+
+    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 21.
+
+  Python: |
+    **To-do: Python.**
+
+  Java: |
+    **To-do: Java.**
+
+  C++: |
+    **To-do: C++.**
