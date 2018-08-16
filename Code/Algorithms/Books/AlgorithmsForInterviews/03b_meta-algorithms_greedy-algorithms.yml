@@ -76,3 +76,27 @@ notes:
 
     C++: |
       **To-do: C++.**
+
+
+- fields:
+    Front: |
+      ## 03.15: Efficient user interface
+
+      A user interface (UI) designer is trying to design a menu system that customers use to trigger certain tasks. He wants to minimize the average amount of time it takes for a customer to perform tasks.
+
+      If a menu item is at the \\(i\\)-th position, it takes \\(i\\) units of time for the user to reach there (linear scan) and it takes \\(c\\) units of time to click on it. Each menu item can have multiple levels of sub-menus and a sub-menu can be reached by clicking on its parent menu item.
+
+      The designer is provided with a user study that details how often users want tasks to be triggered. (In a real application, we would also worry about grouping related items in the same sub-menu as well but for this problem we will ignore grouping requirements.)
+
+      How should the menu system be designed so as to minimize the average UI interaction time if \\(c = 1\\)? How would you do it if \\(c > 1\\)?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 37-8.
+
+    Python: |
+      **To-do: Python.**
+
+    Java: |
+      **To-do: Java.**
+
+    C++: |
+      **To-do: C++.**
