@@ -82,26 +82,26 @@ def format_text(
 
 def data_to_flashcards_params(data):
   '''Convert data to format accepted by AnkiConnect.'''
-  tags = data["tags"]
-  deckName = data["deckName"]
-  modelName = data["modelName"]
-  useMarkdown = data.get("useMarkdown", True)
-  markdownStyle = data.get("markdownStyle", "tango")
-  markdownLineNums = data.get("markdownLineNums", False)
-  markdownTabLength = data.get("markdownTabLength", 4)
+  def_tags = data["tags"]
+  def_deckName = data["deckName"]
+  def_modelName = data["modelName"]
+  def_useMarkdown = data.get("useMarkdown", True)
+  def_markdownStyle = data.get("markdownStyle", "tango")
+  def_markdownLineNums = data.get("markdownLineNums", False)
+  def_markdownTabLength = data.get("markdownTabLength", 4)
   params = dict(
     notes = [
       dict(
-        tags = tags,
-        deckName = deckName,
-        modelName = modelName,
+        tags = def_tags,
+        deckName = def_deckName,
+        modelName = def_modelName,
         fields = {
           k: format_text(
             str(v),
-            useMarkdown,
-            markdownStyle,
-            markdownLineNums,
-            markdownTabLength,
+            def_useMarkdown,
+            def_markdownStyle,
+            def_markdownLineNums,
+            def_markdownTabLength,
           )
           for (k, v) in note.items()
         }
