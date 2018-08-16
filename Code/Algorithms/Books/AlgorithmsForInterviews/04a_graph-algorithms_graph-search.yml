@@ -31,3 +31,23 @@ notes:
 
     C++: |
       **To-do: C++.**
+
+
+- fields:
+    Front: |
+      ## 04.02: Order nodes in a binary tree by depth
+
+      There are various traversals that can be performed on a tree: in-order, pre-order, and post-order are three natural examples.
+
+      How would you efficiently return an array \\(A[0 \ldots h]\\), where \\(h\\) is the height of the tree and \\(A[i]\\) is the head of a linked list of all the nodes in the tree that are at height \\(i\\)?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 43.
+
+    Python: |
+      **To-do: Python.**
+
+    Java: |
+      **To-do: Java.**
+
+    C++: |
+      **To-do: C++.**
