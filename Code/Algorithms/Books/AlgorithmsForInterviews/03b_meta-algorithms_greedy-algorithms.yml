@@ -31,3 +31,23 @@ notes:
 
     C++: |
       **To-do: C++.**
+
+
+- fields:
+    Front: |
+      ## 03.13: Minimize waiting time
+
+      A database has to respond to \\(n\\) simultaneous client SQL queries. The service time required for query \\(i\\) is \\(t_i\\) milliseconds and is known in advance. The lookups are processed sequentially but can be processed in any order. We wish to minimize the total waiting time \\(\sum_{i=1}^{n} T_i\\), where \\(T_i\\) is the time client \\(i\\) takes to return. For example, if the lookups are served in order of increasing \\(i\\), the the client making the \\(i\\)-th query has to wait \\(\sum_{j=1}^{i} t_j\\) milliseconds.
+
+      Design an efficient algorithm for computing an optimimum order for processing the queries.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 36.
+
+    Python: |
+      **To-do: Python.**
+
+    Java: |
+      **To-do: Java.**
+
+    C++: |
+      **To-do: C++.**
