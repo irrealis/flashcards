@@ -144,3 +144,27 @@ notes:
 
     C++: |
       **To-do: C++.**
+
+
+- fields:
+    Front: |
+      ## 03.18: Rays covering arcs
+
+      Let's say you are responsible for the security of a castle. The castle has a circular perimeter. There are \\(n\\) robots that patrol the perimiter -- each robot is responsible for a closed connected subset of the perimeter, i.e., an arc. (The arcs for different robots may overlap.) You want to monitor the robots by installing cameras at the center of the castle that look out to the perimeter. Each camera can look along a ray. To save cost, you would like to minimize the number of cameras.
+
+      More formally, let \\([\theta_i, \phi_i]\\), \\(i=1,\ldots,n\\) be \\(n\\) arcs, where the \\(i\\)-th arc is the set of points on the perimiter of the unit circle that subtend an angle in the interval \\([\theta_i, \phi_i]\\) at the center.
+
+      A ray is a set of points that all subtend the same angle to the origin --- we identify a ray by the angle it makes relative to the \\(X\\)-axis. A set \\(R\\) of rays "covers" the arcs if \\([\theta_i, \phi_i] \cap R \ne \emptyset\\), for \\(i = 1, \ldots, n\\).
+
+      Design an efficient algorithm for finding a minimum-cardinatlity covering of the set of rays.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 39.
+
+    Python: |
+      **To-do: Python.**
+
+    Java: |
+      **To-do: Java.**
+
+    C++: |
+      **To-do: C++.**
