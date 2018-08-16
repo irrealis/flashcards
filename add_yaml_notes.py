@@ -92,16 +92,16 @@ def data_to_flashcards_params(data):
   params = dict(
     notes = [
       dict(
-        tags = def_tags,
-        deckName = def_deckName,
-        modelName = def_modelName,
+        tags = note.get('tags', def_tags),
+        deckName = note.get('deckName', def_deckName),
+        modelName = note.get('modelName', def_modelName),
         fields = {
           k: format_text(
             str(v),
-            def_useMarkdown,
-            def_markdownStyle,
-            def_markdownLineNums,
-            def_markdownTabLength,
+            note.get('useMarkdown', def_useMarkdown),
+            note.get('markdownStyle', def_markdownStyle),
+            note.get('markdownLineNums', def_markdownLineNums),
+            note.get('markdownTabLength', def_markdownTabLength),
           )
           for (k, v) in note['fields'].items()
         }

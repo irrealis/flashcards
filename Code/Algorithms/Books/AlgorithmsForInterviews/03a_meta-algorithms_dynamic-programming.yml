@@ -13,7 +13,8 @@ markdownTabLength: 4
 notes:
 
 
-- fields:
+- modelName: BasicMathJax
+  fields:
     Front: |
       ## 03.01: Longest nondecreasing subsequence
 
