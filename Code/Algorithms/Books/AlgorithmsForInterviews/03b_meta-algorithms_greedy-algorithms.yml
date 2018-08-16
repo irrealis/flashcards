@@ -11,3 +11,23 @@ tags:
 markdownTabLength: 4
 
 notes:
+
+
+- fields:
+    Front: |
+      ## 03.12: Scheduling tutors
+
+      You are responsible for scheduling tutors for the day at a tutoring company. For each day, you have received a number of requests for tutors. Each request has a specified start time and each lesson is thirty minutes long. You have more tutors than requests. Each tutor can start work at any time. However tutors are constrained to work only one stretch which cannot be longer than two hours and each tutor can service only one request at a time.
+
+      Given a set of requests for the day, design an efficient algorithm to compute the least number of tutors necessary to schedule all the requests for the day.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 36.
+
+    Python: |
+      **To-do: Python.**
+
+    Java: |
+      **To-do: Java.**
+
+    C++: |
+      **To-do: C++.**
