@@ -203,3 +203,23 @@ notes:
 
     C++: |
       **To-do: C++.**
+
+
+- fields:
+    Front: |
+      ## 03.20: Party planning
+
+      Leona is holding a party and is trying to select people to invite from her friend circle. She has \\(N\\) friends and she knows which pairs of friends already how each other. Leona wants to invite as many friends as possible but she wants each invitee to know at least six other invitees and not know six other invitees.
+
+      Devise an efficient algorithm that takes as input Leona's \\(N\\) friends and a set of pairs of friends who know each other and returns an invitation list that meets the above criteria.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 40.
+
+    Python: |
+      **To-do: Python.**
+
+    Java: |
+      **To-do: Java.**
+
+    C++: |
+      **To-do: C++.**
