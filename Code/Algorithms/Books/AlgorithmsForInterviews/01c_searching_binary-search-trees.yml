@@ -13,174 +13,183 @@ markdownTabLength: 4
 notes:
 
 
-- Front: |
-    ## 01.16: Search BST for a key
+- fields:
+    Front: |
+      ## 01.16: Search BST for a key
 
-    Searching for a key in a BST is very similar to searching in a sorted array. Recursion is more natural but for performance, a while-loop is preferred.
+      Searching for a key in a BST is very similar to searching in a sorted array. Recursion is more natural but for performance, a while-loop is preferred.
 
-    Given a BST \\(T\\), first write a recursive function that searches for key \\(K\\), then write an iterative function.
+      Given a BST \\(T\\), first write a recursive function that searches for key \\(K\\), then write an iterative function.
 
-    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 20.
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 20.
 
-  Python: |
-    **To-do: Python.**
+    Python: |
+      **To-do: Python.**
 
-  Java: |
-    **To-do: Java.**
+    Java: |
+      **To-do: Java.**
 
-  C++: |
-    **To-do: C++.**
+    C++: |
+      **To-do: C++.**
 
 
-- Front: |
-    ## 01.17: Search BST for \\(x > k\\)
+- fields:
+    Front: |
+      ## 01.17: Search BST for \\(x > k\\)
 
-    BSTs offer more than the ability to search for a key --- they can be used to find the min and max elements, look for the successor or predecessor of a given search key (which may or may not be present in the BST), and enumerate the elements in a sorted order.
+      BSTs offer more than the ability to search for a key --- they can be used to find the min and max elements, look for the successor or predecessor of a given search key (which may or may not be present in the BST), and enumerate the elements in a sorted order.
 
-    Given a BST \\(T\\) and a key \\(K\\), write a method that searches for the first entry larger than \\(K\\).
+      Given a BST \\(T\\) and a key \\(K\\), write a method that searches for the first entry larger than \\(K\\).
 
-    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 20.
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 20.
 
-  Python: |
-    **To-do: Python.**
+    Python: |
+      **To-do: Python.**
 
-  Java: |
-    **To-do: Java.**
+    Java: |
+      **To-do: Java.**
 
-  C++: |
-    **To-do: C++.**
+    C++: |
+      **To-do: C++.**
 
 
-- Front: |
-    ## 01.18: Searching two sorted arrays
+- fields:
+    Front: |
+      ## 01.18: Searching two sorted arrays
 
-    Given a sorted array \\(A\\), if you want to find the \\(k\\)-th smallest element, you can simply return \\(A[k 一 1]\\) which is an \\(O(1)\\) operation. If you are given two sorted arrays of length \\(n\\) and \\(m\\) and you need to find the \\(k\\)-th smallest element in the union of the two arrays, you could potentially merge the two sorted arrays and then look for the answer but that would take \\(O(n+m)\\) time. You can build the merged array only till the first \\(k\\) elements. This would be a \\(O(k)\\) operation. Can you do better than this?
+      Given a sorted array \\(A\\), if you want to find the \\(k\\)-th smallest element, you can simply return \\(A[k 一 1]\\) which is an \\(O(1)\\) operation. If you are given two sorted arrays of length \\(n\\) and \\(m\\) and you need to find the \\(k\\)-th smallest element in the union of the two arrays, you could potentially merge the two sorted arrays and then look for the answer but that would take \\(O(n+m)\\) time. You can build the merged array only till the first \\(k\\) elements. This would be a \\(O(k)\\) operation. Can you do better than this?
 
-    You are given two sorted arrays of lengths \\(m\\) and \\(n\\). Give a \\(O(\log m + \log n)\\) time algorithm for computing the \\(k\\)-th smallest element in the union of the two arrays. Keep in mind that the elements may be repeated.
+      You are given two sorted arrays of lengths \\(m\\) and \\(n\\). Give a \\(O(\log m + \log n)\\) time algorithm for computing the \\(k\\)-th smallest element in the union of the two arrays. Keep in mind that the elements may be repeated.
 
-    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 21.
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 21.
 
-  Python: |
-    **To-do: Python.**
+    Python: |
+      **To-do: Python.**
 
-  Java: |
-    **To-do: Java.**
+    Java: |
+      **To-do: Java.**
 
-  C++: |
-    **To-do: C++.**
+    C++: |
+      **To-do: C++.**
 
 
-- Front: |
-    ## 01.19: Intersecting lines
+- fields:
+    Front: |
+      ## 01.19: Intersecting lines
 
-    Suppose you are designing a rectangular printed circuit board (PCB) where you are supposed to connect a set of points from one edge to another set of points at the opposite edge. The metal lines connecting these points should not intersect with each other; otherwise, there will be a short circuit. Your job is to determine if it is feasible to route the metal lines on the PCB surface in a way that avoids short circuits. Let's assume we connect each pair using a straight line of metal. It is a proven fact that you can connect the pairs without intersection (using either straight or curved lines) iff you can connect them using straight lines that do not intersect.
+      Suppose you are designing a rectangular printed circuit board (PCB) where you are supposed to connect a set of points from one edge to another set of points at the opposite edge. The metal lines connecting these points should not intersect with each other; otherwise, there will be a short circuit. Your job is to determine if it is feasible to route the metal lines on the PCB surface in a way that avoids short circuits. Let's assume we connect each pair using a straight line of metal. It is a proven fact that you can connect the pairs without intersection (using either straight or curved lines) iff you can connect them using straight lines that do not intersect.
 
-    How would you determine if a given set of straight lines intersect in a given rectangle or not?
+      How would you determine if a given set of straight lines intersect in a given rectangle or not?
 
-    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 21.
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 21.
 
-  Python: |
-    **To-do: Python.**
+    Python: |
+      **To-do: Python.**
 
-  Java: |
-    **To-do: Java.**
+    Java: |
+      **To-do: Java.**
 
-  C++: |
-    **To-do: C++.**
+    C++: |
+      **To-do: C++.**
 
 
-- Front: |
-    ## 01.20: Contained intervals
+- fields:
+    Front: |
+      ## 01.20: Contained intervals
 
-    In various applications (such as laying out computer chips), it is important to find when a given shape is completely contained inside another shape. Let's do a simpler version of this problem where we are just concerned with line segments along a straight line.
+      In various applications (such as laying out computer chips), it is important to find when a given shape is completely contained inside another shape. Let's do a simpler version of this problem where we are just concerned with line segments along a straight line.
 
-    Write a function that takes a set of open intervales on the real line \\((a_i, b_i)\\) for \\(i \in \\{0,1,\ldots,n-1\\}\\) and determines if there exists some interval \\((a_l, b_l)\\) that is completely contained inside another interval \\((a_m, b_m)\\). If such pairs of intervals exist, then return one such pair.
+      Write a function that takes a set of open intervales on the real line \\((a_i, b_i)\\) for \\(i \in \\{0,1,\ldots,n-1\\}\\) and determines if there exists some interval \\((a_l, b_l)\\) that is completely contained inside another interval \\((a_m, b_m)\\). If such pairs of intervals exist, then return one such pair.
 
-    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 21.
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 21.
 
-  Python: |
-    **To-do: Python.**
+    Python: |
+      **To-do: Python.**
 
-  Java: |
-    **To-do: Java.**
+    Java: |
+      **To-do: Java.**
 
-  C++: |
-    **To-do: C++.**
+    C++: |
+      **To-do: C++.**
 
 
-- Front: |
-    ## 01.21: View from the top
+- fields:
+    Front: |
+      ## 01.21: View from the top
 
-    This is a simplified version of a problem that often comes up in computer graphics --- you are given a million overlapping line segments of different colors situated at different heights. Implement a function that draw the lines as seen from the top.
+      This is a simplified version of a problem that often comes up in computer graphics --- you are given a million overlapping line segments of different colors situated at different heights. Implement a function that draw the lines as seen from the top.
 
-    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 21-2.
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 21-2.
 
-  Python: |
-    **To-do: Python.**
+    Python: |
+      **To-do: Python.**
 
-  Java: |
-    **To-do: Java.**
+    Java: |
+      **To-do: Java.**
 
-  C++: |
-    **To-do: C++.**
+    C++: |
+      **To-do: C++.**
 
 
-- Front: |
-    ## 01.22: Completion search
+- fields:
+    Front: |
+      ## 01.22: Completion search
 
-    You are working in the finance office for ABC corporation. There are \\(n\\) employees --- employee \\(i\\) received $\\(s_i\\) in compensation last year; the total compensation was $\\(S\\).
+      You are working in the finance office for ABC corporation. There are \\(n\\) employees --- employee \\(i\\) received $\\(s_i\\) in compensation last year; the total compensation was $\\(S\\).
 
-    This year, the corporation needs to cut payroll expenses to $\\(S'\\). The CEO wants to put a cap \\(\sigma\\) on salaries --- every employee who earned more that $\\(\sigma\\) last year will be paid $\\(\sigma\\) this year; employees who earned less than $\\(\sigma\\) will see no change in their salary.
+      This year, the corporation needs to cut payroll expenses to $\\(S'\\). The CEO wants to put a cap \\(\sigma\\) on salaries --- every employee who earned more that $\\(\sigma\\) last year will be paid $\\(\sigma\\) this year; employees who earned less than $\\(\sigma\\) will see no change in their salary.
 
-    For example, if \\((s_1,s_2,s_3,s_4,s_5) = (90,30,100,40,20)\\) and \\(S' = 210\\), then 60 is a suitable value for \\(\sigma\\).
+      For example, if \\((s_1,s_2,s_3,s_4,s_5) = (90,30,100,40,20)\\) and \\(S' = 210\\), then 60 is a suitable value for \\(\sigma\\).
 
-    Design an efficient algorithm for finding such a \\(\sigma\\), if one exists.
+      Design an efficient algorithm for finding such a \\(\sigma\\), if one exists.
 
-    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 22.
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 22.
 
-  Python: |
-    **To-do: Python.**
+    Python: |
+      **To-do: Python.**
 
-  Java: |
-    **To-do: Java.**
+    Java: |
+      **To-do: Java.**
 
-  C++: |
-    **To-do: C++.**
+    C++: |
+      **To-do: C++.**
 
 
-- Front: |
-    ## 01.23: Matrix search
+- fields:
+    Front: |
+      ## 01.23: Matrix search
 
-    Let \\(A\\) be an \\(n \times n\\) matrix whose entries are real numbers. Assume that along any column and along any row of \\(A\\), the entries appear in increasing sorted order.
+      Let \\(A\\) be an \\(n \times n\\) matrix whose entries are real numbers. Assume that along any column and along any row of \\(A\\), the entries appear in increasing sorted order.
 
-    Design an efficient algorithm that decides whether a real number \\(x\\) appears in \\(A\\).  How many entries of \\(A\\) does your algorithm inspect in the worst-case? Can you prove a tight lower bound that any such algorithm has to consider in the worst-case?
+      Design an efficient algorithm that decides whether a real number \\(x\\) appears in \\(A\\).  How many entries of \\(A\\) does your algorithm inspect in the worst-case? Can you prove a tight lower bound that any such algorithm has to consider in the worst-case?
 
-    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 22.
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 22.
 
-  Python: |
-    **To-do: Python.**
+    Python: |
+      **To-do: Python.**
 
-  Java: |
-    **To-do: Java.**
+    Java: |
+      **To-do: Java.**
 
-  C++: |
-    **To-do: C++.**
+    C++: |
+      **To-do: C++.**
 
 
-- Front: |
-    ## 01.24: Checking simplicity
+- fields:
+    Front: |
+      ## 01.24: Checking simplicity
 
-    A polygon is defined to be simple if non of its edges intersect with each other except at their endpoints.
+      A polygon is defined to be simple if non of its edges intersect with each other except at their endpoints.
 
-    Give an \\(O(n \log n)\\) time algorithm to determine if a polygon with \\(n\\) vertices is simple.
+      Give an \\(O(n \log n)\\) time algorithm to determine if a polygon with \\(n\\) vertices is simple.
 
-    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 22.
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 22.
 
-  Python: |
-    **To-do: Python.**
+    Python: |
+      **To-do: Python.**
 
-  Java: |
-    **To-do: Java.**
+    Java: |
+      **To-do: Java.**
 
-  C++: |
-    **To-do: C++.**
+    C++: |
+      **To-do: C++.**
