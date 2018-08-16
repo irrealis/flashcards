@@ -122,3 +122,25 @@ notes:
 
     C++: |
       **To-do: C++.**
+
+
+- fields:
+    Front: |
+      ## 03.17: Points covering intervals
+
+      Consider an engineer responsible for a number of tasks on the factory floor. Each task starts at a fixed time and ends at a fixed time. The engineer wants to visit the floor to check on the tasks. Your task is to help him minimize the number of visits he makes. In each visit, he can check on all the tasks taking place at the time of the visit. A visit takes place at a fixed time and he can only check on tasks taking place at exactly that time.
+
+      More formally, model the tasks as \\(n\\) closed intervals on the real line \\([a_i,b_i]\\), \\(i = 1, \ldots, n\\). A set \\(S\\) of visit times "covers" the tasks if \\([a_i,b_i] \cap S \ne \emptyset\\), for \\(i = 1, \ldots, n\\).
+
+      Design an efficient algorithm for finding a minimum cardinality set of visit times that covers all the tasks.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 38.
+
+    Python: |
+      **To-do: Python.**
+
+    Java: |
+      **To-do: Java.**
+
+    C++: |
+      **To-do: C++.**
