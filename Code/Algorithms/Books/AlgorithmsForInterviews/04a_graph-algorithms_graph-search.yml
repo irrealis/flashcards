@@ -11,3 +11,23 @@ tags:
 markdownTabLength: 4
 
 notes:
+
+
+- fields:
+    Front: |
+      ## 04.01: Searching a maze
+
+      It is natural to apply graph models and algorithms to spatial problems. Consider a black and white digitized image of a maze --- white pixels represent open areas and black pixels are walls. There are two special pixels: one is designated the entrance and the other is the exit.
+
+      Given a two-dimensional matrix of black and white entries representing a maze with designated entrance and exit points, find a path from the entrance to the exit, if one exists.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 42-3.
+
+    Python: |
+      **To-do: Python.**
+
+    Java: |
+      **To-do: Java.**
+
+    C++: |
+      **To-do: C++.**
