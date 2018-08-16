@@ -1,4 +1,4 @@
-deckName: Misc
+deckName: Staging
 modelName: BasicMathJax
 tags:
 - Misc
@@ -10,10 +10,11 @@ markdownTabLength: 2
 
 notes:
 
-- Front: |
-    What are four types of Verily projects?
-  Back: |
-    - Sensors
-    - Interventions
-    - Health platforms and population-health tools
-    - Precision medicine
+- fields:
+    Front: |
+      What are four types of Verily projects?
+    Back: |
+      - Sensors
+      - Interventions
+      - Health platforms and population-health tools
+      - Precision medicine
