@@ -51,3 +51,27 @@ notes:
 
     C++: |
       **To-do: C++.**
+
+
+- fields:
+    Front: |
+      ## 04.03: Connectedness
+
+      A connected graph is one for which, given any vertices \\(u\\) and \\(v\\), there exists a path from \\(u\\) to \\(v\\). The notion of connectedness holds for both directed and undirected graphs --- for undirected graphs, we sometimes simply say there exists a path between \\(u\\) and \\(v\\).
+
+      Intuitively, some graphs are more connected than others --- e.g., a clique is more connected than a tree. To be more quantitative, we could refer to a graph as being \\(2\forall\\)-connected if it remains connected even if any single edge is removed. A graph is \\(2\exists\\)-connected if there exists an edge whose removal leaves the graph connected.
+
+      One application of this idea is in fault tolerance for data networks. Suppose you are given a set of datacenters connected through a set of dedicated point-to-point links. You want to be able to reach from any datacenter to any other datacenter through a combination of these dedicated links. Sometimes one of these links can become temporarily out of service and you want to ensure that your network can sustain up to one faulty link. How can you verify this?
+
+      Let \\(G = (V , E)\\) be a connected undirected graph. How would you efficiently check if \\(G\\) is \\(2\exists\\)-connected? Can you make you algorithm run in \\(O(|V|)\\) time? How would you check if \\(G\\) is \\(2\forall\\)-connected?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 43.
+
+    Python: |
+      **To-do: Python.**
+
+    Java: |
+      **To-do: Java.**
+
+    C++: |
+      **To-do: C++.**
