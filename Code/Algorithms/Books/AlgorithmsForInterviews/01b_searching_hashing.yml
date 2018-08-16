@@ -13,155 +13,163 @@ markdownTabLength: 4
 notes:
 
 
-- Front: |
-    ## 01.08: Anagrams
+- fields:
+    Front: |
+      ## 01.08: Anagrams
 
-    Anagrams are popular word play puzzles, why by rearranging letters of one set of words, you get another set of words. For example, "eleven plus two" is an anagram for "twelve plus one". Crossword puzzle enthusiasts would like to be able to generate all possible anagrams for a given set of letters.
+      Anagrams are popular word play puzzles, why by rearranging letters of one set of words, you get another set of words. For example, "eleven plus two" is an anagram for "twelve plus one". Crossword puzzle enthusiasts would like to be able to generate all possible anagrams for a given set of letters.
 
-    Given a dictionary of English words, return the set of all words grouped into subsets of words that are all anagrams of each other.
+      Given a dictionary of English words, return the set of all words grouped into subsets of words that are all anagrams of each other.
 
-    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 18.
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 18.
 
-  Python: |
-    **To-do: Python.**
+    Python: |
+      **To-do: Python.**
 
-  Java: |
-    **To-do: Java.**
+    Java: |
+      **To-do: Java.**
 
-  C++: |
-    **To-do: C++.**
-
-
-- Front: |
-    ## 01.09: Search for a pair which sums to \\(S\\)
-
-    Let \\(A\\) be a sorted array of integers and \\(S\\) a target integer.
-
-    Design an efficient algorithm for determining if there exist a pair of indices \\(i,j\\) (not necessarily distinct) such that \\(A[i]+A[j]=S\\).
-
-    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 18.
-
-  Python: |
-    **To-do: Python.**
-
-  Java: |
-    **To-do: Java.**
-
-  C++: |
-    **To-do: C++.**
+    C++: |
+      **To-do: C++.**
 
 
-- Front: |
-    ## 01.10: Anonymous letter
+- fields:
+    Front: |
+      ## 01.09: Search for a pair which sums to \\(S\\)
 
-    A hash can be viewed as a dictionary. As a result, hashing commonly appears when processing with strings.
+      Let \\(A\\) be a sorted array of integers and \\(S\\) a target integer.
 
-    You are required to write a method that takes two text documents: an anonymous letter \\(L\\) and a text from a magazine \\(M\\). Your method is to return tru if \\(L\\) can be written using \\(M\\) and false otherwise. (If a letter appears \\(k\\) times in \\(L\\), it must appear at least \\(k\\) times in \\(M\\).)
+      Design an efficient algorithm for determining if there exist a pair of indices \\(i,j\\) (not necessarily distinct) such that \\(A[i]+A[j]=S\\).
 
-    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 18.
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 18.
 
-  Python: |
-    **To-do: Python.**
+    Python: |
+      **To-do: Python.**
 
-  Java: |
-    **To-do: Java.**
+    Java: |
+      **To-do: Java.**
 
-  C++: |
-    **To-do: C++.**
-
-
-- Front: |
-    ## 01.11: Pairing users by attributes
-
-    You are building a social networking site where each user specifies a set of attributes. You would like to pair each user with another unpaired user that specified exactly the same set of attributes.
-
-    Specifically, you are given a sequence of users where each user has a unique key, say a 32-bit integer and a set of attributes specified as a set of strings. As soon as you read a user, you should pair it with another previously read user with identical attributes who is currently unpaired, if such a user exists. If the user cannot be paired, you should keep him in the unpaired set.
-
-    How would you implement this matching process efficiently? How would you implement it if we allow an approximate match of attributes as well?
-
-    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 18.
-
-  Python: |
-    **To-do: Python.**
-
-  Java: |
-    **To-do: Java.**
-
-  C++: |
-    **To-do: C++.**
+    C++: |
+      **To-do: C++.**
 
 
-- Front: |
-    ## 01.12: Missing element
+- fields:
+    Front: |
+      ## 01.10: Anonymous letter
 
-    Hashing can be used to find an element which is not present in a given set.
+      A hash can be viewed as a dictionary. As a result, hashing commonly appears when processing with strings.
 
-    Given an array \\(A\\) of integers, find an integer \\(k\\) that is not present in \\(A\\). Assume that the integers are 32-bit signed integers.
+      You are required to write a method that takes two text documents: an anonymous letter \\(L\\) and a text from a magazine \\(M\\). Your method is to return tru if \\(L\\) can be written using \\(M\\) and false otherwise. (If a letter appears \\(k\\) times in \\(L\\), it must appear at least \\(k\\) times in \\(M\\).)
 
-    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 18-9.
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 18.
 
-  Python: |
-    **To-do: Python.**
+    Python: |
+      **To-do: Python.**
 
-  Java: |
-    **To-do: Java.**
+    Java: |
+      **To-do: Java.**
 
-  C++: |
-    **To-do: C++.**
-
-
-- Front: |
-    ## 01.13: Missing element
-
-    A robot needs to travel along a path that includes several ascents and descents. When it goes up, it uses its battery as a source of energy and when it goes down, it recovers the potential energy back into the batter. The battery recharginc process is ideal: on descending, every Joule of gravitational potential energy converts into a Joul of electrical energy that is stored in the battery. The battery has a limited capacity and once it reaches its storage capacity, the energy generated from the robot going down is lost.
-
-    Given a robot with the energy regeneration ability described above, the mass of the robot \\(m\\), and a sequence of three-dimensional cooredinates that the robot needs to traverse, how would you determine the minimum battery capacity needed for the robot to complete the trajectory? (Assume the robot starts with a fully charged battery and the battery is used only for overcoming gravity.)
-
-    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 19.
-
-  Python: |
-    **To-do: Python.**
-
-  Java: |
-    **To-do: Java.**
-
-  C++: |
-    **To-do: C++.**
+    C++: |
+      **To-do: C++.**
 
 
-- Front: |
-    ## 01.14: Search for majority
+- fields:
+    Front: |
+      ## 01.11: Pairing users by attributes
 
-    There are several applications wher you want to identify tokens in a given stream that have more than a certain fraction of the total number of occurrences in a relatively inexpensive manner. For example, we may want to identify the users using the largest fraction of the network bandwidth or IP addresses originating the most HTTP requests. Here we will try to solve a simplified version of this problem called "majority-find".
+      You are building a social networking site where each user specifies a set of attributes. You would like to pair each user with another unpaired user that specified exactly the same set of attributes.
 
-    You are reading a sequence of words from a very long stream. You know _a priori_ that more than half the worlds are repetitions of a single word \\(W\\) but the positions where \\(W\\) occurs are unknown. Design an efficient algorithm that reads this stream only once and uses only a constant amount of memory to identify \\(W\\).
+      Specifically, you are given a sequence of users where each user has a unique key, say a 32-bit integer and a set of attributes specified as a set of strings. As soon as you read a user, you should pair it with another previously read user with identical attributes who is currently unpaired, if such a user exists. If the user cannot be paired, you should keep him in the unpaired set.
 
-    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 19.
+      How would you implement this matching process efficiently? How would you implement it if we allow an approximate match of attributes as well?
 
-  Python: |
-    **To-do: Python.**
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 18.
 
-  Java: |
-    **To-do: Java.**
+    Python: |
+      **To-do: Python.**
 
-  C++: |
-    **To-do: C++.**
+    Java: |
+      **To-do: Java.**
+
+    C++: |
+      **To-do: C++.**
 
 
-- Front: |
-    ## 01.15: Search for frequent items
+- fields:
+    Front: |
+      ## 01.12: Missing element
 
-    In practice, we may not be interested in just the majority token but all the tokens whose count exceeds say 1% of the total token count. It is easy to show that it is impossible to do this in a single pass when you have limited memory but if you are allowed to pass through the stream twice, it is possible to identify the common tokens.
+      Hashing can be used to find an element which is not present in a given set.
 
-    You are reading a sequence o strings separated by white space from a very large stream. You are allowed to read the stream twice. Devise an algorithm that uses only \\(O(k)\\) memory to identify all the words that occur more than \\(\lceil \frac{n}{k} \rceil\\) times in the stream, where \\(n\\) is the length of the stream.
+      Given an array \\(A\\) of integers, find an integer \\(k\\) that is not present in \\(A\\). Assume that the integers are 32-bit signed integers.
 
-    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 19-20.
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 18-9.
 
-  Python: |
-    **To-do: Python.**
+    Python: |
+      **To-do: Python.**
 
-  Java: |
-    **To-do: Java.**
+    Java: |
+      **To-do: Java.**
 
-  C++: |
-    **To-do: C++.**
+    C++: |
+      **To-do: C++.**
+
+
+- fields:
+    Front: |
+      ## 01.13: Missing element
+
+      A robot needs to travel along a path that includes several ascents and descents. When it goes up, it uses its battery as a source of energy and when it goes down, it recovers the potential energy back into the batter. The battery recharginc process is ideal: on descending, every Joule of gravitational potential energy converts into a Joul of electrical energy that is stored in the battery. The battery has a limited capacity and once it reaches its storage capacity, the energy generated from the robot going down is lost.
+
+      Given a robot with the energy regeneration ability described above, the mass of the robot \\(m\\), and a sequence of three-dimensional cooredinates that the robot needs to traverse, how would you determine the minimum battery capacity needed for the robot to complete the trajectory? (Assume the robot starts with a fully charged battery and the battery is used only for overcoming gravity.)
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 19.
+
+    Python: |
+      **To-do: Python.**
+
+    Java: |
+      **To-do: Java.**
+
+    C++: |
+      **To-do: C++.**
+
+
+- fields:
+    Front: |
+      ## 01.14: Search for majority
+
+      There are several applications wher you want to identify tokens in a given stream that have more than a certain fraction of the total number of occurrences in a relatively inexpensive manner. For example, we may want to identify the users using the largest fraction of the network bandwidth or IP addresses originating the most HTTP requests. Here we will try to solve a simplified version of this problem called "majority-find".
+
+      You are reading a sequence of words from a very long stream. You know _a priori_ that more than half the worlds are repetitions of a single word \\(W\\) but the positions where \\(W\\) occurs are unknown. Design an efficient algorithm that reads this stream only once and uses only a constant amount of memory to identify \\(W\\).
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 19.
+
+    Python: |
+      **To-do: Python.**
+
+    Java: |
+      **To-do: Java.**
+
+    C++: |
+      **To-do: C++.**
+
+
+- fields:
+    Front: |
+      ## 01.15: Search for frequent items
+
+      In practice, we may not be interested in just the majority token but all the tokens whose count exceeds say 1% of the total token count. It is easy to show that it is impossible to do this in a single pass when you have limited memory but if you are allowed to pass through the stream twice, it is possible to identify the common tokens.
+
+      You are reading a sequence o strings separated by white space from a very large stream. You are allowed to read the stream twice. Devise an algorithm that uses only \\(O(k)\\) memory to identify all the words that occur more than \\(\lceil \frac{n}{k} \rceil\\) times in the stream, where \\(n\\) is the length of the stream.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 19-20.
+
+    Python: |
+      **To-do: Python.**
+
+    Java: |
+      **To-do: Java.**
+
+    C++: |
+      **To-do: C++.**
