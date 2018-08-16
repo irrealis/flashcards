@@ -51,3 +51,28 @@ notes:
 
     C++: |
       **To-do: C++.**
+
+
+- fields:
+    Front: |
+      ## 03.14: Huffman coding
+      Let's look at an application of Huffman coding. We want to compress a large piece of English text by building a variable length code book for each possible character. Consider the case where each character in the text is independent of all other characters (we can achieve better compression if we do not make this assumption but for this problem we will ignore this fact).
+
+      One way of doing this kind of compression is to map each character to a bit string such that no bit string is a prefix of another (for example, 011 is a prefix of 0110 but not a prefix of 1100).
+
+      We can simply encode the text by appending the bit strings for each character in the text. While decoding the string, we can keep reading the bits until we find a string that is in our code book and then repeat this process until the entire text is decoded.
+
+      Since our objective is to compress the text, we would like to assign the shorter strings to more probable characters and the longer strings to less probable characters.
+
+      Given a set of symbols with corresponding probabilities, find a prefix code assignment that minimizes the expected length of the encoded string.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 37.
+
+    Python: |
+      **To-do: Python.**
+
+    Java: |
+      **To-do: Java.**
+
+    C++: |
+      **To-do: C++.**
