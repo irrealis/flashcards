@@ -13,155 +13,182 @@ markdownTabLength: 4
 notes:
 
 
-- Front: |
-    ## 02.02: TeraSort
+- modelName: BasicMathJax
+  fields:
+    Front: |
+      ## 02.01 Good sorting algorithms
 
-    The sorting algorithms alluded to above assume that all the data you need to sort will fit in RAM. What if your data will not fit in memory?
+      What is the most efficient sorting algorithm for each of the following situations:
 
-    Sort a file containing \\(10^{12}\\) 100-byte strings.
+      - A small array of integers.
+      - A large array whose entries are random numbers.
+      - A large collection of integers that are drawn from a very small range.
+      - A large collection of numbers most of which are duplicates.
+      - Stability is required, i.e., the relative order of two records that have the same sorting key should not be changed.
 
-    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 24.
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 23-4.
 
-  Python: |
-    **To-do: Python.**
-
-  Java: |
-    **To-do: Java.**
-
-  C++: |
-    **To-do: C++.**
-
-
-- Front: |
-    ## 02.03 Finding the winner and runner-up
-
-    There are 128 players participating in a tennis tournament. Assume that the "\\(x\\) beats \\(y\\)" relationship is transitive, i.e., for all players A, B, and C, if A beats B and B beats C, then A beats C.
-
-    What is the least number of matches we need to organize to find the best player? How many matches do you need to find the best and the second best player?
-
-    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 24.
-
-  Python: |
-    **To-do: Python.**
-
-  Java: |
-    **To-do: Java.**
-
-  C++: |
-    **To-do: C++.**
+    Back: |
+      **To-do: Noncode back.**
 
 
-- Front: |
-    ## 02.04 Finding the min and max simultaneously
+- fields:
+    Front: |
+      ## 02.02: TeraSort
 
-    Given a set of numbers, you can find either the min or max of the set in \\(N-1\\) comparisoms each. whm you need to find both, can you do better than \\(2N-3\\) comparisons?
+      The sorting algorithms alluded to above assume that all the data you need to sort will fit in RAM. What if your data will not fit in memory?
 
-    Find the min and max elements from a set of \\(N\\) elements using no more than \\(\frac{3N}{2}-1\\) comparisons.
+      Sort a file containing \\(10^{12}\\) 100-byte strings.
 
-    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 24.
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 24.
 
-  Python: |
-    **To-do: Python.**
+    Python: |
+      **To-do: Python.**
 
-  Java: |
-    **To-do: Java.**
+    Java: |
+      **To-do: Java.**
 
-  C++: |
-    **To-do: C++.**
-
-
-- Front: |
-    ## 02.05 Efficient trials
-
-    You are the coach of a cycling team with 25 members and need to determine the fastest, second-fastest, and third-fastest cyclists for selection to the Olympic team.
-
-    You will be evaluating the cyclists using a time-trial course on which only 5 cyclists can race at a time. You can use the completion times from a time-trial to rank the 5 cyclists amongst themselves --- no ties are possible. Because conditions can change over time, you cannot compare performances across different time-trials. The relative speeds of cyclists does not change --- if A beats B in one time-trial and B beats C in another time-trial, then A is guaranteed to beat C if they are in the same time-trial.
-
-    What is the minimum number of time-trials needed to determine who to send to the Olympics?
-
-    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 24-5.
-
-  Python: |
-    **To-do: Python.**
-
-  Java: |
-    **To-do: Java.**
-
-  C++: |
-    **To-do: C++.**
+    C++: |
+      **To-do: C++.**
 
 
-- Front: |
-    ## 02.06 Least-distance sorting
+- fields:
+    Front: |
+      ## 02.03 Finding the winner and runner-up
 
-    You come across a collection of 20 stone statues in a line. You want to sort them by height, with the shortest statue on the left. The statues are very heavy and you want to move them the least possible distance.
+      There are 128 players participating in a tennis tournament. Assume that the "\\(x\\) beats \\(y\\)" relationship is transitive, i.e., for all players A, B, and C, if A beats B and B beats C, then A beats C.
 
-    Design a sorting algorithm that minimizes the total distance that the statues are moved.
+      What is the least number of matches we need to organize to find the best player? How many matches do you need to find the best and the second best player?
 
-    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 25.
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 24.
 
-  Python: |
-    **To-do: Python.**
+    Python: |
+      **To-do: Python.**
 
-  Java: |
-    **To-do: Java.**
+    Java: |
+      **To-do: Java.**
 
-  C++: |
-    **To-do: C++.**
-
-
-- Front: |
-    ## 02.07 Privacy and anonymization
-
-    The Massachusetts Group Insurance Commission had a bright idea back in the mid 1990s -- it decided to release "anonymized" data on state employees that showed every single hospital visit they had. The goal was to help the researchers. The state spent time removing identifiers such as name, address, and social security number. The Governor of Massachusetts assured the public that this was sufficient to protect patient privacy. Then a graduate student, Latanya sweeney, saw significant pitfalls in this approach. She requested a copy of the data and by collating the data multiple columns, she was able to identify the health records of the Governor. This demonstrated that extreme care needs to be taken in anonymizing data. One way of ensuring privacy is to aggregate data such that any record can be mapped to at least \\(k\\) individuals, for some large value of \\(k\\).
-
-    Suppose you are given a matrix \\(M\\), where each row represents an individual and each column represents m attribute about the individual such as age or gender. Given a set of columns to be deleted, you want to determine if each row has at least \\(k\\) duplicate rows with exactly the same contents in the remaining columns. How would you verify this efficiently?
-
-    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 25-6.
-
-  Python: |
-    **To-do: Python.**
-
-  Java: |
-    **To-do: Java.**
-
-  C++: |
-    **To-do: C++.**
+    C++: |
+      **To-do: C++.**
 
 
-- Front: |
-    ## 02.08 Variable length sort
+- fields:
+    Front: |
+      ## 02.04 Finding the min and max simultaneously
 
-    Most sorting algorithms rely on a basic swap step. When records are of different lengths, the swap step becomes nontrivial.
+      Given a set of numbers, you can find either the min or max of the set in \\(N-1\\) comparisoms each. whm you need to find both, can you do better than \\(2N-3\\) comparisons?
 
-    Sort lines of a text file that has a million lines such that the average length of a line is 100 characters but the longest line is one million characters long.
+      Find the min and max elements from a set of \\(N\\) elements using no more than \\(\frac{3N}{2}-1\\) comparisons.
 
-    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 26.
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 24.
 
-  Python: |
-    **To-do: Python.**
+    Python: |
+      **To-do: Python.**
 
-  Java: |
-    **To-do: Java.**
+    Java: |
+      **To-do: Java.**
 
-  C++: |
-    **To-do: C++.**
+    C++: |
+      **To-do: C++.**
 
 
-- Front: |
-    ## 02.09 Unique elements
+- fields:
+    Front: |
+      ## 02.05 Efficient trials
 
-    Suppose you are given a set of names and your job is to produce a set of unique first names. If you just remove the last name from all the names you may have some duplicate first names.
+      You are the coach of a cycling team with 25 members and need to determine the fastest, second-fastest, and third-fastest cyclists for selection to the Olympic team.
 
-    How would you create a set of first names that has each name occurring only once? Specifically, design an efficient algorithm for removing all the duplicates from an array.
+      You will be evaluating the cyclists using a time-trial course on which only 5 cyclists can race at a time. You can use the completion times from a time-trial to rank the 5 cyclists amongst themselves --- no ties are possible. Because conditions can change over time, you cannot compare performances across different time-trials. The relative speeds of cyclists does not change --- if A beats B in one time-trial and B beats C in another time-trial, then A is guaranteed to beat C if they are in the same time-trial.
 
-    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 26.
+      What is the minimum number of time-trials needed to determine who to send to the Olympics?
 
-  Python: |
-    **To-do: Python.**
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 24-5.
 
-  Java: |
-    **To-do: Java.**
+    Python: |
+      **To-do: Python.**
 
-  C++: |
-    **To-do: C++.**
+    Java: |
+      **To-do: Java.**
+
+    C++: |
+      **To-do: C++.**
+
+
+- fields:
+    Front: |
+      ## 02.06 Least-distance sorting
+
+      You come across a collection of 20 stone statues in a line. You want to sort them by height, with the shortest statue on the left. The statues are very heavy and you want to move them the least possible distance.
+
+      Design a sorting algorithm that minimizes the total distance that the statues are moved.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 25.
+
+    Python: |
+      **To-do: Python.**
+
+    Java: |
+      **To-do: Java.**
+
+    C++: |
+      **To-do: C++.**
+
+
+- fields:
+    Front: |
+      ## 02.07 Privacy and anonymization
+
+      The Massachusetts Group Insurance Commission had a bright idea back in the mid 1990s -- it decided to release "anonymized" data on state employees that showed every single hospital visit they had. The goal was to help the researchers. The state spent time removing identifiers such as name, address, and social security number. The Governor of Massachusetts assured the public that this was sufficient to protect patient privacy. Then a graduate student, Latanya sweeney, saw significant pitfalls in this approach. She requested a copy of the data and by collating the data multiple columns, she was able to identify the health records of the Governor. This demonstrated that extreme care needs to be taken in anonymizing data. One way of ensuring privacy is to aggregate data such that any record can be mapped to at least \\(k\\) individuals, for some large value of \\(k\\).
+
+      Suppose you are given a matrix \\(M\\), where each row represents an individual and each column represents m attribute about the individual such as age or gender. Given a set of columns to be deleted, you want to determine if each row has at least \\(k\\) duplicate rows with exactly the same contents in the remaining columns. How would you verify this efficiently?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 25-6.
+
+    Python: |
+      **To-do: Python.**
+
+    Java: |
+      **To-do: Java.**
+
+    C++: |
+      **To-do: C++.**
+
+
+- fields:
+    Front: |
+      ## 02.08 Variable length sort
+
+      Most sorting algorithms rely on a basic swap step. When records are of different lengths, the swap step becomes nontrivial.
+
+      Sort lines of a text file that has a million lines such that the average length of a line is 100 characters but the longest line is one million characters long.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 26.
+
+    Python: |
+      **To-do: Python.**
+
+    Java: |
+      **To-do: Java.**
+
+    C++: |
+      **To-do: C++.**
+
+
+- fields:
+    Front: |
+      ## 02.09 Unique elements
+
+      Suppose you are given a set of names and your job is to produce a set of unique first names. If you just remove the last name from all the names you may have some duplicate first names.
+
+      How would you create a set of first names that has each name occurring only once? Specifically, design an efficient algorithm for removing all the duplicates from an array.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 26.
+
+    Python: |
+      **To-do: Python.**
+
+    Java: |
+      **To-do: Java.**
+
+    C++: |
+      **To-do: C++.**
