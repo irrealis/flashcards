@@ -13,162 +13,169 @@ markdownTabLength: 4
 notes:
 
 
-- Front: |
-    ## 01.01: Computing square roots
+- fields:
+    Front: |
+      ## 01.01: Computing square roots
 
-    Square root computations can be implemented using sophisticated numeric techniques involving iterative methods and logarithms. However if you were asked to implement a square root function, you would not be expected to know these techniques.
+      Square root computations can be implemented using sophisticated numeric techniques involving iterative methods and logarithms. However if you were asked to implement a square root function, you would not be expected to know these techniques.
 
-    Implement a fast integer square root function that takes in a 32-bit unsigned integer and returns another 32-bit unsigned integer that is the floor of the square root of the input.
+      Implement a fast integer square root function that takes in a 32-bit unsigned integer and returns another 32-bit unsigned integer that is the floor of the square root of the input.
 
-    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); pp 14-6.
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); pp 14-6.
 
-  Python: |
-    - Clarify: for 9 through 15, this would return 3.
-    - Wrinkles:
-        - Negative inputs; for now assume nonnegative.
-        - Non-integer inputs; for now assume integer.
-        - Inputs \\(\ge 2^{32}\\); for now assume \\(< 2^{32}\\).
-    - Core:
-        - Binary search of natural numbers returning largest integer whose square is \\(\le\\) input.
-    - Solution code:
-    ```{python }
-        def sqrt_floor(x):
-          lower = 0
-          upper = x+1
-          last_guess = -1
-          while lower < upper:
-            mid = lower + (upper - lower)//2
-            mid_sq = mid**2
-            if x == mid_sq:
-              return mid
-            elif x < mid_sq:
-              upper = mid
-              last_guess = upper - 1
-            else:
-              lower = mid+1
-              last_guess = lower - 1
-          return last_guess
+    Python: |
+      - Clarify: for 9 through 15, this would return 3.
+      - Wrinkles:
+          - Negative inputs; for now assume nonnegative.
+          - Non-integer inputs; for now assume integer.
+          - Inputs \\(\ge 2^{32}\\); for now assume \\(< 2^{32}\\).
+      - Core:
+          - Binary search of natural numbers returning largest integer whose square is \\(\le\\) input.
+      - Solution code:
+      ```{python }
+          def sqrt_floor(x):
+            lower = 0
+            upper = x+1
+            last_guess = -1
+            while lower < upper:
+              mid = lower + (upper - lower)//2
+              mid_sq = mid**2
+              if x == mid_sq:
+                return mid
+              elif x < mid_sq:
+                upper = mid
+                last_guess = upper - 1
+              else:
+                lower = mid+1
+                last_guess = lower - 1
+            return last_guess
 
-        for x in range(10001):
-          expected = int(x**0.5)
-          actual = sqrt_floor(x)
-          assert actual == expected
-    ```
+          for x in range(10001):
+            expected = int(x**0.5)
+            actual = sqrt_floor(x)
+            assert actual == expected
+      ```
 
-  Java: |
-    **To-do: Java.**
+    Java: |
+      **To-do: Java.**
 
-  C++: |
-    **To-do: C++.**
-
-
-- Front: |
-    ## 01.02: Search a sorted array for \\(k\\)
-
-    Write a method that takes a sorted array \\(A\\) of integers and a key \\(k\\) and returns the index of first occurrence of \\(k\\) in \\(A\\). Return \\(-1\\) if \\(k\\) does not appear in \\(A\\). Write tests to verify your code.
-
-    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 16.
-
-  Python: |
-    **To-do: Python.**
-
-  Java: |
-    **To-do: Java.**
-
-  C++: |
-    **To-do: C++.**
+    C++: |
+      **To-do: C++.**
 
 
-- Front: |
-    ## 01.03: Search a sorted array for the first element larger than \\(k\\)
+- fields:
+    Front: |
+      ## 01.02: Search a sorted array for \\(k\\)
 
-    Design an efficient algorithm that finds the index of the first occurrence of an element larger than a specified key \\(k\\); return -1 if every element is less than or equal to \\(k\\).
+      Write a method that takes a sorted array \\(A\\) of integers and a key \\(k\\) and returns the index of first occurrence of \\(k\\) in \\(A\\). Return \\(-1\\) if \\(k\\) does not appear in \\(A\\). Write tests to verify your code.
 
-    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 16.
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 16.
 
-  Python: |
-    **To-do: Python.**
+    Python: |
+      **To-do: Python.**
 
-  Java: |
-    **To-do: Java.**
+    Java: |
+      **To-do: Java.**
 
-  C++: |
-    **To-do: C++.**
-
-
-- Front: |
-    ## 01.04: Search a sorted array for \\(A[i]=i\\)
-
-    Suppose that in addition to being sorted, the entries of \\(A\)) are distinct integers. Design an efficient algorithm for finding an index \((i\)) such that \\(A[i]=i\\) or indicating that no such index exists.
-
-    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 16.
-
-  Python: |
-    **To-do: Python.**
-
-  Java: |
-    **To-do: Java.**
-
-  C++: |
-    **To-do: C++.**
+    C++: |
+      **To-do: C++.**
 
 
+- fields:
+    Front: |
+      ## 01.03: Search a sorted array for the first element larger than \\(k\\)
 
-- Front: |
-    ## 01.05: Search a sorted array of unknown length
+      Design an efficient algorithm that finds the index of the first occurrence of an element larger than a specified key \\(k\\); return -1 if every element is less than or equal to \\(k\\).
 
-    Suppose you do not know the length of \\(A\\) in advance; accessing \\(A[i]\\) for \\(i\\) beyond the end of the array throws an exception.
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 16.
 
-    Find the index of the first occurrence in \\(A\\) of a specified key \\(k\\); return -1 if \\(k\\) does not appear in \\(A\\).
+    Python: |
+      **To-do: Python.**
 
-    &mdash; Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 16.
+    Java: |
+      **To-do: Java.**
 
-  Python: |
-    **To-do: Python.**
-
-  Java: |
-    **To-do: Java.**
-
-  C++: |
-    **To-do: C++.**
+    C++: |
+      **To-do: C++.**
 
 
-- Front: |
-    ## 01.06: Missing element, limited resources
+- fields:
+    Front: |
+      ## 01.04: Search a sorted array for \\(A[i]=i\\)
 
-    The storage capacity of hard drives dwarves that of RAM. This can lead to interesting time-space tradeoffs.
+      Suppose that in addition to being sorted, the entries of \\(A\)) are distinct integers. Design an efficient algorithm for finding an index \((i\)) such that \\(A[i]=i\\) or indicating that no such index exists.
 
-    Given a file of roughly 300 million social security numbers (9-digit numbers), find a 9-digit number that is not in the file. You have unlimited drive space but only 2 megabytes of RAM at your disposal.
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 16.
 
-    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 16.
+    Python: |
+      **To-do: Python.**
 
-  Python: |
-    **To-do: Python.**
+    Java: |
+      **To-do: Java.**
 
-  Java: |
-    **To-do: Java.**
-
-  C++: |
-    **To-do: C++.**
+    C++: |
+      **To-do: C++.**
 
 
-- Front: |
-    ## 01.07: Intersect two sorted arrays
 
-    A natural implementation for a search engine is to retrieve documents that match the set of words in a query by maintaining an inverted index. Each page is assigned an integer identifier, its _document-id_. An inverted index is a mapping that takes a word \\(w\\) and returns a sorted array of page-ids which contain \\(w\\) -- the sort could be, for example, the page rank in descending order. When a query contains multiple words, the search engine finds the sorted array for each word and then computes the intersection of these arrays --- these are the pages containing all the words in the query. The most computationally intensive step of doing this is finding the intersection of the sorted arrays.
+- fields:
+    Front: |
+      ## 01.05: Search a sorted array of unknown length
 
-    Given sorted arrays \\(A\\) and \\(B\\) of lengths \\(n\\) and \\(m\\) respectively, return an array \\(C\\) containing the elements common to \\(A\\) and \\(B\\). the array \\(C\\) should be free of duplicates. How would you perform this intersection if:
+      Suppose you do not know the length of \\(A\\) in advance; accessing \\(A[i]\\) for \\(i\\) beyond the end of the array throws an exception.
 
-    1. \\(n \approx m\\)?
-    2. \\(n \ll m\\)?
+      Find the index of the first occurrence in \\(A\\) of a specified key \\(k\\); return -1 if \\(k\\) does not appear in \\(A\\).
 
-    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 17.
+      &mdash; Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 16.
 
-  Python: |
-    **To-do: Python.**
+    Python: |
+      **To-do: Python.**
 
-  Java: |
-    **To-do: Java.**
+    Java: |
+      **To-do: Java.**
 
-  C++: |
-    **To-do: C++.**
+    C++: |
+      **To-do: C++.**
+
+
+- fields:
+    Front: |
+      ## 01.06: Missing element, limited resources
+
+      The storage capacity of hard drives dwarves that of RAM. This can lead to interesting time-space tradeoffs.
+
+      Given a file of roughly 300 million social security numbers (9-digit numbers), find a 9-digit number that is not in the file. You have unlimited drive space but only 2 megabytes of RAM at your disposal.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 16.
+
+    Python: |
+      **To-do: Python.**
+
+    Java: |
+      **To-do: Java.**
+
+    C++: |
+      **To-do: C++.**
+
+
+- fields:
+    Front: |
+      ## 01.07: Intersect two sorted arrays
+
+      A natural implementation for a search engine is to retrieve documents that match the set of words in a query by maintaining an inverted index. Each page is assigned an integer identifier, its _document-id_. An inverted index is a mapping that takes a word \\(w\\) and returns a sorted array of page-ids which contain \\(w\\) -- the sort could be, for example, the page rank in descending order. When a query contains multiple words, the search engine finds the sorted array for each word and then computes the intersection of these arrays --- these are the pages containing all the words in the query. The most computationally intensive step of doing this is finding the intersection of the sorted arrays.
+
+      Given sorted arrays \\(A\\) and \\(B\\) of lengths \\(n\\) and \\(m\\) respectively, return an array \\(C\\) containing the elements common to \\(A\\) and \\(B\\). the array \\(C\\) should be free of duplicates. How would you perform this intersection if:
+
+      1. \\(n \approx m\\)?
+      2. \\(n \ll m\\)?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 17.
+
+    Python: |
+      **To-do: Python.**
+
+    Java: |
+      **To-do: Java.**
+
+    C++: |
+      **To-do: C++.**
