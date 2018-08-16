@@ -103,7 +103,7 @@ def data_to_flashcards_params(data):
             def_markdownLineNums,
             def_markdownTabLength,
           )
-          for (k, v) in note.items()
+          for (k, v) in note['fields'].items()
         }
       )
       for note in data["notes"]
