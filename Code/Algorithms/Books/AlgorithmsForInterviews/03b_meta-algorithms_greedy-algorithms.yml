@@ -100,3 +100,25 @@ notes:
 
     C++: |
       **To-do: C++.**
+
+
+- fields:
+    Front: |
+      ## 03.16: Packing USPS Priority Mail
+
+      The United States Postal Service makes fixed-size mail shipping boxes --- you pay a fixed price for a given box and can ship anything you want that fits in the box. Suppose you have a set of \\(n\\)items that you need to ship and have a large supply of the \\(4 \times 12 \times 8\\) inch priority mail shipping boxes. Each item will fit in such a box but all of them combined may take multiple boxes. Naturally, you want to minimize the number of boxes you use.
+
+      The first-fit heuristic is a greedy algorithm for this problem --- it processes the items in the sequence in which they are first given and places them in the first box in which they fit, scanning through boxes in increasing order. First-fit is not optimum but it never takes more than twice as many boxes as the minimum possible.
+
+      Implement first-fit to run in \\(O(n \log n)\\) time.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 38.
+
+    Python: |
+      **To-do: Python.**
+
+    Java: |
+      **To-do: Java.**
+
+    C++: |
+      **To-do: C++.**
