@@ -168,3 +168,38 @@ notes:
 
     C++: |
       **To-do: C++.**
+
+
+- fields:
+    Front: |
+      ## 03.19: \\(k\\)-clustering
+
+      A \\(k\\)-clustering of a set \\(O\\) is a collection \\({O_1, O_2, \ldots, O_k}\\) of nonemtpy subsets ("clusters") of \\(O\\) which has the following properties: \\(O = \bigcup_{i=1}^k O_i\\) and \\(O_i \cap O_j \ne \emptyset \Rightarrow i = j\\), for \\(i=1,\ldots,n\\).
+
+      Let \\(d\\) be a function (the "distance") from \\(O \times O\\) to \\(\mathbb{Z}^+\\), where \\(\mathbb{Z}^+\\) is the set of nonnegative integers.
+
+      The need to compute a \\(k\\)-clustering, in which elements that are far apart are in different clusters, comes up in many contexts --- assigning cities to salesmen, selecting which racks to place magazines in at a bookstore, etc.
+
+      Define the _separation_ \\(s_C\\) of a \\(k\\)-clustering \\(C\\) to be the distance between the two objects in different clusters which are closest, i.e., \\(s_C = \min\\{d(p,q)| p \in O_i, q \in O_j, i\ne j\\}\\). Intuitively, the separation is a measure of how good a job the clustering does of keeping things which are far apart in different clusters.
+
+      There is a natural greedy algorithm to compute the clustering: start with \\(|O|\\) clusters, i.e., one cluster per element of \\(O\\). Look for the pair of elements in different clusters which are closest and merge their two clusters; repeat this merge a total of \\(n-k\\) times to obtain \\(k\\) clusters.
+
+      This algorithm can be made to run very efficiently using a min-heap to store the distances being considered and a union-find data-structure to represent and merge the subsets.
+
+      Prove that the resulting cluster has the maximum separation of all possible \\(k\\)-clusterings.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 39-40.
+
+    Thoughts: |
+      The book observes:
+
+      "Note that the algorithm above is very simplistic: it does not attempt to balance cluster sizes, look at distances outside of pairwise-closest ones, exploit any structure in the distance function (e.g., the triangle inequality), etc. In a realistic setting, these and many more considerations are taken into account."
+
+    Python: |
+      **To-do: Python.**
+
+    Java: |
+      **To-do: Java.**
+
+    C++: |
+      **To-do: C++.**
