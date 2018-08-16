@@ -12,9 +12,15 @@ notes:
 - fields:
     Front: |
       What are some uses of binary search trees?
-
     Back: |
       - Search for a key.
       - Find min and max elements.
       - Look for successor or predecessor of a given search key.
       - Enumerate the elements in a sorted order.
+
+
+- fields:
+    Front: |
+      What is the runtime complexity of _Depth-First Search_?
+    Back: |
+      \\(O(|V| + |E|)\\), where \\(V\\) and \\(E\\) are the graph's vertices and edges.
