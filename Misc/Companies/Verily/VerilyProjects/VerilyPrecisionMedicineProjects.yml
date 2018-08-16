@@ -1,4 +1,4 @@
-deckName: Misc
+deckName: Staging
 modelName: BasicMathJax
 tags:
 - Misc
@@ -10,53 +10,60 @@ markdownTabLength: 2
 
 notes:
 
-- Front: |
-    What are some Verily precision-medicine projects?
-  Back: |
-    - Immunoscape
-    - MS Observational Study
-    - One Brave Idea
-    - Personalized Parkinson's Project
-    - Precision Medicine Initiative
-    - Project Baseline
+- fields:
+    Front: |
+      What are some Verily precision-medicine projects?
+    Back: |
+      - Immunoscape
+      - MS Observational Study
+      - One Brave Idea
+      - Personalized Parkinson's Project
+      - Precision Medicine Initiative
+      - Project Baseline
 
-- Front: |
-    What is Verily's _Immunoscape_ program?
-  Back: |
-    - Comprehensive molecular map of inflammatory disease.
-    - Partner: _Gilead_
+- fields:
+    Front: |
+      What is Verily's _Immunoscape_ program?
+    Back: |
+      - Comprehensive molecular map of inflammatory disease.
+      - Partner: _Gilead_
 
-- Front: |
-    What is Verily's _MS Observational Study_?
-  Back: |
-    - Determine Multiple Sclerosis early intervention options.
-    - Researches environmental, biological, other contributing factors.
-    - Partners: _Biogen_, _Brigham and Women's Hospital_
+- fields:
+    Front: |
+      What is Verily's _MS Observational Study_?
+    Back: |
+      - Determine Multiple Sclerosis early intervention options.
+      - Researches environmental, biological, other contributing factors.
+      - Partners: _Biogen_, _Brigham and Women's Hospital_
 
-- Front: |
-    What is Verily's _One Brave Idea_ program?
-  Back: |
-    - Prevent/reverse coronary heart disease.
-    - Improve cardiovascular health.
-    - Partners: _American Heart Association_, _AstraZeneca_
+- fields:
+    Front: |
+      What is Verily's _One Brave Idea_ program?
+    Back: |
+      - Prevent/reverse coronary heart disease.
+      - Improve cardiovascular health.
+      - Partners: _American Heart Association_, _AstraZeneca_
 
-- Front: |
-    What is Verily's _Personalized Parkinson's Project_?
-  Back: |
-    - Research course of Parkinson's disease.
-    - Identify biological and physiological markers.
-    - Inform better treatment.
-    - Partners: _Radboud UMC_, _ParkinsonNet_
+- fields:
+    Front: |
+      What is Verily's _Personalized Parkinson's Project_?
+    Back: |
+      - Research course of Parkinson's disease.
+      - Identify biological and physiological markers.
+      - Inform better treatment.
+      - Partners: _Radboud UMC_, _ParkinsonNet_
 
-- Front: |
-    What is Verily's _Precision Medicine Initiative_?
-  Back: |
-    - Development of data and research center.
-    - Partner: - _NIH's All of Us_ Research Program
+- fields:
+    Front: |
+      What is Verily's _Precision Medicine Initiative_?
+    Back: |
+      - Development of data and research center.
+      - Partner: - _NIH's All of Us_ Research Program
 
-- Front: |
-    What is Verily's _Project Baseline_?
-  Back: |
-    - Rich dataset and research platform.
-    - Better characterize transitions in health.
-    - Partners: _Duke University_, _Stanford Medicine_
+- fields:
+    Front: |
+      What is Verily's _Project Baseline_?
+    Back: |
+      - Rich dataset and research platform.
+      - Better characterize transitions in health.
+      - Partners: _Duke University_, _Stanford Medicine_
