@@ -1,4 +1,4 @@
-deckName: Misc
+deckName: Staging
 modelName: BasicMathJax
 tags:
 - Misc
@@ -10,42 +10,48 @@ markdownTabLength: 2
 
 notes:
 
-- Front: |
-    What are some Verily intervention projects?
-  Back: |
-    - Debug
-    - Galvani Bioelectronics
-    - Liftware
-    - Retinal Imaging
-    - Verb Surgical
+- fields:
+    Front: |
+      What are some Verily intervention projects?
+    Back: |
+      - Debug
+      - Galvani Bioelectronics
+      - Liftware
+      - Retinal Imaging
+      - Verb Surgical
 
-- Front: |
-    What is Verily's _Debug_ project?
-  Back: |
-    - Stop spread of disease-carrying mosquitoes.
-    - Rear/release sterile males.
+- fields:
+    Front: |
+      What is Verily's _Debug_ project?
+    Back: |
+      - Stop spread of disease-carrying mosquitoes.
+      - Rear/release sterile males.
 
-- Front: |
-    What is Verily's _Galvani Bioelectronics_ project?
-  Back: |
-    - Bioelectronic medicines for chronic diseases.
-    - Partner: _GlaxoSmithKline_.
+- fields:
+    Front: |
+      What is Verily's _Galvani Bioelectronics_ project?
+    Back: |
+      - Bioelectronic medicines for chronic diseases.
+      - Partner: _GlaxoSmithKline_.
 
-- Front: |
-    What is Verily's _Liftware_ project?
-  Back: |
-    - Eating utensils promoting confident/independent eating.
-    - For people with hand tremor or limited arm/hand mobility.
+- fields:
+    Front: |
+      What is Verily's _Liftware_ project?
+    Back: |
+      - Eating utensils promoting confident/independent eating.
+      - For people with hand tremor or limited arm/hand mobility.
 
-- Front: |
-    What is Verily's _Retinal Imaging_ project?
-  Back: |
-    - Solutions for diabetes-related eye disease.
-    - Machine-learning enabled.
-    - Partners: _Nikon,_ its subsidiary _Optos,_ and Google Research.
+- fields:
+    Front: |
+      What is Verily's _Retinal Imaging_ project?
+    Back: |
+      - Solutions for diabetes-related eye disease.
+      - Machine-learning enabled.
+      - Partners: _Nikon,_ its subsidiary _Optos,_ and Google Research.
 
-- Front: |
-    What is Verily's _Verb Surgical_ project?
-  Back: |
-    - Advanced surgical robotics.
-    - Partner: _Ethicon,_ division of _Johnson & Johnson_.
+- fields:
+    Front: |
+      What is Verily's _Verb Surgical_ project?
+    Back: |
+      - Advanced surgical robotics.
+      - Partner: _Ethicon,_ division of _Johnson & Johnson_.
