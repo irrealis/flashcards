@@ -24,3 +24,10 @@ notes:
       What is the runtime complexity of _Depth-First Search_?
     Back: |
       \\(O(|V| + |E|)\\), where \\(V\\) and \\(E\\) are the graph's vertices and edges.
+
+
+- fields:
+    Front: |
+      What is the runtime complexity of _Breadth-First Search_?
+    Back: |
+      \\(O(|V| + |E|)\\), where \\(V\\) and \\(E\\) are the graph's vertices and edges.
