@@ -13,233 +13,244 @@ markdownTabLength: 4
 notes:
 
 
-- Front: |
-    ## 03.01: Longest nondecreasing subsequence
+- fields:
+    Front: |
+      ## 03.01: Longest nondecreasing subsequence
 
-    In genomics, given two gene sequences, we try to find if parts of one gene are the same as the other. Thus it is important to find the longest common subsequence of the two sequences. One way to solve this problem is to construct a new sequence where for each literal in one sequence, we insert its position into the other sequence and then find the longest nondecreasing subsequence of this new subsequence. For example, if the two sequences are \\(\langle 1, 3, 5, 2, 7 \rangle\\) and \\(\langle 1, 2, 3, 5, 7 \rangle\\), we would construct a new sequence where for each position in the first sequence, we would list its position in the second sequence like so, \\(\langle 1, 3, 4, 2, 5\rangle\\). Then we find the 1ongest nondecreasing sequence which is \\(\langle 1, 3, 4, 5 \rangle\\). Now, if we use the numbers of the new sequence as indices into the second sequence, we get \\(\langle 1, 3, 5, 7 \rangle\\) which is our longest common subsequence.
+      In genomics, given two gene sequences, we try to find if parts of one gene are the same as the other. Thus it is important to find the longest common subsequence of the two sequences. One way to solve this problem is to construct a new sequence where for each literal in one sequence, we insert its position into the other sequence and then find the longest nondecreasing subsequence of this new subsequence. For example, if the two sequences are \\(\langle 1, 3, 5, 2, 7 \rangle\\) and \\(\langle 1, 2, 3, 5, 7 \rangle\\), we would construct a new sequence where for each position in the first sequence, we would list its position in the second sequence like so, \\(\langle 1, 3, 4, 2, 5\rangle\\). Then we find the 1ongest nondecreasing sequence which is \\(\langle 1, 3, 4, 5 \rangle\\). Now, if we use the numbers of the new sequence as indices into the second sequence, we get \\(\langle 1, 3, 5, 7 \rangle\\) which is our longest common subsequence.
 
-    Given an array of integers \\(A\\) of length \\(n\\), find the longest sequence \\(\langle i_1, \ldots, i_k \rangle\\) such that \\(i_j < i_{j十1}\\) and \\(A[i_j] \leq A[i_{j+1}\\) for any \\(j \in [1 , k 一 1]\\).
+      Given an array of integers \\(A\\) of length \\(n\\), find the longest sequence \\(\langle i_1, \ldots, i_k \rangle\\) such that \\(i_j < i_{j十1}\\) and \\(A[i_j] \leq A[i_{j+1}\\) for any \\(j \in [1 , k 一 1]\\).
 
-    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 31.
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 31.
 
-  Python: |
-    **To-do: Python.**
+    Python: |
+      **To-do: Python.**
 
-  Java: |
-    **To-do: Java.**
+    Java: |
+      **To-do: Java.**
 
-  C++: |
-    **To-do: C++.**
+    C++: |
+      **To-do: C++.**
 
 
-- Front: |
-    ## 03.02: Frog crossing
+- fields:
+    Front: |
+      ## 03.02: Frog crossing
 
-    DP is often used to compute a plan for performing a task that consists of a series of actions in an optimum way. Here is an example with an interesting twist.
+      DP is often used to compute a plan for performing a task that consists of a series of actions in an optimum way. Here is an example with an interesting twist.
 
-    There is a river that is \\(n\\) meters wide. At every meter from the edge, there may or may not be a stone. A frog needs to cross the river. However the frog has the limitation that if it has just jumped \\(x\\) meters, then its next jump must be between \\(x-1\\) and \\(x+1\\) meters, inclusive. Assume the first jump can be of only 1 meter. Given the position of the stones, how would you determine whether the frog can make it to the other end or not? Analyze the runtime of your algorithm.
+      There is a river that is \\(n\\) meters wide. At every meter from the edge, there may or may not be a stone. A frog needs to cross the river. However the frog has the limitation that if it has just jumped \\(x\\) meters, then its next jump must be between \\(x-1\\) and \\(x+1\\) meters, inclusive. Assume the first jump can be of only 1 meter. Given the position of the stones, how would you determine whether the frog can make it to the other end or not? Analyze the runtime of your algorithm.
 
-    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 31-2.
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 31-2.
 
-  Python: |
-    **To-do: Python.**
+    Python: |
+      **To-do: Python.**
 
-  Java: |
-    **To-do: Java.**
+    Java: |
+      **To-do: Java.**
 
-  C++: |
-    **To-do: C++.**
+    C++: |
+      **To-do: C++.**
 
 
-- Front: |
-    ## 03.03: Cutting paper
+- fields:
+    Front: |
+      ## 03.03: Cutting paper
 
-    We now consider an optimum planning problem in two dimensions. You are given an \\(L \times W\\) rectangular piece of kite-paper, where \\(L\\) and \\(W\\) are positive integers, and a list of \\(n\\) kinds of kites that can be made using the paper. The \\(i\\)-th kite design, \\(i \in [1, n]\\), requires an \\(l_i \times w_i\\) rectangle of kite-paper; this kite sells for \\(p_i\\). Assume \\(l_i, w_i, p_i\\) are positive integers. You have a machine that can cut rectangular pieces of kite-paper either horizontally or vertically.
+      We now consider an optimum planning problem in two dimensions. You are given an \\(L \times W\\) rectangular piece of kite-paper, where \\(L\\) and \\(W\\) are positive integers, and a list of \\(n\\) kinds of kites that can be made using the paper. The \\(i\\)-th kite design, \\(i \in [1, n]\\), requires an \\(l_i \times w_i\\) rectangle of kite-paper; this kite sells for \\(p_i\\). Assume \\(l_i, w_i, p_i\\) are positive integers. You have a machine that can cut rectangular pieces of kite-paper either horizontally or vertically.
 
-    Design an algorithm that computes a profit-maximizing strategy for cutting the kite-paper. You can make as many instances of a given kite as you want. There is no cost to cutting kite-paper.
+      Design an algorithm that computes a profit-maximizing strategy for cutting the kite-paper. You can make as many instances of a given kite as you want. There is no cost to cutting kite-paper.
 
-    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 32.
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 32.
 
-  Python: |
-    **To-do: Python.**
+    Python: |
+      **To-do: Python.**
 
-  Java: |
-    **To-do: Java.**
+    Java: |
+      **To-do: Java.**
 
-  C++: |
-    **To-do: C++.**
+    C++: |
+      **To-do: C++.**
 
 
-- Front: |
-    ## 03.04: Word breaking
+- fields:
+    Front: |
+      ## 03.04: Word breaking
 
-    Suppose you are designing a search engine. In addition to getting keywords from a page's content, you would like to get keywords from URLs. For example, _bedbathandbeyond.com_ should be associated with "bed bath and beyond" (in this version of the problem we also allow "bed bat hand beyond" to be associated with it).
+      Suppose you are designing a search engine. In addition to getting keywords from a page's content, you would like to get keywords from URLs. For example, _bedbathandbeyond.com_ should be associated with "bed bath and beyond" (in this version of the problem we also allow "bed bat hand beyond" to be associated with it).
 
-    Given a dictionary that can tell you whether a string is a valid word or not in constant time and given a string \\(s\\) of length \\(n\\), provide an efficient algorithm that can tell whether \\(s\\) can be reconstituted as a sequence of valid words. In the event that the string is valid, your algorithm should output the corresponding sequence of words.
+      Given a dictionary that can tell you whether a string is a valid word or not in constant time and given a string \\(s\\) of length \\(n\\), provide an efficient algorithm that can tell whether \\(s\\) can be reconstituted as a sequence of valid words. In the event that the string is valid, your algorithm should output the corresponding sequence of words.
 
-    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 32.
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 32.
 
-  Python: |
-    **To-do: Python.**
+    Python: |
+      **To-do: Python.**
 
-  Java: |
-    **To-do: Java.**
+    Java: |
+      **To-do: Java.**
 
-  C++: |
-    **To-do: C++.**
+    C++: |
+      **To-do: C++.**
 
 
-- Front: |
-    ## 03.05: Ties in a presidential election
+- fields:
+    Front: |
+      ## 03.05: Ties in a presidential election
 
-    The US President is elected by the members of the Electoral College. The number of electors per state and Washington, DC range from as few as three to as many as 55. In each state as well as washington, DC, all electors in that state cast their vote for the same candidate.
+      The US President is elected by the members of the Electoral College. The number of electors per state and Washington, DC range from as few as three to as many as 55. In each state as well as washington, DC, all electors in that state cast their vote for the same candidate.
 
-    Suppose there are two candidates in the presidential election. How would you programmatically determine if a tie is a possibility?
+      Suppose there are two candidates in the presidential election. How would you programmatically determine if a tie is a possibility?
 
-    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 33.
-    (Modified from original question, removing "Table 2".)
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 33.
+      (Modified from original question, removing "Table 2".)
 
-  Python: |
-    **To-do: Python.**
+    Python: |
+      **To-do: Python.**
 
-  Java: |
-    **To-do: Java.**
+    Java: |
+      **To-do: Java.**
 
-  C++: |
-    **To-do: C++.**
+    C++: |
+      **To-do: C++.**
 
 
-- Front: |
-    ## 03.06: Red or blue house majority
+- fields:
+    Front: |
+      ## 03.06: Red or blue house majority
 
-    Suppose you want to place a bet on the outcome of the coming elections. Specifically, you are betting if the US House of Representatives will have a Democratic or a Republican majority. A polling company has computed the probability of winning for each candidate in the individual election. You are interested in just one number -- what is the probability that the Republican Party is going to have a majority in the House?
+      Suppose you want to place a bet on the outcome of the coming elections. Specifically, you are betting if the US House of Representatives will have a Democratic or a Republican majority. A polling company has computed the probability of winning for each candidate in the individual election. You are interested in just one number -- what is the probability that the Republican Party is going to have a majority in the House?
 
-    Given that a party needs 223 or more seats to win a majority in the House, how would you compute the probability of a Republican win? Assume each race is independent and that the probability of a Republican winning the race \\(i\\) is \\(p_i\\).
+      Given that a party needs 223 or more seats to win a majority in the House, how would you compute the probability of a Republican win? Assume each race is independent and that the probability of a Republican winning the race \\(i\\) is \\(p_i\\).
 
-    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 33.
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 33.
 
-  Python: |
-    **To-do: Python.**
+    Python: |
+      **To-do: Python.**
 
-  Java: |
-    **To-do: Java.**
+    Java: |
+      **To-do: Java.**
 
-  C++: |
-    **To-do: C++.**
+    C++: |
+      **To-do: C++.**
 
 
-- Front: |
-    ## 03.07: Load balancing
+- fields:
+    Front: |
+      ## 03.07: Load balancing
 
-    Suppose you want to build a large distributed storage system on the web. Millions of users will store terabytes of data on your servers. One way to design the system would be to hash each user's login ID, partition the hash ranges into equal-sized buckets, and store the data for each bucket of users on one server. For this scheme, mapping a user to the server that serves the user is a simple hash computation.
+      Suppose you want to build a large distributed storage system on the web. Millions of users will store terabytes of data on your servers. One way to design the system would be to hash each user's login ID, partition the hash ranges into equal-sized buckets, and store the data for each bucket of users on one server. For this scheme, mapping a user to the server that serves the user is a simple hash computation.
 
-    However if a small number of users occupy a large fraction of the storage space, hashing will not achieve a balanced partition. One way to solve this problem is to make the hash buckets have a nonuniform width based on the load in that hash range.
+      However if a small number of users occupy a large fraction of the storage space, hashing will not achieve a balanced partition. One way to solve this problem is to make the hash buckets have a nonuniform width based on the load in that hash range.
 
-    You have \\(n\\) users with unique hashes \\(h_1\\) through \\(h_n\\) and \\(m\\) servers, numbered 1 to \\(m\\). User \\(i\\) has \\(B_i\\) bytes to store. You need to find numbers \\(K_1\\) through \\(K_m\\) such that all users with hashes between \\(K_j\\) and \\(K_{j十1}\\) get assigned to server \\(j\\). Design an algorithm to find the numbers \\(K_1\\) through \\(K_m\\) that minimizes the load on the most heavily loaded server.
+      You have \\(n\\) users with unique hashes \\(h_1\\) through \\(h_n\\) and \\(m\\) servers, numbered 1 to \\(m\\). User \\(i\\) has \\(B_i\\) bytes to store. You need to find numbers \\(K_1\\) through \\(K_m\\) such that all users with hashes between \\(K_j\\) and \\(K_{j十1}\\) get assigned to server \\(j\\). Design an algorithm to find the numbers \\(K_1\\) through \\(K_m\\) that minimizes the load on the most heavily loaded server.
 
-    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 33-4.
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 33-4.
 
-  Python: |
-    **To-do: Python.**
+    Python: |
+      **To-do: Python.**
 
-  Java: |
-    **To-do: Java.**
+    Java: |
+      **To-do: Java.**
 
-  C++: |
-    **To-do: C++.**
+    C++: |
+      **To-do: C++.**
 
 
-- Front: |
-    ## 03.08: Voltage selection
+- fields:
+    Front: |
+      ## 03.08: Voltage selection
 
-    You are given a logic circuit that can be modeled as a rooted tree --- the leaves are the primary inputs, the internal nodes are the gates, and the root is the single output of the circuit.
+      You are given a logic circuit that can be modeled as a rooted tree --- the leaves are the primary inputs, the internal nodes are the gates, and the root is the single output of the circuit.
 
-    Each gate can be powered by a high or low supply voltage. A gate powered by a lower supply voltage consumes less power but has a weaker output signal. You want to minimize power while ensuring that the circuit is reliable. To ensure reliability, you should not have a gate powered by a low supply voltage drive another gate powered by a low supply voltage. All gates consume 1 nanowatt when connected to the low supply voltage and 2 nanowatts when connected to the high supply voltage.
+      Each gate can be powered by a high or low supply voltage. A gate powered by a lower supply voltage consumes less power but has a weaker output signal. You want to minimize power while ensuring that the circuit is reliable. To ensure reliability, you should not have a gate powered by a low supply voltage drive another gate powered by a low supply voltage. All gates consume 1 nanowatt when connected to the low supply voltage and 2 nanowatts when connected to the high supply voltage.
 
-    Design an efficient algorithm that takes as input a logic circuit and selects supply voltages for each gate to minimize power consumption while ensuring reliable operation.
+      Design an efficient algorithm that takes as input a logic circuit and selects supply voltages for each gate to minimize power consumption while ensuring reliable operation.
 
-    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 34.
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 34.
 
-  Python: |
-    **To-do: Python.**
+    Python: |
+      **To-do: Python.**
 
-  Java: |
-    **To-do: Java.**
+    Java: |
+      **To-do: Java.**
 
-  C++: |
-    **To-do: C++.**
+    C++: |
+      **To-do: C++.**
 
 
-- Front: |
-    ## 03.09: Optimum buffer insertion
+- fields:
+    Front: |
+      ## 03.09: Optimum buffer insertion
 
-    You are given a tree-structured logic circuit that can be modeled as a rooted tree, exactly as in Problem 03.08. Signals degrade as they pass through successive gates.
+      You are given a tree-structured logic circuit that can be modeled as a rooted tree, exactly as in Problem 03.08. Signals degrade as they pass through successive gates.
 
-    You can overcome this degradation by "buffering" gates --- buffering enhances its output but does not change its logical functionality.
+      You can overcome this degradation by "buffering" gates --- buffering enhances its output but does not change its logical functionality.
 
-    How would you efficiently compute the least number of gates to buffer in the circuit so that after buffering, every path of \\(k\\) or more gates has at least one buffered gate? More formally, given a rooted tree, how would you color the edges of the graph in green or red such that no path from a node to any ancestor contains more than \\(k\\) successive red edges and the number of green edges is minimized?
+      How would you efficiently compute the least number of gates to buffer in the circuit so that after buffering, every path of \\(k\\) or more gates has at least one buffered gate? More formally, given a rooted tree, how would you color the edges of the graph in green or red such that no path from a node to any ancestor contains more than \\(k\\) successive red edges and the number of green edges is minimized?
 
-    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 34-5.
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 34-5.
 
-  Python: |
-    **To-do: Python.**
+    Python: |
+      **To-do: Python.**
 
-  Java: |
-    **To-do: Java.**
+    Java: |
+      **To-do: Java.**
 
-  C++: |
-    **To-do: C++.**
+    C++: |
+      **To-do: C++.**
 
 
-- Front: |
-    ## 03.10: Triangulation
+- fields:
+    Front: |
+      ## 03.10: Triangulation
 
-    Let \\(P\\) be a convex polgon with \\(n\\) vertices specified by their \\(x\\) and \\(y\\) coordinates. A triangulation of \\(P\\) is a collection of \\(n-3\\) diagonals of \\(P\\) such that no two diagonals intersect, except possibly at their endpoints. Observe that a triangulation splits the polygon's interior into \\(n-2\\) disjoint triangles. Define the cost of a triangulation to be the sum of the lengths of the diagonals that it is made up of.
+      Let \\(P\\) be a convex polgon with \\(n\\) vertices specified by their \\(x\\) and \\(y\\) coordinates. A triangulation of \\(P\\) is a collection of \\(n-3\\) diagonals of \\(P\\) such that no two diagonals intersect, except possibly at their endpoints. Observe that a triangulation splits the polygon's interior into \\(n-2\\) disjoint triangles. Define the cost of a triangulation to be the sum of the lengths of the diagonals that it is made up of.
 
-    Design an efficient algorithm for finding a triangulation that minimizes the cost.
+      Design an efficient algorithm for finding a triangulation that minimizes the cost.
 
-    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 35.
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 35.
 
-  Python: |
-    **To-do: Python.**
+    Python: |
+      **To-do: Python.**
 
-  Java: |
-    **To-do: Java.**
+    Java: |
+      **To-do: Java.**
 
-  C++: |
-    **To-do: C++.**
+    C++: |
+      **To-do: C++.**
 
 
-- Front: |
-    ## 03.11: Maximizing expressions
+- fields:
+    Front: |
+      ## 03.11: Maximizing expressions
 
-    The value of an arithmetic expression depends upon the order in which the operations are performed. For example, depending upon how one parenthesizes the expression \\(5 - 3 \cdot 4 + 6\\), one can obtain anyone of the following values:
+      The value of an arithmetic expression depends upon the order in which the operations are performed. For example, depending upon how one parenthesizes the expression \\(5 - 3 \cdot 4 + 6\\), one can obtain anyone of the following values:
 
-    \\[
-    \begin{align}
-      -25 & = 5 - (3 \cdot (4 + 6)) \\\\
-      -13 & = 5 - ((3 \cdot 4) + 6) \\\\
-       20 & = (5 - 3) \cdot (4 + 6) \\\\
-       -1 & = (5 - (3 \cdot 4)) + 6 \\\\
-       14 & = ((5 - 3) \cdot 4) + 6
-    \end{align}
-    \\]
+      \\[
+      \begin{align}
+        -25 & = 5 - (3 \cdot (4 + 6)) \\\\
+        -13 & = 5 - ((3 \cdot 4) + 6) \\\\
+         20 & = (5 - 3) \cdot (4 + 6) \\\\
+         -1 & = (5 - (3 \cdot 4)) + 6 \\\\
+         14 & = ((5 - 3) \cdot 4) + 6
+      \end{align}
+      \\]
 
-    Given an unparenthesized expression of the form \\(v_0 \circ_0 v_1 \circ_1 \cdots \circ_{n-2} v_{n-1}\\), where \\(v_0, \ldots, v_{n-1}\\) are operands with known real values and \\(\circ_0, \ldots, \circ_{n-2}\\) are specified operations, we want to parenthesize the expression so as to maximize its value.
+      Given an unparenthesized expression of the form \\(v_0 \circ_0 v_1 \circ_1 \cdots \circ_{n-2} v_{n-1}\\), where \\(v_0, \ldots, v_{n-1}\\) are operands with known real values and \\(\circ_0, \ldots, \circ_{n-2}\\) are specified operations, we want to parenthesize the expression so as to maximize its value.
 
-    1. Devise an algorithm to solve this problem in the special case that the operands are all positive and the only operations are \\(\cdot\\) and \\(+\\).
+      1. Devise an algorithm to solve this problem in the special case that the operands are all positive and the only operations are \\(\cdot\\) and \\(+\\).
 
-    2. Explain how you would modify your algorithm to deal with the case in which the operands can be positive and negative and \\(+\\) and \\(-\\) are the only operations.
+      2. Explain how you would modify your algorithm to deal with the case in which the operands can be positive and negative and \\(+\\) and \\(-\\) are the only operations.
 
-    3. Suggest how you would generalize your approach to include multiplication and division (pretend divide-by-zero never occurs).
+      3. Suggest how you would generalize your approach to include multiplication and division (pretend divide-by-zero never occurs).
 
-    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 35.
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 35.
 
-  Python: |
-    **To-do: Python.**
+    Python: |
+      **To-do: Python.**
 
-  Java: |
-    **To-do: Java.**
+    Java: |
+      **To-do: Java.**
 
-  C++: |
-    **To-do: C++.**
+    C++: |
+      **To-do: C++.**
