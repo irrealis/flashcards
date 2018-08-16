@@ -13,84 +13,88 @@ markdownTabLength: 4
 notes:
 
 
-- Front: |
-    ## 02.10: Merging sorted arrays
+- fields:
+    Front: |
+      ## 02.10: Merging sorted arrays
 
-    You are given 500 files, each containing stock quote information for an SP500 company. Each line contains an update of the following form:
+      You are given 500 files, each containing stock quote information for an SP500 company. Each line contains an update of the following form:
 
-    ```
-    1232111 131 B 1000 270
-    2212313 246 S 100 111.01
-    ```
+      ```
+      1232111 131 B 1000 270
+      2212313 246 S 100 111.01
+      ```
 
-    The first number is the update time expressed as the number of milliseconds since the start of the day's trading. Each file individually is sorted by this value. Your task is to create a single file containing all the updates sorted by the update time. The individual files are of the order of 1-100 megabytes; the combined file will be of the order of 5 gigabytes.
+      The first number is the update time expressed as the number of milliseconds since the start of the day's trading. Each file individually is sorted by this value. Your task is to create a single file containing all the updates sorted by the update time. The individual files are of the order of 1-100 megabytes; the combined file will be of the order of 5 gigabytes.
 
-    Design an algorithm that takes the files as described above and writes a single file containing the lines appearing in the individual files sorted by the update time. The algorithm should use very little memory, ideally of the order of a few kilobytes.
+      Design an algorithm that takes the files as described above and writes a single file containing the lines appearing in the individual files sorted by the update time. The algorithm should use very little memory, ideally of the order of a few kilobytes.
 
-    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 27.
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 27.
 
-  Python: |
-    **To-do: Python.**
+    Python: |
+      **To-do: Python.**
 
-  Java: |
-    **To-do: Java.**
+    Java: |
+      **To-do: Java.**
 
-  C++: |
-    **To-do: C++.**
-
-
-- Front: |
-    ## 02.11: Approximate sort
-
-    Consider a situation where your data is almost sorted --- for example, you are receiving time-stamped stock quotes and earlier quotes may arrive after later quotes because of differences in server loads and network routes. What would be the most efficient way of restoring the total order?
-
-    There is a very long stream of integers arriving as an input such that each integer is at most one thousand positions away from its correctly sorted position. Design an algorithm that outputs the integers in the correct order and uses only a constant amount of storage, i.e., the memory used should be independent of the number of integers processed.
-
-    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 27.
-
-  Python: |
-    **To-do: Python.**
-
-  Java: |
-    **To-do: Java.**
-
-  C++: |
-    **To-do: C++.**
+    C++: |
+      **To-do: C++.**
 
 
-- Front: |
-    ## 02.12: Running averages
+- fields:
+    Front: |
+      ## 02.11: Approximate sort
 
-    Suppose you are given a real-valued time series (e.g., temperature measured by a sensor) with some noise added to it. In order to extract meaningful trends from noisy time series data, it is necessary to perform smoothing. If the noise has a Gaussian distribution and the noise added to successive samples is independent and identically distributed, then the running average does a good job of smoothing. However if the noise can have an arbitrary distribution, then the running median does a better job.
+      Consider a situation where your data is almost sorted --- for example, you are receiving time-stamped stock quotes and earlier quotes may arrive after later quotes because of differences in server loads and network routes. What would be the most efficient way of restoring the total order?
 
-    Given a sequence of trillion real numbers on a disk, how would you compute the running mean of every thousand entries, i.e., the first point would be the mean of \\(a[0],\ldots,a[999]\\), the second point would be the mean of \\(a[1],\ldots,a[1000]\\), the third point would be the mean of \\(a[2],\ldots,a[1001]\\), etc.? Repeat the calculation for median rather than mean.
+      There is a very long stream of integers arriving as an input such that each integer is at most one thousand positions away from its correctly sorted position. Design an algorithm that outputs the integers in the correct order and uses only a constant amount of storage, i.e., the memory used should be independent of the number of integers processed.
 
-    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 27-8.
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 27.
 
-  Python: |
-    **To-do: Python.**
+    Python: |
+      **To-do: Python.**
 
-  Java: |
-    **To-do: Java.**
+    Java: |
+      **To-do: Java.**
 
-  C++: |
-    **To-do: C++.**
+    C++: |
+      **To-do: C++.**
 
 
-- Front: |
-    ## 02.13: Circuit simulation
+- fields:
+    Front: |
+      ## 02.12: Running averages
 
-    While performing timing analysis of a digital circuit, a component is characterized by a Boolean function of the Boolean values at its inputs and the delay of propagating changes from the inputs to the output. For example, a gate may compute the AND function and have a delay of 1 nanosecond from each input to the output or a wire may simply propagate signal from one end to another in 0.5 nanoseconds. In order to simulate how the entire circuit would behave when a set of inputs are given to the circuit, we use "event-driven simulation". Here each event represents a change in the signal value and triggers one or more events in the future.
+      Suppose you are given a real-valued time series (e.g., temperature measured by a sensor) with some noise added to it. In order to extract meaningful trends from noisy time series data, it is necessary to perform smoothing. If the noise has a Gaussian distribution and the noise added to successive samples is independent and identically distributed, then the running average does a good job of smoothing. However if the noise can have an arbitrary distribution, then the running median does a better job.
 
-    You are given a set of nodes, \\(V_1,\ldots,V_n\\) such that the value for each node at time \\(t_0\\) is 0. An event \\(\langle t,v,p \rangle\\) is a triplet that represents change in the value for node \\(v\\) at time \\(t\\) to potential \\(p\\) (\\(p\\) can be either 0 or 1). You are given a set of input events. Each node \\(v_i\\) also has a function \\(F_i\\) associated with it that maps an input event to a set of output events (output events can happen only after an input event). How would you efficiently compute all the events that will happen as a result of the input events?
+      Given a sequence of trillion real numbers on a disk, how would you compute the running mean of every thousand entries, i.e., the first point would be the mean of \\(a[0],\ldots,a[999]\\), the second point would be the mean of \\(a[1],\ldots,a[1000]\\), the third point would be the mean of \\(a[2],\ldots,a[1001]\\), etc.? Repeat the calculation for median rather than mean.
 
-    --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 28.
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 27-8.
 
-  Python: |
-    **To-do: Python.**
+    Python: |
+      **To-do: Python.**
 
-  Java: |
-    **To-do: Java.**
+    Java: |
+      **To-do: Java.**
 
-  C++: |
-    **To-do: C++.**
+    C++: |
+      **To-do: C++.**
+
+
+- fields:
+    Front: |
+      ## 02.13: Circuit simulation
+
+      While performing timing analysis of a digital circuit, a component is characterized by a Boolean function of the Boolean values at its inputs and the delay of propagating changes from the inputs to the output. For example, a gate may compute the AND function and have a delay of 1 nanosecond from each input to the output or a wire may simply propagate signal from one end to another in 0.5 nanoseconds. In order to simulate how the entire circuit would behave when a set of inputs are given to the circuit, we use "event-driven simulation". Here each event represents a change in the signal value and triggers one or more events in the future.
+
+      You are given a set of nodes, \\(V_1,\ldots,V_n\\) such that the value for each node at time \\(t_0\\) is 0. An event \\(\langle t,v,p \rangle\\) is a triplet that represents change in the value for node \\(v\\) at time \\(t\\) to potential \\(p\\) (\\(p\\) can be either 0 or 1). You are given a set of input events. Each node \\(v_i\\) also has a function \\(F_i\\) associated with it that maps an input event to a set of output events (output events can happen only after an input event). How would you efficiently compute all the events that will happen as a result of the input events?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 28.
+
+    Python: |
+      **To-do: Python.**
+
+    Java: |
+      **To-do: Java.**
+
+    C++: |
+      **To-do: C++.**
