@@ -54,3 +54,14 @@ notes:
       Let \\(G = (V , E)\\) be a connected undirected graph. How would you efficiently check if \\(G\\) is \\(2\exists\\)-connected? Can you make you algorithm run in \\(O(|V|)\\) time? How would you check if \\(G\\) is \\(2\forall\\)-connected?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 43.
+
+
+- fields:
+    Front: |
+      ## 04.04: PCB wiring
+
+      Consider a collection of \\(p\\) electrical pins. For each pair of pins, there may or may not be a wire joining them. There are \\(w\\) pairs of pins with a wire joining them.
+
+      Give an \\(O(p + w)\\) time algorithm that determines if it is possible to place some of the pins on the left half of a PCB and the rest of the right half such that each wire is between a pin on the left and a pin on the right. Your algorithm should return a placement, should one exist.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 43.
