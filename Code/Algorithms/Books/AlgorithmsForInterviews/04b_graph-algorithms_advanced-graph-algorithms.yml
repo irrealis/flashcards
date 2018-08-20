@@ -165,3 +165,16 @@ notes:
       Design an algorithm for pairing bidders with celebrities to maximize the revenue from the dance.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 50.
+
+
+- fields:
+    Front: |
+      ## 04.24: 2-SAT
+
+      A Boolean logic expression is said to be in conjunctive normal form (CNF) if complementation is only applied to variables; the operation \\(+\\) is applied to variables or their negation. For example, \\((a+b+c')\cdot(a'+b)\cdot(a+c'+d)\\) is in CNF. The terms \\(a+b+c'\\), \\(a'+b\\), and \\(a+c'+d\\) are referred to as clauses.
+
+      Determining whether an expression in CNF is satisfiable is conjectured to be intractable --- i. e., no polynomial time algorithm exists for this problem. However some variants of CNF can be solved in polynomial time.
+
+      Design a linear-time algorithm for checking if a CNF in which each clause contains no more than two variables is satisfiable.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 50.
