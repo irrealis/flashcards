@@ -76,3 +76,14 @@ notes:
       Devise an efficient algorithm which takes a social network and computes for each individual his extended contacts.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 44.
+
+
+- fields:
+    Front: |
+      ## 04.06: Euler tour
+
+      An Euler tour of a connected directed graph \\(G = (V, E)\\) is a cycle that includes each edge of \\(G\\) exactly once; it may repeat vertices more than once.
+
+      Design a linear-time algorithm to find an Euler tour if one exists.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 44.
