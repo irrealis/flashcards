@@ -65,3 +65,14 @@ notes:
       Find a strategy which gets you to the treasure room in the minimum expected time.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 47-8.
+
+
+- fields:
+    Front: |
+      ## 04.16: Traveling salesman with a choice
+
+      Suppose you are a salesman with a set of cities to visit. If you visit city \\(i\\), you can make \\(p(i)\\) profit. The cost of going from city \\(i\\) to city \\(j\\) is \\(c(i , j) > O\\). You want to establish a route for yourself such that you start from a city, visit a set of cities, and then come back to the original city. You can choose to ignore certain cities if you like. Your objective is to maximize the ratio of profit-to-cost.
+
+      Devise an efficient algorithm for finding a route which maximizes the ratio of the total profit to the total cost.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 48.
