@@ -1,14 +1,20 @@
-deckName: Staging
-modelName: CodingProblems
-tags:
-- Code
-- Algorithms
-- Books
-- AlgorithmsForInterviews
-- 02-Sorting
-- 02b-MaxHeap
+defaults:
+  deckName: Staging
+  modelName: CodingProblems
+  tags:
+  - Code
+  - Algorithms
+  - Books
+  - AlgorithmsForInterviews
+  - 02-Sorting
+  - 02b-MaxHeap
 
-markdownTabLength: 4
+  fields:
+    Python: "**To-do: Python.**"
+    Java: "**To-do: Java.**"
+    C++: "**To-do: C++.**"
+
+  markdownTabLength: 4
 
 notes:
 
@@ -30,15 +36,6 @@ notes:
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 27.
 
-    Python: |
-      **To-do: Python.**
-
-    Java: |
-      **To-do: Java.**
-
-    C++: |
-      **To-do: C++.**
-
 
 - fields:
     Front: |
@@ -49,15 +46,6 @@ notes:
       There is a very long stream of integers arriving as an input such that each integer is at most one thousand positions away from its correctly sorted position. Design an algorithm that outputs the integers in the correct order and uses only a constant amount of storage, i.e., the memory used should be independent of the number of integers processed.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 27.
-
-    Python: |
-      **To-do: Python.**
-
-    Java: |
-      **To-do: Java.**
-
-    C++: |
-      **To-do: C++.**
 
 
 - fields:
@@ -70,15 +58,6 @@ notes:
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 27-8.
 
-    Python: |
-      **To-do: Python.**
-
-    Java: |
-      **To-do: Java.**
-
-    C++: |
-      **To-do: C++.**
-
 
 - fields:
     Front: |
@@ -89,12 +68,3 @@ notes:
       You are given a set of nodes, \\(V_1,\ldots,V_n\\) such that the value for each node at time \\(t_0\\) is 0. An event \\(\langle t,v,p \rangle\\) is a triplet that represents change in the value for node \\(v\\) at time \\(t\\) to potential \\(p\\) (\\(p\\) can be either 0 or 1). You are given a set of input events. Each node \\(v_i\\) also has a function \\(F_i\\) associated with it that maps an input event to a set of output events (output events can happen only after an input event). How would you efficiently compute all the events that will happen as a result of the input events?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 28.
-
-    Python: |
-      **To-do: Python.**
-
-    Java: |
-      **To-do: Java.**
-
-    C++: |
-      **To-do: C++.**
