@@ -32,3 +32,15 @@ notes:
       What is the runtime complexity of _Breadth-First Search_?
     Back: |
       \\(O(|V| + |E|)\\), where \\(V\\) and \\(E\\) are the graph's vertices and edges.
+
+
+- fields:
+    Front: |
+      What are four essential graph problems that can be solved in polynomial time?
+    Back: |
+      - Matching
+      - Shortest paths
+      - Max flow
+      - Minimum spanning tree
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 47.
