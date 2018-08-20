@@ -148,3 +148,20 @@ notes:
        Design an efficient algorithm for computing the minimum number of subsets of teams so that the teams in each subset can be organized to appear in one photograph, subject to the placement constraint and each team appears in some subset.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 50.
+
+
+- fields:
+    Front: |
+      ## 04.23: Dancing with the stars
+
+      You are organizing a celebrity dance charity. Specifically, a number of celebrities have offered to be partners for a ballroom dance. The general public has been invited to offer bids on how much they are willing to pay for a dance with each celebrity.
+
+      Some rules governing the dance are:
+
+      1. each celebrity will dance once at the most,
+      2. each bidder will dance once at the most, and
+      3. the celebrities and the bidders are disjoint.
+
+      Design an algorithm for pairing bidders with celebrities to maximize the revenue from the dance.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 50.
