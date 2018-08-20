@@ -124,3 +124,14 @@ notes:
       Given a logic network with primary inputs changing, find the smallest time after which all the primary outputs no longer change.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 45.
+
+
+- fields:
+    Front: |
+      ## 04.10: Team photo day --- 1
+
+      You are a photographer for a soccer meet. You will be taking pictures of pairs of opposing teams. Each team has 20 players on its roster. Each picture will consist of two rows of players, one row for each of the two teams. You want to place the players so that if Player \\(A\\) stands behind Player \\(B\\), he must be taller than Player \\(B\\).
+
+      Describe an efficient method that takes as input two the heights of the players in the teams and checks if it is possible to place players to take the picture -- if it is possible, your function should print which team comes to the front and the order in which the players appear. How would you generalize your approach to determine the largest number of teams that can be photographed simultaneously subject to the same constraints?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 45.
