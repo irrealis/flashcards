@@ -87,3 +87,16 @@ notes:
       Design a linear-time algorithm to find an Euler tour if one exists.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 44.
+
+
+- fields:
+    Front: |
+      ## 04.07: Ephemeral state in a finite state machine
+
+      A finite state machine (FSM) is a set of states \\(S\\), a set of inputes \\(I\\), and a transition function \\(T: S \times I \rightarrow S\\). If \\(T(s, i) = u\\), we say that _\\(s\\) leads to \\(u\\)_ on application of input \\(i\\). The transition function \\(T\\) can be generalized to sequences of inputs -- if \\(\iota = \langle i_0, i_1, \ldots, i_{n-1} \rangle\\), the \\(T(s, \iota) = s\\) if \\(n=0\\); otherwise, \\(T(s, \iota) = T(T(s, \langle i_0, i_1, \ldots, i_{n-2} \rangle), i_{n-1})\\).
+
+      The state \\(e\\) is said to be _ephemeral_ if there is a sequence of inputs \\(\alpha\\) such that there does not exist an input sequence \\(\beta\\) for which \\(T(T(e, \alpha), \beta)) = e\\). Informally, \\(e\\) is ephemeral if there is a possibility of the FSM starting at \\(e\\) and getting to a state \\(f\\) from which it cannot return to \\(e\\).
+
+      Define an efficient algorithm which takes an FSM and returns the set of ephemeral states.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 44.
