@@ -1,14 +1,20 @@
-deckName: Staging
-modelName: CodingProblems
-tags:
-- Code
-- Algorithms
-- Books
-- AlgorithmsForInterviews
-- 01-Searching
-- 01a-BinarySearch
+defaults:
+  deckName: Staging
+  modelName: CodingProblems
+  tags:
+  - Code
+  - Algorithms
+  - Books
+  - AlgorithmsForInterviews
+  - 01-Searching
+  - 01a-BinarySearch
 
-markdownTabLength: 4
+  fields:
+    Python: "**To-do: Python.**"
+    Java: "**To-do: Java.**"
+    C++: "**To-do: C++.**"
+
+  markdownTabLength: 4
 
 notes:
 
@@ -56,12 +62,6 @@ notes:
             assert actual == expected
       ```
 
-    Java: |
-      **To-do: Java.**
-
-    C++: |
-      **To-do: C++.**
-
 
 - fields:
     Front: |
@@ -70,15 +70,6 @@ notes:
       Write a method that takes a sorted array \\(A\\) of integers and a key \\(k\\) and returns the index of first occurrence of \\(k\\) in \\(A\\). Return \\(-1\\) if \\(k\\) does not appear in \\(A\\). Write tests to verify your code.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 16.
-
-    Python: |
-      **To-do: Python.**
-
-    Java: |
-      **To-do: Java.**
-
-    C++: |
-      **To-do: C++.**
 
 
 - fields:
@@ -89,15 +80,6 @@ notes:
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 16.
 
-    Python: |
-      **To-do: Python.**
-
-    Java: |
-      **To-do: Java.**
-
-    C++: |
-      **To-do: C++.**
-
 
 - fields:
     Front: |
@@ -106,15 +88,6 @@ notes:
       Suppose that in addition to being sorted, the entries of \\(A\)) are distinct integers. Design an efficient algorithm for finding an index \((i\)) such that \\(A[i]=i\\) or indicating that no such index exists.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 16.
-
-    Python: |
-      **To-do: Python.**
-
-    Java: |
-      **To-do: Java.**
-
-    C++: |
-      **To-do: C++.**
 
 
 
@@ -128,15 +101,6 @@ notes:
 
       &mdash; Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 16.
 
-    Python: |
-      **To-do: Python.**
-
-    Java: |
-      **To-do: Java.**
-
-    C++: |
-      **To-do: C++.**
-
 
 - fields:
     Front: |
@@ -147,15 +111,6 @@ notes:
       Given a file of roughly 300 million social security numbers (9-digit numbers), find a 9-digit number that is not in the file. You have unlimited drive space but only 2 megabytes of RAM at your disposal.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 16.
-
-    Python: |
-      **To-do: Python.**
-
-    Java: |
-      **To-do: Java.**
-
-    C++: |
-      **To-do: C++.**
 
 
 - fields:
@@ -170,12 +125,3 @@ notes:
       2. \\(n \ll m\\)?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 17.
-
-    Python: |
-      **To-do: Python.**
-
-    Java: |
-      **To-do: Java.**
-
-    C++: |
-      **To-do: C++.**
