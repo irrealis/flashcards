@@ -1,10 +1,11 @@
-deckName: Staging
-modelName: BasicMathJax
-tags:
-- Code
-- Facts
+defaults:
+  deckName: Staging
+  modelName: BasicMathJax
+  tags:
+  - Code
+  - Facts
 
-markdownTabLength: 4
+  markdownTabLength: 4
 
 notes:
 
