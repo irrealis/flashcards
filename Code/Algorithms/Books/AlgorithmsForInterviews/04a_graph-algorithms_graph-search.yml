@@ -135,3 +135,16 @@ notes:
       Describe an efficient method that takes as input two the heights of the players in the teams and checks if it is possible to place players to take the picture -- if it is possible, your function should print which team comes to the front and the order in which the players appear. How would you generalize your approach to determine the largest number of teams that can be photographed simultaneously subject to the same constraints?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 45.
+
+
+- fields:
+    Front: |
+      ## 04.11: Assigning radio frequencies
+
+      If two neighboring radio stations are using the same radio frequency, there would be a region geographically between them where the signal from both stations would be equally strong and the resulting interference would cause neither of the signals to be usable. Hence neighboring radio stations try to pick different frequencies. Consider the problem where we have just two frequencies available and we are given a neighborhood graph of a set of radio stations. We are supposed to assign the frequencies to the radio stations such that the interference is minimized. Suppose we are interested in a simpler problem where we are happy if for any given radio station, the majority of its neighbors use a different frequency from the given station. This can be modeled as a graph coloring problem.
+
+      Let \\(G = (V, E)\\) be an undirected graph. A two-coloring of \\(G\\) is a function assigning each vertex of \\(G\\) to black or white. Call a two-coloring diverse if each vertex has at least half its neighbors opposite in color to itself.
+
+      Does every graph have a diverse coloring? How would you compute a diverse coloring, if it exists?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 45-6.
