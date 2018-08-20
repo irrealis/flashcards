@@ -18,3 +18,15 @@ defaults:
 
 
 notes:
+
+- fields:
+    Front: |
+      ## 04.12: Shortest path with fewest edges
+
+      In the usual formulation of the shortest path problem, the number of edges in the path is not a consideration.
+
+      Heuristically, if we did want to avoid paths with a large number of edges, we can add a small amount to the cost of each edge. However depending on the structure of the graph and the edge costs, this may not result in the shortest path.
+
+      Design an algorithm which takes as input a graph \\(G = (V , E)\\), directed or undirected, a nonnegative cost function on \\(E\\) and vertices \\(s\\) and \\(t\\); your algorithm should output a path with the fewest edges amongst all shortest paths from \\(s\\) to \\(t\\).
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 47.
