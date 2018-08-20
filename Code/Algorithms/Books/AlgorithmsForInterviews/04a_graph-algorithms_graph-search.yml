@@ -1,17 +1,23 @@
-deckName: Staging
-modelName: CodingProblems
-tags:
-- Code
-- Algorithms
-- Books
-- AlgorithmsForInterviews
-- 04-AlgorithmsOnGraphs
-- 04a-GraphSearch
+defaults:
+  deckName: Staging
+  modelName: CodingProblems
+  tags:
+  - Code
+  - Algorithms
+  - Books
+  - AlgorithmsForInterviews
+  - 04-AlgorithmsOnGraphs
+  - 04a-GraphSearch
 
-markdownTabLength: 4
+  fields:
+    Python: "**To-do: Python.**"
+    Java: "**To-do: Java.**"
+    C++: "**To-do: C++.**"
+
+  markdownTabLength: 4
+
 
 notes:
-
 
 - fields:
     Front: |
@@ -23,15 +29,6 @@ notes:
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 42-3.
 
-    Python: |
-      **To-do: Python.**
-
-    Java: |
-      **To-do: Java.**
-
-    C++: |
-      **To-do: C++.**
-
 
 - fields:
     Front: |
@@ -42,15 +39,6 @@ notes:
       How would you efficiently return an array \\(A[0 \ldots h]\\), where \\(h\\) is the height of the tree and \\(A[i]\\) is the head of a linked list of all the nodes in the tree that are at height \\(i\\)?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 43.
-
-    Python: |
-      **To-do: Python.**
-
-    Java: |
-      **To-do: Java.**
-
-    C++: |
-      **To-do: C++.**
 
 
 - fields:
@@ -66,12 +54,3 @@ notes:
       Let \\(G = (V , E)\\) be a connected undirected graph. How would you efficiently check if \\(G\\) is \\(2\exists\\)-connected? Can you make you algorithm run in \\(O(|V|)\\) time? How would you check if \\(G\\) is \\(2\forall\\)-connected?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 43.
-
-    Python: |
-      **To-do: Python.**
-
-    Java: |
-      **To-do: Java.**
-
-    C++: |
-      **To-do: C++.**
