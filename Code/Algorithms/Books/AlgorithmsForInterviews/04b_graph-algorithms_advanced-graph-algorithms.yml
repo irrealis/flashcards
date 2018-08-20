@@ -100,3 +100,14 @@ notes:
       Devise an algorithm which takes the preferences of the students and the professors and pairs a student with his adviser. There should be no student-adviser pair  \\((s_0 , a_0)\\) and \\((s_l , a_1)\\) such that \\(s_0\\) prefers \\(a_1\\) to \\(a_0\\) and \\(a_1\\) prefers \\(s_0\\) to \\(s_1\\).
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 48.
+
+
+- fields:
+    Front: |
+      ## 04.19: Arbitrage
+
+      You are exploring the remote valleys of Papua New Guinea, one of the last uncharted places in the world. You come across a tribe that does not have money --- instead it relies on the barter system. There are \\(N\\) commodities which are traded and the exchange rates are specified by a two-dimensional matrix. For example, three sheep can be exchanged for seven goats; four goats can be exchanged for 200 pounds of wheat, etc.
+
+      Devise an efficient algorithm to determine whether or not there exists an arbitrage --- a way to start with a single unit of some commodity \\(C\\) and convert it back to more than one unit of \\(C\\) through a sequence of exchanges. Assume there are no transaction costs, rates do not fluctuate, and that fractional quantities of items can be sold.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 49.
