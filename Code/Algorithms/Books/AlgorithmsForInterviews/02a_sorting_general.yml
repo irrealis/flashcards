@@ -1,14 +1,20 @@
-deckName: Staging
-modelName: CodingProblems
-tags:
-- Code
-- Algorithms
-- Books
-- AlgorithmsForInterviews
-- 02-Sorting
-- 02a-General
+defaults:
+  deckName: Staging
+  modelName: CodingProblems
+  tags:
+  - Code
+  - Algorithms
+  - Books
+  - AlgorithmsForInterviews
+  - 02-Sorting
+  - 02a-General
 
-markdownTabLength: 4
+  fields:
+    Python: "**To-do: Python.**"
+    Java: "**To-do: Java.**"
+    C++: "**To-do: C++.**"
+
+  markdownTabLength: 4
 
 notes:
 
@@ -42,15 +48,6 @@ notes:
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 24.
 
-    Python: |
-      **To-do: Python.**
-
-    Java: |
-      **To-do: Java.**
-
-    C++: |
-      **To-do: C++.**
-
 
 - fields:
     Front: |
@@ -62,15 +59,6 @@ notes:
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 24.
 
-    Python: |
-      **To-do: Python.**
-
-    Java: |
-      **To-do: Java.**
-
-    C++: |
-      **To-do: C++.**
-
 
 - fields:
     Front: |
@@ -81,15 +69,6 @@ notes:
       Find the min and max elements from a set of \\(N\\) elements using no more than \\(\frac{3N}{2}-1\\) comparisons.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 24.
-
-    Python: |
-      **To-do: Python.**
-
-    Java: |
-      **To-do: Java.**
-
-    C++: |
-      **To-do: C++.**
 
 
 - fields:
@@ -104,15 +83,6 @@ notes:
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 24-5.
 
-    Python: |
-      **To-do: Python.**
-
-    Java: |
-      **To-do: Java.**
-
-    C++: |
-      **To-do: C++.**
-
 
 - fields:
     Front: |
@@ -123,15 +93,6 @@ notes:
       Design a sorting algorithm that minimizes the total distance that the statues are moved.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 25.
-
-    Python: |
-      **To-do: Python.**
-
-    Java: |
-      **To-do: Java.**
-
-    C++: |
-      **To-do: C++.**
 
 
 - fields:
@@ -144,15 +105,6 @@ notes:
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 25-6.
 
-    Python: |
-      **To-do: Python.**
-
-    Java: |
-      **To-do: Java.**
-
-    C++: |
-      **To-do: C++.**
-
 
 - fields:
     Front: |
@@ -164,15 +116,6 @@ notes:
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 26.
 
-    Python: |
-      **To-do: Python.**
-
-    Java: |
-      **To-do: Java.**
-
-    C++: |
-      **To-do: C++.**
-
 
 - fields:
     Front: |
@@ -183,12 +126,3 @@ notes:
       How would you create a set of first names that has each name occurring only once? Specifically, design an efficient algorithm for removing all the duplicates from an array.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 26.
-
-    Python: |
-      **To-do: Python.**
-
-    Java: |
-      **To-do: Java.**
-
-    C++: |
-      **To-do: C++.**
