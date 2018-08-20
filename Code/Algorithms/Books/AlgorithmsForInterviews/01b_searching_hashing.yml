@@ -1,14 +1,20 @@
-deckName: Staging
-modelName: CodingProblems
-tags:
-- Code
-- Algorithms
-- Books
-- AlgorithmsForInterviews
-- 01-Searching
-- 01b-Hashing
+defaults:
+  deckName: Staging
+  modelName: CodingProblems
+  tags:
+  - Code
+  - Algorithms
+  - Books
+  - AlgorithmsForInterviews
+  - 01-Searching
+  - 01b-Hashing
 
-markdownTabLength: 4
+  fields:
+    Python: "**To-do: Python.**"
+    Java: "**To-do: Java.**"
+    C++: "**To-do: C++.**"
+
+  markdownTabLength: 4
 
 notes:
 
@@ -23,15 +29,6 @@ notes:
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 18.
 
-    Python: |
-      **To-do: Python.**
-
-    Java: |
-      **To-do: Java.**
-
-    C++: |
-      **To-do: C++.**
-
 
 - fields:
     Front: |
@@ -43,15 +40,6 @@ notes:
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 18.
 
-    Python: |
-      **To-do: Python.**
-
-    Java: |
-      **To-do: Java.**
-
-    C++: |
-      **To-do: C++.**
-
 
 - fields:
     Front: |
@@ -62,15 +50,6 @@ notes:
       You are required to write a method that takes two text documents: an anonymous letter \\(L\\) and a text from a magazine \\(M\\). Your method is to return tru if \\(L\\) can be written using \\(M\\) and false otherwise. (If a letter appears \\(k\\) times in \\(L\\), it must appear at least \\(k\\) times in \\(M\\).)
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 18.
-
-    Python: |
-      **To-do: Python.**
-
-    Java: |
-      **To-do: Java.**
-
-    C++: |
-      **To-do: C++.**
 
 
 - fields:
@@ -85,15 +64,6 @@ notes:
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 18.
 
-    Python: |
-      **To-do: Python.**
-
-    Java: |
-      **To-do: Java.**
-
-    C++: |
-      **To-do: C++.**
-
 
 - fields:
     Front: |
@@ -104,15 +74,6 @@ notes:
       Given an array \\(A\\) of integers, find an integer \\(k\\) that is not present in \\(A\\). Assume that the integers are 32-bit signed integers.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 18-9.
-
-    Python: |
-      **To-do: Python.**
-
-    Java: |
-      **To-do: Java.**
-
-    C++: |
-      **To-do: C++.**
 
 
 - fields:
@@ -125,15 +86,6 @@ notes:
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 19.
 
-    Python: |
-      **To-do: Python.**
-
-    Java: |
-      **To-do: Java.**
-
-    C++: |
-      **To-do: C++.**
-
 
 - fields:
     Front: |
@@ -145,15 +97,6 @@ notes:
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 19.
 
-    Python: |
-      **To-do: Python.**
-
-    Java: |
-      **To-do: Java.**
-
-    C++: |
-      **To-do: C++.**
-
 
 - fields:
     Front: |
@@ -164,12 +107,3 @@ notes:
       You are reading a sequence o strings separated by white space from a very large stream. You are allowed to read the stream twice. Devise an algorithm that uses only \\(O(k)\\) memory to identify all the words that occur more than \\(\lceil \frac{n}{k} \rceil\\) times in the stream, where \\(n\\) is the length of the stream.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 19-20.
-
-    Python: |
-      **To-do: Python.**
-
-    Java: |
-      **To-do: Java.**
-
-    C++: |
-      **To-do: C++.**
