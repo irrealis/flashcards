@@ -111,3 +111,14 @@ notes:
       Devise an efficient algorithm to determine whether or not there exists an arbitrage --- a way to start with a single unit of some commodity \\(C\\) and convert it back to more than one unit of \\(C\\) through a sequence of exchanges. Assume there are no transaction costs, rates do not fluctuate, and that fractional quantities of items can be sold.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 49.
+
+
+- fields:
+    Front: |
+      ## 04.20: Birkhoff -- Von Neumann decomposition
+
+      A crossbar is a piece of networking hardware which has a number of inputs and outputs. It can simultaneously transfer packets from inputs to outputs in a single cycle, as long as no more than one packet leaves an input and no more than one packet arrives at any given output. (Assume all packets are of the same length and take equally long to transfer.)
+
+      You are given an \\(N \times N\\) matrix of nonnegative integers; \\(A[i , j]\\) encodes the number of packets at input \\(i\\) that need to be transferred to output \\(j\\). What is the least number of cycles needed to perform the transfer encoded by \\(A\\)?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 49.
