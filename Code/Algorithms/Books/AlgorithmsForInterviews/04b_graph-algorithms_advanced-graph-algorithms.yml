@@ -30,3 +30,14 @@ notes:
       Design an algorithm which takes as input a graph \\(G = (V , E)\\), directed or undirected, a nonnegative cost function on \\(E\\) and vertices \\(s\\) and \\(t\\); your algorithm should output a path with the fewest edges amongst all shortest paths from \\(s\\) to \\(t\\).
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 47.
+
+
+- fields:
+    Front: |
+      ## 04.13: Counting shortest paths
+
+      There may be many shortest paths between two vertices in a graph. It is commonly the case that a single shortest path is required, possibly one with the fewest edges, as in Problem 4.12. Sometimes we want to know the number of shortest paths, e.g., when analyzing the structure of a Boolean function or checking the stability of a system.
+
+      Develop an efficient algorithm that computes the number of shortest paths between vertices \\(s\\) and \\(t\\) in an undirected graph with unit cost edges.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 47.
