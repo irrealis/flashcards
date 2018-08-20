@@ -82,13 +82,25 @@ def format_text(
 
 def data_to_flashcards_params(data):
   '''Convert data to format accepted by AnkiConnect.'''
-  def_tags = data["tags"]
-  def_deckName = data["deckName"]
-  def_modelName = data["modelName"]
-  def_useMarkdown = data.get("useMarkdown", True)
-  def_markdownStyle = data.get("markdownStyle", "tango")
-  def_markdownLineNums = data.get("markdownLineNums", False)
-  def_markdownTabLength = data.get("markdownTabLength", 4)
+
+  defaults = data.get("defaults", dict())
+
+  def_tags = defaults.get("tags", list())
+  def_deckName = defaults.get("deckName", "Default")
+  def_modelName = defaults.get("modelName", "BasicMathJax")
+  def_fields = defaults.get("fields", dict())
+  def_useMarkdown = defaults.get("useMarkdown", True)
+  def_markdownStyle = defaults.get("markdownStyle", "tango")
+  def_markdownLineNums = defaults.get("markdownLineNums", False)
+  def_markdownTabLength = defaults.get("markdownTabLength", 4)
+
+  notes = data["notes"]
+  for note in notes:
+    # Set note's fields to defaults, if not already set.
+    fields = dict(def_fields)
+    fields.update(note.get("fields", dict()))
+    note["fields"] = fields
+
   params = dict(
     notes = [
       dict(
@@ -96,6 +108,7 @@ def data_to_flashcards_params(data):
         deckName = note.get('deckName', def_deckName),
         modelName = note.get('modelName', def_modelName),
         fields = {
+          # Convert each field from Markdown (if `useMarkdown` is True).
           k: format_text(
             str(v),
             note.get('useMarkdown', def_useMarkdown),
@@ -106,7 +119,7 @@ def data_to_flashcards_params(data):
           for (k, v) in note['fields'].items()
         }
       )
-      for note in data["notes"]
+      for note in notes
     ]
   )
   return params
