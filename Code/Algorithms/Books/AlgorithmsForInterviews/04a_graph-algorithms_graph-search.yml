@@ -100,3 +100,14 @@ notes:
       Define an efficient algorithm which takes an FSM and returns the set of ephemeral states.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 44.
+
+
+- fields:
+    Front: |
+      ## 04.08: Tree diameter
+
+      Packets in Ethernet LANs are routed according to the unique path in a tree whose vertices correspond to clients and edges correspond to physical connections between the clients. In this problem, we want to design an algorithm for finding the "worst-case" route, i.e., the two clients that are furthest apart.
+
+      Let \\(T\\) be a tree, where each edge is labeled with a real-valued distance. Define the diameter of \\(T\\) to be the length on a longest path in \\(T\\). Design an efficient algorithm to compute the diameter of \\(T\\).
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 44-5.
