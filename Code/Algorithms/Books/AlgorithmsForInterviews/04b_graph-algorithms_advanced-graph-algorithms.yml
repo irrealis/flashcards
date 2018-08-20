@@ -54,3 +54,14 @@ notes:
       Find a path between a given pair of cities that is the minimum length path amongst all the paths for which the probability of being crossable is greater than 0.9.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 47.
+
+
+- fields:
+    Front: |
+      ## 04.15: Shortest paths in the presence of randomization
+
+      You are given a map to a maze of rooms interconnected by one-way corridors. The map specifies a set of entrance rooms and a treasure room. Some of the rooms are special --- when you arrive at a special room, you are randomly transported out through one of the one-way corridors leading out of it. The map designates which rooms are special. You are also told that the way the maze is designed is that once you leave a room, there is no way of coming back to it.
+
+      Find a strategy which gets you to the treasure room in the minimum expected time.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 47-8.
