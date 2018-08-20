@@ -76,3 +76,16 @@ notes:
       Devise an efficient algorithm for finding a route which maximizes the ratio of the total profit to the total cost.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 48.
+
+
+- fields:
+    Front: |
+      ## 04.17: Road network
+
+      The Texas Department of Transportation is considering adding a new section of highway to the Texas Highway System. Each highway section connects two cities.
+
+      The state officials have submitted a number of proposals for the new highway --- each proposal includes the pair of cities being connected and the length of the section.
+
+      Devise an efficient algorithm which takes the existing network, the proposals for new highways, and returns one of the proposed highways which minimizes the shortest driving distance between the cities of El Paso and Corpus Christi.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 48.
