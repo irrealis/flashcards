@@ -122,3 +122,18 @@ notes:
       You are given an \\(N \times N\\) matrix of nonnegative integers; \\(A[i , j]\\) encodes the number of packets at input \\(i\\) that need to be transferred to output \\(j\\). What is the least number of cycles needed to perform the transfer encoded by \\(A\\)?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 49.
+
+
+- fields:
+    Front: |
+      ## 04.21: Channel capacity
+
+      Suppose we have the capability of transmitting one of the five symbols, \\(A,B,C,D,E\\), through a communication channel. In the absence of errors, we can communicate \\(\log_2(5)\\) bits with each symbol.
+
+      Now, suppose the channel is noisy --- specifically, the receiver cannot differentiate between the following pairs of symbols: \\(\mathbf{\Pi} = \\{(A,B), (B,C), (C,D), (D,E), (E,A)\\}\\).
+
+      We can still achieve error-free communication by arranging with the receiver to only transmit two out of the five symbols --- e.g., \\(A\\) and \\(O\\). We cannot transmit more than two symbols and guarantee that we do not make errors because then some pair must be in \\(\mathbf{\Pi}\\). In this fashion, we are limited to \\(\log_2(2) = 1\\) bit per symbol transmitted.
+
+      Design a scheme for the given channel by which the transmitter and receiver can achieve more than 1 bit per symbol transmitted.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 49.
