@@ -89,3 +89,14 @@ notes:
       Devise an efficient algorithm which takes the existing network, the proposals for new highways, and returns one of the proposed highways which minimizes the shortest driving distance between the cities of El Paso and Corpus Christi.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 48.
+
+
+- fields:
+    Front: |
+      ## 04.18: Stable assignment
+
+      Consider a department with \\(N\\) graduate students and \\(N\\) professors. Each student has ordered all the professors based on how keen he is to work with them. Each professor has an ordered list of all the students.
+
+      Devise an algorithm which takes the preferences of the students and the professors and pairs a student with his adviser. There should be no student-adviser pair  \\((s_0 , a_0)\\) and \\((s_l , a_1)\\) such that \\(s_0\\) prefers \\(a_1\\) to \\(a_0\\) and \\(a_1\\) prefers \\(s_0\\) to \\(s_1\\).
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 48.
