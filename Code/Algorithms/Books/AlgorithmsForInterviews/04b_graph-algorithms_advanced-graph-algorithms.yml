@@ -137,3 +137,14 @@ notes:
       Design a scheme for the given channel by which the transmitter and receiver can achieve more than 1 bit per symbol transmitted.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 49.
+
+
+- fields:
+    Front: |
+      ## 04.22: Team photo day --- 2
+
+       This problem is a continuation of Problem 4.10, where we wanted an algorithm to find the maximum number of teams that could be put in one photograph, subject to a placement constraint.
+
+       Design an efficient algorithm for computing the minimum number of subsets of teams so that the teams in each subset can be organized to appear in one photograph, subject to the placement constraint and each team appears in some subset.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 50.
