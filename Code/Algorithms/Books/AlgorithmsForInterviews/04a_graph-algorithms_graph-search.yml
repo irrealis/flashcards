@@ -65,3 +65,14 @@ notes:
       Give an \\(O(p + w)\\) time algorithm that determines if it is possible to place some of the pins on the left half of a PCB and the rest of the right half such that each wire is between a pin on the left and a pin on the right. Your algorithm should return a placement, should one exist.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 43.
+
+
+- fields:
+    Front: |
+      ## 04.05: Extended contacts
+
+      You are given a social network. Specifically, it consists of a set of individuals and for each individual, a list of his contacts. The contact relationship need not be symmetric --- \\(A\\) may be a contact of \\(B\\) but \\(B\\) may not be a contact of \\(A\\).) Let's define \\(C\\) to be an extended contact of \\(A\\) if he is either a contact of \\(A\\) or a contact of an extended contact of \\(A\\).
+
+      Devise an efficient algorithm which takes a social network and computes for each individual his extended contacts.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 44.
