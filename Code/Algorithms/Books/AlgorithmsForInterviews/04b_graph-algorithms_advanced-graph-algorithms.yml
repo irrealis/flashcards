@@ -41,3 +41,16 @@ notes:
       Develop an efficient algorithm that computes the number of shortest paths between vertices \\(s\\) and \\(t\\) in an undirected graph with unit cost edges.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 47.
+
+
+- fields:
+    Front: |
+      ## 04.14: Random directed acyclic graph
+
+      You are given a map with a set of cities connected by roads of known lengths.
+
+      A storm has made some roads uncrossable. For each road, you know the probability of the road being uncrossable. A given path consisting of a set of roads is considered uncrossable if any of the roads in the path is uncrossable.
+
+      Find a path between a given pair of cities that is the minimum length path amongst all the paths for which the probability of being crossable is greater than 0.9.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 47.
