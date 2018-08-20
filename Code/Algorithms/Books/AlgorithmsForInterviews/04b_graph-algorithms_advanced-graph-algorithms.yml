@@ -1,0 +1,20 @@
+defaults:
+  deckName: Staging
+  modelName: CodingProblems
+  tags:
+  - Code
+  - Algorithms
+  - Books
+  - AlgorithmsForInterviews
+  - 04-AlgorithmsOnGraphs
+  - 04b-AdvancedGraphAlgorithms
+
+  fields:
+    Python: "**To-do: Python.**"
+    Java: "**To-do: Java.**"
+    C++: "**To-do: C++.**"
+
+  markdownTabLength: 4
+
+
+notes:
