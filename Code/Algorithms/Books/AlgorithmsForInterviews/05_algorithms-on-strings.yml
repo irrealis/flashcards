@@ -17,3 +17,13 @@ defaults:
 
 
 notes:
+
+- fields:
+    Front: |
+      ## 05.01: Find all occurrences of a substring
+
+      A good string-search algorithm is fundamental to the performance of many applications, and there are several elegant algorithms proposed for it, each with its own tradeoffs. As a result, there is no one perfect answer to it. If someone asks you this question in an interview, the best way to approach this problem would be to work through one good algorithm in detail and discuss the breadth of other algorithms for solving this problem.
+
+      Given two strings \\(s\\) (search string) and \\(T\\) (text), find all occurrences of \\(s\\) in \\(T\\).
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 52.
