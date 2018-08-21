@@ -104,3 +104,16 @@ notes:
       Given a long piece of text, decompose it into lines such that no word spans across two lines, and the total wasted space at the end of each line is minimized.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 54.
+
+
+- fields:
+    Front: |
+      ## 05.08: Edit distances
+
+      Spell checkers make suggestions for misspelled words. Given a misspelled string \\(s\\), a spell checker should return words in the dictionary which are close to \\(s\\).
+
+      One definition of closeness is the number of "edits" it would take to transform the misspelled word into a correct word, where a single edit is the deletion or insertion of a single character.
+
+      Given two strings \\(A\\) and \\(B\\), compute the minimum number of edits needed to transform \\(A\\) into \\(B\\).
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 54.
