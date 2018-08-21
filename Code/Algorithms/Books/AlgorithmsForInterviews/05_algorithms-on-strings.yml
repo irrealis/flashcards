@@ -49,3 +49,14 @@ notes:
       Design a \\(\Theta(n)\\) algorithm for rotating a string of \\(n\\) letters to the left by \\(i\\) positions. You are allowed only a constant number of bytes of additional storage.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 53.
+
+
+- fields:
+    Front: |
+      ## 05.04: Test rotation
+
+      In Problem 5.3, we faced the problem of efficiently implementing rotation with a limited amount of memory. We now consider the problem of testing if one string is a rotation of another.
+
+      Develop a linear-time algorithm for checking if a string \\(S\\) is a cyclic rotation of another string \\(R\\). (For example, _arc_ is a cyclic rotation of _car_.)
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 53.
