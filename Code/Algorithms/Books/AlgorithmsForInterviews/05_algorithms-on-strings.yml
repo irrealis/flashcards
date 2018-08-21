@@ -27,3 +27,14 @@ notes:
       Given two strings \\(s\\) (search string) and \\(T\\) (text), find all occurrences of \\(s\\) in \\(T\\).
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 52.
+
+
+- fields:
+    Front: |
+      ## 05.02: String matching with unique characters
+
+      Suppose we are looking for a search string \\(S\\) in another string \\(T\\). A naïve algorithm would try to match all the characters in \\(S\\) to characters in \\(T\\) at each offset. The worst-case complexity of the naïve algorithm is \\(\Theta(|S| \cdot |T|)\\) --- consider the case where \\(S\\) is \\(2n\\) zeros, and \\(T\\) is \\(n-1\\) zeros followed by a one.
+
+      The worst-case behavior for the naïve algorithm requires many duplicated characters. Suppose no character occurs more than once in the search string. Devise an algorithm to efficiently search for all occurrences of the search string in the text string.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 53.
