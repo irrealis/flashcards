@@ -93,3 +93,14 @@ notes:
       Devise an efficient algorithm that takes a DNA sequence \\(D[1, \ldots, n]\\) and returns the length of the longest palindromic subsequence.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 54.
+
+
+- fields:
+    Front: |
+      ## 05.07: Pretty printing
+
+      Consider the problem of arranging a piece of text in a fixed width font (i.e., each character has the same width) in a rectangular space. Breaking words across line boundaries is visually displeasing. If we avoid word breaking, then we may frequently be left with many spaces at the end of lines (since the next word will not fit in the remaining space). However, if we are clever about where we break the lines, we can reduce this effect.
+
+      Given a long piece of text, decompose it into lines such that no word spans across two lines, and the total wasted space at the end of each line is minimized.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 54.
