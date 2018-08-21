@@ -38,3 +38,14 @@ notes:
       The worst-case behavior for the naïve algorithm requires many duplicated characters. Suppose no character occurs more than once in the search string. Devise an algorithm to efficiently search for all occurrences of the search string in the text string.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 53.
+
+
+- fields:
+    Front: |
+      ## 05.03: Rotate a string
+
+      Let \\(A\\) be a string of length \\(n\\). If we have enough memory to make a copy of \\(A\\), rotating \\(A\\) by \\(i\\) positions is trivial; we just compute \\(B[j] = A[(i + j) \mod n]\\). If we are given only a constant amount of additional memory \\(c\\), we can rotate the string by \\(c\\) positions a total of \\(k = \lceil\frac{n}{c}\rceil\\) times, but this increases the time complexity to \\(\Theta(n \cdot k)\\).
+
+      Design a \\(\Theta(n)\\) algorithm for rotating a string of \\(n\\) letters to the left by \\(i\\) positions. You are allowed only a constant number of bytes of additional storage.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 53.
