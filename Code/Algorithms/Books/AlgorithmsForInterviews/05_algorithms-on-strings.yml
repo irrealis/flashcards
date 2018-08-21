@@ -82,3 +82,14 @@ notes:
       4. replace consecutive '`/`' characters by a single '`/`' in the "path" segment of the URL.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 53-4.
+
+
+- fields:
+    Front: |
+      ## 05.06: Longest palindrome subsequence
+
+      A palindrome is a string which is equal to itself when reversed. For example, the human Y-chromosome contains a gene with the amino acid sequence \\(\langle C,A,C,A,A,T,T,C,C,C,A,T,G,G,G,T,T,G,T,G,G,A,G \rangle\\), which includes the palindromic subsequences \\(\langle T,G,G,G,T \rangle\\) and \\(\langle T,G,T \rangle\\). Palindromic subsequences in DNA are significant because they influence the ability of the strand to loop back on itself.
+
+      Devise an efficient algorithm that takes a DNA sequence \\(D[1, \ldots, n]\\) and returns the length of the longest palindromic subsequence.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 54.
