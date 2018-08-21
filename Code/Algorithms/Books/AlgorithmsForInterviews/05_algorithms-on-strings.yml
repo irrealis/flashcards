@@ -117,3 +117,23 @@ notes:
       Given two strings \\(A\\) and \\(B\\), compute the minimum number of edits needed to transform \\(A\\) into \\(B\\).
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 54.
+
+
+- fields:
+    Front: |
+      ## 05.09: Regular expression matching
+
+      A regular expression is a sequence of characters that defines a set of matching strings. For this problemr we define a simple subset of a full regular expression language:
+
+      - Alphabetical and numerical characters match themselves. For example, "`aW9`" will match that string of 3 letters wherever it appears.
+      - The metacharacters '`^`'. and '`$`' stand for the beginning and end of the string. For example , "`^aW9`" matches "`aw9`" only at the start of a string, "`aW9$`" matches "`aW9'" only at the end of a string, and "`^aW9$`" matches a string only if it is exactly equal to "`aW9`".
+
+      - The metacharacter '`.`' matches any single character. For example, "`a.9`" matches "`a89`" and "`xyaW9123`", but not "`aw89`".
+
+      - The metacharacter '`*`' specifies a repetition of the single previous period or a literal character. For example, "`a.*9`" matches "`aw89`".
+
+      By definition, regular expression `r` matches string `s` if `s` contains a substring starting at any position matching `r`. For example, "`aW9`" and "`a.9`" match string "`xyaW9123`", but "`^aW9`" does not.
+
+      Design an algorithm that takes strings `s` and `r` and returns if `r` matches `s`. (Assume `r` is a well-formed regular expression.)
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 55.
