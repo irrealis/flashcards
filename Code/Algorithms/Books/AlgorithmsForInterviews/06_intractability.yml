@@ -57,3 +57,20 @@ notes:
       Design a fast algorithm for selecting warehouse locations that is provably within a constant factor of the optimum solution.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 58.
+
+
+- fields:
+    Front: |
+      ## 06.04: Computing \\(x^n\\)
+
+      A straight-line program for computing \\(x^n\\) is a finite sequence
+
+      \\[
+      x \mapsto x^{i_1} \mapsto \cdots \mapsto x^n
+      \\]
+
+      constructed as follows: the first element is \\(x\\); each succeeding element is either the square of some previously-computed element, or the product of any two previously-computed elements. The number of multiplications to evaluate \\(x^n\\) is the number of terms in the shortest such program sequence, minus one. No efficient method is known for the problem of determining the minimum number of multiplications needed to evaluate \\(x^n\\); the problem for multiple exponents is known to be NP-complete.
+
+      How would you determine the minimum number of multiplications to evaluate \\(x^{30}\\)?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 59.
