@@ -27,3 +27,20 @@ notes:
       Design an algorithm that will select a subset of items that has maximum value and weighs at most \\(W\\) pounds. (This problem is called the 0-1 knapsack problem because each item must either be taken or left behind --- the thief cannot take a fractional amount of an item or take an item more than once.)
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 57-8.
+
+
+- fields:
+    Front: |
+      ## 06.02: Traveling salesman in the plane
+
+      Suppose a salesman needs to visit a set of cities \\(A_0, A_1, \ldots, A_{n-1}\\). For any ordered pair of cities \\((A_i, A_j)\\), there is a cost \\(c(A_i, A_j)\\) of traveling from the first to the second city. We need to design a low-cost tour for the salesman.
+
+      A _tour_ is a sequence of cities \\(\langle B_0, B_1, \ldots, B_{n-1}, B_0 \rangle\\). It can start at any city, and the salesman can visit the cities in any order. All the cities must appear in the subsequence \\(\langle B_0, B_1, \ldots, B_{n-1} \rangle\\). (Note that this implies that all the cities in this subsequence are distinct.)
+
+      The cost of the tour is the sum of the costs of the \\(n\\) successive pairs \\((B_i, B_{i+1 \mod n})\\), \\(i=0\\) to \\(n-1\\).
+
+      Determining the minimum cost tour is a classic NP-complete problem and the problem remains hard even if we just ask for a tour whose cost is within a given multiple \\(M\\) of the minimum cost tour. However there is a special case for which this problem can be efficiently solved.
+
+      Suppose all the cities are located in some Euclidean space and the cost of traveling from one city to another is a constant multiple of the distance between the cities. Give an efficient procedure for computing a tour whose cost is guaranteed to be within a factor of two of the cost of an optimum tour.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 58.
