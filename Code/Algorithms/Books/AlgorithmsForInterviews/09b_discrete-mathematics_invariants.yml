@@ -123,3 +123,14 @@ notes:
       Derive an efficient algorithm for computing the maximum amount of money \\(F\\) can win.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 78.
+
+
+- fields:
+    Front: |
+      ## 09.16: Space-time intersections
+
+      Adam starts climbing a mountain at 9:00 AM on Saturday. He reaches the summit at 5:00 PM. He camps at the summit overnight and descends the mountain on Sunday. He begins and ends at the same time and follows exactly the same route. His speeds may vary and he may take breaks at different places.
+
+      Prove that there is a time and a place such that Adam is at exactly the same place at the same time on Saturday as he is on Sunday.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 79.
