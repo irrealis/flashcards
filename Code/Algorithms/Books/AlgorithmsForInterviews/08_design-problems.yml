@@ -25,3 +25,16 @@ notes:
       How would you design a software that produces high-quality mosaics with minimal compute time?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 67.
+
+
+- fields:
+    Front: |
+      ## 08.02: Search engine
+
+      Modern keyword-based search engines maintain a collection of several billion documents. One of the key computations performed by a search engine is to retrieve all the documents that contain the keywords contained in a given query. This is a nontrivial task because it must be done within few tens of milliseconds.
+
+      In this problem, we consider a smaller version of the problem where the collection of documents can fit within the RAM of a single computer.
+
+      Given a million documents with an average size of ten kilobytes, design a program that can efficiently return the subset of documents containing a given set of words.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 68.
