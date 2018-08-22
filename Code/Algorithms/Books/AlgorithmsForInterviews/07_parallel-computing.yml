@@ -12,8 +12,17 @@ defaults:
     Python: "**To-do: Python.**"
     Java: "**To-do: Java.**"
     C++: "**To-do: C++.**"
+    Back: "**To-do: Back.**"
 
   markdownTabLength: 4
 
 
 notes:
+
+- fields:
+    Front: |
+      ## 07.01: Servlet with caching
+
+      Design a servlet which implements an online spell correction suggester. Specifically, it takes as input a string \\(s\\) and computes an array of entries in its dictionary which are closest to the string using the edit distance specified in Problem 5.8. Since computing the edit distances from \\(s\\) to each entry in the dictionary is time-consuming, you should implementa a caching strategy. Specifically, cache the most recently computed result.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 63.
