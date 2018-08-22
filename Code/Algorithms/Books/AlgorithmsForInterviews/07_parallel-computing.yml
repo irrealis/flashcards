@@ -53,3 +53,18 @@ notes:
       Suppose you find that `SimpleWebServer` has poor performance because `ProcessReq` frequently blocks on IO. What steps could you take to improve `SimpleWebServer`'s performance?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 64.
+
+
+- fields:
+    Front: |
+      ## 07.03: Asynchronous callbacks
+
+      It is common in a distributed computing environment for the responses to not return in the same order as the requests were made. One way to handle this is through an "asynchronous callback" --- a method to be invoked on response.
+
+      Implement a `Requestor` class. The class has to implement a `Dispatch` method which takes a `Requestor` object. The `Requestor` obect includes a `request` string, a `ProcessResponse (string response)` method, and an `Execute` method that takes a string and returns a string.
+
+      `Dispatch` is to create a new thread which invokes `Execute` on `request`. When `Execute` returns, `Dispatch` invokes the `ProcessResponse` method on the response.
+
+      The `Execute` method may take an indeterminate amount of time to return; it may never return. You need to have a time-out mechanism for this: assume the `Requestor` objects have an `Error` method that you can invoke.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 64.
