@@ -83,3 +83,14 @@ notes:
       Design an algorithm for CNF-SAT. Your algorithm should use branch-and-bound to prune partial assignments that can easily be shown to be unsatisfiable.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 59.
+
+
+- fields:
+    Front: |
+      ## 06.06: Scheduling
+
+      We need to schedule \\(N\\) lectures in \\(M\\) classrooms. Some of those lectures are prerequisites for others.
+
+      How would you choose when and where to hold the lectures in order to finish all the lectures as soon as possible?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 59.
