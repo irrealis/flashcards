@@ -203,3 +203,17 @@ notes:
       Implement a cache for looking up prices of books identified by their ISBN. Use the least-recently-used strategy for cache eviction policy.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 71.
+
+
+- fields:
+    Front: |
+      ## 08.15: Distributing large files
+
+      Jingle is developing a search feature for breaking news. New articles are collected from a variety of online news sources such as newspapers, bulletin boards, blogs, etc. by a single lab machine at Jingle. Every minute,
+      roughly one thousand articles are posted, and each article is about 100 kilobytes in size.
+
+      Jingle would like to serve these articles from a datacenter consisting of a thousand servers. For performance reasons, each server should have a copy of articles that were recently added. The datacenter is far away from the lab machine.
+
+      Suggest an efficient way of getting the articles added in the past five minutes from the lab machine to the servers.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 71-2.
