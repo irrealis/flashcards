@@ -28,3 +28,14 @@ notes:
       Design an efficient algorithm for computing \\(\binom{n}{k}\\) with the property that it never overflows if \\(\binom{n}{k}\\) can be represented as an `int`; assume \\(n\\) and \\(k\\) are `int`s.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 73-4.
+
+
+- fields:
+    Front: |
+      ## 09.02: Climbing stairs
+
+      You are climbing a staircase with \\(N\\) steps. Every time you can jump over either one step or two steps.
+
+      How many ways are there to get to the top of the staircase?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 74.
