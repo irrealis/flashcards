@@ -55,3 +55,14 @@ notes:
       - Approximation, provably near-optimum
       - Heuristics, yielding reasonable solutions
       - Parallelization
+
+
+- fields:
+    Front: |
+      What some challenges to parallel programming? Assume a shared-memory model.
+    Back: |
+      - Races
+      - Starvation
+      - Deadlock
+      - Livelock
+      - Stochastic irreproducibility
