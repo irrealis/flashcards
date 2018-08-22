@@ -39,3 +39,14 @@ notes:
       How many ways are there to get to the top of the staircase?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 74.
+
+
+- fields:
+    Front: |
+      ## 09.03: Ramsey Theory
+
+      This problem illustrates Ramsey's theorem.
+
+      There are six guests at a party such that any two guests either know each other or do not know each other. Prove that there is a subset of three guests who either all know each other, or all do not know each other.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 74.
