@@ -38,3 +38,14 @@ notes:
       Given a million documents with an average size of ten kilobytes, design a program that can efficiently return the subset of documents containing a given set of words.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 68.
+
+
+- fields:
+    Front: |
+      ## 08.03: IP forwarding
+
+      There are many applications where instead of an exact match of strings, we are looking for a prefix match, i.e., given a set of strings and a search string, we want to find a string from the set that is a prefix of the search string. One application of this is Internet Protocol (IP) route lookup problem. When an IP packet arrives at a router, the router looks up the next hop for the packet by searching the destination IP address of the packet in its routing table. The routing table is specified as a set of prefixes on the IP address, and the router is supposed to identify the longest matching prefix. If this task is to be performed only once, it is impossible to do better than testing each prefix. However, an Internet core router needs to lookup millions of destination addresses on the set of prefixes every second. Hence it can be advantageous to do some precomputation.
+
+      You are given a large set of strings \\(S\\) in advance. Given a query string \\(Q\\), how would you design a system that can identify the longest string \\(p \in S\\) that is a prefix of \\(Q\\)?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 68.
