@@ -82,3 +82,18 @@ notes:
       2. canceling a thread with a given name (you can ignore the request if the thread has already started).
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 64-5.
+
+
+- fields:
+    Front: |
+      ## 07.05: Readers-writers with read preference
+
+      Consider an object \\(s\\) that is read from and written to by many threads. (For example, \\(s\\) could be a cache.) You need to ensure that no thread may access \\(s\\) for reading or writing while another thread is writing to \\(s\\). (Two or more readers may access \\(s\\) at the same time.)
+
+      One way to achieve this is by protecting \\(s\\) with a mutex that ensures that no thread can access \\(s\\) at the same time as another writer. However, this solution is suboptimal because it is possible that a reader \\(R_1\\) has locked \\(s\\), and another reader \\(R_2\\) wants to access \\(s\\). There is no need to make \\(R_2\\) wait until \\(R_1\\) is done reading; instead, \\(R_2\\) should start reading right away.
+
+      This motivates the first readers-writers problem: protect \\(s\\) with the added constraint that no reader is to be kept waiting if \\(s\\) is currently opened for reading.
+
+      Implement a synchronization mechanism for the first readers-writers problem.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 65.
