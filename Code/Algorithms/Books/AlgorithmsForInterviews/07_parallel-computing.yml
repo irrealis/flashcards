@@ -110,3 +110,14 @@ notes:
       Implement a synchronization mechanism for the second readers-writers problem.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 65.
+
+
+- fields:
+    Front: |
+      ## 07.07: Readers-writers with fairness
+
+      The specifications to both the first and second readers-writers problems can lead to starvation --- the first may starve writers, and the second may starve readers. The third readers-writers problem adds the constraint that no thread shall be allowed to starve --- the operation of obtaining a lock on \\(s\\) always terminates in a bounded amount of time.
+
+      Implement a synchronization mechanism for the third readers-writers problem. It is acceptable (indeed necessary) that in this solution, both readers and writers have to wait longer than absolutely necessary. (Readers may wait even if \\(s\\) is opened for read, and writers may wait even if no one else has a lock on \\(s\\).)
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 65-6.
