@@ -143,3 +143,14 @@ notes:
       Assume there is a thread for each customer and for the barber. Model the system using semaphores and mutexes to ensure correct behavior.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 66.
+
+
+- fields:
+    Front: |
+      ## 07.10: Dining philosophers
+
+      In the dining philosophers problem, \\(n\\) threads, numbered \\(0\\) to \\(n-1\\), run concurrently. There are \\(n\\) resources, numbered \\(0\\) to \\(n-1\\). Thread \\(i\\) requires resources \\(i\\) and \\(i+1 \mod n\\) before it can invoke a method \\(m\\). (The problem gets its name because it models \\(n\\) philosophers sitting at a round table, alternating between thinking, eating, and waiting. There is a single chopstick between each pair of philosophers. To eat, a philosopher must hold two chopsticks --- one placed immediately to his left, and one immediately to his right.)
+
+      Implement a synchronization mechanism for the dining philosophers problem.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 66.
