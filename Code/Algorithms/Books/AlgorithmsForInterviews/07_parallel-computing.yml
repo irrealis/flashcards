@@ -97,3 +97,16 @@ notes:
       Implement a synchronization mechanism for the first readers-writers problem.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 65.
+
+
+- fields:
+    Front: |
+      ## 07.06: Readers-writers with write preference
+
+      Suppose we have an object \\(s\\). In the first readers-writers problem, a reader \\(R_1\\) may have the lock; if a writer \\(W\\) is waiting for the lock and then a reader \\(R_2\\) requests access, \\(R_2\\) will be given priority over \\(W\\). If this happens often enough, \\(W\\) will starve. Instead, suppose we want \\(W\\) to start as soon as possible.
+
+      This motivates the second readers-writers problem: protect \\(s\\) with "writer-preference", i.e., no writer, once added to the queue, is to be kept waiting longer than absolutely necessary.
+
+      Implement a synchronization mechanism for the second readers-writers problem.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 65.
