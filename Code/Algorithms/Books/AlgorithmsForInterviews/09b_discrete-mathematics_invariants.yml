@@ -19,3 +19,13 @@ defaults:
 
 
 notes:
+
+- fields:
+    Front: |
+      ## 09.07: Even or odd
+
+      Let \\(A\\) be a multiset of integers. Consider the following process: randomly select two elements of \\(A\\). If they are both even or both odd, remove them from the set and insert a new even integer; if not, remove just the even integer.
+
+      What can you say about the last remaining integer as a function of the numbers of even and odd integers initially in \\(A\\)?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 76.
