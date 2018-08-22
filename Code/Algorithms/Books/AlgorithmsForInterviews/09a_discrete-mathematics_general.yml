@@ -7,6 +7,7 @@ defaults:
   - Books
   - AlgorithmsForInterviews
   - 09-DiscreteMathematics
+  - 09a-General
 
   fields:
     Python: "**To-do: Python.**"
