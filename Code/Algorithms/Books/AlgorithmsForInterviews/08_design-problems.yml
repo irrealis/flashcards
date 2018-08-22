@@ -49,3 +49,14 @@ notes:
       You are given a large set of strings \\(S\\) in advance. Given a query string \\(Q\\), how would you design a system that can identify the longest string \\(p \in S\\) that is a prefix of \\(Q\\)?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 68.
+
+
+- fields:
+    Front: |
+      ## 08.04: Spell checker
+
+      Edit distance may not be the right distance function when performing spelling correction --- it does not take into account the commonly misspelled words or the proximity of letters on a keyboard.
+
+      How would you build a spelling correction system?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 68.
