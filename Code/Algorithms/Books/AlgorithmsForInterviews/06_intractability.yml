@@ -44,3 +44,16 @@ notes:
       Suppose all the cities are located in some Euclidean space and the cost of traveling from one city to another is a constant multiple of the distance between the cities. Give an efficient procedure for computing a tour whose cost is guaranteed to be within a factor of two of the cost of an optimum tour.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 58.
+
+
+- fields:
+    Front: |
+      ## 06.03: Facility location problem
+
+      Let \\(A_0, \ldots, A_{n-1}\\) be a set of \\(n\\) cities. We are trying to select \\(k\\) cities to locate warehouses. We want to choose the \\(k\\) cities in such a way that the cities are close to the warehouses. Let's say we define the cost of a warehouse assignment to be the maximum distance of any city to a warehouse.
+
+      The problem of finding a warehouse assignment that has the minimum cost is known to be NP-complete.
+
+      Design a fast algorithm for selecting warehouse locations that is provably within a constant factor of the optimum solution.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 58.
