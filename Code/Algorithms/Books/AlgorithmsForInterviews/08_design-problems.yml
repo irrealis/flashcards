@@ -1,6 +1,6 @@
 defaults:
   deckName: Staging
-  modelName: CodingProblems
+  modelName: BasicMathJax
   tags:
   - Code
   - Algorithms
@@ -15,3 +15,13 @@ defaults:
 
 
 notes:
+
+- fields:
+    Front: |
+      ## 08.01: Mosaic
+
+      One popular form of computer art is photomosaics where you are given a collection of images called "tiles". Then, given a target image, you want to build another image which closely approximates the target image but is actually built by juxtaposing the tiles. Here the quality of approximation is mostly defined by human perception. It is often the case that with a given set of tiles, a user may want to build several mosaics.
+
+      How would you design a software that produces high-quality mosaics with minimal compute time?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 67.
