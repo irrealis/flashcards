@@ -44,3 +44,14 @@ notes:
       - Minimum spanning tree
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 47.
+
+
+- fields:
+    Front: |
+      What are some approaches to solving intractable problems?
+    Back: |
+      - Brute-force
+      - Branch-and-bound
+      - Approximation, provably near-optimum
+      - Heuristics, yielding reasonable solutions
+      - Parallelization
