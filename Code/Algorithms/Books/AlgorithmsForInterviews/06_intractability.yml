@@ -74,3 +74,12 @@ notes:
       How would you determine the minimum number of multiplications to evaluate \\(x^{30}\\)?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 59.
+
+
+- fields:
+    Front: |
+      ## 06.05: CNF-SAT
+
+      Design an algorithm for CNF-SAT. Your algorithm should use branch-and-bound to prune partial assignments that can easily be shown to be unsatisfiable.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 59.
