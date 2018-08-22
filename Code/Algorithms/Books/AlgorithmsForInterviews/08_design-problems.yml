@@ -192,3 +192,14 @@ notes:
       Design a driving directions service with a web interface.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 71.
+
+
+- fields:
+    Front: |
+      ## 08.14: ISBN cache
+
+      The International Standard Book Number (ISBN) is a unique commercial book identifier based on the 9-digit standard book numbering code developed by Professor Gordon Foster from Trinity University, Dublin. The ten-digit ISBN was ratified by the ISO in 1974; since 2007, ISBNs have contained 13 digits. The last digit in a ten-digit ISBN is the check digit --- it is the sum of the first 9 digits, modulo 11; a 10 is represented by an X. For 13-digit ISBNs, the last digit is also a check digit but is guaranteed to be between 0 and 9.
+
+      Implement a cache for looking up prices of books identified by their ISBN. Use the least-recently-used strategy for cache eviction policy.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 71.
