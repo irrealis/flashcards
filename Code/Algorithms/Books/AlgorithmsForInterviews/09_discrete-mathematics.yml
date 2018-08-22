@@ -1,6 +1,6 @@
 defaults:
   deckName: Staging
-  modelName: CodingProblems
+  modelName: BasicMathJax
   tags:
   - Code
   - Algorithms
