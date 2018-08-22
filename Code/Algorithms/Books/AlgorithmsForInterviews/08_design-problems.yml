@@ -126,3 +126,25 @@ notes:
       How would you design a system that can implement these requirements when the data cannot fit into a single machine's memory?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 69-70.
+
+
+- fields:
+    Front: |
+      ## 08.09: Latency reduction
+
+      The Pareto distribution is defined as follows:
+
+      \\[
+      \begin{array}
+      P[X>x] & = 1 - \left(\frac{x_m}{x}\right)^\alpha, \textrm{ if }x>x_m \\\\
+      & = 1, \textrm{ if }x\le x_m
+      \end{array}
+      \\]
+
+      Here \\(\alpha\\) and \\(x_m\\) are parameters of the distribution. It is one of the heavy-tailed distributions that commonly occur in various workloads.
+
+      Suppose you are running a service on \\(k\\) servers, and that any service request can be processed by any of the servers. A given server can process only one request at a time. Depending on the request \\(r\\), a server may take time \\(t(r)\\), where \\(t(r)\\) follows a Pareto distribution.
+
+      You have a service level agreement with your clients that requires that 99% of the requests are serviced in less that one second. How would you design the system to meet this requirement with minimal cost?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 70.
