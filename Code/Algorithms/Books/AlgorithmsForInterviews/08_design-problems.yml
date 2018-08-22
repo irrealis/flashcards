@@ -84,3 +84,30 @@ notes:
       How would you implement crawling under such a constraint?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 69.
+
+
+- fields:
+    Front: |
+      ## 08.07: Implement PageRank
+
+      The PageRank algorithm assigns ranks to web pages based on, for each page, the number of important links to this page. The algorithm essentially amounts to the following:
+
+      1. Build a matrix \\(A\\) based on the hyperlink structure of the web, with \\(A_{ij} = \frac{1}{d_i}\\) if there is a link for webpage \\(i\\) to webpage \\(j\\), and \\(d_i\\) is the total number of unique outgoing links from page \\(i\\).
+
+      2. Solve for \\(X\\) satisfying
+
+          \\[
+          X = \epsilon \cdot [1] + (1-\epsilon)A^T \cdot X.
+          \\]
+
+          Here \\(\epsilon\\) is a scalar constant (e.g., \\(\frac{1}{7}\\)), and \\([1]\\) represents a column vector of ones. The value \\(X[i]\\) is the rank of the \\(i\\)-th page.
+
+      The most commonly used approach to solving the above equation is to start with a value of \\(X\\), where each component is \\(\frac{1}{n}\\) (where \\(n\\) is the number of pages), and then perform the following iteration:
+
+      \\[
+      X_k = \epsilon\cdot[1] + (1-\epsilon)A^T\cdot X_{k-1}.
+      \\]
+
+      How would you design a system that can compute the ranks for a collection of a billion web pages in a reasonable amount of time?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 69-70.
