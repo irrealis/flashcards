@@ -133,3 +133,18 @@ notes:
       You are given a list of pairs of points in the two-dimensional Cartesian plane. Each point has integer \\(x\\) and \\(y\\) coordinates. How would you find the two closest points?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 60.
+
+
+- fields:
+    Front: |
+      ## 06.10: Primality checking
+
+      Primality checking has received a great deal of attention from mathematicians and theoretical computer scientists, and there are a number of highly sophisticated approaches to efficiently solving this problem. One reason for this is that number theory plays a key role in cryptography.
+
+      The brute-force approach to checking if \\(n\\) is a prime is to divide \\(n\\) by every smaller number. The size of input here is the number of bits in \\(n\\), and hence the brute-force algorithm has exponential time complexity.
+
+      In an interview context, if you are asked to implement primality checking, you are just expected to provide some simple improvements over the basic brute-force approach.
+
+      Implement a function which takes a number \\(n\\) and returns whether the number is prime or not. What is the runtime of your algorithm?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 60-1.
