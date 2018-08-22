@@ -73,3 +73,14 @@ notes:
       Design a stemming algorithm that runs fast and does a reasonable job.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 69.
+
+
+- fields:
+    Front: |
+      ## 08.06: Distributed throttling
+
+      Let's say you have \\(N\\) machines crawling the world wide web such that the responsibility for a given URL is assigned to the crawler with id equal to `Hash(URL)`\\(\mod N\\). Downloading a page takes away bandwidth from the server hosting it. Therefore you want to ensure that in any given minute, your crawlers never request more than \\(B\\) bytes from any host.
+
+      How would you implement crawling under such a constraint?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 69.
