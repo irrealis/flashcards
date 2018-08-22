@@ -84,3 +84,15 @@ notes:
       You begin with one dollar. It is known that if you can bet arbitrary fractions of the money you have, the maximum amount of money that you guarantee you can win, regardless of the order in which the cards appear, is \\(2^{52}/\binom{52}{26} \approx 9.08132955\\). However, you are allowed to bet only in penny increments. Write a program to compute a tight lower bound on the amount you can win under this restriction.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 74-5.
+
+
+- modelName: CodingProblems
+  fields:
+    Front: |
+      ## 09.07: Betting on card colors
+
+      A deck of 52 playing cards is shuffled. The deck is placed face-down on a table. You can place a bet on the color of the top card at even odds. After you have placed your bet, the card is revealed to you and discarded. Betting continues till the deck is exhausted. On any card, you can bet any amount from 0 to all the money you have, and the odds are always even.
+
+      You begin with one dollar. It is known that if you can bet arbitrary fractions of the money you have, the maximum amount of money that you guarantee you can win, regardless of the order in which the cards appear, is \\(2^{52}/\binom{52}{26} \approx 9.08132955\\). However, you are allowed to bet only in penny increments. Write a program to compute a tight lower bound on the amount you can win under this restriction.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 74-5.
