@@ -1,0 +1,17 @@
+defaults:
+  deckName: Staging
+  modelName: CodingProblems
+  tags:
+  - Code
+  - Algorithms
+  - Books
+  - AlgorithmsForInterviews
+  - 09-DiscreteMathematics
+
+  fields:
+    Python: "**To-do: Python.**"
+    Java: "**To-do: Java.**"
+    C++: "**To-do: C++.**"
+    Back: "**To-do: Back.**"
+
+  markdownTabLength: 4
