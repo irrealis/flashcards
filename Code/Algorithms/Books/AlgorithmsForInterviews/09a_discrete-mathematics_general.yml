@@ -16,3 +16,15 @@ defaults:
     Back: "**To-do: Back.**"
 
   markdownTabLength: 4
+
+
+notes:
+
+- modelName: CodingProblems
+  fields:
+    Front: |
+      ## 09.01: Computing the binomial coefficients
+
+      Design an efficient algorithm for computing \\(\binom{n}{k}\\) with the property that it never overflows if \\(\binom{n}{k}\\) can be represented as an `int`; assume \\(n\\) and \\(k\\) are `int`s.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 73-4.
