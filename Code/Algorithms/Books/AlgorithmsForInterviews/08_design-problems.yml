@@ -217,3 +217,14 @@ notes:
       Suggest an efficient way of getting the articles added in the past five minutes from the lab machine to the servers.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 71-2.
+
+
+- fields:
+    Front: |
+      ## 08.16: Leader election
+
+      You are to devise a protocol by which a collection of hosts on the Internet can elect a leader. Hosts can communicate with each other using TCP connections. For host \\(A\\) to communicate with host \\(B\\), it needs to know \\(B\\)'s IP address. Each host starts off with a set of IP addresses and the protocol code that you implement that will run on a fixed port across all the hosts.
+
+      Devise a protocol by which hosts can elect a unique leader from all the hosts participating in the protocol. The protocol should be fast, in that it converges quickly; it should be efficient, in that it should not involve too many connections, too many data exchanges, or too much data exchanged.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 72.
