@@ -111,3 +111,18 @@ notes:
       How would you design a system that can compute the ranks for a collection of a billion web pages in a reasonable amount of time?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 69-70.
+
+
+- fields:
+    Front: |
+      ## 08.08: Scalable priority system
+
+      Maintaining priority in a distributed system can be tricky --- consider the crawlers for a search engine visiting web pages in some prioritized order, or event-driven simulation in molecular dynamics. In both cases, we could be dealing with billions of entities with a given priority, and we need to do three things efficiently:
+
+      1. find the highest priority entity,
+      2. insert new entities with a given priority, and
+      3. delete certain entities specified by a unique id.
+
+      How would you design a system that can implement these requirements when the data cannot fit into a single machine's memory?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 69-70.
