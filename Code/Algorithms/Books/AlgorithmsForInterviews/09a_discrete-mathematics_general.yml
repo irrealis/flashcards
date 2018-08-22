@@ -50,3 +50,14 @@ notes:
       There are six guests at a party such that any two guests either know each other or do not know each other. Prove that there is a subset of three guests who either all know each other, or all do not know each other.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 74.
+
+
+- fields:
+    Front: |
+      ## 09.04: 500 doors
+
+      There are 500 closed doors off a corridor. A person walks through the corridor and opens every door. Another person walks through the corridor and closes every alternate door. Continuing in this manner, the \\(i\\)-th person comes and toggles the position of every \\(i\\)-th door starting from door \\(i\\).
+
+      How many doors will be open at the end after the 500-th person has passed through the doors?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 74.
