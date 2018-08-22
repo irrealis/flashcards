@@ -132,3 +132,14 @@ notes:
       Design a synchronization mechanism for \\(A\\) which ensures that \\(P\\) does not attempt to add a string into the array if it is full, and \\(Q\\) does not try to remove data from an empty buffer.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 66.
+
+
+- fields:
+    Front: |
+      ## 07.09: Barber shop
+
+      Consider a barber shop with a single barber \\(B\\), one barber chair, and \\(n\\) chairs for customers who are waiting for their turn for a haircut. If there are no customers, the barber sleeps in his chair. On entering, a customer either awakens the barber, or if the barber is cutting someone else's hair, he sits down in one of the chairs for waiting customers. If all of the waiting chairs are taken, the newly arrived customer simply leaves.
+
+      Assume there is a thread for each customer and for the barber. Model the system using semaphores and mutexes to ensure correct behavior.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 66.
