@@ -68,3 +68,17 @@ notes:
       The `Execute` method may take an indeterminate amount of time to return; it may never return. You need to have a time-out mechanism for this: assume the `Requestor` objects have an `Error` method that you can invoke.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 64.
+
+
+- fields:
+    Front: |
+      ## 07.04: Timer
+
+      Consider a web-based calendar in which the server hosting the calendar has to perform a task when the next calendar event takes place. (The task could be sending an email or an SMS.) Your job is to design a facility that manages the execution of such tasks.
+
+      Develop a `Timer` class that manages the execution of deferred tasks. Specifically, at creation, the constructor of `Timer` is passed an object which includes a `Run` method and a `name` field (which is a string). The `Timer` class must support:
+
+      1. starting a thread at a given time in the future; the thread is identified by name; and
+      2. canceling a thread with a given name (you can ignore the request if the thread has already started).
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 64-5.
