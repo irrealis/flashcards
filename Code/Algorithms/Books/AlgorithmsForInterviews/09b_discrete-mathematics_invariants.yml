@@ -57,3 +57,14 @@ notes:
       The explorer seems to have added no new knowledge to the system since each inhabitant can already tell that amongst the inhabitants, some have blue eyes and some have green eyes.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 77.
+
+
+- fields:
+    Front: |
+      ## 09.10: Hershey bar
+
+      A Hershey bar is modeled as an \\(m \times n\\) rectangle of \\(m \cdot n\\) pieces. You can take a bar and break it along a horizontal or vertical axis into two bars.
+
+      How would you break a \\(4 \times 4\\) bar into sixteen pieces using as few breaks as possible?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 77.
