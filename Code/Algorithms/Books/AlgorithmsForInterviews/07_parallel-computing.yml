@@ -121,3 +121,14 @@ notes:
       Implement a synchronization mechanism for the third readers-writers problem. It is acceptable (indeed necessary) that in this solution, both readers and writers have to wait longer than absolutely necessary. (Readers may wait even if \\(s\\) is opened for read, and writers may wait even if no one else has a lock on \\(s\\).)
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 65-6.
+
+
+- fields:
+    Front: |
+      ## 07.08: Producer-consumer queue
+
+      Two threads, the producer \\(P\\) and the consumer \\(Q\\), share a fixed-length array \\(A\\) of strings. The producer generates strings, one at a time, that it writes into \\(A\\); the consumer removes strings from \\(A\\), one at a time.
+
+      Design a synchronization mechanism for \\(A\\) which ensures that \\(P\\) does not attempt to add a string into the array if it is full, and \\(Q\\) does not try to remove data from an empty buffer.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 66.
