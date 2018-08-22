@@ -170,3 +170,14 @@ notes:
       Design a system that automatically generates the sidebar.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 71.
+
+
+- fields:
+    Front: |
+      ## 08.12: Online poker
+
+      Clump Enterprises has a large number of casinos. Their CEO wants to create a website by which gamblers can play poker online.
+
+      Design an online poker playing service for Clump Enterprises.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 71.
