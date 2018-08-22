@@ -159,3 +159,14 @@ notes:
       Design an online advertising system for Jingle.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 70.
+
+
+- fields:
+    Front: |
+      ## 08.11: Recommendation system
+
+      Jingle wants to generate more page views on its news site. One idea the product manager has is to put in a sidebar of clickable snippets from articles that are likely to be of interest to the reader.
+
+      Design a system that automatically generates the sidebar.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 71.
