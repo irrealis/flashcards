@@ -17,3 +17,13 @@ defaults:
 
 
 notes:
+
+- fields:
+    Front: |
+      ## 06.01: 0-1 knapsack
+
+      A thief has to choose from \\(n\\) items. Item \\(i\\) can be sold for \\(v_i\\) dollars and weighs \\(w_i\\) pounds (\\(v_i\\) and \\(w_i\\) are integers). The thief wants to take as valuable a load as possible but he can carry at most \\(W\\) pounds in his knapsack.
+
+      Design an algorithm that will select a subset of items that has maximum value and weighs at most \\(W\\) pounds. (This problem is called the 0-1 knapsack problem because each item must either be taken or left behind --- the thief cannot take a fractional amount of an item or take an item more than once.)
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 57-8.
