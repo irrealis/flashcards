@@ -26,3 +26,30 @@ notes:
       Design a servlet which implements an online spell correction suggester. Specifically, it takes as input a string \\(s\\) and computes an array of entries in its dictionary which are closest to the string using the edit distance specified in Problem 5.8. Since computing the edit distances from \\(s\\) to each entry in the dictionary is time-consuming, you should implementa a caching strategy. Specifically, cache the most recently computed result.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 63.
+
+
+- modelName: BasicMathJax
+  fields:
+    Front: |
+      ## 07.02: Thread pools
+
+      The following class, `SimpleWebServer`, implements part of a simple HTTP server:
+
+      ```{java }
+      public class SimpleWebServer {
+        final static int PORT = 8080;
+        public static void main(String [] args)
+          throws IOException
+        {
+          ServerSocket serversock = new ServerSocket(PORT);
+          for (;;) {
+            Socket sock = serversock.accept();
+            ProcessReq(sock);
+          }
+        }
+      }
+      ```
+
+      Suppose you find that `SimpleWebServer` has poor performance because `ProcessReq` frequently blocks on IO. What steps could you take to improve `SimpleWebServer`'s performance?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 64.
