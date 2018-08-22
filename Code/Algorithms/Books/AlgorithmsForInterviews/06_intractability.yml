@@ -105,3 +105,20 @@ notes:
       Given an arbitrary positive integer \\(n\\), how would you determine if it can be expressed as a sum of two cubes?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 59-60.
+
+
+- fields:
+    Front: |
+      ## 06.08: Collatz conjecture
+
+      Lothar Collatz proposed this remarkable conjecture in 1937: "Define \\(C: \\{1,2,3,\ldots\\} \mapsto \\{1,2,3,\ldots\\}\\) as follows: if \\(n\\) is even, \\(C(n) = n/2\\), else \\(C(n) = 3n + 1\\). Then for any choice of \\(n\\), \\(C^i(n) = 1\\), for some \\(i\\).""
+
+      For example, if we start with the number 11 and iteratively compute \\(C^i(11)\\), we get the sequence 11, 34, 17, 52, 26, 13, 40, 20, 10, 5, 16, 8, 4, 2, 1.
+
+      Despite intense efforts, the Collatz conjecture has not been proved or disproved.
+
+      Suppose you are given the task of proving or disproving the Collatz conjecture for the first billion integers. A direct approach would be to compute the convergence sequence for each number in this set.
+
+      How would you prove that Collatz hypothesis works for at least the first \\(N\\) integers? What is the runtime of your algorithm?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 60.
