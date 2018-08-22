@@ -122,3 +122,14 @@ notes:
       How would you prove that Collatz hypothesis works for at least the first \\(N\\) integers? What is the runtime of your algorithm?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 60.
+
+
+- fields:
+    Front: |
+      ## 06.09: Nearest points in the plane
+
+      Instead of having single integers in the array, if you have integral points in a two-dimensional plane, the problem of finding a closest pair of points becomes significantly more difficult. There are fast exact algorithms for this problem, but they are tricky to analyze and implement. Can you design a heuristic for identifying the closest pair of points?
+
+      You are given a list of pairs of points in the two-dimensional Cartesian plane. Each point has integer \\(x\\) and \\(y\\) coordinates. How would you find the two closest points?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 60.
