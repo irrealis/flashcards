@@ -68,3 +68,14 @@ notes:
       How would you break a \\(4 \times 4\\) bar into sixteen pieces using as few breaks as possible?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 77.
+
+
+- fields:
+    Front: |
+      ## 09.11: \\(n \times n\\) chomp
+
+      Consider an \\(n \times n\\) rectangle in the upper right quadrant in the Cartesian plane, with the lower leftmost point at \\((0,0)\\). The block \\((0,0)\\) is known to contain poison. Two players take turns at taking a bite out of the rectangle. A bite removes a square and all squares above and to the right. The first player to eat the square at \\((0,0)\\) loses.
+
+      Assuming the players have infinite computational resources at their disposal, who will win the game?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 78.
