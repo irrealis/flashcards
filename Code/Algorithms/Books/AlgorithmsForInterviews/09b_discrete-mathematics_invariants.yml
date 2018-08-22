@@ -101,3 +101,14 @@ notes:
       Assuming the players have infinite computational resources at their disposal, who will win the game?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 78.
+
+
+- fields:
+    Front: |
+      ## 09.14: Picking up coins --- I
+
+      There are fifty coins in a line --- these could be pennies, nickels, dimes, or quarters. Two players, \\(F\\) and \\(S\\), take turns at choosing one coin each --- they can only choose from the two coins at the ends of the line. The game ends when all the coins have been picked up. The player whose coins have the higher total value wins. Each player must select a coin when it is his turn, so the game ends in fifty turns.
+
+      If you want to ensure you do not lose, would you rather be \\(F\\) or \\(S\\)?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 78.
