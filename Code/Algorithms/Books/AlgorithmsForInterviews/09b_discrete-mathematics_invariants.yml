@@ -29,3 +29,14 @@ notes:
       What can you say about the last remaining integer as a function of the numbers of even and odd integers initially in \\(A\\)?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 76.
+
+
+- fields:
+    Front: |
+      ## 09.08: Gassing up
+
+      Consider a circular route that connects \\(n\\) cities. You need to visit all the \\(n\\) cities and come back to the starting city. In each city, a certain amount of gasoline is kept for you such that the total amount of gasoline on the route is exactly equal to the amount of gasoline needed to go around the circular route once.
+
+      Is it always possible to find a starting point on the route such that you can start there with an empty tank and complete the route? How can you efficiently find this city?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 77.
