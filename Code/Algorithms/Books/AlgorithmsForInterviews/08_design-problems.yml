@@ -1,0 +1,17 @@
+defaults:
+  deckName: Staging
+  modelName: CodingProblems
+  tags:
+  - Code
+  - Algorithms
+  - Books
+  - AlgorithmsForInterviews
+  - 08-DesignProblems
+
+  fields:
+    Back: "**To-do: Back.**"
+
+  markdownTabLength: 4
+
+
+notes:
