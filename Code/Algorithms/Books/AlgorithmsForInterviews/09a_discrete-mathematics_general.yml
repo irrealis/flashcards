@@ -61,3 +61,14 @@ notes:
       How many doors will be open at the end after the 500-th person has passed through the doors?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 74.
+
+
+- fields:
+    Front: |
+      ## 09.05: Height determination
+
+      You are given a number of identical balls and a building with \\(N\\) floors. You know that there is an integer \\(X < N\\) such that the ball will break if it is dropped from any floor \\(X\\) or higher but will remain intact if dropped from a floor below \\(X\\).
+
+      Given \\(K\\) balls and \\(N\\) floors, what is the minimum number of ball drops that are required to determine \\(X\\) in the worst case?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 74-5.
