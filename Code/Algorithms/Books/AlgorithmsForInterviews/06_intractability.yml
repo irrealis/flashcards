@@ -94,3 +94,14 @@ notes:
       How would you choose when and where to hold the lectures in order to finish all the lectures as soon as possible?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 59.
+
+
+- fields:
+    Front: |
+      ## 06.07: Hardy-Ramanujan number
+
+      The mathematician G. H. Hardy was on his way to visit his collaborator S. Ramanujan who was in the hospital. Hardy remarked to Ramanujan that he traveled in taxi cab number 1729, which seemed a dull one, and he hoped it was not a bad omen. To this, Ramanujan replied that 1729 was a very interesting number --- it was the smallest number expressible as the sum of cubes of two numbers in two different ways. Indeed, \\(10^3 + 9^3 = 12^3 + 1^3 = 1729\\).
+
+      Given an arbitrary positive integer \\(n\\), how would you determine if it can be expressed as a sum of two cubes?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 59-60.
