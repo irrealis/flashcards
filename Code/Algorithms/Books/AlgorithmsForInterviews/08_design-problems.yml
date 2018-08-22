@@ -148,3 +148,14 @@ notes:
       You have a service level agreement with your clients that requires that 99% of the requests are serviced in less that one second. How would you design the system to meet this requirement with minimal cost?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 70.
+
+
+- fields:
+    Front: |
+      ## 08.10: Online advertising system
+
+      Jingle, a search engine startup, wants to monetize its search results by displaying advertisements alongside search results.
+
+      Design an online advertising system for Jingle.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 70.
