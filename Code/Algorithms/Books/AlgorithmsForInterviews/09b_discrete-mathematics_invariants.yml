@@ -40,3 +40,20 @@ notes:
       Is it always possible to find a starting point on the route such that you can start there with an empty tank and complete the route? How can you efficiently find this city?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 77.
+
+
+- fields:
+    Front: |
+      ## 09.09: Common knowledge
+
+      An explorer comes to an island with 100 inhabitants. Exactly half the inhabitants have blue eyes, and half the inhabitants have green eyes. The green eyes are indicative of a disease that brings all the island inhabitants in danger. There is an understanding on the island that whenever someone learns that they have green eyes, they must leave the island; they never leave the island for any other reason. The inhabitants are too polite to inform anyone else of eye color. There are no other means for the inhabitants to observe the color of their eyes on the island.
+
+      The inhabitants assemble each day at exactly 9:00 AM, they see each other, and then go back to their own houses. They never see anyone else for the rest of the day. Furthermore, they are capable of instant logical reasoning.
+
+      The explorer visits one of their daily assemblies and says, "That's interesting --- some of you have blue eyes and some of you have green eyes".
+
+      What would follow after this event? In particular, why does this observation sadden the inhabitants?
+
+      The explorer seems to have added no new knowledge to the system since each inhabitant can already tell that amongst the inhabitants, some have blue eyes and some have green eyes.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 77.
