@@ -60,3 +60,16 @@ notes:
       How would you build a spelling correction system?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 68.
+
+
+- fields:
+    Front: |
+      ## 08.05: Stemming
+
+      When a user submits the query "computation" to a search engine, it is quite possible he might also be interested in documents containing the words "computers", "compute", and "computing". If you have several keywords in a query, it becomes difficult to search for all combinations of all variants of the words in the query.
+
+      One way to solve this problem is to reduce all variants of a given word to one common root, both in the query string and in the documents. This process is called stemming. An example of stemming would be \\(\\{computers,computer,compute\\}\mapsto comput\\). It is almost impossible to succinctly capture all possible variants of all words in the English language, but a few simple rules can get us a majority of the cases.
+
+      Design a stemming algorithm that runs fast and does a reasonable job.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 69.
