@@ -158,3 +158,15 @@ notes:
       For what option price(s) are there no opportunities for arbitrage?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 85.
+
+
+- modelName: BasicMathJax
+  fields:
+    Front: |
+      ## 10.13: Option pricing with interest
+
+      Consider the same problem as Problem 10.12, with the existence of a third asset class, a bond. A $1 bond pays $1.02 in 100 days. You can borrow money at this rate or lend it at this rate.
+
+      Show there is a unique arbitrage-free price for the option and compute this price.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 85.
