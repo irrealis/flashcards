@@ -39,3 +39,12 @@ notes:
       Compute a random subset of size \\(k\\) from a set of unknown size which is presented as a sequence of elements.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 81-2.
+
+
+- fields:
+    Front: |
+      ## 10.03: Online sampling
+
+      Compute a random subset of size \\(k\\) from the integers in the interval \\([0, n - 1]\\). You should retum the result in an array of length \\(k\\). You may use only constant additional storage. All subsets should be equally likely and all permutations of the array should be equally likely.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 81-2.
