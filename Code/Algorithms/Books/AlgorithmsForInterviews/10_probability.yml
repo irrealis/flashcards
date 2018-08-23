@@ -82,3 +82,15 @@ notes:
       Can you determine which of the above two methods of generating \\(u_1\\) and \\(u_2\\) is more likely to produce a triangle without computing the exact probabilities?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 82-3.
+
+
+- modelName: BasicMathJax
+  fields:
+    Front: |
+      ## 10.07: Balls and bins
+
+      Suppose you have \\(n\\) web servers talking to \\(m\\) clients such that each client picks a server uniformly at random. If you do not end up wasting your server capacity, this is a nice way of pairing servers to clients since you do not need to centralize anything. But there is a chance that some of your servers are idle while clients are waiting to be served. How likely is it that there will be servers that are not doing anything? This problem is often modeled using balls and bins.
+
+      If you throw \\(m\\) balls into \\(n\\) bins randomly, how would you compute the expected number of bins that do not have any balls?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 83.
