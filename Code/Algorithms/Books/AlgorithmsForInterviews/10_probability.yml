@@ -6,7 +6,7 @@ defaults:
   - Algorithms
   - Books
   - AlgorithmsForInterviews
-  - 10-Probabilit0y
+  - 10-Probability
 
   fields:
     Python: "**To-do: Python.**"
