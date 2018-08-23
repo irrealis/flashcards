@@ -68,3 +68,17 @@ notes:
       Design an algorithm that creates random permutations of \\(\\{1,2,\ldots,n\\}\\). Each permutation should be equally likely. You are given a random number generation function; use as few calls to it as possible.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 82.
+
+
+- modelName: BasicMathJax
+  fields:
+    Front: |
+      ## 10.06: Forming a triangle from random lengths
+
+      Suppose you pick two numbers \\(u_1\\) and \\(u_2\\) uniformly randomly and independently in the interval \\([0,1]\\). These numbers divide the interval into three segments --- the first of length \\(\min(u_1, u_2)\\), the second of length \\(\max(u_1, u_2) - \min(u_1, u_2)\\), and the third of length \\(1-\max(u_1, u_2)\\). What is the probability that these three segments can be assembled into a triangle?
+
+      Repeate the computation for the case where we pick \\(u_1\\) uniformly randomly from \\([0,1]\\) and then \\(u_2\\) uniformly randomly from \\([1-u_1, 1]\\).
+
+      Can you determine which of the above two methods of generating \\(u_1\\) and \\(u_2\\) is more likely to produce a triangle without computing the exact probabilities?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 82-3.
