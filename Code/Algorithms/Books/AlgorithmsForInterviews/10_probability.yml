@@ -204,3 +204,15 @@ notes:
       What would be the value of \\(w\\) such that it is a fair game, i.e., for a rational player the expected gain is zero.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 86.
+
+
+- modelName: BasicMathJax
+  fields:
+    Front: |
+      ## 10.17: Selecting a red card
+
+      A deck of 52 playing cards is shuffled. The deck is placed face-down on a table. You are trying to select a red card. You can either examine or select the card that is currently at the top of the deck. If you choose to examine the top card, its value is revealed and it is set face-up. If you choose to select the top card, the game ends there --- you win if you select a red card and lose if the card is black. Once you examine a card, it cannot be selected. If you have turned over 51 cards, you must select the last card.
+
+      What is the strategy that optimizes the likelihood of your selecting a red card?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 86.
