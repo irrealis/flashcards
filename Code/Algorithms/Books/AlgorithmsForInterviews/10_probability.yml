@@ -240,3 +240,19 @@ notes:
       You select a coin at random from the bag and toss it five times. It comes up heads three times. What is the probability that it was the coin that was biased towards tails? How many times do you need to toss the coin that is is biased towards tails before it comes up with a majority of tails with probability greater than \\(\frac{99}{100}\\)?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 87.
+
+
+- modelName: BasicMathJax
+  fields:
+    Front: |
+      ## 10.20: The complexity of and-or formulas
+
+      Suppose we want to evaluate an expression of the form \\((A \wedge B) \vee (C \wedge D)\\), where \\(\wedge\\) and \\(\vee\\) are Boolean AND and OR, respectively, and \\(A,B,C,D\\) are Boolean variables. It is natural to use _lazy evaluation_, i.e., when evaluating \\(A \wedge B\\), if we evaluate \\(A\\) first and it evaluates to false, then we skip evaluating \\(B\\).
+
+      We now define a restricted set of expressions: \\(L_0\\) expressions are just Boolean variables; an \\(L_{k+1}\\) expression is of the form \\(((\phi_0 \wedge \phi_1)\vee(\psi_0 \wedge \psi_1))\\), where \\(\phi_0,\phi_1,\psi_0,\psi_1\\) are \\(L_k\\) expressions. All Boolean variables appearing in an \\(L_k\\) expression are distinct.
+
+      We want to design an algorithm for evaluating an \\(L_k\\) expression, and want to minimize the number of variables that it reads. We do not care how much time the algorithm spends traversing the expression.
+
+      Prove that a deterministic algorithm --- one in which the choice of the next variable to read is a deterministic function of the values read so far --- must read all \\(4^k\\) variables in the worst-case. Can you design a randomized algorithm that reads fewer variables on average, regardless of the values assigned to the variables?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 87.
