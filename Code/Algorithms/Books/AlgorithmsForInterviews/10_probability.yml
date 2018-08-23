@@ -130,3 +130,13 @@ notes:
       Given the probability distribution of a discrete random variable \\(X\\) and a uniform \\([0,1]\\) random number generator, how would you generate instances of \\(X\\) that follow the given distribution?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 83-4.
+
+
+- modelName: BasicMathJax
+  fields:
+    Front: |
+      ## 10.11: Expected number of dice rolls
+
+      Bob repeatedly rolls an unbiased 6-sided dice. He stops when he has rolled all the six numbers on the dice. How many rolls will it take, on average, for Bob to see all the six numbers?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 83-4.
