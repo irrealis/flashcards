@@ -180,3 +180,15 @@ notes:
       Suppose the price of Jingle stock 100 days in the future is a normal random variable with mean $300 and deviation $20. What would be the fair price of an option to buy a single share of Jingle at $300 in 100 days worth today? (Ignore the impact of interest rates.)
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 85.
+
+
+- modelName: BasicMathJax
+  fields:
+    Front: |
+      ## 10.15: Optimum bidding
+
+      Consider an auction for an item in which the reserve price is set by the seller to be a random variable \\(X\\) that is uniformly distributed in the range \\([0, 400]\\). You can place a bid \\(B\\); if your bid is greater than or equal to the reserve price, you win the auction and have to pay \\(B\\). You can then sell the item for an 80% markup over what you paid for it.
+
+      How much should you offer for the item?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 86.
