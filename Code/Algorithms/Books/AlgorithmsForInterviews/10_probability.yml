@@ -216,3 +216,15 @@ notes:
       What is the strategy that optimizes the likelihood of your selecting a red card?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 86.
+
+
+- modelName: BasicMathJax
+  fields:
+    Front: |
+      ## 10.18: Selecting the best secretary
+
+      Suppose you are to choose a secretary from a pool of \\(n\\) secretaries who you interview in a random order. Given any two secretaries, you can tell who is better and the "is better" relationship is transitive. Once you interview a secretary, you can select her as your secretary and the selection process stops. Alternately, you can move on to the next one (but cannot go back to a previous secretary).
+
+      Can you come up with a strategy that results in your selecting the best secretary with probability greater than \\(\frac{1}{n}\\)? What strategy maximizes the probability of selecting the best secretary?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 86-7.
