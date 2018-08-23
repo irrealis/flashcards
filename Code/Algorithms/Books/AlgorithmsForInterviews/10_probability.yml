@@ -1,0 +1,20 @@
+defaults:
+  deckName: Staging
+  modelName: BasicMathJax
+  tags:
+  - Code
+  - Algorithms
+  - Books
+  - AlgorithmsForInterviews
+  - 10-Probability
+
+  fields:
+    Python: "**To-do: Python.**"
+    Java: "**To-do: Java.**"
+    C++: "**To-do: C++.**"
+    Back: "**To-do: Back.**"
+
+  markdownTabLength: 4
+
+
+notes:
