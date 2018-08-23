@@ -48,3 +48,14 @@ notes:
       Compute a random subset of size \\(k\\) from the integers in the interval \\([0, n - 1]\\). You should retum the result in an array of length \\(k\\). You may use only constant additional storage. All subsets should be equally likely and all permutations of the array should be equally likely.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 81-2.
+
+
+- fields:
+    Front: |
+      ## 10.04: Random permutations --- 1
+
+      Consider estimating the probability of winning a game of blackjack, assuming the cards were shuffled perfectly uniformly before dealing hands, and everyone is playing rationally. One way to do this would be to generate a few random permutations and compute the chances of winning in each case where you are dealt the given cards. Here it would be important that the process you use to generate a random permutation can generate any permutation with equal probability. This can be tricky.
+
+      Does the following process yield a uniformly random permutation of \\(A\\)? "For \\(i\in\\{1,2,\ldots,n\\}\\), swap \\(A[i]\\) with a randomly chosen element of \\(A\\)." (The randomly chosen element could be \\(i\\) itself.)
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 82.
