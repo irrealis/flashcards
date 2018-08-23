@@ -59,3 +59,12 @@ notes:
       Does the following process yield a uniformly random permutation of \\(A\\)? "For \\(i\in\\{1,2,\ldots,n\\}\\), swap \\(A[i]\\) with a randomly chosen element of \\(A\\)." (The randomly chosen element could be \\(i\\) itself.)
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 82.
+
+
+- fields:
+    Front: |
+      ## 10.05: Random permutations --- 2
+
+      Design an algorithm that creates random permutations of \\(\\{1,2,\ldots,n\\}\\). Each permutation should be equally likely. You are given a random number generation function; use as few calls to it as possible.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 82.
