@@ -118,3 +118,15 @@ notes:
       How would you implement a random number generator that generates a random integer between \\(a\\) and \\(b\\), given a random number generator that produces either zero or one with equal probability? What would be the runtime of this algorithm assuming each call to the given random number generator takes \\(O(1)\\) time?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 83.
+
+
+- modelName: BasicMathJax
+  fields:
+    Front: |
+      ## 10.10: Nonuniform random number generation
+
+      Suppose you want to write a load test for your server. You looked at the inter-arrival time of requests to your server over a period of one year, and from this data you have computed a histogram of the distribution of the inter-arrival time of requests. Now, in your load test you want to generate requests for your server such that the inter-arrival times come from the same distribution that you have seen in your data. How would you generate these inter-arrival times?
+
+      Given the probability distribution of a discrete random variable \\(X\\) and a uniform \\([0,1]\\) random number generator, how would you generate instances of \\(X\\) that follow the given distribution?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 83-4.
