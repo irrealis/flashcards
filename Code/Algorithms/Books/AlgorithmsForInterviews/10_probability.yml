@@ -228,3 +228,15 @@ notes:
       Can you come up with a strategy that results in your selecting the best secretary with probability greater than \\(\frac{1}{n}\\)? What strategy maximizes the probability of selecting the best secretary?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 86-7.
+
+
+- modelName: BasicMathJax
+  fields:
+    Front: |
+      ## 10.19: Differentiating biases
+
+      Two coins that are identical in appearance are placed in a black cloth bag. One is biased towards heads --- it comes up heads with probabi1ity 0.6. The other is biased towards tails --- it comes up heads with probability 0.4. For both coins, the outcomes of successive tosses are independent.
+
+      You select a coin at random from the bag and toss it five times. It comes up heads three times. What is the probability that it was the coin that was biased towards tails? How many times do you need to toss the coin that is is biased towards tails before it comes up with a majority of tails with probability greater than \\(\frac{99}{100}\\)?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 87.
