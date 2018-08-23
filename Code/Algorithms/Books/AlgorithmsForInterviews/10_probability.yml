@@ -28,3 +28,14 @@ notes:
       Design an algorithm that returns a subset of \\(k\\) elements; all subsets should be equally likely. Use as few calls to the random number generator as possible and use only \\(O(1)\\) additional storage. (You can return the result in the same array as input.)
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 81.
+
+
+- fields:
+    Front: |
+      ## 10.02: Reservoir sampling
+
+      You are building a packet sniffer for your network that should be able to provide a uniform sample of packets for any network session. You always want to get \\(k\\) packets irrespective of the length (assuming each session is longer than \\(k\\)).
+
+      Compute a random subset of size \\(k\\) from a set of unknown size which is presented as a sequence of elements.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 81-2.
