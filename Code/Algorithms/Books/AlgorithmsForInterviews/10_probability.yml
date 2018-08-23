@@ -106,3 +106,15 @@ notes:
       What is the expected number of numbers that get mapped to themselves? What is the expected length of the largest increasing subsequence \\(\mu = \langle x_1,\ldots,x_l \rangle\\) in a randomly chosen permutation, where \\(x_l\\) is the first element of the permutation, and \\(x_k\\), \\(k > 1\\) is the first element that is larger than \\(x_{k_1}\\)?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 83.
+
+
+- modelName: BasicMathJax
+  fields:
+    Front: |
+      ## 10.09: Uniform random number generation
+
+      Sometimes you may not have the perfect random number generator you need. For example it would require a bit of thinking to devise an algorithm to pick one out of five friends who gets to be the designated driver by a coin flip such that the process is fair to everyone.
+
+      How would you implement a random number generator that generates a random integer between \\(a\\) and \\(b\\), given a random number generator that produces either zero or one with equal probability? What would be the runtime of this algorithm assuming each call to the given random number generator takes \\(O(1)\\) time?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 83.
