@@ -192,3 +192,15 @@ notes:
       How much should you offer for the item?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 86.
+
+
+- modelName: BasicMathJax
+  fields:
+    Front: |
+      ## 10.16: Once or twice
+
+      Suppose you are playing a game against a dealer. In order to play the game, you must pay $1. The dealer gets a random card from a full deck. You are shown a randomly selected card from another full deck. You have the choice of taking the card or exchanging it for another card which is also randomly selected from a full deck. You win the game if and only if the face value of your card is larger than that of dealer. If you win, you get \\(w\\) dollars. (The face value of an ace is 1; the face values of Jack, Queen, and King are 12, 13, and 14, respectively.)
+
+      What would be the value of \\(w\\) such that it is a fair game, i.e., for a rational player the expected gain is zero.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 86.
