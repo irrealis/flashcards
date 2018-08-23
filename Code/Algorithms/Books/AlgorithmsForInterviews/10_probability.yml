@@ -140,3 +140,21 @@ notes:
       Bob repeatedly rolls an unbiased 6-sided dice. He stops when he has rolled all the six numbers on the dice. How many rolls will it take, on average, for Bob to see all the six numbers?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 83-4.
+
+
+- modelName: BasicMathJax
+  fields:
+    Front: |
+      ## 10.12: Option pricing --- discrete case
+
+      Consider an option to buy a stock \\(S\\) that currently trades at $100. The option is to buy the stock at $100 in 100 days.
+
+      Suppose we know there are only two possible outcomes --- \\(S\\) will go to $120 or to $70.
+
+      An arbitrage is a situation where you can start with a portfolio (\\(x_s\\) shares and \\(x_o\\) options) which has negative value (since you are allowed to short shares and sell options, both \\(x_s\\) and \\(x_o\\) may be negative) and regardless of the movement in the share price, the portfolio has positive value.
+
+      For example, if the option is priced at $26, we can make money by buying one share for $100 and selling four options --- the initial outlay on the portfolio is \\(100 - 4 \times 26 = -4\\). If the stock goes up, our portfolio is worth \\(120 - 20 \times -4 = $80\\). If the stock goes down, the portfolio is worth \\($70\\). In either case, we make money with no initial investment, i.e., the option price allows for an arbitrage.
+
+      For what option price(s) are there no opportunities for arbitrage?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 85.
