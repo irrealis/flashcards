@@ -94,3 +94,15 @@ notes:
       If you throw \\(m\\) balls into \\(n\\) bins randomly, how would you compute the expected number of bins that do not have any balls?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 83.
+
+
+- modelName: BasicMathJax
+  fields:
+    Front: |
+      ## 10.08: Random permutations
+
+      Suppose we create a random permutation of \\(\langle 1,2,\ldots,n \rangle\\), where each permutation has equal probability.
+
+      What is the expected number of numbers that get mapped to themselves? What is the expected length of the largest increasing subsequence \\(\mu = \langle x_1,\ldots,x_l \rangle\\) in a randomly chosen permutation, where \\(x_l\\) is the first element of the permutation, and \\(x_k\\), \\(k > 1\\) is the first element that is larger than \\(x_{k_1}\\)?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 83.
