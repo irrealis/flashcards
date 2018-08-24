@@ -84,3 +84,12 @@ notes:
       Give examples of system calls that are not related to input-output.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 96.
+
+
+- fields:
+    Front: |
+      ## 11.15.08: Operating Systems
+
+      Give examples of library functions that call a system function all the time, none of the time, and some of the time.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 96.
