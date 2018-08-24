@@ -1,0 +1,18 @@
+defaults:
+  deckName: Staging
+  modelName: BasicMathJax
+  tags:
+  - Code
+  - Algorithms
+  - Books
+  - AlgorithmsForInterviews
+  - 11-Programming
+  - 11f-DebuggingAndTesting
+
+  fields:
+    Back: "**To-do: Back.**"
+
+  markdownTabLength: 4
+
+
+notes:
