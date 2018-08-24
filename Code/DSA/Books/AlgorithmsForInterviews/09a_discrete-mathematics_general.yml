@@ -5,9 +5,9 @@ defaults:
   - Code
   - Algorithms
   - Books
-  - AlgorithmsForInterviews
-  - 09-DiscreteMathematics
-  - 09a-General
+  - AFI-AlgorithmsForInterviews
+  - AFI-09-DiscreteMathematics
+  - AFI-09a-General
 
   fields:
     Python: "**To-do: Python.**"

@@ -5,10 +5,10 @@ defaults:
   - Code
   - Algorithms
   - Books
-  - AlgorithmsForInterviews
-  - 11-Programming
-  - 11e-ProgrammingLanguages
-  - 11e1-Basics
+  - AFI-AlgorithmsForInterviews
+  - AFI-11-Programming
+  - AFI-11e-ProgrammingLanguages
+  - AFI-11e1-Basics
 
   fields:
     Python: "**To-do: Python.**"

@@ -5,8 +5,8 @@ defaults:
   - Code
   - Algorithms
   - Books
-  - AlgorithmsForInterviews
-  - 05-AlgorithmsOnStrings
+  - AFI-AlgorithmsForInterviews
+  - AFI-05-AlgorithmsOnStrings
 
   fields:
     Python: "**To-do: Python.**"

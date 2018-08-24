@@ -5,8 +5,8 @@ defaults:
   - Code
   - Algorithms
   - Books
-  - AlgorithmsForInterviews
-  - 07-ParallelComputing
+  - AFI-AlgorithmsForInterviews
+  - AFI-07-ParallelComputing
 
   fields:
     Python: "**To-do: Python.**"

@@ -5,8 +5,8 @@ defaults:
   - Code
   - Algorithms
   - Books
-  - AlgorithmsForInterviews
-  - 06-Intractability
+  - AFI-AlgorithmsForInterviews
+  - AFI-06-Intractability
 
   fields:
     Python: "**To-do: Python.**"

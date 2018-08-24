@@ -5,9 +5,9 @@ defaults:
   - Code
   - Algorithms
   - Books
-  - AlgorithmsForInterviews
-  - 01-Searching
-  - 01b-Hashing
+  - AFI-AlgorithmsForInterviews
+  - AFI-01-Searching
+  - AFI-01b-Hashing
 
   fields:
     Python: "**To-do: Python.**"

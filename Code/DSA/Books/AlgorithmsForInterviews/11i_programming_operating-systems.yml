@@ -5,9 +5,9 @@ defaults:
   - Code
   - Algorithms
   - Books
-  - AlgorithmsForInterviews
-  - 11-Programming
-  - 11i-OperatingSystems
+  - AFI-AlgorithmsForInterviews
+  - AFI-11-Programming
+  - AFI-11i-OperatingSystems
 
   fields:
     Python: "**To-do: Python.**"

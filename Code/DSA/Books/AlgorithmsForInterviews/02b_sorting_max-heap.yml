@@ -5,9 +5,9 @@ defaults:
   - Code
   - Algorithms
   - Books
-  - AlgorithmsForInterviews
-  - 02-Sorting
-  - 02b-MaxHeap
+  - AFI-AlgorithmsForInterviews
+  - AFI-02-Sorting
+  - AFI-02b-MaxHeap
 
   fields:
     Python: "**To-do: Python.**"
