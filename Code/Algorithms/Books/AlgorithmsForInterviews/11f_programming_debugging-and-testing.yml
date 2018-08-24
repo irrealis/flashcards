@@ -62,3 +62,13 @@ notes:
       How would you determine where a program spends most of its time?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 94.
+
+
+- modelName: CodingProblems
+  fields:
+    Front: |
+      ## 11.12.06: Debugging and testing
+
+      How do unit testing libraries make the process of testing easier?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 94.
