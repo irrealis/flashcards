@@ -74,3 +74,12 @@ notes:
       How would you write a program which checks every hour if a network connection is up?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 97.
+
+
+- fields:
+    Front: |
+      ## 11.16.2.07: Tools --- shell tools
+
+      How would you write a program which checks the price of a Nikon D40 DLSR each day on amazon.com?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 97.
