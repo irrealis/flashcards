@@ -65,3 +65,12 @@ notes:
       How would you take two documents in PDF and create a new document which consists of the pages of the two original documents interleaved in order?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 97.
+
+
+- fields:
+    Front: |
+      ## 11.16.2.06: Tools --- shell tools
+
+      How would you write a program which checks every hour if a network connection is up?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 97.
