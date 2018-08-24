@@ -30,3 +30,16 @@ notes:
       Given an array A of integers and a permutation \\(\Pi\\), compute \\(\Pi(A)\\) using only constant additional storage.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 90.
+
+
+- fields:
+    Front: |
+      ## 11.05: Invert a permutation
+
+      Every 1-1 onto mapping is invertible, i.e., if \\(f\\) is 1-1 onto, then there exists a unique function \\(f^{-1}\\) such that \\(f^{-1}(f(x)) = x\\). In particular, for any permutation \\(\Pi\\), there exists a unique permutation \\(\Pi^{-1}\\) that is the inverse of \\(\Pi\\).
+
+      Given a permutation represented by an array \\(A\\), you can compute its inverse \\(B\\) by simply assigning \\(B[A[i]] = i\\) for all values of \\(i\\).
+
+      Given an array \\(A\\) of ints representing a permutation \\(\Pi\\), update \\(A\\) to represent \\(\Pi^{-1}\\) using only constant additional storage.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 90.
