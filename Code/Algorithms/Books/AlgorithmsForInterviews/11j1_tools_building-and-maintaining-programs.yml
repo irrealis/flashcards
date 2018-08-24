@@ -84,3 +84,12 @@ notes:
       Are deltas in the branching for a revision tree stored out forwards or backwards? What are the benefits of each approach?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 96.
+
+
+- fields:
+    Front: |
+      ## 11.16.1.08: Tools --- building and maintaining programs
+
+      What are the advantages and disadvantages of a version control system that locks files?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 96.
