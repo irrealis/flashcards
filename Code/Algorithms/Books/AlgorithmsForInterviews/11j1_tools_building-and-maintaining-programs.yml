@@ -66,3 +66,12 @@ notes:
       What bug tracking system do you use?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 96.
+
+
+- fields:
+    Front: |
+      ## 11.16.1.06: Tools --- building and maintaining programs
+
+      How is branching implemented in a version control system?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 96.
