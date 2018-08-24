@@ -38,3 +38,43 @@ notes:
       data = [1, 9, 2, 8, 3, 7, 2, 7, 8, 6]
       print(selection_sort(data))
       ```
+    Java: |
+      ```{java }
+      import java.util.ArrayList;
+      import java.util.Collections;
+      import java.util.List;
+
+      public class Sorts {
+        public static List<Integer> sort(List<Integer> l){
+          int n = l.size();
+          for(int i = 0; i < n; i++){
+            int min_idx = i;
+            for(int j = i + 1; j < n; j++){
+              if(l.get(j) < l.get(min_idx)){
+                min_idx = j;
+              }
+            }
+            if(i < min_idx){
+              Collections.swap(l, i, min_idx);
+            }
+          }
+          return l;
+        }
+
+        public static void print_array(List<Integer> s){
+          for(int x: s.subList(0, s.size()-1)){
+            System.out.printf("%d, ", x);
+          }
+          System.out.printf("%d%n", s.get(s.size()-1));
+        }
+
+        public static void main(String[] args){
+          int[] data = {1, 9, 2, 8, 3, 7, 2, 7, 8, 6};
+          ArrayList<Integer> d = new ArrayList<>();
+          for(int x: data){ d.add(x); }
+          print_array(sort(d));
+        }
+      }
+      // String[] args;
+      // Sorts.main(args);
+      ```
