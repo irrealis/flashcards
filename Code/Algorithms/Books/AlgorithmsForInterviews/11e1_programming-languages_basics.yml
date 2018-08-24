@@ -115,3 +115,13 @@ notes:
       Give an example of a memory leak.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 93.
+
+
+- modelName: BasicMathJax
+  fields:
+    Front: |
+      ## 11.11.1.11: Programming languages --- basics
+
+      What is tail recursion? How can it be removed automatically?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 93.
