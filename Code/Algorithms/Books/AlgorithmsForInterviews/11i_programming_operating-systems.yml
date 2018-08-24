@@ -28,3 +28,12 @@ notes:
       What is a system call?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 95.
+
+
+- fields:
+    Front: |
+      ## 11.15.02: Operating Systems
+
+      How is a system call different from a library call?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 95.
