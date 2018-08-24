@@ -38,3 +38,12 @@ notes:
       Write a command that prints out lines in a text file which contain the strings `foo` and `bar` in any order.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 96.
+
+
+- fields:
+    Front: |
+      ## 11.16.2.03: Tools --- shell tools
+
+      Write a command which replaces every occurrence of a `foo` followed by a `bar` (with possibly some other characters in between) by a `widget`.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 96.
