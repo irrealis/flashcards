@@ -34,3 +34,12 @@ notes:
       How would you debug a distributed program?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 94.
+
+
+- fields:
+    Front: |
+      ## 11.12.03: Debugging and testing
+
+      A program works sometimes and fails other times --- why?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 94.
