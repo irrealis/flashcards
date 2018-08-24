@@ -41,3 +41,14 @@ notes:
       Given a reference to the head of a singly linked list, how would you determine whether this list ends in a null or reaches a cycle of nodes? (You do not know the length of the list.)
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 91.
+
+
+- fields:
+    Front: |
+      ## 11.09: Deletion from a singly linked list
+
+      Given a node in a singly linked list, deleting it in constant time appears impossible because its predecessor's next field has to be updated. Surprisingly, it can be done with one small caveat --- the node to delete cannot be the last one in the list, and it is easy to copy the value part of a node.
+
+      Let \\(v\\) be a node in a singly linked list. Node \\(v\\) is not the tail; delete it in 0(1) time.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 91.
