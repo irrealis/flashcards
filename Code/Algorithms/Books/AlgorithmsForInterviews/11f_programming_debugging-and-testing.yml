@@ -52,3 +52,13 @@ notes:
       A program works sometimes and fails other times on the exact same input --- why?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 94.
+
+
+- modelName: CodingProblems
+  fields:
+    Front: |
+      ## 11.12.05: Debugging and testing
+
+      How would you determine where a program spends most of its time?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 94.
