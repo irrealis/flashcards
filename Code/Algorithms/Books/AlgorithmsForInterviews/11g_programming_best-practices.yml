@@ -59,3 +59,12 @@ notes:
       What do Java bounded wildcards buy you?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 95.
+
+
+- fields:
+    Front: |
+      ## 11.13.05: Best Practices
+
+      Why should you always override the equals and hash function methods for Java classes?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 95.
