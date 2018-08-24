@@ -44,3 +44,12 @@ notes:
       What problems does dynamic linkage solve? What problems does it introduce?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 95.
+
+
+- fields:
+    Front: |
+      ## 11.14.03: Programming Language Implementation
+
+      What is a functional language?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 95.
