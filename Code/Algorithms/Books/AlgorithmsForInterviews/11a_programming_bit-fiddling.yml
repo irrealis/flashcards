@@ -30,3 +30,14 @@ notes:
       How would you compute parity if you had to perform the computation for a very large number of longs?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 89.
+
+
+- fields:
+    Front: |
+      ## 11.02: Reversing the bits in a long
+
+      There are several variants of the parity problem posed above, e.g., computing the number of bits set to 1 in a long. Here is a bit-fiddling problem that is concerned with restructuring:
+
+      Write a function which takes a long \\(x\\) and returns a long that has the bits of \\(x\\) reversed.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 89.
