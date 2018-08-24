@@ -82,3 +82,13 @@ notes:
       List five ways in which code can be nonportable. What can you do to make the code portable?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 94.
+
+
+- modelName: CodingProblems
+  fields:
+    Front: |
+      ## 11.12.08: Debugging and testing
+
+      Write tests for implementation of an `isupper` function.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 94.
