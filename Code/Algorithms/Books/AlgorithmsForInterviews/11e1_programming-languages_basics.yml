@@ -68,3 +68,12 @@ notes:
       Does the check `x == x + 1` always return false for integer `x`?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 93.
+
+
+- fields:
+    Front: |
+      ## 11.11.1.06: Programming languages --- basics
+
+      What do composite objects look like in memory?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 93.
