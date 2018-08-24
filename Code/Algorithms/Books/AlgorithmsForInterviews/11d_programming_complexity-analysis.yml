@@ -19,3 +19,29 @@ defaults:
 
 
 notes:
+
+
+- fields:
+    Front: |
+      ## 11.10: Binary search
+
+      What is the time complexity of the following implementation of binary search?
+
+      ```{java }
+      boolean search(array A, int K) {
+        if (A.size() = 0)
+          return false;
+        if (A.size() = 1)
+          return (A[0] == K);
+
+        int m = A.size() / 2;
+
+        return (A[m] == K) ? true :
+          ( (A[m] < K) ?
+              search(A[m+1::A.size()], K) :
+              search(A[0::m], K)
+          )
+      }
+      ```
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 89.
