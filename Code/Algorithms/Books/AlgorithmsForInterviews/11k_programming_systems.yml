@@ -37,3 +37,12 @@ notes:
       How does a web browser work? Specifically, describe how autocompletion (such as in a search-engine query box) is implemented.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 98.
+
+
+- fields:
+    Front: |
+      ## 11.17.03: Systems
+
+      How does the Internet work? Specifically, describe the roles of the TCP/IP protocol, routers, and DNS.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 98.
