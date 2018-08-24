@@ -19,3 +19,12 @@ defaults:
 
 
 notes:
+
+
+- fields:
+    Front: |
+      ## 11.17.01: Systems
+
+      Describe how an operating system is implemented. Specifically, describe how Linux implements processes and I/O.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 98.
