@@ -46,3 +46,14 @@ notes:
       What is a device driver?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 96.
+
+
+- fields:
+    Front: |
+      ## 11.15.04: Operating Systems
+
+      What is livelock? deadlock?
+
+      Give an example of each.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 96.
