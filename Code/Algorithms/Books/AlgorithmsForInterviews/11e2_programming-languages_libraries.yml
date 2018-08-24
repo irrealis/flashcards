@@ -74,3 +74,13 @@ notes:
       How does the library code compute trigonometric functions?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 94.
+
+
+- modelName: BasicMathJax
+  fields:
+    Front: |
+      ## 11.11.2.07: Programming languages --- libraries
+
+      The `strtok(char *s1, char *s2)` function in the C standard library successively returns occurrences of the characters in `s2` in string `s1`; it returns `null` if there are no more occurrences. What makes this a dangerous function to use in a multithreaded program?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 94.
