@@ -75,3 +75,12 @@ notes:
       How is branching implemented in a version control system?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 96.
+
+
+- fields:
+    Front: |
+      ## 11.16.1.07: Tools --- building and maintaining programs
+
+      Are deltas in the branching for a revision tree stored out forwards or backwards? What are the benefits of each approach?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 96.
