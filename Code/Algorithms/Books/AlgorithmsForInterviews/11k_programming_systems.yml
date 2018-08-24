@@ -28,3 +28,12 @@ notes:
       Describe how an operating system is implemented. Specifically, describe how Linux implements processes and I/O.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 98.
+
+
+- fields:
+    Front: |
+      ## 11.17.02: Systems
+
+      How does a web browser work? Specifically, describe how autocompletion (such as in a search-engine query box) is implemented.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 98.
