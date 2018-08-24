@@ -92,3 +92,12 @@ notes:
       Write tests for implementation of an `isupper` function.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 94.
+
+
+- fields:
+    Front: |
+      ## 11.12.09: Debugging and testing
+
+      Should you test private methods? Should you test one-line methods?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 94.
