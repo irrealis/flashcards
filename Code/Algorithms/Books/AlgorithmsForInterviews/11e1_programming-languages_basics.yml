@@ -135,3 +135,13 @@ notes:
       Is the natural recursive program for computing \\(n!\\) tail recursive?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 93.
+
+
+- modelName: BasicMathJax
+  fields:
+    Front: |
+      ## 11.11.1.13: Programming languages --- basics
+
+      Your manager reads an online article that says it is ten times faster to code in Python than in C++. He wants you to code exclusively in Python from now on. What would you say to him?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 93.
