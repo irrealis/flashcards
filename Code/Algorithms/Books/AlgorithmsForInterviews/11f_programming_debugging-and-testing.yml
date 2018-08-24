@@ -110,3 +110,12 @@ notes:
       If you find and fix an error by adding debug code, should you remove the debug code afterwards? Should you leave them in with a conditional compilation/runtime flag?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 94.
+
+
+- fields:
+    Front: |
+      ## 11.12.11: Debugging and testing
+
+      What is a buffer overflow, and how can hackers exploit it?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 94.
