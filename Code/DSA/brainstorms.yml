@@ -133,3 +133,56 @@ notes:
       // String[] args;
       // Sorts.main(args);
       ```
+
+
+- fields:
+    Front: |
+      Write heapsort.
+    Python: |
+      ```{python }
+      #
+      def heapify(data, i, heap_size):
+        while True:
+          l = 2*i+1
+
+          if heap_size <= l:
+            # There are no more children.
+            return
+
+          r = l + 1
+          if heap_size <= r:
+            # Only left child, which has no children.
+            if data[i] < data[l]:
+              # Sift.
+              data[i], data[l] = data[l], data[i]
+            return
+
+          c = l
+          # Choose larger child.
+          if data[c] < data[r]:
+            c = r
+          if data[c] <= data[i]:
+            # Element is in proper position.
+            break
+          # Sift.
+          data[i], data[c] = data[c], data[i]
+          # On to next possible sift.
+          i = c
+
+      def heapsort(data):
+        n = len(data)
+        # Heapify.
+        for i in reversed(range(n)):
+          heapify(data, i, n)
+        # Extract sorted elements to rear of array.
+        for i in reversed(range(n)):
+          data[0], data[i] = data[i], data[0]
+          heapify(data, 0, i)
+        return data
+
+      data = [1, 9, 2, 8, 3, 7, 2, 7, 8, 6]
+      expected = [1, 2, 2, 3, 6, 7, 7, 8, 8, 9]
+      result = heapsort(data)
+      print(result)
+      print(result == expected)
+      ```
