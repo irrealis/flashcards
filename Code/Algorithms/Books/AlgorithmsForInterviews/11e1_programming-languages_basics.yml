@@ -97,3 +97,12 @@ notes:
       What is garbage collection?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 93.
+
+
+- fields:
+    Front: |
+      ## 11.11.1.09: Programming languages --- basics
+
+      How would you determine if call stacks grow up or down relative to memory addresses?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 93.
