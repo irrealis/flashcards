@@ -34,3 +34,19 @@ notes:
       What is the factory pattern? What is the publish-subscribe model?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 95.
+
+
+- fields:
+    Front: |
+      ## 11.13.03: Best Practices
+
+      Give an example of how inheritance violates encapsulation.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 95.
+
+    Thoughts: |
+      When people say this, by encapsulation they mean hiding data or details of implementation.
+
+      This hiding is used to insulate users of software libraries from changes to the underlying code, when new versions of libraries are released.
+
+      Inheritance can expose the hidden data or details of implementation.
