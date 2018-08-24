@@ -50,3 +50,12 @@ notes:
       This hiding is used to insulate users of software libraries from changes to the underlying code, when new versions of libraries are released.
 
       Inheritance can expose the hidden data or details of implementation.
+
+
+- fields:
+    Front: |
+      ## 11.13.04: Best Practices
+
+      What do Java bounded wildcards buy you?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 95.
