@@ -46,3 +46,12 @@ notes:
       How does the Internet work? Specifically, describe the roles of the TCP/IP protocol, routers, and DNS.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 98.
+
+
+- fields:
+    Front: |
+      ## 11.17.04: Systems
+
+      How is a social-networking site built? Specifically, comment on scalability, spam prevention, and resilience to denial-of-service.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 98.
