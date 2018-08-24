@@ -119,3 +119,12 @@ notes:
       What is a buffer overflow, and how can hackers exploit it?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 94.
+
+
+- fields:
+    Front: |
+      ## 11.12.12: Debugging and testing
+
+      How do you use Valgrind to solve segfault problems?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 94.
