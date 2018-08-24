@@ -106,3 +106,12 @@ notes:
       How would you determine if call stacks grow up or down relative to memory addresses?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 93.
+
+
+- fields:
+    Front: |
+      ## 11.11.1.10: Programming languages --- basics
+
+      Give an example of a memory leak.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 93.
