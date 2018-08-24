@@ -65,3 +65,12 @@ notes:
       How are sets implemented?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 94.
+
+
+- fields:
+    Front: |
+      ## 11.11.2.06: Programming languages --- libraries
+
+      How does the library code compute trigonometric functions?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 94.
