@@ -35,3 +35,12 @@ notes:
       I suspect the answer to this is in the formal definition of "parse", in which case parsing requires a formal grammar without ambiguity. In this definition, natural language cannot be parsed, because it need not conform to any grammar.
 
       Many expressions in C and C++ can also not be parsed under this definition. For example, the `*` symbol is ambiguous.
+
+
+- fields:
+    Front: |
+      ## 11.14.02: Programming Language Implementation
+
+      What problems does dynamic linkage solve? What problems does it introduce?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 95.
