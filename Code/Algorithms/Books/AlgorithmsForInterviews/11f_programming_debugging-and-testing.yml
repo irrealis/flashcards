@@ -16,3 +16,12 @@ defaults:
 
 
 notes:
+
+
+- fields:
+    Front: |
+      ## 11.12.01: Debugging and testing
+
+      What was your last bug? What was your hardest bug?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 94.
