@@ -72,3 +72,13 @@ notes:
       How is method dispatch implemented?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 95.
+
+
+- modelName: CodingProblems
+  fields:
+    Front: |
+      ## 11.14.06: Programming Language Implementation
+
+      What is automatic garbage collection, and how is it implemented?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 95.
