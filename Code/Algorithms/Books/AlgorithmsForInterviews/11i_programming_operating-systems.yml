@@ -93,3 +93,12 @@ notes:
       Give examples of library functions that call a system function all the time, none of the time, and some of the time.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 96.
+
+
+- fields:
+    Front: |
+      ## 11.15.09: Operating Systems
+
+      What is the time lag between the system call on the client side and the receipt of the packet on the server on a local area network?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 96.
