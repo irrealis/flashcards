@@ -19,3 +19,14 @@ defaults:
 
 
 notes:
+
+
+- fields:
+    Front: |
+      ## 11.04: Permuting the elements of an array
+
+      A permutation of length \\(n\\) is a 1-1 onto mapping \\(\pi\\) from \\(\\{O,1,\ldots,n-1\\}\\) to itself. We can represent a permutation using an array \\(\Pi\\): set \\(\Pi[i] = \pi(i)\\). A permutation can be applied to an array \\(A\\) of \\(n\\) elements: \\(\Pi(A)\\) is defined by \\(\Pi(A[i]) = A[\Pi[i]]\\). Applying a permutation to a given array is easy if you have additional storage to write the resulting array.
+
+      Given an array A of integers and a permutation \\(\Pi\\), compute \\(\Pi(A)\\) using only constant additional storage.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 90.
