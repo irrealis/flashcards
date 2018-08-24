@@ -16,3 +16,12 @@ defaults:
 
 
 notes:
+
+
+- fields:
+    Front: |
+      ## 11.13.01: Best Practices
+
+      Give an example of a problem you solved where you made good use of object-oriented programming.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 95.
