@@ -58,3 +58,13 @@ notes:
       How would you implement a bit-vector class?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 93.
+
+
+- modelName: BasicMathJax
+  fields:
+    Front: |
+      ## 11.11.1.05: Programming languages --- basics
+
+      Does the check `x == x + 1` always return false for integer `x`?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 93.
