@@ -1,0 +1,18 @@
+defaults:
+  deckName: Staging
+  modelName: CodingProblems
+  tags:
+  - Code
+  - Algorithms
+  - Brainstorms
+
+  fields:
+    Python: "**To-do: Python.**"
+    Java: "**To-do: Java.**"
+    C++: "**To-do: C++.**"
+    Back: "**To-do: Back.**"
+
+  markdownTabLength: 4
+
+
+notes:
