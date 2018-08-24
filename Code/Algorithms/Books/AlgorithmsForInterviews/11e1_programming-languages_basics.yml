@@ -48,3 +48,13 @@ notes:
       What is two's-complement notation?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 93.
+
+
+- modelName: BasicMathJax
+  fields:
+    Front: |
+      ## 11.11.1.04: Programming languages --- basics
+
+      How would you implement a bit-vector class?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 93.
