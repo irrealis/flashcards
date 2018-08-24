@@ -57,3 +57,12 @@ notes:
       Give an example of each.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 96.
+
+
+- fields:
+    Front: |
+      ## 11.15.05: Operating Systems
+
+      What is a race? What can you do to prevent races?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 96.
