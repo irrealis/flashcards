@@ -43,3 +43,14 @@ notes:
       Given an array \\(A\\) of ints representing a permutation \\(\Pi\\), update \\(A\\) to represent \\(\Pi^{-1}\\) using only constant additional storage.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 90.
+
+
+- fields:
+    Front: |
+      ## 11.06: Reverse all the words in a sentence
+
+      Given a string containing a set of words separated by white space, we would like to transform it to a string in which the words appear in the reverse order. For example, "Alice likes Bob" \\(\mapsto\\) "Bob likes Alice". We do not need to keep the original string.
+
+      Implement a function for reversing the words in a string that is in-place, i.e., uses only constant additional storage.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 90.
