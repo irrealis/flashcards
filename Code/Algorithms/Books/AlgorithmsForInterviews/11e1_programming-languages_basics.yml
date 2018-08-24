@@ -20,3 +20,12 @@ defaults:
 
 
 notes:
+
+
+- fields:
+    Front: |
+      ## 11.11.1.01: Programming languages --- basics
+
+      What are the basic types? How many bits does it take to represent them
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 93.
