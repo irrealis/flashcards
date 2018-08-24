@@ -186,3 +186,64 @@ notes:
       print(result)
       print(result == expected)
       ```
+    Java: |
+      ```{java }
+      import java.util.ArrayList;
+      import java.util.Collections;
+      import java.util.List;
+
+      public class Sorts {
+        public static <E extends Comparable<E>> void sift(List<E> d, int i, int heapsize){
+          while(true){
+            int l = 2*i + 1;
+            if(heapsize <= l){
+              return;
+            }
+            int r = l + 1;
+            if(heapsize <= r){
+              if(d.get(i).compareTo(d.get(l)) < 0){
+                Collections.swap(d, i, l);
+              }
+              return;
+            }
+            int c = l;
+            if(d.get(l).compareTo(d.get(r)) < 0){
+              c = r;
+            }
+            if(d.get(c).compareTo(d.get(i)) <= 0){
+              return;
+            }
+            Collections.swap(d, i, c);
+            i = c;
+          }
+        }
+
+        public static <E extends Comparable<E>> List<E> sort(List<E> d){
+          int n = d.size();
+          for(int i = n-1; 0 <= i; i--){
+            sift(d, i, n);
+          }
+          for(int i = n-1; 0 <= i; i--){
+            Collections.swap(d, 0, i);
+            sift(d, 0, i);
+          }
+          return d;
+        }
+
+        public static void print_array(List<Integer> d){
+          for(int x: d.subList(0, d.size()-1)){
+            System.out.printf("%d, ", x);
+          }
+          System.out.printf("%d%n", d.get(d.size()-1));
+        }
+
+        public static void main(String[] args){
+          int[] data = {1, 9, 2, 8, 3, 7, 2, 7, 8, 6};
+          ArrayList<Integer> d = new ArrayList<>();
+          for(int x: data){ d.add(x); }
+          print_array(sort(d));
+        }
+      }
+      // String[] args;
+      // Sorts.main(args);
+      ```
