@@ -30,3 +30,14 @@ notes:
       Give a linear-time nonrecursive procedure that reverses a singly linked list. The procedure should use no more than constant storage beyond that needed for the list itself.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 91.
+
+
+- fields:
+    Front: |
+      ## 11.08: Checking for cyclicity
+
+      While a linked list is supposed to be a sequence of nodes ending in a null, it is possible to introduce a cycle in a linked list by making the next field of an element reference to one of the earlier nodes.
+
+      Given a reference to the head of a singly linked list, how would you determine whether this list ends in a null or reaches a cycle of nodes? (You do not know the length of the list.)
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 91.
