@@ -41,3 +41,14 @@ notes:
       Write a function which takes a long \\(x\\) and returns a long that has the bits of \\(x\\) reversed.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 89.
+
+
+- fields:
+    Front: |
+      ## 11.03: Run-length encoding
+
+      Consider the problem of compressing black and white bitmap images. An \\(n \times m\\)-pixel black-and-white image can be represented in \\(n\cdot m/8\\) bytes, where each pixel is represented by a single bit. If you know that the image consists of large blocks which have the same color, then one way to compress the image is by just counting the lengths of alternate sequences of ones and zeroes. For example, 111111000011 becomes \\(6,4,2\\).
+
+      How would you most efficiently do run-length encoding on a large bit sequence represented as a byte array?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 89.
