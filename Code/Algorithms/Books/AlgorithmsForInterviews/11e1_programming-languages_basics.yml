@@ -38,3 +38,13 @@ notes:
       What do floating-point numbers look like in memory? Specifically, how many bits are there, and what sequence do the bits appear in?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 93.
+
+
+- modelName: BasicMathJax
+  fields:
+    Front: |
+      ## 11.11.1.03: Programming languages --- basics
+
+      What is two's-complement notation?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 93.
