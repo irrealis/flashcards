@@ -47,3 +47,12 @@ notes:
       What library would you use to determine the current date?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 94.
+
+
+- fields:
+    Front: |
+      ## 11.11.2.04: Programming languages --- libraries
+
+      What library would you use if you had to implement a tinyurl service?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 94.
