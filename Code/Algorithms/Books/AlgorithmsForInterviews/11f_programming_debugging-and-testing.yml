@@ -128,3 +128,12 @@ notes:
       How do you use Valgrind to solve segfault problems?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 94.
+
+
+- fields:
+    Front: |
+      ## 11.12.13: Debugging and testing
+
+      How does Valgrind catch access to uninitialized memory?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 94.
