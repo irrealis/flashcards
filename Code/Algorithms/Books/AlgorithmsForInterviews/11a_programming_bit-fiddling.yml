@@ -19,3 +19,14 @@ defaults:
 
 
 notes:
+
+
+- fields:
+    Front: |
+      ## 11.01: Computing the parity of a long
+
+      The parity of a sequence of bits is 1 if the number of ones in the sequence is odd; otherwise, it is 0. By keeping the parity of every word of data, you can check for single-bit errors in storage or transmission. It is fairly straightforward to write a code that computes the parity of a long.
+
+      How would you compute parity if you had to perform the computation for a very large number of longs?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 89.
