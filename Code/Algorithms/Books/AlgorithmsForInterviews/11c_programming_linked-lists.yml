@@ -19,3 +19,14 @@ defaults:
 
 
 notes:
+
+
+- fields:
+    Front: |
+      ## 11.07: Reversing a singly linked list
+
+      Suppose you were given a singly linked list of integers sorted in ascending order and you need to return a list with the elements sorted in descending order. Suppose memory is scarce but you can reuse nodes in the original list.
+
+      Give a linear-time nonrecursive procedure that reverses a singly linked list. The procedure should use no more than constant storage beyond that needed for the list itself.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 91.
