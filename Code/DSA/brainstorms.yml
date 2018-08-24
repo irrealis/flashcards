@@ -16,3 +16,25 @@ defaults:
 
 
 notes:
+
+
+- fields:
+    Front: |
+      Write selection sort.
+    Python: |
+      ```{python }
+      #
+      def selection_sort(data):
+        n = len(data)
+        for i in range(n):
+          minimum = i
+          for j in range(i+1,n):
+            if data[j] < data[minimum]:
+              minimum = j
+          if i < minimum:
+            data[i], data[minimum] = data[minimum], data[i]
+        return data
+
+      data = [1, 9, 2, 8, 3, 7, 2, 7, 8, 6]
+      print(selection_sort(data))
+      ```
