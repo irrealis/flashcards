@@ -25,3 +25,12 @@ notes:
       Give an example of a problem you solved where you made good use of object-oriented programming.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 95.
+
+
+- fields:
+    Front: |
+      ## 11.13.02: Best Practices
+
+      What is the factory pattern? What is the publish-subscribe model?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 95.
