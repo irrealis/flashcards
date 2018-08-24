@@ -100,3 +100,12 @@ notes:
       What is the difference between a lexer and a parser?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 95.
+
+
+- fields:
+    Front: |
+      ## 11.14.09: Programming Language Implementation
+
+      Give an example of a language which cannot be recognized by a lexer.
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 95.
