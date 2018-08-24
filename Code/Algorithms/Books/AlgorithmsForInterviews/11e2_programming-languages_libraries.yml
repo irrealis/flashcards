@@ -38,3 +38,12 @@ notes:
       Give an example of a commonly-used function not in the standard library.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 94.
+
+
+- fields:
+    Front: |
+      ## 11.11.2.03: Programming languages --- libraries
+
+      What library would you use to determine the current date?
+
+      --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 94.
