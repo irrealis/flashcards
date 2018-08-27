@@ -254,39 +254,27 @@ notes:
       Write mergesort.
     Python: |
       ```{python }
-      #
-      def merge(a, b):
-        merged = []
-        n_a, n_b = len(a), len(b)
-        i = j = 0
-        while (i < n_a) and (j < n_b): # Until a or b is exhausted, merge.
-          if a[i] < b[j]:
-            merged.append(a[i])
-            i += 1
-          else:
-            merged.append(b[j])
-            j += 1
-        # Once a or b is exhausted, append leftovers.
-        while (i < n_a):
-          merged.append(a[i])
-          i += 1
-        while (j < n_b):
-          merged.append(b[j])
-          j += 1
+      from heapq import heappush, heappop
+
+      def trypush(heap, i, it):
+        try: heappush(heap, (next(it), i, it))
+        except StopIteration: pass
+
+      def mrg(*l):
+        merged, heap = [], []
+        for i, a in enumerate(l): trypush(heap, i, iter(a))
+        while heap:
+          x, i, it = heappop(heap)
+          merged.append(x)
+          trypush(heap, i, it)
         return merged
 
+      def mergesort(d):
+        m = len(d)//2
+        if m < 1: return d
+        return mrg(mergesort(d[:m]), mergesort(d[m:]))
 
-      def mergesort(data):
-        n = len(data)
-        if n <= 1: return data # End recursion.
-        n_2 = int(n/2) # Division point.
-        return merge(
-          mergesort(data[:n_2]),
-          mergesort(data[n_2:])
-        )
-
-      data = [1, 9, 2, 8, 3, 7, 2, 7, 8, 6]
-      print(mergesort(data))
+      print(mergesort([1, 9, 2, 8, 3, 7, 2, 7, 8, 6]))
       ```
     Java: |
       This is a generic mergesort:
@@ -342,4 +330,37 @@ notes:
       }
       // String[] args;
       // Sorts.main(args);
+      ```
+
+
+- fields:
+    Front: |
+      Write quicksort.
+    Python: |
+      ```{python }
+      import random
+
+      def partition(d, l, p, h):
+        for i in range(l, h+1):
+          if d[i] < p:
+            if l < i: data[l], data[i] = data[i], data[l]
+            l += 1
+        for i in range(h, l-1, -1):
+          if p < d[i]:
+            if i < h: data[i], data[h] = data[h], data[i]
+            h -= 1
+        return l, h
+
+      def quicksort(d, l = 0, h = None):
+        if h is None: h = len(data) - 1
+        if l < h:
+          p = d[random.randint(l, h)]
+          lpp, hpp = partition(d, l, p, h)
+          quicksort(d, l, lpp-1)
+          quicksort(d, hpp+1, h)
+        return d
+
+      random.seed(1)
+      data = [1, 9, 2, 8, 3, 7, 2, 7, 8, 6]
+      print(quicksort(data))
       ```
