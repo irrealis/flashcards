@@ -25,6 +25,15 @@ def load_and_send_flashcards(filename):
     defaults = data.get('defaults', None)
     print("defaults: {}".format(defaults))
 
+    def_tags = defaults.get("tags", list())
+    def_deckName = defaults.get("deckName", "Default")
+    def_modelName = defaults.get("modelName", "BasicMathJax")
+    def_fields = defaults.get("fields", dict())
+    def_useMarkdown = defaults.get("useMarkdown", True)
+    def_markdownStyle = defaults.get("markdownStyle", "tango")
+    def_markdownLineNums = defaults.get("markdownLineNums", False)
+    def_markdownTabLength = defaults.get("markdownTabLength", 4)
+
     # Extract notes_node
     top_map = {k.value:v.value for k,v in nodes.value}
     note_nodes = top_map['notes']
