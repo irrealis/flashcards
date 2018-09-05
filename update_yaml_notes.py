@@ -124,6 +124,14 @@ def load_and_send_flashcards(filename):
         current_tags = " ".join(result['result'][0]['tags'])
         print("current tags: {}".format(current_tags))
 
+        response, result = connection.send_as_json(
+          action = "removeTags",
+          params = dict(
+            notes = [note_id,],
+            tags = current_tags,
+          ),
+        )
+
         # Update note fields...
         params = dict(
           note = dict(
