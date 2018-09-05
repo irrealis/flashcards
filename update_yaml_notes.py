@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from anki_connect_client import AnkiConnectClient
 
 import yaml
