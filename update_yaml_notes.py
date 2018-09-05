@@ -18,6 +18,47 @@ from markdown.extensions.tables import TableExtension
 import argparse
 
 
+def format_text(
+  text,
+  useMarkdown,
+  markdownStyle,
+  markdownLineNums,
+  markdownTabLength,
+):
+  if useMarkdown:
+    # html_ish = pypandoc.convert_text(
+    #   text,
+    #   'html',
+    #   'markdown_github+backtick_code_blocks+fenced_code_attributes'
+    # )
+    noclasses = markdownStyle != 'default'
+    html_ish = markdown.markdown(text, output_format="xhtml1",
+      extensions=[
+        SmartEmphasisExtension(),
+        FencedCodeExtension(),
+        FootnoteExtension(),
+        AttrListExtension(),
+        DefListExtension(),
+        TableExtension(),
+        AbbrExtension(),
+        Nl2BrExtension(),
+        CodeHiliteExtension(
+          noclasses = noclasses,
+          pygments_style = markdownStyle,
+          linenums = markdownLineNums
+        ),
+        SaneListExtension(),
+        SmartyExtension()
+      ],
+      lazy_ol = False,
+      tab_length = markdownTabLength,
+    )
+  else:
+    # Preserve whitespace.
+    html_ish = text.replace('\n', '<br>').replace(' ', '&nbsp;')
+  return html_ish
+
+
 def load_and_send_flashcards(filename):
   with open(filename) as yaml_input_file:
     nodes = yaml.compose(yaml_input_file)
@@ -49,6 +90,17 @@ def load_and_send_flashcards(filename):
       # Set note's fields to defaults, if not already set.
       fields = dict(def_fields)
       fields.update(note.get("fields", dict()))
+      fields = {
+        # Convert each field from Markdown (if `useMarkdown` is True).
+        k: format_text(
+          str(v),
+          note.get('useMarkdown', def_useMarkdown),
+          note.get('markdownStyle', def_markdownStyle),
+          note.get('markdownLineNums', def_markdownLineNums),
+          note.get('markdownTabLength', def_markdownTabLength),
+        )
+        for (k, v) in fields.items()
+      }
 
       print("fields: {}".format(fields))
 
