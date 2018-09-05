@@ -81,6 +81,8 @@ def load_and_send_flashcards(filename):
 
     connection = AnkiConnectClient()
 
+    new_notes_were_created = False
+
     # For each note_node in notes_node:
     for note_node in note_nodes:
       # Convert to note_dict
@@ -143,9 +145,13 @@ def load_and_send_flashcards(filename):
               yaml.ScalarNode(tag='tag:yaml.org,2002:int', value=str(note_id)),
             )
           )
+          new_notes_were_created = True
 
-
-  print(yaml.serialize(nodes))
+  if new_notes_were_created:
+    # Write updated nodes to disk.
+    with open(filename, mode = 'w') as yaml_output_file:
+      print("\nUpdating file '{}' with new note IDs...".format(filename))
+      yaml_output_file.write(yaml.serialize(nodes))
 
 
 def parse_cmdline():
