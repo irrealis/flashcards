@@ -46,6 +46,12 @@ def load_and_send_flashcards(filename):
       note = yaml.load(yaml.serialize(note_node))
       print("note: {}".format(note))
 
+      # Set note's fields to defaults, if not already set.
+      fields = dict(def_fields)
+      fields.update(note.get("fields", dict()))
+
+      print("fields: {}".format(fields))
+
 
 
 def parse_cmdline():
