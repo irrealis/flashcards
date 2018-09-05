@@ -18,13 +18,14 @@ from markdown.extensions.tables import TableExtension
 import argparse
 
 
-def load_and_send_flashcards(yaml_input_file):
-  nodes = yaml.compose(yaml_input_file)
-  data = yaml.load(yaml.serialize(nodes))
-  defaults = data.get('defaults', None)
-  print("defaults: {}".format(defaults))
+def load_and_send_flashcards(filename):
+  with open(filename) as yaml_input_file:
+    nodes = yaml.compose(yaml_input_file)
+    data = yaml.load(yaml.serialize(nodes))
+    defaults = data.get('defaults', None)
+    print("defaults: {}".format(defaults))
 
-  connection = AnkiConnectClient()
+    connection = AnkiConnectClient()
 
 
 
@@ -53,9 +54,7 @@ def main():
 
   # Load and parse flashcard data from input YAML file.
   for input_filename in cmdline_args.input:
-    with open(input_filename) as yaml_input_file:
-      print("\nSending file '{}' to Anki...".format(input_filename))
-      load_and_send_flashcards(yaml_input_file)
+    load_and_send_flashcards(input_filename)
   print("\nDone.\n")
 
 
