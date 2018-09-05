@@ -115,6 +115,15 @@ def load_and_send_flashcards(filename):
         # Update using ID
         note_id = note['id']
 
+        response, result = connection.send_as_json(
+          action = "notesInfo",
+          params = dict(
+            notes = [note_id,],
+          ),
+        )
+        current_tags = " ".join(result['result'][0]['tags'])
+        print("current tags: {}".format(current_tags))
+
         # Update note fields...
         params = dict(
           note = dict(
