@@ -86,6 +86,10 @@ def load_and_send_flashcards(filename):
       # Convert to note_dict
       note = yaml.load(yaml.serialize(note_node))
 
+      tags = note.get('tags', def_tags)
+      deckName = note.get('deckName', def_deckName)
+      modelName = note.get('modelName', def_modelName)
+
       # Set note's fields to defaults, if not already set.
       fields = dict(def_fields)
       fields.update(note.get("fields", dict()))
@@ -104,7 +108,19 @@ def load_and_send_flashcards(filename):
       if 'id' in note:
         print("Would update existing note...")
       else:
-        print("Would create new note...")
+        print("Creating new note...")
+        # Create, obtaining returned ID
+        response, result = connection.send_as_json(
+          action = "addNote",
+          params = dict(
+            note = dict(
+              deckName = deckName,
+              modelName = modelName,
+              fields = fields,
+              tags = tags,
+            )
+          )
+        )
 
 
 
