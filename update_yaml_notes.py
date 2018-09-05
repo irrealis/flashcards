@@ -25,8 +25,17 @@ def load_and_send_flashcards(filename):
     defaults = data.get('defaults', None)
     print("defaults: {}".format(defaults))
 
+    # Extract notes_node
+    top_map = {k.value:v.value for k,v in nodes.value}
+    note_nodes = top_map['notes']
+
     connection = AnkiConnectClient()
 
+    # For each note_node in notes_node:
+    for note_node in note_nodes:
+      # Convert to note_dict
+      note = yaml.load(yaml.serialize(note_node))
+      print("note: {}".format(note))
 
 
 
