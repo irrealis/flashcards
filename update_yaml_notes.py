@@ -63,6 +63,7 @@ def format_text(
 
 def load_and_send_flashcards(filename):
   with open(filename) as yaml_input_file:
+    print("\nSending file '{}' to Anki...".format(filename))
     nodes = yaml.compose(yaml_input_file)
     data = yaml.load(yaml.serialize(nodes))
     defaults = data.get('defaults', None)
@@ -110,7 +111,23 @@ def load_and_send_flashcards(filename):
       }
 
       if 'id' in note:
-        print("Would update existing note...")
+        print("Updating existing note...")
+        # Update using ID
+        note_id = note['id']
+
+        # Update note fields...
+        params = dict(
+          note = dict(
+            id = note_id,
+            fields = fields,
+          )
+        )
+        print("params: {}".format(params))
+        response, result = connection.send_as_json(
+          action = "updateNoteFields",
+          params = params,
+        )
+
       else:
         print("Creating new note...")
         # Create, obtaining returned ID
