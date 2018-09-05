@@ -133,7 +133,19 @@ def load_and_send_flashcards(filename):
             response.status,
             response.reason,
           ))
+        else:
+          # Add ID to note_node
+          note_id = result['result']
+          note_node.value.insert(
+            0,
+            (
+              yaml.ScalarNode(tag='tag:yaml.org,2002:str', value='id'),
+              yaml.ScalarNode(tag='tag:yaml.org,2002:int', value=str(note_id)),
+            )
+          )
 
+
+  print(yaml.serialize(nodes))
 
 
 def parse_cmdline():
