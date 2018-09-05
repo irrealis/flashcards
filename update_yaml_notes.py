@@ -24,6 +24,10 @@ def load_and_send_flashcards(yaml_input_file):
   defaults = data.get('defaults', None)
   print("defaults: {}".format(defaults))
 
+  connection = AnkiConnectClient()
+
+
+
 
 def parse_cmdline():
   '''Parse command-line arguments.'''
