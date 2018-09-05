@@ -19,7 +19,10 @@ import argparse
 
 
 def load_and_send_flashcards(yaml_input_file):
-  x = yaml.compose(yaml_input_file)
+  nodes = yaml.compose(yaml_input_file)
+  data = yaml.load(yaml.serialize(nodes))
+  defaults = data.get('defaults', None)
+  print("defaults: {}".format(defaults))
 
 
 def parse_cmdline():
