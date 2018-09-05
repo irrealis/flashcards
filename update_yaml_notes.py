@@ -132,6 +132,14 @@ def load_and_send_flashcards(filename):
           ),
         )
 
+        response, result = connection.send_as_json(
+          action = "addTags",
+          params = dict(
+            notes = [note_id,],
+            tags = " ".join(tags),
+          ),
+        )
+
         # Update note fields...
         params = dict(
           note = dict(
