@@ -18,6 +18,10 @@ from markdown.extensions.tables import TableExtension
 import argparse
 
 
+def load_and_send_flashcards(yaml_input_file):
+  x = yaml.compose(yaml_input_file)
+
+
 def parse_cmdline():
   '''Parse command-line arguments.'''
   parser = argparse.ArgumentParser(
@@ -27,7 +31,7 @@ def parse_cmdline():
     "-d", "--debug",
     action = 'store_true',
     default = False,
-    help = "Use slower routines for debugging"
+    help = "Enable debugging output and routines"
   )
   parser.add_argument(
     "input",
@@ -39,6 +43,14 @@ def parse_cmdline():
 def main():
   cmdline_args = parse_cmdline()
   print("cmdline_args:", cmdline_args)
+
+  # Load and parse flashcard data from input YAML file.
+  for input_filename in cmdline_args.input:
+    with open(input_filename) as yaml_input_file:
+      print("\nSending file '{}' to Anki...".format(input_filename))
+      load_and_send_flashcards(yaml_input_file)
+  print("\nDone.\n")
+
 
 if __name__ == "__main__":
   main()
