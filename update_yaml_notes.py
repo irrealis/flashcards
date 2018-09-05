@@ -85,7 +85,6 @@ def load_and_send_flashcards(filename):
     for note_node in note_nodes:
       # Convert to note_dict
       note = yaml.load(yaml.serialize(note_node))
-      print("note: {}".format(note))
 
       # Set note's fields to defaults, if not already set.
       fields = dict(def_fields)
@@ -102,7 +101,10 @@ def load_and_send_flashcards(filename):
         for (k, v) in fields.items()
       }
 
-      print("fields: {}".format(fields))
+      if 'id' in note:
+        print("Would update existing note...")
+      else:
+        print("Would create new note...")
 
 
 
