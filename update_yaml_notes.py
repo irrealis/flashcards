@@ -121,8 +121,18 @@ def load_and_send_flashcards(filename):
             notes = [note_id,],
           ),
         )
+        if result.get("error", None):
+          print("\n*** Couldn't get existing tags for note: {}".format(
+            note,
+          ))
+          print("--- AnkiConnect error description:\n{}".format(
+            result["error"],
+          ))
+          print("--- HTTP response:\n{} {}".format(
+            response.status,
+            response.reason,
+          ))
         current_tags = " ".join(result['result'][0]['tags'])
-        print("current tags: {}".format(current_tags))
 
         response, result = connection.send_as_json(
           action = "removeTags",
@@ -131,6 +141,17 @@ def load_and_send_flashcards(filename):
             tags = current_tags,
           ),
         )
+        if result.get("error", None):
+          print("\n*** Couldn't remove existing tags for note: {}".format(
+            note,
+          ))
+          print("--- AnkiConnect error description:\n{}".format(
+            result["error"],
+          ))
+          print("--- HTTP response:\n{} {}".format(
+            response.status,
+            response.reason,
+          ))
 
         response, result = connection.send_as_json(
           action = "addTags",
@@ -139,6 +160,17 @@ def load_and_send_flashcards(filename):
             tags = " ".join(tags),
           ),
         )
+        if result.get("error", None):
+          print("\n*** Couldn't add tags for note: {}".format(
+            note,
+          ))
+          print("--- AnkiConnect error description:\n{}".format(
+            result["error"],
+          ))
+          print("--- HTTP response:\n{} {}".format(
+            response.status,
+            response.reason,
+          ))
 
         # Update note fields...
         params = dict(
@@ -152,6 +184,17 @@ def load_and_send_flashcards(filename):
           action = "updateNoteFields",
           params = params,
         )
+        if result.get("error", None):
+          print("\n*** Couldn't update note: {}".format(
+            note,
+          ))
+          print("--- AnkiConnect error description:\n{}".format(
+            data["error"],
+          ))
+          print("--- HTTP response:\n{} {}".format(
+            response.status,
+            response.reason,
+          ))
 
       else:
         print("Creating new note...")
@@ -167,7 +210,6 @@ def load_and_send_flashcards(filename):
             )
           )
         )
-
         if result.get("error", None):
           print("\n*** Couldn't remove existing tags for note: {}".format(
             note,
