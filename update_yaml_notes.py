@@ -122,6 +122,18 @@ def load_and_send_flashcards(filename):
           )
         )
 
+        if result.get("error", None):
+          print("\n*** Couldn't remove existing tags for note: {}".format(
+            note,
+          ))
+          print("--- AnkiConnect error description:\n{}".format(
+            result["error"],
+          ))
+          print("--- HTTP response:\n{} {}".format(
+            response.status,
+            response.reason,
+          ))
+
 
 
 def parse_cmdline():
