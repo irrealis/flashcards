@@ -71,3 +71,9 @@ notes:
       What is the probability space for "sensitivity" in the context of a binary classification test?
     Back: |
       \\(C^+\\): the condition is positive.
+- id: 1536273878217
+  fields:
+    Front: |
+      What is the probability space for "specificity" in the context of a binary classification test?
+    Back: |
+      \\(C^-\\): the condition is negative.
