@@ -94,7 +94,7 @@ def load_and_send_flashcards(filename):
       # Convert to note_dict
       note = yaml.load(yaml.serialize(note_node))
 
-      tags = note.get('tags', def_tags)
+      tags = sorted(note.get('tags', def_tags))
       deckName = note.get('deckName', def_deckName)
       modelName = note.get('modelName', def_modelName)
 
@@ -192,23 +192,29 @@ def load_and_send_flashcards(filename):
         if result.get("error", None):
           report_anki_error(result, "Can't get tags for note: %s", note)
           continue
-        current_tags = " ".join(result['result'][0]['tags'])
+        current_tags = sorted(result['result'][0]['tags'])
 
-        ## Then remove existing note tags.
-        response, result = connection.send_as_json(
-          action = "removeTags",
-          params = dict(notes = [note_id], tags = current_tags)
-        )
-        if result.get("error", None):
-          report_anki_error(result, "Can't remove tags for note: %s", note)
+        # log.debug("current tags: %s", current_tags)
+        # log.debug("new tags: %s", tags)
+        # log.debug("equal?: %s", current_tags == tags)
+        if current_tags != tags:
+          # log.debug("updating tags.")
 
-        ## Finally add new note tags.
-        response, result = connection.send_as_json(
-          action = "addTags",
-          params = dict(notes = [note_id], tags = " ".join(tags))
-        )
-        if result.get("error", None):
-          report_anki_error(result, "Can't add tags for note: %s", note)
+          ## Remove existing note tags.
+          response, result = connection.send_as_json(
+            action = "removeTags",
+            params = dict(notes = [note_id], tags = " ".join(current_tags))
+          )
+          if result.get("error", None):
+            report_anki_error(result, "Can't remove tags for note: %s", note)
+
+          ## Add new note tags.
+          response, result = connection.send_as_json(
+            action = "addTags",
+            params = dict(notes = [note_id], tags = " ".join(tags))
+          )
+          if result.get("error", None):
+            report_anki_error(result, "Can't add tags for note: %s", note)
 
   if new_notes_were_created:
     # If any new notes were created, their IDs must be added to YAML file.
