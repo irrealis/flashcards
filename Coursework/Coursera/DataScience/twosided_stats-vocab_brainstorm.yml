@@ -8,3 +8,9 @@ defaults:
   - StatsVocab
   markdownTabLength: 2
 notes:
+- id: 1536273878515
+  fields:
+    Front: |
+      A "confounder" is...
+    Back: |
+      A variable that influences both the dependent and indepent variables causing a spurious association is called...
