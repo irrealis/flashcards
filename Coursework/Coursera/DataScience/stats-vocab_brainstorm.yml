@@ -8,3 +8,18 @@ defaults:
   - StatsVocab
   markdownTabLength: 2
 notes:
+- id: 1536273877651
+  fields:
+    Front: |
+      List the binary classification probabilities in the entire sample space.
+    Back: |
+      - \\(p(TP)\\)
+      - \\(p(TN)\\)
+      - \\(p(FP)\\)
+      - \\(p(FN)\\)
+      - Prevalence = \\(p(C^+)\\)
+      - (My term) Imprevalence = \\(p(C^-)\\)
+      - (My term) PTR = Positive Test Rate = \\(p(R^+)\\)
+      - (My term) NTR = Negative Test Rate = \\(p(R^-)\\)
+      - Accuracy = \\(p(TP) + p(TN)\\)
+      - (My term) Inaccuracy = \\(p(FP) + p(FN)\\)
