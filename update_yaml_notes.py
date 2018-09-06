@@ -219,7 +219,7 @@ def load_and_send_flashcards(filename):
 def parse_cmdline():
   '''Parse command-line arguments.'''
   parser = argparse.ArgumentParser(
-    description = "Send Anki flashcards parsed from YAML."
+    description = "Update Anki flashcards parsed from YAML."
   )
   parser.add_argument(
     "-d", "--debug",
