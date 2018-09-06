@@ -25,16 +25,11 @@ log.addHandler(log_hdlr)
 
 
 
-def report_anki_error(message, anki_result, http_response = None):
-  log.warning(message)
-  log.warning("--- AnkiConnect error description:\n{}".format(
+def report_anki_error(anki_result, message, *extra_args):
+  log.warning(message, *extra_args)
+  log.warning("\nAnkiConnect error description:\n{}".format(
     anki_result["error"],
   ))
-  if http_response:
-    log.warning("--- HTTP response:\n{} {}".format(
-      http_response.status,
-      http_response.reason,
-    ))
 
 
 def format_text(
@@ -137,11 +132,7 @@ def load_and_send_flashcards(filename):
           params = dict(notes = [note_id])
         )
         if result.get("error", None):
-          report_anki_error(
-            "Couldn't get existing tags for note: {}".format(note),
-            result,
-            response
-          )
+          report_anki_error(result, "Can't get tags for note: %s", note)
         current_tags = " ".join(result['result'][0]['tags'])
 
         response, result = connection.send_as_json(
@@ -149,11 +140,7 @@ def load_and_send_flashcards(filename):
           params = dict(notes = [note_id], tags = current_tags)
         )
         if result.get("error", None):
-          report_anki_error(
-            "Couldn't remove existing tags for note: {}".format(note),
-            result,
-            response
-          )
+          report_anki_error(result, "Can't remove tags for note: %s", note)
 
         response, result = connection.send_as_json(
           action = "addTags",
@@ -165,6 +152,7 @@ def load_and_send_flashcards(filename):
             result,
             response
           )
+          report_anki_error(result, "Can't add tags for note: %s", note)
 
         # Update note fields...
         params = dict(note = dict(id = note_id, fields = fields))
@@ -174,11 +162,7 @@ def load_and_send_flashcards(filename):
           params = params,
         )
         if result.get("error", None):
-          report_anki_error(
-            "Couldn't update note: {}".format(note),
-            result,
-            response
-          )
+          report_anki_error(result, "Can't update note: %s", note)
 
       else:
         log.debug("Creating new note...")
@@ -195,11 +179,7 @@ def load_and_send_flashcards(filename):
           )
         )
         if result.get("error", None):
-          report_anki_error(
-            "Couldn't create note: {}".format(note),
-            result,
-            response
-          )
+          report_anki_error(result, "Can't create note: %s", note)
         else:
           # Add ID to note_node
           note_id = result['result']
@@ -246,5 +226,4 @@ def main():
   log.info("\nDone.\n")
 
 
-if __name__ == "__main__":
-  main()
+if __name__ == "__main__": main()
