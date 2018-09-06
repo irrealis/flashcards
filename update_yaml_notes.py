@@ -25,6 +25,17 @@ log.addHandler(log_hdlr)
 
 
 
+def report_anki_error(message, anki_result, http_response = None):
+  log.warning(message)
+  log.warning("--- AnkiConnect error description:\n{}".format(
+    anki_result["error"],
+  ))
+  if http_response:
+    log.warning("--- HTTP response:\n{} {}".format(
+      http_response.status,
+      http_response.reason,
+    ))
+
 
 def format_text(
   text,
