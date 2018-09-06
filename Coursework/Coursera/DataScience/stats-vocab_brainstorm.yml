@@ -53,3 +53,9 @@ notes:
       What is the probability space for "accuracy" in the context of a binary classification test?
     Back: |
       The entire sample space.
+- id: 1536273878016
+  fields:
+    Front: |
+      What is the probability space for "Type-I Error Rate" in the context of a binary classification test?
+    Back: |
+      \\(C^-\\): the condition is negative.
