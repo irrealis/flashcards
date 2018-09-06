@@ -23,7 +23,6 @@ log = logging.getLogger(__name__)
 log_hdlr = logging.StreamHandler()
 log.addHandler(log_hdlr)
 
-log.warning("fubar")
 
 
 
@@ -266,11 +265,18 @@ def parse_cmdline():
   return parser.parse_args()
 
 def main():
-  cmdline_args = parse_cmdline()
-  print("cmdline_args:", cmdline_args)
+  opts = parse_cmdline()
+  print("cmdline args:", opts)
+  if opts.debug:
+    log.setLevel('DEBUG')
+  else:
+    log.setLevel('INFO')
+  log.warning("warning fubar")
+  log.info("info fubar")
+  log.debug("debug fubar")
 
   # Load and parse flashcard data from input YAML file.
-  for input_filename in cmdline_args.input:
+  for input_filename in opts.input:
     load_and_send_flashcards(input_filename)
   print("\nDone.\n")
 
