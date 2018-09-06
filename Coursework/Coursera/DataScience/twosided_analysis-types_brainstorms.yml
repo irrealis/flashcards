@@ -8,3 +8,9 @@ defaults:
   - AnalysisTypes
   markdownTabLength: 2
 notes:
+- id: 1536273769751
+  fields:
+    Front: |
+      Machine Learning is analysis of...
+    Back: |
+      Analysis of computer-science or -vision data is called...
