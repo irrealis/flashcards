@@ -118,6 +118,16 @@ def load_and_send_flashcards(filename):
         # Update using ID
         note_id = note['id']
 
+        # Update note fields...
+        params = dict(note = dict(id = note_id, fields = fields))
+        log.debug("params: {}".format(params))
+        response, result = connection.send_as_json(
+          action = "updateNoteFields",
+          params = params,
+        )
+        if result.get("error", None):
+          report_anki_error(result, "Can't update note: %s", note)
+
         response, result = connection.send_as_json(
           action = "notesInfo",
           params = dict(notes = [note_id])
@@ -139,16 +149,6 @@ def load_and_send_flashcards(filename):
         )
         if result.get("error", None):
           report_anki_error(result, "Can't add tags for note: %s", note)
-
-        # Update note fields...
-        params = dict(note = dict(id = note_id, fields = fields))
-        log.debug("params: {}".format(params))
-        response, result = connection.send_as_json(
-          action = "updateNoteFields",
-          params = params,
-        )
-        if result.get("error", None):
-          report_anki_error(result, "Can't update note: %s", note)
 
       else:
         log.debug("Creating new note...")
@@ -207,8 +207,7 @@ def main():
   else: log.setLevel('INFO')
 
   # Load and parse flashcard data from input YAML file.
-  for input_filename in opts.input:
-    load_and_send_flashcards(input_filename)
+  for input_filename in opts.input: load_and_send_flashcards(input_filename)
   log.info("\nDone.\n")
 
 
