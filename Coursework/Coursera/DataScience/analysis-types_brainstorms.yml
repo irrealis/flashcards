@@ -1,0 +1,21 @@
+defaults:
+  deckName: Staging
+  modelName: BasicMathJax
+  tags:
+  - Coursework
+  - Coursera
+  - DataScience
+  - AnalysisTypes
+  markdownTabLength: 2
+notes:
+- id: 1536273769701
+  fields:
+    Front: |
+      What are the six common types of data analysis?
+    Back: |
+      - Descriptive
+      - Exploratory
+      - Inferential
+      - Predictive
+      - Causal
+      - Mechanistic
