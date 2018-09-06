@@ -69,11 +69,11 @@ def format_text(
 
 def load_and_send_flashcards(filename):
   with open(filename) as yaml_input_file:
-    print("\nSending file '{}' to Anki...".format(filename))
+    log.info("\nSending file '{}' to Anki...".format(filename))
     nodes = yaml.compose(yaml_input_file)
     data = yaml.load(yaml.serialize(nodes))
     defaults = data.get('defaults', None)
-    print("defaults: {}".format(defaults))
+    log.debug("defaults: {}".format(defaults))
 
     def_tags = defaults.get("tags", list())
     def_deckName = defaults.get("deckName", "Default")
@@ -117,7 +117,7 @@ def load_and_send_flashcards(filename):
       }
 
       if 'id' in note:
-        print("Updating existing note...")
+        log.debug("Updating existing note...")
         # Update using ID
         note_id = note['id']
 
@@ -128,13 +128,13 @@ def load_and_send_flashcards(filename):
           ),
         )
         if result.get("error", None):
-          print("\n*** Couldn't get existing tags for note: {}".format(
+          log.warning("\n*** Couldn't get existing tags for note: {}".format(
             note,
           ))
-          print("--- AnkiConnect error description:\n{}".format(
+          log.warning("--- AnkiConnect error description:\n{}".format(
             result["error"],
           ))
-          print("--- HTTP response:\n{} {}".format(
+          log.warning("--- HTTP response:\n{} {}".format(
             response.status,
             response.reason,
           ))
@@ -148,13 +148,13 @@ def load_and_send_flashcards(filename):
           ),
         )
         if result.get("error", None):
-          print("\n*** Couldn't remove existing tags for note: {}".format(
+          log.warning("\n*** Couldn't remove existing tags for note: {}".format(
             note,
           ))
-          print("--- AnkiConnect error description:\n{}".format(
+          log.warning("--- AnkiConnect error description:\n{}".format(
             result["error"],
           ))
-          print("--- HTTP response:\n{} {}".format(
+          log.warning("--- HTTP response:\n{} {}".format(
             response.status,
             response.reason,
           ))
@@ -167,13 +167,13 @@ def load_and_send_flashcards(filename):
           ),
         )
         if result.get("error", None):
-          print("\n*** Couldn't add tags for note: {}".format(
+          log.warning("\n*** Couldn't add tags for note: {}".format(
             note,
           ))
-          print("--- AnkiConnect error description:\n{}".format(
+          log.warning("--- AnkiConnect error description:\n{}".format(
             result["error"],
           ))
-          print("--- HTTP response:\n{} {}".format(
+          log.warning("--- HTTP response:\n{} {}".format(
             response.status,
             response.reason,
           ))
@@ -185,25 +185,25 @@ def load_and_send_flashcards(filename):
             fields = fields,
           )
         )
-        print("params: {}".format(params))
+        log.debug("params: {}".format(params))
         response, result = connection.send_as_json(
           action = "updateNoteFields",
           params = params,
         )
         if result.get("error", None):
-          print("\n*** Couldn't update note: {}".format(
+          log.warning("\n*** Couldn't update note: {}".format(
             note,
           ))
-          print("--- AnkiConnect error description:\n{}".format(
+          log.warning("--- AnkiConnect error description:\n{}".format(
             result["error"],
           ))
-          print("--- HTTP response:\n{} {}".format(
+          log.warning("--- HTTP response:\n{} {}".format(
             response.status,
             response.reason,
           ))
 
       else:
-        print("Creating new note...")
+        log.debug("Creating new note...")
         # Create, obtaining returned ID
         response, result = connection.send_as_json(
           action = "addNote",
@@ -217,13 +217,13 @@ def load_and_send_flashcards(filename):
           )
         )
         if result.get("error", None):
-          print("\n*** Couldn't remove existing tags for note: {}".format(
+          log.warning("\n*** Couldn't remove existing tags for note: {}".format(
             note,
           ))
-          print("--- AnkiConnect error description:\n{}".format(
+          log.warning("--- AnkiConnect error description:\n{}".format(
             result["error"],
           ))
-          print("--- HTTP response:\n{} {}".format(
+          log.warning("--- HTTP response:\n{} {}".format(
             response.status,
             response.reason,
           ))
@@ -242,7 +242,7 @@ def load_and_send_flashcards(filename):
   if new_notes_were_created:
     # Write updated nodes to disk.
     with open(filename, mode = 'w') as yaml_output_file:
-      print("\nUpdating file '{}' with new note IDs...".format(filename))
+      log.info("\nUpdating file '{}' with new note IDs...".format(filename))
       yaml_output_file.write(yaml.serialize(nodes))
 
 
@@ -266,19 +266,14 @@ def parse_cmdline():
 
 def main():
   opts = parse_cmdline()
-  print("cmdline args:", opts)
-  if opts.debug:
-    log.setLevel('DEBUG')
-  else:
-    log.setLevel('INFO')
-  log.warning("warning fubar")
-  log.info("info fubar")
-  log.debug("debug fubar")
+  log.info("cmdline args:", opts)
+  if opts.debug: log.setLevel('DEBUG')
+  else: log.setLevel('INFO')
 
   # Load and parse flashcard data from input YAML file.
   for input_filename in opts.input:
     load_and_send_flashcards(input_filename)
-  print("\nDone.\n")
+  log.info("\nDone.\n")
 
 
 if __name__ == "__main__":
