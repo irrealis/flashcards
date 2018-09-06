@@ -113,10 +113,64 @@ def load_and_send_flashcards(filename):
         for (k, v) in fields.items()
       }
 
+      should_create_new_note = True
+      must_replace_existing_note_id = False
+
       if 'id' in note:
+        # Check for note with given ID.
+        log.debug("Checking for existing note...")
+        note_id = note['id']
+
+        # Get info for existing note.
+        response, result = connection.send_as_json(
+          action = "notesInfo",
+          params = dict(notes = [note_id])
+        )
+        if result.get("error", None) or not result['result'][0]:
+          report_anki_error(result, "Can't get note with ID: %s.", note_id)
+          log.info("The ID will be ignored, and a new note created.")
+          must_replace_existing_note_id = True
+        else:
+          should_create_new_note = False
+
+
+      if should_create_new_note:
+        # No provided ID; assume new note should be created.
+        log.debug("Creating new note...")
+
+        # Create, obtaining returned ID
+        response, result = connection.send_as_json(
+          action = "addNote",
+          params = dict(
+            note = dict(
+              deckName = deckName,
+              modelName = modelName,
+              fields = fields,
+              tags = tags,
+            )
+          )
+        )
+        if result.get("error", None):
+          report_anki_error(result, "Can't create note: %s", note)
+        else:
+          # Add ID to note_node
+          note_id = result['result']
+          if must_replace_existing_note_id:
+            prev_id = None
+            for k,v in note_node.value:
+              if k.value == 'id': prev_id, v.value = v.value, str(note_id)
+            if prev_id: log.info("ID %s replaced with %s.", prev_id, note_id)
+            else: log.warn("Failed to assign new note ID!")
+          else:
+            note_node.value.insert(0, (
+              yaml.ScalarNode(tag='tag:yaml.org,2002:str', value='id'),
+              yaml.ScalarNode(tag='tag:yaml.org,2002:int', value=str(note_id)),
+            ))
+          new_notes_were_created = True
+
+      else:
         # Assume provided ID is valid for existing note to be updated.
         log.debug("Updating existing note...")
-        note_id = note['id']
 
         # Update note fields...
         params = dict(note = dict(id = note_id, fields = fields))
@@ -155,33 +209,6 @@ def load_and_send_flashcards(filename):
         )
         if result.get("error", None):
           report_anki_error(result, "Can't add tags for note: %s", note)
-
-      else:
-        # No provided ID; assume new note should be created.
-        log.debug("Creating new note...")
-
-        # Create, obtaining returned ID
-        response, result = connection.send_as_json(
-          action = "addNote",
-          params = dict(
-            note = dict(
-              deckName = deckName,
-              modelName = modelName,
-              fields = fields,
-              tags = tags,
-            )
-          )
-        )
-        if result.get("error", None):
-          report_anki_error(result, "Can't create note: %s", note)
-        else:
-          # Add ID to note_node
-          note_id = result['result']
-          note_node.value.insert(0, (
-            yaml.ScalarNode(tag='tag:yaml.org,2002:str', value='id'),
-            yaml.ScalarNode(tag='tag:yaml.org,2002:int', value=str(note_id)),
-          ))
-          new_notes_were_created = True
 
   if new_notes_were_created:
     # If any new notes were created, their IDs must be added to YAML file.
