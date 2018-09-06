@@ -59,3 +59,9 @@ notes:
       What is the probability space for "Type-I Error Rate" in the context of a binary classification test?
     Back: |
       \\(C^-\\): the condition is negative.
+- id: 1536273878065
+  fields:
+    Front: |
+      What is the probability space for "Type-II Error Rate" in the context of a binary classification test?
+    Back: |
+      \\(C^+\\): the condition is positive.
