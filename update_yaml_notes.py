@@ -17,7 +17,14 @@ from markdown.extensions.smart_strong import SmartEmphasisExtension
 from markdown.extensions.smarty import SmartyExtension
 from markdown.extensions.tables import TableExtension
 
-import argparse
+import argparse, logging
+
+log = logging.getLogger(__name__)
+log_hdlr = logging.StreamHandler()
+log.addHandler(log_hdlr)
+
+log.warning("fubar")
+
 
 
 def format_text(
