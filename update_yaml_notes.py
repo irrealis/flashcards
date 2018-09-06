@@ -24,12 +24,9 @@ log_hdlr = logging.StreamHandler()
 log.addHandler(log_hdlr)
 
 
-
 def report_anki_error(anki_result, message, *extra_args):
   log.warning(message, *extra_args)
-  log.warning("\nAnkiConnect error description:\n{}".format(
-    anki_result["error"],
-  ))
+  log.warning("\nAnkiConnect error description:\n %s", anki_result["error"])
 
 
 def format_text(
@@ -91,9 +88,8 @@ def load_and_send_flashcards(filename):
 
     connection = AnkiConnectClient()
 
-    new_notes_were_created = False
-
     # For each note_node in notes_node:
+    new_notes_were_created = False
     for note_node in note_nodes:
       # Convert to note_dict
       note = yaml.load(yaml.serialize(note_node))
