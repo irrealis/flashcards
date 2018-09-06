@@ -40,11 +40,6 @@ def format_text(
   markdownTabLength,
 ):
   if useMarkdown:
-    # html_ish = pypandoc.convert_text(
-    #   text,
-    #   'html',
-    #   'markdown_github+backtick_code_blocks+fenced_code_attributes'
-    # )
     noclasses = markdownStyle != 'default'
     html_ish = markdown.markdown(text, output_format="xhtml1",
       extensions=[
