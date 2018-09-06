@@ -89,3 +89,9 @@ notes:
       What is the probability space for "False Omission Rate" in the context of a binary classification test?
     Back: |
       \\(R^-\\): the test result is negative.
+- id: 1536273878400
+  fields:
+    Front: |
+      What is the probability space for "precision" in the context of a binary classification test?
+    Back: |
+      \\(R^+\\): the test result is positive.
