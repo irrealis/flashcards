@@ -77,3 +77,9 @@ notes:
       What is the probability space for "specificity" in the context of a binary classification test?
     Back: |
       \\(C^-\\): the condition is negative.
+- id: 1536273878268
+  fields:
+    Front: |
+      What is the probability space for "False Discovery Rate" in the context of a binary classification test?
+    Back: |
+      \\(R^+\\): the test result is positive.
