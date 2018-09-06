@@ -127,6 +127,7 @@ def load_and_send_flashcards(filename):
         )
         if result.get("error", None):
           report_anki_error(result, "Can't update note: %s", note)
+          continue
 
         response, result = connection.send_as_json(
           action = "notesInfo",
