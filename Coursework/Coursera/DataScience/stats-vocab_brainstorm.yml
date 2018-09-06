@@ -23,3 +23,12 @@ notes:
       - (My term) NTR = Negative Test Rate = \\(p(R^-)\\)
       - Accuracy = \\(p(TP) + p(TN)\\)
       - (My term) Inaccuracy = \\(p(FP) + p(FN)\\)
+- id: 1536273877749
+  fields:
+    Front: |
+      List the binary classification probabilities in the condition sample spaces.
+    Back: |
+      - Type-I Error Rate \\(= \alpha = FPR = p(R^+|C^-)\\)
+      - Type-II Error Rate \\(= \beta = FNR = p(R^-|C^+)\\)
+      - Sensitivity \\(= TPR = p(R^+|C^+)\\)
+      - Specificity \\(= TNR = p(R^-|C^-)\\)
