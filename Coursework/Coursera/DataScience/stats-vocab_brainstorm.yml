@@ -1,0 +1,10 @@
+defaults:
+  deckName: Staging
+  modelName: BasicMathJax
+  tags:
+  - Coursework
+  - Coursera
+  - DataScience
+  - StatsVocab
+  markdownTabLength: 2
+notes:
