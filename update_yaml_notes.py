@@ -138,11 +138,6 @@ def load_and_send_flashcards(filename):
           params = dict(notes = [note_id], tags = " ".join(tags))
         )
         if result.get("error", None):
-          report_anki_error(
-            "Couldn't add tags for note: {}".format(note),
-            result,
-            response
-          )
           report_anki_error(result, "Can't add tags for note: %s", note)
 
         # Update note fields...
