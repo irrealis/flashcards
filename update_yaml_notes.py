@@ -80,7 +80,7 @@ def format_text(
 
 def load_and_send_flashcards(filename):
   with open(filename) as yaml_input_file:
-    log.info("\nSending file '{}' to Anki...".format(filename))
+    log.info("\nSending file '{}' to Anki...\n".format(filename))
     nodes = yaml.compose(yaml_input_file)
     data = yaml.load(yaml.serialize(nodes))
     defaults = data.get('defaults', None)
@@ -134,9 +134,7 @@ def load_and_send_flashcards(filename):
 
         response, result = connection.send_as_json(
           action = "notesInfo",
-          params = dict(
-            notes = [note_id,],
-          ),
+          params = dict(notes = [note_id])
         )
         if result.get("error", None):
           report_anki_error(
@@ -148,10 +146,7 @@ def load_and_send_flashcards(filename):
 
         response, result = connection.send_as_json(
           action = "removeTags",
-          params = dict(
-            notes = [note_id,],
-            tags = current_tags,
-          ),
+          params = dict(notes = [note_id], tags = current_tags)
         )
         if result.get("error", None):
           report_anki_error(
@@ -162,10 +157,7 @@ def load_and_send_flashcards(filename):
 
         response, result = connection.send_as_json(
           action = "addTags",
-          params = dict(
-            notes = [note_id,],
-            tags = " ".join(tags),
-          ),
+          params = dict(notes = [note_id], tags = " ".join(tags))
         )
         if result.get("error", None):
           report_anki_error(
@@ -175,12 +167,7 @@ def load_and_send_flashcards(filename):
           )
 
         # Update note fields...
-        params = dict(
-          note = dict(
-            id = note_id,
-            fields = fields,
-          )
-        )
+        params = dict(note = dict(id = note_id, fields = fields))
         log.debug("params: {}".format(params))
         response, result = connection.send_as_json(
           action = "updateNoteFields",
@@ -216,13 +203,10 @@ def load_and_send_flashcards(filename):
         else:
           # Add ID to note_node
           note_id = result['result']
-          note_node.value.insert(
-            0,
-            (
-              yaml.ScalarNode(tag='tag:yaml.org,2002:str', value='id'),
-              yaml.ScalarNode(tag='tag:yaml.org,2002:int', value=str(note_id)),
-            )
-          )
+          note_node.value.insert(0, (
+            yaml.ScalarNode(tag='tag:yaml.org,2002:str', value='id'),
+            yaml.ScalarNode(tag='tag:yaml.org,2002:int', value=str(note_id)),
+          ))
           new_notes_were_created = True
 
   if new_notes_were_created:
