@@ -1,46 +1,46 @@
-deckName: Default
-modelName: BasicMathJax
-tags:
-- Misc
-- MarkdownAndMathJaxDemos
-
-markdownTabLength: 2
-
+defaults:
+  deckName: Staging
+  modelName: BasicMathJax
+  tags:
+  - Misc
+  - MarkdownAndMathJaxDemos
+  markdownTabLength: 2
 notes:
+- id: 1536193833800
+  fields:
+    Front: |
+      Markdown demo:
 
-- Front: |
-    Markdown demo:
+      This is some _Markdown_-formatted text.
 
-    This is some _Markdown_-formatted text.
-
-    - This is a Markdown list.
-      - This is a nested list.
-    - Note: \\(\LaTeX\\) works.
-
-  Back: |
+      - This is a Markdown list.
+        - This is a nested list.
+      - Note: \\(\LaTeX\\) works.
+    Back: |
       - This is another Markdown list.
         - This is a nested list.
           \\[\textrm{This is an equation:} \sum \limits_{n=0}^\infty a_n\\]
-- Front: |
-    MathJax/Markdown:
-    
-    ```{python }
-    print("This is a Python code fence.")
-    ```
-    
-    Inline math, \\(x^2 = 4\\), followed by block math:
-    \\[\sum \limits_{n=0}^\infty a_n\\]
-    And again:
-    \\[\forall n \in \mathbb{N}: n - 5 \ge 0 \rightarrow n - 4 \ge 0\\]
+- id: 1536195382177
+  fields:
+    Front: |
+      MathJax/Markdown:
 
-  Back: |
-    More MathJax/Markdown:
-    
-    ```{python }
-    print("This is a Python code fence.")
-    ```
-    
-    Inline math, \\(x^2 = 4\\), followed by block math:
-    \\[\sum \limits_{n=0}^\infty a_n\\]
-    And again:
-    \\[\forall n \in \mathbb{N}: n - 5 \ge 0 \rightarrow n - 4 \ge 0\\]
+      ```{python }
+      print("This is a Python code fence.")
+      ```
+
+      Inline math, \\(x^2 = 4\\), followed by block math:
+      \\[\sum \limits_{n=0}^\infty a_n\\]
+      And again:
+      \\[\forall n \in \mathbb{N}: n - 5 \ge 0 \rightarrow n - 4 \ge 0\\]
+    Back: |
+      More MathJax/Markdown:
+
+      ```{python }
+      print("This is a Python code fence.")
+      ```
+
+      Inline math, \\(x^2 = 4\\), followed by block math:
+      \\[\sum \limits_{n=0}^\infty a_n\\]
+      And again:
+      \\[\forall n \in \mathbb{N}: n - 5 \ge 0 \rightarrow n - 4 \ge 0\\]
