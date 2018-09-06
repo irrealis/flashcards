@@ -101,8 +101,8 @@ def load_and_send_flashcards(filename):
       # Set note's fields to defaults, if not already set.
       fields = dict(def_fields)
       fields.update(note.get("fields", dict()))
+      # Convert each field from Markdown (if `useMarkdown` is True).
       fields = {
-        # Convert each field from Markdown (if `useMarkdown` is True).
         k: format_text(
           str(v),
           note.get('useMarkdown', def_useMarkdown),
@@ -114,8 +114,8 @@ def load_and_send_flashcards(filename):
       }
 
       if 'id' in note:
+        # Assume provided ID is valid for existing note to be updated.
         log.debug("Updating existing note...")
-        # Update using ID
         note_id = note['id']
 
         # Update note fields...
@@ -129,14 +129,18 @@ def load_and_send_flashcards(filename):
           report_anki_error(result, "Can't update note: %s", note)
           continue
 
+        # Update note tags...
+        ## First get existing note tags.
         response, result = connection.send_as_json(
           action = "notesInfo",
           params = dict(notes = [note_id])
         )
         if result.get("error", None):
           report_anki_error(result, "Can't get tags for note: %s", note)
+          continue
         current_tags = " ".join(result['result'][0]['tags'])
 
+        ## Then remove existing note tags.
         response, result = connection.send_as_json(
           action = "removeTags",
           params = dict(notes = [note_id], tags = current_tags)
@@ -144,6 +148,7 @@ def load_and_send_flashcards(filename):
         if result.get("error", None):
           report_anki_error(result, "Can't remove tags for note: %s", note)
 
+        ## Finally add new note tags.
         response, result = connection.send_as_json(
           action = "addTags",
           params = dict(notes = [note_id], tags = " ".join(tags))
@@ -152,7 +157,9 @@ def load_and_send_flashcards(filename):
           report_anki_error(result, "Can't add tags for note: %s", note)
 
       else:
+        # No provided ID; assume new note should be created.
         log.debug("Creating new note...")
+
         # Create, obtaining returned ID
         response, result = connection.send_as_json(
           action = "addNote",
@@ -177,7 +184,7 @@ def load_and_send_flashcards(filename):
           new_notes_were_created = True
 
   if new_notes_were_created:
-    # Write updated nodes to disk.
+    # If any new notes were created, their IDs must be added to YAML file.
     with open(filename, mode = 'w') as yaml_output_file:
       log.info("\nUpdating file '{}' with new note IDs...".format(filename))
       yaml_output_file.write(yaml.serialize(nodes))
