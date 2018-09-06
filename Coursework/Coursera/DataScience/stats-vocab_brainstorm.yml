@@ -41,3 +41,9 @@ notes:
       - \\(FOR = p(C^+|R^-)\\)
       - Precision \\(= PPV = p(C^+|R^+)\\)
       - \\(NPV = p(C^-|R^-)\\)
+- id: 1536273877865
+  fields:
+    Front: |
+      What is the probability space for "prevalence" in the context of a binary classification test?
+    Back: |
+      The entire sample space.
