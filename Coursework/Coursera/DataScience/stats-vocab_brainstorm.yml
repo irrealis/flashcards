@@ -47,3 +47,9 @@ notes:
       What is the probability space for "prevalence" in the context of a binary classification test?
     Back: |
       The entire sample space.
+- id: 1536273877949
+  fields:
+    Front: |
+      What is the probability space for "accuracy" in the context of a binary classification test?
+    Back: |
+      The entire sample space.
