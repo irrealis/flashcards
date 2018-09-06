@@ -189,7 +189,7 @@ def load_and_send_flashcards(filename):
             note,
           ))
           print("--- AnkiConnect error description:\n{}".format(
-            data["error"],
+            result["error"],
           ))
           print("--- HTTP response:\n{} {}".format(
             response.status,
