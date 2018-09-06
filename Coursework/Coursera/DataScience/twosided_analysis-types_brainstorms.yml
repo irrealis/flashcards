@@ -1,0 +1,10 @@
+defaults:
+  deckName: Staging
+  modelName: BasicMathJaxAndReverse
+  tags:
+  - Coursework
+  - Coursera
+  - DataScience
+  - AnalysisTypes
+  markdownTabLength: 2
+notes:
