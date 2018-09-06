@@ -95,3 +95,9 @@ notes:
       What is the probability space for "precision" in the context of a binary classification test?
     Back: |
       \\(R^+\\): the test result is positive.
+- id: 1536273878465
+  fields:
+    Front: |
+      What is the probability space for "Negative Predictive Value" in the context of a binary classification test?
+    Back: |
+      \\(R^-\\): the test result is negative.
