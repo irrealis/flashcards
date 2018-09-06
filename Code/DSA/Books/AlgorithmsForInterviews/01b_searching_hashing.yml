@@ -8,18 +8,14 @@ defaults:
   - AFI-AlgorithmsForInterviews
   - AFI-01-Searching
   - AFI-01b-Hashing
-
   fields:
     Python: "**To-do: Python.**"
     Java: "**To-do: Java.**"
     C++: "**To-do: C++.**"
-
   markdownTabLength: 4
-
 notes:
-
-
-- fields:
+- id: 1536203067576
+  fields:
     Front: |
       ## 01.08: Anagrams
 
@@ -28,9 +24,8 @@ notes:
       Given a dictionary of English words, return the set of all words grouped into subsets of words that are all anagrams of each other.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 18.
-
-
-- fields:
+- id: 1536203067604
+  fields:
     Front: |
       ## 01.09: Search for a pair which sums to \\(S\\)
 
@@ -39,9 +34,8 @@ notes:
       Design an efficient algorithm for determining if there exist a pair of indices \\(i,j\\) (not necessarily distinct) such that \\(A[i]+A[j]=S\\).
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 18.
-
-
-- fields:
+- id: 1536203067654
+  fields:
     Front: |
       ## 01.10: Anonymous letter
 
@@ -50,9 +44,8 @@ notes:
       You are required to write a method that takes two text documents: an anonymous letter \\(L\\) and a text from a magazine \\(M\\). Your method is to return tru if \\(L\\) can be written using \\(M\\) and false otherwise. (If a letter appears \\(k\\) times in \\(L\\), it must appear at least \\(k\\) times in \\(M\\).)
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 18.
-
-
-- fields:
+- id: 1536203067737
+  fields:
     Front: |
       ## 01.11: Pairing users by attributes
 
@@ -63,9 +56,8 @@ notes:
       How would you implement this matching process efficiently? How would you implement it if we allow an approximate match of attributes as well?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 18.
-
-
-- fields:
+- id: 1536203067770
+  fields:
     Front: |
       ## 01.12: Missing element
 
@@ -74,9 +66,8 @@ notes:
       Given an array \\(A\\) of integers, find an integer \\(k\\) that is not present in \\(A\\). Assume that the integers are 32-bit signed integers.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 18-9.
-
-
-- fields:
+- id: 1536203067837
+  fields:
     Front: |
       ## 01.13: Missing element
 
@@ -85,9 +76,8 @@ notes:
       Given a robot with the energy regeneration ability described above, the mass of the robot \\(m\\), and a sequence of three-dimensional cooredinates that the robot needs to traverse, how would you determine the minimum battery capacity needed for the robot to complete the trajectory? (Assume the robot starts with a fully charged battery and the battery is used only for overcoming gravity.)
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 19.
-
-
-- fields:
+- id: 1536203067888
+  fields:
     Front: |
       ## 01.14: Search for majority
 
@@ -96,9 +86,8 @@ notes:
       You are reading a sequence of words from a very long stream. You know _a priori_ that more than half the worlds are repetitions of a single word \\(W\\) but the positions where \\(W\\) occurs are unknown. Design an efficient algorithm that reads this stream only once and uses only a constant amount of memory to identify \\(W\\).
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 19.
-
-
-- fields:
+- id: 1536203067954
+  fields:
     Front: |
       ## 01.15: Search for frequent items
 

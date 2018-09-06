@@ -8,47 +8,39 @@ defaults:
   - AFI-AlgorithmsForInterviews
   - AFI-11-Programming
   - AFI-11i-OperatingSystems
-
   fields:
     Python: "**To-do: Python.**"
     Java: "**To-do: Java.**"
     C++: "**To-do: C++.**"
     Back: "**To-do: Back.**"
-
   markdownTabLength: 4
-
-
 notes:
-
-
-- fields:
+- id: 1536203078970
+  fields:
     Front: |
       ## 11.15.01: Operating Systems
 
       What is a system call?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 95.
-
-
-- fields:
+- id: 1536203079005
+  fields:
     Front: |
       ## 11.15.02: Operating Systems
 
       How is a system call different from a library call?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 95.
-
-
-- fields:
+- id: 1536203079037
+  fields:
     Front: |
       ## 11.15.03: Operating Systems
 
       What is a device driver?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 96.
-
-
-- fields:
+- id: 1536203079070
+  fields:
     Front: |
       ## 11.15.04: Operating Systems
 
@@ -57,63 +49,56 @@ notes:
       Give an example of each.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 96.
-
-
-- fields:
+- id: 1536203079104
+  fields:
     Front: |
       ## 11.15.05: Operating Systems
 
       What is a race? What can you do to prevent races?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 96.
-
-
-- fields:
+- id: 1536203079137
+  fields:
     Front: |
       ## 11.15.06: Operating Systems
 
       What is a mutex? What are semaphores? How are they implemented?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 96.
-
-
-- fields:
+- id: 1536203079174
+  fields:
     Front: |
       ## 11.15.07: Operating Systems
 
       Give examples of system calls that are not related to input-output.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 96.
-
-
-- fields:
+- id: 1536203079203
+  fields:
     Front: |
       ## 11.15.08: Operating Systems
 
       Give examples of library functions that call a system function all the time, none of the time, and some of the time.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 96.
-
-
-- fields:
+- id: 1536203079226
+  fields:
     Front: |
       ## 11.15.09: Operating Systems
 
       What is the time lag between the system call on the client side and the receipt of the packet on the server on a local area network?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 96.
-
-
-- fields:
+- id: 1536203079258
+  fields:
     Front: |
       ## 11.15.10: Operating Systems
 
       How fast can you write a gigabyte of data from RAM to disk?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 96.
-
-
-- fields:
+- id: 1536203079310
+  fields:
     Front: |
       ## 11.15.11: Operating Systems
 

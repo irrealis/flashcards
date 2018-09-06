@@ -7,16 +7,12 @@ defaults:
   - Books
   - AFI-AlgorithmsForInterviews
   - AFI-08-DesignProblems
-
   fields:
     Back: "**To-do: Back.**"
-
   markdownTabLength: 4
-
-
 notes:
-
-- fields:
+- id: 1536203073853
+  fields:
     Front: |
       ## 08.01: Mosaic
 
@@ -25,9 +21,8 @@ notes:
       How would you design a software that produces high-quality mosaics with minimal compute time?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 67.
-
-
-- fields:
+- id: 1536203073905
+  fields:
     Front: |
       ## 08.02: Search engine
 
@@ -38,9 +33,8 @@ notes:
       Given a million documents with an average size of ten kilobytes, design a program that can efficiently return the subset of documents containing a given set of words.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 68.
-
-
-- fields:
+- id: 1536203073955
+  fields:
     Front: |
       ## 08.03: IP forwarding
 
@@ -49,9 +43,8 @@ notes:
       You are given a large set of strings \\(S\\) in advance. Given a query string \\(Q\\), how would you design a system that can identify the longest string \\(p \in S\\) that is a prefix of \\(Q\\)?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 68.
-
-
-- fields:
+- id: 1536203073995
+  fields:
     Front: |
       ## 08.04: Spell checker
 
@@ -60,9 +53,8 @@ notes:
       How would you build a spelling correction system?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 68.
-
-
-- fields:
+- id: 1536203074026
+  fields:
     Front: |
       ## 08.05: Stemming
 
@@ -73,9 +65,8 @@ notes:
       Design a stemming algorithm that runs fast and does a reasonable job.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 69.
-
-
-- fields:
+- id: 1536203074055
+  fields:
     Front: |
       ## 08.06: Distributed throttling
 
@@ -84,9 +75,8 @@ notes:
       How would you implement crawling under such a constraint?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 69.
-
-
-- fields:
+- id: 1536203074103
+  fields:
     Front: |
       ## 08.07: Implement PageRank
 
@@ -111,9 +101,8 @@ notes:
       How would you design a system that can compute the ranks for a collection of a billion web pages in a reasonable amount of time?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 69-70.
-
-
-- fields:
+- id: 1536203074155
+  fields:
     Front: |
       ## 08.08: Scalable priority system
 
@@ -126,9 +115,8 @@ notes:
       How would you design a system that can implement these requirements when the data cannot fit into a single machine's memory?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 69-70.
-
-
-- fields:
+- id: 1536203074204
+  fields:
     Front: |
       ## 08.09: Latency reduction
 
@@ -148,9 +136,8 @@ notes:
       You have a service level agreement with your clients that requires that 99% of the requests are serviced in less that one second. How would you design the system to meet this requirement with minimal cost?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 70.
-
-
-- fields:
+- id: 1536203074238
+  fields:
     Front: |
       ## 08.10: Online advertising system
 
@@ -159,9 +146,8 @@ notes:
       Design an online advertising system for Jingle.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 70.
-
-
-- fields:
+- id: 1536203074261
+  fields:
     Front: |
       ## 08.11: Recommendation system
 
@@ -170,9 +156,8 @@ notes:
       Design a system that automatically generates the sidebar.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 71.
-
-
-- fields:
+- id: 1536203074289
+  fields:
     Front: |
       ## 08.12: Online poker
 
@@ -181,9 +166,8 @@ notes:
       Design an online poker playing service for Clump Enterprises.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 71.
-
-
-- fields:
+- id: 1536203074320
+  fields:
     Front: |
       ## 08.13: Driving directions
 
@@ -192,9 +176,8 @@ notes:
       Design a driving directions service with a web interface.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 71.
-
-
-- fields:
+- id: 1536203074405
+  fields:
     Front: |
       ## 08.14: ISBN cache
 
@@ -203,9 +186,8 @@ notes:
       Implement a cache for looking up prices of books identified by their ISBN. Use the least-recently-used strategy for cache eviction policy.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 71.
-
-
-- fields:
+- id: 1536203074453
+  fields:
     Front: |
       ## 08.15: Distributing large files
 
@@ -217,9 +199,8 @@ notes:
       Suggest an efficient way of getting the articles added in the past five minutes from the lab machine to the servers.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 71-2.
-
-
-- fields:
+- id: 1536203074504
+  fields:
     Front: |
       ## 08.16: Leader election
 
@@ -228,9 +209,8 @@ notes:
       Devise a protocol by which hosts can elect a unique leader from all the hosts participating in the protocol. The protocol should be fast, in that it converges quickly; it should be efficient, in that it should not involve too many connections, too many data exchanges, or too much data exchanged.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 72.
-
-
-- fields:
+- id: 1536203074554
+  fields:
     Front: |
       ## 08.17: Host discovery
 

@@ -9,74 +9,63 @@ defaults:
   - AFI-11-Programming
   - AFI-11j-Tools
   - AFI-11j2-ShellTools
-
   fields:
     Python: "**To-do: Python.**"
     Java: "**To-do: Java.**"
     C++: "**To-do: C++.**"
     Back: "**To-do: Back.**"
-
   markdownTabLength: 4
-
-
 notes:
-
-
-- fields:
+- id: 1536203079672
+  fields:
     Front: |
       ## 11.16.2.01: Tools --- shell tools
 
       Write a regular expression for identifying social security numbers in a file.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 96.
-
-
-- fields:
+- id: 1536203079723
+  fields:
     Front: |
       ## 11.16.2.02: Tools --- shell tools
 
       Write a command that prints out lines in a text file which contain the strings `foo` and `bar` in any order.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 96.
-
-
-- fields:
+- id: 1536203079757
+  fields:
     Front: |
       ## 11.16.2.03: Tools --- shell tools
 
       Write a command which replaces every occurrence of a `foo` followed by a `bar` (with possibly some other characters in between) by a `widget`.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 96.
-
-
-- fields:
+- id: 1536203079784
+  fields:
     Front: |
       ## 11.16.2.04: Tools --- shell tools
 
       Given a text file with two columns of integers, i.e., two integers encoded in ASCII per line, write a filter which sorts lines in the file by the second integer.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 97.
-
-
-- fields:
+- id: 1536203079804
+  fields:
     Front: |
       ## 11.16.2.05: Tools --- shell tools
 
       How would you take two documents in PDF and create a new document which consists of the pages of the two original documents interleaved in order?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 97.
-
-
-- fields:
+- id: 1536203079838
+  fields:
     Front: |
       ## 11.16.2.06: Tools --- shell tools
 
       How would you write a program which checks every hour if a network connection is up?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 97.
-
-
-- fields:
+- id: 1536203079857
+  fields:
     Front: |
       ## 11.16.2.07: Tools --- shell tools
 

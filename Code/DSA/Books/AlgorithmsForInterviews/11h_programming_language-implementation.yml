@@ -8,63 +8,53 @@ defaults:
   - AFI-AlgorithmsForInterviews
   - AFI-11-Programming
   - AFI-11h-ProgammingLanguageImplementation
-
   fields:
     Python: "**To-do: Python.**"
     Java: "**To-do: Java.**"
     C++: "**To-do: C++.**"
     Back: "**To-do: Back.**"
-
   markdownTabLength: 4
-
-
 notes:
-
-
-- fields:
+- id: 1536203078621
+  fields:
     Front: |
       ## 11.14.01: Programming Language Implementation
 
       Give an example of a language which cannot be parsed by any computer.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 95.
-
     Thoughts: |
       I'm stumped. My snarky response is "body language", but I think it may be possible for AI to understand body language.
 
       I suspect the answer to this is in the formal definition of "parse", in which case parsing requires a formal grammar without ambiguity. In this definition, natural language cannot be parsed, because it need not conform to any grammar.
 
       Many expressions in C and C++ can also not be parsed under this definition. For example, the `*` symbol is ambiguous.
-
-
-- fields:
+- id: 1536203078655
+  fields:
     Front: |
       ## 11.14.02: Programming Language Implementation
 
       What problems does dynamic linkage solve? What problems does it introduce?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 95.
-
-
-- fields:
+- id: 1536203078678
+  fields:
     Front: |
       ## 11.14.03: Programming Language Implementation
 
       What is a functional language?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 95.
-
-
-- fields:
+- id: 1536203078704
+  fields:
     Front: |
       ## 11.14.04: Programming Language Implementation
 
       What is a virtual function?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 95.
-
-
-- modelName: CodingProblems
+- id: 1536203078738
+  modelName: CodingProblems
   fields:
     Front: |
       ## 11.14.05: Programming Language Implementation
@@ -72,9 +62,8 @@ notes:
       How is method dispatch implemented?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 95.
-
-
-- modelName: CodingProblems
+- id: 1536203078770
+  modelName: CodingProblems
   fields:
     Front: |
       ## 11.14.06: Programming Language Implementation
@@ -82,36 +71,32 @@ notes:
       What is automatic garbage collection, and how is it implemented?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 95.
-
-
-- fields:
+- id: 1536203078804
+  fields:
     Front: |
       ## 11.14.07: Programming Language Implementation
 
       What is a type-safe language?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 95.
-
-
-- fields:
+- id: 1536203078838
+  fields:
     Front: |
       ## 11.14.08: Programming Language Implementation
 
       What is the difference between a lexer and a parser?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 95.
-
-
-- fields:
+- id: 1536203078860
+  fields:
     Front: |
       ## 11.14.09: Programming Language Implementation
 
       Give an example of a language which cannot be recognized by a lexer.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 95.
-
-
-- fields:
+- id: 1536203078890
+  fields:
     Front: |
       ## 11.14.10: Programming Language Implementation
 

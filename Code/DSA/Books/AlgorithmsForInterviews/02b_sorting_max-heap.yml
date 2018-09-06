@@ -8,18 +8,14 @@ defaults:
   - AFI-AlgorithmsForInterviews
   - AFI-02-Sorting
   - AFI-02b-MaxHeap
-
   fields:
     Python: "**To-do: Python.**"
     Java: "**To-do: Java.**"
     C++: "**To-do: C++.**"
-
   markdownTabLength: 4
-
 notes:
-
-
-- fields:
+- id: 1536203069205
+  fields:
     Front: |
       ## 02.10: Merging sorted arrays
 
@@ -35,9 +31,8 @@ notes:
       Design an algorithm that takes the files as described above and writes a single file containing the lines appearing in the individual files sorted by the update time. The algorithm should use very little memory, ideally of the order of a few kilobytes.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 27.
-
-
-- fields:
+- id: 1536203069253
+  fields:
     Front: |
       ## 02.11: Approximate sort
 
@@ -46,9 +41,8 @@ notes:
       There is a very long stream of integers arriving as an input such that each integer is at most one thousand positions away from its correctly sorted position. Design an algorithm that outputs the integers in the correct order and uses only a constant amount of storage, i.e., the memory used should be independent of the number of integers processed.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 27.
-
-
-- fields:
+- id: 1536203069303
+  fields:
     Front: |
       ## 02.12: Running averages
 
@@ -57,9 +51,8 @@ notes:
       Given a sequence of trillion real numbers on a disk, how would you compute the running mean of every thousand entries, i.e., the first point would be the mean of \\(a[0],\ldots,a[999]\\), the second point would be the mean of \\(a[1],\ldots,a[1000]\\), the third point would be the mean of \\(a[2],\ldots,a[1001]\\), etc.? Repeat the calculation for median rather than mean.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 27-8.
-
-
-- fields:
+- id: 1536203069353
+  fields:
     Front: |
       ## 02.13: Circuit simulation
 

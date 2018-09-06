@@ -8,20 +8,15 @@ defaults:
   - AFI-AlgorithmsForInterviews
   - AFI-11-Programming
   - AFI-11c-LinkedLists
-
   fields:
     Python: "**To-do: Python.**"
     Java: "**To-do: Java.**"
     C++: "**To-do: C++.**"
     Back: "**To-do: Back.**"
-
   markdownTabLength: 4
-
-
 notes:
-
-
-- fields:
+- id: 1536203076853
+  fields:
     Front: |
       ## 11.07: Reversing a singly linked list
 
@@ -30,9 +25,8 @@ notes:
       Give a linear-time nonrecursive procedure that reverses a singly linked list. The procedure should use no more than constant storage beyond that needed for the list itself.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 91.
-
-
-- fields:
+- id: 1536203076904
+  fields:
     Front: |
       ## 11.08: Checking for cyclicity
 
@@ -41,9 +35,8 @@ notes:
       Given a reference to the head of a singly linked list, how would you determine whether this list ends in a null or reaches a cycle of nodes? (You do not know the length of the list.)
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 91.
-
-
-- fields:
+- id: 1536203076956
+  fields:
     Front: |
       ## 11.09: Deletion from a singly linked list
 

@@ -8,20 +8,15 @@ defaults:
   - AFI-AlgorithmsForInterviews
   - AFI-11-Programming
   - AFI-11d-ComplexityAnalysis
-
   fields:
     Python: "**To-do: Python.**"
     Java: "**To-do: Java.**"
     C++: "**To-do: C++.**"
     Back: "**To-do: Back.**"
-
   markdownTabLength: 4
-
-
 notes:
-
-
-- fields:
+- id: 1536203077205
+  fields:
     Front: |
       ## 11.10: Binary search
 

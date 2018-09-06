@@ -9,74 +9,63 @@ defaults:
   - AFI-11-Programming
   - AFI-11e-ProgrammingLanguages
   - AFI-11e2-Libraries
-
   fields:
     Python: "**To-do: Python.**"
     Java: "**To-do: Java.**"
     C++: "**To-do: C++.**"
     Back: "**To-do: Back.**"
-
   markdownTabLength: 4
-
-
 notes:
-
-
-- fields:
+- id: 1536203077705
+  fields:
     Front: |
       ## 11.11.2.01: Programming languages --- libraries
 
       Give an example of a function in the standard library.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 94.
-
-
-- fields:
+- id: 1536203077757
+  fields:
     Front: |
       ## 11.11.2.02: Programming languages --- libraries
 
       Give an example of a commonly-used function not in the standard library.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 94.
-
-
-- fields:
+- id: 1536203077787
+  fields:
     Front: |
       ## 11.11.2.03: Programming languages --- libraries
 
       What library would you use to determine the current date?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 94.
-
-
-- fields:
+- id: 1536203077805
+  fields:
     Front: |
       ## 11.11.2.04: Programming languages --- libraries
 
       What library would you use if you had to implement a tinyurl service?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 94.
-
-
-- fields:
+- id: 1536203077837
+  fields:
     Front: |
       ## 11.11.2.05: Programming languages --- libraries
 
       How are sets implemented?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 94.
-
-
-- fields:
+- id: 1536203077870
+  fields:
     Front: |
       ## 11.11.2.06: Programming languages --- libraries
 
       How does the library code compute trigonometric functions?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 94.
-
-
-- modelName: BasicMathJax
+- id: 1536203077937
+  modelName: BasicMathJax
   fields:
     Front: |
       ## 11.11.2.07: Programming languages --- libraries

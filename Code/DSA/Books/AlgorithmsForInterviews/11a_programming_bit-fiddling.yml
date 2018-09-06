@@ -8,20 +8,15 @@ defaults:
   - AFI-AlgorithmsForInterviews
   - AFI-11-Programming
   - AFI-11a-BitFiddling
-
   fields:
     Python: "**To-do: Python.**"
     Java: "**To-do: Java.**"
     C++: "**To-do: C++.**"
     Back: "**To-do: Back.**"
-
   markdownTabLength: 4
-
-
 notes:
-
-
-- fields:
+- id: 1536203076554
+  fields:
     Front: |
       ## 11.01: Computing the parity of a long
 
@@ -30,9 +25,8 @@ notes:
       How would you compute parity if you had to perform the computation for a very large number of longs?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 89.
-
-
-- fields:
+- id: 1536203076588
+  fields:
     Front: |
       ## 11.02: Reversing the bits in a long
 
@@ -41,9 +35,8 @@ notes:
       Write a function which takes a long \\(x\\) and returns a long that has the bits of \\(x\\) reversed.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 89.
-
-
-- fields:
+- id: 1536203076637
+  fields:
     Front: |
       ## 11.03: Run-length encoding
 

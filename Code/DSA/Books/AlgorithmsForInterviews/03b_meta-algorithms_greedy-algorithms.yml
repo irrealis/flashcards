@@ -8,18 +8,14 @@ defaults:
   - AFI-AlgorithmsForInterviews
   - AFI-03-MetaAlgorithms
   - AFI-03b-GreedyAlgorithms
-
   fields:
     Python: "**To-do: Python.**"
     Java: "**To-do: Java.**"
     C++: "**To-do: C++.**"
-
   markdownTabLength: 4
-
 notes:
-
-
-- fields:
+- id: 1536203070121
+  fields:
     Front: |
       ## 03.12: Scheduling tutors
 
@@ -28,9 +24,8 @@ notes:
       Given a set of requests for the day, design an efficient algorithm to compute the least number of tutors necessary to schedule all the requests for the day.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 36.
-
-
-- fields:
+- id: 1536203070188
+  fields:
     Front: |
       ## 03.13: Minimize waiting time
 
@@ -39,9 +34,8 @@ notes:
       Design an efficient algorithm for computing an optimimum order for processing the queries.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 36.
-
-
-- fields:
+- id: 1536203070237
+  fields:
     Front: |
       ## 03.14: Huffman coding
       Let's look at an application of Huffman coding. We want to compress a large piece of English text by building a variable length code book for each possible character. Consider the case where each character in the text is independent of all other characters (we can achieve better compression if we do not make this assumption but for this problem we will ignore this fact).
@@ -55,9 +49,8 @@ notes:
       Given a set of symbols with corresponding probabilities, find a prefix code assignment that minimizes the expected length of the encoded string.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 37.
-
-
-- fields:
+- id: 1536203070287
+  fields:
     Front: |
       ## 03.15: Efficient user interface
 
@@ -70,9 +63,8 @@ notes:
       How should the menu system be designed so as to minimize the average UI interaction time if \\(c = 1\\)? How would you do it if \\(c > 1\\)?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 37-8.
-
-
-- fields:
+- id: 1536203070337
+  fields:
     Front: |
       ## 03.16: Packing USPS Priority Mail
 
@@ -83,9 +75,8 @@ notes:
       Implement first-fit to run in \\(O(n \log n)\\) time.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 38.
-
-
-- fields:
+- id: 1536203070388
+  fields:
     Front: |
       ## 03.17: Points covering intervals
 
@@ -96,9 +87,8 @@ notes:
       Design an efficient algorithm for finding a minimum cardinality set of visit times that covers all the tasks.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 38.
-
-
-- fields:
+- id: 1536203070471
+  fields:
     Front: |
       ## 03.18: Rays covering arcs
 
@@ -111,9 +101,8 @@ notes:
       Design an efficient algorithm for finding a minimum-cardinatlity covering of the set of rays.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 39.
-
-
-- fields:
+- id: 1536203070571
+  fields:
     Front: |
       ## 03.19: \\(k\\)-clustering
 
@@ -132,14 +121,12 @@ notes:
       Prove that the resulting cluster has the maximum separation of all possible \\(k\\)-clusterings.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 39-40.
-
     Thoughts: |
       The book observes:
 
       "Note that the algorithm above is very simplistic: it does not attempt to balance cluster sizes, look at distances outside of pairwise-closest ones, exploit any structure in the distance function (e.g., the triangle inequality), etc. In a realistic setting, these and many more considerations are taken into account."
-
-
-- fields:
+- id: 1536203070623
+  fields:
     Front: |
       ## 03.20: Party planning
 

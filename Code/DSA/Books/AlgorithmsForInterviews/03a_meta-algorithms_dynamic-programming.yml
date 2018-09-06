@@ -8,29 +8,24 @@ defaults:
   - AFI-AlgorithmsForInterviews
   - AFI-03-MetaAlgorithms
   - AFI-03a-DynamicProgramming
-
   fields:
     Python: "**To-do: Python.**"
     Java: "**To-do: Java.**"
     C++: "**To-do: C++.**"
-
   markdownTabLength: 4
-
 notes:
-
-
-- fields:
+- id: 1536205245600
+  fields:
     Front: |
       ## 03.01: Longest nondecreasing subsequence
 
       In genomics, given two gene sequences, we try to find if parts of one gene are the same as the other. Thus it is important to find the longest common subsequence of the two sequences. One way to solve this problem is to construct a new sequence where for each literal in one sequence, we insert its position into the other sequence and then find the longest nondecreasing subsequence of this new subsequence. For example, if the two sequences are \\(\langle 1, 3, 5, 2, 7 \rangle\\) and \\(\langle 1, 2, 3, 5, 7 \rangle\\), we would construct a new sequence where for each position in the first sequence, we would list its position in the second sequence like so, \\(\langle 1, 3, 4, 2, 5\rangle\\). Then we find the 1ongest nondecreasing sequence which is \\(\langle 1, 3, 4, 5 \rangle\\). Now, if we use the numbers of the new sequence as indices into the second sequence, we get \\(\langle 1, 3, 5, 7 \rangle\\) which is our longest common subsequence.
 
-      Given an array of integers \\(A\\) of length \\(n\\), find the longest sequence \\(\langle i_1, \ldots, i_k \rangle\\) such that \\(i_j < i_{j十1}\\) and \\(A[i_j] \leq A[i_{j+1}\\) for any \\(j \in [1 , k 一 1]\\).
+      Given an array of integers \\(A\\) of length \\(n\\), find the longest sequence \\(\langle i_1, \ldots, i_k \rangle\\) such that \\(i_j < i_{j+1}\\) and \\(A[i_j] \leq A[i_{j+1}\\) for any \\(j \in [1 , k - 1]\\).
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 31.
-
-
-- fields:
+- id: 1536205245660
+  fields:
     Front: |
       ## 03.02: Frog crossing
 
@@ -39,9 +34,8 @@ notes:
       There is a river that is \\(n\\) meters wide. At every meter from the edge, there may or may not be a stone. A frog needs to cross the river. However the frog has the limitation that if it has just jumped \\(x\\) meters, then its next jump must be between \\(x-1\\) and \\(x+1\\) meters, inclusive. Assume the first jump can be of only 1 meter. Given the position of the stones, how would you determine whether the frog can make it to the other end or not? Analyze the runtime of your algorithm.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 31-2.
-
-
-- fields:
+- id: 1536205245810
+  fields:
     Front: |
       ## 03.03: Cutting paper
 
@@ -50,9 +44,8 @@ notes:
       Design an algorithm that computes a profit-maximizing strategy for cutting the kite-paper. You can make as many instances of a given kite as you want. There is no cost to cutting kite-paper.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 32.
-
-
-- fields:
+- id: 1536205245861
+  fields:
     Front: |
       ## 03.04: Word breaking
 
@@ -61,9 +54,8 @@ notes:
       Given a dictionary that can tell you whether a string is a valid word or not in constant time and given a string \\(s\\) of length \\(n\\), provide an efficient algorithm that can tell whether \\(s\\) can be reconstituted as a sequence of valid words. In the event that the string is valid, your algorithm should output the corresponding sequence of words.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 32.
-
-
-- fields:
+- id: 1536205245911
+  fields:
     Front: |
       ## 03.05: Ties in a presidential election
 
@@ -73,9 +65,8 @@ notes:
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 33.
       (Modified from original question, removing "Table 2".)
-
-
-- fields:
+- id: 1536205245960
+  fields:
     Front: |
       ## 03.06: Red or blue house majority
 
@@ -84,9 +75,8 @@ notes:
       Given that a party needs 223 or more seats to win a majority in the House, how would you compute the probability of a Republican win? Assume each race is independent and that the probability of a Republican winning the race \\(i\\) is \\(p_i\\).
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 33.
-
-
-- fields:
+- id: 1536205246009
+  fields:
     Front: |
       ## 03.07: Load balancing
 
@@ -94,12 +84,11 @@ notes:
 
       However if a small number of users occupy a large fraction of the storage space, hashing will not achieve a balanced partition. One way to solve this problem is to make the hash buckets have a nonuniform width based on the load in that hash range.
 
-      You have \\(n\\) users with unique hashes \\(h_1\\) through \\(h_n\\) and \\(m\\) servers, numbered 1 to \\(m\\). User \\(i\\) has \\(B_i\\) bytes to store. You need to find numbers \\(K_1\\) through \\(K_m\\) such that all users with hashes between \\(K_j\\) and \\(K_{j十1}\\) get assigned to server \\(j\\). Design an algorithm to find the numbers \\(K_1\\) through \\(K_m\\) that minimizes the load on the most heavily loaded server.
+      You have \\(n\\) users with unique hashes \\(h_1\\) through \\(h_n\\) and \\(m\\) servers, numbered 1 to \\(m\\). User \\(i\\) has \\(B_i\\) bytes to store. You need to find numbers \\(K_1\\) through \\(K_m\\) such that all users with hashes between \\(K_j\\) and \\(K_{j+1}\\) get assigned to server \\(j\\). Design an algorithm to find the numbers \\(K_1\\) through \\(K_m\\) that minimizes the load on the most heavily loaded server.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 33-4.
-
-
-- fields:
+- id: 1536205246060
+  fields:
     Front: |
       ## 03.08: Voltage selection
 
@@ -110,9 +99,8 @@ notes:
       Design an efficient algorithm that takes as input a logic circuit and selects supply voltages for each gate to minimize power consumption while ensuring reliable operation.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 34.
-
-
-- fields:
+- id: 1536205246144
+  fields:
     Front: |
       ## 03.09: Optimum buffer insertion
 
@@ -123,9 +111,8 @@ notes:
       How would you efficiently compute the least number of gates to buffer in the circuit so that after buffering, every path of \\(k\\) or more gates has at least one buffered gate? More formally, given a rooted tree, how would you color the edges of the graph in green or red such that no path from a node to any ancestor contains more than \\(k\\) successive red edges and the number of green edges is minimized?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 34-5.
-
-
-- fields:
+- id: 1536205246194
+  fields:
     Front: |
       ## 03.10: Triangulation
 
@@ -134,9 +121,8 @@ notes:
       Design an efficient algorithm for finding a triangulation that minimizes the cost.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 35.
-
-
-- fields:
+- id: 1536205246243
+  fields:
     Front: |
       ## 03.11: Maximizing expressions
 

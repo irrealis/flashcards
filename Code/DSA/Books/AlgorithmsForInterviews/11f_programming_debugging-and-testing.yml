@@ -8,53 +8,44 @@ defaults:
   - AFI-AlgorithmsForInterviews
   - AFI-11-Programming
   - AFI-11f-DebuggingAndTesting
-
   fields:
     Back: "**To-do: Back.**"
-
   markdownTabLength: 4
-
-
 notes:
-
-
-- fields:
+- id: 1536203077974
+  fields:
     Front: |
       ## 11.12.01: Debugging and testing
 
       What was your last bug? What was your hardest bug?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 94.
-
-
-- fields:
+- id: 1536203078005
+  fields:
     Front: |
       ## 11.12.02: Debugging and testing
 
       How would you debug a distributed program?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 94.
-
-
-- fields:
+- id: 1536203078028
+  fields:
     Front: |
       ## 11.12.03: Debugging and testing
 
       A program works sometimes and fails other times --- why?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 94.
-
-
-- fields:
+- id: 1536203078055
+  fields:
     Front: |
       ## 11.12.04: Debugging and testing
 
       A program works sometimes and fails other times on the exact same input --- why?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 94.
-
-
-- modelName: CodingProblems
+- id: 1536203078110
+  modelName: CodingProblems
   fields:
     Front: |
       ## 11.12.05: Debugging and testing
@@ -62,9 +53,8 @@ notes:
       How would you determine where a program spends most of its time?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 94.
-
-
-- modelName: CodingProblems
+- id: 1536203078137
+  modelName: CodingProblems
   fields:
     Front: |
       ## 11.12.06: Debugging and testing
@@ -72,9 +62,8 @@ notes:
       How do unit testing libraries make the process of testing easier?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 94.
-
-
-- modelName: CodingProblems
+- id: 1536203078171
+  modelName: CodingProblems
   fields:
     Front: |
       ## 11.12.07: Debugging and testing
@@ -82,9 +71,8 @@ notes:
       List five ways in which code can be nonportable. What can you do to make the code portable?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 94.
-
-
-- modelName: CodingProblems
+- id: 1536203078191
+  modelName: CodingProblems
   fields:
     Front: |
       ## 11.12.08: Debugging and testing
@@ -92,45 +80,40 @@ notes:
       Write tests for implementation of an `isupper` function.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 94.
-
-
-- fields:
+- id: 1536203078220
+  fields:
     Front: |
       ## 11.12.09: Debugging and testing
 
       Should you test private methods? Should you test one-line methods?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 94.
-
-
-- fields:
+- id: 1536203078254
+  fields:
     Front: |
       ## 11.12.10: Debugging and testing
 
       If you find and fix an error by adding debug code, should you remove the debug code afterwards? Should you leave them in with a conditional compilation/runtime flag?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 94.
-
-
-- fields:
+- id: 1536203078287
+  fields:
     Front: |
       ## 11.12.11: Debugging and testing
 
       What is a buffer overflow, and how can hackers exploit it?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 94.
-
-
-- fields:
+- id: 1536203078321
+  fields:
     Front: |
       ## 11.12.12: Debugging and testing
 
       How do you use Valgrind to solve segfault problems?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 94.
-
-
-- fields:
+- id: 1536203078342
+  fields:
     Front: |
       ## 11.12.13: Debugging and testing
 

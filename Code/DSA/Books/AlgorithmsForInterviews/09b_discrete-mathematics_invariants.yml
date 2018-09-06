@@ -8,19 +8,15 @@ defaults:
   - AFI-AlgorithmsForInterviews
   - AFI-09-DiscreteMathematics
   - AFI-09b-Invariants
-
   fields:
     Python: "**To-do: Python.**"
     Java: "**To-do: Java.**"
     C++: "**To-do: C++.**"
     Back: "**To-do: Back.**"
-
   markdownTabLength: 4
-
-
 notes:
-
-- fields:
+- id: 1536203074937
+  fields:
     Front: |
       ## 09.07: Even or odd
 
@@ -29,9 +25,8 @@ notes:
       What can you say about the last remaining integer as a function of the numbers of even and odd integers initially in \\(A\\)?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 76.
-
-
-- fields:
+- id: 1536203074988
+  fields:
     Front: |
       ## 09.08: Gassing up
 
@@ -40,9 +35,8 @@ notes:
       Is it always possible to find a starting point on the route such that you can start there with an empty tank and complete the route? How can you efficiently find this city?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 77.
-
-
-- fields:
+- id: 1536203075037
+  fields:
     Front: |
       ## 09.09: Common knowledge
 
@@ -57,9 +51,8 @@ notes:
       The explorer seems to have added no new knowledge to the system since each inhabitant can already tell that amongst the inhabitants, some have blue eyes and some have green eyes.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 77.
-
-
-- fields:
+- id: 1536203075070
+  fields:
     Front: |
       ## 09.10: Hershey bar
 
@@ -68,9 +61,8 @@ notes:
       How would you break a \\(4 \times 4\\) bar into sixteen pieces using as few breaks as possible?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 77.
-
-
-- fields:
+- id: 1536203075154
+  fields:
     Front: |
       ## 09.11: \\(n \times n\\) chomp
 
@@ -79,9 +71,8 @@ notes:
       Assuming the players have infinite computational resources at their disposal, who will win the game?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 78.
-
-
-- fields:
+- id: 1536203075204
+  fields:
     Front: |
       ## 09.12: \\(n \times 2\\) chomp
 
@@ -90,9 +81,8 @@ notes:
       Assuming the players have infinite computational resources at their disposal, who will win the game?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 78.
-
-
-- fields:
+- id: 1536203075254
+  fields:
     Front: |
       ## 09.13: \\(m \times n\\) chomp
 
@@ -101,9 +91,8 @@ notes:
       Assuming the players have infinite computational resources at their disposal, who will win the game?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 78.
-
-
-- fields:
+- id: 1536203075305
+  fields:
     Front: |
       ## 09.14: Picking up coins --- I
 
@@ -112,9 +101,8 @@ notes:
       If you want to ensure you do not lose, would you rather be \\(F\\) or \\(S\\)?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 78.
-
-
-- fields:
+- id: 1536203075354
+  fields:
     Front: |
       ## 09.15: Picking up coins --- II
 
@@ -123,9 +111,8 @@ notes:
       Derive an efficient algorithm for computing the maximum amount of money \\(F\\) can win.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 78.
-
-
-- fields:
+- id: 1536203075405
+  fields:
     Front: |
       ## 09.16: Space-time intersections
 

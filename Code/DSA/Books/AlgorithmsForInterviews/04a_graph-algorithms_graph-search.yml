@@ -8,18 +8,14 @@ defaults:
   - AFI-AlgorithmsForInterviews
   - AFI-04-AlgorithmsOnGraphs
   - AFI-04a-GraphSearch
-
   fields:
     Python: "**To-do: Python.**"
     Java: "**To-do: Java.**"
     C++: "**To-do: C++.**"
-
   markdownTabLength: 4
-
-
 notes:
-
-- fields:
+- id: 1536205361426
+  fields:
     Front: |
       ## 04.01: Searching a maze
 
@@ -28,9 +24,8 @@ notes:
       Given a two-dimensional matrix of black and white entries representing a maze with designated entrance and exit points, find a path from the entrance to the exit, if one exists.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 42-3.
-
-
-- fields:
+- id: 1536205361463
+  fields:
     Front: |
       ## 04.02: Order nodes in a binary tree by depth
 
@@ -39,9 +34,8 @@ notes:
       How would you efficiently return an array \\(A[0 \ldots h]\\), where \\(h\\) is the height of the tree and \\(A[i]\\) is the head of a linked list of all the nodes in the tree that are at height \\(i\\)?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 43.
-
-
-- fields:
+- id: 1536205361514
+  fields:
     Front: |
       ## 04.03: Connectedness
 
@@ -54,9 +48,8 @@ notes:
       Let \\(G = (V , E)\\) be a connected undirected graph. How would you efficiently check if \\(G\\) is \\(2\exists\\)-connected? Can you make you algorithm run in \\(O(|V|)\\) time? How would you check if \\(G\\) is \\(2\forall\\)-connected?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 43.
-
-
-- fields:
+- id: 1536205361581
+  fields:
     Front: |
       ## 04.04: PCB wiring
 
@@ -65,9 +58,8 @@ notes:
       Give an \\(O(p + w)\\) time algorithm that determines if it is possible to place some of the pins on the left half of a PCB and the rest of the right half such that each wire is between a pin on the left and a pin on the right. Your algorithm should return a placement, should one exist.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 43.
-
-
-- fields:
+- id: 1536205361697
+  fields:
     Front: |
       ## 04.05: Extended contacts
 
@@ -76,9 +68,8 @@ notes:
       Devise an efficient algorithm which takes a social network and computes for each individual his extended contacts.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 44.
-
-
-- fields:
+- id: 1536205361731
+  fields:
     Front: |
       ## 04.06: Euler tour
 
@@ -87,9 +78,8 @@ notes:
       Design a linear-time algorithm to find an Euler tour if one exists.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 44.
-
-
-- fields:
+- id: 1536205361781
+  fields:
     Front: |
       ## 04.07: Ephemeral state in a finite state machine
 
@@ -100,9 +90,8 @@ notes:
       Define an efficient algorithm which takes an FSM and returns the set of ephemeral states.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 44.
-
-
-- fields:
+- id: 1536205361830
+  fields:
     Front: |
       ## 04.08: Tree diameter
 
@@ -111,22 +100,20 @@ notes:
       Let \\(T\\) be a tree, where each edge is labeled with a real-valued distance. Define the diameter of \\(T\\) to be the length on a longest path in \\(T\\). Design an efficient algorithm to compute the diameter of \\(T\\).
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 44-5.
-
-
-- fields:
+- id: 1536205361881
+  fields:
     Front: |
       ## 04.09: Timing analysis
 
       A combinational logic network consists of primary inputs and logic gates. Some of the gates may be designated as being primary outputs. Each gate has an output and a number of inputs --- these inputs may be primary inputs or the outputs of other gates. A cycle of gates is defined as a sequence of gates \\(\langle g_0,g_1,\ldots,g_{n-1},g_0 \rangle\\) starting and ending at the same gate such that for each consecutive pair of gates in the sequence, the first gate is an input to the second gate. Cycles of gates are disallowed.
 
-      Each gate has a fixed delay. A change at the primary让lput propagates through the logic network and eventually the output of every gate stops changing.
+      Each gate has a fixed delay. A change at the primary input propagates through the logic network and eventually the output of every gate stops changing.
 
       Given a logic network with primary inputs changing, find the smallest time after which all the primary outputs no longer change.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 45.
-
-
-- fields:
+- id: 1536205361931
+  fields:
     Front: |
       ## 04.10: Team photo day --- 1
 
@@ -135,9 +122,8 @@ notes:
       Describe an efficient method that takes as input two the heights of the players in the teams and checks if it is possible to place players to take the picture -- if it is possible, your function should print which team comes to the front and the order in which the players appear. How would you generalize your approach to determine the largest number of teams that can be photographed simultaneously subject to the same constraints?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 45.
-
-
-- fields:
+- id: 1536205361997
+  fields:
     Front: |
       ## 04.11: Assigning radio frequencies
 

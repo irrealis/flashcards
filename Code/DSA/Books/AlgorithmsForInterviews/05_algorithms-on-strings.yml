@@ -7,18 +7,14 @@ defaults:
   - Books
   - AFI-AlgorithmsForInterviews
   - AFI-05-AlgorithmsOnStrings
-
   fields:
     Python: "**To-do: Python.**"
     Java: "**To-do: Java.**"
     C++: "**To-do: C++.**"
-
   markdownTabLength: 4
-
-
 notes:
-
-- fields:
+- id: 1536205547901
+  fields:
     Front: |
       ## 05.01: Find all occurrences of a substring
 
@@ -27,20 +23,18 @@ notes:
       Given two strings \\(s\\) (search string) and \\(T\\) (text), find all occurrences of \\(s\\) in \\(T\\).
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 52.
-
-
-- fields:
+- id: 1536205547954
+  fields:
     Front: |
       ## 05.02: String matching with unique characters
 
-      Suppose we are looking for a search string \\(S\\) in another string \\(T\\). A naïve algorithm would try to match all the characters in \\(S\\) to characters in \\(T\\) at each offset. The worst-case complexity of the naïve algorithm is \\(\Theta(|S| \cdot |T|)\\) --- consider the case where \\(S\\) is \\(2n\\) zeros, and \\(T\\) is \\(n-1\\) zeros followed by a one.
+      Suppose we are looking for a search string \\(S\\) in another string \\(T\\). A naive algorithm would try to match all the characters in \\(S\\) to characters in \\(T\\) at each offset. The worst-case complexity of the naive algorithm is \\(\Theta(|S| \cdot |T|)\\) --- consider the case where \\(S\\) is \\(2n\\) zeros, and \\(T\\) is \\(n-1\\) zeros followed by a one.
 
-      The worst-case behavior for the naïve algorithm requires many duplicated characters. Suppose no character occurs more than once in the search string. Devise an algorithm to efficiently search for all occurrences of the search string in the text string.
+      The worst-case behavior for the naive algorithm requires many duplicated characters. Suppose no character occurs more than once in the search string. Devise an algorithm to efficiently search for all occurrences of the search string in the text string.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 53.
-
-
-- fields:
+- id: 1536205548053
+  fields:
     Front: |
       ## 05.03: Rotate a string
 
@@ -49,9 +43,8 @@ notes:
       Design a \\(\Theta(n)\\) algorithm for rotating a string of \\(n\\) letters to the left by \\(i\\) positions. You are allowed only a constant number of bytes of additional storage.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 53.
-
-
-- fields:
+- id: 1536205548087
+  fields:
     Front: |
       ## 05.04: Test rotation
 
@@ -60,9 +53,8 @@ notes:
       Develop a linear-time algorithm for checking if a string \\(S\\) is a cyclic rotation of another string \\(R\\). (For example, _arc_ is a cyclic rotation of _car_.)
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 53.
-
-
-- fields:
+- id: 1536205548426
+  fields:
     Front: |
       ## 05.05: Normalize URLs
 
@@ -82,9 +74,8 @@ notes:
       4. replace consecutive '`/`' characters by a single '`/`' in the "path" segment of the URL.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 53-4.
-
-
-- fields:
+- id: 1536205548477
+  fields:
     Front: |
       ## 05.06: Longest palindrome subsequence
 
@@ -93,9 +84,8 @@ notes:
       Devise an efficient algorithm that takes a DNA sequence \\(D[1, \ldots, n]\\) and returns the length of the longest palindromic subsequence.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 54.
-
-
-- fields:
+- id: 1536205548553
+  fields:
     Front: |
       ## 05.07: Pretty printing
 
@@ -104,9 +94,8 @@ notes:
       Given a long piece of text, decompose it into lines such that no word spans across two lines, and the total wasted space at the end of each line is minimized.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 54.
-
-
-- fields:
+- id: 1536205548620
+  fields:
     Front: |
       ## 05.08: Edit distances
 
@@ -117,9 +106,8 @@ notes:
       Given two strings \\(A\\) and \\(B\\), compute the minimum number of edits needed to transform \\(A\\) into \\(B\\).
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 54.
-
-
-- fields:
+- id: 1536205548736
+  fields:
     Front: |
       ## 05.09: Regular expression matching
 

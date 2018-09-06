@@ -8,60 +8,50 @@ defaults:
   - AFI-AlgorithmsForInterviews
   - AFI-11-Programming
   - AFI-11g-BestPractices
-
   fields:
     Back: "**To-do: Back.**"
-
   markdownTabLength: 4
-
-
 notes:
-
-
-- fields:
+- id: 1536203078375
+  fields:
     Front: |
       ## 11.13.01: Best Practices
 
       Give an example of a problem you solved where you made good use of object-oriented programming.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 95.
-
-
-- fields:
+- id: 1536203078405
+  fields:
     Front: |
       ## 11.13.02: Best Practices
 
       What is the factory pattern? What is the publish-subscribe model?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 95.
-
-
-- fields:
+- id: 1536203078443
+  fields:
     Front: |
       ## 11.13.03: Best Practices
 
       Give an example of how inheritance violates encapsulation.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 95.
-
     Thoughts: |
       When people say this, by encapsulation they mean hiding data or details of implementation.
 
       This hiding is used to insulate users of software libraries from changes to the underlying code, when new versions of libraries are released.
 
       Inheritance can expose the hidden data or details of implementation.
-
-
-- fields:
+- id: 1536203078466
+  fields:
     Front: |
       ## 11.13.04: Best Practices
 
       What do Java bounded wildcards buy you?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 95.
-
-
-- fields:
+- id: 1536203078487
+  fields:
     Front: |
       ## 11.13.05: Best Practices
 

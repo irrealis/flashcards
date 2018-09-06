@@ -8,18 +8,17 @@ defaults:
   - AFI-AlgorithmsForInterviews
   - AFI-01-Searching
   - AFI-01a-BinarySearch
-
   fields:
-    Python: "**To-do: Python.**"
-    Java: "**To-do: Java.**"
     C++: "**To-do: C++.**"
-
+    Java: "**To-do: Java.**"
+    JavaScript: "**To-do: JavaScript.**"
+    Julia: "**To-do: Julia.**"
+    Python: "**To-do: Python.**"
+    R: "**To-do: R.**"
   markdownTabLength: 4
-
 notes:
-
-
-- fields:
+- id: 1536203009027
+  fields:
     Front: |
       ## 01.01: Computing square roots
 
@@ -28,7 +27,6 @@ notes:
       Implement a fast integer square root function that takes in a 32-bit unsigned integer and returns another 32-bit unsigned integer that is the floor of the square root of the input.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); pp 14-6.
-
     Python: |
       - Clarify: for 9 through 15, this would return 3.
       - Wrinkles:
@@ -61,37 +59,32 @@ notes:
             actual = sqrt_floor(x)
             assert actual == expected
       ```
-
-
-- fields:
+- id: 1536203009119
+  fields:
     Front: |
       ## 01.02: Search a sorted array for \\(k\\)
 
       Write a method that takes a sorted array \\(A\\) of integers and a key \\(k\\) and returns the index of first occurrence of \\(k\\) in \\(A\\). Return \\(-1\\) if \\(k\\) does not appear in \\(A\\). Write tests to verify your code.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 16.
-
-
-- fields:
+- id: 1536203009153
+  fields:
     Front: |
       ## 01.03: Search a sorted array for the first element larger than \\(k\\)
 
       Design an efficient algorithm that finds the index of the first occurrence of an element larger than a specified key \\(k\\); return -1 if every element is less than or equal to \\(k\\).
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 16.
-
-
-- fields:
+- id: 1536203009188
+  fields:
     Front: |
       ## 01.04: Search a sorted array for \\(A[i]=i\\)
 
       Suppose that in addition to being sorted, the entries of \\(A\)) are distinct integers. Design an efficient algorithm for finding an index \((i\)) such that \\(A[i]=i\\) or indicating that no such index exists.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 16.
-
-
-
-- fields:
+- id: 1536203009235
+  fields:
     Front: |
       ## 01.05: Search a sorted array of unknown length
 
@@ -100,9 +93,8 @@ notes:
       Find the index of the first occurrence in \\(A\\) of a specified key \\(k\\); return -1 if \\(k\\) does not appear in \\(A\\).
 
       &mdash; Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 16.
-
-
-- fields:
+- id: 1536203009303
+  fields:
     Front: |
       ## 01.06: Missing element, limited resources
 
@@ -111,9 +103,8 @@ notes:
       Given a file of roughly 300 million social security numbers (9-digit numbers), find a 9-digit number that is not in the file. You have unlimited drive space but only 2 megabytes of RAM at your disposal.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 16.
-
-
-- fields:
+- id: 1536203009377
+  fields:
     Front: |
       ## 01.07: Intersect two sorted arrays
 

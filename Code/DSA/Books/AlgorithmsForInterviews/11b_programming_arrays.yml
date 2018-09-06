@@ -8,20 +8,15 @@ defaults:
   - AFI-AlgorithmsForInterviews
   - AFI-11-Programming
   - AFI-11b-Arrays
-
   fields:
     Python: "**To-do: Python.**"
     Java: "**To-do: Java.**"
     C++: "**To-do: C++.**"
     Back: "**To-do: Back.**"
-
   markdownTabLength: 4
-
-
 notes:
-
-
-- fields:
+- id: 1536203076687
+  fields:
     Front: |
       ## 11.04: Permuting the elements of an array
 
@@ -30,9 +25,8 @@ notes:
       Given an array A of integers and a permutation \\(\Pi\\), compute \\(\Pi(A)\\) using only constant additional storage.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 90.
-
-
-- fields:
+- id: 1536203076738
+  fields:
     Front: |
       ## 11.05: Invert a permutation
 
@@ -43,9 +37,8 @@ notes:
       Given an array \\(A\\) of ints representing a permutation \\(\Pi\\), update \\(A\\) to represent \\(\Pi^{-1}\\) using only constant additional storage.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 90.
-
-
-- fields:
+- id: 1536203076804
+  fields:
     Front: |
       ## 11.06: Reverse all the words in a sentence
 

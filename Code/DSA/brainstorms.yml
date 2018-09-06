@@ -260,7 +260,7 @@ notes:
         try: heappush(heap, (next(it), i, it))
         except StopIteration: pass
 
-      def mrg(*l):
+      def merge(*l):
         merged, heap = [], []
         for i, a in enumerate(l): trypush(heap, i, iter(a))
         while heap:
@@ -272,7 +272,7 @@ notes:
       def mergesort(d):
         m = len(d)//2
         if m < 1: return d
-        return mrg(mergesort(d[:m]), mergesort(d[m:]))
+        return merge(mergesort(d[:m]), mergesort(d[m:]))
 
       print(mergesort([1, 9, 2, 8, 3, 7, 2, 7, 8, 6]))
       ```

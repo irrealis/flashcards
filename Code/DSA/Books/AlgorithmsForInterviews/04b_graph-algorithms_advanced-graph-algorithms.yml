@@ -8,18 +8,14 @@ defaults:
   - AFI-AlgorithmsForInterviews
   - AFI-04-AlgorithmsOnGraphs
   - AFI-04b-AdvancedGraphAlgorithms
-
   fields:
     Python: "**To-do: Python.**"
     Java: "**To-do: Java.**"
     C++: "**To-do: C++.**"
-
   markdownTabLength: 4
-
-
 notes:
-
-- fields:
+- id: 1536203071303
+  fields:
     Front: |
       ## 04.12: Shortest path with fewest edges
 
@@ -30,9 +26,8 @@ notes:
       Design an algorithm which takes as input a graph \\(G = (V , E)\\), directed or undirected, a nonnegative cost function on \\(E\\) and vertices \\(s\\) and \\(t\\); your algorithm should output a path with the fewest edges amongst all shortest paths from \\(s\\) to \\(t\\).
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 47.
-
-
-- fields:
+- id: 1536203071355
+  fields:
     Front: |
       ## 04.13: Counting shortest paths
 
@@ -41,9 +36,8 @@ notes:
       Develop an efficient algorithm that computes the number of shortest paths between vertices \\(s\\) and \\(t\\) in an undirected graph with unit cost edges.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 47.
-
-
-- fields:
+- id: 1536203071405
+  fields:
     Front: |
       ## 04.14: Random directed acyclic graph
 
@@ -54,9 +48,8 @@ notes:
       Find a path between a given pair of cities that is the minimum length path amongst all the paths for which the probability of being crossable is greater than 0.9.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 47.
-
-
-- fields:
+- id: 1536203071455
+  fields:
     Front: |
       ## 04.15: Shortest paths in the presence of randomization
 
@@ -65,9 +58,8 @@ notes:
       Find a strategy which gets you to the treasure room in the minimum expected time.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 47-8.
-
-
-- fields:
+- id: 1536203071540
+  fields:
     Front: |
       ## 04.16: Traveling salesman with a choice
 
@@ -76,9 +68,8 @@ notes:
       Devise an efficient algorithm for finding a route which maximizes the ratio of the total profit to the total cost.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 48.
-
-
-- fields:
+- id: 1536203071587
+  fields:
     Front: |
       ## 04.17: Road network
 
@@ -89,9 +80,8 @@ notes:
       Devise an efficient algorithm which takes the existing network, the proposals for new highways, and returns one of the proposed highways which minimizes the shortest driving distance between the cities of El Paso and Corpus Christi.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 48.
-
-
-- fields:
+- id: 1536203071638
+  fields:
     Front: |
       ## 04.18: Stable assignment
 
@@ -100,9 +90,8 @@ notes:
       Devise an algorithm which takes the preferences of the students and the professors and pairs a student with his adviser. There should be no student-adviser pair  \\((s_0 , a_0)\\) and \\((s_l , a_1)\\) such that \\(s_0\\) prefers \\(a_1\\) to \\(a_0\\) and \\(a_1\\) prefers \\(s_0\\) to \\(s_1\\).
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 48.
-
-
-- fields:
+- id: 1536203071701
+  fields:
     Front: |
       ## 04.19: Arbitrage
 
@@ -111,9 +100,8 @@ notes:
       Devise an efficient algorithm to determine whether or not there exists an arbitrage --- a way to start with a single unit of some commodity \\(C\\) and convert it back to more than one unit of \\(C\\) through a sequence of exchanges. Assume there are no transaction costs, rates do not fluctuate, and that fractional quantities of items can be sold.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 49.
-
-
-- fields:
+- id: 1536203071804
+  fields:
     Front: |
       ## 04.20: Birkhoff -- Von Neumann decomposition
 
@@ -122,9 +110,8 @@ notes:
       You are given an \\(N \times N\\) matrix of nonnegative integers; \\(A[i , j]\\) encodes the number of packets at input \\(i\\) that need to be transferred to output \\(j\\). What is the least number of cycles needed to perform the transfer encoded by \\(A\\)?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 49.
-
-
-- fields:
+- id: 1536203071855
+  fields:
     Front: |
       ## 04.21: Channel capacity
 
@@ -137,9 +124,8 @@ notes:
       Design a scheme for the given channel by which the transmitter and receiver can achieve more than 1 bit per symbol transmitted.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 49.
-
-
-- fields:
+- id: 1536203071903
+  fields:
     Front: |
       ## 04.22: Team photo day --- 2
 
@@ -148,9 +134,8 @@ notes:
        Design an efficient algorithm for computing the minimum number of subsets of teams so that the teams in each subset can be organized to appear in one photograph, subject to the placement constraint and each team appears in some subset.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 50.
-
-
-- fields:
+- id: 1536203071955
+  fields:
     Front: |
       ## 04.23: Dancing with the stars
 
@@ -165,9 +150,8 @@ notes:
       Design an algorithm for pairing bidders with celebrities to maximize the revenue from the dance.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 50.
-
-
-- fields:
+- id: 1536203072003
+  fields:
     Front: |
       ## 04.24: 2-SAT
 
@@ -178,9 +162,8 @@ notes:
       Design a linear-time algorithm for checking if a CNF in which each clause contains no more than two variables is satisfiable.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 50.
-
-
-- fields:
+- id: 1536203072054
+  fields:
     Front: |
       ## 04.25: Theory of equality
 

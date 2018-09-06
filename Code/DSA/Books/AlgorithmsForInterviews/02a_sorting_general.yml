@@ -8,18 +8,14 @@ defaults:
   - AFI-AlgorithmsForInterviews
   - AFI-02-Sorting
   - AFI-02a-General
-
   fields:
     Python: "**To-do: Python.**"
     Java: "**To-do: Java.**"
     C++: "**To-do: C++.**"
-
   markdownTabLength: 4
-
 notes:
-
-
-- modelName: BasicMathJax
+- id: 1536203068476
+  modelName: BasicMathJax
   fields:
     Front: |
       ## 02.01 Good sorting algorithms
@@ -33,12 +29,10 @@ notes:
       - Stability is required, i.e., the relative order of two records that have the same sorting key should not be changed.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 23-4.
-
     Back: |
       **To-do: Noncode back.**
-
-
-- fields:
+- id: 1536203068504
+  fields:
     Front: |
       ## 02.02: TeraSort
 
@@ -47,9 +41,8 @@ notes:
       Sort a file containing \\(10^{12}\\) 100-byte strings.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 24.
-
-
-- fields:
+- id: 1536203068551
+  fields:
     Front: |
       ## 02.03 Finding the winner and runner-up
 
@@ -58,9 +51,8 @@ notes:
       What is the least number of matches we need to organize to find the best player? How many matches do you need to find the best and the second best player?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 24.
-
-
-- fields:
+- id: 1536203068587
+  fields:
     Front: |
       ## 02.04 Finding the min and max simultaneously
 
@@ -69,9 +61,8 @@ notes:
       Find the min and max elements from a set of \\(N\\) elements using no more than \\(\frac{3N}{2}-1\\) comparisons.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 24.
-
-
-- fields:
+- id: 1536203068637
+  fields:
     Front: |
       ## 02.05 Efficient trials
 
@@ -82,9 +73,8 @@ notes:
       What is the minimum number of time-trials needed to determine who to send to the Olympics?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 24-5.
-
-
-- fields:
+- id: 1536203068671
+  fields:
     Front: |
       ## 02.06 Least-distance sorting
 
@@ -93,9 +83,8 @@ notes:
       Design a sorting algorithm that minimizes the total distance that the statues are moved.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 25.
-
-
-- fields:
+- id: 1536203068737
+  fields:
     Front: |
       ## 02.07 Privacy and anonymization
 
@@ -104,9 +93,8 @@ notes:
       Suppose you are given a matrix \\(M\\), where each row represents an individual and each column represents m attribute about the individual such as age or gender. Given a set of columns to be deleted, you want to determine if each row has at least \\(k\\) duplicate rows with exactly the same contents in the remaining columns. How would you verify this efficiently?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 25-6.
-
-
-- fields:
+- id: 1536203068791
+  fields:
     Front: |
       ## 02.08 Variable length sort
 
@@ -115,9 +103,8 @@ notes:
       Sort lines of a text file that has a million lines such that the average length of a line is 100 characters but the longest line is one million characters long.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 26.
-
-
-- fields:
+- id: 1536203068822
+  fields:
     Front: |
       ## 02.09 Unique elements
 

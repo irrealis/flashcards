@@ -9,38 +9,31 @@ defaults:
   - AFI-11-Programming
   - AFI-11e-ProgrammingLanguages
   - AFI-11e1-Basics
-
   fields:
     Python: "**To-do: Python.**"
     Java: "**To-do: Java.**"
     C++: "**To-do: C++.**"
     Back: "**To-do: Back.**"
-
   markdownTabLength: 4
-
-
 notes:
-
-
-- fields:
+- id: 1536203077254
+  fields:
     Front: |
       ## 11.11.1.01: Programming languages --- basics
 
       What are the basic types? How many bits does it take to represent them
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 93.
-
-
-- fields:
+- id: 1536203077288
+  fields:
     Front: |
       ## 11.11.1.02: Programming languages --- basics
 
       What do floating-point numbers look like in memory? Specifically, how many bits are there, and what sequence do the bits appear in?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 93.
-
-
-- modelName: BasicMathJax
+- id: 1536203077307
+  modelName: BasicMathJax
   fields:
     Front: |
       ## 11.11.1.03: Programming languages --- basics
@@ -48,9 +41,8 @@ notes:
       What is two's-complement notation?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 93.
-
-
-- modelName: BasicMathJax
+- id: 1536203077337
+  modelName: BasicMathJax
   fields:
     Front: |
       ## 11.11.1.04: Programming languages --- basics
@@ -58,9 +50,8 @@ notes:
       How would you implement a bit-vector class?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 93.
-
-
-- modelName: BasicMathJax
+- id: 1536203077371
+  modelName: BasicMathJax
   fields:
     Front: |
       ## 11.11.1.05: Programming languages --- basics
@@ -68,18 +59,16 @@ notes:
       Does the check `x == x + 1` always return false for integer `x`?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 93.
-
-
-- fields:
+- id: 1536203077407
+  fields:
     Front: |
       ## 11.11.1.06: Programming languages --- basics
 
       What do composite objects look like in memory?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 93.
-
-
-- modelName: BasicMathJax
+- id: 1536203077437
+  modelName: BasicMathJax
   fields:
     Front: |
       ## 11.11.1.07: Programming languages --- basics
@@ -87,9 +76,8 @@ notes:
       What is the difference between an interpreted and a compiled language?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 93.
-
-
-- modelName: BasicMathJax
+- id: 1536203077471
+  modelName: BasicMathJax
   fields:
     Front: |
       ## 11.11.1.08: Programming languages --- basics
@@ -97,27 +85,24 @@ notes:
       What is garbage collection?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 93.
-
-
-- fields:
+- id: 1536203077491
+  fields:
     Front: |
       ## 11.11.1.09: Programming languages --- basics
 
       How would you determine if call stacks grow up or down relative to memory addresses?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 93.
-
-
-- fields:
+- id: 1536203077522
+  fields:
     Front: |
       ## 11.11.1.10: Programming languages --- basics
 
       Give an example of a memory leak.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 93.
-
-
-- modelName: BasicMathJax
+- id: 1536203077554
+  modelName: BasicMathJax
   fields:
     Front: |
       ## 11.11.1.11: Programming languages --- basics
@@ -125,9 +110,8 @@ notes:
       What is tail recursion? How can it be removed automatically?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 93.
-
-
-- modelName: BasicMathJax
+- id: 1536203077587
+  modelName: BasicMathJax
   fields:
     Front: |
       ## 11.11.1.12: Programming languages --- basics
@@ -135,9 +119,8 @@ notes:
       Is the natural recursive program for computing \\(n!\\) tail recursive?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 93.
-
-
-- modelName: BasicMathJax
+- id: 1536203077620
+  modelName: BasicMathJax
   fields:
     Front: |
       ## 11.11.1.13: Programming languages --- basics
@@ -145,9 +128,8 @@ notes:
       Your manager reads an online article that says it is ten times faster to code in Python than in C++. He wants you to code exclusively in Python from now on. What would you say to him?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 93.
-
-
-- modelName: BasicMathJax
+- id: 1536203077654
+  modelName: BasicMathJax
   fields:
     Front: |
       ## 11.11.1.14: Programming languages --- basics

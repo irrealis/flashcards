@@ -7,19 +7,15 @@ defaults:
   - Books
   - AFI-AlgorithmsForInterviews
   - AFI-10-Probability
-
   fields:
     Python: "**To-do: Python.**"
     Java: "**To-do: Java.**"
     C++: "**To-do: C++.**"
     Back: "**To-do: Back.**"
-
   markdownTabLength: 4
-
-
 notes:
-
-- fields:
+- id: 1536203075526
+  fields:
     Front: |
       ## 10.01: Offline sampling
 
@@ -28,9 +24,8 @@ notes:
       Design an algorithm that returns a subset of \\(k\\) elements; all subsets should be equally likely. Use as few calls to the random number generator as possible and use only \\(O(1)\\) additional storage. (You can return the result in the same array as input.)
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 81.
-
-
-- fields:
+- id: 1536203075588
+  fields:
     Front: |
       ## 10.02: Reservoir sampling
 
@@ -39,18 +34,16 @@ notes:
       Compute a random subset of size \\(k\\) from a set of unknown size which is presented as a sequence of elements.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 81-2.
-
-
-- fields:
+- id: 1536203075638
+  fields:
     Front: |
       ## 10.03: Online sampling
 
       Compute a random subset of size \\(k\\) from the integers in the interval \\([0, n - 1]\\). You should retum the result in an array of length \\(k\\). You may use only constant additional storage. All subsets should be equally likely and all permutations of the array should be equally likely.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 81-2.
-
-
-- fields:
+- id: 1536203075704
+  fields:
     Front: |
       ## 10.04: Random permutations --- 1
 
@@ -59,18 +52,16 @@ notes:
       Does the following process yield a uniformly random permutation of \\(A\\)? "For \\(i\in\\{1,2,\ldots,n\\}\\), swap \\(A[i]\\) with a randomly chosen element of \\(A\\)." (The randomly chosen element could be \\(i\\) itself.)
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 82.
-
-
-- fields:
+- id: 1536203075739
+  fields:
     Front: |
       ## 10.05: Random permutations --- 2
 
       Design an algorithm that creates random permutations of \\(\\{1,2,\ldots,n\\}\\). Each permutation should be equally likely. You are given a random number generation function; use as few calls to it as possible.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 82.
-
-
-- modelName: BasicMathJax
+- id: 1536203075776
+  modelName: BasicMathJax
   fields:
     Front: |
       ## 10.06: Forming a triangle from random lengths
@@ -82,9 +73,8 @@ notes:
       Can you determine which of the above two methods of generating \\(u_1\\) and \\(u_2\\) is more likely to produce a triangle without computing the exact probabilities?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 82-3.
-
-
-- modelName: BasicMathJax
+- id: 1536203075837
+  modelName: BasicMathJax
   fields:
     Front: |
       ## 10.07: Balls and bins
@@ -94,9 +84,8 @@ notes:
       If you throw \\(m\\) balls into \\(n\\) bins randomly, how would you compute the expected number of bins that do not have any balls?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 83.
-
-
-- modelName: BasicMathJax
+- id: 1536203075888
+  modelName: BasicMathJax
   fields:
     Front: |
       ## 10.08: Random permutations
@@ -106,9 +95,8 @@ notes:
       What is the expected number of numbers that get mapped to themselves? What is the expected length of the largest increasing subsequence \\(\mu = \langle x_1,\ldots,x_l \rangle\\) in a randomly chosen permutation, where \\(x_l\\) is the first element of the permutation, and \\(x_k\\), \\(k > 1\\) is the first element that is larger than \\(x_{k_1}\\)?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 83.
-
-
-- modelName: BasicMathJax
+- id: 1536203075937
+  modelName: BasicMathJax
   fields:
     Front: |
       ## 10.09: Uniform random number generation
@@ -118,9 +106,8 @@ notes:
       How would you implement a random number generator that generates a random integer between \\(a\\) and \\(b\\), given a random number generator that produces either zero or one with equal probability? What would be the runtime of this algorithm assuming each call to the given random number generator takes \\(O(1)\\) time?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 83.
-
-
-- modelName: BasicMathJax
+- id: 1536203075988
+  modelName: BasicMathJax
   fields:
     Front: |
       ## 10.10: Nonuniform random number generation
@@ -130,9 +117,8 @@ notes:
       Given the probability distribution of a discrete random variable \\(X\\) and a uniform \\([0,1]\\) random number generator, how would you generate instances of \\(X\\) that follow the given distribution?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 83-4.
-
-
-- modelName: BasicMathJax
+- id: 1536203076021
+  modelName: BasicMathJax
   fields:
     Front: |
       ## 10.11: Expected number of dice rolls
@@ -140,9 +126,8 @@ notes:
       Bob repeatedly rolls an unbiased 6-sided dice. He stops when he has rolled all the six numbers on the dice. How many rolls will it take, on average, for Bob to see all the six numbers?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 83-4.
-
-
-- modelName: BasicMathJax
+- id: 1536203076103
+  modelName: BasicMathJax
   fields:
     Front: |
       ## 10.12: Option pricing --- discrete case
@@ -158,9 +143,8 @@ notes:
       For what option price(s) are there no opportunities for arbitrage?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 85.
-
-
-- modelName: BasicMathJax
+- id: 1536203076143
+  modelName: BasicMathJax
   fields:
     Front: |
       ## 10.13: Option pricing with interest
@@ -170,9 +154,8 @@ notes:
       Show there is a unique arbitrage-free price for the option and compute this price.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 85.
-
-
-- modelName: BasicMathJax
+- id: 1536203076165
+  modelName: BasicMathJax
   fields:
     Front: |
       ## 10.14: Option pricing --- continuous case
@@ -180,9 +163,8 @@ notes:
       Suppose the price of Jingle stock 100 days in the future is a normal random variable with mean $300 and deviation $20. What would be the fair price of an option to buy a single share of Jingle at $300 in 100 days worth today? (Ignore the impact of interest rates.)
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 85.
-
-
-- modelName: BasicMathJax
+- id: 1536203076204
+  modelName: BasicMathJax
   fields:
     Front: |
       ## 10.15: Optimum bidding
@@ -192,9 +174,8 @@ notes:
       How much should you offer for the item?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 86.
-
-
-- modelName: BasicMathJax
+- id: 1536203076255
+  modelName: BasicMathJax
   fields:
     Front: |
       ## 10.16: Once or twice
@@ -204,9 +185,8 @@ notes:
       What would be the value of \\(w\\) such that it is a fair game, i.e., for a rational player the expected gain is zero.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 86.
-
-
-- modelName: BasicMathJax
+- id: 1536203076304
+  modelName: BasicMathJax
   fields:
     Front: |
       ## 10.17: Selecting a red card
@@ -216,9 +196,8 @@ notes:
       What is the strategy that optimizes the likelihood of your selecting a red card?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 86.
-
-
-- modelName: BasicMathJax
+- id: 1536203076355
+  modelName: BasicMathJax
   fields:
     Front: |
       ## 10.18: Selecting the best secretary
@@ -228,9 +207,8 @@ notes:
       Can you come up with a strategy that results in your selecting the best secretary with probability greater than \\(\frac{1}{n}\\)? What strategy maximizes the probability of selecting the best secretary?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 86-7.
-
-
-- modelName: BasicMathJax
+- id: 1536203076404
+  modelName: BasicMathJax
   fields:
     Front: |
       ## 10.19: Differentiating biases
@@ -240,9 +218,8 @@ notes:
       You select a coin at random from the bag and toss it five times. It comes up heads three times. What is the probability that it was the coin that was biased towards tails? How many times do you need to toss the coin that is is biased towards tails before it comes up with a majority of tails with probability greater than \\(\frac{99}{100}\\)?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 87.
-
-
-- modelName: BasicMathJax
+- id: 1536203076470
+  modelName: BasicMathJax
   fields:
     Front: |
       ## 10.20: The complexity of and-or formulas

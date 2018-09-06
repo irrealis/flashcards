@@ -9,29 +9,23 @@ defaults:
   - AFI-11-Programming
   - AFI-11j-Tools
   - AFI-11j1-BuildingAndMaintainingPrograms
-
   fields:
     Python: "**To-do: Python.**"
     Java: "**To-do: Java.**"
     C++: "**To-do: C++.**"
     Back: "**To-do: Back.**"
-
   markdownTabLength: 4
-
-
 notes:
-
-
-- fields:
+- id: 1536203079356
+  fields:
     Front: |
       ## 11.16.1.01: Tools --- building and maintaining programs
 
       What version control system do you use?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 96.
-
-
-- modelName: CodingProblems
+- id: 1536203079389
+  modelName: CodingProblems
   fields:
     Front: |
       ## 11.16.1.02: Tools --- building and maintaining programs
@@ -39,54 +33,48 @@ notes:
       What coverage tool do you use?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 96.
-
-
-- fields:
+- id: 1536203079409
+  fields:
     Front: |
       ## 11.16.1.03: Tools --- building and maintaining programs
 
       What build system do you use?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 96.
-
-
-- fields:
+- id: 1536203079437
+  fields:
     Front: |
       ## 11.16.1.04: Tools --- building and maintaining programs
 
       What documentation system do you use?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 96.
-
-
-- fields:
+- id: 1536203079470
+  fields:
     Front: |
       ## 11.16.1.05: Tools --- building and maintaining programs
 
       What bug tracking system do you use?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 96.
-
-
-- fields:
+- id: 1536203079504
+  fields:
     Front: |
       ## 11.16.1.06: Tools --- building and maintaining programs
 
       How is branching implemented in a version control system?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 96.
-
-
-- fields:
+- id: 1536203079537
+  fields:
     Front: |
       ## 11.16.1.07: Tools --- building and maintaining programs
 
       Are deltas in the branching for a revision tree stored out forwards or backwards? What are the benefits of each approach?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 96.
-
-
-- fields:
+- id: 1536203079572
+  fields:
     Front: |
       ## 11.16.1.08: Tools --- building and maintaining programs
 

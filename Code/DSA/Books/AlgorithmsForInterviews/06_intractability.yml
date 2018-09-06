@@ -7,18 +7,14 @@ defaults:
   - Books
   - AFI-AlgorithmsForInterviews
   - AFI-06-Intractability
-
   fields:
     Python: "**To-do: Python.**"
     Java: "**To-do: Java.**"
     C++: "**To-do: C++.**"
-
   markdownTabLength: 4
-
-
 notes:
-
-- fields:
+- id: 1536203072727
+  fields:
     Front: |
       ## 06.01: 0-1 knapsack
 
@@ -27,9 +23,8 @@ notes:
       Design an algorithm that will select a subset of items that has maximum value and weighs at most \\(W\\) pounds. (This problem is called the 0-1 knapsack problem because each item must either be taken or left behind --- the thief cannot take a fractional amount of an item or take an item more than once.)
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 57-8.
-
-
-- fields:
+- id: 1536203072775
+  fields:
     Front: |
       ## 06.02: Traveling salesman in the plane
 
@@ -44,9 +39,8 @@ notes:
       Suppose all the cities are located in some Euclidean space and the cost of traveling from one city to another is a constant multiple of the distance between the cities. Give an efficient procedure for computing a tour whose cost is guaranteed to be within a factor of two of the cost of an optimum tour.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 58.
-
-
-- fields:
+- id: 1536203072837
+  fields:
     Front: |
       ## 06.03: Facility location problem
 
@@ -57,9 +51,8 @@ notes:
       Design a fast algorithm for selecting warehouse locations that is provably within a constant factor of the optimum solution.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 58.
-
-
-- fields:
+- id: 1536203072887
+  fields:
     Front: |
       ## 06.04: Computing \\(x^n\\)
 
@@ -74,18 +67,16 @@ notes:
       How would you determine the minimum number of multiplications to evaluate \\(x^{30}\\)?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 59.
-
-
-- fields:
+- id: 1536203072921
+  fields:
     Front: |
       ## 06.05: CNF-SAT
 
       Design an algorithm for CNF-SAT. Your algorithm should use branch-and-bound to prune partial assignments that can easily be shown to be unsatisfiable.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 59.
-
-
-- fields:
+- id: 1536203072942
+  fields:
     Front: |
       ## 06.06: Scheduling
 
@@ -94,9 +85,8 @@ notes:
       How would you choose when and where to hold the lectures in order to finish all the lectures as soon as possible?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 59.
-
-
-- fields:
+- id: 1536203072977
+  fields:
     Front: |
       ## 06.07: Hardy-Ramanujan number
 
@@ -105,9 +95,8 @@ notes:
       Given an arbitrary positive integer \\(n\\), how would you determine if it can be expressed as a sum of two cubes?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 59-60.
-
-
-- fields:
+- id: 1536203073026
+  fields:
     Front: |
       ## 06.08: Collatz conjecture
 
@@ -122,9 +111,8 @@ notes:
       How would you prove that Collatz hypothesis works for at least the first \\(N\\) integers? What is the runtime of your algorithm?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 60.
-
-
-- fields:
+- id: 1536203073088
+  fields:
     Front: |
       ## 06.09: Nearest points in the plane
 
@@ -133,9 +121,8 @@ notes:
       You are given a list of pairs of points in the two-dimensional Cartesian plane. Each point has integer \\(x\\) and \\(y\\) coordinates. How would you find the two closest points?
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 60.
-
-
-- fields:
+- id: 1536203073137
+  fields:
     Front: |
       ## 06.10: Primality checking
 
