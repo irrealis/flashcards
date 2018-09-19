@@ -1,0 +1,11 @@
+defaults:
+  deckName: Staging
+  modelName: BasicMathJax
+  tags:
+  - TextBooks
+  - Math
+  - Calculus
+  - Calculus-ConceptsAndContexts
+  - CAC-00.A-Diagnostics-Algebra
+  markdownTabLength: 2
+notes:
