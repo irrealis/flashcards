@@ -53,3 +53,14 @@ notes:
       \\[
       25
       \\]
+- id: 1537323241484
+  fields:
+    Front: |
+      ## 00.A 01e: Evaluate without using a calculator.
+      \\[
+      \left(\frac{2}{3}\right)^{-2}
+      \\]
+    Back: |
+      \\[
+      \frac{9}{4}
+      \\]
