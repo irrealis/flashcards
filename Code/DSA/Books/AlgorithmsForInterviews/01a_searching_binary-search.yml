@@ -18,6 +18,8 @@ defaults:
   markdownTabLength: 4
 notes:
 - id: 1536203009027
+  extraTags:
+  - Done-Python
   fields:
     Front: |
       ## 01.01: Computing square roots
