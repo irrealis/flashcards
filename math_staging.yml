@@ -86,3 +86,14 @@ notes:
       \\[
       6 \sqrt{2}
       \\]
+- id: 1537323988803
+  fields:
+    Front: |
+      ## 00.A 02b: Simplify, answering without negative exponents.
+      \\[
+      (3 a^3 b^3)(4 a b^2)^2
+      \\]
+    Back: |
+      \\[
+      48 a^5 b^7
+      \\]
