@@ -5,20 +5,15 @@ defaults:
   - Code
   - Algorithms
   - Brainstorms
-
   fields:
     Python: "**To-do: Python.**"
     Java: "**To-do: Java.**"
     C++: "**To-do: C++.**"
     Back: "**To-do: Back.**"
-
   markdownTabLength: 4
-
-
 notes:
-
-
-- extraTags:
+- id: 1537379823251
+  extraTags:
   - Done-Python
   - Done-Java
   fields:
@@ -81,9 +76,8 @@ notes:
       // String[] args;
       // Sorts.main(args);
       ```
-
-
-- extraTags:
+- id: 1537379823751
+  extraTags:
   - Done-Python
   - Done-Java
   fields:
@@ -139,9 +133,8 @@ notes:
       // String[] args;
       // Sorts.main(args);
       ```
-
-
-- extraTags:
+- id: 1537379824678
+  extraTags:
   - Done-Python
   - Done-Java
   fields:
@@ -256,9 +249,8 @@ notes:
       // String[] args;
       // Sorts.main(args);
       ```
-
-
-- extraTags:
+- id: 1537379825427
+  extraTags:
   - Done-Python
   - Done-Java
   fields:
@@ -343,9 +335,8 @@ notes:
       // String[] args;
       // Sorts.main(args);
       ```
-
-
-- extraTags:
+- id: 1537379825727
+  extraTags:
   - Done-Python
   fields:
     Front: |
