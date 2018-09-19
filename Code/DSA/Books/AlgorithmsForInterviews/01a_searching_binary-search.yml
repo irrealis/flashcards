@@ -62,6 +62,8 @@ notes:
             assert actual == expected
       ```
 - id: 1536203009119
+  extraTags:
+  - Done-Python
   fields:
     Front: |
       ## 01.02: Search a sorted array for \\(k\\)
@@ -69,6 +71,25 @@ notes:
       Write a method that takes a sorted array \\(A\\) of integers and a key \\(k\\) and returns the index of first occurrence of \\(k\\) in \\(A\\). Return \\(-1\\) if \\(k\\) does not appear in \\(A\\). Write tests to verify your code.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 16.
+    Python: |
+      ```{python }
+          def index_binary_search(data, search_value):
+              lower = 0
+              upper = len(data) - 1
+              while lower <= upper:
+                  middle = lower + (upper - lower)//2
+                  value = data[middle]
+                  if search_value < value: upper = middle - 1
+                  elif value < search_value: lower = middle + 1
+                  else: return middle
+              return -1
+
+          data = [-19, -18, -17, -11, -10, -9, -8, -7, -6, -5, -2, 0, 2, 4, 5, 7, 8, 13, 14, 15]
+          # Verify expected indices are found.
+          print([index_binary_search(data, v) for v in data] == list(range(20)))
+          # Verify an element not in list cannot be found.
+          print(-1 == index_binary_search(data, 1))
+      ```
 - id: 1536203009153
   fields:
     Front: |
