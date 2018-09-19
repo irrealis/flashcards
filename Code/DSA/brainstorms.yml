@@ -18,7 +18,10 @@ defaults:
 notes:
 
 
-- fields:
+- extraTags:
+  - Done-Python
+  - Done-Java
+  fields:
     Front: |
       Write selection sort.
     Python: |
@@ -80,7 +83,10 @@ notes:
       ```
 
 
-- fields:
+- extraTags:
+  - Done-Python
+  - Done-Java
+  fields:
     Front: |
       Write insertion sort.
     Python: |
@@ -135,7 +141,10 @@ notes:
       ```
 
 
-- fields:
+- extraTags:
+  - Done-Python
+  - Done-Java
+  fields:
     Front: |
       Write heapsort.
     Python: |
@@ -249,7 +258,10 @@ notes:
       ```
 
 
-- fields:
+- extraTags:
+  - Done-Python
+  - Done-Java
+  fields:
     Front: |
       Write mergesort.
     Python: |
@@ -333,7 +345,9 @@ notes:
       ```
 
 
-- fields:
+- extraTags:
+  - Done-Python
+  fields:
     Front: |
       Write quicksort.
     Python: |
