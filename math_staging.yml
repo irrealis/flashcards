@@ -42,3 +42,14 @@ notes:
       \\[
       \frac{1}{81}
       \\]
+- id: 1537323241441
+  fields:
+    Front: |
+      ## 00.A 01d: Evaluate without using a calculator.
+      \\[
+      \frac{5^{23}}{5^{21}}
+      \\]
+    Back: |
+      \\[
+      25
+      \\]
