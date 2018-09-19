@@ -20,3 +20,14 @@ notes:
       \\[
       81
       \\]
+- id: 1537323241290
+  fields:
+    Front: |
+      ## 00.A 01b: Evaluate without using a calculator.
+      \\[
+      -3^4
+      \\]
+    Back: |
+      \\[
+      -81
+      \\]
