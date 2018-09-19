@@ -31,3 +31,14 @@ notes:
       \\[
       -81
       \\]
+- id: 1537323241394
+  fields:
+    Front: |
+      ## 00.A 01c: Evaluate without using a calculator.
+      \\[
+      3^{-4}
+      \\]
+    Back: |
+      \\[
+      \frac{1}{81}
+      \\]
