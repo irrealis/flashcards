@@ -64,3 +64,14 @@ notes:
       \\[
       \frac{9}{4}
       \\]
+- id: 1537323241537
+  fields:
+    Front: |
+      ## 00.A 01f: Evaluate without using a calculator.
+      \\[
+      16^{-3/4}
+      \\]
+    Back: |
+      \\[
+      \frac{1}{8}
+      \\]
