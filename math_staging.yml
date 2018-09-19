@@ -97,3 +97,16 @@ notes:
       \\[
       48 a^5 b^7
       \\]
+- id: 1537323989013
+  fields:
+    Front: |
+      ## 00.A 02c: Simplify, answering without negative exponents.
+      \\[
+      \left(
+        \frac{3 x^{3/2} y^3}{x^2 y^{-1/2}}
+      \right)^{-2}
+      \\]
+    Back: |
+      \\[
+      \frac{x}{9 y^7}
+      \\]
