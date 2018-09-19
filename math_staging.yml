@@ -75,3 +75,14 @@ notes:
       \\[
       \frac{1}{8}
       \\]
+- id: 1537323988645
+  fields:
+    Front: |
+      ## 00.A 02a: Simplify, answering without negative exponents.
+      \\[
+      \sqrt{200} - \sqrt{32}
+      \\]
+    Back: |
+      \\[
+      6 \sqrt{2}
+      \\]
