@@ -15,6 +15,8 @@ defaults:
   markdownTabLength: 4
 notes:
 - id: 1536203067576
+  extraTags:
+  - Done-Python
   fields:
     Front: |
       ## 01.08: Anagrams
@@ -24,7 +26,80 @@ notes:
       Given a dictionary of English words, return the set of all words grouped into subsets of words that are all anagrams of each other.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 18.
+    Python: |
+      - _Clarify_: So "Logarithm" and "algorithm" would be in the same group (even though the former is capitalized), and "top" and "pot" we be together in a separate group.
+      - _Isolate and address problem core_:
+          - This could be done by:
+              - Building a key: sorted letters
+              - Using the key in a dict/map
+              - Using as value a set of original dictionary words
+          - _Simplifying assumptions_:
+              - No nonletters
+              - ASCII letters only
+              - Lowercase
+          - _Wrinkles_:
+              - Can't think of any not addressed in simplifying assumptions
+          - _Corner case ideas_:
+              - Violations of simplifying assumptions
+                  - Numeric strings
+                  - Non-latin words
+                  - Uppercase words
+                  - Same words present multiple times with capitalization variants
+                  - Same words present multiple times with exact same spelling and capitalization
+                  - Compound words with hyphens
+                  - Messy data: spurious commas, periods, quotes, ...
+                      - Resulting in more copies of same word...
+              - Empty strings?
+      - _Test case_:
+          - Initially, input dict:
+              - "logarithm"
+              - "algorithm"
+              - "pot"
+              - "top"
+              - "spot"
+              - "stop"
+              - "pots"
+          - Expected output:
+              - "Logarithm", "algorithm"
+              - "pot", "top"
+              - "spot", "stop", "pots"
+      - Solution code:
+      ```{python }
+          def group_anagrams(words):
+            # Dictionary to store anagram groups
+            anagrams_dict = dict()
+            # Iterate through words:
+            for word in words:
+                # Build key by sorting letters of word
+                word_letters = list(word)
+                word_letters.sort()
+                key = "".join(word_letters)
+                # Lookup existing anagrams by key; if not present, create empty anagrams set.
+                anagrams = anagrams_dict.get(key, set())
+                # Add original word to set
+                anagrams.add(word)
+                # Store new version of set in dict using key
+                anagrams_dict[key] = anagrams
+            # In Python, just return dict values.
+            # In other language, iterate through keys, extracting values into
+            # list for return.
+            return anagrams_dict.values()
+
+          words = (
+            "logarithm",
+            "algorithm",
+            "pot",
+            "top",
+            "spot",
+            "stop",
+            "pots",
+          )
+          anagram_groups = group_anagrams(words)
+          print(anagram_groups)
+      ```
 - id: 1536203067604
+  extraTags:
+  - Done-Python
   fields:
     Front: |
       ## 01.09: Search for a pair which sums to \\(S\\)
@@ -34,6 +109,27 @@ notes:
       Design an efficient algorithm for determining if there exist a pair of indices \\(i,j\\) (not necessarily distinct) such that \\(A[i]+A[j]=S\\).
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 18.
+    Python: |
+      ```{python }
+          def find_pair_summing_to(S, A):
+            reverse_map = {v:i for (i,v) in enumerate(A)}
+            for i,a in enumerate(A):
+              t = S-a
+              if t in reverse_map:
+                j = reverse_map[t]
+                return i,j
+            return None
+
+          def try_sum(A, S):
+            pair = find_pair_summing_to(S, A)
+            if pair is None: return None
+            i, j = pair
+            return i, j, A[i], A[j], A[i]+A[j]
+
+          A = [-19, -18, -17, -10, -10, -9, -8, -7,
+            -7, -5, -2, 0, 2, 4, 5, 7, 8, 13, 13, 15]
+          [try_sum(A, S) for S in range(-40,40)]
+      ```
 - id: 1536203067654
   fields:
     Front: |

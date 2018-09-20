@@ -12,9 +12,11 @@ defaults:
     Python: "**To-do: Python.**"
     Java: "**To-do: Java.**"
     C++: "**To-do: C++.**"
-  markdownTabLength: 4
+  markdownTabLength: 2
 notes:
 - id: 1536203069205
+  extraTags:
+  - Done-Python
   fields:
     Front: |
       ## 02.10: Merging sorted arrays
@@ -31,6 +33,121 @@ notes:
       Design an algorithm that takes the files as described above and writes a single file containing the lines appearing in the individual files sorted by the update time. The algorithm should use very little memory, ideally of the order of a few kilobytes.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 27.
+    Python: |
+      - So, to clarify:
+        - For sorting, only the first number is used.
+        - Each line must be copied, preserved, into the final combined file.
+        - Core aspects of the problem:
+          - 500-way merge of presorted files.
+          - Very little memory.
+      - Brainstorm:
+        - Use a 500-entry min-heap:
+          - Key: update time
+          - Value:
+            - Corresponding line
+            - File number. Indexes into array of file objects that remember seek index.
+        - Iteratively:
+          - pop next line/infile from the heap
+          - write line to outfile
+          - if there's another line in infile:
+            - readline
+            - extract key (update time)
+            - push line/infile with key
+        - I'll try using the `heapq` package in Python's standard lib.
+      - Any issues?
+        - Above addresses running out of lines.
+        - In non-gc language, we'd have to worry about allocs and frees of variable-length lines.
+          - Alternately, we could have a 500-length array of fixed-length character buffers, assuming we know the max line length.
+          - But we can gloss over this in Python.
+        - Let's assume that the update times are 64-bit integers. Let's say unsigned (doesn't really matter).
+          - Question: How many milliseconds in a day? 24*60*60*1000 ... call it 100,000,000. Fits fine into 64-bit integers.
+        - Assume our filesystem is fine with 5-gigabtye files. 64-bit OS, filesystem.
+        - I _believe_ (could be wrong) `heapq` accepts tuples/lists, as long as it can sort on first elements. (And tie-break on subsequent elements.)
+          - **What if we have two entries from separate files, with same update times?**
+            - We need a tiebreaker. Let's use a number from 1-500, corresponding to the 500 files.
+              - Thus heap entries will have to look like so:
+                  ```
+                  (update_time, file_number, file_line)
+                  ```
+        - In non-gc language: we'd have to worry about closing file references. Can gloss in Python.
+        - Not handling any unexpected file i/o exceptions.
+          - We're not going to have any filesystem errors:
+            - Can read all input files.
+            - Can create and write to output file.
+        - Blank lines. Let's assume none.
+        - Separators; let's use spaces, assume `update_time` is always followed by spaces.
+        - Let's assume no leading whitespace.
+
+      - To-do list:
+        - Create concrete test data.
+          - Will use `StringIO` instead of actual files.
+          - Will use 10 "files" instead of 500.
+          - Will use 3 lines per file.
+          - Must ensure well-ordered update times within files.
+          - Should ensure out-of-sync update times between files.
+        - Populating file array:
+          - Create a file array of length 500.
+          - Open each successive file, storing file reference in file array.
+        - Populating data heap:
+          - Create a data heap of `(update_time, file_number, file_line)`.
+          - Iterate through file array; each file:
+            - Read next line from file
+            - Parse line to extract `update_time`
+            - Create tuple `(update_time, file_number, file_line)`
+            - Push tuple to data heap.
+          - Convert data list to data heap.
+        - Iterate until data heap is empty:
+          - Pop min tuple (min based on `update_time` with tiebreaking via `file_number`) from data heap.
+          - Remember:
+            - `file_number`
+            - `file_line`
+          - Write `file_line` to outfile
+          - Read next line `file_line` from file `file_number`
+          - Parse line to extract `update_time`
+          - Create tuple `(update_time, file_number, file_line)`
+          - Push tuple to data heap.
+
+      - For exercise, I'm going to create dummy data arrays in the place of files.
+
+      - Coding:
+
+      ```{python }
+      import heapq, io
+
+      def merge_to_heap(in_files, fileno, heap):
+          # Read line from data file.
+          data_line = in_files[fileno].readline()
+          # If line is nonempty, parse and push to heap.
+          if data_line:
+              update_time = int(data_line.split()[0])
+              heapq.heappush(heap, (update_time, fileno, data_line))
+
+
+      def merge_sp500(in_files, out_file):
+          heap = []
+          # Initialization of data heap.
+          for fileno in range(len(in_files)):
+              merge_to_heap(in_files, fileno, heap)
+          # Iterate through data heap.
+          while heap:
+              (update_time, fileno, data_line) = heapq.heappop(heap)
+              out_file.write(data_line)
+              merge_to_heap(in_files, fileno, heap)
+      in_filedata = [
+          u"1232111 131 B 1000 270\n2212313 246 S 100  111.01\n2313123 456 B 120  123.21\n",
+          u"0 131 B 1000 270\n1 246 S 100  111.01\n1000000 456 B 120  123.21\n",
+          u"100 131 B 1000 270\n101 246 S 100  111.01\n102 456 B 120  123.21\n",
+          u"5 131 B 1000 270\n6 246 S 100  111.01\n100 456 B 120  123.21\n",
+      ]
+      in_files = [io.StringIO(buffer) for buffer in in_filedata]
+      out_file = io.StringIO()
+      merge_sp500(in_files, out_file)
+      print(out_file.getvalue())
+      ```
+
+      - **Mistakes:**
+        - `writeline` isn't a thing. Must go with `write`, appending a newline to each line.
+        - `readline()` preserves newlines.
 - id: 1536203069253
   fields:
     Front: |

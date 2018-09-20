@@ -18,6 +18,8 @@ defaults:
   markdownTabLength: 4
 notes:
 - id: 1536203009027
+  extraTags:
+  - Done-Python
   fields:
     Front: |
       ## 01.01: Computing square roots
@@ -33,16 +35,33 @@ notes:
           - Negative inputs; for now assume nonnegative.
           - Non-integer inputs; for now assume integer.
           - Inputs \\(\ge 2^{32}\\); for now assume \\(< 2^{32}\\).
+            - Consequence: maximum square root is \\(< 2^{16}\\).
       - Core:
           - Binary search of natural numbers returning largest integer whose square is \\(\le\\) input.
       - Solution code:
       ```{python }
-          def sqrt_floor(x):
+          # This is the authors' version. `begin` and `end` are chosen to ensure
+          # that the mean of `begin` and `end` is always integer-valued.
+          # reduces
+          def sqrt_floor_0(x):
+            begin = 0
+            end = 65536
+            while begin + 1 < end:
+              mid = (begin + end) // 2
+              mid_sq = mid**2
+              if x == mid_sq: return mid
+              elif x < mid_sq: end = mid
+              else: begin = mid
+            return begin
+
+          # This version will often converge faster, at the cost of increased
+          # complexity.
+          def sqrt_floor_1(x):
             lower = 0
             upper = x+1
             last_guess = -1
             while lower < upper:
-              mid = lower + (upper - lower)//2
+              mid = (lower + upper)//2
               mid_sq = mid**2
               if x == mid_sq:
                 return mid
@@ -54,12 +73,16 @@ notes:
                 last_guess = lower - 1
             return last_guess
 
+          sqrt_floor = sqrt_floor_1
+
           for x in range(10001):
             expected = int(x**0.5)
             actual = sqrt_floor(x)
             assert actual == expected
       ```
 - id: 1536203009119
+  extraTags:
+  - Done-Python
   fields:
     Front: |
       ## 01.02: Search a sorted array for \\(k\\)
@@ -67,6 +90,27 @@ notes:
       Write a method that takes a sorted array \\(A\\) of integers and a key \\(k\\) and returns the index of first occurrence of \\(k\\) in \\(A\\). Return \\(-1\\) if \\(k\\) does not appear in \\(A\\). Write tests to verify your code.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 16.
+    Python: |
+      ```{python }
+          def index_binary_search(data, search_value):
+              lower = 0
+              upper = len(data) - 1
+              while lower <= upper:
+                  # This commented-out version of next line prevents overflow.
+                  #middle = lower + (upper - lower)//2
+                  middle = (lower + upper)//2
+                  value = data[middle]
+                  if search_value < value: upper = middle - 1
+                  elif value < search_value: lower = middle + 1
+                  else: return middle
+              return -1
+
+          data = [-19, -18, -17, -11, -10, -9, -8, -7, -6, -5, -2, 0, 2, 4, 5, 7, 8, 13, 14, 15]
+          # Verify expected indices are found.
+          print([index_binary_search(data, v) for v in data] == list(range(20)))
+          # Verify an element not in list cannot be found.
+          print(-1 == index_binary_search(data, 1))
+      ```
 - id: 1536203009153
   fields:
     Front: |

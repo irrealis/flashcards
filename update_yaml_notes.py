@@ -94,7 +94,9 @@ def load_and_send_flashcards(filename):
       # Convert to note_dict
       note = yaml.load(yaml.serialize(note_node))
 
-      tags = sorted(note.get('tags', def_tags))
+      tags = note.get('tags', def_tags).copy()
+      tags.extend(note.get('extraTags', list()))
+      tags = sorted(tags)
       deckName = note.get('deckName', def_deckName)
       modelName = note.get('modelName', def_modelName)
 
@@ -127,7 +129,7 @@ def load_and_send_flashcards(filename):
           params = dict(notes = [note_id])
         )
         if result.get("error", None) or not result['result'][0]:
-          report_anki_error(result, "Can't get note with ID: %s.", note_id)
+          report_anki_error(result, "\nCan't find note with ID: %s.", note_id)
           log.info("The ID will be ignored, and a new note created.")
           must_replace_existing_note_id = True
         else:

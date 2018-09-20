@@ -12,10 +12,13 @@ defaults:
     Python: "**To-do: Python.**"
     Java: "**To-do: Java.**"
     C++: "**To-do: C++.**"
-  markdownTabLength: 4
+  markdownTabLength: 2
 notes:
 - id: 1536203068476
   modelName: BasicMathJax
+  extraTags:
+  - Done-Basic
+  - KnowledgeWeakness
   fields:
     Front: |
       ## 02.01 Good sorting algorithms
@@ -24,13 +27,38 @@ notes:
 
       - A small array of integers.
       - A large array whose entries are random numbers.
+      - A large collection of integers that is already almost sorted.
       - A large collection of integers that are drawn from a very small range.
       - A large collection of numbers most of which are duplicates.
       - Stability is required, i.e., the relative order of two records that have the same sorting key should not be changed.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 23-4.
     Back: |
-      **To-do: Noncode back.**
+      - A small array of integers:
+        - Most online sorting algorithms would work.
+        - For very small arrays the \\(O(n^2)\\) insertion sort may actually be faster than recursive \\(O(n \log n)\\) sorts, because the former doesn't incur the stack-setup/-teardown overhead of a recursive sort.
+        - I personally like merge sort for its simplicity and stability. It isn't in-place, but that shouldn't matter for small-array inputs.
+
+      - A large array whose entries are random numbers.
+        - If the size is very large, but in-memory, I'd go with an in-place sort. Since the input is random, a quicksort should perform well. This would be an \\(O(n \log n)\\) sort.
+        - If the the array is too large to fit into memory, I'd go with an offline sort. I'd split the array into \\(k\\) roughly equally-sized chunks that each fit into memory, and apply quicksort to each, saving the result to a temporary file; then I'd open \\(k\\) input streams, one for each file, and perform a \\(k\\)-way merge to a single output stream for the result. Technically the sort time would be dominated by \\(O(n \log n)\\), but I think only for extremely large \\(n\\) (and then only if \\(k\\) is so large that \\(k\\) streams cannot be open at once, so would require multiple merge iterations). Practically, the sort time would be likely be dominated by \\(O(n)\\) due to I/O latency, which is several orders of magnitude higher than in-memory operation latency.
+
+      - A large collection of integers that is already almost sorted.
+        - An insertion sort or heapsort may work well, if the array is sufficiently "almost sorted". Sort time should approach \\(O(n)\\).
+        - More generally, a quicksort with a random pivot should work well, as would a mergesort or heapsort. Run time would be \\(O(n \log n)\\).
+        - **Knowledge weakness:** the authors point out that if every element is known to be at most \\(k\\) places from its sorted location, then a min heap can be used for an \\(O(n \log_2 k)\\) sort. This didn't occur to me, revealing my lack of familiarity with heapsort nuances.
+
+      - A large collection of integers that are drawn from a very small range.
+        - If the range is bounded by \\(j\\) below and \\(k\\) above, then a bucket sort with \\(k-j+1\\) buckets would work well, and would run in \\(O(n)\\) time.
+        - For unbounded input, a bucket sort with a dynamic number of buckets should work well. These buckets could be stored in a BST.
+
+      - A large collection of numbers most of which are duplicates.
+        - If the count of distinct possible numbers is small enough, a bucket sort with dynamic number of buckets, stored in a BST, should work well.
+        - Otherwise, if the input is in-memory, quicksort (with a good partitioning method that doesn't devolve to \\(O(n^2)\\) on duplicate inputs) or heapsort. Merge sort too, if there's room in memory for an out-of-place sort.
+
+      - Stability is required, i.e., the relative order of two records that have the same sorting key should not be changed.
+        - A stable merge sort.
+        - Stability can also be achieved by adding to each record a tiebreaker key whose values enumerate the elements in original order, and using a tiebreaking comparator.
 - id: 1536203068504
   fields:
     Front: |
@@ -41,6 +69,8 @@ notes:
       Sort a file containing \\(10^{12}\\) 100-byte strings.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 24.
+    Front: |
+      Note that I have concrete version of this in problem _02.10 Merging Sorted Arrays_.
 - id: 1536203068551
   fields:
     Front: |

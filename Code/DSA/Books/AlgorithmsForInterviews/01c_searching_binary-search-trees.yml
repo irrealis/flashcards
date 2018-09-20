@@ -12,9 +12,11 @@ defaults:
     Python: "**To-do: Python.**"
     Java: "**To-do: Java.**"
     C++: "**To-do: C++.**"
-  markdownTabLength: 4
+  markdownTabLength: 2
 notes:
 - id: 1536205076401
+  extraTags:
+  - Done-Python
   fields:
     Front: |
       ## 01.16: Search BST for a key
@@ -24,7 +26,141 @@ notes:
       Given a BST \\(T\\), first write a recursive function that searches for key \\(K\\), then write an iterative function.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 20.
+    Python: |
+      Concrete test-case inputs and outputs:
+
+      ```{python }
+        inputs = {
+          2 : "2",
+          1 : "1",
+          7 : "7",
+          4 : "4",
+          8 : "8",
+          3 : "3",
+          6 : "6",
+          5 : "5",
+        }
+        expected_find_results = {
+          5 : "5",
+        }
+      ```
+
+      This should result in a tree that looks something like this:
+
+      ```
+                           2
+                     1           7
+                             4       8
+                           3   6
+                              5
+      ```
+
+      Possible approaches:
+
+      - Start at root node.
+      - At each node:
+        - Search key equal to stored key?
+          - Return stored value.
+          - Less than?
+            - Yes: is there a left child?
+              - Yes: recurse in left child.
+              - No: return None.
+          - Greater than?
+            - Yes: is there a right child?
+              - Yes: recurse in right child.
+              - No: return None.
+
+      To-do list:
+
+      - Recursive search function.
+        - One-to-one translation of above logic to code.
+        - Check logic, syntax, returns, arguments, calls
+      - Iterative search function.
+        - Version of above with while loop instead of recursion.
+        - Check logic, syntax, returns, arguments, calls
+
+      Solution:
+
+      ```{python }
+      from irrealis.datastructures import BST
+
+      # We assume that BST nodes have attributes "`k,v,l,r`", meaning "key",
+      # "value", "left child", and "right child".
+
+      def recursive_search(node, k):
+        if (node is None):
+          # If tree is empty, the the root node will be None, so key can't be
+          # found. Otherwise if node is empty during recursion, then key can't
+          # be found. So, convention: return value of None means key not found.
+          return None
+        elif (node.k == k):
+          # Key was found at this node, so return value.
+          return node.v
+        elif (k < node.k):
+          # If key is present, it's left of this node, so search left subtree.
+          return recursive_search(node.l, k)
+        elif (node.k < k):
+          # If key is present, it's right of this node, so search right subtree.
+          return recursive_search(node.r, k)
+        assert False # We should not be here.
+
+
+      def iterative_search(node, k):
+        while not (node is None):
+          if (node.k == k):
+            # Key was found at this node, so return value.
+            return node.v
+          elif (k < node.k):
+            # If key is present, it's left of this node, so search left subtree.
+            #return recursive_search(node.l, k)
+            node = node.l
+            continue
+          elif (node.k < k):
+            # If key is present, it's right of this node, so search right
+            # subtree. #return recursive_search(node.r, k)
+            node = node.r
+            continue
+          assert False # We should not be here.
+
+        # If tree is empty, the the root node will be None, so key can't be
+        # found. Otherwise if node is empty during iteration, then key can't be
+        # found. So, convention: return value of None means key not found.
+        return None
+
+
+      bst = BST()
+      bst[2] = "v.2"
+      bst[1] = "v.1"
+      bst[7] = "v.7"
+      bst[4] = "v.4"
+      bst[8] = "v.8"
+      bst[3] = "v.3"
+      bst[6] = "v.6"
+      bst[5] = "v.5"
+
+      assert bst[5] == "v.5"
+      assert bst[5] != "fubar"
+
+      assert (recursive_search(bst, 5) == "v.5")
+      assert (recursive_search(bst, 5) != "fubar")
+
+      assert (iterative_search(bst, 5) == "v.5")
+      assert (iterative_search(bst, 5) != "fubar")
+      ```
+
+      Mistakes made:
+
+      - Must use initial `elif` instead of `if`
+      - Must `continue` to next while-loop iteration
+
+      _Lessons:_
+
+      - Check first condition is `if`, not `elif`.
+      - When switching from recursion to iteration with `while` loop, recursions must be replaced with `continue` to next iteration.
+
 - id: 1536205076460
+  extraTags:
+  - Done-Python
   fields:
     Front: |
       ## 01.17: Search BST for \\(x > k\\)
@@ -34,6 +170,36 @@ notes:
       Given a BST \\(T\\) and a key \\(K\\), write a method that searches for the first entry larger than \\(K\\).
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 20.
+    Python: |
+      Solution:
+
+      ```{python }
+      from irrealis.datastructures import BST
+
+      # We assume that BST nodes have attributes "`k,v,l,r`", meaning "key",
+      # "value", "left child", and "right child".
+
+      # If k < root.k, then root is after, k, but might not be the first after.
+      # If root.k <= k, then root is *not* the first node after k. In that case,
+      # result should be None.
+      def first_after(bst, k):
+        result = root = None
+        root = bst
+        while root:
+          if k < root.k: result, root = root, root.l
+          else: root = root.r
+        return result
+
+
+      bst = BST()
+      bst[1] = "one"
+      bst[2] = "two"
+      bst[0] = "zero"
+      bst[1.5] = "... 1.5"
+      bst[1.2] = "... 1.2"
+      first_after(bst,2)
+      ```
+
 - id: 1536205076555
   fields:
     Front: |
