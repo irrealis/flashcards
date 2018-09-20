@@ -23,3 +23,16 @@ notes:
       \\[
         (a - b)(a^2 + ab + b^2)
       \\]
+- id: 1537480219950
+  modelName: BasicMathJaxAndReverse
+  fields:
+    Front: |
+      ## RoA Eqn 5: The following, factorized, is expressed as...
+      \\[
+        a^3 + b^3
+      \\]
+    Back: |
+      ## RoA Eqn 5: The following, expanded, is expressed as...
+      \\[
+        (a + b)(a^2 - ab + b^2)
+      \\]
