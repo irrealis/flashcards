@@ -4,6 +4,7 @@ defaults:
   tags:
   - Code
   - Algorithms
+  - Sorts
   - Brainstorms
   fields:
     Python: "**To-do: Python.**"
@@ -21,7 +22,6 @@ notes:
       Write selection sort.
     Python: |
       ```{python }
-      #
       def selection_sort(data):
         n = len(data)
         for i in range(n):
