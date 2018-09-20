@@ -81,3 +81,10 @@ notes:
       "False Negative", in the context of a binary classification test, is defined as...
     Back: |
       \\(TN=R^- \cap C^-\\), an incorrect, negative test result for a condition when the condition is present.
+
+- id: 0
+  fields:
+    Front: |
+      "Sensitivity", in the context of a binary classification test, is defined as...
+    Back: |
+      The (conditional) probability \\(p(R^+ | C^+)\\) of a correct, positive test result given that the condition is present is known as...
