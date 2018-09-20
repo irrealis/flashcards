@@ -36,3 +36,9 @@ notes:
       \\[
         (a + b)(a^2 - ab + b^2)
       \\]
+- id: 1537480220035
+  fields:
+    Front: |
+      ## RoA Thm 6: State the Factor Theorem.
+    Back: |
+      If \\(P\\) is a polynomial and \\(P(b)=0\\), then \\(x-b\\) is a factor of \\(P(x)\\).
