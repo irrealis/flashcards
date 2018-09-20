@@ -42,3 +42,14 @@ notes:
       ## RoA Thm 6: State the Factor Theorem.
     Back: |
       If \\(P\\) is a polynomial and \\(P(b)=0\\), then \\(x-b\\) is a factor of \\(P(x)\\).
+- id: 1537480586611
+  fields:
+    Front: |
+      ## RoA Thm 7.0: Rewrite the following general form by _completing the square:_
+      \\[
+        ax^2 + bx + c
+      \\]
+    Back: |
+      \\[
+        ax^2 + bx + c = a \left(x + \frac{b}{2a}\right)^2 + \left(c - \frac{b^2}{4a}\right)
+      \\]
