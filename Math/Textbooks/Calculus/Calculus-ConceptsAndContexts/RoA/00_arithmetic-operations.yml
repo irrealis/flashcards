@@ -116,3 +116,12 @@ notes:
       \\[
         x = \frac{-b \pm\sqrt{b^2 - 4ac}}{2a}
       \\]
+- id: 1537483373226
+  fields:
+    Front: |
+      ## RoA Thm 9: State the Binomial Theorem:
+    Back: |
+      If \\(n\\) is a positive integer, then
+      \\[
+        (a+b)^n = \sum_{k=0}^{n}\binom{n}{k}a^{n-k}b^k
+      \\]
