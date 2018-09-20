@@ -56,3 +56,10 @@ notes:
       "NTR (Negative Test Rate)" (my term), in the context of a binary classification test, is defined as...
     Back: |
       The probability \\(p(R^-)\\) of a negative test result is known as...
+
+- id: 0
+  fields:
+    Front: |
+      "True Positive", in the context of a binary classification test, is defined as...
+    Back: |
+      \\(TP=R^+ \cap C^+\\), a correct, positive test result for a condition when the condition is present.
