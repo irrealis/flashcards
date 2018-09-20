@@ -1,0 +1,12 @@
+defaults:
+  deckName: Staging
+  modelName: BasicMathJax
+  tags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Calculus-ConceptsAndContexts
+  - CCAC-ReviewOfAlgebra
+  - CCAC-RoA-ArithmeticOperations
+  markdownTabLength: 2
+notes:
