@@ -35,16 +35,33 @@ notes:
           - Negative inputs; for now assume nonnegative.
           - Non-integer inputs; for now assume integer.
           - Inputs \\(\ge 2^{32}\\); for now assume \\(< 2^{32}\\).
+            - Consequence: maximum square root is \\(< 2^{16}\\).
       - Core:
           - Binary search of natural numbers returning largest integer whose square is \\(\le\\) input.
       - Solution code:
       ```{python }
-          def sqrt_floor(x):
+          # This is the authors' version. `begin` and `end` are chosen to ensure
+          # that the mean of `begin` and `end` is always integer-valued.
+          # reduces
+          def sqrt_floor_0(x):
+            begin = 0
+            end = 65536
+            while begin + 1 < end:
+              mid = (begin + end) // 2
+              mid_sq = mid**2
+              if x == mid_sq: return mid
+              elif x < mid_sq: end = mid
+              else: begin = mid
+            return begin
+
+          # This version will often converge faster, at the cost of increased
+          # complexity.
+          def sqrt_floor_1(x):
             lower = 0
             upper = x+1
             last_guess = -1
             while lower < upper:
-              mid = lower + (upper - lower)//2
+              mid = (lower + upper)//2
               mid_sq = mid**2
               if x == mid_sq:
                 return mid
@@ -55,6 +72,8 @@ notes:
                 lower = mid+1
                 last_guess = lower - 1
             return last_guess
+
+          sqrt_floor = sqrt_floor_1
 
           for x in range(10001):
             expected = int(x**0.5)
@@ -77,7 +96,9 @@ notes:
               lower = 0
               upper = len(data) - 1
               while lower <= upper:
-                  middle = lower + (upper - lower)//2
+                  # This commented-out version of next line prevents overflow.
+                  #middle = lower + (upper - lower)//2
+                  middle = (lower + upper)//2
                   value = data[middle]
                   if search_value < value: upper = middle - 1
                   elif value < search_value: lower = middle + 1
