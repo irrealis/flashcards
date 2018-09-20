@@ -69,6 +69,8 @@ notes:
       Sort a file containing \\(10^{12}\\) 100-byte strings.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 24.
+    Front: |
+      Note that I have concrete version of this in problem _02.10 Merging Sorted Arrays_.
 - id: 1536203068551
   fields:
     Front: |
