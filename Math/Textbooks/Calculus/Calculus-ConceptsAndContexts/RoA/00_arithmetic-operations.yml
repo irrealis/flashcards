@@ -53,3 +53,20 @@ notes:
       \\[
         ax^2 + bx + c = a \left(x + \frac{b}{2a}\right)^2 + \left(c - \frac{b^2}{4a}\right)
       \\]
+- id: 1537481114876
+  fields:
+    Front: |
+      ## RoA Thm 7.1: Prove the following formula for _completing the square:_
+      \\[
+        ax^2 + bx + c = a \left(x + \frac{b}{2a}\right)^2 + \left(c - \frac{b^2}{4a}\right)
+      \\]
+    Back: |
+      \\[
+      \begin{align}
+        ax^2 + bx + c
+        &= a \left(x^2 + \frac{b}{a}x \right) + c \\\\
+        &= a \left[x^2 + \frac{b}{a}x + \left(\frac{b}{2a}\right)^2 - \left(\frac{b}{2a}\right)^2 \right] + c \\\\
+        &= a \left[x^2 + \frac{b}{a}x + \left(\frac{b}{2a}\right)^2 \right] + \left(c - \frac{b^2}{4a}\right)  \\\\
+        &= a \left(x + \frac{b}{2a} \right)^2 + \left(c - \frac{b^2}{4a}\right) \\\\
+      \end{align}
+      \\]
