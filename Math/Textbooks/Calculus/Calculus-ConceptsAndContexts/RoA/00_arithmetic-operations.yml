@@ -70,3 +70,12 @@ notes:
         &= a \left(x + \frac{b}{2a} \right)^2 + \left(c - \frac{b^2}{4a}\right) \\\\
       \end{align}
       \\]
+- id: 1537481878037
+  fields:
+    Front: |
+      ## RoA Thm 7.2: State the Quadratic Formula.
+    Back: |
+      The roots of the quadratic equation \\(ax^2 + bx + c\\) are
+      \\[
+        x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+      \\]
