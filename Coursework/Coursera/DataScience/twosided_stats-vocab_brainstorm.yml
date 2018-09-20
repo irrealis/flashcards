@@ -6,7 +6,10 @@ defaults:
   - Coursera
   - DataScience
   - StatsVocab
+  - Deferred
   markdownTabLength: 2
+comments:
+  - I decided to hold off on studying these flashcards until I've done coursework on later courses in the Johns Hopkins Data Science track on Coursera. The reason is that I drew the ideas for these flashcards from brief overviews in early courses in the track, and I made up names for various events and conditional probabilities that I hadn't seen described anywhere. I'd like to see whether these events and probabilities have formal names described in later courses.
 notes:
 - id: 1536273878515
   fields:
