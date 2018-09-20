@@ -69,3 +69,9 @@ notes:
       "True Negative", in the context of a binary classification test, is defined as...
     Back: |
       \\(TN=R^- \cap C^-\\), a correct, negative test result for a condition when the condition is absent.
+- id: 0
+  fields:
+    Front: |
+      "False Positive", in the context of a binary classification test, is defined as...
+    Back: |
+      \\(TP=R^+ \cap C^-\\), an incorrect, positive test result for a condition when the condition is absent.
