@@ -28,19 +28,19 @@ notes:
     Front: |
       List the binary classification probabilities in the condition sample spaces.
     Back: |
-      - Type-I Error Rate \\(= \alpha = FPR = p(R^+|C^-)\\)
-      - Type-II Error Rate \\(= \beta = FNR = p(R^-|C^+)\\)
       - Sensitivity \\(= TPR = p(R^+|C^+)\\)
       - Specificity \\(= TNR = p(R^-|C^-)\\)
+      - Type-I Error Rate \\(= \alpha = FPR = p(R^+|C^-)\\)
+      - Type-II Error Rate \\(= \beta = FNR = p(R^-|C^+)\\)
 - id: 1536273877801
   fields:
     Front: |
       List the binary classification probabilities in the test sample spaces.
     Back: |
-      - \\(FDR = p(C^-|R^+)\\)
-      - \\(FOR = p(C^+|R^-)\\)
       - Precision \\(= PPV = p(C^+|R^+)\\)
       - \\(NPV = p(C^-|R^-)\\)
+      - \\(FDR = p(C^-|R^+)\\)
+      - \\(FOR = p(C^+|R^-)\\)
 - id: 1536273877865
   fields:
     Front: |
