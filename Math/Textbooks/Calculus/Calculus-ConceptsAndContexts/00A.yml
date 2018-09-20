@@ -2,7 +2,7 @@ defaults:
   deckName: Staging
   modelName: BasicMathJax
   tags:
-  - TextBooks
+  - Textbooks
   - Math
   - Calculus
   - Calculus-ConceptsAndContexts
