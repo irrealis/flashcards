@@ -159,6 +159,8 @@ notes:
       - When switching from recursion to iteration with `while` loop, recursions must be replaced with `continue` to next iteration.
 
 - id: 1536205076460
+  extraTags:
+  - Done-Python
   fields:
     Front: |
       ## 01.17: Search BST for \\(x > k\\)
@@ -168,6 +170,36 @@ notes:
       Given a BST \\(T\\) and a key \\(K\\), write a method that searches for the first entry larger than \\(K\\).
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 20.
+    Python: |
+      Solution:
+
+      ```{python }
+      from irrealis.datastructures import BST
+
+      # We assume that BST nodes have attributes "`k,v,l,r`", meaning "key",
+      # "value", "left child", and "right child".
+
+      # If k < root.k, then root is after, k, but might not be the first after.
+      # If root.k <= k, then root is *not* the first node after k. In that case,
+      # result should be None.
+      def first_after(bst, k):
+        result = root = None
+        root = bst
+        while root:
+          if k < root.k: result, root = root, root.l
+          else: root = root.r
+        return result
+
+
+      bst = BST()
+      bst[1] = "one"
+      bst[2] = "two"
+      bst[0] = "zero"
+      bst[1.5] = "... 1.5"
+      bst[1.2] = "... 1.2"
+      first_after(bst,2)
+      ```
+
 - id: 1536205076555
   fields:
     Front: |
