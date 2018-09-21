@@ -174,3 +174,10 @@ notes:
       \\[
         4(x^2 - x + 2) - 5(x^2 - 2x + 1)
       \\]
+- id: 1537488022329
+  fields:
+    Front: |
+      ## RoA problem 008: Expand and simplify:
+      \\[
+        5(3t - 4) - (t^2 + 2) - 2t(t - 3)
+      \\]
