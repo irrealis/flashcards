@@ -422,6 +422,10 @@ notes:
           1 - \frac{1}{c-1}
         }
       \\]
+    Back: |
+      \\[
+        \frac{c}{c - 2}
+      \\]
 - id: 1537488023329
   fields:
     Front: |
