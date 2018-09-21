@@ -666,6 +666,10 @@ notes:
       \\[
         \frac{x^2 + x - 2}{x^2 - 3x + 2}
       \\]
+    Back: |
+      \\[
+        \frac{x + 2}{x - 2}
+      \\]
 - id: 1537488024502
   fields:
     Front: |
