@@ -815,3 +815,10 @@ notes:
       \\[
         (\sqrt[4]{a})^3
       \\]
+- id: 1537488178351
+  fields:
+    Front: |
+      ## RoA problem 097: Use the Laws of Exponents to rewrite and simplify the expression:
+      \\[
+        \frac{1}{(\sqrt{t})^5}
+      \\]
