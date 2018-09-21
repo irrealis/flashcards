@@ -829,3 +829,14 @@ notes:
       \\[
         \frac{\sqrt[8]{x^5}}{\sqrt[4]{x^3}}
       \\]
+- id: 1537488178451
+  fields:
+    Front: |
+      ## RoA problem 099: Use the Laws of Exponents to rewrite and simplify the expression:
+      \\[
+        \sqrt[4]{\frac{
+          t^{1/2}\sqrt{st}
+        }{
+          s^{2/3}
+        }}
+      \\]
