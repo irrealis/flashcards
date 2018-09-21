@@ -1088,6 +1088,10 @@ notes:
       \\[
         \frac{a^{-3}b^4}{a^{-5}b^5}
       \\]
+    Back: |
+      \\[
+        \frac{a^2}{b}
+      \\]
 - id: 1537488177901
   fields:
     Front: |
