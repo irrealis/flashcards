@@ -439,3 +439,10 @@ notes:
       \\[
         x^3 - 4x^2 + 5x - 2
       \\]
+- id: 1537488024229
+  fields:
+    Front: |
+      ## RoA problem 045: Factor the expression:
+      \\[
+        x^3 + 3x^2 - x - 3
+      \\]
