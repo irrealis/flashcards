@@ -195,3 +195,10 @@ notes:
       \\[
         x(x - 1)(x + 2)
       \\]
+- id: 1537488022479
+  fields:
+    Front: |
+      ## RoA problem 011: Expand and simplify:
+      \\[
+        (2x - 1)^2
+      \\]
