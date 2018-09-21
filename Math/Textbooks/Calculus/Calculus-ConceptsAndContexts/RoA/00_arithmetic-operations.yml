@@ -341,6 +341,10 @@ notes:
       \\[
         \frac{1}{x+1} + \frac{1}{x-1}
       \\]
+    Back: |
+      \\[
+        \frac{2x}{x^2 - 1}
+      \\]
 - id: 1537488022979
   fields:
     Front: |
