@@ -886,3 +886,10 @@ notes:
       \\[
         \frac{2}{3 - \sqrt{5}}
       \\]
+- id: 1537488178827
+  fields:
+    Front: |
+      ## RoA problem 106: Rationalize the expression:
+      \\[
+        \frac{1}{\sqrt{x} - \sqrt{y}}
+      \\]
