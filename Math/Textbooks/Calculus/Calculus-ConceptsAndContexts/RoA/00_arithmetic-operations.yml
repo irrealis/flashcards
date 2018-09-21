@@ -759,3 +759,10 @@ notes:
       \\[
         \frac{x^{-1} + y^{-1}}{(x + y)^{-1}}
       \\]
+- id: 1537488177951
+  fields:
+    Front: |
+      ## RoA problem 089: Use the Laws of Exponents to rewrite and simplify the expression:
+      \\[
+        3^{-1/2}
+      \\]
