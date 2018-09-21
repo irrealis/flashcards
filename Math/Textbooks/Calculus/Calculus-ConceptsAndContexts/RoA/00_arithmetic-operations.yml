@@ -808,3 +808,10 @@ notes:
       \\[
         \sqrt[5]{y^6}
       \\]
+- id: 1537488178301
+  fields:
+    Front: |
+      ## RoA problem 096: Use the Laws of Exponents to rewrite and simplify the expression:
+      \\[
+        (\sqrt[4]{a})^3
+      \\]
