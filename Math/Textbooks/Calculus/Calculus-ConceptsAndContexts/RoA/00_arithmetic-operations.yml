@@ -14,12 +14,12 @@ notes:
   modelName: BasicMathJaxAndReverse
   fields:
     Front: |
-      ## RoA Eqn 4: The following, factorized, is expressed as...
+      ## RoA mtl 4: The following, factorized, is expressed as...
       \\[
         a^3 - b^3
       \\]
     Back: |
-      ## RoA Eqn 4: The following, expanded, is expressed as...
+      ## RoA 004: The following, expanded, is expressed as...
       \\[
         (a - b)(a^2 + ab + b^2)
       \\]
@@ -27,25 +27,25 @@ notes:
   modelName: BasicMathJaxAndReverse
   fields:
     Front: |
-      ## RoA Eqn 5: The following, factorized, is expressed as...
+      ## RoA mtl 5: The following, factorized, is expressed as...
       \\[
         a^3 + b^3
       \\]
     Back: |
-      ## RoA Eqn 5: The following, expanded, is expressed as...
+      ## RoA mtl 5: The following, expanded, is expressed as...
       \\[
         (a + b)(a^2 - ab + b^2)
       \\]
 - id: 1537480220035
   fields:
     Front: |
-      ## RoA Thm 6: State the Factor Theorem.
+      ## RoA mtl 6: State the Factor Theorem.
     Back: |
       If \\(P\\) is a polynomial and \\(P(b)=0\\), then \\(x-b\\) is a factor of \\(P(x)\\).
 - id: 1537480586611
   fields:
     Front: |
-      ## RoA Thm 7.0: Rewrite the following general form by _completing the square:_
+      ## RoA mtl 7.0: Rewrite the following general form by _completing the square:_
       \\[
         ax^2 + bx + c
       \\]
@@ -56,7 +56,7 @@ notes:
 - id: 1537481114876
   fields:
     Front: |
-      ## RoA Thm 7.1: Prove the following formula for _completing the square:_
+      ## RoA mtl 7.1: Prove the following formula for _completing the square:_
       \\[
         ax^2 + bx + c = a \left(x + \frac{b}{2a}\right)^2 + \left(c - \frac{b^2}{4a}\right)
       \\]
@@ -73,7 +73,7 @@ notes:
 - id: 1537481878037
   fields:
     Front: |
-      ## RoA Thm 7.2: State the Quadratic Formula.
+      ## RoA mtl 7.2: State the Quadratic Formula.
     Back: |
       The roots of the quadratic equation \\(ax^2 + bx + c\\) are
       \\[
@@ -82,7 +82,7 @@ notes:
 - id: 1537482001842
   fields:
     Front: |
-      ## RoA Thm 7.3: Prove the Quadratic Formula.
+      ## RoA mtl 7.3: Prove the Quadratic Formula.
     Back: |
       By the Factor Theorem, the roots the general quadratic expression \\(ax^2 + bx + c\\) are the values of \\(x\\) for which \\(ax^2 + bx + c = 0\\), so we must solve this equation for \\(x\\). We start by rewriting this equation by completing the square:
       \\[
@@ -119,7 +119,7 @@ notes:
 - id: 1537483373226
   fields:
     Front: |
-      ## RoA Thm 9: State the Binomial Theorem:
+      ## RoA mtl 9: State the Binomial Theorem:
     Back: |
       If \\(n\\) is a positive integer, then
       \\[
