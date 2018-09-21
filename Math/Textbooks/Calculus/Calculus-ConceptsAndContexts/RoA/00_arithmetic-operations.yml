@@ -327,3 +327,10 @@ notes:
           1 + \frac{1}{1 + x}
         }
       \\]
+- id: 1537488023379
+  fields:
+    Front: |
+      ## RoA problem 029: Factor the expression:
+      \\[
+        2x + 12x^3
+      \\]
