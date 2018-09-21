@@ -614,3 +614,10 @@ notes:
       \\[
         2x^2 + 3x + 4
       \\]
+- id: 1537488025562
+  fields:
+    Front: |
+      ## RoA problem 070: Is the following quadratic irreducible?
+      \\[
+        2x^2 + 9x + 4
+      \\]
