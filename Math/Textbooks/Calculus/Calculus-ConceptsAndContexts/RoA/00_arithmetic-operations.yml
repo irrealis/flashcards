@@ -731,3 +731,10 @@ notes:
       \\[
         2^{16} \times 4^{10} \times 16^6
       \\]
+- id: 1537488177751
+  fields:
+    Front: |
+      ## RoA problem 085: Use the Laws of Exponents to rewrite and simplify the expression:
+      \\[
+        \frac{x^9(2x)^4}{x^3}
+      \\]
