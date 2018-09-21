@@ -265,3 +265,10 @@ notes:
       \\[
         \frac{1}{x+1} + \frac{1}{x-1}
       \\]
+- id: 1537488022979
+  fields:
+    Front: |
+      ## RoA problem 021: Perform the indicated operations, and simplfy:
+      \\[
+        u + 1 + \frac{u}{u+1}
+      \\]
