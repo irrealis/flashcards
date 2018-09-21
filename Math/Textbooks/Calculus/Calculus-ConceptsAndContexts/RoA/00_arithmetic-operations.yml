@@ -706,3 +706,14 @@ notes:
       \\[
         \sqrt{16a^4b^3}
       \\]
+- id: 1537488177601
+  fields:
+    Front: |
+      ## RoA problem 082: Simplify the radicals:
+      \\[
+        \frac{
+          \sqrt[5]{96a^6}
+        }{
+          \sqrt[5]{3a}
+        }
+      \\]
