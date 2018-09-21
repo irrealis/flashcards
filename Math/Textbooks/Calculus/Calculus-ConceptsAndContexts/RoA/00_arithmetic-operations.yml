@@ -710,6 +710,10 @@ notes:
       \\[
         \frac{1}{x + 3} + \frac{1}{x^2 - 9}
       \\]
+    Back: |
+      \\[
+        \frac{x - 2}{x^2 - 9}
+      \\]
 - id: 1537488024729
   fields:
     Front: |
