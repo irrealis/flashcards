@@ -160,3 +160,10 @@ notes:
       \\[
         -2(4 - 3a)
       \\]
+- id: 1537488022229
+  fields:
+    Front: |
+      ## RoA problem 006: Expand and simplify:
+      \\[
+        8 - (4 + x)
+      \\]
