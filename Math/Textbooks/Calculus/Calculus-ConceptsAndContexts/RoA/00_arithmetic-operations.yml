@@ -607,3 +607,10 @@ notes:
       \\[
         x^3 + 3x^2 + x - 1 = 0
       \\]
+- id: 1537488025512
+  fields:
+    Front: |
+      ## RoA problem 069: Is the following quadratic irreducible?
+      \\[
+        2x^2 + 3x + 4
+      \\]
