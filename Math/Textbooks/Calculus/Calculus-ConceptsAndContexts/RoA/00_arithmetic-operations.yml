@@ -188,3 +188,10 @@ notes:
       \\[
         (4x - 1)(3x + 7)
       \\]
+- id: 1537488022429
+  fields:
+    Front: |
+      ## RoA problem 010: Expand and simplify:
+      \\[
+        x(x - 1)(x + 2)
+      \\]
