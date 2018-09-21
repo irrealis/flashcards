@@ -942,3 +942,10 @@ notes:
       \\[
         \frac{x}{x + y} = \frac{1}{1 + y}
       \\]
+- id: 1537488179234
+  fields:
+    Front: |
+      ## RoA problem 114: State whether or not the following equation is true for all values of the variable:
+      \\[
+        \frac{2}{4 + x} = \frac{1}{2} + \frac{2}{x}
+      \\]
