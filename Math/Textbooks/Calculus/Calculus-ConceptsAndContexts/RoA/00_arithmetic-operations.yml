@@ -949,3 +949,10 @@ notes:
       \\[
         \frac{2}{4 + x} = \frac{1}{2} + \frac{2}{x}
       \\]
+- id: 1537488179284
+  fields:
+    Front: |
+      ## RoA problem 115: State whether or not the following equation is true for all values of the variable:
+      \\[
+        (x^3)^4 = x^7
+      \\]
