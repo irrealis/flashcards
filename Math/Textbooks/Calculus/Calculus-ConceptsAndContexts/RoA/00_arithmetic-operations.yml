@@ -1209,6 +1209,10 @@ notes:
       \\[
         \frac{\sqrt[8]{x^5}}{\sqrt[4]{x^3}}
       \\]
+    Back: |
+      \\[
+        \frac{1}{x^{1/8}}
+      \\]
 - id: 1537488178451
   fields:
     Front: |
