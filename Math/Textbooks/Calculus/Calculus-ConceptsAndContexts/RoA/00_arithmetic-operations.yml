@@ -139,3 +139,10 @@ notes:
       \\[
         -(2x^2y)(-xy^4)
       \\]
+- id: 1537488022062
+  fields:
+    Front: |
+      ## RoA problem 003: Expand and simplify:
+      \\[
+        2x(x-5)
+      \\]
