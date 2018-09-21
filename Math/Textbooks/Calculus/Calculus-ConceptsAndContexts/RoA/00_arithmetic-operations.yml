@@ -868,3 +868,14 @@ notes:
       \\[
         \frac{x\sqrt{x} - 8}{x - 4}
       \\]
+- id: 1537488178701
+  fields:
+    Front: |
+      ## RoA problem 104: Rationalize the expression:
+      \\[
+        \frac{
+          \sqrt{2 + h} + \sqrt{2 - h}
+        }{
+          h
+        }
+      \\]
