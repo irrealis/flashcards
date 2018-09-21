@@ -688,6 +688,10 @@ notes:
       \\[
         \frac{x^2 - 1}{x^2 - 9x + 8}
       \\]
+    Back: |
+      \\[
+        \frac{x + 1}{x - 8}
+      \\]
 - id: 1537488024629
   fields:
     Front: |
