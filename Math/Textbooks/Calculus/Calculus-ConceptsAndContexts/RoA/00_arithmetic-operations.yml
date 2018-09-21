@@ -847,3 +847,10 @@ notes:
       \\[
         \sqrt[4]{r^{2n+1}} \times \sqrt[4]{r^{-1}}
       \\]
+- id: 1537488178551
+  fields:
+    Front: |
+      ## RoA problem 101: Rationalize the expression:
+      \\[
+        \frac{\sqrt{x} - 3}{x - 9}
+      \\]
