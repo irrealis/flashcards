@@ -230,3 +230,10 @@ notes:
       \\[
         (1 + 2x)(x^2 - 3x + 1)
       \\]
+- id: 1537488022729
+  fields:
+    Front: |
+      ## RoA problem 016: Expand and simplify:
+      \\[
+        (1 + x - x^2)^2
+      \\]
