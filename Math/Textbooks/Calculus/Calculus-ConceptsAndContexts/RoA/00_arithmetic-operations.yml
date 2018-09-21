@@ -928,3 +928,10 @@ notes:
       \\[
         \frac{16 + a}{16} = 1 + \frac{a}{16}
       \\]
+- id: 1537488179134
+  fields:
+    Front: |
+      ## RoA problem 112: State whether or not the following equation is true for all values of the variable:
+      \\[
+        \frac{1}{x^{-1} + y^{-1}} = x + y
+      \\]
