@@ -1316,6 +1316,10 @@ notes:
       \\[
         \sqrt{x^2 + 3x + 4} - x
       \\]
+    Back: |
+      \\[
+        \frac{3x + 4}{\sqrt{x^2 + 3x + 4} + x}
+      \\]
 - id: 1537488178934
   fields:
     Front: |
