@@ -1283,6 +1283,10 @@ notes:
           h
         }
       \\]
+    Back: |
+      \\[
+        \frac{2}{\sqrt{2 + h} - \sqrt{2 - h}}
+      \\]
 - id: 1537488178767
   fields:
     Front: |
