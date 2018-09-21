@@ -202,3 +202,10 @@ notes:
       \\[
         (2x - 1)^2
       \\]
+- id: 1537488022529
+  fields:
+    Front: |
+      ## RoA problem 012: Expand and simplify:
+      \\[
+        (2 + 3x)^2
+      \\]
