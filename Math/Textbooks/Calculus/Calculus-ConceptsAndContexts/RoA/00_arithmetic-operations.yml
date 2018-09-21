@@ -663,3 +663,10 @@ notes:
       \\[
         (3 + x^2)^5
       \\]
+- id: 1537488025930
+  fields:
+    Front: |
+      ## RoA problem 077: Simplify the radicals:
+      \\[
+        \sqrt{32}\sqrt{2}
+      \\]
