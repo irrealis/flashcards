@@ -861,3 +861,10 @@ notes:
       \\[
         \frac{(1/\sqrt{x}) - 1}{x - 1}
       \\]
+- id: 1537488178651
+  fields:
+    Front: |
+      ## RoA problem 103: Rationalize the expression:
+      \\[
+        \frac{x\sqrt{x} - 8}{x - 4}
+      \\]
