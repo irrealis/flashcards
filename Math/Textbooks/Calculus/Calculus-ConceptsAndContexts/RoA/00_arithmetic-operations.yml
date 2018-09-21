@@ -593,3 +593,10 @@ notes:
       \\[
         2x^2 + 7x + 2 = 0
       \\]
+- id: 1537488025412
+  fields:
+    Front: |
+      ## RoA problem 067: Solve the equation:
+      \\[
+        x^3 - 2x + 1 = 0
+      \\]
