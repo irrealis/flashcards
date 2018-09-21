@@ -692,3 +692,10 @@ notes:
           \sqrt[4]{2}
         }
       \\]
+- id: 1537488177501
+  fields:
+    Front: |
+      ## RoA problem 080: Simplify the radicals:
+      \\[
+        \sqrt{xy}\sqrt{x^3y}
+      \\]
