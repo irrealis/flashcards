@@ -407,6 +407,10 @@ notes:
       \\[
         \frac{a}{bc} \div \frac{b}{ac}
       \\]
+    Back: |
+      \\[
+        \frac{a^2}{b^2}
+      \\]
 - id: 1537488023279
   fields:
     Front: |
