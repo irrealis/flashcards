@@ -794,3 +794,10 @@ notes:
       \\[
         (2x^2y^4)^{3/2}
       \\]
+- id: 1537488178201
+  fields:
+    Front: |
+      ## RoA problem 094: Use the Laws of Exponents to rewrite and simplify the expression:
+      \\[
+        (x^{-5}y^3z^{10})^{-3/5}
+      \\]
