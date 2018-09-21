@@ -1007,6 +1007,10 @@ notes:
       \\[
         \sqrt{xy}\sqrt{x^3y}
       \\]
+    Back: |
+      \\[
+        x^2|y|
+      \\]
 - id: 1537488177551
   fields:
     Front: |
