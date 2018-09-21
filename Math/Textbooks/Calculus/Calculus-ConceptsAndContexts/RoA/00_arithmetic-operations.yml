@@ -699,3 +699,10 @@ notes:
       \\[
         \sqrt{xy}\sqrt{x^3y}
       \\]
+- id: 1537488177551
+  fields:
+    Front: |
+      ## RoA problem 081: Simplify the radicals:
+      \\[
+        \sqrt{16a^4b^3}
+      \\]
