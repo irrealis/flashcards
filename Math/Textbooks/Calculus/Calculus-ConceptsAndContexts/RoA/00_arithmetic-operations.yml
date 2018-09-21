@@ -509,3 +509,10 @@ notes:
       \\[
         \frac{x}{x^2 + x - 2} - \frac{2}{x^2 - 5x + 4}
       \\]
+- id: 1537488024779
+  fields:
+    Front: |
+      ## RoA problem 055: Complete the square:
+      \\[
+        x^2 + 2x + 5
+      \\]
