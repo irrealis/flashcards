@@ -132,3 +132,10 @@ notes:
       \\[
         (-6ab)(0.5ac)
       \\]
+- id: 1537488022013
+  fields:
+    Front: |
+      ## RoA problem 002: Expand and simplify:
+      \\[
+        -(2x^2y)(-xy^4)
+      \\]
