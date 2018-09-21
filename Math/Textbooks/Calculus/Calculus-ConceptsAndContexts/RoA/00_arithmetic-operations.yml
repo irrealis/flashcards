@@ -840,3 +840,10 @@ notes:
           s^{2/3}
         }}
       \\]
+- id: 1537488178501
+  fields:
+    Front: |
+      ## RoA problem 100: Use the Laws of Exponents to rewrite and simplify the expression:
+      \\[
+        \sqrt[4]{r^{2n+1}} \times \sqrt[4]{r^{-1}}
+      \\]
