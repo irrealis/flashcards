@@ -717,3 +717,10 @@ notes:
           \sqrt[5]{3a}
         }
       \\]
+- id: 1537488177651
+  fields:
+    Front: |
+      ## RoA problem 083: Use the Laws of Exponents to rewrite and simplify the expression:
+      \\[
+        3^{10} \times 9^8
+      \\]
