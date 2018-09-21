@@ -167,3 +167,10 @@ notes:
       \\[
         8 - (4 + x)
       \\]
+- id: 1537488022279
+  fields:
+    Front: |
+      ## RoA problem 007: Expand and simplify:
+      \\[
+        4(x^2 - x + 2) - 5(x^2 - 2x + 1)
+      \\]
