@@ -286,3 +286,10 @@ notes:
       \\[
         \frac{x/y}{z}
       \\]
+- id: 1537488023129
+  fields:
+    Front: |
+      ## RoA problem 024: Perform the indicated operations, and simplfy:
+      \\[
+        \frac{x}{y/z}
+      \\]
