@@ -376,3 +376,10 @@ notes:
       \\[
         9x^2 - 36
       \\]
+- id: 1537488023780
+  fields:
+    Front: |
+      ## RoA problem 036: Factor the expression:
+      \\[
+        8x^2 + 10x + 3
+      \\]
