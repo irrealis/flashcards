@@ -418,3 +418,10 @@ notes:
       \\[
         4t^2 - 12t + 9
       \\]
+- id: 1537488024079
+  fields:
+    Front: |
+      ## RoA problem 042: Factor the expression:
+      \\[
+        x^3 - 27
+      \\]
