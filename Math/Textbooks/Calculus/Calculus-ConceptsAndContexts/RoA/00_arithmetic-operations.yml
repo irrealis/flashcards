@@ -341,3 +341,10 @@ notes:
       \\[
         5ab - 8abc
       \\]
+- id: 1537488023479
+  fields:
+    Front: |
+      ## RoA problem 031: Factor the expression:
+      \\[
+        x^2 + 7x + 6
+      \\]
