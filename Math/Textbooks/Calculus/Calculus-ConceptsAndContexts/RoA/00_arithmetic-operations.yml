@@ -397,3 +397,10 @@ notes:
       \\[
         x^2 + 10x + 25
       \\]
+- id: 1537488023929
+  fields:
+    Front: |
+      ## RoA problem 039: Factor the expression:
+      \\[
+        t^3 + 1
+      \\]
