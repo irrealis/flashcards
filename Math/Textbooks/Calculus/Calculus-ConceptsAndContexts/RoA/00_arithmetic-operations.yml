@@ -318,3 +318,12 @@ notes:
           1 - \frac{1}{c-1}
         }
       \\]
+- id: 1537488023329
+  fields:
+    Front: |
+      ## RoA problem 028: Perform the indicated operations, and simplfy:
+      \\[
+        1 + \frac{1}{
+          1 + \frac{1}{1 + x}
+        }
+      \\]
