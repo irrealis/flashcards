@@ -411,3 +411,10 @@ notes:
       \\[
         4t^2 - 9s^2
       \\]
+- id: 1537488024030
+  fields:
+    Front: |
+      ## RoA problem 041: Factor the expression:
+      \\[
+        4t^2 - 12t + 9
+      \\]
