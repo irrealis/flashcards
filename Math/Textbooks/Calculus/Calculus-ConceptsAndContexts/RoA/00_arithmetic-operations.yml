@@ -670,3 +670,14 @@ notes:
       \\[
         \sqrt{32}\sqrt{2}
       \\]
+- id: 1537488025979
+  fields:
+    Front: |
+      ## RoA problem 078: Simplify the radicals:
+      \\[
+        \frac{
+          \sqrt[3]{-2}
+        }{
+          \sqrt[3]{54}
+        }
+      \\]
