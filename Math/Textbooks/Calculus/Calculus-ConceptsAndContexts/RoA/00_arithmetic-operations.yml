@@ -745,3 +745,10 @@ notes:
       \\[
         \frac{a^n \times a^{2n+1}}{a^{n-2}}
       \\]
+- id: 1537488177851
+  fields:
+    Front: |
+      ## RoA problem 087: Use the Laws of Exponents to rewrite and simplify the expression:
+      \\[
+        \frac{a^{-3}b^4}{a^{-5}b^5}
+      \\]
