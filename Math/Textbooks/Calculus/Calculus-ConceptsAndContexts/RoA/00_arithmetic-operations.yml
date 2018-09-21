@@ -446,3 +446,10 @@ notes:
       \\[
         x^3 + 3x^2 - x - 3
       \\]
+- id: 1537488024279
+  fields:
+    Front: |
+      ## RoA problem 046: Factor the expression:
+      \\[
+        x^3 - 2x^2 - 23x + 60
+      \\]
