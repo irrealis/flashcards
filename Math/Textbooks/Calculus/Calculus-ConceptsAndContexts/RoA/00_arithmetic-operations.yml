@@ -237,3 +237,10 @@ notes:
       \\[
         (1 + x - x^2)^2
       \\]
+- id: 1537488022779
+  fields:
+    Front: |
+      ## RoA problem 017: Perform the indicated operations, and simplfy:
+      \\[
+        \frac{2 + 8x}{2}
+      \\]
