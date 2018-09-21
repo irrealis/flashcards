@@ -369,3 +369,10 @@ notes:
       \\[
         2x^2 + 7x - 4
       \\]
+- id: 1537488023679
+  fields:
+    Front: |
+      ## RoA problem 035: Factor the expression:
+      \\[
+        9x^2 - 36
+      \\]
