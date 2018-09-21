@@ -432,3 +432,10 @@ notes:
       \\[
         x^3 + 2x^2 + x
       \\]
+- id: 1537488024181
+  fields:
+    Front: |
+      ## RoA problem 044: Factor the expression:
+      \\[
+        x^3 - 4x^2 + 5x - 2
+      \\]
