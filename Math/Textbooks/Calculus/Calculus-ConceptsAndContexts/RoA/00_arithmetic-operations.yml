@@ -279,3 +279,10 @@ notes:
       \\[
         \frac{2}{a^2} - \frac{3}{ab} + \frac{4}{b^2}
       \\]
+- id: 1537488023079
+  fields:
+    Front: |
+      ## RoA problem 023: Perform the indicated operations, and simplfy:
+      \\[
+        \frac{x/y}{z}
+      \\]
