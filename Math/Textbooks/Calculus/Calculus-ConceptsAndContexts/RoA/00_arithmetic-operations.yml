@@ -1257,6 +1257,10 @@ notes:
       \\[
         \frac{(1/\sqrt{x}) - 1}{x - 1}
       \\]
+    Back: |
+      \\[
+        \frac{-1}{\sqrt{x} + x}
+      \\]
 - id: 1537488178651
   fields:
     Front: |
