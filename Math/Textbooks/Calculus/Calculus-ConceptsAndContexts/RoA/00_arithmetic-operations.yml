@@ -1356,6 +1356,8 @@ notes:
       \\[
         \frac{16 + a}{16} = 1 + \frac{a}{16}
       \\]
+    Back: |
+      True
 - id: 1537488179134
   fields:
     Front: |
