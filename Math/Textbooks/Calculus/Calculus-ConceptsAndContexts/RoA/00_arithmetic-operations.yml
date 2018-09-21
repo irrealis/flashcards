@@ -879,3 +879,10 @@ notes:
           h
         }
       \\]
+- id: 1537488178767
+  fields:
+    Front: |
+      ## RoA problem 105: Rationalize the expression:
+      \\[
+        \frac{2}{3 - \sqrt{5}}
+      \\]
