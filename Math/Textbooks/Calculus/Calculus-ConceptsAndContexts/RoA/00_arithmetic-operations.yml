@@ -1327,6 +1327,10 @@ notes:
       \\[
         \sqrt{x^2 + x} - \sqrt{x^2 - x}
       \\]
+    Back: |
+      \\[
+        \frac{2x}{\sqrt{x^2 + x} + \sqrt{x^2 - x}}
+      \\]
 - id: 1537488178984
   fields:
     Front: |
