@@ -523,3 +523,10 @@ notes:
       \\[
         x^2 - 16x + 80
       \\]
+- id: 1537488024912
+  fields:
+    Front: |
+      ## RoA problem 057: Complete the square:
+      \\[
+        x^2 - 5x + 10
+      \\]
