@@ -724,3 +724,10 @@ notes:
       \\[
         3^{10} \times 9^8
       \\]
+- id: 1537488177701
+  fields:
+    Front: |
+      ## RoA problem 084: Use the Laws of Exponents to rewrite and simplify the expression:
+      \\[
+        2^{16} \times 4^{10} \times 16^6
+      \\]
