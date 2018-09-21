@@ -628,3 +628,10 @@ notes:
       \\[
         3x^2 + x - 6
       \\]
+- id: 1537488025662
+  fields:
+    Front: |
+      ## RoA problem 072: Is the following quadratic irreducible?
+      \\[
+        x^2 + 3x + 6
+      \\]
