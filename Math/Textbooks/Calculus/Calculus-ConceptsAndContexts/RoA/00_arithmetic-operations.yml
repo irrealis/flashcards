@@ -181,3 +181,10 @@ notes:
       \\[
         5(3t - 4) - (t^2 + 2) - 2t(t - 3)
       \\]
+- id: 1537488022379
+  fields:
+    Front: |
+      ## RoA problem 009: Expand and simplify:
+      \\[
+        (4x - 1)(3x + 7)
+      \\]
