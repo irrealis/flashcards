@@ -1246,6 +1246,10 @@ notes:
       \\[
         \frac{\sqrt{x} - 3}{x - 9}
       \\]
+    Back: |
+      \\[
+        \frac{1}{\sqrt{x} + 3}
+      \\]
 - id: 1537488178601
   fields:
     Front: |
