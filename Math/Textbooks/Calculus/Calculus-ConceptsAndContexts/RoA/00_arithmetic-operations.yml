@@ -307,3 +307,14 @@ notes:
       \\[
         \frac{a}{bc} \div \frac{b}{ac}
       \\]
+- id: 1537488023279
+  fields:
+    Front: |
+      ## RoA problem 027: Perform the indicated operations, and simplfy:
+      \\[
+        \frac{
+          1 + \frac{1}{c-1}
+        }{
+          1 - \frac{1}{c-1}
+        }
+      \\]
