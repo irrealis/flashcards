@@ -1392,6 +1392,8 @@ notes:
       \\[
         (x^3)^4 = x^7
       \\]
+    Back: |
+      False
 - id: 1537488179351
   fields:
     Front: |
