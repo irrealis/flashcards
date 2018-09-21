@@ -223,3 +223,10 @@ notes:
       \\[
         (t - 5)^2 - 2(t + 3)(8t - 1)
       \\]
+- id: 1537488022679
+  fields:
+    Front: |
+      ## RoA problem 015: Expand and simplify:
+      \\[
+        (1 + 2x)(x^2 - 3x + 1)
+      \\]
