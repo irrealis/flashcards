@@ -362,3 +362,10 @@ notes:
       \\[
         x^2 - 2x - 8
       \\]
+- id: 1537488023629
+  fields:
+    Front: |
+      ## RoA problem 034: Factor the expression:
+      \\[
+        2x^2 + 7x - 4
+      \\]
