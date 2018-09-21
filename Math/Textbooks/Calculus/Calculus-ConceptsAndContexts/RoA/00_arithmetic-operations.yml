@@ -766,3 +766,10 @@ notes:
       \\[
         3^{-1/2}
       \\]
+- id: 1537488178002
+  fields:
+    Front: |
+      ## RoA problem 090: Use the Laws of Exponents to rewrite and simplify the expression:
+      \\[
+        96^{1/5}
+      \\]
