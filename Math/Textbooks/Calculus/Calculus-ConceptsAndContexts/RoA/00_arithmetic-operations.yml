@@ -801,3 +801,10 @@ notes:
       \\[
         (x^{-5}y^3z^{10})^{-3/5}
       \\]
+- id: 1537488178251
+  fields:
+    Front: |
+      ## RoA problem 095: Use the Laws of Exponents to rewrite and simplify the expression:
+      \\[
+        \sqrt[5]{y^6}
+      \\]
