@@ -656,3 +656,10 @@ notes:
       \\[
         (x^2 - 1)^4
       \\]
+- id: 1537488025879
+  fields:
+    Front: |
+      ## RoA problem 076: Use the Binomial Theorem to expand the expression:
+      \\[
+        (3 + x^2)^5
+      \\]
