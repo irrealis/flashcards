@@ -738,3 +738,10 @@ notes:
       \\[
         \frac{x^9(2x)^4}{x^3}
       \\]
+- id: 1537488177801
+  fields:
+    Front: |
+      ## RoA problem 086: Use the Laws of Exponents to rewrite and simplify the expression:
+      \\[
+        \frac{a^n \times a^{2n+1}}{a^{n-2}}
+      \\]
