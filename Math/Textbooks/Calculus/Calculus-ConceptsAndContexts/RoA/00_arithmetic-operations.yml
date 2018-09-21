@@ -209,3 +209,10 @@ notes:
       \\[
         (2 + 3x)^2
       \\]
+- id: 1537488022579
+  fields:
+    Front: |
+      ## RoA problem 013: Expand and simplify:
+      \\[
+        y^4(6 - y)(5 + y)
+      \\]
