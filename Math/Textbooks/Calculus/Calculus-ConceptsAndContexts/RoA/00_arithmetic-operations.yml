@@ -1347,6 +1347,8 @@ notes:
       \\[
         \sqrt{x^2 + 4} = |x| + 2
       \\]
+    Back: |
+      False
 - id: 1537488179084
   fields:
     Front: |
