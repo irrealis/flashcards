@@ -258,3 +258,10 @@ notes:
       \\[
         \frac{1}{x+5} + \frac{2}{x-3}
       \\]
+- id: 1537488022929
+  fields:
+    Front: |
+      ## RoA problem 020: Perform the indicated operations, and simplfy:
+      \\[
+        \frac{1}{x+1} + \frac{1}{x-1}
+      \\]
