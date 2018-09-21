@@ -572,3 +572,10 @@ notes:
       \\[
         x^2 + 9x - 1 = 0
       \\]
+- id: 1537488025262
+  fields:
+    Front: |
+      ## RoA problem 064: Solve the equation:
+      \\[
+        x^2 - 2x - 7 = 0
+      \\]
