@@ -1338,6 +1338,8 @@ notes:
       \\[
         \sqrt{x^2} = x
       \\]
+    Back: |
+      False
 - id: 1537488179034
   fields:
     Front: |
