@@ -854,3 +854,10 @@ notes:
       \\[
         \frac{\sqrt{x} - 3}{x - 9}
       \\]
+- id: 1537488178601
+  fields:
+    Front: |
+      ## RoA problem 102: Rationalize the expression:
+      \\[
+        \frac{(1/\sqrt{x}) - 1}{x - 1}
+      \\]
