@@ -1268,6 +1268,10 @@ notes:
       \\[
         \frac{x\sqrt{x} - 8}{x - 4}
       \\]
+    Back: |
+      \\[
+        \frac{x^2 + 4x + 16}{x\sqrt{x} + 8}
+      \\]
 - id: 1537488178701
   fields:
     Front: |
