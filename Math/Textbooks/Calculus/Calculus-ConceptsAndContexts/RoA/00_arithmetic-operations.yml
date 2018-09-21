@@ -488,3 +488,10 @@ notes:
       \\[
         \frac{x^2 - 1}{x^2 - 9x + 8}
       \\]
+- id: 1537488024629
+  fields:
+    Front: |
+      ## RoA problem 052: Simplify the expression:
+      \\[
+        \frac{x^3 + 5x^2 + 6x}{x^2 - x - 12}
+      \\]
