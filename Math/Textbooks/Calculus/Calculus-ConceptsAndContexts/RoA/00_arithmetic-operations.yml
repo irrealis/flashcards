@@ -537,3 +537,10 @@ notes:
       \\[
         x^2 + 3x + 1
       \\]
+- id: 1537488025012
+  fields:
+    Front: |
+      ## RoA problem 059: Complete the square:
+      \\[
+        4x^2 + 4x - 2
+      \\]
