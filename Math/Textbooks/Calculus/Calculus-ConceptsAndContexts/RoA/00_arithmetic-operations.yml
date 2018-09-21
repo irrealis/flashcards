@@ -681,3 +681,14 @@ notes:
           \sqrt[3]{54}
         }
       \\]
+- id: 1537488177451
+  fields:
+    Front: |
+      ## RoA problem 079: Simplify the radicals:
+      \\[
+        \frac{
+          \sqrt[4]{32x^4}
+        }{
+          \sqrt[4]{2}
+        }
+      \\]
