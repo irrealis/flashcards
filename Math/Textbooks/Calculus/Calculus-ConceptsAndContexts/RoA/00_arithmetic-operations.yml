@@ -765,6 +765,10 @@ notes:
       \\[
         x^2 + 3x + 1
       \\]
+    Back: |
+      \\[
+        \left(x + \frac{3}{2} \right)^2 - \frac{5}{4}
+      \\]
 - id: 1537488025012
   fields:
     Front: |
