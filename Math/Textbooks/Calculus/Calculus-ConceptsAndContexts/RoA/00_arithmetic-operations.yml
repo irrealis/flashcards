@@ -1383,6 +1383,8 @@ notes:
       \\[
         \frac{2}{4 + x} = \frac{1}{2} + \frac{2}{x}
       \\]
+    Back: |
+      False
 - id: 1537488179284
   fields:
     Front: |
