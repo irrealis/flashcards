@@ -352,6 +352,10 @@ notes:
       \\[
         u + 1 + \frac{u}{u+1}
       \\]
+    Back: |
+      \\[
+        \frac{u^2 + 3u + 1}{u + 1}
+      \\]
 - id: 1537488023029
   fields:
     Front: |
