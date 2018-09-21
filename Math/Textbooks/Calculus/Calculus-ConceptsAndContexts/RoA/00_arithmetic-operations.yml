@@ -467,3 +467,10 @@ notes:
       \\[
         x^3 - 3x^2 - 4x + 12
       \\]
+- id: 1537488024446
+  fields:
+    Front: |
+      ## RoA problem 049: Simplify the expression:
+      \\[
+        \frac{x^2 + x - 2}{x^2 - 3x + 2}
+      \\]
