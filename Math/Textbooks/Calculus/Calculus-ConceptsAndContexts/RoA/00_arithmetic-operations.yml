@@ -1305,6 +1305,10 @@ notes:
       \\[
         \frac{1}{\sqrt{x} - \sqrt{y}}
       \\]
+    Back: |
+      \\[
+        \frac{\sqrt{x} + \sqrt{y}}{x - y}
+      \\]
 - id: 1537488178884
   fields:
     Front: |
