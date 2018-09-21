@@ -600,3 +600,10 @@ notes:
       \\[
         x^3 - 2x + 1 = 0
       \\]
+- id: 1537488025462
+  fields:
+    Front: |
+      ## RoA problem 068: Solve the equation:
+      \\[
+        x^3 + 3x^2 + x - 1 = 0
+      \\]
