@@ -61,13 +61,32 @@ notes:
         ax^2 + bx + c = a \left(x + \frac{b}{2a}\right)^2 + \left(c - \frac{b^2}{4a}\right)
       \\]
     Back: |
+      Our goal is to express the left-hand side as
+      \\[
+        ax^2 + bx + c = a\left(x + d \right)^2 + \left(c - ad^2\right),
+      \\]
+      because this will allow us to solve \\(ax^2 + bx + c = 0\\) for \\(x\\). The first step, then, is to factor \\(a\\) out of the subexpression \\(ax^2 +bx\\), obtaining:
+      \\[
+        ax^2 + bx + c = a\left(x^2 + \frac{b}{a}x \right) + c.
+      \\]
+      Now, we want to choose \\(d\\) such that
+      \\[
+        x^2 + \frac{b}{a}x + d^2 = (x + d)^2.
+      \\]
+      Expanding the right side gives
+      \\[
+        x^2 + \frac{b}{a}x + d^2 = x^2 + 2dx + d^2,
+      \\]
+      So it follows that
+      \\[
+        \frac{b}{a} = 2d,\textrm{ that is, } d = \frac{b}{2a}.
+      \\]
+      Substituting for \\(d\\) now gives the desired result:
       \\[
       \begin{align}
         ax^2 + bx + c
-        &= a \left(x^2 + \frac{b}{a}x \right) + c \\\\
-        &= a \left[x^2 + \frac{b}{a}x + \left(\frac{b}{2a}\right)^2 - \left(\frac{b}{2a}\right)^2 \right] + c \\\\
-        &= a \left[x^2 + \frac{b}{a}x + \left(\frac{b}{2a}\right)^2 \right] + \left(c - \frac{b^2}{4a}\right)  \\\\
-        &= a \left(x + \frac{b}{2a} \right)^2 + \left(c - \frac{b^2}{4a}\right) \\\\
+        &= a\left(x + d \right)^2 + \left(c - ad^2\right) \\\\
+        &= a\left(x + \frac{b}{2a} \right)^2 + \left(c - \frac{b^2}{4a}\right).
       \end{align}
       \\]
 - id: 1537481878037
