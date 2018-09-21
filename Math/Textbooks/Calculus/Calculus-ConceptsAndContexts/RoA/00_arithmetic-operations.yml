@@ -272,3 +272,10 @@ notes:
       \\[
         u + 1 + \frac{u}{u+1}
       \\]
+- id: 1537488023029
+  fields:
+    Front: |
+      ## RoA problem 022: Perform the indicated operations, and simplfy:
+      \\[
+        \frac{2}{a^2} - \frac{3}{ab} + \frac{4}{b^2}
+      \\]
