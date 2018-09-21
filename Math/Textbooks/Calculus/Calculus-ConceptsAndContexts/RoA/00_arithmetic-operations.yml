@@ -900,3 +900,10 @@ notes:
       \\[
         \sqrt{x^2 + 3x + 4} - x
       \\]
+- id: 1537488178934
+  fields:
+    Front: |
+      ## RoA problem 108: Rationalize the expression:
+      \\[
+        \sqrt{x^2 + x} - \sqrt{x^2 - x}
+      \\]
