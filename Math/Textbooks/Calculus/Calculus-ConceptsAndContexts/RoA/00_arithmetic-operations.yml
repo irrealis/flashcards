@@ -787,3 +787,10 @@ notes:
       \\[
         64^{-4/3}
       \\]
+- id: 1537488178151
+  fields:
+    Front: |
+      ## RoA problem 093: Use the Laws of Exponents to rewrite and simplify the expression:
+      \\[
+        (2x^2y^4)^{3/2}
+      \\]
