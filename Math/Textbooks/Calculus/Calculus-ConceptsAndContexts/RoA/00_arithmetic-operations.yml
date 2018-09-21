@@ -348,3 +348,10 @@ notes:
       \\[
         x^2 + 7x + 6
       \\]
+- id: 1537488023529
+  fields:
+    Front: |
+      ## RoA problem 032: Factor the expression:
+      \\[
+        x^2 - x - 6
+      \\]
