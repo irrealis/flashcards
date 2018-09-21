@@ -822,3 +822,10 @@ notes:
       \\[
         \frac{1}{(\sqrt{t})^5}
       \\]
+- id: 1537488178401
+  fields:
+    Front: |
+      ## RoA problem 098: Use the Laws of Exponents to rewrite and simplify the expression:
+      \\[
+        \frac{\sqrt[8]{x^5}}{\sqrt[4]{x^3}}
+      \\]
