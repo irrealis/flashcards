@@ -935,3 +935,10 @@ notes:
       \\[
         \frac{1}{x^{-1} + y^{-1}} = x + y
       \\]
+- id: 1537488179184
+  fields:
+    Front: |
+      ## RoA problem 113: State whether or not the following equation is true for all values of the variable:
+      \\[
+        \frac{x}{x + y} = \frac{1}{1 + y}
+      \\]
