@@ -146,3 +146,10 @@ notes:
       \\[
         2x(x-5)
       \\]
+- id: 1537488022128
+  fields:
+    Front: |
+      ## RoA problem 004: Expand and simplify:
+      \\[
+        (4 - 3x)x
+      \\]
