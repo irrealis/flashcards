@@ -425,3 +425,10 @@ notes:
       \\[
         x^3 - 27
       \\]
+- id: 1537488024129
+  fields:
+    Front: |
+      ## RoA problem 043: Factor the expression:
+      \\[
+        x^3 + 2x^2 + x
+      \\]
