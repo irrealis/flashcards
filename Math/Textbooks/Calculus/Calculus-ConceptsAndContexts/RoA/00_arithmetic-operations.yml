@@ -1077,6 +1077,10 @@ notes:
       \\[
         \frac{a^n \times a^{2n+1}}{a^{n-2}}
       \\]
+    Back: |
+      \\[
+        a^{2n + 3}
+      \\]
 - id: 1537488177851
   fields:
     Front: |
