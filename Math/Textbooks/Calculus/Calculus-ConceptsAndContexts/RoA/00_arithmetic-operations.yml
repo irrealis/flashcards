@@ -956,3 +956,10 @@ notes:
       \\[
         (x^3)^4 = x^7
       \\]
+- id: 1537488179351
+  fields:
+    Front: |
+      ## RoA problem 116: State whether or not the following equation is true for all values of the variables:
+      \\[
+        6 - 4(x + a) = 6 - 4x - 4a
+      \\]
