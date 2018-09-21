@@ -216,3 +216,10 @@ notes:
       \\[
         y^4(6 - y)(5 + y)
       \\]
+- id: 1537488022629
+  fields:
+    Front: |
+      ## RoA problem 014: Expand and simplify:
+      \\[
+        (t - 5)^2 - 2(t + 3)(8t - 1)
+      \\]
