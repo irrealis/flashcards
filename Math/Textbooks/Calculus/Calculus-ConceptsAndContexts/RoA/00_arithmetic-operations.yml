@@ -363,6 +363,10 @@ notes:
       \\[
         \frac{2}{a^2} - \frac{3}{ab} + \frac{4}{b^2}
       \\]
+    Back: |
+      \\[
+        \frac{2b^2 - 3ab + 4a^2}{a^2b^2}
+      \\]
 - id: 1537488023079
   fields:
     Front: |
