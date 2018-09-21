@@ -374,6 +374,10 @@ notes:
       \\[
         \frac{x/y}{z}
       \\]
+    Back: |
+      \\[
+        \frac{x}{yz}
+      \\]
 - id: 1537488023129
   fields:
     Front: |
