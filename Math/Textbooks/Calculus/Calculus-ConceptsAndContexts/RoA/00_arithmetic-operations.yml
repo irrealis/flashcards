@@ -754,6 +754,10 @@ notes:
       \\[
         x^2 - 5x + 10
       \\]
+    Back: |
+      \\[
+        \left(x - \frac{5}{2} \right)^2 + \frac{15}{4}
+      \\]
 - id: 1537488024962
   fields:
     Front: |
