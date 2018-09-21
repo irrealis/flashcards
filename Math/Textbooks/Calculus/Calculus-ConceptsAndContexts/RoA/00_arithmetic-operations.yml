@@ -677,6 +677,10 @@ notes:
       \\[
         \frac{2x^2 - 3x - 2}{x^2 - 4}
       \\]
+    Back: |
+      \\[
+        \frac{2x + 1}{x + 2}
+      \\]
 - id: 1537488024579
   fields:
     Front: |
