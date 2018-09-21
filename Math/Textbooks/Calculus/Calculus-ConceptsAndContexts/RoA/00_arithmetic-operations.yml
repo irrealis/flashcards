@@ -1235,6 +1235,10 @@ notes:
       \\[
         \sqrt[4]{r^{2n+1}} \times \sqrt[4]{r^{-1}}
       \\]
+    Back: |
+      \\[
+        r^{n/2}
+      \\]
 - id: 1537488178551
   fields:
     Front: |
