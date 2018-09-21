@@ -251,3 +251,10 @@ notes:
       \\[
         \frac{9b + 6}{3b}
       \\]
+- id: 1537488022879
+  fields:
+    Front: |
+      ## RoA problem 019: Perform the indicated operations, and simplfy:
+      \\[
+        \frac{1}{x+5} + \frac{2}{x-3}
+      \\]
