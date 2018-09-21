@@ -481,3 +481,10 @@ notes:
       \\[
         \frac{2x^2 - 3x - 2}{x^2 - 4}
       \\]
+- id: 1537488024579
+  fields:
+    Front: |
+      ## RoA problem 051: Simplify the expression:
+      \\[
+        \frac{x^2 - 1}{x^2 - 9x + 8}
+      \\]
