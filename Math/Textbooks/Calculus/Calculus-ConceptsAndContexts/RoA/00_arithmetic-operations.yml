@@ -1018,6 +1018,10 @@ notes:
       \\[
         \sqrt{16a^4b^3}
       \\]
+    Back: |
+      \\[
+        4a^2b\sqrt{b}
+      \\]
 - id: 1537488177601
   fields:
     Front: |
