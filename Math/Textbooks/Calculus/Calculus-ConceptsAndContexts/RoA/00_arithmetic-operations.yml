@@ -893,3 +893,10 @@ notes:
       \\[
         \frac{1}{\sqrt{x} - \sqrt{y}}
       \\]
+- id: 1537488178884
+  fields:
+    Front: |
+      ## RoA problem 107: Rationalize the expression:
+      \\[
+        \sqrt{x^2 + 3x + 4} - x
+      \\]
