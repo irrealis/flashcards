@@ -125,3 +125,10 @@ notes:
       \\[
         (a+b)^n = \sum_{k=0}^{n}\binom{n}{k}a^{n-k}b^k
       \\]
+- id: 1537488021945
+  fields:
+    Front: |
+      ## RoA problem 001: Expand and simplify:
+      \\[
+        (-6ab)(0.5ac)
+      \\]
