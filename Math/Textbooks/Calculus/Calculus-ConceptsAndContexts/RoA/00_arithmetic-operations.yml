@@ -330,6 +330,10 @@ notes:
       \\[
         \frac{1}{x+5} + \frac{2}{x-3}
       \\]
+    Back: |
+      \\[
+        \frac{3x + 7}{x^2 + 2x - 15}
+      \\]
 - id: 1537488022929
   fields:
     Front: |
