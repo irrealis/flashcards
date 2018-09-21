@@ -586,3 +586,10 @@ notes:
       \\[
         3x^2 + 5x + 1 = 0
       \\]
+- id: 1537488025362
+  fields:
+    Front: |
+      ## RoA problem 066: Solve the equation:
+      \\[
+        2x^2 + 7x + 2 = 0
+      \\]
