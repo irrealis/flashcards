@@ -457,6 +457,10 @@ notes:
       \\[
         5ab - 8abc
       \\]
+    Back: |
+      \\[
+        ab(5 - 8c)
+      \\]
 - id: 1537488023479
   fields:
     Front: |
