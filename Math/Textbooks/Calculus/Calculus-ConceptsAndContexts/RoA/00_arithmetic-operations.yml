@@ -551,3 +551,10 @@ notes:
       \\[
         3x^2 - 24x + 50
       \\]
+- id: 1537488025113
+  fields:
+    Front: |
+      ## RoA problem 061: Solve the equation:
+      \\[
+        x^2 + 9x - 10 = 0
+      \\]
