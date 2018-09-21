@@ -649,3 +649,10 @@ notes:
       \\[
         (a + b)^7
       \\]
+- id: 1537488025829
+  fields:
+    Front: |
+      ## RoA problem 075: Use the Binomial Theorem to expand the expression:
+      \\[
+        (x^2 - 1)^4
+      \\]
