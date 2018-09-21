@@ -390,3 +390,10 @@ notes:
       \\[
         6x^2 - 5x - 6
       \\]
+- id: 1537488023879
+  fields:
+    Front: |
+      ## RoA problem 038: Factor the expression:
+      \\[
+        x^2 + 10x + 25
+      \\]
