@@ -1365,6 +1365,8 @@ notes:
       \\[
         \frac{1}{x^{-1} + y^{-1}} = x + y
       \\]
+    Back: |
+      False
 - id: 1537488179184
   fields:
     Front: |
