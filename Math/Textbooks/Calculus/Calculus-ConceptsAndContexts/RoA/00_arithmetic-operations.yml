@@ -385,6 +385,10 @@ notes:
       \\[
         \frac{x}{y/z}
       \\]
+    Back: |
+      \\[
+        \frac{zx}{y}
+      \\]
 - id: 1537488023179
   fields:
     Front: |
