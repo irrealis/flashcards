@@ -293,3 +293,10 @@ notes:
       \\[
         \frac{x}{y/z}
       \\]
+- id: 1537488023179
+  fields:
+    Front: |
+      ## RoA problem 025: Perform the indicated operations, and simplfy:
+      \\[
+        \left(\frac{-2r}{s}\right) \left(\frac{s^2}{-6t}\right)
+      \\]
