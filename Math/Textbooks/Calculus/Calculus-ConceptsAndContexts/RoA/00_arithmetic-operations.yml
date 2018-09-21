@@ -334,3 +334,10 @@ notes:
       \\[
         2x + 12x^3
       \\]
+- id: 1537488023429
+  fields:
+    Front: |
+      ## RoA problem 030: Factor the expression:
+      \\[
+        5ab - 8abc
+      \\]
