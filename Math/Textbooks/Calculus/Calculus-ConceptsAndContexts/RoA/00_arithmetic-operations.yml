@@ -635,3 +635,10 @@ notes:
       \\[
         x^2 + 3x + 6
       \\]
+- id: 1537488025729
+  fields:
+    Front: |
+      ## RoA problem 073: Use the Binomial Theorem to expand the expression:
+      \\[
+        (a + b)^6
+      \\]
