@@ -642,3 +642,10 @@ notes:
       \\[
         (a + b)^6
       \\]
+- id: 1537488025779
+  fields:
+    Front: |
+      ## RoA problem 074: Use the Binomial Theorem to expand the expression:
+      \\[
+        (a + b)^7
+      \\]
