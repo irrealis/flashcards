@@ -116,6 +116,146 @@ notes:
       \\[
         x = \frac{-b \pm\sqrt{b^2 - 4ac}}{2a}
       \\]
+- id: 1537569594359
+  fields:
+    Front: |
+      ## RoA mtl 7.4: State Vieta's Formulae.
+    Back: |
+      Let \\(P(x)\\) be the polynomial
+      \\[
+        P(x) = a_n x^n + a_{n-1} x^{n-1} + \cdots + a_1 x + a_0
+      \\]
+      and denote its roots by \\(x_1,x_2,\ldots,x_n\\). Then the coefficients and roots are related by Vieta's Formulae:
+      \\[
+        \sum_{j=1}^{\binom{n}{i}}
+        \left(
+          \prod_{k=1}^{i} x_{r_{jk}}
+        \right)
+        = (-1)^i \times \frac{a_{n-i}}{a_n},
+        \textrm{ with } i \in \\{1,\ldots,n\\}.
+      \\]
+
+
+      ## Discussion:
+
+      In long form, Vieta's Formulae are
+
+      \\[
+      \begin{align}
+        x_1 + x_2 + \cdots + x_n &= - \frac{a_{n-1}}{a_n} \\\\
+        (x_1 x_2 + x_1 x_3 + \cdots) +
+        (x_2 x_3 + x_2 x_4 + \cdots) +
+        \cdots +
+        x_{n-1} x_n &= \frac{a_{n-2}}{a_n} \\\\
+        \cdots \\\\
+        x_1 x_2 \cdots x_n &= (-1)^n\frac{a_0}{a_n}
+      \end{align}
+      \\]
+
+      Note the number of summands on the left-hand side of each formula: the first has \\(\binom{n}{1}\\), the second has \\(\binom{n}{2}\\), and so on. This observation leads to the compact expression of the \\(i\\)th formula:
+
+      \\[
+        \sum_{j=1}^{\binom{n}{i}}
+        \left(
+          \prod_{k=1}^{i} x_{r_{jk}}
+        \right)
+        = (-1)^i \times \frac{a_{n-i}}{a_n},
+      \\]
+
+      where each summand \\(\prod_{k=1}^{i} x_{r_{jk}}\\) is the product of one of the \\(\binom{n}{i}\\) distinct choices of \\(i\\) roots, without replacement.
+
+
+      ## Quadratic example:
+
+      Consider \\(ax^2 + bx + c\\) with roots \\(p\\) and \\(q\\). The coefficients and roots are related by
+
+      \\[
+      \begin{align}
+        p + q &= - \frac{b}{a}, \\\\
+        pq &= \frac{c}{a}.
+      \end{align}
+      \\]
+- id: 1537575166630
+  fields:
+    Front: |
+      ## RoA mtl 7.5: Prove Vieta's Formulae:
+      Let \\(P(x)\\) be the polynomial
+      \\[
+        P(x) = a_n x^n + a_{n-1} x^{n-1} + \cdots + a_1 x + a_0
+      \\]
+      and denote its roots by \\(x_1,x_2,\ldots,x_n\\). Then the coefficients and roots are related by Vieta's Formulae:
+      \\[
+        \sum_{j=1}^{\binom{n}{i}}
+        \left(
+          \prod_{k=1}^{i} x_{r_{jk}}
+        \right)
+        = (-1)^i \times \frac{a_{n-i}}{a_n},
+        \textrm{ with } i \in \\{1,\ldots,n\\}.
+      \\]
+    Back: |
+      First consider \\(ax^2 + bx + c\\) with roots \\(p\\) and \\(q\\), whose coefficients and roots are related by
+
+      \\[
+      \begin{align}
+        p + q &= - \frac{b}{a}, \\\\
+        pq &= \frac{c}{a}.
+      \end{align}
+      \\]
+
+      The proof is straightfoward:
+
+      \\[
+      \begin{align}
+        a(x-p)(x-q)
+        &= a\left(x^2 - (p + q)x + pq\right) \\\\
+        &= ax^2 + bx + c; \\\\
+        \textrm{thus, } x^2 - (p + q)x + pq
+        &= x^2 + \frac{b}{a}x + \frac{c}{a}. \\\\
+      \end{align}
+      \\]
+
+      This suggests the proof of the general form: expand the product \\((x-x_1)(x-x_2)\cdots(x-x_n)\\), and group the terms by degree.
+- id: 1537825184801
+  fields:
+    Front: |
+      ## RoA mtl 8: State the Rational Roots Theorem.
+    Back: |
+      If a polynomial with integer coefficients zeros for rational \\(p/q\\) then \\(p\\) is a factor of the trailing constant and \\(q\\) is a factor of the leading coefficient.
+- id: 1537825184850
+  fields:
+    Front: |
+      ## RoA mtl 9: Define _irreducible_.
+    Back: |
+      A polynomial with no real roots is said to be _irreducible_.
+- id: 1537575166701
+  fields:
+    Front: |
+      ## RoA mtl 7.6: State the version of the Quadratic Formula based on Vieta's Formulae.
+    Back: |
+      The solutions of the quadratic equation \\(ax^2 + bx + c = 0\\) can be expressed as
+      \\[
+        x = \frac{2c}{b \pm \sqrt{b^2 - 4ac}}.
+      \\]
+- id: 1537575166750
+  fields:
+    Front: |
+      ## RoA mtl 7.7: Prove the version of the Quadratic Formula based on Vieta's Formulae.
+      The solutions of the quadratic equation \\(ax^2 + bx + c = 0\\) can be expressed as
+      \\[
+        x = \frac{2c}{b \pm \sqrt{b^2 - 4ac}}.
+      \\]
+    Back: |
+      Start with the standard Quadratic Formula, choosing either root of \\(ax^2 + bx + c\\) without loss of generality:
+      \\[
+        p = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}.
+      \\]
+      By Vieta's Formulae, \\(pq = \frac{c}{a}\\), so \\(q = \frac{c}{ap}\\). Substituting \\(p\\) gives
+      \\[
+        q
+        = \frac{c}{a} \times \frac{2a}{-b \pm \sqrt{b^2 - 4ac}}
+        = \frac{2c}{-b \pm \sqrt{b^2 - 4ac}}.
+      \\]
+      as desired.
 - id: 1537483373226
   fields:
     Front: |
