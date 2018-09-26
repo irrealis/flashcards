@@ -19,6 +19,8 @@ notes:
   extraTags:
   - Done-Basic
   - KnowledgeWeakness
+  - Marked
+  - Mark-NeedsCleanup
   fields:
     Front: |
       ## 02.01 Good sorting algorithms
@@ -60,6 +62,8 @@ notes:
         - A stable merge sort.
         - Stability can also be achieved by adding to each record a tiebreaker key whose values enumerate the elements in original order, and using a tiebreaking comparator.
 - id: 1536203068504
+  extraTags:
+  - Done-Python
   fields:
     Front: |
       ## 02.02: TeraSort
@@ -69,8 +73,81 @@ notes:
       Sort a file containing \\(10^{12}\\) 100-byte strings.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 24.
-    Front: |
-      Note that I have concrete version of this in problem _02.10 Merging Sorted Arrays_.
+    Python: |
+      First, split the data to chunks each small enough to sort in RAM; sort each chunk, saving results to disk; then create streams, one for each of the saved sorted chunks. I model this below:
+
+      ```{python }
+      import random
+
+      from irrealis.sorts.mergesort import mergesort
+
+      # https://stackoverflow.com/questions/312443/how-do-you-split-a-list-into-evenly-sized-chunks
+      def make_chunks(l, j):
+        for i in range(0, len(l), j):
+          yield l[i:i+j]
+
+      def split_to_chunks(l, k):
+        j = len(l)//k + 1
+        for chunk in make_chunks(l, j):
+          yield chunk
+
+      words = open('/usr/share/dict/american-english', 'r').readlines()
+      random.shuffle(words)
+      chunks = split_to_chunks(words, 10)
+      streams = (mergesort(chunk) for chunk in chunks)
+      ```
+
+      Merge these streams using the following functions:
+
+      ```{python }
+      from heapq import heappush, heappop
+
+      def trypush(heap, i, it):
+        try: heappush(heap, (next(it), i, it))
+        except StopIteration: pass
+
+      def merge(out, *l):
+        heap = []
+        for i, a in enumerate(l): trypush(heap, i, iter(a))
+        while heap:
+          x, i, it = heappop(heap)
+          out.put(x)
+          trypush(heap, i, it)
+        return out
+      ```
+
+      I model this process below. First I create an output stream:
+
+      ```{python }
+      import io
+
+      class StringIOStream(io.StringIO):
+        def put(self, object):
+          return self.write(object)
+
+      out_file = StringIOStream()
+      ```
+
+      Then merge the input streams to the output stream:
+
+      ```{python }
+      merge(out_file, *streams)
+      ```
+
+      I check the results below:
+
+      ```{python }
+      result = out_file.getvalue()
+      sorted_words = result.split()
+      print("number of sorted words:", len(sorted_words))
+      print("first twenty sorted words:")
+      print(sorted_words[:20])
+      ```
+
+      Note: it may happen that there would be too many streams for available memory, in which case I would recursively merge as many streams as can be created, saving intermediate results to disk.
+
+      (Note that I have concrete version of this in problem _02.10 Merging Sorted Arrays_.)
+
 - id: 1536203068551
   fields:
     Front: |
