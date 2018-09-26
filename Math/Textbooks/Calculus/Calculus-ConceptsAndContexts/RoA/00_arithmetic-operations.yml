@@ -75,7 +75,7 @@ notes:
     Front: |
       ## RoA mtl 7.2: State the Quadratic Formula.
     Back: |
-      The roots of the quadratic equation \\(ax^2 + bx + c\\) are
+      The solutions of the quadratic equation \\(ax^2 + bx + c = 0\\) are
       \\[
         x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
       \\]
@@ -84,7 +84,7 @@ notes:
     Front: |
       ## RoA mtl 7.3: Prove the Quadratic Formula.
     Back: |
-      By the Factor Theorem, the roots the general quadratic expression \\(ax^2 + bx + c\\) are the values of \\(x\\) for which \\(ax^2 + bx + c = 0\\), so we must solve this equation for \\(x\\). We start by rewriting this equation by completing the square:
+      By the Factor Theorem, the roots of \\(ax^2 + bx + c\\) are values of \\(x\\) for which \\(ax^2 + bx + c = 0\\), so we must solve this equation for \\(x\\). We start by rewriting this equation by completing the square:
       \\[
       \begin{align}
         0
@@ -92,27 +92,27 @@ notes:
         &= a \left(x + \frac{b}{2a}\right)^2 + \left(c - \frac{b^2}{4a}\right)
       \end{align}
       \\]
-      We isolate the left-hand summand by subtracting the right-hand summand from both sides:
+      The reason to do this is that \\(x\\) appears only once in this form. We then isolate the left-hand summand by subtracting the right-hand summand from both sides:
       \\[
         \left( \frac{b^2}{4a} - c \right) = a \left(x + \frac{b}{2a}\right)^2
       \\]
-      Swap sides to make things easier to follow, then simplify the right side:
+      We swap sides to make things easier to follow, then simplify the right side:
       \\[
         a \left(x + \frac{b}{2a}\right)^2
         = \left( \frac{b^2}{4a} - c \right)
         = \frac{b^2 - 4ac}{4a}
       \\]
-      Divide both sides by \\(a\\):
+      We divide both sides by \\(a\\):
       \\[
         \left(x + \frac{b}{2a}\right)^2
         = \frac{b^2 - 4ac}{4a^2}
       \\]
-      Take the square root of both sides:
+      We take the square root of each side:
       \\[
         x + \frac{b}{2a}
         = \frac{\pm\sqrt{b^2 - 4ac}}{2a}
       \\]
-      Finally, subtract \\(\frac{b}{2a}\\) from both sides:
+      Finally, we subtract \\(\frac{b}{2a}\\) from both sides, obtaining the desired formula:
       \\[
         x = \frac{-b \pm\sqrt{b^2 - 4ac}}{2a}
       \\]
@@ -1123,7 +1123,7 @@ notes:
       \\]
     Back: |
       \\[
-        2^5\sqrt{3}
+        2\sqrt[5]{3}
       \\]
 - id: 1537488178052
   fields:
