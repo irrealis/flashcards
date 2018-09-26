@@ -20,3 +20,11 @@ notes:
       How do we define _statistical inference?_
     Back: |
       **Statistical inference:** the process of generating conclusions about a population from a noisy sample.
+- id: 0
+  fields:
+    Front: |
+      What do we mean by _knowledge and parsimony?_
+    Back: |
+      **Knowledge and parsimony:** using the simplest reasonable models to explain complex phenomena.
+
+      Probability models serve as parsimonious models connecting data to populations in order to obtain inference.
