@@ -125,23 +125,22 @@ notes:
         def put(self, object):
           return self.write(object)
 
-      out_file = StringIOStream()
+      outfile = StringIOStream()
       ```
 
       Then merge the input streams to the output stream:
 
       ```{python }
-      merge(out_file, *streams)
+      merge(outfile, *streams)
       ```
 
       I check the results below:
 
       ```{python }
-      result = out_file.getvalue()
-      sorted_words = result.split()
-      print("number of sorted words:", len(sorted_words))
+      sorted = outfile.getvalue().split()
+      print("number of sorted words:", len(sorted))
       print("first twenty sorted words:")
-      print(sorted_words[:20])
+      print(sorted[:20])
       ```
 
       Note: it may happen that there would be too many streams for available memory, in which case I would recursively merge as many streams as can be created, saving intermediate results to disk.
