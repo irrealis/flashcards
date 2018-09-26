@@ -1,0 +1,15 @@
+defaults:
+  deckName: Staging
+  modelName: BasicMathJax
+  tags:
+  - Coursework
+  - Coursera
+  - DataScience
+  - 06-RProgramming
+  - 0601-Week1
+  - 060101-Module1-Introduction
+  markdownTabLength: 2
+comment: |
+  #
+  #
+  #
