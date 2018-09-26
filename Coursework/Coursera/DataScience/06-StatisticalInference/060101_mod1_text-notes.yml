@@ -13,3 +13,10 @@ comment: |
   #
   #
   #
+notes:
+- id: 0
+  fields:
+    Front: |
+      How do we define _statistical inference?_
+    Back: |
+      **Statistical inference:** the process of generating conclusions about a population from a noisy sample.
