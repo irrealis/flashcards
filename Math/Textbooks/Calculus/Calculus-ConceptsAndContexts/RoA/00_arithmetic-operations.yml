@@ -1247,6 +1247,7 @@ notes:
         \frac{\sqrt{x} - 3}{x - 9}
       \\]
     Back: |
+      Only the numerator has radicals, so we interpret the problem to mean "rationalize the numerator".
       \\[
         \frac{1}{\sqrt{x} + 3}
       \\]
@@ -1258,6 +1259,7 @@ notes:
         \frac{(1/\sqrt{x}) - 1}{x - 1}
       \\]
     Back: |
+      Only the numerator has radicals, so we interpret the problem to mean "rationalize the numerator".
       \\[
         \frac{-1}{\sqrt{x} + x}
       \\]
@@ -1269,6 +1271,7 @@ notes:
         \frac{x\sqrt{x} - 8}{x - 4}
       \\]
     Back: |
+      Only the numerator has radicals, so we interpret the problem to mean "rationalize the numerator".
       \\[
         \frac{x^2 + 4x + 16}{x\sqrt{x} + 8}
       \\]
@@ -1284,6 +1287,7 @@ notes:
         }
       \\]
     Back: |
+      Only the numerator has radicals, so we interpret the problem to mean "rationalize the numerator".
       \\[
         \frac{2}{\sqrt{2 + h} - \sqrt{2 - h}}
       \\]
@@ -1295,6 +1299,7 @@ notes:
         \frac{2}{3 - \sqrt{5}}
       \\]
     Back: |
+      Only the denominator has radicals, so we interpret the problem to mean "rationalize the denominator".
       \\[
         \frac{3 + \sqrt{5}}{2}
       \\]
@@ -1306,6 +1311,7 @@ notes:
         \frac{1}{\sqrt{x} - \sqrt{y}}
       \\]
     Back: |
+      Only the denominator has radicals, so we interpret the problem to mean "rationalize the denominator".
       \\[
         \frac{\sqrt{x} + \sqrt{y}}{x - y}
       \\]
@@ -1317,6 +1323,7 @@ notes:
         \sqrt{x^2 + 3x + 4} - x
       \\]
     Back: |
+      Treating this as a fraction with denominator of 1, only the numerator has radicals, so we interpret the problem to mean "rationalize the numerator".
       \\[
         \frac{3x + 4}{\sqrt{x^2 + 3x + 4} + x}
       \\]
@@ -1328,6 +1335,7 @@ notes:
         \sqrt{x^2 + x} - \sqrt{x^2 - x}
       \\]
     Back: |
+      Treating this as a fraction with denominator of 1, only the numerator has radicals, so we interpret the problem to mean "rationalize the numerator".
       \\[
         \frac{2x}{\sqrt{x^2 + x} + \sqrt{x^2 - x}}
       \\]
