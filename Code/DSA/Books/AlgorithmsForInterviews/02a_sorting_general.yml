@@ -74,7 +74,28 @@ notes:
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 24.
     Python: |
-      First, split the data to chunks each small enough to sort in RAM; sort each chunk, saving results to disk; then create streams, one for each of the saved sorted chunks. I model this below:
+      Rough idea:
+      - Split data to chunks each sortable in RAM.
+      - Sort each chunk, saving results to disk.
+      - Create input streams, one for each saved chunk.
+      - Create output stream to save final sorted data.
+      - Merge input streams to output stream.
+
+      Issues and assumptions:
+      - Distribution of 100-byte strings may not be known.
+        - Otherwise, as AfI authors point out, it would be possible to bin each datum to chunks, sort each chunk, then concatenate chunks for result. This is faster but risky unless distribution is guaranteed, rather than approximate.
+      - Assume stable sort required.
+      - OS/filesystem limits on number of open streams; assume there are "enough".
+        - If can't open enough, can be addressed with multiple iterations.
+
+      Actual numbers:
+      - Assume 64GB RAM. For safety, will limit memory requirements to approximately 32GB.
+      - Assume per-chunk mergesort for stability, so will need room for out-of-place sort; can then mergesort 16GB at a time. Call it 10GB.
+      - We have 100TB to sort, so we'll need 10k chunks. Well within limits of current Linux kernels for desktops/servers.
+
+      ### Code:
+
+      First I model chunking the data, mergesorting the chunks, and loading input streams:
 
       ```{python }
       import random
@@ -97,7 +118,7 @@ notes:
       streams = (mergesort(chunk) for chunk in chunks)
       ```
 
-      Merge these streams using the following functions:
+      I'll merge these streams using the following functions:
 
       ```{python }
       from heapq import heappush, heappop
@@ -116,7 +137,7 @@ notes:
         return out
       ```
 
-      I model this process below. First I create an output stream:
+      I model the merge below, starting with a model output stream:
 
       ```{python }
       import io
@@ -128,13 +149,13 @@ notes:
       outfile = StringIOStream()
       ```
 
-      Then merge the input streams to the output stream:
+      I merge the input streams to the output stream:
 
       ```{python }
       merge(outfile, *streams)
       ```
 
-      I check the results below:
+      I check the toy results below:
 
       ```{python }
       sorted = outfile.getvalue().split()
@@ -142,10 +163,6 @@ notes:
       print("first twenty sorted words:")
       print(sorted[:20])
       ```
-
-      Note: it may happen that there would be too many streams for available memory, in which case I would recursively merge as many streams as can be created, saving intermediate results to disk.
-
-      (Note that I have concrete version of this in problem _02.10 Merging Sorted Arrays_.)
 
 - id: 1536203068551
   fields:
