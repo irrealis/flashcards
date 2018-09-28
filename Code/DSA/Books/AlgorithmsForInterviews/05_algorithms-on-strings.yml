@@ -44,6 +44,8 @@ notes:
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 53.
 - id: 1536205548087
+  extraTags:
+  - Done-Python
   fields:
     Front: |
       ## 05.04: Test rotation
@@ -53,6 +55,45 @@ notes:
       Develop a linear-time algorithm for checking if a string \\(S\\) is a cyclic rotation of another string \\(R\\). (For example, _arc_ is a cyclic rotation of _car_.)
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 53.
+    Python: |
+      - Case:
+          - Positive: `arc` and `car`
+          - Positive: `barfu` and `fubar`
+          - Negative: `barfoo` and `fubar`
+      - Ideas:
+          - Simplification:
+              - Assume they have the same length. (Rotation must have same length.)
+              - Lowercase, not punctuation, single word.
+              - Length of `arc` evaluates to 3.
+
+      ```{python }
+      import sys
+
+      def is_rotation(S, R):
+          failed = False
+          si = ri = 0
+          sn, rn = len(S), len(R)
+          if sn != rn: failed = True
+          while not failed:
+              if rn <= ri and 0 == si: failed = True
+              elif S[si % sn] == R[ri % rn]: si += 1
+              else: si = 0
+              ri += 1
+              if sn <= si: break
+          return not failed
+
+      S = "barfo"
+      R = "fubar"
+      print(is_rotation("barfu", "fubar"))
+      print(is_rotation("fubar", "barfu"))
+      print(not is_rotation("barfuu", "fubar"))
+      print(not is_rotation("barfu", "fubarr"))
+      print(not is_rotation("barfo", "fubar"))
+      print(is_rotation("arc", "car"))
+      print(is_rotation("car", "arc"))
+      print(not is_rotation("carc", "arc"))
+      print(not is_rotation("car", "arca"))
+      ```
 - id: 1536205548426
   fields:
     Front: |
