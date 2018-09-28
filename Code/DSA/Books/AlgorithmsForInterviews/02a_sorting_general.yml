@@ -91,7 +91,12 @@ notes:
       Actual numbers:
       - Assume 64GB RAM. For safety, will limit memory requirements to approximately 32GB.
       - Assume per-chunk mergesort for stability, so will need room for out-of-place sort; can then mergesort 16GB at a time. Call it 10GB.
-      - We have 100TB to sort, so we'll need 10k chunks. Well within limits of current Linux kernels for desktops/servers.
+      - We have 100TB to sort, so we'll need 10,000 chunks. Well within limits of current Linux kernels for desktops/servers (my computer's upper limit is about three million file descriptors).
+
+      The file i/o will be awful. My system typically maxes out at around 125MB/s for one file. Let's be pessimistic and guess approximately 25MB/s for the merge. So this would take perhaps 50 days to read and sort chunks from the original file, and another 100 to merge the interim files.
+
+      Using a fast SSD NVMe M.2 drive could bring initial chunk sorts down a few days. Using multiple such drives on four different buses could further reduce this to less than a day. I think it might then be feasible to merge in another five to ten days. So perhaps one to two weeks for the entire sort.
+
 
       ### Code:
 
