@@ -15,6 +15,8 @@ defaults:
   markdownTabLength: 4
 notes:
 - id: 1536205245600
+  extraTags:
+  - Done-Python
   fields:
     Front: |
       ## 03.01: Longest nondecreasing subsequence
@@ -24,6 +26,49 @@ notes:
       Given an array of integers \\(A\\) of length \\(n\\), find the longest sequence \\(\langle i_1, \ldots, i_k \rangle\\) such that \\(i_j < i_{j+1}\\) and \\(A[i_j] \leq A[i_{j+1}\\) for any \\(j \in [1 , k - 1]\\).
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 31.
+    Python: |
+      - Clarification: for \\(A=(1,2,3,0,3,1,4)\\) the longest subsequences would be \\((1,2,3,3,4)\\) with corresponding index sequence \\(<0,1,2,4,6>\\). (Zero-based indexing.)
+      - This feels like a dynamic programming problem.
+          - Every length-1 subsequence is nondecreasing.
+              - Each has its own starting index.
+          - If we have a nondecreasing length-\\(k\\) subsequence with \\(1<k\\), then all of its subsequences are nondecreasing. Can we go in the other direction?
+      - Idea:
+          - Each position has at least one NS ending there.
+          - For each position, keep a list `S` of the longest NSs ending there. Represent each such NS as a list of indices.
+          - Create a sort-order array `S` for `A`.
+          - Iterate `i, a_i` through `A`.
+              - Iterate `j` through `reversed(range(i))`.
+                  - If `A[j] <= a_i` then each NS at `S[j]` can be appended to `S[i]` to create a new, longer NS. Build this list. Then sort by length. Find the max length. Keep the NSs with max length. Store at `S[j]`.
+
+      ```{python }
+      import random
+      #A = (1,2,3,0,3,1,4)
+      #A = [random.randint(0,10) for i in range(20)]
+      A = [2, 5, 3, 1, 10, 10, 10, 6, 9, 7, 9, 6, 6, 10, 0, 4, 6, 3, 5, 8]
+
+      idx_seqs_list = []
+      for i, a_i in enumerate(A):
+          idx_seq_i = [i]
+          idx_seqs = [idx_seq_i]
+          for j in reversed(range(i)):
+              if A[j] <= a_i:
+                  idx_seqs_j = idx_seqs_list[j]
+                  for idx_seq_j in idx_seqs_j: idx_seqs.append(idx_seq_j + idx_seq_i)
+          idx_seqs_list.append(idx_seqs)
+
+      max_l = 0
+      max_idx_seqs = []
+      for idx_seqs in idx_seqs_list:
+          for idx_seq in idx_seqs:
+              l = len(idx_seq)
+              if max_l < l: max_l, max_idx_seqs = l, [idx_seq]
+              elif max_l == l: max_idx_seqs.append(idx_seq)
+
+      max_subseqs = tuple(tuple(A[i] for i in idx_seq) for idx_seq in max_idx_seqs)
+      #seqs_list = [[[A[i] for i in idx_seq] for idx_seq in idx_seqs] for idx_seqs in idx_seqs_list]
+
+      print(max_subseqs)
+      ```
 - id: 1536205245660
   fields:
     Front: |
