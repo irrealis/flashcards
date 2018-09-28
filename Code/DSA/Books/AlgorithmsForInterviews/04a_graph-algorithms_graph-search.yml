@@ -15,6 +15,8 @@ defaults:
   markdownTabLength: 4
 notes:
 - id: 1536205361426
+  extraTags:
+  - Done-Python
   fields:
     Front: |
       ## 04.01: Searching a maze
@@ -24,6 +26,77 @@ notes:
       Given a two-dimensional matrix of black and white entries representing a maze with designated entrance and exit points, find a path from the entrance to the exit, if one exists.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 42-3.
+    Python: |
+      ```{python }
+      # First define maze as described in problem.
+      pixels = (
+          (0,1,0,0,0,0,0,0,0,0,0,0),
+          (0,1,1,1,1,1,1,1,1,1,1,0),
+          (0,1,0,0,0,0,0,0,1,0,0,0),
+          (0,1,0,1,1,1,1,1,1,1,1,0),
+          (0,1,0,1,0,0,0,0,0,0,1,0),
+          (0,1,0,1,0,1,1,1,1,1,1,0),
+          (0,1,1,1,0,0,1,0,0,0,1,0),
+          (0,1,0,1,1,1,1,0,1,0,0,0),
+          (0,1,0,0,1,0,1,1,1,1,1,0),
+          (0,1,0,1,1,0,0,0,0,0,1,0),
+          (0,1,1,1,0,0,1,1,1,1,1,0),
+          (0,0,0,0,0,0,1,0,0,0,0,0),
+      )
+      entrance = (0,1)
+      exit = (11,6)
+
+      # Then build representation as graph (adjacency lists).
+      # Iterate i, row across rows. Iterate j, pixel across pixels.
+      # For each white pixel, add adjacency for white pixels above/left/below/right.
+      graph = dict()
+      for i, row in enumerate(pixels):
+          for j, pixel in enumerate(row):
+              vertex = i,j
+              if pixel:
+                  neighbors = graph.get(vertex, list())
+                  up, left, down, right = (i-1,j), (i,j-1), (i+1,j), (i,j+1)
+                  for neighbor in up, left, down, right:
+                      k,l = neighbor
+                      if 0 <= k < len(pixels) and 0 <= l < len(row) and pixels[k][l]:
+                          edge_weight = 1
+                          neighbors.append((neighbor, edge_weight))
+                  graph[vertex] = neighbors
+
+      # Next, DFS Dijkstra to traverse from entrance to exit.
+      # Set initial vertex, with no previous vertex and zero path length.
+      to_do = [entrance]
+      visited = {entrance: (None, 0)}
+      while to_do:
+          vertex = to_do.pop()
+          _, path_length = visited[vertex]
+          for neighbor, edge_weight in graph[vertex]:
+              # Note: mark and push/enqueue neighbor ASAP.
+              if not neighbor in visited:
+                  visited[neighbor] = (vertex, path_length + edge_weight)
+                  to_do.append(neighbor)
+              else:
+                  _, previous_path_length = visited[neighbor]
+                  new_path_length = path_length + edge_weight
+                  if new_path_length < previous_path_length:
+                      visited[neighbor] = (vertex, new_path_length)
+
+      # Print path if found.
+      if exit in visited:
+          # Walk backward to predecessor to reconstruct path.
+          print("found path:")
+          path = list()
+          vertex = exit
+          while vertex:
+              predecessor, path_length = visited[vertex]
+              path.append((vertex, path_length))
+              vertex = predecessor
+
+          # Play path forward.
+          while path:
+              vertex, path_length = path.pop()
+              print("vertex:", vertex, " path length:", path_length)
+      ```
 - id: 1536205361463
   fields:
     Front: |
