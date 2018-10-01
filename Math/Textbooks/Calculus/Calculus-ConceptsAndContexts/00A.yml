@@ -12,7 +12,7 @@ notes:
 - id: 1537323241238
   fields:
     Front: |
-      ## CCAC 00.A 01a: Evaluate without using a calculator.
+      ## CCAC 00.A (Algebra) 01a: Evaluate without using a calculator.
       \\[
       (-3)^4
       \\]
@@ -23,7 +23,7 @@ notes:
 - id: 1537323241290
   fields:
     Front: |
-      ## CCAC 00.A 01b: Evaluate without using a calculator.
+      ## CCAC 00.A (Algebra) 01b: Evaluate without using a calculator.
       \\[
       -3^4
       \\]
@@ -34,7 +34,7 @@ notes:
 - id: 1537323241394
   fields:
     Front: |
-      ## CCAC 00.A 01c: Evaluate without using a calculator.
+      ## CCAC 00.A (Algebra) 01c: Evaluate without using a calculator.
       \\[
       3^{-4}
       \\]
@@ -45,7 +45,7 @@ notes:
 - id: 1537323241441
   fields:
     Front: |
-      ## CCAC 00.A 01d: Evaluate without using a calculator.
+      ## CCAC 00.A (Algebra) 01d: Evaluate without using a calculator.
       \\[
       \frac{5^{23}}{5^{21}}
       \\]
@@ -56,7 +56,7 @@ notes:
 - id: 1537323241484
   fields:
     Front: |
-      ## CCAC 00.A 01e: Evaluate without using a calculator.
+      ## CCAC 00.A (Algebra) 01e: Evaluate without using a calculator.
       \\[
       \left(\frac{2}{3}\right)^{-2}
       \\]
@@ -67,7 +67,7 @@ notes:
 - id: 1537323241537
   fields:
     Front: |
-      ## CCAC 00.A 01f: Evaluate without using a calculator.
+      ## CCAC 00.A (Algebra) 01f: Evaluate without using a calculator.
       \\[
       16^{-3/4}
       \\]
@@ -78,7 +78,7 @@ notes:
 - id: 1537323988645
   fields:
     Front: |
-      ## CCAC 00.A 02a: Simplify, answering without negative exponents.
+      ## CCAC 00.A (Algebra) 02a: Simplify, answering without negative exponents.
       \\[
       \sqrt{200} - \sqrt{32}
       \\]
@@ -89,7 +89,7 @@ notes:
 - id: 1537323988803
   fields:
     Front: |
-      ## CCAC 00.A 02b: Simplify, answering without negative exponents.
+      ## CCAC 00.A (Algebra) 02b: Simplify, answering without negative exponents.
       \\[
       (3 a^3 b^3)(4 a b^2)^2
       \\]
@@ -100,7 +100,7 @@ notes:
 - id: 1537323989013
   fields:
     Front: |
-      ## CCAC 00.A 02c: Simplify, answering without negative exponents.
+      ## CCAC 00.A (Algebra) 02c: Simplify, answering without negative exponents.
       \\[
       \left(
         \frac{3 x^{3/2} y^3}{x^2 y^{-1/2}}
