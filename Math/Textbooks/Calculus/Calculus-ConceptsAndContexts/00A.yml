@@ -220,3 +220,14 @@ notes:
       \\[
         3x^{-1/2}(x - 1)(x - 2)
       \\]
+- id: 1538436108842
+  fields:
+    Front: |
+      ## CCAC 00.A (Algebra) 04f: Factor.
+      \\[
+        x^3y - 4xy
+      \\]
+    Back: |
+      \\[
+        xy(x + 2)(x - 2)
+      \\]
