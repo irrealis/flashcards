@@ -382,3 +382,14 @@ notes:
       \\[
         x = \pm 1 \pm \sqrt{2}
       \\]
+- id: 1538439744562
+  fields:
+    Front: |
+      ## CCAC 00.A (Algebra) 08f: Find real solutions.
+      \\[
+        3|x - 4| = 10
+      \\]
+    Back: |
+      \\[
+        x = \frac{22}{3}, \frac{2}{3}
+      \\]
