@@ -360,3 +360,14 @@ notes:
       \\[
         x = -3,4
       \\]
+- id: 1538439744379
+  fields:
+    Front: |
+      ## CCAC 00.A (Algebra) 08d: Find real solutions.
+      \\[
+        2x^2 + 4x + 1 = 0
+      \\]
+    Back: |
+      \\[
+        x = -1 \pm \frac{1}{2}\sqrt{2}
+      \\]
