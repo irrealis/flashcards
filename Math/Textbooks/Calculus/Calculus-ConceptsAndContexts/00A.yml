@@ -143,3 +143,14 @@ notes:
       \\[
         a - b
       \\]
+- id: 1538436108262
+  fields:
+    Front: |
+      ## CCAC 00.A (Algebra) 03d: Expand and simplify.
+      \\[
+        (2x + 3)^2
+      \\]
+    Back: |
+      \\[
+        4x^2 + 12x + 9
+      \\]
