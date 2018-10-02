@@ -187,3 +187,14 @@ notes:
       \\[
         (2x - 3)(x + 4)
       \\]
+- id: 1538436108593
+  fields:
+    Front: |
+      ## CCAC 00.A (Algebra) 04c: Factor.
+      \\[
+        x^3 - 3x^2 - 4x + 12
+      \\]
+    Back: |
+      \\[
+        (x-2)(x-3)(x+2)
+      \\]
