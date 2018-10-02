@@ -198,3 +198,14 @@ notes:
       \\[
         (x-2)(x-3)(x+2)
       \\]
+- id: 1538436108691
+  fields:
+    Front: |
+      ## CCAC 00.A (Algebra) 04d: Factor.
+      \\[
+        x^4 + 27x
+      \\]
+    Back: |
+      \\[
+        x(x + 3)(x^2 - 3x + 9)
+      \\]
