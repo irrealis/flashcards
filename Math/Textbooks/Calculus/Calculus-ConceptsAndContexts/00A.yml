@@ -255,3 +255,16 @@ notes:
       \\[
         \frac{x - 1}{x - 3}
       \\]
+- id: 1538437030740
+  fields:
+    Front: |
+      ## CCAC 00.A (Algebra) 05c: Simplify.
+      \\[
+        \frac{x^2}{x^2 - 4}
+        -
+        \frac{x + 1}{x + 2}
+      \\]
+    Back: |
+      \\[
+        \frac{1}{x - 2}
+      \\]
