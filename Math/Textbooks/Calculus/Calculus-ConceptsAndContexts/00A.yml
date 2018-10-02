@@ -132,3 +132,14 @@ notes:
       \\[
         4x^2 + 7x - 15
       \\]
+- id: 1538434782737
+  fields:
+    Front: |
+      ## CCAC 00.A (Algebra) 03c: Expand and simplify.
+      \\[
+        (\sqrt{a} + \sqrt{b})(\sqrt{a} - \sqrt{b})
+      \\]
+    Back: |
+      \\[
+        a - b
+      \\]
