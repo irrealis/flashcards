@@ -283,3 +283,14 @@ notes:
       \\[
         -(x + y)
       \\]
+- id: 1538437520588
+  fields:
+    Front: |
+      ## CCAC 00.A (Algebra) 06a: Rationalize and simplify.
+      \\[
+        \frac{\sqrt{10}}{\sqrt{5} - 2}
+      \\]
+    Back: |
+      \\[
+        5\sqrt{2} + 2\sqrt{10}
+      \\]
