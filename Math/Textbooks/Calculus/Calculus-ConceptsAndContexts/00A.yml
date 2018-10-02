@@ -327,3 +327,14 @@ notes:
       \\[
         2(x - 3)^2 - 7
       \\]
+- id: 1538439744031
+  fields:
+    Front: |
+      ## CCAC 00.A (Algebra) 08a: Find real solutions.
+      \\[
+        x + 5 = 14 - \frac{1}{2}x
+      \\]
+    Back: |
+      \\[
+        x = 6
+      \\]
