@@ -393,3 +393,14 @@ notes:
       \\[
         x = \frac{22}{3}, \frac{2}{3}
       \\]
+- id: 1538439744647
+  fields:
+    Front: |
+      ## CCAC 00.A (Algebra) 08g: Find real solutions.
+      \\[
+        2x(4 - x)^{-1/2} - 3\sqrt{4 - x} = 0
+      \\]
+    Back: |
+      \\[
+        x = \frac{12}{5}
+      \\]
