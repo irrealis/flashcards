@@ -338,3 +338,14 @@ notes:
       \\[
         x = 6
       \\]
+- id: 1538439744147
+  fields:
+    Front: |
+      ## CCAC 00.A (Algebra) 08b: Find real solutions.
+      \\[
+        \frac{2x}{x + 1} = \frac{2x - 1}{x}
+      \\]
+    Back: |
+      \\[
+        x = 1
+      \\]
