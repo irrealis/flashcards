@@ -268,3 +268,18 @@ notes:
       \\[
         \frac{1}{x - 2}
       \\]
+- id: 1538437030873
+  fields:
+    Front: |
+      ## CCAC 00.A (Algebra) 05d: Simplify.
+      \\[
+        \frac{
+          \frac{y}{x} - \frac{x}{y}
+        }{
+          \frac{1}{y} - \frac{1}{x}
+        }
+      \\]
+    Back: |
+      \\[
+        -(x + y)
+      \\]
