@@ -305,3 +305,14 @@ notes:
       \\[
         \frac{1}{\sqrt{4 + h} + 2}
       \\]
+- id: 1538437935171
+  fields:
+    Front: |
+      ## CCAC 00.A (Algebra) 07a: Rewrite by completing the square.
+      \\[
+        x^2 + x + 1
+      \\]
+    Back: |
+      \\[
+        \left(x + \frac{1}{2} \right)^2 + \frac{3}{4}
+      \\]
