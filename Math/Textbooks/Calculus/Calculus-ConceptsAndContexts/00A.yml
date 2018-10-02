@@ -165,3 +165,14 @@ notes:
       \\[
         x^3 + 6x^2 + 12x + 8
       \\]
+- id: 1538436108425
+  fields:
+    Front: |
+      ## CCAC 00.A (Algebra) 04a: Factor.
+      \\[
+        4x^2 - 25
+      \\]
+    Back: |
+      \\[
+        (2x + 5)(2x - 5)
+      \\]
