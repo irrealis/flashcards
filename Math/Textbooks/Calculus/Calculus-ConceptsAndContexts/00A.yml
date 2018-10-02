@@ -371,3 +371,14 @@ notes:
       \\[
         x = -1 \pm \frac{1}{2}\sqrt{2}
       \\]
+- id: 1538439744466
+  fields:
+    Front: |
+      ## CCAC 00.A (Algebra) 08e: Find real solutions.
+      \\[
+        x^4 - 3x^2 + 2 = 0
+      \\]
+    Back: |
+      \\[
+        x = \pm 1 \pm \sqrt{2}
+      \\]
