@@ -242,3 +242,16 @@ notes:
       \\[
         \frac{x + 2}{x - 2}
       \\]
+- id: 1538437030624
+  fields:
+    Front: |
+      ## CCAC 00.A (Algebra) 05b: Simplify.
+      \\[
+        \frac{2x^2 - x - 1}{x^2 - 9}
+        \cdot
+        \frac{x + 3}{2x + 1}
+      \\]
+    Back: |
+      \\[
+        \frac{x - 1}{x - 3}
+      \\]
