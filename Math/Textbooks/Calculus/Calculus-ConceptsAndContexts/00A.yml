@@ -231,3 +231,14 @@ notes:
       \\[
         xy(x + 2)(x - 2)
       \\]
+- id: 1538437030478
+  fields:
+    Front: |
+      ## CCAC 00.A (Algebra) 05a: Simplify.
+      \\[
+        \frac{x^2 + 3x + 2}{x^2 - x - 2}
+      \\]
+    Back: |
+      \\[
+        \frac{x + 2}{x - 2}
+      \\]
