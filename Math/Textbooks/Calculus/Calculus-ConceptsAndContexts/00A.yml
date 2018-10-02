@@ -294,3 +294,14 @@ notes:
       \\[
         5\sqrt{2} + 2\sqrt{10}
       \\]
+- id: 1538437520688
+  fields:
+    Front: |
+      ## CCAC 00.A (Algebra) 06b: Rationalize and simplify.
+      \\[
+        \frac{\sqrt{4 + h} - 2}{h}
+      \\]
+    Back: |
+      \\[
+        \frac{1}{\sqrt{4 + h} + 2}
+      \\]
