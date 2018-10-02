@@ -176,3 +176,14 @@ notes:
       \\[
         (2x + 5)(2x - 5)
       \\]
+- id: 1538436108518
+  fields:
+    Front: |
+      ## CCAC 00.A (Algebra) 04b: Factor.
+      \\[
+        2x^2 + 5x - 12
+      \\]
+    Back: |
+      \\[
+        (2x - 3)(x + 4)
+      \\]
