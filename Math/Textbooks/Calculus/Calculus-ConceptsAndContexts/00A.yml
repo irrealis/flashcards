@@ -110,3 +110,14 @@ notes:
       \\[
       \frac{x}{9 y^7}
       \\]
+- id: 1538434782588
+  fields:
+    Front: |
+      ## CCAC 00.A (Algebra) 03a: Expand and simplify.
+      \\[
+        3(x + 6) + 4(2x - 5)
+      \\]
+    Back: |
+      \\[
+        11x -2
+      \\]
