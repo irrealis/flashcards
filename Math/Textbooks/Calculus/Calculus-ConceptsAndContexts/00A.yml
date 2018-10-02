@@ -349,3 +349,14 @@ notes:
       \\[
         x = 1
       \\]
+- id: 1538439744253
+  fields:
+    Front: |
+      ## CCAC 00.A (Algebra) 08c: Find real solutions.
+      \\[
+        x^2 - x - 12 = 0
+      \\]
+    Back: |
+      \\[
+        x = -3,4
+      \\]
