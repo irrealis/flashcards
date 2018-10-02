@@ -121,3 +121,14 @@ notes:
       \\[
         11x -2
       \\]
+- id: 1538434782665
+  fields:
+    Front: |
+      ## CCAC 00.A (Algebra) 03b: Expand and simplify.
+      \\[
+        (x + 3)(4x - 5)
+      \\]
+    Back: |
+      \\[
+        4x^2 + 7x - 15
+      \\]
