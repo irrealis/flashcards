@@ -1,0 +1,1358 @@
+defaults:
+  deckName: Staging
+  modelName: Basic
+  tags:
+  - StandardizedTests
+  - GeneralGRE
+  - GRE-AnalyticalWriting
+  - GRE-AnalyzeAnIssue
+  markdownTabLength: 2
+notes:
+- id: 1539136320562
+  extraTags:
+  - GRE-IssueResponseType1
+  fields:
+    Front: |
+      People who are the most deeply committed to an idea or policy are also the most critical of it.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
+- id: 1539136320612
+  extraTags:
+  - GRE-IssueResponseType2
+  - SRET1-IssueTask17
+  fields:
+    Front: |
+      People should undertake risky action only after they have carefully considered its consequences.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.
+- id: 1539136320712
+  extraTags:
+  - GRE-IssueResponseType5
+  - SRET2-IssueTask25
+  fields:
+    Front: |
+      Claim: Major policy decisions should always be left to politicians and other government experts.
+
+      Reason: Politicians and other government experts are more informed and thus have better judgment and perspective than do members of the general public.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.
+- id: 1539136320787
+  extraTags:
+  - GRE-IssueResponseType5
+  - SRET2-IssueTask17
+  fields:
+    Front: |
+      Claim: Any piece of information referred to as a fact should be mistrusted, since it may well be proven false in the future.
+
+      Reason: Much of the information that people assume is factual actually turns out to be inaccurate.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.
+- id: 1539136320862
+  extraTags:
+  - GRE-IssueResponseType1
+  - SRET1-IssueTask28
+  fields:
+    Front: |
+      When old buildings stand on ground that modern planners feel could be better used for modern purposes, modern development should be given precedence over the preservation of historic buildings.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
+- id: 1539136320914
+  extraTags:
+  - GRE-IssueResponseType2
+  - SRET2-IssueTask04
+  fields:
+    Front: |
+      Society should identify those children who have special talents and provide training for them at an early age to develop their talents.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.
+- id: 1539136320993
+  extraTags:
+  - GRE-IssueResponseType1
+  fields:
+    Front: |
+      People's attitudes are determined more by their immediate situation or surroundings than by society as a whole.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
+- id: 1539136321061
+  extraTags:
+  - GRE-IssueResponseType1
+  fields:
+    Front: |
+      In any situation, progress requires discussion among people who have contrasting points of view.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
+- id: 1539136321143
+  extraTags:
+  - GRE-IssueResponseType1
+  - SRET1-IssueTask24
+  fields:
+    Front: |
+      The best ideas arise from a passionate interest in commonplace things.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
+- id: 1539136321212
+  extraTags:
+  - GRE-IssueResponseType1
+  - SRET1-IssueTask05
+  fields:
+    Front: |
+      As we acquire more knowledge, things do not become more comprehensible, but more complex and mysterious.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
+- id: 1539136321313
+  extraTags:
+  - GRE-IssueResponseType1
+  - SRET2-IssueTask12
+  fields:
+    Front: |
+      The human mind will always be superior to machines because machines are only tools of human minds.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
+- id: 1539136321363
+  extraTags:
+  - GRE-IssueResponseType1
+  fields:
+    Front: |
+      Students should always question what they are taught instead of accepting it passively.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
+- id: 1539136321443
+  extraTags:
+  - GRE-IssueResponseType1
+  fields:
+    Front: |
+      Many important discoveries or creations are accidental: it is usually while seeking the answer to one question that we come across the answer to another.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
+- id: 1539136321513
+  extraTags:
+  - GRE-IssueResponseType1
+  fields:
+    Front: |
+      The well-being of a society is enhanced when many of its people question authority.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
+- id: 1539136321611
+  extraTags:
+  - GRE-IssueResponseType1
+  - SRET2-IssueTask26
+  fields:
+    Front: |
+      It is more harmful to compromise one's own beliefs than to adhere to them.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
+- id: 1539136321693
+  extraTags:
+  - GRE-IssueResponseType1
+  - SRET1-IssueTask06
+  fields:
+    Front: |
+      To understand the most important characteristics of a society, one must study its major cities.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
+- id: 1539136321763
+  extraTags:
+  - GRE-IssueResponseType1
+  - SRET1-IssueTask19
+  fields:
+    Front: |
+      The most effective way to understand contemporary culture is to analyze the trends of its youth.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
+- id: 1539136321843
+  extraTags:
+  - GRE-IssueResponseType1
+  - SRET2-IssueTask21
+  fields:
+    Front: |
+      Unfortunately, in contemporary society, creating an appealing image has become more important than the reality or truth behind that image.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
+- id: 1539136321912
+  extraTags:
+  - GRE-IssueResponseType1
+  - SRET1-IssueTask18
+  fields:
+    Front: |
+      Leaders are created by the demands that are placed on them.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
+- id: 1539136322013
+  extraTags:
+  - GRE-IssueResponseType1
+  fields:
+    Front: |
+      The greatness of individuals can be decided only by those who live after them, not by their contemporaries.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
+- id: 1539136322093
+  extraTags:
+  - GRE-IssueResponseType1
+  - SRET2-IssueTask01
+  fields:
+    Front: |
+      The luxuries and conveniences of contemporary life prevent people from developing into truly strong and independent individuals.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
+- id: 1539136322161
+  extraTags:
+  - GRE-IssueResponseType1
+  fields:
+    Front: |
+      The main benefit of the study of history is to dispel the illusion that people living now are significantly different from people who lived in earlier times.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
+- id: 1539136322244
+  extraTags:
+  - GRE-IssueResponseType1
+  fields:
+    Front: |
+      No field of study can advance significantly unless it incorporates knowledge and experience from outside that field.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
+- id: 1539136322343
+  extraTags:
+  - GRE-IssueResponseType5
+  fields:
+    Front: |
+      Claim: Imagination is a more valuable asset than experience.
+
+      Reason: People who lack experience are free to imagine what is possible without the constraints of established habits and attitudes.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.
+- id: 1539136322413
+  extraTags:
+  - GRE-IssueResponseType1
+  - SRET1-IssueTask03
+  fields:
+    Front: |
+      In any field of inquiry, the beginner is more likely than the expert to make important contributions.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
+- id: 1539136322512
+  extraTags:
+  - GRE-IssueResponseType1
+  - SRET1-IssueTask01
+  fields:
+    Front: |
+      In any field of endeavor, it is impossible to make a significant contribution without first being strongly influenced by past achievements within that field.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
+- id: 1539136322562
+  extraTags:
+  - GRE-IssueResponseType4
+  fields:
+    Front: |
+      Some people argue that successful leaders in government, industry, or other fields must be highly competitive. Other people claim that in order to be successful, a leader must be willing and able to cooperate with others.
+
+      Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented.
+- id: 1539136322662
+  extraTags:
+  - GRE-IssueResponseType3
+  fields:
+    Front: |
+      The best way for a society to prepare its young people for leadership in government, industry, or other fields is by instilling in them a sense of cooperation, not competition.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.
+- id: 1539136322744
+  extraTags:
+  - GRE-IssueResponseType5
+  - SRET2-IssueTask19
+  fields:
+    Front: |
+      Claim: Many problems of modern society cannot be solved by laws and the legal system.
+
+      Reason: Laws cannot change what is in people's hearts or minds.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.
+- id: 1539136322812
+  extraTags:
+  - GRE-IssueResponseType3
+  fields:
+    Front: |
+      Every individual in a society has a responsibility to obey just laws and to disobey and resist unjust laws.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.
+- id: 1539136322893
+  extraTags:
+  - GRE-IssueResponseType1
+  fields:
+    Front: |
+      Laws should be flexible enough to take account of various circumstances, times, and places.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
+- id: 1539136322962
+  extraTags:
+  - GRE-IssueResponseType1
+  fields:
+    Front: |
+      The best test of an argument is the argument's ability to convince someone with an opposing viewpoint.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
+- id: 1539136323062
+  extraTags:
+  - GRE-IssueResponseType5
+  - SRET2-IssueTask15
+  fields:
+    Front: |
+      Claim: The best test of an argument is its ability to convince someone with an opposing viewpoint.
+
+      Reason: Only by being forced to defend an idea against the doubts and contrasting views of others does one really discover the value of that idea.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.
+- id: 1539136323138
+  extraTags:
+  - GRE-IssueResponseType3
+  - SRET1-IssueTask30
+  fields:
+    Front: |
+      The best way to understand the character of a society is to examine the character of the men and women that the society chooses as its heroes or its role models.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.
+- id: 1539136323212
+  extraTags:
+  - GRE-IssueResponseType5
+  fields:
+    Front: |
+      Claim: The best way to understand the character of a society is to examine the character of the men and women that the society chooses as its heroes or its role models.
+
+      Reason: Heroes and role models reveal a society's highest ideals.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.
+- id: 1539136323293
+  extraTags:
+  - GRE-IssueResponseType3
+  - SRET1-IssueTask22
+  fields:
+    Front: |
+      People's behavior is largely determined by forces not of their own making.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.
+- id: 1539136323376
+  extraTags:
+  - GRE-IssueResponseType1
+  fields:
+    Front: |
+      People's behavior is largely determined by forces not of their own making.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
+- id: 1539136323461
+  extraTags:
+  - GRE-IssueResponseType3
+  - SRET1-IssueTask26
+  fields:
+    Front: |
+      Critical judgment of work in any given field has little value unless it comes from someone who is an expert in that field.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.
+- id: 1539136323511
+  extraTags:
+  - GRE-IssueResponseType1
+  fields:
+    Front: |
+      Critical judgment of work in any given field has little value unless it comes from someone who is an expert in that field.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
+- id: 1539136323594
+  extraTags:
+  - GRE-IssueResponseType4
+  fields:
+    Front: |
+      Some people believe that society should try to save every plant and animal species, despite the expense to humans in effort, time, and financial well-being. Others believe that society need not make extraordinary efforts, especially at a great cost in money and jobs, to save endangered species.
+
+      Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented.
+- id: 1539136323662
+  extraTags:
+  - GRE-IssueResponseType1
+  fields:
+    Front: |
+      There is little justification for society to make extraordinary efforts --- especially at a great cost in money and jobs --- to save endangered animal or plant species.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
+- id: 1539136323762
+  extraTags:
+  - GRE-IssueResponseType6
+  fields:
+    Front: |
+      Society should make efforts to save endangered species only if the potential extinction of those species is the result of human activities.
+
+      Write a response in which you discuss your views on the policy and explain your reasoning for the position you take. In developing and supporting your position, you should consider the possible consequences of implementing the policy and explain how these consequences shape your position.
+- id: 1539136323812
+  extraTags:
+  - GRE-IssueResponseType3
+  fields:
+    Front: |
+      In most professions and academic fields, imagination is more important than knowledge.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.
+- id: 1539136323912
+  extraTags:
+  - GRE-IssueResponseType1
+  fields:
+    Front: |
+      In most professions and academic fields, imagination is more important than knowledge.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
+- id: 1539136323988
+  extraTags:
+  - GRE-IssueResponseType2
+  fields:
+    Front: |
+      Teachers' salaries should be based on the academic performance of their students.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.
+- id: 1539136324061
+  extraTags:
+  - GRE-IssueResponseType3
+  - SRET1-IssueTask10
+  fields:
+    Front: |
+      Teachers' salaries should be based on their students' academic performance.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.
+- id: 1539136324137
+  extraTags:
+  - GRE-IssueResponseType1
+  - SRET1-IssueTask23
+  fields:
+    Front: |
+      Although innovations such as video, computers, and the Internet seem to offer schools improved methods for instructing students, these technologies all too often distract from real learning.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
+- id: 1539136324211
+  extraTags:
+  - GRE-IssueResponseType1
+  fields:
+    Front: |
+      Learning is primarily a matter of personal discipline; students cannot be motivated by school or college alone.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
+- id: 1539136324293
+  extraTags:
+  - GRE-IssueResponseType1
+  - SRET2-IssueTask28
+  fields:
+    Front: |
+      True success can be measured primarily in terms of the goals one sets for oneself.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
+- id: 1539136324362
+  extraTags:
+  - GRE-IssueResponseType1
+  - SRET2-IssueTask05
+  fields:
+    Front: |
+      It is primarily through our identification with social groups that we define ourselves.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
+- id: 1539136324462
+  extraTags:
+  - GRE-IssueResponseType1
+  fields:
+    Front: |
+      It is primarily in cities that a nation's cultural traditions are generated and preserved.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
+- id: 1539136324512
+  extraTags:
+  - GRE-IssueResponseType5
+  - SRET1-IssueTask07
+  fields:
+    Front: |
+      Claim: Governments must ensure that their major cities receive the financial support they need in order to thrive.
+
+      Reason: It is primarily in cities that a nation's cultural traditions are preserved and generated.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.
+- id: 1539136324593
+  extraTags:
+  - GRE-IssueResponseType3
+  fields:
+    Front: |
+      All parents should be required to volunteer time to their children's schools.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.
+- id: 1539136324662
+  extraTags:
+  - GRE-IssueResponseType2
+  - SRET1-IssueTask20
+  fields:
+    Front: |
+      All parents should be required to volunteer time to their children's schools.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.
+- id: 1539136324763
+  extraTags:
+  - GRE-IssueResponseType1
+  - SRET2-IssueTask20
+  fields:
+    Front: |
+      The primary goal of technological advancement should be to increase people's efficiency so that they have more leisure time.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
+- id: 1539136324843
+  extraTags:
+  - GRE-IssueResponseType1
+  - SRET1-IssueTask14
+  fields:
+    Front: |
+      If a goal is worthy, then any means taken to attain it are justifiable.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
+- id: 1539136324915
+  extraTags:
+  - GRE-IssueResponseType4
+  fields:
+    Front: |
+      Some people claim that the goal of politics should be the pursuit of an ideal. Others argue that the goal should be finding common ground and reaching reasonable consensus.
+
+      Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented.
+- id: 1539136324994
+  extraTags:
+  - GRE-IssueResponseType2
+  - SRET1-IssueTask16
+  fields:
+    Front: |
+      Politicians should pursue common ground and reasonable consensus rather than elusive ideals.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.
+- id: 1539136325061
+  extraTags:
+  - GRE-IssueResponseType1
+  fields:
+    Front: |
+      Young people should be encouraged to pursue long-term, realistic goals rather than seek immediate fame and recognition.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
+- id: 1539136325163
+  extraTags:
+  - GRE-IssueResponseType2
+  - SRET2-IssueTask10
+  fields:
+    Front: |
+      Young people should be encouraged to pursue long-term, realistic goals rather than seek immediate fame and recognition.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.
+- id: 1539136325243
+  extraTags:
+  - GRE-IssueResponseType1
+  - SRET1-IssueTask12
+  fields:
+    Front: |
+      The increasingly rapid pace of life today causes more problems than it solves.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
+- id: 1539136325312
+  extraTags:
+  - GRE-IssueResponseType2
+  fields:
+    Front: |
+      Governments should focus on solving the immediate problems of today rather than on trying to solve the anticipated problems of the future.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.
+- id: 1539136325393
+  extraTags:
+  - GRE-IssueResponseType3
+  fields:
+    Front: |
+      The best way to solve environmental problems caused by consumer-generated waste is for towns and cities to impose strict limits on the amount of trash they will accept from each household.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.
+- id: 1539136325463
+  extraTags:
+  - GRE-IssueResponseType1
+  fields:
+    Front: |
+      As people rely more and more on technology to solve problems, the ability of humans to think for themselves will surely deteriorate.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
+- id: 1539136325543
+  extraTags:
+  - GRE-IssueResponseType3
+  fields:
+    Front: |
+      Scandals are useful because they focus our attention on problems in ways that no speaker or reformer ever could.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.
+- id: 1539136325612
+  extraTags:
+  - GRE-IssueResponseType4
+  fields:
+    Front: |
+      Some people believe that corporations have a responsibility to promote the well-being of the societies and environments in which they operate. Others believe that the only responsibility of corporations, provided they operate within the law, is to make as much money as possible.
+
+      Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented.
+- id: 1539136325712
+  extraTags:
+  - GRE-IssueResponseType4
+  - SRET2-IssueTask16
+  fields:
+    Front: |
+      Some people believe that in order to thrive, a society must put its own overall success before the well-being of its individual citizens. Others believe that the well-being of a society can only be measured by the general welfare of all its people.
+
+      Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented.
+- id: 1539136325762
+  extraTags:
+  - GRE-IssueResponseType4
+  fields:
+    Front: |
+      Some people believe that our ever-increasing use of technology significantly reduces our opportunities for human interaction. Other people believe that technology provides us with new and better ways to communicate and connect with one another.
+
+      Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented.
+- id: 1539136325844
+  extraTags:
+  - GRE-IssueResponseType4
+  fields:
+    Front: |
+      Some people believe that scientific discoveries have given us a much better understanding of the world around us. Others believe that science has revealed to us that the world is infinitely more complex than we ever realized.
+
+      Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented.
+- id: 1539136325937
+  extraTags:
+  - GRE-IssueResponseType4
+  fields:
+    Front: |
+      Some people believe it is often necessary, even desirable, for political leaders to withhold information from the public. Others believe that the public has a right to be fully informed.
+
+      Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented.
+- id: 1539136326013
+  extraTags:
+  - GRE-IssueResponseType4
+  - SRET1-IssueTask08
+  fields:
+    Front: |
+      Some people believe that in order to be effective, political leaders must yield to public opinion and abandon principle for the sake of compromise. Others believe that the most essential quality of an effective leader is the ability to remain consistently committed to particular principles and objectives.
+
+      Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented.
+- id: 1539136326112
+  extraTags:
+  - GRE-IssueResponseType1
+  fields:
+    Front: |
+      Any leader who is quickly and easily influenced by shifts in popular opinion will accomplish little.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
+- id: 1539136326188
+  extraTags:
+  - GRE-IssueResponseType4
+  fields:
+    Front: |
+      Some people believe that competition for high grades motivates students to excel in the classroom. Others believe that such competition seriously limits the quality of real learning.
+
+      Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented.
+- id: 1539136326263
+  extraTags:
+  - GRE-IssueResponseType1
+  fields:
+    Front: |
+      Competition for high grades seriously limits the quality of learning at all levels of education.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
+- id: 1539136326346
+  extraTags:
+  - GRE-IssueResponseType4
+  fields:
+    Front: |
+      Some people believe that the purpose of education is to free the mind and the spirit. Others believe that formal education tends to restrain our minds and spirits rather than set them free.
+
+      Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented.
+- id: 1539136326412
+  extraTags:
+  - GRE-IssueResponseType1
+  - SRET1-IssueTask02
+  fields:
+    Front: |
+      Formal education tends to restrain our minds and spirits rather than set them free.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
+- id: 1539136326517
+  extraTags:
+  - GRE-IssueResponseType1
+  fields:
+    Front: |
+      In order for any work of art --- for example, a film, a novel, a poem, or a song --- to have merit, it must be understandable to most people.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
+- id: 1539136326593
+  extraTags:
+  - GRE-IssueResponseType4
+  - SRET2-IssueTask07
+  fields:
+    Front: |
+      Some people believe that government funding of the arts is necessary to ensure that the arts can flourish and be available to all people. Others believe that government funding of the arts threatens the integrity of the arts.
+
+      Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented.
+- id: 1539136326662
+  extraTags:
+  - GRE-IssueResponseType5
+  - SRET2-IssueTask18
+  fields:
+    Front: |
+      Claim: Nations should suspend government funding for the arts when significant numbers of their citizens are hungry or unemployed.
+
+      Reason: It is inappropriate --- and, perhaps, even cruel --- to use public resources to fund the arts when people's basic needs are not being met.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.
+- id: 1539136326762
+  extraTags:
+  - GRE-IssueResponseType2
+  fields:
+    Front: |
+      Nations should suspend government funding for the arts when significant numbers of their citizens are hungry or unemployed.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.
+- id: 1539136326813
+  extraTags:
+  - GRE-IssueResponseType1
+  fields:
+    Front: |
+      To be an effective leader, a public official must maintain the highest ethical and moral standards.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
+- id: 1539136326912
+  extraTags:
+  - GRE-IssueResponseType3
+  - SRET1-IssueTask25
+  fields:
+    Front: |
+      To be an effective leader, a public official must maintain the highest ethical and moral standards.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.
+- id: 1539136326961
+  extraTags:
+  - GRE-IssueResponseType1
+  - SRET2-IssueTask29
+  fields:
+    Front: |
+      The effectiveness of a country's leaders is best measured by examining the well-being of that country's citizens.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
+- id: 1539136327062
+  extraTags:
+  - GRE-IssueResponseType3
+  fields:
+    Front: |
+      The effectiveness of a country's leaders is best measured by examining the well-being of that country's citizens.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.
+- id: 1539136327111
+  extraTags:
+  - GRE-IssueResponseType1
+  fields:
+    Front: |
+      Government officials should rely on their own judgment rather than unquestioningly carry out the will of the people whom they serve.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
+- id: 1539136327193
+  extraTags:
+  - GRE-IssueResponseType2
+  fields:
+    Front: |
+      Government officials should rely on their own judgment rather than unquestioningly carry out the will of the people they serve.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.
+- id: 1539136327262
+  extraTags:
+  - GRE-IssueResponseType4
+  fields:
+    Front: |
+      Some people believe that government officials must carry out the will of the people they serve. Others believe that officials should base their decisions on their own judgment.
+
+      Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented.
+- id: 1539136327362
+  extraTags:
+  - GRE-IssueResponseType5
+  - SRET2-IssueTask23
+  fields:
+    Front: |
+      Claim: Researchers should not limit their investigations to only those areas in which they expect to discover something that has an immediate, practical application.
+
+      Reason: It is impossible to predict the outcome of a line of research with any certainty.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.
+- id: 1539136327412
+  extraTags:
+  - GRE-IssueResponseType2
+  - SRET2-IssueTask11
+  fields:
+    Front: |
+      Scientists and other researchers should focus their research on areas that are likely to benefit the greatest number of people.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.
+- id: 1539136327513
+  extraTags:
+  - GRE-IssueResponseType2
+  fields:
+    Front: |
+      Governments should place few, if any, restrictions on scientific research and development.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.
+- id: 1539136327595
+  extraTags:
+  - GRE-IssueResponseType6
+  - SRET2-IssueTask13
+  fields:
+    Front: |
+      Governments should not fund any scientific research whose consequences are unclear.
+
+      Write a response in which you discuss your views on the policy and explain your reasoning for the position you take. In developing and supporting your position, you should consider the possible consequences of implementing the policy and explain how these consequences shape your position.
+- id: 1539136327661
+  extraTags:
+  - GRE-IssueResponseType2
+  fields:
+    Front: |
+      Governments should not fund any scientific research whose consequences are unclear.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.
+- id: 1539218513511
+  extraTags:
+  - GRE-IssueResponseType1
+  - SRET2-IssueTask03
+  - Bogus
+  comment: |
+    This is not an actual task in the GRE AWA Issue Topic Pool. I assume this is the result of a copy/paste error in _SRET2_.
+  fields:
+    Front: |
+      Governments should not fund any scientific research whose consequences are unclear.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
+- id: 1539136327743
+  extraTags:
+  - GRE-IssueResponseType3
+  fields:
+    Front: |
+      Nations should pass laws to preserve any remaining wilderness areas in their natural state.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.
+- id: 1539136327813
+  extraTags:
+  - GRE-IssueResponseType6
+  fields:
+    Front: |
+      Nations should pass laws to preserve any remaining wilderness areas in their natural state, even if these areas could be developed for economic gain.
+
+      Write a response in which you discuss your views on the policy and explain your reasoning for the position you take. In developing and supporting your position, you should consider the possible consequences of implementing the policy and explain how these consequences shape your position.
+- id: 1539136327893
+  extraTags:
+  - GRE-IssueResponseType4
+  fields:
+    Front: |
+      Some people claim that a nation's government should preserve its wilderness areas in their natural state. Others argue that these areas should be developed for potential economic gain.
+
+      Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented.
+- id: 1539136327962
+  extraTags:
+  - GRE-IssueResponseType6
+  - SRET2-IssueTask30
+  fields:
+    Front: |
+      In any field --- business, politics, education, government --- those in power should be required to step down after five years.
+
+      Write a response in which you discuss your views on the policy and explain your reasoning for the position you take. In developing and supporting your position, you should consider the possible consequences of implementing the policy and explain how these consequences shape your position.
+- id: 1539136328013
+  extraTags:
+  - GRE-IssueResponseType5
+  fields:
+    Front: |
+      Claim: In any field --- business, politics, education, government --- those in power should step down after five years.
+
+      Reason: The surest path to success for any enterprise is revitalization through new leadership.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.
+- id: 1539136328093
+  extraTags:
+  - GRE-IssueResponseType3
+  fields:
+    Front: |
+      In any profession --- business, politics, education, government --- those in power should step down after five years.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.
+- id: 1539136328161
+  extraTags:
+  - GRE-IssueResponseType5
+  fields:
+    Front: |
+      Claim: Knowing about the past cannot help people to make important decisions today.
+
+      Reason: We are not able to make connections between current events and past events until we have some distance from both.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.
+- id: 1539136328237
+  extraTags:
+  - GRE-IssueResponseType1
+  - SRET2-IssueTask14
+  fields:
+    Front: |
+      Knowing about the past cannot help people to make important decisions today.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
+- id: 1539136328313
+  extraTags:
+  - GRE-IssueResponseType5
+  - SRET1-IssueTask29
+  fields:
+    Front: |
+      Claim: Knowing about the past cannot help people to make important decisions today.
+
+      Reason: The world today is significantly more complex than it was even in the relatively recent past.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.
+- id: 1539136328412
+  extraTags:
+  - GRE-IssueResponseType1
+  fields:
+    Front: |
+      We can learn much more from people whose views we share than from people whose views contradict our own.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
+- id: 1539136328463
+  extraTags:
+  - GRE-IssueResponseType1
+  fields:
+    Front: |
+      We can usually learn much more from people whose views we share than from people whose views contradict our own.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
+- id: 1539136328562
+  extraTags:
+  - GRE-IssueResponseType5
+  - SRET2-IssueTask09
+  fields:
+    Front: |
+      Claim: We can usually learn much more from people whose views we share than from those whose views contradict our own.
+
+      Reason: Disagreement can cause stress and inhibit learning.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.
+- id: 1539136328614
+  extraTags:
+  - GRE-IssueResponseType2
+  fields:
+    Front: |
+      The best way to teach is to praise positive actions and ignore negative ones.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.
+- id: 1539136328688
+  extraTags:
+  - GRE-IssueResponseType1
+  - SRET1-IssueTask09
+  fields:
+    Front: |
+      The best way to teach is to praise positive actions and ignore negative ones.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
+- id: 1539136328762
+  extraTags:
+  - GRE-IssueResponseType3
+  fields:
+    Front: |
+      The best way to teach --- whether as an educator, employer, or parent --- is to praise positive actions and ignore negative ones.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.
+- id: 1539136328836
+  extraTags:
+  - GRE-IssueResponseType3
+  fields:
+    Front: |
+      It is no longer possible for a society to regard any living man or woman as a hero.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.
+- id: 1539136328913
+  extraTags:
+  - GRE-IssueResponseType5
+  - SRET2-IssueTask02
+  fields:
+    Front: |
+      Claim: It is no longer possible for a society to regard any living man or woman as a hero.
+
+      Reason: The reputation of anyone who is subjected to media scrutiny will eventually be diminished.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.
+- id: 1539136329012
+  extraTags:
+  - GRE-IssueResponseType1
+  fields:
+    Front: |
+      In this age of intensive media coverage, it is no longer possible for a society to regard any living man or woman as a hero.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
+- id: 1539136329062
+  extraTags:
+  - GRE-IssueResponseType3
+  fields:
+    Front: |
+      The surest indicator of a great nation is not the achievements of its rulers, artists, or scientists, but the general well-being of all its people.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.
+- id: 1539136329162
+  extraTags:
+  - GRE-IssueResponseType5
+  - SRET1-IssueTask27
+  - HighPriority
+  fields:
+    Front: |
+      Claim: The surest indicator of a great nation is not the achievements of its rulers, artists, or scientists.
+
+      Reason: The surest indicator of a great nation is actually the welfare of all its people.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.
+- id: 1539136329243
+  extraTags:
+  - GRE-IssueResponseType1
+  - SRET1-IssueTask04
+  - HighPriority
+  fields:
+    Front: |
+      The surest indicator of a great nation is represented not by the achievements of its rulers, artists, or scientists, but by the general welfare of its people.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
+- id: 1539136329312
+  extraTags:
+  - GRE-IssueResponseType5
+  - SRET2-IssueTask22
+  fields:
+    Front: |
+      Claim: The surest indicator of a great nation must be the achievements of its rulers, artists, or scientists.
+
+      Reason: Great achievements by a nation's rulers, artists, or scientists will ensure a good life for the majority of that nation's people.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.
+- id: 1539136329394
+  extraTags:
+  - GRE-IssueResponseType4
+  fields:
+    Front: |
+      Some people claim that you can tell whether a nation is great by looking at the achievements of its rulers, artists, or scientists. Others argue that the surest indicator of a great nation is, in fact, the general welfare of all its people.
+
+      Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented.
+- id: 1539136329462
+  extraTags:
+  - GRE-IssueResponseType3
+  fields:
+    Front: |
+      The general welfare of a nation's people is a better indication of that nation's greatness than are the achievements of its rulers, artists, or scientists.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.
+- id: 1539136329543
+  extraTags:
+  - GRE-IssueEducationCurriculumCluster00
+  - GRE-IssueResponseType3
+  fields:
+    Front: |
+      Educational institutions should actively encourage their students to choose fields of study in which jobs are plentiful.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.
+- id: 1539136329612
+  extraTags:
+  - GRE-IssueEducationCurriculumCluster00
+  - GRE-IssueResponseType6
+  fields:
+    Front: |
+      Educational institutions should actively encourage their students to choose fields of study in which jobs are plentiful.
+
+      Write a response in which you discuss your views on the policy and explain your reasoning for the position you take. In developing and supporting your position, you should consider the possible consequences of implementing the policy and explain how these consequences shape your position.
+- id: 1539136329713
+  extraTags:
+  - GRE-IssueEducationCurriculumCluster00
+  - GRE-IssueResponseType6
+  - SRET2-IssueTask24
+  - HighPriority
+  fields:
+    Front: |
+      Educational institutions should actively encourage their students to choose fields of study that will prepare them for lucrative careers.
+
+      Write a response in which you discuss your views on the policy and explain your reasoning for the position you take. In developing and supporting your position, you should consider the possible consequences of implementing the policy and explain how these consequences shape your position.
+- id: 1539136329793
+  extraTags:
+  - GRE-IssueEducationCurriculumCluster00
+  - GRE-IssueResponseType3
+  fields:
+    Front: |
+      Educational institutions should actively encourage their students to choose fields of study that will prepare them for lucrative careers.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.
+- id: 1539136329863
+  extraTags:
+  - GRE-IssueEducationCurriculumCluster00
+  - GRE-IssueResponseType1
+  fields:
+    Front: |
+      Educational institutions have a responsibility to dissuade students from pursuing fields of study in which they are unlikely to succeed.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
+- id: 1539136329962
+  extraTags:
+  - GRE-IssueEducationCurriculumCluster00
+  - GRE-IssueResponseType3
+  fields:
+    Front: |
+      Educational institutions have a responsibility to dissuade students from pursuing fields of study in which they are unlikely to succeed.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.
+- id: 1539136330043
+  extraTags:
+  - GRE-IssueEducationCurriculumCluster00
+  - GRE-IssueResponseType6
+  fields:
+    Front: |
+      Educational institutions should dissuade students from pursuing fields of study in which they are unlikely to succeed.
+
+      Write a response in which you discuss your views on the policy and explain your reasoning for the position you take. In developing and supporting your position, you should consider the possible consequences of implementing the policy and explain how these consequences shape your position.
+- id: 1539136330112
+  extraTags:
+  - GRE-IssueResponseType2
+  fields:
+    Front: |
+      Governments should offer college and university education free of charge to all students.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.
+- id: 1539136330193
+  extraTags:
+  - GRE-IssueResponseType6
+  fields:
+    Front: |
+      Governments should offer a free university education to any student who has been admitted to a university but who cannot afford the tuition.
+
+      Write a response in which you discuss your views on the policy and explain your reasoning for the position you take. In developing and supporting your position, you should consider the possible consequences of implementing the policy and explain how these consequences shape your position.
+- id: 1539136330263
+  extraTags:
+  - GRE-IssueEducationCurriculumCluster00
+  - GRE-IssueResponseType2
+  fields:
+    Front: |
+      Educators should find out what students want included in the curriculum and then offer it to them.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.
+- id: 1539136330362
+  extraTags:
+  - GRE-IssueResponseType2
+  fields:
+    Front: |
+      Educators should base their assessment of students' learning not on students' grasp of facts but on the ability to explain the ideas, trends, and concepts that those facts illustrate.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.
+- id: 1539136330443
+  extraTags:
+  - GRE-IssueResponseType2
+  fields:
+    Front: |
+      Educators should teach facts only after their students have studied the ideas, trends, and concepts that help explain those facts.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.
+- id: 1539136330512
+  extraTags:
+  - GRE-IssueEducationCurriculumCluster00
+  - GRE-IssueResponseType5
+  - SRET2-IssueTask27
+  fields:
+    Front: |
+      Claim: Colleges and universities should specify all required courses and eliminate elective courses in order to provide clear guidance for students.
+
+      Reason: College students --- like people in general --- prefer to follow directions rather than make their own decisions.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.
+- id: 1539136330593
+  extraTags:
+  - GRE-IssueEducationCurriculumCluster00
+  - GRE-IssueResponseType2
+  - SRET1-IssueTask15
+  - HighPriority
+  fields:
+    Front: |
+      In order to become well-rounded individuals, all college students should be required to take courses in which they read poetry, novels, mythology, and other types of imaginative literature.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.
+- id: 1539136330662
+  extraTags:
+  - GRE-IssueEducationCurriculumCluster00
+  - GRE-IssueResponseType2
+  fields:
+    Front: |
+      College students should be encouraged to pursue subjects that interest them rather than the courses that seem most likely to lead to jobs.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.
+- id: 1539136330744
+  extraTags:
+  - GRE-IssueResponseType6
+  fields:
+    Front: |
+      Colleges and universities should require all faculty to spend time working outside the academic world in professions relevant to the courses they teach.
+
+      Write a response in which you discuss your views on the policy and explain your reasoning for the position you take. In developing and supporting your position, you should consider the possible consequences of implementing the policy and explain how these consequences shape your position.
+- id: 1539136330812
+  extraTags:
+  - GRE-IssueEducationCurriculumCluster00
+  - GRE-IssueResponseType2
+  fields:
+    Front: |
+      Educators should take students' interests into account when planning the content of the courses they teach.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.
+- id: 1539136330915
+  extraTags:
+  - GRE-IssueEducationCurriculumCluster00
+  - GRE-IssueResponseType5
+  - SRET2-IssueTask08
+  fields:
+    Front: |
+      Claim: When planning courses, educators should take into account the interests and suggestions of their students.
+
+      Reason: Students are more motivated to learn when they are interested in what they are studying.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.
+- id: 1539136330963
+  extraTags:
+  - GRE-IssueEducationCurriculumCluster00
+  - GRE-IssueResponseType2
+  fields:
+    Front: |
+      College students should base their choice of a field of study on the availability of jobs in that field.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.
+- id: 1539136331037
+  extraTags:
+  - GRE-IssueEducationCurriculumCluster00
+  - GRE-IssueResponseType3
+  - SRET1-IssueTask11
+  - HighPriority
+  fields:
+    Front: |
+      College students should base their choice of a field of study on the availability of jobs in that field.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.
+- id: 1539136331112
+  extraTags:
+  - GRE-IssueEducationCurriculumCluster00
+  - GRE-IssueResponseType4
+  fields:
+    Front: |
+      Some people believe that college students should consider only their own talents and interests when choosing a field of study. Others believe that college students should base their choice of a field of study on the availability of jobs in that field.
+
+      Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented.
+- id: 1539136331213
+  extraTags:
+  - GRE-IssueResponseType3
+  fields:
+    Front: |
+      Colleges and universities should require their students to spend at least one semester studying in a foreign country.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.
+- id: 1539136331294
+  extraTags:
+  - GRE-IssueResponseType2
+  - SRET1-IssueTask21
+  fields:
+    Front: |
+      Colleges and universities should require their students to spend at least one semester studying in a foreign country.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.
+- id: 1539136331388
+  extraTags:
+  - GRE-IssueResponseType6
+  fields:
+    Front: |
+      Colleges and universities should require their students to spend at least one semester studying in a foreign country.
+
+      Write a response in which you discuss your views on the policy and explain your reasoning for the position you take. In developing and supporting your position, you should consider the possible consequences of implementing the policy and explain how these consequences shape your position.
+- id: 1539136331462
+  extraTags:
+  - GRE-IssueResponseType1
+  fields:
+    Front: |
+      All college and university students would benefit from spending at least one semester studying in a foreign country.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
+- id: 1539136331546
+  extraTags:
+  - GRE-IssueEducationCurriculumCluster00
+  - GRE-IssueResponseType6
+  fields:
+    Front: |
+      A nation should require all of its students to study the same national curriculum until they enter college.
+
+      Write a response in which you discuss your views on the policy and explain your reasoning for the position you take. In developing and supporting your position, you should consider the possible consequences of implementing the policy and explain how these consequences shape your position.
+- id: 1539136331612
+  extraTags:
+  - GRE-IssueEducationCurriculumCluster00
+  - GRE-IssueResponseType2
+  - SRET2-IssueTask06
+  fields:
+    Front: |
+      A nation should require all of its students to study the same national curriculum until they enter college.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.
+- id: 1539136331687
+  extraTags:
+  - GRE-IssueEducationCurriculumCluster00
+  - GRE-IssueResponseType3
+  fields:
+    Front: |
+      A nation should require all of its students to study the same national curriculum until they enter college.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.
+- id: 1539136331762
+  extraTags:
+  - GRE-IssueEducationCurriculumCluster00
+  - GRE-IssueResponseType1
+  fields:
+    Front: |
+      A nation should require all of its students to study the same national curriculum until they enter college.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
+- id: 1539136331837
+  extraTags:
+  - GRE-IssueEducationCurriculumCluster00
+  - GRE-IssueResponseType2
+  - SRET1-IssueTask13
+  fields:
+    Front: |
+      Universities should require every student to take a variety of courses outside the student's field of study.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.
+- id: 1539136331912
+  extraTags:
+  - GRE-IssueEducationCurriculumCluster00
+  - GRE-IssueResponseType3
+  fields:
+    Front: |
+      Universities should require every student to take a variety of courses outside the student's field of study.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.
+- id: 1539136331993
+  extraTags:
+  - GRE-IssueEducationCurriculumCluster00
+  - GRE-IssueResponseType6
+  fields:
+    Front: |
+      Universities should require every student to take a variety of courses outside the student's field of study.
+
+      Write a response in which you discuss your views on the policy and explain your reasoning for the position you take. In developing and supporting your position, you should consider the possible consequences of implementing the policy and explain how these consequences shape your position.
+- id: 1539136332062
+  extraTags:
+  - GRE-IssueEducationCurriculumCluster00
+  - GRE-IssueResponseType4
+  fields:
+    Front: |
+      Some people believe that universities should require every student to take a variety of courses outside the student's field of study. Others believe that universities should not force students to take any courses other than those that will help prepare them for jobs in their chosen fields.
+
+      Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented.
+- id: 1539136332162
+  extraTags:
+  - GRE-IssueEducationCurriculumCluster00
+  - GRE-IssueResponseType1
+  fields:
+    Front: |
+      Requiring university students to take a variety of courses outside their major fields of study is the best way to ensure that students become truly educated.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
+- id: 1539136332243
+  extraTags:
+  - GRE-IssueEducationCurriculumCluster00
+  - GRE-IssueResponseType5
+  fields:
+    Front: |
+      Claim: Universities should require every student to take a variety of courses outside the student's major field of study.
+
+      Reason: Acquiring knowledge of various academic disciplines is the best way to become truly educated.
+
+      Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.
