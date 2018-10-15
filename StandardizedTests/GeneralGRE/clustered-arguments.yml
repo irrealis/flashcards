@@ -1,6 +1,6 @@
 defaults:
   deckName: Staging
-  modelName: Basic
+  modelName: BasicMathJax
   tags:
   - StandardizedTests
   - GeneralGRE
