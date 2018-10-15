@@ -253,7 +253,7 @@ notes:
     Back: |
       The solutions of the quadratic equation \\(ax^2 + bx + c = 0\\) can be expressed as
       \\[
-        x = \frac{2c}{b \pm \sqrt{b^2 - 4ac}}.
+        x = -\frac{2c}{b \pm \sqrt{b^2 - 4ac}}.
       \\]
 - id: 1537575166750
   fields:
@@ -272,7 +272,7 @@ notes:
       \\[
         q
         = \frac{c}{a} \times \frac{2a}{-b \pm \sqrt{b^2 - 4ac}}
-        = \frac{2c}{-b \pm \sqrt{b^2 - 4ac}}.
+        = - \frac{2c}{b \pm \sqrt{b^2 - 4ac}}.
       \\]
       as desired.
 - id: 1537483373226
@@ -480,7 +480,7 @@ notes:
       \\]
     Back: |
       \\[
-        3 - 2/b
+        3 + 2/b
       \\]
 - id: 1537488022879
   fields:
