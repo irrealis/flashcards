@@ -79,6 +79,26 @@ notes:
       There is a river that is \\(n\\) meters wide. At every meter from the edge, there may or may not be a stone. A frog needs to cross the river. However the frog has the limitation that if it has just jumped \\(x\\) meters, then its next jump must be between \\(x-1\\) and \\(x+1\\) meters, inclusive. Assume the first jump can be of only 1 meter. Given the position of the stones, how would you determine whether the frog can make it to the other end or not? Analyze the runtime of your algorithm.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 31-2.
+    Python: |
+      Interesting. First, _thinking outside of the box,_ the frog can cross the river in one jump if it first jumps \\(n-1\\) meters to reach the near edge of the river. To do this the frog must first make \\(n-1\\) jumps, the first one meter, and each jump one meter longer than the previous, starting \\(\frac{n(n-1)}{2} = \sum_{k=1}^{n-1} k\\) meters from the near edge on this side of the river, assuming there's that much room for a frog runway, in which case a satisfactory solution has \\(O(1)\\) runtime:
+
+      ```{python }
+      def can_the_frog_do_it(*l, **d): return True
+      ```
+
+      A less-trivial version assumes a runway of length \\(n-1\\), the penultimate jump being from the far edge of the runway to the near river edge, and all prior jumps being back and forth on the runway, starting with a one-meter jump near the center of the runway.
+
+      So let's discuss a non-trivial solution. Suppose there are \\(M\\) stones \\(s_1,s_2,\ldots,s_M\\), with \\(s_1\\) denoting the near river edge and \\(s_M\\) the far edge. Let \\(d_{ij}\\) be the distance between \\(s_i\\) and \\(s_j\\), and define \\(s_{ij}\\) to mean the jump between \\(s_i\\) and \\(s_j\\). These \\(s_{ij}\\) are the vertices of a graph \\(F\\), and are connected by edge \\(e_{ijk}\\) of \\(F\\) iff \\(|d_{ij} - d_{jk}|\le 1\\), which is to say that a jump from \\(s_i\\) to \\(s_j\\) can be followed by a jump to \\(s_k\\). Vertex \\(s_{11}\\) is the start vertex (meaning the frog hasn't started jumping yet, and is on \\(s_1\\), the near edge of the river). Any vertex \\(s_{iM}\\) is a final vertex (meaning the frog jumps from \\(s_i\\) to the far edge of the river).
+
+      This reduces the problem to finding a path in \\(F\\) from the start vertex to any final vertex. Some extra details:
+
+      If \\(|d_{ij} - d_{jk}|\le 1\\) then \\(e_{ijk}\\) and \\(e_{kji}\\) are both in \\(F\\), so can be treated as the same undirected edge. It follows that \\(s_{ij} = s_{ji}\\).
+
+      This means there are \\(\binom{M}{2}\\) vertices \\(s_{ij}\\) for which \\(i \ne j\\). Let's exclude \\(s_{ii}\\) unless \\(i = 0\\). Then there are \\(V=\binom{M}{2}+1\\) vertices in \\(F\\).
+
+      The graph could be completely connected; to see this, consider stones arranged in a circle of diameter one meter, in a river one meter wide. The number of edges is then bounded by \\(\binom{V}{2}\\). The complexity of a complete graph traversal is then \\(O(V + \binom{V}{2})\\).
+
+      But we don't need a complete traversal.
 - id: 1536205245810
   fields:
     Front: |
