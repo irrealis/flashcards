@@ -110,8 +110,17 @@ notes:
           print([index_binary_search(data, v) for v in data] == list(range(20)))
           # Verify an element not in list cannot be found.
           print(-1 == index_binary_search(data, 1))
+          for j in range(20):
+            data = list(range(0, j, 2))
+            print()
+            print("j:", j)
+            print("data:", data)
+            for k in range(j):
+              print(k, index_binary_search(data,k))
       ```
 - id: 1536203009153
+  extraTags:
+  - Done-Python
   fields:
     Front: |
       ## 01.03: Search a sorted array for the first element larger than \\(k\\)
@@ -119,12 +128,38 @@ notes:
       Design an efficient algorithm that finds the index of the first occurrence of an element larger than a specified key \\(k\\); return -1 if every element is less than or equal to \\(k\\).
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 16.
+    Python: |
+      - Idea:
+      ```{python }
+      def firstgt(data, k):
+        lo, hi = 0, len(data)-1
+        #lastgt = -1
+        lastgt = None
+        while lo <= hi:
+          md = lo + (hi - lo)//2
+          if k < data[md]:
+            lastgt = data[md]
+            hi = md - 1
+          else:
+            lo = md + 1
+        return lastgt
+
+
+      for j in range(0, 20, 3):
+        data = list(range(0, j, 3))
+        print()
+        print("data:", data)
+        for k in range(j):
+          print("first element larger than {}: {}".format(
+            k, firstgt(data,k)
+          ))
+      ```
 - id: 1536203009188
   fields:
     Front: |
       ## 01.04: Search a sorted array for \\(A[i]=i\\)
 
-      Suppose that in addition to being sorted, the entries of \\(A\)) are distinct integers. Design an efficient algorithm for finding an index \((i\)) such that \\(A[i]=i\\) or indicating that no such index exists.
+      Suppose that in addition to being sorted, the entries of \\(A\\) are distinct integers. Design an efficient algorithm for finding an index \\(i\\) such that \\(A[i]=i\\), or indicating that no such index exists.
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 16.
 - id: 1536203009235
