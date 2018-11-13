@@ -459,3 +459,12 @@ notes:
       $$
         (-1, 4]
       $$
+- id: 1539840955085
+  fields:
+    Front: |
+      CCAC 00.A (Algebra) 10a: State whether the equation is true or false.
+      $$
+        (p + q)^2 = p^2 + q^2
+      $$
+    Back: |
+      False.
