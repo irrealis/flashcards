@@ -448,3 +448,14 @@ notes:
       $$
         (1, 7)
       $$
+- id: 1539840954958
+  fields:
+    Front: |
+      CCAC 00.A (Algebra) 09e: Solve the inequality. Answer using interval notation.
+      $$
+        \frac{2x - 3}{x + 1} \le 1
+      $$
+    Back: |
+      $$
+        (-1, 4]
+      $$
