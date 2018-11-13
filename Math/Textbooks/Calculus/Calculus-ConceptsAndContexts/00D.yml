@@ -140,3 +140,62 @@ notes:
 
       ---
       (If you have had difficulty with this problem, you should look at Appendix C of CCAC.)
+- id: 1539880236819
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 00.D (Trigonometry) 05b: Express the length of $b$ in the figure below in terms of $\theta$.
+      ```{python echo = False}
+      import matplotlib.pyplot as plt
+      import matplotlib.patches as patches
+      from matplotlib.path import Path
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      tri_verts = [
+        (0., 0.),
+        (4., 0.),
+        (4., 2.5),
+        (0., 0.),
+      ]
+      tri_codes = [
+        Path.MOVETO,
+        Path.LINETO,
+        Path.LINETO,
+        Path.CLOSEPOLY,
+      ]
+      tri_path = Path(tri_verts, tri_codes)
+      tri_patch = patches.PathPatch(tri_path, facecolor='none', lw=2)
+
+      ra_verts = [
+        (3.8, 0.),
+        (3.8, 0.2),
+        (4.0, 0.2),
+      ]
+      ra_codes = [
+        Path.MOVETO,
+        Path.LINETO,
+        Path.LINETO,
+      ]
+      ra_path = Path(ra_verts, ra_codes)
+      ra_patch = patches.PathPatch(ra_path, facecolor='none', lw=2)
+
+      fig, ax = plt.subplots()
+      ax.add_patch(tri_patch)
+      ax.add_patch(ra_patch)
+      ax.set_xlim(-0.8, 5.2)
+      ax.set_ylim(-0.8, 3.2)
+      ax.text(2.1, -0.3, '$b$')
+      ax.text(4.1, 1.1, '$a$')
+      ax.text(0.7, 0.15, '$\\theta$')
+      ax.text(2.0, 1.5, '$24$')
+      plt.axis('off')
+
+      plt.show()
+      ```
+    Back: |
+      $b = 24 \cos \theta$.
+
+      ---
+      (If you have had difficulty with this problem, you should look at Appendix C of CCAC.)
