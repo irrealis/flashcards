@@ -64,3 +64,12 @@ notes:
 
       ---
       (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
+- id: 1539795156028
+  fields:
+    Front: |
+      CCAC 00.B (Analytic Geometry) 03: Find the center and radius of a circle with equation $x^2 + y^2 - 6x + 10y + 9 = 0$.
+    Back: |
+      Center $(3, -5)$, radius $5$.
+
+      ---
+      (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
