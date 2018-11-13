@@ -486,3 +486,12 @@ notes:
       $$
     Back: |
       False.
+- id: 1539840955507
+  fields:
+    Front: |
+      CCAC 00.A (Algebra) 10d: State whether the equation is true or false.
+      $$
+        \frac{1 + TC}{C} = 1 + T
+      $$
+    Back: |
+      False.
