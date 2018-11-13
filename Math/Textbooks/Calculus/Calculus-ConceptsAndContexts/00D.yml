@@ -222,3 +222,17 @@ notes:
 
       ---
       (If you have had difficulty with this problem, you should look at Appendix C of CCAC.)
+- id: 1539880267839
+  extraTags:
+  - ToDo
+  fields:
+    Front: |
+      CCAC 00.D (Trigonometry) 07b: Prove the identity:
+      $$
+      \frac{2 \tan x}{1 + \tan^2 x} = \sin 2x.
+      $$
+    Back: |
+      $\ldots$.
+
+      ---
+      (If you have had difficulty with this problem, you should look at Appendix C of CCAC.)
