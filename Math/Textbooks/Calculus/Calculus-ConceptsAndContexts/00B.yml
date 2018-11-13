@@ -84,3 +84,12 @@ notes:
 
       ---
       (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
+- id: 1539795156279
+  fields:
+    Front: |
+      CCAC 00.B (Analytic Geometry) 04b: Let $A(-7, 4)$ and $B(5, -12)$ be points in the plane. Find an equation of the line that passes through $A$ and $B$. What are the intercepts?
+    Back: |
+      $4x - 3y + 16 = 0$; $x$-intercept: $-4$; $y$-intercept: $-16/3$.
+
+      ---
+      (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
