@@ -1,6 +1,6 @@
 defaults:
   deckName: Staging
-  modelName: BasicMathJax
+  modelName: PWeave
   tags:
   - Textbooks
   - Math
@@ -10,156 +10,156 @@ defaults:
   - CCAC-RoA-ArithmeticOperations
   markdownTabLength: 2
 notes:
-- id: 1537480219826
-  modelName: BasicMathJaxAndReverse
+- id: 1542149179919
+  modelName: PWeaveAndReverse
   fields:
     Front: |
       ## RoA mtl 4: The following, factorized, is expressed as...
-      \\[
+      $$
         a^3 - b^3
-      \\]
+      $$
     Back: |
       ## RoA 004: The following, expanded, is expressed as...
-      \\[
+      $$
         (a - b)(a^2 + ab + b^2)
-      \\]
-- id: 1537480219950
-  modelName: BasicMathJaxAndReverse
+      $$
+- id: 1542149180048
+  modelName: PWeaveAndReverse
   fields:
     Front: |
       ## RoA mtl 5: The following, factorized, is expressed as...
-      \\[
+      $$
         a^3 + b^3
-      \\]
+      $$
     Back: |
       ## RoA mtl 5: The following, expanded, is expressed as...
-      \\[
+      $$
         (a + b)(a^2 - ab + b^2)
-      \\]
-- id: 1537480220035
+      $$
+- id: 1542149180144
   fields:
     Front: |
       ## RoA mtl 6: State the Factor Theorem.
     Back: |
-      If \\(P\\) is a polynomial and \\(P(b)=0\\), then \\(x-b\\) is a factor of \\(P(x)\\).
-- id: 1537480586611
+      If $P$ is a polynomial and $P(b)=0$, then $x-b$ is a factor of $P(x)$.
+- id: 1542149180257
   fields:
     Front: |
       ## RoA mtl 7.0: Rewrite the following general form by _completing the square:_
-      \\[
+      $$
         ax^2 + bx + c
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         ax^2 + bx + c = a \left(x + \frac{b}{2a}\right)^2 + \left(c - \frac{b^2}{4a}\right)
-      \\]
-- id: 1537481114876
+      $$
+- id: 1542149180394
   fields:
     Front: |
       ## RoA mtl 7.1: Prove the following formula for _completing the square:_
-      \\[
+      $$
         ax^2 + bx + c = a \left(x + \frac{b}{2a}\right)^2 + \left(c - \frac{b^2}{4a}\right)
-      \\]
+      $$
     Back: |
       Our goal is to express the left-hand side as
-      \\[
+      $$
         ax^2 + bx + c = a\left(x + d \right)^2 + \left(c - ad^2\right),
-      \\]
-      because this will allow us to solve \\(ax^2 + bx + c = 0\\) for \\(x\\). The first step, then, is to factor \\(a\\) out of the subexpression \\(ax^2 +bx\\), obtaining:
-      \\[
+      $$
+      because this will allow us to solve $ax^2 + bx + c = 0$ for $x$. The first step, then, is to factor $a$ out of the subexpression $ax^2 +bx$, obtaining:
+      $$
         ax^2 + bx + c = a\left(x^2 + \frac{b}{a}x \right) + c.
-      \\]
-      Now, we want to choose \\(d\\) such that
-      \\[
+      $$
+      Now, we want to choose $d$ such that
+      $$
         x^2 + \frac{b}{a}x + d^2 = (x + d)^2.
-      \\]
+      $$
       Expanding the right side gives
-      \\[
+      $$
         x^2 + \frac{b}{a}x + d^2 = x^2 + 2dx + d^2,
-      \\]
+      $$
       So it follows that
-      \\[
+      $$
         \frac{b}{a} = 2d,\textrm{ that is, } d = \frac{b}{2a}.
-      \\]
-      Substituting for \\(d\\) now gives the desired result:
-      \\[
+      $$
+      Substituting for $d$ now gives the desired result:
+      $$
       \begin{align}
         ax^2 + bx + c
         &= a\left(x + d \right)^2 + \left(c - ad^2\right) \\\\
         &= a\left(x + \frac{b}{2a} \right)^2 + \left(c - \frac{b^2}{4a}\right).
       \end{align}
-      \\]
-- id: 1537481878037
+      $$
+- id: 1542149180545
   fields:
     Front: |
       ## RoA mtl 7.2: State the Quadratic Formula.
     Back: |
-      The solutions of the quadratic equation \\(ax^2 + bx + c = 0\\) are
-      \\[
+      The solutions of the quadratic equation $ax^2 + bx + c = 0$ are
+      $$
         x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
-      \\]
-- id: 1537482001842
+      $$
+- id: 1542149180694
   fields:
     Front: |
       ## RoA mtl 7.3: Prove the Quadratic Formula.
     Back: |
-      By the Factor Theorem, the roots of \\(ax^2 + bx + c\\) are values of \\(x\\) for which \\(ax^2 + bx + c = 0\\), so we must solve this equation for \\(x\\). We start by rewriting this equation by completing the square:
-      \\[
+      By the Factor Theorem, the roots of $ax^2 + bx + c$ are values of $x$ for which $ax^2 + bx + c = 0$, so we must solve this equation for $x$. We start by rewriting this equation by completing the square:
+      $$
       \begin{align}
         0
         &= ax^2 + bx + c \\\\
         &= a \left(x + \frac{b}{2a}\right)^2 + \left(c - \frac{b^2}{4a}\right)
       \end{align}
-      \\]
-      The reason to do this is that \\(x\\) appears only once in this form. We then isolate the left-hand summand by subtracting the right-hand summand from both sides:
-      \\[
+      $$
+      The reason to do this is that $x$ appears only once in this form. We then isolate the left-hand summand by subtracting the right-hand summand from both sides:
+      $$
         \left( \frac{b^2}{4a} - c \right) = a \left(x + \frac{b}{2a}\right)^2
-      \\]
+      $$
       We swap sides to make things easier to follow, then simplify the right side:
-      \\[
+      $$
         a \left(x + \frac{b}{2a}\right)^2
         = \left( \frac{b^2}{4a} - c \right)
         = \frac{b^2 - 4ac}{4a}
-      \\]
-      We divide both sides by \\(a\\):
-      \\[
+      $$
+      We divide both sides by $a$:
+      $$
         \left(x + \frac{b}{2a}\right)^2
         = \frac{b^2 - 4ac}{4a^2}
-      \\]
+      $$
       We take the square root of each side:
-      \\[
+      $$
         x + \frac{b}{2a}
         = \frac{\pm\sqrt{b^2 - 4ac}}{2a}
-      \\]
-      Finally, we subtract \\(\frac{b}{2a}\\) from both sides, obtaining the desired formula:
-      \\[
+      $$
+      Finally, we subtract $\frac{b}{2a}$ from both sides, obtaining the desired formula:
+      $$
         x = \frac{-b \pm\sqrt{b^2 - 4ac}}{2a}
-      \\]
-- id: 1537569594359
+      $$
+- id: 1542149180928
   fields:
     Front: |
       ## RoA mtl 7.4: State Vieta's Formulae.
     Back: |
-      Let \\(P(x)\\) be the polynomial
-      \\[
+      Let $P(x)$ be the polynomial
+      $$
         P(x) = a_n x^n + a_{n-1} x^{n-1} + \cdots + a_1 x + a_0
-      \\]
-      and denote its roots by \\(x_1,x_2,\ldots,x_n\\). Then the coefficients and roots are related by Vieta's Formulae:
-      \\[
+      $$
+      and denote its roots by $x_1,x_2,\ldots,x_n$. Then the coefficients and roots are related by Vieta's Formulae:
+      $$
         \sum_{j=1}^{\binom{n}{i}}
         \left(
           \prod_{k=1}^{i} x_{r_{jk}}
         \right)
         = (-1)^i \times \frac{a_{n-i}}{a_n},
         \textrm{ with } i \in \\{1,\ldots,n\\}.
-      \\]
+      $$
 
 
       ## Discussion:
 
       In long form, Vieta's Formulae are
 
-      \\[
+      $$
       \begin{align}
         x_1 + x_2 + \cdots + x_n &= - \frac{a_{n-1}}{a_n} \\\\
         (x_1 x_2 + x_1 x_3 + \cdots) +
@@ -169,61 +169,61 @@ notes:
         \cdots \\\\
         x_1 x_2 \cdots x_n &= (-1)^n\frac{a_0}{a_n}
       \end{align}
-      \\]
+      $$
 
-      Note the number of summands on the left-hand side of each formula: the first has \\(\binom{n}{1}\\), the second has \\(\binom{n}{2}\\), and so on. This observation leads to the compact expression of the \\(i\\)th formula:
+      Note the number of summands on the left-hand side of each formula: the first has $\binom{n}{1}$, the second has $\binom{n}{2}$, and so on. This observation leads to the compact expression of the $i$th formula:
 
-      \\[
+      $$
         \sum_{j=1}^{\binom{n}{i}}
         \left(
           \prod_{k=1}^{i} x_{r_{jk}}
         \right)
         = (-1)^i \times \frac{a_{n-i}}{a_n},
-      \\]
+      $$
 
-      where each summand \\(\prod_{k=1}^{i} x_{r_{jk}}\\) is the product of one of the \\(\binom{n}{i}\\) distinct choices of \\(i\\) roots, without replacement.
+      where each summand $\prod_{k=1}^{i} x_{r_{jk}}$ is the product of one of the $\binom{n}{i}$ distinct choices of $i$ roots, without replacement.
 
 
       ## Quadratic example:
 
-      Consider \\(ax^2 + bx + c\\) with roots \\(p\\) and \\(q\\). The coefficients and roots are related by
+      Consider $ax^2 + bx + c$ with roots $p$ and $q$. The coefficients and roots are related by
 
-      \\[
+      $$
       \begin{align}
         p + q &= - \frac{b}{a}, \\\\
         pq &= \frac{c}{a}.
       \end{align}
-      \\]
-- id: 1537575166630
+      $$
+- id: 1542149181121
   fields:
     Front: |
       ## RoA mtl 7.5: Prove Vieta's Formulae:
-      Let \\(P(x)\\) be the polynomial
-      \\[
+      Let $P(x)$ be the polynomial
+      $$
         P(x) = a_n x^n + a_{n-1} x^{n-1} + \cdots + a_1 x + a_0
-      \\]
-      and denote its roots by \\(x_1,x_2,\ldots,x_n\\). Then the coefficients and roots are related by Vieta's Formulae:
-      \\[
+      $$
+      and denote its roots by $x_1,x_2,\ldots,x_n$. Then the coefficients and roots are related by Vieta's Formulae:
+      $$
         \sum_{j=1}^{\binom{n}{i}}
         \left(
           \prod_{k=1}^{i} x_{r_{jk}}
         \right)
         = (-1)^i \times \frac{a_{n-i}}{a_n},
         \textrm{ with } i \in \\{1,\ldots,n\\}.
-      \\]
+      $$
     Back: |
-      First consider \\(ax^2 + bx + c\\) with roots \\(p\\) and \\(q\\), whose coefficients and roots are related by
+      First consider $ax^2 + bx + c$ with roots $p$ and $q$, whose coefficients and roots are related by
 
-      \\[
+      $$
       \begin{align}
         p + q &= - \frac{b}{a}, \\\\
         pq &= \frac{c}{a}.
       \end{align}
-      \\]
+      $$
 
       The proof is straightfoward:
 
-      \\[
+      $$
       \begin{align}
         a(x-p)(x-q)
         &= a\left(x^2 - (p + q)x + pq\right) \\\\
@@ -231,1342 +231,1342 @@ notes:
         \textrm{thus, } x^2 - (p + q)x + pq
         &= x^2 + \frac{b}{a}x + \frac{c}{a}. \\\\
       \end{align}
-      \\]
+      $$
 
-      This suggests the proof of the general form: expand the product \\((x-x_1)(x-x_2)\cdots(x-x_n)\\), and group the terms by degree.
-- id: 1537825184801
+      This suggests the proof of the general form: expand the product $(x-x_1)(x-x_2)\cdots(x-x_n)$, and group the terms by degree.
+- id: 1542149181272
   fields:
     Front: |
       ## RoA mtl 8: State the Rational Roots Theorem.
     Back: |
-      If a polynomial with integer coefficients zeros for rational \\(p/q\\) then \\(p\\) is a factor of the trailing constant and \\(q\\) is a factor of the leading coefficient.
-- id: 1537825184850
+      If a polynomial with integer coefficients zeros for rational $p/q$ then $p$ is a factor of the trailing constant and $q$ is a factor of the leading coefficient.
+- id: 1542149181372
   fields:
     Front: |
       ## RoA mtl 9: Define _irreducible_.
     Back: |
       A polynomial with no real roots is said to be _irreducible_.
-- id: 1537575166701
+- id: 1542149181469
   fields:
     Front: |
       ## RoA mtl 7.6: State the version of the Quadratic Formula based on Vieta's Formulae.
     Back: |
-      The solutions of the quadratic equation \\(ax^2 + bx + c = 0\\) can be expressed as
-      \\[
+      The solutions of the quadratic equation $ax^2 + bx + c = 0$ can be expressed as
+      $$
         x = -\frac{2c}{b \pm \sqrt{b^2 - 4ac}}.
-      \\]
-- id: 1537575166750
+      $$
+- id: 1542149181594
   fields:
     Front: |
       ## RoA mtl 7.7: Prove the version of the Quadratic Formula based on Vieta's Formulae.
-      The solutions of the quadratic equation \\(ax^2 + bx + c = 0\\) can be expressed as
-      \\[
-        x = \frac{2c}{b \pm \sqrt{b^2 - 4ac}}.
-      \\]
+      The solutions of the quadratic equation $ax^2 + bx + c = 0$ can be expressed as
+      $$
+        x = -\frac{2c}{b \pm \sqrt{b^2 - 4ac}}.
+      $$
     Back: |
-      Start with the standard Quadratic Formula, choosing either root of \\(ax^2 + bx + c\\) without loss of generality:
-      \\[
+      Start with the standard Quadratic Formula, choosing either root of $ax^2 + bx + c$ without loss of generality:
+      $$
         p = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}.
-      \\]
-      By Vieta's Formulae, \\(pq = \frac{c}{a}\\), so \\(q = \frac{c}{ap}\\). Substituting \\(p\\) gives
-      \\[
+      $$
+      By Vieta's Formulae, $pq = \frac{c}{a}$, so $q = \frac{c}{ap}$. Substituting $p$ gives
+      $$
         q
         = \frac{c}{a} \times \frac{2a}{-b \pm \sqrt{b^2 - 4ac}}
         = - \frac{2c}{b \pm \sqrt{b^2 - 4ac}}.
-      \\]
+      $$
       as desired.
-- id: 1537483373226
+- id: 1542149181719
   fields:
     Front: |
       ## RoA mtl 9: State the Binomial Theorem:
     Back: |
-      If \\(n\\) is a positive integer, then
-      \\[
+      If $n$ is a positive integer, then
+      $$
         (a+b)^n = \sum_{k=0}^{n}\binom{n}{k}a^{n-k}b^k
-      \\]
-- id: 1537488021945
+      $$
+- id: 1542149181826
   fields:
     Front: |
       ## RoA problem 001: Expand and simplify:
-      \\[
+      $$
         (-6ab)(0.5ac)
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         -3a^2bc
-      \\]
-- id: 1537488022013
+      $$
+- id: 1542149181919
   fields:
     Front: |
       ## RoA problem 002: Expand and simplify:
-      \\[
+      $$
         -(2x^2y)(-xy^4)
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         2x^3y^5
-      \\]
-- id: 1537488022062
+      $$
+- id: 1542149182019
   fields:
     Front: |
       ## RoA problem 003: Expand and simplify:
-      \\[
+      $$
         2x(x-5)
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         2x^2 - 10x
-      \\]
-- id: 1537488022128
+      $$
+- id: 1542149182145
   fields:
     Front: |
       ## RoA problem 004: Expand and simplify:
-      \\[
+      $$
         (4 - 3x)x
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         4x - 3x^2
-      \\]
-- id: 1537488022179
+      $$
+- id: 1542149182244
   fields:
     Front: |
       ## RoA problem 005: Expand and simplify:
-      \\[
+      $$
         -2(4 - 3a)
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         6a - 8
-      \\]
-- id: 1537488022229
+      $$
+- id: 1542149182369
   fields:
     Front: |
       ## RoA problem 006: Expand and simplify:
-      \\[
+      $$
         8 - (4 + x)
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         4 - x
-      \\]
-- id: 1537488022279
+      $$
+- id: 1542149182469
   fields:
     Front: |
       ## RoA problem 007: Expand and simplify:
-      \\[
+      $$
         4(x^2 - x + 2) - 5(x^2 - 2x + 1)
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         -x^2 + 6x + 3
-      \\]
-- id: 1537488022329
+      $$
+- id: 1542149182575
   fields:
     Front: |
       ## RoA problem 008: Expand and simplify:
-      \\[
+      $$
         5(3t - 4) - (t^2 + 2) - 2t(t - 3)
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         -3t^2 + 21t - 22
-      \\]
-- id: 1537488022379
+      $$
+- id: 1542149182679
   fields:
     Front: |
       ## RoA problem 009: Expand and simplify:
-      \\[
+      $$
         (4x - 1)(3x + 7)
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         12x^2 + 25x - 7
-      \\]
-- id: 1537488022429
+      $$
+- id: 1542149182795
   fields:
     Front: |
       ## RoA problem 010: Expand and simplify:
-      \\[
+      $$
         x(x - 1)(x + 2)
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         x^3 + x^2 - 2x
-      \\]
-- id: 1537488022479
+      $$
+- id: 1542149182905
   fields:
     Front: |
       ## RoA problem 011: Expand and simplify:
-      \\[
+      $$
         (2x - 1)^2
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         4x^2 - 4x + 1
-      \\]
-- id: 1537488022529
+      $$
+- id: 1542149182998
   fields:
     Front: |
       ## RoA problem 012: Expand and simplify:
-      \\[
+      $$
         (2 + 3x)^2
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         9x^2 + 12x + 4
-      \\]
-- id: 1537488022579
+      $$
+- id: 1542149183094
   fields:
     Front: |
       ## RoA problem 013: Expand and simplify:
-      \\[
+      $$
         y^4(6 - y)(5 + y)
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         30y^4 + y^5 - y^6
-      \\]
-- id: 1537488022629
+      $$
+- id: 1542149183198
   fields:
     Front: |
       ## RoA problem 014: Expand and simplify:
-      \\[
+      $$
         (t - 5)^2 - 2(t + 3)(8t - 1)
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         -15t^2 - 56t + 31
-      \\]
-- id: 1537488022679
+      $$
+- id: 1542149183307
   fields:
     Front: |
       ## RoA problem 015: Expand and simplify:
-      \\[
+      $$
         (1 + 2x)(x^2 - 3x + 1)
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         2x^3 - 5x^2 - x + 1
-      \\]
-- id: 1537488022729
+      $$
+- id: 1542149183395
   fields:
     Front: |
       ## RoA problem 016: Expand and simplify:
-      \\[
+      $$
         (1 + x - x^2)^2
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         x^4 - 2x^3 - x^2 + 2x + 1
-      \\]
-- id: 1537488022779
+      $$
+- id: 1542149183493
   fields:
     Front: |
       ## RoA problem 017: Perform the indicated operations, and simplfy:
-      \\[
+      $$
         \frac{2 + 8x}{2}
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         1 + 4x
-      \\]
-- id: 1537488022829
+      $$
+- id: 1542149183594
   fields:
     Front: |
       ## RoA problem 018: Perform the indicated operations, and simplfy:
-      \\[
+      $$
         \frac{9b + 6}{3b}
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         3 + 2/b
-      \\]
-- id: 1537488022879
+      $$
+- id: 1542149183695
   fields:
     Front: |
       ## RoA problem 019: Perform the indicated operations, and simplfy:
-      \\[
+      $$
         \frac{1}{x+5} + \frac{2}{x-3}
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         \frac{3x + 7}{x^2 + 2x - 15}
-      \\]
-- id: 1537488022929
+      $$
+- id: 1542149183796
   fields:
     Front: |
       ## RoA problem 020: Perform the indicated operations, and simplfy:
-      \\[
+      $$
         \frac{1}{x+1} + \frac{1}{x-1}
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         \frac{2x}{x^2 - 1}
-      \\]
-- id: 1537488022979
+      $$
+- id: 1542149183895
   fields:
     Front: |
       ## RoA problem 021: Perform the indicated operations, and simplfy:
-      \\[
+      $$
         u + 1 + \frac{u}{u+1}
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         \frac{u^2 + 3u + 1}{u + 1}
-      \\]
-- id: 1537488023029
+      $$
+- id: 1542149184011
   fields:
     Front: |
       ## RoA problem 022: Perform the indicated operations, and simplfy:
-      \\[
+      $$
         \frac{2}{a^2} - \frac{3}{ab} + \frac{4}{b^2}
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         \frac{2b^2 - 3ab + 4a^2}{a^2b^2}
-      \\]
-- id: 1537488023079
+      $$
+- id: 1542149184138
   fields:
     Front: |
       ## RoA problem 023: Perform the indicated operations, and simplfy:
-      \\[
+      $$
         \frac{x/y}{z}
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         \frac{x}{yz}
-      \\]
-- id: 1537488023129
+      $$
+- id: 1542149184243
   fields:
     Front: |
       ## RoA problem 024: Perform the indicated operations, and simplfy:
-      \\[
+      $$
         \frac{x}{y/z}
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         \frac{zx}{y}
-      \\]
-- id: 1537488023179
+      $$
+- id: 1542149184350
   fields:
     Front: |
       ## RoA problem 025: Perform the indicated operations, and simplfy:
-      \\[
+      $$
         \left(\frac{-2r}{s}\right) \left(\frac{s^2}{-6t}\right)
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         \frac{rs}{3t}
-      \\]
-- id: 1537488023229
+      $$
+- id: 1542149184444
   fields:
     Front: |
       ## RoA problem 026: Perform the indicated operations, and simplfy:
-      \\[
+      $$
         \frac{a}{bc} \div \frac{b}{ac}
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         \frac{a^2}{b^2}
-      \\]
-- id: 1537488023279
+      $$
+- id: 1542149184545
   fields:
     Front: |
       ## RoA problem 027: Perform the indicated operations, and simplfy:
-      \\[
+      $$
         \frac{
           1 + \frac{1}{c-1}
         }{
           1 - \frac{1}{c-1}
         }
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         \frac{c}{c - 2}
-      \\]
-- id: 1537488023329
+      $$
+- id: 1542149184644
   fields:
     Front: |
       ## RoA problem 028: Perform the indicated operations, and simplfy:
-      \\[
+      $$
         1 + \frac{1}{
           1 + \frac{1}{1 + x}
         }
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         \frac{3 + 2x}{2 + x}
-      \\]
-- id: 1537488023379
+      $$
+- id: 1542149184744
   fields:
     Front: |
       ## RoA problem 029: Factor the expression:
-      \\[
+      $$
         2x + 12x^3
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         2x(1 + 6x^2)
-      \\]
-- id: 1537488023429
+      $$
+- id: 1542149184849
   fields:
     Front: |
       ## RoA problem 030: Factor the expression:
-      \\[
+      $$
         5ab - 8abc
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         ab(5 - 8c)
-      \\]
-- id: 1537488023479
+      $$
+- id: 1542149184944
   fields:
     Front: |
       ## RoA problem 031: Factor the expression:
-      \\[
+      $$
         x^2 + 7x + 6
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         (x + 6)(x + 1)
-      \\]
-- id: 1537488023529
+      $$
+- id: 1542149185063
   fields:
     Front: |
       ## RoA problem 032: Factor the expression:
-      \\[
+      $$
         x^2 - x - 6
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         (x - 3)(x + 2)
-      \\]
-- id: 1537488023580
+      $$
+- id: 1542149185191
   fields:
     Front: |
       ## RoA problem 033: Factor the expression:
-      \\[
+      $$
         x^2 - 2x - 8
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         (x - 4)(x + 2)
-      \\]
-- id: 1537488023629
+      $$
+- id: 1542149185269
   fields:
     Front: |
       ## RoA problem 034: Factor the expression:
-      \\[
+      $$
         2x^2 + 7x - 4
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         (2x - 1)(x + 4)
-      \\]
-- id: 1537488023679
+      $$
+- id: 1542149185369
   fields:
     Front: |
       ## RoA problem 035: Factor the expression:
-      \\[
+      $$
         9x^2 - 36
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         9(x - 2)(x + 2)
-      \\]
-- id: 1537488023780
+      $$
+- id: 1542149185470
   fields:
     Front: |
       ## RoA problem 036: Factor the expression:
-      \\[
+      $$
         8x^2 + 10x + 3
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         (4x + 3)(2x + 1)
-      \\]
-- id: 1537488023831
+      $$
+- id: 1542149185574
   fields:
     Front: |
       ## RoA problem 037: Factor the expression:
-      \\[
+      $$
         6x^2 - 5x - 6
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         (3x + 2)(2x - 3)
-      \\]
-- id: 1537488023879
+      $$
+- id: 1542149185670
   fields:
     Front: |
       ## RoA problem 038: Factor the expression:
-      \\[
+      $$
         x^2 + 10x + 25
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         (x + 5)^2
-      \\]
-- id: 1537488023929
+      $$
+- id: 1542149185770
   fields:
     Front: |
       ## RoA problem 039: Factor the expression:
-      \\[
+      $$
         t^3 + 1
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         (t + 1)(t^2 - t + 1)
-      \\]
-- id: 1537488023980
+      $$
+- id: 1542149185871
   fields:
     Front: |
       ## RoA problem 040: Factor the expression:
-      \\[
+      $$
         4t^2 - 9s^2
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         (2t - 3s)(2t + 3s)
-      \\]
-- id: 1537488024030
+      $$
+- id: 1542149185970
   fields:
     Front: |
       ## RoA problem 041: Factor the expression:
-      \\[
+      $$
         4t^2 - 12t + 9
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         (2t - 3)^2
-      \\]
-- id: 1537488024079
+      $$
+- id: 1542149186072
   fields:
     Front: |
       ## RoA problem 042: Factor the expression:
-      \\[
+      $$
         x^3 - 27
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         (x - 3)(x^2 + 3x + 9)
-      \\]
-- id: 1537488024129
+      $$
+- id: 1542149186168
   fields:
     Front: |
       ## RoA problem 043: Factor the expression:
-      \\[
+      $$
         x^3 + 2x^2 + x
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         x(x + 1)^2
-      \\]
-- id: 1537488024181
+      $$
+- id: 1542149186284
   fields:
     Front: |
       ## RoA problem 044: Factor the expression:
-      \\[
+      $$
         x^3 - 4x^2 + 5x - 2
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         (x - 1)^2 (x - 2)
-      \\]
-- id: 1537488024229
+      $$
+- id: 1542149186376
   fields:
     Front: |
       ## RoA problem 045: Factor the expression:
-      \\[
+      $$
         x^3 + 3x^2 - x - 3
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         (x - 1)(x + 1)(x + 3)
-      \\]
-- id: 1537488024279
+      $$
+- id: 1542149186469
   fields:
     Front: |
       ## RoA problem 046: Factor the expression:
-      \\[
+      $$
         x^3 - 2x^2 - 23x + 60
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         (x - 3)(x + 5)(x - 4)
-      \\]
-- id: 1537488024329
+      $$
+- id: 1542149186575
   fields:
     Front: |
       ## RoA problem 047: Factor the expression:
-      \\[
+      $$
         x^3 + 5x^2 - 2x - 24
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         (x - 2)(x + 3)(x + 4)
-      \\]
-- id: 1537488024379
+      $$
+- id: 1542149186669
   fields:
     Front: |
       ## RoA problem 048: Factor the expression:
-      \\[
+      $$
         x^3 - 3x^2 - 4x + 12
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         (x - 2)(x - 3)(x + 2)
-      \\]
-- id: 1537488024446
+      $$
+- id: 1542149186769
   fields:
     Front: |
       ## RoA problem 049: Simplify the expression:
-      \\[
+      $$
         \frac{x^2 + x - 2}{x^2 - 3x + 2}
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         \frac{x + 2}{x - 2}
-      \\]
-- id: 1537488024502
+      $$
+- id: 1542149186869
   fields:
     Front: |
       ## RoA problem 050: Simplify the expression:
-      \\[
+      $$
         \frac{2x^2 - 3x - 2}{x^2 - 4}
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         \frac{2x + 1}{x + 2}
-      \\]
-- id: 1537488024579
+      $$
+- id: 1542149186975
   fields:
     Front: |
       ## RoA problem 051: Simplify the expression:
-      \\[
+      $$
         \frac{x^2 - 1}{x^2 - 9x + 8}
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         \frac{x + 1}{x - 8}
-      \\]
-- id: 1537488024629
+      $$
+- id: 1542149187069
   fields:
     Front: |
       ## RoA problem 052: Simplify the expression:
-      \\[
+      $$
         \frac{x^3 + 5x^2 + 6x}{x^2 - x - 12}
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         \frac{x(x + 2)}{x - 4}
-      \\]
-- id: 1537488024679
+      $$
+- id: 1542149187169
   fields:
     Front: |
       ## RoA problem 053: Simplify the expression:
-      \\[
+      $$
         \frac{1}{x + 3} + \frac{1}{x^2 - 9}
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         \frac{x - 2}{x^2 - 9}
-      \\]
-- id: 1537488024729
+      $$
+- id: 1542149187271
   fields:
     Front: |
       ## RoA problem 054: Simplify the expression:
-      \\[
+      $$
         \frac{x}{x^2 + x - 2} - \frac{2}{x^2 - 5x + 4}
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         \frac{x^2 - 6x - 4}{(x - 1)(x + 2)(x - 4)}
-      \\]
-- id: 1537488024779
+      $$
+- id: 1542149187369
   fields:
     Front: |
       ## RoA problem 055: Complete the square:
-      \\[
+      $$
         x^2 + 2x + 5
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         (x + 1)^2 + 4
-      \\]
-- id: 1537488024864
+      $$
+- id: 1542149187483
   fields:
     Front: |
       ## RoA problem 056: Complete the square:
-      \\[
+      $$
         x^2 - 16x + 80
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         (x - 8)^2 + 16
-      \\]
-- id: 1537488024912
+      $$
+- id: 1542149187572
   fields:
     Front: |
       ## RoA problem 057: Complete the square:
-      \\[
+      $$
         x^2 - 5x + 10
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         \left(x - \frac{5}{2} \right)^2 + \frac{15}{4}
-      \\]
-- id: 1537488024962
+      $$
+- id: 1542149187669
   fields:
     Front: |
       ## RoA problem 058: Complete the square:
-      \\[
+      $$
         x^2 + 3x + 1
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         \left(x + \frac{3}{2} \right)^2 - \frac{5}{4}
-      \\]
-- id: 1537488025012
+      $$
+- id: 1542149187794
   fields:
     Front: |
       ## RoA problem 059: Complete the square:
-      \\[
+      $$
         4x^2 + 4x - 2
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         (2x + 1)^2 - 3
-      \\]
-- id: 1537488025062
+      $$
+- id: 1542149187895
   fields:
     Front: |
       ## RoA problem 060: Complete the square:
-      \\[
+      $$
         3x^2 - 24x + 50
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         3(x - 4)^2 + 2
-      \\]
-- id: 1537488025113
+      $$
+- id: 1542149188006
   fields:
     Front: |
       ## RoA problem 061: Solve the equation:
-      \\[
+      $$
         x^2 + 9x - 10 = 0
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         1, -10
-      \\]
-- id: 1537488025162
+      $$
+- id: 1542149188094
   fields:
     Front: |
       ## RoA problem 062: Solve the equation:
-      \\[
+      $$
         x^2 - 2x - 8 = 0
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         -2, 4
-      \\]
-- id: 1537488025212
+      $$
+- id: 1542149188193
   fields:
     Front: |
       ## RoA problem 063: Solve the equation:
-      \\[
+      $$
         x^2 + 9x - 1 = 0
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         \frac{-9 \pm\sqrt{85}}{2}
-      \\]
-- id: 1537488025262
+      $$
+- id: 1542149188294
   fields:
     Front: |
       ## RoA problem 064: Solve the equation:
-      \\[
+      $$
         x^2 - 2x - 7 = 0
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         1 \pm 2\sqrt{2}
-      \\]
-- id: 1537488025312
+      $$
+- id: 1542149188403
   fields:
     Front: |
       ## RoA problem 065: Solve the equation:
-      \\[
+      $$
         3x^2 + 5x + 1 = 0
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         \frac{-5 \pm\sqrt{13}}{6}
-      \\]
-- id: 1537488025362
+      $$
+- id: 1542149188495
   fields:
     Front: |
       ## RoA problem 066: Solve the equation:
-      \\[
+      $$
         2x^2 + 7x + 2 = 0
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         \frac{-7 \pm\sqrt{33}}{4}
-      \\]
-- id: 1537488025412
+      $$
+- id: 1542149188597
   fields:
     Front: |
       ## RoA problem 067: Solve the equation:
-      \\[
+      $$
         x^3 - 2x + 1 = 0
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         1,\frac{-1 \pm\sqrt{5}}{2}
-      \\]
-- id: 1537488025462
+      $$
+- id: 1542149188699
   fields:
     Front: |
       ## RoA problem 068: Solve the equation:
-      \\[
+      $$
         x^3 + 3x^2 + x - 1 = 0
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         -1,-1 \pm\sqrt{2}
-      \\]
-- id: 1537488025512
+      $$
+- id: 1542149188801
   fields:
     Front: |
       ## RoA problem 069: Is the following quadratic irreducible?
-      \\[
+      $$
         2x^2 + 3x + 4
-      \\]
+      $$
     Back: |
       Irreducible
-- id: 1537488025562
+- id: 1542149188898
   fields:
     Front: |
       ## RoA problem 070: Is the following quadratic irreducible?
-      \\[
+      $$
         2x^2 + 9x + 4
-      \\]
+      $$
     Back: |
       Not irreducible
-- id: 1537488025612
+- id: 1542149189018
   fields:
     Front: |
       ## RoA problem 071: Is the following quadratic irreducible?
-      \\[
+      $$
         3x^2 + x - 6
-      \\]
+      $$
     Back: |
       Not irreducible (two real roots)
-- id: 1537488025662
+- id: 1542149189121
   fields:
     Front: |
       ## RoA problem 072: Is the following quadratic irreducible?
-      \\[
+      $$
         x^2 + 3x + 6
-      \\]
+      $$
     Back: |
       Irreducible
-- id: 1537488025729
+- id: 1542149189219
   fields:
     Front: |
       ## RoA problem 073: Use the Binomial Theorem to expand the expression:
-      \\[
+      $$
         (a + b)^6
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         a^6 + 6a^5b + 15a^4b^2 + 20a^3b^3 + 15a^2b^4 + 6ab^5 + b^6
-      \\]
-- id: 1537488025779
+      $$
+- id: 1542149189348
   fields:
     Front: |
       ## RoA problem 074: Use the Binomial Theorem to expand the expression:
-      \\[
+      $$
         (a + b)^7
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         a^7 + 7a^6b + 21a^5b^2 + 35a^4b^3 + 35a^3b^4 + 21a^2b^5 + 7ab^6 + b^7
-      \\]
-- id: 1537488025829
+      $$
+- id: 1542149189446
   fields:
     Front: |
       ## RoA problem 075: Use the Binomial Theorem to expand the expression:
-      \\[
+      $$
         (x^2 - 1)^4
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         x^8 - 4x^6 + 6x^4 - 4x^2 + 1
-      \\]
-- id: 1537488025879
+      $$
+- id: 1542149189544
   fields:
     Front: |
       ## RoA problem 076: Use the Binomial Theorem to expand the expression:
-      \\[
+      $$
         (3 + x^2)^5
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         243 + 405x^2 + 270x^4 + 90x^6 + 15x^8 + x^{10}
-      \\]
-- id: 1537488025930
+      $$
+- id: 1542149189644
   fields:
     Front: |
       ## RoA problem 077: Simplify the radicals:
-      \\[
+      $$
         \sqrt{32}\sqrt{2}
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         8
-      \\]
-- id: 1537488025979
+      $$
+- id: 1542149189744
   fields:
     Front: |
       ## RoA problem 078: Simplify the radicals:
-      \\[
+      $$
         \frac{
           \sqrt[3]{-2}
         }{
           \sqrt[3]{54}
         }
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         -\frac{1}{3}
-      \\]
-- id: 1537488177451
+      $$
+- id: 1542149189864
   fields:
     Front: |
       ## RoA problem 079: Simplify the radicals:
-      \\[
+      $$
         \frac{
           \sqrt[4]{32x^4}
         }{
           \sqrt[4]{2}
         }
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         2|x|
-      \\]
-- id: 1537488177501
+      $$
+- id: 1542149189975
   fields:
     Front: |
       ## RoA problem 080: Simplify the radicals:
-      \\[
+      $$
         \sqrt{xy}\sqrt{x^3y}
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         x^2|y|
-      \\]
-- id: 1537488177551
+      $$
+- id: 1542149190069
   fields:
     Front: |
       ## RoA problem 081: Simplify the radicals:
-      \\[
+      $$
         \sqrt{16a^4b^3}
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         4a^2b\sqrt{b}
-      \\]
-- id: 1537488177601
+      $$
+- id: 1542149190169
   fields:
     Front: |
       ## RoA problem 082: Simplify the radicals:
-      \\[
+      $$
         \frac{
           \sqrt[5]{96a^6}
         }{
           \sqrt[5]{3a}
         }
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         2a
-      \\]
-- id: 1537488177651
+      $$
+- id: 1542149190273
   fields:
     Front: |
       ## RoA problem 083: Use the Laws of Exponents to rewrite and simplify the expression:
-      \\[
+      $$
         3^{10} \times 9^8
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         3^{26}
-      \\]
-- id: 1537488177701
+      $$
+- id: 1542149190406
   fields:
     Front: |
       ## RoA problem 084: Use the Laws of Exponents to rewrite and simplify the expression:
-      \\[
+      $$
         2^{16} \times 4^{10} \times 16^6
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         2^{60}
-      \\]
-- id: 1537488177751
+      $$
+- id: 1542149190494
   fields:
     Front: |
       ## RoA problem 085: Use the Laws of Exponents to rewrite and simplify the expression:
-      \\[
+      $$
         \frac{x^9(2x)^4}{x^3}
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         16x^{10}
-      \\]
-- id: 1537488177801
+      $$
+- id: 1542149190594
   fields:
     Front: |
       ## RoA problem 086: Use the Laws of Exponents to rewrite and simplify the expression:
-      \\[
+      $$
         \frac{a^n \times a^{2n+1}}{a^{n-2}}
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         a^{2n + 3}
-      \\]
-- id: 1537488177851
+      $$
+- id: 1542149190699
   fields:
     Front: |
       ## RoA problem 087: Use the Laws of Exponents to rewrite and simplify the expression:
-      \\[
+      $$
         \frac{a^{-3}b^4}{a^{-5}b^5}
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         \frac{a^2}{b}
-      \\]
-- id: 1537488177901
+      $$
+- id: 1542149190794
   fields:
     Front: |
       ## RoA problem 088: Use the Laws of Exponents to rewrite and simplify the expression:
-      \\[
+      $$
         \frac{x^{-1} + y^{-1}}{(x + y)^{-1}}
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         \frac{(x + y)^2}{xy}
-      \\]
-- id: 1537488177951
+      $$
+- id: 1542149190897
   fields:
     Front: |
       ## RoA problem 089: Use the Laws of Exponents to rewrite and simplify the expression:
-      \\[
+      $$
         3^{-1/2}
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         \frac{1}{\sqrt{3}}
-      \\]
-- id: 1537488178002
+      $$
+- id: 1542149190997
   fields:
     Front: |
       ## RoA problem 090: Use the Laws of Exponents to rewrite and simplify the expression:
-      \\[
+      $$
         96^{1/5}
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         2\sqrt[5]{3}
-      \\]
-- id: 1537488178052
+      $$
+- id: 1542149191093
   fields:
     Front: |
       ## RoA problem 091: Use the Laws of Exponents to rewrite and simplify the expression:
-      \\[
+      $$
         125^{2/3}
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         25
-      \\]
-- id: 1537488178101
+      $$
+- id: 1542149191200
   fields:
     Front: |
       ## RoA problem 092: Use the Laws of Exponents to rewrite and simplify the expression:
-      \\[
+      $$
         64^{-4/3}
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         \frac{1}{256}
-      \\]
-- id: 1537488178151
+      $$
+- id: 1542149191294
   fields:
     Front: |
       ## RoA problem 093: Use the Laws of Exponents to rewrite and simplify the expression:
-      \\[
+      $$
         (2x^2y^4)^{3/2}
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         2\sqrt{2}|x|^3y^6
-      \\]
-- id: 1537488178201
+      $$
+- id: 1542149191410
   fields:
     Front: |
       ## RoA problem 094: Use the Laws of Exponents to rewrite and simplify the expression:
-      \\[
+      $$
         (x^{-5}y^3z^{10})^{-3/5}
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         \frac{x^3}{y^{9/5}z^6}
-      \\]
-- id: 1537488178251
+      $$
+- id: 1542149191499
   fields:
     Front: |
       ## RoA problem 095: Use the Laws of Exponents to rewrite and simplify the expression:
-      \\[
+      $$
         \sqrt[5]{y^6}
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         y^{6/5}
-      \\]
-- id: 1537488178301
+      $$
+- id: 1542149191594
   fields:
     Front: |
       ## RoA problem 096: Use the Laws of Exponents to rewrite and simplify the expression:
-      \\[
+      $$
         (\sqrt[4]{a})^3
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         a^{3/4}
-      \\]
-- id: 1537488178351
+      $$
+- id: 1542149191694
   fields:
     Front: |
       ## RoA problem 097: Use the Laws of Exponents to rewrite and simplify the expression:
-      \\[
+      $$
         \frac{1}{(\sqrt{t})^5}
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         t^{-5/2}
-      \\]
-- id: 1537488178401
+      $$
+- id: 1542149191795
   fields:
     Front: |
       ## RoA problem 098: Use the Laws of Exponents to rewrite and simplify the expression:
-      \\[
+      $$
         \frac{\sqrt[8]{x^5}}{\sqrt[4]{x^3}}
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         \frac{1}{x^{1/8}}
-      \\]
-- id: 1537488178451
+      $$
+- id: 1542149191905
   fields:
     Front: |
       ## RoA problem 099: Use the Laws of Exponents to rewrite and simplify the expression:
-      \\[
+      $$
         \sqrt[4]{\frac{
           t^{1/2}\sqrt{st}
         }{
           s^{2/3}
         }}
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         \frac{t^{1/4}}{s^{1/24}}
-      \\]
-- id: 1537488178501
+      $$
+- id: 1542149191996
   fields:
     Front: |
       ## RoA problem 100: Use the Laws of Exponents to rewrite and simplify the expression:
-      \\[
+      $$
         \sqrt[4]{r^{2n+1}} \times \sqrt[4]{r^{-1}}
-      \\]
+      $$
     Back: |
-      \\[
+      $$
         r^{n/2}
-      \\]
-- id: 1537488178551
+      $$
+- id: 1542149192097
   fields:
     Front: |
       ## RoA problem 101: Rationalize the expression:
-      \\[
+      $$
         \frac{\sqrt{x} - 3}{x - 9}
-      \\]
+      $$
     Back: |
       Only the numerator has radicals, so we interpret the problem to mean "rationalize the numerator".
-      \\[
+      $$
         \frac{1}{\sqrt{x} + 3}
-      \\]
-- id: 1537488178601
+      $$
+- id: 1542149192202
   fields:
     Front: |
       ## RoA problem 102: Rationalize the expression:
-      \\[
+      $$
         \frac{(1/\sqrt{x}) - 1}{x - 1}
-      \\]
+      $$
     Back: |
       Only the numerator has radicals, so we interpret the problem to mean "rationalize the numerator".
-      \\[
+      $$
         \frac{-1}{\sqrt{x} + x}
-      \\]
-- id: 1537488178651
+      $$
+- id: 1542149192309
   fields:
     Front: |
       ## RoA problem 103: Rationalize the expression:
-      \\[
+      $$
         \frac{x\sqrt{x} - 8}{x - 4}
-      \\]
+      $$
     Back: |
       Only the numerator has radicals, so we interpret the problem to mean "rationalize the numerator".
-      \\[
+      $$
         \frac{x^2 + 4x + 16}{x\sqrt{x} + 8}
-      \\]
-- id: 1537488178701
+      $$
+- id: 1542149192424
   fields:
     Front: |
       ## RoA problem 104: Rationalize the expression:
-      \\[
+      $$
         \frac{
           \sqrt{2 + h} + \sqrt{2 - h}
         }{
           h
         }
-      \\]
+      $$
     Back: |
       Only the numerator has radicals, so we interpret the problem to mean "rationalize the numerator".
-      \\[
+      $$
         \frac{2}{\sqrt{2 + h} - \sqrt{2 - h}}
-      \\]
-- id: 1537488178767
+      $$
+- id: 1542149192545
   fields:
     Front: |
       ## RoA problem 105: Rationalize the expression:
-      \\[
+      $$
         \frac{2}{3 - \sqrt{5}}
-      \\]
+      $$
     Back: |
       Only the denominator has radicals, so we interpret the problem to mean "rationalize the denominator".
-      \\[
+      $$
         \frac{3 + \sqrt{5}}{2}
-      \\]
-- id: 1537488178827
+      $$
+- id: 1542149192644
   fields:
     Front: |
       ## RoA problem 106: Rationalize the expression:
-      \\[
+      $$
         \frac{1}{\sqrt{x} - \sqrt{y}}
-      \\]
+      $$
     Back: |
       Only the denominator has radicals, so we interpret the problem to mean "rationalize the denominator".
-      \\[
+      $$
         \frac{\sqrt{x} + \sqrt{y}}{x - y}
-      \\]
-- id: 1537488178884
+      $$
+- id: 1542149192744
   fields:
     Front: |
       ## RoA problem 107: Rationalize the expression:
-      \\[
+      $$
         \sqrt{x^2 + 3x + 4} - x
-      \\]
+      $$
     Back: |
       Treating this as a fraction with denominator of 1, only the numerator has radicals, so we interpret the problem to mean "rationalize the numerator".
-      \\[
+      $$
         \frac{3x + 4}{\sqrt{x^2 + 3x + 4} + x}
-      \\]
-- id: 1537488178934
+      $$
+- id: 1542149192844
   fields:
     Front: |
       ## RoA problem 108: Rationalize the expression:
-      \\[
+      $$
         \sqrt{x^2 + x} - \sqrt{x^2 - x}
-      \\]
+      $$
     Back: |
       Treating this as a fraction with denominator of 1, only the numerator has radicals, so we interpret the problem to mean "rationalize the numerator".
-      \\[
+      $$
         \frac{2x}{\sqrt{x^2 + x} + \sqrt{x^2 - x}}
-      \\]
-- id: 1537488178984
+      $$
+- id: 1542149192944
   fields:
     Front: |
       ## RoA problem 109: State whether or not the following equation is true for all values of the variable:
-      \\[
+      $$
         \sqrt{x^2} = x
-      \\]
+      $$
     Back: |
       False
-- id: 1537488179034
+- id: 1542149193052
   fields:
     Front: |
       ## RoA problem 110: State whether or not the following equation is true for all values of the variable:
-      \\[
+      $$
         \sqrt{x^2 + 4} = |x| + 2
-      \\]
+      $$
     Back: |
       False
-- id: 1537488179084
+- id: 1542149193144
   fields:
     Front: |
       ## RoA problem 111: State whether or not the following equation is true for all values of the variable:
-      \\[
+      $$
         \frac{16 + a}{16} = 1 + \frac{a}{16}
-      \\]
+      $$
     Back: |
       True
-- id: 1537488179134
+- id: 1542149193245
   fields:
     Front: |
       ## RoA problem 112: State whether or not the following equation is true for all values of the variable:
-      \\[
+      $$
         \frac{1}{x^{-1} + y^{-1}} = x + y
-      \\]
+      $$
     Back: |
       False
-- id: 1537488179184
+- id: 1542149193359
   fields:
     Front: |
       ## RoA problem 113: State whether or not the following equation is true for all values of the variable:
-      \\[
+      $$
         \frac{x}{x + y} = \frac{1}{1 + y}
-      \\]
+      $$
     Back: |
       False
-- id: 1537488179234
+- id: 1542149193445
   fields:
     Front: |
       ## RoA problem 114: State whether or not the following equation is true for all values of the variable:
-      \\[
+      $$
         \frac{2}{4 + x} = \frac{1}{2} + \frac{2}{x}
-      \\]
+      $$
     Back: |
       False
-- id: 1537488179284
+- id: 1542149193550
   fields:
     Front: |
       ## RoA problem 115: State whether or not the following equation is true for all values of the variable:
-      \\[
+      $$
         (x^3)^4 = x^7
-      \\]
+      $$
     Back: |
       False
-- id: 1537488179351
+- id: 1542149193648
   fields:
     Front: |
       ## RoA problem 116: State whether or not the following equation is true for all values of the variables:
-      \\[
+      $$
         6 - 4(x + a) = 6 - 4x - 4a
-      \\]
+      $$
     Back: |
       True
