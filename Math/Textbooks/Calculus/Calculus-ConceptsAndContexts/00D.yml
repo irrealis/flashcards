@@ -1,0 +1,11 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  tags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Calculus-ConceptsAndContexts
+  - CCAC-00.D-Diagnostics-Trigonometry
+  markdownTabLength: 2
+notes:
