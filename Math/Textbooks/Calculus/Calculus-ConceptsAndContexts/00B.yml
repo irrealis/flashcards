@@ -9,3 +9,14 @@ defaults:
   - CCAC-00.B-Diagnostics-AnalyticGeometry
   markdownTabLength: 2
 notes:
+- id: 1539795155312
+  fields:
+    Front: |
+      CCAC 00.B (Analytic Geometry) 01a: Find an equation for the line that passes through point $(2, -5)$ and has slope $-3$.
+    Back: |
+      $$
+        y = -3x + 1
+      $$
+
+      ---
+      (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
