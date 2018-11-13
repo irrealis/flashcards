@@ -415,3 +415,14 @@ notes:
       $$
         [-4, 3)
       $$
+- id: 1539840954585
+  fields:
+    Front: |
+      CCAC 00.A (Algebra) 09b: Solve the inequality. Answer using interval notation.
+      $$
+        x^2 < 2x + 8
+      $$
+    Back: |
+      $$
+        (-2, 4)
+      $$
