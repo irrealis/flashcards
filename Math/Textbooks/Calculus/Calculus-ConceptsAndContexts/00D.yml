@@ -208,3 +208,17 @@ notes:
 
       ---
       (If you have had difficulty with this problem, you should look at Appendix C of CCAC.)
+- id: 1539880267721
+  extraTags:
+  - ToDo
+  fields:
+    Front: |
+      CCAC 00.D (Trigonometry) 07a: Prove the identity:
+      $$
+      \tan \theta \sin \theta + \cos \theta = \sec \theta.
+      $$
+    Back: |
+      $\ldots$.
+
+      ---
+      (If you have had difficulty with this problem, you should look at Appendix C of CCAC.)
