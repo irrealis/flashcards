@@ -236,3 +236,12 @@ notes:
 
       ---
       (If you have had difficulty with this problem, you should look at Appendix C of CCAC.)
+- id: 1539880267965
+  fields:
+    Front: |
+      CCAC 00.D (Trigonometry) 08: Find all values of $x$ such that $\sin 2x = \sin x$ and $0 \le x \le 2\pi$.
+    Back: |
+      $0$, $\pi/3$, $\pi$, $5\pi/3$, $2\pi$.
+
+      ---
+      (If you have had difficulty with this problem, you should look at Appendix C of CCAC.)
