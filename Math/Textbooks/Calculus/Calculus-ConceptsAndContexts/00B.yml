@@ -73,3 +73,14 @@ notes:
 
       ---
       (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
+- id: 1539795156147
+  fields:
+    Front: |
+      CCAC 00.B (Analytic Geometry) 04a: Let $A(-7, 4)$ and $B(5, -12)$ be points in the plane. Find the slope of the line that contains $A$ and $B$.
+    Back: |
+      $$
+        -\frac{4}{3}
+      $$
+
+      ---
+      (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
