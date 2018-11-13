@@ -266,3 +266,15 @@ notes:
 
       ---
       (If you have had difficulty with this problem, you should look at Sections 1.1-1.3 of CCAC.)
+- id: 1539840473456
+  fields:
+    Front: |
+      CCAC 00.C (Functions) 04b: How is the graph of the following function obtained from the graph of $f$?
+      $$
+      y = 2f(x) - 1
+      $$
+    Back: |
+      Stretch vertically by a factor of 2, then shift 1 unit downward.
+
+      ---
+      (If you have had difficulty with this problem, you should look at Sections 1.1-1.3 of CCAC.)
