@@ -321,3 +321,37 @@ notes:
 
       ---
       (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
+- id: 1539795666587
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 00.B (Analytic Geometry) 05f: Sketch the region in the $xy$-plane defined by the equation:
+      $$
+        9x^2 + 16y^2 = 144
+      $$
+    Back: |
+      ```{python echo = False}
+      import sympy as sy
+      import matplotlib.pyplot as plt
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      x, y = sy.symbols('x y')
+      p = sy.plot_implicit(sy.Eq(9*x**2 + 16*y**2, 144), line_color = 'k', show = False)
+      p.xlim = (-6,6)
+      p.ylim = (-4,4)
+
+      # Must manually enable backend without showing it.
+      if hasattr(p, '_backend'):
+        p._backend.close()
+      p._backend = p.backend(p)
+      fg, ax = p._backend.fig, p._backend.ax
+
+      ax.text(2, 3, '$9x^2 + 16y^2 = 144$')
+
+      p._backend.show()
+      ```
+
+      ---
+      (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
