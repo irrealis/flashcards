@@ -45,3 +45,12 @@ notes:
 
       ---
       (If you have had difficulty with this problem, you should look at Appendix C of CCAC.)
+- id: 1539876983062
+  fields:
+    Front: |
+      CCAC 00.D (Trigonometry) 03: Find the length of an arc with radius $12$ cm if the arc subtends a central angle of $30^\circ$.
+    Back: |
+      $2\pi$ cm.
+
+      ---
+      (If you have had difficulty with this problem, you should look at Appendix C of CCAC.)
