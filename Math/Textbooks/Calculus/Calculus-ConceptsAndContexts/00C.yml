@@ -510,3 +510,20 @@ notes:
 
       ---
       (If you have had difficulty with this problem, you should look at Sections 1.1-1.3 of CCAC.)
+- id: 1539875389288
+  fields:
+    Front: |
+      CCAC 00.C (Functions) 06a: Let
+      $$
+      f(x) =
+      \begin{cases}
+      1 - x^2 &\textrm{if } x \le 0, \\
+      2x + 1 &\textrm{if } x > 0.
+      \end{cases}
+      $$
+      Evaluate $f(-2)$ and $f(1)$.
+    Back: |
+      $-3$, $3$.
+
+      ---
+      (If you have had difficulty with this problem, you should look at Sections 1.1-1.3 of CCAC.)
