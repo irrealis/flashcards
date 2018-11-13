@@ -426,3 +426,14 @@ notes:
       $$
         (-2, 4)
       $$
+- id: 1539840954718
+  fields:
+    Front: |
+      CCAC 00.A (Algebra) 09c: Solve the inequality. Answer using interval notation.
+      $$
+        x(x-1)(x+2) > 0
+      $$
+    Back: |
+      $$
+        (-2, 0) \cup (1, \infty)
+      $$
