@@ -230,3 +230,15 @@ notes:
 
       ---
       (If you have had difficulty with this problem, you should look at Sections 1.1-1.3 of CCAC.)
+- id: 1539840114940
+  fields:
+    Front: |
+      CCAC 00.C (Functions) 03b: Find the domain the following function:
+      $$
+      g(x) = \frac{\sqrt[3]{x}}{x^2 + 1}
+      $$
+    Back: |
+      $(-\infty, \infty)$.
+
+      ---
+      (If you have had difficulty with this problem, you should look at Sections 1.1-1.3 of CCAC.)
