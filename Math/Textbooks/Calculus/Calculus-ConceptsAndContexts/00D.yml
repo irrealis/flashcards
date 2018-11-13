@@ -36,3 +36,12 @@ notes:
 
       ---
       (If you have had difficulty with this problem, you should look at Appendix C of CCAC.)
+- id: 1539876982945
+  fields:
+    Front: |
+      CCAC 00.D (Trigonometry) 02b: Convert $2$ from radians to degrees.
+    Back: |
+      $360^\circ/\pi \approx 114.6^\circ$.
+
+      ---
+      (If you have had difficulty with this problem, you should look at Appendix C of CCAC.)
