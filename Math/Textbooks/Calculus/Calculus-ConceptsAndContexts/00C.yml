@@ -278,3 +278,15 @@ notes:
 
       ---
       (If you have had difficulty with this problem, you should look at Sections 1.1-1.3 of CCAC.)
+- id: 1539840473585
+  fields:
+    Front: |
+      CCAC 00.C (Functions) 04c: How is the graph of the following function obtained from the graph of $f$?
+      $$
+      y = f(x - 3) + 2
+      $$
+    Back: |
+      Shift 3 units to the right and 2 units upward.
+
+      ---
+      (If you have had difficulty with this problem, you should look at Sections 1.1-1.3 of CCAC.)
