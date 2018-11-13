@@ -249,3 +249,39 @@ notes:
 
       ---
       (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
+- id: 1539795664413
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 00.B (Analytic Geometry) 05d: Sketch the region in the $xy$-plane defined by the inequality:
+      $$
+        y \ge x^2 - 1
+      $$
+    Back: |
+      ```{python echo = False}
+      import matplotlib.pyplot as plt
+      import numpy as np
+
+      fig, ax = plt.subplots()
+
+      x = np.arange(-4, 4, 0.05)
+      y = x**2 - 1
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+      ax.plot(x, y, color = 'k', linestyle = '-')
+      ax.fill_between(x, y, 4)
+      ax.text(0.05, 0.05, '0')
+      ax.text(1.05, -0.30, '1')
+      ax.text(0.05, -1.30, '-1')
+      ax.text(1, -1, '$y = x^2 - 1$')
+
+      ax.axhline(y = 0, color = 'k', linewidth = 0.5)
+      ax.axvline(x = 0, color = 'k', linewidth = 0.5)
+      plt.ylim((-3, 3))
+      plt.xlim((-4, 4))
+      plt.show()
+      ```
+
+      ---
+      (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
