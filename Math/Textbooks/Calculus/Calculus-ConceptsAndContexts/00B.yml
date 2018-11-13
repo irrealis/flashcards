@@ -42,3 +42,14 @@ notes:
 
       ---
       (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
+- id: 1539795155768
+  fields:
+    Front: |
+      CCAC 00.B (Analytic Geometry) 01d: Find an equation for the line that passes through point $(2, -5)$ and is parallel to the line $2x - 4y = 3$.
+    Back: |
+      $$
+        y = \frac{1}{2}x - 6
+      $$
+
+      ---
+      (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
