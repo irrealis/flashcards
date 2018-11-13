@@ -527,3 +527,39 @@ notes:
 
       ---
       (If you have had difficulty with this problem, you should look at Sections 1.1-1.3 of CCAC.)
+- id: 1539875389486
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 00.C (Functions) 06b: Let
+      $$
+      f(x) =
+      \begin{cases}
+      1 - x^2 &\textrm{if } x \le 0, \\
+      2x + 1 &\textrm{if } x > 0.
+      \end{cases}
+      $$
+      Sketch the graph of $f$.
+    Back: |
+      ```{python echo = False}
+      import sympy as sy
+      import matplotlib.pyplot as plt
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      x = sy.symbols('x')
+      p = sy.plot(
+        (1 - x**2, (x, -6, 0)),
+        (2*x + 1, (x, 0, 6)),
+        xlabel = '$x$',
+        ylabel = '$f(x)$',
+        show = False,
+      )
+      p.xlim = (-6,6)
+      p.ylim = (-4,4)
+      p.show()
+      ```
+
+      ---
+      (If you have had difficulty with this problem, you should look at Sections 1.1-1.3 of CCAC.)
