@@ -199,3 +199,12 @@ notes:
 
       ---
       (If you have had difficulty with this problem, you should look at Appendix C of CCAC.)
+- id: 1539880267598
+  fields:
+    Front: |
+      CCAC 00.D (Trigonometry) 06: If $\sin x = \frac{1}{3}$ and $\sec y = \frac{5}{4}$, where $x$ and $y$ lie between $0$ and $\pi/2$, evaluate $\sin(x + y)$.
+    Back: |
+      $\frac{1}{15}(4 + 6\sqrt{2})$.
+
+      ---
+      (If you have had difficulty with this problem, you should look at Appendix C of CCAC.)
