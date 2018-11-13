@@ -126,3 +126,14 @@ notes:
 
       ---
       (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
+- id: 1539795156711
+  fields:
+    Front: |
+      CCAC 00.B (Analytic Geometry) 04f: Let $A(-7, 4)$ and $B(5, -12)$ be points in the plane. Find an equation of the circle for which $AB$ is a diameter.
+    Back: |
+      $$
+        (x + 1)^2 + (y + 4)^2 = 100
+      $$
+
+      ---
+      (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
