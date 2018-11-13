@@ -53,3 +53,14 @@ notes:
 
       ---
       (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
+- id: 1539795155879
+  fields:
+    Front: |
+      CCAC 00.B (Analytic Geometry) 02: Find an equation for the circle that has center $(-1, 4)$ and passes through the point $(3, -2)$.
+    Back: |
+      $$
+        (x+1)^2 + (y-4)^2 = (3+1)^2 + (-2-4)^2 = 52
+      $$
+
+      ---
+      (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
