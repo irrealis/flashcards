@@ -245,3 +245,44 @@ notes:
 
       ---
       (If you have had difficulty with this problem, you should look at Appendix C of CCAC.)
+- id: 1539880268089
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 00.D (Trigonometry) 09: Sketch the graph of the function $y = 1 + \sin 2x$ without using a calculuator.
+    Back: |
+      ```{python echo = False}
+      import sympy as sy
+      import matplotlib.pyplot as plt
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      x = sy.symbols('x')
+      p = sy.plot(
+        1 + sy.sin(2*x),
+        xlabel = '$x$',
+        ylabel = '$y$',
+        show = False,
+      )
+      p.xlim = (-4.5,4.5)
+      p.ylim = (-2,4)
+      6*1.5
+      4*1.5
+
+      # Must manually enable backend without showing it.
+      if hasattr(p, '_backend'):
+        p._backend.close()
+      p._backend = p.backend(p)
+      fg, ax = p._backend.fig, p._backend.ax
+
+      ax.plot(-sy.pi, 1, 'ko', markersize = 4)
+      ax.plot(sy.pi, 1, 'ko', markersize = 4)
+      ax.text(-3., 0.7, '$(-\pi,1)$')
+      ax.text(3.3, 0.7, '$(\pi,1)$')
+
+      p._backend.show()
+      ```
+
+      ---
+      (If you have had difficulty with this problem, you should look at Appendix C of CCAC.)
