@@ -477,3 +477,12 @@ notes:
       $$
     Back: |
       True.
+- id: 1539840955377
+  fields:
+    Front: |
+      CCAC 00.A (Algebra) 10c: State whether the equation is true or false.
+      $$
+        \sqrt{a^2 + b^2} = a + b
+      $$
+    Back: |
+      False.
