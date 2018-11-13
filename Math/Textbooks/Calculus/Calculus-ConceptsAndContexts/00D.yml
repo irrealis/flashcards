@@ -9,3 +9,12 @@ defaults:
   - CCAC-00.D-Diagnostics-Trigonometry
   markdownTabLength: 2
 notes:
+- id: 1539876471012
+  fields:
+    Front: |
+      CCAC 00.D (Trigonometry) 01a: Convert $300^\circ$ from degrees to radians.
+    Back: |
+      $5 \pi / 3$.
+
+      ---
+      (If you have had difficulty with this problem, you should look at Appendix C of CCAC.)
