@@ -437,3 +437,14 @@ notes:
       $$
         (-2, 0) \cup (1, \infty)
       $$
+- id: 1539840954853
+  fields:
+    Front: |
+      CCAC 00.A (Algebra) 09d: Solve the inequality. Answer using interval notation.
+      $$
+        |x - 4| < 3
+      $$
+    Back: |
+      $$
+        (1, 7)
+      $$
