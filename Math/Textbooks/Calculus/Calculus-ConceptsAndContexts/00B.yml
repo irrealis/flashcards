@@ -20,3 +20,14 @@ notes:
 
       ---
       (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
+- id: 1539795155477
+  fields:
+    Front: |
+      CCAC 00.B (Analytic Geometry) 01b: Find an equation for the line that passes through point $(2, -5)$ and is parallel to the $x$-axis.
+    Back: |
+      $$
+        y = -5
+      $$
+
+      ---
+      (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
