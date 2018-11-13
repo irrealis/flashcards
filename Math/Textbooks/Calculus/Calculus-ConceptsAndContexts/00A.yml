@@ -468,3 +468,12 @@ notes:
       $$
     Back: |
       False.
+- id: 1539840955217
+  fields:
+    Front: |
+      CCAC 00.A (Algebra) 10b: State whether the equation is true or false.
+      $$
+        \sqrt{ab} = \sqrt{a}\sqrt{b}
+      $$
+    Back: |
+      True.
