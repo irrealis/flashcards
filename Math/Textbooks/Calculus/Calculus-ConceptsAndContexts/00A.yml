@@ -404,3 +404,14 @@ notes:
       $$
         x = \frac{12}{5}
       $$
+- id: 1539840954467
+  fields:
+    Front: |
+      CCAC 00.A (Algebra) 09a: Solve the inequality. Answer using interval notation.
+      $$
+        -4 < 5 - 3x \le 17
+      $$
+    Back: |
+      $$
+        [-4, 3)
+      $$
