@@ -213,3 +213,39 @@ notes:
 
       ---
       (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
+- id: 1539795663313
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 00.B (Analytic Geometry) 05c: Sketch the region in the $xy$-plane defined by the inequality:
+      $$
+        y < 1 - \frac{1}{2}x
+      $$
+    Back: |
+      ```{python echo = False}
+      import matplotlib.pyplot as plt
+      import numpy as np
+
+      fig, ax = plt.subplots()
+
+      x = np.array([-4, 4])
+      y = 1 - 0.5*x
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+      ax.plot(x, y, color = 'k', linestyle = '--')
+      ax.fill_between(x, -4, y)
+      ax.text(0.05, 1.05, '1')
+      ax.text(0.05, 0.05, '0')
+      ax.text(2.05, 0.05, '2')
+      ax.text(1, 1, '$y = 1 - \\frac{1}{2}x$')
+
+      ax.axhline(y = 0, color = 'k', linewidth = 0.5)
+      ax.axvline(x = 0, color = 'k', linewidth = 0.5)
+      plt.ylim((-3, 3))
+      plt.xlim((-4, 4))
+      plt.show()
+      ```
+
+      ---
+      (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
