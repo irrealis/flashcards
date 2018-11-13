@@ -504,3 +504,12 @@ notes:
       $$
     Back: |
       False.
+- id: 1539840955752
+  fields:
+    Front: |
+      CCAC 00.A (Algebra) 10f: State whether the equation is true or false.
+      $$
+        \frac{1/x}{a/x - b/x} = \frac{1}{a - b}
+      $$
+    Back: |
+      True.
