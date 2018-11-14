@@ -455,3 +455,12 @@ notes:
       $$
     Back: |
       Odd.
+- id: 1542161096425
+  fields:
+    Front: |
+      CCAC 01.1 69: Determine whether $f$ is even, odd, or neither. If you have plotting software, use it to check your answer visually.
+      $$
+      f(x) = \frac{x}{x + 1}
+      $$
+    Back: |
+      Neither.
