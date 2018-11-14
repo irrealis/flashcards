@@ -337,3 +337,11 @@ notes:
         2x - 6 &\text{ if } 3 < x \le 5 \\
       \end{cases}
       $$
+- id: 1542158435298
+  fields:
+    Front: |
+      CCAC 01.1 53: Find a formula for and state the domain of a rectangle with perimeter $20\text{ m}$. Express the area of the rectangle as a function of the length of one of its sides.
+    Back: |
+      $$
+      A(L) = 10L - L^2,\ 0 < L < 10
+      $$
