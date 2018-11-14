@@ -464,3 +464,12 @@ notes:
       $$
     Back: |
       Neither.
+- id: 1542161096546
+  fields:
+    Front: |
+      CCAC 01.1 71: Determine whether $f$ is even, odd, or neither. If you have plotting software, use it to check your answer visually.
+      $$
+      f(x) = 1 + 3x^2 - x^4
+      $$
+    Back: |
+      Even.
