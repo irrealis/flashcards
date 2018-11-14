@@ -438,3 +438,11 @@ notes:
       $$
       (-5, 3)
       $$
+- id: 1542161096218
+  fields:
+    Front: |
+      CCAC 01.1 65b: If the point $(5,3)$ is on the graph of an odd function, what other point must also be on the graph?
+    Back: |
+      $$
+      (-5, -3)
+      $$
