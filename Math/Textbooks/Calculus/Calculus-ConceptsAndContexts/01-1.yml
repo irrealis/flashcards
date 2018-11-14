@@ -106,3 +106,29 @@ notes:
         ylim = (-2,4),
       )
       ```
+- id: 1542156832144
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 01.1 37: Find the domain and sketch the graph of the function:
+      $$
+      f(t) = 2t+t^2
+      $$
+    Back: |
+      Domain: $(-\infty, \infty)$.
+      ```{python echo = False}
+      import sympy as sy
+      import matplotlib.pyplot as plt
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      t = sy.symbols('t')
+      p = sy.plot(
+        t**2+2*t,
+        xlabel = '$t$',
+        ylabel = '$f(t)$',
+        xlim = (-4,2),
+        ylim = (-1.5,2.5),
+      )
+      ```
