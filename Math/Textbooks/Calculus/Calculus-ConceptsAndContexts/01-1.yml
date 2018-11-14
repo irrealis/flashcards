@@ -288,3 +288,11 @@ notes:
 
       p._backend.show()
       ```
+- id: 1542157568819
+  fields:
+    Front: |
+      CCAC 01.1 47: Find an expression for the function whose graph is the line segment joining the points $(1,-3)$ and $(5,7)$.
+    Back: |
+      $$
+      f(x) = \frac{5}{2}x - \frac{11}{2},\ 1 \le x \le 5
+      $$
