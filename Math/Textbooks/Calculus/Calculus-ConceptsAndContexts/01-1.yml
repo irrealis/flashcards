@@ -47,3 +47,14 @@ notes:
       $$
       -\frac{1}{ax}
       $$
+- id: 1542156831744
+  fields:
+    Front: |
+      CCAC 01.1 29: Find the domain of the function:
+      $$
+      f(x) = \frac{x+4}{x^2-9}
+      $$
+    Back: |
+      $$
+      (-\infty, -3) \cup (-3,3) \cup (3, \infty)
+      $$
