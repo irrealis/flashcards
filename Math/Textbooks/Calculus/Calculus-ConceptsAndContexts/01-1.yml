@@ -371,3 +371,28 @@ notes:
       $$
       V(x) = 4x^3 - 64x^2 + 240x,\ 0 < x < 6
       $$
+- id: 1542158775019
+  markdownMathExt: False
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 01.1 61a: In a certain country, income tax is assessed as follows. There is no tax on income up to $10,000. Any income over $10,000 is taxed at a rate of 10%, up to an income of $20,000. Any income over $20,000 is taxed at 15%. Sketch the graph of the tax rate \\(R\\) as a function of income \\(I\\).
+    Back: |
+      ```{python echo = False}
+      import matplotlib.pyplot as plt
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      fig, ax = plt.subplots()
+      ax.plot((0, 10000), (0,0), color = '#1f77b4')
+      ax.plot(10000, 0, 'ko', markersize = 5)
+      ax.plot(10000, 10, 'ko', fillstyle = 'none', markersize = 5)
+      ax.plot((10000, 20000), (10,10), color = '#1f77b4')
+      ax.plot(20000, 10, 'ko', markersize = 5)
+      ax.plot(20000, 15, 'ko', fillstyle = 'none', markersize = 5)
+      ax.plot((20000, 30000), (15,15), color = '#1f77b4')
+      ax.set(xlabel = "$I$ (dollars)", ylabel = "$R$ (\%)")
+      plt.yticks((0,5,10,15))
+      plt.show()
+      ```
