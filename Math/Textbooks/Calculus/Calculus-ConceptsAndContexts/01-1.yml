@@ -80,3 +80,29 @@ notes:
       $$
       (-\infty, 0) \cup (5, \infty)
       $$
+- id: 1542156832043
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 01.1 35: Find the domain and sketch the graph of the function:
+      $$
+      f(x) = 2 - 0.4x
+      $$
+    Back: |
+      Domain: $(-\infty, \infty)$.
+      ```{python echo = False}
+      import sympy as sy
+      import matplotlib.pyplot as plt
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      x = sy.symbols('x')
+      p = sy.plot(
+        -2/5*x+2,
+        xlabel = '$x$',
+        ylabel = '$f(x)$',
+        xlim = (-2,7),
+        ylim = (-2,4),
+      )
+      ```
