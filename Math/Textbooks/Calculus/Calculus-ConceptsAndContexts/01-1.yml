@@ -304,3 +304,36 @@ notes:
       $$
       f(x) = 1 - \sqrt{-x}
       $$
+- id: 1542157569044
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 01.1 51: Find an expression for the function whose graph is the following curve:
+      ```{python echo = False}
+      import sympy as sy
+      import matplotlib.pyplot as plt
+      from matplotlib import style
+
+      style.use('ggplot')
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      x = sy.symbols('x')
+      p = sy.plot(
+        (-(x-3), (x, 0, 3)),
+        (2*(x-3), (x, 3, 5)),
+        xlabel = '$x$',
+        ylabel = '$f(x)$',
+        xlim = (-2,6),
+        ylim = (-1,5),
+      )
+      ```
+    Back: |
+      $$
+      f(x) =
+      \begin{cases}
+        -x + 3 &\text{ if } 0 \le x \le 3 \\
+        2x - 6 &\text{ if } 3 < x \le 5 \\
+      \end{cases}
+      $$
