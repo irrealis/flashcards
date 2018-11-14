@@ -446,3 +446,12 @@ notes:
       $$
       (-5, -3)
       $$
+- id: 1542161096319
+  fields:
+    Front: |
+      CCAC 01.1 67: Determine whether $f$ is even, odd, or neither. If you have plotting software, use it to check your answer visually.
+      $$
+      f(x) = \frac{x}{x^2 + 1}
+      $$
+    Back: |
+      Odd.
