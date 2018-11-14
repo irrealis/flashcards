@@ -58,3 +58,14 @@ notes:
       $$
       (-\infty, -3) \cup (-3,3) \cup (3, \infty)
       $$
+- id: 1542156831844
+  fields:
+    Front: |
+      CCAC 01.1 31: Find the domain of the function:
+      $$
+      f(t) = \sqrt[3]{2t-1}
+      $$
+    Back: |
+      $$
+      (-\infty, \infty)
+      $$
