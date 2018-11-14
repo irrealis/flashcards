@@ -10,3 +10,18 @@ defaults:
   - CCAC-01.1-FourWaysToRepresentAFunction
   markdownTabLength: 2
 notes:
+- id: 1539840950087
+  fields:
+    Front: |
+      CCAC 01.1 23: If $f(x) = 3x^2 - x + 2$, find $f(2)$, $f(-2)$, $f(a)$, $f(-a)$, $f(a+1)$, $2f(a)$, $f(2a)$, $f(a^2)$, $[f(a)]^2$, and $f(a+h)$.
+    Back: |
+      $12$,
+      $16$,
+      $3a^2-a+2$,
+      $3a^2+a+2$,
+      $3a^2+5a+4$,
+      $6a^2-2a+4$,
+      $12a^2-2a+2$,
+      $3a^4-a^2+2$,
+      $9a^4-6a^3+13a^2-4a+4$,
+      $3a^2+6ah+3h^2-a-h+2$
