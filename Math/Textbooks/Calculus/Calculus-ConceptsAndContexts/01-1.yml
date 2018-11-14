@@ -132,3 +132,30 @@ notes:
         ylim = (-1.5,2.5),
       )
       ```
+- id: 1542156832244
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 01.1 39: Find the domain and sketch the graph of the function:
+      $$
+      g(x) = \sqrt{x - 5}
+      $$
+    Back: |
+      Domain: $[5, \infty)$.
+      ```{python echo = False}
+      import sympy as sy
+      from sympy import sqrt
+      import matplotlib.pyplot as plt
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      x = sy.symbols('x')
+      p = sy.plot(
+        sqrt(x-5),
+        xlabel = '$x$',
+        ylabel = '$g(x)$',
+        xlim = (-1,11),
+        ylim = (-1,3),
+      )
+      ```
