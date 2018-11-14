@@ -345,3 +345,12 @@ notes:
       $$
       A(L) = 10L - L^2,\ 0 < L < 10
       $$
+- id: 1542158435400
+  comment: Unclear.
+  fields:
+    Front: |
+      CCAC 01.1 55: Express the area of an equilateral triangle as a function of the length of a side.
+    Back: |
+      $$
+      A(x) = \frac{\sqrt{3} x^2}{4},\ 0 < x
+      $$
