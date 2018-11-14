@@ -296,3 +296,11 @@ notes:
       $$
       f(x) = \frac{5}{2}x - \frac{11}{2},\ 1 \le x \le 5
       $$
+- id: 1542157568925
+  fields:
+    Front: |
+      CCAC 01.1 49: Find an expression for the function whose graph is the bottom half of the parabola $x + (y-1)^2 = 0$.
+    Back: |
+      $$
+      f(x) = 1 - \sqrt{-x}
+      $$
