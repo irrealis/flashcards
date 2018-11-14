@@ -36,3 +36,14 @@ notes:
       $$
       -3-h
       $$
+- id: 1542156300846
+  fields:
+    Front: |
+      CCAC 01.1 27: Evaluate the difference quotient for the following function. Simplify your answer.
+      $$
+      f(x) = \frac{1}{x},\ \frac{f(x)-f(a)}{x-a}
+      $$
+    Back: |
+      $$
+      -\frac{1}{ax}
+      $$
