@@ -69,3 +69,14 @@ notes:
       $$
       (-\infty, \infty)
       $$
+- id: 1542156831945
+  fields:
+    Front: |
+      CCAC 01.1 33: Find the domain of the function:
+      $$
+      h(x) = \frac{1}{\sqrt[4]{x^2-5x}}
+      $$
+    Back: |
+      $$
+      (-\infty, 0) \cup (5, \infty)
+      $$
