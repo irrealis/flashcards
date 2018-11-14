@@ -243,3 +243,48 @@ notes:
 
       p._backend.show()
       ```
+- id: 1542156832544
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 01.1 45: Find the domain and sketch the graph of the function:
+      $$
+      f(x) =
+      \begin{cases}
+        x + 2 &\text{ if } x \le -1 \\
+        x^2 &\text{ if } x > -1 \\
+      \end{cases}
+      $$
+    Back: |
+      Domain: $(-\infty, \infty)$.
+      ```{python echo = False}
+      import sympy as sy
+      from sympy import Piecewise
+      import matplotlib.pyplot as plt
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      x = sy.symbols('x')
+      p = sy.plot(
+        Piecewise(
+          (x+2, x <= -1),
+          (x**2, -1 < x)
+        ),
+        xlabel = '$x$',
+        ylabel = '$f(x)$',
+        xlim = (-3,3),
+        ylim = (-1.5,2.5),
+        show = False,
+      )
+
+      # Must manually enable backend without showing it.
+      if hasattr(p, '_backend'):
+        p._backend.close()
+      p._backend = p.backend(p)
+      fg, ax = p._backend.fig, p._backend.ax
+
+      ax.plot(-1, 1, 'ko', markersize = 5)
+
+      p._backend.show()
+      ```
