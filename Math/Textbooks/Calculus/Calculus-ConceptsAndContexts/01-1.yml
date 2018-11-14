@@ -25,3 +25,14 @@ notes:
       $3a^4-a^2+2$,
       $9a^4-6a^3+13a^2-4a+4$,
       $3a^2+6ah+3h^2-a-h+2$
+- id: 1542151195945
+  fields:
+    Front: |
+      CCAC 01.1 25: Evaluate the difference quotient for the following function. Simplify your answer.
+      $$
+      f(x) = 4 + 3x - x^2,\ \frac{f(3+h)-f(3)}{h}
+      $$
+    Back: |
+      $$
+      -3-h
+      $$
