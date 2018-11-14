@@ -473,3 +473,9 @@ notes:
       $$
     Back: |
       Even.
+- id: 1542161096660
+  fields:
+    Front: |
+      CCAC 01.1 73: If $f$ and $g$ are both even functions, is $f+g$ even? If $f$ and $g$ are both odd functions, is $f+g$ odd? What if $f$ is even and $g$ is odd? Justify your answers.
+    Back: |
+      Even; odd; neither (unless $f = 0$ or $g = 0$).
