@@ -430,3 +430,11 @@ notes:
       plt.yticks((0, 1000, 2500))
       plt.show()
       ```
+- id: 1542161096094
+  fields:
+    Front: |
+      CCAC 01.1 65a: If the point $(5,3)$ is on the graph of an even function, what other point must also be on the graph?
+    Back: |
+      $$
+      (-5, 3)
+      $$
