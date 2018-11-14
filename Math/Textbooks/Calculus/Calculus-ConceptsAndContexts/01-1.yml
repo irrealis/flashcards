@@ -354,3 +354,12 @@ notes:
       $$
       A(x) = \frac{\sqrt{3} x^2}{4},\ 0 < x
       $$
+- id: 1542158435494
+  comment: Unclear.
+  fields:
+    Front: |
+      CCAC 01.1 57: An open rectangular box with volume $2\textrm{ m}^2$ has a square base. Express the surface area of the box as a function of the length of a side of the base.
+    Back: |
+      $$
+      S(x) = x^2 + 8/x,\ 0 < x
+      $$
