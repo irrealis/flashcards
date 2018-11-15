@@ -693,3 +693,35 @@ notes:
       _=_
       # m, b
       ```
+- id: 1542310859369
+  fields:
+    Front: |
+      CCAC 01.2 23c: The table below gives the winning heights for the Olympic pole vault competitions up to the year 2000.
+
+      $$
+        \begin{array}{|c|c|c|c|}
+          \hline
+          \text{Year} & \text{Height (m)} & \text{Year} & \text{Height (m)} \\
+          \hline
+          1896  & 3.30 & 1956 & 4.56 \\
+          1900  & 3.30 & 1960 & 4.70 \\
+          1904  & 3.50 & 1964 & 5.10 \\
+          1908  & 3.71 & 1968 & 5.40 \\
+          1912  & 3.95 & 1972 & 5.64 \\
+          1920  & 4.09 & 1976 & 5.64 \\
+          1924  & 3.95 & 1980 & 5.78 \\
+          1928  & 4.20 & 1984 & 5.75 \\
+          1932  & 4.31 & 1988 & 5.90 \\
+          1936  & 4.35 & 1992 & 5.87 \\
+          1948  & 4.30 & 1996 & 5.92 \\
+          1952  & 4.55 & 2000 & 5.90 \\
+          \hline
+        \end{array}
+      $$
+
+      Using the linear model below, predict the height of the winning pole vault at the 2004 Olympics, and compare with the actual winning height of 5.95 meters.
+      $$
+      y = -0.027t - 47.758
+      $$
+    Back: |
+      $6.35\ \text{m}$; higher than actual value.
