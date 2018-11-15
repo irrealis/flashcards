@@ -468,3 +468,34 @@ notes:
       \\]
     Back: |
       About \\(6\%\\).
+- id: 1542310014194
+  useMarkdownMathExt: False
+  fields:
+    Front: |
+      CCAC 01.2 21f: The table below shows (lifetime) peptic ulcer rates (per 100 population) for various family incomes as reported by the National Health interview Survey.
+
+      \\[
+        \begin{array}{|c|c|}
+          \hline
+          \text{Income} & \text{Ulcer rate} \\\\
+          & \text{(per 100 population)} \\\\
+          \hline
+          $4,000  & 14.1 \\\\
+          $6,000  & 13.0 \\\\
+          $8,000  & 13.4 \\\\
+          $12,000 & 12.5 \\\\
+          $16,000 & 12.0 \\\\
+          $20,000 & 12.4 \\\\
+          $30,000 & 10.5 \\\\
+          $45,000 & 9.4  \\\\
+          $60,000 & 8.2  \\\\
+          \hline
+        \end{array}
+      \\]
+
+      Based on the linear model below, do you think it would be reasonable to apply the model to someone with an income of $200,000?
+      \\[
+      y = -0.00009979x + 13.951
+      \\]
+    Back: |
+      No.
