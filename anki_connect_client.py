@@ -508,3 +508,16 @@ class AnkiConnectClient(AnkiConnectClientBase):
       'Error getting info for notes %s', notes
     )
     return result
+
+  def storeMediaFile(self, filename, data):
+    """
+    TODO
+    """
+    response, result = self.send_as_json(action = "storeMediaFile", params = dict(
+      filename = filename,
+      data = data,
+    ))
+    self._check(response, result,
+      'Error storing media file "%s"', filename
+    )
+    return result
