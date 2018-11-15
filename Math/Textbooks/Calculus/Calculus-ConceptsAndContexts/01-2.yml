@@ -221,3 +221,65 @@ notes:
       $$
       196\ \text{ft}
       $$
+- id: 1542309173519
+  useMarkdownMathExt: False
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 01.2 21a: The table below shows (lifetime) peptic ulcer rates (per 100 population) for various family incomes as reported by the National Health interview Survey.
+
+      \\[
+        \begin{array}{|c|c|}
+          \hline
+          \text{Income} & \text{Ulcer rate} \\\\
+          & \text{(per 100 population)} \\\\
+          \hline
+          $4,000  & 14.1 \\\\
+          $6,000  & 13.0 \\\\
+          $8,000  & 13.4 \\\\
+          $12,000 & 12.5 \\\\
+          $16,000 & 12.0 \\\\
+          $20,000 & 12.4 \\\\
+          $30,000 & 10.5 \\\\
+          $45,000 & 9.4  \\\\
+          $60,000 & 8.2  \\\\
+          \hline
+        \end{array}
+      \\]
+
+      Make a scatter plot of these data and decide whether a linear model is appropriate.
+    Back: |
+      ```{python echo = False}
+      import matplotlib.pyplot as plt
+      import numpy as np
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      D = np.array((
+        4000,
+        6000,
+        8000,
+        12000,
+        16000,
+        20000,
+        30000,
+        45000,
+        60000,
+      ))
+      U = np.array((
+        14.1,
+        13.0,
+        13.4,
+        12.5,
+        12.0,
+        12.4,
+        10.5,
+        9.4,
+        8.2,
+      ))
+      plt.scatter(D, U)
+      plt.xlim(0, max(D)+1000)
+      _ = plt.ylim(0, max(U)+1)
+      ```
+      Linear model is appropriate.
