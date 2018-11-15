@@ -125,3 +125,11 @@ notes:
       Find the slope of the graph of $c$. What does it represent?
     Back: |
       $8.34$, representing the change in mg for every $1$-year change.
+- id: 1542247480069
+  fields:
+    Front: |
+      CCAC 01.2 11b: If the recommended adult dosage for a drug is $D$ (in mg), then to determine the appropriate dosage $c$ for a child of age $a$, pharmacists use the equation $c=0.0417D(a+1)$. If the recommended adult dosage for a drug is $D$ (in mg), then to determine the appropriate dosage $c$ for a child of age $a$, pharmacists use the equation $c=0.0417D(a+1)$. Suppose the dosage for an adult is 200 mg.
+
+      What is the dosage for a newborn?
+    Back: |
+      $8.34$ mg.
