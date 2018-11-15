@@ -323,3 +323,15 @@ class AnkiConnectClient(AnkiConnectClientBase):
       'Error cloning configuration %s as %s', cloneFrom, name
     )
     return result
+
+  def removeDeckConfigId(self, configId):
+    """
+    TODO
+    """
+    response, result = self.send_as_json(action = "removeDeckConfigId", params = dict(
+      configId = configId,
+    ))
+    self._check(response, result,
+      'Error removing configuration %s', configId
+    )
+    return result
