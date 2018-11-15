@@ -448,3 +448,16 @@ class AnkiConnectClient(AnkiConnectClientBase):
       'Error updating note %s with fields %s', id, fields
     )
     return result
+
+  def addTags(self, notes, tags):
+    """
+    TODO
+    """
+    response, result = self.send_as_json(action = "addTags", params = dict(
+      notes = notes,
+      tags = tags,
+    ))
+    self._check(response, result,
+      'Error adding tags %s for notes %s', tags, notes
+    )
+    return result
