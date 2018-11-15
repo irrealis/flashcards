@@ -370,3 +370,15 @@ class AnkiConnectClient(AnkiConnectClientBase):
       'Error getting field names for model "%s"', modelName
     )
     return result
+
+  def modelFieldsOnTemplates(self, modelName):
+    """
+    TODO
+    """
+    response, result = self.send_as_json(action = "modelFieldsOnTemplates", params = dict(
+      modelName = modelName
+    ))
+    self._check(response, result,
+      'Error getting per-template field names for model "%s"', modelName
+    )
+    return result
