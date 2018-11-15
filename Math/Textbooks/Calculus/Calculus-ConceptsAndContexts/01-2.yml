@@ -117,3 +117,11 @@ notes:
       $$
       f(x) = -3x(x+1)(x-2)
       $$
+- id: 1542247479894
+  fields:
+    Front: |
+      CCAC 01.2 11a: If the recommended adult dosage for a drug is $D$ (in mg), then to determine the appropriate dosage $c$ for a child of age $a$, pharmacists use the equation $c=0.0417D(a+1)$. If the recommended adult dosage for a drug is $D$ (in mg), then to determine the appropriate dosage $c$ for a child of age $a$, pharmacists use the equation $c=0.0417D(a+1)$. Suppose the dosage for an adult is 200 mg.
+
+      Find the slope of the graph of $c$. What does it represent?
+    Back: |
+      $8.34$, representing the change in mg for every $1$-year change.
