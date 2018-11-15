@@ -382,3 +382,29 @@ class AnkiConnectClient(AnkiConnectClientBase):
       'Error getting per-template field names for model "%s"', modelName
     )
     return result
+
+
+  ## Models
+
+  def addNote(self, deckName, modelName, fields, tags = None, audio = None):
+    """
+    TODO
+    """
+    note = dict(
+      deckName = deckName,
+      modelName = modelName,
+      fields = fields,
+    )
+    if tags is not None:
+      note['tags'] = tags
+    if audio is not None:
+      note['audio'] = audio
+    print("note:")
+    print(note)
+    response, result = self.send_as_json(action = "addNote", params = dict(
+      note = note
+    ))
+    self._check(response, result,
+      'Error adding note %s', note
+    )
+    return result
