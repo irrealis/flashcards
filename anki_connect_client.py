@@ -113,3 +113,19 @@ class AnkiConnectClient(AnkiConnectClientBase):
       "Error getting AnkiConnect version"
     )
     return result
+
+  def upgrade(self):
+    """
+    Displays a confirmation dialog box in Anki asking the user if they wish to upgrade AnkiConnect to the latest version from the project's master branch on GitHub. Returns a boolean value indicating if the plugin was upgraded or not.
+
+    Sample call: anki_connect_client.upgrade()
+
+    Sample result:
+    {
+        "result": true,
+        "error": null
+    }
+    """
+    response, result = self.send_as_json(action = "upgrade")
+    self._check(response, result, "Error upgrading AnkiConnect")
+    return result
