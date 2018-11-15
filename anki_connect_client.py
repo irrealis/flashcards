@@ -1,4 +1,8 @@
-import http.client, json
+import http.client, json, logging
+
+log = logging.getLogger(__name__)
+log_hdlr = logging.StreamHandler()
+log.addHandler(log_hdlr)
 
 
 class AnkiConnectException(Exception):
@@ -14,6 +18,10 @@ class AnkiConnectClientBase(object):
 
   def __del__(self):
     self.close()
+
+  def report_anki_error(self, result, message, *extra_args):
+    log.warning(message, *extra_args)
+    log.warning("\nAnkiConnect error description:\n %s", result["error"])
 
   def connect(self, hostname = None, port = None):
     '''Open HTTP connection to AnkiConnect.'''
