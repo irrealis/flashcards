@@ -55,3 +55,12 @@ notes:
       $$
     Back: |
       Exponential.
+- id: 1542245228998
+  fields:
+    Front: |
+      CCAC 01.2 01f: Classify the function below as a power function, root function, polynomial (state its degree), rational function, algebraic function, trigonometric function, exponential function, or logarithmic function.
+      $$
+      w(\theta) = \sin{\theta}\cos^2{\theta}
+      $$
+    Back: |
+      Trigonometric.
