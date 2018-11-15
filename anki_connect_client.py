@@ -461,3 +461,16 @@ class AnkiConnectClient(AnkiConnectClientBase):
       'Error adding tags %s for notes %s', tags, notes
     )
     return result
+
+  def removeTags(self, notes, tags):
+    """
+    TODO
+    """
+    response, result = self.send_as_json(action = "removeTags", params = dict(
+      notes = notes,
+      tags = tags,
+    ))
+    self._check(response, result,
+      'Error removing tags %s for notes %s', tags, notes
+    )
+    return result
