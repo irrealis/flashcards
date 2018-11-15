@@ -283,3 +283,49 @@ notes:
       _ = plt.ylim(0, max(U)+1)
       ```
       Linear model is appropriate.
+- id: 1542310013544
+  useMarkdownMathExt: False
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 01.2 21b: The table below shows (lifetime) peptic ulcer rates (per 100 population) for various family incomes as reported by the National Health interview Survey.
+
+      \\[
+        \begin{array}{|c|c|}
+          \hline
+          \text{Income} & \text{Ulcer rate} \\\\
+          & \text{(per 100 population)} \\\\
+          \hline
+          $4,000  & 14.1 \\\\
+          $6,000  & 13.0 \\\\
+          $8,000  & 13.4 \\\\
+          $12,000 & 12.5 \\\\
+          $16,000 & 12.0 \\\\
+          $20,000 & 12.4 \\\\
+          $30,000 & 10.5 \\\\
+          $45,000 & 9.4  \\\\
+          $60,000 & 8.2  \\\\
+          \hline
+        \end{array}
+      \\]
+
+      Find and graph a linear model using the first and last data points.
+    Back: |
+      \\[
+      y = -0.000105x + 14.521
+      \\]
+      ```{python echo = False}
+      import matplotlib.pyplot as plt
+      import numpy as np
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      D = np.array((0, 61000))
+      U = -0.000105*D + 14.521
+
+      fig, ax = plt.subplots()
+      ax.plot(D, U)
+      plt.xlim(0, max(D)+1000)
+      _ = plt.ylim(0, max(U)+1)
+      ```
