@@ -10,3 +10,12 @@ defaults:
   - CCAC-01.2-MathematicalModels
   markdownTabLength: 2
 notes:
+- id: 1542245228469
+  fields:
+    Front: |
+      CCAC 01.2 01a: Classify the function below as a power function, root function, polynomial (state its degree), rational function, algebraic function, trigonometric function, exponential function, or logarithmic function.
+      $$
+      f(x) = \log_2{x}
+      $$
+    Back: |
+      Logarithmic.
