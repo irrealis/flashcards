@@ -90,3 +90,26 @@ class AnkiConnectClient(AnkiConnectClientBase):
       self.report_anki_error(result, message, *extra_args)
       log.warning("HTTP status: %s", response.status)
       log.warning("HTTP reason: %s", response.reason)
+
+
+  ## Miscellaneous
+
+  def version(self):
+    """
+    Gets the version of the AnkiConnect API exposed by AnkiConnectClient. AnkiConnectClient currently exposes AnkiConnect version 6.
+
+    This should be the first call you make to make sure that your application and AnkiConnect are able to communicate properly with each other. New versions of AnkiConnect are backwards compatible; as long as you are using actions which are available in the reported AnkiConnect version or earlier, everything should work fine.
+
+    Sample call: anki_connect_client.version()
+
+    Sample result:
+    {
+        "result": 6,
+        "error": null
+    }
+    """
+    response, result = self.send_as_json(action = "version")
+    self._check(response, result,
+      "Error getting AnkiConnect version"
+    )
+    return result
