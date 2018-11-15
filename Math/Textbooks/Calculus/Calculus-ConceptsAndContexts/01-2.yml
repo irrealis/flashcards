@@ -436,3 +436,35 @@ notes:
       \\]
     Back: |
       About \\(11.5\\) per 100 population.
+- id: 1542310014045
+  extraTags: [Editing]
+  useMarkdownMathExt: False
+  fields:
+    Front: |
+      CCAC 01.2 21e: The table below shows (lifetime) peptic ulcer rates (per 100 population) for various family incomes as reported by the National Health interview Survey.
+
+      \\[
+        \begin{array}{|c|c|}
+          \hline
+          \text{Income} & \text{Ulcer rate} \\\\
+          & \text{(per 100 population)} \\\\
+          \hline
+          $4,000  & 14.1 \\\\
+          $6,000  & 13.0 \\\\
+          $8,000  & 13.4 \\\\
+          $12,000 & 12.5 \\\\
+          $16,000 & 12.0 \\\\
+          $20,000 & 12.4 \\\\
+          $30,000 & 10.5 \\\\
+          $45,000 & 9.4  \\\\
+          $60,000 & 8.2  \\\\
+          \hline
+        \end{array}
+      \\]
+
+      According to the linear model below, how likely is someone with an income of $80,000 to suffer from peptic ulcers?
+      \\[
+      y = -0.00009979x + 13.951
+      \\]
+    Back: |
+      About \\(6\%\\).
