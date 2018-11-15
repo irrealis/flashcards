@@ -211,3 +211,27 @@ class AnkiConnectClient(AnkiConnectClientBase):
       "Error getting decks for cards %s", cards
     )
     return result
+
+  def createDeck(self, deck):
+    """
+    Create a new empty deck. Will not overwrite a deck that exists with the same name.
+
+    Sample request:
+
+    anki_connect_client.createDeck(
+      deck = "Japanese::Tokyo"
+    )
+
+    Sample result:
+    {
+        "result": 1519323742721,
+        "error": null
+    }
+    """
+    response, result = self.send_as_json(action = "createDeck", params = dict(
+      deck = deck
+    ))
+    self._check(response, result,
+      'Error creating deck "%s"', deck
+    )
+    return result
