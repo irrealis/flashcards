@@ -19,3 +19,12 @@ notes:
       $$
     Back: |
       Logarithmic.
+- id: 1542245228594
+  fields:
+    Front: |
+      CCAC 01.2 01b: Classify the function below as a power function, root function, polynomial (state its degree), rational function, algebraic function, trigonometric function, exponential function, or logarithmic function.
+      $$
+      g(x) = \sqrt[4]{x}
+      $$
+    Back: |
+      Root.
