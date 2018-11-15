@@ -474,3 +474,13 @@ class AnkiConnectClient(AnkiConnectClientBase):
       'Error removing tags %s for notes %s', tags, notes
     )
     return result
+
+  def getTags(self):
+    """
+    TODO
+    """
+    response, result = self.send_as_json(action = "getTags")
+    self._check(response, result,
+      'Error getting tags'
+    )
+    return result
