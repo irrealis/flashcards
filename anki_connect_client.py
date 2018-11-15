@@ -310,3 +310,16 @@ class AnkiConnectClient(AnkiConnectClientBase):
       'Error setting configuration %s for decks %s', configId, decks
     )
     return result
+
+  def cloneDeckConfigId(self, name, cloneFrom):
+    """
+    TODO
+    """
+    response, result = self.send_as_json(action = "cloneDeckConfigId", params = dict(
+      name = name,
+      cloneFrom = cloneFrom,
+    ))
+    self._check(response, result,
+      'Error cloning configuration %s as %s', cloneFrom, name
+    )
+    return result
