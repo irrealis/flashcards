@@ -129,3 +129,19 @@ class AnkiConnectClient(AnkiConnectClientBase):
     response, result = self.send_as_json(action = "upgrade")
     self._check(response, result, "Error upgrading AnkiConnect")
     return result
+
+  def sync(self):
+    """
+    Synchronizes the local anki collections with ankiweb.
+
+    Sample call: anki_connect_client.sync()
+
+    Sample result:
+    {
+        "result": null,
+        "error": null
+    }
+    """
+    response, result = self.send_as_json(action = "sync")
+    self._check(response, result, "Error syncing")
+    return result
