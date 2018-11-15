@@ -64,3 +64,48 @@ notes:
       $$
     Back: |
       Trigonometric.
+- id: 1542245383819
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 01.2 03: Match each equation with its graph without using a computer or graphing calculuator.
+      a. $y = x^2$
+      b. $y = x^5$
+      c. $y = x^8$
+      ```{python echo = False}
+      import sympy as sy
+      import matplotlib.pyplot as plt
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      x = sy.symbols('x')
+      p = sy.plot(
+        x**2,
+        x**5,
+        x**8,
+        xlim = (-3,3),
+        ylim = (-2,2),
+        xlabel = '$x$',
+        ylabel = '$y$',
+        show = False,
+      )
+      p[0].line_color = 'b'
+      p[1].line_color = 'r'
+      p[2].line_color = 'g'
+
+      if hasattr(p, '_backend'):
+        p._backend.close()
+      p._backend = p.backend(p)
+      fg, ax = p._backend.fig, p._backend.ax
+
+      ax.text(-1.22, -1.5, '$f$')
+      ax.text(1.3, 1.5, '$h$')
+      ax.text(0.9, 1.5, '$g$')
+
+      p._backend.show()
+      ```
+    Back: |
+      a. $h$
+      b. $f$
+      c. $g$
