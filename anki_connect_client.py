@@ -166,3 +166,21 @@ class AnkiConnectClient(AnkiConnectClientBase):
       "Error getting deck names"
     )
     return result
+
+  def deckNamesAndIds(self):
+    """
+    Gets the complete list of deck names and their respective IDs for the current user.
+
+    Sample call: anki_connect_client.deckNamesAndIds()
+
+    Sample result:
+    {
+        "result": {"Default": 1},
+        "error": null
+    }
+    """
+    response, result = self.send_as_json(action = "deckNamesAndIds")
+    self._check(response, result,
+      "Error getting deck names and IDs"
+    )
+    return result
