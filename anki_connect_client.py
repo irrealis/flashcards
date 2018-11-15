@@ -496,3 +496,15 @@ class AnkiConnectClient(AnkiConnectClientBase):
       'Error searching notes using query "%s"', query
     )
     return result
+
+  def notesInfo(self, notes):
+    """
+    TODO
+    """
+    response, result = self.send_as_json(action = "notesInfo", params = dict(
+      notes = notes
+    ))
+    self._check(response, result,
+      'Error getting info for notes %s', notes
+    )
+    return result
