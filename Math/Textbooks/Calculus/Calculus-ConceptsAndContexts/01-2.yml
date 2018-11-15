@@ -133,3 +133,32 @@ notes:
       What is the dosage for a newborn?
     Back: |
       $8.34$ mg.
+- id: 1542247904594
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 01.2 13a: The relationship between the Fahrenheit ($F$) and Celsius ($C$) temperature scales is given by the linear function $F=\frac{9}{5}C+32$.
+
+      Sketch a graph of this function.
+    Back: |
+      ```{python echo = False}
+      import matplotlib.pyplot as plt
+      import numpy as np
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      x = np.arange(-75, 150)
+      y = 9/5*x+32
+
+      fig, ax = plt.subplots()
+      ax.plot(x, y, color = '#1f77b4')
+      ax.plot(-40, -40, 'ko', markersize = 4)
+      ax.text(-40, -80, '$(-40, 40)$')
+      ax.plot(0, 32, 'ko', markersize = 4)
+      ax.text(0, -8, '$(0, 32)$')
+      ax.plot(100, 212, 'ko', markersize = 4)
+      ax.text(100, 172, '$(100, 212)$')
+
+      plt.show()
+      ```
