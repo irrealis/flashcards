@@ -39,7 +39,7 @@ class AnkiConnectClient(object):
     '''
     Convert data to JSON, then send to AnkiConnect.
 
-    Returns both HTTP response and any data from AnkiConnect.
+    Returns both HTTP response and any data received from AnkiConnect.
     '''
     # To simplify calling `send_as_json`, named parameters can be used in
     # place of a data dict.
@@ -56,9 +56,9 @@ class AnkiConnectClient(object):
 
   def send(self, data = None, version = None, **d):
     '''
-    Simplified send of data to AnkiConnect in JSON format.
+    Simplified send of data to AnkiConnect.
 
-    Returns any data from AnkiConnect.
+    Returns any data received from AnkiConnect.
     '''
     http_response, result_data = self.send_as_json(data, version, **d)
 
@@ -74,6 +74,3 @@ class AnkiConnectClient(object):
 
     # If no error indicated in "error" field, return data from AnkiConnect.
     return result_data
-
-
-
