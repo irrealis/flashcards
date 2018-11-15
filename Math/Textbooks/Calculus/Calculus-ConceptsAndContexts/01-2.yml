@@ -757,3 +757,26 @@ notes:
       $$
     Back: |
       No.
+- id: 1542311116094
+  extraTags: [Editing]
+  fields:
+    Front: |
+      CCAC 01.2 25: Use the data in the table below to model the population of the world in the 20th century by a cubic function. Then use your model to estimate the population in the year 1925.
+
+      $$
+        \begin{array}{|c|c|c|c|}
+          \hline
+          \text{Year} & \text{Population} & \text{Year} & \text{Population} \\
+          & \text{(millions)} & & \text{(millions)} \\
+          \hline
+          1900  & 1650 & 1960 & 3040 \\
+          1910  & 1750 & 1970 & 3710 \\
+          1920  & 1860 & 1980 & 4450 \\
+          1930  & 2070 & 1990 & 5280 \\
+          1940  & 2300 & 2000 & 6080 \\
+          1950  & 2560 & & \\
+          \hline
+        \end{array}
+      $$
+    Back: |
+      $y \approx 0.0012937x^3 - 7.06142x^2 + 12823x - 7743700$; 1914 million.
