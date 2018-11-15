@@ -170,3 +170,13 @@ notes:
       What is the slope of the graph of this function and what does it represent? What is the $F$-intercept and what does it represent?
     Back: |
       $\frac{9}{5}$, representing the change in $^\circ\text{F}$ for every $1^\circ\text{C}$; $32$, the Fahrenheit temperature corresponding to $0^\circ\text{C}$.
+- id: 1542309172819
+  fields:
+    Front: |
+      CCAC 01.2 15a: Biologists have noticed that the chirping rate of crickets of a certain species is related to temperature, and the relationship appears to be very nearly linear. A cricket produces $113$ chirps per minute at $70^\circ\text{F}$ and $173$ chirps per minute at $80^\circ\text{F}$.
+
+      Find a linear equation that models the temperature $T$ as a function of the number of chirps per minute $N$.
+    Back: |
+      $$
+      \frac{1}{6}N + \frac{307}{6}
+      $$
