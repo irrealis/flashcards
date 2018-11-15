@@ -273,3 +273,15 @@ class AnkiConnectClient(AnkiConnectClientBase):
       "Error deleting decks %s", decks
     )
     return result
+
+  def getDeckConfig(self, deck):
+    """
+    TODO
+    """
+    response, result = self.send_as_json(action = "getDeckConfig", params = dict(
+      deck = deck
+    ))
+    self._check(response, result,
+      'Error getting configuration for deck "%s"', deck
+    )
+    return result
