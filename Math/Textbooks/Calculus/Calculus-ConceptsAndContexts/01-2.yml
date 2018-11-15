@@ -211,3 +211,13 @@ notes:
       $$
       P - 0.434d + 15
       $$
+- id: 1542309173371
+  fields:
+    Front: |
+      CCAC 01.2 17b: At the surface of the ocean, the water pressure is the same as the air pressure above the water, $16\ \text{lb}/\text{in}^2$. Below the surface, the water pressure increase by $4.34\ \text{lb}/\text{in}^2$ for every $10\ \text{ft}$ of descent.
+
+      At what depth is the pressure $100\ \text{lb}/\text{in}^2$?
+    Back: |
+      $$
+      196\ \text{ft}
+      $$
