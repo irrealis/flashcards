@@ -82,3 +82,11 @@ class AnkiConnectClientBase(object):
 
     # If no error indicated in "error" field, return data from AnkiConnect.
     return result_data
+
+
+class AnkiConnectClient(AnkiConnectClientBase):
+  def _check(self, response, result, message, *extra_args):
+    if result.get("error", None):
+      self.report_anki_error(result, message, *extra_args)
+      log.warning("HTTP status: %s", response.status)
+      log.warning("HTTP reason: %s", response.reason)
