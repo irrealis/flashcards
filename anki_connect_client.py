@@ -184,3 +184,30 @@ class AnkiConnectClient(AnkiConnectClientBase):
       "Error getting deck names and IDs"
     )
     return result
+
+  def getDecks(self, cards):
+    """
+    Accepts an array of card IDs and returns an object with each deck name as a key, and its value an array of the given cards which belong to it.
+
+    Sample call:
+
+    anki_connect_client.getDecks(
+      cards = [1502298036657, 1502298033753, 1502032366472]
+    )
+
+    Sample result:
+    {
+        "result": {
+            "Default": [1502032366472],
+            "Japanese::JLPT N3": [1502298036657, 1502298033753]
+        },
+        "error": null
+    }
+    """
+    response, result = self.send_as_json(action = "getDecks", params = dict(
+      cards = cards
+    ))
+    self._check(response, result,
+      "Error getting decks for cards %s", cards
+    )
+    return result
