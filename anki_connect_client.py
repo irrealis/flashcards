@@ -235,3 +235,16 @@ class AnkiConnectClient(AnkiConnectClientBase):
       'Error creating deck "%s"', deck
     )
     return result
+
+  def changeDeck(self, cards, deck):
+    """
+    TODO
+    """
+    response, result = self.send_as_json(action = "changeDeck", params = dict(
+      cards = cards,
+      deck = deck
+    ))
+    self._check(response, result,
+      'Error changing to deck "%s" for cards %s', deck, cards
+    )
+    return result
