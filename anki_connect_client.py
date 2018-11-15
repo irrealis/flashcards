@@ -5,7 +5,7 @@ class AnkiConnectException(Exception):
   pass
 
 
-class AnkiConnectClient(object):
+class AnkiConnectClientBase(object):
   server_version = 6
 
   def __init__(self, hostname = None, port = None):
@@ -46,7 +46,7 @@ class AnkiConnectClient(object):
     if data is None: data = d
 
     # If AnkiConnect version isn't supplied, use this class's default.
-    if version is None: version = AnkiConnectClient.server_version
+    if version is None: version = AnkiConnectClientBase.server_version
     data.setdefault("version", version)
     json_data = json.dumps(data)
     http_response = self.send_raw(json_data)
