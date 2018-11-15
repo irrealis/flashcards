@@ -484,3 +484,15 @@ class AnkiConnectClient(AnkiConnectClientBase):
       'Error getting tags'
     )
     return result
+
+  def findNotes(self, query):
+    """
+    TODO
+    """
+    response, result = self.send_as_json(action = "findNotes", params = dict(
+      query = query
+    ))
+    self._check(response, result,
+      'Error searching notes using query "%s"', query
+    )
+    return result
