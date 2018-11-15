@@ -145,3 +145,24 @@ class AnkiConnectClient(AnkiConnectClientBase):
     response, result = self.send_as_json(action = "sync")
     self._check(response, result, "Error syncing")
     return result
+
+
+  ## Decks
+
+  def deckNames(self):
+    """
+    Gets the complete list of deck names for the current user.
+
+    Sample call: anki_connect_client.deckNames()
+
+    Sample result:
+    {
+        "result": ["Default"],
+        "error": null
+    }
+    """
+    response, result = self.send_as_json(action = "deckNames")
+    self._check(response, result,
+      "Error getting deck names"
+    )
+    return result
