@@ -137,7 +137,7 @@ notes:
   useMarkdown: pweave
   fields:
     Front: |
-      CCAC 01.2 13a: The relationship between the Fahrenheit ($F$) and Celsius ($C$) temperature scales is given by the linear function $F=\frac{9}{5}C+32$.
+      CCAC 01.2 13a: The relationship between the Fahrenheit ($\text{F}$) and Celsius ($\text{C}$) temperature scales is given by the linear function $F=\frac{9}{5}C+32$.
 
       Sketch a graph of this function.
     Back: |
@@ -165,8 +165,8 @@ notes:
 - id: 1542247907022
   fields:
     Front: |
-      CCAC 01.2 13b: The relationship between the Fahrenheit ($F$) and Celsius ($C$) temperature scales is given by the linear function $F=\frac{9}{5}C+32$.
+      CCAC 01.2 13b: The relationship between the Fahrenheit ($\text{F}$) and Celsius ($\text{C}$) temperature scales is given by the linear function $F=\frac{9}{5}C+32$.
 
       What is the slope of the graph of this function and what does it represent? What is the $F$-intercept and what does it represent?
     Back: |
-      $\frac{9}{5}$, representing the change in $^\circ F$ for every $1^\circ C$; $32$, the Fahrenheit temperature corresponding to $0^\circ C$.
+      $\frac{9}{5}$, representing the change in $^\circ\text{F}$ for every $1^\circ\text{C}$; $32$, the Fahrenheit temperature corresponding to $0^\circ\text{C}$.
