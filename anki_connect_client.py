@@ -358,3 +358,15 @@ class AnkiConnectClient(AnkiConnectClientBase):
       'Error getting model names and IDs'
     )
     return result
+
+  def modelFieldNames(self, modelName):
+    """
+    TODO
+    """
+    response, result = self.send_as_json(action = "modelFieldNames", params = dict(
+      modelName = modelName
+    ))
+    self._check(response, result,
+      'Error getting field names for model "%s"', modelName
+    )
+    return result
