@@ -335,3 +335,16 @@ class AnkiConnectClient(AnkiConnectClientBase):
       'Error removing configuration %s', configId
     )
     return result
+
+
+  ## Models
+
+  def modelNames(self):
+    """
+    TODO
+    """
+    response, result = self.send_as_json(action = "modelNames")
+    self._check(response, result,
+      'Error getting model names'
+    )
+    return result
