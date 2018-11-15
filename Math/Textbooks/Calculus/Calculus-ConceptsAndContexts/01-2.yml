@@ -1,0 +1,12 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  tags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Calculus-ConceptsAndContexts
+  - CCAC-01-FunctionsAndModels
+  - CCAC-01.2-MathematicalModels
+  markdownTabLength: 2
+notes:
