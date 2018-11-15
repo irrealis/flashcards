@@ -191,3 +191,13 @@ notes:
       $$
     Back: |
       $\frac{1}{6}$, the change in $^\circ\text{F}$ for every chirp per minute change.
+- id: 1542309173118
+  fields:
+    Front: |
+      CCAC 01.2 15c: Biologists have noticed that the chirping rate of crickets of a certain species is related to temperature, and the relationship appears to be very nearly linear. A cricket produces $113$ chirps per minute at $70^\circ\text{F}$ and $173$ chirps per minute at $80^\circ\text{F}$.
+
+      If the crickets are chirping at $150$ chirps per minute, estimate the temperature.
+    Back: |
+      $$
+      76^\circ\text{F}
+      $$
