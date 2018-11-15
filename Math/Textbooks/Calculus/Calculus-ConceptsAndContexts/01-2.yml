@@ -180,3 +180,14 @@ notes:
       $$
       \frac{1}{6}N + \frac{307}{6}
       $$
+- id: 1542309172969
+  fields:
+    Front: |
+      CCAC 01.2 15b: Biologists have noticed that the chirping rate of crickets of a certain species is related to temperature, and the relationship appears to be very nearly linear. A cricket produces $113$ chirps per minute at $70^\circ\text{F}$ and $173$ chirps per minute at $80^\circ\text{F}$.
+
+      Given the following model of temperature $T$ as a function of the number of chirps per minute $N$, what would be the slope of the graph? What would it represent?
+      $$
+      \frac{1}{6}N + \frac{307}{6}
+      $$
+    Back: |
+      $\frac{1}{6}$, the change in $^\circ\text{F}$ for every chirp per minute change.
