@@ -109,3 +109,11 @@ notes:
       a. $h$
       b. $f$
       c. $g$
+- id: 1542247201144
+  fields:
+    Front: |
+      CCAC 01.2 09: Find an expression for a cubic function $f$ if $f(1)=6$ and $f(-1)=f(0)=f(2)=0$.
+    Back: |
+      $$
+      f(x) = -3x(x+1)(x-2)
+      $$
