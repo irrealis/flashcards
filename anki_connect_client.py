@@ -248,3 +248,28 @@ class AnkiConnectClient(AnkiConnectClientBase):
       'Error changing to deck "%s" for cards %s', deck, cards
     )
     return result
+
+  def deleteDecks(self, decks, cardsToo = False):
+    """
+    Deletes decks with the given names. If cardsToo is true (defaults to false if unspecified), the cards within the deleted decks will also be deleted; otherwise they will be moved to the default deck.
+
+    Sample request:
+
+    anki_connect_client.deleteDecks(
+      decks = ["Japanese::JLPT N5", "Easy Spanish"],
+      cardsToo = true
+    )
+
+    Sample result:
+    {
+        "result": null,
+        "error": null
+    }
+    """
+    response, result = self.send_as_json(action = "deleteDecks", params = dict(
+      decks = decks, cardsToo = cardsToo
+    ))
+    self._check(response, result,
+      "Error deleting decks %s", decks
+    )
+    return result
