@@ -348,3 +348,13 @@ class AnkiConnectClient(AnkiConnectClientBase):
       'Error getting model names'
     )
     return result
+
+  def modelNamesAndIds(self):
+    """
+    TODO
+    """
+    response, result = self.send_as_json(action = "modelNamesAndIds")
+    self._check(response, result,
+      'Error getting model names and IDs'
+    )
+    return result
