@@ -37,3 +37,12 @@ notes:
       $$
     Back: |
       Rational.
+- id: 1542245228794
+  fields:
+    Front: |
+      CCAC 01.2 01d: Classify the function below as a power function, root function, polynomial (state its degree), rational function, algebraic function, trigonometric function, exponential function, or logarithmic function.
+      $$
+      u(t) = 1 - 1.1t + 2.54t^2
+      $$
+    Back: |
+      Polynomial, degree $2$.
