@@ -285,3 +285,15 @@ class AnkiConnectClient(AnkiConnectClientBase):
       'Error getting configuration for deck "%s"', deck
     )
     return result
+
+  def saveDeckConfig(self, config):
+    """
+    TODO
+    """
+    response, result = self.send_as_json(action = "saveDeckConfig", params = dict(
+      config = config
+    ))
+    self._check(response, result,
+      'Error saving configuration %s', config
+    )
+    return result
