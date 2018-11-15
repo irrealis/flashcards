@@ -420,3 +420,15 @@ class AnkiConnectClient(AnkiConnectClientBase):
       'Error adding notes %s', notes
     )
     return result
+
+  def canAddNotes(self, notes):
+    """
+    TODO
+    """
+    response, result = self.send_as_json(action = "canAddNotes", params = dict(
+      notes = notes
+    ))
+    self._check(response, result,
+      'Error checking whether notes can be added: %s', notes
+    )
+    return result
