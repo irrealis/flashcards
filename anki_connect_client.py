@@ -432,3 +432,19 @@ class AnkiConnectClient(AnkiConnectClientBase):
       'Error checking whether notes can be added: %s', notes
     )
     return result
+
+  def updateNoteFields(self, id, fields):
+    """
+    TODO
+    """
+    note = dict(
+      id = id,
+      fields = fields,
+    )
+    response, result = self.send_as_json(action = "updateNoteFields", params = dict(
+      note = note
+    ))
+    self._check(response, result,
+      'Error updating note %s with fields %s', id, fields
+    )
+    return result
