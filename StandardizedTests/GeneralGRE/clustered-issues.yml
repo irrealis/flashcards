@@ -1,7 +1,7 @@
 defaults:
   deckName: Staging
   modelName: BasicMathJax
-  tags:
+  extraTags:
   - StandardizedTests
   - GeneralGRE
   - GRE-AnalyticalWriting
@@ -9,7 +9,7 @@ defaults:
   markdownTabLength: 2
 notes:
 - id: 1539304414688
-  extraTags:
+  tags:
   - GRE-IssueResponseType1
   fields:
     Front: |
@@ -17,7 +17,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
 - id: 1539304414762
-  extraTags:
+  tags:
   - GRE-IssueResponseType2
   - SRET1-IssueTask17
   fields:
@@ -26,7 +26,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.
 - id: 1539304414812
-  extraTags:
+  tags:
   - GRE-IssueResponseType5
   - SRET2-IssueTask25
   fields:
@@ -37,7 +37,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.
 - id: 1539304414872
-  extraTags:
+  tags:
   - GRE-IssueResponseType5
   - SRET2-IssueTask17
   fields:
@@ -48,7 +48,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.
 - id: 1539304414924
-  extraTags:
+  tags:
   - GRE-IssueResponseType1
   - SRET1-IssueTask28
   fields:
@@ -57,7 +57,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
 - id: 1539304414987
-  extraTags:
+  tags:
   - GRE-IssueResponseType2
   - SRET2-IssueTask04
   fields:
@@ -66,7 +66,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.
 - id: 1539304415040
-  extraTags:
+  tags:
   - GRE-IssueResponseType1
   fields:
     Front: |
@@ -74,7 +74,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
 - id: 1539304415091
-  extraTags:
+  tags:
   - GRE-IssueResponseType1
   fields:
     Front: |
@@ -82,7 +82,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
 - id: 1539304415139
-  extraTags:
+  tags:
   - GRE-IssueResponseType1
   - SRET1-IssueTask24
   fields:
@@ -91,7 +91,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
 - id: 1539304415189
-  extraTags:
+  tags:
   - GRE-IssueResponseType1
   - SRET1-IssueTask05
   fields:
@@ -100,7 +100,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
 - id: 1539304415241
-  extraTags:
+  tags:
   - GRE-IssueResponseType1
   - SRET2-IssueTask12
   fields:
@@ -109,7 +109,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
 - id: 1539304415322
-  extraTags:
+  tags:
   - GRE-IssueResponseType1
   fields:
     Front: |
@@ -117,7 +117,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
 - id: 1539304415363
-  extraTags:
+  tags:
   - GRE-IssueResponseType1
   fields:
     Front: |
@@ -125,7 +125,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
 - id: 1539304415412
-  extraTags:
+  tags:
   - GRE-IssueResponseType1
   fields:
     Front: |
@@ -133,7 +133,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
 - id: 1539304415473
-  extraTags:
+  tags:
   - GRE-IssueResponseType1
   - SRET2-IssueTask26
   fields:
@@ -142,7 +142,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
 - id: 1539304415537
-  extraTags:
+  tags:
   - GRE-IssueResponseType1
   - SRET1-IssueTask06
   fields:
@@ -151,7 +151,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
 - id: 1539304415586
-  extraTags:
+  tags:
   - GRE-IssueResponseType1
   - SRET1-IssueTask19
   fields:
@@ -160,7 +160,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
 - id: 1539304415640
-  extraTags:
+  tags:
   - GRE-IssueResponseType1
   - SRET2-IssueTask21
   fields:
@@ -169,7 +169,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
 - id: 1539304415690
-  extraTags:
+  tags:
   - GRE-IssueResponseType1
   - SRET1-IssueTask18
   fields:
@@ -178,7 +178,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
 - id: 1539304415762
-  extraTags:
+  tags:
   - GRE-IssueResponseType1
   fields:
     Front: |
@@ -186,7 +186,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
 - id: 1539304415812
-  extraTags:
+  tags:
   - GRE-IssueResponseType1
   - SRET2-IssueTask01
   fields:
@@ -195,7 +195,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
 - id: 1539304415862
-  extraTags:
+  tags:
   - GRE-IssueResponseType1
   fields:
     Front: |
@@ -203,7 +203,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
 - id: 1539304415922
-  extraTags:
+  tags:
   - GRE-IssueResponseType1
   fields:
     Front: |
@@ -211,7 +211,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
 - id: 1539304415962
-  extraTags:
+  tags:
   - GRE-IssueResponseType5
   fields:
     Front: |
@@ -221,7 +221,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.
 - id: 1539304416013
-  extraTags:
+  tags:
   - GRE-IssueResponseType1
   - SRET1-IssueTask03
   fields:
@@ -230,7 +230,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
 - id: 1539304416112
-  extraTags:
+  tags:
   - GRE-IssueResponseType1
   - SRET1-IssueTask01
   fields:
@@ -402,7 +402,7 @@ notes:
 
 
 - id: 1539304416162
-  extraTags:
+  tags:
   - GRE-IssueResponseType4
   fields:
     Front: |
@@ -410,7 +410,7 @@ notes:
 
       Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented.
 - id: 1539304416239
-  extraTags:
+  tags:
   - GRE-IssueResponseType3
   fields:
     Front: |
@@ -418,7 +418,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.
 - id: 1539304416289
-  extraTags:
+  tags:
   - GRE-IssueResponseType5
   - SRET2-IssueTask19
   fields:
@@ -429,7 +429,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.
 - id: 1539304416339
-  extraTags:
+  tags:
   - GRE-IssueResponseType3
   fields:
     Front: |
@@ -437,7 +437,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.
 - id: 1539304416412
-  extraTags:
+  tags:
   - GRE-IssueResponseType1
   fields:
     Front: |
@@ -445,7 +445,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
 - id: 1539304416462
-  extraTags:
+  tags:
   - GRE-IssueResponseType1
   fields:
     Front: |
@@ -453,7 +453,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
 - id: 1539304416515
-  extraTags:
+  tags:
   - GRE-IssueResponseType5
   - SRET2-IssueTask15
   fields:
@@ -464,7 +464,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.
 - id: 1539304416562
-  extraTags:
+  tags:
   - GRE-IssueResponseType3
   - SRET1-IssueTask30
   fields:
@@ -473,7 +473,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.
 - id: 1539304416624
-  extraTags:
+  tags:
   - GRE-IssueResponseType5
   fields:
     Front: |
@@ -483,7 +483,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.
 - id: 1539304416689
-  extraTags:
+  tags:
   - GRE-IssueResponseType3
   - SRET1-IssueTask22
   fields:
@@ -492,7 +492,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.
 - id: 1539304416739
-  extraTags:
+  tags:
   - GRE-IssueResponseType1
   fields:
     Front: |
@@ -500,7 +500,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
 - id: 1539304416790
-  extraTags:
+  tags:
   - GRE-IssueResponseType3
   - SRET1-IssueTask26
   fields:
@@ -509,7 +509,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.
 - id: 1539304416862
-  extraTags:
+  tags:
   - GRE-IssueResponseType1
   fields:
     Front: |
@@ -517,7 +517,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
 - id: 1539304416912
-  extraTags:
+  tags:
   - GRE-IssueResponseType4
   fields:
     Front: |
@@ -525,7 +525,7 @@ notes:
 
       Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented.
 - id: 1539304416961
-  extraTags:
+  tags:
   - GRE-IssueResponseType1
   fields:
     Front: |
@@ -533,7 +533,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
 - id: 1539304417014
-  extraTags:
+  tags:
   - GRE-IssueResponseType6
   fields:
     Front: |
@@ -541,7 +541,7 @@ notes:
 
       Write a response in which you discuss your views on the policy and explain your reasoning for the position you take. In developing and supporting your position, you should consider the possible consequences of implementing the policy and explain how these consequences shape your position.
 - id: 1539304417061
-  extraTags:
+  tags:
   - GRE-IssueResponseType3
   fields:
     Front: |
@@ -549,7 +549,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.
 - id: 1539304417123
-  extraTags:
+  tags:
   - GRE-IssueResponseType1
   fields:
     Front: |
@@ -557,7 +557,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
 - id: 1539304417174
-  extraTags:
+  tags:
   - GRE-IssueResponseType2
   fields:
     Front: |
@@ -565,7 +565,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.
 - id: 1539304417237
-  extraTags:
+  tags:
   - GRE-IssueResponseType3
   - SRET1-IssueTask10
   fields:
@@ -574,7 +574,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.
 - id: 1539304417289
-  extraTags:
+  tags:
   - GRE-IssueResponseType1
   - SRET1-IssueTask23
   fields:
@@ -583,7 +583,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
 - id: 1539304417340
-  extraTags:
+  tags:
   - GRE-IssueResponseType1
   fields:
     Front: |
@@ -591,7 +591,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
 - id: 1539304417423
-  extraTags:
+  tags:
   - GRE-IssueResponseType1
   - SRET2-IssueTask28
   fields:
@@ -600,7 +600,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
 - id: 1539304417462
-  extraTags:
+  tags:
   - GRE-IssueResponseType1
   - SRET2-IssueTask05
   fields:
@@ -609,7 +609,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
 - id: 1539304417524
-  extraTags:
+  tags:
   - GRE-IssueResponseType1
   fields:
     Front: |
@@ -617,7 +617,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
 - id: 1539304417561
-  extraTags:
+  tags:
   - GRE-IssueResponseType5
   - SRET1-IssueTask07
   fields:
@@ -628,7 +628,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.
 - id: 1539304417612
-  extraTags:
+  tags:
   - GRE-IssueResponseType3
   fields:
     Front: |
@@ -636,7 +636,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.
 - id: 1539304417663
-  extraTags:
+  tags:
   - GRE-IssueResponseType2
   - SRET1-IssueTask20
   fields:
@@ -645,7 +645,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.
 - id: 1539304417712
-  extraTags:
+  tags:
   - GRE-IssueResponseType1
   - SRET2-IssueTask20
   fields:
@@ -654,7 +654,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
 - id: 1539304417774
-  extraTags:
+  tags:
   - GRE-IssueResponseType1
   - SRET1-IssueTask14
   fields:
@@ -663,7 +663,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
 - id: 1539304417837
-  extraTags:
+  tags:
   - GRE-IssueResponseType4
   fields:
     Front: |
@@ -671,7 +671,7 @@ notes:
 
       Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented.
 - id: 1539304417889
-  extraTags:
+  tags:
   - GRE-IssueResponseType2
   - SRET1-IssueTask16
   fields:
@@ -680,7 +680,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.
 - id: 1539304417941
-  extraTags:
+  tags:
   - GRE-IssueResponseType1
   fields:
     Front: |
@@ -688,7 +688,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
 - id: 1539304417989
-  extraTags:
+  tags:
   - GRE-IssueResponseType2
   - SRET2-IssueTask10
   fields:
@@ -697,7 +697,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.
 - id: 1539304418041
-  extraTags:
+  tags:
   - GRE-IssueResponseType1
   - SRET1-IssueTask12
   fields:
@@ -706,7 +706,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
 - id: 1539304418087
-  extraTags:
+  tags:
   - GRE-IssueResponseType2
   fields:
     Front: |
@@ -714,7 +714,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.
 - id: 1539304418141
-  extraTags:
+  tags:
   - GRE-IssueResponseType3
   fields:
     Front: |
@@ -722,7 +722,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.
 - id: 1539304418193
-  extraTags:
+  tags:
   - GRE-IssueResponseType1
   fields:
     Front: |
@@ -730,7 +730,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
 - id: 1539304418262
-  extraTags:
+  tags:
   - GRE-IssueResponseType3
   fields:
     Front: |
@@ -738,7 +738,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.
 - id: 1539304418312
-  extraTags:
+  tags:
   - GRE-IssueResponseType4
   fields:
     Front: |
@@ -746,7 +746,7 @@ notes:
 
       Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented.
 - id: 1539304418362
-  extraTags:
+  tags:
   - GRE-IssueResponseType4
   - SRET2-IssueTask16
   fields:
@@ -755,7 +755,7 @@ notes:
 
       Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented.
 - id: 1539304418411
-  extraTags:
+  tags:
   - GRE-IssueResponseType4
   fields:
     Front: |
@@ -763,7 +763,7 @@ notes:
 
       Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented.
 - id: 1539304418462
-  extraTags:
+  tags:
   - GRE-IssueResponseType4
   fields:
     Front: |
@@ -771,7 +771,7 @@ notes:
 
       Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented.
 - id: 1539304418523
-  extraTags:
+  tags:
   - GRE-IssueResponseType4
   fields:
     Front: |
@@ -779,7 +779,7 @@ notes:
 
       Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented.
 - id: 1539304418574
-  extraTags:
+  tags:
   - GRE-IssueResponseType4
   - SRET1-IssueTask08
   fields:
@@ -788,7 +788,7 @@ notes:
 
       Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented.
 - id: 1539304418639
-  extraTags:
+  tags:
   - GRE-IssueResponseType1
   fields:
     Front: |
@@ -796,7 +796,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
 - id: 1539304418689
-  extraTags:
+  tags:
   - GRE-IssueResponseType4
   fields:
     Front: |
@@ -804,7 +804,7 @@ notes:
 
       Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented.
 - id: 1539304418741
-  extraTags:
+  tags:
   - GRE-IssueResponseType1
   fields:
     Front: |
@@ -812,7 +812,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
 - id: 1539304418822
-  extraTags:
+  tags:
   - GRE-IssueResponseType4
   fields:
     Front: |
@@ -820,7 +820,7 @@ notes:
 
       Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented.
 - id: 1539304418862
-  extraTags:
+  tags:
   - GRE-IssueResponseType1
   - SRET1-IssueTask02
   fields:
@@ -829,7 +829,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
 - id: 1539304418914
-  extraTags:
+  tags:
   - GRE-IssueResponseType1
   fields:
     Front: |
@@ -837,7 +837,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
 - id: 1539304418990
-  extraTags:
+  tags:
   - GRE-IssueResponseType4
   - SRET2-IssueTask07
   fields:
@@ -846,7 +846,7 @@ notes:
 
       Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented.
 - id: 1539304419072
-  extraTags:
+  tags:
   - GRE-IssueResponseType5
   - SRET2-IssueTask18
   fields:
@@ -857,7 +857,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.
 - id: 1539304419125
-  extraTags:
+  tags:
   - GRE-IssueResponseType2
   fields:
     Front: |
@@ -865,7 +865,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.
 - id: 1539304419162
-  extraTags:
+  tags:
   - GRE-IssueResponseType1
   fields:
     Front: |
@@ -873,7 +873,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
 - id: 1539304419213
-  extraTags:
+  tags:
   - GRE-IssueResponseType3
   - SRET1-IssueTask25
   fields:
@@ -882,7 +882,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.
 - id: 1539304419262
-  extraTags:
+  tags:
   - GRE-IssueResponseType1
   - SRET2-IssueTask29
   fields:
@@ -891,7 +891,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
 - id: 1539304419322
-  extraTags:
+  tags:
   - GRE-IssueResponseType3
   fields:
     Front: |
@@ -899,7 +899,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.
 - id: 1539304419374
-  extraTags:
+  tags:
   - GRE-IssueResponseType1
   fields:
     Front: |
@@ -907,7 +907,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
 - id: 1539304419437
-  extraTags:
+  tags:
   - GRE-IssueResponseType2
   fields:
     Front: |
@@ -915,7 +915,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.
 - id: 1539304419487
-  extraTags:
+  tags:
   - GRE-IssueResponseType4
   fields:
     Front: |
@@ -923,7 +923,7 @@ notes:
 
       Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented.
 - id: 1539304419537
-  extraTags:
+  tags:
   - GRE-IssueResponseType5
   - SRET2-IssueTask23
   fields:
@@ -934,7 +934,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.
 - id: 1539304419589
-  extraTags:
+  tags:
   - GRE-IssueResponseType2
   - SRET2-IssueTask11
   fields:
@@ -943,7 +943,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.
 - id: 1539304419639
-  extraTags:
+  tags:
   - GRE-IssueResponseType2
   fields:
     Front: |
@@ -951,7 +951,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.
 - id: 1539304419691
-  extraTags:
+  tags:
   - GRE-IssueResponseType6
   - SRET2-IssueTask13
   fields:
@@ -960,7 +960,7 @@ notes:
 
       Write a response in which you discuss your views on the policy and explain your reasoning for the position you take. In developing and supporting your position, you should consider the possible consequences of implementing the policy and explain how these consequences shape your position.
 - id: 1539304419739
-  extraTags:
+  tags:
   - GRE-IssueResponseType2
   fields:
     Front: |
@@ -968,7 +968,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.
 - id: 1539304419789
-  extraTags:
+  tags:
   - GRE-IssueResponseType1
   - SRET2-IssueTask03
   - Bogus
@@ -980,7 +980,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
 - id: 1539304419838
-  extraTags:
+  tags:
   - GRE-IssueResponseType3
   fields:
     Front: |
@@ -988,7 +988,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.
 - id: 1539304419912
-  extraTags:
+  tags:
   - GRE-IssueResponseType6
   fields:
     Front: |
@@ -996,7 +996,7 @@ notes:
 
       Write a response in which you discuss your views on the policy and explain your reasoning for the position you take. In developing and supporting your position, you should consider the possible consequences of implementing the policy and explain how these consequences shape your position.
 - id: 1539304419973
-  extraTags:
+  tags:
   - GRE-IssueResponseType4
   fields:
     Front: |
@@ -1004,7 +1004,7 @@ notes:
 
       Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented.
 - id: 1539304420023
-  extraTags:
+  tags:
   - GRE-IssueResponseType6
   - SRET2-IssueTask30
   fields:
@@ -1013,7 +1013,7 @@ notes:
 
       Write a response in which you discuss your views on the policy and explain your reasoning for the position you take. In developing and supporting your position, you should consider the possible consequences of implementing the policy and explain how these consequences shape your position.
 - id: 1539304420062
-  extraTags:
+  tags:
   - GRE-IssueResponseType5
   fields:
     Front: |
@@ -1023,7 +1023,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.
 - id: 1539304420112
-  extraTags:
+  tags:
   - GRE-IssueResponseType3
   fields:
     Front: |
@@ -1031,7 +1031,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.
 - id: 1539304420161
-  extraTags:
+  tags:
   - GRE-IssueResponseType5
   fields:
     Front: |
@@ -1041,7 +1041,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.
 - id: 1539304420223
-  extraTags:
+  tags:
   - GRE-IssueResponseType1
   - SRET2-IssueTask14
   fields:
@@ -1050,7 +1050,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
 - id: 1539304420289
-  extraTags:
+  tags:
   - GRE-IssueResponseType5
   - SRET1-IssueTask29
   fields:
@@ -1061,7 +1061,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.
 - id: 1539304420341
-  extraTags:
+  tags:
   - GRE-IssueResponseType1
   fields:
     Front: |
@@ -1069,7 +1069,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
 - id: 1539304420389
-  extraTags:
+  tags:
   - GRE-IssueResponseType1
   fields:
     Front: |
@@ -1077,7 +1077,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
 - id: 1539304420440
-  extraTags:
+  tags:
   - GRE-IssueResponseType5
   - SRET2-IssueTask09
   fields:
@@ -1088,7 +1088,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.
 - id: 1539304420490
-  extraTags:
+  tags:
   - GRE-IssueResponseType2
   fields:
     Front: |
@@ -1096,7 +1096,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.
 - id: 1539304420539
-  extraTags:
+  tags:
   - GRE-IssueResponseType1
   - SRET1-IssueTask09
   fields:
@@ -1105,7 +1105,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
 - id: 1539304420591
-  extraTags:
+  tags:
   - GRE-IssueResponseType3
   fields:
     Front: |
@@ -1113,7 +1113,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.
 - id: 1539304420639
-  extraTags:
+  tags:
   - GRE-IssueResponseType3
   fields:
     Front: |
@@ -1121,7 +1121,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.
 - id: 1539304420691
-  extraTags:
+  tags:
   - GRE-IssueResponseType5
   - SRET2-IssueTask02
   fields:
@@ -1132,7 +1132,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.
 - id: 1539304420762
-  extraTags:
+  tags:
   - GRE-IssueResponseType1
   fields:
     Front: |
@@ -1140,7 +1140,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
 - id: 1539304420815
-  extraTags:
+  tags:
   - GRE-IssueResponseType3
   fields:
     Front: |
@@ -1148,7 +1148,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.
 - id: 1539304420889
-  extraTags:
+  tags:
   - GRE-IssueResponseType5
   - SRET1-IssueTask27
   - HighPriority
@@ -1160,7 +1160,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.
 - id: 1539304420941
-  extraTags:
+  tags:
   - GRE-IssueResponseType1
   - SRET1-IssueTask04
   - HighPriority
@@ -1170,7 +1170,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
 - id: 1539304420989
-  extraTags:
+  tags:
   - GRE-IssueResponseType5
   - SRET2-IssueTask22
   fields:
@@ -1181,7 +1181,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.
 - id: 1539304421037
-  extraTags:
+  tags:
   - GRE-IssueResponseType4
   fields:
     Front: |
@@ -1189,7 +1189,7 @@ notes:
 
       Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented.
 - id: 1539304421092
-  extraTags:
+  tags:
   - GRE-IssueResponseType3
   fields:
     Front: |
@@ -1197,7 +1197,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.
 - id: 1539304421162
-  extraTags:
+  tags:
   - GRE-IssueEducationCurriculumCluster00
   - GRE-IssueResponseType3
   fields:
@@ -1206,7 +1206,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.
 - id: 1539304421211
-  extraTags:
+  tags:
   - GRE-IssueEducationCurriculumCluster00
   - GRE-IssueResponseType6
   fields:
@@ -1215,7 +1215,7 @@ notes:
 
       Write a response in which you discuss your views on the policy and explain your reasoning for the position you take. In developing and supporting your position, you should consider the possible consequences of implementing the policy and explain how these consequences shape your position.
 - id: 1539304421262
-  extraTags:
+  tags:
   - GRE-IssueEducationCurriculumCluster00
   - GRE-IssueResponseType6
   - SRET2-IssueTask24
@@ -1226,7 +1226,7 @@ notes:
 
       Write a response in which you discuss your views on the policy and explain your reasoning for the position you take. In developing and supporting your position, you should consider the possible consequences of implementing the policy and explain how these consequences shape your position.
 - id: 1539304421312
-  extraTags:
+  tags:
   - GRE-IssueEducationCurriculumCluster00
   - GRE-IssueResponseType3
   fields:
@@ -1235,7 +1235,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.
 - id: 1539304421362
-  extraTags:
+  tags:
   - GRE-IssueEducationCurriculumCluster00
   - GRE-IssueResponseType1
   fields:
@@ -1244,7 +1244,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
 - id: 1539304421422
-  extraTags:
+  tags:
   - GRE-IssueEducationCurriculumCluster00
   - GRE-IssueResponseType3
   fields:
@@ -1253,7 +1253,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.
 - id: 1539304421461
-  extraTags:
+  tags:
   - GRE-IssueEducationCurriculumCluster00
   - GRE-IssueResponseType6
   fields:
@@ -1262,7 +1262,7 @@ notes:
 
       Write a response in which you discuss your views on the policy and explain your reasoning for the position you take. In developing and supporting your position, you should consider the possible consequences of implementing the policy and explain how these consequences shape your position.
 - id: 1539304421524
-  extraTags:
+  tags:
   - GRE-IssueResponseType2
   fields:
     Front: |
@@ -1270,7 +1270,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.
 - id: 1539304421587
-  extraTags:
+  tags:
   - GRE-IssueResponseType6
   fields:
     Front: |
@@ -1278,7 +1278,7 @@ notes:
 
       Write a response in which you discuss your views on the policy and explain your reasoning for the position you take. In developing and supporting your position, you should consider the possible consequences of implementing the policy and explain how these consequences shape your position.
 - id: 1539304421640
-  extraTags:
+  tags:
   - GRE-IssueEducationCurriculumCluster00
   - GRE-IssueResponseType2
   fields:
@@ -1287,7 +1287,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.
 - id: 1539304421691
-  extraTags:
+  tags:
   - GRE-IssueResponseType2
   fields:
     Front: |
@@ -1295,7 +1295,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.
 - id: 1539304421739
-  extraTags:
+  tags:
   - GRE-IssueResponseType2
   fields:
     Front: |
@@ -1303,7 +1303,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.
 - id: 1539304421790
-  extraTags:
+  tags:
   - GRE-IssueEducationCurriculumCluster00
   - GRE-IssueResponseType5
   - SRET2-IssueTask27
@@ -1315,7 +1315,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.
 - id: 1539304421839
-  extraTags:
+  tags:
   - GRE-IssueEducationCurriculumCluster00
   - GRE-IssueResponseType2
   - SRET1-IssueTask15
@@ -1326,7 +1326,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.
 - id: 1539304421890
-  extraTags:
+  tags:
   - GRE-IssueEducationCurriculumCluster00
   - GRE-IssueResponseType2
   fields:
@@ -1335,7 +1335,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.
 - id: 1539304421939
-  extraTags:
+  tags:
   - GRE-IssueResponseType6
   fields:
     Front: |
@@ -1343,7 +1343,7 @@ notes:
 
       Write a response in which you discuss your views on the policy and explain your reasoning for the position you take. In developing and supporting your position, you should consider the possible consequences of implementing the policy and explain how these consequences shape your position.
 - id: 1539304421990
-  extraTags:
+  tags:
   - GRE-IssueEducationCurriculumCluster00
   - GRE-IssueResponseType2
   fields:
@@ -1352,7 +1352,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.
 - id: 1539304422037
-  extraTags:
+  tags:
   - GRE-IssueEducationCurriculumCluster00
   - GRE-IssueResponseType5
   - SRET2-IssueTask08
@@ -1364,7 +1364,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.
 - id: 1539304422089
-  extraTags:
+  tags:
   - GRE-IssueEducationCurriculumCluster00
   - GRE-IssueResponseType2
   fields:
@@ -1373,7 +1373,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.
 - id: 1539304422136
-  extraTags:
+  tags:
   - GRE-IssueEducationCurriculumCluster00
   - GRE-IssueResponseType3
   - SRET1-IssueTask11
@@ -1384,7 +1384,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.
 - id: 1539304422191
-  extraTags:
+  tags:
   - GRE-IssueEducationCurriculumCluster00
   - GRE-IssueResponseType4
   fields:
@@ -1393,7 +1393,7 @@ notes:
 
       Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented.
 - id: 1539304422239
-  extraTags:
+  tags:
   - GRE-IssueResponseType3
   fields:
     Front: |
@@ -1401,7 +1401,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.
 - id: 1539304422290
-  extraTags:
+  tags:
   - GRE-IssueResponseType2
   - SRET1-IssueTask21
   fields:
@@ -1410,7 +1410,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.
 - id: 1539304422362
-  extraTags:
+  tags:
   - GRE-IssueResponseType6
   fields:
     Front: |
@@ -1418,7 +1418,7 @@ notes:
 
       Write a response in which you discuss your views on the policy and explain your reasoning for the position you take. In developing and supporting your position, you should consider the possible consequences of implementing the policy and explain how these consequences shape your position.
 - id: 1539304422412
-  extraTags:
+  tags:
   - GRE-IssueResponseType1
   fields:
     Front: |
@@ -1426,7 +1426,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
 - id: 1539304422474
-  extraTags:
+  tags:
   - GRE-IssueEducationCurriculumCluster00
   - GRE-IssueResponseType6
   fields:
@@ -1435,7 +1435,7 @@ notes:
 
       Write a response in which you discuss your views on the policy and explain your reasoning for the position you take. In developing and supporting your position, you should consider the possible consequences of implementing the policy and explain how these consequences shape your position.
 - id: 1539304422537
-  extraTags:
+  tags:
   - GRE-IssueEducationCurriculumCluster00
   - GRE-IssueResponseType2
   - SRET2-IssueTask06
@@ -1445,7 +1445,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.
 - id: 1539304422589
-  extraTags:
+  tags:
   - GRE-IssueEducationCurriculumCluster00
   - GRE-IssueResponseType3
   fields:
@@ -1454,7 +1454,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.
 - id: 1539304422639
-  extraTags:
+  tags:
   - GRE-IssueEducationCurriculumCluster00
   - GRE-IssueResponseType1
   fields:
@@ -1463,7 +1463,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
 - id: 1539304422690
-  extraTags:
+  tags:
   - GRE-IssueEducationCurriculumCluster00
   - GRE-IssueResponseType2
   - SRET1-IssueTask13
@@ -1473,7 +1473,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.
 - id: 1539304422762
-  extraTags:
+  tags:
   - GRE-IssueEducationCurriculumCluster00
   - GRE-IssueResponseType3
   fields:
@@ -1482,7 +1482,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.
 - id: 1539304422812
-  extraTags:
+  tags:
   - GRE-IssueEducationCurriculumCluster00
   - GRE-IssueResponseType6
   fields:
@@ -1491,7 +1491,7 @@ notes:
 
       Write a response in which you discuss your views on the policy and explain your reasoning for the position you take. In developing and supporting your position, you should consider the possible consequences of implementing the policy and explain how these consequences shape your position.
 - id: 1539304422862
-  extraTags:
+  tags:
   - GRE-IssueEducationCurriculumCluster00
   - GRE-IssueResponseType4
   fields:
@@ -1500,7 +1500,7 @@ notes:
 
       Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented.
 - id: 1539304422912
-  extraTags:
+  tags:
   - GRE-IssueEducationCurriculumCluster00
   - GRE-IssueResponseType1
   fields:
@@ -1509,7 +1509,7 @@ notes:
 
       Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.
 - id: 1539304422965
-  extraTags:
+  tags:
   - GRE-IssueEducationCurriculumCluster00
   - GRE-IssueResponseType5
   fields:

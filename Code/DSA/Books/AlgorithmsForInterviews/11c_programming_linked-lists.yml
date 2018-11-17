@@ -1,7 +1,7 @@
 defaults:
   deckName: Staging
   modelName: CodingProblems
-  tags:
+  extraTags:
   - Code
   - Algorithms
   - Books

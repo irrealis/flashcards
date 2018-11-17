@@ -1,7 +1,7 @@
 defaults:
   deckName: Staging
   modelName: CodingProblems
-  tags:
+  extraTags:
   - Code
   - Algorithms
   - Sorts
@@ -14,7 +14,7 @@ defaults:
   markdownTabLength: 4
 notes:
 - id: 1537379823251
-  extraTags:
+  tags:
   - Done-Python
   - Done-Java
   fields:
@@ -77,7 +77,7 @@ notes:
       // Sorts.main(args);
       ```
 - id: 1537379823751
-  extraTags:
+  tags:
   - Done-Python
   - Done-Java
   fields:
@@ -134,7 +134,7 @@ notes:
       // Sorts.main(args);
       ```
 - id: 1537379824678
-  extraTags:
+  tags:
   - Done-Python
   - Done-Java
   fields:
@@ -250,7 +250,7 @@ notes:
       // Sorts.main(args);
       ```
 - id: 1537379825427
-  extraTags:
+  tags:
   - Done-Python
   - Done-Java
   fields:
@@ -336,7 +336,7 @@ notes:
       // Sorts.main(args);
       ```
 - id: 1537379825727
-  extraTags:
+  tags:
   - Done-Python
   fields:
     Front: |

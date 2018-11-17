@@ -1,7 +1,7 @@
 defaults:
   deckName: Staging
   modelName: CodingProblems
-  tags:
+  extraTags:
   - Code
   - Algorithms
   - Books
@@ -44,7 +44,7 @@ notes:
 
       --- Aziz and Prakash; _Algorithms for Interviews_; version 1.0.0 (September 1, 2010); p 53.
 - id: 1536205548087
-  extraTags:
+  tags:
   - Done-Python
   fields:
     Front: |

@@ -1,7 +1,7 @@
 defaults:
   deckName: Staging
   modelName: PWeave
-  tags:
+  extraTags:
   - Textbooks
   - Math
   - Calculus
@@ -437,7 +437,7 @@ notes:
     Back: |
       About \\(11.5\\) per 100 population.
 - id: 1542310014045
-  extraTags: [Editing]
+  tags: [Editing]
   useMarkdownMathExt: False
   fields:
     Front: |
@@ -758,7 +758,7 @@ notes:
     Back: |
       No.
 - id: 1542311116094
-  extraTags: [Editing]
+  tags: [Editing]
   fields:
     Front: |
       CCAC 01.2 25: Use the data in the table below to model the population of the world in the 20th century by a cubic function. Then use your model to estimate the population in the year 1925.

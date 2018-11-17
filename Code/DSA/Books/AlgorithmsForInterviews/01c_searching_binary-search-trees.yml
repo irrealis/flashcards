@@ -1,7 +1,7 @@
 defaults:
   deckName: Staging
   modelName: CodingProblems
-  tags:
+  extraTags:
   - Code
   - Algorithms
   - Books
@@ -15,7 +15,7 @@ defaults:
   markdownTabLength: 2
 notes:
 - id: 1536205076401
-  extraTags:
+  tags:
   - Done-Python
   fields:
     Front: |
@@ -159,7 +159,7 @@ notes:
       - When switching from recursion to iteration with `while` loop, recursions must be replaced with `continue` to next iteration.
 
 - id: 1536205076460
-  extraTags:
+  tags:
   - Done-Python
   fields:
     Front: |

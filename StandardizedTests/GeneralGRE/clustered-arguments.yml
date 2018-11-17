@@ -1,7 +1,7 @@
 defaults:
   deckName: Staging
   modelName: BasicMathJax
-  tags:
+  extraTags:
   - StandardizedTests
   - GeneralGRE
   - GRE-AnalyticalWriting
@@ -9,7 +9,7 @@ defaults:
   markdownTabLength: 2
 notes:
 - id: 1539136301586
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType2
   fields:
     Front: |
@@ -19,7 +19,7 @@ notes:
 
       Write a response in which you examine the stated and/or unstated assumptions of the argument. Be sure to explain how the argument depends on these assumptions and what the implications are for the argument if the assumptions prove unwarranted.
 - id: 1539136301676
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType1
   fields:
     Front: |
@@ -29,7 +29,7 @@ notes:
 
       Write a response in which you discuss what specific evidence is needed to evaluate the argument and explain how the evidence would weaken or strengthen the argument.
 - id: 1539136301810
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType3
   fields:
     Front: |
@@ -37,7 +37,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the recommendation and the argument on which it is based are reasonable. Be sure to explain how the answers to these questions would help to evaluate the recommendation.
 - id: 1539136301945
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType6
   fields:
     Front: |
@@ -47,7 +47,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the prediction and the argument on which it is based are reasonable. Be sure to explain how the answers to these questions would help to evaluate the prediction.
 - id: 1539136302076
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType5
   fields:
     Front: |
@@ -57,7 +57,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the recommendation is likely to have the predicted result. Be sure to explain how the answers to these questions would help to evaluate the recommendation.
 - id: 1539136302210
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType2
   fields:
     Front: |
@@ -67,7 +67,7 @@ notes:
 
       Write a response in which you examine the stated and/or unstated assumptions of the argument. Be sure to explain how the argument depends on these assumptions and what the implications are for the argument if the assumptions prove unwarranted.
 - id: 1539136302346
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType1
   fields:
     Front: |
@@ -77,7 +77,7 @@ notes:
 
       Write a response in which you discuss what specific evidence is needed to evaluate the argument and explain how the evidence would weaken or strengthen the argument.
 - id: 1539136302443
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType3
   fields:
     Front: |
@@ -87,7 +87,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the recommendation and the argument on which it is based are reasonable. Be sure to explain how the answers to these questions would help to evaluate the recommendation.
 - id: 1539136302581
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType2
   fields:
     Front: |
@@ -97,7 +97,7 @@ notes:
 
       Write a response in which you examine the stated and/or unstated assumptions of the argument. Be sure to explain how the argument depends on these assumptions and what the implications are for the argument if the assumptions prove unwarranted.
 - id: 1539136302694
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType2
   fields:
     Front: |
@@ -107,7 +107,7 @@ notes:
 
       Write a response in which you examine the stated and/or unstated assumptions of the argument. Be sure to explain how the argument depends on these assumptions and what the implications are for the argument if the assumptions prove unwarranted.
 - id: 1539136302843
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType1
   fields:
     Front: |
@@ -117,7 +117,7 @@ notes:
 
       Write a response in which you discuss what specific evidence is needed to evaluate the argument and explain how the evidence would weaken or strengthen the argument.
 - id: 1539136302984
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType2
   fields:
     Front: |
@@ -125,7 +125,7 @@ notes:
 
       Write a response in which you examine the stated and/or unstated assumptions of the argument. Be sure to explain how the argument depends on these assumptions and what the implications are for the argument if the assumptions prove unwarranted.
 - id: 1539136303111
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType6
   fields:
     Front: |
@@ -135,7 +135,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the prediction and the argument on which it is based are reasonable. Be sure to explain how the answers to these questions would help to evaluate the prediction.
 - id: 1539136303220
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType2
   fields:
     Front: |
@@ -145,7 +145,7 @@ notes:
 
       Write a response in which you examine the stated and/or unstated assumptions of the argument. Be sure to explain how the argument depends on these assumptions and what the implications are for the argument if the assumptions prove unwarranted.
 - id: 1539136303360
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType1
   fields:
     Front: |
@@ -155,7 +155,7 @@ notes:
 
       Write a response in which you discuss what specific evidence is needed to evaluate the argument and explain how the evidence would weaken or strengthen the argument.
 - id: 1539136303511
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType3
   fields:
     Front: |
@@ -165,7 +165,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the recommendation and the argument on which it is based are reasonable. Be sure to explain how the answers to these questions would help to evaluate the recommendation.
 - id: 1539136303625
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType2
   fields:
     Front: |
@@ -175,7 +175,7 @@ notes:
 
       Write a response in which you examine the stated and/or unstated assumptions of the argument. Be sure to explain how the argument depends on these assumptions and what the implications are for the argument if the assumptions prove unwarranted.
 - id: 1539136303744
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType1
   fields:
     Front: |
@@ -185,7 +185,7 @@ notes:
 
       Write a response in which you discuss what specific evidence is needed to evaluate the argument and explain how the evidence would weaken or strengthen the argument.
 - id: 1539136303926
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType1
   fields:
     Front: |
@@ -195,7 +195,7 @@ notes:
 
       Write a response in which you discuss what specific evidence is needed to evaluate the argument and explain how the evidence would weaken or strengthen the argument.
 - id: 1539136304118
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType2
   fields:
     Front: |
@@ -205,7 +205,7 @@ notes:
 
       Write a response in which you examine the stated and/or unstated assumptions of the argument. Be sure to explain how the argument depends on these assumptions and what the implications are for the argument if the assumptions prove unwarranted.
 - id: 1539136304243
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType3
   fields:
     Front: |
@@ -215,7 +215,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the recommendation and the argument on which it is based are reasonable. Be sure to explain how the answers to these questions would help to evaluate the recommendation.
 - id: 1539136304377
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType2
   fields:
     Front: |
@@ -225,7 +225,7 @@ notes:
 
       Write a response in which you examine the stated and/or unstated assumptions of the argument. Be sure to explain how the argument depends on these assumptions and what the implications are for the argument if the assumptions prove unwarranted.
 - id: 1539136304512
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType2
   fields:
     Front: |
@@ -233,7 +233,7 @@ notes:
 
       Write a response in which you examine the stated and/or unstated assumptions of the argument. Be sure to explain how the argument depends on these assumptions and what the implications are for the argument if the assumptions prove unwarranted.
 - id: 1539136304592
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType1
   fields:
     Front: |
@@ -241,7 +241,7 @@ notes:
 
       Write a response in which you discuss what specific evidence is needed to evaluate the argument and explain how the evidence would weaken or strengthen the argument.
 - id: 1539136304725
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType1
   fields:
     Front: |
@@ -251,7 +251,7 @@ notes:
 
       Write a response in which you discuss what specific evidence is needed to evaluate the argument and explain how the evidence would weaken or strengthen the argument.
 - id: 1539136304842
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType2
   fields:
     Front: |
@@ -259,7 +259,7 @@ notes:
 
       Write a response in which you examine the stated and/or unstated assumptions of the argument. Be sure to explain how the argument depends on these assumptions and what the implications are for the argument if the assumptions prove unwarranted.
 - id: 1539136305006
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType5
   fields:
     Front: |
@@ -269,7 +269,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the recommendation is likely to have the predicted result. Be sure to explain how the answers to these questions would help to evaluate the recommendation.
 - id: 1539136305109
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType1
   fields:
     Front: |
@@ -279,7 +279,7 @@ notes:
 
       Write a response in which you discuss what specific evidence is needed to evaluate the argument and explain how the evidence would weaken or strengthen the argument.
 - id: 1539136305242
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType5
   fields:
     Front: |
@@ -289,7 +289,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the recommendation is likely to have the predicted result. Be sure to explain how the answers to these questions would help to evaluate the recommendation.
 - id: 1539136305345
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType2
   fields:
     Front: |
@@ -299,7 +299,7 @@ notes:
 
       Write a response in which you examine the stated and/or unstated assumptions of the argument. Be sure to explain how the argument depends on these assumptions and what the implications are for the argument if the assumptions prove unwarranted.
 - id: 1539136305509
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType2
   fields:
     Front: |
@@ -309,7 +309,7 @@ notes:
 
       Write a response in which you examine the stated and/or unstated assumptions of the argument. Be sure to explain how the argument depends on these assumptions and what the implications are for the argument if the assumptions prove unwarranted."
 - id: 1539136305633
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType2
   fields:
     Front: |
@@ -319,7 +319,7 @@ notes:
 
       Write a response in which you examine the stated and/or unstated assumptions of the argument. Be sure to explain how the argument depends on these assumptions and what the implications are for the argument if the assumptions prove unwarranted."
 - id: 1539136305743
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType2
   fields:
     Front: |
@@ -329,7 +329,7 @@ notes:
 
       Write a response in which you examine the stated and/or unstated assumptions of the argument. Be sure to explain how the argument depends on these assumptions and what the implications are for the argument if the assumptions prove unwarranted.
 - id: 1539136305934
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType3
   fields:
     Front: |
@@ -339,7 +339,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the recommendation and the argument on which it is based are reasonable. Be sure to explain how the answers to these questions would help to evaluate the recommendation.
 - id: 1539136306012
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType5
   fields:
     Front: |
@@ -349,7 +349,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the recommendation is likely to have the predicted result. Be sure to explain how the answers to these questions would help to evaluate the recommendation.
 - id: 1539136306087
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType1
   fields:
     Front: |
@@ -359,7 +359,7 @@ notes:
 
       Write a response in which you discuss what specific evidence is needed to evaluate the argument and explain how the evidence would weaken or strengthen the argument.
 - id: 1539136306187
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType1
   fields:
     Front: |
@@ -369,7 +369,7 @@ notes:
 
       Write a response in which you discuss what specific evidence is needed to evaluate the argument and explain how the evidence would weaken or strengthen the argument.
 - id: 1539136306287
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType7
   fields:
     Front: |
@@ -379,7 +379,7 @@ notes:
 
       Write a response in which you discuss one or more alternative explanations that could rival the proposed explanation and explain how your explanation(s) can plausibly account for the facts presented in the argument.
 - id: 1539136306391
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType1
   fields:
     Front: |
@@ -391,7 +391,7 @@ notes:
 
       Write a response in which you discuss what specific evidence is needed to evaluate the argument and explain how the evidence would weaken or strengthen the argument.
 - id: 1539136306488
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType1
   fields:
     Front: |
@@ -399,7 +399,7 @@ notes:
 
       Write a response in which you discuss what specific evidence is needed to evaluate the argument and explain how the evidence would weaken or strengthen the argument.
 - id: 1539136306587
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType1
   fields:
     Front: |
@@ -409,7 +409,7 @@ notes:
 
       Write a response in which you discuss what specific evidence is needed to evaluate the argument and explain how the evidence would weaken or strengthen the argument.
 - id: 1539136306712
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType1
   fields:
     Front: |
@@ -419,7 +419,7 @@ notes:
 
       Write a response in which you discuss what specific evidence is needed to evaluate the argument and explain how the evidence would weaken or strengthen the argument.
 - id: 1539136306812
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType1
   fields:
     Front: |
@@ -429,7 +429,7 @@ notes:
 
       Write a response in which you discuss what specific evidence is needed to evaluate the argument and explain how the evidence would weaken or strengthen the argument.
 - id: 1539136306912
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType5
   fields:
     Front: |
@@ -439,7 +439,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the recommendation is likely to have the predicted result. Be sure to explain how the answers to these questions would help to evaluate the recommendation.
 - id: 1539136307037
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType5
   fields:
     Front: |
@@ -449,7 +449,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the recommendation is likely to have the predicted result. Be sure to explain how the answers to these questions would help to evaluate the recommendation.
 - id: 1539136307137
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType1
   fields:
     Front: |
@@ -457,7 +457,7 @@ notes:
 
       Write a response in which you discuss what specific evidence is needed to evaluate the argument and explain how the evidence would weaken or strengthen the argument.
 - id: 1539136307237
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType6
   fields:
     Front: |
@@ -465,7 +465,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the prediction and the argument on which it is based are reasonable. Be sure to explain how the answers to these questions would help to evaluate the prediction.
 - id: 1539136307338
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType2
   fields:
     Front: |
@@ -475,7 +475,7 @@ notes:
 
       Write a response in which you examine the stated and/or unstated assumptions of the argument. Be sure to explain how the argument depends on these assumptions and what the implications are for the argument if the assumptions prove unwarranted.
 - id: 1539136307437
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType1
   fields:
     Front: |
@@ -483,7 +483,7 @@ notes:
 
       Write a response in which you discuss what specific evidence is needed to evaluate the argument and explain how the evidence would weaken or strengthen the argument.
 - id: 1539136307537
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType2
   fields:
     Front: |
@@ -493,7 +493,7 @@ notes:
 
       Write a response in which you examine the stated and/or unstated assumptions of the argument. Be sure to explain how the argument depends on these assumptions and what the implications are for the argument if the assumptions prove unwarranted.
 - id: 1539136307637
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType7
   fields:
     Front: |
@@ -503,7 +503,7 @@ notes:
 
       Write a response in which you discuss one or more alternative explanations that could rival the proposed explanation and explain how your explanation(s) can plausibly account for the facts presented in the argument.
 - id: 1539136307737
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType2
   fields:
     Front: |
@@ -513,7 +513,7 @@ notes:
 
       Write a response in which you examine the stated and/or unstated assumptions of the argument. Be sure to explain how the argument depends on these assumptions and what the implications are for the argument if the assumptions prove unwarranted.
 - id: 1539136307862
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType2
   fields:
     Front: |
@@ -523,7 +523,7 @@ notes:
 
       Write a response in which you examine the stated and/or unstated assumptions of the argument. Be sure to explain how the argument depends on these assumptions and what the implications are for the argument if the assumptions prove unwarranted.
 - id: 1539136307938
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType3
   fields:
     Front: |
@@ -531,7 +531,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the recommendation and the argument on which it is based are reasonable. Be sure to explain how the answers to these questions would help to evaluate the recommendation.
 - id: 1539136308037
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType2
   fields:
     Front: |
@@ -541,7 +541,7 @@ notes:
 
       Write a response in which you examine the stated and/or unstated assumptions of the argument. Be sure to explain how the argument depends on these assumptions and what the implications are for the argument if the assumptions prove unwarranted.
 - id: 1539136308137
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType8
   fields:
     Front: |
@@ -551,7 +551,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be addressed in order to decide whether the conclusion and the argument on which it is based are reasonable. Be sure to explain how the answers to the questions would help to evaluate the conclusion.
 - id: 1539136308237
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType4
   fields:
     Front: |
@@ -561,7 +561,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the advice and the argument on which it is based are reasonable. Be sure to explain how the answers to these questions would help to evaluate the advice.
 - id: 1539136308338
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType1
   fields:
     Front: |
@@ -569,7 +569,7 @@ notes:
 
       Write a response in which you discuss what specific evidence is needed to evaluate the argument and explain how the evidence would weaken or strengthen the argument.
 - id: 1539136308438
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType5
   fields:
     Front: |
@@ -579,7 +579,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the recommendation is likely to have the predicted result. Be sure to explain how the answers to these questions would help to evaluate the recommendation.
 - id: 1539136308537
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType2
   fields:
     Front: |
@@ -587,7 +587,7 @@ notes:
 
       Write a response in which you examine the stated and/or unstated assumptions of the argument. Be sure to explain how the argument depends on these assumptions and what the implications are for the argument if the assumptions prove unwarranted.
 - id: 1539136308637
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType2
   fields:
     Front: |
@@ -595,7 +595,7 @@ notes:
 
       Write a response in which you examine the stated and/or unstated assumptions of the argument. Be sure to explain how the argument depends on these assumptions and what the implications are for the argument if the assumptions prove unwarranted.
 - id: 1539136308738
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType5
   fields:
     Front: |
@@ -605,7 +605,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the recommendation is likely to have the predicted result. Be sure to explain how the answers to these questions would help to evaluate the recommendation.
 - id: 1539136308838
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType2
   fields:
     Front: |
@@ -613,7 +613,7 @@ notes:
 
       Write a response in which you examine the stated and/or unstated assumptions of the argument. Be sure to explain how the argument depends on these assumptions and what the implications are for the argument if the assumptions prove unwarranted.
 - id: 1539136308962
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType1
   fields:
     Front: |
@@ -621,7 +621,7 @@ notes:
 
       Write a response in which you discuss what specific evidence is needed to evaluate the argument and explain how the evidence would weaken or strengthen the argument.
 - id: 1539136309062
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType1
   fields:
     Front: |
@@ -629,7 +629,7 @@ notes:
 
       Write a response in which you discuss what specific evidence is needed to evaluate the argument and explain how the evidence would weaken or strengthen the argument.
 - id: 1539136309162
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType6
   fields:
     Front: |
@@ -637,7 +637,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the prediction and the argument on which it is based are reasonable. Be sure to explain how the answers to these questions would help to evaluate the prediction.
 - id: 1539136309262
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType1
   fields:
     Front: |
@@ -647,7 +647,7 @@ notes:
 
       Write a response in which you discuss what specific evidence is needed to evaluate the argument and explain how the evidence would weaken or strengthen the argument.
 - id: 1539136309362
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType1
   fields:
     Front: |
@@ -655,7 +655,7 @@ notes:
 
       Write a response in which you discuss what specific evidence is needed to evaluate the argument and explain how the evidence would weaken or strengthen the argument.
 - id: 1539136309437
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType2
   fields:
     Front: |
@@ -665,7 +665,7 @@ notes:
 
       Write a response in which you examine the stated and/or unstated assumptions of the argument. Be sure to explain how the argument depends on these assumptions and what the implications are for the argument if the assumptions prove unwarranted.
 - id: 1539136309538
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType6
   fields:
     Front: |
@@ -675,7 +675,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the prediction and the argument on which it is based are reasonable. Be sure to explain how the answers to these questions would help to evaluate the prediction.
 - id: 1539136309638
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType3
   fields:
     Front: |
@@ -685,7 +685,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the recommendation and the argument on which it is based are reasonable. Be sure to explain how the answers to these questions would help to evaluate the recommendation.
 - id: 1539136309737
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType5
   fields:
     Front: |
@@ -695,7 +695,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the recommendation is likely to have the predicted result. Be sure to explain how the answers to these questions would help to evaluate the recommendation.
 - id: 1539136309838
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType1
   fields:
     Front: |
@@ -705,7 +705,7 @@ notes:
 
       Write a response in which you discuss what specific evidence is needed to evaluate the argument and explain how the evidence would weaken or strengthen the argument.
 - id: 1539136309937
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType5
   fields:
     Front: |
@@ -715,7 +715,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the recommendation is likely to have the predicted result. Be sure to explain how the answers to these questions would help to evaluate the recommendation.
 - id: 1539136310042
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType1
   fields:
     Front: |
@@ -725,7 +725,7 @@ notes:
 
       Write a response in which you discuss what specific evidence is needed to evaluate the argument and explain how the evidence would weaken or strengthen the argument.
 - id: 1539136310161
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType2
   fields:
     Front: |
@@ -735,7 +735,7 @@ notes:
 
       Write a response in which you examine the stated and/or unstated assumptions of the argument. Be sure to explain how the argument depends on these assumptions and what the implications are for the argument if the assumptions prove unwarranted.
 - id: 1539136310238
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType7
   fields:
     Front: |
@@ -743,7 +743,7 @@ notes:
 
       Write a response in which you discuss one or more alternative explanations that could rival the proposed explanation and explain how your explanation(s) can plausibly account for the facts presented in the argument.
 - id: 1539136310337
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType2
   fields:
     Front: |
@@ -751,7 +751,7 @@ notes:
 
       Write a response in which you examine the stated and/or unstated assumptions of the argument. Be sure to explain how the argument depends on these assumptions and what the implications are for the argument if the assumptions prove unwarranted.
 - id: 1539136310437
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType7
   fields:
     Front: |
@@ -761,7 +761,7 @@ notes:
 
       Write a response in which you discuss one or more alternative explanations that could rival the proposed explanation and explain how your explanation(s) can plausibly account for the facts presented in the argument.
 - id: 1539136310538
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType1
   fields:
     Front: |
@@ -771,7 +771,7 @@ notes:
 
       Write a response in which you discuss what specific evidence is needed to evaluate the argument and explain how the evidence would weaken or strengthen the argument.
 - id: 1539136310637
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType3
   fields:
     Front: |
@@ -781,7 +781,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the recommendation and the argument on which it is based are reasonable. Be sure to explain how the answers to these questions would help to evaluate the recommendation.
 - id: 1539136310738
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType1
   fields:
     Front: |
@@ -791,7 +791,7 @@ notes:
 
       Write a response in which you discuss what specific evidence is needed to evaluate the argument and explain how the evidence would weaken or strengthen the argument.
 - id: 1539136310838
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType8
   fields:
     Front: |
@@ -799,7 +799,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be addressed in order to decide whether the conclusion and the argument on which it is based are reasonable. Be sure to explain how the answers to the questions would help to evaluate the conclusion.
 - id: 1539136310938
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType1
   fields:
     Front: |
@@ -807,7 +807,7 @@ notes:
 
       Write a response in which you discuss what specific evidence is needed to evaluate the argument and explain how the evidence would weaken or strengthen the argument.
 - id: 1539136311038
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType2
   fields:
     Front: |
@@ -817,7 +817,7 @@ notes:
 
       Write a response in which you examine the stated and/or unstated assumptions of the argument. Be sure to explain how the argument depends on these assumptions and what the implications are for the argument if the assumptions prove unwarranted.
 - id: 1539136311138
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType1
   fields:
     Front: |
@@ -827,7 +827,7 @@ notes:
 
       Write a response in which you discuss what specific evidence is needed to evaluate the argument and explain how the evidence would weaken or strengthen the argument.
 - id: 1539136311237
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType2
   fields:
     Front: |
@@ -837,7 +837,7 @@ notes:
 
       Write a response in which you examine the stated and/or unstated assumptions of the argument. Be sure to explain how the argument depends on these assumptions and what the implications are for the argument if the assumptions prove unwarranted.
 - id: 1539136311337
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType3
   fields:
     Front: |
@@ -847,7 +847,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the recommendation and the argument on which it is based are reasonable. Be sure to explain how the answers to these questions would help to evaluate the recommendation.
 - id: 1539136311437
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType7
   fields:
     Front: |
@@ -855,7 +855,7 @@ notes:
 
       Write a response in which you discuss one or more alternative explanations that could rival the proposed explanation and explain how your explanation(s) can plausibly account for the facts presented in the argument.
 - id: 1539136311538
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType2
   fields:
     Front: |
@@ -863,7 +863,7 @@ notes:
 
       Write a response in which you examine the stated and/or unstated assumptions of the argument. Be sure to explain how the argument depends on these assumptions and what the implications are for the argument if the assumptions prove unwarranted.
 - id: 1539136311613
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType7
   fields:
     Front: |
@@ -871,7 +871,7 @@ notes:
 
       Write a response in which you discuss one or more alternative explanations that could rival the proposed explanation and explain how your explanation(s) can plausibly account for the facts presented in the argument.
 - id: 1539136311711
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType2
   fields:
     Front: |
@@ -879,7 +879,7 @@ notes:
 
       Write a response in which you examine the stated and/or unstated assumptions of the argument. Be sure to explain how the argument depends on these assumptions and what the implications are for the argument if the assumptions prove unwarranted.
 - id: 1539136311794
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType1
   fields:
     Front: |
@@ -889,7 +889,7 @@ notes:
 
       Write a response in which you discuss what specific evidence is needed to evaluate the argument and explain how the evidence would weaken or strengthen the argument.
 - id: 1539136311912
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType6
   fields:
     Front: |
@@ -897,7 +897,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the prediction and the argument on which it is based are reasonable. Be sure to explain how the answers to these questions would help to evaluate the prediction.
 - id: 1539136312013
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType3
   fields:
     Front: |
@@ -907,7 +907,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the recommendation and the argument on which it is based are reasonable. Be sure to explain how the answers to these questions would help to evaluate the recommendation.
 - id: 1539136312112
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType1
   fields:
     Front: |
@@ -917,7 +917,7 @@ notes:
 
       Write a response in which you discuss what specific evidence is needed to evaluate the argument and explain how the evidence would weaken or strengthen the argument.
 - id: 1539136312188
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType3
   fields:
     Front: |
@@ -925,7 +925,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the recommendation and the argument on which it is based are reasonable. Be sure to explain how the answers to these questions would help to evaluate the recommendation.
 - id: 1539136312287
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType6
   fields:
     Front: |
@@ -935,7 +935,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the prediction and the argument on which it is based are reasonable. Be sure to explain how the answers to these questions would help to evaluate the prediction.
 - id: 1539136312389
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType2
   fields:
     Front: |
@@ -945,7 +945,7 @@ notes:
 
       Write a response in which you examine the stated and/or unstated assumptions of the argument. Be sure to explain how the argument depends on these assumptions and what the implications are for the argument if the assumptions prove unwarranted.
 - id: 1539136312487
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType1
   fields:
     Front: |
@@ -955,7 +955,7 @@ notes:
 
       Write a response in which you discuss what specific evidence is needed to evaluate the argument and explain how the evidence would weaken or strengthen the argument.
 - id: 1539136312588
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType2
   fields:
     Front: |
@@ -965,7 +965,7 @@ notes:
 
       Write a response in which you examine the stated and/or unstated assumptions of the argument. Be sure to explain how the argument depends on these assumptions and what the implications are for the argument if the assumptions prove unwarranted.
 - id: 1539136312712
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType5
   fields:
     Front: |
@@ -975,7 +975,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the recommendation is likely to have the predicted result. Be sure to explain how the answers to these questions would help to evaluate the recommendation.
 - id: 1539136312815
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType1
   fields:
     Front: |
@@ -985,7 +985,7 @@ notes:
 
       Write a response in which you discuss what specific evidence is needed to evaluate the argument and explain how the evidence would weaken or strengthen the argument.
 - id: 1539136312912
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType2
   fields:
     Front: |
@@ -995,7 +995,7 @@ notes:
 
       Write a response in which you examine the stated and/or unstated assumptions of the argument. Be sure to explain how the argument depends on these assumptions and what the implications are for the argument if the assumptions prove unwarranted.
 - id: 1539136313012
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType6
   fields:
     Front: |
@@ -1005,7 +1005,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the prediction and the argument on which it is based are reasonable. Be sure to explain how the answers to these questions would help to evaluate the prediction.
 - id: 1539136313138
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType2
   fields:
     Front: |
@@ -1015,7 +1015,7 @@ notes:
 
       Write a response in which you examine the stated and/or unstated assumptions of the argument. Be sure to explain how the argument depends on these assumptions and what the implications are for the argument if the assumptions prove unwarranted.
 - id: 1539136313244
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType1
   fields:
     Front: |
@@ -1025,7 +1025,7 @@ notes:
 
       Write a response in which you discuss what specific evidence is needed to evaluate the argument and explain how the evidence would weaken or strengthen the argument.
 - id: 1539136313339
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType6
   fields:
     Front: |
@@ -1033,7 +1033,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the prediction and the argument on which it is based are reasonable. Be sure to explain how the answers to these questions would help to evaluate the prediction.
 - id: 1539136313437
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType1
   fields:
     Front: |
@@ -1043,7 +1043,7 @@ notes:
 
       Write a response in which you discuss what specific evidence is needed to evaluate the argument and explain how the evidence would weaken or strengthen the argument.
 - id: 1539136313538
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType3
   fields:
     Front: |
@@ -1053,7 +1053,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the recommendation and the argument on which it is based are reasonable. Be sure to explain how the answers to these questions would help to evaluate the recommendation.
 - id: 1539136313637
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType2
   fields:
     Front: |
@@ -1063,7 +1063,7 @@ notes:
 
       Write a response in which you examine the stated and/or unstated assumptions of the argument. Be sure to explain how the argument depends on these assumptions and what the implications are for the argument if the assumptions prove unwarranted.
 - id: 1539136313737
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType3
   fields:
     Front: |
@@ -1071,7 +1071,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the recommendation and the argument on which it is based are reasonable. Be sure to explain how the answers to these questions would help to evaluate the recommendation.
 - id: 1539136313838
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType2
   fields:
     Front: |
@@ -1079,7 +1079,7 @@ notes:
 
       Write a response in which you examine the stated and/or unstated assumptions of the argument. Be sure to explain how the argument depends on these assumptions and what the implications are for the argument if the assumptions prove unwarranted.
 - id: 1539136313937
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType1
   fields:
     Front: |
@@ -1087,7 +1087,7 @@ notes:
 
       Write a response in which you discuss what specific evidence is needed to evaluate the argument and explain how the evidence would weaken or strengthen the argument.
 - id: 1539136314038
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType3
   fields:
     Front: |
@@ -1097,7 +1097,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the recommendation and the argument on which it is based are reasonable. Be sure to explain how the answers to these questions would help to evaluate the recommendation.
 - id: 1539136314137
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType1
   fields:
     Front: |
@@ -1107,7 +1107,7 @@ notes:
 
       Write a response in which you discuss what specific evidence is needed to evaluate the argument and explain how the evidence would weaken or strengthen the argument.
 - id: 1539136314238
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType5
   fields:
     Front: |
@@ -1117,7 +1117,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the recommendation is likely to have the predicted result. Be sure to explain how the answers to these questions would help to evaluate the recommendation.
 - id: 1539136314337
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType1
   fields:
     Front: |
@@ -1127,7 +1127,7 @@ notes:
 
       Write a response in which you discuss what specific evidence is needed to evaluate the argument and explain how the evidence would weaken or strengthen the argument.
 - id: 1539136314437
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType2
   fields:
     Front: |
@@ -1137,7 +1137,7 @@ notes:
 
       Write a response in which you examine the stated and/or unstated assumptions of the argument. Be sure to explain how the argument depends on these assumptions and what the implications are for the argument if the assumptions prove unwarranted.
 - id: 1539136314537
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType3
   fields:
     Front: |
@@ -1147,7 +1147,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the recommendation and the argument on which it is based are reasonable. Be sure to explain how the answers to these questions would help to evaluate the recommendation.
 - id: 1539136314637
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType1
   fields:
     Front: |
@@ -1157,7 +1157,7 @@ notes:
 
       Write a response in which you discuss what specific evidence is needed to evaluate the argument and explain how the evidence would weaken or strengthen the argument.
 - id: 1539136314737
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType5
   fields:
     Front: |
@@ -1167,7 +1167,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the recommendation is likely to have the predicted result. Be sure to explain how the answers to these questions would help to evaluate the recommendation.
 - id: 1539136314838
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType2
   fields:
     Front: |
@@ -1177,7 +1177,7 @@ notes:
 
       Write a response in which you examine the stated and/or unstated assumptions of the argument. Be sure to explain how the argument depends on these assumptions and what the implications are for the argument if the assumptions prove unwarranted.
 - id: 1539136314938
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType1
   fields:
     Front: |
@@ -1187,7 +1187,7 @@ notes:
 
       Write a response in which you discuss what specific evidence is needed to evaluate the argument and explain how the evidence would weaken or strengthen the argument.
 - id: 1539136315038
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType2
   fields:
     Front: |
@@ -1197,7 +1197,7 @@ notes:
 
       Write a response in which you examine the stated and/or unstated assumptions of the argument. Be sure to explain how the argument depends on these assumptions and what the implications are for the argument if the assumptions prove unwarranted.
 - id: 1539136315138
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType3
   fields:
     Front: |
@@ -1207,7 +1207,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the recommendation and the argument on which it is based are reasonable. Be sure to explain how the answers to these questions would help to evaluate the recommendation.
 - id: 1539136315237
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType6
   fields:
     Front: |
@@ -1217,7 +1217,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the prediction and the argument on which it is based are reasonable. Be sure to explain how the answers to these questions would help to evaluate the prediction.
 - id: 1539136315337
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType1
   fields:
     Front: |
@@ -1227,7 +1227,7 @@ notes:
 
       Write a response in which you discuss what specific evidence is needed to evaluate the argument and explain how the evidence would weaken or strengthen the argument.
 - id: 1539136315412
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType6
   fields:
     Front: |
@@ -1237,7 +1237,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the prediction and the argument on which it is based are reasonable. Be sure to explain how the answers to these questions would help to evaluate the prediction.
 - id: 1539136315512
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType2
   fields:
     Front: |
@@ -1247,7 +1247,7 @@ notes:
 
       Write a response in which you examine the stated and/or unstated assumptions of the argument. Be sure to explain how the argument depends on these assumptions and what the implications are for the argument if the assumptions prove unwarranted.
 - id: 1539136315614
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType1
   fields:
     Front: |
@@ -1257,7 +1257,7 @@ notes:
 
       Write a response in which you discuss what specific evidence is needed to evaluate the argument and explain how the evidence would weaken or strengthen the argument.
 - id: 1539136315711
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType2
   fields:
     Front: |
@@ -1267,7 +1267,7 @@ notes:
 
       Write a response in which you examine the stated and/or unstated assumptions of the argument. Be sure to explain how the argument depends on these assumptions and what the implications are for the argument if the assumptions prove unwarranted.
 - id: 1539136315787
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType7
   fields:
     Front: |
@@ -1277,7 +1277,7 @@ notes:
 
       Write a response in which you discuss one or more alternative explanations that could rival the proposed explanation and explain how your explanation(s) can plausibly account for the facts presented in the argument.
 - id: 1539136315887
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType2
   fields:
     Front: |
@@ -1287,7 +1287,7 @@ notes:
 
       Write a response in which you examine the stated and/or unstated assumptions of the argument. Be sure to explain how the argument depends on these assumptions and what the implications are for the argument if the assumptions prove unwarranted.
 - id: 1539136315988
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType5
   fields:
     Front: |
@@ -1297,7 +1297,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the recommendation is likely to have the predicted result. Be sure to explain how the answers to these questions would help to evaluate the recommendation.
 - id: 1539136316087
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType5
   fields:
     Front: |
@@ -1307,7 +1307,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the recommendation is likely to have the predicted result. Be sure to explain how the answers to these questions would help to evaluate the recommendation.
 - id: 1539136316188
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType3
   fields:
     Front: |
@@ -1317,7 +1317,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the recommendation and the argument on which it is based are reasonable. Be sure to explain how the answers to these questions would help to evaluate the recommendation.
 - id: 1539136316287
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType2
   fields:
     Front: |
@@ -1327,7 +1327,7 @@ notes:
 
       Write a response in which you examine the stated and/or unstated assumptions of the argument. Be sure to explain how the argument depends on these assumptions and what the implications are for the argument if the assumptions prove unwarranted.
 - id: 1539136316387
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType1
   fields:
     Front: |
@@ -1337,7 +1337,7 @@ notes:
 
       Write a response in which you discuss what specific evidence is needed to evaluate the argument and explain how the evidence would weaken or strengthen the argument.
 - id: 1539136316487
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType3
   fields:
     Front: |
@@ -1347,7 +1347,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the recommendation and the argument on which it is based are reasonable. Be sure to explain how the answers to these questions would help to evaluate the recommendation.
 - id: 1539136316587
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType2
   fields:
     Front: |
@@ -1357,7 +1357,7 @@ notes:
 
       Write a response in which you examine the stated and/or unstated assumptions of the argument. Be sure to explain how the argument depends on these assumptions and what the implications are for the argument if the assumptions prove unwarranted.
 - id: 1539136316688
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType7
   fields:
     Front: |
@@ -1367,7 +1367,7 @@ notes:
 
       Write a response in which you discuss one or more alternative explanations that could rival the proposed explanation and explain how your explanation(s) can plausibly account for the facts presented in the argument.
 - id: 1539136316787
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType5
   fields:
     Front: |
@@ -1377,7 +1377,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the recommendation is likely to have the predicted result. Be sure to explain how the answers to these questions would help to evaluate the recommendation.
 - id: 1539136316887
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType1
   fields:
     Front: |
@@ -1387,7 +1387,7 @@ notes:
 
       Write a response in which you discuss what specific evidence is needed to evaluate the argument and explain how the evidence would weaken or strengthen the argument.
 - id: 1539136316988
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType1
   fields:
     Front: |
@@ -1397,7 +1397,7 @@ notes:
 
       Write a response in which you discuss what specific evidence is needed to evaluate the argument and explain how the evidence would weaken or strengthen the argument.
 - id: 1539136317088
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType6
   fields:
     Front: |
@@ -1407,7 +1407,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the prediction and the argument on which it is based are reasonable. Be sure to explain how the answers to these questions would help to evaluate the prediction.
 - id: 1539136317187
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType2
   fields:
     Front: |
@@ -1417,7 +1417,7 @@ notes:
 
       Write a response in which you examine the stated and/or unstated assumptions of the argument. Be sure to explain how the argument depends on these assumptions and what the implications are for the argument if the assumptions prove unwarranted.
 - id: 1539136317288
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType5
   fields:
     Front: |
@@ -1427,7 +1427,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the recommendation is likely to have the predicted result. Be sure to explain how the answers to these questions would help to evaluate the recommendation.
 - id: 1539136317387
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType2
   fields:
     Front: |
@@ -1437,7 +1437,7 @@ notes:
 
       Write a response in which you examine the stated and/or unstated assumptions of the argument. Be sure to explain how the argument depends on these assumptions and what the implications are for the argument if the assumptions prove unwarranted.
 - id: 1539136317488
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType3
   fields:
     Front: |
@@ -1447,7 +1447,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the recommendation and the argument on which it is based are reasonable. Be sure to explain how the answers to these questions would help to evaluate the recommendation.
 - id: 1539136317588
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType1
   fields:
     Front: |
@@ -1457,7 +1457,7 @@ notes:
 
       Write a response in which you discuss what specific evidence is needed to evaluate the argument and explain how the evidence would weaken or strengthen the argument.
 - id: 1539136317687
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType7
   fields:
     Front: |
@@ -1467,7 +1467,7 @@ notes:
 
       Write a response in which you discuss one or more alternative explanations that could rival the proposed explanation and explain how your explanation(s) can plausibly account for the facts presented in the argument.
 - id: 1539136317787
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType3
   fields:
     Front: |
@@ -1477,7 +1477,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the recommendation and the argument on which it is based are reasonable. Be sure to explain how the answers to these questions would help to evaluate the recommendation.
 - id: 1539136317887
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType4
   fields:
     Front: |
@@ -1487,7 +1487,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the advice and the argument on which it is based are reasonable. Be sure to explain how the answers to these questions would help to evaluate the advice.
 - id: 1539136317987
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType2
   fields:
     Front: |
@@ -1497,7 +1497,7 @@ notes:
 
       Write a response in which you examine the stated and/or unstated assumptions of the argument. Be sure to explain how the argument depends on these assumptions and what the implications are for the argument if the assumptions prove unwarranted.
 - id: 1539136318088
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType1
   fields:
     Front: |
@@ -1507,7 +1507,7 @@ notes:
 
       Write a response in which you discuss what specific evidence is needed to evaluate the argument and explain how the evidence would weaken or strengthen the argument.
 - id: 1539136318188
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType2
   fields:
     Front: |
@@ -1517,7 +1517,7 @@ notes:
 
       Write a response in which you examine the stated and/or unstated assumptions of the argument. Be sure to explain how the argument depends on these assumptions and what the implications are for the argument if the assumptions prove unwarranted.
 - id: 1539136318287
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType1
   fields:
     Front: |
@@ -1527,7 +1527,7 @@ notes:
 
       Write a response in which you discuss what specific evidence is needed to evaluate the argument and explain how the evidence would weaken or strengthen the argument.
 - id: 1539136318393
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType5
   fields:
     Front: |
@@ -1537,7 +1537,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the recommendation is likely to have the predicted result. Be sure to explain how the answers to these questions would help to evaluate the recommendation.
 - id: 1539136318487
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType5
   fields:
     Front: |
@@ -1547,7 +1547,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the recommendation is likely to have the predicted result. Be sure to explain how the answers to these questions would help to evaluate the recommendation.
 - id: 1539136318588
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType3
   fields:
     Front: |
@@ -1555,7 +1555,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the recommendation and the argument on which it is based are reasonable. Be sure to explain how the answers to these questions would help to evaluate the recommendation.
 - id: 1539136318687
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType1
   fields:
     Front: |
@@ -1565,7 +1565,7 @@ notes:
 
       Write a response in which you discuss what specific evidence is needed to evaluate the argument and explain how the evidence would weaken or strengthen the argument.
 - id: 1539136318787
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType5
   fields:
     Front: |
@@ -1573,7 +1573,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the recommendation is likely to have the predicted result. Be sure to explain how the answers to these questions would help to evaluate the recommendation.
 - id: 1539136318886
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType3
   fields:
     Front: |
@@ -1581,7 +1581,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the recommendation and the argument on which it is based are reasonable. Be sure to explain how the answers to these questions would help to evaluate the recommendation.
 - id: 1539136318987
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType7
   fields:
     Front: |
@@ -1589,7 +1589,7 @@ notes:
 
       Write a response in which you discuss one or more alternative explanations that could rival the proposed explanation and explain how your explanation(s) can plausibly account for the facts presented in the argument.
 - id: 1539136319088
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType1
   fields:
     Front: |
@@ -1599,7 +1599,7 @@ notes:
 
       Write a response in which you discuss what specific evidence is needed to evaluate the argument and explain how the evidence would weaken or strengthen the argument.
 - id: 1539136319188
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType3
   fields:
     Front: |
@@ -1609,7 +1609,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the recommendation and the argument on which it is based are reasonable. Be sure to explain how the answers to these questions would help to evaluate the recommendation.
 - id: 1539136319287
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType3
   fields:
     Front: |
@@ -1619,7 +1619,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the recommendation and the argument on which it is based are reasonable. Be sure to explain how the answers to these questions would help to evaluate the recommendation.
 - id: 1539136319388
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType2
   fields:
     Front: |
@@ -1629,7 +1629,7 @@ notes:
 
       Write a response in which you examine the stated and/or unstated assumptions of the argument. Be sure to explain how the argument depends on these assumptions and what the implications are for the argument if the assumptions prove unwarranted.
 - id: 1539136319487
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType1
   fields:
     Front: |
@@ -1639,7 +1639,7 @@ notes:
 
       Write a response in which you discuss what specific evidence is needed to evaluate the argument and explain how the evidence would weaken or strengthen the argument.
 - id: 1539136319588
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType6
   fields:
     Front: |
@@ -1649,7 +1649,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the prediction and the argument on which it is based are reasonable. Be sure to explain how the answers to these questions would help to evaluate the prediction.
 - id: 1539136319687
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType1
   fields:
     Front: |
@@ -1659,7 +1659,7 @@ notes:
 
       Write a response in which you discuss what specific evidence is needed to evaluate the argument and explain how the evidence would weaken or strengthen the argument.
 - id: 1539136319787
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType5
   fields:
     Front: |
@@ -1669,7 +1669,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the recommendation is likely to have the predicted result. Be sure to explain how the answers to these questions would help to evaluate the recommendation.
 - id: 1539136319886
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType2
   fields:
     Front: |
@@ -1679,7 +1679,7 @@ notes:
 
       Write a response in which you examine the stated and/or unstated assumptions of the argument. Be sure to explain how the argument depends on these assumptions and what the implications are for the argument if the assumptions prove unwarranted.
 - id: 1539136319988
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType6
   fields:
     Front: |
@@ -1689,7 +1689,7 @@ notes:
 
       Write a response in which you discuss what questions would need to be answered in order to decide whether the prediction and the argument on which it is based are reasonable. Be sure to explain how the answers to these questions would help to evaluate the prediction.
 - id: 1539136320087
-  extraTags:
+  tags:
   - GRE-ArgumentResponseType7
   fields:
     Front: |

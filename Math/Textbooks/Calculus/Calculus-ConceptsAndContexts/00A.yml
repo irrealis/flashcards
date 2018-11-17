@@ -1,7 +1,7 @@
 defaults:
   deckName: Staging
   modelName: PWeave
-  tags:
+  extraTags:
   - Textbooks
   - Math
   - Calculus

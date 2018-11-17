@@ -73,7 +73,7 @@ def load_and_send_flashcards(filename):
     defaults = data.get('defaults', None)
     log.debug("defaults: {}".format(defaults))
 
-    def_tags = defaults.get("tags", list())
+    def_tags = defaults.get("extraTags", list())
     def_deckName = defaults.get("deckName", "Default")
     def_modelName = defaults.get("modelName", "BasicMathJax")
     def_fields = defaults.get("fields", dict())
@@ -94,8 +94,8 @@ def load_and_send_flashcards(filename):
       # Convert to note_dict
       note = yaml.load(yaml.serialize(note_node))
 
-      tags = note.get('tags', def_tags).copy()
-      tags.extend(note.get('extraTags', list()))
+      tags = note.get('extraTags', def_tags).copy()
+      tags.extend(note.get('tags', list()))
       tags = sorted(tags)
       deckName = note.get('deckName', def_deckName)
       modelName = note.get('modelName', def_modelName)

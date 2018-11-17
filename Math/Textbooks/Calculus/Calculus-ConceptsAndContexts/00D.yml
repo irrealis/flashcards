@@ -1,7 +1,7 @@
 defaults:
   deckName: Staging
   modelName: PWeave
-  tags:
+  extraTags:
   - Textbooks
   - Math
   - Calculus
@@ -209,7 +209,7 @@ notes:
       ---
       (If you have had difficulty with this problem, you should look at Appendix C of CCAC.)
 - id: 1539880267721
-  extraTags:
+  tags:
   - ToDo
   fields:
     Front: |
@@ -223,7 +223,7 @@ notes:
       ---
       (If you have had difficulty with this problem, you should look at Appendix C of CCAC.)
 - id: 1539880267839
-  extraTags:
+  tags:
   - ToDo
   fields:
     Front: |

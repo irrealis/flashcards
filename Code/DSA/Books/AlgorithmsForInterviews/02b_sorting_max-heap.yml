@@ -1,7 +1,7 @@
 defaults:
   deckName: Staging
   modelName: CodingProblems
-  tags:
+  extraTags:
   - Code
   - Algorithms
   - Books
@@ -15,7 +15,7 @@ defaults:
   markdownTabLength: 2
 notes:
 - id: 1536203069205
-  extraTags:
+  tags:
   - Done-Python
   fields:
     Front: |

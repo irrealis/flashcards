@@ -1,7 +1,7 @@
 defaults:
   deckName: Staging
   modelName: CodingProblems
-  tags:
+  extraTags:
   - Code
   - Algorithms
   - Books
@@ -16,7 +16,7 @@ defaults:
 notes:
 - id: 1536203068476
   modelName: BasicMathJax
-  extraTags:
+  tags:
   - Done-Basic
   - KnowledgeWeakness
   - Marked
@@ -62,7 +62,7 @@ notes:
         - A stable merge sort.
         - Stability can also be achieved by adding to each record a tiebreaker key whose values enumerate the elements in original order, and using a tiebreaking comparator.
 - id: 1536203068504
-  extraTags:
+  tags:
   - Done-Python
   fields:
     Front: |

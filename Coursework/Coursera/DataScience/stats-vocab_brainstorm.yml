@@ -1,7 +1,7 @@
 defaults:
   deckName: Staging
   modelName: BasicMathJax
-  tags:
+  extraTags:
   - Coursework
   - Coursera
   - DataScience
