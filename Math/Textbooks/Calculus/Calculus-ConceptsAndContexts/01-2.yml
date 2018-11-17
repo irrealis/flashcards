@@ -224,6 +224,7 @@ notes:
 - id: 1542309173519
   useMarkdownMathExt: False
   useMarkdown: pweave
+  tags: [requiresCoding]
   fields:
     Front: |
       CCAC 01.2 21a: The table below shows (lifetime) peptic ulcer rates (per 100 population) for various family incomes as reported by the National Health interview Survey.
@@ -286,6 +287,7 @@ notes:
 - id: 1542310013544
   useMarkdownMathExt: False
   useMarkdown: pweave
+  tags: [requiresCoding]
   fields:
     Front: |
       CCAC 01.2 21b: The table below shows (lifetime) peptic ulcer rates (per 100 population) for various family incomes as reported by the National Health interview Survey.
@@ -332,6 +334,7 @@ notes:
 - id: 1542310013744
   useMarkdownMathExt: False
   useMarkdown: pweave
+  tags: [requiresCoding]
   fields:
     Front: |
       CCAC 01.2 21c: The table below shows (lifetime) peptic ulcer rates (per 100 population) for various family incomes as reported by the National Health interview Survey.
@@ -407,6 +410,7 @@ notes:
       ```
 - id: 1542310013894
   useMarkdownMathExt: False
+  tags: [requiresCoding]
   fields:
     Front: |
       CCAC 01.2 21d: The table below shows (lifetime) peptic ulcer rates (per 100 population) for various family incomes as reported by the National Health interview Survey.
@@ -437,8 +441,8 @@ notes:
     Back: |
       About \\(11.5\\) per 100 population.
 - id: 1542310014045
-  tags: [Editing]
   useMarkdownMathExt: False
+  tags: [requiresCoding]
   fields:
     Front: |
       CCAC 01.2 21e: The table below shows (lifetime) peptic ulcer rates (per 100 population) for various family incomes as reported by the National Health interview Survey.
@@ -470,6 +474,7 @@ notes:
       About \\(6\%\\).
 - id: 1542310014194
   useMarkdownMathExt: False
+  tags: [requiresCoding]
   fields:
     Front: |
       CCAC 01.2 21f: The table below shows (lifetime) peptic ulcer rates (per 100 population) for various family incomes as reported by the National Health interview Survey.
@@ -501,6 +506,7 @@ notes:
       No.
 - id: 1542310338769
   useMarkdown: pweave
+  tags: [requiresCoding]
   fields:
     Front: |
       CCAC 01.2 23a: The table below gives the winning heights for the Olympic pole vault competitions up to the year 2000.
@@ -593,6 +599,7 @@ notes:
       Linear model is appropriate.
 - id: 1542310859169
   useMarkdown: pweave
+  tags: [requiresCoding]
   fields:
     Front: |
       CCAC 01.2 23b: The table below gives the winning heights for the Olympic pole vault competitions up to the year 2000.
@@ -694,6 +701,7 @@ notes:
       # m, b
       ```
 - id: 1542310859369
+  tags: [requiresCoding]
   fields:
     Front: |
       CCAC 01.2 23c: The table below gives the winning heights for the Olympic pole vault competitions up to the year 2000.
@@ -726,6 +734,7 @@ notes:
     Back: |
       $6.35\ \text{m}$; higher than actual value.
 - id: 1542310859571
+  tags: [requiresCoding]
   fields:
     Front: |
       CCAC 01.2 23d: The table below gives the winning heights for the Olympic pole vault competitions up to the year 2000.
@@ -758,7 +767,7 @@ notes:
     Back: |
       No.
 - id: 1542311116094
-  tags: [Editing]
+  tags: [requiresCoding]
   fields:
     Front: |
       CCAC 01.2 25: Use the data in the table below to model the population of the world in the 20th century by a cubic function. Then use your model to estimate the population in the year 1925.
