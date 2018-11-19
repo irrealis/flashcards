@@ -768,3 +768,14 @@ notes:
       b. $(g \circ f)(x) = \frac{x^2 + x + 1}{(x+1)^2}, \ \{x | x \ne -1, 0\}$
       c. $(f \circ f)(x) = \frac{x^4 + 3x^2 + 1}{x(x^2 + 1)}, \ \{x | x \ne 0\}$
       d. $(g \circ g)(x) = \frac{2x + 3}{3x + 5}, \ \{x | x \ne -2, -\frac{5}{3}\}$
+- id: 1542654360470
+  fields:
+    Front: |
+      CCAC 01.3 37: Find $f \circ g \circ h$.
+      $$
+      f(x) = x + 1, \ g(x) = 2x, \ h(x) = x - 1
+      $$
+    Back: |
+      $$
+      (f \circ g \circ h)(x) = 2x - 1
+      $$
