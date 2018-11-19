@@ -1274,3 +1274,11 @@ notes:
       CCAC 01.3 59: Let $f$ and $g$ be linear functions with equations $f(x) = m_1 x + b_1$ and $g(x) = m_2 x + b_2$. Is $f \circ g$ also a linear function? If so, what is the slope of its graph?
     Back: |
       Yes; $m_1 m_2$
+- id: 1542657018051
+  fields:
+    Front: |
+      CCAC 01.3 61a: If $g(x) = 2x + 1$ and $h(x) = 4x^2 + 4x + 7$, find a function $f$ such that $f \circ g = h$. (Think about what operation you would have to perform on the formula for $g$ to end up with the formula for $h$.)
+    Back: |
+      $$
+      f(x) = x^2 + 6
+      $$
