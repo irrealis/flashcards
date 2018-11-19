@@ -1133,3 +1133,12 @@ notes:
       ```
     Back: |
       $-2$
+- id: 1542655852044
+  fields:
+    Front: |
+      CCAC 01.3 53: A stone is dropped into a lake, creating a circular ripple that travels outward at a speed of 60 cm/s.
+      a. Express the radius $r$ of this circle as a function of the time $t$ (in seconds).
+      b. If $A$ is the area of this circle as a function of the radius, find $A \circ r$ and interpret it.
+    Back: |
+      a. $r(t) = 60t$
+      b. $(A \circ r)(t) = 3600 \pi t^2$; the area of the circle as a function of time
