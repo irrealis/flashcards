@@ -1282,3 +1282,11 @@ notes:
       $$
       f(x) = x^2 + 6
       $$
+- id: 1542657018169
+  fields:
+    Front: |
+      CCAC 01.3 61b: If $f(x) = 3x + 5$ and $h(x) = 3x^2 + 3x + 2$, find a function $g$ such that $f \circ g = h$.
+    Back: |
+      $$
+      g(x) = x^2 + x - 1
+      $$
