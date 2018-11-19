@@ -685,3 +685,38 @@ notes:
 
       p._backend.show()
       ```
+- id: 1542517737635
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 01.3 27c: Sketch the graph of $y=\sqrt{|x|}$.
+    Back: |
+      ```{python echo = False}
+      import sympy as sy
+      import matplotlib.pyplot as plt
+      import numpy as np
+      import math
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      x = sy.symbols('x')
+      p = sy.plot(
+        (sy.sqrt(-x), (x, -6, 0)),
+        (sy.sqrt(x), (x, 0, 6)),
+        xlim = (-6, 6),
+        ylim = (-3, 5),
+        xlabel = '$x$',
+        ylabel = '$y$',
+        show = False,
+      )
+
+      if hasattr(p, '_backend'):
+        p._backend.close()
+      p._backend = p.backend(p)
+      fg, ax = p._backend.fig, p._backend.ax
+
+      ax.text(1.0, 2.0, '$y = \\sqrt{|x|}$')
+
+      p._backend.show()
+      ```
