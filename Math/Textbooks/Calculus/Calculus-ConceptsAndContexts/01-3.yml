@@ -42,3 +42,11 @@ notes:
       $$
       y = f(x + 3)
       $$
+- id: 1542483083644
+  fields:
+    Front: |
+      CCAC 01.3 01e: Suppose the graph of $f$ is given. Write the equation for the graph obtained from the graph of $f$ by reflecting about the $x$ axis.
+    Back: |
+      $$
+      y = -f(x)
+      $$
