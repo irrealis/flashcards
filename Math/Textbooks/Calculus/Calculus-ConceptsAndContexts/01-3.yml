@@ -286,3 +286,47 @@ notes:
           ylabel = '$y$',
         )
       ```
+- id: 1542515580318
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 01.3 05d: The graph of $f$ is given. Use it to graph $y=-f(-x)$.
+      ```{python echo = False}
+      import sympy as sy
+      import matplotlib.pyplot as plt
+
+      with plt.style.context(('ggplot')):
+        plt.rc('text', usetex = True)
+        plt.rc('font', family = 'serif')
+
+        x = sy.symbols('x')
+        p = sy.plot(
+          (x + 1, (x, 0, 1)),
+          (-x + 3, (x, 1, 4)),
+          (0.5*x - 3, (x, 4, 6)),
+          xlim = (-3,9),
+          ylim = (-4,4),
+          xlabel = '$x$',
+          ylabel = '$y$',
+        )
+      ```
+    Back: |
+      ```{python echo = False}
+      import sympy as sy
+      import matplotlib.pyplot as plt
+
+      with plt.style.context(('ggplot')):
+        plt.rc('text', usetex = True)
+        plt.rc('font', family = 'serif')
+
+        x = sy.symbols('x')
+        p = sy.plot(
+          (-((-x) + 1), (x, -0, -1)),
+          (-(-(-x) + 3), (x, -1, -4)),
+          (-(0.5*(-x) - 3), (x, -4, -6)),
+          xlim = (-9,3),
+          ylim = (-4,4),
+          xlabel = '$x$',
+          ylabel = '$y$',
+        )
+      ```
