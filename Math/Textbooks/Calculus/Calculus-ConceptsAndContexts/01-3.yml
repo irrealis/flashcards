@@ -1268,3 +1268,9 @@ notes:
       $$
       V(t) = 240H(t-5)
       $$
+- id: 1542657017919
+  fields:
+    Front: |
+      CCAC 01.3 59: Let $f$ and $g$ be linear functions with equations $f(x) = m_1 x + b_1$ and $g(x) = m_2 x + b_2$. Is $f \circ g$ also a linear function? If so, what is the slope of its graph?
+    Back: |
+      Yes; $m_1 m_2$
