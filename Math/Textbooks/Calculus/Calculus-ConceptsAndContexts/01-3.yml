@@ -1153,3 +1153,118 @@ notes:
       a. $s = \sqrt{d^2 + 36}$
       b. $d = 30t$
       c. $(f \circ g)(t) = \sqrt{900t^2 + 36}$; the distance between the lighthouse and the ship as a function of the time elapsed since noon
+- id: 1542656354744
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 01.3 57: The **Heaviside function** $H$ is defined by
+      $$
+      H(t) =
+      \begin{cases}
+        0 & \text{if $t < 0$} \\
+        1 & \text{if $t \ge 0$} \\
+      \end{cases}
+      $$
+      It is used in the study of electric circuits to represent the sudden surge of electric current, or voltage, when a switch is instantaneously turned on.
+      a. Sketch the graph of the Heaviside function.
+      b. Sketch the graph of the voltage $V(t)$ in a circuit if the switch is turned on at time $t = 0$ and $120$ volts are applied insantaneously to the circuit. Write a formula for $V(t)$ in terms of $H(t)$.
+      c. Sketch the graph of the voltage $V(t)$ in a circuit if the switch is turned on at time $t = 5$ and $240$ volts are applied insantaneously to the circuit. Write a formula for $V(t)$ in terms of $H(t)$. (Note that starting at time $t = 5$ corresponds to a translation.)
+    Back: |
+      a.
+      ```{python echo = False}
+      import sympy as sy
+      import matplotlib.pyplot as plt
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      x = sy.symbols('x')
+      p = sy.plot(
+        (0, (x, -2, 0)),
+        (1, (x, 0, 2)),
+
+        xlim = (-1.5, 1.5),
+        ylim = (-0.5, 1.5),
+        xlabel = '$t$',
+        ylabel = '$H$',
+        show = False,
+      )
+
+      if hasattr(p, '_backend'):
+        p._backend.close()
+      p._backend = p.backend(p)
+      fg, ax = p._backend.fig, p._backend.ax
+
+      ax.plot(0, 0, 'ko', fillstyle = 'none', markersize = 7)
+      ax.plot(0, 1, 'ko', markersize = 7)
+
+      p._backend.show()
+      ```
+
+      b.
+      ```{python echo = False}
+      import sympy as sy
+      import matplotlib.pyplot as plt
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      x = sy.symbols('x')
+      p = sy.plot(
+        (0, (x, -2, 0)),
+        (120, (x, 0, 2)),
+
+        xlim = (-1.5, 1.5),
+        ylim = (-0.5*120, 1.5*120),
+        xlabel = '$t$',
+        ylabel = '$V$',
+        show = False,
+      )
+
+      if hasattr(p, '_backend'):
+        p._backend.close()
+      p._backend = p.backend(p)
+      fg, ax = p._backend.fig, p._backend.ax
+
+      ax.plot(0, 0, 'ko', fillstyle = 'none', markersize = 7)
+      ax.plot(0, 120, 'ko', markersize = 7)
+
+      p._backend.show()
+      ```
+      $$
+      V(t) = 120H(t)
+      $$
+
+      c.
+      ```{python echo = False}
+      import sympy as sy
+      import matplotlib.pyplot as plt
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      x = sy.symbols('x')
+      p = sy.plot(
+        (0, (x, -2, 5)),
+        (240, (x, 5, 12)),
+
+        xlim = (-2, 12),
+        ylim = (-0.5*240, 1.5*240),
+        xlabel = '$t$',
+        ylabel = '$V$',
+        show = False,
+      )
+
+      if hasattr(p, '_backend'):
+        p._backend.close()
+      p._backend = p.backend(p)
+      fg, ax = p._backend.fig, p._backend.ax
+
+      ax.plot(5, 0, 'ko', fillstyle = 'none', markersize = 7)
+      ax.plot(5, 240, 'ko', markersize = 7)
+
+      p._backend.show()
+      ```
+      $$
+      V(t) = 240H(t-5)
+      $$
