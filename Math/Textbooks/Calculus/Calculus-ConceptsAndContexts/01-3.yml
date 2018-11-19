@@ -34,3 +34,11 @@ notes:
       $$
       y = f(x - 3)
       $$
+- id: 1542483083544
+  fields:
+    Front: |
+      CCAC 01.3 01d: Suppose the graph of $f$ is given. Write the equation for the graph obtained from the graph of $f$ by shifting 3 units to the left.
+    Back: |
+      $$
+      y = f(x + 3)
+      $$
