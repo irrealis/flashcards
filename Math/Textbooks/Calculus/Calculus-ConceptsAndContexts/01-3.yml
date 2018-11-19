@@ -812,3 +812,14 @@ notes:
       $$
       g(x) = \sqrt[3]{x}, \ f(x) = x/(1+x)
       $$
+- id: 1542654360872
+  fields:
+    Front: |
+      CCAC 01.3 45: Express the function in the form $f \circ g$.
+      $$
+      u(t) = \sqrt{\cos{t}}
+      $$
+    Back: |
+      $$
+      g(t) = \cos{t}, \ f(t) = \sqrt{t}
+      $$
