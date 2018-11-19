@@ -732,3 +732,15 @@ notes:
       b. $(f - g)(x) = x^3 - x^2 + 1, \ (-\infty, \infty)$
       c. $(fg)(x) = 3x^5 + 6x^4 - x^3 - 2x^2, \ (-\infty, \infty)$
       d. $(f/g)(x) = \frac{x^3 + 2x^2}{3x^2 - 1}, \ \{x | x \ne \pm 1/\sqrt{3}\}$
+- id: 1542654360144
+  fields:
+    Front: |
+      CCAC 01.3 31: Find the functions (a) $f \circ g$, (b) $g \circ f$, (c) $f \circ f$, and (d) $g \circ g$.
+      $$
+      f(x) = x^2 - 1, \ g(x) = 2x + 1
+      $$
+    Back: |
+      a. $(f \circ g)(x) = 4x^2 + 4x, \ (-\infty, \infty)$
+      b. $(g \circ f)(x) = 2x^2 - 1, \ (-\infty, \infty)$
+      c. $(f \circ f)(x) = x^4 - 2x^2, \ (-\infty, \infty)$
+      d. $(g \circ g)(x) = 4x + 3, \ (-\infty, \infty)$
