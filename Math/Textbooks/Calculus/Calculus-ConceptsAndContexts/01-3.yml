@@ -10,3 +10,11 @@ defaults:
   - CCAC-01.3-NewFunctionsFromOld
   markdownTabLength: 2
 notes:
+- id: 1542483083194
+  fields:
+    Front: |
+      CCAC 01.3 01a: Suppose the graph of $f$ is given. Write the equation for the graph obtained from the graph of $f$ by shifting 3 units upward.
+    Back: |
+      $$
+      y = f(x) + 3
+      $$
