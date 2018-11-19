@@ -50,3 +50,11 @@ notes:
       $$
       y = -f(x)
       $$
+- id: 1542483083744
+  fields:
+    Front: |
+      CCAC 01.3 01f: Suppose the graph of $f$ is given. Write the equation for the graph obtained from the graph of $f$ by reflecting about the $y$ axis.
+    Back: |
+      $$
+      y = f(-x)
+      $$
