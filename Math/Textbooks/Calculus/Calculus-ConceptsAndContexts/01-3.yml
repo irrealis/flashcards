@@ -58,3 +58,11 @@ notes:
       $$
       y = f(-x)
       $$
+- id: 1542483083843
+  fields:
+    Front: |
+      CCAC 01.3 01g: Suppose the graph of $f$ is given. Write the equation for the graph obtained from the graph of $f$ by stretching vertically by a factor of 3.
+    Back: |
+      $$
+      y = 3f(x)
+      $$
