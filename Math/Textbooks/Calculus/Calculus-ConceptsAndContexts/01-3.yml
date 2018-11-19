@@ -790,3 +790,14 @@ notes:
       $$
       (f \circ g \circ h)(x) = \sqrt{x^6 + 4x^3 + 1}
       $$
+- id: 1542654360669
+  fields:
+    Front: |
+      CCAC 01.3 41: Express the function in the form $f \circ g$.
+      $$
+      F(x) = (2x + x^2)^4
+      $$
+    Back: |
+      $$
+      g(x) = 2x + x^2, \ f(x) = x^4
+      $$
