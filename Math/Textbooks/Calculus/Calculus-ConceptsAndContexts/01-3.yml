@@ -154,3 +154,47 @@ notes:
       c. 4; $\frac{1}{3}f(x)$ shrinks $f$ vertically by a factor of 3.
       d. 5; $-f(x+4)$ translates $f$ 4 units leftward and reflects $f$ about the $x$ axis.
       3. 2; $2f(x+6)$ translates $f$ 6 units leftward and stretches $f$ vertically by a factor of 2.
+- id: 1542515572444
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 01.3 05a: The graph of $f$ is given. Use it to graph $y=f(2x)$.
+      ```{python echo = False}
+      import sympy as sy
+      import matplotlib.pyplot as plt
+
+      with plt.style.context(('ggplot')):
+        plt.rc('text', usetex = True)
+        plt.rc('font', family = 'serif')
+
+        x = sy.symbols('x')
+        p = sy.plot(
+          (x + 1, (x, 0, 1)),
+          (-x + 3, (x, 1, 4)),
+          (0.5*x - 3, (x, 4, 6)),
+          xlim = (-3,9),
+          ylim = (-4,4),
+          xlabel = '$x$',
+          ylabel = '$y$',
+        )
+      ```
+    Back: |
+      ```{python echo = False}
+      import sympy as sy
+      import matplotlib.pyplot as plt
+
+      with plt.style.context(('ggplot')):
+        plt.rc('text', usetex = True)
+        plt.rc('font', family = 'serif')
+
+        x = sy.symbols('x')
+        p = sy.plot(
+          ((2*x) + 1, (x, 0/2, 1/2)),
+          (-(2*x) + 3, (x, 1/2, 4/2)),
+          (0.5*(2*x) - 3, (x, 4/2, 6/2)),
+          xlim = (-3,9),
+          ylim = (-4,4),
+          xlabel = '$x$',
+          ylabel = '$y$',
+        )
+      ```
