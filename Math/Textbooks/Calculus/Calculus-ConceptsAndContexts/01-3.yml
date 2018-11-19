@@ -823,3 +823,14 @@ notes:
       $$
       g(t) = \cos{t}, \ f(t) = \sqrt{t}
       $$
+- id: 1542654360969
+  fields:
+    Front: |
+      CCAC 01.3 47: Express the function in the form $f \circ g \circ h$.
+      $$
+      H(x) = 1 + 3^{x^2}
+      $$
+    Back: |
+      $$
+      h(x) = x^2, \ g(x) = 3^x, \ f(x) = 1 - x
+      $$
