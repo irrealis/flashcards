@@ -801,3 +801,14 @@ notes:
       $$
       g(x) = 2x + x^2, \ f(x) = x^4
       $$
+- id: 1542654360775
+  fields:
+    Front: |
+      CCAC 01.3 43: Express the function in the form $f \circ g$.
+      $$
+      F(x) = \frac{\sqrt[3]{x}}{1 + \sqrt[3]{x}}
+      $$
+    Back: |
+      $$
+      g(x) = \sqrt[3]{x}, \ f(x) = x/(1+x)
+      $$
