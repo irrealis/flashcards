@@ -413,8 +413,8 @@ class FlashcardSender(object):
         note_uid = uuid.uuid1()
         converted_fields = { k: self.format_text(
           str(v), use_md, md_sty, md_lineno, md_tablen, md_mathext,
-          note_id = "%s-%s" % (note_id, note_uid)
-        ) for (k, v) in fields.items() }
+          note_id = "%s-%s-%s" % (note_id, note_uid, field_no)
+        ) for (field_no, (k, v)) in enumerate(fields.items()) }
 
         # Update converted note fields...
         result = self.anki.updateNoteFields(note_id, converted_fields)
