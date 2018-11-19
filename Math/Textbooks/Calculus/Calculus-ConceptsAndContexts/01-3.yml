@@ -834,3 +834,14 @@ notes:
       $$
       h(x) = x^2, \ g(x) = 3^x, \ f(x) = 1 - x
       $$
+- id: 1542654361069
+  fields:
+    Front: |
+      CCAC 01.3 49: Express the function in the form $f \circ g \circ h$.
+      $$
+      H(x) = \sec^4(\sqrt{x})
+      $$
+    Back: |
+      $$
+      h(x) = \sqrt{x}, \ g(x) = \sec{x}, \ f(x) = x^4
+      $$
