@@ -479,3 +479,37 @@ notes:
 
       p._backend.show()
       ```
+- id: 1542517339693
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 01.3 15: Graph the function $y=\sin{x/2}$ by hand, not by plotting points, but by starting with the graph of one of the standard functions given in section 1.2 of CCAC, and then applying appropriate transformations.
+    Back: |
+      ```{python echo = False}
+      import sympy as sy
+      import matplotlib.pyplot as plt
+      import math
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      x = sy.symbols('x')
+      p = sy.plot(
+        sy.sin(x/2),
+        xlim = (-2*math.pi, 2*math.pi),
+        ylim = (-4,4),
+        xlabel = '$x$',
+        ylabel = '$y$',
+        show = False,
+      )
+
+      if hasattr(p, '_backend'):
+        p._backend.close()
+      p._backend = p.backend(p)
+      fg, ax = p._backend.fig, p._backend.ax
+
+      ax.text(2.0, 1.5, '$y = \sin{x/2}$')
+      ax.text(2*sy.pi-0.1, -0.5, '$2\pi$')
+
+      p._backend.show()
+      ```
