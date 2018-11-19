@@ -779,3 +779,14 @@ notes:
       $$
       (f \circ g \circ h)(x) = 2x - 1
       $$
+- id: 1542654360570
+  fields:
+    Front: |
+      CCAC 01.3 39: Find $f \circ g \circ h$.
+      $$
+      f(x) = \sqrt{x - 3}, \ g(x) = x^2, \ h(x) = x^3 + 2
+      $$
+    Back: |
+      $$
+      (f \circ g \circ h)(x) = \sqrt{x^6 + 4x^3 + 1}
+      $$
