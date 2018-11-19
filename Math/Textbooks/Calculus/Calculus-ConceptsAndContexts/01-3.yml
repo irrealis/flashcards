@@ -989,3 +989,51 @@ notes:
       ```
     Back: |
       $0$
+- id: 1542655677872
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 01.3 51d: Use the given graphs of $f$ and $g$ to evaluate the expression $(g \circ f)(6)$, or explain why it is undefined.
+      ```{python echo = False}
+      import sympy as sy
+      import matplotlib.pyplot as plt
+
+      # Blue: #4A8EBD
+      # Red: #E18276
+      with plt.style.context(('ggplot')):
+        plt.rc('text', usetex = True)
+        plt.rc('font', family = 'serif')
+
+        x = sy.symbols('x')
+        p = sy.plot(
+          (-x, (x, 0, 2)),
+          (2*(x-3), (x, 2, 6)),
+
+          (((x+2)**2)/2+ 1, (x, -4, 0)),
+          (x + 3, (x, 0, 2)),
+          (sy.sqrt(2**2 - (x-2)**2) + 3, (x, 2, 4)),
+
+          xlim = (-5,7),
+          ylim = (-2,6),
+          xlabel = '$x$',
+          ylabel = '$y$',
+          show = False,
+        )
+        p[0].line_color = '#E18276'
+        p[1].line_color = '#E18276'
+        p[2].line_color = '#4A8EBD'
+        p[3].line_color = '#4A8EBD'
+        p[4].line_color = '#4A8EBD'
+
+        if hasattr(p, '_backend'):
+          p._backend.close()
+        p._backend = p.backend(p)
+        fg, ax = p._backend.fig, p._backend.ax
+
+        ax.text(5.2, 3.5, '$f$')
+        ax.text(1.0, 3.5, '$g$')
+
+        p._backend.show()
+      ```
+    Back: |
+      Does not exist; $f(6) = 6$ is not in the domain of $g$.
