@@ -1142,3 +1142,14 @@ notes:
     Back: |
       a. $r(t) = 60t$
       b. $(A \circ r)(t) = 3600 \pi t^2$; the area of the circle as a function of time
+- id: 1542656068319
+  fields:
+    Front: |
+      CCAC 01.3 55: A ship is moving at a speed of 30 km/h parallel to a straight shoreline. The ship is 6 km from shore, and it passes a lighthouse at noon.
+      a. Express the distance $s$ between the lighthouse and the ship as a funciton of $d$, the distance the ship has traveled since noon; that is, find $f$ so that $s = f(d)$.
+      b. Express $d$ as a function of $t$, the time elapsed since noon; that is, find $g$ so that $d = g(t)$.
+      c. Find $f \circ g$. What does this function represent?
+    Back: |
+      a. $s = \sqrt{d^2 + 36}$
+      b. $d = 30t$
+      c. $(f \circ g)(t) = \sqrt{900t^2 + 36}$; the distance between the lighthouse and the ship as a function of the time elapsed since noon
