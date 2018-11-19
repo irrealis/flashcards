@@ -644,3 +644,9 @@ notes:
 
       p._backend.show()
       ```
+- id: 1542517340268
+  fields:
+    Front: |
+      CCAC 01.3 27a: How is the graph of $y=f(|x|)$ related to the graph of $f$?
+    Back: |
+      The portion of the graph of $y = f(x)$ to the right of the $y$-axis is reflected about the $y$-axis.
