@@ -744,3 +744,15 @@ notes:
       b. $(g \circ f)(x) = 2x^2 - 1, \ (-\infty, \infty)$
       c. $(f \circ f)(x) = x^4 - 2x^2, \ (-\infty, \infty)$
       d. $(g \circ g)(x) = 4x + 3, \ (-\infty, \infty)$
+- id: 1542654360272
+  fields:
+    Front: |
+      CCAC 01.3 33: Find the functions (a) $f \circ g$, (b) $g \circ f$, (c) $f \circ f$, and (d) $g \circ g$.
+      $$
+      f(x) = 1 - 3x, \ g(x) = \cos{x}
+      $$
+    Back: |
+      a. $(f \circ g)(x) = 1 - 3\cos{x}, \ (-\infty, \infty)$
+      b. $(g \circ f)(x) = \cos(1-3x), \ (-\infty, \infty)$
+      c. $(f \circ f)(x) = 9x - 2, \ (-\infty, \infty)$
+      d. $(g \circ g)(x) = \cos(\cos{x}), \ (-\infty, \infty)$
