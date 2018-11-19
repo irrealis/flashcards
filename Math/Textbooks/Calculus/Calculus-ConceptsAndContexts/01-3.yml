@@ -330,3 +330,54 @@ notes:
           ylabel = '$y$',
         )
       ```
+- id: 1542516047269
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 01.3 07: The graph of $y=\sqrt{3x-x^2}$ is given:
+      ```{python echo = False}
+      import sympy as sy
+      import matplotlib.pyplot as plt
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      def f(x):
+        return sy.sqrt(3*x - x**2)
+
+      x = sy.symbols('x')
+      p = sy.plot(
+        f(x),
+        xlim = (-1,6),
+        ylim = (-1,3),
+        xlabel = '$x$',
+        ylabel = '$y$',
+      )
+      ```
+      Use transformations to create a function whose graph is as shown:
+      ```{python echo = False}
+      import sympy as sy
+      import matplotlib.pyplot as plt
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      def f(x):
+        return sy.sqrt(3*x - x**2)
+
+      x = sy.symbols('x')
+      p = sy.plot(
+        -f(x+4) - 1,
+        xlim = (-6,1),
+        ylim = (-3,1),
+        xlabel = '$x$',
+        ylabel = '$y$',
+        show = False,
+      )
+      p[0].line_color = '#E18276'
+      p.show()
+      ```
+    Back: |
+      $$
+      y = -\sqrt{-x^2 - 5x - 4} - 1
+      $$
