@@ -756,3 +756,15 @@ notes:
       b. $(g \circ f)(x) = \cos(1-3x), \ (-\infty, \infty)$
       c. $(f \circ f)(x) = 9x - 2, \ (-\infty, \infty)$
       d. $(g \circ g)(x) = \cos(\cos{x}), \ (-\infty, \infty)$
+- id: 1542654360370
+  fields:
+    Front: |
+      CCAC 01.3 35: Find the functions (a) $f \circ g$, (b) $g \circ f$, (c) $f \circ f$, and (d) $g \circ g$.
+      $$
+      f(x) = x + \frac{1}{x}, \ g(x) = \frac{x+1}{x+2}
+      $$
+    Back: |
+      a. $(f \circ g)(x) = \frac{2x^2 + 6x + 5}{(x+2)(x+1)}, \ \{x | x \ne -2, -1\}$
+      b. $(g \circ f)(x) = \frac{x^2 + x + 1}{(x+1)^2}, \ \{x | x \ne -1, 0\}$
+      c. $(f \circ f)(x) = \frac{x^4 + 3x^2 + 1}{x(x^2 + 1)}, \ \{x | x \ne 0\}$
+      d. $(g \circ g)(x) = \frac{2x + 3}{3x + 5}, \ \{x | x \ne -2, -\frac{5}{3}\}$
