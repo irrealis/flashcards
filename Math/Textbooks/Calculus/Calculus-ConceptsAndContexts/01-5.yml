@@ -380,3 +380,14 @@ notes:
         &= 5^x \left(\frac{5^h - 1}{h}\right) \\
       \end{align}
       $$
+- id: 1542728784644
+  fields:
+    Front: |
+      CCAC 01.5 25: Suppose you are offered a job that lasts one month. Which of the following methods of payment do you prefer?
+      I. One million dollars at the end of the month.
+      II. One cent on the first day of the month, two cents on the second day, four cents on the third day, and, in general, $2^{n-1}$ cents on the $n$th day.
+    Back: |
+      II, since $2^{29} = 536,870,912$, so on the 30th day I would receive over five million dollars, and the sum across all days would be over ten million dollars:
+      $$
+      \sum_{1}^{30}{2^{i-1}} = 2^{30} - 1 = 1,073,741,823
+      $$
