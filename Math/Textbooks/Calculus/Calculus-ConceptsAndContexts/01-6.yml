@@ -292,3 +292,11 @@ notes:
           ylabel = '$y$',
         )
       ```
+- id: 1542738505334
+  fields:
+    Front: |
+      CCAC 01.6 35a: Find the exact value of $\log_{5}{125}$.
+    Back: |
+      $$
+      3
+      $$
