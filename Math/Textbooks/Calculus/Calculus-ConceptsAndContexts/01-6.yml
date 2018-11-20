@@ -37,3 +37,26 @@ notes:
       $$
     Back: |
       No.
+- id: 1542738486469
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 01.6 05: Determine whether the function given by the graph below is one-to-one.
+      ```{python echo = False}
+      import sympy as sy
+      import matplotlib.pyplot as plt
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      x = sy.symbols('x')
+      p = sy.plot(
+        2**(-x**2),
+        xlim = (-1.5, 1.5),
+        ylim = (0, 2),
+        xlabel = '$x$',
+        ylabel = '$y$',
+      )
+      ```
+    Back: |
+      No.
