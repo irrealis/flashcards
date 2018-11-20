@@ -348,3 +348,14 @@ notes:
       $$
       \ln{5 \cdot 3^5} = \ln{1215}
       $$
+- id: 1542738505847
+  fields:
+    Front: |
+      CCAC 01.6 41: Express the quantity below as a single logarithm.
+      $$
+      \ln{1 + x^2} + \frac{1}{2}\ln{x} - \ln{\sin{x}}
+      $$
+    Back: |
+      $$
+      \ln\frac{(1 + x^2)\sqrt{x}}{\sin{x}}
+      $$
