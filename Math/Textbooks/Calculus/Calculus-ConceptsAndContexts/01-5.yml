@@ -187,3 +187,25 @@ notes:
       )
       ```
       The functions with base greater than $1$ are increasing, and those with base less than $1$ are decreasing. The latter are reflections of the former about the $x$-axis.
+- id: 1542728780221
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 01.5 11: Make a rough sketch of the graph of the function $y=10^{x+2}$. Do not use a calculator. Just use the graphs given in Figures 3 and 13 of CCAC-1.5 and, if necessary, the transformations of CCAC-1.3.
+    Back: |
+      ```{python echo = False}
+      import sympy as sy
+      import matplotlib.pyplot as plt
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      x = sy.symbols('x')
+      p = sy.plot(
+        10**(x+2),
+        xlim = (-3, 1),
+        ylim = (0, 10),
+        xlabel = '$x$',
+        ylabel = '$y$',
+      )
+      ```
