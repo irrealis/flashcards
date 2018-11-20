@@ -209,3 +209,25 @@ notes:
         ylabel = '$y$',
       )
       ```
+- id: 1542728780319
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 01.5 13: Make a rough sketch of the graph of the function $y=-2^{-x}$. Do not use a calculator. Just use the graphs given in Figures 3 and 13 of CCAC-1.5 and, if necessary, the transformations of CCAC-1.3.
+    Back: |
+      ```{python echo = False}
+      import sympy as sy
+      import matplotlib.pyplot as plt
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      x = sy.symbols('x')
+      p = sy.plot(
+        -2**(-x),
+        xlim = (-4, 4),
+        ylim = (-5, 0),
+        xlabel = '$x$',
+        ylabel = '$y$',
+      )
+      ```
