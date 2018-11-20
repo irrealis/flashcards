@@ -54,3 +54,76 @@ notes:
       $$
       648y^7
       $$
+- id: 1542728779569
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 01.5 05:
+
+      - a. Write an equation that defines the exponential function with base $a>0$.
+      - b. What is the domain of this function?
+      - c. If $a\ne 1$, what is the range of this function?
+      - d. Sketch the general shape of the graph of the exponential function for each of the following cases:
+        - i. $a>1$
+        - ii. $a=1$
+        - iii. $0 < a < 1$
+    Back: |
+      a. $f(x) = a^x, \ a>0$
+
+      b. $\mathbb{R}$
+
+      c. $(0,\infty)$
+
+      d.i:
+      ```{python echo = False}
+      import sympy as sy
+      import matplotlib.pyplot as plt
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      x = sy.symbols('x')
+      p = sy.plot(
+        2**x,
+        xlim = (-2, 2),
+        ylim = (0, 5),
+        xlabel = '$x$',
+        ylabel = '$y$',
+      )
+      ```
+
+      d.ii:
+      ```{python echo = False}
+      import sympy as sy
+      import matplotlib.pyplot as plt
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      x = sy.symbols('x')
+      p = sy.plot(
+        1**x,
+        xlim = (-2, 2),
+        ylim = (0, 5),
+        xlabel = '$x$',
+        ylabel = '$y$',
+      )
+      ```
+
+      d.iii:
+      ```{python echo = False}
+      import sympy as sy
+      import matplotlib.pyplot as plt
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      x = sy.symbols('x')
+      p = sy.plot(
+        (1/2)**x,
+        xlim = (-2, 2),
+        ylim = (0, 5),
+        xlabel = '$x$',
+        ylabel = '$y$',
+      )
+      ```
