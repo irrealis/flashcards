@@ -456,3 +456,11 @@ notes:
       $$
       x = \frac{e^2 + 10}{3}
       $$
+- id: 1542743261069
+  fields:
+    Front: |
+      CCAC 01.6 51a: Solve $2^{x-5} = 3$ for $x$.
+    Back: |
+      $$
+      x = \log_{2}(3) + 5
+      $$
