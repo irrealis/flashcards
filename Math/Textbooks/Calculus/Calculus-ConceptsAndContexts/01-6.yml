@@ -340,3 +340,11 @@ notes:
       & = -2 \\
       \end{align}
       $$
+- id: 1542738505748
+  fields:
+    Front: |
+      CCAC 01.6 39: Express $\ln{5} + 5\ln{3}$ as a single logarithm.
+    Back: |
+      $$
+      \ln{5 \cdot 3^5} = \ln{1215}
+      $$
