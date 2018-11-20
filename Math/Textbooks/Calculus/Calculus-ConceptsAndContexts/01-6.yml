@@ -107,3 +107,11 @@ notes:
       CCAC 01.6 13: Determine whether the height of a footbal $t$ seconds after kickoff is one-to-one.
     Back: |
       No.
+- id: 1542738493395
+  fields:
+    Front: |
+      CCAC 01.6 15: If $f$ is a one-to-one function such that $f(2) = 9$, what is $f^{-1}(9)$?
+    Back: |
+      $$
+      2
+      $$
