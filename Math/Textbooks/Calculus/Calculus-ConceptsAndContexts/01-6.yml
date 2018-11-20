@@ -591,3 +591,11 @@ notes:
       $$
       y = -e^{x}
       $$
+- id: 1542745817435
+  fields:
+    Front: |
+      CCAC 01.6 61h: Starting with the graph of $y = \ln{x}$, find the equation of the graph that results from shifting 3 units to the left and then reflecting about the line $y = x$.
+    Back: |
+      $$
+      y = e^{x} - 3
+      $$
