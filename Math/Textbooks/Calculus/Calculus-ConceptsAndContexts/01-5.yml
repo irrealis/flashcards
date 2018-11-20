@@ -43,3 +43,14 @@ notes:
       $$
       16b^{12}
       $$
+- id: 1542728779419
+  fields:
+    Front: |
+      CCAC 01.5 03b: Use the Law of Exponents to rewrite and simplify the following expression:
+      $$
+      \frac{(6y^3)^4}{2y^5}
+      $$
+    Back: |
+      $$
+      648y^7
+      $$
