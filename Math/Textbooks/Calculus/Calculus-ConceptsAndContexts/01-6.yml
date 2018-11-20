@@ -83,3 +83,12 @@ notes:
       ```
     Back: |
       Yes.
+- id: 1542738493101
+  fields:
+    Front: |
+      CCAC 01.6 09: Determine whether the function given by the formula below is one-to-one.
+      $$
+      f(x) = x^2 - 2x
+      $$
+    Back: |
+      No.
