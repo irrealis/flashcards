@@ -304,3 +304,14 @@ notes:
       $$
       y = -e^{-x}
       $$
+- id: 1542728781019
+  fields:
+    Front: |
+      CCAC 01.5 19a: Find the domain of the following function:
+      $$
+      f(x) = \frac{1 - e^{x^2}}{1 - e^{1-x^2}}
+      $$
+    Back: |
+      $$
+      (-\infty, -1) \cup (-1, 1) \cup (1, \infty)
+      $$
