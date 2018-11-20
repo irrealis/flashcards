@@ -258,3 +258,37 @@ notes:
     Back: |
       a. $f^{-1}(x) = \sqrt{1 - x^2}, \ 0 \le x \le 1$; $f$ and $f^{-1}$ are the same function.
       b. Quarter-circle in the first quadrant.
+- id: 1542738502697
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 01.6 33:
+      a. How is logarithm function $y = \log_{a}{x}$ defined?
+      b. What is the domain of this function?
+      c. What is the range of this function?
+      d. Sketch the general shape of the graph of the function $y = \log_{a}{x}$ if $a > 1$.
+    Back: |
+      a. $\log_{a}{x} = \frac{\log{x}}{\log{a}}$ is defined as the inverse of the exponential function with base $a$, that is, $\log_{a}{x} = y \Longleftrightarrow a^y = x$.
+      b. $(0, \infty)$
+      c. $\mathbb{R}$
+      d.
+      ```{python echo = False}
+      import sympy as sy
+      import matplotlib.pyplot as plt
+
+      def f(x):
+        return sy.log(x)
+
+      with plt.style.context(('ggplot')):
+        plt.rc('text', usetex = True)
+        plt.rc('font', family = 'serif')
+
+        x = sy.symbols('x')
+        p = sy.plot(
+          f(x),
+          xlim = (-3, 6),
+          ylim = (-2.5, 3.5),
+          xlabel = '$x$',
+          ylabel = '$y$',
+        )
+      ```
