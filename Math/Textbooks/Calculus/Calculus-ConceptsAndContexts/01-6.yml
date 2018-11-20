@@ -123,3 +123,9 @@ notes:
       $$
       0
       $$
+- id: 1542738493619
+  fields:
+    Front: |
+      CCAC 01.6 19: The formula $C = \frac{5}{9}(F-32)$, where $F \ge -459.67$, expresses the Celsius temperature $C$ as a function of the Fahrenheit temperature $F$. Find a formula for the inverse function, and interpret it. What is the domain of the inverse function?
+    Back: |
+      $F = \frac{9}{5}C + 32$; the Fahrenheit temperature as a function of the Celsius temperature; $[-273.15, \infty)$.
