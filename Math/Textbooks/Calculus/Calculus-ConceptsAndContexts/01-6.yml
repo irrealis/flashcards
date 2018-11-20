@@ -92,3 +92,12 @@ notes:
       $$
     Back: |
       No.
+- id: 1542738493199
+  fields:
+    Front: |
+      CCAC 01.6 11: Determine whether the function given by the formula below is one-to-one.
+      $$
+      g(x) = 1/x
+      $$
+    Back: |
+      Yes.
