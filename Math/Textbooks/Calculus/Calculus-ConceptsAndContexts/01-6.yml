@@ -10,3 +10,9 @@ defaults:
   - CCAC-01-FunctionsAndModels
   - CCAC-01.6-InverseFunctionsAndLogarithms
 notes:
+- id: 1542738486144
+  fields:
+    Front: |
+      CCAC 01.6 01a: What is a one-to-one function?
+    Back: |
+      A function $f$ is called a **one-to-one function** if $f$ never takes the same value twice; that is, $f(x_1) \ne f(x_2)$ whenever $x_1 \ne x_2$.
