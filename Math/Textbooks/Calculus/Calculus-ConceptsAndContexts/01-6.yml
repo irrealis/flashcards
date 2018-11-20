@@ -440,3 +440,11 @@ notes:
         ylabel = '$y$',
       )
       ```
+- id: 1542743260875
+  fields:
+    Front: |
+      CCAC 01.6 49a: Solve $e^{7 - 4x} = 6$ for $x$.
+    Back: |
+      $$
+      x = \frac{7 - \ln(6)}{4}
+      $$
