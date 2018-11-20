@@ -22,3 +22,18 @@ notes:
       CCAC 01.6 01b: How can you tell from the graph of a function whether it is one-to-one?
     Back: |
       It must pass the Horizontal Line Test.
+- id: 1542738486344
+  fields:
+    Front: |
+      CCAC 01.6 03: Determine whether the function given by the table below is one-to-one.
+      $$
+        \begin{array}{|c|c|c|c|c|c|c|}
+          \hline
+          x & 1 & 2 & 3 & 4 & 5 & 6 \\
+          \hline
+          f(x) & 1.5 & 2.0 & 3.6 & 5.3 & 2.8 & 2.0 \\
+          \hline
+        \end{array}
+      $$
+    Back: |
+      No.
