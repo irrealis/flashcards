@@ -481,3 +481,11 @@ notes:
       $$
       x < \ln{10}
       $$
+- id: 1542743261369
+  fields:
+    Front: |
+      CCAC 01.6 53b: Solve $\ln{x} > -1$ for $x$.
+    Back: |
+      $$
+      x > 1/e
+      $$
