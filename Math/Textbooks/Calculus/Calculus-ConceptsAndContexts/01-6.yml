@@ -145,3 +145,11 @@ notes:
       $$
       f^{-1}(x) = \frac{1 + \ln{x}}{2}
       $$
+- id: 1542738493944
+  fields:
+    Front: |
+      CCAC 01.6 25: Find a formula for the inverse of the function $y = ln(x+3)$.
+    Back: |
+      $$
+      y = e^x - 3
+      $$
