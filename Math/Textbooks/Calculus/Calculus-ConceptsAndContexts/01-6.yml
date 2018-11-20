@@ -489,3 +489,10 @@ notes:
       $$
       x > 1/e
       $$
+- id: 1542743261469
+  fields:
+    Front: |
+      CCAC 01.6 55: Find (a) the domain of $f(x) = \sqrt{3 - e^{2x}}$, and (b) $f^{-1}$ and its domain.
+    Back: |
+      a. $(-\infty, \frac{\ln{3}}{2}]$.
+      b. $f^{-1}(x) = \frac{\ln(3 - x^2)}{2}$; $[0, \sqrt{3})$. (Note that the domain of $f^{-1}$ must equal the range of $f$.)
