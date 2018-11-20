@@ -32,3 +32,14 @@ notes:
       $$
       x^{-4/3}
       $$
+- id: 1542728779319
+  fields:
+    Front: |
+      CCAC 01.5 03a: Use the Law of Exponents to rewrite and simplify the following expression:
+      $$
+      b^8(2b)^4
+      $$
+    Back: |
+      $$
+      16b^{12}
+      $$
