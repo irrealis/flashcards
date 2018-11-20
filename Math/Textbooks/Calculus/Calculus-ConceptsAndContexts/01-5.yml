@@ -364,3 +364,19 @@ notes:
       $$
       f(x) - 3\cdot 2^x
       $$
+- id: 1542728784544
+  fields:
+    Front: |
+      CCAC 01.5 23: If $f(x)=5^x$, show that
+      $$
+      \frac{f(x+h) - f(x)}{h} = 5^x \left( \frac{5^h - 1}{h} \right).
+      $$
+    Back: |
+      $$
+      \begin{align}
+        \frac{f(x+h) - f(x)}{h}
+        &= \frac{5^{x+h} - 5^x}{h} \\
+        &= \frac{5^x \cdot 5^h - 5^x \cdot 5^0}{h} \\
+        &= 5^x \left(\frac{5^h - 1}{h}\right) \\
+      \end{align}
+      $$
