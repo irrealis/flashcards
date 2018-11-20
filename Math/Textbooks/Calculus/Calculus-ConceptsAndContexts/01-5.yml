@@ -280,3 +280,11 @@ notes:
       $$
       y = e^{x - 2}
       $$
+- id: 1542728780721
+  fields:
+    Front: |
+      CCAC 01.5 17c: Starting with the graph of $y=e^x$, write the equation of the graph that results from reflecting about the $x$-axis.
+    Back: |
+      $$
+      y = -e^x
+      $$
