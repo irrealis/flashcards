@@ -525,3 +525,12 @@ notes:
       sy.solve(sy.sqrt(x**3 + x**2 + x + 1) - y, x)
       ```
       Two of these solutions are complex-valued functions.
+- id: 1542745816494
+  fields:
+    Front: |
+      CCAC 01.6 59: If a bacteria population starts with 100 bacteria and doubles every three hours, then the number of bacteria after $t$ hours is $n = f(t) = 100 \cdot 2^{t/3}$. (See Exercise 29 in CCAC 01-5.)
+      a. Find the inverse of this function, and explain its meaning.
+      b. When will the population reach 50,000?
+    Back: |
+      a. $f^{-1}(n) = 3 \log_{2}{n/100}$; the time elapsed when there are $n$ bacteria.
+      b. After about 26.9 hours.
