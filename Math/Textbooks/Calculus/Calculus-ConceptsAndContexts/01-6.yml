@@ -542,3 +542,11 @@ notes:
       $$
       y = \ln{x} + 3
       $$
+- id: 1542745816786
+  fields:
+    Front: |
+      CCAC 01.6 61b: Starting with the graph of $y = \ln{x}$, find the equation of the graph that results from shifting 3 units to the left.
+    Back: |
+      $$
+      y = \ln(x + 3)
+      $$
