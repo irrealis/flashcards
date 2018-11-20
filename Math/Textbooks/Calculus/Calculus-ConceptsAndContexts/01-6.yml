@@ -153,3 +153,40 @@ notes:
       $$
       y = e^x - 3
       $$
+- id: 1542738494069
+  tags: [requiresCoding]
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 01.6 27: Find an explicit formula $f^{-1}$ for the function below, and use the formula to plot $f^{-1}$, $f$, and the line $y=x$ on the same graph. To check your work, see whether the plots of $f$ and $f^{-1}$ are reflections about the line.
+      $$
+      f(x) = x^4 + 1, \ x \ge 0
+      $$
+    Back: |
+      $$
+      f^{-1}(x) = \sqrt[4]{x-1}, \ x \ge 0
+      $$
+      ```{python echo = False}
+      import sympy as sy
+      import matplotlib.pyplot as plt
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      def f(x):
+        return x**4 + 1
+
+      def f_i(x):
+        return (x-1)**(1/4)
+
+      x = sy.symbols('x')
+      p = sy.plot(
+        (f(x), (x, 0, 4)),
+        (x, (x, -6, 6)),
+        (f_i(x), (x, 0, 4)),
+        xlim = (-6, 6),
+        ylim = (-4, 4),
+        xlabel = '$x$',
+        ylabel = '$y$',
+      )
+      ```
