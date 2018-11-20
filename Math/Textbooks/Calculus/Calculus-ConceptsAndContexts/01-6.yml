@@ -308,3 +308,19 @@ notes:
       $$
       -3
       $$
+- id: 1542738505544
+  fields:
+    Front: |
+      CCAC 01.6 37a: Find the exact value of the expression below.
+      $$
+      \log_{2}{6} - \log_{2}{15} + \log_{2}{2}
+      $$
+    Back: |
+      $$
+      \begin{align}
+      \log_{2}{6} - \log_{2}{15} + \log_{2}{2}
+      & = \log_{2}{\frac{6 \cdot 20}{15}} \\
+      & = \log_{2}{8} \\
+      & = 3 \\
+      \end{align}
+      $$
