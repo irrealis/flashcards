@@ -550,3 +550,11 @@ notes:
       $$
       y = \ln(x + 3)
       $$
+- id: 1542745816899
+  fields:
+    Front: |
+      CCAC 01.6 61c: Starting with the graph of $y = \ln{x}$, find the equation of the graph that results from reflecting about the $x$-axis.
+    Back: |
+      $$
+      y = -\ln{x}
+      $$
