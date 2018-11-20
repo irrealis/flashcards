@@ -300,3 +300,11 @@ notes:
       $$
       3
       $$
+- id: 1542738505444
+  fields:
+    Front: |
+      CCAC 01.6 35b: Find the exact value of $\log_{3}\frac{1}{27}$.
+    Back: |
+      $$
+      -3
+      $$
