@@ -315,3 +315,14 @@ notes:
       $$
       (-\infty, -1) \cup (-1, 1) \cup (1, \infty)
       $$
+- id: 1542728781123
+  fields:
+    Front: |
+      CCAC 01.5 19b: Find the domain of the following function:
+      $$
+      f(x) = \frac{1 + x}{e^{\cos{x}}}
+      $$
+    Back: |
+      $$
+      (-\infty, \infty)
+      $$
