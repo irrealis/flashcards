@@ -272,3 +272,11 @@ notes:
       $$
       y = e^x - 2
       $$
+- id: 1542728780619
+  fields:
+    Front: |
+      CCAC 01.5 17b: Starting with the graph of $y=e^x$, write the equation of the graph that results from shifting 2 units to the right.
+    Back: |
+      $$
+      y = e^{x - 2}
+      $$
