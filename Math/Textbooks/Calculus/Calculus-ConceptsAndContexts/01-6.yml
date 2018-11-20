@@ -464,3 +464,12 @@ notes:
       $$
       x = \log_{2}(3) + 5
       $$
+- id: 1542743261169
+  fields:
+    Front: |
+      CCAC 01.6 51b: Solve $\ln{x} + \ln(x-1) = 1$ for $x$.
+    Back: |
+      $$
+      x = \frac{1 + \sqrt{1 + 4e}}{2}
+      $$
+      (Note that the domain of the original function is $(1, \infty)$, which constrains the solution to that with positive root.)
