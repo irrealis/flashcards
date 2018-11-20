@@ -407,3 +407,11 @@ notes:
       $$
       100\cdot 2^{t/3}
       $$
+- id: 1542728784960
+  fields:
+    Front: |
+      CCAC 01.5 29c: Under ideal conditions a certain bacteria population is known to double every three hours. Suppose that there are initially 100 bacteria. Estimate the size of the population after 20 hours.
+    Back: |
+      $$
+      10,159
+      $$
