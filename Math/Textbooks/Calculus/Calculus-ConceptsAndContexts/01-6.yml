@@ -448,3 +448,11 @@ notes:
       $$
       x = \frac{7 - \ln(6)}{4}
       $$
+- id: 1542743260971
+  fields:
+    Front: |
+      CCAC 01.6 49b: Solve $\ln(3x - 10) = 2$ for $x$.
+    Back: |
+      $$
+      x = \frac{e^2 + 10}{3}
+      $$
