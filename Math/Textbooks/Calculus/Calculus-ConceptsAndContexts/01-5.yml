@@ -326,3 +326,41 @@ notes:
       $$
       (-\infty, \infty)
       $$
+- id: 1542728781244
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 01.5 21: Find the exponential function $f(x)=Ca^x$ whose graph is given below.
+      ```{python echo = False}
+      import sympy as sy
+      import matplotlib.pyplot as plt
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      x = sy.symbols('x')
+      p = sy.plot(
+        3*2**x,
+        xlim = (-1, 5),
+        ylim = (-1, 30),
+        xlabel = '$x$',
+        ylabel = '$y$',
+        show = False,
+      )
+
+      if hasattr(p, '_backend'):
+        p._backend.close()
+      p._backend = p.backend(p)
+      fg, ax = p._backend.fig, p._backend.ax
+
+      ax.plot(1, 6, 'ko', markersize = 4)
+      ax.text(0.5, 7, '$(1,6)$')
+      ax.plot(3, 24, 'ko', markersize = 4)
+      ax.text(2.4, 25, '$(3,24)$')
+
+      p._backend.show()
+      ```
+    Back: |
+      $$
+      f(x) - 3\cdot 2^x
+      $$
