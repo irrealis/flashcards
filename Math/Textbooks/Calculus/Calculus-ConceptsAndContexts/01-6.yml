@@ -101,3 +101,9 @@ notes:
       $$
     Back: |
       Yes.
+- id: 1542738493300
+  fields:
+    Front: |
+      CCAC 01.6 13: Determine whether the height of a footbal $t$ seconds after kickoff is one-to-one.
+    Back: |
+      No.
