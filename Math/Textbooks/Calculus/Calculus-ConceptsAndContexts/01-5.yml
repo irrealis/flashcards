@@ -10,3 +10,14 @@ defaults:
   - CCAC-01.5-ExponentialFunctions
   markdownTabLength: 2
 notes:
+- id: 1542728779119
+  fields:
+    Front: |
+      CCAC 01.5 01a: Use the Law of Exponents to rewrite and simplify the following expression:
+      $$
+      \frac{4^{-3}}{2^{-8}}
+      $$
+    Back: |
+      $$
+      4
+      $$
