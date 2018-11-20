@@ -21,3 +21,14 @@ notes:
       $$
       4
       $$
+- id: 1542728779224
+  fields:
+    Front: |
+      CCAC 01.5 01b: Use the Law of Exponents to rewrite and simplify the following expression:
+      $$
+      \frac{1}{\sqrt[3]{x^4}}
+      $$
+    Back: |
+      $$
+      x^{-4/3}
+      $$
