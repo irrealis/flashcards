@@ -473,3 +473,11 @@ notes:
       x = \frac{1 + \sqrt{1 + 4e}}{2}
       $$
       (Note that the domain of the original function is $(1, \infty)$, which constrains the solution to that with positive root.)
+- id: 1542743261269
+  fields:
+    Front: |
+      CCAC 01.6 53a: Solve $e^x < 10$ for $x$.
+    Back: |
+      $$
+      x < \ln{10}
+      $$
