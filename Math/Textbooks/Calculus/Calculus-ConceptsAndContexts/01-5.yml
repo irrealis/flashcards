@@ -415,3 +415,31 @@ notes:
       $$
       10,159
       $$
+- id: 1542731595994
+  tags: [requiresCoding]
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 01.5 29d: Under ideal conditions a certain bacteria population is known to double every three hours. Suppose that there are initially 100 bacteria. Graph the population function, and estimate the time for the population to reach $50,000$.
+    Back: |
+      $$
+      t \approx 26.9 \ \text{h}
+      $$
+      ```{python echo = False}
+      import matplotlib.pyplot as plt
+      import numpy as np
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      def f(t):
+        return 100*2**(t/3)
+
+      t = np.arange(30)
+
+      fig, ax = plt.subplots()
+      ax.plot(t, f(t))
+      ax.plot(26.9, f(26.9), 'ko', markersize = 4)
+      ax.text(20.0, f(26.9), '$(26.9, \\ 50030.6)$')
+      _ = _
+      ```
