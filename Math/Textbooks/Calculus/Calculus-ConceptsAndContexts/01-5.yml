@@ -296,3 +296,11 @@ notes:
       $$
       y = e^{-x}
       $$
+- id: 1542728780919
+  fields:
+    Front: |
+      CCAC 01.5 17e: Starting with the graph of $y=e^x$, write the equation of the graph that results from reflecting about the $x$-axis and then about the $y$-axis.
+    Back: |
+      $$
+      y = -e^{-x}
+      $$
