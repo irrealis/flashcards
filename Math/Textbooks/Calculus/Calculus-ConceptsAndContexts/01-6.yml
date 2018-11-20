@@ -249,3 +249,12 @@ notes:
         p.show()
 
       ```
+- id: 1542738502559
+  fields:
+    Front: |
+      CCAC 01.6 31: Let $f(x) = \sqrt{1 - x^2}, \ 0 \le x \le 1$.
+      a. Find $f^{-1}$. How is it related to $f$?
+      b. Identify the graph of $f$, and explain your answer to part (a).
+    Back: |
+      a. $f^{-1}(x) = \sqrt{1 - x^2}, \ 0 \le x \le 1$; $f$ and $f^{-1}$ are the same function.
+      b. Quarter-circle in the first quadrant.
