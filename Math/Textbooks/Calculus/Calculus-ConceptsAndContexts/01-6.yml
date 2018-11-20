@@ -359,3 +359,34 @@ notes:
       $$
       \ln\frac{(1 + x^2)\sqrt{x}}{\sin{x}}
       $$
+- id: 1542738505969
+  tags: [requiresCoding]
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 01.6 43: Use the Change of Base Formula to graph the functions below on a common plot. How are they related?
+      $$
+      y = \log_{1.5}{x}, \ y = \ln{x}, \ y = \log_{10}{x}, \ \log_{50}{x}
+      $$
+    Back: |
+      ```{python echo = False}
+      import sympy as sy
+      import matplotlib.pyplot as plt
+
+      with plt.style.context(('ggplot')):
+        plt.rc('text', usetex = True)
+        plt.rc('font', family = 'serif')
+
+        x = sy.symbols('x')
+        p = sy.plot(
+          sy.log(x, 1.5),
+          sy.log(x),
+          sy.log(x, 10),
+          sy.log(x, 50),
+          xlim = (-1, 5),
+          ylim = (-2, 2),
+          xlabel = '$x$',
+          ylabel = '$y$',
+        )
+      ```
+      All graphs approach $-\infty$ as $x \rightarrow 0^+$, all pass through $(1,0)$, and all are increasing. The larger the base, the slower the rate of increase.
