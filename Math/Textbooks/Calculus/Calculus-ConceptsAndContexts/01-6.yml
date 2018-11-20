@@ -418,3 +418,25 @@ notes:
         ylabel = '$y$',
       )
       ```
+- id: 1542743258344
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 01.6 47b: Make a rough sketch of the graph of $y = -\ln{x}$. Do not use a calculator. Just use the graphs given in Figures 12 and 13 of CCAC 01-6 and, if necessary, the transformations of CCAC 01-3.
+    Back: |
+      ```{python echo = False}
+      import sympy as sy
+      import matplotlib.pyplot as plt
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      x = sy.symbols('x')
+      p = sy.plot(
+        -sy.log(x),
+        xlim = (-1, 8),
+        ylim = (-3, 3),
+        xlabel = '$x$',
+        ylabel = '$y$',
+      )
+      ```
