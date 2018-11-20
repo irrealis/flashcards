@@ -324,3 +324,19 @@ notes:
       & = 3 \\
       \end{align}
       $$
+- id: 1542738505644
+  fields:
+    Front: |
+      CCAC 01.6 37b: Find the exact value of the expression below.
+      $$
+      \log_{3}{100} - \log_{3}{18} + \log_{3}{50}
+      $$
+    Back: |
+      $$
+      \begin{align}
+      \log_{3}{100} - \log_{3}{18} - \log_{3}{50}
+      & = \log_{3}{\frac{100}{18 \cdot 50}} \\
+      & = \log_{3}{\frac{1}{9}} \\
+      & = -2 \\
+      \end{align}
+      $$
