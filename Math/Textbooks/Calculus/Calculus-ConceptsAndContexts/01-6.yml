@@ -583,3 +583,11 @@ notes:
       $$
       y = e^{-x}
       $$
+- id: 1542745817328
+  fields:
+    Front: |
+      CCAC 01.6 61g: Starting with the graph of $y = \ln{x}$, find the equation of the graph that results from reflecting about the $y$ axis and then about the line $y = x$.
+    Back: |
+      $$
+      y = -e^{x}
+      $$
