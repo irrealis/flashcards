@@ -137,3 +137,11 @@ notes:
       $$
       f^{-1}(x) = \frac{(x-1)^2 - 2}{3}, \ x \ge 1
       $$
+- id: 1542738493848
+  fields:
+    Front: |
+      CCAC 01.6 23: Find a formula for the inverse of the function $f(x) = e^{2x-1}$.
+    Back: |
+      $$
+      f^{-1}(x) = \frac{1 + \ln{x}}{2}
+      $$
