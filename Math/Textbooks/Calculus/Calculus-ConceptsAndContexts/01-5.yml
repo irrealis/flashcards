@@ -127,3 +127,33 @@ notes:
         ylabel = '$y$',
       )
       ```
+- id: 1542728779944
+  tags: [requiresCoding]
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 01.5 07: Plot the functions below on a common graph. How are they related?
+      $$
+      y = 2^x, \ y = e^x, \ y = 5^x, \ y = 20^x
+      $$
+    Back: |
+      ```{python echo = False}
+      import sympy as sy
+      import matplotlib.pyplot as plt
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      x = sy.symbols('x')
+      p = sy.plot(
+        2**x,
+        sy.E**x,
+        5**x,
+        20**x,
+        xlim = (-2, 2),
+        ylim = (0, 5),
+        xlabel = '$x$',
+        ylabel = '$y$',
+      )
+      ```
+      All approach $0$ as $x\rightarrow-\infty$, all pass through $(0,1)$, and all are increasing. The larger the base, the faster the rate of increase.
