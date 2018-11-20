@@ -115,3 +115,11 @@ notes:
       $$
       2
       $$
+- id: 1542738493493
+  fields:
+    Front: |
+      CCAC 01.6 17: If $g(x) = 3 + x + e^x$, find $g^{-1}(4)$.
+    Back: |
+      $$
+      0
+      $$
