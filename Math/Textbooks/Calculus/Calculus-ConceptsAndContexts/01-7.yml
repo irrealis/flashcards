@@ -411,3 +411,12 @@ notes:
       $$
     Back: |
       Moves counterclockwise along the circle $(x-3)^2 + (y-1)^2 = 4$ from $(3,3)$ to $(3,-1)$.
+- id: 1543349943443
+  fields:
+    Front: |
+      CCAC 01.7 19: Describe the motion of a particle with position $(x,y)$ as $t$ varies in the given interval.
+      $$
+      x = 5\sin{t}, \ y = 2\cos{t}, \ -\pi \le t \le 5\pi
+      $$
+    Back: |
+      Moves 3 times clockwise around the ellipse $(x^2/25) + (y^2/4) = 1$, starting and ending at $(0, -2)$.
