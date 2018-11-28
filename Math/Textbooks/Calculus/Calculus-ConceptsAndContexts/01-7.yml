@@ -106,3 +106,54 @@ notes:
 
       p._backend.show()
       ```
+- id: 1543347406871
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 01.7 05:
+      a. Sketch a curve using the parametric equations below to plot points. Indicate with an arrow the direction in which the curve is traced as $t$ increases.
+      $$
+      x = 3t - 5, \ y = 2t + 1
+      $$
+      b. Eliminate the parameter to find a Cartesian equation of the curve.
+    Back: |
+      a.
+      ```{python echo = False}
+      import sympy as sy
+      import matplotlib.pyplot as plt
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      def fx(t): return 3*t - 5
+      def fy(t): return 2*t + 1
+      def aro(ax, fx, fy, s, d, w):
+        def dfx(a,b): return fx(b) - fx(a)
+        def dfy(a,b): return fy(b) - fy(a)
+        return ax.arrow(fx(s-d), fy(s-d), dfx(s-d, s+d), dfy(s-d, s+d), head_width = w)
+
+      t = sy.symbols('t')
+      p = sy.plotting.plot_parametric(
+        (fx(t), fy(t), (t, -1.1, 2.1)),
+        xlim = (-10, 2), ylim = (-2, 6),
+        xlabel = '$x$', ylabel = '$y$',
+        show = False,
+      )
+
+      if hasattr(p, '_backend'): p._backend.close()
+      p._backend = p.backend(p)
+      fg, ax = p._backend.fig, p._backend.ax
+
+      aro(ax, fx, fy, 0.5, 0.01, 0.2)
+      ax.plot(fx(-1), fy(-1), 'ko', markersize = 4)
+      ax.text(fx(-1)-0.1, fy(-1)+0.1, '(-8,-1), $t=-2$', horizontalalignment='right')
+      ax.plot(fx(0), fy(0), 'ko', markersize = 4)
+      ax.text(fx(0)-0.1, fy(0)+0.1, '(-5,1), $t=0$', horizontalalignment='right')
+      ax.plot(fx(1), fy(1), 'ko', markersize = 4)
+      ax.text(fx(1)-0.1, fy(1)+0.1, '(-2,3), $t=1$', horizontalalignment='right')
+      ax.plot(fx(2), fy(2), 'ko', markersize = 4)
+      ax.text(fx(2)+0.2, fy(2)-0.8, '(1,5), $t=2$', horizontalalignment='center')
+
+      p._backend.show()
+      ```
+      b. $y = \frac{2}{3}x + \frac{13}{3}$
