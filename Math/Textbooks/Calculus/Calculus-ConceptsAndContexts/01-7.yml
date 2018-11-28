@@ -420,3 +420,9 @@ notes:
       $$
     Back: |
       Moves 3 times clockwise around the ellipse $(x^2/25) + (y^2/4) = 1$, starting and ending at $(0, -2)$.
+- id: 1543350081294
+  fields:
+    Front: |
+      CCAC 01.7 21: Suppose a curve is given by the parametric equations $x=f(t)$, $y=g(t)$, where the range of $f$ is $[1,4]$ and the range of $g$ is $[2,3]$. What can you say about the curve?
+    Back: |
+      It is contained in the rectangle described by $1 \le x \le 4$ and $2 \le y \le 3$.
