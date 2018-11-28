@@ -732,3 +732,12 @@ notes:
         xlabel = '$x$', ylabel = '$y$',
       )
       ```
+- id: 1543352289731
+  fields:
+    Front: |
+      CCAC 01.7 35: Compare the curves represented by the parametric equations. How do they differ?
+      a. $x = t^3$, $y = t^2$
+      b. $x = t^6$, $y = t^4$
+      c. $x = e^{-3t}$, $y = e^{-2t}$
+    Back: |
+      The curve $y=x^{2/3}$ is generated in (a). In (b), only the portion with $x\ge 0$ is generated, and in (c) we get only the portion with $x>0$.
