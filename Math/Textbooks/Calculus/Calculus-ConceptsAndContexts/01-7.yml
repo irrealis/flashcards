@@ -209,3 +209,47 @@ notes:
       p._backend.show()
       ```
       b. $y = \frac{2}{3}x + \frac{13}{3}$
+- id: 1543349723169
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 01.7 09:
+      a. Eliminate the parameter to find a Cartesian equation of the curve.
+      $$
+      x = \sin{\frac{1}{2}\theta}, \ y = \cos{\frac{1}{2}\theta}, \ -\pi \le \theta \le \pi
+      $$
+      b. Sketch the curve, and indicate with an arrow the direction in which the curve is traced as the parameter increases.
+    Back: |
+      a. $x^2 + y^2 = 1$, $y \ge 0$
+      b.
+      ```{python echo = False}
+      import sympy as sy
+      import matplotlib.pyplot as plt
+      import math
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      def fx(t): return sy.sin(t/2)
+      def fy(t): return sy.cos(t/2)
+      def ffx(t): return math.sin(t/2)
+      def ffy(t): return math.cos(t/2)
+      def aro(ax, fx, fy, s, d, w):
+        def dfx(a,b): return fx(b) - fx(a)
+        def dfy(a,b): return fy(b) - fy(a)
+        return ax.arrow(fx(s-d), fy(s-d), dfx(s-d, s+d), dfy(s-d, s+d), head_width = w)
+
+      t = sy.symbols('t')
+      p = sy.plotting.plot_parametric(
+        (fx(t), fy(t), (t, -sy.pi, sy.pi)),
+        xlim = (-1.5, 1.5), ylim = (-0.5, 1.5),
+        xlabel = '$x$', ylabel = '$y$',
+        show = False,
+      )
+
+      if hasattr(p, '_backend'): p._backend.close()
+      p._backend = p.backend(p)
+      fg, ax = p._backend.fig, p._backend.ax
+      aro(ax, ffx, ffy, -math.pi/2, 0.01, 0.05)
+      p._backend.show()
+      ```
