@@ -591,3 +591,28 @@ notes:
 
       p._backend.show()
       ```
+- id: 1543351490194
+  tags: [requiresCoding]
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 01.7 27: Use software to graph the curve $x=y-2\sin{\pi y}$.
+    Back: |
+      ```{python echo = False}
+      import sympy as sy
+      import matplotlib.pyplot as plt
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      def fx(t): return t-2*sy.sin(sy.pi*t)
+      def fy(t): return t
+
+      t = sy.symbols('t')
+      p = sy.plotting.plot_parametric(
+        (fx(t), fy(t), (t, -sy.pi, sy.pi)),
+        xlim = (-6, 6),
+        xlabel = '$x$',
+        ylabel = '$y$',
+      )
+      ```
