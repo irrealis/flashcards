@@ -655,3 +655,9 @@ notes:
       - Finally, we claim without proof that for $t\in(0,1)$, $|P(t)-P(0)|<|P(1)-P(0)|$ and $|P(t)-P(1)|<|P(1)-P(0)|$, and thus $P(t)$ lies on the line segment. We're feeling lazy, so won't go through all the steps to prove this.
 
       b. $x = -2 + 5t$, $y = 7 - 8t$, $0 \le t \le 1$.
+- id: 1543352284844
+  fields:
+    Front: |
+      CCAC 01.7 31a: Find parametric equations for the path of a particle that moves along the circle $x^2+(y-1)^2=4$ once around clockwise, starting at $(2,1)$.
+    Back: |
+      $x = 2\cos{t}$, $y = 1 - 2\sin{t}$, $0 \le t \le 2\pi$
