@@ -1,0 +1,11 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  markdownTabLength: 2
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Calculus-ConceptsAndContexts
+  - CCAC-01-FunctionsAndModels
+  - CCAC-01.7-ParametricCurves
