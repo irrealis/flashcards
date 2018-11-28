@@ -793,3 +793,41 @@ notes:
       ```
     Back: |
       $x = a\cos{\theta}$, $y = b\sin{\theta}$; $(x^2/a^2) + (y^2/b^2) = 1$, ellipse.
+- id: 1543354962519
+  tags: [requiresCoding]
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 01.7 41: Suppose that the position of one particle at time $t$ is given by
+      $$
+      x_1 = 3\sin{t}, \ y_1 = 2\cos{t}, \ 0 \le t \le 2\pi
+      $$
+      and the position of a second particle is given by
+      $$
+      x_2 = -3 + \cos{t}, \ y_2 = 1 + \sin{t}, \ 0 \le t \le 2\pi
+      $$
+      a. Use software to graph the paths of both particles. How many points of intersection are there?
+      b. Are any of these points of intersection _collision points_? In other words, are the particles ever at the same place at the same time? If so, find the collision points.
+      c. Describe what happens if the path of the second particle is given by
+      $$
+      x_2 = 3 + \cos{t}, \ y_2 = 1 + \sin{t}, \ 0 \le t \le 2\pi
+      $$
+    Back: |
+      a. Two points of intersection.
+      ```{python }
+      import sympy as sy
+      import matplotlib.pyplot as plt
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      t = sy.symbols('t')
+      p = sy.plotting.plot_parametric(
+        (3*sy.sin(t), 2*sy.cos(t), (t, 0, 2*sy.pi)),
+        (-3 + sy.cos(t), 1 + sy.sin(t), (t, 0, 2*sy.pi)),
+        xlim = (-6, 6), ylim = (-4, 4),
+        xlabel = '$x$', ylabel = '$y$',
+      )
+      ```
+      b. One collision point at $(-3,0)$ when $t = 3\pi/2$.
+      c. There are still two intersection points, but no collision point.
