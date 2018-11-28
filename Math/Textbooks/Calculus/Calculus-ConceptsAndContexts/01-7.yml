@@ -9,3 +9,50 @@ defaults:
   - Calculus-ConceptsAndContexts
   - CCAC-01-FunctionsAndModels
   - CCAC-01.7-ParametricCurves
+notes:
+- id: 1543347406595
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 01.7 01: Sketch a curve using the parametric equations below to plot points. Indicate with an arrow the direction in which the curve is traced as $t$ increases.
+      $$
+      x = t^2 + t, \ y = t^2 - t, \ -2 \le t \le 2
+      $$
+    Back: |
+      ```{python echo = False}
+      import sympy as sy
+      import matplotlib.pyplot as plt
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      def fx(t): return t**2 + t
+      def fy(t): return t**2 - t
+      def aro(ax, fx, fy, s, d, w):
+        def dfx(a,b): return fx(b) - fx(a)
+        def dfy(a,b): return fy(b) - fy(a)
+        return ax.arrow(fx(s-d), fy(s-d), dfx(s-d, s+d), dfy(s-d, s+d), head_width = w)
+
+      t = sy.symbols('t')
+      p = sy.plotting.plot_parametric(
+        (fx(t), fy(t), (t, -2, 2)),
+        xlim = (-1, 11), ylim = (-1, 7),
+        xlabel = '$x$', ylabel = '$y$',
+        show = False,
+      )
+
+      if hasattr(p, '_backend'): p._backend.close()
+      p._backend = p.backend(p)
+      fg, ax = p._backend.fig, p._backend.ax
+
+      aro(ax, fx, fy, -1.8, 0.01, 0.19)
+      aro(ax, fx, fy, 1.8, 0.01, 0.19)
+      ax.plot(fx(-2), fy(-2), 'ko', markersize = 4)
+      ax.text(fx(-2)+0.1, fy(-2)+0.1, '(2,6), $t=-2$', )
+      ax.plot(fx(0), fy(0), 'ko', markersize = 4)
+      ax.text(fx(0)+0.2, fy(0)+0.2, '(0,0), $t=0$', )
+      ax.plot(fx(2), fy(2), 'ko', markersize = 4)
+      ax.text(fx(2)+0.1, fy(2)+0.1, '(6,2), $t=2$', )
+
+      p._backend.show()
+      ```
