@@ -831,3 +831,49 @@ notes:
       ```
       b. One collision point at $(-3,0)$ when $t = 3\pi/2$.
       c. There are still two intersection points, but no collision point.
+- id: 1543437734870
+  tags: [requiresCoding]
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 01.7 43: Use software to investigate the family of curves defined by the parametric equations $x = t^2$, $y = t^3 - ct$. How does the shape change as $c$ increases? Illustrate by graphing several members of the family.
+    Back: |
+      For $c = 0$, there is a cusp; for $c > 0$, there is a loop whose size increases as $c$ increases.
+      ```{python }
+      import sympy as sy
+      import matplotlib.pyplot as plt
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      t = sy.symbols('t')
+      def f(t, c): return t**2, t**3 - c*t
+      p = sy.plotting.plot_parametric(
+        f(t, -1), f(t, 0),
+        xlim = (0, 1.5), ylim = (-3, 3),
+        xlabel = '$x$', ylabel = '$y$',
+        show = False
+      )
+      p[0].line_color = 'red'
+      p[1].line_color = 'blue'
+      p.show()
+      ```
+      ```{python }
+      import sympy as sy
+      import matplotlib.pyplot as plt
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      t = sy.symbols('t')
+      def f(t, c): return t**2, t**3 - c*t
+      p = sy.plotting.plot_parametric(
+        f(t, 1/2), f(t, 1),
+        xlim = (0, 1.5), ylim = (-1, 1),
+        xlabel = '$x$', ylabel = '$y$',
+        show = False
+      )
+      p[0].line_color = 'red'
+      p[1].line_color = 'blue'
+      p.show()
+      ```
