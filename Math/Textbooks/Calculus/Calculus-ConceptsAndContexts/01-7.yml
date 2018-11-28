@@ -301,3 +301,51 @@ notes:
 
       p._backend.show()
       ```
+- id: 1543349723474
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 01.7 13:
+      a. Eliminate the parameter to find a Cartesian equation of the curve.
+      $$
+      x = e^{2t}, \ y = t + 1
+      $$
+      b. Sketch the curve, and indicate with an arrow the direction in which the curve is traced as the parameter increases.
+    Back: |
+      a. $y = \frac{1}{2} \ln{x+1}$
+      b.
+      ```{python echo = False}
+      import sympy as sy
+      import matplotlib.pyplot as plt
+      import math
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      def fx(t): return sy.E**(2*t)
+      def fy(t): return t + 1
+      def ffx(t): return math.e**(2*t)
+      def ffy(t): return t + 1
+      def aro(ax, fx, fy, s, d, w):
+        def dx(a,b): return fx(b) - fx(a)
+        def dy(a,b): return fy(b) - fy(a)
+        return ax.arrow(fx(s-d), fy(s-d), dx(s-d, s+d), dy(s-d, s+d), head_width = w)
+
+      t = sy.symbols('t')
+      p = sy.plotting.plot_parametric(
+        (fx(t), fy(t), (t, -10, sy.pi/2)),
+        xlim = (-2, 7), ylim = (-3, 3),
+        xlabel = '$x$', ylabel = '$y$',
+        show = False,
+      )
+
+      if hasattr(p, '_backend'): p._backend.close()
+      p._backend = p.backend(p)
+      fg, ax = p._backend.fig, p._backend.ax
+
+      aro(ax, ffx, ffy, 0.25, 0.01, 0.15)
+      # ax.plot(ffx(math.pi/2), ffy(math.pi/2), 'ko', fillstyle = 'none', markersize = 4)
+      # ax.text(ffx(math.pi/2)+0.1, ffy(math.pi/2)+0.1, '(1,1)')
+
+      p._backend.show()
+      ```
