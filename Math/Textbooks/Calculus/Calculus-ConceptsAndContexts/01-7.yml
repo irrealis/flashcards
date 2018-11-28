@@ -157,3 +157,55 @@ notes:
       p._backend.show()
       ```
       b. $y = \frac{2}{3}x + \frac{13}{3}$
+- id: 1543347407019
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 01.7 07:
+      a. Sketch a curve using the parametric equations below to plot points. Indicate with an arrow the direction in which the curve is traced as $t$ increases.
+      $$
+      x = \sqrt{t}, \ y = 1 - t
+      $$
+      b. Eliminate the parameter to find a Cartesian equation of the curve.
+    Back: |
+      a.
+      ```{python echo = False}
+      import sympy as sy
+      import matplotlib.pyplot as plt
+      import math
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      def fx(t): return sy.sqrt(t)
+      def fy(t): return 1 - t
+      def ffx(t): return math.sqrt(t)
+      def ffy(t): return 1 - t
+      def aro(ax, fx, fy, s, d, w):
+        def dfx(a,b): return fx(b) - fx(a)
+        def dfy(a,b): return fy(b) - fy(a)
+        return ax.arrow(fx(s-d), fy(s-d), dfx(s-d, s+d), dfy(s-d, s+d), head_width = w)
+
+      t = sy.symbols('t')
+      p = sy.plotting.plot_parametric(
+        (fx(t), fy(t), (t, 0, 5)),
+        xlim = (-1, 8), ylim = (-4, 2),
+        xlabel = '$x$', ylabel = '$y$',
+        show = False,
+      )
+
+      if hasattr(p, '_backend'): p._backend.close()
+      p._backend = p.backend(p)
+      fg, ax = p._backend.fig, p._backend.ax
+
+      aro(ax, ffx, ffy, 0.25, 0.01, 0.15)
+      ax.plot(ffx(0), ffy(0), 'ko', markersize = 4)
+      ax.text(ffx(0)+0.1, ffy(0)+0.2, '(0,1), $t=0$')
+      ax.plot(ffx(1), ffy(1), 'ko', markersize = 4)
+      ax.text(ffx(1)+0.1, ffy(1)+0.2, '(1,0), $t=1$')
+      ax.plot(ffx(4), ffy(4), 'ko', markersize = 4)
+      ax.text(ffx(4)+0.1, ffy(4)+0.2, '(2,-3), $t=4$')
+
+      p._backend.show()
+      ```
+      b. $y = \frac{2}{3}x + \frac{13}{3}$
