@@ -673,3 +673,62 @@ notes:
       CCAC 01.7 31c: Find parametric equations for the path of a particle that moves along the circle $x^2+(y-1)^2=4$ halfway around counterclockwise, starting at $(0,3)$.
     Back: |
       $x = 2\cos{t}$, $y = 1 - 2\sin{t}$, $-\pi/2 \le t \le 3\pi/2$
+- id: 1543352285294
+  useMarkdown: pweave
+  tags: [requiresCoding]
+  fields:
+    Front: |
+      CCAC 01.7 33: Use software to reproduce the picture below.
+      ```{python echo = False}
+      import sympy as sy
+      import matplotlib.pyplot as plt
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      t = sy.symbols('t')
+      p = sy.plotting.plot_parametric(
+        (
+          2*sy.cos(t) + 2,
+          2*sy.sin(t) + 2,
+          (t, 0, 2*sy.pi),
+        ),
+        (
+          sy.cos(t) + 2,
+          sy.sin(t) + 2,
+          (t, sy.pi, 2*sy.pi),
+        ),
+        (
+          0.07*sy.cos(t) + 1,
+          0.07*sy.sin(t) + 3,
+          (t, 0, 2*sy.pi),
+        ),
+        (
+          0.07*sy.cos(t) + 3,
+          0.07*sy.sin(t) + 3,
+          (t, 0, 2*sy.pi),
+        ),
+        xlim = (0, 6),
+        ylim = (0, 4),
+        xlabel = '$x$',
+        ylabel = '$y$',
+      )
+      ```
+    Back: |
+      ```{python evaluate = False}
+      import sympy as sy
+      import matplotlib.pyplot as plt
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      t = sy.symbols('t')
+      p = sy.plotting.plot_parametric(
+        (2*sy.cos(t) + 2, 2*sy.sin(t) + 2, (t, 0, 2*sy.pi)),
+        (sy.cos(t) + 2, sy.sin(t) + 2, (t, sy.pi, 2*sy.pi)),
+        (0.07*sy.cos(t) + 1, 0.07*sy.sin(t) + 3, (t, 0, 2*sy.pi)),
+        (0.07*sy.cos(t) + 3, 0.07*sy.sin(t) + 3, (t, 0, 2*sy.pi)),
+        xlim = (0, 6), ylim = (0, 4),
+        xlabel = '$x$', ylabel = '$y$',
+      )
+      ```
