@@ -741,3 +741,55 @@ notes:
       c. $x = e^{-3t}$, $y = e^{-2t}$
     Back: |
       The curve $y=x^{2/3}$ is generated in (a). In (b), only the portion with $x\ge 0$ is generated, and in (c) we get only the portion with $x>0$.
+- id: 1543354284869
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 01.7 39: If $a$ and $b$ are fixed numbers, find parametric equations for the curve that consists of all possible positions of the point $P$ in the figure, using the angle $\theta$ as the parameter. Then eliminate the parameter and identify the curve.
+      ```{python echo = False}
+      import sympy as sy
+      import matplotlib.pyplot as plt
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      t = sy.symbols('t')
+      p = sy.plotting.plot_parametric(
+        (1.5*sy.cos(t), 1.5*sy.sin(t), (t, 0, 2*sy.pi)),
+        (0.5*sy.cos(t), 0.5*sy.sin(t), (t, 0, 2*sy.pi)),
+        (1.5*sy.cos(5/6*sy.pi)*t, 1.5*sy.sin(5/6*sy.pi)*t, (t, 0, 1)),
+        (0.5*sy.cos(4/6*sy.pi)*t, 0.5*sy.sin(4/6*sy.pi)*t, (t, 0, 1)),
+        (1.5*sy.cos(1/4*sy.pi)*t, 1.5*sy.sin(1/4*sy.pi)*t, (t, 0, 1)),
+        (sy.cos(1/4*sy.pi)*(0.5 + (1.5 - 0.5)*t), 0.5*sy.sin(1/4*sy.pi), (t, 0, 1)),
+        (1.5*sy.cos(1/4*sy.pi), sy.sin(1/4*sy.pi)*(0.5 + (1.5 - 0.5)*t), (t, 0, 1)),
+        (sy.cos(1/4*sy.pi)*(1.3 + (1.5 - 1.3)*t), 0.7*sy.sin(1/4*sy.pi), (t, 0, 1)),
+        (1.3*sy.cos(1/4*sy.pi), sy.sin(1/4*sy.pi)*(0.5 + (0.7 - 0.5)*t), (t, 0, 1)),
+        xlim = (-3, 3),
+        ylim = (-2, 2),
+        xlabel = '$x$',
+        ylabel = '$y$',
+        show = False,
+      )
+
+      if hasattr(p, '_backend'): p._backend.close()
+      p._backend = p.backend(p)
+      fg, ax = p._backend.fig, p._backend.ax
+
+      ax.text(-0.8, 0.55, '$a$')
+      ax.text(-0.12, 0.3, '$b$')
+      ax.text(0.2, 0.05, '$\\theta$')
+      ax.text(-0.2, -0.25, '$O$')
+      ax.text(1.05, 0.2, '$P$')
+      ax.tick_params(
+        axis = 'both',
+        which = 'both',
+        bottom = False,
+        left = False,
+        labelbottom = False,
+        labelleft = False,
+      )
+
+      p._backend.show()
+      ```
+    Back: |
+      $x = a\cos{\theta}$, $y = b\sin{\theta}$; $(x^2/a^2) + (y^2/b^2) = 1$, ellipse.
