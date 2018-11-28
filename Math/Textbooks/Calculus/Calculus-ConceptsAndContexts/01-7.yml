@@ -661,3 +661,9 @@ notes:
       CCAC 01.7 31a: Find parametric equations for the path of a particle that moves along the circle $x^2+(y-1)^2=4$ once around clockwise, starting at $(2,1)$.
     Back: |
       $x = 2\cos{t}$, $y = 1 - 2\sin{t}$, $0 \le t \le 2\pi$
+- id: 1543352285019
+  fields:
+    Front: |
+      CCAC 01.7 31b: Find parametric equations for the path of a particle that moves along the circle $x^2+(y-1)^2=4$ three times around counterclockwise, starting at $(2,1)$.
+    Back: |
+      $x = 2\cos{t}$, $y = 1 - 2\sin{t}$, $0 \le t \le 6\pi$
