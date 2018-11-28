@@ -56,3 +56,53 @@ notes:
 
       p._backend.show()
       ```
+- id: 1543347406744
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 01.7 03: Sketch a curve using the parametric equations below to plot points. Indicate with an arrow the direction in which the curve is traced as $t$ increases.
+      $$
+      x = \cos^2{t}, \ y = 1 - \sin{t}, \ 0 \le t \le \pi/2
+      $$
+    Back: |
+      ```{python echo = False}
+      import sympy as sy
+      import matplotlib.pyplot as plt
+      import math
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      def fx(t): return sy.cos(t)**2
+      def fy(t): return 1 - sy.sin(t)
+      def ffx(t): return math.cos(t)**2
+      def ffy(t): return 1 - math.sin(t)
+      def aro(ax, fx, fy, s, d, w):
+        def dfx(a,b): return fx(b) - fx(a)
+        def dfy(a,b): return fy(b) - fy(a)
+        return ax.arrow(fx(s-d), fy(s-d), dfx(s-d, s+d), dfy(s-d, s+d), head_width = w)
+
+      t = sy.symbols('t')
+      p = sy.plotting.plot_parametric(
+        (fx(t), fy(t), (t, 0, sy.pi/2)),
+        xlim = (-0.1, 1.7), ylim = (-0.1, 1.1),
+        xlabel = '$x$', ylabel = '$y$',
+        show = False,
+      )
+
+      if hasattr(p, '_backend'): p._backend.close()
+      p._backend = p.backend(p)
+      fg, ax = p._backend.fig, p._backend.ax
+
+      aro(ax, ffx, ffy, math.pi/4, 0.01, 0.03)
+      ax.plot(fx(0), fy(0), 'ko', markersize = 4)
+      ax.text(fx(0)+0.02, fy(0)+0.02, '(1,1), $t=0$', )
+      ax.plot(fx(sy.pi/6), fy(sy.pi/6), 'ko', markersize = 4)
+      ax.text(fx(sy.pi/6)-0.02, fy(sy.pi/6)+0.02, '$t=\\pi/6$', horizontalalignment='right')
+      ax.plot(fx(sy.pi/3), fy(sy.pi/3), 'ko', markersize = 4)
+      ax.text(fx(sy.pi/3)-0.02, fy(sy.pi/3)+0.02, '$t=\\pi/3$', horizontalalignment='right')
+      ax.plot(fx(sy.pi/2), fy(sy.pi/2), 'ko', markersize = 4)
+      ax.text(fx(sy.pi/2)-0.02, fy(sy.pi/2)+0.05, '$t=\\pi/2$', horizontalalignment='right')
+
+      p._backend.show()
+      ```
