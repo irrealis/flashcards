@@ -511,3 +511,83 @@ notes:
 
       p._backend.show()
       ```
+- id: 1543351010369
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 01.7 25: Use the graphs of $x=f(t)$ and $y=g(t)$ below to sketch the parametric curve $x=f(t), \ y=g(t)$. Indicate with arrows the direction in which the curve is traced as $t$ increases.
+      ```{python echo = False}
+      import sympy as sy
+      import matplotlib.pyplot as plt
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      t = sy.symbols('t')
+      p = sy.plot(
+        (sy.sin(4*sy.pi*t), (t, 0, 1)),
+        xlim = (-0, 1),
+        ylim = (-1.5, 1.5),
+        xlabel = '$t$',
+        ylabel = '$x$',
+      )
+      ```
+      ```{python echo = False}
+      import sympy as sy
+      import matplotlib.pyplot as plt
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      t = sy.symbols('t')
+      p = sy.plot(
+        (sy.sin(sy.pi*t), (t, 0, 1)),
+        xlim = (-0, 1),
+        ylim = (-1.5, 1.5),
+        xlabel = '$t$',
+        ylabel = '$y$',
+      )
+      ```
+    Back: |
+      ```{python echo = False}
+      import sympy as sy
+      import matplotlib.pyplot as plt
+      import math
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      def fx(t): return sy.sin(4*sy.pi*t)
+      def fy(t): return sy.sin(sy.pi*t)
+      def ffx(t): return math.sin(4*math.pi*t)
+      def ffy(t): return math.sin(math.pi*t)
+      def aro(ax, fx, fy, s, d, w):
+        def dx(a,b): return fx(b) - fx(a)
+        def dy(a,b): return fy(b) - fy(a)
+        return ax.arrow(fx(s-d), fy(s-d), dx(s-d, s+d), dy(s-d, s+d), head_width = w)
+
+      t = sy.symbols('t')
+      p = sy.plotting.plot_parametric(
+        (fx(t), fy(t), (t, 0, 1)),
+        xlim = (-1.5, 1.5),
+        ylim = (-0.5, 1.5),
+        xlabel = '$x$',
+        ylabel = '$y$',
+        show = False,
+      )
+
+      if hasattr(p, '_backend'): p._backend.close()
+      p._backend = p.backend(p)
+      fg, ax = p._backend.fig, p._backend.ax
+
+      ax.plot(fx(0), fy(0), 'ko', markersize = 4)
+      ax.text(fx(0)+0.05, fy(0)+0.1, '$t=0$')
+      aro(ax, ffx, ffy, 0.05, 0.001, 0.05)
+      aro(ax, ffx, ffy, 0.30, 0.001, 0.05)
+      ax.plot(fx(1/2), fy(1/2), 'ko', markersize = 4)
+      ax.text(fx(1/2)+0.05, fy(1/2)+0.1, '$t=1/2$')
+      aro(ax, ffx, ffy, 1-0.05, 0.001, 0.05)
+      aro(ax, ffx, ffy, 1-0.30, 0.001, 0.05)
+
+      p._backend.show()
+      ```
