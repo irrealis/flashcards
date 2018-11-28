@@ -158,7 +158,7 @@ notes:
   useMarkdown: pweave
   fields:
     Front: |
-      CCAC 01.6 27: Find an explicit formula $f^{-1}$ for the function below, and use the formula to plot $f^{-1}$, $f$, and the line $y=x$ on the same graph. To check your work, see whether the plots of $f$ and $f^{-1}$ are reflections about the line.
+      CCAC 01.6 27: Using software, find an explicit formula $f^{-1}$ for the function below, and use the formula to plot $f^{-1}$, $f$, and the line $y=x$ on the same graph. To check your work, see whether the plots of $f$ and $f^{-1}$ are reflections about the line.
       $$
       f(x) = x^4 + 1, \ x \ge 0
       $$
