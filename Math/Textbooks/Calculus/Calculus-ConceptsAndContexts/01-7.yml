@@ -616,3 +616,42 @@ notes:
         ylabel = '$y$',
       )
       ```
+- id: 1543351490370
+  fields:
+    Front: |
+      CCAC 01.7 29:
+      a. Show that the parametric equations
+      $$
+      x = x_1 + (x_2 - x_1)t, \ y = y_1 + (y_2 - y_1)t, \ 0 \le t \le 1
+      $$
+      describes the line segment that joins the points $P_1(x_1, y_1)$ and $P_2(x_2, y_2)$.
+      b. Find parametric equations to represent the line segment from $(-2, 7)$ to $(3, -1)$.
+    Back: |
+      a. Outline of the proof:
+
+      - Show that a line $P(t)$ is described by the parametric equations with $\mathbb{R}$ as the domain of $t$.
+      - Show that they describe $P_1(x_1, y_1)$ when $t=0$ and $P_2(x_2, y_2)$ when $t=1$.
+      - Show that $P(t)$ is within the line segment whenever $t\in(0,1)$.
+
+      Proof:
+
+      - To see that a line $P(t)$ is described by the parametric equations with $\mathbb{R}$ as the domain of $t$, we first solve for $t$:
+        $$
+        \frac{x-x_1}{x_2-x_1} = t = \frac{y-y_1}{y_2-y_1}
+        $$
+        The left and right sides can then be solved for $y$:
+        $$
+        \begin{align}
+          y &= (x-x_1)\frac{y_2-y_1}{x_2-x_1} + y_1 \\
+            &= x\frac{y_2-y_1}{x_2-x_1} + \left( y_1 - x_1\frac{y_2-y_1}{x_2-x_1} \right) \\
+        \end{align}
+        $$
+        This last is a slope-intercept description of a line, which shows that the parametric equations $P(t)$
+        $$
+        x = x_1 + (x_2 - x_1)t, \ y = y_1 + (y_2 - y_1)t
+        $$
+        describe the same line.
+      - Now observe that $x = x_1$ and $y = y_1$ when $t=0$; and that $x = x_1 + x_2 - x_1 = x_2$ and similarly $y = y_2$ when $t=1$. Thus $P(0)$ and $P(1)$ describe the endpoints of the line segment.
+      - Finally, we claim without proof that for $t\in(0,1)$, $|P(t)-P(0)|<|P(1)-P(0)|$ and $|P(t)-P(1)|<|P(1)-P(0)|$, and thus $P(t)$ lies on the line segment. We're feeling lazy, so won't go through all the steps to prove this.
+
+      b. $x = -2 + 5t$, $y = 7 - 8t$, $0 \le t \le 1$.
