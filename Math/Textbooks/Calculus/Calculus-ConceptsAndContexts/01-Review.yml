@@ -127,3 +127,42 @@ notes:
       $$
       [-6,6]
       $$
+- id: 1543449300119
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 01.Review 01d: Let $f$ be the function whose graph is given. State the range of $f$.
+      ```{python echo = False}
+      import matplotlib.pyplot as plt
+      import matplotlib.ticker as ticker
+      import numpy as np
+      import sympy as sy
+
+      import math
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      x = sy.symbols('x')
+      def f(x): return 5*sy.sin(1/8*sy.pi*x)
+      p = sy.plot(
+        (f(x), (x, -6, 6)),
+        xlim = (-9, 9), ylim = (-6, 6),
+        xlabel = '$x$', ylabel = '$y$',
+        show = False,
+      )
+
+      if hasattr(p, '_backend'): p._backend.close()
+      p._backend = p.backend(p)
+      fg, ax = p._backend.fig, p._backend.ax
+      p._backend.process_series()
+      x0, x1, y0, y1 = ax.axis()
+      ax.set_xticks(np.arange(x0+1, x1))
+      ax.set_yticks(np.arange(y0+1, y1))
+      ax.grid(which='major')
+      p._backend.plt.show()
+      ```
+    Back: |
+      $$
+      [-4,4]
+      $$
