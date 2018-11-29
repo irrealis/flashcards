@@ -511,3 +511,9 @@ notes:
       CCAC 01.Review 19a: If $f(x) = \ln{x}$ and $g(x) = x^2 - 9$, find the function $f \circ g$ and its domain.
     Back: |
       $(f \circ g)(x) = \ln(x^2 - 9)$, $(-\infty, -3) \cup (3, \infty)$
+- id: 1543450756881
+  fields:
+    Front: |
+      CCAC 01.Review 19b: If $f(x) = \ln{x}$ and $g(x) = x^2 - 9$, find the function $g \circ f$ and its domain.
+    Back: |
+      $(g \circ f)(x) = (\ln{x})^2 - 9$, $(0, \infty)$
