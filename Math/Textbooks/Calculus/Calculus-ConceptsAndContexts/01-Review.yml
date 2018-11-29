@@ -487,3 +487,12 @@ notes:
       $$
     Back: |
       Odd.
+- id: 1543450756572
+  fields:
+    Front: |
+      CCAC 01.Review 17c: Determine whether $f$ is even, odd, or neither even nor odd.
+      $$
+      f(x) = e^{-x^2}
+      $$
+    Back: |
+      Even.
