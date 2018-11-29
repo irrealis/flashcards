@@ -619,3 +619,16 @@ notes:
       CCAC 01.Review 25b: Find the exact value of the expression $\log_{10}{25} + \log_{10}{4}$.
     Back: |
       $2$.
+- id: 1543451770801
+  fields:
+    Front: |
+      CCAC 01.Review 27: The half-life of palladium-100, $^{100}\text{Pd}$, is four days. (So half of any given quantity of $^{100}\text{Pd}$ will disintegrate in four days.) The initial mass is one gram.
+      a. Find the mass that remains after 16 days.
+      b. Find the mass $m(t)$ that remains after $t$ days.
+      c. Find the inverse of this function, and explain its meaning.
+      d. When will the mass be reduced to 0.01 g?
+    Back: |
+      a. $\frac{1}{16}g$.
+      b. $m(t) = 2^{-t/4}$.
+      c. $t(m) = -4 \log_2{m}$; the time elapsed when there are $m$ grams of $^{100}\text{Pd}$.
+      d. About 26.6 days.
