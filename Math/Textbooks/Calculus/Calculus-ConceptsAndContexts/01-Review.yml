@@ -632,3 +632,41 @@ notes:
       b. $m(t) = 2^{-t/4}$.
       c. $t(m) = -4 \log_2{m}$; the time elapsed when there are $m$ grams of $^{100}\text{Pd}$.
       d. About 26.6 days.
+- id: 1543451770920
+  tags: [requiresCoding]
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 01.Review 29: Graph members of the family of functions $f(x) = \ln(x^2 - c)$ for several values of $c$. How does the graph change when $c$ changes?
+    Back: |
+      For $c < 0$, $f$ is defined everywhere. As $c$ increases, the dip at $x = 0$ becomes deeper. For $c \ge 0$, the graph has asymptotes at $x = \pm\sqrt{c}$.
+      ```{python }
+      import sympy as sy
+      import matplotlib.pyplot as plt
+      import seaborn as sns
+
+      with plt.style.context(('ggplot')):
+        sns.set()
+        plt.rc('text', usetex = True)
+        plt.rc('font', family = 'serif')
+
+        x = sy.symbols('x')
+        def f(x, c): return sy.ln(x**2 - c)
+        p = sy.plot(
+          f(x, -4),
+          f(x, -2),
+          f(x, -1),
+          f(x, 0),
+          f(x, 1),
+          f(x, 2),
+          f(x, 4),
+          xlim = (-5, 5), ylim = (-3, 3),
+          xlabel = '$x$', ylabel = '$y$',
+          show = False,
+          legend = True,
+        )
+        colors = sns.color_palette('hls', len(p._series))
+        for i, sp in enumerate(p):
+          sp.line_color = colors[i]
+        p.show()
+      ```
