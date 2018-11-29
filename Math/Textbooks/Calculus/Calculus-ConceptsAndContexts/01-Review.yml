@@ -710,3 +710,39 @@ notes:
       p._backend.show()
       ```
       b. $y = \sqrt{\ln{x}}$.
+- id: 1543451771120
+  tags: [requiresCoding]
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 01.Review 33: Use parametric equations to graph the function
+      $$
+      f(x) = 2x + \ln{x}
+      $$
+      and its inverse function on the same screen.
+    Back: |
+      ```{python }
+      import sympy as sy
+      import matplotlib.pyplot as plt
+      import math
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      t = sy.symbols('t')
+      def fx(t): return t
+      def fy(t): return 2*t + sy.ln(t)
+      p = sy.plotting.plot_parametric(
+        (fx(t), fy(t)),
+        (fy(t), fx(t)),
+        xlabel = '$x$', ylabel = '$y$',
+        xlim = (-1, 11), ylim = (-1, 7),
+        show = False,
+      )
+      if hasattr(p, '_backend'): p._backend.close()
+      p._backend = p.backend(p)
+      fg, ax = p._backend.fig, p._backend.ax
+      ax.text(1.6, 6, '$f$')
+      ax.text(6, 1.6, '$f^{-1}$')
+      p._backend.show()
+      ```
