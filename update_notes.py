@@ -277,9 +277,12 @@ class NoteSender(object):
     if 'id' not in rtnote: rtnote['id'] = 0
     # We want a shallow copy of all round-trip data.
     note = dict(rtnote)
-    # We also want the original round-trip data in case we need to change the YAML file.
+    # We also want the original round-trip data in case we need to change the
+    # YAML file.
     note['rtnote'] = rtnote
-    # Below we may make changes to the shallow-copy data that we don't want reflected in the YAML file.
+
+    # Below we may make changes to the shallow-copy data that we don't want
+    # reflected in the YAML file.
     note.setdefault('deckName', defaults['deckName'])
     note.setdefault('modelName', defaults['modelName'])
     note.setdefault('useMarkdown', defaults['useMarkdown'])
@@ -305,18 +308,14 @@ class NoteSender(object):
     fields.update(note.get("fields", dict()))
     note['fields'] = fields
 
-    # There are two pieces of data we may want to modify in the original file.
-    # To avoid confusion, we remove shallow copies of these data, and will use
-    # the round-trip versions instead. These data are:
-    # - The note ID. If a note with that ID can't be found in Anki's flashcard
-    #   deck, we assume the existing ID is bogus. We'll then create a new note,
-    #   get its ID, and replace the bogus ID with new ID, and store the new ID
-    #   in the YAML file.
-    # - The annotations field. If we can find this note in Anki's flashcard
-    #   deck, then we'll grab any annotations the user has made for that note,
-    #   and store them in the YAML file. If we are instead creating a new note,
-    #   we'll transfer any annotations from the YAML file to the new note.
-    # del note['id']
+    # Special handling for the annotations field. If we can find this note in
+    # Anki's flashcard deck, then we'll grab any annotations the user has made
+    # for that note, and store them in the YAML file. If we are instead creating
+    # a new note, we'll transfer any annotations from the YAML file to the new
+    # note.
+    #
+    # Because of this special handling, we remove annotations from the shallow
+    # copy of the note. We'll instead use the round-trip version.
     annotations_field = defaults['annotationsField']
     if annotations_field in note['fields']:
       del note['fields'][annotations_field]
@@ -389,18 +388,24 @@ class NoteSender(object):
         description = "{}:{}".format(note_id, fields)
 
         log.info("Processing note with ID: {}".format(note_id))
+        # log.debug("Note description: {}".format(description))
+        log.debug("Note fields: {}".format(fields))
+
         # Check for note with given ID.
         # Get info for existing note.
         creating_new_note = True
-        result = self.anki.notesInfo([note_id])
-        if result.get("error", None) or not result['result'][0]:
+        note_info = self.anki.notesInfo([note_id])
+
+        if note_info.get("error", None) or not note_info['result'][0]:
           log.info("Can't find note with ID %s; a new note will be created.", note_id)
         else:
           creating_new_note = False
 
+
         if creating_new_note:
           # No provided ID; assume new note should be created.
           log.debug("Creating new note...")
+
           temporary_fields = { k: self.format_text(
             str(v), False, md_sty, md_lineno, md_tablen, md_mathext,
           ) for (k, v) in fields.items() }
@@ -427,22 +432,37 @@ class NoteSender(object):
           note_id = "%s-%s-%s" % (note_id, note_uid, field_no)
         ) for (field_no, (k, v)) in enumerate(fields.items()) }
 
+        # If we found this note in Anki's flashcard deck, then we'll grab any
+        # annotations the user has made for that note, and store them in the
+        # YAML file. If we are instead creating a new note, we'll transfer any
+        # annotations from the YAML file to the new note.
+        annotations_field = defaults['annotationsField']
+        if creating_new_note:
+          log.debug("Transferring annotations to new note...")
+          # Transfer annotations from YAML file to new note.
+          annotations = rtnote['fields'].get(annotations_field, "")
+        else:
+          log.debug("Transferring annotations from existing note...")
+          upstream_fields = note_info['result'][0]['fields']
+          annotations = upstream_fields.get(annotations_field, dict(value = ''))['value']
+          # Transfer annotations from existing note to YAML file.
+          rtnote['fields'][annotations_field] = annotations
+        converted_fields[annotations_field] = annotations
+
         # Update converted note fields...
         result = self.anki.updateNoteFields(note_id, converted_fields)
         if result.get("error", None):
           log.warning("Can't update note: %s", description)
           continue
 
-
-        result = self.anki.notesInfo([note_id])
-
         # Update note tags...
         ## First get existing note tags.
-        if result.get("error", None):
+        note_info = self.anki.notesInfo([note_id])
+        if note_info.get("error", None):
           log.warning("Can't get tags for note: %s", description)
           continue
 
-        current_tags = sorted(result['result'][0]['tags'])
+        current_tags = sorted(note_info['result'][0]['tags'])
         if current_tags != tags:
           ## Remove existing note tags.
           result = self.anki.removeTags([note_id], " ".join(current_tags))
@@ -452,6 +472,8 @@ class NoteSender(object):
           result = self.anki.addTags([note_id], " ".join(tags))
           if result.get("error", None):
             log.warning("Can't add tags for note: %s", description)
+
+          note_info = self.anki.notesInfo([note_id])
 
 
   def loadsend_files(self, filenames):
