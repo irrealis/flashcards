@@ -496,3 +496,12 @@ notes:
       $$
     Back: |
       Even.
+- id: 1543450756669
+  fields:
+    Front: |
+      CCAC 01.Review 17d: Determine whether $f$ is even, odd, or neither even nor odd.
+      $$
+      f(x) = 1 + \sin{x}
+      $$
+    Back: |
+      Neither.
