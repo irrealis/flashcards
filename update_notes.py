@@ -308,17 +308,11 @@ class NoteSender(object):
     fields.update(note.get("fields", dict()))
     note['fields'] = fields
 
-    # Special handling for the annotations field. If we can find this note in
-    # Anki's flashcard deck, then we'll grab any annotations the user has made
-    # for that note, and store them in the YAML file. If we are instead creating
-    # a new note, we'll transfer any annotations from the YAML file to the new
-    # note.
-    #
-    # Because of this special handling, we remove annotations from the shallow
-    # copy of the note. We'll instead use the round-trip version.
     annotations_field = defaults['annotationsField']
     if annotations_field in note['fields']:
-      del note['fields'][annotations_field]
+      note['annotations'] = note['fields'][annotations_field]
+    else:
+      note['annotations'] = ''
 
     return note
 
@@ -372,7 +366,16 @@ class NoteSender(object):
       if query_results.empty:
         log.warning("Query returned no results.")
       else:
-        log.debug("query_results:\n %s", str(query_results))
+        if self.opts.question:
+          log.info("")
+          log.info("Running in question mode.")
+          log.info("Query results:\n %s", str(query_results))
+          log.info("")
+          log.info("Query result details below.")
+          log.info("")
+        else:
+          log.debug("Query results:\n %s", str(query_results))
+
       for i in query_results.index:
         rtnote = query_results.rtnote[i]
         note_id = str(rtnote['id'])
@@ -386,6 +389,17 @@ class NoteSender(object):
         tags = query_results.tags[i].replace(',','\n').split()
         fields = query_results.fields[i]
         description = "{}:{}".format(note_id, fields)
+
+        if self.opts.question:
+          log.info("*** ID: {}".format(note_id))
+          log.info("--- Note tags:")
+          log.info(rtyaml.dump(tags))
+          log.info("--- Note annotations:")
+          log.info(rtyaml.dump(query_results.annotations[i]))
+          log.info("--- Note fields:")
+          log.info(rtyaml.dump(fields))
+          log.info("")
+          continue
 
         log.info("Processing note with ID: {}".format(note_id))
         # log.debug("Note description: {}".format(description))
@@ -427,6 +441,19 @@ class NoteSender(object):
         # Assume provided ID is valid for existing note to be updated.
         # Convert each field from Markdown (if `use_md` is True).
         note_uid = uuid.uuid1()
+
+        # Special handling for the annotations field. If we can find this note
+        # in Anki's flashcard deck, then we'll grab any annotations the user has
+        # made for that note, and store them in the YAML file. If we are instead
+        # creating a new note, we'll transfer any annotations from the YAML file
+        # to the new note.
+        #
+        # Because of this special handling, we remove annotations from the
+        # shallow copy of the note. We'll instead use the round-trip version.
+
+        annotations_field = defaults['annotationsField']
+        if annotations_field in fields:
+          del fields[annotations_field]
         converted_fields = { k: self.format_text(
           str(v), use_md, md_sty, md_lineno, md_tablen, md_mathext,
           note_id = "%s-%s-%s" % (note_id, note_uid, field_no)
@@ -436,7 +463,6 @@ class NoteSender(object):
         # annotations the user has made for that note, and store them in the
         # YAML file. If we are instead creating a new note, we'll transfer any
         # annotations from the YAML file to the new note.
-        annotations_field = defaults['annotationsField']
         if creating_new_note:
           log.debug("Transferring annotations to new note...")
           # Transfer annotations from YAML file to new note.
@@ -514,6 +540,12 @@ def getopts():
     "input",
     help = "YAML file(s) with flashcard content",
     nargs = '+',
+  )
+  parser.add_argument(
+    "--question",
+    help = "Question mode; do not update Anki or YAML, just show query results",
+    action = 'store_true',
+    default = False,
   )
   parser.add_argument(
     "--default-deckname",
