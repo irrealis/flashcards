@@ -335,3 +335,9 @@ notes:
       CCAC 01.Review 09e: Suppose that the graph of $f$ is given. Describe how the graph of the function $y = -f(x)$ can be obtained from the graph of $f$.
     Back: |
       Reflect the graph about the $x$-axis.
+- id: 1543450755972
+  fields:
+    Front: |
+      CCAC 01.Review 09f: Suppose that the graph of $f$ is given. Describe how the graph of the function $y = f^{-1}(x)$ can be obtained from the graph of $f$.
+    Back: |
+      Reflect the graph about the line $y = x$ (assuming $f$ is one-to-one).
