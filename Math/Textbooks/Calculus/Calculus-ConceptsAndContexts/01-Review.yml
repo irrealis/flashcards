@@ -469,3 +469,12 @@ notes:
       ax.text(1, 1, '$$y = \\frac{1}{x+2}$$')
       p._backend.show()
       ```
+- id: 1543450756369
+  fields:
+    Front: |
+      CCAC 01.Review 17a: Determine whether $f$ is even, odd, or neither even nor odd.
+      $$
+      f(x) = 2x^5 - 3x^2 + 2
+      $$
+    Back: |
+      Neither.
