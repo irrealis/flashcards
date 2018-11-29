@@ -323,3 +323,9 @@ notes:
       CCAC 01.Review 09c: Suppose that the graph of $f$ is given. Describe how the graph of the function $y = 1 + 2f(x)$ can be obtained from the graph of $f$.
     Back: |
       Stretch the graph vertically by a factor of 2, then shift it 1 unit upward.
+- id: 1543450755769
+  fields:
+    Front: |
+      CCAC 01.Review 09d: Suppose that the graph of $f$ is given. Describe how the graph of the function $y = f(x - 2) - 2$ can be obtained from the graph of $f$.
+    Back: |
+      Shift the graph 2 units to the right and 2 units downward.
