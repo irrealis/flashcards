@@ -341,3 +341,45 @@ notes:
       CCAC 01.Review 09f: Suppose that the graph of $f$ is given. Describe how the graph of the function $y = f^{-1}(x)$ can be obtained from the graph of $f$.
     Back: |
       Reflect the graph about the line $y = x$ (assuming $f$ is one-to-one).
+- id: 1543450756069
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 01.Review 11: Use transformations to sketch the graph of the function.
+      $$
+      y = -\sin{2x}
+      $$
+    Back: |
+      ```{python echo = False}
+      import matplotlib.pyplot as plt
+      import sympy as sy
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      x = sy.symbols('x')
+      def f(x): return -sy.sin(2*x)
+      p = sy.plot(
+        (f(x), (x, -15, 15)),
+        xlim = (-15, 15), ylim = (-10, 10),
+        xlabel = '$x$', ylabel = '$y$',
+        show = False,
+      )
+
+      if hasattr(p, '_backend'): p._backend.close()
+      p._backend = p.backend(p)
+      fg, ax = p._backend.fig, p._backend.ax
+      ax.tick_params(
+        axis = 'both',
+        which = 'both',
+        bottom = False,
+        left = False,
+        labelbottom = False,
+        labelleft = False,
+      )
+      ax.text(0.2, 0.2, '$0$')
+      ax.plot(sy.pi, 0, 'ko', markersize = 4)
+      ax.text(sy.pi + 0.2, 0.2, '$\pi$')
+      ax.text(2, 2, '$y = -\\sin{2x}$')
+      p._backend.show()
+      ```
