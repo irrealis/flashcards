@@ -314,20 +314,19 @@ notes:
       import matplotlib.pyplot as plt
       from matplotlib import style
 
-      style.use('ggplot')
+      with plt.style.context(('ggplot')):
+        plt.rc('text', usetex = True)
+        plt.rc('font', family = 'serif')
 
-      plt.rc('text', usetex = True)
-      plt.rc('font', family = 'serif')
-
-      x = sy.symbols('x')
-      p = sy.plot(
-        (-(x-3), (x, 0, 3)),
-        (2*(x-3), (x, 3, 5)),
-        xlabel = '$x$',
-        ylabel = '$f(x)$',
-        xlim = (-2,6),
-        ylim = (-1,5),
-      )
+        x = sy.symbols('x')
+        p = sy.plot(
+          (-(x-3), (x, 0, 3)),
+          (2*(x-3), (x, 3, 5)),
+          xlabel = '$x$',
+          ylabel = '$f(x)$',
+          xlim = (-2,6),
+          ylim = (-1,5),
+        )
       ```
     Back: |
       $$
