@@ -670,3 +670,43 @@ notes:
           sp.line_color = colors[i]
         p.show()
       ```
+- id: 1543451771026
+  tags: [requiresCoding]
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 01.Review 31:
+      a. Sketch the curve represented by the parametric equations $x = e^t$, $y = \sqrt{t}$, $0 \le t \le 1$, and indicate with an arrow the direction in which the curve is traced as $t$ increases.
+      b. Eliminate the parameter to find a Cartesian equation of the curve.
+    Back: |
+      a.
+      ```{python }
+      import sympy as sy
+      import matplotlib.pyplot as plt
+      import math
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      t = sy.symbols('t')
+      def f(t): return sy.E**t, sy.sqrt(t), (t, 0, 1)
+      def ff(t): return math.e**t, math.sqrt(t), (t, 0, 1)
+      def aro(ax, f, s, d, w):
+        def dx(a,b): return f(b)[0] - f(a)[0]
+        def dy(a,b): return f(b)[1] - f(a)[1]
+        return ax.arrow(f(s-d)[0], f(s-d)[1], dx(s-d, s+d), dy(s-d, s+d), head_width = w)
+      p = sy.plotting.plot_parametric(
+        f(t),
+        xlabel = '$x$', ylabel = '$y$',
+        xlim = (0, 6), ylim = (-1, 3),
+        show = False,
+      )
+      if hasattr(p, '_backend'): p._backend.close()
+      p._backend = p.backend(p)
+      fg, ax = p._backend.fig, p._backend.ax
+      aro(ax, ff, 1/2, 0.001, 0.10)
+      ax.plot(math.e, 1, 'ko', markersize = 4)
+      ax.text(math.e + 0.1, 1, '$(e,1)$')
+      p._backend.show()
+      ```
+      b. $y = \sqrt{\ln{x}}$.
