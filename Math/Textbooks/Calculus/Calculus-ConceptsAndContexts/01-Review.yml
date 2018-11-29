@@ -601,3 +601,9 @@ notes:
       print('y = {}x + {}'.format(m, b))
       print('m*2010 + b = {}'.format(m*2010 + b))
       ```
+- id: 1543451770419
+  fields:
+    Front: |
+      CCAC 01.Review 23: If $f(x) = 2x + \ln{x}$, find $f^{-1}(2)$.
+    Back: |
+      $1$.
