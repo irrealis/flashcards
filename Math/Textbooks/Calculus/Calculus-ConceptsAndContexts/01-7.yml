@@ -56,6 +56,7 @@ notes:
 
       p._backend.show()
       ```
+    Annotations: ''
 - id: 1543347406744
   useMarkdown: pweave
   fields:
@@ -106,6 +107,7 @@ notes:
 
       p._backend.show()
       ```
+    Annotations: ''
 - id: 1543347406871
   useMarkdown: pweave
   fields:
@@ -157,6 +159,7 @@ notes:
       p._backend.show()
       ```
       b. $y = \frac{2}{3}x + \frac{13}{3}$
+    Annotations: ''
 - id: 1543347407019
   useMarkdown: pweave
   fields:
@@ -209,6 +212,7 @@ notes:
       p._backend.show()
       ```
       b. $y = \frac{2}{3}x + \frac{13}{3}$
+    Annotations: ''
 - id: 1543349723169
   useMarkdown: pweave
   fields:
@@ -253,6 +257,7 @@ notes:
       aro(ax, ffx, ffy, -math.pi/2, 0.01, 0.05)
       p._backend.show()
       ```
+    Annotations: ''
 - id: 1543349723344
   useMarkdown: pweave
   fields:
@@ -301,6 +306,7 @@ notes:
 
       p._backend.show()
       ```
+    Annotations: ''
 - id: 1543349723474
   useMarkdown: pweave
   fields:
@@ -349,6 +355,7 @@ notes:
 
       p._backend.show()
       ```
+    Annotations: ''
 - id: 1543349723594
   useMarkdown: pweave
   fields:
@@ -402,6 +409,7 @@ notes:
 
       p._backend.show()
       ```
+    Annotations: ''
 - id: 1543349943294
   fields:
     Front: |
@@ -411,6 +419,7 @@ notes:
       $$
     Back: |
       Moves counterclockwise along the circle $(x-3)^2 + (y-1)^2 = 4$ from $(3,3)$ to $(3,-1)$.
+    Annotations: ''
 - id: 1543349943443
   fields:
     Front: |
@@ -420,12 +429,16 @@ notes:
       $$
     Back: |
       Moves 3 times clockwise around the ellipse $(x^2/25) + (y^2/4) = 1$, starting and ending at $(0, -2)$.
+    Annotations: ''
 - id: 1543350081294
   fields:
-    Front: |
-      CCAC 01.7 21: Suppose a curve is given by the parametric equations $x=f(t)$, $y=g(t)$, where the range of $f$ is $[1,4]$ and the range of $g$ is $[2,3]$. What can you say about the curve?
+    Front: >
+      CCAC 01.7 21: Suppose a curve is given by the parametric equations $x=f(t)$,
+      $y=g(t)$, where the range of $f$ is $[1,4]$ and the range of $g$ is $[2,3]$.
+      What can you say about the curve?
     Back: |
       It is contained in the rectangle described by $1 \le x \le 4$ and $2 \le y \le 3$.
+    Annotations: ''
 - id: 1543351003944
   useMarkdown: pweave
   fields:
@@ -511,6 +524,7 @@ notes:
 
       p._backend.show()
       ```
+    Annotations: ''
 - id: 1543351010369
   useMarkdown: pweave
   fields:
@@ -591,8 +605,10 @@ notes:
 
       p._backend.show()
       ```
+    Annotations: ''
 - id: 1543351490194
-  tags: [requiresCoding]
+  tags:
+  - requiresCoding
   useMarkdown: pweave
   fields:
     Front: |
@@ -616,6 +632,7 @@ notes:
         ylabel = '$y$',
       )
       ```
+    Annotations: ''
 - id: 1543351490370
   fields:
     Front: |
@@ -655,27 +672,37 @@ notes:
       - Finally, we claim without proof that for $t\in(0,1)$, $|P(t)-P(0)|<|P(1)-P(0)|$ and $|P(t)-P(1)|<|P(1)-P(0)|$, and thus $P(t)$ lies on the line segment. We're feeling lazy, so won't go through all the steps to prove this.
 
       b. $x = -2 + 5t$, $y = 7 - 8t$, $0 \le t \le 1$.
+    Annotations: ''
 - id: 1543352284844
   fields:
-    Front: |
-      CCAC 01.7 31a: Find parametric equations for the path of a particle that moves along the circle $x^2+(y-1)^2=4$ once around clockwise, starting at $(2,1)$.
+    Front: >
+      CCAC 01.7 31a: Find parametric equations for the path of a particle that moves
+      along the circle $x^2+(y-1)^2=4$ once around clockwise, starting at $(2,1)$.
     Back: |
       $x = 2\cos{t}$, $y = 1 - 2\sin{t}$, $0 \le t \le 2\pi$
+    Annotations: ''
 - id: 1543352285019
   fields:
-    Front: |
-      CCAC 01.7 31b: Find parametric equations for the path of a particle that moves along the circle $x^2+(y-1)^2=4$ three times around counterclockwise, starting at $(2,1)$.
+    Front: >
+      CCAC 01.7 31b: Find parametric equations for the path of a particle that moves
+      along the circle $x^2+(y-1)^2=4$ three times around counterclockwise, starting
+      at $(2,1)$.
     Back: |
       $x = 2\cos{t}$, $y = 1 - 2\sin{t}$, $0 \le t \le 6\pi$
+    Annotations: ''
 - id: 1543352285152
   fields:
-    Front: |
-      CCAC 01.7 31c: Find parametric equations for the path of a particle that moves along the circle $x^2+(y-1)^2=4$ halfway around counterclockwise, starting at $(0,3)$.
+    Front: >
+      CCAC 01.7 31c: Find parametric equations for the path of a particle that moves
+      along the circle $x^2+(y-1)^2=4$ halfway around counterclockwise, starting at
+      $(0,3)$.
     Back: |
       $x = 2\cos{t}$, $y = 1 - 2\sin{t}$, $-\pi/2 \le t \le 3\pi/2$
+    Annotations: ''
 - id: 1543352285294
   useMarkdown: pweave
-  tags: [requiresCoding]
+  tags:
+  - requiresCoding
   fields:
     Front: |
       CCAC 01.7 33: Use software to reproduce the picture below.
@@ -732,6 +759,7 @@ notes:
         xlabel = '$x$', ylabel = '$y$',
       )
       ```
+    Annotations: ''
 - id: 1543352289731
   fields:
     Front: |
@@ -739,8 +767,10 @@ notes:
       a. $x = t^3$, $y = t^2$
       b. $x = t^6$, $y = t^4$
       c. $x = e^{-3t}$, $y = e^{-2t}$
-    Back: |
-      The curve $y=x^{2/3}$ is generated in (a). In (b), only the portion with $x\ge 0$ is generated, and in (c) we get only the portion with $x>0$.
+    Back: >
+      The curve $y=x^{2/3}$ is generated in (a). In (b), only the portion with $x\ge
+      0$ is generated, and in (c) we get only the portion with $x>0$.
+    Annotations: ''
 - id: 1543354284869
   useMarkdown: pweave
   fields:
@@ -793,8 +823,10 @@ notes:
       ```
     Back: |
       $x = a\cos{\theta}$, $y = b\sin{\theta}$; $(x^2/a^2) + (y^2/b^2) = 1$, ellipse.
+    Annotations: ''
 - id: 1543354962519
-  tags: [requiresCoding]
+  tags:
+  - requiresCoding
   useMarkdown: pweave
   fields:
     Front: |
@@ -831,12 +863,16 @@ notes:
       ```
       b. One collision point at $(-3,0)$ when $t = 3\pi/2$.
       c. There are still two intersection points, but no collision point.
+    Annotations: ''
 - id: 1543437734870
-  tags: [requiresCoding]
+  tags:
+  - requiresCoding
   useMarkdown: pweave
   fields:
-    Front: |
-      CCAC 01.7 43: Use software to investigate the family of curves defined by the parametric equations $x = t^2$, $y = t^3 - ct$. How does the shape change as $c$ increases? Illustrate by graphing several members of the family.
+    Front: >
+      CCAC 01.7 43: Use software to investigate the family of curves defined by the
+      parametric equations $x = t^2$, $y = t^3 - ct$. How does the shape change as
+      $c$ increases? Illustrate by graphing several members of the family.
     Back: |
       For $c = 0$, there is a cusp; for $c > 0$, there is a loop whose size increases as $c$ increases.
       ```{python }
@@ -877,12 +913,16 @@ notes:
       p[1].line_color = 'blue'
       p.show()
       ```
+    Annotations: ''
 - id: 1543438171219
-  tags: [requiresCoding]
+  tags:
+  - requiresCoding
   useMarkdown: pweave
   fields:
-    Front: |
-      CCAC 01.7 45: The curves with equations $x=a\sin{nt}$, $y=b\cos{t}$ are called **Lissajous figures**. Use software to investigate how these curves vary when $a$, $b$, and $n$ vary. (Take $n$ to be a positive integer.)
+    Front: >
+      CCAC 01.7 45: The curves with equations $x=a\sin{nt}$, $y=b\cos{t}$ are called
+      **Lissajous figures**. Use software to investigate how these curves vary when
+      $a$, $b$, and $n$ vary. (Take $n$ to be a positive integer.)
     Back: |
       As $n$ increases, the number of oscillations increases; $a$ and $b$ determine the width and height.
       ```{python }
@@ -963,3 +1003,4 @@ notes:
       p[2].line_color = 'blue'
       p.show()
       ```
+    Annotations: ''

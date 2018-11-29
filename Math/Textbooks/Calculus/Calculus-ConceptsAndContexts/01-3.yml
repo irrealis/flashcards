@@ -12,68 +12,86 @@ defaults:
 notes:
 - id: 1542483083194
   fields:
-    Front: |
-      CCAC 01.3 01a: Suppose the graph of $f$ is given. Write the equation for the graph obtained from the graph of $f$ by shifting 3 units upward.
+    Front: >
+      CCAC 01.3 01a: Suppose the graph of $f$ is given. Write the equation for the
+      graph obtained from the graph of $f$ by shifting 3 units upward.
     Back: |
       $$
       y = f(x) + 3
       $$
+    Annotations: ''
 - id: 1542483083331
   fields:
-    Front: |
-      CCAC 01.3 01b: Suppose the graph of $f$ is given. Write the equation for the graph obtained from the graph of $f$ by shifting 3 units downward.
+    Front: >
+      CCAC 01.3 01b: Suppose the graph of $f$ is given. Write the equation for the
+      graph obtained from the graph of $f$ by shifting 3 units downward.
     Back: |
       $$
       y = f(x) - 3
       $$
+    Annotations: ''
 - id: 1542483083447
   fields:
-    Front: |
-      CCAC 01.3 01c: Suppose the graph of $f$ is given. Write the equation for the graph obtained from the graph of $f$ by shifting 3 units to the right.
+    Front: >
+      CCAC 01.3 01c: Suppose the graph of $f$ is given. Write the equation for the
+      graph obtained from the graph of $f$ by shifting 3 units to the right.
     Back: |
       $$
       y = f(x - 3)
       $$
+    Annotations: ''
 - id: 1542483083544
   fields:
-    Front: |
-      CCAC 01.3 01d: Suppose the graph of $f$ is given. Write the equation for the graph obtained from the graph of $f$ by shifting 3 units to the left.
+    Front: >
+      CCAC 01.3 01d: Suppose the graph of $f$ is given. Write the equation for the
+      graph obtained from the graph of $f$ by shifting 3 units to the left.
     Back: |
       $$
       y = f(x + 3)
       $$
+    Annotations: ''
 - id: 1542483083644
   fields:
-    Front: |
-      CCAC 01.3 01e: Suppose the graph of $f$ is given. Write the equation for the graph obtained from the graph of $f$ by reflecting about the $x$ axis.
+    Front: >
+      CCAC 01.3 01e: Suppose the graph of $f$ is given. Write the equation for the
+      graph obtained from the graph of $f$ by reflecting about the $x$ axis.
     Back: |
       $$
       y = -f(x)
       $$
+    Annotations: ''
 - id: 1542483083744
   fields:
-    Front: |
-      CCAC 01.3 01f: Suppose the graph of $f$ is given. Write the equation for the graph obtained from the graph of $f$ by reflecting about the $y$ axis.
+    Front: >
+      CCAC 01.3 01f: Suppose the graph of $f$ is given. Write the equation for the
+      graph obtained from the graph of $f$ by reflecting about the $y$ axis.
     Back: |
       $$
       y = f(-x)
       $$
+    Annotations: ''
 - id: 1542483083843
   fields:
-    Front: |
-      CCAC 01.3 01g: Suppose the graph of $f$ is given. Write the equation for the graph obtained from the graph of $f$ by stretching vertically by a factor of 3.
+    Front: >
+      CCAC 01.3 01g: Suppose the graph of $f$ is given. Write the equation for the
+      graph obtained from the graph of $f$ by stretching vertically by a factor of
+      3.
     Back: |
       $$
       y = 3f(x)
       $$
+    Annotations: ''
 - id: 1542483083950
   fields:
-    Front: |
-      CCAC 01.3 01h: Suppose the graph of $f$ is given. Write the equation for the graph obtained from the graph of $f$ by shrinking vertically by a factor of 3.
+    Front: >
+      CCAC 01.3 01h: Suppose the graph of $f$ is given. Write the equation for the
+      graph obtained from the graph of $f$ by shrinking vertically by a factor of
+      3.
     Back: |
       $$
       y = \frac{1}{3} f(x)
       $$
+    Annotations: ''
 - id: 1542483084044
   useMarkdown: pweave
   fields:
@@ -154,6 +172,7 @@ notes:
       c. 4; $\frac{1}{3}f(x)$ shrinks $f$ vertically by a factor of 3.
       d. 5; $-f(x+4)$ translates $f$ 4 units leftward and reflects $f$ about the $x$ axis.
       3. 2; $2f(x+6)$ translates $f$ 6 units leftward and stretches $f$ vertically by a factor of 2.
+    Annotations: ''
 - id: 1542515572444
   useMarkdown: pweave
   fields:
@@ -198,6 +217,7 @@ notes:
           ylabel = '$y$',
         )
       ```
+    Annotations: ''
 - id: 1542515575369
   useMarkdown: pweave
   fields:
@@ -242,6 +262,7 @@ notes:
           ylabel = '$y$',
         )
       ```
+    Annotations: ''
 - id: 1542515577820
   useMarkdown: pweave
   fields:
@@ -286,6 +307,7 @@ notes:
           ylabel = '$y$',
         )
       ```
+    Annotations: ''
 - id: 1542515580318
   useMarkdown: pweave
   fields:
@@ -330,6 +352,7 @@ notes:
           ylabel = '$y$',
         )
       ```
+    Annotations: ''
 - id: 1542516047269
   useMarkdown: pweave
   fields:
@@ -381,11 +404,14 @@ notes:
       $$
       y = -\sqrt{-x^2 - 5x - 4} - 1
       $$
+    Annotations: ''
 - id: 1542517339370
   useMarkdown: pweave
   fields:
-    Front: |
-      CCAC 01.3 09: Graph the function $y=-x^3$ by hand, not by plotting points, but by starting with the graph of one of the standard functions given in section 1.2 of CCAC, and then applying appropriate transformations.
+    Front: >
+      CCAC 01.3 09: Graph the function $y=-x^3$ by hand, not by plotting points, but
+      by starting with the graph of one of the standard functions given in section
+      1.2 of CCAC, and then applying appropriate transformations.
     Back: |
       ```{python echo = False}
       import sympy as sy
@@ -413,11 +439,14 @@ notes:
 
       p._backend.show()
       ```
+    Annotations: ''
 - id: 1542517339497
   useMarkdown: pweave
   fields:
-    Front: |
-      CCAC 01.3 11: Graph the function $y=(x+1)^2$ by hand, not by plotting points, but by starting with the graph of one of the standard functions given in section 1.2 of CCAC, and then applying appropriate transformations.
+    Front: >
+      CCAC 01.3 11: Graph the function $y=(x+1)^2$ by hand, not by plotting points,
+      but by starting with the graph of one of the standard functions given in section
+      1.2 of CCAC, and then applying appropriate transformations.
     Back: |
       ```{python echo = False}
       import sympy as sy
@@ -445,11 +474,14 @@ notes:
 
       p._backend.show()
       ```
+    Annotations: ''
 - id: 1542517339594
   useMarkdown: pweave
   fields:
-    Front: |
-      CCAC 01.3 13: Graph the function $y=1+2\cos{x}$ by hand, not by plotting points, but by starting with the graph of one of the standard functions given in section 1.2 of CCAC, and then applying appropriate transformations.
+    Front: >
+      CCAC 01.3 13: Graph the function $y=1+2\cos{x}$ by hand, not by plotting points,
+      but by starting with the graph of one of the standard functions given in section
+      1.2 of CCAC, and then applying appropriate transformations.
     Back: |
       ```{python echo = False}
       import sympy as sy
@@ -479,11 +511,14 @@ notes:
 
       p._backend.show()
       ```
+    Annotations: ''
 - id: 1542517339693
   useMarkdown: pweave
   fields:
-    Front: |
-      CCAC 01.3 15: Graph the function $y=\sin{x/2}$ by hand, not by plotting points, but by starting with the graph of one of the standard functions given in section 1.2 of CCAC, and then applying appropriate transformations.
+    Front: >
+      CCAC 01.3 15: Graph the function $y=\sin{x/2}$ by hand, not by plotting points,
+      but by starting with the graph of one of the standard functions given in section
+      1.2 of CCAC, and then applying appropriate transformations.
     Back: |
       ```{python echo = False}
       import sympy as sy
@@ -513,11 +548,14 @@ notes:
 
       p._backend.show()
       ```
+    Annotations: ''
 - id: 1542517339793
   useMarkdown: pweave
   fields:
-    Front: |
-      CCAC 01.3 17: Graph the function $y=\sqrt{x+3}$ by hand, not by plotting points, but by starting with the graph of one of the standard functions given in section 1.2 of CCAC, and then applying appropriate transformations.
+    Front: >
+      CCAC 01.3 17: Graph the function $y=\sqrt{x+3}$ by hand, not by plotting points,
+      but by starting with the graph of one of the standard functions given in section
+      1.2 of CCAC, and then applying appropriate transformations.
     Back: |
       ```{python echo = False}
       import sympy as sy
@@ -545,11 +583,14 @@ notes:
 
       p._backend.show()
       ```
+    Annotations: ''
 - id: 1542517339929
   useMarkdown: pweave
   fields:
-    Front: |
-      CCAC 01.3 19: Graph the function $y=\frac{1}{2}(x^2+8x)$ by hand, not by plotting points, but by starting with the graph of one of the standard functions given in section 1.2 of CCAC, and then applying appropriate transformations.
+    Front: >
+      CCAC 01.3 19: Graph the function $y=\frac{1}{2}(x^2+8x)$ by hand, not by plotting
+      points, but by starting with the graph of one of the standard functions given
+      in section 1.2 of CCAC, and then applying appropriate transformations.
     Back: |
       ```{python echo = False}
       import sympy as sy
@@ -577,11 +618,14 @@ notes:
 
       p._backend.show()
       ```
+    Annotations: ''
 - id: 1542517340044
   useMarkdown: pweave
   fields:
-    Front: |
-      CCAC 01.3 21: Graph the function $y=|x-2|$ by hand, not by plotting points, but by starting with the graph of one of the standard functions given in section 1.2 of CCAC, and then applying appropriate transformations.
+    Front: >
+      CCAC 01.3 21: Graph the function $y=|x-2|$ by hand, not by plotting points,
+      but by starting with the graph of one of the standard functions given in section
+      1.2 of CCAC, and then applying appropriate transformations.
     Back: |
       ```{python echo = False}
       import sympy as sy
@@ -610,11 +654,14 @@ notes:
 
       p._backend.show()
       ```
+    Annotations: ''
 - id: 1542517340153
   useMarkdown: pweave
   fields:
-    Front: |
-      CCAC 01.3 23: Graph the function $y=|\sqrt{x}-1|$ by hand, not by plotting points, but by starting with the graph of one of the standard functions given in section 1.2 of CCAC, and then applying appropriate transformations.
+    Front: >
+      CCAC 01.3 23: Graph the function $y=|\sqrt{x}-1|$ by hand, not by plotting points,
+      but by starting with the graph of one of the standard functions given in section
+      1.2 of CCAC, and then applying appropriate transformations.
     Back: |
       ```{python echo = False}
       import sympy as sy
@@ -644,12 +691,14 @@ notes:
 
       p._backend.show()
       ```
+    Annotations: ''
 - id: 1542517340268
   fields:
     Front: |
       CCAC 01.3 27a: How is the graph of $y=f(|x|)$ related to the graph of $f$?
     Back: |
       The portion of the graph of $y = f(x)$ to the right of the $y$-axis is reflected about the $y$-axis.
+    Annotations: ''
 - id: 1542517737494
   useMarkdown: pweave
   fields:
@@ -685,6 +734,7 @@ notes:
 
       p._backend.show()
       ```
+    Annotations: ''
 - id: 1542517737635
   useMarkdown: pweave
   fields:
@@ -720,6 +770,7 @@ notes:
 
       p._backend.show()
       ```
+    Annotations: ''
 - id: 1542653617595
   fields:
     Front: |
@@ -732,6 +783,7 @@ notes:
       b. $(f - g)(x) = x^3 - x^2 + 1, \ (-\infty, \infty)$
       c. $(fg)(x) = 3x^5 + 6x^4 - x^3 - 2x^2, \ (-\infty, \infty)$
       d. $(f/g)(x) = \frac{x^3 + 2x^2}{3x^2 - 1}, \ \{x | x \ne \pm 1/\sqrt{3}\}$
+    Annotations: ''
 - id: 1542654360144
   fields:
     Front: |
@@ -744,6 +796,7 @@ notes:
       b. $(g \circ f)(x) = 2x^2 - 1, \ (-\infty, \infty)$
       c. $(f \circ f)(x) = x^4 - 2x^2, \ (-\infty, \infty)$
       d. $(g \circ g)(x) = 4x + 3, \ (-\infty, \infty)$
+    Annotations: ''
 - id: 1542654360272
   fields:
     Front: |
@@ -756,6 +809,7 @@ notes:
       b. $(g \circ f)(x) = \cos(1-3x), \ (-\infty, \infty)$
       c. $(f \circ f)(x) = 9x - 2, \ (-\infty, \infty)$
       d. $(g \circ g)(x) = \cos(\cos{x}), \ (-\infty, \infty)$
+    Annotations: ''
 - id: 1542654360370
   fields:
     Front: |
@@ -768,6 +822,7 @@ notes:
       b. $(g \circ f)(x) = \frac{x^2 + x + 1}{(x+1)^2}, \ \{x | x \ne -1, 0\}$
       c. $(f \circ f)(x) = \frac{x^4 + 3x^2 + 1}{x(x^2 + 1)}, \ \{x | x \ne 0\}$
       d. $(g \circ g)(x) = \frac{2x + 3}{3x + 5}, \ \{x | x \ne -2, -\frac{5}{3}\}$
+    Annotations: ''
 - id: 1542654360470
   fields:
     Front: |
@@ -779,6 +834,7 @@ notes:
       $$
       (f \circ g \circ h)(x) = 2x - 1
       $$
+    Annotations: ''
 - id: 1542654360570
   fields:
     Front: |
@@ -790,6 +846,7 @@ notes:
       $$
       (f \circ g \circ h)(x) = \sqrt{x^6 + 4x^3 + 1}
       $$
+    Annotations: ''
 - id: 1542654360669
   fields:
     Front: |
@@ -801,6 +858,7 @@ notes:
       $$
       g(x) = 2x + x^2, \ f(x) = x^4
       $$
+    Annotations: ''
 - id: 1542654360775
   fields:
     Front: |
@@ -812,6 +870,7 @@ notes:
       $$
       g(x) = \sqrt[3]{x}, \ f(x) = x/(1+x)
       $$
+    Annotations: ''
 - id: 1542654360872
   fields:
     Front: |
@@ -823,6 +882,7 @@ notes:
       $$
       g(t) = \cos{t}, \ f(t) = \sqrt{t}
       $$
+    Annotations: ''
 - id: 1542654360969
   fields:
     Front: |
@@ -834,6 +894,7 @@ notes:
       $$
       h(x) = x^2, \ g(x) = 3^x, \ f(x) = 1 - x
       $$
+    Annotations: ''
 - id: 1542654361069
   fields:
     Front: |
@@ -845,6 +906,7 @@ notes:
       $$
       h(x) = \sqrt{x}, \ g(x) = \sec{x}, \ f(x) = x^4
       $$
+    Annotations: ''
 - id: 1542655666945
   useMarkdown: pweave
   fields:
@@ -893,6 +955,7 @@ notes:
       ```
     Back: |
       $4$
+    Annotations: ''
 - id: 1542655671047
   useMarkdown: pweave
   fields:
@@ -941,6 +1004,7 @@ notes:
       ```
     Back: |
       $3$
+    Annotations: ''
 - id: 1542655674394
   useMarkdown: pweave
   fields:
@@ -989,6 +1053,7 @@ notes:
       ```
     Back: |
       $0$
+    Annotations: ''
 - id: 1542655677872
   useMarkdown: pweave
   fields:
@@ -1037,6 +1102,7 @@ notes:
       ```
     Back: |
       Does not exist; $f(6) = 6$ is not in the domain of $g$.
+    Annotations: ''
 - id: 1542655681394
   useMarkdown: pweave
   fields:
@@ -1085,6 +1151,7 @@ notes:
       ```
     Back: |
       $4$
+    Annotations: ''
 - id: 1542655684844
   useMarkdown: pweave
   fields:
@@ -1133,26 +1200,40 @@ notes:
       ```
     Back: |
       $-2$
+    Annotations: ''
 - id: 1542655852044
   fields:
-    Front: |
-      CCAC 01.3 53: A stone is dropped into a lake, creating a circular ripple that travels outward at a speed of 60 cm/s.
+    Front: >
+      CCAC 01.3 53: A stone is dropped into a lake, creating a circular ripple that
+      travels outward at a speed of 60 cm/s.
+
       a. Express the radius $r$ of this circle as a function of the time $t$ (in seconds).
-      b. If $A$ is the area of this circle as a function of the radius, find $A \circ r$ and interpret it.
+
+      b. If $A$ is the area of this circle as a function of the radius, find $A \circ
+      r$ and interpret it.
     Back: |
       a. $r(t) = 60t$
       b. $(A \circ r)(t) = 3600 \pi t^2$; the area of the circle as a function of time
+    Annotations: ''
 - id: 1542656068319
   fields:
-    Front: |
-      CCAC 01.3 55: A ship is moving at a speed of 30 km/h parallel to a straight shoreline. The ship is 6 km from shore, and it passes a lighthouse at noon.
-      a. Express the distance $s$ between the lighthouse and the ship as a funciton of $d$, the distance the ship has traveled since noon; that is, find $f$ so that $s = f(d)$.
-      b. Express $d$ as a function of $t$, the time elapsed since noon; that is, find $g$ so that $d = g(t)$.
+    Front: >
+      CCAC 01.3 55: A ship is moving at a speed of 30 km/h parallel to a straight
+      shoreline. The ship is 6 km from shore, and it passes a lighthouse at noon.
+
+      a. Express the distance $s$ between the lighthouse and the ship as a funciton
+      of $d$, the distance the ship has traveled since noon; that is, find $f$ so
+      that $s = f(d)$.
+
+      b. Express $d$ as a function of $t$, the time elapsed since noon; that is, find
+      $g$ so that $d = g(t)$.
+
       c. Find $f \circ g$. What does this function represent?
     Back: |
       a. $s = \sqrt{d^2 + 36}$
       b. $d = 30t$
       c. $(f \circ g)(t) = \sqrt{900t^2 + 36}$; the distance between the lighthouse and the ship as a function of the time elapsed since noon
+    Annotations: ''
 - id: 1542656354744
   useMarkdown: pweave
   fields:
@@ -1268,20 +1349,27 @@ notes:
       $$
       V(t) = 240H(t-5)
       $$
+    Annotations: ''
 - id: 1542657017919
   fields:
-    Front: |
-      CCAC 01.3 59: Let $f$ and $g$ be linear functions with equations $f(x) = m_1 x + b_1$ and $g(x) = m_2 x + b_2$. Is $f \circ g$ also a linear function? If so, what is the slope of its graph?
+    Front: >
+      CCAC 01.3 59: Let $f$ and $g$ be linear functions with equations $f(x) = m_1
+      x + b_1$ and $g(x) = m_2 x + b_2$. Is $f \circ g$ also a linear function? If
+      so, what is the slope of its graph?
     Back: |
       Yes; $m_1 m_2$
+    Annotations: ''
 - id: 1542657018051
   fields:
-    Front: |
-      CCAC 01.3 61a: If $g(x) = 2x + 1$ and $h(x) = 4x^2 + 4x + 7$, find a function $f$ such that $f \circ g = h$. (Think about what operation you would have to perform on the formula for $g$ to end up with the formula for $h$.)
+    Front: >
+      CCAC 01.3 61a: If $g(x) = 2x + 1$ and $h(x) = 4x^2 + 4x + 7$, find a function
+      $f$ such that $f \circ g = h$. (Think about what operation you would have to
+      perform on the formula for $g$ to end up with the formula for $h$.)
     Back: |
       $$
       f(x) = x^2 + 6
       $$
+    Annotations: ''
 - id: 1542657018169
   fields:
     Front: |
@@ -1290,9 +1378,11 @@ notes:
       $$
       g(x) = x^2 + x - 1
       $$
+    Annotations: ''
 - id: 1542657018277
   fields:
     Front: |
       CCAC 01.3 63: Suppose $g$ is an even function, and let $h = f \circ g$. Is $h$ always an even function?
     Back: |
       Yes.
+    Annotations: ''

@@ -21,6 +21,7 @@ notes:
       $$
       4
       $$
+    Annotations: ''
 - id: 1542728779224
   fields:
     Front: |
@@ -32,6 +33,7 @@ notes:
       $$
       x^{-4/3}
       $$
+    Annotations: ''
 - id: 1542728779319
   fields:
     Front: |
@@ -43,6 +45,7 @@ notes:
       $$
       16b^{12}
       $$
+    Annotations: ''
 - id: 1542728779419
   fields:
     Front: |
@@ -54,6 +57,7 @@ notes:
       $$
       648y^7
       $$
+    Annotations: ''
 - id: 1542728779569
   useMarkdown: pweave
   fields:
@@ -127,8 +131,10 @@ notes:
         ylabel = '$y$',
       )
       ```
+    Annotations: ''
 - id: 1542728779944
-  tags: [requiresCoding]
+  tags:
+  - requiresCoding
   useMarkdown: pweave
   fields:
     Front: |
@@ -157,8 +163,10 @@ notes:
       )
       ```
       All approach $0$ as $x\rightarrow-\infty$, all pass through $(0,1)$, and all are increasing. The larger the base, the faster the rate of increase.
+    Annotations: ''
 - id: 1542728780096
-  tags: [requiresCoding]
+  tags:
+  - requiresCoding
   useMarkdown: pweave
   fields:
     Front: |
@@ -187,11 +195,14 @@ notes:
       )
       ```
       The functions with base greater than $1$ are increasing, and those with base less than $1$ are decreasing. The latter are reflections of the former about the $x$-axis.
+    Annotations: ''
 - id: 1542728780221
   useMarkdown: pweave
   fields:
-    Front: |
-      CCAC 01.5 11: Make a rough sketch of the graph of the function $y=10^{x+2}$. Do not use a calculator. Just use the graphs given in Figures 3 and 13 of CCAC-1.5 and, if necessary, the transformations of CCAC-1.3.
+    Front: >
+      CCAC 01.5 11: Make a rough sketch of the graph of the function $y=10^{x+2}$.
+      Do not use a calculator. Just use the graphs given in Figures 3 and 13 of CCAC-1.5
+      and, if necessary, the transformations of CCAC-1.3.
     Back: |
       ```{python echo = False}
       import sympy as sy
@@ -209,11 +220,14 @@ notes:
         ylabel = '$y$',
       )
       ```
+    Annotations: ''
 - id: 1542728780319
   useMarkdown: pweave
   fields:
-    Front: |
-      CCAC 01.5 13: Make a rough sketch of the graph of the function $y=-2^{-x}$. Do not use a calculator. Just use the graphs given in Figures 3 and 13 of CCAC-1.5 and, if necessary, the transformations of CCAC-1.3.
+    Front: >
+      CCAC 01.5 13: Make a rough sketch of the graph of the function $y=-2^{-x}$.
+      Do not use a calculator. Just use the graphs given in Figures 3 and 13 of CCAC-1.5
+      and, if necessary, the transformations of CCAC-1.3.
     Back: |
       ```{python echo = False}
       import sympy as sy
@@ -231,11 +245,14 @@ notes:
         ylabel = '$y$',
       )
       ```
+    Annotations: ''
 - id: 1542728780421
   useMarkdown: pweave
   fields:
-    Front: |
-      CCAC 01.5 15: Make a rough sketch of the graph of the function $y=1-\frac{1}{2}e^{-x}$. Do not use a calculator. Just use the graphs given in Figures 3 and 13 of CCAC-1.5 and, if necessary, the transformations of CCAC-1.3.
+    Front: >
+      CCAC 01.5 15: Make a rough sketch of the graph of the function $y=1-\frac{1}{2}e^{-x}$.
+      Do not use a calculator. Just use the graphs given in Figures 3 and 13 of CCAC-1.5
+      and, if necessary, the transformations of CCAC-1.3.
     Back: |
       ```{python echo = False}
       import sympy as sy
@@ -264,6 +281,7 @@ notes:
 
       p._backend.show()
       ```
+    Annotations: ''
 - id: 1542728780519
   fields:
     Front: |
@@ -272,6 +290,7 @@ notes:
       $$
       y = e^x - 2
       $$
+    Annotations: ''
 - id: 1542728780619
   fields:
     Front: |
@@ -280,6 +299,7 @@ notes:
       $$
       y = e^{x - 2}
       $$
+    Annotations: ''
 - id: 1542728780721
   fields:
     Front: |
@@ -288,6 +308,7 @@ notes:
       $$
       y = -e^x
       $$
+    Annotations: ''
 - id: 1542728780819
   fields:
     Front: |
@@ -296,14 +317,17 @@ notes:
       $$
       y = e^{-x}
       $$
+    Annotations: ''
 - id: 1542728780919
   fields:
-    Front: |
-      CCAC 01.5 17e: Starting with the graph of $y=e^x$, write the equation of the graph that results from reflecting about the $x$-axis and then about the $y$-axis.
+    Front: >
+      CCAC 01.5 17e: Starting with the graph of $y=e^x$, write the equation of the
+      graph that results from reflecting about the $x$-axis and then about the $y$-axis.
     Back: |
       $$
       y = -e^{-x}
       $$
+    Annotations: ''
 - id: 1542728781019
   fields:
     Front: |
@@ -315,6 +339,7 @@ notes:
       $$
       (-\infty, -1) \cup (-1, 1) \cup (1, \infty)
       $$
+    Annotations: ''
 - id: 1542728781123
   fields:
     Front: |
@@ -326,6 +351,7 @@ notes:
       $$
       (-\infty, \infty)
       $$
+    Annotations: ''
 - id: 1542728781244
   useMarkdown: pweave
   fields:
@@ -364,6 +390,7 @@ notes:
       $$
       f(x) - 3\cdot 2^x
       $$
+    Annotations: ''
 - id: 1542728784544
   fields:
     Front: |
@@ -380,47 +407,66 @@ notes:
         &= 5^x \left(\frac{5^h - 1}{h}\right) \\
       \end{align}
       $$
+    Annotations: ''
 - id: 1542728784644
   fields:
-    Front: |
-      CCAC 01.5 25: Suppose you are offered a job that lasts one month. Which of the following methods of payment do you prefer?
+    Front: >
+      CCAC 01.5 25: Suppose you are offered a job that lasts one month. Which of the
+      following methods of payment do you prefer?
+
       I. One million dollars at the end of the month.
-      II. One cent on the first day of the month, two cents on the second day, four cents on the third day, and, in general, $2^{n-1}$ cents on the $n$th day.
+
+      II. One cent on the first day of the month, two cents on the second day, four
+      cents on the third day, and, in general, $2^{n-1}$ cents on the $n$th day.
     Back: |
       II, since $2^{29} = 536,870,912$, so on the 30th day I would receive over five million dollars, and the sum across all days would be over ten million dollars:
       $$
       \sum_{1}^{30}{2^{i-1}} = 2^{30} - 1 = 1,073,741,823
       $$
+    Annotations: ''
 - id: 1542728784747
   fields:
-    Front: |
-      CCAC 01.5 29a: Under ideal conditions a certain bacteria population is known to double every three hours. Suppose that there are initially 100 bacteria. What is the size of the population after 15 hours?
+    Front: >
+      CCAC 01.5 29a: Under ideal conditions a certain bacteria population is known
+      to double every three hours. Suppose that there are initially 100 bacteria.
+      What is the size of the population after 15 hours?
     Back: |
       $$
       3200
       $$
+    Annotations: ''
 - id: 1542728784847
   fields:
-    Front: |
-      CCAC 01.5 29b: Under ideal conditions a certain bacteria population is known to double every three hours. Suppose that there are initially 100 bacteria. What is the size of the population after $t$ hours?
+    Front: >
+      CCAC 01.5 29b: Under ideal conditions a certain bacteria population is known
+      to double every three hours. Suppose that there are initially 100 bacteria.
+      What is the size of the population after $t$ hours?
     Back: |
       $$
       100\cdot 2^{t/3}
       $$
+    Annotations: ''
 - id: 1542728784960
   fields:
-    Front: |
-      CCAC 01.5 29c: Under ideal conditions a certain bacteria population is known to double every three hours. Suppose that there are initially 100 bacteria. Estimate the size of the population after 20 hours.
+    Front: >
+      CCAC 01.5 29c: Under ideal conditions a certain bacteria population is known
+      to double every three hours. Suppose that there are initially 100 bacteria.
+      Estimate the size of the population after 20 hours.
     Back: |
       $$
       10,159
       $$
+    Annotations: ''
 - id: 1542731595994
-  tags: [requiresCoding]
+  tags:
+  - requiresCoding
   useMarkdown: pweave
   fields:
-    Front: |
-      CCAC 01.5 29d: Under ideal conditions a certain bacteria population is known to double every three hours. Suppose that there are initially 100 bacteria. Graph the population function, and estimate the time for the population to reach $50,000$.
+    Front: >
+      CCAC 01.5 29d: Under ideal conditions a certain bacteria population is known
+      to double every three hours. Suppose that there are initially 100 bacteria.
+      Graph the population function, and estimate the time for the population to reach
+      $50,000$.
     Back: |
       $$
       t \approx 26.9 \ \text{h}
@@ -443,3 +489,4 @@ notes:
       ax.text(20.0, f(26.9), '$(26.9, \\ 50030.6)$')
       _ = _
       ```
+    Annotations: ''

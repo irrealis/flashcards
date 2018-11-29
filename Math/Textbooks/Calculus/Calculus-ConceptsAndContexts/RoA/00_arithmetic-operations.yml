@@ -23,6 +23,7 @@ notes:
       $$
         (a - b)(a^2 + ab + b^2)
       $$
+    Annotations: ''
 - id: 1542149180048
   modelName: PWeaveAndReverse
   fields:
@@ -36,12 +37,14 @@ notes:
       $$
         (a + b)(a^2 - ab + b^2)
       $$
+    Annotations: ''
 - id: 1542149180144
   fields:
     Front: |
       ## RoA mtl 6: State the Factor Theorem.
     Back: |
       If $P$ is a polynomial and $P(b)=0$, then $x-b$ is a factor of $P(x)$.
+    Annotations: ''
 - id: 1542149180257
   fields:
     Front: |
@@ -53,6 +56,7 @@ notes:
       $$
         ax^2 + bx + c = a \left(x + \frac{b}{2a}\right)^2 + \left(c - \frac{b^2}{4a}\right)
       $$
+    Annotations: ''
 - id: 1542149180394
   fields:
     Front: |
@@ -89,6 +93,7 @@ notes:
         &= a\left(x + \frac{b}{2a} \right)^2 + \left(c - \frac{b^2}{4a}\right).
       \end{align}
       $$
+    Annotations: ''
 - id: 1542149180545
   fields:
     Front: |
@@ -98,6 +103,7 @@ notes:
       $$
         x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
       $$
+    Annotations: ''
 - id: 1542149180694
   fields:
     Front: |
@@ -135,6 +141,7 @@ notes:
       $$
         x = \frac{-b \pm\sqrt{b^2 - 4ac}}{2a}
       $$
+    Annotations: ''
 - id: 1542149180928
   fields:
     Front: |
@@ -194,6 +201,7 @@ notes:
         pq &= \frac{c}{a}.
       \end{align}
       $$
+    Annotations: ''
 - id: 1542149181121
   fields:
     Front: |
@@ -234,18 +242,22 @@ notes:
       $$
 
       This suggests the proof of the general form: expand the product $(x-x_1)(x-x_2)\cdots(x-x_n)$, and group the terms by degree.
+    Annotations: ''
 - id: 1542149181272
   fields:
     Front: |
       ## RoA mtl 8: State the Rational Roots Theorem.
-    Back: |
-      If a polynomial with integer coefficients zeros for rational $p/q$ then $p$ is a factor of the trailing constant and $q$ is a factor of the leading coefficient.
+    Back: >
+      If a polynomial with integer coefficients zeros for rational $p/q$ then $p$
+      is a factor of the trailing constant and $q$ is a factor of the leading coefficient.
+    Annotations: ''
 - id: 1542149181372
   fields:
     Front: |
       ## RoA mtl 9: Define _irreducible_.
     Back: |
       A polynomial with no real roots is said to be _irreducible_.
+    Annotations: ''
 - id: 1542149181469
   fields:
     Front: |
@@ -255,6 +267,7 @@ notes:
       $$
         x = -\frac{2c}{b \pm \sqrt{b^2 - 4ac}}.
       $$
+    Annotations: ''
 - id: 1542149181594
   fields:
     Front: |
@@ -275,6 +288,7 @@ notes:
         = - \frac{2c}{b \pm \sqrt{b^2 - 4ac}}.
       $$
       as desired.
+    Annotations: ''
 - id: 1542149181719
   fields:
     Front: |
@@ -284,6 +298,7 @@ notes:
       $$
         (a+b)^n = \sum_{k=0}^{n}\binom{n}{k}a^{n-k}b^k
       $$
+    Annotations: ''
 - id: 1542149181826
   fields:
     Front: |
@@ -295,6 +310,7 @@ notes:
       $$
         -3a^2bc
       $$
+    Annotations: ''
 - id: 1542149181919
   fields:
     Front: |
@@ -306,6 +322,7 @@ notes:
       $$
         2x^3y^5
       $$
+    Annotations: ''
 - id: 1542149182019
   fields:
     Front: |
@@ -317,6 +334,7 @@ notes:
       $$
         2x^2 - 10x
       $$
+    Annotations: ''
 - id: 1542149182145
   fields:
     Front: |
@@ -328,6 +346,7 @@ notes:
       $$
         4x - 3x^2
       $$
+    Annotations: ''
 - id: 1542149182244
   fields:
     Front: |
@@ -339,6 +358,7 @@ notes:
       $$
         6a - 8
       $$
+    Annotations: ''
 - id: 1542149182369
   fields:
     Front: |
@@ -350,6 +370,7 @@ notes:
       $$
         4 - x
       $$
+    Annotations: ''
 - id: 1542149182469
   fields:
     Front: |
@@ -361,6 +382,7 @@ notes:
       $$
         -x^2 + 6x + 3
       $$
+    Annotations: ''
 - id: 1542149182575
   fields:
     Front: |
@@ -372,6 +394,7 @@ notes:
       $$
         -3t^2 + 21t - 22
       $$
+    Annotations: ''
 - id: 1542149182679
   fields:
     Front: |
@@ -383,6 +406,7 @@ notes:
       $$
         12x^2 + 25x - 7
       $$
+    Annotations: ''
 - id: 1542149182795
   fields:
     Front: |
@@ -394,6 +418,7 @@ notes:
       $$
         x^3 + x^2 - 2x
       $$
+    Annotations: ''
 - id: 1542149182905
   fields:
     Front: |
@@ -405,6 +430,7 @@ notes:
       $$
         4x^2 - 4x + 1
       $$
+    Annotations: ''
 - id: 1542149182998
   fields:
     Front: |
@@ -416,6 +442,7 @@ notes:
       $$
         9x^2 + 12x + 4
       $$
+    Annotations: ''
 - id: 1542149183094
   fields:
     Front: |
@@ -427,6 +454,7 @@ notes:
       $$
         30y^4 + y^5 - y^6
       $$
+    Annotations: ''
 - id: 1542149183198
   fields:
     Front: |
@@ -438,6 +466,7 @@ notes:
       $$
         -15t^2 - 56t + 31
       $$
+    Annotations: ''
 - id: 1542149183307
   fields:
     Front: |
@@ -449,6 +478,7 @@ notes:
       $$
         2x^3 - 5x^2 - x + 1
       $$
+    Annotations: ''
 - id: 1542149183395
   fields:
     Front: |
@@ -460,6 +490,7 @@ notes:
       $$
         x^4 - 2x^3 - x^2 + 2x + 1
       $$
+    Annotations: ''
 - id: 1542149183493
   fields:
     Front: |
@@ -471,6 +502,7 @@ notes:
       $$
         1 + 4x
       $$
+    Annotations: ''
 - id: 1542149183594
   fields:
     Front: |
@@ -482,6 +514,7 @@ notes:
       $$
         3 + 2/b
       $$
+    Annotations: ''
 - id: 1542149183695
   fields:
     Front: |
@@ -493,6 +526,7 @@ notes:
       $$
         \frac{3x + 7}{x^2 + 2x - 15}
       $$
+    Annotations: ''
 - id: 1542149183796
   fields:
     Front: |
@@ -504,6 +538,7 @@ notes:
       $$
         \frac{2x}{x^2 - 1}
       $$
+    Annotations: ''
 - id: 1542149183895
   fields:
     Front: |
@@ -515,6 +550,7 @@ notes:
       $$
         \frac{u^2 + 3u + 1}{u + 1}
       $$
+    Annotations: ''
 - id: 1542149184011
   fields:
     Front: |
@@ -526,6 +562,7 @@ notes:
       $$
         \frac{2b^2 - 3ab + 4a^2}{a^2b^2}
       $$
+    Annotations: ''
 - id: 1542149184138
   fields:
     Front: |
@@ -537,6 +574,7 @@ notes:
       $$
         \frac{x}{yz}
       $$
+    Annotations: ''
 - id: 1542149184243
   fields:
     Front: |
@@ -548,6 +586,7 @@ notes:
       $$
         \frac{zx}{y}
       $$
+    Annotations: ''
 - id: 1542149184350
   fields:
     Front: |
@@ -559,6 +598,7 @@ notes:
       $$
         \frac{rs}{3t}
       $$
+    Annotations: ''
 - id: 1542149184444
   fields:
     Front: |
@@ -570,6 +610,7 @@ notes:
       $$
         \frac{a^2}{b^2}
       $$
+    Annotations: ''
 - id: 1542149184545
   fields:
     Front: |
@@ -585,6 +626,7 @@ notes:
       $$
         \frac{c}{c - 2}
       $$
+    Annotations: ''
 - id: 1542149184644
   fields:
     Front: |
@@ -598,6 +640,7 @@ notes:
       $$
         \frac{3 + 2x}{2 + x}
       $$
+    Annotations: ''
 - id: 1542149184744
   fields:
     Front: |
@@ -609,6 +652,7 @@ notes:
       $$
         2x(1 + 6x^2)
       $$
+    Annotations: ''
 - id: 1542149184849
   fields:
     Front: |
@@ -620,6 +664,7 @@ notes:
       $$
         ab(5 - 8c)
       $$
+    Annotations: ''
 - id: 1542149184944
   fields:
     Front: |
@@ -631,6 +676,7 @@ notes:
       $$
         (x + 6)(x + 1)
       $$
+    Annotations: ''
 - id: 1542149185063
   fields:
     Front: |
@@ -642,6 +688,7 @@ notes:
       $$
         (x - 3)(x + 2)
       $$
+    Annotations: ''
 - id: 1542149185191
   fields:
     Front: |
@@ -653,6 +700,7 @@ notes:
       $$
         (x - 4)(x + 2)
       $$
+    Annotations: ''
 - id: 1542149185269
   fields:
     Front: |
@@ -664,6 +712,7 @@ notes:
       $$
         (2x - 1)(x + 4)
       $$
+    Annotations: ''
 - id: 1542149185369
   fields:
     Front: |
@@ -675,6 +724,7 @@ notes:
       $$
         9(x - 2)(x + 2)
       $$
+    Annotations: ''
 - id: 1542149185470
   fields:
     Front: |
@@ -686,6 +736,7 @@ notes:
       $$
         (4x + 3)(2x + 1)
       $$
+    Annotations: ''
 - id: 1542149185574
   fields:
     Front: |
@@ -697,6 +748,7 @@ notes:
       $$
         (3x + 2)(2x - 3)
       $$
+    Annotations: ''
 - id: 1542149185670
   fields:
     Front: |
@@ -708,6 +760,7 @@ notes:
       $$
         (x + 5)^2
       $$
+    Annotations: ''
 - id: 1542149185770
   fields:
     Front: |
@@ -719,6 +772,7 @@ notes:
       $$
         (t + 1)(t^2 - t + 1)
       $$
+    Annotations: ''
 - id: 1542149185871
   fields:
     Front: |
@@ -730,6 +784,7 @@ notes:
       $$
         (2t - 3s)(2t + 3s)
       $$
+    Annotations: ''
 - id: 1542149185970
   fields:
     Front: |
@@ -741,6 +796,7 @@ notes:
       $$
         (2t - 3)^2
       $$
+    Annotations: ''
 - id: 1542149186072
   fields:
     Front: |
@@ -752,6 +808,7 @@ notes:
       $$
         (x - 3)(x^2 + 3x + 9)
       $$
+    Annotations: ''
 - id: 1542149186168
   fields:
     Front: |
@@ -763,6 +820,7 @@ notes:
       $$
         x(x + 1)^2
       $$
+    Annotations: ''
 - id: 1542149186284
   fields:
     Front: |
@@ -774,6 +832,7 @@ notes:
       $$
         (x - 1)^2 (x - 2)
       $$
+    Annotations: ''
 - id: 1542149186376
   fields:
     Front: |
@@ -785,6 +844,7 @@ notes:
       $$
         (x - 1)(x + 1)(x + 3)
       $$
+    Annotations: ''
 - id: 1542149186469
   fields:
     Front: |
@@ -796,6 +856,7 @@ notes:
       $$
         (x - 3)(x + 5)(x - 4)
       $$
+    Annotations: ''
 - id: 1542149186575
   fields:
     Front: |
@@ -807,6 +868,7 @@ notes:
       $$
         (x - 2)(x + 3)(x + 4)
       $$
+    Annotations: ''
 - id: 1542149186669
   fields:
     Front: |
@@ -818,6 +880,7 @@ notes:
       $$
         (x - 2)(x - 3)(x + 2)
       $$
+    Annotations: ''
 - id: 1542149186769
   fields:
     Front: |
@@ -829,6 +892,7 @@ notes:
       $$
         \frac{x + 2}{x - 2}
       $$
+    Annotations: ''
 - id: 1542149186869
   fields:
     Front: |
@@ -840,6 +904,7 @@ notes:
       $$
         \frac{2x + 1}{x + 2}
       $$
+    Annotations: ''
 - id: 1542149186975
   fields:
     Front: |
@@ -851,6 +916,7 @@ notes:
       $$
         \frac{x + 1}{x - 8}
       $$
+    Annotations: ''
 - id: 1542149187069
   fields:
     Front: |
@@ -862,6 +928,7 @@ notes:
       $$
         \frac{x(x + 2)}{x - 4}
       $$
+    Annotations: ''
 - id: 1542149187169
   fields:
     Front: |
@@ -873,6 +940,7 @@ notes:
       $$
         \frac{x - 2}{x^2 - 9}
       $$
+    Annotations: ''
 - id: 1542149187271
   fields:
     Front: |
@@ -884,6 +952,7 @@ notes:
       $$
         \frac{x^2 - 6x - 4}{(x - 1)(x + 2)(x - 4)}
       $$
+    Annotations: ''
 - id: 1542149187369
   fields:
     Front: |
@@ -895,6 +964,7 @@ notes:
       $$
         (x + 1)^2 + 4
       $$
+    Annotations: ''
 - id: 1542149187483
   fields:
     Front: |
@@ -906,6 +976,7 @@ notes:
       $$
         (x - 8)^2 + 16
       $$
+    Annotations: ''
 - id: 1542149187572
   fields:
     Front: |
@@ -917,6 +988,7 @@ notes:
       $$
         \left(x - \frac{5}{2} \right)^2 + \frac{15}{4}
       $$
+    Annotations: ''
 - id: 1542149187669
   fields:
     Front: |
@@ -928,6 +1000,7 @@ notes:
       $$
         \left(x + \frac{3}{2} \right)^2 - \frac{5}{4}
       $$
+    Annotations: ''
 - id: 1542149187794
   fields:
     Front: |
@@ -939,6 +1012,7 @@ notes:
       $$
         (2x + 1)^2 - 3
       $$
+    Annotations: ''
 - id: 1542149187895
   fields:
     Front: |
@@ -950,6 +1024,7 @@ notes:
       $$
         3(x - 4)^2 + 2
       $$
+    Annotations: ''
 - id: 1542149188006
   fields:
     Front: |
@@ -961,6 +1036,7 @@ notes:
       $$
         1, -10
       $$
+    Annotations: ''
 - id: 1542149188094
   fields:
     Front: |
@@ -972,6 +1048,7 @@ notes:
       $$
         -2, 4
       $$
+    Annotations: ''
 - id: 1542149188193
   fields:
     Front: |
@@ -983,6 +1060,7 @@ notes:
       $$
         \frac{-9 \pm\sqrt{85}}{2}
       $$
+    Annotations: ''
 - id: 1542149188294
   fields:
     Front: |
@@ -994,6 +1072,7 @@ notes:
       $$
         1 \pm 2\sqrt{2}
       $$
+    Annotations: ''
 - id: 1542149188403
   fields:
     Front: |
@@ -1005,6 +1084,7 @@ notes:
       $$
         \frac{-5 \pm\sqrt{13}}{6}
       $$
+    Annotations: ''
 - id: 1542149188495
   fields:
     Front: |
@@ -1016,6 +1096,7 @@ notes:
       $$
         \frac{-7 \pm\sqrt{33}}{4}
       $$
+    Annotations: ''
 - id: 1542149188597
   fields:
     Front: |
@@ -1027,6 +1108,7 @@ notes:
       $$
         1,\frac{-1 \pm\sqrt{5}}{2}
       $$
+    Annotations: ''
 - id: 1542149188699
   fields:
     Front: |
@@ -1038,6 +1120,7 @@ notes:
       $$
         -1,-1 \pm\sqrt{2}
       $$
+    Annotations: ''
 - id: 1542149188801
   fields:
     Front: |
@@ -1047,6 +1130,7 @@ notes:
       $$
     Back: |
       Irreducible
+    Annotations: ''
 - id: 1542149188898
   fields:
     Front: |
@@ -1056,6 +1140,7 @@ notes:
       $$
     Back: |
       Not irreducible
+    Annotations: ''
 - id: 1542149189018
   fields:
     Front: |
@@ -1065,6 +1150,7 @@ notes:
       $$
     Back: |
       Not irreducible (two real roots)
+    Annotations: ''
 - id: 1542149189121
   fields:
     Front: |
@@ -1074,6 +1160,7 @@ notes:
       $$
     Back: |
       Irreducible
+    Annotations: ''
 - id: 1542149189219
   fields:
     Front: |
@@ -1085,6 +1172,7 @@ notes:
       $$
         a^6 + 6a^5b + 15a^4b^2 + 20a^3b^3 + 15a^2b^4 + 6ab^5 + b^6
       $$
+    Annotations: ''
 - id: 1542149189348
   fields:
     Front: |
@@ -1096,6 +1184,7 @@ notes:
       $$
         a^7 + 7a^6b + 21a^5b^2 + 35a^4b^3 + 35a^3b^4 + 21a^2b^5 + 7ab^6 + b^7
       $$
+    Annotations: ''
 - id: 1542149189446
   fields:
     Front: |
@@ -1107,6 +1196,7 @@ notes:
       $$
         x^8 - 4x^6 + 6x^4 - 4x^2 + 1
       $$
+    Annotations: ''
 - id: 1542149189544
   fields:
     Front: |
@@ -1118,6 +1208,7 @@ notes:
       $$
         243 + 405x^2 + 270x^4 + 90x^6 + 15x^8 + x^{10}
       $$
+    Annotations: ''
 - id: 1542149189644
   fields:
     Front: |
@@ -1129,6 +1220,7 @@ notes:
       $$
         8
       $$
+    Annotations: ''
 - id: 1542149189744
   fields:
     Front: |
@@ -1144,6 +1236,7 @@ notes:
       $$
         -\frac{1}{3}
       $$
+    Annotations: ''
 - id: 1542149189864
   fields:
     Front: |
@@ -1159,6 +1252,7 @@ notes:
       $$
         2|x|
       $$
+    Annotations: ''
 - id: 1542149189975
   fields:
     Front: |
@@ -1170,6 +1264,7 @@ notes:
       $$
         x^2|y|
       $$
+    Annotations: ''
 - id: 1542149190069
   fields:
     Front: |
@@ -1181,6 +1276,7 @@ notes:
       $$
         4a^2b\sqrt{b}
       $$
+    Annotations: ''
 - id: 1542149190169
   fields:
     Front: |
@@ -1196,6 +1292,7 @@ notes:
       $$
         2a
       $$
+    Annotations: ''
 - id: 1542149190273
   fields:
     Front: |
@@ -1207,6 +1304,7 @@ notes:
       $$
         3^{26}
       $$
+    Annotations: ''
 - id: 1542149190406
   fields:
     Front: |
@@ -1218,6 +1316,7 @@ notes:
       $$
         2^{60}
       $$
+    Annotations: ''
 - id: 1542149190494
   fields:
     Front: |
@@ -1229,6 +1328,7 @@ notes:
       $$
         16x^{10}
       $$
+    Annotations: ''
 - id: 1542149190594
   fields:
     Front: |
@@ -1240,6 +1340,7 @@ notes:
       $$
         a^{2n + 3}
       $$
+    Annotations: ''
 - id: 1542149190699
   fields:
     Front: |
@@ -1251,6 +1352,7 @@ notes:
       $$
         \frac{a^2}{b}
       $$
+    Annotations: ''
 - id: 1542149190794
   fields:
     Front: |
@@ -1262,6 +1364,7 @@ notes:
       $$
         \frac{(x + y)^2}{xy}
       $$
+    Annotations: ''
 - id: 1542149190897
   fields:
     Front: |
@@ -1273,6 +1376,7 @@ notes:
       $$
         \frac{1}{\sqrt{3}}
       $$
+    Annotations: ''
 - id: 1542149190997
   fields:
     Front: |
@@ -1284,6 +1388,7 @@ notes:
       $$
         2\sqrt[5]{3}
       $$
+    Annotations: ''
 - id: 1542149191093
   fields:
     Front: |
@@ -1295,6 +1400,7 @@ notes:
       $$
         25
       $$
+    Annotations: ''
 - id: 1542149191200
   fields:
     Front: |
@@ -1306,6 +1412,7 @@ notes:
       $$
         \frac{1}{256}
       $$
+    Annotations: ''
 - id: 1542149191294
   fields:
     Front: |
@@ -1317,6 +1424,7 @@ notes:
       $$
         2\sqrt{2}|x|^3y^6
       $$
+    Annotations: ''
 - id: 1542149191410
   fields:
     Front: |
@@ -1328,6 +1436,7 @@ notes:
       $$
         \frac{x^3}{y^{9/5}z^6}
       $$
+    Annotations: ''
 - id: 1542149191499
   fields:
     Front: |
@@ -1339,6 +1448,7 @@ notes:
       $$
         y^{6/5}
       $$
+    Annotations: ''
 - id: 1542149191594
   fields:
     Front: |
@@ -1350,6 +1460,7 @@ notes:
       $$
         a^{3/4}
       $$
+    Annotations: ''
 - id: 1542149191694
   fields:
     Front: |
@@ -1361,6 +1472,7 @@ notes:
       $$
         t^{-5/2}
       $$
+    Annotations: ''
 - id: 1542149191795
   fields:
     Front: |
@@ -1372,6 +1484,7 @@ notes:
       $$
         \frac{1}{x^{1/8}}
       $$
+    Annotations: ''
 - id: 1542149191905
   fields:
     Front: |
@@ -1387,6 +1500,7 @@ notes:
       $$
         \frac{t^{1/4}}{s^{1/24}}
       $$
+    Annotations: ''
 - id: 1542149191996
   fields:
     Front: |
@@ -1398,6 +1512,7 @@ notes:
       $$
         r^{n/2}
       $$
+    Annotations: ''
 - id: 1542149192097
   fields:
     Front: |
@@ -1410,6 +1525,7 @@ notes:
       $$
         \frac{1}{\sqrt{x} + 3}
       $$
+    Annotations: ''
 - id: 1542149192202
   fields:
     Front: |
@@ -1422,6 +1538,7 @@ notes:
       $$
         \frac{-1}{\sqrt{x} + x}
       $$
+    Annotations: ''
 - id: 1542149192309
   fields:
     Front: |
@@ -1434,6 +1551,7 @@ notes:
       $$
         \frac{x^2 + 4x + 16}{x\sqrt{x} + 8}
       $$
+    Annotations: ''
 - id: 1542149192424
   fields:
     Front: |
@@ -1450,6 +1568,7 @@ notes:
       $$
         \frac{2}{\sqrt{2 + h} - \sqrt{2 - h}}
       $$
+    Annotations: ''
 - id: 1542149192545
   fields:
     Front: |
@@ -1462,6 +1581,7 @@ notes:
       $$
         \frac{3 + \sqrt{5}}{2}
       $$
+    Annotations: ''
 - id: 1542149192644
   fields:
     Front: |
@@ -1474,6 +1594,7 @@ notes:
       $$
         \frac{\sqrt{x} + \sqrt{y}}{x - y}
       $$
+    Annotations: ''
 - id: 1542149192744
   fields:
     Front: |
@@ -1486,6 +1607,7 @@ notes:
       $$
         \frac{3x + 4}{\sqrt{x^2 + 3x + 4} + x}
       $$
+    Annotations: ''
 - id: 1542149192844
   fields:
     Front: |
@@ -1498,6 +1620,7 @@ notes:
       $$
         \frac{2x}{\sqrt{x^2 + x} + \sqrt{x^2 - x}}
       $$
+    Annotations: ''
 - id: 1542149192944
   fields:
     Front: |
@@ -1507,6 +1630,7 @@ notes:
       $$
     Back: |
       False
+    Annotations: ''
 - id: 1542149193052
   fields:
     Front: |
@@ -1516,6 +1640,7 @@ notes:
       $$
     Back: |
       False
+    Annotations: ''
 - id: 1542149193144
   fields:
     Front: |
@@ -1525,6 +1650,7 @@ notes:
       $$
     Back: |
       True
+    Annotations: ''
 - id: 1542149193245
   fields:
     Front: |
@@ -1534,6 +1660,7 @@ notes:
       $$
     Back: |
       False
+    Annotations: ''
 - id: 1542149193359
   fields:
     Front: |
@@ -1543,6 +1670,7 @@ notes:
       $$
     Back: |
       False
+    Annotations: ''
 - id: 1542149193445
   fields:
     Front: |
@@ -1552,6 +1680,7 @@ notes:
       $$
     Back: |
       False
+    Annotations: ''
 - id: 1542149193550
   fields:
     Front: |
@@ -1561,6 +1690,7 @@ notes:
       $$
     Back: |
       False
+    Annotations: ''
 - id: 1542149193648
   fields:
     Front: |
@@ -1570,3 +1700,4 @@ notes:
       $$
     Back: |
       True
+    Annotations: ''

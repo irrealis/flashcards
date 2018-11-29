@@ -20,6 +20,7 @@ notes:
       $$
       81
       $$
+    Annotations: ''
 - id: 1539840950221
   fields:
     Front: |
@@ -31,6 +32,7 @@ notes:
       $$
       -81
       $$
+    Annotations: ''
 - id: 1539840950387
   fields:
     Front: |
@@ -42,6 +44,7 @@ notes:
       $$
       \frac{1}{81}
       $$
+    Annotations: ''
 - id: 1539840950508
   fields:
     Front: |
@@ -53,6 +56,7 @@ notes:
       $$
       25
       $$
+    Annotations: ''
 - id: 1539840950618
   fields:
     Front: |
@@ -64,6 +68,7 @@ notes:
       $$
       \frac{9}{4}
       $$
+    Annotations: ''
 - id: 1539840950737
   fields:
     Front: |
@@ -75,6 +80,7 @@ notes:
       $$
       \frac{1}{8}
       $$
+    Annotations: ''
 - id: 1539840950852
   fields:
     Front: |
@@ -86,6 +92,7 @@ notes:
       $$
       6 \sqrt{2}
       $$
+    Annotations: ''
 - id: 1539840950984
   fields:
     Front: |
@@ -97,6 +104,7 @@ notes:
       $$
       48 a^5 b^7
       $$
+    Annotations: ''
 - id: 1539840951102
   fields:
     Front: |
@@ -110,6 +118,7 @@ notes:
       $$
       \frac{x}{9 y^7}
       $$
+    Annotations: ''
 - id: 1539840951286
   fields:
     Front: |
@@ -121,6 +130,7 @@ notes:
       $$
         11x -2
       $$
+    Annotations: ''
 - id: 1539840951385
   fields:
     Front: |
@@ -132,6 +142,7 @@ notes:
       $$
         4x^2 + 7x - 15
       $$
+    Annotations: ''
 - id: 1539840951504
   fields:
     Front: |
@@ -143,6 +154,7 @@ notes:
       $$
         a - b
       $$
+    Annotations: ''
 - id: 1539840951635
   fields:
     Front: |
@@ -154,6 +166,7 @@ notes:
       $$
         4x^2 + 12x + 9
       $$
+    Annotations: ''
 - id: 1539840951752
   fields:
     Front: |
@@ -165,6 +178,7 @@ notes:
       $$
         x^3 + 6x^2 + 12x + 8
       $$
+    Annotations: ''
 - id: 1539840951909
   fields:
     Front: |
@@ -176,6 +190,7 @@ notes:
       $$
         (2x + 5)(2x - 5)
       $$
+    Annotations: ''
 - id: 1539840952051
   fields:
     Front: |
@@ -187,6 +202,7 @@ notes:
       $$
         (2x - 3)(x + 4)
       $$
+    Annotations: ''
 - id: 1539840952167
   fields:
     Front: |
@@ -198,6 +214,7 @@ notes:
       $$
         (x-2)(x-3)(x+2)
       $$
+    Annotations: ''
 - id: 1539840952268
   fields:
     Front: |
@@ -209,6 +226,7 @@ notes:
       $$
         x(x + 3)(x^2 - 3x + 9)
       $$
+    Annotations: ''
 - id: 1539840952418
   fields:
     Front: |
@@ -220,6 +238,7 @@ notes:
       $$
         3x^{-1/2}(x - 1)(x - 2)
       $$
+    Annotations: ''
 - id: 1539840952518
   fields:
     Front: |
@@ -231,6 +250,7 @@ notes:
       $$
         xy(x + 2)(x - 2)
       $$
+    Annotations: ''
 - id: 1539840952634
   fields:
     Front: |
@@ -242,6 +262,7 @@ notes:
       $$
         \frac{x + 2}{x - 2}
       $$
+    Annotations: ''
 - id: 1539840952769
   fields:
     Front: |
@@ -255,6 +276,7 @@ notes:
       $$
         \frac{x - 1}{x - 3}
       $$
+    Annotations: ''
 - id: 1539840952917
   fields:
     Front: |
@@ -268,6 +290,7 @@ notes:
       $$
         \frac{1}{x - 2}
       $$
+    Annotations: ''
 - id: 1539840953035
   fields:
     Front: |
@@ -283,6 +306,7 @@ notes:
       $$
         -(x + y)
       $$
+    Annotations: ''
 - id: 1539840953171
   fields:
     Front: |
@@ -294,6 +318,7 @@ notes:
       $$
         5\sqrt{2} + 2\sqrt{10}
       $$
+    Annotations: ''
 - id: 1539840953270
   fields:
     Front: |
@@ -305,6 +330,7 @@ notes:
       $$
         \frac{1}{\sqrt{4 + h} + 2}
       $$
+    Annotations: ''
 - id: 1539840953442
   fields:
     Front: |
@@ -316,6 +342,7 @@ notes:
       $$
         \left(x + \frac{1}{2} \right)^2 + \frac{3}{4}
       $$
+    Annotations: ''
 - id: 1539840953537
   fields:
     Front: |
@@ -327,6 +354,7 @@ notes:
       $$
         2(x - 3)^2 - 7
       $$
+    Annotations: ''
 - id: 1539840953636
   fields:
     Front: |
@@ -338,6 +366,7 @@ notes:
       $$
         x = 6
       $$
+    Annotations: ''
 - id: 1539840953736
   fields:
     Front: |
@@ -349,6 +378,7 @@ notes:
       $$
         x = 1
       $$
+    Annotations: ''
 - id: 1539840953867
   fields:
     Front: |
@@ -360,6 +390,7 @@ notes:
       $$
         x = -3,4
       $$
+    Annotations: ''
 - id: 1539840953970
   fields:
     Front: |
@@ -371,6 +402,7 @@ notes:
       $$
         x = -1 \pm \frac{1}{2}\sqrt{2}
       $$
+    Annotations: ''
 - id: 1539840954101
   fields:
     Front: |
@@ -382,6 +414,7 @@ notes:
       $$
         x = \pm 1 \pm \sqrt{2}
       $$
+    Annotations: ''
 - id: 1539840954220
   fields:
     Front: |
@@ -393,6 +426,7 @@ notes:
       $$
         x = \frac{22}{3}, \frac{2}{3}
       $$
+    Annotations: ''
 - id: 1539840954334
   fields:
     Front: |
@@ -404,6 +438,7 @@ notes:
       $$
         x = \frac{12}{5}
       $$
+    Annotations: ''
 - id: 1539840954467
   fields:
     Front: |
@@ -415,6 +450,7 @@ notes:
       $$
         [-4, 3)
       $$
+    Annotations: ''
 - id: 1539840954585
   fields:
     Front: |
@@ -426,6 +462,7 @@ notes:
       $$
         (-2, 4)
       $$
+    Annotations: ''
 - id: 1539840954718
   fields:
     Front: |
@@ -437,6 +474,7 @@ notes:
       $$
         (-2, 0) \cup (1, \infty)
       $$
+    Annotations: ''
 - id: 1539840954853
   fields:
     Front: |
@@ -448,6 +486,7 @@ notes:
       $$
         (1, 7)
       $$
+    Annotations: ''
 - id: 1539840954958
   fields:
     Front: |
@@ -459,6 +498,7 @@ notes:
       $$
         (-1, 4]
       $$
+    Annotations: ''
 - id: 1539840955085
   fields:
     Front: |
@@ -468,6 +508,7 @@ notes:
       $$
     Back: |
       False.
+    Annotations: ''
 - id: 1539840955217
   fields:
     Front: |
@@ -477,6 +518,7 @@ notes:
       $$
     Back: |
       True.
+    Annotations: ''
 - id: 1539840955377
   fields:
     Front: |
@@ -486,6 +528,7 @@ notes:
       $$
     Back: |
       False.
+    Annotations: ''
 - id: 1539840955507
   fields:
     Front: |
@@ -495,6 +538,7 @@ notes:
       $$
     Back: |
       False.
+    Annotations: ''
 - id: 1539840955621
   fields:
     Front: |
@@ -504,6 +548,7 @@ notes:
       $$
     Back: |
       False.
+    Annotations: ''
 - id: 1539840955752
   fields:
     Front: |
@@ -513,3 +558,4 @@ notes:
       $$
     Back: |
       True.
+    Annotations: ''

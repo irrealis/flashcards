@@ -9,7 +9,7 @@ defaults:
   - CCAC-00.B-Diagnostics-AnalyticGeometry
   markdownTabLength: 2
 notes:
-- id: 1539795155312
+- id: 1543521862044
   fields:
     Front: |
       CCAC 00.B (Analytic Geometry) 01a: Find an equation for the line that passes through point $(2, -5)$ and has slope $-3$.
@@ -20,7 +20,7 @@ notes:
 
       ---
       (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
-- id: 1539795155477
+- id: 1543521862157
   fields:
     Front: |
       CCAC 00.B (Analytic Geometry) 01b: Find an equation for the line that passes through point $(2, -5)$ and is parallel to the $x$-axis.
@@ -31,7 +31,7 @@ notes:
 
       ---
       (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
-- id: 1539795155627
+- id: 1543521862253
   fields:
     Front: |
       CCAC 00.B (Analytic Geometry) 01c: Find an equation for the line that passes through point $(2, -5)$ and is parallel to the $y$-axis.
@@ -42,10 +42,11 @@ notes:
 
       ---
       (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
-- id: 1539795155768
+- id: 1543521862346
   fields:
-    Front: |
-      CCAC 00.B (Analytic Geometry) 01d: Find an equation for the line that passes through point $(2, -5)$ and is parallel to the line $2x - 4y = 3$.
+    Front: >
+      CCAC 00.B (Analytic Geometry) 01d: Find an equation for the line that passes
+      through point $(2, -5)$ and is parallel to the line $2x - 4y = 3$.
     Back: |
       $$
         y = \frac{1}{2}x - 6
@@ -53,7 +54,7 @@ notes:
 
       ---
       (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
-- id: 1539795155879
+- id: 1543521862444
   fields:
     Front: |
       CCAC 00.B (Analytic Geometry) 02: Find an equation for the circle that has center $(-1, 4)$ and passes through the point $(3, -2)$.
@@ -64,7 +65,7 @@ notes:
 
       ---
       (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
-- id: 1539795156028
+- id: 1543521862547
   fields:
     Front: |
       CCAC 00.B (Analytic Geometry) 03: Find the center and radius of a circle with equation $x^2 + y^2 - 6x + 10y + 9 = 0$.
@@ -73,10 +74,11 @@ notes:
 
       ---
       (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
-- id: 1539795156147
+- id: 1543521862644
   fields:
-    Front: |
-      CCAC 00.B (Analytic Geometry) 04a: Let $A(-7, 4)$ and $B(5, -12)$ be points in the plane. Find the slope of the line that contains $A$ and $B$.
+    Front: >
+      CCAC 00.B (Analytic Geometry) 04a: Let $A(-7, 4)$ and $B(5, -12)$ be points
+      in the plane. Find the slope of the line that contains $A$ and $B$.
     Back: |
       $$
         -\frac{4}{3}
@@ -84,16 +86,18 @@ notes:
 
       ---
       (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
-- id: 1539795156279
+- id: 1543521862794
   fields:
-    Front: |
-      CCAC 00.B (Analytic Geometry) 04b: Let $A(-7, 4)$ and $B(5, -12)$ be points in the plane. Find an equation of the line that passes through $A$ and $B$. What are the intercepts?
+    Front: >
+      CCAC 00.B (Analytic Geometry) 04b: Let $A(-7, 4)$ and $B(5, -12)$ be points
+      in the plane. Find an equation of the line that passes through $A$ and $B$.
+      What are the intercepts?
     Back: |
       $4x - 3y + 16 = 0$; $x$-intercept: $-4$; $y$-intercept: $-16/3$.
 
       ---
       (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
-- id: 1539795156395
+- id: 1543521862926
   fields:
     Front: |
       CCAC 00.B (Analytic Geometry) 04c: Let $A(-7, 4)$ and $B(5, -12)$ be points in the plane. Find the midpoint of the segment $AB$.
@@ -104,7 +108,7 @@ notes:
 
       ---
       (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
-- id: 1539795156518
+- id: 1543521863021
   fields:
     Front: |
       CCAC 00.B (Analytic Geometry) 04d: Let $A(-7, 4)$ and $B(5, -12)$ be points in the plane. Find the length of the segment $AB$.
@@ -115,10 +119,11 @@ notes:
 
       ---
       (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
-- id: 1539795156613
+- id: 1543521863120
   fields:
-    Front: |
-      CCAC 00.B (Analytic Geometry) 04e: Let $A(-7, 4)$ and $B(5, -12)$ be points in the plane. Find an equation of the perpendicular bisector of $AB$.
+    Front: >
+      CCAC 00.B (Analytic Geometry) 04e: Let $A(-7, 4)$ and $B(5, -12)$ be points
+      in the plane. Find an equation of the perpendicular bisector of $AB$.
     Back: |
       $$
         3x - 4y = 13
@@ -126,10 +131,11 @@ notes:
 
       ---
       (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
-- id: 1539795156711
+- id: 1543521863228
   fields:
-    Front: |
-      CCAC 00.B (Analytic Geometry) 04f: Let $A(-7, 4)$ and $B(5, -12)$ be points in the plane. Find an equation of the circle for which $AB$ is a diameter.
+    Front: >
+      CCAC 00.B (Analytic Geometry) 04f: Let $A(-7, 4)$ and $B(5, -12)$ be points
+      in the plane. Find an equation of the circle for which $AB$ is a diameter.
     Back: |
       $$
         (x + 1)^2 + (y + 4)^2 = 100
@@ -137,7 +143,7 @@ notes:
 
       ---
       (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
-- id: 1539795661412
+- id: 1543521863369
   useMarkdown: pweave
   fields:
     Front: |
@@ -171,7 +177,7 @@ notes:
 
       ---
       (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
-- id: 1539795662362
+- id: 1543521866644
   useMarkdown: pweave
   fields:
     Front: |
@@ -213,7 +219,7 @@ notes:
 
       ---
       (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
-- id: 1539795663313
+- id: 1543521869448
   useMarkdown: pweave
   fields:
     Front: |
@@ -249,7 +255,7 @@ notes:
 
       ---
       (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
-- id: 1539795664413
+- id: 1543521872944
   useMarkdown: pweave
   fields:
     Front: |
@@ -285,7 +291,7 @@ notes:
 
       ---
       (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
-- id: 1539795665487
+- id: 1543521876244
   useMarkdown: pweave
   fields:
     Front: |
@@ -321,7 +327,7 @@ notes:
 
       ---
       (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
-- id: 1539795666587
+- id: 1543521879546
   useMarkdown: pweave
   fields:
     Front: |

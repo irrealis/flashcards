@@ -14,14 +14,17 @@ notes:
   fields:
     Front: |
       CCAC 01.6 01a: What is a one-to-one function?
-    Back: |
-      A function $f$ is called a **one-to-one function** if $f$ never takes the same value twice; that is, $f(x_1) \ne f(x_2)$ whenever $x_1 \ne x_2$.
+    Back: >
+      A function $f$ is called a **one-to-one function** if $f$ never takes the same
+      value twice; that is, $f(x_1) \ne f(x_2)$ whenever $x_1 \ne x_2$.
+    Annotations: ''
 - id: 1542738486247
   fields:
     Front: |
       CCAC 01.6 01b: How can you tell from the graph of a function whether it is one-to-one?
     Back: |
       It must pass the Horizontal Line Test.
+    Annotations: ''
 - id: 1542738486344
   fields:
     Front: |
@@ -37,6 +40,7 @@ notes:
       $$
     Back: |
       No.
+    Annotations: ''
 - id: 1542738486469
   useMarkdown: pweave
   fields:
@@ -60,6 +64,7 @@ notes:
       ```
     Back: |
       No.
+    Annotations: ''
 - id: 1542738490345
   useMarkdown: pweave
   fields:
@@ -83,6 +88,7 @@ notes:
       ```
     Back: |
       Yes.
+    Annotations: ''
 - id: 1542738493101
   fields:
     Front: |
@@ -92,6 +98,7 @@ notes:
       $$
     Back: |
       No.
+    Annotations: ''
 - id: 1542738493199
   fields:
     Front: |
@@ -101,12 +108,14 @@ notes:
       $$
     Back: |
       Yes.
+    Annotations: ''
 - id: 1542738493300
   fields:
     Front: |
       CCAC 01.6 13: Determine whether the height of a footbal $t$ seconds after kickoff is one-to-one.
     Back: |
       No.
+    Annotations: ''
 - id: 1542738493395
   fields:
     Front: |
@@ -115,6 +124,7 @@ notes:
       $$
       2
       $$
+    Annotations: ''
 - id: 1542738493493
   fields:
     Front: |
@@ -123,12 +133,17 @@ notes:
       $$
       0
       $$
+    Annotations: ''
 - id: 1542738493619
   fields:
-    Front: |
-      CCAC 01.6 19: The formula $C = \frac{5}{9}(F-32)$, where $F \ge -459.67$, expresses the Celsius temperature $C$ as a function of the Fahrenheit temperature $F$. Find a formula for the inverse function, and interpret it. What is the domain of the inverse function?
+    Front: >
+      CCAC 01.6 19: The formula $C = \frac{5}{9}(F-32)$, where $F \ge -459.67$, expresses
+      the Celsius temperature $C$ as a function of the Fahrenheit temperature $F$.
+      Find a formula for the inverse function, and interpret it. What is the domain
+      of the inverse function?
     Back: |
       $F = \frac{9}{5}C + 32$; the Fahrenheit temperature as a function of the Celsius temperature; $[-273.15, \infty)$.
+    Annotations: ''
 - id: 1542738493744
   fields:
     Front: |
@@ -137,6 +152,7 @@ notes:
       $$
       f^{-1}(x) = \frac{(x-1)^2 - 2}{3}, \ x \ge 1
       $$
+    Annotations: ''
 - id: 1542738493848
   fields:
     Front: |
@@ -145,6 +161,7 @@ notes:
       $$
       f^{-1}(x) = \frac{1 + \ln{x}}{2}
       $$
+    Annotations: ''
 - id: 1542738493944
   fields:
     Front: |
@@ -153,8 +170,10 @@ notes:
       $$
       y = e^x - 3
       $$
+    Annotations: ''
 - id: 1542738494069
-  tags: [requiresCoding]
+  tags:
+  - requiresCoding
   useMarkdown: pweave
   fields:
     Front: |
@@ -190,6 +209,7 @@ notes:
         ylabel = '$y$',
       )
       ```
+    Annotations: ''
 - id: 1542738497169
   useMarkdown: pweave
   fields:
@@ -248,6 +268,7 @@ notes:
         p.show()
 
       ```
+    Annotations: ''
 - id: 1542738502559
   fields:
     Front: |
@@ -257,6 +278,7 @@ notes:
     Back: |
       a. $f^{-1}(x) = \sqrt{1 - x^2}, \ 0 \le x \le 1$; $f$ and $f^{-1}$ are the same function.
       b. Quarter-circle in the first quadrant.
+    Annotations: ''
 - id: 1542738502697
   useMarkdown: pweave
   fields:
@@ -291,6 +313,7 @@ notes:
           ylabel = '$y$',
         )
       ```
+    Annotations: ''
 - id: 1542738505334
   fields:
     Front: |
@@ -299,6 +322,7 @@ notes:
       $$
       3
       $$
+    Annotations: ''
 - id: 1542738505444
   fields:
     Front: |
@@ -307,6 +331,7 @@ notes:
       $$
       -3
       $$
+    Annotations: ''
 - id: 1542738505544
   fields:
     Front: |
@@ -323,6 +348,7 @@ notes:
       & = 3 \\
       \end{align}
       $$
+    Annotations: ''
 - id: 1542738505644
   fields:
     Front: |
@@ -339,6 +365,7 @@ notes:
       & = -2 \\
       \end{align}
       $$
+    Annotations: ''
 - id: 1542738505748
   fields:
     Front: |
@@ -347,6 +374,7 @@ notes:
       $$
       \ln{5 \cdot 3^5} = \ln{1215}
       $$
+    Annotations: ''
 - id: 1542738505847
   fields:
     Front: |
@@ -358,8 +386,10 @@ notes:
       $$
       \ln\frac{(1 + x^2)\sqrt{x}}{\sin{x}}
       $$
+    Annotations: ''
 - id: 1542738505969
-  tags: [requiresCoding]
+  tags:
+  - requiresCoding
   useMarkdown: pweave
   fields:
     Front: |
@@ -389,17 +419,23 @@ notes:
         )
       ```
       All graphs approach $-\infty$ as $x \rightarrow 0^+$, all pass through $(1,0)$, and all are increasing. The larger the base, the slower the rate of increase.
+    Annotations: ''
 - id: 1542743255219
   fields:
-    Front: |
-      CCAC 01.6 45: Suppose that the graph of $y = \log_{2}{x}$ is drawn on a coordinate grid where the unit of measurement is an inch. How many miles to the right of the origin do we have to move before the height of the curve reaches 3 ft?
+    Front: >
+      CCAC 01.6 45: Suppose that the graph of $y = \log_{2}{x}$ is drawn on a coordinate
+      grid where the unit of measurement is an inch. How many miles to the right of
+      the origin do we have to move before the height of the curve reaches 3 ft?
     Back: |
       About 1,084,588 miles.
+    Annotations: ''
 - id: 1542743255369
   useMarkdown: pweave
   fields:
-    Front: |
-      CCAC 01.6 47a: Make a rough sketch of the graph of $y = \log_{10}(x + 5)$. Do not use a calculator. Just use the graphs given in Figures 12 and 13 of CCAC 01-6 and, if necessary, the transformations of CCAC 01-3.
+    Front: >
+      CCAC 01.6 47a: Make a rough sketch of the graph of $y = \log_{10}(x + 5)$. Do
+      not use a calculator. Just use the graphs given in Figures 12 and 13 of CCAC
+      01-6 and, if necessary, the transformations of CCAC 01-3.
     Back: |
       ```{python echo = False}
       import sympy as sy
@@ -417,11 +453,14 @@ notes:
         ylabel = '$y$',
       )
       ```
+    Annotations: ''
 - id: 1542743258344
   useMarkdown: pweave
   fields:
-    Front: |
-      CCAC 01.6 47b: Make a rough sketch of the graph of $y = -\ln{x}$. Do not use a calculator. Just use the graphs given in Figures 12 and 13 of CCAC 01-6 and, if necessary, the transformations of CCAC 01-3.
+    Front: >
+      CCAC 01.6 47b: Make a rough sketch of the graph of $y = -\ln{x}$. Do not use
+      a calculator. Just use the graphs given in Figures 12 and 13 of CCAC 01-6 and,
+      if necessary, the transformations of CCAC 01-3.
     Back: |
       ```{python echo = False}
       import sympy as sy
@@ -439,6 +478,7 @@ notes:
         ylabel = '$y$',
       )
       ```
+    Annotations: ''
 - id: 1542743260875
   fields:
     Front: |
@@ -447,6 +487,7 @@ notes:
       $$
       x = \frac{7 - \ln(6)}{4}
       $$
+    Annotations: ''
 - id: 1542743260971
   fields:
     Front: |
@@ -455,6 +496,7 @@ notes:
       $$
       x = \frac{e^2 + 10}{3}
       $$
+    Annotations: ''
 - id: 1542743261069
   fields:
     Front: |
@@ -463,6 +505,7 @@ notes:
       $$
       x = \log_{2}(3) + 5
       $$
+    Annotations: ''
 - id: 1542743261169
   fields:
     Front: |
@@ -472,6 +515,7 @@ notes:
       x = \frac{1 + \sqrt{1 + 4e}}{2}
       $$
       (Note that the domain of the original function is $(1, \infty)$, which constrains the solution to that with positive root.)
+    Annotations: ''
 - id: 1542743261269
   fields:
     Front: |
@@ -480,6 +524,7 @@ notes:
       $$
       x < \ln{10}
       $$
+    Annotations: ''
 - id: 1542743261369
   fields:
     Front: |
@@ -488,6 +533,7 @@ notes:
       $$
       x > 1/e
       $$
+    Annotations: ''
 - id: 1542743261469
   fields:
     Front: |
@@ -495,11 +541,15 @@ notes:
     Back: |
       a. $(-\infty, \frac{\ln{3}}{2}]$.
       b. $f^{-1}(x) = \frac{\ln(3 - x^2)}{2}$; $[0, \sqrt{3})$. (Note that the domain of $f^{-1}$ must equal the range of $f$.)
+    Annotations: ''
 - id: 1542743261594
   useMarkdown: pweave
   fields:
-    Front: |
-      CCAC 01.6 57: Graph the function $f(x) = \sqrt{x^3 + x^2 + x + 1}$ and explain why it is one-to-one. Then use a computer algebra system to find an explicit expression for $f^{-1}(x)$. (Your CAS will produce three possible expressions. Explain why two of them are irrelevant in this context.)
+    Front: >
+      CCAC 01.6 57: Graph the function $f(x) = \sqrt{x^3 + x^2 + x + 1}$ and explain
+      why it is one-to-one. Then use a computer algebra system to find an explicit
+      expression for $f^{-1}(x)$. (Your CAS will produce three possible expressions.
+      Explain why two of them are irrelevant in this context.)
     Back: |
       ```{python echo = False}
       import sympy as sy
@@ -524,15 +574,21 @@ notes:
       sy.solve(sy.sqrt(x**3 + x**2 + x + 1) - y, x)
       ```
       Two of these solutions are complex-valued functions.
+    Annotations: ''
 - id: 1542745816494
   fields:
-    Front: |
-      CCAC 01.6 59: If a bacteria population starts with 100 bacteria and doubles every three hours, then the number of bacteria after $t$ hours is $n = f(t) = 100 \cdot 2^{t/3}$. (See Exercise 29 in CCAC 01-5.)
+    Front: >
+      CCAC 01.6 59: If a bacteria population starts with 100 bacteria and doubles
+      every three hours, then the number of bacteria after $t$ hours is $n = f(t)
+      = 100 \cdot 2^{t/3}$. (See Exercise 29 in CCAC 01-5.)
+
       a. Find the inverse of this function, and explain its meaning.
+
       b. When will the population reach 50,000?
     Back: |
       a. $f^{-1}(n) = 3 \log_{2}{n/100}$; the time elapsed when there are $n$ bacteria.
       b. After about 26.9 hours.
+    Annotations: ''
 - id: 1542745816669
   fields:
     Front: |
@@ -541,6 +597,7 @@ notes:
       $$
       y = \ln{x} + 3
       $$
+    Annotations: ''
 - id: 1542745816786
   fields:
     Front: |
@@ -549,6 +606,7 @@ notes:
       $$
       y = \ln(x + 3)
       $$
+    Annotations: ''
 - id: 1542745816899
   fields:
     Front: |
@@ -557,6 +615,7 @@ notes:
       $$
       y = -\ln{x}
       $$
+    Annotations: ''
 - id: 1542745816997
   fields:
     Front: |
@@ -565,6 +624,7 @@ notes:
       $$
       y = \ln(-x)
       $$
+    Annotations: ''
 - id: 1542745817096
   fields:
     Front: |
@@ -573,27 +633,37 @@ notes:
       $$
       y = e^x
       $$
+    Annotations: ''
 - id: 1542745817208
   fields:
-    Front: |
-      CCAC 01.6 61f: Starting with the graph of $y = \ln{x}$, find the equation of the graph that results from reflecting about the $x$ axis and then about the line $y = x$.
+    Front: >
+      CCAC 01.6 61f: Starting with the graph of $y = \ln{x}$, find the equation of
+      the graph that results from reflecting about the $x$ axis and then about the
+      line $y = x$.
     Back: |
       $$
       y = e^{-x}
       $$
+    Annotations: ''
 - id: 1542745817328
   fields:
-    Front: |
-      CCAC 01.6 61g: Starting with the graph of $y = \ln{x}$, find the equation of the graph that results from reflecting about the $y$ axis and then about the line $y = x$.
+    Front: >
+      CCAC 01.6 61g: Starting with the graph of $y = \ln{x}$, find the equation of
+      the graph that results from reflecting about the $y$ axis and then about the
+      line $y = x$.
     Back: |
       $$
       y = -e^{x}
       $$
+    Annotations: ''
 - id: 1542745817435
   fields:
-    Front: |
-      CCAC 01.6 61h: Starting with the graph of $y = \ln{x}$, find the equation of the graph that results from shifting 3 units to the left and then reflecting about the line $y = x$.
+    Front: >
+      CCAC 01.6 61h: Starting with the graph of $y = \ln{x}$, find the equation of
+      the graph that results from shifting 3 units to the left and then reflecting
+      about the line $y = x$.
     Back: |
       $$
       y = e^{x} - 3
       $$
+    Annotations: ''

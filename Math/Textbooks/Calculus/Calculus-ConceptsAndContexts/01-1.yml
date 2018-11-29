@@ -12,8 +12,9 @@ defaults:
 notes:
 - id: 1539840950087
   fields:
-    Front: |
-      CCAC 01.1 23: If $f(x) = 3x^2 - x + 2$, find $f(2)$, $f(-2)$, $f(a)$, $f(-a)$, $f(a+1)$, $2f(a)$, $f(2a)$, $f(a^2)$, $[f(a)]^2$, and $f(a+h)$.
+    Front: >
+      CCAC 01.1 23: If $f(x) = 3x^2 - x + 2$, find $f(2)$, $f(-2)$, $f(a)$, $f(-a)$,
+      $f(a+1)$, $2f(a)$, $f(2a)$, $f(a^2)$, $[f(a)]^2$, and $f(a+h)$.
     Back: |
       $12$,
       $16$,
@@ -25,6 +26,7 @@ notes:
       $3a^4-a^2+2$,
       $9a^4-6a^3+13a^2-4a+4$,
       $3a^2+6ah+3h^2-a-h+2$
+    Annotations: ''
 - id: 1542151195945
   fields:
     Front: |
@@ -36,6 +38,7 @@ notes:
       $$
       -3-h
       $$
+    Annotations: ''
 - id: 1542156300846
   fields:
     Front: |
@@ -47,6 +50,7 @@ notes:
       $$
       -\frac{1}{ax}
       $$
+    Annotations: ''
 - id: 1542156831744
   fields:
     Front: |
@@ -58,6 +62,7 @@ notes:
       $$
       (-\infty, -3) \cup (-3,3) \cup (3, \infty)
       $$
+    Annotations: ''
 - id: 1542156831844
   fields:
     Front: |
@@ -69,6 +74,7 @@ notes:
       $$
       (-\infty, \infty)
       $$
+    Annotations: ''
 - id: 1542156831945
   fields:
     Front: |
@@ -80,6 +86,7 @@ notes:
       $$
       (-\infty, 0) \cup (5, \infty)
       $$
+    Annotations: ''
 - id: 1542156832043
   useMarkdown: pweave
   fields:
@@ -106,6 +113,7 @@ notes:
         ylim = (-2,4),
       )
       ```
+    Annotations: ''
 - id: 1542156832144
   useMarkdown: pweave
   fields:
@@ -132,6 +140,7 @@ notes:
         ylim = (-1.5,2.5),
       )
       ```
+    Annotations: ''
 - id: 1542156832244
   useMarkdown: pweave
   fields:
@@ -159,6 +168,7 @@ notes:
         ylim = (-1,3),
       )
       ```
+    Annotations: ''
 - id: 1542156832346
   useMarkdown: pweave
   fields:
@@ -197,6 +207,7 @@ notes:
       ax.plot(0, 4, 'ko', fillstyle='none', markersize = 5)
       p._backend.show()
       ```
+    Annotations: ''
 - id: 1542156832444
   useMarkdown: pweave
   fields:
@@ -243,6 +254,7 @@ notes:
 
       p._backend.show()
       ```
+    Annotations: ''
 - id: 1542156832544
   useMarkdown: pweave
   fields:
@@ -288,6 +300,7 @@ notes:
 
       p._backend.show()
       ```
+    Annotations: ''
 - id: 1542157568819
   fields:
     Front: |
@@ -296,6 +309,7 @@ notes:
       $$
       f(x) = \frac{5}{2}x - \frac{11}{2},\ 1 \le x \le 5
       $$
+    Annotations: ''
 - id: 1542157568925
   fields:
     Front: |
@@ -304,6 +318,7 @@ notes:
       $$
       f(x) = 1 - \sqrt{-x}
       $$
+    Annotations: ''
 - id: 1542157569044
   useMarkdown: pweave
   fields:
@@ -336,14 +351,18 @@ notes:
         2x - 6 &\text{ if } 3 < x \le 5 \\
       \end{cases}
       $$
+    Annotations: ''
 - id: 1542158435298
   fields:
-    Front: |
-      CCAC 01.1 53: Find a formula for and state the domain of a rectangle with perimeter $20\text{ m}$. Express the area of the rectangle as a function of the length of one of its sides.
+    Front: >
+      CCAC 01.1 53: Find a formula for and state the domain of a rectangle with perimeter
+      $20\text{ m}$. Express the area of the rectangle as a function of the length
+      of one of its sides.
     Back: |
       $$
       A(L) = 10L - L^2,\ 0 < L < 10
       $$
+    Annotations: ''
 - id: 1542158435400
   comment: Unclear.
   fields:
@@ -353,29 +372,40 @@ notes:
       $$
       A(x) = \frac{\sqrt{3} x^2}{4},\ 0 < x
       $$
+    Annotations: ''
 - id: 1542158435494
   comment: Unclear.
   fields:
-    Front: |
-      CCAC 01.1 57: An open rectangular box with volume $2\textrm{ m}^2$ has a square base. Express the surface area of the box as a function of the length of a side of the base.
+    Front: >
+      CCAC 01.1 57: An open rectangular box with volume $2\textrm{ m}^2$ has a square
+      base. Express the surface area of the box as a function of the length of a side
+      of the base.
     Back: |
       $$
       S(x) = x^2 + 8/x,\ 0 < x
       $$
+    Annotations: ''
 - id: 1542158602445
   fields:
-    Front: |
-      CCAC 01.1 59: A box with an open top is to be constructed from a rectangular piece of cardboard with dimensions $12"$ by $20"$ by cutting out equal squares of side $x$ at each corner and then folding up the sides. Express the volume $V$ of the box as a function of $x$.
+    Front: >
+      CCAC 01.1 59: A box with an open top is to be constructed from a rectangular
+      piece of cardboard with dimensions $12"$ by $20"$ by cutting out equal squares
+      of side $x$ at each corner and then folding up the sides. Express the volume
+      $V$ of the box as a function of $x$.
     Back: |
       $$
       V(x) = 4x^3 - 64x^2 + 240x,\ 0 < x < 6
       $$
+    Annotations: ''
 - id: 1542158775019
-  useMarkdownMathExt: False
+  useMarkdownMathExt: false
   useMarkdown: pweave
   fields:
-    Front: |
-      CCAC 01.1 61a: In a certain country, income tax is assessed as follows. There is no tax on income up to $10,000. Any income over $10,000 is taxed at a rate of 10%, up to an income of $20,000. Any income over $20,000 is taxed at 15%. Sketch the graph of the tax rate \\(R\\) as a function of income \\(I\\).
+    Front: >
+      CCAC 01.1 61a: In a certain country, income tax is assessed as follows. There
+      is no tax on income up to $10,000. Any income over $10,000 is taxed at a rate
+      of 10%, up to an income of $20,000. Any income over $20,000 is taxed at 15%.
+      Sketch the graph of the tax rate \\(R\\) as a function of income \\(I\\).
     Back: |
       ```{python echo = False}
       import matplotlib.pyplot as plt
@@ -395,19 +425,28 @@ notes:
       plt.yticks((0,5,10,15))
       plt.show()
       ```
+    Annotations: ''
 - id: 1542158955559
-  useMarkdownMathExt: False
+  useMarkdownMathExt: false
   fields:
-    Front: |
-      CCAC 01.1 61b: In a certain country, income tax is assessed as follows. There is no tax on income up to $10,000. Any income over $10,000 is taxed at a rate of 10%, up to an income of $20,000. Any income over $20,000 is taxed at 15%. How much tax is assessed on an income of $14,000? On $26,000?
+    Front: >
+      CCAC 01.1 61b: In a certain country, income tax is assessed as follows. There
+      is no tax on income up to $10,000. Any income over $10,000 is taxed at a rate
+      of 10%, up to an income of $20,000. Any income over $20,000 is taxed at 15%.
+      How much tax is assessed on an income of $14,000? On $26,000?
     Back: |
       $400, $1900
+    Annotations: ''
 - id: 1542158955670
-  useMarkdownMathExt: False
+  useMarkdownMathExt: false
   useMarkdown: pweave
   fields:
-    Front: |
-      CCAC 01.1 61c: In a certain country, income tax is assessed as follows. There is no tax on income up to $10,000. Any income over $10,000 is taxed at a rate of 10%, up to an income of $20,000. Any income over $20,000 is taxed at 15%. Sketch the graph of the total assessed tax \\(T\\) as a function of the income \\(I\\).
+    Front: >
+      CCAC 01.1 61c: In a certain country, income tax is assessed as follows. There
+      is no tax on income up to $10,000. Any income over $10,000 is taxed at a rate
+      of 10%, up to an income of $20,000. Any income over $20,000 is taxed at 15%.
+      Sketch the graph of the total assessed tax \\(T\\) as a function of the income
+      \\(I\\).
     Back: |
       ...
       ```{python echo = False}
@@ -429,6 +468,7 @@ notes:
       plt.yticks((0, 1000, 2500))
       plt.show()
       ```
+    Annotations: ''
 - id: 1542161096094
   fields:
     Front: |
@@ -437,6 +477,7 @@ notes:
       $$
       (-5, 3)
       $$
+    Annotations: ''
 - id: 1542161096218
   fields:
     Front: |
@@ -445,6 +486,7 @@ notes:
       $$
       (-5, -3)
       $$
+    Annotations: ''
 - id: 1542161096319
   fields:
     Front: |
@@ -454,6 +496,7 @@ notes:
       $$
     Back: |
       Odd.
+    Annotations: ''
 - id: 1542161096425
   fields:
     Front: |
@@ -463,6 +506,7 @@ notes:
       $$
     Back: |
       Neither.
+    Annotations: ''
 - id: 1542161096546
   fields:
     Front: |
@@ -472,9 +516,13 @@ notes:
       $$
     Back: |
       Even.
+    Annotations: ''
 - id: 1542161096660
   fields:
-    Front: |
-      CCAC 01.1 73: If $f$ and $g$ are both even functions, is $f+g$ even? If $f$ and $g$ are both odd functions, is $f+g$ odd? What if $f$ is even and $g$ is odd? Justify your answers.
+    Front: >
+      CCAC 01.1 73: If $f$ and $g$ are both even functions, is $f+g$ even? If $f$
+      and $g$ are both odd functions, is $f+g$ odd? What if $f$ is even and $g$ is
+      odd? Justify your answers.
     Back: |
       Even; odd; neither (unless $f = 0$ or $g = 0$).
+    Annotations: ''

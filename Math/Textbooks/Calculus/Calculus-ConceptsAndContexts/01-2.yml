@@ -19,6 +19,7 @@ notes:
       $$
     Back: |
       Logarithmic.
+    Annotations: ''
 - id: 1542245228594
   fields:
     Front: |
@@ -28,6 +29,7 @@ notes:
       $$
     Back: |
       Root.
+    Annotations: ''
 - id: 1542245228694
   fields:
     Front: |
@@ -37,6 +39,7 @@ notes:
       $$
     Back: |
       Rational.
+    Annotations: ''
 - id: 1542245228794
   fields:
     Front: |
@@ -46,6 +49,7 @@ notes:
       $$
     Back: |
       Polynomial, degree $2$.
+    Annotations: ''
 - id: 1542245228893
   fields:
     Front: |
@@ -55,6 +59,7 @@ notes:
       $$
     Back: |
       Exponential.
+    Annotations: ''
 - id: 1542245228998
   fields:
     Front: |
@@ -64,6 +69,7 @@ notes:
       $$
     Back: |
       Trigonometric.
+    Annotations: ''
 - id: 1542245383819
   useMarkdown: pweave
   fields:
@@ -109,6 +115,7 @@ notes:
       a. $h$
       b. $f$
       c. $g$
+    Annotations: ''
 - id: 1542247201144
   fields:
     Front: |
@@ -117,22 +124,37 @@ notes:
       $$
       f(x) = -3x(x+1)(x-2)
       $$
+    Annotations: ''
 - id: 1542247479894
   fields:
-    Front: |
-      CCAC 01.2 11a: If the recommended adult dosage for a drug is $D$ (in mg), then to determine the appropriate dosage $c$ for a child of age $a$, pharmacists use the equation $c=0.0417D(a+1)$. If the recommended adult dosage for a drug is $D$ (in mg), then to determine the appropriate dosage $c$ for a child of age $a$, pharmacists use the equation $c=0.0417D(a+1)$. Suppose the dosage for an adult is 200 mg.
+    Front: >
+      CCAC 01.2 11a: If the recommended adult dosage for a drug is $D$ (in mg), then
+      to determine the appropriate dosage $c$ for a child of age $a$, pharmacists
+      use the equation $c=0.0417D(a+1)$. If the recommended adult dosage for a drug
+      is $D$ (in mg), then to determine the appropriate dosage $c$ for a child of
+      age $a$, pharmacists use the equation $c=0.0417D(a+1)$. Suppose the dosage for
+      an adult is 200 mg.
+
 
       Find the slope of the graph of $c$. What does it represent?
     Back: |
       $8.34$, representing the change in mg for every $1$-year change.
+    Annotations: ''
 - id: 1542247480069
   fields:
-    Front: |
-      CCAC 01.2 11b: If the recommended adult dosage for a drug is $D$ (in mg), then to determine the appropriate dosage $c$ for a child of age $a$, pharmacists use the equation $c=0.0417D(a+1)$. If the recommended adult dosage for a drug is $D$ (in mg), then to determine the appropriate dosage $c$ for a child of age $a$, pharmacists use the equation $c=0.0417D(a+1)$. Suppose the dosage for an adult is 200 mg.
+    Front: >
+      CCAC 01.2 11b: If the recommended adult dosage for a drug is $D$ (in mg), then
+      to determine the appropriate dosage $c$ for a child of age $a$, pharmacists
+      use the equation $c=0.0417D(a+1)$. If the recommended adult dosage for a drug
+      is $D$ (in mg), then to determine the appropriate dosage $c$ for a child of
+      age $a$, pharmacists use the equation $c=0.0417D(a+1)$. Suppose the dosage for
+      an adult is 200 mg.
+
 
       What is the dosage for a newborn?
     Back: |
       $8.34$ mg.
+    Annotations: ''
 - id: 1542247904594
   useMarkdown: pweave
   fields:
@@ -162,24 +184,36 @@ notes:
 
       plt.show()
       ```
+    Annotations: ''
 - id: 1542247907022
   fields:
-    Front: |
-      CCAC 01.2 13b: The relationship between the Fahrenheit ($\text{F}$) and Celsius ($\text{C}$) temperature scales is given by the linear function $F=\frac{9}{5}C+32$.
+    Front: >
+      CCAC 01.2 13b: The relationship between the Fahrenheit ($\text{F}$) and Celsius
+      ($\text{C}$) temperature scales is given by the linear function $F=\frac{9}{5}C+32$.
 
-      What is the slope of the graph of this function and what does it represent? What is the $F$-intercept and what does it represent?
-    Back: |
-      $\frac{9}{5}$, representing the change in $^\circ\text{F}$ for every $1^\circ\text{C}$; $32$, the Fahrenheit temperature corresponding to $0^\circ\text{C}$.
+
+      What is the slope of the graph of this function and what does it represent?
+      What is the $F$-intercept and what does it represent?
+    Back: >
+      $\frac{9}{5}$, representing the change in $^\circ\text{F}$ for every $1^\circ\text{C}$;
+      $32$, the Fahrenheit temperature corresponding to $0^\circ\text{C}$.
+    Annotations: ''
 - id: 1542309172819
   fields:
-    Front: |
-      CCAC 01.2 15a: Biologists have noticed that the chirping rate of crickets of a certain species is related to temperature, and the relationship appears to be very nearly linear. A cricket produces $113$ chirps per minute at $70^\circ\text{F}$ and $173$ chirps per minute at $80^\circ\text{F}$.
+    Front: >
+      CCAC 01.2 15a: Biologists have noticed that the chirping rate of crickets of
+      a certain species is related to temperature, and the relationship appears to
+      be very nearly linear. A cricket produces $113$ chirps per minute at $70^\circ\text{F}$
+      and $173$ chirps per minute at $80^\circ\text{F}$.
 
-      Find a linear equation that models the temperature $T$ as a function of the number of chirps per minute $N$.
+
+      Find a linear equation that models the temperature $T$ as a function of the
+      number of chirps per minute $N$.
     Back: |
       $$
       \frac{1}{6}N + \frac{307}{6}
       $$
+    Annotations: ''
 - id: 1542309172969
   fields:
     Front: |
@@ -191,40 +225,57 @@ notes:
       $$
     Back: |
       $\frac{1}{6}$, the change in $^\circ\text{F}$ for every chirp per minute change.
+    Annotations: ''
 - id: 1542309173118
   fields:
-    Front: |
-      CCAC 01.2 15c: Biologists have noticed that the chirping rate of crickets of a certain species is related to temperature, and the relationship appears to be very nearly linear. A cricket produces $113$ chirps per minute at $70^\circ\text{F}$ and $173$ chirps per minute at $80^\circ\text{F}$.
+    Front: >
+      CCAC 01.2 15c: Biologists have noticed that the chirping rate of crickets of
+      a certain species is related to temperature, and the relationship appears to
+      be very nearly linear. A cricket produces $113$ chirps per minute at $70^\circ\text{F}$
+      and $173$ chirps per minute at $80^\circ\text{F}$.
+
 
       If the crickets are chirping at $150$ chirps per minute, estimate the temperature.
     Back: |
       $$
       76^\circ\text{F}
       $$
+    Annotations: ''
 - id: 1542309173251
   fields:
-    Front: |
-      CCAC 01.2 17a: At the surface of the ocean, the water pressure is the same as the air pressure above the water, $16\ \text{lb}/\text{in}^2$. Below the surface, the water pressure increase by $4.34\ \text{lb}/\text{in}^2$ for every $10\ \text{ft}$ of descent.
+    Front: >
+      CCAC 01.2 17a: At the surface of the ocean, the water pressure is the same as
+      the air pressure above the water, $16\ \text{lb}/\text{in}^2$. Below the surface,
+      the water pressure increase by $4.34\ \text{lb}/\text{in}^2$ for every $10\
+      \text{ft}$ of descent.
+
 
       Express the water pressure as a function of the depth below the ocean surface.
     Back: |
       $$
       P - 0.434d + 15
       $$
+    Annotations: ''
 - id: 1542309173371
   fields:
-    Front: |
-      CCAC 01.2 17b: At the surface of the ocean, the water pressure is the same as the air pressure above the water, $16\ \text{lb}/\text{in}^2$. Below the surface, the water pressure increase by $4.34\ \text{lb}/\text{in}^2$ for every $10\ \text{ft}$ of descent.
+    Front: >
+      CCAC 01.2 17b: At the surface of the ocean, the water pressure is the same as
+      the air pressure above the water, $16\ \text{lb}/\text{in}^2$. Below the surface,
+      the water pressure increase by $4.34\ \text{lb}/\text{in}^2$ for every $10\
+      \text{ft}$ of descent.
+
 
       At what depth is the pressure $100\ \text{lb}/\text{in}^2$?
     Back: |
       $$
       196\ \text{ft}
       $$
+    Annotations: ''
 - id: 1542309173519
-  useMarkdownMathExt: False
+  useMarkdownMathExt: false
   useMarkdown: pweave
-  tags: [requiresCoding]
+  tags:
+  - requiresCoding
   fields:
     Front: |
       CCAC 01.2 21a: The table below shows (lifetime) peptic ulcer rates (per 100 population) for various family incomes as reported by the National Health interview Survey.
@@ -284,10 +335,12 @@ notes:
       _ = plt.ylim(0, max(U)+1)
       ```
       Linear model is appropriate.
+    Annotations: ''
 - id: 1542310013544
-  useMarkdownMathExt: False
+  useMarkdownMathExt: false
   useMarkdown: pweave
-  tags: [requiresCoding]
+  tags:
+  - requiresCoding
   fields:
     Front: |
       CCAC 01.2 21b: The table below shows (lifetime) peptic ulcer rates (per 100 population) for various family incomes as reported by the National Health interview Survey.
@@ -331,10 +384,12 @@ notes:
       plt.xlim(0, max(D)+1000)
       _ = plt.ylim(0, max(U)+1)
       ```
+    Annotations: ''
 - id: 1542310013744
-  useMarkdownMathExt: False
+  useMarkdownMathExt: false
   useMarkdown: pweave
-  tags: [requiresCoding]
+  tags:
+  - requiresCoding
   fields:
     Front: |
       CCAC 01.2 21c: The table below shows (lifetime) peptic ulcer rates (per 100 population) for various family incomes as reported by the National Health interview Survey.
@@ -408,9 +463,11 @@ notes:
       plt.ylim(0, max(U)+1)
       _=_
       ```
+    Annotations: ''
 - id: 1542310013894
-  useMarkdownMathExt: False
-  tags: [requiresCoding]
+  useMarkdownMathExt: false
+  tags:
+  - requiresCoding
   fields:
     Front: |
       CCAC 01.2 21d: The table below shows (lifetime) peptic ulcer rates (per 100 population) for various family incomes as reported by the National Health interview Survey.
@@ -440,9 +497,11 @@ notes:
       \\]
     Back: |
       About \\(11.5\\) per 100 population.
+    Annotations: ''
 - id: 1542310014045
-  useMarkdownMathExt: False
-  tags: [requiresCoding]
+  useMarkdownMathExt: false
+  tags:
+  - requiresCoding
   fields:
     Front: |
       CCAC 01.2 21e: The table below shows (lifetime) peptic ulcer rates (per 100 population) for various family incomes as reported by the National Health interview Survey.
@@ -472,9 +531,11 @@ notes:
       \\]
     Back: |
       About \\(6\%\\).
+    Annotations: ''
 - id: 1542310014194
-  useMarkdownMathExt: False
-  tags: [requiresCoding]
+  useMarkdownMathExt: false
+  tags:
+  - requiresCoding
   fields:
     Front: |
       CCAC 01.2 21f: The table below shows (lifetime) peptic ulcer rates (per 100 population) for various family incomes as reported by the National Health interview Survey.
@@ -504,9 +565,11 @@ notes:
       \\]
     Back: |
       No.
+    Annotations: ''
 - id: 1542310338769
   useMarkdown: pweave
-  tags: [requiresCoding]
+  tags:
+  - requiresCoding
   fields:
     Front: |
       CCAC 01.2 23a: The table below gives the winning heights for the Olympic pole vault competitions up to the year 2000.
@@ -597,9 +660,11 @@ notes:
       _ = plt.scatter(x, y)
       ```
       Linear model is appropriate.
+    Annotations: ''
 - id: 1542310859169
   useMarkdown: pweave
-  tags: [requiresCoding]
+  tags:
+  - requiresCoding
   fields:
     Front: |
       CCAC 01.2 23b: The table below gives the winning heights for the Olympic pole vault competitions up to the year 2000.
@@ -700,8 +765,10 @@ notes:
       _=_
       # m, b
       ```
+    Annotations: ''
 - id: 1542310859369
-  tags: [requiresCoding]
+  tags:
+  - requiresCoding
   fields:
     Front: |
       CCAC 01.2 23c: The table below gives the winning heights for the Olympic pole vault competitions up to the year 2000.
@@ -733,8 +800,10 @@ notes:
       $$
     Back: |
       $6.35\ \text{m}$; higher than actual value.
+    Annotations: ''
 - id: 1542310859571
-  tags: [requiresCoding]
+  tags:
+  - requiresCoding
   fields:
     Front: |
       CCAC 01.2 23d: The table below gives the winning heights for the Olympic pole vault competitions up to the year 2000.
@@ -766,8 +835,10 @@ notes:
       $$
     Back: |
       No.
+    Annotations: ''
 - id: 1542311116094
-  tags: [requiresCoding]
+  tags:
+  - requiresCoding
   fields:
     Front: |
       CCAC 01.2 25: Use the data in the table below to model the population of the world in the 20th century by a cubic function. Then use your model to estimate the population in the year 1925.
@@ -789,3 +860,4 @@ notes:
       $$
     Back: |
       $y \approx 0.0012937x^3 - 7.06142x^2 + 12823x - 7743700$; 1914 million.
+    Annotations: ''
