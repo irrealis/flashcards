@@ -607,3 +607,9 @@ notes:
       CCAC 01.Review 23: If $f(x) = 2x + \ln{x}$, find $f^{-1}(2)$.
     Back: |
       $1$.
+- id: 1543451770544
+  fields:
+    Front: |
+      CCAC 01.Review 25a: Find the exact value of the expression $e^{2\ln{3}}$.
+    Back: |
+      $9$.
