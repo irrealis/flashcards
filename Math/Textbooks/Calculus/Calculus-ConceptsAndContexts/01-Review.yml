@@ -311,3 +311,9 @@ notes:
       CCAC 01.Review 09a: Suppose that the graph of $f$ is given. Describe how the graph of the function $y = f(x) + 8$ can be obtained from the graph of $f$.
     Back: |
       Shift the graph 8 units upward.
+- id: 1543450755570
+  fields:
+    Front: |
+      CCAC 01.Review 09b: Suppose that the graph of $f$ is given. Describe how the graph of the function $y = f(x + 8)$ can be obtained from the graph of $f$.
+    Back: |
+      Shift the graph 8 units to the left.
