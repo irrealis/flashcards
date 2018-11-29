@@ -426,3 +426,46 @@ notes:
       ax.text(0.5, 0.5 + 0.2, '$y = \\frac{1}{2}$')
       p._backend.show()
       ```
+- id: 1543450756273
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 01.Review 15: Use transformations to sketch the graph of the function.
+      $$
+      f(x) = \frac{1}{x + 2}
+      $$
+    Back: |
+      ```{python echo = False}
+      import matplotlib.pyplot as plt
+      import sympy as sy
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      x = sy.symbols('x')
+      def f(x): return 1/(x + 2)
+      p = sy.plot(
+        f(x),
+        xlim = (-6, 6), ylim = (-4, 4),
+        xlabel = '$x$', ylabel = '$y$',
+        show = False,
+      )
+
+      if hasattr(p, '_backend'): p._backend.close()
+      p._backend = p.backend(p)
+      fg, ax = p._backend.fig, p._backend.ax
+      ax.tick_params(
+        axis = 'both',
+        which = 'both',
+        bottom = False,
+        left = False,
+        labelbottom = False,
+        labelleft = False,
+      )
+      ax.text(0-0.1, 0-0.2, '$0$', verticalalignment = 'top', horizontalalignment = 'right')
+      ax.plot(0, 1/2, 'ko', markersize = 4)
+      ax.text(0+0.1, 1/2+0.2, '$\\frac{1}{2}$')
+      ax.text(-2-0.2, 1, '$x = -2$', horizontalalignment = 'right')
+      ax.text(1, 1, '$$y = \\frac{1}{x+2}$$')
+      p._backend.show()
+      ```
