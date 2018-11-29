@@ -523,3 +523,9 @@ notes:
       CCAC 01.Review 19c: If $f(x) = \ln{x}$, find the function $f \circ f$ and its domain.
     Back: |
       $(f \circ f)(x) = \ln{\ln{x}}$, $(1, \infty)$
+- id: 1543450757094
+  fields:
+    Front: |
+      CCAC 01.Review 19d: If $g(x) = x^2 - 9$, find the function $g \circ g$ and its domain.
+    Back: |
+      $(g \circ g)(x) = (x^2 - 9)^2 - 9$, $(-\infty, \infty)$
