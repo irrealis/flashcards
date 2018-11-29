@@ -478,3 +478,12 @@ notes:
       $$
     Back: |
       Neither.
+- id: 1543450756469
+  fields:
+    Front: |
+      CCAC 01.Review 17b: Determine whether $f$ is even, odd, or neither even nor odd.
+      $$
+      f(x) = x^3 - x^7
+      $$
+    Back: |
+      Odd.
