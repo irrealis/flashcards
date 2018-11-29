@@ -613,3 +613,9 @@ notes:
       CCAC 01.Review 25a: Find the exact value of the expression $e^{2\ln{3}}$.
     Back: |
       $9$.
+- id: 1543451770671
+  fields:
+    Front: |
+      CCAC 01.Review 25b: Find the exact value of the expression $\log_{10}{25} + \log_{10}{4}$.
+    Back: |
+      $2$.
