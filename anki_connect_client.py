@@ -611,7 +611,41 @@ class AnkiClient(AnkiClientBase):
 
   def addNote(self, deckName, modelName, fields, tags = None, audio = None):
     """
-    TODO
+    Creates a note using the given deck and model, with the provided field values and tags. Returns the identifier of the created note created on success, and null on failure.
+
+    Anki can download audio files and embed them in newly created notes. The corresponding audio note member is optional and can be omitted. If you choose to include it, the url and filename fields must be also defined. The skipHash field can be optionally provided to skip the inclusion of downloaded files with an MD5 hash that matches the provided value. This is useful for avoiding the saving of error pages and stub files. The fields member is a list of fields that should play audio when the card is displayed in Anki. The allowDuplicate member inside options group can be set to true to enable adding duplicate cards. Normally duplicate cards can not be added and trigger exception.
+
+    Sample request:
+
+      client.addNote(
+        deckName = "Default",
+        modelName = "Basic",
+        fields = {
+          "Front": "front content",
+          "Back": "back content"
+        },
+        options = {
+          "allowDuplicate": false
+        },
+        tags = [
+          "yomichan"
+        ],
+        audio = {
+          "url": "https://assets.languagepod101.com/dictionary/japanese/audiomp3.php?kanji=猫&kana=ねこ",
+          "filename": "yomichan_ねこ_猫.mp3",
+          "skipHash": "7e2c2f954ef6051373ba916f000168dc",
+          "fields": [
+            "Front"
+          ]
+        }
+      )
+
+    Sample result:
+
+      {
+        "result": 1496198395707,
+        "error": null
+      }
     """
     note = dict(
       deckName = deckName,
