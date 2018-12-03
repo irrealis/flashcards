@@ -783,7 +783,21 @@ class AnkiClient(AnkiClientBase):
 
   def addTags(self, notes, tags):
     """
-    TODO
+    Adds tags to notes by note ID. The `tags` argument should be a string made of space-separated concatenated tag strings.
+
+    Sample request:
+
+      client.addTags(
+        notes = [1483959289817, 1483959291695],
+        tags = "european-languages"
+      )
+
+    Sample result:
+
+      {
+        "result": null,
+        "error": null
+      }
     """
     wr, r = self.send_as_json(action = "addTags", params = dict(
       notes = notes,
