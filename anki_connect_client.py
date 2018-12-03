@@ -270,16 +270,17 @@ class AnkiClient(AnkiClientBase):
 
     Sample request:
 
-    anki_connect_client.deleteDecks(
-      decks = ["Japanese::JLPT N5", "Easy Spanish"],
-      cardsToo = true
-    )
+      client.deleteDecks(
+        decks = ["Japanese::JLPT N5", "Easy Spanish"],
+        cardsToo = true
+      )
 
     Sample result:
-    {
+
+      {
         "result": null,
         "error": null
-    }
+      }
     """
     wr, r = self.send_as_json(action = "deleteDecks", params = dict(
       decks = decks, cardsToo = cardsToo
