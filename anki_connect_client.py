@@ -579,7 +579,7 @@ class AnkiClient(AnkiClientBase):
 
   ## Models
 
-  def addNote(self, deckName, modelName, fields, tags = None, audio = None):
+  def addNote(self, deckName, modelName, fields, options = None, tags = None, audio = None):
     """
     Creates a note using the given deck and model, with the provided field values and tags. Returns the identifier of the created note created on success, and null on failure.
 
@@ -622,12 +622,9 @@ class AnkiClient(AnkiClientBase):
       modelName = modelName,
       fields = fields,
     )
-    if tags is not None:
-      note['tags'] = tags
-    if audio is not None:
-      note['audio'] = audio
-    print("note:")
-    print(note)
+    if options is not None: note['options'] = options
+    if tags is not None: note['tags'] = tags
+    if audio is not None: note['audio'] = audio
     wr, r = self.send_as_json(action = "addNote", params = dict(
       note = note
     ))
