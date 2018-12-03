@@ -253,7 +253,21 @@ class AnkiClient(AnkiClientBase):
 
   def changeDeck(self, cards, deck):
     """
-    TODO
+    Moves cards with the given IDs to a different deck, creating the deck if it doesn't exist yet.
+
+    Sample request:
+
+      client.changeDeck(
+        cards = [1502098034045, 1502098034048, 1502298033753],
+        deck = "Japanese::JLPT N3"
+      )
+
+    Sample result:
+
+      {
+        "result": null,
+        "error": null
+      }
     """
     wr, r = self.send_as_json(action = "changeDeck", params = dict(
       cards = cards,
