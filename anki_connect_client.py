@@ -1028,3 +1028,22 @@ class AnkiConnectClient(AnkiConnectClientBase):
     ))
     self._check(wr, r, 'Error starting review for deck with name "%s"', name)
     return r
+
+  def guiExitAnki(self):
+    """
+    Schedules a request to gracefully close Anki. This operation is asynchronous, so it will return immediately and won't wait until the Anki process actually terminates.
+
+    Sample request:
+
+      client.guiExitAnki()
+
+    Sample result:
+
+      {
+        "result": null,
+        "error": null
+      }
+    """
+    wr, r = self.send_as_json(action = "guiExitAnki")
+    self._check(wr, r, 'Error closing Anki')
+    return r
