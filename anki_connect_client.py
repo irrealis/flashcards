@@ -619,3 +619,44 @@ class AnkiConnectClient(AnkiConnectClientBase):
     ))
     self._check(wr, r, 'Error checking due status for cards %s', cards)
     return r
+
+  def getIntervals(self, cards, complete = False):
+    """
+    Returns an array of the most recent intervals for each given card ID, or a 2-dimensional array of all the intervals for each given card ID when complete is true. Negative intervals are in seconds and positive intervals in days.
+
+    Sample request 1:
+
+      client.getIntervals(
+        cards = [1502298033753, 1502298036657]
+      )
+
+    Sample result 1:
+
+      {
+        "result": [-14400, 3],
+        "error": null
+      }
+
+    Sample request 2:
+
+      client.getIntervals(
+        cards = [1502298033753, 1502298036657],
+        complete = true
+      )
+
+    Sample result 2:
+
+      {
+        "result": [
+          [-120, -180, -240, -300, -360, -14400],
+          [-120, -180, -240, -300, -360, -14400, 1, 3]
+        ],
+        "error": null
+      }
+    """
+    wr, r = self.send_as_json(action = "getIntervals", params = dict(
+      cards = cards,
+      complete = complete
+    ))
+    self._check(wr, r, 'Error getting intervals for cards %s', cards)
+    return r
