@@ -480,7 +480,20 @@ class AnkiClient(AnkiClientBase):
 
   def removeDeckConfigId(self, configId):
     """
-    TODO
+    Removes the configuration group with the given ID, returning true if successful, or false if attempting to remove either the default configuration group (ID = 1) or a configuration group that does not exist.
+
+    Sample request:
+
+      client.removeDeckConfigId(
+        configId = 1502972374573
+      )
+
+    Sample result:
+
+      {
+        "result": true,
+        "error": null
+      }
     """
     wr, r = self.send_as_json(action = "removeDeckConfigId", params = dict(
       configId = configId,
