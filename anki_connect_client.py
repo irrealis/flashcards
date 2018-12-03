@@ -883,3 +883,22 @@ class AnkiConnectClient(AnkiConnectClientBase):
     wr, r = self.send_as_json(action = "guiCurrentCard")
     self._check(wr, r, 'Error getting info for current card')
     return r
+
+  def guiStartCardTimer(self):
+    """
+    Starts or resets the timerStarted value for the current card. This is useful for deferring the start time to when it is displayed via the API, allowing the recorded time taken to answer the card to be more accurate when calling guiAnswerCard.
+
+    Sample request:
+
+      client.guiStartCardTimer()
+
+    Sample result:
+
+      {
+        "result": true,
+        "error": null
+      }
+    """
+    wr, r = self.send_as_json(action = "guiStartCardTimer")
+    self._check(wr, r, 'Error starting/resetting timerStarted value for current card')
+    return r
