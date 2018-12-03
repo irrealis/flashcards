@@ -940,3 +940,26 @@ class AnkiConnectClient(AnkiConnectClientBase):
     wr, r = self.send_as_json(action = "guiShowAnswer")
     self._check(wr, r, 'Error showing answer for current card')
     return r
+
+  def guiAnswerCard(self, ease):
+    """
+    Answers the current card; returns true if succeeded or false otherwise. Note that the answer for the current card must be displayed before before any answer can be accepted by Anki.
+
+    Sample request:
+
+      client.guiAnswerCard(
+        ease = 1
+      )
+
+    Sample result:
+
+      {
+        "result": true,
+        "error": null
+      }
+    """
+    wr, r = self.send_as_json(action = "guiAnswerCard", params = dict(
+      ease = ease
+    ))
+    self._check(wr, r, 'Error answering current card')
+    return r
