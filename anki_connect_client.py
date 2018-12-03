@@ -837,7 +837,18 @@ class AnkiClient(AnkiClientBase):
 
   def getTags(self):
     """
-    TODO
+    Gets the complete list of tags for the current user.
+
+    Sample request:
+
+      client.getTags()
+
+    Sample result:
+
+      {
+        "result": ["european-languages", "idioms"],
+        "error": null
+      }
     """
     wr, r = self.send_as_json(action = "getTags")
     self._check(wr, r,
