@@ -858,7 +858,20 @@ class AnkiClient(AnkiClientBase):
 
   def findNotes(self, query):
     """
-    TODO
+    Returns an array of note IDs for a given query. Same query syntax as guiBrowse.
+
+    Sample request:
+
+      client.findNotes(
+        query = "deck:current"
+      )
+
+    Sample result:
+
+      {
+        "result": [1483959289817, 1483959291695],
+        "error": null
+      }
     """
     wr, r = self.send_as_json(action = "findNotes", params = dict(
       query = query
