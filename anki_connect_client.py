@@ -750,7 +750,24 @@ class AnkiClient(AnkiClientBase):
 
   def updateNoteFields(self, id, fields):
     """
-    TODO
+    Modify the fields of an exist note.
+
+    Sample request:
+
+      client.updateNoteFields(
+        id = 1514547547030,
+        fields = {
+          "Front": "new front content",
+          "Back": "new back content"
+        }
+      )
+
+    Sample result:
+
+      {
+        "result": null,
+        "error": null
+      }
     """
     note = dict(
       id = id,
