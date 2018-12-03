@@ -26,7 +26,7 @@ class AnkiClientBase(object):
   def connect(self, hostname = None, port = None):
     '''Open HTTP connection to Anki.'''
     self.close()
-    if hostname is None: hostname = '127.0.0.1'
+    if hostname is None: hostname = 'localhost'
     if port is None: port = 8765
     self.hostname = hostname
     self.port = port
