@@ -204,18 +204,19 @@ class AnkiClient(AnkiClientBase):
 
     Sample call:
 
-    anki_connect_client.getDecks(
-      cards = [1502298036657, 1502298033753, 1502032366472]
-    )
+      client.getDecks(
+        cards = [1502298036657, 1502298033753, 1502032366472]
+      )
 
     Sample result:
-    {
+
+      {
         "result": {
-            "Default": [1502032366472],
-            "Japanese::JLPT N3": [1502298036657, 1502298033753]
+          "default": [1502032366472],
+          "japanese::jlpt n3": [1502298036657, 1502298033753]
         },
         "error": null
-    }
+      }
     """
     wr, r = self.send_as_json(action = "getDecks", params = dict(
       cards = cards
