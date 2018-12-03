@@ -713,7 +713,32 @@ class AnkiClient(AnkiClientBase):
 
   def canAddNotes(self, notes):
     """
-    TODO
+    Accepts an array of objects which define parameters for candidate notes (see addNote) and returns an array of booleans indicating whether or not the parameters at the corresponding index could be used to create a new note.
+
+    Sample request:
+
+      client.canAddNotes(
+        notes = [
+          {
+            "deckName": "Default",
+            "modelName": "Basic",
+            "fields": {
+              "Front": "front content",
+              "Back": "back content"
+            },
+            "tags": [
+              "yomichan"
+            ]
+          }
+        ]
+      )
+
+    Sample result:
+
+      {
+        "result": [true],
+        "error": null
+      }
     """
     wr, r = self.send_as_json(action = "canAddNotes", params = dict(
       notes = notes
