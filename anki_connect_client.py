@@ -832,3 +832,22 @@ class AnkiConnectClient(AnkiConnectClientBase):
     ))
     self._check(wr, r, 'Error browsing GUI for query %s', query)
     return r
+
+  def guiAddCards(self):
+    """
+    Invokes the Add Cards dialog.
+
+    Sample request:
+
+      client.guiAddCards()
+
+    Sample result:
+
+      {
+        "result": null,
+        "error": null
+      }
+    """
+    wr, r = self.send_as_json(action = "GuiAddCards")
+    self._check(wr, r, 'Error invoking Add Cards dialog')
+    return r
