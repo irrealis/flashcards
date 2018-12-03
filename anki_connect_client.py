@@ -810,7 +810,21 @@ class AnkiClient(AnkiClientBase):
 
   def removeTags(self, notes, tags):
     """
-    TODO
+    Remove tags from notes by note ID. The `tags` argument should be a string made of space-separated concatenated tag strings.
+
+    Sample request:
+
+      client.removeTags(
+        notes = [1483959289817, 1483959291695],
+        tags = "european-languages"
+      )
+
+    Sample result:
+
+      {
+        "result": null,
+        "error": null
+      }
     """
     wr, r = self.send_as_json(action = "removeTags", params = dict(
       notes = notes,
