@@ -668,7 +668,40 @@ class AnkiClient(AnkiClientBase):
 
   def addNotes(self, notes):
     """
-    TODO
+    Creates multiple notes using the given deck and model, with the provided field values and tags. Returns an array of identifiers of the created notes (notes that could not be created will have a null identifier). Please see the documentation for addNote for an explanation of objects in the notes array.
+
+    Sample request:
+
+      client.addNotes(
+        notes = [
+          {
+            "deckName": "Default",
+            "modelName": "Basic",
+            "fields": {
+              "Front": "front content",
+              "Back": "back content"
+            },
+            "tags": [
+              "yomichan"
+            ],
+            "audio": {
+              "url": "https://assets.languagepod101.com/dictionary/japanese/audiomp3.php?kanji=猫&kana=ねこ",
+              "filename": "yomichan_ねこ_猫.mp3",
+              "skipHash": "7e2c2f954ef6051373ba916f000168dc",
+              "fields": [
+                "Front"
+              ]
+            }
+          }
+        ]
+      )
+
+    Sample result:
+
+      {
+        "result": [1496198395707, null],
+        "error": null
+      }
     """
     wr, r = self.send_as_json(action = "addNotes", params = dict(
       notes = notes
