@@ -426,7 +426,21 @@ class AnkiClient(AnkiClientBase):
 
   def setDeckConfigId(self, decks, configId):
     """
-    TODO
+    Changes the configuration group for the given decks to the one with the given ID. Returns true on success or false if the given configuration group or any of the given decks do not exist.
+
+    Sample request:
+
+      client.setDeckConfigId(
+        decks = ["Default"],
+        configId = 1
+      )
+
+    Sample result:
+
+      {
+        "result": true,
+        "error": null
+      }
     """
     wr, r = self.send_as_json(action = "setDeckConfigId", params = dict(
       decks = decks,
