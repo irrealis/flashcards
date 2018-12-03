@@ -706,3 +706,57 @@ class AnkiConnectClient(AnkiConnectClientBase):
     ))
     self._check(wr, r, 'Error getting notes for cards %s', cards)
     return r
+
+  def cardsInfo(self, cards):
+    """
+    Returns a list of objects containing for each card ID the card fields, front and back sides including CSS, note type, the note that the card belongs to, and deck name, as well as ease and interval.
+
+    Sample request:
+
+      client.cardsInfo(
+        cards = [1498938915662, 1502098034048]
+      )
+
+    Sample result:
+
+      {
+        "result": [
+          {
+            "answer": "back content",
+            "question": "front content",
+            "deckName": "Default",
+            "modelName": "Basic",
+            "fieldOrder": 1,
+            "fields": {
+              "Front": {"value": "front content", "order": 0},
+              "Back": {"value": "back content", "order": 1}
+            },
+            "css":"p {font-family:Arial;}",
+            "cardId": 1498938915662,
+            "interval": 16,
+            "note":1502298033753
+          },
+          {
+            "answer": "back content",
+            "question": "front content",
+            "deckName": "Default",
+            "modelName": "Basic",
+            "fieldOrder": 0,
+            "fields": {
+              "Front": {"value": "front content", "order": 0},
+              "Back": {"value": "back content", "order": 1}
+            },
+            "css":"p {font-family:Arial;}",
+            "cardId": 1502098034048,
+            "interval": 23,
+            "note":1502298033753
+          }
+        ],
+        "error": null
+      }
+    """
+    wr, r = self.send_as_json(action = "cardsInfo", params = dict(
+      cards = cards
+    ))
+    self._check(wr, r, 'Error getting info for cards %s', cards)
+    return r
