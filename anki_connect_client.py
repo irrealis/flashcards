@@ -453,7 +453,21 @@ class AnkiClient(AnkiClientBase):
 
   def cloneDeckConfigId(self, name, cloneFrom):
     """
-    TODO
+    Creates a new configuration group with the given name, cloning from the group with the given ID, or from the default group if this is unspecified. Returns the ID of the new configuration group, or false if the specified group to clone from does not exist.
+
+    Sample request:
+
+      client.cloneDeckConfigId(
+        name = "Copy of Default",
+        cloneFrom = 1
+      )
+
+    Sample result:
+
+      {
+        "result": 1502972374573,
+        "error": null
+      }
     """
     wr, r = self.send_as_json(action = "cloneDeckConfigId", params = dict(
       name = name,
