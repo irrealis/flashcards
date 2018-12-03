@@ -5,11 +5,11 @@ log_hdlr = logging.StreamHandler()
 log.addHandler(log_hdlr)
 
 
-class AnkiConnectException(Exception):
+class AnkiException(Exception):
   pass
 
 
-class AnkiConnectClientBase(object):
+class AnkiClientBase(object):
   server_version = 6
 
   def __init__(self, hostname = None, port = None):
@@ -21,10 +21,10 @@ class AnkiConnectClientBase(object):
 
   def report_anki_error(self, result, message, *extra_args):
     log.warning(message, *extra_args)
-    log.warning("\nAnkiConnect error description:\n %s", result["error"])
+    log.warning("\n*** Anki error description:\n %s\n", result["error"])
 
   def connect(self, hostname = None, port = None):
-    '''Open HTTP connection to AnkiConnect.'''
+    '''Open HTTP connection to Anki.'''
     self.close()
     if hostname is None: hostname = '127.0.0.1'
     if port is None: port = 8765
@@ -33,11 +33,11 @@ class AnkiConnectClientBase(object):
     self.connection = http.client.HTTPConnection(self.hostname, self.port)
 
   def close(self):
-    '''Close HTTP connection to AnkiConnect.'''
+    '''Close HTTP connection to Anki.'''
     if self.connection: self.connection.close()
 
   def send_raw(self, data):
-    '''Send raw data to AnkiConnect.'''
+    '''Send raw data to Anki.'''
     self.close()
     self.connection.request("POST", "", data)
     response = self.connection.getresponse()
@@ -45,16 +45,16 @@ class AnkiConnectClientBase(object):
 
   def send_as_json(self, data = None, version = None, **d):
     '''
-    Convert data to JSON, then send to AnkiConnect.
+    Convert data to JSON, then send to Anki.
 
-    Returns both HTTP response and any data received from AnkiConnect.
+    Returns both HTTP response and any data received from Anki.
     '''
     # To simplify calling `send_as_json`, named parameters can be used in
     # place of a data dict.
     if data is None: data = d
 
     # If AnkiConnect version isn't supplied, use this class's default.
-    if version is None: version = AnkiConnectClientBase.server_version
+    if version is None: version = AnkiClientBase.server_version
     data.setdefault("version", version)
     json_data = json.dumps(data)
     http_response = self.send_raw(json_data)
@@ -64,9 +64,9 @@ class AnkiConnectClientBase(object):
 
   def send(self, data = None, version = None, **d):
     '''
-    Simplified send of data to AnkiConnect.
+    Simplified send of data to Anki.
 
-    Returns any data received from AnkiConnect.
+    Returns any data received from Anki.
     '''
     http_response, result_data = self.send_as_json(data, version, **d)
 
@@ -78,13 +78,13 @@ class AnkiConnectClientBase(object):
         http_response.status,
         http_response.reason,
       )
-      raise AnkiConnectException(msg)
+      raise AnkiException(msg)
 
-    # If no error indicated in "error" field, return data from AnkiConnect.
+    # If no error indicated in "error" field, return data from Anki.
     return result_data
 
 
-class AnkiConnectClient(AnkiConnectClientBase):
+class AnkiClient(AnkiClientBase):
   def _check(self, response, result, message, *extra_args):
     if result.get("error", None):
       self.report_anki_error(result, message, *extra_args)
@@ -96,35 +96,39 @@ class AnkiConnectClient(AnkiConnectClientBase):
 
   def version(self):
     """
-    Gets the version of the AnkiConnect API exposed by AnkiConnectClient. AnkiConnectClient currently exposes AnkiConnect version 6.
+    Gets the version of the AnkiConnect API exposed by AnkiClient. AnkiClient currently exposes AnkiConnect version 6.
 
     This should be the first call you make to make sure that your application and AnkiConnect are able to communicate properly with each other. New versions of AnkiConnect are backwards compatible; as long as you are using actions which are available in the reported AnkiConnect version or earlier, everything should work fine.
 
-    Sample call: anki_connect_client.version()
+    Sample call:
+
+      client.version()
 
     Sample result:
-    {
+
+      {
         "result": 6,
         "error": null
-    }
+      }
     """
-    response, result = self.send_as_json(action = "version")
-    self._check(response, result,
-      "Error getting AnkiConnect version"
-    )
-    return result
+    wr, r = self.send_as_json(action = "version")
+    self._check(wr, r, "Error getting AnkiConnect version")
+    return r
 
   def upgrade(self):
     """
     Displays a confirmation dialog box in Anki asking the user if they wish to upgrade AnkiConnect to the latest version from the project's master branch on GitHub. Returns a boolean value indicating if the plugin was upgraded or not.
 
-    Sample call: anki_connect_client.upgrade()
+    Sample call:
+
+      client.upgrade()
 
     Sample result:
-    {
+
+      {
         "result": true,
         "error": null
-    }
+      }
     """
     response, result = self.send_as_json(action = "upgrade")
     self._check(response, result, "Error upgrading AnkiConnect")
