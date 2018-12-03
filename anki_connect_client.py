@@ -902,3 +902,22 @@ class AnkiConnectClient(AnkiConnectClientBase):
     wr, r = self.send_as_json(action = "guiStartCardTimer")
     self._check(wr, r, 'Error starting/resetting timerStarted value for current card')
     return r
+
+  def guiShowQuestion(self):
+    """
+    Shows question text for the current card; returns true if in review mode or false otherwise.
+
+    Sample request:
+
+      client.guiShowQuestion()
+
+    Sample result:
+
+      {
+        "result": true,
+        "error": null
+      }
+    """
+    wr, r = self.send_as_json(action = "guiShowQuestion")
+    self._check(wr, r, 'Error showing question for current card')
+    return r
