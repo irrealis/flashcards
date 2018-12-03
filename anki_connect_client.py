@@ -524,3 +524,29 @@ class AnkiConnectClient(AnkiConnectClientBase):
       'Error storing media file "%s"', filename
     )
     return result
+
+
+  ## Cards
+
+  def suspend(self, cards):
+    """
+    Suspend cards by card ID; returns true if successful (at least one card wasn't already suspended) or false otherwise.
+
+    Sample request:
+
+      client.suspend(
+        cards = [1483959291685, 1483959293217]
+      )
+
+    Sample result:
+
+      {
+        "result": true,
+        "error": null
+      }
+    """
+    wr, r = self.send_as_json(action = "suspend", params = dict(
+      cards = cards
+    ))
+    self._check(wr, r, 'Error suspending cards %s', cards)
+    return r
