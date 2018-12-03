@@ -783,3 +783,26 @@ class AnkiConnectClient(AnkiConnectClientBase):
     ))
     self._check(wr, r, 'Error retrieving media file "%s"', filename)
     return r
+
+  def deleteMediaFile(self, filename):
+    """
+    Deletes the specified file inside the media folder.
+
+    Sample request:
+
+      client.deleteMediaFile(
+        filename = "_hello.txt"
+      )
+
+    Sample result:
+
+      {
+        "result": null,
+        "error": null
+      }
+    """
+    wr, r = self.send_as_json(action = "deleteMediaFile", params = dict(
+      filename = filename
+    ))
+    self._check(wr, r, 'Error deleting media file "%s"', filename)
+    return r
