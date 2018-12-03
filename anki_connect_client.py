@@ -596,3 +596,26 @@ class AnkiConnectClient(AnkiConnectClientBase):
     ))
     self._check(wr, r, 'Error checking suspend status for cards %s', cards)
     return r
+
+  def areDue(self, cards):
+    """
+    Returns an array indicating whether each of the given cards is due (in the same order). Note: cards in the learning queue with a large interval (over 20 minutes) are treated as not due until the time of their interval has passed, to match the way Anki treats them when reviewing.
+
+    Sample request:
+
+      client.areDue(
+        cards = [1483959291685, 1483959293217]
+      )
+
+    Sample result:
+
+      {
+        "result": [false, true],
+        "error": null
+      }
+    """
+    wr, r = self.send_as_json(action = "areDue", params = dict(
+      cards = cards
+    ))
+    self._check(wr, r, 'Error checking due status for cards %s', cards)
+    return r
