@@ -529,7 +529,23 @@ class AnkiClient(AnkiClientBase):
 
   def modelNamesAndIds(self):
     """
-    TODO
+    Gets the complete list of model names and their corresponding IDs for the current user.
+
+    Sample request:
+
+      client.modelNamesAndIds()
+
+    Sample result:
+
+      {
+        "result": {
+          "Basic": 1483883011648,
+          "Basic (and reversed card)": 1483883011644,
+          "Basic (optional reversed card)": 1483883011631,
+          "Cloze": 1483883011630
+        },
+        "error": null
+      }
     """
     wr, r = self.send_as_json(action = "modelNamesAndIds")
     self._check(wr, r,
