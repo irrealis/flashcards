@@ -509,6 +509,9 @@ class AnkiConnectClient(AnkiConnectClientBase):
     )
     return result
 
+
+  ## Media
+
   def storeMediaFile(self, filename, data):
     """
     TODO
