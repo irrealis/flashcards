@@ -760,3 +760,26 @@ class AnkiConnectClient(AnkiConnectClientBase):
       'Error storing media file "%s"', filename
     )
     return result
+
+  def retrieveMediaFile(self, filename):
+    """
+    Retrieves the base64-encoded contents of the specified file, returning false if the file does not exist.
+
+    Sample request:
+
+      client.retrieveMediaFile(
+        filename = "_hello.txt"
+      )
+
+    Sample result:
+
+      {
+        "result": "SGVsbG8sIHdvcmxkIQ==",
+        "error": null
+      }
+    """
+    wr, r = self.send_as_json(action = "retrieveMediaFile", params = dict(
+      filename = filename
+    ))
+    self._check(wr, r, 'Error retrieving media file "%s"', filename)
+    return r
