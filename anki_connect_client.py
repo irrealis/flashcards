@@ -160,13 +160,16 @@ class AnkiClient(AnkiClientBase):
     """
     Gets the complete list of deck names for the current user.
 
-    Sample call: anki_connect_client.deckNames()
+    Sample call:
+
+      client.deckNames()
 
     Sample result:
-    {
+
+      {
         "result": ["Default"],
         "error": null
-    }
+      }
     """
     wr, r = self.send_as_json(action = "deckNames")
     self._check(wr, r,
