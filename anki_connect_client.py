@@ -306,7 +306,55 @@ class AnkiClient(AnkiClientBase):
 
   def getDeckConfig(self, deck):
     """
-    TODO
+    Gets the configuration group object for the given deck.
+
+    Sample request:
+
+      client.getDeckConfig(
+        deck = "Default"
+      )
+
+    Sample result:
+
+      {
+        "result": {
+          "lapse": {
+            "leechFails": 8,
+            "delays": [10],
+            "minInt": 1,
+            "leechAction": 0,
+            "mult": 0
+          },
+          "dyn": false,
+          "autoplay": true,
+          "mod": 1502970872,
+          "id": 1,
+          "maxTaken": 60,
+          "new": {
+            "bury": true,
+            "order": 1,
+            "initialFactor": 2500,
+            "perDay": 20,
+            "delays": [1, 10],
+            "separate": true,
+            "ints": [1, 4, 7]
+          },
+          "name": "Default",
+          "rev": {
+            "bury": true,
+            "ivlFct": 1,
+            "ease4": 1.3,
+            "maxIvl": 36500,
+            "perDay": 100,
+            "minSpace": 1,
+            "fuzz": 0.05
+          },
+          "timer": 0,
+          "replayq": true,
+          "usn": -1
+        },
+        "error": null
+      }
     """
     wr, r = self.send_as_json(action = "getDeckConfig", params = dict(
       deck = deck
