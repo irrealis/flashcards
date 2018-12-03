@@ -573,3 +573,26 @@ class AnkiConnectClient(AnkiConnectClientBase):
     ))
     self._check(wr, r, 'Error unsuspending cards %s', cards)
     return r
+
+  def areSuspended(self, cards):
+    """
+    Returns an array indicating whether each of the given cards is suspended (in the same order).
+
+    Sample request:
+
+      client.areSuspended(
+        cards = [1483959291685, 1483959293217]
+      )
+
+    Sample result:
+
+      {
+        "result": [false, true],
+        "error": null
+      }
+    """
+    wr, r = self.send_as_json(action = "areSuspended", params = dict(
+      cards = cards
+    ))
+    self._check(wr, r, 'Error checking suspend status for cards %s', cards)
+    return r
