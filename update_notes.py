@@ -361,6 +361,7 @@ class NoteSender(object):
 
 
   def loadsend_file(self, filename):
+    log.info('Processing "%s".', filename)
     with rtyaml.edit(filename, default = {}) as data:
       query_results, defaults = self.query_notes(self.opts.query, data)
       if query_results.empty:
@@ -374,8 +375,13 @@ class NoteSender(object):
           log.info("Query result details below.")
           log.info("")
         else:
+          if self.opts.annotations:
+            log.info("")
+            log.info("Running in annotations mode.")
+            log.info("")
           log.debug("Query results:\n %s", str(query_results))
 
+      annotations_field = defaults['annotationsField']
       for i in query_results.index:
         rtnote = query_results.rtnote[i]
         note_id = str(rtnote['id'])
@@ -386,7 +392,7 @@ class NoteSender(object):
         md_lineno = query_results.markdownLineNums[i]
         md_tablen = query_results.markdownTabLength[i]
         md_mathext = query_results.useMarkdownMathExt[i]
-        tags = query_results.tags[i].replace(',','\n').split()
+        tags = sorted(query_results.tags[i].replace(',','\n').split())
         fields = query_results.fields[i]
         description = "{}:{}".format(note_id, fields)
 
@@ -411,10 +417,13 @@ class NoteSender(object):
         note_info = self.anki.notesInfo([note_id])
 
         if note_info.get("error", None) or not note_info['result'][0]:
-          log.info("Can't find note with ID %s; a new note will be created.", note_id)
+          if self.opts.annotations:
+            log.info("Can't find note with ID %s; skipping annotations for this note.", note_id)
+            continue
+          else:
+            log.info("Can't find note with ID %s; a new note will be created.", note_id)
         else:
           creating_new_note = False
-
 
         if creating_new_note:
           # No provided ID; assume new note should be created.
@@ -456,13 +465,13 @@ class NoteSender(object):
         # Because of this special handling, we remove annotations from the
         # shallow copy of the note. We'll instead use the round-trip version.
 
-        annotations_field = defaults['annotationsField']
-        if annotations_field in fields:
-          del fields[annotations_field]
-        converted_fields = { k: self.format_text(
-          str(v), use_md, md_sty, md_lineno, md_tablen, md_mathext,
-          note_id = "%s-%s-%s" % (note_id, note_uid, field_no)
-        ) for (field_no, (k, v)) in enumerate(fields.items()) }
+        if not self.opts.annotations:
+          if annotations_field in fields:
+            del fields[annotations_field]
+          converted_fields = { k: self.format_text(
+            str(v), use_md, md_sty, md_lineno, md_tablen, md_mathext,
+            note_id = "%s-%s-%s" % (note_id, note_uid, field_no)
+          ) for (field_no, (k, v)) in enumerate(fields.items()) }
 
         # If we found this note in Anki's flashcard deck, then we'll grab any
         # annotations the user has made for that note, and store them in the
@@ -478,13 +487,15 @@ class NoteSender(object):
           annotations = upstream_fields.get(annotations_field, dict(value = ''))['value']
           # Transfer annotations from existing note to YAML file.
           rtnote['fields'][annotations_field] = annotations
-        converted_fields[annotations_field] = annotations
 
-        # Update converted note fields...
-        result = self.anki.updateNoteFields(note_id, converted_fields)
-        if result.get("error", None):
-          log.warning("Can't update note: %s", description)
-          continue
+        if not self.opts.annotations:
+          converted_fields[annotations_field] = annotations
+
+          # Update converted note fields...
+          result = self.anki.updateNoteFields(note_id, converted_fields)
+          if result.get("error", None):
+            log.warning("Can't update note: %s", description)
+            continue
 
         # Update note tags...
         ## First get existing note tags.
@@ -495,11 +506,22 @@ class NoteSender(object):
 
         current_tags = sorted(note_info['result'][0]['tags'])
         if current_tags != tags:
+          rt_non_annot_tags = set(filter(lambda s: not s.startswith('ann:'), rtnote.get('tags', list())))
+          non_annot_tags = set(filter(lambda s: not s.startswith('ann:'), tags))
+          cur_non_annot_tags = set(filter(lambda s: not s.startswith('ann:'), current_tags))
+          cur_annot_tags = set(filter(lambda s: s.startswith('ann:'), current_tags))
+          tags = sorted(list(non_annot_tags.union(cur_annot_tags)))
+          rt_tags = sorted(list(rt_non_annot_tags.union(cur_annot_tags)))
+          rtnote['tags'] = rt_tags
+
           ## Remove existing note tags.
-          result = self.anki.removeTags([note_id], " ".join(current_tags))
+          log.info("Removing tags %s...", cur_non_annot_tags)
+          result = self.anki.removeTags([note_id], " ".join(cur_non_annot_tags))
           if result.get("error", None):
             log.warning("Can't remove tags for note: %s", description)
+
           ## Add new note tags.
+          log.info("Replacing with tags %s...", tags)
           result = self.anki.addTags([note_id], " ".join(tags))
           if result.get("error", None):
             log.warning("Can't add tags for note: %s", description)
@@ -548,7 +570,13 @@ def getopts():
   )
   parser.add_argument(
     "--question",
-    help = "Question mode; do not update Anki or YAML, just show query results",
+    help = "Question mode; don't update Anki or YAML, just show query results",
+    action = 'store_true',
+    default = False,
+  )
+  parser.add_argument(
+    "--annotations",
+    help = "Annotations mode; don't update Anki fields, just sync annotations from Anki to YAML",
     action = 'store_true',
     default = False,
   )
