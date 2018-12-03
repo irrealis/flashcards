@@ -806,3 +806,29 @@ class AnkiConnectClient(AnkiConnectClientBase):
     ))
     self._check(wr, r, 'Error deleting media file "%s"', filename)
     return r
+
+
+  ## Graphical
+
+  def guiBrowse(self, query):
+    """
+    Invokes the Card Browser dialog and searches for a given query. Returns an array of identifiers of the cards that were found.
+
+    Sample request:
+
+      client.guiBrowse(
+        query = "deck:current"
+      )
+
+    Sample result:
+
+      {
+        "result": [1494723142483, 1494703460437, 1494703479525],
+        "error": null
+      }
+    """
+    wr, r = self.send_as_json(action = "guiBrowse", params = dict(
+      query = query
+    ))
+    self._check(wr, r, 'Error browsing GUI for query %s', query)
+    return r
