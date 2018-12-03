@@ -550,3 +550,26 @@ class AnkiConnectClient(AnkiConnectClientBase):
     ))
     self._check(wr, r, 'Error suspending cards %s', cards)
     return r
+
+  def unsuspend(self, cards):
+    """
+    Unsuspend cards by card ID; returns true if successful (at least one card was previously suspended) or false otherwise.
+
+    Sample request:
+
+      client.unsuspend(
+        cards = [1483959291685, 1483959293217]
+      )
+
+    Sample result:
+
+      {
+        "result": true,
+        "error": null
+      }
+    """
+    wr, r = self.send_as_json(action = "unsuspend", params = dict(
+      cards = cards
+    ))
+    self._check(wr, r, 'Error unsuspending cards %s', cards)
+    return r
