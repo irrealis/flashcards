@@ -963,3 +963,26 @@ class AnkiConnectClient(AnkiConnectClientBase):
     ))
     self._check(wr, r, 'Error answering current card')
     return r
+
+  def guiDeckOverview(self, name):
+    """
+    Opens the Deck Overview dialog for the deck with the given name; returns true if succeeded or false otherwise.
+
+    Sample request:
+
+      client.guiDeckOverview(
+        name = "Default"
+      )
+
+    Sample result:
+
+      {
+        "result": true,
+        "error": null
+      }
+    """
+    wr, r = self.send_as_json(action = "guiDeckOverview", params = dict(
+      name = name
+    ))
+    self._check(wr, r, 'Error opening Deck Overview dialog for deck with name "%s"', name)
+    return r
