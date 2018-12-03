@@ -366,7 +366,55 @@ class AnkiClient(AnkiClientBase):
 
   def saveDeckConfig(self, config):
     """
-    TODO
+    Saves the given configuration group, returning true on success or false if the ID of the configuration group is invalid (such as when it does not exist).
+
+    Sample request:
+
+      client.saveDeckConfig(
+        config = {
+          "lapse": {
+            "leechFails": 8,
+            "delays": [10],
+            "minInt": 1,
+            "leechAction": 0,
+            "mult": 0
+          },
+          "dyn": false,
+          "autoplay": true,
+          "mod": 1502970872,
+          "id": 1,
+          "maxTaken": 60,
+          "new": {
+            "bury": true,
+            "order": 1,
+            "initialFactor": 2500,
+            "perDay": 20,
+            "delays": [1, 10],
+            "separate": true,
+            "ints": [1, 4, 7]
+          },
+          "name": "Default",
+          "rev": {
+            "bury": true,
+            "ivlFct": 1,
+            "ease4": 1.3,
+            "maxIvl": 36500,
+            "perDay": 100,
+            "minSpace": 1,
+            "fuzz": 0.05
+          },
+          "timer": 0,
+          "replayq": true,
+          "usn": -1
+        }
+      )
+
+    Sample result:
+
+      {
+        "result": true,
+        "error": null
+      }
     """
     wr, r = self.send_as_json(action = "saveDeckConfig", params = dict(
       config = config
