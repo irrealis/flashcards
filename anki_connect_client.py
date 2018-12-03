@@ -986,3 +986,22 @@ class AnkiConnectClient(AnkiConnectClientBase):
     ))
     self._check(wr, r, 'Error opening Deck Overview dialog for deck with name "%s"', name)
     return r
+
+  def guiDeckBrowser(self):
+    """
+    Opens the Deck Browser dialog.
+
+    Sample request:
+
+      client.guiDeckBrowser()
+
+    Sample result:
+
+      {
+        "result": null,
+        "error": null
+      }
+    """
+    wr, r = self.send_as_json(action = "guiDeckBrowser")
+    self._check(wr, r, 'Error opening Deck Browser dialog')
+    return r
