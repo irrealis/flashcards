@@ -580,7 +580,23 @@ class AnkiClient(AnkiClientBase):
 
   def modelFieldsOnTemplates(self, modelName):
     """
-    TODO
+    Returns an object indicating the fields on the question and answer side of each card template for the given model name. The question side is given first in each array.
+
+    Sample request:
+
+      client.modelFieldsOnTemplates(
+        modelName = "Basic (and reversed card)"
+      )
+
+    Sample result:
+
+      {
+        "result": {
+          "Card 1": [["Front"], ["Back"]],
+          "Card 2": [["Back"], ["Front"]]
+        },
+        "error": null
+      }
     """
     wr, r = self.send_as_json(action = "modelFieldsOnTemplates", params = dict(
       modelName = modelName
