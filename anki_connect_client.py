@@ -921,3 +921,22 @@ class AnkiConnectClient(AnkiConnectClientBase):
     wr, r = self.send_as_json(action = "guiShowQuestion")
     self._check(wr, r, 'Error showing question for current card')
     return r
+
+  def guiShowAnswer(self):
+    """
+    Shows answer text for the current card; returns true if in review mode or false otherwise.
+
+    Sample request:
+
+      client.guiShowAnswer()
+
+    Sample result:
+
+      {
+        "result": true,
+        "error": null
+      }
+    """
+    wr, r = self.send_as_json(action = "guiShowAnswer")
+    self._check(wr, r, 'Error showing answer for current card')
+    return r
