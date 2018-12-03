@@ -683,3 +683,26 @@ class AnkiConnectClient(AnkiConnectClientBase):
     ))
     self._check(wr, r, 'Error finding cards for query %s', query)
     return r
+
+  def cardsToNotes(self, cards):
+    """
+    Returns an unordered array of note IDs for the given card IDs. For cards with the same note, the ID is only given once in the array.
+
+    Sample request:
+
+      client.cardsToNotes(
+        cards = [1502098034045, 1502098034048, 1502298033753]
+      )
+
+    Sample result:
+
+      {
+        "result": [1502098029797, 1502298025183],
+        "error": null
+      }
+    """
+    wr, r = self.send_as_json(action = "cardsToNotes", params = dict(
+      cards = cards
+    ))
+    self._check(wr, r, 'Error getting notes for cards %s', cards)
+    return r
