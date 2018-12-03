@@ -232,15 +232,16 @@ class AnkiClient(AnkiClientBase):
 
     Sample request:
 
-    anki_connect_client.createDeck(
-      deck = "Japanese::Tokyo"
-    )
+      client.createDeck(
+        deck = "Japanese::Tokyo"
+      )
 
     Sample result:
-    {
+
+      {
         "result": 1519323742721,
         "error": null
-    }
+      }
     """
     wr, r = self.send_as_json(action = "createDeck", params = dict(
       deck = deck
