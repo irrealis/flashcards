@@ -1157,7 +1157,25 @@ class AnkiClient(AnkiClientBase):
 
   def storeMediaFile(self, filename, data):
     """
-    TODO
+    Stores a file with the specified base64-encoded contents inside the media folder. To prevent Anki from removing files not used by any cards (e.g. for configuration files), prefix the filename with an underscore. These files are still synchronized to AnkiWeb.
+
+    Sample request:
+
+        client.storeMediaFile(
+          filename = "_hello.txt",
+          data = "SGVsbG8sIHdvcmxkIQ=="
+        )
+
+    Sample result:
+
+      {
+        "result": null,
+        "error": null
+      }
+
+    Content of _hello.txt:
+
+      Hello world!
     """
     wr, r = self.send_as_json(action = "storeMediaFile", params = dict(
       filename = filename,
