@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from anki_connect_client import AnkiConnectClient
+from anki_client import AnkiClient
 import markdown, pandas, pweave.themes, rtyaml
 
 from markdown.extensions.abbr import AbbrExtension
@@ -87,7 +87,7 @@ class MyPwebMDtoHTMLFormatter(PwebHTMLFormatter):
 
   def set_anki(self, anki = None):
     if anki is None:
-      anki = AnkiConnectClient()
+      anki = AnkiClient()
     self.anki = anki
 
   def set_markdown_opts(
@@ -243,7 +243,7 @@ class MyPweb(Pweb):
 class NoteSender(object):
   def __init__(self, opts):
     self.setopts(opts)
-    self.anki = AnkiConnectClient()
+    self.anki = AnkiClient()
     self.pweb = MyPweb(
       source = "anon", doctype = 'md2html',
       informat = 'markdown', mimetype = 'text/markdown',
@@ -425,7 +425,12 @@ class NoteSender(object):
           ) for (k, v) in fields.items() }
 
           # Create, obtaining returned ID
-          result = self.anki.addNote(deck, model, temporary_fields, tags)
+          result = self.anki.addNote(
+            deck,
+            model,
+            temporary_fields,
+            tags = tags
+          )
           if result.get("error", None):
             log.warning("Can't create note: %s", description)
           else:
