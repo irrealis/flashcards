@@ -851,3 +851,35 @@ class AnkiConnectClient(AnkiConnectClientBase):
     wr, r = self.send_as_json(action = "GuiAddCards")
     self._check(wr, r, 'Error invoking Add Cards dialog')
     return r
+
+  def guiCurrentCard(self):
+    """
+    Returns information about the current card or null if not in review mode.
+
+    Sample request:
+
+      client.guiCurrentCard()
+
+    Sample result:
+
+      {
+        "result": {
+          "answer": "back content",
+          "question": "front content",
+          "deckName": "Default",
+          "modelName": "Basic",
+          "fieldOrder": 0,
+          "fields": {
+            "Front": {"value": "front content", "order": 0},
+            "Back": {"value": "back content", "order": 1}
+          },
+          "template": "Forward",
+          "cardId": 1498938915662,
+          "buttons": [1, 2, 3]
+        },
+        "error": null
+      }
+    """
+    wr, r = self.send_as_json(action = "guiCurrentCard")
+    self._check(wr, r, 'Error getting info for current card')
+    return r
