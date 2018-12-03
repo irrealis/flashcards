@@ -508,7 +508,18 @@ class AnkiClient(AnkiClientBase):
 
   def modelNames(self):
     """
-    TODO
+    Gets the complete list of model names for the current user.
+
+    Sample request:
+
+      client.modelNames()
+
+    Sample result:
+
+      {
+        "result": ["Basic", "Basic (and reversed card)"],
+        "error": null
+      }
     """
     wr, r = self.send_as_json(action = "modelNames")
     self._check(wr, r,
