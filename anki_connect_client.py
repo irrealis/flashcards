@@ -555,7 +555,20 @@ class AnkiClient(AnkiClientBase):
 
   def modelFieldNames(self, modelName):
     """
-    TODO
+    Gets the complete list of field names for the provided model name.
+
+    Sample request:
+
+      client.modelFieldNames(
+        modelName = "Basic"
+      )
+
+    Sample result:
+
+      {
+        "result": ["Front", "Back"],
+        "error": null
+      }
     """
     wr, r = self.send_as_json(action = "modelFieldNames", params = dict(
       modelName = modelName
