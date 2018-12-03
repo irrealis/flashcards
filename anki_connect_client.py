@@ -1005,3 +1005,26 @@ class AnkiConnectClient(AnkiConnectClientBase):
     wr, r = self.send_as_json(action = "guiDeckBrowser")
     self._check(wr, r, 'Error opening Deck Browser dialog')
     return r
+
+  def guiDeckReview(self, name):
+    """
+    Starts review for the deck with the given name; returns true if succeeded or false otherwise.
+
+    Sample request:
+
+      client.guiDeckReview(
+        name = "Default"
+      )
+
+    Sample result:
+
+      {
+        "result": true,
+        "error": null
+      }
+    """
+    wr, r = self.send_as_json(action = "guiDeckReview", params = dict(
+      name = name
+    ))
+    self._check(wr, r, 'Error starting review for deck with name "%s"', name)
+    return r
