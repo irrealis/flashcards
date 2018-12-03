@@ -172,9 +172,7 @@ class AnkiClient(AnkiClientBase):
       }
     """
     wr, r = self.send_as_json(action = "deckNames")
-    self._check(wr, r,
-      "Error getting deck names"
-    )
+    self._check(wr, r, "Error getting deck names")
     return r
 
   def deckNamesAndIds(self):
@@ -193,9 +191,7 @@ class AnkiClient(AnkiClientBase):
       }
     """
     wr, r = self.send_as_json(action = "deckNamesAndIds")
-    self._check(wr, r,
-      "Error getting deck names and IDs"
-    )
+    self._check(wr, r, "Error getting deck names and IDs")
     return r
 
   def getDecks(self, cards):
@@ -221,9 +217,7 @@ class AnkiClient(AnkiClientBase):
     wr, r = self.send_as_json(action = "getDecks", params = dict(
       cards = cards
     ))
-    self._check(wr, r,
-      "Error getting decks for cards %s", cards
-    )
+    self._check(wr, r, "Error getting decks for cards %s", cards)
     return r
 
   def createDeck(self, deck):
@@ -246,9 +240,7 @@ class AnkiClient(AnkiClientBase):
     wr, r = self.send_as_json(action = "createDeck", params = dict(
       deck = deck
     ))
-    self._check(wr, r,
-      'Error creating deck "%s"', deck
-    )
+    self._check(wr, r, 'Error creating deck "%s"', deck)
     return r
 
   def changeDeck(self, cards, deck):
@@ -273,9 +265,7 @@ class AnkiClient(AnkiClientBase):
       cards = cards,
       deck = deck
     ))
-    self._check(wr, r,
-      'Error changing to deck "%s" for cards %s', deck, cards
-    )
+    self._check(wr, r, 'Error changing to deck "%s" for cards %s', deck, cards)
     return r
 
   def deleteDecks(self, decks, cardsToo = False):
@@ -299,9 +289,7 @@ class AnkiClient(AnkiClientBase):
     wr, r = self.send_as_json(action = "deleteDecks", params = dict(
       decks = decks, cardsToo = cardsToo
     ))
-    self._check(wr, r,
-      "Error deleting decks %s", decks
-    )
+    self._check(wr, r, "Error deleting decks %s", decks)
     return r
 
   def getDeckConfig(self, deck):
@@ -359,9 +347,7 @@ class AnkiClient(AnkiClientBase):
     wr, r = self.send_as_json(action = "getDeckConfig", params = dict(
       deck = deck
     ))
-    self._check(wr, r,
-      'Error getting configuration for deck "%s"', deck
-    )
+    self._check(wr, r, 'Error getting configuration for deck "%s"', deck)
     return r
 
   def saveDeckConfig(self, config):
@@ -419,9 +405,7 @@ class AnkiClient(AnkiClientBase):
     wr, r = self.send_as_json(action = "saveDeckConfig", params = dict(
       config = config
     ))
-    self._check(wr, r,
-      'Error saving configuration %s', config
-    )
+    self._check(wr, r, 'Error saving configuration %s', config)
     return r
 
   def setDeckConfigId(self, decks, configId):
@@ -446,9 +430,7 @@ class AnkiClient(AnkiClientBase):
       decks = decks,
       configId = configId,
     ))
-    self._check(wr, r,
-      'Error setting configuration %s for decks %s', configId, decks
-    )
+    self._check(wr, r, 'Error setting configuration %s for decks %s', configId, decks)
     return r
 
   def cloneDeckConfigId(self, name, cloneFrom):
@@ -473,9 +455,7 @@ class AnkiClient(AnkiClientBase):
       name = name,
       cloneFrom = cloneFrom,
     ))
-    self._check(wr, r,
-      'Error cloning configuration %s as %s', cloneFrom, name
-    )
+    self._check(wr, r, 'Error cloning configuration %s as %s', cloneFrom, name)
     return r
 
   def removeDeckConfigId(self, configId):
@@ -498,9 +478,7 @@ class AnkiClient(AnkiClientBase):
     wr, r = self.send_as_json(action = "removeDeckConfigId", params = dict(
       configId = configId,
     ))
-    self._check(wr, r,
-      'Error removing configuration %s', configId
-    )
+    self._check(wr, r, 'Error removing configuration %s', configId)
     return r
 
 
@@ -522,9 +500,7 @@ class AnkiClient(AnkiClientBase):
       }
     """
     wr, r = self.send_as_json(action = "modelNames")
-    self._check(wr, r,
-      'Error getting model names'
-    )
+    self._check(wr, r, 'Error getting model names')
     return r
 
   def modelNamesAndIds(self):
@@ -548,9 +524,7 @@ class AnkiClient(AnkiClientBase):
       }
     """
     wr, r = self.send_as_json(action = "modelNamesAndIds")
-    self._check(wr, r,
-      'Error getting model names and IDs'
-    )
+    self._check(wr, r, 'Error getting model names and IDs')
     return r
 
   def modelFieldNames(self, modelName):
@@ -573,9 +547,7 @@ class AnkiClient(AnkiClientBase):
     wr, r = self.send_as_json(action = "modelFieldNames", params = dict(
       modelName = modelName
     ))
-    self._check(wr, r,
-      'Error getting field names for model "%s"', modelName
-    )
+    self._check(wr, r, 'Error getting field names for model "%s"', modelName)
     return r
 
   def modelFieldsOnTemplates(self, modelName):
@@ -601,9 +573,7 @@ class AnkiClient(AnkiClientBase):
     wr, r = self.send_as_json(action = "modelFieldsOnTemplates", params = dict(
       modelName = modelName
     ))
-    self._check(wr, r,
-      'Error getting per-template field names for model "%s"', modelName
-    )
+    self._check(wr, r, 'Error getting per-template field names for model "%s"', modelName)
     return r
 
 
@@ -661,9 +631,7 @@ class AnkiClient(AnkiClientBase):
     wr, r = self.send_as_json(action = "addNote", params = dict(
       note = note
     ))
-    self._check(wr, r,
-      'Error adding note %s', note
-    )
+    self._check(wr, r, 'Error adding note %s', note)
     return r
 
   def addNotes(self, notes):
@@ -706,9 +674,7 @@ class AnkiClient(AnkiClientBase):
     wr, r = self.send_as_json(action = "addNotes", params = dict(
       notes = notes
     ))
-    self._check(wr, r,
-      'Error adding notes %s', notes
-    )
+    self._check(wr, r, 'Error adding notes %s', notes)
     return r
 
   def canAddNotes(self, notes):
@@ -743,9 +709,7 @@ class AnkiClient(AnkiClientBase):
     wr, r = self.send_as_json(action = "canAddNotes", params = dict(
       notes = notes
     ))
-    self._check(wr, r,
-      'Error checking whether notes can be added: %s', notes
-    )
+    self._check(wr, r, 'Error checking whether notes can be added: %s', notes)
     return r
 
   def updateNoteFields(self, id, fields):
@@ -776,9 +740,7 @@ class AnkiClient(AnkiClientBase):
     wr, r = self.send_as_json(action = "updateNoteFields", params = dict(
       note = note
     ))
-    self._check(wr, r,
-      'Error updating note %s with fields %s', id, fields
-    )
+    self._check(wr, r, 'Error updating note %s with fields %s', id, fields)
     return r
 
   def addTags(self, notes, tags):
@@ -803,9 +765,7 @@ class AnkiClient(AnkiClientBase):
       notes = notes,
       tags = tags,
     ))
-    self._check(wr, r,
-      'Error adding tags %s for notes %s', tags, notes
-    )
+    self._check(wr, r, 'Error adding tags %s for notes %s', tags, notes)
     return r
 
   def removeTags(self, notes, tags):
@@ -830,9 +790,7 @@ class AnkiClient(AnkiClientBase):
       notes = notes,
       tags = tags,
     ))
-    self._check(wr, r,
-      'Error removing tags %s for notes %s', tags, notes
-    )
+    self._check(wr, r, 'Error removing tags %s for notes %s', tags, notes)
     return r
 
   def getTags(self):
@@ -851,9 +809,7 @@ class AnkiClient(AnkiClientBase):
       }
     """
     wr, r = self.send_as_json(action = "getTags")
-    self._check(wr, r,
-      'Error getting tags'
-    )
+    self._check(wr, r, 'Error getting tags')
     return r
 
   def findNotes(self, query):
@@ -876,9 +832,7 @@ class AnkiClient(AnkiClientBase):
     wr, r = self.send_as_json(action = "findNotes", params = dict(
       query = query
     ))
-    self._check(wr, r,
-      'Error searching notes using query "%s"', query
-    )
+    self._check(wr, r, 'Error searching notes using query "%s"', query)
     return r
 
   def notesInfo(self, notes):
@@ -911,9 +865,7 @@ class AnkiClient(AnkiClientBase):
     wr, r = self.send_as_json(action = "notesInfo", params = dict(
       notes = notes
     ))
-    self._check(wr, r,
-      'Error getting info for notes %s', notes
-    )
+    self._check(wr, r, 'Error getting info for notes %s', notes)
     return r
 
 
@@ -1181,9 +1133,7 @@ class AnkiClient(AnkiClientBase):
       filename = filename,
       data = data,
     ))
-    self._check(wr, r,
-      'Error storing media file "%s"', filename
-    )
+    self._check(wr, r, 'Error storing media file "%s"', filename)
     return r
 
   def retrieveMediaFile(self, filename):
