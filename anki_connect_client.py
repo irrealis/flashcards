@@ -510,22 +510,6 @@ class AnkiConnectClient(AnkiConnectClientBase):
     return result
 
 
-  ## Media
-
-  def storeMediaFile(self, filename, data):
-    """
-    TODO
-    """
-    response, result = self.send_as_json(action = "storeMediaFile", params = dict(
-      filename = filename,
-      data = data,
-    ))
-    self._check(response, result,
-      'Error storing media file "%s"', filename
-    )
-    return result
-
-
   ## Cards
 
   def suspend(self, cards):
@@ -760,3 +744,19 @@ class AnkiConnectClient(AnkiConnectClientBase):
     ))
     self._check(wr, r, 'Error getting info for cards %s', cards)
     return r
+
+
+  ## Media
+
+  def storeMediaFile(self, filename, data):
+    """
+    TODO
+    """
+    response, result = self.send_as_json(action = "storeMediaFile", params = dict(
+      filename = filename,
+      data = data,
+    ))
+    self._check(response, result,
+      'Error storing media file "%s"', filename
+    )
+    return result
