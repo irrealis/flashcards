@@ -660,3 +660,26 @@ class AnkiConnectClient(AnkiConnectClientBase):
     ))
     self._check(wr, r, 'Error getting intervals for cards %s', cards)
     return r
+
+  def findCards(self, query):
+    """
+    Returns an array of card IDs for a given query. Functionally identical to guiBrowse but doesn't use the GUI for better performance.
+
+    Sample request:
+
+      client.findCards(
+        query = "deck:current"
+      )
+
+    Sample result:
+
+      {
+        "result": [1494723142483, 1494703460437, 1494703479525],
+        "error": null
+      }
+    """
+    wr, r = self.send_as_json(action = "findCards", params = dict(
+      query = query
+    ))
+    self._check(wr, r, 'Error finding cards for query %s', query)
+    return r
