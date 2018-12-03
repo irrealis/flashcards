@@ -138,13 +138,16 @@ class AnkiClient(AnkiClientBase):
     """
     Synchronizes the local anki collections with ankiweb.
 
-    Sample call: anki_connect_client.sync()
+    Sample call:
+
+      client.sync()
 
     Sample result:
-    {
+
+      {
         "result": null,
         "error": null
-    }
+      }
     """
     wr, r = self.send_as_json(action = "sync")
     self._check(wr, r, "Error syncing")
