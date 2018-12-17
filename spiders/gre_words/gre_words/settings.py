@@ -13,7 +13,10 @@ from shutil import which
 
 SELENIUM_DRIVER_NAME = 'chrome'
 SELENIUM_DRIVER_EXECUTABLE_PATH = which('chromedriver')
-SELENIUM_DRIVER_ARGUMENTS = []
+SELENIUM_DRIVER_ARGUMENTS = [
+  'user-data-dir=/mnt/Work/Repos/irrealis/flashcards/spiders/google-chrome-config'
+]
+
 
 BOT_NAME = 'gre_words'
 
