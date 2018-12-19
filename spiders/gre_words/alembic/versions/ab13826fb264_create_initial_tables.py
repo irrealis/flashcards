@@ -19,11 +19,13 @@ depends_on = None
 
 
 def upgrade():
+  # Vocabulary lists.
 	op.create_table('vocabs',
 	  sa.Column('id', sa.Integer, primary_key = True, autoincrement = False),
 	  sa.Column('description', sa.Text),
 	)
 	
+  # Words and definitions.
 	op.create_table('words',
 	  sa.Column('id', sa.Integer, primary_key = True),
 	  sa.Column('word', sa.Text),
@@ -32,26 +34,29 @@ def upgrade():
 	  sa.Column('frequency', sa.Float)
 	)
 	
-	op.create_table('vocab_words',
+	# Vocabulary-Word join table, many-to-many.
+  op.create_table('vocab_words',
 	  sa.Column('vocab_id', sa.Integer, sa.ForeignKey('vocabs.id'), primary_key = True),
 	  sa.Column('word_id', sa.Integer, sa.ForeignKey('words.id'), primary_key = True),
 	)
 	
-	op.create_table('senses',
+	# Word meaning senses.
+  op.create_table('senses',
 	  sa.Column('id', sa.Integer, primary_key = True),
 	  sa.Column('sense', sa.Text),
 	)
 	
+  # Sense-Word join table, many-to-many.
 	op.create_table('sense_words',
 	  sa.Column('sense_id', sa.Integer, sa.ForeignKey('senses.id'), primary_key = True),
 	  sa.Column('word_id', sa.Integer, sa.ForeignKey('words.id'), primary_key = True),
 	)
 	
+  # Sense-Sense association table, many-to-many.
 	class SenseRelationKind(enum.Enum):
 	  synonym = 1
 	  antonym = 2
 	  type_of = 3
-	
 	op.create_table('sense_relations',
 	  sa.Column('l_sense_id', sa.Integer, sa.ForeignKey('senses.id'), primary_key = True),
 	  sa.Column('r_sense_id', sa.Integer, sa.ForeignKey('senses.id'), primary_key = True),
