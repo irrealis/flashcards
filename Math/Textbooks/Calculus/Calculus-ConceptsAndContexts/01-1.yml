@@ -354,10 +354,9 @@ notes:
     Annotations: ''
 - id: 1542158435298
   fields:
-    Front: >
-      CCAC 01.1 53: Find a formula for and state the domain of a rectangle with perimeter
-      $20\text{ m}$. Express the area of the rectangle as a function of the length
-      of one of its sides.
+    Front: |
+      CCAC 01.1 53: Find a formula for the described function, and state its domain.
+      A rectangle has perimeter 20 m. Express the area of the rectangle as a function of the length of one of its sides.
     Back: |
       $$
       A(L) = 10L - L^2,\ 0 < L < 10
@@ -367,7 +366,8 @@ notes:
   comment: Unclear.
   fields:
     Front: |
-      CCAC 01.1 55: Express the area of an equilateral triangle as a function of the length of a side.
+      CCAC 01.1 55: Find a formula for the described function, and state its domain.
+      Express the area of an equilateral triangle as a function of the length of a side.
     Back: |
       $$
       A(x) = \frac{\sqrt{3} x^2}{4},\ 0 < x
@@ -377,9 +377,10 @@ notes:
   comment: Unclear.
   fields:
     Front: >
-      CCAC 01.1 57: An open rectangular box with volume $2\textrm{ m}^2$ has a square
-      base. Express the surface area of the box as a function of the length of a side
-      of the base.
+      CCAC 01.1 57: Find a formula for the described function, and state its domain.
+
+      An open rectangular box with volume $2\textrm{ m}^3$ has a square base. Express
+      the surface area of the box as a function of the length of a side of the base.
     Back: |
       $$
       S(x) = x^2 + 8/x,\ 0 < x
@@ -428,6 +429,7 @@ notes:
     Annotations: ''
 - id: 1542158955559
   useMarkdownMathExt: false
+  skip: true
   fields:
     Front: >
       CCAC 01.1 61b: In a certain country, income tax is assessed as follows. There
@@ -440,6 +442,7 @@ notes:
 - id: 1542158955670
   useMarkdownMathExt: false
   useMarkdown: pweave
+  skip: true
   fields:
     Front: >
       CCAC 01.1 61c: In a certain country, income tax is assessed as follows. There
