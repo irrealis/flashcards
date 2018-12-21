@@ -21,6 +21,7 @@ notes:
       81
       $$
     Annotations: ''
+  tags: []
 - id: 1539840950221
   fields:
     Front: |
@@ -202,7 +203,10 @@ notes:
       $$
         (2x - 3)(x + 4)
       $$
-    Annotations: ''
+    Annotations: 'Issue: Directions are to <i>factor.</i>&nbsp;When using quadratic
+      formula, I tend to try to <i>solve</i>&nbsp;instead.'
+  tags:
+  - ann:trouble
 - id: 1539840952167
   fields:
     Front: |
@@ -238,7 +242,10 @@ notes:
       $$
         3x^{-1/2}(x - 1)(x - 2)
       $$
-    Annotations: ''
+    Annotations: 'Note: the domain of this expression is the positive reals, since
+      \(x^{-1/2}=\frac{1}{\sqrt{x}}\), in which \(\sqrt{x}\) has domain constrained
+      to nonnegatives, and in which the domain of \(\frac{1}{x}\) excludes zero. Hence
+      zero cannot be a root of this expression, which therefore has only two roots.'
 - id: 1539840952518
   fields:
     Front: |
@@ -262,7 +269,9 @@ notes:
       $$
         \frac{x + 2}{x - 2}
       $$
-    Annotations: ''
+    Annotations: Issues:<div>- The denominator factors as \((x+1)(x-2)\), not \((x-1)(x+2)\).</div>
+  tags:
+  - ann:trouble
 - id: 1539840952769
   fields:
     Front: |
@@ -318,7 +327,13 @@ notes:
       $$
         5\sqrt{2} + 2\sqrt{10}
       $$
-    Annotations: ''
+    Annotations: 'Issues:<div>- Bad arithmetic: \(2\times\sqrt{10}\) is \(\sqrt{40}\),
+      not \(\sqrt{8}\), although for some reason I thought it was.</div><div>- More
+      bad arithmetic: \(2\times\sqrt{10}\) is \(\sqrt{40}\), not \(\sqrt{20}\). What''s
+      going on with my basic algebra?</div><div><br></div><div>Possible remedies:</div><div>-
+      Show all steps.</div>'
+  tags:
+  - ann:trouble
 - id: 1539840953270
   fields:
     Front: |
@@ -342,7 +357,10 @@ notes:
       $$
         \left(x + \frac{1}{2} \right)^2 + \frac{3}{4}
       $$
-    Annotations: ''
+    Annotations: Minor issue:<div>- The constant terms can be combined to \(\frac{3}{4}\),
+      but I've left them uncombined as \(1-\frac{1}{4}\).</div>
+  tags:
+  - ann:trouble
 - id: 1539840953537
   fields:
     Front: |
@@ -354,7 +372,16 @@ notes:
       $$
         2(x - 3)^2 - 7
       $$
-    Annotations: ''
+    Annotations: Issues:<div>- I should have written 2 instead of \(a\). The source
+      of confusion is the leading \(a\) coefficient in the square-completion formula.
+      The reason for confusion is thinking while writing; I substituted 2 for \(a\)
+      in other parts of the work, but missed the first substitution, and propagated
+      the spurious \(a\) through to the final incorrect answer.</div><div><br></div><div>Possible
+      remedies:</div><div>- Be more careful when double-checking work. In this case
+      I believe I skipped the step of copying the original formula, and skipped straight
+      ahead to substitution into square-completion.</div>
+  tags:
+  - ann:trouble
 - id: 1539840953636
   fields:
     Front: |
@@ -412,7 +439,7 @@ notes:
       $$
     Back: |
       $$
-        x = \pm 1 \pm \sqrt{2}
+        x = \pm 1, \pm \sqrt{2}
       $$
     Annotations: ''
 - id: 1539840954220
