@@ -130,11 +130,7 @@ notes:
     Front: >
       CCAC 01.2 11a: If the recommended adult dosage for a drug is $D$ (in mg), then
       to determine the appropriate dosage $c$ for a child of age $a$, pharmacists
-      use the equation $c=0.0417D(a+1)$. If the recommended adult dosage for a drug
-      is $D$ (in mg), then to determine the appropriate dosage $c$ for a child of
-      age $a$, pharmacists use the equation $c=0.0417D(a+1)$. Suppose the dosage for
-      an adult is 200 mg.
-
+      use the equation $c=0.0417D(a+1)$. Suppose the dosage for an adult is 200 mg.
 
       Find the slope of the graph of $c$. What does it represent?
     Back: |
@@ -245,7 +241,7 @@ notes:
   fields:
     Front: >
       CCAC 01.2 17a: At the surface of the ocean, the water pressure is the same as
-      the air pressure above the water, $16\ \text{lb}/\text{in}^2$. Below the surface,
+      the air pressure above the water, $15\ \text{lb}/\text{in}^2$. Below the surface,
       the water pressure increase by $4.34\ \text{lb}/\text{in}^2$ for every $10\
       \text{ft}$ of descent.
 
@@ -253,14 +249,14 @@ notes:
       Express the water pressure as a function of the depth below the ocean surface.
     Back: |
       $$
-      P - 0.434d + 15
+      P = 0.434d + 15
       $$
     Annotations: ''
 - id: 1542309173371
   fields:
     Front: >
       CCAC 01.2 17b: At the surface of the ocean, the water pressure is the same as
-      the air pressure above the water, $16\ \text{lb}/\text{in}^2$. Below the surface,
+      the air pressure above the water, $15\ \text{lb}/\text{in}^2$. Below the surface,
       the water pressure increase by $4.34\ \text{lb}/\text{in}^2$ for every $10\
       \text{ft}$ of descent.
 
