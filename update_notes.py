@@ -258,14 +258,15 @@ class NoteSender(object):
   def extract_defaults(self, data):
     rt_defs = data.get('defaults', dict())
     defaults = dict(
+      skip = rt_defs.get('skip', False),
       deckName = rt_defs.get('deckName', self.opts.default_deckname),
       modelName = rt_defs.get('modelName', self.opts.default_modelname),
-      annotationsField = rt_defs.get('annotationsField', self.opts.default_annfield),
       useMarkdown = rt_defs.get('useMarkdown', self.opts.default_md_proc),
       markdownStyle = rt_defs.get('markdownStyle', self.opts.default_md_style),
       markdownLineNums = rt_defs.get('markdownLineNums', self.opts.default_md_lineno),
       markdownTabLength = rt_defs.get('markdownTabLength', self.opts.default_md_tablen),
       useMarkdownMathExt = rt_defs.get('useMarkdownMathExt', self.opts.default_md_mathext),
+      annotationsField = rt_defs.get('annotationsField', self.opts.default_annfield),
       extraTags = rt_defs.get('extraTags', list()),
       fields = rt_defs.get('fields', dict()),
     )
@@ -283,6 +284,7 @@ class NoteSender(object):
 
     # Below we may make changes to the shallow-copy data that we don't want
     # reflected in the YAML file.
+    note.setdefault('skip', defaults['skip'])
     note.setdefault('deckName', defaults['deckName'])
     note.setdefault('modelName', defaults['modelName'])
     note.setdefault('useMarkdown', defaults['useMarkdown'])
@@ -361,7 +363,9 @@ class NoteSender(object):
 
 
   def loadsend_file(self, filename):
-    log.info('Processing "%s".', filename)
+    # Verify file can be opened.
+    if not os.path.exists(filename): raise FileNotFoundError(filename)
+    log.info('Processing "%s"...', filename)
     with rtyaml.edit(filename, default = {}) as data:
       query_results, defaults = self.query_notes(self.opts.query, data)
       if query_results.empty:
@@ -385,6 +389,7 @@ class NoteSender(object):
       for i in query_results.index:
         rtnote = query_results.rtnote[i]
         note_id = str(rtnote['id'])
+        skip = query_results.skip[i]
         deck = query_results.deckName[i]
         model = query_results.modelName[i]
         use_md = query_results.useMarkdown[i]
@@ -398,13 +403,20 @@ class NoteSender(object):
 
         if self.opts.question:
           log.info("*** ID: {}".format(note_id))
+          log.info("--- Should skip: {}".format(skip))
           log.info("--- Note tags:")
           log.info(rtyaml.dump(tags))
           log.info("--- Note annotations:")
           log.info(rtyaml.dump(query_results.annotations[i]))
           log.info("--- Note fields:")
           log.info(rtyaml.dump(fields))
+          log.info("--- Raw fields:")
+          log.info(fields)
           log.info("")
+          continue
+
+        if skip:
+          log.info("Skipping note with ID: {}".format(note_id))
           continue
 
         log.info("Processing note with ID: {}".format(note_id))
@@ -531,7 +543,11 @@ class NoteSender(object):
 
   def loadsend_files(self, filenames):
     for input_filename in filenames:
-      self.loadsend_file(input_filename)
+      try:
+        log.info('Trying file "%s"...', input_filename)
+        self.loadsend_file(input_filename)
+      except FileNotFoundError as e:
+        log.warning('File not found: "%s"', e)
 
   def loadsend(self):
     return self.loadsend_files(self.opts.input)
