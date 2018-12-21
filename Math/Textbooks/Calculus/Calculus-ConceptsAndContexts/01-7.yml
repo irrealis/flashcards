@@ -211,8 +211,9 @@ notes:
 
       p._backend.show()
       ```
-      b. $y = \frac{2}{3}x + \frac{13}{3}$
+      b. $y = 1 - x^2$, $x \ge 0$
     Annotations: ''
+  tags: []
 - id: 1543349723169
   useMarkdown: pweave
   fields:
@@ -257,7 +258,12 @@ notes:
       aro(ax, ffx, ffy, -math.pi/2, 0.01, 0.05)
       p._backend.show()
       ```
-    Annotations: ''
+    Annotations: Issues:<div>- When imagining the graph, I mentally incorrectly doubled
+      instead of halved \(\theta\).</div><div>- I incorrectly assumed \(y = \sin{\frac{1}{2}\theta}\),
+      instead of \(x\).</div><div><br></div><div>Fixes:</div><div>- Read and copy
+      full problem, verify all components correct.</div>
+  tags:
+  - ann:trouble
 - id: 1543349723344
   useMarkdown: pweave
   fields:
@@ -269,7 +275,7 @@ notes:
       $$
       b. Sketch the curve, and indicate with an arrow the direction in which the curve is traced as the parameter increases.
     Back: |
-      a. $x^2 + y^2 = 1$, $y \ge 0$
+      a. $y = 1/x$, $1 < y$
       b.
       ```{python echo = False}
       import sympy as sy
@@ -307,6 +313,7 @@ notes:
       p._backend.show()
       ```
     Annotations: ''
+  tags: []
 - id: 1543349723474
   useMarkdown: pweave
   fields:
@@ -429,7 +436,12 @@ notes:
       $$
     Back: |
       Moves 3 times clockwise around the ellipse $(x^2/25) + (y^2/4) = 1$, starting and ending at $(0, -2)$.
-    Annotations: ''
+    Annotations: 'Thoughts:<div>- This gives a good canonical description of a simple
+      ellipse with axes lengths \(a\) and \(b\) on \(x\) and \(y\) axes, centered
+      at \((x_1,y_1)\): \[ \left(\frac{x-x_1}{a}\right)^2 + \left(\frac{y-y_1}{b}\right)^2
+      = 1.\]</div>'
+  tags:
+  - ann:thoughts
 - id: 1543350081294
   fields:
     Front: >
@@ -524,7 +536,9 @@ notes:
 
       p._backend.show()
       ```
-    Annotations: ''
+    Annotations: 'Issues:<div>- Got shape wrong but close. My mistake: at \(t=0\),
+      I assumed \(y\) was changing faster than \(x\), so wrote a rounded turn.</div>'
+  tags: []
 - id: 1543351010369
   useMarkdown: pweave
   fields:
@@ -672,7 +686,10 @@ notes:
       - Finally, we claim without proof that for $t\in(0,1)$, $|P(t)-P(0)|<|P(1)-P(0)|$ and $|P(t)-P(1)|<|P(1)-P(0)|$, and thus $P(t)$ lies on the line segment. We're feeling lazy, so won't go through all the steps to prove this.
 
       b. $x = -2 + 5t$, $y = 7 - 8t$, $0 \le t \le 1$.
-    Annotations: ''
+    Annotations: Issues:<div>- Flubbed part (b). Was supposed to find <i>parametric</i>&nbsp;equations,
+      not <i>cartesian</i>&nbsp;equations.</div>
+  tags:
+  - ann:trouble
 - id: 1543352284844
   fields:
     Front: >
@@ -698,7 +715,10 @@ notes:
       $(0,3)$.
     Back: |
       $x = 2\cos{t}$, $y = 1 - 2\sin{t}$, $-\pi/2 \le t \le 3\pi/2$
-    Annotations: ''
+    Annotations: 'Thoughts: there are multiple solutions, so this question is somewhat
+      ambiguous.'
+  tags:
+  - ann:thoughts
 - id: 1543352285294
   useMarkdown: pweave
   tags:
@@ -770,7 +790,12 @@ notes:
     Back: >
       The curve $y=x^{2/3}$ is generated in (a). In (b), only the portion with $x\ge
       0$ is generated, and in (c) we get only the portion with $x>0$.
-    Annotations: ''
+    Annotations: Issues:<div>- Partially flubbed (b), assuming curve was odd, when
+      actually \(x\) and \(y\) are nonnegative.</div><div>- Partially flubbed (c),
+      assuming curve was linear.</div><div><br></div><div>Fixes:</div><div>- Should
+      have tried to transform to cartesian equations, specifying domains.</div>
+  tags:
+  - ann:trouble
 - id: 1543354284869
   useMarkdown: pweave
   fields:
