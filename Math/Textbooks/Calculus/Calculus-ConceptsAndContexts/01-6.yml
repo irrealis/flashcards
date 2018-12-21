@@ -112,10 +112,11 @@ notes:
 - id: 1542738493300
   fields:
     Front: |
-      CCAC 01.6 13: Determine whether the height of a footbal $t$ seconds after kickoff is one-to-one.
+      CCAC 01.6 13: Determine whether the height of a football $t$ seconds after kickoff is one-to-one.
     Back: |
       No.
     Annotations: ''
+  tags: []
 - id: 1542738493395
   fields:
     Front: |
@@ -152,7 +153,12 @@ notes:
       $$
       f^{-1}(x) = \frac{(x-1)^2 - 2}{3}, \ x \ge 1
       $$
-    Annotations: ''
+    Annotations: Issues:<div>- Sign flip.</div><div><br></div><div>Fixes:</div><div>-
+      Verify copies.</div><div>- Work with sample values through transformations.</div><div>&nbsp;
+      - <b>seems to work well.</b>&nbsp;As overall check, perform at start and end.
+      If fails, perform step-by-step.</div>
+  tags:
+  - ann:trouble
 - id: 1542738493848
   fields:
     Front: |
@@ -165,12 +171,13 @@ notes:
 - id: 1542738493944
   fields:
     Front: |
-      CCAC 01.6 25: Find a formula for the inverse of the function $y = ln(x+3)$.
+      CCAC 01.6 25: Find a formula for the inverse of the function $y = \ln(x+3)$.
     Back: |
       $$
       y = e^x - 3
       $$
     Annotations: ''
+  tags: []
 - id: 1542738494069
   tags:
   - requiresCoding
@@ -337,7 +344,7 @@ notes:
     Front: |
       CCAC 01.6 37a: Find the exact value of the expression below.
       $$
-      \log_{2}{6} - \log_{2}{15} + \log_{2}{2}
+      \log_{2}{6} - \log_{2}{15} + \log_{2}{20}
       $$
     Back: |
       $$
@@ -349,12 +356,13 @@ notes:
       \end{align}
       $$
     Annotations: ''
+  tags: []
 - id: 1542738505644
   fields:
     Front: |
       CCAC 01.6 37b: Find the exact value of the expression below.
       $$
-      \log_{3}{100} - \log_{3}{18} + \log_{3}{50}
+      \log_{3}{100} - \log_{3}{18} - \log_{3}{50}
       $$
     Back: |
       $$
@@ -366,6 +374,7 @@ notes:
       \end{align}
       $$
     Annotations: ''
+  tags: []
 - id: 1542738505748
   fields:
     Front: |
@@ -380,13 +389,14 @@ notes:
     Front: |
       CCAC 01.6 41: Express the quantity below as a single logarithm.
       $$
-      \ln{1 + x^2} + \frac{1}{2}\ln{x} - \ln{\sin{x}}
+      \ln(1 + x^2) + \frac{1}{2}\ln{x} - \ln{\sin{x}}
       $$
     Back: |
       $$
       \ln\frac{(1 + x^2)\sqrt{x}}{\sin{x}}
       $$
     Annotations: ''
+  tags: []
 - id: 1542738505969
   tags:
   - requiresCoding
@@ -541,9 +551,11 @@ notes:
     Back: |
       a. $(-\infty, \frac{\ln{3}}{2}]$.
       b. $f^{-1}(x) = \frac{\ln(3 - x^2)}{2}$; $[0, \sqrt{3})$. (Note that the domain of $f^{-1}$ must equal the range of $f$.)
-    Annotations: ''
+    Annotations: Thoughts:<div>- The book seems to treat "range" and "image" as equivalent.<br></div>
 - id: 1542743261594
   useMarkdown: pweave
+  tags:
+  - requiresCoding
   fields:
     Front: >
       CCAC 01.6 57: Graph the function $f(x) = \sqrt{x^3 + x^2 + x + 1}$ and explain
@@ -574,7 +586,7 @@ notes:
       sy.solve(sy.sqrt(x**3 + x**2 + x + 1) - y, x)
       ```
       Two of these solutions are complex-valued functions.
-    Annotations: ''
+    Annotations: Fix me:<div>- This should be tagged "requiresCoding".</div>
 - id: 1542745816494
   fields:
     Front: >
