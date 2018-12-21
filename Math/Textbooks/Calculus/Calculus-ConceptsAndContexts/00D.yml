@@ -58,7 +58,10 @@ notes:
 
       ---
       (If you have had difficulty with this problem, you should look at Appendix C of CCAC.)
-    Annotations: ''
+    Annotations: 'Issues: I dropped units.<div><br></div><div>Remedies: double check
+      more carefully; practice being mindful of units in dimensional analysis.</div>'
+  tags:
+  - ann:trouble
 - id: 1539876983163
   fields:
     Front: |
@@ -68,7 +71,10 @@ notes:
 
       ---
       (If you have had difficulty with this problem, you should look at Appendix C of CCAC.)
-    Annotations: ''
+    Annotations: 'To do: memorize common unit circle ratios and functions (including
+      sin, cos, tan, sec, csc, cot). See CCAC Appendix C.'
+  tags:
+  - ann:to-do
 - id: 1539876983364
   fields:
     Front: |
@@ -88,7 +94,11 @@ notes:
 
       ---
       (If you have had difficulty with this problem, you should look at Appendix C of CCAC.)
-    Annotations: ''
+    Annotations: Issues:<div>- The correct answer is \(2\), not \(\frac{2}{\sqrt{3}}\).
+      I got the wrong answer by confusing \(\sin\) and \(\cos\).</div><div><br></div><div>Remedies:</div><div>-
+      Drill on trigonometry definitions and identities.</div>
+  tags:
+  - ann:trouble
 - id: 1539879136133
   useMarkdown: pweave
   fields:
@@ -219,10 +229,13 @@ notes:
 
       ---
       (If you have had difficulty with this problem, you should look at Appendix C of CCAC.)
-    Annotations: ''
-- id: 1539880267721
+    Annotations: <div><br></div><div>Issues:</div><div>- Flubbed math by mixing up
+      the above identities.</div><div><br></div><div>Fixes:</div><div>- Memorize:</div><div>&nbsp;
+      - \(\cos(a+b) = \cos{a}\cos{b} - \sin{a}\sin{b}\)</div><div>&nbsp; - \(\sin(a+b)
+      = \sin{a}\cos{b} + \cos{a}\sin{b}\)</div>
   tags:
-  - ToDo
+  - ann:to-do
+- id: 1539880267721
   fields:
     Front: |
       CCAC 00.D (Trigonometry) 07a: Prove the identity:
@@ -230,14 +243,43 @@ notes:
       \tan \theta \sin \theta + \cos \theta = \sec \theta.
       $$
     Back: |
-      $\ldots$.
+      This bears similarity to the identity $\sin^2{\theta} + \cos^2{\theta} = 1$, if we substitute the definitions of $\tan$ and $\sec$, so we will use the following identities, in order, to transform the left side to the right:
+      $$
+      \tan{\theta} = \frac{\sin{\theta}}{\cos{\theta}}
+      $$
+      $$
+      \sin^2{\theta} + \cos^2{\theta} = 1
+      $$
+      $$
+      \frac{1}{\cos{\theta}} = \sec{\theta}
+      $$
+
+      First we transform $\tan{\theta}$:
+      $$
+      \tan \theta \sin \theta + \cos \theta
+      $$
+      $$
+      = \frac{\sin \theta}{\cos \theta} \sin \theta + \cos \theta
+      $$
+      Then seek a common denominator:
+      $$
+      = \frac{\sin \theta}{\cos \theta}  \sin \theta + \frac{\cos \theta}{\cos \theta}\cos \theta
+      $$
+      And simplify:
+      $$
+      = \frac{\sin^2 \theta + \cos^2 \theta}{\cos \theta}
+      $$
+      And substitute $\sin^2 \theta + \cos^2 \theta = 1$:
+      $$
+      = \frac{1}{\cos \theta}
+      $$
+      The result is, by definition, $\sec \theta$.
 
       ---
       (If you have had difficulty with this problem, you should look at Appendix C of CCAC.)
     Annotations: ''
+  tags: []
 - id: 1539880267839
-  tags:
-  - ToDo
   fields:
     Front: |
       CCAC 00.D (Trigonometry) 07b: Prove the identity:
@@ -245,11 +287,51 @@ notes:
       \frac{2 \tan x}{1 + \tan^2 x} = \sin 2x.
       $$
     Back: |
-      $\ldots$.
+      Some things to note:
+
+      - The left side is a function of $x$, while the right side is a function of $2x$. This suggests the double-angle formula.
+      - The denominator of the left side is part of the identity $\tan^2{\theta} + 1 = \sec^2{\theta}$, which suggests transformation.
+      - From there we may make progress using definitions of $\tan$ and $\sec$.
+
+      So we will use the following identities, in order, to transform the right side to the left:
+      $$
+      \sin{2\theta} = 2\sin{\theta}\cos{\theta}
+      $$
+      $$
+      \frac{\sin{\theta}}{\cos{\theta}} = \tan{\theta}
+      $$
+      $$
+      \cos{\theta} = \frac{1}{\sec{\theta}}
+      $$
+      $$
+      \sec^2{\theta} = \tan^2{\theta} + 1
+      $$
+
+      First we transform $\sin{2x}$:
+      $$
+      \sin{2x} = 2\sin{x}\cos{x}
+      $$
+      Then multiply by $1 = \frac{\cos x}{\cos x}$:
+      $$
+      = \frac{2\sin{x}\cos^2{x}}{\cos x}
+      $$
+      And substitute $\frac{\sin{x}}{\cos{x}} = \tan{x}$:
+      $$
+      = 2 \tan x \cos^2 x
+      $$
+      Now substitute $\cos{x} = \frac{1}{\sec{x}}$:
+      $$
+      = \frac{2 \tan x}{\sec^2 x}
+      $$
+      And finally substitute $\sec^2{x} = \tan^2{x} + 1$:
+      $$
+      = \frac{2 \tan x}{\tan^2 x + 1}.
+      $$
 
       ---
       (If you have had difficulty with this problem, you should look at Appendix C of CCAC.)
     Annotations: ''
+  tags: []
 - id: 1539880267965
   fields:
     Front: |
