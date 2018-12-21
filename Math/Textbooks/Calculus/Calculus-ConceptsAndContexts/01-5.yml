@@ -354,6 +354,9 @@ notes:
     Annotations: ''
 - id: 1542728781244
   useMarkdown: pweave
+  tags:
+  - ann:hard
+  - ann:to-do
   fields:
     Front: |
       CCAC 01.5 21: Find the exponential function $f(x)=Ca^x$ whose graph is given below.
@@ -388,9 +391,16 @@ notes:
       ```
     Back: |
       $$
-      f(x) - 3\cdot 2^x
+      f(x) = 3\cdot 2^x
       $$
-    Annotations: ''
+    Annotations: '<div>Thoughts and to-do: this uses several useful techniques:</div><div>-
+      \(C\) and \(a\) can be identified by taking the logarithm, which converts from
+      exponential form to linear form. In this form, the slope is \(\log(a)\) and
+      the \(y\)-intercept is \(\log(C)\).</div><div>- Use point-point formula for
+      a line to identify the slope and \(y\)-intercept.</div><div>- How can this be
+      adapted if \(f/) has horizontal or vertical offsets, or reflections?</div><div>-
+      It would worthwhile to make some more practice problems incorporating various
+      of these ideas.</div>'
 - id: 1542728784544
   fields:
     Front: |
