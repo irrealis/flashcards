@@ -43,12 +43,8 @@ notes:
     Front: |
       ## RoA mtl 6: State the Factor Theorem.
     Back: |
-      If $P$ is a polynomial and $P(b)=0$, then $x-b$ is a factor of $P(x)$.
-    Annotations: The theorem may be badly stated; it should probably read:<div><br></div><div>For
-      any polynomial \(P(x)\), \(x-b\) is a factor of \(P(x)\) iff \(P(b)=0\) (i.e.,
-      \(b\) is a root of \(P(x)\)).</div>
-  tags:
-  - ann:fix-me
+      For any polynomial $P(x)$, $x-b$ is a factor of $P(x)$ if and only if $P(b)=0$ (i.e., $b$ is a root of $P(x)$).
+    Annotations: ''
 - id: 1542149180257
   fields:
     Front: |
@@ -302,7 +298,7 @@ notes:
 - id: 1542149181719
   fields:
     Front: |
-      ## RoA mtl 9: State the Binomial Theorem:
+      ## RoA mtl 10: State the Binomial Theorem:
     Back: |
       If $n$ is a positive integer, then
       $$
