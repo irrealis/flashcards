@@ -95,3 +95,11 @@ notes:
     Back: |
       $y = 6x - 15$
     Annotations: ''
+- id: 1545610726561
+  fields:
+    Front: |
+      CCAC B 13: Find an equation of the line that satisfies the given conditions.
+      Through $(2,1)$ and $(1,6)$.
+    Back: |
+      $5x + y = 11$
+    Annotations: ''
