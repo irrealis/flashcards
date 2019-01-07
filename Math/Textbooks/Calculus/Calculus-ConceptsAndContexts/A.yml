@@ -47,3 +47,11 @@ notes:
       \end{cases}
       $$
     Annotations: ''
+- id: 1545601278158
+  tags: []
+  fields:
+    Front: |
+      CCAC A 09: Rewrite $|x^2+1|$ without using the absolute value symbol.
+    Back: |
+      $x^2 + 1$.
+    Annotations: ''
