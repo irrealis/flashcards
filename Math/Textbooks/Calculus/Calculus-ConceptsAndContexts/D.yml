@@ -52,3 +52,47 @@ notes:
     Back: |
       $\frac{4}{7}$ (or any smaller positive number)
     Annotations: ''
+- id: 1546214047470
+  useMarkdown: pweave
+  tags:
+  - Editing
+  fields:
+    Front: |
+      CCAC D 03: Use the given graph of $f(x)=\sqrt{x}$ to find a number $\delta$ such that if $|x-4|<\delta$ then $|\sqrt{x}-2| < 0.4$.
+      ```{python echo = False}
+      import matplotlib.pyplot as plt
+      import numpy as np
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      fig, ax = plt.subplots()
+
+      x = np.arange(0, 7.05, 0.05)
+      y = x**0.5
+
+      ax.plot(x, y)
+
+      ax.plot((0, 4), (2, 2), color = 'k', linestyle = '--')
+      ax.plot((4, 4), (0, 2), color = 'k', linestyle = '--')
+
+      ax.plot((0, 1.6**2), (1.6, 1.6), color = 'r', linestyle = '-')
+      ax.plot((1.6**2, 1.6**2), (0, 1.6), color = 'r', linestyle = '-')
+
+      ax.plot((0, 2.4**2), (2.4, 2.4), color = 'r', linestyle = '-')
+      ax.plot((2.4**2, 2.4**2), (0, 2.4), color = 'r', linestyle = '-')
+
+      ax.text(6, 2.7, '$$y = \\sqrt{x}$$')
+
+      ax.set_xlabel("$x$", position=(1, 0))
+      ax.set_ylabel("$y$", position=(0, 1))
+      ax.set_xticks([0, 1.6**2, 4, 2.4**2])
+      ax.set_xticklabels(['$0$', '?', '$4$', '?'])
+      ax.set_yticks([0, 1.6, 2, 2.4])
+      plt.xlim((0, 7))
+      plt.ylim((0, 3))
+      plt.show()
+      ```
+    Back: |
+      $1.44$ (or any smaller positive number)
+    Annotations: ''
