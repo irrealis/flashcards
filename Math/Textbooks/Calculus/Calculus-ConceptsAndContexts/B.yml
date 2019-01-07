@@ -422,3 +422,46 @@ notes:
     Back: |
       ...
     Annotations: ''
+- id: 1545612592705
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC B 53: Sketch the region bounded by the curves.
+      $x + 4y = 8$ and $x = 2y^2 - 8$.
+    Back: |
+      ```{python echo = False}
+      import matplotlib.pyplot as plt
+      import numpy as np
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      fig, ax = plt.subplots()
+
+      y0 = np.arange(-5, 5.05, 0.05)
+      x0 = 8 - 4*y0
+      x1 = 2*y0**2 - 8
+
+      y2 = np.arange(-4, 2.05, 0.05)
+      x2 = 8 - 4*y2
+      x3 = 2*y2**2 - 8
+
+      ax.plot(x0, y0, color = 'k', linewidth = 2)
+      ax.plot(x1, y0, color = 'k', linewidth = 2)
+
+      ax.fill_betweenx(y2, x3, x2)
+
+      ax.axhline(y = 0, color = 'k', linewidth = 0.5)
+      ax.axvline(x = 0, color = 'k', linewidth = 0.5)
+      ax.spines['top'].set_visible(False)
+      ax.spines['right'].set_visible(False)
+      ax.spines['bottom'].set_visible(False)
+      ax.spines['left'].set_visible(False)
+      ax.set_xlabel("$x$", position=(1, 0))
+      ax.set_ylabel("$y$", position=(0, 1))
+      plt.xlim((-10, 30))
+      plt.ylim((-5, 5))
+      plt.show()
+      ```
+    Annotations: ''
+  tags: []
