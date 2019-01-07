@@ -61,3 +61,20 @@ notes:
     Back: |
       $2$
     Annotations: ''
+- id: 1546217044330
+  tags: []
+  fields:
+    Front: |
+      CCAC 02.3 01d: Given that
+      $$
+      \lim_{x\to 2}f(x) = 4,\
+      \lim_{x\to 2}g(x) = -2,\
+      \lim_{x\to 2}h(x) = 0,\
+      $$
+      find the following limit. If the limit does not exist, explain why.
+      $$
+      \lim_{x\to 2}\frac{3f(x)}{g(x)}
+      $$
+    Back: |
+      $-6$
+    Annotations: ''
