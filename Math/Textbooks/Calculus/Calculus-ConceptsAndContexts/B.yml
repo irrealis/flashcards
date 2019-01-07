@@ -351,3 +351,12 @@ notes:
       ```
     Annotations: ''
   tags: []
+- id: 1545612591128
+  fields:
+    Front: |
+      CCAC B 37: Find an equation of a circle that satisfies the given conditions.
+      Center $(3, -1)$, radius $5$.
+    Back: |
+      $(x - 3)^2 + (y + 1)^2 = 25$
+    Annotations: ''
+  tags: []
