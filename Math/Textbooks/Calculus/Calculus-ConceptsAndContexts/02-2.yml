@@ -85,3 +85,14 @@ notes:
     Back: |
       $5$
     Annotations: ''
+- id: 1546217035678
+  tags: []
+  fields:
+    Front: |
+      CCAC 02.2 21: Use a table of values to estimate the value of the limit. If you have a graphing device, use it to confirm your result graphically.
+      $$
+      \lim_{x\to 0}\frac{\sqrt{x+4} - 2}{x}
+      $$
+    Back: |
+      $\frac{1}{4}$
+    Annotations: ''
