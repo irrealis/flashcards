@@ -145,3 +145,19 @@ notes:
       plt.show()
       ```
     Annotations: ''
+- id: 1546117774290
+  tags: []
+  fields:
+    Front: |
+      CCAC C 11: Find the exact trigonometric ratios for the angle whose radian measure is given.
+      $$
+      \frac{3\pi}{4}
+      $$
+    Back: |
+      $\sin(3 \pi/4) = 1/\sqrt{2}$
+      $\cos(3 \pi/4) = -1/\sqrt{2}$
+      $\tan(3 \pi/4) = -1$
+      $\csc(3 \pi/4) = \sqrt{2}$
+      $\sec(3 \pi/4) = -\sqrt{2}$
+      $\cot(3 \pi/4) = -1$
+    Annotations: ''
