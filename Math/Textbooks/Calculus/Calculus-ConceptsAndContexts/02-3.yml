@@ -99,3 +99,20 @@ notes:
       $$
       in which the denominator is zero, because there is no way to cancel the denominator.
     Annotations: ''
+- id: 1546217044855
+  tags: []
+  fields:
+    Front: |
+      CCAC 02.3 01f: Given that
+      $$
+      \lim_{x\to 2}f(x) = 4,\
+      \lim_{x\to 2}g(x) = -2,\
+      \lim_{x\to 2}h(x) = 0,\
+      $$
+      find the following limit. If the limit does not exist, explain why.
+      $$
+      \lim_{x\to 2}\frac{g(x)h(x)}{f(x)}
+      $$
+    Back: |
+      $0$
+    Annotations: ''
