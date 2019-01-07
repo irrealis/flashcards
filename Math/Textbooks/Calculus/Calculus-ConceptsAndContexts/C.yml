@@ -161,3 +161,18 @@ notes:
       $\sec(3 \pi/4) = -\sqrt{2}$
       $\cot(3 \pi/4) = -1$
     Annotations: ''
+- id: 1546117774583
+  tags: []
+  fields:
+    Front: |
+      CCAC C 13: Find the remaining trigonometric ratios.
+      $$
+      \sin{\theta} = 3/5,\ 0 < \theta < \frac{\pi}{2}
+      $$
+    Back: |
+      $\cos{\theta} = \frac{5}{4}$
+      $\tan{\theta} = \frac{3}{4}$
+      $\csc{\theta} = \frac{5}{3}$
+      $\sec{\theta} = \frac{5}{4}$
+      $\cot{\theta} = \frac{4}{3}$
+    Annotations: ''
