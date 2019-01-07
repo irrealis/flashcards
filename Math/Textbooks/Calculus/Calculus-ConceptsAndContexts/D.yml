@@ -139,3 +139,14 @@ notes:
       b. Within approximately $0.0445\ \text{cm}$
       c. Radius; area; $\sqrt{1000/\pi}$; $1000$; $5$; $\approx 0.0445$
     Annotations: ''
+- id: 1546214050666
+  tags: []
+  fields:
+    Front: |
+      CCAC D 13:
+      a. Find a number $\delta$ such that if $|x-2|<\delta$, then $|4x-8|<\epsilon$, where $\epsilon = 0.1$.
+      b. Repeat part (a) with $\epsilon = 0.01$.
+    Back: |
+      a. 0.025
+      b. 0.0025
+    Annotations: ''
