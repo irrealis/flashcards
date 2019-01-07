@@ -119,7 +119,11 @@ notes:
       $$
       \frac{x}{9 y^7}
       $$
-    Annotations: ''
+    Annotations: Issues:<div>- Incorrectly subtacted a power from \(y\) in the denominator.</div><div>-
+      Best solution is probably the idea of substituting actual values.</div><div>&nbsp;
+      &nbsp; - This doesn't work very well for this problem.</div>
+  tags:
+  - ann:trouble
 - id: 1539840951286
   fields:
     Front: |
@@ -179,7 +183,10 @@ notes:
       $$
         x^3 + 6x^2 + 12x + 8
       $$
-    Annotations: ''
+    Annotations: Issues:<div>- Confused expression \((x+2)^3\) with \((x^3 + 2^3)\).</div><div><br></div><div>Fixes:</div><div>-
+      Copy problem statement?</div>
+  tags:
+  - ann:trouble
 - id: 1539840951909
   fields:
     Front: |
@@ -330,9 +337,12 @@ notes:
     Annotations: 'Issues:<div>- Bad arithmetic: \(2\times\sqrt{10}\) is \(\sqrt{40}\),
       not \(\sqrt{8}\), although for some reason I thought it was.</div><div>- More
       bad arithmetic: \(2\times\sqrt{10}\) is \(\sqrt{40}\), not \(\sqrt{20}\). What''s
-      going on with my basic algebra?</div><div><br></div><div>Possible remedies:</div><div>-
+      going on with my basic algebra?</div><div><br></div><div>Thoughts:</div><div>-
+      Apparently "rationalize" means "rationalize the denominator" when both the numerator
+      and denominator are irrational.</div><div><br></div><div>Possible remedies:</div><div>-
       Show all steps.</div>'
   tags:
+  - ann:thoughts
   - ann:trouble
 - id: 1539840953270
   fields:
@@ -465,7 +475,14 @@ notes:
       $$
         x = \frac{12}{5}
       $$
-    Annotations: ''
+    Annotations: Issues:<div>- Only the solution \(\frac{12}{5}\) is correct. I found
+      what I thought was another solution, \(12\), except it's outside of the domain
+      of the original equation.</div><div><br></div><div>Possible remedies:</div><div>-
+      Probably the best remedy is to analyze constraints on the domain of the original
+      expression; then observe how these constraints change as I proceed through the
+      math. Further decisions will be required in general to constrain the final solutions.</div>
+  tags:
+  - ann:trouble
 - id: 1539840954467
   fields:
     Front: |
@@ -477,7 +494,13 @@ notes:
       $$
         [-4, 3)
       $$
-    Annotations: ''
+    Annotations: Issues:<div>- The interval form of inequality \(x&lt;3\) is \((-\infty,
+      3)\). I initially wrote the form incorrectly as \((3,\infty)\), but caught the
+      mistake.</div><div>- The final solution is \([-4,3)\), but for some reason I
+      incorrectly wrote \([-4,3]\) in my final manipulation.</div><div><br></div><div>Possible
+      remedies:</div><div>- Check each step.</div>
+  tags:
+  - ann:trouble
 - id: 1539840954585
   fields:
     Front: |
@@ -525,7 +548,16 @@ notes:
       $$
         (-1, 4]
       $$
-    Annotations: ''
+    Annotations: 'Details that threw me: on the interval \((-\infty, -1)\) (so \(x
+      \le -1\)) the denominator is negative, so multiplying both sides of the denominator
+      changes the direction of the inequality, implying the contradiction that \(4
+      \le x\); hence, there is no solution on the interval \((-\infty, -1)\).<div><br></div><div>Why
+      it threw me: the contradiction led me to believe I''d made a mistake, so I kept
+      working the problem until I realized there was no mistake, just a proof by contradiction
+      that there was no solution.</div><div><br></div><div>This is obvious from the
+      graph of the function.</div>'
+  tags:
+  - ann:hard
 - id: 1539840955085
   fields:
     Front: |
