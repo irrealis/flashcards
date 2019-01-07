@@ -171,3 +171,14 @@ notes:
     Back: |
       Does not exist.
     Annotations: ''
+- id: 1546217046335
+  tags: []
+  fields:
+    Front: |
+      CCAC 02.3 13: Evaluate the limit, if it exists.
+      $$
+      \lim_{t\to -3}\frac{t^2 - 9}{2t^2 + 7t + 3}
+      $$
+    Back: |
+      $\frac{6}{5}$
+    Annotations: ''
