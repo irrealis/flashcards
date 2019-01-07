@@ -266,3 +266,14 @@ notes:
       ```
     Annotations: ''
   tags: []
+- id: 1545601279309
+  fields:
+    Front: >
+      CCAC A 27: The relationship between the Celsius and Fahrenheit temperature scales
+      is given by $C = \frac{5}{9}(F-32)$, where $C$ is the temperature in degrees
+      Celsius, and $F$ is the temperature in degrees Fahrenheit. What interval on
+      the Celsius scale corresponds to the temperature range $50 \le F \le 95$?
+    Back: |
+      $10 \le C \le 35$
+    Annotations: ''
+  tags: []
