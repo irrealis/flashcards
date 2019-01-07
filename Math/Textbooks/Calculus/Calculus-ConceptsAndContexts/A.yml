@@ -306,3 +306,11 @@ notes:
       $2$, $-\frac{4}{3}$
     Annotations: ''
   tags: []
+- id: 1545601279783
+  fields:
+    Front: |
+      CCAC A 33: Solve the inequality $|x|<3$.
+    Back: |
+      $(-3, 3)$
+    Annotations: ''
+  tags: []
