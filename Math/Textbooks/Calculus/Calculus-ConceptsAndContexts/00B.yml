@@ -104,7 +104,15 @@ notes:
 
       ---
       (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
-    Annotations: ''
+    Annotations: Thoughts:<div>- The answer is given in canonical form \(ax + by +
+      c = 0\). One way to compute this is \[(y-y_0)(x_1-x_0) - (x-x_0)(y_1-y_0) =
+      0.\]</div><div><br></div><div>To-do:</div><div>- Practice \((y-y_0)(x_1-x_0)
+      - (x-x_0)(y_1-y_0) = 0\).</div><div><br></div><div>Fix-me:</div><div>- The typeset
+      answer is incorrect. It should be&nbsp;<span class="math">\(4x + 3y + 16 = 0\)</span>.</div>
+  tags:
+  - ann:fix-me
+  - ann:thoughts
+  - ann:to-do
 - id: 1543521862926
   fields:
     Front: |
@@ -189,7 +197,10 @@ notes:
 
       ---
       (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
-    Annotations: ''
+    Annotations: To-do:<div>- Try to simplify the code for this diagram. I believe
+      that Sympy can graph inequalities.</div>
+  tags:
+  - ann:to-do
 - id: 1543521866644
   useMarkdown: pweave
   fields:
@@ -232,7 +243,11 @@ notes:
 
       ---
       (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
-    Annotations: ''
+    Annotations: Issues:<div>- Missed the absolute value operators, so I graphed \(x
+      &lt; 4 \textrm{ and } y &lt; 2\) instead.</div><div><br></div><div>Fixes:</div><div>-
+      Copy problem? There must be a faster approach. Read the problem subvocally?</div>
+  tags:
+  - ann:trouble
 - id: 1543521869448
   useMarkdown: pweave
   fields:
@@ -380,4 +395,10 @@ notes:
 
       ---
       (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
-    Annotations: ''
+    Annotations: 'Issues:<div>- Not familiar enough with canonical ellipse formula.</div><div><br></div><div>Fixes:</div><div>-
+      Memorize, practice.</div><div><br></div><div>To-do:</div><div><div>- Memorize,
+      practice.</div><div>&nbsp; &nbsp; - I can derive the canonical formula from
+      first principles: \( (x/a)^2 + (y/b)^2 = 1\).</div><div><br></div></div>'
+  tags:
+  - ann:hard
+  - ann:to-do
