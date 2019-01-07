@@ -404,7 +404,10 @@ notes:
       $$
       y = -\sqrt{-x^2 - 5x - 4} - 1
       $$
-    Annotations: ''
+    Annotations: Issues:<div>- Incomplete application of distributive law.</div><div><br></div><div>Fixes:</div><div>-
+      Double check expansion by factoring.</div>
+  tags:
+  - ann:trouble
 - id: 1542517339370
   useMarkdown: pweave
   fields:
@@ -618,7 +621,11 @@ notes:
 
       p._backend.show()
       ```
-    Annotations: ''
+    Annotations: Issues:<div>- Incorrectly plotted nadir. Correct position is (-4,-8),
+      which I correctly computed, but I instead plotted (-4,-4).</div><div><br></div><div>Fixes:</div><div>-
+      Double check landmarks.</div>
+  tags:
+  - ann:trouble
 - id: 1542517340044
   useMarkdown: pweave
   fields:
@@ -796,7 +803,14 @@ notes:
       b. $(g \circ f)(x) = 2x^2 - 1, \ (-\infty, \infty)$
       c. $(f \circ f)(x) = x^4 - 2x^2, \ (-\infty, \infty)$
       d. $(g \circ g)(x) = 4x + 3, \ (-\infty, \infty)$
-    Annotations: ''
+    Annotations: Issues:<div>- Flipped sign in one step. I was trying to move fast,
+      skipping steps.</div><div><br></div><div>Fixes:</div><div>- Move more slowly,
+      checking work.</div><div><br></div><div>To do:</div><div>- it might be worthwhile
+      to experimentally measure how much benefit there is to taking extra steps in
+      order to check my work.</div>
+  tags:
+  - ann:to-do
+  - ann:trouble
 - id: 1542654360272
   fields:
     Front: |
@@ -822,7 +836,12 @@ notes:
       b. $(g \circ f)(x) = \frac{x^2 + x + 1}{(x+1)^2}, \ \{x | x \ne -1, 0\}$
       c. $(f \circ f)(x) = \frac{x^4 + 3x^2 + 1}{x(x^2 + 1)}, \ \{x | x \ne 0\}$
       d. $(g \circ g)(x) = \frac{2x + 3}{3x + 5}, \ \{x | x \ne -2, -\frac{5}{3}\}$
-    Annotations: ''
+    Annotations: Issues:<div>- Added terms of mismatched degree.</div><div><br></div><div>Fixes:</div><div>-
+      Not sure. This was careless.</div><div>- May need to neaten my work.</div><div>-
+      Cultivate habit of verifying degree when combining terms.</div><div>- Could
+      check by evaluating \(x = 2\) before and after simplification.</div>
+  tags:
+  - ann:trouble
 - id: 1542654360470
   fields:
     Front: |
@@ -846,7 +865,10 @@ notes:
       $$
       (f \circ g \circ h)(x) = \sqrt{x^6 + 4x^3 + 1}
       $$
-    Annotations: ''
+    Annotations: Issues:<div>- Nearly got sign wrong in adding 4 and -3.</div><div><br></div><div>Fixes:</div><div>-
+      Cultivate habit of verifying signs?</div>
+  tags:
+  - ann:trouble
 - id: 1542654360669
   fields:
     Front: |
@@ -1151,7 +1173,11 @@ notes:
       ```
     Back: |
       $4$
-    Annotations: ''
+    Annotations: Issues:<div>- I incorrectly evaluated \(g(1)\) as though it were
+      \(g(2)\), because \(x\)-axis ticks are even.</div><div><br></div><div>Fixes:</div><div>-
+      Perhaps try to be conscious of this trap? Check axis ticks before evaluating?</div>
+  tags:
+  - ann:trouble
 - id: 1542655684844
   useMarkdown: pweave
   fields:
