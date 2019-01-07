@@ -1,0 +1,10 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  markdownTabLength: 2
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Calculus-ConceptsAndContexts
+  - CCAC-A-IntervalsInequalitiesAndAbsoluteValues
