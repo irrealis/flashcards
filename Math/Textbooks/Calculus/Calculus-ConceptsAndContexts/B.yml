@@ -135,3 +135,11 @@ notes:
     Back: |
       $x + 2y + 11 = 0$
     Annotations: ''
+- id: 1545610727494
+  fields:
+    Front: |
+      CCAC B 23: Find an equation of the line that satisfies the given conditions.
+      Through $(-1,-2)$, perpendicular to the line $2x+5y+8=0$.
+    Back: |
+      $5x - 2y + 1 = 0$
+    Annotations: ''
