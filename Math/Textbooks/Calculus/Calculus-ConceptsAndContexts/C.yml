@@ -309,3 +309,28 @@ notes:
       $3\pi/4 < x < 5\pi/4$
       $7\pi/4 < x \le 2\pi$
     Annotations: ''
+- id: 1546117776903
+  useMarkdown: pweave
+  tags: []
+  fields:
+    Front: |
+      CCAC C 37: Graph the function by starting with the graphs in CCAC Appendix-C, Figures 13 and 14, and applying the transformations of CCAC 1.3 where appropriate.
+      $$
+      y = \cos\left(x - \frac{\pi}{3}\right)
+      $$
+    Back: |
+      ```{python echo = False}
+      import sympy as sy
+      import matplotlib.pyplot as plt
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      x = sy.symbols('x')
+      p = sy.plot(
+        sy.cos(x - sy.pi/3),
+        xlim = (-2, 7), ylim = (-2, 2),
+        xlabel = '$x$', ylabel = '$y$',
+      )
+      ```
+    Annotations: ''
