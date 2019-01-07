@@ -263,3 +263,14 @@ notes:
     Back: |
       $\frac{1}{15}(4 + 6\sqrt{2})$
     Annotations: ''
+- id: 1546117775716
+  tags: []
+  fields:
+    Front: |
+      CCAC C 29: Find all values of $x$ in the interval $[0,2\pi]$ that satisfy the equation.
+      $$
+      2 \cos(x) - 1 = 0
+      $$
+    Back: |
+      $\pi/3$, $5\pi/3$
+    Annotations: ''
