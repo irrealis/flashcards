@@ -158,3 +158,30 @@ notes:
       ```
     Annotations: ''
   tags: []
+- id: 1545601278808
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC A 19: Solve the inequality $x^2<3$ in terms of intervals, and illustrate the solution set on the real nuumber line.
+    Back: |
+      $(-\sqrt{3}, \sqrt{3})$
+      ```{python echo = False}
+      import matplotlib.pyplot as plt
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      fig = plt.figure(num = 1, figsize = (4, 0.5))
+      ax = plt.axes(frameon = False)
+      plt.xlim(-3.5, 3.5)
+      ax.axes.get_yaxis().set_visible(False)
+      ax.set_xticks([-3**0.5, 0, 3**0.5])
+      ax.set_xticklabels(['$-\sqrt{3}$', '$0$', '$\sqrt{3}$'])
+      ax.arrow(-3, 0, 6, 0, head_length = 0.20, head_width = 0.015, linewidth = 0.1, color = 'k')
+      plt.plot((-3**0.5, 3**0.5), (0, 0), color = 'k')
+      ax.plot(-3**0.5, 0, 'ko', markerfacecolor = 'white', markersize = 4)
+      ax.plot(3**0.5, 0, 'ko', markerfacecolor = 'white', markersize = 4)
+      _=_
+      ```
+    Annotations: ''
+  tags: []
