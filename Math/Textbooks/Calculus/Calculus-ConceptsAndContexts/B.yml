@@ -195,3 +195,40 @@ notes:
       ```
     Annotations: ''
   tags: []
+- id: 1545610728064
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC B 29: Sketch the region in $xy$-plane.
+      $$
+      \{(x,y) : x<0\}
+      $$
+    Back: |
+      ```{python echo = False}
+      import matplotlib.pyplot as plt
+      import numpy as np
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      x0 = np.arange(-3, 1)
+      y0 = x0*0
+
+      fig, ax = plt.subplots()
+      ax.fill_between(x0, -2, 2)
+
+      ax.plot((-0,-0), (-2,2), color = 'k', linewidth = 2, linestyle = '--')
+      ax.axhline(y = 0, color = 'k', linewidth = 0.5)
+      ax.axvline(x = 0, color = 'k', linewidth = 0.5)
+      ax.spines['top'].set_visible(False)
+      ax.spines['right'].set_visible(False)
+      ax.spines['bottom'].set_visible(False)
+      ax.spines['left'].set_visible(False)
+      ax.set_xlabel("$x$", position=(1, 0))
+      ax.set_ylabel("$y$", position=(0, 1))
+      plt.xlim((-3, 3))
+      plt.ylim((-2, 2))
+      plt.show()
+      ```
+    Annotations: ''
+  tags: []
