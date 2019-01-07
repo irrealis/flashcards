@@ -458,10 +458,7 @@ class NoteSender(object):
             # Add ID to note_node
             note_id = result['result']
             prev_id, rtnote['id'] = rtnote['id'], note_id
-            if prev_id:
-              log.info("ID %s replaced with %s.", prev_id, note_id)
-            else:
-              log.warn("Failed to assign new note ID!")
+            log.info("ID %s replaced with %s.", prev_id, note_id)
 
         log.debug("Updating note...")
         # Assume provided ID is valid for existing note to be updated.
