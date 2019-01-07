@@ -33,3 +33,17 @@ notes:
     Back: |
       $2 - x$.
     Annotations: ''
+- id: 1545601278058
+  tags: []
+  fields:
+    Front: |
+      CCAC A 07: Rewrite $|x+1|$ without using the absolute value symbol.
+    Back: |
+      $$
+      |x+1| =
+      \begin{cases}
+        x + 1 & \text{for $x \ge -1$} \\
+        -x - 1 & \text{for $x < -1$} \\
+      \end{cases}
+      $$
+    Annotations: ''
