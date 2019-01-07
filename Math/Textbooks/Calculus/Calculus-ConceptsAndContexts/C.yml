@@ -215,3 +215,40 @@ notes:
     Back: |
       5.73576 cm
     Annotations: ''
+- id: 1546117775138
+  useMarkdown: pweave
+  tags: []
+  fields:
+    Front: |
+      CCAC C 17: Find, correct to five decimal places, the length of the side labeled $x$.
+      ```{python echo = False}
+      import matplotlib.pyplot as plt
+      import numpy as np
+      import math
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      t = 2/5 * math.pi
+      w = 8
+      h = w*math.tan(t)
+
+      fig, ax = plt.subplots()
+
+      pts = list(zip((0,0), (w,0), (w,h), (0,0)))
+      rangle = list(zip((w,0), (w-1,0), (w-1,1), (w,1), (w,0)))
+
+      ax.plot(pts[0], pts[1], color = 'k', linewidth = 2)
+      ax.plot(rangle[0], rangle[1], color = 'k', linewidth = 2)
+      ax.text(1.5, 1.0, '$\\frac{2}{5}\pi$')
+      ax.text(9, 10, '$x$')
+      ax.text(3, -1.5, '8 cm')
+
+      ax.axis('off')
+      plt.xlim((-18, 34))
+      plt.ylim((-1, 27))
+      plt.show()
+      ```
+    Back: |
+      24.62147 cm
+    Annotations: ''
