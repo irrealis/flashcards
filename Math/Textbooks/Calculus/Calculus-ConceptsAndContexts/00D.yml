@@ -277,8 +277,11 @@ notes:
 
       ---
       (If you have had difficulty with this problem, you should look at Appendix C of CCAC.)
-    Annotations: ''
-  tags: []
+    Annotations: To do:<div><br></div><div>Here’s a simpler proof.<div><br></div><div>Start
+      with the identity $\sin^2{\theta}+\cos^2{\theta} = 1$, and divide both sides
+      by $\cos{\theta}$.</div></div>
+  tags:
+  - ann:to-do
 - id: 1539880267839
   fields:
     Front: |
@@ -341,7 +344,9 @@ notes:
 
       ---
       (If you have had difficulty with this problem, you should look at Appendix C of CCAC.)
-    Annotations: ''
+    Annotations: To do:<div>- I need to figure out how to solve this algebraically.</div>
+  tags:
+  - ann:to-do
 - id: 1539880268089
   useMarkdown: pweave
   fields:
@@ -383,4 +388,8 @@ notes:
 
       ---
       (If you have had difficulty with this problem, you should look at Appendix C of CCAC.)
-    Annotations: ''
+    Annotations: Issues:<div>- Instead of plotting \(1+\sin(2x)\), I plotted \(1+\sin(x)\).</div><div><br></div><div>Possible
+      fixes:</div><div>- How about writing out the function onto the graph? This may
+      give me an opportunity to catch the error.</div>
+  tags:
+  - ann:trouble
