@@ -43,3 +43,21 @@ notes:
       b. $0$
       c. Does not exist; lower and upper limits don't match.
     Annotations: ''
+- id: 1546217035112
+  tags:
+  - requiresCoding
+  fields:
+    Front: |
+      CCAC 02.2 11: Use the graph of the function
+      $$
+      f(x) = \frac{\sqrt{2 - 2\cos(2x)}}{x}
+      $$
+      to state the value of each limit, if it exists. If it does not exist, explain why.
+      a. $\lim_{x\to 0^-}f(x)$
+      b. $\lim_{x\to 0^+}f(x)$
+      c. $\lim_{x\to 0}f(x)$
+    Back: |
+      a. $-2$
+      b. $2$
+      c. Does not exist; lower and upper limits don't match.
+    Annotations: ''
