@@ -23,3 +23,13 @@ notes:
     Back: |
       $-\frac{9}{2}$
     Annotations: ''
+- id: 0
+  skip: true
+  tags:
+  - ToDo
+  fields:
+    Front: |
+      CCAC B 05: Show that the points $(-2,9)$, $(4,6)$, $(1,0)$, and $(-5,3)$ are the vertices of a square.
+    Back: |
+      ...
+    Annotations: ''
