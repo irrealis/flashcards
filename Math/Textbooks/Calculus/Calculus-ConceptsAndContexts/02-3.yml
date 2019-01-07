@@ -215,3 +215,14 @@ notes:
     Back: |
       $-\frac{1}{16}$
     Annotations: ''
+- id: 1546217047137
+  tags: []
+  fields:
+    Front: |
+      CCAC 02.3 21: Evaluate the limit, if it exists.
+      $$
+      \lim_{x\to 16}\frac{4 - \sqrt{x}}{16x - x^2}
+      $$
+    Back: |
+      $\frac{1}{128}$
+    Annotations: ''
