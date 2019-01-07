@@ -107,3 +107,14 @@ notes:
     Back: |
       $\frac{3}{5}$
     Annotations: ''
+- id: 1546217035943
+  tags:
+  - requiresCoding
+  fields:
+    Front: |
+      CCAC 02.2 25:
+      a. By graphing the function $f(x)=(\cos(2x) - \cos(x))/x^2$ and zooming in toward the point where the graph crosses the $y$-axis, estimate the value of $\lim_{x\to 0}f(x)$.
+      b. Check your answer to part (a) by evaluating $f(x)$ for values of $x$ that approach $0$.
+    Back: |
+      a. $-1.5$
+    Annotations: ''
