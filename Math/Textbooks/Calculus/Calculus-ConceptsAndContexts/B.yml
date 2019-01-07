@@ -308,3 +308,46 @@ notes:
       ```
     Annotations: ''
   tags: []
+- id: 1545611324081
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC B 35: Sketch the region in $xy$-plane.
+      $$
+      \{(x,y) : 1+x \le y \le 1-2x\}
+      $$
+    Back: |
+      ```{python echo = False}
+      import matplotlib.pyplot as plt
+      import numpy as np
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      fig, ax = plt.subplots()
+
+      x = np.arange(-4, 5)
+      y0 = x + 1
+      y1 = -2*x + 1
+      ax.plot(x, y0, color = 'k', linewidth = 2)
+      ax.plot(x, y1, color = 'k', linewidth = 2)
+
+      x0 = np.arange(-4, 1)
+      y00 = x0 + 1
+      y01 = -2*x0 + 1
+      ax.fill_between(x0, y00, y01)
+
+      ax.axhline(y = 0, color = 'k', linewidth = 0.5)
+      ax.axvline(x = 0, color = 'k', linewidth = 0.5)
+      ax.spines['top'].set_visible(False)
+      ax.spines['right'].set_visible(False)
+      ax.spines['bottom'].set_visible(False)
+      ax.spines['left'].set_visible(False)
+      ax.set_xlabel("$x$", position=(1, 0))
+      ax.set_ylabel("$y$", position=(0, 1))
+      plt.xlim((-4, 4))
+      plt.ylim((-3, 3))
+      plt.show()
+      ```
+    Annotations: ''
+  tags: []
