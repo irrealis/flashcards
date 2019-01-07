@@ -379,3 +379,14 @@ notes:
       $(1, -2)$
     Annotations: ''
   tags: []
+- id: 0
+  skip: true
+  fields:
+    Front: |
+      CCAC B 43: Show that the midpoint of the line segment from $P_1(x_1,y_1)$ to $P_2(x_2,y_2)$ is
+      $$
+      \left(\frac{x_1 + x_2}{2}, \frac{y_1+y_2}{2}\right)
+      $$
+    Back: |
+      ...
+    Annotations: ''
