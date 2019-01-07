@@ -8,4 +8,47 @@ defaults:
   - Calculus
   - Calculus-ConceptsAndContexts
   - CCAC-D-PreciseDefinitionsOfLimits
-notes: []
+notes:
+- id: 1546214044047
+  useMarkdown: pweave
+  tags: []
+  fields:
+    Front: |
+      CCAC D 01: Use the given graph of $f(x)=1/x$ to find a number $\delta$ such that if $|x-2|<\delta$ then $|\frac{1}{x}-0.5| < 0.2$.
+      ```{python echo = False}
+      import matplotlib.pyplot as plt
+      import numpy as np
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      fig, ax = plt.subplots()
+
+      x = np.arange(0.05, 5, 0.05)
+      y = 1/x
+
+      ax.plot(x, y)
+
+      ax.plot((0, 2), (1/2, 1/2), color = 'k', linestyle = '--')
+      ax.plot((2, 2), (0, 1/2), color = 'k', linestyle = '--')
+
+      ax.plot((0, 10/7), (7/10, 7/10), color = 'r', linestyle = '-')
+      ax.plot((10/7, 10/7), (0, 7/10), color = 'r', linestyle = '-')
+
+      ax.plot((0, 10/3), (3/10, 3/10), color = 'r', linestyle = '-')
+      ax.plot((10/3, 10/3), (0, 3/10), color = 'r', linestyle = '-')
+
+      ax.text(2, 0.6, '$$y = \\frac{1}{x}$$')
+
+      ax.set_xlabel("$x$", position=(1, 0))
+      ax.set_ylabel("$y$", position=(0, 1))
+      ax.set_xticks([0, 10/7, 2, 10/3])
+      ax.set_xticklabels(['$0$', '$10/7$', '$2$', '$10/3$'])
+      ax.set_yticks([0, 0.3, 0.5, 0.7, 1])
+      plt.xlim((0, 4))
+      plt.ylim((0, 1.5))
+      plt.show()
+      ```
+    Back: |
+      $\frac{4}{7}$ (or any smaller positive number)
+    Annotations: ''
