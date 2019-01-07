@@ -127,3 +127,11 @@ notes:
     Back: |
       $y = 5$
     Annotations: ''
+- id: 1545610727315
+  fields:
+    Front: |
+      CCAC B 21: Find an equation of the line that satisfies the given conditions.
+      Through $(1,-6)$, parallel to the line $x + 2y = 6$.
+    Back: |
+      $x + 2y + 11 = 0$
+    Annotations: ''
