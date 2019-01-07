@@ -414,3 +414,11 @@ notes:
     Back: |
       ...
     Annotations: ''
+- id: 0
+  skip: true
+  fields:
+    Front: |
+      CCAC B 51: Use the definition of a hyperbola to derive CCAC-B Equation 2 for a hyperbola with foci $(\pm c,0)$
+    Back: |
+      ...
+    Annotations: ''
