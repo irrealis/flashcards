@@ -116,3 +116,14 @@ notes:
     Back: |
       $0$
     Annotations: ''
+- id: 1546217045075
+  tags: []
+  fields:
+    Front: |
+      CCAC 02.3 03: Evaluate the limit, and justify each step by indicating the appropriate Limit Law(s).
+      $$
+      \lim_{x\to -2}(3x^4 + 2x^2 - x + 1)
+      $$
+    Back: |
+      $59$
+    Annotations: ''
