@@ -360,3 +360,14 @@ notes:
       $(x - 3)^2 + (y + 1)^2 = 25$
     Annotations: ''
   tags: []
+- id: 1545612591336
+  fields:
+    Front: |
+      CCAC B 39: Show that the equation represents a circle, and find the center and radius.
+      $$
+      x^2 + y^2 - 4x + 10y + 13 = 0
+      $$
+    Back: |
+      $(2, -5)$, $4$
+    Annotations: ''
+  tags: []
