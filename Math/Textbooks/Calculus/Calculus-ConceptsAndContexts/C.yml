@@ -8,3 +8,15 @@ defaults:
   - Calculus
   - Calculus-ConceptsAndContexts
   - CCAC-C-Trigonometry
+notes:
+- id: 1546117771339
+  tags: []
+  fields:
+    Front: |
+      CCAC C 01a: Convert from degrees to radians.
+      $$
+      210^\circ
+      $$
+    Back: |
+      $7 \pi/6$
+    Annotations: ''
