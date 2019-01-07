@@ -406,3 +406,11 @@ notes:
     Back: |
       ...
     Annotations: ''
+- id: 0
+  skip: true
+  fields:
+    Front: |
+      CCAC B 49: Suppose an ellipse has foci $(\pm c,0)$, and that the sume of the distances from any point $P(x,y)$ on the ellipse to the foci is $2a$. Show that the coordinates of $P$ satisfy CCAC-B Equation 1.
+    Back: |
+      ...
+    Annotations: ''
