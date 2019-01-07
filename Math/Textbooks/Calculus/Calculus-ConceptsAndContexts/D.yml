@@ -118,3 +118,24 @@ notes:
     Back: |
       $0.11$, $0.012$ (or smaller positive numbers)
     Annotations: ''
+- id: 1546214050520
+  tags: []
+  fields:
+    Front: >
+      CCAC D 11: A machinist is required to manufacture a circular metal disk with
+      area $1000\ \text{cm}^2$.
+
+      a. What radius produces such a disk?
+
+      b. If the machinist is allowed an error tolerance of $\pm\ \text{cm}^2$ in the
+      area of the disk, how close to the ideal radius in part (a) must the machinist
+      control the radius?
+
+      c. In terms of the $\epsilon,\delta$ definition of $\lim_{x\to a}{f(x)}=L$,
+      what is $x$? What is $f(x)$? What is $a$? What is $L$? What value of $\epsilon$
+      is given? What is the corresponding value of $\delta$?
+    Back: |
+      a. $\sqrt{1000/\pi}\ \text{cm}$
+      b. Within approximately $0.0445\ \text{cm}$
+      c. Radius; area; $\sqrt{1000/\pi}$; $1000$; $5$; $\approx 0.0445$
+    Annotations: ''
