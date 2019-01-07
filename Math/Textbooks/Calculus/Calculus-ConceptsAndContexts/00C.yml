@@ -223,7 +223,10 @@ notes:
 
       ---
       (If you have had difficulty with this problem, you should look at Sections 1.1-1.3 of CCAC.)
-    Annotations: ''
+    Annotations: 'Issue: I copied the problem badly, substituting a 2 for \(h\) in
+      the denominator.'
+  tags:
+  - ann:trouble
 - id: 1539839980555
   fields:
     Front: |
