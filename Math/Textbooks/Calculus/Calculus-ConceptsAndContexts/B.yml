@@ -270,3 +270,41 @@ notes:
       ```
     Annotations: ''
   tags: []
+- id: 1545611323885
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC B 33: Sketch the region in $xy$-plane.
+      $$
+      \{(x,y) : 0 \le y \le 4 \text{ and } x \le 2\}
+      $$
+    Back: |
+      ```{python echo = False}
+      import matplotlib.pyplot as plt
+      import numpy as np
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      x0 = np.arange(-3, 3)
+      y0 = x0*0
+
+      fig, ax = plt.subplots()
+      ax.fill_between(x0, 0, 4)
+
+      ax.plot((-3,2), (4,4), color = 'k', linewidth = 2)
+      ax.plot((2,2), (4,0), color = 'k', linewidth = 2)
+      ax.axhline(y = 0, color = 'k', linewidth = 0.5)
+      ax.axvline(x = 0, color = 'k', linewidth = 0.5)
+      ax.spines['top'].set_visible(False)
+      ax.spines['right'].set_visible(False)
+      ax.spines['bottom'].set_visible(False)
+      ax.spines['left'].set_visible(False)
+      ax.set_xlabel("$x$", position=(1, 0))
+      ax.set_ylabel("$y$", position=(0, 1))
+      plt.xlim((-3, 6))
+      plt.ylim((-0, 6))
+      plt.show()
+      ```
+    Annotations: ''
+  tags: []
