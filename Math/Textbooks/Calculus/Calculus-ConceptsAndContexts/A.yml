@@ -287,3 +287,14 @@ notes:
       $T = 20 - 10h$, $0 \le h \le 12$
     Annotations: ''
   tags: []
+- id: 1545601279557
+  fields:
+    Front: >
+      CCAC A 29b: As dry air moves upward, it expands, and in doing so cools at a
+      rate of about $1^\circ$C for each 100-m rise, up to about 12 km. What range
+      of temperature can be expected if a plane takes off and reaches a maximum of
+      5 km?
+    Back: |
+      $-30^\circ\text{C} \le T \le 20^\circ\text{C}$
+    Annotations: ''
+  tags: []
