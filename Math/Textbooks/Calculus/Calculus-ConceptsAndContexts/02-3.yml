@@ -261,3 +261,14 @@ notes:
     Back: |
       $7$
     Annotations: ''
+- id: 1546217048110
+  tags: []
+  fields:
+    Front: |
+      CCAC 02.3 33: Find the limit, if it exists. If the limit does not exist, explain why.
+      $$
+      \lim_{x\to 3}(2x + |x - 3|)
+      $$
+    Back: |
+      $6$
+    Annotations: ''
