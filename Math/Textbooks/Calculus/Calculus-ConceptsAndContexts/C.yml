@@ -31,3 +31,14 @@ notes:
     Back: |
       $\pi/20$
     Annotations: ''
+- id: 1546117772726
+  tags: []
+  fields:
+    Front: |
+      CCAC C 03a: Convert from radians to degrees.
+      $$
+      4\pi
+      $$
+    Back: |
+      $720^\circ$
+    Annotations: ''
