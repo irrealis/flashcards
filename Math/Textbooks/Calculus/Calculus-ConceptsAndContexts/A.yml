@@ -298,3 +298,11 @@ notes:
       $-30^\circ\text{C} \le T \le 20^\circ\text{C}$
     Annotations: ''
   tags: []
+- id: 1545601279658
+  fields:
+    Front: |
+      CCAC A 31: Solve the equation $|x+3| = |2x+1|$ for $x$.
+    Back: |
+      $2$, $-\frac{4}{3}$
+    Annotations: ''
+  tags: []
