@@ -299,6 +299,8 @@ notes:
 
       ax.axhline(y = 0, color = 'k', linewidth = 0.5)
       ax.axvline(x = 0, color = 'k', linewidth = 0.5)
+      ax.set_xlabel("$x$", position=(1, 0))
+      ax.set_ylabel("$y$", position=(0, 1))
       plt.ylim((-3, 3))
       plt.xlim((-4, 4))
       plt.show()
