@@ -237,3 +237,19 @@ notes:
     Back: |
       $-\frac{1}{2}$
     Annotations: ''
+- id: 1546217047596
+  tags:
+  - requiresCoding
+  fields:
+    Front: |
+      CCAC 02.3 25:
+      a. Estimate the value of
+      $$
+      \lim_{x\to 0}\frac{x}{\sqrt{1+3x} - 1}
+      $$
+      by  graphing the function $f(x) = x/(\sqrt{1+3x} - 1)$.
+      b. Make a table of values of $f(x)$ for $x$ cloase to $0$, and guess the value of the limit.
+      c. Use the Limit Laws to prove that your guess is correct.
+    Back: |
+      a. and b.: $\frac{2}{3}$
+    Annotations: ''
