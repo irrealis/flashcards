@@ -38,7 +38,14 @@ notes:
       $$
       -3-h
       $$
-    Annotations: ''
+    Annotations: Issues:<div>- Bad arithmetic. There’s a point at which I should have
+      written \(3h - 6h = -3h\), but somehow I got \(-6h\) as the sum. I suspect I
+      simply copied instead of summed. Part of the problem may have been chaotic work.</div><div><br></div><div>Fixes:</div><div>-
+      Probably the simplest fix is to do less work at once. Instead of performing
+      all transformations around the original expression, periodically write a new
+      expression. This will also simplify checking my work.</div>
+  tags:
+  - ann:trouble
 - id: 1542156300846
   fields:
     Front: |
@@ -62,7 +69,10 @@ notes:
       $$
       (-\infty, -3) \cup (-3,3) \cup (3, \infty)
       $$
-    Annotations: ''
+    Annotations: 'Minor issue: the problem doesn''t specify that the answer should
+      be in interval notation, so I didn''t use interval notation; nevertheless, the
+      answer in the back of the book <i>does</i>&nbsp;use interval notation. My answer
+      of \(\mathbb{R}\setminus\{-3,3\}\) is equivalent, which I think is okay.'
 - id: 1542156831844
   fields:
     Front: |
@@ -74,7 +84,11 @@ notes:
       $$
       (-\infty, \infty)
       $$
-    Annotations: ''
+    Annotations: Issues:<div>- Didn't notice the 3 in the radical. I should have solved
+      using \(\sqrt[3]{\cdot}\), but instead solved using \(\sqrt{\cdot}\).</div><div><br></div><div>Fix:</div><div>-
+      Copy and verify the full problem. This will help ensure that I see all its parts.</div>
+  tags:
+  - ann:trouble
 - id: 1542156831945
   fields:
     Front: |
@@ -113,7 +127,11 @@ notes:
         ylim = (-2,4),
       )
       ```
-    Annotations: ''
+    Annotations: Issues:<div>- I incorrectly graphed a line with the inverse of the
+      correct slope.</div><div><br></div><div>Fixes:</div><div>- Verify key points
+      of graph are on the line. In this case, verify \(f(0) = 2\) and \(f(5/2) = 1\).</div>
+  tags:
+  - ann:trouble
 - id: 1542156832144
   useMarkdown: pweave
   fields:
@@ -254,7 +272,12 @@ notes:
 
       p._backend.show()
       ```
-    Annotations: ''
+    Annotations: Issues:<div>- Got the directions of inequality wrong.</div><div>-
+      Graphed a closed point instead of open, and vice versa.</div><div><br></div><div>Fixes:</div><div>-
+      Copy problem across; this will help ensure I see all details.</div><div>- Cultivate
+      habit of checking endpoints.</div>
+  tags:
+  - ann:trouble
 - id: 1542156832544
   useMarkdown: pweave
   fields:
@@ -318,7 +341,14 @@ notes:
       $$
       f(x) = 1 - \sqrt{-x}
       $$
-    Annotations: ''
+    Annotations: Issues:<div>- I graphed this function, instead of finding the expression.</div><div>-
+      When I wrote the function, I wrote it for the top half of the parabola, instead
+      of the bottom half.</div><div><br></div><div>Fixes:</div><div>- Copy instructions
+      to page.</div><div><br></div><div>To do:</div><div>- Learn various representations
+      of parabolas.</div>
+  tags:
+  - ann:to-do
+  - ann:trouble
 - id: 1542157569044
   useMarkdown: pweave
   fields:
@@ -351,7 +381,10 @@ notes:
         2x - 6 &\text{ if } 3 < x \le 5 \\
       \end{cases}
       $$
-    Annotations: ''
+    Annotations: Issues:<div>- Left of far right endpoint.</div><div><br></div><div>Fix:</div><div>-
+      Check all endpoints.</div>
+  tags:
+  - ann:trouble
 - id: 1542158435298
   fields:
     Front: |
@@ -361,7 +394,9 @@ notes:
       $$
       A(L) = 10L - L^2,\ 0 < L < 10
       $$
-    Annotations: ''
+    Annotations: Minor issue:<div>- I gave the domain as \([0,10]\), while the text
+      gives \((0,10)\). I allow a degenerate rectangle of zero area. So I suppose
+      an implicit constraint from book's viewpoint is that rectangle be non-degenerate.</div>
 - id: 1542158435400
   comment: Unclear.
   fields:
@@ -385,7 +420,11 @@ notes:
       $$
       S(x) = x^2 + 8/x,\ 0 < x
       $$
-    Annotations: ''
+    Annotations: Issues:<div>- I forgot that the top surface is missing. The correct
+      intermediate formula is \(S(x) = x^2 + 4xt\).</div><div><br></div><div>Fixes:</div><div>-
+      What if in diagram I count off each surface to be summed?</div>
+  tags:
+  - ann:trouble
 - id: 1542158602445
   fields:
     Front: >
@@ -397,7 +436,10 @@ notes:
       $$
       V(x) = 4x^3 - 64x^2 + 240x,\ 0 < x < 6
       $$
-    Annotations: ''
+    Annotations: Issues:<div>- Forgot to multiply a factor by a term.</div><div><br></div><div>Fix:</div><div>-
+      Multiplication tracking.</div>
+  tags:
+  - ann:trouble
 - id: 1542158775019
   useMarkdownMathExt: false
   useMarkdown: pweave
@@ -426,7 +468,9 @@ notes:
       plt.yticks((0,5,10,15))
       plt.show()
       ```
-    Annotations: ''
+    Annotations: Minor issues:<div>- In the plot, I wrote the top line at 20% instead
+      of 15%. I think is just me being tired.</div><div><br></div><div>Fixes:</div><div>-
+      Stop and go do something else.</div>
 - id: 1542158955559
   useMarkdownMathExt: false
   skip: true
@@ -499,7 +543,11 @@ notes:
       $$
     Back: |
       Odd.
-    Annotations: ''
+    Annotations: Issues:<div>- I reasoned this through correctly but at the last minute
+      confused the definitions of “even” and “odd” functions.</div><div><br></div><div>Fixes:</div><div>-
+      I think this is just a matter of practice.</div>
+  tags:
+  - ann:trouble
 - id: 1542161096425
   fields:
     Front: |
@@ -528,4 +576,11 @@ notes:
       odd? Justify your answers.
     Back: |
       Even; odd; neither (unless $f = 0$ or $g = 0$).
-    Annotations: ''
+    Annotations: Issue:<div>- There’s an exception I missed in the final answer.</div><div><br></div><div>Fix:</div><div>-
+      Be on the lookout for exceptions?</div><div><br></div><div>Thoughts:</div><div>-
+      Any constant function is even.</div><div>- Any linear function that crosses
+      the origin is odd.</div><div>- The zero function is both, so the zero function
+      is both even and odd.</div>
+  tags:
+  - ann:minor-trouble
+  - ann:thoughts
