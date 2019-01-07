@@ -176,3 +176,42 @@ notes:
       $\sec{\theta} = \frac{5}{4}$
       $\cot{\theta} = \frac{4}{3}$
     Annotations: ''
+- id: 1546117774841
+  useMarkdown: pweave
+  tags: []
+  fields:
+    Front: |
+      CCAC C 15: Find, correct to five decimal places, the length of the side labeled $x$.
+      ```{python echo = False}
+      import matplotlib.pyplot as plt
+      import numpy as np
+      import math
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      r = 10
+      td = 35
+      tr = td*math.pi/180
+      h = r*math.sin(tr)
+      w = r*math.cos(tr)
+
+      fig, ax = plt.subplots()
+
+      pts = list(zip((0,0), (w,0), (0,h), (0,0)))
+      rangle = list(zip((0,0), (0.3,0), (0.3,0.3), (0,0.3), (0,0)))
+
+      ax.plot(pts[0], pts[1], color = 'k', linewidth = 2)
+      ax.plot(rangle[0], rangle[1], color = 'k', linewidth = 2)
+      ax.text(-0.5, 2.6, '$x$')
+      ax.text(4.2, 3.0, '10 cm')
+      ax.text(6.6, 0.25, '$35^\circ$')
+
+      ax.axis('off')
+      plt.xlim((-2, 10))
+      plt.ylim((-1, 7))
+      plt.show()
+      ```
+    Back: |
+      5.73576 cm
+    Annotations: ''
