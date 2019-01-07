@@ -283,3 +283,61 @@ notes:
     Back: |
       Does not exist.
     Annotations: ''
+- id: 1546217048612
+  useMarkdown: pweave
+  tags: []
+  fields:
+    Front: |
+      CCAC 02.3 37: Let
+      $$
+      g(x) =
+      \begin{cases}
+        x & \text{if $x<1$} \\
+        3 & \text{if $x=1$} \\
+        2 - x^2 & \text{if $1 < x \le 2$} \\
+        x - 3 & \text{if $2 < x$} \\
+      \end{cases}
+      $$
+      Evaluate each of the following, if it exists.
+      i. $\lim_{x\to 1^+}g(x)$
+      ii. $\lim_{x\to 1}g(x)$
+      iii. $g(1)$
+      iv. $\lim_{x\to 2^-}g(x)$
+      v. $\lim_{x\to 2^+}g(x)$
+      vi. $\lim_{x\to 2}g(x)$
+      Sketch the graph of $g$.
+    Back: |
+      i. $1$
+      ii. $1$
+      iii. $3$
+      iv. $-2$
+      v. $-1$
+      vi. Does not exist.
+      ```{python echo = False}
+      import sympy as sy
+      import matplotlib.pyplot as plt
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      x = sy.symbols('x')
+      p = sy.plot(
+        (x, (x, -2, 1)),
+        (2 - x**2, (x, 1, 2)),
+        (x - 3, (x, 2, 5)),
+        xlim = (-3, 6), ylim = (-2.5, 3.5),
+        xlabel = '$x$', ylabel = '$y$',
+        show = False,
+      )
+      if hasattr(p, '_backend'): p._backend.close()
+      p._backend = p.backend(p)
+      fg, ax = p._backend.fig, p._backend.ax
+
+      ax.plot(1, 1, 'ko', markerfacecolor = 'white')
+      ax.plot(1, 3, 'ko')
+      ax.plot(2, -1, 'ko', markerfacecolor = 'white')
+      ax.plot(2, -2, 'ko')
+
+      p._backend.show()
+      ```
+    Annotations: ''
