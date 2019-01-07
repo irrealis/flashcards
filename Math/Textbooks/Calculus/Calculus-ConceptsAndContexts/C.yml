@@ -20,3 +20,14 @@ notes:
     Back: |
       $7 \pi/6$
     Annotations: ''
+- id: 1546117772525
+  tags: []
+  fields:
+    Front: |
+      CCAC C 01b: Convert from degrees to radians.
+      $$
+      9^\circ
+      $$
+    Back: |
+      $\pi/20$
+    Annotations: ''
