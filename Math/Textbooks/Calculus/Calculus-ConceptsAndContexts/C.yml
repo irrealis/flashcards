@@ -334,3 +334,28 @@ notes:
       )
       ```
     Annotations: ''
+- id: 1546117777284
+  useMarkdown: pweave
+  tags: []
+  fields:
+    Front: |
+      CCAC C 39: Graph the function by starting with the graphs in CCAC Appendix-C, Figures 13 and 14, and applying the transformations of CCAC 1.3 where appropriate.
+      $$
+      y = \frac{1}{3}\tan\left(x - \frac{\pi}{2}\right)
+      $$
+    Back: |
+      ```{python echo = False}
+      import sympy as sy
+      import matplotlib.pyplot as plt
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      x = sy.symbols('x')
+      p = sy.plot(
+        sy.tan(x - sy.pi/2)/3,
+        xlim = (-2, 7), ylim = (-2, 2),
+        xlabel = '$x$', ylabel = '$y$',
+      )
+      ```
+    Annotations: ''
