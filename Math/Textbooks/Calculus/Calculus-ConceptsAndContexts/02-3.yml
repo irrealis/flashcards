@@ -368,3 +368,15 @@ notes:
     Back: |
       $8$
     Annotations: ''
+- id: 1546217055897
+  tags: []
+  fields:
+    Front: |
+      CCAC 02.3 49: Is there a number $a$ such that
+      $$
+      \lim_{x\to -2}\frac{3x^2 + ax + a + 3}{x^2 + x - 2}
+      $$
+      exists? If so, find the value of $a$ and the value of the limit.
+    Back: |
+      $15$; $-1$
+    Annotations: ''
