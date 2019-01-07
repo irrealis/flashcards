@@ -252,3 +252,14 @@ notes:
     Back: |
       24.62147 cm
     Annotations: ''
+- id: 1546117775421
+  tags: []
+  fields:
+    Front: |
+      CCAC C 27: If $\sin{x} = \frac{1}{3}$ and $\sec{y} = \frac{5}{4}$, where $x$ and $y$ lie between $0$ and $\pi/2$, evaluate the expression.
+      $$
+      \sin(x + y)
+      $$
+    Back: |
+      $\frac{1}{15}(4 + 6\sqrt{2})$
+    Annotations: ''
