@@ -161,3 +161,18 @@ notes:
     Back: |
       $x > 100$
     Annotations: ''
+- id: 1546214050947
+  tags:
+  - requiresCoding
+  fields:
+    Front: |
+      CCAC D 21:
+      a. Use a graph to guess the value of the limit
+      $$
+      \lim_{n\to\infty}\frac{n^5}{n!}
+      $$
+      b. Use the graph of the sequence in part (a) to find the smallest values of $N$ that correspond to $\epsilon = 0.1$ and $\epsilon = 0.001$ in CCAC Appendix D, Definition 3.
+    Back: |
+      a. 0
+      b. 9, 11
+    Annotations: ''
