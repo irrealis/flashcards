@@ -274,3 +274,14 @@ notes:
     Back: |
       $\pi/3$, $5\pi/3$
     Annotations: ''
+- id: 1546117776072
+  tags: []
+  fields:
+    Front: |
+      CCAC C 31: Find all values of $x$ in the interval $[0,2\pi]$ that satisfy the equation.
+      $$
+      \sin{2x} = \cos{x}
+      $$
+    Back: |
+      $\pi/6$, $\pi/2$, $5\pi/6$, $3\pi/2$
+    Annotations: ''
