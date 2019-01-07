@@ -111,3 +111,11 @@ notes:
     Back: |
       $y = 3x - 2$
     Annotations: ''
+- id: 1545610726927
+  fields:
+    Front: |
+      CCAC B 17: Find an equation of the line that satisfies the given conditions.
+      $x$-intercept $1$, $y$-intercept $-3$.
+    Back: |
+      $y = 3x - 3$
+    Annotations: ''
