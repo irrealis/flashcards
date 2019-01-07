@@ -272,3 +272,14 @@ notes:
     Back: |
       $6$
     Annotations: ''
+- id: 1546217048345
+  tags: []
+  fields:
+    Front: |
+      CCAC 02.3 35: Find the limit, if it exists. If the limit does not exist, explain why.
+      $$
+      \lim_{x\to 0^{-}}\left(\frac{1}{x} - \frac{1}{|x|}\right)
+      $$
+    Back: |
+      Does not exist.
+    Annotations: ''
