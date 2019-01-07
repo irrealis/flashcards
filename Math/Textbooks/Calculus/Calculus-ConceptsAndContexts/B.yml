@@ -103,3 +103,11 @@ notes:
     Back: |
       $5x + y = 11$
     Annotations: ''
+- id: 1545610726758
+  fields:
+    Front: |
+      CCAC B 15: Find an equation of the line that satisfies the given conditions.
+      Slope $3$, $y$-intercept $-2$.
+    Back: |
+      $y = 3x - 2$
+    Annotations: ''
