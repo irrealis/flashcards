@@ -53,3 +53,11 @@ notes:
     Back: |
       $-67.5^\circ$
     Annotations: ''
+- id: 1546117773336
+  tags: []
+  fields:
+    Front: |
+      CCAC C 05: Find the length of a circular arc subtended by an angle of $\pi/12$ rad if the radius of the circle is 36 cm.
+    Back: |
+      $3\pi$ cm
+    Annotations: ''
