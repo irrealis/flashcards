@@ -42,3 +42,14 @@ notes:
     Back: |
       $720^\circ$
     Annotations: ''
+- id: 1546117773065
+  tags: []
+  fields:
+    Front: |
+      CCAC C 03b: Convert from radians to degrees.
+      $$
+      -\frac{3\pi}{8}
+      $$
+    Back: |
+      $-67.5^\circ$
+    Annotations: ''
