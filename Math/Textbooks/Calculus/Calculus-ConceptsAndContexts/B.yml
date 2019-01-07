@@ -371,3 +371,11 @@ notes:
       $(2, -5)$, $4$
     Annotations: ''
   tags: []
+- id: 1545612591529
+  fields:
+    Front: |
+      CCAC B 41: Show that the lines $2x-y=4$ and $6x-2y=10$ are not parallel, and find their point of intersection.
+    Back: |
+      $(1, -2)$
+    Annotations: ''
+  tags: []
