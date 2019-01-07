@@ -185,3 +185,28 @@ notes:
       ```
     Annotations: ''
   tags: []
+- id: 1545601278958
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC A 21: Solve the inequality $x^3-x^2 \le 0$ in terms of intervals, and illustrate the solution set on the real nuumber line.
+    Back: |
+      $(-\infty, 1]$
+      ```{python echo = False}
+      import matplotlib.pyplot as plt
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      fig = plt.figure(num = 1, figsize = (4, 0.5))
+      ax = plt.axes(frameon = False)
+      plt.xlim(-3.5, 3.5)
+      ax.axes.get_yaxis().set_visible(False)
+      ax.set_xticks([0, 1])
+      ax.arrow(-3, 0, 6, 0, head_length = 0.20, head_width = 0.015, linewidth = 0.1, color = 'k')
+      plt.plot((-3, 1), (0, 0), color = 'k')
+      ax.plot(1, 0, 'ko', markerfacecolor = 'k', markersize = 4)
+      _=_
+      ```
+    Annotations: ''
+  tags: []
