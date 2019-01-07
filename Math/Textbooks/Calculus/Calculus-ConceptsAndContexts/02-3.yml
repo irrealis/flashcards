@@ -253,3 +253,11 @@ notes:
     Back: |
       a. and b.: $\frac{2}{3}$
     Annotations: ''
+- id: 1546217047853
+  tags: []
+  fields:
+    Front: |
+      CCAC 02.3 29: If $4x - 9 \le f(x) \le x^2 - 4x + 7$ for $x \ge 0$, find $\lim_{x\to 4}f(x)$.
+    Back: |
+      $7$
+    Annotations: ''
