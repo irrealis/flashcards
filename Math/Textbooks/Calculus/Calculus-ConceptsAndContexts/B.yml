@@ -143,3 +143,29 @@ notes:
     Back: |
       $5x - 2y + 1 = 0$
     Annotations: ''
+- id: 1545610727675
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC B 25: Find the slope and $y$-intercept of the line, and draw its graph.
+      $$
+      x + 3y = 0
+      $$
+    Back: |
+      $m = -\frac{1}{3}$, $b = 0$
+      ```{python echo = False}
+      import sympy as sy
+      import matplotlib.pyplot as plt
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      x = sy.symbols('x')
+      p = sy.plot(
+        -x/3,
+        xlim = (-3, 3), ylim = (-2, 2),
+        xlabel = '$x$', ylabel = '$y$',
+      )
+      ```
+    Annotations: ''
+  tags: []
