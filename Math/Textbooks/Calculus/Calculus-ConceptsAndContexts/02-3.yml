@@ -226,3 +226,14 @@ notes:
     Back: |
       $\frac{1}{128}$
     Annotations: ''
+- id: 1546217047339
+  tags: []
+  fields:
+    Front: |
+      CCAC 02.3 23: Evaluate the limit, if it exists.
+      $$
+      \lim_{t\to 0}\left(\frac{1}{t\sqrt{1 + t}} - \frac{1}{t}\right)
+      $$
+    Back: |
+      $-\frac{1}{2}$
+    Annotations: ''
