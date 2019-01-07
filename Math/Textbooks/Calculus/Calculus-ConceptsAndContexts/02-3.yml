@@ -204,3 +204,14 @@ notes:
     Back: |
       $\frac{1}{12}$
     Annotations: ''
+- id: 1546217046922
+  tags: []
+  fields:
+    Front: |
+      CCAC 02.3 19: Evaluate the limit, if it exists.
+      $$
+      \lim_{x\to -4}\frac{\frac{1}{4} + \frac{1}{x}}{4 + x}
+      $$
+    Back: |
+      $-\frac{1}{16}$
+    Annotations: ''
