@@ -17,3 +17,11 @@ notes:
     Back: |
       $18$.
     Annotations: ''
+- id: 1545601277833
+  tags: []
+  fields:
+    Front: |
+      CCAC A 03: Rewrite $|\sqrt{5} - 5|$ without using the absolute value symbol.
+    Back: |
+      $5 - \sqrt{5}$.
+    Annotations: ''
