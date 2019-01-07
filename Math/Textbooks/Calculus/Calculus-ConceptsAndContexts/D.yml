@@ -150,3 +150,14 @@ notes:
       a. 0.025
       b. 0.0025
     Annotations: ''
+- id: 1546214050813
+  tags: []
+  fields:
+    Front: |
+      CCAC D 19a: Determine how large we have to take $x$ so that
+      $$
+      1/x^2 < 0.0001
+      $$
+    Back: |
+      $x > 100$
+    Annotations: ''
