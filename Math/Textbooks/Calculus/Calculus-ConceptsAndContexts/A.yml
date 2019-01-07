@@ -25,3 +25,11 @@ notes:
     Back: |
       $5 - \sqrt{5}$.
     Annotations: ''
+- id: 1545601277958
+  tags: []
+  fields:
+    Front: |
+      CCAC A 05: Rewrite $|x-2|$ for $x<2$ without using the absolute value symbol.
+    Back: |
+      $2 - x$.
+    Annotations: ''
