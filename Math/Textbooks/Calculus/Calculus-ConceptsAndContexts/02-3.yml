@@ -182,3 +182,14 @@ notes:
     Back: |
       $\frac{6}{5}$
     Annotations: ''
+- id: 1546217046530
+  tags: []
+  fields:
+    Front: |
+      CCAC 02.3 15: Evaluate the limit, if it exists.
+      $$
+      \lim_{h\to 0}\frac{(4 + h^2) - 16}{h}
+      $$
+    Back: |
+      $8$
+    Annotations: ''
