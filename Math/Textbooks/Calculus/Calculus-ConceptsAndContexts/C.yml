@@ -107,3 +107,41 @@ notes:
       plt.show()
       ```
     Annotations: ''
+- id: 1546117774032
+  useMarkdown: pweave
+  tags: []
+  fields:
+    Front: |
+      CCAC C 09b: Draw, in standard position, the angle whose measure is given.
+      $$
+      -\frac{3\pi}{4}\ \text{rad}
+      $$
+    Back: |
+      ```{python echo = False}
+      import matplotlib.pyplot as plt
+      import matplotlib as mp
+      import numpy as np
+      import math
+
+      fig, ax = plt.subplots()
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      def s(x): return math.sin(x*math.pi/180)
+      def c(x): return math.cos(x*math.pi/180)
+
+      arc = mp.patches.Arc((0,0), 2, 2, -135, 0, 135)
+      ax.add_patch(arc)
+      ax.arrow(c(-122), s(-122), -0.01, 0.01, head_length = 0.20, head_width = 0.1, color = 'k')
+      ax.plot((0, -2), (0, -2), color = 'k')
+
+      ax.axhline(y = 0, color = 'k', linewidth = 0.5)
+      ax.axvline(x = 0, color = 'k', linewidth = 0.5)
+      ax.axes.get_xaxis().set_visible(False)
+      ax.axes.get_yaxis().set_visible(False)
+      plt.xlim((-3, 3))
+      plt.ylim((-2, 2))
+      plt.show()
+      ```
+    Annotations: ''
