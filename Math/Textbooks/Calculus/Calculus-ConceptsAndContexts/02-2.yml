@@ -121,7 +121,6 @@ notes:
 - id: 1546217036225
   useMarkdown: pweave
   tags:
-  - Editing
   - requiresCoding
   fields:
     Front: |
