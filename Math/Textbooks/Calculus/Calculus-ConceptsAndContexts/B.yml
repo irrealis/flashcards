@@ -87,3 +87,11 @@ notes:
       p._backend.show()
       ```
     Annotations: ''
+- id: 1545610726406
+  fields:
+    Front: |
+      CCAC B 11: Find an equation of the line that satisfies the given conditions.
+      Through $(2,-3)$, slope $6$.
+    Back: |
+      $y = 6x - 15$
+    Annotations: ''
