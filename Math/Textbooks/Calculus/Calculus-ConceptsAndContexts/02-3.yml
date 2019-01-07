@@ -360,3 +360,11 @@ notes:
       b. $n-1$, $n$
       c. $a$ is not an integer
     Annotations: ''
+- id: 1546217055588
+  tags: []
+  fields:
+    Front: |
+      CCAC 02.3 45: If $\lim_{x\to 1}\frac{f(x) - 8}{x-1} = 10$, find $\lim_{x\to 1}f(x)$.
+    Back: |
+      $8$
+    Annotations: ''
