@@ -25,3 +25,21 @@ notes:
     Back: |
       $\lim_{x\to a}{f(x)}$ exists for all $a$ except $a=-1$.
     Annotations: ''
+- id: 1546217034929
+  tags:
+  - requiresCoding
+  fields:
+    Front: |
+      CCAC 02.2 09: Use the graph of the function
+      $$
+      f(x) = \frac{1}{1+e^{1/x}}
+      $$
+      to state the value of each limit, if it exists. If it does not exist, explain why.
+      a. $\lim_{x\to 0^-}f(x)$
+      b. $\lim_{x\to 0^+}f(x)$
+      c. $\lim_{x\to 0}f(x)$
+    Back: |
+      a. $1$
+      b. $0$
+      c. Does not exist; lower and upper limits don't match.
+    Annotations: ''
