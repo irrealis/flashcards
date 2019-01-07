@@ -33,3 +33,27 @@ notes:
     Back: |
       ...
     Annotations: ''
+- id: 1545610725973
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC B 07: Sketch the graph of the equation $x=3$.
+    Back: |
+      ```{python echo = False}
+      import sympy as sy
+      import matplotlib.pyplot as plt
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      def fx(t): return 3
+      def fy(t): return t
+
+      t = sy.symbols('t')
+      p = sy.plotting.plot_parametric(
+        (fx(t), fy(t), (t, -2, 4)),
+        xlim = (-2, 4), ylim = (-2, 2),
+        xlabel = '$x$', ylabel = '$y$',
+      )
+      ```
+    Annotations: ''
