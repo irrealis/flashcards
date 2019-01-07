@@ -118,3 +118,31 @@ notes:
     Back: |
       a. $-1.5$
     Annotations: ''
+- id: 1546217036225
+  useMarkdown: pweave
+  tags:
+  - Editing
+  - requiresCoding
+  fields:
+    Front: |
+      CCAC 02.2 27:
+      a. Estimate the value of the limit $\lim_{x\to 0}(1 + x)^{1/x}$ to five decimal places. Does this number look familiar?
+      b. Illustrate part (a) by graphing the function $y = (1+x)^{1/x}$.
+    Back: |
+      a. $2.71828$
+      b.
+      ```{python echo = False}
+      import sympy as sy
+      import matplotlib.pyplot as plt
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      x = sy.symbols('x')
+      p = sy.plot(
+        (1 + x)**(1/x),
+        xlim = (-4, 4), ylim = (-2, 6),
+        xlabel = '$x$', ylabel = '$y$',
+      )
+      ```
+    Annotations: ''
