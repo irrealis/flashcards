@@ -341,3 +341,22 @@ notes:
       p._backend.show()
       ```
     Annotations: ''
+- id: 1546217055288
+  tags: []
+  fields:
+    Front: |
+      CCAC 02.3 39:
+      a. If the symbol $[[\ ]]$ denotes the greatest integer function defined in CCAC-2.3, Example 9, evaluate:
+      $$
+      \lim_{x\to -2^+}[[x]],\ \lim_{x\to -2}[[x]],\ \lim_{x\to -2.4}[[x]]
+      $$
+      b. If $n$ is an integer, evaluate:
+      $$
+      \lim_{x\to n^-}[[x]],\ \lim_{x\to n^+}[[x]]
+      $$
+      c. For what values of $a$ does $\lim_{x\to a}[[x]]$ exist?
+    Back: |
+      a. $-2$; does not exist; $-3$
+      b. $n-1$, $n$
+      c. $a$ is not an integer
+    Annotations: ''
