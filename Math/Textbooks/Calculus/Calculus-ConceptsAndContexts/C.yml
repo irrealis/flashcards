@@ -61,3 +61,11 @@ notes:
     Back: |
       $3\pi$ cm
     Annotations: ''
+- id: 1546117773589
+  tags: []
+  fields:
+    Front: |
+      CCAC C 07: A circle has radius 1.5 m. What angle is subtended at the center of the circle by an arc 1 m long?
+    Back: |
+      $\frac{2}{3}\text{ rad} = (120/\pi)^\circ$
+    Annotations: ''
