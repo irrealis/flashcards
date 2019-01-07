@@ -398,3 +398,11 @@ notes:
       $y = x - 3$
     Annotations: ''
   tags: []
+- id: 0
+  skip: true
+  fields:
+    Front: |
+      CCAC B 47: Suppose that $P(x,y)$ is any point on the parabola with focus $(0,p)$ and directrix $y = -p$. (See CCAC-B Figure 14.) Use the definition of a parabola to show that $x^2=4py$.
+    Back: |
+      ...
+    Annotations: ''
