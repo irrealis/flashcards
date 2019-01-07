@@ -105,3 +105,16 @@ notes:
     Back: |
       $0.0906$ (or any smaller positive number)
     Annotations: ''
+- id: 1546214050296
+  tags:
+  - requiresCoding
+  fields:
+    Front: |
+      CCAC D 07: For the limit
+      $$
+      \lim_{x\to 1}(4 + x - 3x^2) = 2
+      $$
+      illustrate CCAC Appendix-D, Definition 1 by finding values of $\delta$ that correspond to $\epsilon=1$ and $\epsilon=0.1$.
+    Back: |
+      $0.11$, $0.012$ (or smaller positive numbers)
+    Annotations: ''
