@@ -277,3 +277,13 @@ notes:
       $10 \le C \le 35$
     Annotations: ''
   tags: []
+- id: 1545601279458
+  fields:
+    Front: >
+      CCAC A 29a: As dry air moves upward, it expands, and in doing so cools at a
+      rate of about $1^\circ$C for each 100-m rise, up to about 12 km. If the ground
+      temperature is $20^\circ$C, write a formula for the temperature at height $h$.
+    Back: |
+      $T = 20 - 10h$, $0 \le h \le 12$
+    Annotations: ''
+  tags: []
