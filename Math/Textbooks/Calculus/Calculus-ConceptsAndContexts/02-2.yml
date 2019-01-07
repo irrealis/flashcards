@@ -160,3 +160,14 @@ notes:
       a. $0.998000$, $0.638259$, $0.358484$, $0.158680$, $0.038851$, $0.008928$, $0.001465$; $0$
       b. $0.00572$, $-0.000614$, $-0.000907$, $-0.000978$, $-0.000993$, $-0.001000$; $-0.001$
     Annotations: ''
+- id: 1546217036659
+  tags:
+  - requiresCoding
+  fields:
+    Front: >
+      CCAC 02.2 31: Use a graph to determine how close to $2$ we have to take $x$
+      to ensure that $x^3 - 3x + 4$ is within a distance $0.2$ of the number $6$.
+      What if we insist that $x^3 - 3x + 4$ be within $0.1$ of $6$?
+    Back: |
+      Within $0.021$; within $0.011$
+    Annotations: ''
