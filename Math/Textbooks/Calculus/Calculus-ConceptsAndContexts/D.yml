@@ -96,3 +96,12 @@ notes:
     Back: |
       $1.44$ (or any smaller positive number)
     Annotations: ''
+- id: 1546214050155
+  tags:
+  - requiresCoding
+  fields:
+    Front: |
+      CCAC D 05: Use a graph to find a number $\delta$ such that if $|x-\frac{\pi}{4}|<\delta$ then $|\tan(x)-1|<0.2$.
+    Back: |
+      $0.0906$ (or any smaller positive number)
+    Annotations: ''
