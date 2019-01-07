@@ -314,3 +314,11 @@ notes:
       $(-3, 3)$
     Annotations: ''
   tags: []
+- id: 1545601279908
+  fields:
+    Front: |
+      CCAC A 35: Solve the inequality $|x-4|<1$.
+    Back: |
+      $(3, 5)$
+    Annotations: ''
+  tags: []
