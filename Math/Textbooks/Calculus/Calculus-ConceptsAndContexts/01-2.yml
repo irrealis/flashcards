@@ -59,7 +59,12 @@ notes:
       $$
     Back: |
       Exponential.
-    Annotations: ''
+    Annotations: 'Issues:<div>- This is an <i>exponential</i>&nbsp;function, but I
+      incorrectly classified it as a <i>power</i>&nbsp;function. The distinction:
+      for constant \(c\), \(f(x) = c^x\) is an exponential function, and \(g(x) =
+      x^c\) is a power function.</div><div><br></div><div>Fixes:</div><div>- Practice.</div>'
+  tags:
+  - ann:minor-trouble
 - id: 1542245228998
   fields:
     Front: |
@@ -209,7 +214,19 @@ notes:
       $$
       \frac{1}{6}N + \frac{307}{6}
       $$
-    Annotations: ''
+    Annotations: Issues:<div>- When tired, I mix up the dependent and independent
+      variables.</div><div><br></div><div>Thoughts:</div><div>This might work better
+      if I can short-circuit some of the steps. This doesn't mean doing the work in
+      my head, or skipping verification; this means gaining facility through practice.
+      E.g., instead of \[y = \frac{y_1 - y_0}{x_1 - x_0}(x - x_0) + y_0\] and then
+      substituting \(y_1 = 80\), \(y_0 = 70\), \(x_1 = 173\), \(x_0 = 113\), I might
+      through practice go with \[m = \frac{80-70}{173-113} = \frac{10}{60} = \frac{1}{6}\],
+      \[b = \frac{6\cdot 70 - 113}{6} = \frac{420-113}{6} = \frac{307}{6}\], \[T(N)
+      = \frac{1}{6}N + \frac{307}{6}\].</div><div><br></div><div>Fixes:</div><div>-
+      Practice.</div>
+  tags:
+  - ann:thoughts
+  - ann:trouble
 - id: 1542309172969
   fields:
     Front: |
@@ -266,7 +283,10 @@ notes:
       $$
       196\ \text{ft}
       $$
-    Annotations: ''
+    Annotations: Issues:<div>- Sign error in constructing model.</div><div><br></div><div>Fixes:</div><div>-
+      Less work in head.</div>
+  tags:
+  - ann:trouble
 - id: 1542309173519
   useMarkdownMathExt: false
   useMarkdown: pweave
