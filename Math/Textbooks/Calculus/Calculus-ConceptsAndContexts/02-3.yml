@@ -149,3 +149,14 @@ notes:
     Back: |
       $\frac{3}{2}$
     Annotations: ''
+- id: 1546217045804
+  tags: []
+  fields:
+    Front: |
+      CCAC 02.3 09: Evaluate the limit, if it exists.
+      $$
+      \lim_{x\to 5}\frac{x^2 - 6x + 5}{x - 5}
+      $$
+    Back: |
+      $4$
+    Annotations: ''
