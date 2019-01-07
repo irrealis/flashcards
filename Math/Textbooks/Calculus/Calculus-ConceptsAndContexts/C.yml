@@ -285,3 +285,14 @@ notes:
     Back: |
       $\pi/6$, $\pi/2$, $5\pi/6$, $3\pi/2$
     Annotations: ''
+- id: 1546117776343
+  tags: []
+  fields:
+    Front: |
+      CCAC C 33: Find all values of $x$ in the interval $[0,2\pi]$ that satisfy the inequality.
+      $$
+      \sin{x} \le \frac{1}{2}
+      $$
+    Back: |
+      $0 \le x \le \pi/6$ and $5\pi/6 \le x \le 2\pi$
+    Annotations: ''
