@@ -8,3 +8,11 @@ defaults:
   - Calculus
   - Calculus-ConceptsAndContexts
   - CCAC-B-CoordinateGeometry
+notes:
+- id: 1545610725182
+  fields:
+    Front: |
+      CCAC B 01: Find the distance between the points $(1, 1)$ and $(4, 5)$.
+    Back: |
+      5
+    Annotations: ''
