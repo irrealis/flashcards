@@ -127,3 +127,14 @@ notes:
     Back: |
       $59$
     Annotations: ''
+- id: 1546217045340
+  tags: []
+  fields:
+    Front: |
+      CCAC 02.3 05: Evaluate the limit, and justify each step by indicating the appropriate Limit Law(s).
+      $$
+      \lim_{x\to 8}(1 + \sqrt[3]{x})(2 - 6x^2 + x^3)
+      $$
+    Back: |
+      $390$
+    Annotations: ''
