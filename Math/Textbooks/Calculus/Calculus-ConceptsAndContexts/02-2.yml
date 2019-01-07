@@ -96,3 +96,14 @@ notes:
     Back: |
       $\frac{1}{4}$
     Annotations: ''
+- id: 1546217035811
+  tags: []
+  fields:
+    Front: |
+      CCAC 02.2 23: Use a table of values to estimate the value of the limit. If you have a graphing device, use it to confirm your result graphically.
+      $$
+      \lim_{x\to 1}\frac{x^6 - 1}{x^{10} - 1}
+      $$
+    Back: |
+      $\frac{3}{5}$
+    Annotations: ''
