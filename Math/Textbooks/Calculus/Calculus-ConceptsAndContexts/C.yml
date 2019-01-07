@@ -296,3 +296,16 @@ notes:
     Back: |
       $0 \le x \le \pi/6$ and $5\pi/6 \le x \le 2\pi$
     Annotations: ''
+- id: 1546117776579
+  tags: []
+  fields:
+    Front: |
+      CCAC C 35: Find all values of $x$ in the interval $[0,2\pi]$ that satisfy the inequality.
+      $$
+      -1 < \tan{x} < 1
+      $$
+    Back: |
+      $0 \le x < \pi/4$
+      $3\pi/4 < x < 5\pi/4$
+      $7\pi/4 < x \le 2\pi$
+    Annotations: ''
