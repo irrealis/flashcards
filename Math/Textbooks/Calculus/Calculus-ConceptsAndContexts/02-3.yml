@@ -138,3 +138,14 @@ notes:
     Back: |
       $390$
     Annotations: ''
+- id: 1546217045546
+  tags: []
+  fields:
+    Front: |
+      CCAC 02.3 07: Evaluate the limit, and justify each step by indicating the appropriate Limit Law(s).
+      $$
+      \lim_{x\to 2}\sqrt{\frac{2x^2 + 1}{3x - 2}}
+      $$
+    Back: |
+      $\frac{3}{2}$
+    Annotations: ''
