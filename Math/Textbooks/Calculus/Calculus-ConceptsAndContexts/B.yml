@@ -119,3 +119,11 @@ notes:
     Back: |
       $y = 3x - 3$
     Annotations: ''
+- id: 1545610727143
+  fields:
+    Front: |
+      CCAC B 19: Find an equation of the line that satisfies the given conditions.
+      Through $(4,5)$, parallel to the $x$-axis.
+    Back: |
+      $y = 5$
+    Annotations: ''
