@@ -57,3 +57,33 @@ notes:
       )
       ```
     Annotations: ''
+- id: 1545610726235
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC B 09: Sketch the graph of the equation $xy=0$.
+    Back: |
+      ```{python echo = False}
+      import sympy as sy
+      import matplotlib.pyplot as plt
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      t = sy.symbols('t')
+      p = sy.plotting.plot_parametric(
+        (0, t, (t, -2, 4)),
+        (t, 0, (t, -2, 4)),
+        xlim = (-2, 4), ylim = (-2, 2),
+        xlabel = '$x$', ylabel = '$y$',
+        show = False,
+      )
+      if hasattr(p, '_backend'):
+        p._backend.close()
+      p._backend = p.backend(p)
+      fg, ax = p._backend.fig, p._backend.ax
+
+      ax.text(0.5, 0.5, '$x=0$ or $y=0$')
+      p._backend.show()
+      ```
+    Annotations: ''
