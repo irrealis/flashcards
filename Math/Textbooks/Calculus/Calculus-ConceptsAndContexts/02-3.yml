@@ -160,3 +160,14 @@ notes:
     Back: |
       $4$
     Annotations: ''
+- id: 1546217045998
+  tags: []
+  fields:
+    Front: |
+      CCAC 02.3 11: Evaluate the limit, if it exists.
+      $$
+      \lim_{x\to 5}\frac{x^2 - 5x + 6}{x - 5}
+      $$
+    Back: |
+      Does not exist.
+    Annotations: ''
