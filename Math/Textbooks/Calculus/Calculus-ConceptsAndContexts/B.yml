@@ -390,3 +390,11 @@ notes:
     Back: |
       ...
     Annotations: ''
+- id: 1545612591923
+  fields:
+    Front: |
+      CCAC B 45: Find an equation of the perpendicular bisector of the line segment joining the points $A(1,4)$ and $B(7,-2)$.
+    Back: |
+      $y = x - 3$
+    Annotations: ''
+  tags: []
