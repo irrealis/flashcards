@@ -338,3 +338,20 @@ notes:
       $[1.3, 1.7]$
     Annotations: ''
   tags: []
+- id: 1545601280307
+  fields:
+    Front: |
+      CCAC A 41: Solve the inequality $a(bx-c)\ge bc$, assuming that $a$, $b$, and $c$ are positive constants.
+    Back: |
+      $x \ge (a + b)c/(ab)$
+    Annotations: ''
+  tags: []
+- id: 1545601280437
+  tags:
+  - ToDo
+  fields:
+    Front: |
+      CCAC A 43: Prove that $|ab|=|a||b|$. (Hint: use equation 3.1.)
+    Back: |
+      ...
+    Annotations: ''
