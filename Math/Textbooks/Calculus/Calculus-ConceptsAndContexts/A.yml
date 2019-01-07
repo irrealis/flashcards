@@ -238,3 +238,31 @@ notes:
       ```
     Annotations: ''
   tags: []
+- id: 1545601279207
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC A 25: Solve the inequality $\frac{1}{x} < 4$ in terms of intervals, and illustrate the solution set on the real nuumber line.
+    Back: |
+      $(-\infty, 0) \cup (\frac{1}{4}, \infty)$
+      ```{python echo = False}
+      import matplotlib.pyplot as plt
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      fig = plt.figure(num = 1, figsize = (4, 0.5))
+      ax = plt.axes(frameon = False)
+      plt.xlim(-1.25, 1.25)
+      ax.axes.get_yaxis().set_visible(False)
+      ax.set_xticks([0, 1/4])
+      ax.set_xticks([0, 1/4])
+      ax.set_xticklabels(['$0$', '$1/4$'])
+      plt.plot((-1, 0), (0, 0), color = 'k')
+      ax.arrow(1/4, 0, 3/4, 0, head_length = 0.07, head_width = 0.015, color = 'k', linewidth = 1.1)
+      ax.plot(0, 0, 'ko', markerfacecolor = 'white', markersize = 4)
+      ax.plot(1/4, 0, 'ko', markerfacecolor = 'white', markersize = 4)
+      _=_
+      ```
+    Annotations: ''
+  tags: []
