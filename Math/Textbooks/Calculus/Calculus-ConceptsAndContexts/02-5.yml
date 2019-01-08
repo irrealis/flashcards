@@ -191,3 +191,13 @@ notes:
     Back: |
       $-\infty$
     Annotations: ''
+- id: 1546904339661
+  fields:
+    Front: |
+      CCAC 02.5 23: Find the limit.
+      $$
+      \lim_{x \to \infty} \frac{x^3 + 5x}{2x^3 - x^2 + 4}
+      $$
+    Back: |
+      $\frac{1}{2}$
+    Annotations: ''
