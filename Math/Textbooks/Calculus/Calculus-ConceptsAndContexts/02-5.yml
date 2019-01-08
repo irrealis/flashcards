@@ -121,3 +121,33 @@ notes:
     Annotations: ''
     tags:
     - requiresCoding
+- id: 1546901625589
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 02.5 13: Use a graph to estimate all the vertical and horizontal asymptotes of the curve
+      $$
+      y = \frac{x^3}{x^3 - 2x + 1}
+      $$
+      by evaluating the function $f(x) = x^2/2^x$ for $x=0$, $1$, $2$, $3$, $4$, $5$, $6$, $7$, $8$, $9$, $10$, $20$, $50$, and $100$. Then use a graph of $f$ to support your guess.
+    Back: |
+      $x \approx -1.62$, $x \approx 0.62$, $x = 1$, $y = 1$;
+      ```{python echo = False}
+      import matplotlib.pyplot as plt
+      import sympy as sy
+
+      import math
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      x = sy.symbols('x')
+      p = sy.plot(
+        ((x**3)/(x**3 - 2*x + 1), (x, -6, 6)),
+        xlim = (-6, 6), ylim = (-4, 4),
+        xlabel = '$x$', ylabel = '$y$',
+      )
+      ```
+    Annotations: ''
+    tags:
+    - requiresCoding
