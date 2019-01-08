@@ -191,3 +191,13 @@ notes:
     Back: |
       $(-\infty, \infty)$
     Annotations: ''
+- id: 1546887073298
+  fields:
+    Front: |
+      CCAC 02.4 23: Explain, using CCAC 2.4 Theorems 4, 5, 7, and 9, why the function is continuous at every number in its domain. State the domain.
+      $$
+      G(t) = \ln(t^4 - 1)
+      $$
+    Back: |
+      $(-\infty, -1) \cup (1, \infty)$
+    Annotations: ''
