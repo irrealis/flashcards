@@ -272,3 +272,15 @@ notes:
       6a - 4
       $$
     Annotations: ''
+- id: 1546912648353
+  fields:
+    Front: |
+      CCAC 02.6 29: Find $f'(a)$ for the following function.
+      $$
+      f(t) = \frac{2t + 1}{t + 3}
+      $$
+    Back: |
+      $$
+      \frac{5}{(a + 3)^2}
+      $$
+    Annotations: ''
