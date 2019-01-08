@@ -204,3 +204,13 @@ notes:
       -24 ft/s
     Annotations: ''
   tags: []
+- id: 1546912647822
+  fields:
+    Front: >
+      CCAC 02.6 15: The displacement (in meters) of a particle moving in a straight
+      line is given by the equation of motion $s = 1/t^2$, where $t$ is measured in
+      seconds. Find the velocity of the particle at times $t=a$, $t=1$, $t=2$, and
+      $t=3$.
+    Back: |
+      $-2/a^3$ m/s; $-2$ m/s; $-\frac{1}{4}$ m/s; $-\frac{2}{27}$ m/s.
+    Annotations: ''
