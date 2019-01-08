@@ -316,3 +316,13 @@ notes:
     Back: |
       $f(x) = 2^x$, $a = 5$.
     Annotations: ''
+- id: 1546912648797
+  fields:
+    Front: |
+      CCAC 02.6 37: The limit below represents the derivative of some function $f$ at some number $a$. State such an $f$ and $a$.
+      $$
+      \lim_{h \to 0} \frac{\cos(\pi + h) + 1}{h}
+      $$
+    Back: |
+      $f(x) = \cos x$, $a = \pi$ or $f(x) = \cos(\pi + x)$, $a = 0$.
+    Annotations: ''
