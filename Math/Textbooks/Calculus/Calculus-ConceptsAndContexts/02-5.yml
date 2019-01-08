@@ -322,3 +322,19 @@ notes:
     Annotations: ''
   tags:
   - requiresCoding
+- id: 1546904342396
+  fields:
+    Front: |
+      CCAC 02.5 47: Find a formula for a function $f$ that satisfies the following conditions:
+      $$
+      \lim_{x \to \pm \infty} f(x) = 0, \\
+      \lim_{x \to 0} f(x) = -\infty, \\
+      f(2) = 0,\\
+      \lim_{x \to 3^-} f(x) = \infty, \\
+      \lim_{x \to 3^+} f(x) = -\infty. \\
+      $$
+    Back: |
+      $$
+      f(x) = \frac{2-x}{x^2(x - 3)}
+      $$
+    Annotations: ''
