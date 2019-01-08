@@ -427,3 +427,19 @@ notes:
       (b) When the 800th ounce of gold is produced, the cost of production is $17/oz.
       (c) Decrease in the short term; increase in the long term.
     Annotations: ''
+- id: 1546914715002
+  fields:
+    Front: |
+      CCAC 02.6 49: Let $T(t)$ be the temperature (in $^\circ$F) in Baltimore $t$ hours after midnight on Sept. 26, 2007. The table shows values of this function recorded every two hours. What is the meaning of $T'(10)$? Estimate its value.
+      $$
+      \begin{array}{|c|c|c|c|c|c|c|c|c|}
+      \hline
+      t & 0 & 2 & 4 & 6 & 8 & 10 & 12 & 14 \\
+      \hline
+      T & 68 & 65 & 63 & 63 & 65 & 76 & 85 & 91 \\
+      \hline
+      \end{array}
+      $$
+    Back: |
+      $5^\circ$F/h.
+    Annotations: ''
