@@ -20,3 +20,13 @@ notes:
     Back: |
       As $x$ approaches $2$, $f(x)$ becomes large.
     Annotations: ''
+- id: 1546901621268
+  fields:
+    Front: |
+      CCAC 02.5 01b: Explain in your own words the meaning of the following:
+      $$
+      \lim_{x \to 1^+} f(x) = -\infty
+      $$
+    Back: |
+      As $x$ approaches $1$ from the right, $f(x)$ becomes large negative.
+    Annotations: ''
