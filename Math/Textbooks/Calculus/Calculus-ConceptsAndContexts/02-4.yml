@@ -125,3 +125,49 @@ notes:
       p._backend.plt.show()
       ```
     Annotations: ''
+- id: 1546886193504
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 02.4 17: Explain why the function is discontinuous at the given number $a$. Sketch the graph of the function.
+      $$
+      a = 0, \\
+      f(x) =
+      \begin{cases}
+        \cos x &\text{if $x < 0$} \\
+        0 &\text{if $x = 0$} \\
+        1 - x^2 &\text{if $0 < x$} \\
+      \end{cases}
+      $$
+    Back: |
+      ```{python echo = False}
+      import matplotlib.pyplot as plt
+      import sympy as sy
+
+      import math
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      x = sy.symbols('x')
+      p = sy.plot(
+        (sy.cos(x), (x, -4, 0)),
+        (1 - x**2, (x, 0, 4)),
+        xlabel = '$x$', ylabel = '$y$',
+        show = False,
+      )
+
+      if hasattr(p, '_backend'): p._backend.close()
+      p._backend = p.backend(p)
+      fg, ax = p._backend.fig, p._backend.ax
+      p._backend.process_series()
+      ax.plot(0, 1, 'ko', markerfacecolor = 'white', markersize = 5)
+      ax.plot(0, 0, 'ko', markersize = 5)
+      ax.set_xlim(-4, 4)
+      ax.set_ylim(-2, 2)
+      ax.set_xticks([-math.pi, 0, 1])
+      ax.set_xticklabels(['$\pi$', 0, 1])
+      ax.set_yticks([0, 1])
+      p._backend.plt.show()
+      ```
+    Annotations: ''
