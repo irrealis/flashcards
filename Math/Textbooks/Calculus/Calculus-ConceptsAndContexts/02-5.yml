@@ -392,3 +392,15 @@ notes:
     Back: |
       $5$
     Annotations: ''
+- id: 1546904343948
+  fields:
+    Front: |
+      CCAC 02.5 55:
+      a. A tank contains 5000 L of pure water. Brine that contains 30 g of salt per liter of water is pumped into the tank at a rate of 25 L/min. Show that the concentration of salter after $t$ minutes (in grams per liter) is
+      $$
+      C(t) = \frac{30t}{200 + t}.
+      $$
+      b. What happens to the concentration as $t \to \infty$?
+    Back: |
+      b. It approaches the concentration of the brine being pumped into the tank.
+    Annotations: ''
