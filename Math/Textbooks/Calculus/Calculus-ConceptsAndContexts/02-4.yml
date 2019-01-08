@@ -359,3 +359,12 @@ notes:
       $\lim_{x \to \pi-}[[\sin x]] = 0 \ne -1 = \lim_{x \to \pi+}[[\sin x]]$. Since
       the lower and upper limits don't match, the discontinuity is not removable.
     Annotations: ''
+- id: 1546890177471
+  fields:
+    Front: |
+      CCAC 02.4 45:
+      a. Prove that the equation $\cos x = x^3$ has at least one real root.
+      b. Use your calculator to find an interval of length $0.01$ that contains a root.
+    Back: |
+      b. $(0.86, 0.87)$
+    Annotations: ''
