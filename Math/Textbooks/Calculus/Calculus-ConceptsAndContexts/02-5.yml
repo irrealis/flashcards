@@ -9,3 +9,14 @@ defaults:
   - CCAC-02-LimitsAndDerivatives
   - CCAC-02.5-LimitsInvolvingInfinity
   markdownTabLength: 2
+notes:
+- id: 1546901621046
+  fields:
+    Front: |
+      CCAC 02.5 01a: Explain in your own words the meaning of the following:
+      $$
+      \lim_{x \to 2} f(x) = \infty
+      $$
+    Back: |
+      As $x$ approaches $2$, $f(x)$ becomes large.
+    Annotations: ''
