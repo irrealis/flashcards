@@ -348,3 +348,14 @@ notes:
       g(x) = x^2 + x
       $$
     Annotations: ''
+- id: 1546889675872
+  fields:
+    Front: |
+      CCAC 02.4 37c: Does the following function $f$ have a removable discontinuity at $a$? If the discontinuity is removable, find a function $g$ that agrees with $f$ for $x \ne a$ and is continuous at $a$.
+      $$
+      f(x) = [[\sin x]],\ a = \pi
+      $$
+    Back: >
+      $\lim_{x \to \pi-}[[\sin x]] = 0 \ne -1 = \lim_{x \to \pi+}[[\sin x]]$. Since
+      the lower and upper limits don't match, the discontinuity is not removable.
+    Annotations: ''
