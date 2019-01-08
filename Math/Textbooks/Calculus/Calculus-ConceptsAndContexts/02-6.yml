@@ -9,3 +9,20 @@ defaults:
   - CCAC-02-LimitsAndDerivatives
   - CCAC-02.6-DerivativesAndRatesOfChange
   markdownTabLength: 2
+notes:
+- id: 1546912638046
+  fields:
+    Front: |
+      CCAC 02.6 01: A curve has equation $y = f(x)$.
+      a. Write an expression for the slope of the secant line through the points $P(3, f(3))$ and $Q(x, f(x))$.
+      b. Write an expression for the slope of the tangent line at $P$.
+    Back: |
+      a.
+      $$
+      \frac{f(x) - f(3)}{x - 3}
+      $$
+      b.
+      $$
+      \lim_{x \to 3} \frac{f(x) - f(3)}{x - 3}
+      $$
+    Annotations: ''
