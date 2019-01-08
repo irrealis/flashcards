@@ -201,3 +201,33 @@ notes:
     Back: |
       $(-\infty, -1) \cup (1, \infty)$
     Annotations: ''
+- id: 1546887501171
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 02.4 25: Locate the discontinuities of the function, and illustrate by graphing.
+      $$
+      y = \frac{1}{1 + e^{1/x}}
+      $$
+    Back: |
+      $x = 0$;
+      ```{python echo = False}
+      import matplotlib.pyplot as plt
+      import sympy as sy
+
+      import math
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      x = sy.symbols('x')
+      p = sy.plot(
+        1/(1 + sy.exp(1/x)),
+        xlabel = '$x$', ylabel = '$y$',
+        xlim = (-3, 3),
+        ylim = (-2, 2)
+      )
+      ```
+    Annotations: ''
+  tags:
+  - requiresCoding
