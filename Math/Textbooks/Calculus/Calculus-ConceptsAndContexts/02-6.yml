@@ -414,3 +414,16 @@ notes:
       (b) $20/unit.
     Annotations: ''
   tags: []
+- id: 1546914714796
+  useMarkdownMathExt: false
+  fields:
+    Front: |
+      CCAC 02.6 47: The cost of producing \\(x\\) ounces of gold from a new gold mine in \\(C = f(x)\\) dollars.
+      (a) What is the meaning of derivative \\(f'(x)\\)? What are its units?
+      (b) What does the statement \\(f'(800) = 17\\) mean?
+      (c) Do you think the values of \\(f'(x)\\) will increase or decrease in the short term? What about the long term? Explain.
+    Back: |
+      (a) The rate at which the cost is changing per ounce of gold produced; dollars per ounce.
+      (b) When the 800th ounce of gold is produced, the cost of production is $17/oz.
+      (c) Decrease in the short term; increase in the long term.
+    Annotations: ''
