@@ -79,3 +79,50 @@ notes:
     Back: |
       $6$.
     Annotations: ''
+- id: 1546886026446
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 02.4 15: Explain why the function is discontinuous at the given number $a$. Sketch the graph of the function.
+      $$
+      a = 0, \\
+      f(x) =
+      \begin{cases}
+        e^x &\text{if $x<0$} \\
+        x^2 &\text{if $0 \leq x$} \\
+      \end{cases}
+      $$
+    Back: |
+      ```{python echo = False}
+      import matplotlib.pyplot as plt
+      import sympy as sy
+
+      import math
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      x = sy.symbols('x')
+      p = sy.plot(
+        (sy.exp(x), (x, -4, 0)),
+        (x**2, (x, 0, 4)),
+        xlabel = '$x$', ylabel = '$y$',
+        show = False,
+      )
+
+      if hasattr(p, '_backend'): p._backend.close()
+      p._backend = p.backend(p)
+      fg, ax = p._backend.fig, p._backend.ax
+      p._backend.process_series()
+      ax.plot(0, 1, 'ko', markerfacecolor = 'white', markersize = 5)
+      ax.plot(0, 0, 'ko', markersize = 5)
+      ax.text(-1.5, 0.5, '$y = e^x$')
+      ax.text(1.0, 0.5, '$y = x^2$')
+      ax.set_xlim(-3, 3)
+      ax.set_ylim(-1, 3)
+      ax.set_xticks([0])
+      ax.set_yticks([0, 1])
+      p._backend.plt.show()
+      ```
+    Annotations: ''
+  tags: []
