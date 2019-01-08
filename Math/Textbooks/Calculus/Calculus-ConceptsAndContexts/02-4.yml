@@ -308,3 +308,19 @@ notes:
       p._backend.plt.show()
       ```
     Annotations: ''
+- id: 1546888849871
+  fields:
+    Front: |
+      CCAC 02.4 35: For what value of the contant $c$ is the function $f$ continuous on $(-\infty, \infty)$?
+      $$
+      f(x) =
+      \begin{cases}
+        cx^2 + 2x & \text{if $x < 2$} \\
+        x^3 - cx & \text{if $2 \leq x$} \\
+      \end{cases}
+      $$
+    Back: |
+      $$
+      \frac{2}{3}
+      $$
+    Annotations: ''
