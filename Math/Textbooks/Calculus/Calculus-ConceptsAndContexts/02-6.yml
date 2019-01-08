@@ -306,3 +306,13 @@ notes:
     Back: |
       $f(x) = x^{10}$, $a = 1$ or $f(x) = (1 + x)^{10}$, $a = 0$.
     Annotations: ''
+- id: 1546912648671
+  fields:
+    Front: |
+      CCAC 02.6 35: The limit below represents the derivative of some function $f$ at some number $a$. State such an $f$ and $a$.
+      $$
+      \lim_{x \to 5} \frac{2^x - 32}{x - 5}
+      $$
+    Back: |
+      $f(x) = 2^x$, $a = 5$.
+    Annotations: ''
