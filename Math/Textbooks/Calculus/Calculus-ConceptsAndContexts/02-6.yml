@@ -326,3 +326,13 @@ notes:
     Back: |
       $f(x) = \cos x$, $a = \pi$ or $f(x) = \cos(\pi + x)$, $a = 0$.
     Annotations: ''
+- id: 1546912648920
+  fields:
+    Front: |
+      CCAC 02.6 39: A particle moves along a straight line with equation of motion $s = f(t)$, where $s$ is measured in meters and $t$ in seconds. Find the velocity and the speed when $t = 5$.
+      $$
+      f(t) = 100 + 50t - 4.9t^2
+      $$
+    Back: |
+      1 m/s; 1 m/s.
+    Annotations: ''
