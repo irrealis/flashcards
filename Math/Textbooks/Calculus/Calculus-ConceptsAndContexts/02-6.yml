@@ -443,3 +443,17 @@ notes:
     Back: |
       $5^\circ$F/h.
     Annotations: ''
+- id: 1546915008871
+  fields:
+    Front: |
+      CCAC 02.6 53: Determine whether $f'(0)$ exists.
+      $$
+      f(x) =
+      \begin{cases}
+        x\sin\frac{1}{x} & \text{if $x \ne 0$)} \\
+        0 & \text{if $x = 0$)} \\
+      \end{cases}
+      $$
+    Back: |
+      Does not exist.
+    Annotations: ''
