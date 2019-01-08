@@ -92,3 +92,36 @@ notes:
       $$
     Annotations: ''
   tags: []
+- id: 1546912638575
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 02.6 09:
+      a. Find the slope of the tangent to the curve $y = 3 + 4x^2 - 2x^3$ at the point where $x = a$.
+      b. Find equations of the tangent lines at the points $(1,5)$ and $(2,3)$.
+      c. Graph the curve and both tangents on a common screen.
+    Back: |
+      a. $8a - 6a^2$
+      b. $y = 2x + 3$, $y = -8x + 19$
+      c.
+      ```{python echo = False}
+      import matplotlib.pyplot as plt
+      import sympy as sy
+
+      import math
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      x = sy.symbols('x')
+      p = sy.plot(
+        3 + 4*x**2 - 2*x**3,
+        2*x + 3,
+        -8*x + 19,
+        xlim = (-2, 4), ylim = (-3, 10),
+        xlabel = '$x$', ylabel = '$y$',
+      )
+      ```
+    Annotations: ''
+  tags:
+  - requiresCoding
