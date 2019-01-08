@@ -395,3 +395,22 @@ notes:
       (c) 17 million/year.
     Annotations: ''
   tags: []
+- id: 1546914216271
+  useMarkdownMathExt: false
+  fields:
+    Front: >
+      CCAC 02.6 45: The cost (in dollars) of producing \\(x\\) units of a certain
+      commodity is \\(C(x) = 5000 + 10x + 0.05x^2\\).
+
+      (a) Find the average rate of change of \\(C\\) with respect to \\(x\\) when
+      the production level is changed (i) from \\(x = 100\\) to \\(x = 105\\), and
+      (ii) from \\(x = 100\\) to \\(x = 101\\).
+
+      (b) Find the instantaneous rate of change of \\(C\\) with respect to \\(x\\)
+      when \\(x = 100\\). (This is called the _marginal cost_. Its significance will
+      be explained in CCAC 3.8.)
+    Back: |
+      (a) (i) $20.25/unit; (ii) $20.05/unit.
+      (b) $20/unit.
+    Annotations: ''
+  tags: []
