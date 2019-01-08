@@ -231,3 +231,13 @@ notes:
     Back: |
       $0$
     Annotations: ''
+- id: 1546904340496
+  fields:
+    Front: |
+      CCAC 02.5 31: Find the limit.
+      $$
+      \lim_{x \to \infty} \cos x
+      $$
+    Back: |
+      Does not exist.
+    Annotations: ''
