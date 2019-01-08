@@ -64,3 +64,17 @@ notes:
     Annotations: ''
   tags:
   - requiresCoding
+- id: 1546912638347
+  fields:
+    Front: |
+      CCAC 02.6 05: Find an equation of the tangent line to the curve at the given point.
+      $$
+      y = 4x - 3x^2, \\
+      (2, -4)
+      $$
+    Back: |
+      $$
+      y = -8x + 12
+      $$
+    Annotations: ''
+  tags: []
