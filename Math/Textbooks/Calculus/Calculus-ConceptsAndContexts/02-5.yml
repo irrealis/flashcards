@@ -201,3 +201,13 @@ notes:
     Back: |
       $\frac{1}{2}$
     Annotations: ''
+- id: 1546904339865
+  fields:
+    Front: |
+      CCAC 02.5 25: Find the limit.
+      $$
+      \lim_{u \to \infty} \frac{4u^4 + 5}{(u^2 - 2)(2u^2 - 1)}
+      $$
+    Back: |
+      $2$
+    Annotations: ''
