@@ -161,3 +161,13 @@ notes:
     Back: |
       $\infty$
     Annotations: ''
+- id: 1546904338982
+  fields:
+    Front: |
+      CCAC 02.5 17: Find the limit.
+      $$
+      \lim_{x \to 2^+} e^{3/(2 - x)}
+      $$
+    Back: |
+      $0$
+    Annotations: ''
