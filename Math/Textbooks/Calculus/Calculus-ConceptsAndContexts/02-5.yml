@@ -30,3 +30,13 @@ notes:
     Back: |
       As $x$ approaches $1$ from the right, $f(x)$ becomes large negative.
     Annotations: ''
+- id: 1546901621542
+  fields:
+    Front: |
+      CCAC 02.5 01c: Explain in your own words the meaning of the following:
+      $$
+      \lim_{x \to \infty} f(x) = 5
+      $$
+    Back: |
+      As $x$ becomes large, $f(x)$ approaches $5$.
+    Annotations: ''
