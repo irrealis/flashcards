@@ -40,3 +40,13 @@ notes:
     Back: |
       As $x$ becomes large, $f(x)$ approaches $5$.
     Annotations: ''
+- id: 1546901621780
+  fields:
+    Front: |
+      CCAC 02.5 01d: Explain in your own words the meaning of the following:
+      $$
+      \lim_{x \to -\infty} f(x) = 3
+      $$
+    Back: |
+      As $x$ becomes large negative, $f(x)$ approaches $3$.
+    Annotations: ''
