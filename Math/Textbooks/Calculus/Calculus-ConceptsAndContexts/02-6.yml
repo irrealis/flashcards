@@ -336,3 +336,40 @@ notes:
     Back: |
       1 m/s; 1 m/s.
     Annotations: ''
+- id: 1546912649046
+  useMarkdown: pweave
+  fields:
+    Front: >
+      CCAC 02.6 41: A warm can of soda is placed in a cold refrigerator. Sketch the
+      graph of the temperature of the soda as a function of time. Is the initial rate
+      of change of temperature greater of less than the rate of change after an hour?
+    Back: |
+      Greater (in magnitude).
+      ```{python echo = False}
+      import matplotlib.pyplot as plt
+      import sympy as sy
+
+      import math
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      x = sy.symbols('x')
+      p = sy.plot(
+        34*sy.exp(-x) + 38,
+        xlabel = 'Time (in hours)', ylabel = 'Temperature (in $^\circ$F)',
+        show = False,
+      )
+
+      if hasattr(p, '_backend'): p._backend.close()
+      p._backend = p.backend(p)
+      fg, ax = p._backend.fig, p._backend.ax
+      p._backend.process_series()
+      ax.plot((0, 3), (38, 38), color = 'k', linestyle = '--')
+      ax.set_xlim(-1, 3)
+      ax.set_ylim(-10, 80)
+      ax.set_xticks([0, 1, 2])
+      ax.set_yticks([0, 38, 72])
+      p._backend.plt.show()
+      ```
+    Annotations: ''
