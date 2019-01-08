@@ -260,3 +260,15 @@ notes:
     Annotations: ''
   tags:
   - requiresCoding
+- id: 1546912648245
+  fields:
+    Front: |
+      CCAC 02.6 27: Find $f'(a)$ for the following function.
+      $$
+      f(x) = 3x^2 - 4x + 1
+      $$
+    Back: |
+      $$
+      6a - 4
+      $$
+    Annotations: ''
