@@ -91,3 +91,33 @@ notes:
       p._backend.plt.show()
       ```
     Annotations: ''
+- id: 1546901622028
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 02.5 11: Guess the value of the limit
+      $$
+      \lim_{x \to \infty} \frac{x^2}{2^x}
+      $$
+      by evaluating the function $f(x) = x^2/2^x$ for $x=0$, $1$, $2$, $3$, $4$, $5$, $6$, $7$, $8$, $9$, $10$, $20$, $50$, and $100$. Then use a graph of $f$ to support your guess.
+    Back: |
+      0.
+      ```{python echo = False}
+      import matplotlib.pyplot as plt
+      import sympy as sy
+
+      import math
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      x = sy.symbols('x')
+      p = sy.plot(
+        ((x**2)/(2**x), (x, -150, 150)),
+        xlim = (-150, 150), ylim = (-1, 10),
+        xlabel = '$x$', ylabel = '$y$',
+      )
+      ```
+    Annotations: ''
+    tags:
+    - requiresCoding
