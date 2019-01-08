@@ -382,3 +382,13 @@ notes:
     Back: |
       $\pm\infty$
     Annotations: ''
+- id: 1546904343696
+  fields:
+    Front: |
+      CCAC 02.5 53: Find $\lim_{x \to \infty} f(x)$ if, for all $x > 1$,
+      $$
+      \frac{10e^x - 21}{2e^x} < f(x) < \frac{5\sqrt{x}}{\sqrt{x - 1}}.
+      $$
+    Back: |
+      $5$
+    Annotations: ''
