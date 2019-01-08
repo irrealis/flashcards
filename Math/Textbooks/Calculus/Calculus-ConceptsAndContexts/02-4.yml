@@ -171,3 +171,13 @@ notes:
       p._backend.plt.show()
       ```
     Annotations: ''
+- id: 1546887072996
+  fields:
+    Front: |
+      CCAC 02.4 19: Explain, using CCAC 2.4 Theorems 4, 5, 7, and 9, why the function is continuous at every number in its domain. State the domain.
+      $$
+      R(x) = x^2 + \sqrt{2x - 1}
+      $$
+    Back: |
+      $\left[\frac{1}{2}, \infty\right)$
+    Annotations: ''
