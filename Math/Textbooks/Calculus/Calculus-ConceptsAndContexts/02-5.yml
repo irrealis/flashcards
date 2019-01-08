@@ -309,3 +309,16 @@ notes:
     Annotations: ''
   tags:
   - requiresCoding
+- id: 1546904342150
+  fields:
+    Front: |
+      CCAC 02.5 45: Estimate the horizontal asymptote of the function
+      $$
+      f(x) = \frac{3x^3 + 500x^2}{x^3 + 500x^2 + 100x + 2000}
+      $$
+      by graphing $f$ for $-10 \leq x \leq 10$. Then calculate the equation of the asymptote by evaluating the limit. How do you explain the discrepancy?
+    Back: |
+      $y = 3$
+    Annotations: ''
+  tags:
+  - requiresCoding
