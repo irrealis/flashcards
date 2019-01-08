@@ -336,3 +336,15 @@ notes:
       g(x) = x^3 + x^2 + x + 1
       $$
     Annotations: ''
+- id: 1546889675645
+  fields:
+    Front: |
+      CCAC 02.4 37b: Does the following function $f$ have a removable discontinuity at $a$? If the discontinuity is removable, find a function $g$ that agrees with $f$ for $x \ne a$ and is continuous at $a$.
+      $$
+      f(x) = \frac{x^3 - x^2 - 2x}{x - 2},\ a = 2
+      $$
+    Back: |
+      $$
+      g(x) = x^2 + x
+      $$
+    Annotations: ''
