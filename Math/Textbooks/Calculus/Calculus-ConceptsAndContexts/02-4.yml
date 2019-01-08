@@ -231,3 +231,15 @@ notes:
     Annotations: ''
   tags:
   - requiresCoding
+- id: 1546887872946
+  fields:
+    Front: |
+      CCAC 02.4 27: Use continuity to evaluate the limit.
+      $$
+      \lim_{x\to 4}\frac{5 + \sqrt{x}}{\sqrt{5 + x}}
+      $$
+    Back: |
+      $$
+      \frac{7}{3}
+      $$
+    Annotations: ''
