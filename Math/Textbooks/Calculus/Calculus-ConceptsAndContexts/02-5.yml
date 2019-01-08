@@ -282,3 +282,14 @@ notes:
       $y = 2$; $x = -2$, $x = 1$
     Annotations: ''
   tags: []
+- id: 1546904341658
+  fields:
+    Front: |
+      CCAC 02.5 41: Find the horizontal and vertical asymptotes of the curve. If you have a graphing device, check your work by graphing the curve and estimating the asymptotes.
+      $$
+      y = \frac{x^3 - x}{x^2 - 6x + 5}
+      $$
+    Back: |
+      $x = 5$
+    Annotations: ''
+  tags: []
