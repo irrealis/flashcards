@@ -222,3 +222,11 @@ notes:
       $f(2) = 3$; $f'(2) = 4$.
     Annotations: ''
   tags: []
+- id: 1546912648046
+  fields:
+    Front: >
+      CCAC 02.6 23: If $f(x) = 3x^2 - x^3$, find $f'(1)$ and use it to find an equation
+      of the tangent line to the curve $y = 3x^2 - x^3$ at the point $(1, 2)$.
+    Back: |
+      $y = 3x - 1$
+    Annotations: ''
