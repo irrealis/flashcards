@@ -151,3 +151,13 @@ notes:
     Annotations: ''
     tags:
     - requiresCoding
+- id: 1546904338746
+  fields:
+    Front: |
+      CCAC 02.5 15: Find the limit.
+      $$
+      \lim_{x \to 1} \frac{2 - x}{(x - 1)^2}
+      $$
+    Back: |
+      $\infty$
+    Annotations: ''
