@@ -324,3 +324,15 @@ notes:
       \frac{2}{3}
       $$
     Annotations: ''
+- id: 1546889675395
+  fields:
+    Front: |
+      CCAC 02.4 37a: Does the following function $f$ have a removable discontinuity at $a$? If the discontinuity is removable, find a function $g$ that agrees with $f$ for $x \ne a$ and is continuous at $a$.
+      $$
+      f(x) = \frac{x^4 - 1}{x - 1},\ a = 1
+      $$
+    Back: |
+      $$
+      g(x) = x^3 + x^2 + x + 1
+      $$
+    Annotations: ''
