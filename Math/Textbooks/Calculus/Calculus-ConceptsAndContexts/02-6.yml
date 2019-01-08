@@ -373,3 +373,25 @@ notes:
       p._backend.plt.show()
       ```
     Annotations: ''
+- id: 1546912652321
+  fields:
+    Front: |
+      CCAC 02.6 43: The number $N$ of US cellular phone subscribers (in millions) is shown in the table. (Midyear estimates are given.)
+      $$
+      \begin{array}{|c|c|c|c|c|c|c|}
+      \hline
+      t & 1996 & 1998 & 2000 & 2002 & 2004 & 2006 \\
+      \hline
+      N & 44 & 69 & 109 & 141 & 182 & 233 \\
+      \hline
+      \end{array}
+      $$
+      (a) Find the average rate of cell phone growth (i) from 2002 to 2006, (ii) from 2002 to 2004, and (iii) from 2000 to 2002. In each case, include the units.
+      (b) Estimate the instantaneous rate of growth in 2002 by taking the average of two average rates of change. What are its units?
+      (c) Estimate the instantaneous rate of growth in 2002 by measuring the slope of a tangent.
+    Back: |
+      (a) (i) 23 million/year; (ii) 20.5 million/year; (iii) 16 million/year.
+      (b) 18.25 million/year.
+      (c) 17 million/year.
+    Annotations: ''
+  tags: []
