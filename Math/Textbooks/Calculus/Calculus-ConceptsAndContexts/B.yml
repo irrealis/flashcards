@@ -401,16 +401,20 @@ notes:
 - id: 0
   skip: true
   fields:
-    Front: |
-      CCAC B 47: Suppose that $P(x,y)$ is any point on the parabola with focus $(0,p)$ and directrix $y = -p$. (See CCAC-B Figure 14.) Use the definition of a parabola to show that $x^2=4py$.
+    Front: >
+      CCAC B 47: Suppose that $P(x,y)$ is any point on the parabola with focus $(0,p)$
+      and directrix $y = -p$. (See CCAC-B Figure 14.) Use the definition of a parabola
+      to show that $x^2=4py$.
     Back: |
       ...
     Annotations: ''
 - id: 0
   skip: true
   fields:
-    Front: |
-      CCAC B 49: Suppose an ellipse has foci $(\pm c,0)$, and that the sume of the distances from any point $P(x,y)$ on the ellipse to the foci is $2a$. Show that the coordinates of $P$ satisfy CCAC-B Equation 1.
+    Front: >
+      CCAC B 49: Suppose an ellipse has foci $(\pm c,0)$, and that the sume of the
+      distances from any point $P(x,y)$ on the ellipse to the foci is $2a$. Show that
+      the coordinates of $P$ satisfy CCAC-B Equation 1.
     Back: |
       ...
     Annotations: ''
@@ -468,8 +472,14 @@ notes:
 - id: 0
   skip: true
   fields:
-    Front: |
-      CCAC B 55: Let $P(x_1,y_1)$ be a point on the ellipse $x^2/a^2 + y^2/b^2 = 1$ with foci $F_1$ and $F_2$, and let $\alpha$ and $\beta$ be the angles between the lines $PF_1$, $PF_2$ and the ellipse, as shown in the figure. Prove that $\alpha=\beta$. This explains how whispering galleries and lithotripsy work. Sound coming from one focus is reflected, and passes through the other focus. (Hint: use the formula in problem 17 on CCAC page 251 to show that $\tan\alpha
+    Front: >
+      CCAC B 55: Let $P(x_1,y_1)$ be a point on the ellipse $x^2/a^2 + y^2/b^2 = 1$
+      with foci $F_1$ and $F_2$, and let $\alpha$ and $\beta$ be the angles between
+      the lines $PF_1$, $PF_2$ and the ellipse, as shown in the figure. Prove that
+      $\alpha=\beta$. This explains how whispering galleries and lithotripsy work.
+      Sound coming from one focus is reflected, and passes through the other focus.
+      (Hint: use the formula in problem 17 on CCAC page 251 to show that $\tan\alpha
+
       = \tan\beta$.)
     Back: |
       ...
