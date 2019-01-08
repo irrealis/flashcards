@@ -379,3 +379,10 @@ notes:
     Annotations: ''
   tags:
   - requiresCoding
+- id: 1546890177831
+  fields:
+    Front: |
+      CCAC 02.4 51: Is there a number that is exactly $1$ more than its cube?
+    Back: |
+      Yes.
+    Annotations: ''
