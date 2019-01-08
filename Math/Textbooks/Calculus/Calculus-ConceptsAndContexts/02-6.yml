@@ -230,3 +230,33 @@ notes:
     Back: |
       $y = 3x - 1$
     Annotations: ''
+- id: 1546912648148
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 02.6 25:
+      (a) If $F(x) = 5x/(1 + x^2)$, find $F'(2)$ and use it to find an equation of the tangent line to the curve $y = 5x/(1 + x^2)$ at the point $(2,2)$.
+      (b) Illustrate part (a) by graphing the curve and the tangent line on the same screen.
+    Back: |
+      (a) $-\frac{3}{5}$; $y = -\frac{3}{5}x + \frac{16}{5}$.
+      (b)
+      ```{python echo = False}
+      import matplotlib.pyplot as plt
+      import sympy as sy
+
+      import math
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      x = sy.symbols('x')
+      p = sy.plot(
+        5*x/(1 + x**2),
+        (-3*x + 16)/5,
+        xlim = (-1, 6), ylim = (-2, 4),
+        xlabel = '$x$', ylabel = '$y$',
+      )
+      ```
+    Annotations: ''
+  tags:
+  - requiresCoding
