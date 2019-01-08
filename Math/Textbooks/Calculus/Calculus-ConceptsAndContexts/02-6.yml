@@ -78,3 +78,17 @@ notes:
       $$
     Annotations: ''
   tags: []
+- id: 1546912638451
+  fields:
+    Front: |
+      CCAC 02.6 07: Find an equation of the tangent line to the curve at the given point.
+      $$
+      y = \sqrt{x}, \\
+      (1, 1)
+      $$
+    Back: |
+      $$
+      y = \frac{1}{2}x + \frac{1}{2}
+      $$
+    Annotations: ''
+  tags: []
