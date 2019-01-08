@@ -211,3 +211,13 @@ notes:
     Back: |
       $2$
     Annotations: ''
+- id: 1546904340100
+  fields:
+    Front: |
+      CCAC 02.5 27: Find the limit.
+      $$
+      \lim_{x \to \infty} (\sqrt{9x^2 + x} - 3x)
+      $$
+    Back: |
+      $\frac{1}{6}$
+    Annotations: ''
