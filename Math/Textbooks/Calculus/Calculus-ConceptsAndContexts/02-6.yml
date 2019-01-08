@@ -125,3 +125,72 @@ notes:
     Annotations: ''
   tags:
   - requiresCoding
+- id: 1546912642571
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 02.6 11:
+      a. A particle starts by moving to the right along a horizontal line; the graph of its position function is shown. When is the particle moving to the right? Moving to the left? Standing still?
+      b. Draw a graph of the velocity function.
+      ```{python echo = False}
+      import matplotlib.pyplot as plt
+      import sympy as sy
+
+      import math
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      x = sy.symbols('x')
+      p = sy.plot(
+        (3*x, (x, 0, 1)),
+        (3, (x, 1, 2)),
+        (-2*x + 7, (x, 2, 3)),
+        (1, (x, 3, 4)),
+        (x - 3, (x, 4, 6)),
+        xlim = (-2, 10), ylim = (-3, 5),
+        xlabel = '$t$ (seconds)', ylabel = '$s$ (meters)',
+      )
+      ```
+    Back: |
+      a. Right: $0 < t < 1$ and $4 < t < 6$; left: $2 < t < 3$; standing still: $1 < t < 2$ and $3 < t < 4$.
+      b.
+      ```{python echo = False}
+      import matplotlib.pyplot as plt
+      import sympy as sy
+
+      import math
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      x = sy.symbols('x')
+      p = sy.plot(
+        (3, (x, 0, 1)),
+        (0, (x, 1, 2)),
+        (-2, (x, 2, 3)),
+        (0, (x, 3, 4)),
+        (1, (x, 4, 6)),
+        xlim = (-2, 10), ylim = (-4, 4),
+        xlabel = '$t$ (seconds)', ylabel = '$v$ (m/s)',
+        show = False,
+      )
+
+      if hasattr(p, '_backend'): p._backend.close()
+      p._backend = p.backend(p)
+      fg, ax = p._backend.fig, p._backend.ax
+      p._backend.process_series()
+
+      ax.plot(0, 3, 'ko', markerfacecolor = 'white', markersize = 5)
+      ax.plot(1, 3, 'ko', markerfacecolor = 'white', markersize = 5)
+      ax.plot(1, 0, 'ko', markerfacecolor = 'white', markersize = 5)
+      ax.plot(2, 0, 'ko', markerfacecolor = 'white', markersize = 5)
+      ax.plot(2, -2, 'ko', markerfacecolor = 'white', markersize = 5)
+      ax.plot(3, -2, 'ko', markerfacecolor = 'white', markersize = 5)
+      ax.plot(3, 0, 'ko', markerfacecolor = 'white', markersize = 5)
+      ax.plot(4, 0, 'ko', markerfacecolor = 'white', markersize = 5)
+      ax.plot(4, 1, 'ko', markerfacecolor = 'white', markersize = 5)
+      ax.plot(6, 1, 'ko', markerfacecolor = 'white', markersize = 5)
+      p._backend.plt.show()
+      ```
+    Annotations: ''
