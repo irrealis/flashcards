@@ -404,3 +404,16 @@ notes:
     Back: |
       b. It approaches the concentration of the brine being pumped into the tank.
     Annotations: ''
+- id: 1546904344197
+  fields:
+    Front: |
+      CCAC 02.5 57:
+      a. Show that $\lim_{x \to \infty} e^{-x/10} = 0$.
+      b. By graphing $y = e^{-x/10}$ and $y = 0.1$ on a common screen, discover how large you need to make $x$ so that $e^{-x/10} < 0.1$.
+      c. Can you solve part $b$ without using a graphing device?
+    Back: |
+      b. $x > 23.03$.
+      c. Yes, $x > 10 \ln 10$.
+    Annotations: ''
+  tags:
+  - requiresCoding
