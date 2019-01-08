@@ -281,7 +281,6 @@ notes:
     Back: |
       $y = 2$; $x = -2$, $x = 1$
     Annotations: ''
-  tags: []
 - id: 1546904341658
   fields:
     Front: |
@@ -292,7 +291,6 @@ notes:
     Back: |
       $x = 5$
     Annotations: ''
-  tags: []
 - id: 1546904341877
   fields:
     Front: |
@@ -348,7 +346,6 @@ notes:
     Back: |
       $\frac{5}{4}$
     Annotations: ''
-  tags: []
 - id: 1546904342907
   fields:
     Front: >
@@ -359,7 +356,6 @@ notes:
     Back: |
       $5$
     Annotations: ''
-  tags: []
 - id: 1546904343220
   fields:
     Front: |
