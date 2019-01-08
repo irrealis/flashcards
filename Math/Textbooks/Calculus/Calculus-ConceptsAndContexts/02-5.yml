@@ -349,3 +349,14 @@ notes:
       $\frac{5}{4}$
     Annotations: ''
   tags: []
+- id: 1546904342907
+  fields:
+    Front: >
+      CCAC 02.5 49b: A function $f$ is a ratio of quadratic functions and has a vertical
+      asymptote $x=4$ and just one $x$-intercept, $x=1$. It is known that $f$ has
+      a removable discontinuity at $x=-1$ and that $\lim_{x \to -1} f(x) = 2$. Evaluate
+      $\lim_{x \to \infty} f(x)$.
+    Back: |
+      $5$
+    Annotations: ''
+  tags: []
