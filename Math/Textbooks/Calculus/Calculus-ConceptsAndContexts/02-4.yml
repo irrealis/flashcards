@@ -181,3 +181,13 @@ notes:
     Back: |
       $\left[\frac{1}{2}, \infty\right)$
     Annotations: ''
+- id: 1546887073163
+  fields:
+    Front: |
+      CCAC 02.4 21: Explain, using CCAC 2.4 Theorems 4, 5, 7, and 9, why the function is continuous at every number in its domain. State the domain.
+      $$
+      L(t) = e^{-5t}\cos(2\pi t)
+      $$
+    Back: |
+      $(-\infty, \infty)$
+    Annotations: ''
