@@ -243,3 +243,15 @@ notes:
       \frac{7}{3}
       $$
     Annotations: ''
+- id: 1546887966796
+  fields:
+    Front: |
+      CCAC 02.4 29: Use continuity to evaluate the limit.
+      $$
+      \lim_{x\to 1}e^{x^2 - x}
+      $$
+    Back: |
+      $$
+      1
+      $$
+    Annotations: ''
