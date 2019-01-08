@@ -26,3 +26,41 @@ notes:
       \lim_{x \to 3} \frac{f(x) - f(3)}{x - 3}
       $$
     Annotations: ''
+- id: 1546912638221
+  useMarkdown: pweave
+  fields:
+    Front: >
+      CCAC 02.6 03:
+
+      a. Find the slope of the tangent line to the parabola $y = 4x - x^2$ at the
+      point $(1,3)$ using CCAC 2.6 Definition 1, and again using CCAC 2.6 Equation
+      2.
+
+      b. Find an equation of the tangent line in part (a).
+
+      c. Graph the parabola and the tangent line. As a check on your work, zoom in
+      toward the point $(1,3)$ until the parabola and the tangent line are indistinguishable.
+    Back: |
+      a. $2$
+      b. $y = 2x + 1$
+      c.
+      ```{python echo = False}
+      import matplotlib.pyplot as plt
+      import sympy as sy
+
+      import math
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      x = sy.symbols('x')
+      p = sy.plot(
+        4*x - x**2,
+        2*x + 1,
+        xlim = (-1, 5), ylim = (0, 6),
+        xlabel = '$x$', ylabel = '$y$',
+      )
+      ```
+    Annotations: ''
+  tags:
+  - requiresCoding
