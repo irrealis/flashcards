@@ -221,3 +221,13 @@ notes:
     Back: |
       $\frac{1}{6}$
     Annotations: ''
+- id: 1546904340300
+  fields:
+    Front: |
+      CCAC 02.5 29: Find the limit.
+      $$
+      \lim_{x \to \infty} e^{-x^2}
+      $$
+    Back: |
+      $0$
+    Annotations: ''
