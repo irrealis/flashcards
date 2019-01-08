@@ -271,3 +271,14 @@ notes:
     Back: |
       $\infty$
     Annotations: ''
+- id: 1546904341406
+  fields:
+    Front: |
+      CCAC 02.5 39: Find the horizontal and vertical asymptotes of the curve. If you have a graphing device, check your work by graphing the curve and estimating the asymptotes.
+      $$
+      y = \frac{2x^2 + x - 1}{x^2 + x - 2}
+      $$
+    Back: |
+      $y = 2$; $x = -2$, $x = 1$
+    Annotations: ''
+  tags: []
