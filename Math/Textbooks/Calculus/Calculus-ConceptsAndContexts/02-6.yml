@@ -194,3 +194,13 @@ notes:
       p._backend.plt.show()
       ```
     Annotations: ''
+- id: 1546912647726
+  fields:
+    Front: >
+      CCAC 02.6 13: If a ball is thrown into the air with a velocity of 40 ft/s, its
+      height (in feet) after $t$ seconds is given by $y = 40t - 16t^2$. Find the velocity
+      when $t = 2$.
+    Back: |
+      -24 ft/s
+    Annotations: ''
+  tags: []
