@@ -54,8 +54,6 @@ notes:
     Annotations: ''
 - id: 1546214047470
   useMarkdown: pweave
-  tags:
-  - Editing
   fields:
     Front: |
       CCAC D 03: Use the given graph of $f(x)=\sqrt{x}$ to find a number $\delta$ such that if $|x-4|<\delta$ then $|\sqrt{x}-2| < 0.4$.
