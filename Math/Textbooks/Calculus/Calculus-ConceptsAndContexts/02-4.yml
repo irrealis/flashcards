@@ -72,3 +72,10 @@ notes:
       ```
       b. Discontinuities at \\(t=1,\ 2,\ 3,\ 4\\).
     Annotations: ''
+- id: 1546885512221
+  fields:
+    Front: |
+      CCAC 02.4 11: If $f$ and $g$ are continuous functions with $f(3)=5$ and $\lim_{x\to 3}[2f(x) - g(x)] = 4$, find $g(3)$.
+    Back: |
+      $6$.
+    Annotations: ''
