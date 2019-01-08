@@ -293,3 +293,19 @@ notes:
       $x = 5$
     Annotations: ''
   tags: []
+- id: 1546904341877
+  fields:
+    Front: |
+      CCAC 02.5 43:
+      a. Estimate the value of
+      $$
+      \lim_{x \to -\infty} \left(\sqrt{x^2 + x + 1} + x\right)
+      $$
+      by graphing the function $f(x) = \sqrt{x^2 + x + 1} + x$.
+      b. Use a table of values of $f(x)$ to guess the value of the limit.
+      c. Prove that your guess is correct.
+    Back: |
+      a. and b.: $-\frac{1}{2}$
+    Annotations: ''
+  tags:
+  - requiresCoding
