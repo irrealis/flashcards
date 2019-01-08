@@ -371,3 +371,14 @@ notes:
     Back: |
       $0$
     Annotations: ''
+- id: 1546904343465
+  fields:
+    Front: |
+      CCAC 02.5 51b: Let $P$ and $Q$ be polynomials. Find
+      $$
+      \lim_{x \to \infty} \frac{P(x)}{Q(x)}
+      $$
+      if the degree of $P$ is greater than the degree of $Q$.
+    Back: |
+      $\pm\infty$
+    Annotations: ''
