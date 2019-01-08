@@ -368,3 +368,14 @@ notes:
     Back: |
       b. $(0.86, 0.87)$
     Annotations: ''
+- id: 1546890177663
+  fields:
+    Front: |
+      CCAC 02.4 47:
+      a. Prove that the equation $100 e^{-x/100} = 0.01 x^2$ has at least one real root.
+      b. Use your graphing device to find the root correct to three decimal places.
+    Back: |
+      b. $70.347$
+    Annotations: ''
+  tags:
+  - requiresCoding
