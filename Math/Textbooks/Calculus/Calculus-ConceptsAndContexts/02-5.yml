@@ -50,3 +50,44 @@ notes:
     Back: |
       As $x$ becomes large negative, $f(x)$ approaches $3$.
     Annotations: ''
+- id: 0
+  skip: true
+  fields:
+    Front: |
+      CCAC 02.5 03:
+    Back: |
+      ```{python echo = False}
+      import matplotlib.pyplot as plt
+      import sympy as sy
+
+      import math
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      x = sy.symbols('x')
+      p = sy.plot(
+        (2-(sy.cos(sy.pi*(x+1)))/(2*(x+1)), (x, -6, -1)),
+        (sy.tan(sy.pi*(x-0.5)/3) + 0.5, (x, -1, 2)),
+        ((2*x**2 + 0.5*x)/(x**2-0.5*x), (x, -2, 4)),
+        xlim = (-6, 6), ylim = (-3, 5),
+        xlabel = '$x$', ylabel = '$y$',
+        show = False,
+      )
+
+      if hasattr(p, '_backend'): p._backend.close()
+      p._backend = p.backend(p)
+      fg, ax = p._backend.fig, p._backend.ax
+      p._backend.process_series()
+      # ax.plot(0, 3, 'ko', markerfacecolor = 'white', markersize = 5)
+      # ax.plot(1, 3, 'ko', markersize = 5)
+      # ax.plot(1, 5, 'ko', markerfacecolor = 'white', markersize = 5)
+      # ax.plot(2, 5, 'ko', markersize = 5)
+      # ax.plot(2, 7, 'ko', markerfacecolor = 'white', markersize = 5)
+      # ax.plot(3, 7, 'ko', markersize = 5)
+      # ax.plot(3, 9, 'ko', markerfacecolor = 'white', markersize = 5)
+      # ax.plot(4, 9, 'ko', markersize = 5)
+      # ax.plot(4, 10, 'ko', markerfacecolor = 'white', markersize = 5)
+      p._backend.plt.show()
+      ```
+    Annotations: ''
