@@ -261,3 +261,13 @@ notes:
     Back: |
       $-\infty$
     Annotations: ''
+- id: 1546904341184
+  fields:
+    Front: |
+      CCAC 02.5 37: Find the limit.
+      $$
+      \lim_{x \to \infty} \frac{x + x^3 + x^5}{1 - x^2 + x^4}
+      $$
+    Back: |
+      $\infty$
+    Annotations: ''
