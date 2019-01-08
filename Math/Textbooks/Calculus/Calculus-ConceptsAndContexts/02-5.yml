@@ -241,3 +241,13 @@ notes:
     Back: |
       Does not exist.
     Annotations: ''
+- id: 1546904340728
+  fields:
+    Front: |
+      CCAC 02.5 33: Find the limit.
+      $$
+      \lim_{x \to \infty} (e^{-2x} \cos x)
+      $$
+    Back: |
+      $0$
+    Annotations: ''
