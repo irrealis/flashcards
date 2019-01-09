@@ -1408,6 +1408,16 @@ class AnkiClient(AnkiClientBase):
     self._check(wr, r, 'Error starting review for deck with name "%s"', name)
     return r
 
+  def requireReset(self):
+    wr, r = self.send_as_json(action = "requireReset")
+    self._check(wr, r, 'Error starting edits')
+    return r
+
+  def maybeReset(self):
+    wr, r = self.send_as_json(action = "maybeReset")
+    self._check(wr, r, 'Error finishing edits')
+    return r
+
   def guiExitAnki(self):
     """
     Schedules a request to gracefully close Anki. This operation is asynchronous, so it will return immediately and won't wait until the Anki process actually terminates.
