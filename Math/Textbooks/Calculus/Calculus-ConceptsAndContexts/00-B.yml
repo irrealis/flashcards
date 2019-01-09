@@ -1,0 +1,404 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Calculus-ConceptsAndContexts
+  - CCAC-00.B-Diagnostics-AnalyticGeometry
+  markdownTabLength: 2
+notes:
+- id: 1543521862044
+  fields:
+    Front: |
+      CCAC 00.B (Analytic Geometry) 01a: Find an equation for the line that passes through point $(2, -5)$ and has slope $-3$.
+    Back: |
+      $$
+        y = -3x + 1
+      $$
+
+      ---
+      (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
+    Annotations: ''
+- id: 1543521862157
+  fields:
+    Front: |
+      CCAC 00.B (Analytic Geometry) 01b: Find an equation for the line that passes through point $(2, -5)$ and is parallel to the $x$-axis.
+    Back: |
+      $$
+        y = -5
+      $$
+
+      ---
+      (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
+    Annotations: ''
+- id: 1543521862253
+  fields:
+    Front: |
+      CCAC 00.B (Analytic Geometry) 01c: Find an equation for the line that passes through point $(2, -5)$ and is parallel to the $y$-axis.
+    Back: |
+      $$
+        x = 2
+      $$
+
+      ---
+      (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
+    Annotations: ''
+- id: 1543521862346
+  fields:
+    Front: >
+      CCAC 00.B (Analytic Geometry) 01d: Find an equation for the line that passes
+      through point $(2, -5)$ and is parallel to the line $2x - 4y = 3$.
+    Back: |
+      $$
+        y = \frac{1}{2}x - 6
+      $$
+
+      ---
+      (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
+    Annotations: ''
+- id: 1543521862444
+  fields:
+    Front: |
+      CCAC 00.B (Analytic Geometry) 02: Find an equation for the circle that has center $(-1, 4)$ and passes through the point $(3, -2)$.
+    Back: |
+      $$
+        (x+1)^2 + (y-4)^2 = (3+1)^2 + (-2-4)^2 = 52
+      $$
+
+      ---
+      (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
+    Annotations: ''
+- id: 1543521862547
+  fields:
+    Front: |
+      CCAC 00.B (Analytic Geometry) 03: Find the center and radius of a circle with equation $x^2 + y^2 - 6x + 10y + 9 = 0$.
+    Back: |
+      Center $(3, -5)$, radius $5$.
+
+      ---
+      (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
+    Annotations: ''
+- id: 1543521862644
+  fields:
+    Front: >
+      CCAC 00.B (Analytic Geometry) 04a: Let $A(-7, 4)$ and $B(5, -12)$ be points
+      in the plane. Find the slope of the line that contains $A$ and $B$.
+    Back: |
+      $$
+        -\frac{4}{3}
+      $$
+
+      ---
+      (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
+    Annotations: ''
+- id: 1543521862794
+  fields:
+    Front: >
+      CCAC 00.B (Analytic Geometry) 04b: Let $A(-7, 4)$ and $B(5, -12)$ be points
+      in the plane. Find an equation of the line that passes through $A$ and $B$.
+      What are the intercepts?
+    Back: |
+      $4x - 3y + 16 = 0$; $x$-intercept: $-4$; $y$-intercept: $-16/3$.
+
+      ---
+      (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
+    Annotations: Thoughts:<div>- The answer is given in canonical form \(ax + by +
+      c = 0\). One way to compute this is \[(y-y_0)(x_1-x_0) - (x-x_0)(y_1-y_0) =
+      0.\]</div><div><br></div><div>To-do:</div><div>- Practice \((y-y_0)(x_1-x_0)
+      - (x-x_0)(y_1-y_0) = 0\).</div><div><br></div><div>Fix-me:</div><div>- The typeset
+      answer is incorrect. It should be&nbsp;<span class="math">\(4x + 3y + 16 = 0\)</span>.</div>
+  tags:
+  - ann:fix-me
+  - ann:thoughts
+  - ann:to-do
+- id: 1543521862926
+  fields:
+    Front: |
+      CCAC 00.B (Analytic Geometry) 04c: Let $A(-7, 4)$ and $B(5, -12)$ be points in the plane. Find the midpoint of the segment $AB$.
+    Back: |
+      $$
+        (-1, -4)
+      $$
+
+      ---
+      (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
+    Annotations: ''
+- id: 1543521863021
+  fields:
+    Front: |
+      CCAC 00.B (Analytic Geometry) 04d: Let $A(-7, 4)$ and $B(5, -12)$ be points in the plane. Find the length of the segment $AB$.
+    Back: |
+      $$
+        20
+      $$
+
+      ---
+      (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
+    Annotations: ''
+- id: 1543521863120
+  fields:
+    Front: >
+      CCAC 00.B (Analytic Geometry) 04e: Let $A(-7, 4)$ and $B(5, -12)$ be points
+      in the plane. Find an equation of the perpendicular bisector of $AB$.
+    Back: |
+      $$
+        3x - 4y = 13
+      $$
+
+      ---
+      (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
+    Annotations: ''
+- id: 1543521863228
+  fields:
+    Front: >
+      CCAC 00.B (Analytic Geometry) 04f: Let $A(-7, 4)$ and $B(5, -12)$ be points
+      in the plane. Find an equation of the circle for which $AB$ is a diameter.
+    Back: |
+      $$
+        (x + 1)^2 + (y + 4)^2 = 100
+      $$
+
+      ---
+      (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
+    Annotations: ''
+- id: 1543521863369
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 00.B (Analytic Geometry) 05a: Sketch the region in the $xy$-plane defined by the inequalities:
+      $$
+        -1 \le y \le 3
+      $$
+    Back: |
+      ```{python echo = False}
+      import matplotlib.pyplot as plt
+      import numpy as np
+
+      fig, ax = plt.subplots()
+
+      x = np.arange(-1, 2)
+      y1 = np.array([-1, -1])
+      y2 = np.array([3, 3])
+
+      ax.axhline(y = -1, color = 'k')
+      ax.axhline(y = 3, color = 'k')
+      ax.fill_between(x, -1, 3)
+      ax.text(0, 3.1, '3')
+      ax.text(0, 0.1, '0')
+      ax.text(0, -1.4, '-1')
+
+      ax.axhline(y = 0, color = 'k', linewidth = 0.5)
+      ax.axvline(x = 0, color = 'k', linewidth = 0.5)
+      plt.ylim((-2, 4))
+      plt.show()
+      ```
+
+      ---
+      (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
+    Annotations: To-do:<div>- Try to simplify the code for this diagram. I believe
+      that Sympy can graph inequalities.</div>
+  tags:
+  - ann:to-do
+- id: 1543521866644
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 00.B (Analytic Geometry) 05b: Sketch the region in the $xy$-plane defined by the inequalities:
+      $$
+        |x| < 4 \textrm{ and } |y| < 2
+      $$
+    Back: |
+      ```{python echo = False}
+      import matplotlib.pyplot as plt
+      import numpy as np
+
+      fig, ax = plt.subplots()
+
+      x = np.array([-4, 4])
+      y = np.array([-2, 2])
+      x1 = np.array([-4, -4])
+      x2 = np.array([4, 4])
+      y1 = np.array([-2, -2])
+      y2 = np.array([2, 2])
+
+      ax.plot(x, y1, color = 'k', linestyle = '--')
+      ax.plot(x, y2, color = 'k', linestyle = '--')
+      ax.plot(x1, y, color = 'k', linestyle = '--')
+      ax.plot(x2, y, color = 'k', linestyle = '--')
+      ax.fill_between(x, y1, y2)
+      ax.text(0, 2.1, '2')
+      ax.text(0, 0.1, '0')
+      ax.text(0, -2.4, '-2')
+      ax.text(-4.4, 0.1, '-4')
+      ax.text(4.1, 0.1, '4')
+
+      ax.axhline(y = 0, color = 'k', linewidth = 0.5)
+      ax.axvline(x = 0, color = 'k', linewidth = 0.5)
+      plt.ylim((-4, 4))
+      plt.xlim((-6, 6))
+      plt.show()
+      ```
+
+      ---
+      (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
+    Annotations: Issues:<div>- Missed the absolute value operators, so I graphed \(x
+      &lt; 4 \textrm{ and } y &lt; 2\) instead.</div><div><br></div><div>Fixes:</div><div>-
+      Copy problem? There must be a faster approach. Read the problem subvocally?</div>
+  tags:
+  - ann:trouble
+- id: 1543521869448
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 00.B (Analytic Geometry) 05c: Sketch the region in the $xy$-plane defined by the inequality:
+      $$
+        y < 1 - \frac{1}{2}x
+      $$
+    Back: |
+      ```{python echo = False}
+      import matplotlib.pyplot as plt
+      import numpy as np
+
+      fig, ax = plt.subplots()
+
+      x = np.array([-4, 4])
+      y = 1 - 0.5*x
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+      ax.plot(x, y, color = 'k', linestyle = '--')
+      ax.fill_between(x, -4, y)
+      ax.text(0.05, 1.05, '1')
+      ax.text(0.05, 0.05, '0')
+      ax.text(2.05, 0.05, '2')
+      ax.text(1, 1, '$y = 1 - \\frac{1}{2}x$')
+
+      ax.axhline(y = 0, color = 'k', linewidth = 0.5)
+      ax.axvline(x = 0, color = 'k', linewidth = 0.5)
+      plt.ylim((-3, 3))
+      plt.xlim((-4, 4))
+      plt.show()
+      ```
+
+      ---
+      (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
+    Annotations: ''
+- id: 1543521872944
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 00.B (Analytic Geometry) 05d: Sketch the region in the $xy$-plane defined by the inequality:
+      $$
+        y \ge x^2 - 1
+      $$
+    Back: |
+      ```{python echo = False}
+      import matplotlib.pyplot as plt
+      import numpy as np
+
+      fig, ax = plt.subplots()
+
+      x = np.arange(-4, 4, 0.05)
+      y = x**2 - 1
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+      ax.plot(x, y, color = 'k', linestyle = '-')
+      ax.fill_between(x, y, 4)
+      ax.text(0.05, 0.05, '0')
+      ax.text(1.05, -0.30, '1')
+      ax.text(0.05, -1.30, '-1')
+      ax.text(1, -1, '$y = x^2 - 1$')
+
+      ax.axhline(y = 0, color = 'k', linewidth = 0.5)
+      ax.axvline(x = 0, color = 'k', linewidth = 0.5)
+      ax.set_xlabel("$x$", position=(1, 0))
+      ax.set_ylabel("$y$", position=(0, 1))
+      plt.ylim((-3, 3))
+      plt.xlim((-4, 4))
+      plt.show()
+      ```
+
+      ---
+      (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
+    Annotations: ''
+- id: 1543521876244
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 00.B (Analytic Geometry) 05e: Sketch the region in the $xy$-plane defined by the inequality:
+      $$
+        x^2 + y^2 < 4
+      $$
+    Back: |
+      ```{python echo = False}
+      import sympy as sy
+      import matplotlib.pyplot as plt
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      x, y = sy.symbols('x y')
+      p = sy.plot_implicit(sy.Lt(x**2 + y**2, 4), line_color = '#2676b0', show = False)
+      p.xlim = (-6,6)
+      p.ylim = (-4,4)
+
+      # Must manually enable backend without showing it.
+      if hasattr(p, '_backend'):
+        p._backend.close()
+      p._backend = p.backend(p)
+      fg, ax = p._backend.fig, p._backend.ax
+
+      c = plt.Circle((0,0), 2, fill = False, edgecolor = 'k', linestyle = '--')
+      ax.add_artist(c)
+      ax.text(1, 2, '$x^2 + y^2 = 4$')
+
+      p._backend.show()
+      ```
+
+      ---
+      (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
+    Annotations: ''
+- id: 1543521879546
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 00.B (Analytic Geometry) 05f: Sketch the region in the $xy$-plane defined by the equation:
+      $$
+        9x^2 + 16y^2 = 144
+      $$
+    Back: |
+      ```{python echo = False}
+      import sympy as sy
+      import matplotlib.pyplot as plt
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      x, y = sy.symbols('x y')
+      p = sy.plot_implicit(sy.Eq(9*x**2 + 16*y**2, 144), line_color = 'k', show = False)
+      p.xlim = (-6,6)
+      p.ylim = (-4,4)
+
+      # Must manually enable backend without showing it.
+      if hasattr(p, '_backend'):
+        p._backend.close()
+      p._backend = p.backend(p)
+      fg, ax = p._backend.fig, p._backend.ax
+
+      ax.text(2, 3, '$9x^2 + 16y^2 = 144$')
+
+      p._backend.show()
+      ```
+
+      ---
+      (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
+    Annotations: 'Issues:<div>- Not familiar enough with canonical ellipse formula.</div><div><br></div><div>Fixes:</div><div>-
+      Memorize, practice.</div><div><br></div><div>To-do:</div><div><div>- Memorize,
+      practice.</div><div>&nbsp; &nbsp; - I can derive the canonical formula from
+      first principles: \( (x/a)^2 + (y/b)^2 = 1\).</div><div><br></div></div>'
+  tags:
+  - ann:hard
+  - ann:to-do
