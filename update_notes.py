@@ -21,7 +21,7 @@ from pweave.pweb import Pweb
 from pweave.readers import PwebReaders
 from pygments.formatters import HtmlFormatter
 
-import argparse, base64, logging, os, time, uuid
+import argparse, base64, logging, os, string, time, uuid, zlib
 
 
 log = logging.getLogger('update_notes')
@@ -269,6 +269,7 @@ class NoteSender(object):
       annotationsField = rt_defs.get('annotationsField', self.opts.default_annfield),
       extraTags = rt_defs.get('extraTags', list()),
       fields = rt_defs.get('fields', dict()),
+      media = rt_defs.get('media', list()),
     )
     return defaults
 
@@ -310,6 +311,10 @@ class NoteSender(object):
     fields.update(note.get("fields", dict()))
     note['fields'] = fields
 
+    media = defaults['media'].copy()
+    media.extend(note.get('media', list()))
+    note['media'] = media
+
     annotations_field = defaults['annotationsField']
     if annotations_field in note['fields']:
       note['annotations'] = note['fields'][annotations_field]
@@ -336,18 +341,38 @@ class NoteSender(object):
     md_lineno,
     md_tablen,
     md_mathext,
-    note_id = "anon",
+    note_id = None,
+    note_uuid1 = None,
+    note_field_num = None,
+    file_uuid1 = None,
   ):
+    if note_id is None: note_id = 'anon'
+    if file_uuid1 is None: file_uuid1 = uuid.uuid1()
+    if note_uuid1 is None: file_uuid1
+    if note_field_num is None: note_field_num = 0
+
+    subbed_text = string.Template(text).safe_substitute(
+      note_id = note_id,
+      note_uuid1 = note_uuid1,
+      note_field_num = note_field_num,
+      file_uuid1 = file_uuid1,
+    )
     noclasses = md_sty != 'default'
     self.pweb.set_markdown_opts(md_sty, md_lineno, md_tablen, md_mathext)
     if str(use_md).lower() == 'pweave':
-      self.pweb.read(string = text, basename = str(note_id), reader = 'markdown')
+      pweave_basename = string.Template("${note_id}-${note_uuid1}-${note_field_num}").safe_substitute(
+        note_id = note_id,
+        note_uuid1 = note_uuid1,
+        note_field_num = note_field_num,
+        file_uuid1 = file_uuid1,
+      )
+      self.pweb.read(string = subbed_text, basename = pweave_basename, reader = 'markdown')
       self.pweb.run()
       self.pweb.format()
       html_ish = self.pweb.formatted
     elif use_md:
       body = parse_markdown(
-        text,
+        subbed_text,
         noclasses,
         md_sty,
         md_lineno,
@@ -358,11 +383,13 @@ class NoteSender(object):
         self.pweb.formatter.header, body, self.pweb.formatter.footer,
       )
     else:
-      html_ish = text.replace('\n', '<br>').replace(' ', '&nbsp;')
+      html_ish = subbed_text.replace('\n', '<br>').replace(' ', '&nbsp;')
     return html_ish
 
 
   def loadsend_file(self, filename):
+    file_uuid1 = uuid.uuid1()
+
     # Verify file can be opened.
     if not os.path.exists(filename): raise FileNotFoundError(filename)
     log.info('Processing "%s"...', filename)
@@ -399,6 +426,7 @@ class NoteSender(object):
         md_mathext = query_results.useMarkdownMathExt[i]
         tags = sorted(query_results.tags[i].replace(',','\n').split())
         fields = query_results.fields[i]
+        media = query_results.media[i]
         description = "{}:{}".format(note_id, fields)
 
         if self.opts.question:
@@ -420,7 +448,6 @@ class NoteSender(object):
           continue
 
         log.info("Processing note with ID: {}".format(note_id))
-        # log.debug("Note description: {}".format(description))
         log.debug("Note fields: {}".format(fields))
 
         # Check for note with given ID.
@@ -463,7 +490,6 @@ class NoteSender(object):
         log.debug("Updating note...")
         # Assume provided ID is valid for existing note to be updated.
         # Convert each field from Markdown (if `use_md` is True).
-        note_uid = uuid.uuid1()
 
         # Special handling for the annotations field. If we can find this note
         # in Anki's flashcard deck, then we'll grab any annotations the user has
@@ -475,12 +501,60 @@ class NoteSender(object):
         # shallow copy of the note. We'll instead use the round-trip version.
 
         if not self.opts.annotations:
+          note_uuid1 = uuid.uuid1()
           if annotations_field in fields:
             del fields[annotations_field]
           converted_fields = { k: self.format_text(
-            str(v), use_md, md_sty, md_lineno, md_tablen, md_mathext,
-            note_id = "%s-%s-%s" % (note_id, note_uid, field_no)
+            str(v), use_md, md_sty, md_lineno, md_tablen, md_mathext, note_id, note_uuid1, field_no, file_uuid1
           ) for (field_no, (k, v)) in enumerate(fields.items()) }
+          for media_item in media:
+            item_path = media_item['path']
+            item_name = media_item.get('name', os.path.basename(item_path))
+            item_name = string.Template(item_name).safe_substitute(
+              note_id = note_id,
+              note_uuid1 = note_uuid1,
+              file_uuid1 = file_uuid1,
+            )
+
+            log.info("Considering sending media item...")
+            log.info("    local path: {}".format(item_path))
+            log.info("    remote name: {}".format(item_name))
+            anki_result = self.anki.statMediaFile(item_name)
+            must_send_new_media_item = False
+            item_data = None
+            if anki_result.get("error", None):
+              log.info("Can't get remote media file status (probably missing)...")
+              must_send_new_media_item = True
+            else:
+              if not anki_result['result']:
+                log.info("... Media item is not present on remote...")
+                must_send_new_media_item = True
+              else:
+                log.info("... Media item is already present on remote...")
+                log.info("... Reading local data...")
+                item_data = open(item_path, 'rb').read()
+                item_adler32 = zlib.adler32(item_data)
+                remote_adler32 = anki_result['result']['adler32']
+                log.info("    Remote checksum: {}".format(remote_adler32))
+                log.info("    Local checksum: {}".format(item_adler32))
+                if remote_adler32 == item_adler32:
+                  log.info("... Remote checksum matches that of local version...")
+                else:
+                  log.info("... Remote checksum is not the same as local...")
+                  must_send_new_media_item = True
+            if must_send_new_media_item:
+              if item_data is None:
+                log.info("... Reading local data...")
+                item_data = open(item_path, 'rb').read()
+              log.info("... Encoding {} bytes of local data...".format(len(item_data)))
+              item_base64 = base64.b64encode(item_data).decode("utf-8")
+              log.info("... Sending {} bytes of encoded data to remote...".format(len(item_base64)))
+              anki_result = self.anki.storeMediaFile(item_name, item_base64)
+              if anki_result.get("error", None):
+                log.warning("Can't store media file: %s", item_name)
+            log.info("... Done with media item.")
+
+
 
         # If we found this note in Anki's flashcard deck, then we'll grab any
         # annotations the user has made for that note, and store them in the
