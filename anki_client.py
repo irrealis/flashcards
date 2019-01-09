@@ -1156,6 +1156,13 @@ class AnkiClient(AnkiClientBase):
     self._check(wr, r, 'Error retrieving media file "%s"', filename)
     return r
 
+  def statMediaFile(self, filename):
+    wr, r = self.send_as_json(action = "statMediaFile", params = dict(
+      filename = filename
+    ))
+    self._check(wr, r, 'Error getting status of media file "%s"', filename)
+    return r
+
   def deleteMediaFile(self, filename):
     """
     Deletes the specified file inside the media folder.
