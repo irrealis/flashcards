@@ -26,6 +26,7 @@ import argparse, base64, logging, os, string, time, uuid, zlib
 
 log = logging.getLogger('update_notes')
 log.addHandler(logging.StreamHandler())
+log.propagate = False
 
 
 def parse_markdown(text, noclasses, style, line_nums, tab_len, mathext):
@@ -612,13 +613,25 @@ class NoteSender(object):
           note_info = self.anki.notesInfo([note_id])
 
 
+
   def loadsend_files(self, filenames):
+    log.info("Starting Anki edits...")
+    result = self.anki.requireReset()
+    if result.get("error", None):
+      log.warning("Can't start Anki edits.")
+
     for input_filename in filenames:
       try:
         log.info('Trying file "%s"...', input_filename)
         self.loadsend_file(input_filename)
       except FileNotFoundError as e:
         log.warning('File not found: "%s"', e)
+
+    log.info("Finishing Anki edits...")
+    result = self.anki.maybeReset()
+    if result.get("error", None):
+      log.warning("Can't finish Anki edits.")
+
 
   def loadsend(self):
     return self.loadsend_files(self.opts.input)
