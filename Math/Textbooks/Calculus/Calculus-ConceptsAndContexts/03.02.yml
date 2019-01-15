@@ -64,3 +64,16 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547243458321
+  fields:
+    Front: |
+      CCAC 03.02 07: Differentiate.
+      $$$$
+      g(x) = \frac{3x - 1}{2x + 1}
+      $$$$
+    Back: |
+      $$$$
+      g'(x) = \frac{5}{(2x + 1)^2}
+      $$$$
+    Annotations: ''
+  tags: []
