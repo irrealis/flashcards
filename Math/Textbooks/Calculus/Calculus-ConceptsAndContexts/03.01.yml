@@ -187,3 +187,16 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547241828401
+  fields:
+    Front: |
+      CCAC 03.01 17: Differentiate the function.
+      $$$$
+      F(x) = \left(\frac{1}{2}x\right)^5
+      $$$$
+    Back: |
+      $$$$
+      F'(x) = \frac{5}{32}x^4
+      $$$$
+    Annotations: ''
+  tags: []
