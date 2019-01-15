@@ -209,3 +209,10 @@ notes:
     Annotations: ''
   tags:
   - requiresCoding
+- id: 1547231975600
+  fields:
+    Front: |
+      CCAC 02.Review, Exercise 21: If $2x - 1 \le f(x) \le x^2$ for $0 < x < 3$, find $\lim_{x \to 1} f(x)$.
+    Back: |
+      $1$
+    Annotations: ''
