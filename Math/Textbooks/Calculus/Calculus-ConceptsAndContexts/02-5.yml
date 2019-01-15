@@ -10,86 +10,68 @@ defaults:
   - CCAC-02.5-LimitsInvolvingInfinity
   markdownTabLength: 2
 notes:
-- id: 1546901621046
+- id: 1547149263671
   fields:
     Front: |
       CCAC 02.5 01a: Explain in your own words the meaning of the following:
-      $$
+      $$$$
       \lim_{x \to 2} f(x) = \infty
-      $$
+      $$$$
     Back: |
       As $x$ approaches $2$, $f(x)$ becomes large.
     Annotations: ''
-- id: 1546901621268
+- id: 1547149263776
   fields:
     Front: |
       CCAC 02.5 01b: Explain in your own words the meaning of the following:
-      $$
+      $$$$
       \lim_{x \to 1^+} f(x) = -\infty
-      $$
+      $$$$
     Back: |
       As $x$ approaches $1$ from the right, $f(x)$ becomes large negative.
     Annotations: ''
-- id: 1546901621542
+- id: 1547149263877
   fields:
     Front: |
       CCAC 02.5 01c: Explain in your own words the meaning of the following:
-      $$
+      $$$$
       \lim_{x \to \infty} f(x) = 5
-      $$
+      $$$$
     Back: |
       As $x$ becomes large, $f(x)$ approaches $5$.
     Annotations: ''
-- id: 1546901621780
+- id: 1547149263973
   fields:
     Front: |
       CCAC 02.5 01d: Explain in your own words the meaning of the following:
-      $$
+      $$$$
       \lim_{x \to -\infty} f(x) = 3
-      $$
+      $$$$
     Back: |
       As $x$ becomes large negative, $f(x)$ approaches $3$.
     Annotations: ''
-- id: 0
-  skip: true
+- id: 1547149264083
+  media:
+  - path: ${file_dir}/images/02.5-03.jpg
+    name: CCAC-02.5-03.jpg
   fields:
     Front: |
-      CCAC 02.5 03:
+      CCAC 02.5 03a: For the function $f$ whose graph is given, state the following:
+      $$$$
+      \lim_{x \to 2} f(x)
+      $$$$
+      ![](CCAC-02.5-03.jpg)
     Back: |
-      ```{python echo = False}
-      import matplotlib.pyplot as plt
-      import sympy as sy
-
-      import math
-
-      plt.rc('text', usetex = True)
-      plt.rc('font', family = 'serif')
-
-      x = sy.symbols('x')
-      p = sy.plot(
-        (2-(sy.cos(sy.pi*(x+1)))/(2*(x+1)), (x, -6, -1)),
-        (sy.tan(sy.pi*(x-0.5)/3) + 0.5, (x, -1, 2)),
-        ((2*x**2 + 0.5*x)/(x**2-0.5*x), (x, -2, 4)),
-        xlim = (-6, 6), ylim = (-3, 5),
-        xlabel = '$x$', ylabel = '$y$',
-        show = False,
-      )
-
-      if hasattr(p, '_backend'): p._backend.close()
-      p._backend = p.backend(p)
-      fg, ax = p._backend.fig, p._backend.ax
-      p._backend.process_series()
-      p._backend.plt.show()
-      ```
+      $\infty$
     Annotations: ''
-- id: 1546901622028
+- id: 1547149265157
   useMarkdown: pweave
   fields:
     Front: |
       CCAC 02.5 11: Guess the value of the limit
-      $$
+      $$$$
       \lim_{x \to \infty} \frac{x^2}{2^x}
-      $$
+      $$$$
       by evaluating the function $f(x) = x^2/2^x$ for $x=0$, $1$, $2$, $3$, $4$, $5$, $6$, $7$, $8$, $9$, $10$, $20$, $50$, and $100$. Then use a graph of $f$ to support your guess.
     Back: |
       0.
@@ -112,14 +94,14 @@ notes:
     Annotations: ''
     tags:
     - requiresCoding
-- id: 1546901625589
+- id: 1547149268395
   useMarkdown: pweave
   fields:
     Front: |
       CCAC 02.5 13: Use a graph to estimate all the vertical and horizontal asymptotes of the curve
-      $$
+      $$$$
       y = \frac{x^3}{x^3 - 2x + 1}
-      $$
+      $$$$
       by evaluating the function $f(x) = x^2/2^x$ for $x=0$, $1$, $2$, $3$, $4$, $5$, $6$, $7$, $8$, $9$, $10$, $20$, $50$, and $100$. Then use a graph of $f$ to support your guess.
     Back: |
       $x \approx -1.62$, $x \approx 0.62$, $x = 1$, $y = 1$;
@@ -142,154 +124,154 @@ notes:
     Annotations: ''
     tags:
     - requiresCoding
-- id: 1546904338746
+- id: 1547149271421
   fields:
     Front: |
       CCAC 02.5 15: Find the limit.
-      $$
+      $$$$
       \lim_{x \to 1} \frac{2 - x}{(x - 1)^2}
-      $$
+      $$$$
     Back: |
       $\infty$
     Annotations: ''
-- id: 1546904338982
+- id: 1547149271521
   fields:
     Front: |
       CCAC 02.5 17: Find the limit.
-      $$
+      $$$$
       \lim_{x \to 2^+} e^{3/(2 - x)}
-      $$
+      $$$$
     Back: |
       $0$
     Annotations: ''
-- id: 1546904339233
+- id: 1547149271626
   fields:
     Front: |
       CCAC 02.5 19: Find the limit.
-      $$
+      $$$$
       \lim_{x \to 3^+} \ln(x^2 - 9)
-      $$
+      $$$$
     Back: |
       $-\infty$
     Annotations: ''
-- id: 1546904339447
+- id: 1547149271746
   fields:
     Front: |
       CCAC 02.5 21: Find the limit.
-      $$
+      $$$$
       \lim_{x \to 2\pi^-} x \csc x
-      $$
+      $$$$
     Back: |
       $-\infty$
     Annotations: ''
-- id: 1546904339661
+- id: 1547149271873
   fields:
     Front: |
       CCAC 02.5 23: Find the limit.
-      $$
+      $$$$
       \lim_{x \to \infty} \frac{x^3 + 5x}{2x^3 - x^2 + 4}
-      $$
+      $$$$
     Back: |
       $\frac{1}{2}$
     Annotations: ''
-- id: 1546904339865
+- id: 1547149271984
   fields:
     Front: |
       CCAC 02.5 25: Find the limit.
-      $$
+      $$$$
       \lim_{u \to \infty} \frac{4u^4 + 5}{(u^2 - 2)(2u^2 - 1)}
-      $$
+      $$$$
     Back: |
       $2$
     Annotations: ''
-- id: 1546904340100
+- id: 1547149272096
   fields:
     Front: |
       CCAC 02.5 27: Find the limit.
-      $$
+      $$$$
       \lim_{x \to \infty} (\sqrt{9x^2 + x} - 3x)
-      $$
+      $$$$
     Back: |
       $\frac{1}{6}$
     Annotations: ''
-- id: 1546904340300
+- id: 1547149272200
   fields:
     Front: |
       CCAC 02.5 29: Find the limit.
-      $$
+      $$$$
       \lim_{x \to \infty} e^{-x^2}
-      $$
+      $$$$
     Back: |
       $0$
     Annotations: ''
-- id: 1546904340496
+- id: 1547149272296
   fields:
     Front: |
       CCAC 02.5 31: Find the limit.
-      $$
+      $$$$
       \lim_{x \to \infty} \cos x
-      $$
+      $$$$
     Back: |
       Does not exist.
     Annotations: ''
-- id: 1546904340728
+- id: 1547149272399
   fields:
     Front: |
       CCAC 02.5 33: Find the limit.
-      $$
+      $$$$
       \lim_{x \to \infty} (e^{-2x} \cos x)
-      $$
+      $$$$
     Back: |
       $0$
     Annotations: ''
-- id: 1546904340959
+- id: 1547149272501
   fields:
     Front: |
       CCAC 02.5 35: Find the limit.
-      $$
+      $$$$
       \lim_{x \to -\infty} (x^4 + x^5)
-      $$
+      $$$$
     Back: |
       $-\infty$
     Annotations: ''
-- id: 1546904341184
+- id: 1547149272621
   fields:
     Front: |
       CCAC 02.5 37: Find the limit.
-      $$
+      $$$$
       \lim_{x \to \infty} \frac{x + x^3 + x^5}{1 - x^2 + x^4}
-      $$
+      $$$$
     Back: |
       $\infty$
     Annotations: ''
-- id: 1546904341406
+- id: 1547149272748
   fields:
     Front: |
       CCAC 02.5 39: Find the horizontal and vertical asymptotes of the curve. If you have a graphing device, check your work by graphing the curve and estimating the asymptotes.
-      $$
+      $$$$
       y = \frac{2x^2 + x - 1}{x^2 + x - 2}
-      $$
+      $$$$
     Back: |
       $y = 2$; $x = -2$, $x = 1$
     Annotations: ''
-- id: 1546904341658
+- id: 1547149272846
   fields:
     Front: |
       CCAC 02.5 41: Find the horizontal and vertical asymptotes of the curve. If you have a graphing device, check your work by graphing the curve and estimating the asymptotes.
-      $$
+      $$$$
       y = \frac{x^3 - x}{x^2 - 6x + 5}
-      $$
+      $$$$
     Back: |
       $x = 5$
     Annotations: ''
-- id: 1546904341877
+- id: 1547149273014
   fields:
     Front: |
       CCAC 02.5 43:
       a. Estimate the value of
-      $$
+      $$$$
       \lim_{x \to -\infty} \left(\sqrt{x^2 + x + 1} + x\right)
-      $$
+      $$$$
       by graphing the function $f(x) = \sqrt{x^2 + x + 1} + x$.
       b. Use a table of values of $f(x)$ to guess the value of the limit.
       c. Prove that your guess is correct.
@@ -298,36 +280,36 @@ notes:
     Annotations: ''
   tags:
   - requiresCoding
-- id: 1546904342150
+- id: 1547149273138
   fields:
     Front: |
       CCAC 02.5 45: Estimate the horizontal asymptote of the function
-      $$
+      $$$$
       f(x) = \frac{3x^3 + 500x^2}{x^3 + 500x^2 + 100x + 2000}
-      $$
+      $$$$
       by graphing $f$ for $-10 \leq x \leq 10$. Then calculate the equation of the asymptote by evaluating the limit. How do you explain the discrepancy?
     Back: |
       $y = 3$
     Annotations: ''
   tags:
   - requiresCoding
-- id: 1546904342396
+- id: 1547149273247
   fields:
     Front: |
       CCAC 02.5 47: Find a formula for a function $f$ that satisfies the following conditions:
-      $$
+      $$$$
       \lim_{x \to \pm \infty} f(x) = 0, \\
       \lim_{x \to 0} f(x) = -\infty, \\
       f(2) = 0,\\
       \lim_{x \to 3^-} f(x) = \infty, \\
       \lim_{x \to 3^+} f(x) = -\infty. \\
-      $$
+      $$$$
     Back: |
-      $$
+      $$$$
       f(x) = \frac{2-x}{x^2(x - 3)}
-      $$
+      $$$$
     Annotations: ''
-- id: 1546904342629
+- id: 1547149273350
   fields:
     Front: >
       CCAC 02.5 49a: A function $f$ is a ratio of quadratic functions and has a vertical
@@ -337,7 +319,7 @@ notes:
     Back: |
       $\frac{5}{4}$
     Annotations: ''
-- id: 1546904342907
+- id: 1547149273483
   fields:
     Front: >
       CCAC 02.5 49b: A function $f$ is a ratio of quadratic functions and has a vertical
@@ -347,51 +329,51 @@ notes:
     Back: |
       $5$
     Annotations: ''
-- id: 1546904343220
+- id: 1547149273604
   fields:
     Front: |
       CCAC 02.5 51a: Let $P$ and $Q$ be polynomials. Find
-      $$
+      $$$$
       \lim_{x \to \infty} \frac{P(x)}{Q(x)}
-      $$
+      $$$$
       if the degree of $P$ is less than the degree of $Q$.
     Back: |
       $0$
     Annotations: ''
-- id: 1546904343465
+- id: 1547149273696
   fields:
     Front: |
       CCAC 02.5 51b: Let $P$ and $Q$ be polynomials. Find
-      $$
+      $$$$
       \lim_{x \to \infty} \frac{P(x)}{Q(x)}
-      $$
+      $$$$
       if the degree of $P$ is greater than the degree of $Q$.
     Back: |
       $\pm\infty$
     Annotations: ''
-- id: 1546904343696
+- id: 1547149273825
   fields:
     Front: |
       CCAC 02.5 53: Find $\lim_{x \to \infty} f(x)$ if, for all $x > 1$,
-      $$
+      $$$$
       \frac{10e^x - 21}{2e^x} < f(x) < \frac{5\sqrt{x}}{\sqrt{x - 1}}.
-      $$
+      $$$$
     Back: |
       $5$
     Annotations: ''
-- id: 1546904343948
+- id: 1547149273965
   fields:
     Front: |
       CCAC 02.5 55:
       a. A tank contains 5000 L of pure water. Brine that contains 30 g of salt per liter of water is pumped into the tank at a rate of 25 L/min. Show that the concentration of salter after $t$ minutes (in grams per liter) is
-      $$
+      $$$$
       C(t) = \frac{30t}{200 + t}.
-      $$
+      $$$$
       b. What happens to the concentration as $t \to \infty$?
     Back: |
       b. It approaches the concentration of the brine being pumped into the tank.
     Annotations: ''
-- id: 1546904344197
+- id: 1547149274101
   fields:
     Front: |
       CCAC 02.5 57:
