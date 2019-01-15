@@ -119,6 +119,17 @@ notes:
       (a) $f(-4)$ is not defined, and $\lim_{x \to a} f(x)$ (for $a = -2,\ 2,\ 4$) does not exist.
       (b) $-4$: neither; $-2$: left; $2$: right; $4$: right.
     Annotations: ''
+- id: 1547147566571
+  media:
+  - path: ${file_dir}/images/02.4-05.jpg
+    name: CCAC-02.4-05.jpg
+  fields:
+    Front: >
+      CCAC 02.4 05: Sketch the graph of a function $f$ that is continuous except for
+      the stated discontinuity: discontinuous, but continuous from the right, at $2$.
+    Back: |
+      ![](CCAC-02.4-05.jpg)
+    Annotations: ''
 - id: 1547147566881
   useMarkdownMathExt: false
   useMarkdown: pweave
