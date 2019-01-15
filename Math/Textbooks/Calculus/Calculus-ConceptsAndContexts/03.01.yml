@@ -485,3 +485,14 @@ notes:
       $a = -\frac{1}{2}$, $b = 2$.
     Annotations: ''
   tags: []
+- id: 1547241831530
+  fields:
+    Front: |
+      CCAC 03.01 71: Evaluate.
+      $$$$
+      \lim_{x \to 1} \frac{x^{1000} - 1}{x - 1}.
+      $$$$
+    Back: |
+      $1000$.
+    Annotations: ''
+  tags: []
