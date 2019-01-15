@@ -54,6 +54,18 @@ notes:
     Back: |
       Each of the following are continuous: $f + g$, $f - g$, $cf$, $fg$, and (when $g(a) \ne 0$) $f/g$.
     Annotations: ''
+- id: 1547147565796
+  fields:
+    Front: |
+      CCAC 02.4 00e: State six critical types of functions that are continuous at every number in their domains.
+    Back: |
+      Polynomials
+      Rational functions
+      Root functions
+      Trigonometric functions
+      Exponential functions
+      Logarithmic functions
+    Annotations: ''
 - id: 1547147566296
   fields:
     Front: |
