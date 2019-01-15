@@ -82,3 +82,13 @@ notes:
     Back: |
       False
     Annotations: ''
+- id: 1547231974098
+  fields:
+    Front: |
+      CCAC 02.Review, True-False 17: Determine whether the statement is true or false.
+      $$$$
+      \frac{d^2 y}{dx^2} = \left( \frac{dy}{dx} \right)^2
+      $$$$
+    Back: |
+      False
+    Annotations: ''
