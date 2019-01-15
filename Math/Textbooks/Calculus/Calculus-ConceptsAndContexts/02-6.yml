@@ -10,7 +10,7 @@ defaults:
   - CCAC-02.6-DerivativesAndRatesOfChange
   markdownTabLength: 2
 notes:
-- id: 1546912638046
+- id: 1547151319596
   fields:
     Front: |
       CCAC 02.6 01: A curve has equation $y = f(x)$.
@@ -18,15 +18,15 @@ notes:
       b. Write an expression for the slope of the tangent line at $P$.
     Back: |
       a.
-      $$
+      $$$$
       \frac{f(x) - f(3)}{x - 3}
-      $$
+      $$$$
       b.
-      $$
+      $$$$
       \lim_{x \to 3} \frac{f(x) - f(3)}{x - 3}
-      $$
+      $$$$
     Annotations: ''
-- id: 1546912638221
+- id: 1547151319748
   useMarkdown: pweave
   fields:
     Front: >
@@ -64,35 +64,35 @@ notes:
     Annotations: ''
   tags:
   - requiresCoding
-- id: 1546912638347
+- id: 1547151323146
   fields:
     Front: |
       CCAC 02.6 05: Find an equation of the tangent line to the curve at the given point.
-      $$
+      $$$$
       y = 4x - 3x^2, \\
       (2, -4)
-      $$
+      $$$$
     Back: |
-      $$
+      $$$$
       y = -8x + 12
-      $$
+      $$$$
     Annotations: ''
   tags: []
-- id: 1546912638451
+- id: 1547151323263
   fields:
     Front: |
       CCAC 02.6 07: Find an equation of the tangent line to the curve at the given point.
-      $$
+      $$$$
       y = \sqrt{x}, \\
       (1, 1)
-      $$
+      $$$$
     Back: |
-      $$
+      $$$$
       y = \frac{1}{2}x + \frac{1}{2}
-      $$
+      $$$$
     Annotations: ''
   tags: []
-- id: 1546912638575
+- id: 1547151323371
   useMarkdown: pweave
   fields:
     Front: |
@@ -125,7 +125,7 @@ notes:
     Annotations: ''
   tags:
   - requiresCoding
-- id: 1546912642571
+- id: 1547151326822
   useMarkdown: pweave
   fields:
     Front: |
@@ -194,7 +194,7 @@ notes:
       p._backend.plt.show()
       ```
     Annotations: ''
-- id: 1546912647726
+- id: 1547151331846
   fields:
     Front: >
       CCAC 02.6 13: If a ball is thrown into the air with a velocity of 40 ft/s, its
@@ -204,7 +204,7 @@ notes:
       -24 ft/s
     Annotations: ''
   tags: []
-- id: 1546912647822
+- id: 1547151331946
   fields:
     Front: >
       CCAC 02.6 15: The displacement (in meters) of a particle moving in a straight
@@ -214,7 +214,7 @@ notes:
     Back: |
       $-2/a^3$ m/s; $-2$ m/s; $-\frac{1}{4}$ m/s; $-\frac{2}{27}$ m/s.
     Annotations: ''
-- id: 1546912647946
+- id: 1547151332418
   fields:
     Front: |
       CCAC 02.6 19: If an equation of the tangent line to the curve $y = f(x)$ at the point where $a = 2$ is $y = 4x-5$, find $f(2)$ and $f'(2)$.
@@ -222,7 +222,7 @@ notes:
       $f(2) = 3$; $f'(2) = 4$.
     Annotations: ''
   tags: []
-- id: 1546912648046
+- id: 1547151332528
   fields:
     Front: >
       CCAC 02.6 23: If $f(x) = 3x^2 - x^3$, find $f'(1)$ and use it to find an equation
@@ -230,7 +230,7 @@ notes:
     Back: |
       $y = 3x - 1$
     Annotations: ''
-- id: 1546912648148
+- id: 1547151332648
   useMarkdown: pweave
   fields:
     Front: |
@@ -260,83 +260,83 @@ notes:
     Annotations: ''
   tags:
   - requiresCoding
-- id: 1546912648245
+- id: 1547151335597
   fields:
     Front: |
       CCAC 02.6 27: Find $f'(a)$ for the following function.
-      $$
+      $$$$
       f(x) = 3x^2 - 4x + 1
-      $$
+      $$$$
     Back: |
-      $$
+      $$$$
       6a - 4
-      $$
+      $$$$
     Annotations: ''
-- id: 1546912648353
+- id: 1547151335696
   fields:
     Front: |
       CCAC 02.6 29: Find $f'(a)$ for the following function.
-      $$
+      $$$$
       f(t) = \frac{2t + 1}{t + 3}
-      $$
+      $$$$
     Back: |
-      $$
+      $$$$
       \frac{5}{(a + 3)^2}
-      $$
+      $$$$
     Annotations: ''
-- id: 1546912648445
+- id: 1547151335855
   fields:
     Front: |
       CCAC 02.6 31: Find $f'(a)$ for the following function.
-      $$
+      $$$$
       f(x) = \sqrt{1 - 2x}
-      $$
+      $$$$
     Back: |
-      $$
+      $$$$
       - \frac{1}{\sqrt{1 - 2a}}
-      $$
+      $$$$
     Annotations: ''
-- id: 1546912648546
+- id: 1547151335986
   fields:
     Front: |
       CCAC 02.6 33: The limit below represents the derivative of some function $f$ at some number $a$. State such an $f$ and $a$.
-      $$
+      $$$$
       \lim_{h \to 0} \frac{(1 + h)^{10} - 1}{h}
-      $$
+      $$$$
     Back: |
       $f(x) = x^{10}$, $a = 1$ or $f(x) = (1 + x)^{10}$, $a = 0$.
     Annotations: ''
-- id: 1546912648671
+- id: 1547151336120
   fields:
     Front: |
       CCAC 02.6 35: The limit below represents the derivative of some function $f$ at some number $a$. State such an $f$ and $a$.
-      $$
+      $$$$
       \lim_{x \to 5} \frac{2^x - 32}{x - 5}
-      $$
+      $$$$
     Back: |
       $f(x) = 2^x$, $a = 5$.
     Annotations: ''
-- id: 1546912648797
+- id: 1547151336246
   fields:
     Front: |
       CCAC 02.6 37: The limit below represents the derivative of some function $f$ at some number $a$. State such an $f$ and $a$.
-      $$
+      $$$$
       \lim_{h \to 0} \frac{\cos(\pi + h) + 1}{h}
-      $$
+      $$$$
     Back: |
       $f(x) = \cos x$, $a = \pi$ or $f(x) = \cos(\pi + x)$, $a = 0$.
     Annotations: ''
-- id: 1546912648920
+- id: 1547151336374
   fields:
     Front: |
       CCAC 02.6 39: A particle moves along a straight line with equation of motion $s = f(t)$, where $s$ is measured in meters and $t$ in seconds. Find the velocity and the speed when $t = 5$.
-      $$
+      $$$$
       f(t) = 100 + 50t - 4.9t^2
-      $$
+      $$$$
     Back: |
       1 m/s; 1 m/s.
     Annotations: ''
-- id: 1546912649046
+- id: 1547151336496
   useMarkdown: pweave
   fields:
     Front: >
@@ -373,11 +373,11 @@ notes:
       p._backend.plt.show()
       ```
     Annotations: ''
-- id: 1546912652321
+- id: 1547151339371
   fields:
     Front: |
       CCAC 02.6 43: The number $N$ of US cellular phone subscribers (in millions) is shown in the table. (Midyear estimates are given.)
-      $$
+      $$$$
       \begin{array}{|c|c|c|c|c|c|c|}
       \hline
       t & 1996 & 1998 & 2000 & 2002 & 2004 & 2006 \\
@@ -385,7 +385,7 @@ notes:
       N & 44 & 69 & 109 & 141 & 182 & 233 \\
       \hline
       \end{array}
-      $$
+      $$$$
       (a) Find the average rate of cell phone growth (i) from 2002 to 2006, (ii) from 2002 to 2004, and (iii) from 2000 to 2002. In each case, include the units.
       (b) Estimate the instantaneous rate of growth in 2002 by taking the average of two average rates of change. What are its units?
       (c) Estimate the instantaneous rate of growth in 2002 by measuring the slope of a tangent.
@@ -395,7 +395,7 @@ notes:
       (c) 17 million/year.
     Annotations: ''
   tags: []
-- id: 1546914216271
+- id: 1547151339546
   useMarkdownMathExt: false
   fields:
     Front: >
@@ -414,7 +414,7 @@ notes:
       (b) $20/unit.
     Annotations: ''
   tags: []
-- id: 1546914714796
+- id: 1547151339700
   useMarkdownMathExt: false
   fields:
     Front: |
@@ -427,11 +427,11 @@ notes:
       (b) When the 800th ounce of gold is produced, the cost of production is $17/oz.
       (c) Decrease in the short term; increase in the long term.
     Annotations: ''
-- id: 1546914715002
+- id: 1547151339880
   fields:
     Front: |
       CCAC 02.6 49: Let $T(t)$ be the temperature (in $^\circ$F) in Baltimore $t$ hours after midnight on Sept. 26, 2007. The table shows values of this function recorded every two hours. What is the meaning of $T'(10)$? Estimate its value.
-      $$
+      $$$$
       \begin{array}{|c|c|c|c|c|c|c|c|c|}
       \hline
       t & 0 & 2 & 4 & 6 & 8 & 10 & 12 & 14 \\
@@ -439,21 +439,21 @@ notes:
       T & 68 & 65 & 63 & 63 & 65 & 76 & 85 & 91 \\
       \hline
       \end{array}
-      $$
+      $$$$
     Back: |
       $5^\circ$F/h.
     Annotations: ''
-- id: 1546915008871
+- id: 1547151340240
   fields:
     Front: |
       CCAC 02.6 53: Determine whether $f'(0)$ exists.
-      $$
+      $$$$
       f(x) =
       \begin{cases}
         x\sin\frac{1}{x} & \text{if $x \ne 0$)} \\
         0 & \text{if $x = 0$)} \\
       \end{cases}
-      $$
+      $$$$
     Back: |
       Does not exist.
     Annotations: ''
