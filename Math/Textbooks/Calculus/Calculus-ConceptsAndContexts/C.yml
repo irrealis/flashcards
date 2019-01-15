@@ -38,6 +38,20 @@ notes:
       \end{align}
       $$$$
     Annotations: ''
+- id: 1547063891256
+  fields:
+    Front: |
+      CCAC C 00c: State three critical trigonometric **subtraction formulae**.
+    Back: |
+      For any real numbers $x$ and $y$,
+      $$$$
+      \begin{align}
+        \sin(x - y) &= \sin x \cos y - \cos x \sin y \\
+        \cos(x - y) &= \cos x \cos y + \sin x \sin y \\
+        \tan(x - y) &= \frac{\tan x - \tan y}{1 + \tan x \tan y}
+      \end{align}
+      $$$$
+    Annotations: ''
 - id: 1547063910221
   tags: []
   fields:
