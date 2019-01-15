@@ -19,3 +19,14 @@ notes:
       \frac{d}{dx} (c) = 0
       $$$$
     Annotations: ''
+- id: 1547241826858
+  fields:
+    Front: |
+      CCAC 03.01 00b: State the **General Power Rule** of differentiation.
+    Back: |
+      If $n$ is any real number, then
+      $$$$
+      \frac{d}{dx} (x^n) = nx^{n-1}
+      $$$$
+    Annotations: ''
+  tags: []
