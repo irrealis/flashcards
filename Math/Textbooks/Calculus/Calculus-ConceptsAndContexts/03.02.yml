@@ -290,3 +290,16 @@ notes:
       $\frac{1}{4}$.
     Annotations: ''
   tags: []
+- id: 1547251399796
+  fields:
+    Front: |
+      CCAC 03.02 41: Suppose that $f(5) = 1$, $f'(5) = 6$, $g(5) = -3$, and $g'(5) = 2$. Find the following values.
+      (a) $(fg)'(5)$
+      (b) $(f/g)'(5)$
+      (c) $(g/f)'(5)$
+    Back: |
+      (a) $-16$
+      (b) $-\frac{20}{9}$
+      (c) $20$
+    Annotations: ''
+  tags: []
