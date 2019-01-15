@@ -40,3 +40,14 @@ notes:
       $1 - 2x + 6x^2 - 8x^3$.
     Annotations: ''
   tags: []
+- id: 1547243055796
+  fields:
+    Front: |
+      CCAC 03.02 03: Differentiate.
+      $$$$
+      f(x) = (x^3 + 2x)e^x
+      $$$$
+    Back: |
+      $(x^3 + 3x^2 + 2x + 2)e^x$.
+    Annotations: ''
+  tags: []
