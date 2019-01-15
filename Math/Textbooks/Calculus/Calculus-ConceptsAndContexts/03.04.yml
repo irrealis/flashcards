@@ -283,3 +283,14 @@ notes:
       $e^{\alpha x} [(\alpha^2 - \beta^2)\sin \beta x + 2\alpha\beta\cos \beta x]$
     Annotations: ''
   tags: []
+- id: 1547509778720
+  fields:
+    Front: |
+      CCAC 03.04 41: Find an equation of the tangent line to the curve at the given point.
+      $$$$
+      y = (1 + 2x)^{10}, \quad (0, 1)
+      $$$$
+    Back: |
+      $y = 20x + 1$
+    Annotations: ''
+  tags: []
