@@ -155,3 +155,16 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547507879597
+  fields:
+    Front: |
+      CCAC 03.04 21: Find the derivative of the function.
+      $$$$
+      y = e^{x \cos x}
+      $$$$
+    Back: |
+      $$$$
+      y' = (\cos x - x\sin x)e^{x \cos x}
+      $$$$
+    Annotations: ''
+  tags: []
