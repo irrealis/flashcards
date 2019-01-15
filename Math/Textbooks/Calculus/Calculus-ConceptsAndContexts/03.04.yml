@@ -550,3 +550,14 @@ notes:
       $y = -x$
     Annotations: ''
   tags: []
+- id: 1547513972446
+  fields:
+    Front: |
+      CCAC 03.04 81: Find an equation of the tangent line to the curve at the point corresponding to the given value of the parameter.
+      $$$$
+      x = e^{\sqrt{t}}, \quad y = t - \ln t^2; \quad t = 1
+      $$$$
+    Back: |
+      $y = -(2/e)x + 3$
+    Annotations: ''
+  tags: []
