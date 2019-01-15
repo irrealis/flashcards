@@ -116,3 +116,16 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547243911700
+  fields:
+    Front: |
+      CCAC 03.02 15: Differentiate.
+      $$$$
+      y = (r^2 - 2r)e^r
+      $$$$
+    Back: |
+      $$$$
+      y' = (r^2 - 2)e^r
+      $$$$
+    Annotations: ''
+  tags: []
