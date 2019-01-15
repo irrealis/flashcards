@@ -208,3 +208,23 @@ notes:
       $(\pi / 3, 5 \pi / 3)$
     Annotations: ''
   tags: []
+- id: 1547503874221
+  media:
+  - path: ${file_dir}/images/CCAC-03.03-35.1.jpg
+  fields:
+    Front: >
+      CCAC 03.03 35: A mass on a spring vibrates horizontally on a smooth level surface
+      (see the figure). Its equation of motion is $x(t) = 8 \sin t$, where $t$ is
+      in seconds and $x$ is in centimeters.
+
+      (a) Find the velocity and acceleration at time $t$.
+
+      (b) Find the position, velocity, and acceleration of the mass at time $t = 2
+      \pi / 3$. In what direction is it moving at that time?
+
+      ![](CCAC-03.03-35.1.jpg)
+    Back: |
+      (a) $v(t) = 8 \cos t$; $a(t) = -8 \sin t$.
+      (b) $4\sqrt{3}$; $-4$; $-4 \sqrt{3}$; to the left.
+    Annotations: ''
+  tags: []
