@@ -117,3 +117,19 @@ notes:
     Back: |
       ![](CCAC-02.7-11R.jpg)
     Annotations: ''
+- id: 1547176065775
+  media:
+  - path: ${file_dir}/images/02.7-13.jpg
+    name: CCAC-02.7-13.jpg
+  - path: ${file_dir}/images/02.7-13R.jpg
+    name: CCAC-02.7-13R.jpg
+  fields:
+    Front: >
+      CCAC 02.7 13: The graph shows how the average age of first marriage of Japanese
+      men varied in the last half of the 20th century. Sketch the graph of the derivative
+      function $M'(t)$. During which years was the derivative negative?
+
+      ![](CCAC-02.7-13.jpg)
+    Back: |
+      ![](CCAC-02.7-13R.jpg)
+    Annotations: ''
