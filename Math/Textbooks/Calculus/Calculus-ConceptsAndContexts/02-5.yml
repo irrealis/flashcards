@@ -86,6 +86,17 @@ notes:
     Back: |
       $-\infty$
     Annotations: ''
+- id: 1547149264396
+  fields:
+    Front: |
+      CCAC 02.5 03d: For the function $f$ whose graph is given, state the following:
+      $$$$
+      \lim_{x \to \infty} f(x)
+      $$$$
+      ![](CCAC-02.5-03.jpg)
+    Back: |
+      $1$
+    Annotations: ''
 - id: 1547149265157
   useMarkdown: pweave
   fields:
