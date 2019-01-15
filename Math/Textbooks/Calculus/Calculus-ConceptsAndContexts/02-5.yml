@@ -116,6 +116,21 @@ notes:
     Back: |
       $x = -1$, $x = 2$, $y = 1$; $y = 2$.
     Annotations: ''
+- id: 1547149264699
+  media:
+  - path: ${file_dir}/images/02.5-05.jpg
+    name: CCAC-02.5-05.jpg
+  fields:
+    Front: |
+      CCAC 02.5 05: Sketch the graph of an example of a function $f$ that satisfies all of the given conditions.
+      $$$$
+      \lim_{x \to 0} f(x) = \infty, \quad
+      \lim_{x \to -\infty} f(x) = 5, \quad
+      \lim_{x \to \infty} f(x) = -5
+      $$$$
+    Back: |
+      ![](CCAC-02.5-05.jpg)
+    Annotations: ''
 - id: 1547149265157
   useMarkdown: pweave
   fields:
