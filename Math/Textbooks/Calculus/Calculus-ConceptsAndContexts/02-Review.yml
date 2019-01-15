@@ -216,3 +216,30 @@ notes:
     Back: |
       $1$
     Annotations: ''
+- id: 1547231975721
+  useMarkdown: pweave
+  media:
+  - path: ${file_dir}/images/CCAC-02.Review-23.1.jpg
+  fields:
+    Front: |
+      CCAC 02.Review, Exercise 23: Let
+      $$$$
+      f(x) =
+      \begin{cases}
+        \sqrt{-x} & \text{if $x < 0$} \\
+        3 - x & \text{if $0 \le x < 3$} \\
+        (x - 3)^2 & \text{if $x > 3$} \\
+      \end{cases}
+      $$$$
+      (a) Evaluate each limit, if it exists.
+      $\quad$ (i)  $\lim_{x \to 0^+} f(x)$; (ii) $\lim_{x \to 0^-} f(x)$; (iii) $\lim_{x \to 0} f(x)$
+      $\quad$ (iv)  $\lim_{x \to 3^-} f(x)$; (v) $\lim_{x \to 3^+} f(x)$; (vi) $\lim_{x \to 3} f(x)$
+      (b) Where is $f$ discontinuous?
+      (c) Sketch the graph of $f$.
+    Back: |
+      (a) (i) 3; (ii) 0; (iii) Does not exist; (iv) 0; (v) 0; (vi) 0.
+      (b) At 0 and 3.
+      (c)
+      ![](CCAC-02.Review-23.1.jpg)
+    Annotations: ''
+  tags: []
