@@ -122,3 +122,16 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547241827848
+  fields:
+    Front: |
+      CCAC 03.01 07: Differentiate the function.
+      $$$$
+      f(x) = x^3 - 4x + 6
+      $$$$
+    Back: |
+      $$$$
+      f'(x) = 3x^2 - 4
+      $$$$
+    Annotations: ''
+  tags: []
