@@ -356,3 +356,14 @@ notes:
     Annotations: ''
   tags:
   - requiresCoding
+- id: 1547241829841
+  fields:
+    Front: |
+      CCAC 03.01 41: Find the first and second derivatives of the function.
+      $$$$
+      f(x) = 10x^{10} + 5x^5 - x
+      $$$$
+    Back: |
+      $f'(x) = 100x^9 + 25x^4 - 1$, $f''(x) = 900x^8 + 100x^3$.
+    Annotations: ''
+  tags: []
