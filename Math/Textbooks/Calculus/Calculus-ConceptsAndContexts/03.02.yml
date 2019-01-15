@@ -129,3 +129,16 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547243993172
+  fields:
+    Front: |
+      CCAC 03.02 17: Differentiate.
+      $$$$
+      y = \frac{v^3 - 2v\sqrt{v}}{v}
+      $$$$
+    Back: |
+      $$$$
+      y' = 2v - \frac{1}{\sqrt{v}}
+      $$$$
+    Annotations: ''
+  tags: []
