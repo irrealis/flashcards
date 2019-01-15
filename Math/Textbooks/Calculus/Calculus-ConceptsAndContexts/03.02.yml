@@ -418,3 +418,18 @@ notes:
       (c) $3e^{ex}$.
     Annotations: ''
   tags: []
+- id: 1547253203036
+  fields:
+    Front: >
+      CCAC 03.02 59: Find an expression for the first five derivatives of $f(x) =
+      x^2e^x$. Do you see a pattern in these expressions? Guess a formula for $f^{(n)}(x)$,
+      and prove it using mathematical induction.
+    Back: |
+      $f'(x) = (x^2 + 2x)e^x$
+      $f''(x) = (x^2 + 4x + 2)e^x$
+      $f'''(x) = (x^2 + 6x + 6)e^x$
+      $f^{(4)}(x) = (x^2 + 8x + 12)e^x$
+      $f^{(5)}(x) = (x^2 + 10x + 20)e^x$
+      $f^{(n)}(x) = (x^2 + 2nx + n(n-1))e^x$
+    Annotations: ''
+  tags: []
