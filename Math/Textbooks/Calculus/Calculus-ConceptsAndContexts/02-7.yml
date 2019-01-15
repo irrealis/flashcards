@@ -21,3 +21,30 @@ notes:
       $$$$
       given any number $x$ for which this limit exists.
     Annotations: ''
+- id: 1547176064696
+  media:
+  - path: ${file_dir}/images/02.7-01.jpg
+    name: CCAC-02.7-01.jpg
+  - path: ${file_dir}/images/02.7-01R.jpg
+    name: CCAC-02.7-01R.jpg
+  fields:
+    Front: |
+      CCAC 02.7 01: Use the given graph to estimate the value of each derivative.
+      (a) $f'(-3)$
+      (b) $f'(-2)$
+      (c) $f'(-1)$
+      (d) $f'(0)$
+      (e) $f'(1)$
+      (f) $f'(2)$
+      (g) $f'(3)$
+      ![](CCAC-02.7-01.jpg)
+    Back: |
+      (a) $-0.2$
+      (b) $0$
+      (c) $1$
+      (d) $2$
+      (e) $1$
+      (f) $0$
+      (g) $-0.2$
+      ![](CCAC-02.7-01R.jpg)
+    Annotations: ''
