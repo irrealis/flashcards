@@ -125,6 +125,20 @@ notes:
       \lim_{x \to a} f(x) \le \lim_{x \to a} g(x).
       $$$$
     Annotations: ''
+- id: 1547081316771
+  fields:
+    Front: |
+      CCAC 02.3 00g: State the Squeeze Theorem.
+    Back: |
+      If $f(x) \le g(x) \le h(x)$ when $x$ is near $a$, and
+      $$$$
+      \lim_{x \to a} f(x) = \lim_{x \to a} h(x) = L
+      $$$$
+      then
+      $$$$
+      \lim_{x \to a} g(x) = L.
+      $$$$
+    Annotations: ''
 - id: 1547081316871
   tags: []
   fields:
