@@ -1,0 +1,11 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Calculus-ConceptsAndContexts
+  - CCAC-02-LimitsAndDerivatives
+  - CCAC-02.7-TheDerivativeAsAFunction
+  markdownTabLength: 2
