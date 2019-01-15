@@ -62,3 +62,16 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547502312472
+  fields:
+    Front: |
+      CCAC 03.03 07: Differentiate:
+      $$$$
+      y = c \cos t + t^2 \sin t
+      $$$$
+    Back: |
+      $$$$
+      y' = -c \sin t + t(t \cos t + 2 \sin t)
+      $$$$
+    Annotations: ''
+  tags: []
