@@ -48,3 +48,20 @@ notes:
       (g) $-0.2$
       ![](CCAC-02.7-01R.jpg)
     Annotations: ''
+- id: 1547176064918
+  media:
+  - path: ${file_dir}/images/02.7-03.jpg
+    name: CCAC-02.7-03.jpg
+  - path: ${file_dir}/images/02.7-03b.jpg
+    name: CCAC-02.7-03b.jpg
+  fields:
+    Front: |
+      CCAC 02.7 03: Match the graph of each function in (a)-(d) with the graph of its derivative in I-IV. Give reasons for your choices.
+      ![](CCAC-02.7-03.jpg)
+      ![](CCAC-02.7-03b.jpg)
+    Back: |
+      (a) II
+      (b) IV
+      (c) I
+      (d) III
+    Annotations: ''
