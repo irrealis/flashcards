@@ -244,3 +244,13 @@ notes:
     Back: |
       $G'(t) = \frac{4}{(t + 1)^2}$, $(-\infty, -1) \cup (-1, \infty)$, $(-\infty, -1) \cup (-1, \infty)$
     Annotations: ''
+- id: 1547176070671
+  fields:
+    Front: |
+      CCAC 02.7 29: Find the derivative of the function using the definition of derivative. State the domain of the function and the domain of its derivative.
+      $$
+      f(x) = x^4
+      $$
+    Back: |
+      $f'(x) = 4x^3$, $\mathbb{R}$, $\mathbb{R}$
+    Annotations: ''
