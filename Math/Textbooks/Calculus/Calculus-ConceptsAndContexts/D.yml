@@ -39,6 +39,20 @@ notes:
       \lim_{x \to \infty} f(x) = L.
       $$$$
     Annotations: ''
+- id: 1547063926473
+  fields:
+    Front: |
+      CCAC D 00c: Define the **limit of a sequence ${a_n}$**.
+    Back: |
+      If for every real $\epsilon > 0$ there is a corresponding integer $N$ such that
+      $$$$
+      n > N \implies |a_n - L| < \epsilon
+      $$$$
+      then $L$ is the **limit of ${a_n}$,** denoted by
+      $$$$
+      \lim_{n \to \infty} a_n = L \quad \text{or} \quad a_n \to L \; \text{as} \; n \to \infty.
+      $$$$
+    Annotations: ''
 - id: 1547063926746
   useMarkdown: pweave
   tags: []
