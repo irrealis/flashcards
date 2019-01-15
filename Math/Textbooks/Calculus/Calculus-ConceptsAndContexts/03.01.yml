@@ -52,3 +52,14 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547241827196
+  fields:
+    Front: |
+      CCAC 03.01 00e: State the **Definition of the Number $e$**.
+    Back: |
+      $e$ is the number such that
+      $$$$
+      \lim_{h \to 0} \frac{e^h - 1}{h} = 1
+      $$$$
+    Annotations: ''
+  tags: []
