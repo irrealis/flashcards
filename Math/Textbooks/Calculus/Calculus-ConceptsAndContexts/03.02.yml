@@ -401,3 +401,20 @@ notes:
       $1$.
     Annotations: ''
   tags: []
+- id: 1547252944595
+  fields:
+    Front: |
+      CCAC 03.02 57:
+      (a) Use the Product Rule twice to prove that if $f$, $g$, and $h$ are differentiable, then
+      $$$$
+      (fgh)' = f'gh + fg'h + fgh'
+      $$$$
+      (b) Taking $f = g = h$ in part (a), show that
+      $$$$
+      \frac{d}{dx}[f(x)]^3 = 3[f(x)]^2f'(x)
+      $$$$
+      (c) Use part (b) to differentiate $y = e^{3x}$.
+    Back: |
+      (c) $3e^{ex}$.
+    Annotations: ''
+  tags: []
