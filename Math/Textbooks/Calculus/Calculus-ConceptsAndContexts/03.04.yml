@@ -294,3 +294,14 @@ notes:
       $y = 20x + 1$
     Annotations: ''
   tags: []
+- id: 1547509850397
+  fields:
+    Front: |
+      CCAC 03.04 43: Find an equation of the tangent line to the curve at the given point.
+      $$$$
+      y = \sin(\sin x), \quad (\pi, 0)
+      $$$$
+    Back: |
+      $y = -x + \pi$
+    Annotations: ''
+  tags: []
