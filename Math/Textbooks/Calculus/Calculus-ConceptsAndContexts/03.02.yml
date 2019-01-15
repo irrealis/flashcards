@@ -90,3 +90,16 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547243701996
+  fields:
+    Front: |
+      CCAC 03.02 11: Differentiate.
+      $$$$
+      y = \frac{x^3}{1 - x^2}
+      $$$$
+    Back: |
+      $$$$
+      y' = 2v - \frac{1}{\sqrt{v}}
+      $$$$
+    Annotations: ''
+  tags: []
