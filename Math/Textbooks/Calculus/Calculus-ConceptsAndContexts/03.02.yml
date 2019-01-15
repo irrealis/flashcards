@@ -233,3 +233,18 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547250709950
+  media:
+  - path: ${file_dir}/images/CCAC-03.02-33.1.jpg
+  fields:
+    Front: |
+      CCAC 03.02 33:
+      (a) The curve $y = 1/(1 + x^2)$ is called a **witch of Maria Agnesi**. Find an equation of the tangent line to this curve at the point $(-1, \frac{1}{2})$.
+      (b) Illustrate part (a) by graphing the curve and the tangent line on the same screen.
+    Back: |
+      (a) $y = \frac{1}{2}x + 1$.
+      (b)
+      ![](CCAC-03.02-33.1.jpg)
+    Annotations: ''
+  tags:
+  - requiresCoding
