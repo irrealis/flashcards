@@ -296,3 +296,16 @@ notes:
     Annotations: ''
   tags:
   - requiresCoding
+- id: 1547231977314
+  useMarkdownMathExt: false
+  fields:
+    Front: |
+      CCAC 02.Review, Exercise 33: The total cost of repaying a student loan at an interest rate of \\(r\\)% per year is \\(C = f(r)\\).
+      (a) What is the meaning of the derivative \\(f'(r)\\)? What are its units?
+      (b) What does the statement \\(f'(10) = 1200\\) mean?
+      (c) Is \\(f'(r)\\) always positive, or does it change sign?
+    Back: |
+      (a) The rate at which the cost changes with respect to the interest rate; dollars/(percent per year).
+      (b) As the interest rate increases past 10%, the cost is increasing at a rate of $1200/(percent per year).
+      (c) Always positive.
+    Annotations: ''
