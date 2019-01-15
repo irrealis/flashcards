@@ -271,3 +271,15 @@ notes:
       $y'' = -4x^2\cos(x^2) - 2\sin(x^2)$
     Annotations: ''
   tags: []
+- id: 1547509677321
+  fields:
+    Front: |
+      CCAC 03.04 39: Find $y'$ and $y''$.
+      $$$$
+      y = e^{\alpha x} \sin \beta x
+      $$$$
+    Back: |
+      $e^{\alpha x} (\beta \cos \beta x + \alpha \sin \beta x)$
+      $e^{\alpha x} [(\alpha^2 - \beta^2)\sin \beta x + 2\alpha\beta\cos \beta x]$
+    Annotations: ''
+  tags: []
