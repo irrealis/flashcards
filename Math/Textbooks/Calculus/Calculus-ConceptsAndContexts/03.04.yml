@@ -168,3 +168,16 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547507957271
+  fields:
+    Front: |
+      CCAC 03.04 23: Find the derivative of the function.
+      $$$$
+      y = \left( \frac{x^2 + 1}{x^2 - 1} \right)^3
+      $$$$
+    Back: |
+      $$$$
+      y' = \frac{-12x(x^2 + 1)^2}{(x^2 - 1)^4}
+      $$$$
+    Annotations: ''
+  tags: []
