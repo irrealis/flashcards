@@ -70,3 +70,12 @@ notes:
     Back: |
       $f''(1)$.
     Annotations: ''
+- id: 1547213341321
+  fields:
+    Front: >
+      CCAC 02.8 09: The president announces that the national deficit is increasing,
+      but at a decreasing rate. Interpret this statement in terms of a function and
+      its derivatives.
+    Back: |
+      If $D(t)$ is the size of the deficit as a function of time, then at the time of the speech $D'(t) > 0$, but $D''(t) < 0$.
+    Annotations: ''
