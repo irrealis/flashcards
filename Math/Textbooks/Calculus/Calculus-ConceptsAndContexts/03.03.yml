@@ -49,3 +49,16 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547502202223
+  fields:
+    Front: |
+      CCAC 03.03 05: Differentiate:
+      $$$$
+      y = \sec \theta \tan \theta
+      $$$$
+    Back: |
+      $$$$
+      y' = \sec \theta \; (\sec^2 \theta + \tan^2 \theta)
+      $$$$
+    Annotations: ''
+  tags: []
