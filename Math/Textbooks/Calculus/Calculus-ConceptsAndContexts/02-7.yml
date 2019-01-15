@@ -254,3 +254,17 @@ notes:
     Back: |
       $f'(x) = 4x^3$, $\mathbb{R}$, $\mathbb{R}$
     Annotations: ''
+- id: 1547176070816
+  fields:
+    Front: |
+      CCAC 02.7 31:
+      (a) Use the definition of derivative to calculate $f'$.
+      (b) Check to see that your answer is reasonable by comparing the graphs of $f$ and $f'$.
+      $$
+      f(x) = x^4 + 2x
+      $$
+    Back: |
+      (a) $f'(x) = 4x^3 + 2$
+    Annotations: ''
+  tags:
+  - requiresCoding
