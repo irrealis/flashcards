@@ -518,3 +518,24 @@ notes:
       $dv/dt$ is the rate of change of velocity with respect to time; $dv/ds$ is the rate of change of velocity with respect to displacement.
     Annotations: ''
   tags: []
+- id: 1547513487121
+  fields:
+    Front: |
+      CCAC 03.04 77: The flash unit on a camera operates by storing charge on a capacitor and releasing it suddenly when the flash is set off. The following data describe the charge $Q$ remaining on the capacitor (measured in microcoulombs, $\mu\text{C}$) at time $t$ (measured in seconds).
+      $$$$
+      \begin{array}{|c|c|c|c|c|c|c|}
+      \hline
+      t & 0.00 & 0.02 & 0.04 & 0.06 & 0.08 & 0.10 \\
+      \hline
+      Q & 100.00 & 81.87 & 67.03 & 54.88 & 44.93 & 36.76 \\
+      \hline
+      \end{array}
+      $$$$
+      (a) Use a graphing calculator or computer to find an exponential model for the charge.
+      (b) The derivative $Q'(t)$ represents the electric current (measured in microamperes, $\mu\text{A}$) flowing from the capacitor to the flash bulb. Use part (a) to estimate the current when $t = 0.04 \; \text{s}$. Compare with result of CCAC-2.1 Example 2.
+    Back: |
+      (a) $Q = ab^t$, where $a \approx 100.012437$, $b \approx 0.0000451459$
+      (b) $-670.63\; \mathrm{\mu A}$
+    Annotations: ''
+  tags:
+  - requiresCoding
