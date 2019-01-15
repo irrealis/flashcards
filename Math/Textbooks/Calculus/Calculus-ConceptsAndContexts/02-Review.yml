@@ -157,3 +157,13 @@ notes:
     Back: |
       $\infty$
     Annotations: ''
+- id: 1547231974947
+  fields:
+    Front: |
+      CCAC 02.Review, Exercise 11: Find the limit.
+      $$$$
+      \lim_{u \to 1} \frac{u^4 - 1}{u^3 + 5u^2 - 6u}
+      $$$$
+    Back: |
+      $\frac{4}{7}$
+    Annotations: ''
