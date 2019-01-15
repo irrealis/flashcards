@@ -30,3 +30,13 @@ notes:
       \left( \frac{f}{g} \right)' = \frac{gf' - fg'}{g^2}
       $$$$
     Annotations: ''
+- id: 1547242828608
+  fields:
+    Front: >
+      CCAC 03.02 01: Find the derivative of $f(x) = (1 + 2x^2)(x - x^2)$ in two ways:
+      by using the Product Rule, and by performing multiplication first. Do your answers
+      agree?
+    Back: |
+      $1 - 2x + 6x^2 - 8x^3$.
+    Annotations: ''
+  tags: []
