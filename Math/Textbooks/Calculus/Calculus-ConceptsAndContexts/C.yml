@@ -9,6 +9,21 @@ defaults:
   - Calculus-ConceptsAndContexts
   - CCAC-C-Trigonometry
 notes:
+- id: 1547063891046
+  fields:
+    Front: |
+      CCAC C 00a: State three critical trigonometric **Pythagorean identities**.
+    Back: |
+      For any real number $\theta$,
+      $$$$
+      \begin{align}
+        \sin^2 \theta + \cos^2 \theta &= 1 \\
+        \tan^2 \theta + 1 &= \sec^2 \theta \\
+        1 + \cot^2 \theta &= \csc^2 \theta \\
+      \end{align}
+      $$$$
+    Annotations: ''
+  tags: []
 - id: 1547063910221
   tags: []
   fields:
