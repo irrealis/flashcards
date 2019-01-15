@@ -334,3 +334,11 @@ notes:
     Annotations: ''
   tags:
   - requiresCoding
+- id: 1547510317796
+  fields:
+    Front: |
+      CCAC 03.04 49: Find all points on the graph of the function $f(x) = 2\sin x + \sin^2 x$ at which the tangent line is horizontal.
+    Back: |
+      $((\pi/2)) + 2n\pi, 3)$, $((3\pi/2) + 2n\pi, -1)$, $n$ an integer.
+    Annotations: ''
+  tags: []
