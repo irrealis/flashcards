@@ -9,3 +9,16 @@ defaults:
   - CCAC-02-LimitsAndDerivatives
   - CCAC-02.Review
   markdownTabLength: 2
+notes:
+- id: 1547231973121
+  fields:
+    Front: |
+      CCAC 02.Review, True-False 01: Determine whether the statement is true or false.
+      $$$$
+      \lim_{x \to 4} \left( \frac{2x}{x-4} - \frac{8}{x-4} \right)
+      =
+      \lim_{x \to 4} \frac{2x}{x-4} - \lim_{x \to 4} \frac{8}{x-4}
+      $$$$
+    Back: |
+      False
+    Annotations: ''
