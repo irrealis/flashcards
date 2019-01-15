@@ -9,3 +9,13 @@ defaults:
   - CCAC-03-DifferentiationRules
   - CCAC-03.01-DerivativesOfPolynomialsAndExponentialFunctions
   markdownTabLength: 2
+notes:
+- id: 1547241826746
+  fields:
+    Front: |
+      CCAC 03.01 00a: What is the **Derivative of a Constant Function?**.
+    Back: |
+      $$$$
+      \frac{d}{dx} (c) = 0
+      $$$$
+    Annotations: ''
