@@ -9,3 +9,19 @@ defaults:
   - CCAC-03-DifferentiationRules
   - CCAC-03.04-TheChainRule
   markdownTabLength: 2
+notes:
+- id: 1547506009971
+  fields:
+    Front: |
+      CCAC 03.04 00a: State the **Chain Rule** of differentiation.
+    Back: |
+      If $g$ is differentiable at $x$, and $f$ is differentiable at $g(x)$, then the composite function $F = f \circ g$ is differentiable at $x$, and $F'$ is given by the product
+      $$$$
+      F'(x) = f'(g(x)) \cdot g'(x).
+      $$$$
+      In Leibniz notation, if $y = f(u)$ and $u = g(x)$ are both differentiable functions, then
+      $$$$
+      \frac{dy}{dx} = \frac{dy}{du} \frac{du}{dx}.
+      $$$$
+    Annotations: ''
+  tags: []
