@@ -109,3 +109,16 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547241827746
+  fields:
+    Front: |
+      CCAC 03.01 05: Differentiate the function.
+      $$$$
+      f(t) = 2 - \frac{2}{3}t
+      $$$$
+    Back: |
+      $$$$
+      f'(t) = -\frac{2}{3}
+      $$$$
+    Annotations: ''
+  tags: []
