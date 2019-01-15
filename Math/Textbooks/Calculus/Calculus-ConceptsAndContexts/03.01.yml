@@ -41,3 +41,14 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547241827092
+  fields:
+    Front: |
+      CCAC 03.01 00d: State the **Sum Rule** of differentiation.
+    Back: |
+      If $f$ and $g$ are both differentiable, then
+      $$$$
+      (f + g)' = f' + g'
+      $$$$
+    Annotations: ''
+  tags: []
