@@ -174,3 +174,16 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547241828275
+  fields:
+    Front: |
+      CCAC 03.01 15: Differentiate the function.
+      $$$$
+      y = 3e^x + \frac{4}{\sqrt[3]{x}}
+      $$$$
+    Back: |
+      $$$$
+      y' = 3e^x - \frac{4}{3}x^{-4/3}
+      $$$$
+    Annotations: ''
+  tags: []
