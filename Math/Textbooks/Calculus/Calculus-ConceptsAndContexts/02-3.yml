@@ -10,6 +10,37 @@ defaults:
   - CCAC-02.3-CalculatingLimitsUsingTheLimitLaws
   markdownTabLength: 2
 notes:
+- id: 1547081315996
+  fields:
+    Front: |
+      CCAC 02.3 00a: Suppose that $c$ is a constant, and the limits
+      $$$$
+      \lim_{x \to a} f(x) \quad \text{and} \quad \lim_{x \to a} g(x)
+      $$$$
+      exist. State the Limit Laws of Addition, Subtraction, Multiplication, and Division.
+    Back: |
+      Limit Law of Addition:
+      $$$$
+      \lim_{x \to a} [f(x) + g(x)] =
+      \lim_{x \to a} f(x) + \lim_{x \to a} g(x)
+      $$$$
+      Limit Law of Subtraction:
+      $$$$
+      \lim_{x \to a} [f(x) - g(x)] =
+      \lim_{x \to a} f(x) - \lim_{x \to a} g(x)
+      $$$$
+      Limit Law of Multiplication:
+      $$$$
+      \lim_{x \to a} [f(x)g(x)] =
+      \lim_{x \to a} f(x) \cdot \lim_{x \to a} g(x)
+      $$$$
+      Limit Law of Division:
+      $$$$
+      \lim_{x \to a} \frac{f(x)}{g(x)} =
+      \frac{ \lim_{x \to a} f(x) }{ \lim_{x \to a} g(x) }, \quad
+      \text{if}\ \lim_{x \to a} g(x) \ne 0
+      $$$$
+    Annotations: ''
 - id: 1547081316871
   tags: []
   fields:
