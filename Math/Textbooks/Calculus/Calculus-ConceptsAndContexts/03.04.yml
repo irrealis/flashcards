@@ -453,3 +453,29 @@ notes:
       $v(t) = \frac{5}{2} \pi \cos(10 \pi t)\; \text{cm/s}$
     Annotations: ''
   tags: []
+- id: 1547512037496
+  fields:
+    Front: >
+      CCAC 03.04 71: A Cepheid variable star is a star whose brightness alternately
+      increases and decreases. The most easily visible such star is Delta Cephei,
+      for which the interval between times of maximum brightness is $5.4$ days. The
+      average brightness of this star is $4.0$, and its brighness changes by $\pm
+      0.35$. In view of these data, the brightness of Delta Cephei at time $t$, where
+      $t$ is measured in days, has been modeled by the function
+
+      $$$$
+
+      B(t) = 4.0 + 0.35 \sin \left( \frac{2 \pi t}{5.4} \right)
+
+      $$$$
+
+      (a) Find the rate of change of the brightness after $t$ days.
+
+      (b) Find, correct to two decimal places, the rate of increase after one day.
+    Back: |
+      (a)
+      $$$$ \frac{dB}{dt} = \frac{7\pi}{54} \cos \frac{2\pi t}{5.4}
+      $$$$
+      (b) $0.16$
+    Annotations: ''
+  tags: []
