@@ -103,3 +103,16 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547507511571
+  fields:
+    Front: |
+      CCAC 03.04 13: Find the derivative of the function.
+      $$$$
+      y = \cos(a^3 + x^3)
+      $$$$
+    Back: |
+      $$$$
+      y' = -3x^2 \sin(a^3 + x^3)
+      $$$$
+    Annotations: ''
+  tags: []
