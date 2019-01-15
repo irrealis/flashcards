@@ -284,3 +284,34 @@ notes:
       $\frac{1}{2}$.
     Annotations: ''
   tags: []
+- id: 1547504783471
+  fields:
+    Front: |
+      CCAC 03.03 47: Differentiate each trigonometric identity to obtain a new (or familiar) identity.
+      (a)
+      $$$$
+      \tan x = \frac{\sin x}{\cos x}
+      $$$$
+      (b)
+      $$$$
+      \sec x = \frac{1}{\cos x}
+      $$$$
+      (c)
+      $$$$
+      \sin x + \cos x = \frac{1 + \cot x}{\csc x}
+      $$$$
+    Back: |
+      (a)
+      $$$$
+      \sec^2 x = \frac{1}{\cos^2 x}
+      $$$$
+      (b)
+      $$$$
+      \sec x \tan x = \frac{\sin x}{\cos^2 x}
+      $$$$
+      (c)
+      $$$$
+      \cos x - \sin x = \frac{\cot x - 1}{\csc x}
+      $$$$
+    Annotations: ''
+  tags: []
