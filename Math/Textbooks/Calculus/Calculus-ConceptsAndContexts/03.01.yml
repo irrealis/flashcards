@@ -400,3 +400,11 @@ notes:
       $(-\infty, \ln 5)$.
     Annotations: ''
   tags: []
+- id: 1547241830348
+  fields:
+    Front: |
+      CCAC 03.01 49: Find the points on the curve $y = 2x^3 + 3x^2 - 12x + 1$ where the tangent is horizontal.
+    Back: |
+      $(-2, 21)$, $(1, -6)$.
+    Annotations: ''
+  tags: []
