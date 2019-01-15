@@ -20,3 +20,13 @@ notes:
       (fg)' = fg' + gf'
       $$$$
     Annotations: ''
+- id: 1547241942052
+  fields:
+    Front: |
+      CCAC 03.02 00b: State the **Quotient Rule** of differentiation.
+    Back: |
+      If $f$ and $g$ are both differentiable, then
+      $$$$
+      \left( \frac{f}{g} \right)' = \frac{gf' - fg'}{g^2}
+      $$$$
+    Annotations: ''
