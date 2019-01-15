@@ -561,3 +561,14 @@ notes:
       $y = -(2/e)x + 3$
     Annotations: ''
   tags: []
+- id: 1547514093932
+  fields:
+    Front: |
+      CCAC 03.04 83: Find the points of the curve where the tangent is horizontal or vertical. If you have a graphing device, graph the curve to check your work.
+      $$$$
+      x = 10 - t^2, \quad y = t^3 - 12 t
+      $$$$
+    Back: |
+      Horizontal at $(6, \pm 16)$, vertical at $(10, 0)$.
+    Annotations: ''
+  tags: []
