@@ -380,3 +380,12 @@ notes:
       $(-3, \infty)$.
     Annotations: ''
   tags: []
+- id: 1547252499198
+  fields:
+    Front: >
+      CCAC 03.02 53: How many tangent lines to the curve $y = x/(x + 1)$ pass through
+      the point $(1,2)$? At which point do these tangent lines touch the curve?
+    Back: |
+      Two, $(-2 \pm \sqrt{3}, \frac{1}{2}(1 \mp \sqrt{3}))$.
+    Annotations: ''
+  tags: []
