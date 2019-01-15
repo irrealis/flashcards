@@ -265,3 +265,14 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547241829021
+  fields:
+    Front: |
+      CCAC 03.01 29: Find equations of the tangent line and normal line to the curve at the given point.
+      $$$$
+      y = x^4 + 2e^x, \quad (0, 2)
+      $$$$
+    Back: |
+      Tangent: $y = 2x + 2$; normal: $y = -\frac{1}{2}x + 2$.
+    Annotations: ''
+  tags: []
