@@ -142,3 +142,16 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547244092127
+  fields:
+    Front: |
+      CCAC 03.02 19: Differentiate.
+      $$$$
+      f(t) = \frac{2t}{2 + \sqrt{t}}
+      $$$$
+    Back: |
+      $$$$
+      f'(t) = \frac{4 + t^{1/2}}{(2 + \sqrt{t})^2}
+      $$$$
+    Annotations: ''
+  tags: []
