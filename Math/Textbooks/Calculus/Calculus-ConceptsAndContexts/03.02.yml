@@ -263,3 +263,22 @@ notes:
     Annotations: ''
   tags:
   - requiresCoding
+- id: 1547251094496
+  media:
+  - path: ${file_dir}/images/CCAC-03.02-37.1.jpg
+  fields:
+    Front: |
+      CCAC 03.02 37:
+      (a) If $f(x) = (x^2 - 1)/(x^2 + 1)$, find $f'(x)$ and $f''(x)$.
+      (b) Check to see that your answer to part (a) is reasonable by comparing the graphs of $f$, $f'$, and $f''(x)$.
+    Back: |
+      (a)
+      $$$$
+      f'(x) = \frac{4x}{(x^2 + 1)^2}; \quad
+      f''(x) = \frac{4(1 - 3x^2)}{(x^2 + 1)^3}
+      $$$$
+      (b)
+      ![](CCAC-03.02-37.1.jpg)
+    Annotations: ''
+  tags:
+  - requiresCoding
