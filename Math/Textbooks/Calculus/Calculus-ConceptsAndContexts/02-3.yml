@@ -10,250 +10,250 @@ defaults:
   - CCAC-02.3-CalculatingLimitsUsingTheLimitLaws
   markdownTabLength: 2
 notes:
-- id: 1546217043671
+- id: 1547081316871
   tags: []
   fields:
     Front: |
       CCAC 02.3 01a: Given that
-      $$
+      $$$$
       \lim_{x\to 2}f(x) = 4,\
       \lim_{x\to 2}g(x) = -2,\
       \lim_{x\to 2}h(x) = 0,\
-      $$
+      $$$$
       find the following limit. If the limit does not exist, explain why.
-      $$
+      $$$$
       \lim_{x\to 2}[f(x)+5g(x)]
-      $$
+      $$$$
     Back: |
       $-6$
     Annotations: ''
-- id: 1546217043875
+- id: 1547081316971
   tags: []
   fields:
     Front: |
       CCAC 02.3 01b: Given that
-      $$
+      $$$$
       \lim_{x\to 2}f(x) = 4,\
       \lim_{x\to 2}g(x) = -2,\
       \lim_{x\to 2}h(x) = 0,\
-      $$
+      $$$$
       find the following limit. If the limit does not exist, explain why.
-      $$
+      $$$$
       \lim_{x\to 2}[g(x)]^3
-      $$
+      $$$$
     Back: |
       $-8$
     Annotations: ''
-- id: 1546217044087
+- id: 1547081317094
   tags: []
   fields:
     Front: |
       CCAC 02.3 01c: Given that
-      $$
+      $$$$
       \lim_{x\to 2}f(x) = 4,\
       \lim_{x\to 2}g(x) = -2,\
       \lim_{x\to 2}h(x) = 0,\
-      $$
+      $$$$
       find the following limit. If the limit does not exist, explain why.
-      $$
+      $$$$
       \lim_{x\to 2}\sqrt{f(x)}
-      $$
+      $$$$
     Back: |
       $2$
     Annotations: ''
-- id: 1546217044330
+- id: 1547081317203
   tags: []
   fields:
     Front: |
       CCAC 02.3 01d: Given that
-      $$
+      $$$$
       \lim_{x\to 2}f(x) = 4,\
       \lim_{x\to 2}g(x) = -2,\
       \lim_{x\to 2}h(x) = 0,\
-      $$
+      $$$$
       find the following limit. If the limit does not exist, explain why.
-      $$
+      $$$$
       \lim_{x\to 2}\frac{3f(x)}{g(x)}
-      $$
+      $$$$
     Back: |
       $-6$
     Annotations: ''
-- id: 1546217044596
+- id: 1547081317349
   tags: []
   fields:
     Front: |
       CCAC 02.3 01e: Given that
-      $$
+      $$$$
       \lim_{x\to 2}f(x) = 4,\
       \lim_{x\to 2}g(x) = -2,\
       \lim_{x\to 2}h(x) = 0,\
-      $$
+      $$$$
       find the following limit. If the limit does not exist, explain why.
-      $$
+      $$$$
       \lim_{x\to 2}\frac{g(x)}{h(x)}
-      $$
+      $$$$
     Back: |
       Does not exist; if it did, it would have to equal
-      $$
+      $$$$
       \frac{\lim_{x\to 2}g(x)}{\lim_{x\to 2}h(x)}
-      $$
+      $$$$
       in which the denominator is zero, because there is no way to cancel the denominator.
     Annotations: ''
-- id: 1546217044855
+- id: 1547081317496
   tags: []
   fields:
     Front: |
       CCAC 02.3 01f: Given that
-      $$
+      $$$$
       \lim_{x\to 2}f(x) = 4,\
       \lim_{x\to 2}g(x) = -2,\
       \lim_{x\to 2}h(x) = 0,\
-      $$
+      $$$$
       find the following limit. If the limit does not exist, explain why.
-      $$
+      $$$$
       \lim_{x\to 2}\frac{g(x)h(x)}{f(x)}
-      $$
+      $$$$
     Back: |
       $0$
     Annotations: ''
-- id: 1546217045075
+- id: 1547081317607
   tags: []
   fields:
     Front: |
       CCAC 02.3 03: Evaluate the limit, and justify each step by indicating the appropriate Limit Law(s).
-      $$
+      $$$$
       \lim_{x\to -2}(3x^4 + 2x^2 - x + 1)
-      $$
+      $$$$
     Back: |
       $59$
     Annotations: ''
-- id: 1546217045340
+- id: 1547081317741
   tags: []
   fields:
     Front: |
       CCAC 02.3 05: Evaluate the limit, and justify each step by indicating the appropriate Limit Law(s).
-      $$
+      $$$$
       \lim_{x\to 8}(1 + \sqrt[3]{x})(2 - 6x^2 + x^3)
-      $$
+      $$$$
     Back: |
       $390$
     Annotations: ''
-- id: 1546217045546
+- id: 1547081317846
   tags: []
   fields:
     Front: |
       CCAC 02.3 07: Evaluate the limit, and justify each step by indicating the appropriate Limit Law(s).
-      $$
+      $$$$
       \lim_{x\to 2}\sqrt{\frac{2x^2 + 1}{3x - 2}}
-      $$
+      $$$$
     Back: |
       $\frac{3}{2}$
     Annotations: ''
-- id: 1546217045804
+- id: 1547081317955
   tags: []
   fields:
     Front: |
       CCAC 02.3 09: Evaluate the limit, if it exists.
-      $$
+      $$$$
       \lim_{x\to 5}\frac{x^2 - 6x + 5}{x - 5}
-      $$
+      $$$$
     Back: |
       $4$
     Annotations: ''
-- id: 1546217045998
+- id: 1547081318072
   tags: []
   fields:
     Front: |
       CCAC 02.3 11: Evaluate the limit, if it exists.
-      $$
+      $$$$
       \lim_{x\to 5}\frac{x^2 - 5x + 6}{x - 5}
-      $$
+      $$$$
     Back: |
       Does not exist.
     Annotations: ''
-- id: 1546217046335
+- id: 1547081318175
   tags: []
   fields:
     Front: |
       CCAC 02.3 13: Evaluate the limit, if it exists.
-      $$
+      $$$$
       \lim_{t\to -3}\frac{t^2 - 9}{2t^2 + 7t + 3}
-      $$
+      $$$$
     Back: |
       $\frac{6}{5}$
     Annotations: ''
-- id: 1546217046530
+- id: 1547081318271
   tags: []
   fields:
     Front: |
       CCAC 02.3 15: Evaluate the limit, if it exists.
-      $$
+      $$$$
       \lim_{h\to 0}\frac{(4 + h^2) - 16}{h}
-      $$
+      $$$$
     Back: |
       $8$
     Annotations: ''
-- id: 1546217046731
+- id: 1547081318374
   tags: []
   fields:
     Front: |
       CCAC 02.3 17: Evaluate the limit, if it exists.
-      $$
+      $$$$
       \lim_{x\to -2}\frac{x+2}{x^3 + 8}
-      $$
+      $$$$
     Back: |
       $\frac{1}{12}$
     Annotations: ''
-- id: 1546217046922
+- id: 1547081318524
   tags: []
   fields:
     Front: |
       CCAC 02.3 19: Evaluate the limit, if it exists.
-      $$
+      $$$$
       \lim_{x\to -4}\frac{\frac{1}{4} + \frac{1}{x}}{4 + x}
-      $$
+      $$$$
     Back: |
       $-\frac{1}{16}$
     Annotations: ''
-- id: 1546217047137
+- id: 1547081318655
   tags: []
   fields:
     Front: |
       CCAC 02.3 21: Evaluate the limit, if it exists.
-      $$
+      $$$$
       \lim_{x\to 16}\frac{4 - \sqrt{x}}{16x - x^2}
-      $$
+      $$$$
     Back: |
       $\frac{1}{128}$
     Annotations: ''
-- id: 1546217047339
+- id: 1547081318753
   tags: []
   fields:
     Front: |
       CCAC 02.3 23: Evaluate the limit, if it exists.
-      $$
+      $$$$
       \lim_{t\to 0}\left(\frac{1}{t\sqrt{1 + t}} - \frac{1}{t}\right)
-      $$
+      $$$$
     Back: |
       $-\frac{1}{2}$
     Annotations: ''
-- id: 1546217047596
+- id: 1547081318915
   tags:
   - requiresCoding
   fields:
     Front: |
       CCAC 02.3 25:
       a. Estimate the value of
-      $$
+      $$$$
       \lim_{x\to 0}\frac{x}{\sqrt{1+3x} - 1}
-      $$
+      $$$$
       by  graphing the function $f(x) = x/(\sqrt{1+3x} - 1)$.
-      b. Make a table of values of $f(x)$ for $x$ cloase to $0$, and guess the value of the limit.
+      b. Make a table of values of $f(x)$ for $x$ close to $0$, and guess the value of the limit.
       c. Use the Limit Laws to prove that your guess is correct.
     Back: |
       a. and b.: $\frac{2}{3}$
     Annotations: ''
-- id: 1546217047853
+- id: 1547081319096
   tags: []
   fields:
     Front: |
@@ -261,35 +261,35 @@ notes:
     Back: |
       $7$
     Annotations: ''
-- id: 1546217048110
+- id: 1547081319201
   tags: []
   fields:
     Front: |
       CCAC 02.3 33: Find the limit, if it exists. If the limit does not exist, explain why.
-      $$
+      $$$$
       \lim_{x\to 3}(2x + |x - 3|)
-      $$
+      $$$$
     Back: |
       $6$
     Annotations: ''
-- id: 1546217048345
+- id: 1547081319295
   tags: []
   fields:
     Front: |
       CCAC 02.3 35: Find the limit, if it exists. If the limit does not exist, explain why.
-      $$
+      $$$$
       \lim_{x\to 0^{-}}\left(\frac{1}{x} - \frac{1}{|x|}\right)
-      $$
+      $$$$
     Back: |
       Does not exist.
     Annotations: ''
-- id: 1546217048612
+- id: 1547081319446
   useMarkdown: pweave
   tags: []
   fields:
     Front: |
       CCAC 02.3 37: Let
-      $$
+      $$$$
       g(x) =
       \begin{cases}
         x & \text{if $x<1$} \\
@@ -297,7 +297,7 @@ notes:
         2 - x^2 & \text{if $1 < x \le 2$} \\
         x - 3 & \text{if $2 < x$} \\
       \end{cases}
-      $$
+      $$$$
       Evaluate each of the following, if it exists.
       i. $\lim_{x\to 1^+}g(x)$
       ii. $\lim_{x\to 1}g(x)$
@@ -341,26 +341,26 @@ notes:
       p._backend.show()
       ```
     Annotations: ''
-- id: 1546217055288
+- id: 1547081323196
   tags: []
   fields:
     Front: |
       CCAC 02.3 39:
       a. If the symbol $[[\ ]]$ denotes the greatest integer function defined in CCAC-2.3, Example 9, evaluate:
-      $$
+      $$$$
       \lim_{x\to -2^+}[[x]],\ \lim_{x\to -2}[[x]],\ \lim_{x\to -2.4}[[x]]
-      $$
+      $$$$
       b. If $n$ is an integer, evaluate:
-      $$
+      $$$$
       \lim_{x\to n^-}[[x]],\ \lim_{x\to n^+}[[x]]
-      $$
+      $$$$
       c. For what values of $a$ does $\lim_{x\to a}[[x]]$ exist?
     Back: |
       a. $-2$; does not exist; $-3$
       b. $n-1$, $n$
       c. $a$ is not an integer
     Annotations: ''
-- id: 1546217055588
+- id: 1547081323320
   tags: []
   fields:
     Front: |
@@ -368,14 +368,14 @@ notes:
     Back: |
       $8$
     Annotations: ''
-- id: 1546217055897
+- id: 1547081323420
   tags: []
   fields:
     Front: |
       CCAC 02.3 49: Is there a number $a$ such that
-      $$
+      $$$$
       \lim_{x\to -2}\frac{3x^2 + ax + a + 3}{x^2 + x - 2}
-      $$
+      $$$$
       exists? If so, find the value of $a$ and the value of the limit.
     Back: |
       $15$; $-1$
