@@ -355,3 +355,14 @@ notes:
     Annotations: ''
   tags:
   - requiresCoding
+- id: 1547176075221
+  media:
+  - path: ${file_dir}/images/02.7-41.jpg
+    name: CCAC-02.7-41.jpg
+  fields:
+    Front: |
+      CCAC 02.7 41: The figure shows the graphs of $f$, $f'$, and $f''$. Identify each curve, and explain your choices.
+      ![](CCAC-02.7-41.jpg)
+    Back: |
+      $a = f$, $b = f'$, $c = f''$.
+    Annotations: ''
