@@ -262,3 +262,14 @@ notes:
       $A = -\frac{3}{10}$, $B = -\frac{1}{10}$.
     Annotations: ''
   tags: []
+- id: 1547504521547
+  fields:
+    Front: |
+      CCAC 03.03 43: Use CCAC-03.03 Formula 2 and trigonometric identities to evaluate the limit.
+      $$$$
+      \lim_{t \to 0} \frac{\tan 6t}{\sin 2t}
+      $$$$
+    Back: |
+      $3$.
+    Annotations: ''
+  tags: []
