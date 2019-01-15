@@ -361,3 +361,22 @@ notes:
     Back: |
       The rate at which the total value of US currency in circulation is changing in billions of dollars per year; $22.2 billion/year.
     Annotations: ''
+- id: 1547231978167
+  media:
+  - path: ${file_dir}/images/CCAC-02.Review-43.1.jpg
+  - path: ${file_dir}/images/CCAC-02.Review-43.2.jpg
+  fields:
+    Front: |
+      CCAC 02.Review, Exercise 43: The graph of the derivative $f'$ of a function $f$ is given.
+      (a) On what intervals is $f$ increasing or decreasing?
+      (b) At what value of $x$ does $f$ have a local maximum or minimum?
+      (c) Where is $f$ concave upward or downward?
+      (d) If $f(0) = 0$, sketch a possible graph of $f$.
+      ![](CCAC-02.Review-43.1.jpg)
+    Back: |
+      (a) Increasing on $(-2, 0)$ and $(2, \infty)$; decreasing on $(-\infty, -2)$ and $(0, 2)$.
+      (b) Maximum at $0$; minimum at $-2$ and $2$.
+      (c) Concave upward on $(-\infty, -1)$ and $(1, \infty)$; concave downward on $(-1, 1)$.
+      (d)
+      ![](CCAC-02.Review-43.2.jpg)
+    Annotations: ''
