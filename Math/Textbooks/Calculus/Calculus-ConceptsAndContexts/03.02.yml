@@ -220,3 +220,16 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547250481156
+  fields:
+    Front: |
+      CCAC 03.02 31: Find equations of the tangent line and normal line to the given curve at the specified point.
+      $$$$
+      y = 2xe^x, \quad (0, 0)
+      $$$$
+    Back: |
+      $$$$
+      y = 2x; \quad y = -\frac{1}{2}x
+      $$$$
+    Annotations: ''
+  tags: []
