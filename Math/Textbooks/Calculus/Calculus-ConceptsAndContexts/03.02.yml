@@ -356,3 +356,19 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547252250721
+  useMarkdownMathExt: false
+  fields:
+    Front: >
+      CCAC 03.02 49: In this exercise we estimate the rate at which the total personal
+      income is rising in the Richmond-Petersburg, Virginia, metropolitan area. In
+      1999, the population of this area was 961,400, and the population was increasing
+      at roughly 9200 people per year. The average annual income was $30,593 per capita,
+      and this average was increasing at about $1400 per year (a little above the
+      national average of about $1225 yearly). Use the Product Rule and these figures
+      to estimate the rate at which total personal income was rising in the Richmond-Petersburg
+      area in 1999. Explain the meaning of each term in the Product Rule.
+    Back: |
+      $1.627 billion/year.
+    Annotations: ''
+  tags: []
