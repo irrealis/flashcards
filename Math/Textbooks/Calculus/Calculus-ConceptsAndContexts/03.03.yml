@@ -9,3 +9,17 @@ defaults:
   - CCAC-03-DifferentiationRules
   - CCAC-03.03-DerivativesOfTrigonometricFunctions
   markdownTabLength: 2
+notes:
+- id: 1547253678846
+  fields:
+    Front: |
+      CCAC 03.03 00a: List the six basic **Trigonometric Derivatives.**
+    Back: |
+      $\sin' x = \cos x$
+      $\cos' x = -\sin x$
+      $\tan' x = \sec^2 x$
+      $\csc' x = -\csc x \cot x$
+      $\sec' x = \sec x \tan x$
+      $\cot' x = -\csc^2 x$
+    Annotations: ''
+  tags: []
