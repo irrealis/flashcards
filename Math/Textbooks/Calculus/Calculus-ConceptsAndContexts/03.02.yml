@@ -103,3 +103,16 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547243806325
+  fields:
+    Front: |
+      CCAC 03.02 13: Differentiate.
+      $$$$
+      y = \frac{t^2 + 2}{t^4 - 3t^2 + 1}
+      $$$$
+    Back: |
+      $$$$
+      y' = \frac{2t(-t^4 - 4t^2 + 7)}{(t^4 - 3t^2 + 1)^2}
+      $$$$
+    Annotations: ''
+  tags: []
