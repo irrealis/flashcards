@@ -56,6 +56,16 @@ notes:
       y - y_1 = m(x - x_1)
       $$$$
     Annotations: ''
+- id: 1547063862914
+  fields:
+    Front: |
+      CCAC B 00e: State the Slope-Intercept equation of a line in the $xy$-plane.
+    Back: |
+      An equation of the line having slope $m$ and $y$-intercept $b$ is
+      $$$$
+      y = mx + b
+      $$$$
+    Annotations: ''
 - id: 1547063863427
   fields:
     Front: |
