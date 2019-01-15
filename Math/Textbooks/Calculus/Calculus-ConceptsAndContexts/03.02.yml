@@ -325,3 +325,34 @@ notes:
       (b) $-\frac{2}{3}$.
     Annotations: ''
   tags: []
+- id: 1547251952071
+  fields:
+    Front: |
+      CCAC 03.02 47: If $g$ is a differentiable function, find an expression for the derivative of each of the following functions.
+      (a)
+      $$$$
+      y = xg(x)
+      $$$$
+      (b)
+      $$$$
+      y = \frac{x}{g(x)}
+      $$$$
+      (c)
+      $$$$
+      y = \frac{g(x)}{x}
+      $$$$
+    Back: |
+      (a)
+      $$$$
+      y' = xg'(x) + g(x)
+      $$$$
+      (b)
+      $$$$
+      y' = \frac{g(x) - xg'(x)}{[g(x)]^2}
+      $$$$
+      (c)
+      $$$$
+      y' = \frac{xg'(x) - g(x)}{x^2}
+      $$$$
+    Annotations: ''
+  tags: []
