@@ -134,3 +134,13 @@ notes:
       (e)
       ![](CCAC-02.8-15.2.jpg)
     Annotations: ''
+- id: 1547213341997
+  media:
+  - path: ${file_dir}/images/02.8-17.1.jpg
+    name: CCAC-02.8-17.1.jpg
+  fields:
+    Front: |
+      CCAC 02.8 17: Sketch the graph of a function whose first and second derivatives are always negative.
+    Back: |
+      ![](CCAC-02.8-17.1.jpg)
+    Annotations: ''
