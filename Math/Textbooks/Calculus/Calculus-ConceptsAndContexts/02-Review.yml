@@ -74,3 +74,11 @@ notes:
     Back: |
       True
     Annotations: ''
+- id: 1547231974004
+  fields:
+    Front: |
+      CCAC 02.Review, True-False 15: Determine whether the statement is true or false.
+      If $f$ is continuous at $a$, then $f$ is differentiable at $a$.
+    Back: |
+      False
+    Annotations: ''
