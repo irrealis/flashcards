@@ -305,3 +305,18 @@ notes:
       $y = -x + \pi$
     Annotations: ''
   tags: []
+- id: 1547510020907
+  media:
+  - path: ${file_dir}/images/CCAC-03.04-45.1.jpg
+  fields:
+    Front: |
+      CCAC 03.04 45:
+      (a) Find an equation of the tangent line to the curve $y = 2/(1 + e^{-x})$ at the point $(0, 1)$.
+      (b) Illustrate part (a) by graphing the curve and the tangent line on the same screen.
+    Back: |
+      (a) $y = \frac{1}{2} x + 1$
+      (b)
+      ![](CCAC-03.04-45.1.jpg)
+    Annotations: ''
+  tags:
+  - requiresCoding
