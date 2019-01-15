@@ -38,3 +38,16 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547507068398
+  fields:
+    Front: |
+      CCAC 03.04 03: Write the composite function in the form $f(g(x))$. [Identify the inner function $u = g(x)$ and the outer function $y = f(u)$.] Then find the derivative $dy/dx$.
+      $$$$
+      y = \tan \pi x
+      $$$$
+    Back: |
+      $$$$
+      \pi \sec^2 \pi x
+      $$$$
+    Annotations: ''
+  tags: []
