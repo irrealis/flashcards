@@ -203,3 +203,13 @@ notes:
     Back: |
       $f'(x) = \frac{1}{2}$, $\mathbb{R}$, $\mathbb{R}$
     Annotations: ''
+- id: 1547176070200
+  fields:
+    Front: |
+      CCAC 02.7 21: Find the derivative of the function using the definition of derivative. State the domain of the function and the domain of its derivative.
+      $$
+      f(t) = 5t - 9t^2
+      $$
+    Back: |
+      $f'(t) = 5 - 18t$, $\mathbb{R}$, $\mathbb{R}$
+    Annotations: ''
