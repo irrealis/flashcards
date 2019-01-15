@@ -588,3 +588,21 @@ notes:
       ![](CCAC-03.04-85.1.jpg)
     Annotations: ''
   tags: []
+- id: 1547514602346
+  fields:
+    Front: >
+      CCAC 03.04 87: Computer algebra systems have commands that differentiate functions,
+      but the form of the answer may not be convenient and so further commands may
+      be necessary to simplify the answer.
+
+      (a) Use a CAS to find the derivative in CCAC-3.4 Example 5, and compare with
+      the answer in that example. Then use the simplify command, and compare again.
+
+      (a) Use a CAS to find the derivative in CCAC-3.4 Example 6. What happens if
+      you use the simplify command? What happens if you use the factor command? Which
+      form of the answer would be best for locating horizontal tangents?
+    Back: |
+      (b) The factored form.
+    Annotations: ''
+  tags:
+  - requiresCoding
