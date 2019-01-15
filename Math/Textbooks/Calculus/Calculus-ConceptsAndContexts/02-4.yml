@@ -35,6 +35,16 @@ notes:
       \lim_{x \to a^-} f(x) = f(a).
       $$$$
     Annotations: ''
+- id: 1547147565546
+  fields:
+    Front: |
+      CCAC 02.4 00c: Let $f$ be a function. Define the meaning of "**$f$ is continuous on an interval**".
+    Back: >
+      **$f$ is continuous on an interval** if it is continuous at every number in
+      the interval. (If $f$ is defined only on one side of an endpoint of the interval,
+      we understand _continuous at the endpoint_ to mean _continuous from the right_
+      or _continuous from the left_.)
+    Annotations: ''
 - id: 1547147566296
   fields:
     Front: |
