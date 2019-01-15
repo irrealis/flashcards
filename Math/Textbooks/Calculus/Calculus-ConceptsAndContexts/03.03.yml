@@ -165,3 +165,12 @@ notes:
       (a) $\sec x \tan x - 1$
     Annotations: ''
   tags: []
+- id: 1547503198171
+  fields:
+    Front: |
+      CCAC 03.03 27: If $H(\theta) = \theta \sin \theta$, find $H'(\theta)$ and $H''(\theta)$.
+    Back: |
+      $\theta \cos \theta + \sin \theta$; $2 \cos \theta - \theta \sin \theta$.
+    Annotations: ''
+  tags:
+  - requiresCoding
