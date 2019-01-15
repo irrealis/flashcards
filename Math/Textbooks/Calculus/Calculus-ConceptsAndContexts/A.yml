@@ -9,6 +9,21 @@ defaults:
   - Calculus-ConceptsAndContexts
   - CCAC-A-IntervalsInequalitiesAndAbsoluteValues
 notes:
+- id: 1547063851921
+  fields:
+    Front: |
+      CCAC A 00a: Define the **absolute value** of a real number.
+    Back: |
+      For any real number $a$, the **absolute value** of $a$ is
+      $$$$
+      |a| =
+      \begin{cases}
+        a & \text{if $a \ge 0$} \\
+        -a & \text{if $a < 0$} \\
+      \end{cases}
+      $$$$
+    Annotations: ''
+  tags: []
 - id: 1547063852178
   tags: []
   fields:
