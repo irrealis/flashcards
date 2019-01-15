@@ -213,3 +213,16 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547241828595
+  fields:
+    Front: |
+      CCAC 03.01 21: Differentiate the function.
+      $$$$
+      y = 4\pi^2
+      $$$$
+    Back: |
+      $$$$
+      y' = 0
+      $$$$
+    Annotations: ''
+  tags: []
