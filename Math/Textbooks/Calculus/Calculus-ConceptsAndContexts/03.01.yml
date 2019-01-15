@@ -424,3 +424,13 @@ notes:
       $y = \frac{1}{3}x - \frac{1}{3}$.
     Annotations: ''
   tags: []
+- id: 1547241830696
+  fields:
+    Front: >
+      CCAC 03.01 57: Draw a diagram to show that there are two tangent lines to the
+      parabola $y = x^2$ that pass through the point $(0, -4)$. Find the coordinates
+      of the points where these tangent lines intersect the parabola.
+    Back: |
+      $(\pm 2, 4)$.
+    Annotations: ''
+  tags: []
