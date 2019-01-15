@@ -25,3 +25,16 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547506986946
+  fields:
+    Front: |
+      CCAC 03.04 01: Write the composite function in the form $f(g(x))$. [Identify the inner function $u = g(x)$ and the outer function $y = f(u)$.] Then find the derivative $dy/dx$.
+      $$$$
+      y = \sqrt[3]{1 + 4x}
+      $$$$
+    Back: |
+      $$$$
+      \frac{4}{3 \sqrt[3]{(1 + 4x)^2}}
+      $$$$
+    Annotations: ''
+  tags: []
