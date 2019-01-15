@@ -181,3 +181,16 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547250076981
+  fields:
+    Front: |
+      CCAC 03.02 25: Find $f'(x)$ and $f''(x)$.
+      $$$$
+      f(x) = x^4 e^x
+      $$$$
+    Back: |
+      $$$$
+      (x^4 + 4x^3)e^x; \quad (x^4 + 8x^3 + 12x^2)e^x
+      $$$$
+    Annotations: ''
+  tags: []
