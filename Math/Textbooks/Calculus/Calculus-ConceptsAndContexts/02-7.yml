@@ -171,3 +171,25 @@ notes:
       f'(x) = e^x = f(x)
       $$
     Annotations: ''
+- id: 1547176069946
+  fields:
+    Front: >
+      CCAC 02.7 17: Let $f(x) = x^2$.
+
+      (a) Estimate the values of $f'(0)$, $f'\left(\frac{1}{2}\right)$, $f'(1)$, and
+      $f'(2)$ by using a graphing device to zoom in on the graph of $f$.
+
+      (b) Use symmetry to deduce the values of $f'\left(-\frac{1}{2}\right)$, $f'(-1)$,
+      and $f'(-2)$.
+
+      (c) Use the results from parts (a) and (b) to guess a formula for $f'(x)$.
+
+      (d) Use the definition of derivative to prove that your guess in part (c) is
+      correct.
+    Back: |
+      (a) 0, 1, 2, 4
+      (b) -1, -2, -4
+      (c) $f'(x) = 2x$
+    Annotations: ''
+  tags:
+  - requiresCoding
