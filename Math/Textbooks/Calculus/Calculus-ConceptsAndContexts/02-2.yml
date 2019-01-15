@@ -10,30 +10,30 @@ defaults:
   - CCAC-02.2-TheLimitOfAFunction
   markdownTabLength: 2
 notes:
-- id: 1546217034595
+- id: 1547078083346
   fields:
     Front: |
       CCAC 02.2 07: Sketch the graph of the function, and use it to determine the values of $a$ for which $\lim_{x\to a}{f(x)}$ exists. If it does not exist, explain why.
-      $$
+      $$$$
       f(x) =
       \begin{cases}
         1 + x & \text{if $x<-1$} \\
         x^2 & \text{if $-1\le x<1$} \\
         2-x & \text{if $1\le x$} \\
       \end{cases}
-      $$
+      $$$$
     Back: |
       $\lim_{x\to a}{f(x)}$ exists for all $a$ except $a=-1$.
     Annotations: ''
-- id: 1546217034929
+- id: 1547078083526
   tags:
   - requiresCoding
   fields:
     Front: |
       CCAC 02.2 09: Use the graph of the function
-      $$
+      $$$$
       f(x) = \frac{1}{1+e^{1/x}}
-      $$
+      $$$$
       to state the value of each limit, if it exists. If it does not exist, explain why.
       a. $\lim_{x\to 0^-}f(x)$
       b. $\lim_{x\to 0^+}f(x)$
@@ -43,15 +43,15 @@ notes:
       b. $0$
       c. Does not exist; lower and upper limits don't match.
     Annotations: ''
-- id: 1546217035112
+- id: 1547078083648
   tags:
   - requiresCoding
   fields:
     Front: |
       CCAC 02.2 11: Use the graph of the function
-      $$
+      $$$$
       f(x) = \frac{\sqrt{2 - 2\cos(2x)}}{x}
-      $$
+      $$$$
       to state the value of each limit, if it exists. If it does not exist, explain why.
       a. $\lim_{x\to 0^-}f(x)$
       b. $\lim_{x\to 0^+}f(x)$
@@ -61,53 +61,53 @@ notes:
       b. $2$
       c. Does not exist; lower and upper limits don't match.
     Annotations: ''
-- id: 1546217035312
+- id: 1547078084089
   tags: []
   fields:
     Front: |
       CCAC 02.2 17: Guess the value of the limit (if it exists) by evaluating the function at the given numbers (correct to six decimal places).
-      $$
+      $$$$
       \lim_{x\to 2}\frac{x^2 - 2x}{x^2 - x - 2},
-      $$
+      $$$$
       $x=2.5$, $2.1$, $2.05$, $2.01$, $2.005$, $2.001$, $1.9$, $1.95$, $1.99$, $1.995$, $1.999$
     Back: |
       $\frac{2}{3}$
     Annotations: ''
-- id: 1546217035490
+- id: 1547078084236
   tags: []
   fields:
     Front: |
       CCAC 02.2 19: Guess the value of the limit (if it exists) by evaluating the function at the given numbers (correct to six decimal places).
-      $$
+      $$$$
       \lim_{t\to 0}\frac{e^{5t} - 1}{t},
-      $$
+      $$$$
       $t=\pm 0.5$, $\pm 0.1$, $\pm 0.01$, $\pm 0.001$, $\pm 0.0001$
     Back: |
       $5$
     Annotations: ''
-- id: 1546217035678
+- id: 1547078084381
   tags: []
   fields:
     Front: |
       CCAC 02.2 21: Use a table of values to estimate the value of the limit. If you have a graphing device, use it to confirm your result graphically.
-      $$
+      $$$$
       \lim_{x\to 0}\frac{\sqrt{x+4} - 2}{x}
-      $$
+      $$$$
     Back: |
       $\frac{1}{4}$
     Annotations: ''
-- id: 1546217035811
+- id: 1547078084503
   tags: []
   fields:
     Front: |
       CCAC 02.2 23: Use a table of values to estimate the value of the limit. If you have a graphing device, use it to confirm your result graphically.
-      $$
+      $$$$
       \lim_{x\to 1}\frac{x^6 - 1}{x^{10} - 1}
-      $$
+      $$$$
     Back: |
       $\frac{3}{5}$
     Annotations: ''
-- id: 1546217035943
+- id: 1547078084624
   tags:
   - requiresCoding
   fields:
@@ -118,7 +118,7 @@ notes:
     Back: |
       a. $-1.5$
     Annotations: ''
-- id: 1546217036225
+- id: 1547078084806
   useMarkdown: pweave
   tags:
   - requiresCoding
@@ -145,21 +145,21 @@ notes:
       )
       ```
     Annotations: ''
-- id: 1546217036445
+- id: 1547078087821
   tags: []
   fields:
     Front: |
       CCAC 02.2 29:
       a. Evaluate the function $f(x)=x^2 - (2^x/1000)$ for $x=1$, $0.8$, $0.6$, $0.4$, $0.2$, $0.1$, $0.05$, and guess the value of
-      $$
+      $$$$
       \lim_{x\to 0}\left(x^2 - \frac{2^x}{1000}\right)
-      $$
+      $$$$
       b. Evaluate $f(x)$ for $x=0.04$, $0.02$, $0.01$, $0.005$, $0.003$, and $0.001$. Guess again.
     Back: |
       a. $0.998000$, $0.638259$, $0.358484$, $0.158680$, $0.038851$, $0.008928$, $0.001465$; $0$
       b. $0.00572$, $-0.000614$, $-0.000907$, $-0.000978$, $-0.000993$, $-0.001000$; $-0.001$
     Annotations: ''
-- id: 1546217036659
+- id: 1547078088001
   tags:
   - requiresCoding
   fields:
