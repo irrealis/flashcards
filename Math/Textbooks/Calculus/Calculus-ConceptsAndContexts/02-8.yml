@@ -79,3 +79,26 @@ notes:
     Back: |
       If $D(t)$ is the size of the deficit as a function of time, then at the time of the speech $D'(t) > 0$, but $D''(t) < 0$.
     Annotations: ''
+- id: 1547213341485
+  fields:
+    Front: |
+      CCAC 02.8 11: The table gives population densities for ring-necked pheasants (in number of pheasants per acre) on Pelee Island, Ontario.
+      (a) Describe how the rate of change of population varies.
+      (b) Estimate the inflection points of the graph. What is the significance of these points?
+      $$
+      \begin{array}{|c|c|c|c|c|c|c|c|}
+      \hline
+      t & 1927 & 1930 & 1932 & 1934 & 1936 & 1938 & 1940 \\
+      \hline
+      P(t) & 0.1 & 0.6 & 2.5 & 4.6 & 4.8 & 3.5 & 3.0 \\
+      \hline
+      \end{array}
+      $$
+    Back: >
+      (a) The rate starts small, grows rapidly, levels off, then decreases and becomes
+      negative.
+
+      (b) $(1932, 2.5)$ and $(1937, 4.3)$; the rate of change of population density
+      starts to decrease in 1932 and starts to increase in 1937.
+    Annotations: ''
+  tags: []
