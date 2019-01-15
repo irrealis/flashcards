@@ -31,6 +31,15 @@ notes:
       $3$.
     Annotations: ''
   tags: []
+- id: 1547078082070
+  fields:
+    Front: |
+      CCAC 02.2 03c: Use the given graph of $f$ to state the value of $\lim_{x \to 1} f(x)$, if it exists. If it does not exist, explain why.
+      ![](CCAC-02.2-03.jpg)
+    Back: |
+      Does not exist.
+    Annotations: ''
+  tags: []
 - id: 1547078083346
   fields:
     Front: |
