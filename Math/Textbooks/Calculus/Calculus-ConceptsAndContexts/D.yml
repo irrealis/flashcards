@@ -25,6 +25,20 @@ notes:
       \lim_{x \to a} f(x) = L.
       $$$$
     Annotations: ''
+- id: 1547063926320
+  fields:
+    Front: |
+      CCAC D 00b: Let $f$ be a function defined on some open interval $(a, \infty)$. Define the **limit $L$ of $f(x)$ at infinity.**
+    Back: |
+      If for every real $\epsilon > 0$ there is a corresponding real $N > 0$ such that
+      $$$$
+      x > N \implies |f(x) - L| < \epsilon
+      $$$$
+      then $L$ is the **limit of $f(x)$ at infinity,** denoted by
+      $$$$
+      \lim_{x \to \infty} f(x) = L.
+      $$$$
+    Annotations: ''
 - id: 1547063926746
   useMarkdown: pweave
   tags: []
