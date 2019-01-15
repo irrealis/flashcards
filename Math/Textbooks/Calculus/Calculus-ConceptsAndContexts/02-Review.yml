@@ -380,3 +380,18 @@ notes:
       (d)
       ![](CCAC-02.Review-43.2.jpg)
     Annotations: ''
+- id: 1547231978423
+  media:
+  - path: ${file_dir}/images/CCAC-02.Review-45.1.jpg
+  fields:
+    Front: |
+      CCAC 02.Review, Exercise 45: Sketch the graph of a function that satisfies the given conditions:
+      $f(0) = 0$, $f'(-2) = f'(1) = f'(9) = 0$,
+      $\lim_{x \to \infty} f(x) = 0$, $\lim_{x \to 6} f(x) = -\infty$,
+      $f'(x) < 0$ on $(-\infty, -2)$, $(1, 6)$, and $(9, \infty)$,
+      $f'(x) > 0$ on $(-2, 1)$ and $(6, 9)$,
+      $f''(x) > 0$ on $(-\infty, 0)$ and $(12, \infty)$,
+      $f''(x) < 0$ on $(0, 6)$ and $(6, 12)$.
+    Back: |
+      ![](CCAC-02.Review-45.1.jpg)
+    Annotations: ''
