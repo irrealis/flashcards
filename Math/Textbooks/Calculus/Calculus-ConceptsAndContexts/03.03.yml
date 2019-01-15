@@ -88,3 +88,16 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547502493542
+  fields:
+    Front: |
+      CCAC 03.03 11: Differentiate:
+      $$$$
+      f(\theta) = \frac{\sec \theta}{1 + \sec \theta}
+      $$$$
+    Back: |
+      $$$$
+      f'(\theta) = \frac{\sec \theta \tan \theta}{(1 + \sec \theta)^2}
+      $$$$
+    Annotations: ''
+  tags: []
