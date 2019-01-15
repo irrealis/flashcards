@@ -24,6 +24,25 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547063852046
+  fields:
+    Front: |
+      CCAC A 00b: State seven critical properties of absolute values.
+    Back: |
+      For any real numbers $a$ and $b$ and integer $n$,
+      (0) $\sqrt{a^2} = |a|$
+      (1) $|ab| = |a||b|$
+      (2) $|a^n| = |a|^n$
+
+      For $b \ne n$,
+      (3) $\left|\frac{a}{b}\right| = \frac{|a|}{|b|}$
+
+      For any real $x$ and $a > 0$,
+      (4) $|x| = a$ if and only if $x = \pm a$
+      (5) $|x| < a$ if and only if $-a < x < a$
+      (g) $|x| > a$ if and only if $x > a$ or $x < -a$
+    Annotations: ''
+  tags: []
 - id: 1547063852178
   tags: []
   fields:
