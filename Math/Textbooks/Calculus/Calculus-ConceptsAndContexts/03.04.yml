@@ -194,3 +194,16 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547508064696
+  fields:
+    Front: |
+      CCAC 03.04 27: Find the derivative of the function.
+      $$$$
+      y = \frac{r}{\sqrt{r^2 + 1}}
+      $$$$
+    Back: |
+      $$$$
+      y' = (r^2 + 1)^{-3/2}
+      $$$$
+    Annotations: ''
+  tags: []
