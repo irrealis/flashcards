@@ -129,3 +129,16 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547507679871
+  fields:
+    Front: |
+      CCAC 03.04 17: Find the derivative of the function.
+      $$$$
+      y = x e^{-kx}
+      $$$$
+    Back: |
+      $$$$
+      y' = e^{-kx}(-kx + 1)
+      $$$$
+    Annotations: ''
+  tags: []
