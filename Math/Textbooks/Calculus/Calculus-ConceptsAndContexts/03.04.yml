@@ -606,3 +606,16 @@ notes:
     Annotations: ''
   tags:
   - requiresCoding
+- id: 1547514819470
+  fields:
+    Front: |
+      CCAC 03.04 89:
+      (a) If $n$ is a positive integer, prove that
+      $$$$
+      \frac{d}{dx}(\sin^n x \cos nx) = n \sin^{n-1} x \cos[(n+1)x]
+      $$$$
+      (b) Find a formula for the derivative of $y = \cos^n x \cos n x$ that is similar to the one in part (a).
+    Back: |
+      (b) $-n \cos^{n-1} x \sin[(n+1)x]$
+    Annotations: ''
+  tags: []
