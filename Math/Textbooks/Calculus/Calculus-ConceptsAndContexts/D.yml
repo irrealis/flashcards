@@ -9,7 +9,7 @@ defaults:
   - Calculus-ConceptsAndContexts
   - CCAC-D-PreciseDefinitionsOfLimits
 notes:
-- id: 1546214044047
+- id: 1547063926746
   useMarkdown: pweave
   tags: []
   fields:
@@ -38,7 +38,7 @@ notes:
       ax.plot((0, 10/3), (3/10, 3/10), color = 'r', linestyle = '-')
       ax.plot((10/3, 10/3), (0, 3/10), color = 'r', linestyle = '-')
 
-      ax.text(2, 0.6, '$$y = \\frac{1}{x}$$')
+      ax.text(2, 0.6, '$$$$y = \\frac{1}{x}$$$$')
 
       ax.set_xlabel("$x$", position=(1, 0))
       ax.set_ylabel("$y$", position=(0, 1))
@@ -52,7 +52,7 @@ notes:
     Back: |
       $\frac{4}{7}$ (or any smaller positive number)
     Annotations: ''
-- id: 1546214047470
+- id: 1547063929695
   useMarkdown: pweave
   fields:
     Front: |
@@ -80,7 +80,7 @@ notes:
       ax.plot((0, 2.4**2), (2.4, 2.4), color = 'r', linestyle = '-')
       ax.plot((2.4**2, 2.4**2), (0, 2.4), color = 'r', linestyle = '-')
 
-      ax.text(6, 2.7, '$$y = \\sqrt{x}$$')
+      ax.text(6, 2.7, '$$$$y = \\sqrt{x}$$$$')
 
       ax.set_xlabel("$x$", position=(1, 0))
       ax.set_ylabel("$y$", position=(0, 1))
@@ -94,7 +94,7 @@ notes:
     Back: |
       $1.44$ (or any smaller positive number)
     Annotations: ''
-- id: 1546214050155
+- id: 1547063932371
   tags:
   - requiresCoding
   fields:
@@ -103,20 +103,20 @@ notes:
     Back: |
       $0.0906$ (or any smaller positive number)
     Annotations: ''
-- id: 1546214050296
+- id: 1547063932473
   tags:
   - requiresCoding
   fields:
     Front: |
       CCAC D 07: For the limit
-      $$
+      $$$$
       \lim_{x\to 1}(4 + x - 3x^2) = 2
-      $$
+      $$$$
       illustrate CCAC Appendix-D, Definition 1 by finding values of $\delta$ that correspond to $\epsilon=1$ and $\epsilon=0.1$.
     Back: |
       $0.11$, $0.012$ (or smaller positive numbers)
     Annotations: ''
-- id: 1546214050520
+- id: 1547063932623
   tags: []
   fields:
     Front: >
@@ -137,7 +137,7 @@ notes:
       b. Within approximately $0.0445\ \text{cm}$
       c. Radius; area; $\sqrt{1000/\pi}$; $1000$; $5$; $\approx 0.0445$
     Annotations: ''
-- id: 1546214050666
+- id: 1547063932778
   tags: []
   fields:
     Front: |
@@ -148,27 +148,27 @@ notes:
       a. 0.025
       b. 0.0025
     Annotations: ''
-- id: 1546214050813
+- id: 1547063932872
   tags: []
   fields:
     Front: |
       CCAC D 19a: Determine how large we have to take $x$ so that
-      $$
+      $$$$
       1/x^2 < 0.0001
-      $$
+      $$$$
     Back: |
       $x > 100$
     Annotations: ''
-- id: 1546214050947
+- id: 1547063932977
   tags:
   - requiresCoding
   fields:
     Front: |
       CCAC D 21:
       a. Use a graph to guess the value of the limit
-      $$
+      $$$$
       \lim_{n\to\infty}\frac{n^5}{n!}
-      $$
+      $$$$
       b. Use the graph of the sequence in part (a) to find the smallest values of $N$ that correspond to $\epsilon = 0.1$ and $\epsilon = 0.001$ in CCAC Appendix D, Definition 3.
     Back: |
       a. 0
