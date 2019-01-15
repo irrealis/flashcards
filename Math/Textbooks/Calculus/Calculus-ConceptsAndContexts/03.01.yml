@@ -135,3 +135,16 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547241827960
+  fields:
+    Front: |
+      CCAC 03.01 09: Differentiate the function.
+      $$$$
+      f(t) = \frac{1}{4}(t^4 + 8)
+      $$$$
+    Back: |
+      $$$$
+      f'(t) = t^3
+      $$$$
+    Annotations: ''
+  tags: []
