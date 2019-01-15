@@ -268,3 +268,39 @@ notes:
     Annotations: ''
   tags:
   - requiresCoding
+- id: 1547176070973
+  fields:
+    Front: |
+      CCAC 02.7 33: The unemployment rate $U(t)$ varies with time. The table (from the Bureau of Labor Statistics) gives the percentage of unemployed in the US labor force from 1998 to 2007.
+      $$
+      \begin{array}{|c|c||c|c|}
+      \hline
+      t & U(t) & t & U(t) \\
+      \hline
+      1998 & 4.5 & 2003 & 6.0 \\
+      1999 & 4.2 & 2004 & 5.5 \\
+      2000 & 4.0 & 2005 & 5.1 \\
+      2001 & 4.7 & 2006 & 4.6 \\
+      2002 & 5.8 & 2007 & 4.6 \\
+      \hline
+      \end{array}
+      $$
+      (a) What is the meaning of $U'(t)$? What are its units?
+      (b) Construct a table of estimated values for $U'(t)$.
+    Back: |
+      (a) The rate at which the unemployment rate is changing, in percent unemployed each year.
+      (b)
+      $$
+      \begin{array}{|c|c||c|c|}
+      \hline
+      t & U'(t) & t & U'(t) \\
+      \hline
+      1998 & -0.30 & 2003 & -0.15 \\
+      1999 & -0.25 & 2004 & -0.45 \\
+      2000 & 0.25 & 2005 & -0.45 \\
+      2001 & 0.90 & 2006 & -0.25 \\
+      2002 & 0.65 & 2007 & 0.00 \\
+      \hline
+      \end{array}
+      $$
+    Annotations: ''
