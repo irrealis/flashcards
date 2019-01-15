@@ -433,3 +433,11 @@ notes:
       $96$.
     Annotations: ''
   tags: []
+- id: 1547511606471
+  fields:
+    Front: |
+      CCAC 03.04 67: Find the 50th derivative of $y = \cos 2x$.
+    Back: |
+      $-2^{50} \cos 2x$.
+    Annotations: ''
+  tags: []
