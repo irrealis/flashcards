@@ -259,3 +259,15 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547508581421
+  fields:
+    Front: |
+      CCAC 03.04 37: Find $y'$ and $y''$.
+      $$$$
+      y = \cos(x^2)
+      $$$$
+    Back: |
+      $y' = -2x\sin(x^2)$
+      $y'' = -4x^2\cos(x^2) - 2\sin(x^2)$
+    Annotations: ''
+  tags: []
