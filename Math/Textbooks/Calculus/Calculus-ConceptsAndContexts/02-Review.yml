@@ -167,3 +167,13 @@ notes:
     Back: |
       $\frac{4}{7}$
     Annotations: ''
+- id: 1547231975121
+  fields:
+    Front: |
+      CCAC 02.Review, Exercise 13: Find the limit.
+      $$$$
+      \lim_{x \to \pi^-} \ln(\sin x)
+      $$$$
+    Back: |
+      $-\infty$
+    Annotations: ''
