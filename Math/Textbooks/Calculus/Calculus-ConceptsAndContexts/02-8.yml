@@ -111,3 +111,26 @@ notes:
     Back: |
       $K(3) - K(2)$; concave downward.
     Annotations: ''
+- id: 1547213341803
+  media:
+  - path: ${file_dir}/images/02.8-15.1.jpg
+    name: CCAC-02.8-15.1.jpg
+  - path: ${file_dir}/images/02.8-15.2.jpg
+    name: CCAC-02.8-15.2.jpg
+  fields:
+    Front: |
+      CCAC 02.8 15: The graph of the derivative $f'$ of a continuous function $f$ is shown.
+      (a) On what intervals is $f$ increasing? Decreasing?
+      (b) At what values of $x$ does $f$ have a local maximum? Local minimum?
+      (c) On what intervals is $f$ concave upward? Concave downward?
+      (d) State the $x$-coordinate(s) of the point(s) of inflection.
+      (e) Assuming that $f(0) = 0$, sketch a graph of $f$.
+      ![](CCAC-02.8-15.1.jpg)
+    Back: |
+      (a) Increasing on $(0,2)$, $(4,6)$, $(8,\infty)$. Decreasing on $(2,4)$, $(6,8)$.
+      (b) Local maximum at $x = 2,\ 6$. Local minimum at $x = 4,\ 8$.
+      (c) Concave upward on $(3,\ 6)$, $(6,\ \infty)$. Concave downward on $(0,\ 3)$.
+      (d) $3$.
+      (e)
+      ![](CCAC-02.8-15.2.jpg)
+    Annotations: ''
