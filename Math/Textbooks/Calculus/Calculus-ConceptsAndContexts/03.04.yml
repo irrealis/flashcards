@@ -539,3 +539,14 @@ notes:
     Annotations: ''
   tags:
   - requiresCoding
+- id: 1547513866271
+  fields:
+    Front: |
+      CCAC 03.04 79: Find an equation of the tangent line to the curve at the point corresponding to the given value of the parameter.
+      $$$$
+      x = t^4 + 1, \quad y = t^3 + t; \quad t = -1
+      $$$$
+    Back: |
+      $y = -x$
+    Annotations: ''
+  tags: []
