@@ -318,3 +318,17 @@ notes:
     Annotations: ''
   tags:
   - requiresCoding
+- id: 1547241829451
+  fields:
+    Front: |
+      CCAC 03.01 37: Estimate the value of $f'(a)$ by zooming in on the graph of $f$. Then differentiate $f$ to find the exact value of $f'(a)$, and compare with your estimate.
+      $$$$
+      f(x) = 3x^2 - x^3, \quad a = 1
+      $$$$
+    Back: |
+      $$$$
+      3
+      $$$$
+    Annotations: ''
+  tags:
+  - requiresCoding
