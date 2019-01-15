@@ -142,3 +142,16 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547507793096
+  fields:
+    Front: |
+      CCAC 03.04 19: Find the derivative of the function.
+      $$$$
+      y = (2x - 5)^4 (8x^2 - 5)^{-3}
+      $$$$
+    Back: |
+      $$$$
+      y' = 8(2x - 5)^3 (8x^2 - 5)^{-4} (-4x^2 + 30x - 5)
+      $$$$
+    Annotations: ''
+  tags: []
