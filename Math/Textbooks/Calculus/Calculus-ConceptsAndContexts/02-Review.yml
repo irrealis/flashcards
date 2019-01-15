@@ -344,3 +344,20 @@ notes:
     Back: |
       $-4$ (discontinuity); $-1$ (corner); $2$ (discontinuity); $5$ (vertical tangent).
     Annotations: ''
+- id: 1547231977975
+  useMarkdownMathExt: false
+  fields:
+    Front: |
+      CCAC 02.Review, Exercise 41: Let \\(C(t)\\) be the total value of US currency (coins and banknotes) in circulation at time \\(t\\). The table gives values of this function from 1980 to 2000, as of September 30, in billions of dollars. Interpret and estimate  the value of \\(C'(1990)\\).
+      \\[
+      \begin{array}{|c|c|c|c|c|c|}
+      \hline
+      t & 1980 & 1985 & 1990 & 1995 & 2000 \\\\
+      \hline
+      C(t) & 129.9 & 187.3 & 271.9 & 409.3 & 568.6 \\\\
+      \hline
+      \end{array}
+      \\]
+    Back: |
+      The rate at which the total value of US currency in circulation is changing in billions of dollars per year; $22.2 billion/year.
+    Annotations: ''
