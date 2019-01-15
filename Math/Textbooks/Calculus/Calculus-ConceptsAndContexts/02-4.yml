@@ -20,6 +20,21 @@ notes:
       \lim_{x \to a} f(x) = f(a).
       $$$$
     Annotations: ''
+- id: 1547147565396
+  fields:
+    Front: >
+      CCAC 02.4 00b: Let $f$ be a function defined at $a$. Define the meaning of "**$f$
+      is continuous from the right at $a$**", and similarly "**from the left**".
+    Back: |
+      **$f$ is continuous from the right at $a$** if
+      $$$$
+      \lim_{x \to a^+} f(x) = f(a).
+      $$$$
+      **$f$ is continuous from the left at $a$** if
+      $$$$
+      \lim_{x \to a^-} f(x) = f(a).
+      $$$$
+    Annotations: ''
 - id: 1547147566296
   fields:
     Front: |
