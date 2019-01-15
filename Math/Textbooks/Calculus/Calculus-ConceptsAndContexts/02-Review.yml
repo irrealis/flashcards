@@ -197,3 +197,15 @@ notes:
     Back: |
       $2$
     Annotations: ''
+- id: 1547231975500
+  fields:
+    Front: |
+      CCAC 02.Review, Exercise 19: Use graphs to discover the asymptotes of the curve. Then prove what you have discovered.
+      $$$$
+      y = \frac{\cos^2 x}{x^2}
+      $$$$
+    Back: |
+      $x = 0$, $y = 0$
+    Annotations: ''
+  tags:
+  - requiresCoding
