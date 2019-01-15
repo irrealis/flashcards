@@ -379,3 +379,16 @@ notes:
     Annotations: ''
   tags:
   - requiresCoding
+- id: 1547241830102
+  fields:
+    Front: |
+      CCAC 03.01 45: The equation of motion of a particle is $s = t^3 - 3t$, where $s$ is in meters and $t$ is in seconds. Find
+      (a) the velocity and acceleration as functions of $t$,
+      (b) the acceleration after $2$ s, and
+      (c) the acceleration when the velocity is $0$.
+    Back: |
+      (a) $v(t) = 3t^2 - 3$, $a(t) = 6t$.
+      (b) $12\ \text{m}/\text{s}^2$.
+      (c) $a(1) = 6\ \text{m}/\text{s}^2$.
+    Annotations: ''
+  tags: []
