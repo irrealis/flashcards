@@ -45,6 +45,15 @@ notes:
       we understand _continuous at the endpoint_ to mean _continuous from the right_
       or _continuous from the left_.)
     Annotations: ''
+- id: 1547147565681
+  fields:
+    Front: |
+      CCAC 02.4 00d: suppose that $f$ and $g$ are continuous at $a$, and that $c$ is a constant.
+      State the Continuity Theorem of Addition, Subtraction, Constant Multiplication, Multiplication, and Division.
+      (This is my own terminology.)
+    Back: |
+      Each of the following are continuous: $f + g$, $f - g$, $cf$, $fg$, and (when $g(a) \ne 0$) $f/g$.
+    Annotations: ''
 - id: 1547147566296
   fields:
     Front: |
