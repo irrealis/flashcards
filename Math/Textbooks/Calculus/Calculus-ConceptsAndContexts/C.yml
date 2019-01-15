@@ -78,6 +78,19 @@ notes:
       \end{align}
       $$$$
     Annotations: ''
+- id: 1547063891633
+  fields:
+    Front: |
+      CCAC C 00f: State two critical trigonometric **half-angle formulae**.
+    Back: |
+      For any real number $\theta$,
+      $$$$
+      \begin{align}
+        \cos^2 \theta &= \frac{1 + \cos(2\theta)}{2} \\
+        \sin^2 \theta &= \frac{1 - \cos(2\theta)}{2} \\
+      \end{align}
+      $$$$
+    Annotations: ''
 - id: 1547063910221
   tags: []
   fields:
