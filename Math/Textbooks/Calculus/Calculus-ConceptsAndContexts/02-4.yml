@@ -66,6 +66,19 @@ notes:
       Exponential functions
       Logarithmic functions
     Annotations: ''
+- id: 1547147565920
+  fields:
+    Front: |
+      CCAC 02.4 00f: State the Continuous Limit Theorem.
+      (This is my own terminology.)
+    Back: |
+      If $f$ is continuous at $b = \lim_{x \to a} g(x)$, then
+      $$$$
+      \lim_{x \to a} f(g(x)) = f \left( \lim_{x \to a} g(x) \right) = f(b).
+      $$$$
+      That is, _a limit symbol can be moved through a function symbol if the function is continuous and the limit exists_.
+      In other words, _the order of these two symbols can be reversed_.
+    Annotations: ''
 - id: 1547147566296
   fields:
     Front: |
