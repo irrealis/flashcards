@@ -237,3 +237,18 @@ notes:
       ![](CCAC-02.8-31.2.jpg)
     Annotations: ''
   tags: []
+- id: 1547213343218
+  media:
+  - path: ${file_dir}/images/02.8-33.1.jpg
+    name: CCAC-02.8-33.1.jpg
+  fields:
+    Front: |
+      CCAC 02.8 33: Draw a graph of $f$, and use it to make a rough sketch of the antiderivative that passes through the origin.
+      $$$$
+      f(x) = \frac{\sin x}{1 + x^2}, \quad -2\pi \le x \le 2\pi
+      $$$$
+    Back: |
+      ![](CCAC-02.8-33.1.jpg)
+    Annotations: ''
+  tags:
+   requiresCoding
