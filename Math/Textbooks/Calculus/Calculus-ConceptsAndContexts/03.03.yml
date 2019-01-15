@@ -155,3 +155,13 @@ notes:
     Annotations: ''
   tags:
   - requiresCoding
+- id: 1547503075846
+  fields:
+    Front: |
+      CCAC 03.03 25:
+      (a) If $f(x) = \sec x - x$, find $f'(x)$.
+      (b) Check to see that your answer to part (a) is reasonable by graphing both $f$ and $f'$ for $|x| < \pi/2$.
+    Back: |
+      (a) $\sec x \tan x - 1$
+    Annotations: ''
+  tags: []
