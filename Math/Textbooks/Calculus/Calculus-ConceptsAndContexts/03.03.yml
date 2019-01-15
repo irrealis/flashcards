@@ -101,3 +101,16 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547502566029
+  fields:
+    Front: |
+      CCAC 03.03 13: Differentiate:
+      $$$$
+      f(x) = x e^x \csc x
+      $$$$
+    Back: |
+      $$$$
+      f'(x) = e^x \csc x (-x \cot x + x + 1)
+      $$$$
+    Annotations: ''
+  tags: []
