@@ -23,3 +23,16 @@ notes:
       $\cot' x = -\csc^2 x$
     Annotations: ''
   tags: []
+- id: 1547501800596
+  fields:
+    Front: |
+      CCAC 03.03 01: Differentiate:
+      $$$$
+      f(x) = 3x^2 - 2 \cos x
+      $$$$
+    Back: |
+      $$$$
+      f'(x) = 6x + 2 \sin x
+      $$$$
+    Annotations: ''
+  tags: []
