@@ -64,3 +64,16 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547507251023
+  fields:
+    Front: |
+      CCAC 03.04 07: Find the derivative of the function.
+      $$$$
+      F(x) = (x^4 + 3x^2 - 2)^5
+      $$$$
+    Back: |
+      $$$$
+      F'(x) = 10x(x^4 + 3x^2 - 2)^4 (2x^2 + 3)
+      $$$$
+    Annotations: ''
+  tags: []
