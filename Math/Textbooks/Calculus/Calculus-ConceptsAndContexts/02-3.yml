@@ -115,6 +115,16 @@ notes:
       \lim_{x \to a^-} f(x) = L = \lim_{x \to a^+} f(x).
       $$$$
     Annotations: ''
+- id: 1547081316645
+  fields:
+    Front: |
+      CCAC 02.3 00f: State the Limit Inequality Theorem.
+    Back: |
+      If $f(x) \le g(x)$ when $x$ is near $a$, and limits of $f$ and $g$ both exist as $x$ approaches $a$, then
+      $$$$
+      \lim_{x \to a} f(x) \le \lim_{x \to a} g(x).
+      $$$$
+    Annotations: ''
 - id: 1547081316871
   tags: []
   fields:
