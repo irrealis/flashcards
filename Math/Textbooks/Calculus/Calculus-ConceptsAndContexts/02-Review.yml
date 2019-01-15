@@ -58,3 +58,11 @@ notes:
     Back: |
       True
     Annotations: ''
+- id: 1547231973743
+  fields:
+    Front: |
+      CCAC 02.Review, True-False 11: Determine whether the statement is true or false.
+      If the line $x = 1$ is a vertical asymptote of $y = f(x)$, then $f$ is not defined at $1$.
+    Back: |
+      False
+    Annotations: ''
