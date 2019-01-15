@@ -246,3 +246,16 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547508437171
+  fields:
+    Front: |
+      CCAC 03.04 35: Find the derivative of the function.
+      $$$$
+      y = \cos \sqrt{\sin(\tan \pi x)}
+      $$$$
+    Back: |
+      $$$$
+      y' = \frac{-\pi \cos(\tan \pi x) \sec^2(\pi x) \sin \sqrt{\sin(\tan \pi x)}}{2\sqrt{\sin(\tan \pi x)}}
+      $$$$
+    Annotations: ''
+  tags: []
