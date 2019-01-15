@@ -35,6 +35,17 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547063862646
+  fields:
+    Front: |
+      CCAC B 00c: Define the **slope** of a line in the $xy$-plane.
+    Back: |
+      The **slope** of a nonvertical line that passes throught the points $P_1(x_1, y_1)$ and $P_2(x_2, y_2)$ is
+      $$$$
+      m = \frac{\Delta y}{\Delta x} = \frac{y_2 - y_1}{x_2 - x_1}
+      $$$$
+      The slope of a vertical line is not defined.
+    Annotations: ''
 - id: 1547063863427
   fields:
     Front: |
