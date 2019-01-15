@@ -252,6 +252,16 @@ notes:
       g'(0) \quad 0 \quad g'(4) \quad g'(2) \quad g'(-2)
       $$$$
     Annotations: ''
+- id: 1547151332252
+  media:
+  - path: ${file_dir}/images/02.6-21.jpg
+    name: CCAC-02.6-21.jpg
+  fields:
+    Front: |
+      CCAC 02.6 21: Sketch the graph of a function $f$ for which $f(0) = 0$, $f'(0) = 3$, $f'(1) = 0$, and $f'(2) = -1$.
+    Back: |
+      ![](CCAC-02.6-21.jpg)
+    Annotations: ''
 - id: 1547151332418
   fields:
     Front: |
