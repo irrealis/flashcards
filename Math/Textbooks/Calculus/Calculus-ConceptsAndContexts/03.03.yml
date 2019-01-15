@@ -127,3 +127,16 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547502743708
+  fields:
+    Front: |
+      CCAC 03.03 21: Find an equation of the tangent line to the curve at the given point.
+      $$$$
+      y = x + \cos x, \quad (0, 1)
+      $$$$
+    Back: |
+      $$$$
+      y = x + 1
+      $$$$
+    Annotations: ''
+  tags: []
