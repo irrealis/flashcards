@@ -173,3 +173,17 @@ notes:
     Back: |
       ![](CCAC-02.8-21.1.jpg)
     Annotations: ''
+- id: 1547213342449
+  media:
+  - path: ${file_dir}/images/02.8-23.1.jpg
+    name: CCAC-02.8-23.1.jpg
+  fields:
+    Front: >
+      CCAC 02.8 23: Sketch the graph of a function that satisfies all of the given
+      conditions.
+
+      $f'(x) > 0$ if $|x| < 2$, $f'(x) < 0$ if $|x| > 2$, $f'(2) = 0$, $\lim_{x \to
+      \infty} f(x) = \infty$, $f''(x) > 0$ if $x \ne 2$.
+    Back: |
+      ![](CCAC-02.8-23.1.jpg)
+    Annotations: ''
