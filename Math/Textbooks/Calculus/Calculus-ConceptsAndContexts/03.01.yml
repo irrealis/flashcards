@@ -392,3 +392,11 @@ notes:
       (c) $a(1) = 6\ \text{m}/\text{s}^2$.
     Annotations: ''
   tags: []
+- id: 1547241830221
+  fields:
+    Front: |
+      CCAC 03.01 47: On what interval is the function $f(x) = 5x - e^x$ increasing?
+    Back: |
+      $(-\infty, \ln 5)$.
+    Annotations: ''
+  tags: []
