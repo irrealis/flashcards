@@ -228,3 +228,15 @@ notes:
       (b) $4\sqrt{3}$; $-4$; $-4 \sqrt{3}$; to the left.
     Annotations: ''
   tags: []
+- id: 1547504061496
+  fields:
+    Front: >
+      CCAC 03.03 37: A ladder 10 ft long rests against a vertical wall. Let $\theta$
+      be the angle between the top of the ladder and the wall, and let $x$ be the
+      distance from the bottom of the ladder to the wall. If the bottom of the ladder
+      slides away from the wall, how fast does $x$ change with respect to $\theta$
+      when $\theta = \pi / 3$?
+    Back: |
+      $5 \; \text{ft/rad}$.
+    Annotations: ''
+  tags: []
