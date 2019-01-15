@@ -389,3 +389,15 @@ notes:
       Two, $(-2 \pm \sqrt{3}, \frac{1}{2}(1 \mp \sqrt{3}))$.
     Annotations: ''
   tags: []
+- id: 1547252691196
+  fields:
+    Front: |
+      CCAC 03.02 55: Find $R'(0)$, where
+      $$$$
+      R(x) = \frac{x - 3x^3 + 5x^5}{1 + 3x^3 + 6x^6 + 9x^9}
+      $$$$
+      _Hint:_ Instead of finding $R'(x)$ first, let $f(x)$ be the numerator and $g(x)$ the denominator of $R(x)$, and compute $R'(0)$ from $f(0)$, $f'(0)$, $g(0)$, and $g'(0)$.
+    Back: |
+      $1$.
+    Annotations: ''
+  tags: []
