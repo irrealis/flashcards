@@ -77,3 +77,16 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547243622146
+  fields:
+    Front: |
+      CCAC 03.02 09: Differentiate.
+      $$$$
+      F(y) = \left( \frac{1}{y^2} - \frac{3}{y^4} \right)(y + 5y^3)
+      $$$$
+    Back: |
+      $$$$
+      F'(y) = 5 + \frac{14}{y^2} + \frac{9}{y^4}
+      $$$$
+    Annotations: ''
+  tags: []
