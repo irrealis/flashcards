@@ -161,3 +161,16 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547241828153
+  fields:
+    Front: |
+      CCAC 03.01 13: Differentiate the function.
+      $$$$
+      g(t) = 2t^{-3/4}
+      $$$$
+    Back: |
+      $$$$
+      g'(t) = -\frac{3}{2}t^{-7/4}
+      $$$$
+    Annotations: ''
+  tags: []
