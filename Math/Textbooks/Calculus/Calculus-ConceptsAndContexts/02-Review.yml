@@ -34,3 +34,11 @@ notes:
     Back: |
       True
     Annotations: ''
+- id: 1547231973396
+  fields:
+    Front: |
+      CCAC 02.Review, True-False 05: Determine whether the statement is true or false.
+      If $\lim_{x \to 5} f(x) = 0$ and $\lim_{x \to 5} g(x) = 0$, then $\lim_{x \to 5}[f(x)/g(x)]$ does not exist.
+    Back: |
+      False
+    Annotations: ''
