@@ -248,3 +248,18 @@ notes:
     Annotations: ''
   tags:
   - requiresCoding
+- id: 1547250862546
+  media:
+  - path: ${file_dir}/images/CCAC-03.02-35.1.jpg
+  fields:
+    Front: |
+      CCAC 03.02 35:
+      (a) If $f(x) = (x^3 - x)e^x$, find $f'(x)$
+      (b) Check to see that your answer to part (a) is reasonable by comparing the graphs of $f$ and $f'$.
+    Back: |
+      (a) $e^x(x^3 + 3x^2 - x - 1)$.
+      (b)
+      ![](CCAC-03.02-35.1.jpg)
+    Annotations: ''
+  tags:
+  - requiresCoding
