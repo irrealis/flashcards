@@ -125,6 +125,40 @@ notes:
       p._backend.plt.show()
       ```
     Annotations: ''
+- id: 1547063894796
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC C 00h: Graph the $\cos$ function.
+    Back: |
+      ```{python echo = False}
+      import matplotlib.pyplot as plt
+      import sympy as sy
+
+      import math
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      x = sy.symbols('x')
+      p = sy.plot(
+        (sy.cos(x), (x, -3/2*math.pi, 3/2*math.pi)),
+        xlabel = '$x$', ylabel = '$y$',
+        show = False,
+      )
+
+      if hasattr(p, '_backend'): p._backend.close()
+      p._backend = p.backend(p)
+      fg, ax = p._backend.fig, p._backend.ax
+      p._backend.process_series()
+      ax.set_xlim(-3/2*math.pi, 3/2*math.pi)
+      ax.set_ylim(-1.5, 1.5)
+      ax.set_xticks([-3/2*math.pi, -math.pi, -math.pi/2, 0, math.pi/2, math.pi, 3/2*math.pi])
+      ax.set_xticklabels(["$-\\frac{3\pi}{2}$", "$-\pi$", "$-\\frac{\pi}{2}$", "$0$", "$\\frac{\pi}{2}$", "$\pi$", "$\\frac{3\pi}{2}$"])
+      ax.set_yticks([-1, 0, 1])
+      p._backend.plt.show()
+      ```
+    Annotations: ''
 - id: 1547063910221
   tags: []
   fields:
