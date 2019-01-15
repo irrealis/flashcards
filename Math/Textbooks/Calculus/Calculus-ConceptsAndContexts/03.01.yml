@@ -290,3 +290,17 @@ notes:
     Annotations: ''
   tags:
   - requiresCoding
+- id: 1547241829221
+  fields:
+    Front: |
+      CCAC 03.01 33: Find $f'(x)$. Compare the graphs of $f$ and $f'$, and use them to explain why your answer is reasonable.
+      $$$$
+      f(x) = e^x - 5x
+      $$$$
+    Back: |
+      $$$$
+      e^x - 5
+      $$$$
+    Annotations: ''
+  tags:
+  - requiresCoding
