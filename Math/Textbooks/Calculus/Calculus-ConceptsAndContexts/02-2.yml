@@ -61,6 +61,23 @@ notes:
       b. $2$
       c. Does not exist; lower and upper limits don't match.
     Annotations: ''
+- id: 1547078083770
+  media:
+  - path: ${file_dir}/images/02.2-13.jpg
+    name: CCAC-02.2-13.jpg
+  tags:
+  - requiresCoding
+  fields:
+    Front: |
+      CCAC 02.2 13: Sketch the graph of an example of a function that satisfies all of the given conditions.
+      $$$$
+      \lim_{x \to 0^-} f(x) = -1, \quad
+      \lim_{x \to 0^+} f(x) = 2, \quad
+      f(0) = 1
+      $$$$
+    Back: |
+      ![](CCAC-02.2-13.jpg)
+    Annotations: ''
 - id: 1547078084089
   tags: []
   fields:
