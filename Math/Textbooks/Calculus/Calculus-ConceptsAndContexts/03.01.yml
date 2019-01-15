@@ -496,3 +496,12 @@ notes:
       $1000$.
     Annotations: ''
   tags: []
+- id: 1547241831671
+  fields:
+    Front: >
+      CCAC 03.01 73: If $c > \frac{1}{2}$, how many lines through the point $(0, c)$
+      are normal lines to the parabola $y = x^2$? What if $c \le \frac{1}{2}$?
+    Back: |
+      $3$; $1$.
+    Annotations: ''
+  tags: []
