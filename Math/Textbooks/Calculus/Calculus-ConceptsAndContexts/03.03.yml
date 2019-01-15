@@ -315,3 +315,17 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547504947796
+  media:
+  - path: ${file_dir}/images/CCAC-03.03-49.1.jpg
+  fields:
+    Front: |
+      CCAC 03.03 49: The figure shows a circular arc of length $s$, and a chord of length $d$, both subtended by a central angle $\theta$. Find
+      $$$$
+      \lim_{\theta \to 0^+} \frac{s}{d}
+      $$$$
+      ![](CCAC-03.03-49.1.jpg)
+    Back: |
+      $1$.
+    Annotations: ''
+  tags: []
