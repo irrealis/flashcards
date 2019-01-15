@@ -181,3 +181,16 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547508012578
+  fields:
+    Front: |
+      CCAC 03.04 25: Find the derivative of the function.
+      $$$$
+      y = \sec^2 x + \tan^2 x
+      $$$$
+    Back: |
+      $$$$
+      y' = 4\sec^2 x \tan x
+      $$$$
+    Annotations: ''
+  tags: []
