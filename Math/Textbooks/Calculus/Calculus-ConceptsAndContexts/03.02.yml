@@ -207,3 +207,16 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547250364297
+  fields:
+    Front: |
+      CCAC 03.02 29: Find an equation of the tangent line to the given curve at the specified point.
+      $$$$
+      y = \frac{2x}{x + 1}, \quad (1, 1)
+      $$$$
+    Back: |
+      $$$$
+      y = \frac{1}{2}x + \frac{1}{2}
+      $$$$
+    Annotations: ''
+  tags: []
