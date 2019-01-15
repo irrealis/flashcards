@@ -21,6 +21,17 @@ notes:
       $$$$
       provided that this limit exists.
     Annotations: ''
+- id: 1547151319490
+  fields:
+    Front: |
+      CCAC 02.6 00b: Define the **derivative of a function $f$ at a number $a$**.
+    Back: |
+      The **derivative of a function $f$ at a number $a$**, denoted by $f'(a)$, is
+      $$$$
+      f'(a) = \lim_{h \to 0} \frac{f(a + h) - f(a)}{h},
+      $$$$
+      if this limit exists.
+    Annotations: ''
 - id: 1547151319596
   fields:
     Front: |
