@@ -342,31 +342,19 @@ class NoteSender(object):
     md_lineno,
     md_tablen,
     md_mathext,
-    note_id = None,
-    note_uuid1 = None,
     note_field_num = None,
-    file_uuid1 = None,
+    **d
   ):
-    if note_id is None: note_id = 'anon'
-    if file_uuid1 is None: file_uuid1 = uuid.uuid1()
-    if note_uuid1 is None: file_uuid1
-    if note_field_num is None: note_field_num = 0
+    chunk_templ_vars = dict(d)
 
-    subbed_text = string.Template(text).safe_substitute(
-      note_id = note_id,
-      note_uuid1 = note_uuid1,
-      note_field_num = note_field_num,
-      file_uuid1 = file_uuid1,
-    )
+    if note_field_num is None: note_field_num = 0
+    chunk_templ_vars['note_field_num'] = note_field_num
+
+    subbed_text = string.Template(text).safe_substitute(chunk_templ_vars)
     noclasses = md_sty != 'default'
     self.pweb.set_markdown_opts(md_sty, md_lineno, md_tablen, md_mathext)
     if str(use_md).lower() == 'pweave':
-      pweave_basename = string.Template("${note_id}-${note_uuid1}-${note_field_num}").safe_substitute(
-        note_id = note_id,
-        note_uuid1 = note_uuid1,
-        note_field_num = note_field_num,
-        file_uuid1 = file_uuid1,
-      )
+      pweave_basename = string.Template("${note_id}-${note_uuid1}-${note_field_num}").safe_substitute(chunk_templ_vars)
       self.pweb.read(string = subbed_text, basename = pweave_basename, reader = 'markdown')
       self.pweb.run()
       self.pweb.format()
@@ -389,10 +377,16 @@ class NoteSender(object):
 
 
   def loadsend_file(self, filename):
-    file_uuid1 = uuid.uuid1()
-
     # Verify file can be opened.
     if not os.path.exists(filename): raise FileNotFoundError(filename)
+
+    file_templ_vars = dict(
+      file_name = os.path.abspath(filename),
+      file_dir = os.path.abspath(os.path.dirname(filename)),
+      file_uuid1 = uuid.uuid1(),
+      work_dir = self.opts.workdir,
+    )
+
     log.info('Processing "%s"...', filename)
     with rtyaml.edit(filename, default = {}) as data:
       query_results, defaults = self.query_notes(self.opts.query, data)
@@ -465,26 +459,39 @@ class NoteSender(object):
         else:
           creating_new_note = False
 
+        note_templ_vars = dict(file_templ_vars)
+        note_templ_vars['note_id'] = note_id
+        note_uuid1 = uuid.uuid1()
+        note_templ_vars['note_uuid1'] = note_uuid1
+        file_uuid1 = note_templ_vars['file_uuid1']
+
         if creating_new_note:
           # No provided ID; assume new note should be created.
           log.debug("Creating new note...")
 
           temporary_fields = { k: self.format_text(
-            str(v), False, md_sty, md_lineno, md_tablen, md_mathext,
+            str(v),
+            False,
+            md_sty,
+            md_lineno,
+            md_tablen,
+            md_mathext,
+            **note_templ_vars
           ) for (k, v) in fields.items() }
 
           # Create, obtaining returned ID
-          result = self.anki.addNote(
+          anki_result = self.anki.addNote(
             deck,
             model,
             temporary_fields,
             tags = tags
           )
-          if result.get("error", None):
+          if anki_result.get("error", None):
             log.warning("Can't create note: %s", description)
           else:
             # Add ID to note_node
-            note_id = result['result']
+            note_id = anki_result['result']
+            note_templ_vars['note_id'] = note_id
             prev_id, rtnote['id'] = rtnote['id'], note_id
             log.info("ID %s replaced with %s.", prev_id, note_id)
 
@@ -501,20 +508,29 @@ class NoteSender(object):
         # Because of this special handling, we remove annotations from the
         # shallow copy of the note. We'll instead use the round-trip version.
 
-        if not self.opts.annotations:
-          note_uuid1 = uuid.uuid1()
+        if self.opts.annotations:
+          pass
+        else:
           if annotations_field in fields:
             del fields[annotations_field]
           converted_fields = { k: self.format_text(
-            str(v), use_md, md_sty, md_lineno, md_tablen, md_mathext, note_id, note_uuid1, field_no, file_uuid1
+            str(v),
+            use_md,
+            md_sty,
+            md_lineno,
+            md_tablen,
+            md_mathext,
+            field_no,
+            **note_templ_vars
           ) for (field_no, (k, v)) in enumerate(fields.items()) }
           for media_item in media:
             item_path = media_item['path']
+            item_path = string.Template(item_path).safe_substitute(
+              note_templ_vars
+            )
             item_name = media_item.get('name', os.path.basename(item_path))
             item_name = string.Template(item_name).safe_substitute(
-              note_id = note_id,
-              note_uuid1 = note_uuid1,
-              file_uuid1 = file_uuid1,
+              note_templ_vars
             )
 
             log.info("Considering sending media item...")
@@ -637,9 +653,8 @@ class NoteSender(object):
     return self.loadsend_files(self.opts.input)
 
 
-def getopts():
-  '''Parse command-line arguments.'''
-  defs = dict(
+def getdefaults():
+  return dict(
     def_deckname = 'Default',
     def_modelname = 'BasicMathJax',
     def_annfield = 'Annotations',
@@ -648,14 +663,15 @@ def getopts():
     def_md_tablen = 4,
     def_md_lineno = False,
     def_md_mathext = True,
+    def_workdir = os.getcwd(),
   )
+
+def getopts(defs = None):
+  '''Parse command-line arguments.'''
+  if defs is None: defs = getdefaults()
 
   parser = argparse.ArgumentParser(
     description = "Update Anki flashcards parsed from YAML."
-  )
-  parser.add_argument(
-    "-q", "--query",
-    help = "Query for filtering notes"
   )
   parser.add_argument(
     "-d", "--debug",
@@ -664,9 +680,18 @@ def getopts():
     default = False,
   )
   parser.add_argument(
+    "-q", "--query",
+    help = "Query for filtering notes"
+  )
+  parser.add_argument(
     "input",
     help = "YAML file(s) with flashcard content",
     nargs = '+',
+  )
+  parser.add_argument(
+    "-w", "--workdir",
+    help = "Working directory (for intermediate files; default: {def_workdir})".format(**defs),
+    default = defs['def_workdir'],
   )
   parser.add_argument(
     "--question",
@@ -747,7 +772,6 @@ def getopts():
 
 def main():
   opts = getopts()
-
   if opts.debug: log.setLevel('DEBUG')
   else: log.setLevel('INFO')
   log.debug("\ncmdline args:")
