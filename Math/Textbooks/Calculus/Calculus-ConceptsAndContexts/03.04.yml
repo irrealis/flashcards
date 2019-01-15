@@ -220,3 +220,16 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547508207996
+  fields:
+    Front: |
+      CCAC 03.04 31: Find the derivative of the function.
+      $$$$
+      y = 2^{\sin \pi x}
+      $$$$
+    Back: |
+      $$$$
+      y' = 2^{\sin \pi x}(\pi \ln 2) \cos \pi x
+      $$$$
+    Annotations: ''
+  tags: []
