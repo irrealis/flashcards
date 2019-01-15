@@ -207,3 +207,16 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547508125421
+  fields:
+    Front: |
+      CCAC 03.04 29: Find the derivative of the function.
+      $$$$
+      y = \sin(\tan 2x)
+      $$$$
+    Back: |
+      $$$$
+      y' = 2\cos(\tan 2x) \sec^2(2x)
+      $$$$
+    Annotations: ''
+  tags: []
