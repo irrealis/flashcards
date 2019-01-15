@@ -92,3 +92,28 @@ notes:
     Back: |
       False
     Annotations: ''
+- id: 1547231974246
+  media:
+  - path: ${file_dir}/images/CCAC-02.Review-01.1.jpg
+  fields:
+    Front: |
+      CCAC 02.Review, Exercise 01: The graph of $f$ is given.
+      (a) Find each limit, or explain why it does not exist.
+      $\quad$ (i) $\lim_{x \to 2^+} f(x)$
+      $\quad$ (ii) $\lim_{x \to -3^+} f(x)$
+      $\quad$ (iii) $\lim_{x \to -3} f(x)$
+      $\quad$ (iv) $\lim_{x \to 4} f(x)$
+      $\quad$ (v) $\lim_{x \to 0} f(x)$
+      $\quad$ (vi) $\lim_{x \to 2^-} f(x)$
+      $\quad$ (vii) $\lim_{x \to \infty} f(x)$
+      $\quad$ (viii) $\lim_{x \to -\infty} f(x)$
+      (b) State the equations of the horizontal asymptotes.
+      (c) State the equations of the vertical asymptotes.
+      (d) At what numbers is $f$ discontinuous? Explain.
+      ![](CCAC-02.Review-01.1.jpg)
+    Back: |
+      (a) (i) 3; (ii) 0; (iii) Does not exist; (iv) 2; (v) $\infty$; (vi) $-\infty$; (vii) 4; (viii) -1.
+      (b) $y = 4$, $y = -1$.
+      (c) $x = 0$, $x = 2$.
+      (d) -3, 0, 2, 4.
+    Annotations: ''
