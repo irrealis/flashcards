@@ -251,3 +251,14 @@ notes:
       $- \cos x$.
     Annotations: ''
   tags: []
+- id: 1547504420159
+  fields:
+    Front: |
+      CCAC 03.03 41: Find constants $A$ and $B$ such that the function $y = A \sin x + B \cos x$ satisfies the differential equation
+      $$$$
+      y'' + y' - 2y = \sin x.
+      $$$$
+    Back: |
+      $A = -\frac{3}{10}$, $B = -\frac{1}{10}$.
+    Annotations: ''
+  tags: []
