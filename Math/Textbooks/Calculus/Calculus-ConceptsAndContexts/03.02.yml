@@ -155,3 +155,16 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547249865746
+  fields:
+    Front: |
+      CCAC 03.02 21: Differentiate.
+      $$$$
+      f(x) = \frac{A}{B + Ce^x}
+      $$$$
+    Back: |
+      $$$$
+      f'(x) = -\frac{ACe^x}{(B + Ce^x)^2}
+      $$$$
+    Annotations: ''
+  tags: []
