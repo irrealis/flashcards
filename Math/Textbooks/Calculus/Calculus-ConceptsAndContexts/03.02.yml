@@ -194,3 +194,16 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547250264130
+  fields:
+    Front: |
+      CCAC 03.02 27: Find $f'(x)$ and $f''(x)$.
+      $$$$
+      f(x) = \frac{x^2}{1 + 2x}
+      $$$$
+    Back: |
+      $$$$
+      \frac{2x^2 + 2x}{(1 + 2x)^2}; \quad \frac{2}{(1 + 2x)^3}
+      $$$$
+    Annotations: ''
+  tags: []
