@@ -51,3 +51,16 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547507134321
+  fields:
+    Front: |
+      CCAC 03.04 05: Write the composite function in the form $f(g(x))$. [Identify the inner function $u = g(x)$ and the outer function $y = f(u)$.] Then find the derivative $dy/dx$.
+      $$$$
+      y = e^{\sqrt{x}}
+      $$$$
+    Back: |
+      $$$$
+      e^{\sqrt{x}}/(2\sqrt{x})
+      $$$$
+    Annotations: ''
+  tags: []
