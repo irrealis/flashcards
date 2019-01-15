@@ -56,6 +56,18 @@ notes:
     Back: |
       Does not exist.
     Annotations: ''
+- id: 1547078082389
+  media:
+  - path: ${file_dir}/images/02.2-05.jpg
+    name: CCAC-02.2-05.jpg
+  fields:
+    Front: |
+      CCAC 02.2 05a: For the function $g$ whose graph is given, state the value of $\lim_{t \to 0^-} g(t)$, if it exists. If it does not exist, explain why.
+      ![](CCAC-02.2-05.jpg)
+    Back: |
+      $-1$.
+    Annotations: ''
+  tags: []
 - id: 1547078083346
   fields:
     Front: |
