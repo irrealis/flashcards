@@ -53,6 +53,18 @@ notes:
       \lim_{n \to \infty} a_n = L \quad \text{or} \quad a_n \to L \; \text{as} \; n \to \infty.
       $$$$
     Annotations: ''
+- id: 1547063926596
+  fields:
+    Front: |
+      CCAC D 00d: Let ${a_n}$ be a sequence. Define the notation $\lim_{n \to \infty} a_n = \infty$.
+    Back: |
+      The notation means that for every positive number $M$ there is an integer $N$ such that
+      $$$$
+      n > N \implies a_n > M.
+      $$$$
+    Annotations: ''
+  tags:
+  - Editing
 - id: 1547063926746
   useMarkdown: pweave
   tags: []
