@@ -78,6 +78,23 @@ notes:
     Back: |
       ![](CCAC-02.2-13.jpg)
     Annotations: ''
+- id: 1547078083896
+  media:
+  - path: ${file_dir}/images/02.2-15.jpg
+    name: CCAC-02.2-15.jpg
+  fields:
+    Front: |
+      CCAC 02.2 15: Sketch the graph of an example of a function that satisfies all of the given conditions.
+      $$$$
+      \lim_{x \to 3^+} f(x) = 4, \quad
+      \lim_{x \to 3^-} f(x) = 2, \quad
+      \lim_{x \to -2} f(x) = 2, \quad
+      f(3) = 3, \quad
+      f(-2) = 1
+      $$$$
+    Back: |
+      ![](CCAC-02.2-15.jpg)
+    Annotations: ''
 - id: 1547078084089
   tags: []
   fields:
