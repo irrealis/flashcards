@@ -240,3 +240,14 @@ notes:
       $5 \; \text{ft/rad}$.
     Annotations: ''
   tags: []
+- id: 1547504253899
+  fields:
+    Front: |
+      CCAC 03.03 39: Find the given derivative by finding the first few derivatives, and observing the pattern that occurs.
+      $$$$
+      \frac{d^{99}}{dx^{99}}(\sin x)
+      $$$$
+    Back: |
+      $- \cos x$.
+    Annotations: ''
+  tags: []
