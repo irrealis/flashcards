@@ -470,3 +470,13 @@ notes:
     Annotations: ''
   tags:
   - requiresCoding
+- id: 1547176082571
+  fields:
+    Front: |
+      CCAC 02.7 49: Let $f(x) = \sqrt[3]{x}$.
+      (a) If $a \ne 0$, use CCAC Equation 2.6.5 to find $f'(a)$.
+      (b) Show that $f'(0)$ does not exist.
+      (c) Show that $y = \sqrt[3]{x}$ has a vertical tangent line at $(0,0)$. (Recall the shape of the traph of $f$. See Figure 13 in CCAC 1.2.)
+    Back: |
+      (a) $\frac{1}{3}a^{-2/3}$
+    Annotations: ''
