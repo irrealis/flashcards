@@ -320,3 +320,17 @@ notes:
     Back: |
       ![](CCAC-02.Review-35.2.jpg)
     Annotations: ''
+- id: 1547231977596
+  media:
+  - path: ${file_dir}/images/CCAC-02.Review-37.1.jpg
+  fields:
+    Front: |
+      CCAC 02.Review, Exercise 37:
+      (a) If $f(x) = \sqrt{3 - 5x}$, use the definition of a derivative to find $f'(x)$.
+      (b) Find the domains of $f$ and $f'$.
+      (c) Graph $f$ and $f'$ on a common screen. Compare the graphs to see whether your answer to part (a) is reasonable.
+    Back: |
+      ![](CCAC-02.Review-37.1.jpg)
+    Annotations: ''
+  tags:
+  - requiresCoding
