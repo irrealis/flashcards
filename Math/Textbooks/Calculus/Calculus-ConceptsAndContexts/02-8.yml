@@ -59,3 +59,14 @@ notes:
     Back: |
       Increasing on $(2,5)$. Decreasing on $(-\infty, 2)$ and $(5, \infty)$.
     Annotations: ''
+- id: 1547213341146
+  media:
+  - path: ${file_dir}/images/02.8-07.1.jpg
+    name: CCAC-02.8-07.1.jpg
+  fields:
+    Front: |
+      CCAC 02.8 07: The graphs of a function $f$ and its derivative $f'$ are shown. Which is bigger, $f'(-1)$ or $f''(1)$?
+      ![](CCAC-02.8-07.1.jpg)
+    Back: |
+      $f''(1)$.
+    Annotations: ''
