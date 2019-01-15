@@ -36,3 +36,16 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547502097396
+  fields:
+    Front: |
+      CCAC 03.03 03: Differentiate:
+      $$$$
+      f(x) = \sin x + \frac{1}{2} \cot x
+      $$$$
+    Back: |
+      $$$$
+      f'(x) = \cos x - \frac{1}{2} \csc^2 x
+      $$$$
+    Annotations: ''
+  tags: []
