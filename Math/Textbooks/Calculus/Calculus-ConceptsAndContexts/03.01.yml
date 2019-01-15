@@ -148,3 +148,16 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547241828048
+  fields:
+    Front: |
+      CCAC 03.01 11: Differentiate the function.
+      $$$$
+      A(s) = -\frac{12}{s^5}
+      $$$$
+    Back: |
+      $$$$
+      A'(S) = \frac{60}{s^6}
+      $$$$
+    Annotations: ''
+  tags: []
