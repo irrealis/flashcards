@@ -10,6 +10,17 @@ defaults:
   - CCAC-02.6-DerivativesAndRatesOfChange
   markdownTabLength: 2
 notes:
+- id: 1547151319371
+  fields:
+    Front: |
+      CCAC 02.6 00a: Define the term **tangent line**.
+    Back: |
+      The **tangent line** to the curve $y = f(x)$ at the point $P(a, f(a))$ is the line through the point $P$ with slope
+      $$$$
+      m = \lim_{x \to a} \frac{f(x) - f(a)}{x - a},
+      $$$$
+      provided that this limit exists.
+    Annotations: ''
 - id: 1547151319596
   fields:
     Front: |
