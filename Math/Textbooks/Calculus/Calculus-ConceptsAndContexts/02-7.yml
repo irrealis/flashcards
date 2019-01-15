@@ -133,3 +133,41 @@ notes:
     Back: |
       ![](CCAC-02.7-13R.jpg)
     Annotations: ''
+- id: 1547176065973
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 02.7 15: Make a careful sketch of the graph of $f$, and below it sketch the graph of $f'$. Can you guess a formula for $f'(x)$ from its graph?
+      $$
+      f(x) = e^x
+      $$
+    Back: |
+      ```{python echo = False}
+      import matplotlib.pyplot as plt
+      import sympy as sy
+
+      import math
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      x = sy.symbols('x')
+      p = sy.plot(
+        sy.exp(x),
+        xlim = (-3, 3), ylim = (0, 4),
+        xlabel = '$x$', ylabel = '$y$',
+        show = False,
+      )
+
+      if hasattr(p, '_backend'): p._backend.close()
+      p._backend = p.backend(p)
+      fg, ax = p._backend.fig, p._backend.ax
+      p._backend.process_series()
+
+      ax.text(1.5, 3.5, "$f$, $f'$")
+      p._backend.plt.show()
+      ```
+      $$
+      f'(x) = e^x = f(x)
+      $$
+    Annotations: ''
