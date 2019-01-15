@@ -187,3 +187,14 @@ notes:
     Back: |
       ![](CCAC-02.8-23.1.jpg)
     Annotations: ''
+- id: 1547213342603
+  fields:
+    Front: |
+      CCAC 02.8 25: Suppose $f'(x) = xe^{-x^2}$.
+      (a) On what interval is $f$ increasing? On what interval is $f$ decreasing?
+      (b) Does $f$ have a maximum value? Minimum value?
+    Back: |
+      (a) Increasing on $(0, \infty)$; decreasing on $(-\infty, 0)$.
+      (b) Minimum at $x = 0$.
+    Annotations: ''
+  tags: []
