@@ -282,3 +282,11 @@ notes:
     Annotations: ''
   tags:
   - requiresCoding
+- id: 1547251223996
+  fields:
+    Front: |
+      CCAC 03.02 39: If $f(x) = x^2/(1 + x)$, find $f''(1)$.
+    Back: |
+      $\frac{1}{4}$.
+    Annotations: ''
+  tags: []
