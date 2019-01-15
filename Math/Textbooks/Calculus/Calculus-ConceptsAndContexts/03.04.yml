@@ -233,3 +233,16 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547508283271
+  fields:
+    Front: |
+      CCAC 03.04 33: Find the derivative of the function.
+      $$$$
+      y = \cot^2(\sin \theta)
+      $$$$
+    Back: |
+      $$$$
+      y' = -2\cos \theta \cot(\sin \theta) \csc^2(\sin \theta)
+      $$$$
+    Annotations: ''
+  tags: []
