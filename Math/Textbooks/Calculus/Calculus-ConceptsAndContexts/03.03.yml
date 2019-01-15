@@ -273,3 +273,14 @@ notes:
       $3$.
     Annotations: ''
   tags: []
+- id: 1547504599121
+  fields:
+    Front: |
+      CCAC 03.03 45: Use CCAC-03.03 Formula 2 and trigonometric identities to evaluate the limit.
+      $$$$
+      \lim_{\theta \to 0} \frac{\sin \theta}{\theta + \tan \theta}
+      $$$$
+    Back: |
+      $\frac{1}{2}$.
+    Annotations: ''
+  tags: []
