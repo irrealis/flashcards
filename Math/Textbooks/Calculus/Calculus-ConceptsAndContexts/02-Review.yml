@@ -395,3 +395,27 @@ notes:
     Back: |
       ![](CCAC-02.Review-45.1.jpg)
     Annotations: ''
+- id: 1547231978621
+  fields:
+    Front: |
+      CCAC 02.Review, Exercise 47: A car starts from rest and its distance traveled is recorded in the table in 2-second intervals.
+      $$$$
+      \begin{array}{|c|c||c|c|}
+      \hline
+      t\, \text{(seconds)} & s\, \text{(feet)} & t\, \text{(seconds)} & s\, \text{(feet)} \\
+      \hline
+      0 & 0 & 8 & 180 \\
+      2 & 8 & 10 & 260 \\
+      4 & 40 & 12 & 319 \\
+      6 & 95 & 14 & 373 \\
+      \hline
+      \end{array}
+      $$$$
+      (a) Estimate the speed after $6$ seconds.
+      (b) Estimate the coordinates of the inflection point of the graph of the position function.
+      (c) What is the significance of the inflection point?
+    Back: |
+      (a) About $35$ ft/s.
+      (b) About $(8, 180)$.
+      (c) The point at which the car's velocity is maximized.
+    Annotations: ''
