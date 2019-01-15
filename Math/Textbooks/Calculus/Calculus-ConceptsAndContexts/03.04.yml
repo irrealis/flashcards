@@ -77,3 +77,16 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547507315025
+  fields:
+    Front: |
+      CCAC 03.04 09: Find the derivative of the function.
+      $$$$
+      F(x) = \sqrt{1 - 2x}
+      $$$$
+    Back: |
+      $$$$
+      F'(x) = -\frac{1}{\sqrt{1 - 2x}}
+      $$$$
+    Annotations: ''
+  tags: []
