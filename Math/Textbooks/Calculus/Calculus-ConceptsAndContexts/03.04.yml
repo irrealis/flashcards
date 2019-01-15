@@ -407,3 +407,13 @@ notes:
       $-17.4$
     Annotations: ''
   tags: []
+- id: 1547511282696
+  fields:
+    Front: >
+      CCAC 03.04 59: Suppose $f$ is differentiable on $\mathbb{R}$. Let $F(x) = f(e^x)$
+      and $G(x) = e^{f(x)}$. Find expressions for (a) $F'(x)$ and (b) $G'(x)$.
+    Back: |
+      (a) $F'(x) = e^x f'(e^x)$
+      (b) $G'(x) = e^{f(x)} f'(x)$
+    Annotations: ''
+  tags: []
