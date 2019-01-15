@@ -234,3 +234,13 @@ notes:
       $g'(x) = 1/\sqrt{1 + 2x}$, $\left[-\frac{1}{2}, \infty\right)$, $\left[-\frac{1}{2}, \infty\right)$
     Annotations: ''
   tags: []
+- id: 1547176070528
+  fields:
+    Front: |
+      CCAC 02.7 27: Find the derivative of the function using the definition of derivative. State the domain of the function and the domain of its derivative.
+      $$
+      G(t) = \frac{4t}{t + 1}
+      $$
+    Back: |
+      $G'(t) = \frac{4}{(t + 1)^2}$, $(-\infty, -1) \cup (-1, \infty)$, $(-\infty, -1) \cup (-1, \infty)$
+    Annotations: ''
