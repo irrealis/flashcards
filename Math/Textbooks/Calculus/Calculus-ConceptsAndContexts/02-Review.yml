@@ -117,3 +117,13 @@ notes:
       (c) $x = 0$, $x = 2$.
       (d) -3, 0, 2, 4.
     Annotations: ''
+- id: 1547231974424
+  fields:
+    Front: |
+      CCAC 02.Review, Exercise 03: Find the limit.
+      $$$$
+      \lim_{x \to 1} e^{x^3 - x}
+      $$$$
+    Back: |
+      $1$
+    Annotations: ''
