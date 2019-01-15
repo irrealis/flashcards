@@ -236,6 +236,22 @@ notes:
     Back: |
       $-2/a^3$ m/s; $-2$ m/s; $-\frac{1}{4}$ m/s; $-\frac{2}{27}$ m/s.
     Annotations: ''
+- id: 1547151332121
+  media:
+  - path: ${file_dir}/images/02.6-17.jpg
+    name: CCAC-02.6-17.jpg
+  fields:
+    Front: |
+      CCAC 02.6 17: For the function $g$ whose graph is given, arrange the following numbers in increasing order, and explain your reasoning:
+      $$$$
+      0 \quad g'(-2) \quad g'(0) \quad g'(2) \quad g'(4)
+      $$$$
+      ![](CCAC-02.6-17.jpg)
+    Back: |
+      $$$$
+      g'(0) \quad 0 \quad g'(4) \quad g'(2) \quad g'(-2)
+      $$$$
+    Annotations: ''
 - id: 1547151332418
   fields:
     Front: |
