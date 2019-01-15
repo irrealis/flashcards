@@ -223,3 +223,17 @@ notes:
       $b$
     Annotations: ''
   tags: []
+- id: 1547213343062
+  media:
+  - path: ${file_dir}/images/02.8-31.1.jpg
+    name: CCAC-02.8-31.1.jpg
+  - path: ${file_dir}/images/02.8-31.2.jpg
+    name: CCAC-02.8-31.2.jpg
+  fields:
+    Front: |
+      CCAC 02.8 31: The graph of a function is shown in the figure. Make a rough sketch of an antiderivative $F$, given that $F(0) = 1$.
+      ![](CCAC-02.8-31.1.jpg)
+    Back: |
+      ![](CCAC-02.8-31.2.jpg)
+    Annotations: ''
+  tags: []
