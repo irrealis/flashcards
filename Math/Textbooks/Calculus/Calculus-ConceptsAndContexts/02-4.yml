@@ -88,6 +88,14 @@ notes:
       If $g$ is continuous at $a$, and $f$ is continuous at $g(a)$, then $f \circ g$ is continuous at $a$.
       In other words, _the compose of continuous functions is continuous_.
     Annotations: ''
+- id: 1547147566171
+  fields:
+    Front: |
+      CCAC 02.4 00h: State the Intermediate Value Theorem.
+    Back: >
+      Suppose that $f$ is continuous $[a,b]$, and let $N$ be between $f(a)$ and $f(b)$
+      where $f(a) \ne f(b)$. Then there exists $c \in (a,b)$ such that $f(c) = N$.
+    Annotations: ''
 - id: 1547147566296
   fields:
     Front: |
