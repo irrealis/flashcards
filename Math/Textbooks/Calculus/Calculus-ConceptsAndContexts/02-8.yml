@@ -102,3 +102,12 @@ notes:
       starts to decrease in 1932 and starts to increase in 1937.
     Annotations: ''
   tags: []
+- id: 1547213341624
+  fields:
+    Front: >
+      CCAC 02.8 13: Let $K(t)$ be a measure of the knowledge you gain by studying
+      for a test for $t$ hours. Which do you think is larger, $K(8) - K(7)$ or $K(3)
+      - K(2)$? Is the graph of $K$ concave upward, or concave downward? Why?
+    Back: |
+      $K(3) - K(2)$; concave downward.
+    Annotations: ''
