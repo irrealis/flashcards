@@ -60,6 +60,17 @@ notes:
       c \lim_{x \to a} f(x)
       $$$$
     Annotations: ''
+- id: 1547081316271
+  fields:
+    Front: |
+      CCAC 02.3 00c: State the Direct Substition Property of Limits.
+    Back: |
+      If $f$ is a polynomial or a rational function and $a$ is in the domain of $f$, then
+      $$$$
+      \lim_{x \to a} f(x) = f(a), \quad
+      \text{if $f(a)$ is defined.}
+      $$$$
+    Annotations: ''
 - id: 1547081316871
   tags: []
   fields:
