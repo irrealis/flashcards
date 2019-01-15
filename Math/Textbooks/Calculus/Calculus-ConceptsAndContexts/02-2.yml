@@ -10,6 +10,18 @@ defaults:
   - CCAC-02.2-TheLimitOfAFunction
   markdownTabLength: 2
 notes:
+- id: 1547078081846
+  media:
+  - path: ${file_dir}/images/02.2-03.jpg
+    name: CCAC-02.2-03.jpg
+  fields:
+    Front: |
+      CCAC 02.2 03a: Use the given graph of $f$ to state the value of $\lim_{x \to 1^-} f(x)$, if it exists. If it does not exist, explain why.
+      ![](CCAC-02.2-03.jpg)
+    Back: |
+      $2$.
+    Annotations: ''
+  tags: []
 - id: 1547078083346
   fields:
     Front: |
