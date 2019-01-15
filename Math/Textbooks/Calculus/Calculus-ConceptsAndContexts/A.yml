@@ -41,8 +41,9 @@ notes:
       (4) $|x| = a$ if and only if $x = \pm a$
       (5) $|x| < a$ if and only if $-a < x < a$
       (g) $|x| > a$ if and only if $x > a$ or $x < -a$
-    Annotations: ''
-  tags: []
+    Annotations: Fix me:<div>- should read \(b \ne 0\), not \(b \ne n\).</div>
+  tags:
+  - ann:fix-me
 - id: 1547063852178
   tags: []
   fields:
@@ -163,8 +164,11 @@ notes:
       ax.plot(1, 0, 'ko', markersize = 4)
       _=_
       ```
-    Annotations: ''
-  tags: []
+    Annotations: 'Issues:<div>- 190114: my solution was the complement of the correct
+      answer. I got confused about sign changes and accompanying changes in inequality
+      directions.</div>'
+  tags:
+  - ann:trouble
 - id: 1547063855996
   useMarkdown: pweave
   fields:
@@ -190,8 +194,10 @@ notes:
       ax.plot(2, 0, 'ko', markerfacecolor = 'white', markersize = 4)
       _=_
       ```
-    Annotations: ''
-  tags: []
+    Annotations: 'Fix me:<div>- 190114: I don’t think the card’s answer is correct.
+      Compare with original text.</div>'
+  tags:
+  - ann:fix-me
 - id: 1547063856996
   useMarkdown: pweave
   fields:
@@ -298,8 +304,10 @@ notes:
       ax.plot(1/4, 0, 'ko', markerfacecolor = 'white', markersize = 4)
       _=_
       ```
-    Annotations: ''
-  tags: []
+    Annotations: 'Trouble:<div>190114: failed to identify valid interval \((-\infty,
+      0)\). Need to brush up on mult. inv. of negs.</div>'
+  tags:
+  - ann:trouble
 - id: 1547063861222
   fields:
     Front: >
@@ -319,8 +327,12 @@ notes:
       temperature is $20^\circ$C, write a formula for the temperature at height $h$.
     Back: |
       $T = 20 - 10h$, $0 \le h \le 12$
-    Annotations: ''
-  tags: []
+    Annotations: 'Fix me:<div>190114: should combine parts (a) &amp; (b).</div><div><br></div><div>Minor
+      trouble:</div><div>190114: I expressed formula for meters instead of km. I’d
+      say the latter is correct.</div>'
+  tags:
+  - ann:fix-me
+  - ann:minor-trouble
 - id: 1547063861496
   fields:
     Front: >
