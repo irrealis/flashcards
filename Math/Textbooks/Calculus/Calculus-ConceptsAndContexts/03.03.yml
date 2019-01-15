@@ -174,3 +174,18 @@ notes:
     Annotations: ''
   tags:
   - requiresCoding
+- id: 1547503370071
+  fields:
+    Front: |
+      CCAC 03.03 29:
+      (a) Use the Quotient Rule to differentiate the function
+      $$$$
+      f(x) = \frac{\tan x - 1}{\sec x}
+      $$$$
+      (b) Simplify the expression for $f(x)$ by writing it in terms of $\sin x$ and $\cos x$, and then find $f'(x)$.
+      (c) Show that your answers to parts (a) and (b) are equivalent.
+    Back: |
+      (a) $f'(x) = (1 + \tan x) / \sec x$
+      (b) $f'(x) = \cos x + \sin x$
+    Annotations: ''
+  tags: []
