@@ -380,3 +380,45 @@ notes:
     Back: |
       $a =$ acceleration; $b =$ velocity; $c =$ position.
     Annotations: ''
+- id: 1547176075496
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 02.7 45: Use the definition of a derivative to find $f'(x)$ and $f''(x)$. Then graph $f$, $f'$, and $f''$ on a common screen, and check to see if your answers are reasonable.
+      $$
+      f(x) = 3x^2 + 2x + 1
+      $$
+    Back: |
+      $6x + 2$; $6$.
+      ```{python echo = False}
+      import matplotlib.pyplot as plt
+      import sympy as sy
+
+      import math
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      x = sy.symbols('x')
+      p = sy.plot(
+        3*x**2 + 2*x + 1,
+        6*x + 2,
+        6,
+        xlim = (-4, 4), ylim = (-1, 7),
+        xlabel = '$x$', ylabel = '$y$',
+        show = False,
+      )
+
+      if hasattr(p, '_backend'): p._backend.close()
+      p._backend = p.backend(p)
+      fg, ax = p._backend.fig, p._backend.ax
+      p._backend.process_series()
+
+      ax.text(-1.6, 3, "$f$")
+      ax.text(0.2, 5, "$f'$")
+      ax.text(-3, 5.5, "$f''$")
+      p._backend.plt.show()
+      ```
+    Annotations: ''
+  tags:
+  - requiresCoding
