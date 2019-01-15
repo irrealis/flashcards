@@ -372,3 +372,19 @@ notes:
       (b) $36$
     Annotations: ''
   tags: []
+- id: 1547510870096
+  media:
+  - path: ${file_dir}/images/CCAC-03.04-55.1.jpg
+  fields:
+    Front: |
+      CCAC 03.04 55: If $f$ and $g$ are the functions whose graphs are shown, let $u(x) = f(g(x))$, $v(x) = g(f(x))$, and $w(x) = g(g(x))$. Find each derivative, if it exists. If it does not exist, explain why.
+      (a) $u'(1)$
+      (b) $v'(1)$
+      (c) $w'(1)$
+      ![](CCAC-03.04-55.1.jpg)
+    Back: |
+      (a) $\frac{3}{4}$
+      (b) Does not exist
+      (c) $-2$
+    Annotations: ''
+  tags: []
