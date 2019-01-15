@@ -304,3 +304,17 @@ notes:
     Annotations: ''
   tags:
   - requiresCoding
+- id: 1547241829333
+  fields:
+    Front: |
+      CCAC 03.01 35: Find $f'(x)$. Compare the graphs of $f$ and $f'$, and use them to explain why your answer is reasonable.
+      $$$$
+      f(x) = 3x^{15} - 5x^3 + e
+      $$$$
+    Back: |
+      $$$$
+      45x^{14} - 15x^2
+      $$$$
+    Annotations: ''
+  tags:
+  - requiresCoding
