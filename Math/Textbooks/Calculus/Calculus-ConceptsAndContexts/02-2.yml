@@ -108,6 +108,14 @@ notes:
     Back: |
       Does not exist.
     Annotations: ''
+- id: 1547078083070
+  fields:
+    Front: |
+      CCAC 02.2 05g: For the function $g$ whose graph is given, state the value of $g(t)$, if it exists. If it does not exist, explain why.
+      ![](CCAC-02.2-05.jpg)
+    Back: |
+      $1$.
+    Annotations: ''
 - id: 1547078083346
   fields:
     Front: |
