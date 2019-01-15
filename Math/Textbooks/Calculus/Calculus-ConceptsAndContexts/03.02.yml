@@ -1,0 +1,11 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Calculus-ConceptsAndContexts
+  - CCAC-03-DifferentiationRules
+  - CCAC-03.02-TheProductAndQuotientRules
+  markdownTabLength: 2
