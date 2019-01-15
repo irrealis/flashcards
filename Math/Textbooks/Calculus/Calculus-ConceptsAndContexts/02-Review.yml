@@ -309,3 +309,14 @@ notes:
       (b) As the interest rate increases past 10%, the cost is increasing at a rate of $1200/(percent per year).
       (c) Always positive.
     Annotations: ''
+- id: 1547231977446
+  media:
+  - path: ${file_dir}/images/CCAC-02.Review-35.1.jpg
+  - path: ${file_dir}/images/CCAC-02.Review-35.2.jpg
+  fields:
+    Front: |
+      CCAC 02.Review, Exercise 35: The graph of a function is given. Sketch a graph of its derivative.
+      ![](CCAC-02.Review-35.1.jpg)
+    Back: |
+      ![](CCAC-02.Review-35.2.jpg)
+    Annotations: ''
