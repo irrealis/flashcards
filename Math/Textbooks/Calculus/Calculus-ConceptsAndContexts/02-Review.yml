@@ -243,3 +243,15 @@ notes:
       ![](CCAC-02.Review-23.1.jpg)
     Annotations: ''
   tags: []
+- id: 1547231976473
+  fields:
+    Front: |
+      CCAC 02.Review, Exercise 25: Use the Intermediate Value Theorem to show that there is no root of the equation in the given interval.
+      $$$$
+      2x^3 + x^2 + 2 = 0, \quad (-2, -1)
+      $$$$
+    Back: |
+      To do...
+    Annotations: ''
+  tags:
+  - ToDo
