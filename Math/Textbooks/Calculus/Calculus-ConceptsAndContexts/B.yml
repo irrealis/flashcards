@@ -20,6 +20,21 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547063862487
+  fields:
+    Front: |
+      CCAC B 00b: State the standard Equation of a Circle in the $xy$-plane.
+    Back: |
+      An equation of the circle with center $(h, k)$ and radius $r$ is
+      $$$$
+      (x - h)^2 + (y - k)^2 = r^2
+      $$$$
+      In particular, if the center is the origin, the equation is
+      $$$$
+      x^2 + y^2 = r^2
+      $$$$
+    Annotations: ''
+  tags: []
 - id: 1547063863427
   fields:
     Front: |
