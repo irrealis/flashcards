@@ -116,3 +116,16 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547507595196
+  fields:
+    Front: |
+      CCAC 03.04 15: Find the derivative of the function.
+      $$$$
+      h(t) = t^3 - 3^t
+      $$$$
+    Back: |
+      $$$$
+      h'(t) = 3t^2 - 3^t \ln 3
+      $$$$
+    Annotations: ''
+  tags: []
