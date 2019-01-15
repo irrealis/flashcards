@@ -366,3 +366,17 @@ notes:
     Back: |
       $a = f$, $b = f'$, $c = f''$.
     Annotations: ''
+- id: 1547176075346
+  media:
+  - path: ${file_dir}/images/02.7-43.jpg
+    name: CCAC-02.7-43.jpg
+  fields:
+    Front: >
+      CCAC 02.7 43: The figure shows the graphs of three functions. One is the position
+      function of a car, one is the velocity of the car, and one is its acceleration.
+      Identify each curve, and explain your choices.
+
+      ![](CCAC-02.7-43.jpg)
+    Back: |
+      $a =$ acceleration; $b =$ velocity; $c =$ position.
+    Annotations: ''
