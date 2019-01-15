@@ -226,3 +226,16 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547241828696
+  fields:
+    Front: |
+      CCAC 03.01 23: Differentiate the function.
+      $$$$
+      u = \sqrt[5]{t} + 4\sqrt{t^5}
+      $$$$
+    Back: |
+      $$$$
+      u' = \frac{1}{5}t^{-4/5} + 10t^{3/2}
+      $$$$
+    Annotations: ''
+  tags: []
