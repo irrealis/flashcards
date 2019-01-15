@@ -417,3 +417,11 @@ notes:
       (b) $G'(x) = e^{f(x)} f'(x)$
     Annotations: ''
   tags: []
+- id: 1547511451396
+  fields:
+    Front: |
+      CCAC 03.04 61: Let $r(x) = f(g(h(x)))$, where $h(1) = 2$, $g(2) = 3$, $h'(1) = 4$, $g'(2) = 5$, and $f'(3) = 6$. Find $r'(1)$.
+    Back: |
+      $120$.
+    Annotations: ''
+  tags: []
