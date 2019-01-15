@@ -65,3 +65,16 @@ notes:
       (c) I
       (d) III
     Annotations: ''
+- id: 1547176065082
+  media:
+  - path: ${file_dir}/images/02.7-05.jpg
+    name: CCAC-02.7-05.jpg
+  - path: ${file_dir}/images/02.7-05R.jpg
+    name: CCAC-02.7-05R.jpg
+  fields:
+    Front: |
+      CCAC 02.7 05: Below is the graph of a function $f$. Sketch the graph of $f'$.
+      ![](CCAC-02.7-05.jpg)
+    Back: |
+      ![](CCAC-02.7-05R.jpg)
+    Annotations: ''
