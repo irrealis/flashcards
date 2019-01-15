@@ -320,3 +320,17 @@ notes:
     Annotations: ''
   tags:
   - requiresCoding
+- id: 1547510147036
+  fields:
+    Front: |
+      CCAC 03.04 47:
+      (a) If $f(x) = x\sqrt{2 - x^2}$, find $f'(x)$.
+      (b) Check to see that your answer to part (a) is reasonably by comparing the graphs of $f$ and $f'$.
+    Back: |
+      (a)
+      $$$$
+      f'(x) = \frac{2 - 2x^2}{\sqrt{2 - x^2}}
+      $$$$
+    Annotations: ''
+  tags:
+  - requiresCoding
