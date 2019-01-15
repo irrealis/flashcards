@@ -96,3 +96,16 @@ notes:
       $0.99$, $1.03$; $2.7 < e < 2.8$.
     Annotations: ''
   tags: []
+- id: 1547241827648
+  fields:
+    Front: |
+      CCAC 03.01 03: Differentiate the function.
+      $$$$
+      f(x) = 1.865
+      $$$$
+    Back: |
+      $$$$
+      f'(x) = 0
+      $$$$
+    Annotations: ''
+  tags: []
