@@ -104,6 +104,17 @@ notes:
       \text{(If $n$ is even, we assume that $a > 0$.)}
       $$$$
     Annotations: ''
+- id: 1547081316550
+  fields:
+    Front: |
+      CCAC 02.3 00e: State the Two-Sided Limit Theorem.
+    Back: |
+      $$$$
+      \lim_{x \to a} f(x) = L \quad
+      \text{if and only if} \quad
+      \lim_{x \to a^-} f(x) = L = \lim_{x \to a^+} f(x).
+      $$$$
+    Annotations: ''
 - id: 1547081316871
   tags: []
   fields:
