@@ -168,3 +168,16 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547249939503
+  fields:
+    Front: |
+      CCAC 03.02 23: Differentiate.
+      $$$$
+      f(x) = \frac{x}{x + \frac{c}{x}}
+      $$$$
+    Back: |
+      $$$$
+      f'(x) = \frac{2cx}{(x^2 + c)^2}
+      $$$$
+    Annotations: ''
+  tags: []
