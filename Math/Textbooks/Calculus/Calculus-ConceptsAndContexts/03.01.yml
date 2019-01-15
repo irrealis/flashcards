@@ -252,3 +252,16 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547241828920
+  fields:
+    Front: |
+      CCAC 03.01 27: Find an equation of the tangent line to the curve at the given point.
+      $$$$
+      y = \sqrt[4]{x}, \quad (1, 1)
+      $$$$
+    Back: |
+      $$$$
+      y = \frac{1}{4}x + \frac{3}{4}
+      $$$$
+    Annotations: ''
+  tags: []
