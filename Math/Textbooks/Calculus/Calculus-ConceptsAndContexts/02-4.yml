@@ -79,6 +79,15 @@ notes:
       That is, _a limit symbol can be moved through a function symbol if the function is continuous and the limit exists_.
       In other words, _the order of these two symbols can be reversed_.
     Annotations: ''
+- id: 1547147566046
+  fields:
+    Front: |
+      CCAC 02.4 00g: State the Continuous Composition Theorem.
+      (This is my own terminology.)
+    Back: |
+      If $g$ is continuous at $a$, and $f$ is continuous at $g(a)$, then $f \circ g$ is continuous at $a$.
+      In other words, _the compose of continuous functions is continuous_.
+    Annotations: ''
 - id: 1547147566296
   fields:
     Front: |
