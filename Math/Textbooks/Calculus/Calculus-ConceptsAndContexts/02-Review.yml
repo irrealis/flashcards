@@ -279,3 +279,20 @@ notes:
     Back: |
       $f''(5)$, $0$, $f'(5)$, $f'(2)$, 1, $f'(3)$.
     Annotations: ''
+- id: 1547231977102
+  media:
+  - path: ${file_dir}/images/CCAC-02.Review-31.1.jpg
+  fields:
+    Front: |
+      CCAC 02.Review, Exercise 31:
+      (a) If $f(x) = e^{-x^2}$, estimate the value of $f'(1)$ graphically and numerically.
+      (b) Find an approximate equation of the tangent line to the curve $y = e^{-x^2}$ at the point where $x = 1$.
+      (c) Illustrate part (b) by graphing the curve and the tangent line on the screen.
+    Back: |
+      (a) $-0.736$
+      (b) $y \approx -0.736x + 1.104$
+      (c)
+      ![](CCAC-02.Review-31.1.jpg)
+    Annotations: ''
+  tags:
+  - requiresCoding
