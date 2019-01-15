@@ -372,3 +372,11 @@ notes:
       $1.627 billion/year.
     Annotations: ''
   tags: []
+- id: 1547252389371
+  fields:
+    Front: |
+      CCAC 03.02 51: On what interval is the function $f(x) = x^3 e^x$ increasing?
+    Back: |
+      $(-3, \infty)$.
+    Annotations: ''
+  tags: []
