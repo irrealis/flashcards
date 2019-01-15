@@ -42,3 +42,11 @@ notes:
     Back: |
       False
     Annotations: ''
+- id: 1547231973503
+  fields:
+    Front: |
+      CCAC 02.Review, True-False 07: Determine whether the statement is true or false.
+      If $p$ is a polynomial, then $\lim_{x \to b} p(x) = p(b)$.
+    Back: |
+      True
+    Annotations: ''
