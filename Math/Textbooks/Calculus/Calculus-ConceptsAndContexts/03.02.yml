@@ -51,3 +51,16 @@ notes:
       $(x^3 + 3x^2 + 2x + 2)e^x$.
     Annotations: ''
   tags: []
+- id: 1547243217498
+  fields:
+    Front: |
+      CCAC 03.02 05: Differentiate.
+      $$$$
+      y = \frac{e^x}{x^2}
+      $$$$
+    Back: |
+      $$$$
+      y' = \frac{(x - 2)e^x}{x^3}
+      $$$$
+    Annotations: ''
+  tags: []
