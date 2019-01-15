@@ -332,3 +332,27 @@ notes:
     Annotations: ''
   tags:
   - requiresCoding
+- id: 1547241829621
+  media:
+  - path: ${file_dir}/images/CCAC-03.01-39.1.jpg
+  - path: ${file_dir}/images/CCAC-03.01-39.2.jpg
+  fields:
+    Front: >
+      CCAC 03.01 39:
+
+      (a) Use a graphing calculator or computer to graph the function $f(x) = x^4
+      - 3x^3 - 6x^2 + 7x + 30$ in the viewing rectangle $[-3, 5]$ by $[-10, 50]$.
+
+      (b) Using the graph in part (a) to estimate slopes, make a rough sketch, by
+      hand, of the graph of $f'$.
+
+      (c) Calculate $f'$, and use this expression, with a graphing device, to graph
+      $f'$. Compare with your sketch in part (b).
+    Back: |
+      (a)
+      ![](CCAC-03.01-39.1.jpg)
+      (c) $4x^3 - 9x^2 - 12x + 7$
+      ![](CCAC-03.01-39.2.jpg)
+    Annotations: ''
+  tags:
+  - requiresCoding
