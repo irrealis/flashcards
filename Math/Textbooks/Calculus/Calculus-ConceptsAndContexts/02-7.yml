@@ -223,3 +223,14 @@ notes:
     Back: |
       $f'(x) = 2x - 6x^2$, $\mathbb{R}$, $\mathbb{R}$
     Annotations: ''
+- id: 1547176070397
+  fields:
+    Front: |
+      CCAC 02.7 25: Find the derivative of the function using the definition of derivative. State the domain of the function and the domain of its derivative.
+      $$
+      g(x) = \sqrt{1 + 2x}
+      $$
+    Back: |
+      $g'(x) = 1/\sqrt{1 + 2x}$, $\left[-\frac{1}{2}, \infty\right)$, $\left[-\frac{1}{2}, \infty\right)$
+    Annotations: ''
+  tags: []
