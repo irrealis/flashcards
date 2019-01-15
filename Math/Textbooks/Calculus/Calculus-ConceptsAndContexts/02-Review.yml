@@ -147,3 +147,13 @@ notes:
     Back: |
       $3$
     Annotations: ''
+- id: 1547231974838
+  fields:
+    Front: |
+      CCAC 02.Review, Exercise 09: Find the limit.
+      $$$$
+      \lim_{r \to 9} \frac{\sqrt{r}}{(r - 9)^4}
+      $$$$
+    Back: |
+      $\infty$
+    Annotations: ''
