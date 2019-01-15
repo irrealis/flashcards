@@ -52,6 +52,19 @@ notes:
       \end{align}
       $$$$
     Annotations: ''
+- id: 1547063891380
+  fields:
+    Front: |
+      CCAC C 00d: State two critical trigonometric **double-angle formulae**.
+    Back: |
+      For any real number $\theta$,
+      $$$$
+      \begin{align}
+        \sin(2\theta) &= 2 \sin \theta \cos \theta \\
+        \cos(2\theta) &= \cos^2 \theta - \sin^2 \theta \\
+      \end{align}
+      $$$$
+    Annotations: ''
 - id: 1547063910221
   tags: []
   fields:
