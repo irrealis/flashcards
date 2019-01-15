@@ -304,3 +304,14 @@ notes:
       \end{array}
       $$
     Annotations: ''
+- id: 1547176071098
+  media:
+  - path: ${file_dir}/images/02.7-35.jpg
+    name: CCAC-02.7-35.jpg
+  fields:
+    Front: |
+      CCAC 02.7 35: The graph of $f$ is given. State, with reasons, the numbers at which $f$ is not differentiable.
+      ![](CCAC-02.7-35.jpg)
+    Back: |
+      $-4$ (corner); $0$ (discontinuity).
+    Annotations: ''
