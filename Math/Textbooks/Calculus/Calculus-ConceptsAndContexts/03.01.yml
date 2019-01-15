@@ -461,3 +461,11 @@ notes:
       (c) $F(x) = x^{n+1}/(n+1) + C$, $C$ any real number.
     Annotations: ''
   tags: []
+- id: 1547241831125
+  fields:
+    Front: |
+      CCAC 03.01 65: Find the parabola with equation $y = ax^2 + bx$ whose tangent line at $(1, 1)$ has equation $y = 3x - 2$.
+    Back: |
+      $y = 2x^2 - x$.
+    Annotations: ''
+  tags: []
