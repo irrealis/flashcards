@@ -506,3 +506,15 @@ notes:
     Annotations: ''
   tags:
   - requiresCoding
+- id: 1547513073746
+  fields:
+    Front: |
+      CCAC 03.04 75: A particle moves along a straight line with displacement $s(t)$, velocity $v(t)$, and acceleration $a(t)$. Show that
+      $$$$
+      a(t) = v(t)\frac{dv}{ds}
+      $$$$
+      Explain the difference between the meanings of the derivatives $dv/dt$ and $dv/ds$.
+    Back: |
+      $dv/dt$ is the rate of change of velocity with respect to time; $dv/ds$ is the rate of change of velocity with respect to displacement.
+    Annotations: ''
+  tags: []
