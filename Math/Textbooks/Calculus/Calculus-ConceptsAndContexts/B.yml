@@ -9,14 +9,14 @@ defaults:
   - Calculus-ConceptsAndContexts
   - CCAC-B-CoordinateGeometry
 notes:
-- id: 1545610725182
+- id: 1547063863427
   fields:
     Front: |
       CCAC B 01: Find the distance between the points $(1, 1)$ and $(4, 5)$.
     Back: |
       5
     Annotations: ''
-- id: 1545610725541
+- id: 1547063863523
   fields:
     Front: |
       CCAC B 03: Find the slope of the line through $P(-3, 3)$ and $Q(-1, -6)$.
@@ -33,7 +33,7 @@ notes:
     Back: |
       ...
     Annotations: ''
-- id: 1545610725973
+- id: 1547063863671
   useMarkdown: pweave
   fields:
     Front: |
@@ -57,7 +57,7 @@ notes:
       )
       ```
     Annotations: ''
-- id: 1545610726235
+- id: 1547063866721
   useMarkdown: pweave
   fields:
     Front: |
@@ -87,7 +87,7 @@ notes:
       p._backend.show()
       ```
     Annotations: ''
-- id: 1545610726406
+- id: 1547063869597
   fields:
     Front: |
       CCAC B 11: Find an equation of the line that satisfies the given conditions.
@@ -95,7 +95,7 @@ notes:
     Back: |
       $y = 6x - 15$
     Annotations: ''
-- id: 1545610726561
+- id: 1547063869698
   fields:
     Front: |
       CCAC B 13: Find an equation of the line that satisfies the given conditions.
@@ -103,7 +103,7 @@ notes:
     Back: |
       $5x + y = 11$
     Annotations: ''
-- id: 1545610726758
+- id: 1547063869796
   fields:
     Front: |
       CCAC B 15: Find an equation of the line that satisfies the given conditions.
@@ -111,7 +111,7 @@ notes:
     Back: |
       $y = 3x - 2$
     Annotations: ''
-- id: 1545610726927
+- id: 1547063869921
   fields:
     Front: |
       CCAC B 17: Find an equation of the line that satisfies the given conditions.
@@ -119,7 +119,7 @@ notes:
     Back: |
       $y = 3x - 3$
     Annotations: ''
-- id: 1545610727143
+- id: 1547063870029
   fields:
     Front: |
       CCAC B 19: Find an equation of the line that satisfies the given conditions.
@@ -127,7 +127,7 @@ notes:
     Back: |
       $y = 5$
     Annotations: ''
-- id: 1545610727315
+- id: 1547063870125
   fields:
     Front: |
       CCAC B 21: Find an equation of the line that satisfies the given conditions.
@@ -135,7 +135,7 @@ notes:
     Back: |
       $x + 2y + 11 = 0$
     Annotations: ''
-- id: 1545610727494
+- id: 1547063870226
   fields:
     Front: |
       CCAC B 23: Find an equation of the line that satisfies the given conditions.
@@ -143,14 +143,14 @@ notes:
     Back: |
       $5x - 2y + 1 = 0$
     Annotations: ''
-- id: 1545610727675
+- id: 1547063870372
   useMarkdown: pweave
   fields:
     Front: |
       CCAC B 25: Find the slope and $y$-intercept of the line, and draw its graph.
-      $$
+      $$$$
       x + 3y = 0
-      $$
+      $$$$
     Back: |
       $m = -\frac{1}{3}$, $b = 0$
       ```{python echo = False}
@@ -169,14 +169,14 @@ notes:
       ```
     Annotations: ''
   tags: []
-- id: 1545610727818
+- id: 1547063873596
   useMarkdown: pweave
   fields:
     Front: |
       CCAC B 27: Find the slope and $y$-intercept of the line, and draw its graph.
-      $$
+      $$$$
       3x - 4y = 12
-      $$
+      $$$$
     Back: |
       $m = \frac{3}{4}$, $b = -3$
       ```{python echo = False}
@@ -195,14 +195,14 @@ notes:
       ```
     Annotations: ''
   tags: []
-- id: 1545610728064
+- id: 1547063876395
   useMarkdown: pweave
   fields:
     Front: |
       CCAC B 29: Sketch the region in $xy$-plane.
-      $$
+      $$$$
       \{(x,y) : x<0\}
-      $$
+      $$$$
     Back: |
       ```{python echo = False}
       import matplotlib.pyplot as plt
@@ -232,14 +232,14 @@ notes:
       ```
     Annotations: ''
   tags: []
-- id: 1545611323684
+- id: 1547063879221
   useMarkdown: pweave
   fields:
     Front: |
       CCAC B 31: Sketch the region in $xy$-plane.
-      $$
+      $$$$
       \{(x,y) : |x| \le 2\}
-      $$
+      $$$$
     Back: |
       ```{python echo = False}
       import matplotlib.pyplot as plt
@@ -270,14 +270,14 @@ notes:
       ```
     Annotations: ''
   tags: []
-- id: 1545611323885
+- id: 1547063881846
   useMarkdown: pweave
   fields:
     Front: |
       CCAC B 33: Sketch the region in $xy$-plane.
-      $$
+      $$$$
       \{(x,y) : 0 \le y \le 4 \text{ and } x \le 2\}
-      $$
+      $$$$
     Back: |
       ```{python echo = False}
       import matplotlib.pyplot as plt
@@ -308,14 +308,14 @@ notes:
       ```
     Annotations: ''
   tags: []
-- id: 1545611324081
+- id: 1547063884021
   useMarkdown: pweave
   fields:
     Front: |
       CCAC B 35: Sketch the region in $xy$-plane.
-      $$
+      $$$$
       \{(x,y) : 1+x \le y \le 1-2x\}
-      $$
+      $$$$
     Back: |
       ```{python echo = False}
       import matplotlib.pyplot as plt
@@ -351,7 +351,7 @@ notes:
       ```
     Annotations: ''
   tags: []
-- id: 1545612591128
+- id: 1547063887121
   fields:
     Front: |
       CCAC B 37: Find an equation of a circle that satisfies the given conditions.
@@ -360,18 +360,18 @@ notes:
       $(x - 3)^2 + (y + 1)^2 = 25$
     Annotations: ''
   tags: []
-- id: 1545612591336
+- id: 1547063887239
   fields:
     Front: |
       CCAC B 39: Show that the equation represents a circle, and find the center and radius.
-      $$
+      $$$$
       x^2 + y^2 - 4x + 10y + 13 = 0
-      $$
+      $$$$
     Back: |
       $(2, -5)$, $4$
     Annotations: ''
   tags: []
-- id: 1545612591529
+- id: 1547063887348
   fields:
     Front: |
       CCAC B 41: Show that the lines $2x-y=4$ and $6x-2y=10$ are not parallel, and find their point of intersection.
@@ -384,13 +384,13 @@ notes:
   fields:
     Front: |
       CCAC B 43: Show that the midpoint of the line segment from $P_1(x_1,y_1)$ to $P_2(x_2,y_2)$ is
-      $$
+      $$$$
       \left(\frac{x_1 + x_2}{2}, \frac{y_1+y_2}{2}\right)
-      $$
+      $$$$
     Back: |
       ...
     Annotations: ''
-- id: 1545612591923
+- id: 1547063887446
   fields:
     Front: |
       CCAC B 45: Find an equation of the perpendicular bisector of the line segment joining the points $A(1,4)$ and $B(7,-2)$.
@@ -426,7 +426,7 @@ notes:
     Back: |
       ...
     Annotations: ''
-- id: 1545612592705
+- id: 1547063887576
   useMarkdown: pweave
   fields:
     Front: |
