@@ -66,3 +66,11 @@ notes:
     Back: |
       False
     Annotations: ''
+- id: 1547231973874
+  fields:
+    Front: |
+      CCAC 02.Review, True-False 13: Determine whether the statement is true or false.
+      If $f$ is continuous at $5$ and $f(5) = 2$ and $f(4) = 3$, then $\lim_{x \to 2} f(4x^2 -11) = 2$.
+    Back: |
+      True
+    Annotations: ''
