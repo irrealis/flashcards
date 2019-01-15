@@ -425,3 +425,11 @@ notes:
       $120$.
     Annotations: ''
   tags: []
+- id: 1547511532821
+  fields:
+    Front: |
+      CCAC 03.04 63: If $F(x) = f(3f(4f(x)))$, where $f(0) = 0$ and $f'(0) = 2$, find $F'(0)$.
+    Back: |
+      $96$.
+    Annotations: ''
+  tags: []
