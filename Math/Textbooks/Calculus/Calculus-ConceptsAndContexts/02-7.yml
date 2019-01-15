@@ -9,3 +9,15 @@ defaults:
   - CCAC-02-LimitsAndDerivatives
   - CCAC-02.7-TheDerivativeAsAFunction
   markdownTabLength: 2
+notes:
+- id: 1547176064571
+  fields:
+    Front: |
+      CCAC 02.7 00a: Define the **derivative of a function $f$**.
+    Back: |
+      The **derivative of a function $f$**, denoted by $f'(x)$, is
+      $$$$
+      f'(x) = \lim_{h \to 0} \frac{f(x + h) - f(x)}{h},
+      $$$$
+      given any number $x$ for which this limit exists.
+    Annotations: ''
