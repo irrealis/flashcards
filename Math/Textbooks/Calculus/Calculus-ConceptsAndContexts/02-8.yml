@@ -9,3 +9,23 @@ defaults:
   - CCAC-02-LimitsAndDerivatives
   - CCAC-02.8-WhatDoesDerivativeSayAboutFunction
   markdownTabLength: 2
+notes:
+- id: 1547213340646
+  media:
+  - path: ${file_dir}/images/02.8-01.1.jpg
+    name: CCAC-02.8-01.1.jpg
+  - path: ${file_dir}/images/02.8-01.2.jpg
+    name: CCAC-02.8-01.2.jpg
+  fields:
+    Front: |
+      CCAC 02.8 01: The graph of the derivative $f'$ of a function $f$ is shown.
+      (a) On what intervals is $f$ increasing? Decreasing?
+      (b) At what values of $x$ does $f$ have a local maximum? Local minimum?
+      (c) If it is known that $f(0) = 0$, sketch a possible graph of $f$.
+      ![](CCAC-02.8-01.1.jpg)
+    Back: |
+      (a) Increasing on $(0,1)$, $(4,5)$. Decreasing on $(1,4)$.
+      (b) Local maximum at $x = 1$. Local minimum at $x = 4$.
+      (c)
+      ![](CCAC-02.8-01.2.jpg)
+    Annotations: ''
