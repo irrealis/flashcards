@@ -75,3 +75,16 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547502417008
+  fields:
+    Front: |
+      CCAC 03.03 09: Differentiate:
+      $$$$
+      y = \frac{x}{2 - \tan x}
+      $$$$
+    Back: |
+      $$$$
+      y' = \frac{2 - \tan x + x \sec^2 x}{(2 - \tan x)^2}
+      $$$$
+    Annotations: ''
+  tags: []
