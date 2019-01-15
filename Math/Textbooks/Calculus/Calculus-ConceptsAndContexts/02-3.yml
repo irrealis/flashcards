@@ -41,6 +41,25 @@ notes:
       \text{if}\ \lim_{x \to a} g(x) \ne 0
       $$$$
     Annotations: ''
+- id: 1547081316145
+  fields:
+    Front: |
+      CCAC 02.3 00b: Suppose that $c$ is a constant, and the limits
+      $$$$
+      \lim_{x \to a} f(x) \quad \text{and} \quad \lim_{x \to a} g(x)
+      $$$$
+      exist. State the Limit Laws of Constants, and Constant Multiplication.
+    Back: |
+      Limit Law of Constants:
+      $$$$
+      \lim_{x \to a} c = c
+      $$$$
+      Limit Law of Constant Multiplication:
+      $$$$
+      \lim_{x \to a} [cf(x)] =
+      c \lim_{x \to a} f(x)
+      $$$$
+    Annotations: ''
 - id: 1547081316871
   tags: []
   fields:
