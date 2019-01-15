@@ -63,3 +63,13 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547241827298
+  fields:
+    Front: |
+      CCAC 03.01 00f: What is the **Derivative of the Natural Exponential Function?**.
+    Back: |
+      $$$$
+      \frac{d}{dx} (e^x) = e^x
+      $$$$
+    Annotations: ''
+  tags: []
