@@ -30,3 +30,14 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547241826988
+  fields:
+    Front: |
+      CCAC 03.01 00c: State the **Constant Multiple Rule** of differentiation.
+    Back: |
+      If $c$ is a constant and $f$ is a differentiable function, then
+      $$$$
+      (cf)' = cf'
+      $$$$
+    Annotations: ''
+  tags: []
