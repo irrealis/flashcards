@@ -9,7 +9,7 @@ defaults:
   - Calculus-ConceptsAndContexts
   - CCAC-A-IntervalsInequalitiesAndAbsoluteValues
 notes:
-- id: 1545601277658
+- id: 1547063852178
   tags: []
   fields:
     Front: |
@@ -17,7 +17,7 @@ notes:
     Back: |
       $18$.
     Annotations: ''
-- id: 1545601277833
+- id: 1547063852270
   tags: []
   fields:
     Front: |
@@ -25,7 +25,7 @@ notes:
     Back: |
       $5 - \sqrt{5}$.
     Annotations: ''
-- id: 1545601277958
+- id: 1547063852377
   tags: []
   fields:
     Front: |
@@ -33,21 +33,21 @@ notes:
     Back: |
       $2 - x$.
     Annotations: ''
-- id: 1545601278058
+- id: 1547063852471
   tags: []
   fields:
     Front: |
       CCAC A 07: Rewrite $|x+1|$ without using the absolute value symbol.
     Back: |
-      $$
+      $$$$
       |x+1| =
       \begin{cases}
         x + 1 & \text{for $x \ge -1$} \\
         -x - 1 & \text{for $x < -1$} \\
       \end{cases}
-      $$
+      $$$$
     Annotations: ''
-- id: 1545601278158
+- id: 1547063852571
   tags: []
   fields:
     Front: |
@@ -55,7 +55,7 @@ notes:
     Back: |
       $x^2 + 1$.
     Annotations: ''
-- id: 1545601278310
+- id: 1547063852697
   useMarkdown: pweave
   fields:
     Front: |
@@ -80,7 +80,7 @@ notes:
       ```
     Annotations: ''
   tags: []
-- id: 1545601278437
+- id: 1547063853996
   useMarkdown: pweave
   fields:
     Front: |
@@ -105,7 +105,7 @@ notes:
       ```
     Annotations: ''
   tags: []
-- id: 1545601278558
+- id: 1547063854996
   useMarkdown: pweave
   fields:
     Front: |
@@ -131,7 +131,7 @@ notes:
       ```
     Annotations: ''
   tags: []
-- id: 1545601278686
+- id: 1547063855996
   useMarkdown: pweave
   fields:
     Front: |
@@ -158,7 +158,7 @@ notes:
       ```
     Annotations: ''
   tags: []
-- id: 1545601278808
+- id: 1547063856996
   useMarkdown: pweave
   fields:
     Front: |
@@ -185,7 +185,7 @@ notes:
       ```
     Annotations: ''
   tags: []
-- id: 1545601278958
+- id: 1547063858121
   useMarkdown: pweave
   fields:
     Front: |
@@ -210,7 +210,7 @@ notes:
       ```
     Annotations: ''
   tags: []
-- id: 1545601279086
+- id: 1547063859096
   useMarkdown: pweave
   fields:
     Front: |
@@ -238,7 +238,7 @@ notes:
       ```
     Annotations: ''
   tags: []
-- id: 1545601279207
+- id: 1547063860146
   useMarkdown: pweave
   fields:
     Front: |
@@ -266,7 +266,7 @@ notes:
       ```
     Annotations: ''
   tags: []
-- id: 1545601279309
+- id: 1547063861222
   fields:
     Front: >
       CCAC A 27: The relationship between the Celsius and Fahrenheit temperature scales
@@ -277,7 +277,7 @@ notes:
       $10 \le C \le 35$
     Annotations: ''
   tags: []
-- id: 1545601279458
+- id: 1547063861376
   fields:
     Front: >
       CCAC A 29a: As dry air moves upward, it expands, and in doing so cools at a
@@ -287,7 +287,7 @@ notes:
       $T = 20 - 10h$, $0 \le h \le 12$
     Annotations: ''
   tags: []
-- id: 1545601279557
+- id: 1547063861496
   fields:
     Front: >
       CCAC A 29b: As dry air moves upward, it expands, and in doing so cools at a
@@ -298,7 +298,7 @@ notes:
       $-30^\circ\text{C} \le T \le 20^\circ\text{C}$
     Annotations: ''
   tags: []
-- id: 1545601279658
+- id: 1547063861596
   fields:
     Front: |
       CCAC A 31: Solve the equation $|x+3| = |2x+1|$ for $x$.
@@ -306,7 +306,7 @@ notes:
       $2$, $-\frac{4}{3}$
     Annotations: ''
   tags: []
-- id: 1545601279783
+- id: 1547063861697
   fields:
     Front: |
       CCAC A 33: Solve the inequality $|x|<3$.
@@ -314,7 +314,7 @@ notes:
       $(-3, 3)$
     Annotations: ''
   tags: []
-- id: 1545601279908
+- id: 1547063861802
   fields:
     Front: |
       CCAC A 35: Solve the inequality $|x-4|<1$.
@@ -322,7 +322,7 @@ notes:
       $(3, 5)$
     Annotations: ''
   tags: []
-- id: 1545601280034
+- id: 1547063861898
   fields:
     Front: |
       CCAC A 37: Solve the inequality $|x+5| \ge 2$.
@@ -330,7 +330,7 @@ notes:
       $(-\infty, -7] \cup [-3, \infty)$
     Annotations: ''
   tags: []
-- id: 1545601280158
+- id: 1547063862021
   fields:
     Front: |
       CCAC A 39: Solve the inequality $|2x-3| \le 0.4$.
@@ -338,7 +338,7 @@ notes:
       $[1.3, 1.7]$
     Annotations: ''
   tags: []
-- id: 1545601280307
+- id: 1547063862134
   fields:
     Front: |
       CCAC A 41: Solve the inequality $a(bx-c)\ge bc$, assuming that $a$, $b$, and $c$ are positive constants.
@@ -346,7 +346,7 @@ notes:
       $x \ge (a + b)c/(ab)$
     Annotations: ''
   tags: []
-- id: 1545601280437
+- id: 1547063862246
   tags:
   - ToDo
   fields:
