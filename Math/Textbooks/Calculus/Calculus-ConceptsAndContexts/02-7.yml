@@ -326,3 +326,32 @@ notes:
     Back: |
       $-1$ (vertical tangent); $4$ (corner).
     Annotations: ''
+- id: 1547176071466
+  useMarkdown: pweave
+  fields:
+    Front: >
+      CCAC 02.7 39: Graph the function $f(x) = x + \sqrt{|x|}$. Zoom in repeatedly,
+      first toward the point $(-1, 0)$ and then toward the origin. What is different
+      about the behavior of $f$ in the vicinity of these two points? What do you conclude
+      about the differentiability of $f$?
+    Back: |
+      Differentiable at -1; not differentiable at 0.
+      ```{python echo = False}
+      import matplotlib.pyplot as plt
+      import sympy as sy
+
+      import math
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      x = sy.symbols('x')
+      p = sy.plot(
+        x + sy.sqrt(sy.Abs(x)),
+        xlim = (-2, 1), ylim = (-1, 2),
+        xlabel = '$x$', ylabel = '$y$',
+      )
+      ```
+    Annotations: ''
+  tags:
+  - requiresCoding
