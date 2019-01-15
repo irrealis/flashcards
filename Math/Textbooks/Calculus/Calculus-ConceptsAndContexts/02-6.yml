@@ -491,6 +491,29 @@ notes:
     Back: |
       $5^\circ$F/h.
     Annotations: ''
+- id: 1547151340048
+  media:
+  - path: ${file_dir}/images/02.6-51.jpg
+    name: CCAC-02.6-51.jpg
+  fields:
+    Front: >
+      CCAC 02.6 51: The quantity of oxygen that can dissolve in water depends on the
+      temperature of the water. (So thermal pollution influences the oxygen content
+      of water.) The graph shows how oxygen solubility $S$ varies as a function of
+      the water temperature $T$.
+
+      (a) What is the meaning of the derivative $S'(T)$? What are its units?
+
+      (b) Estimate the value of $S'(16)$, and interpret it.
+
+      ![](CCAC-02.6-51.jpg)
+    Back: >
+      (a) The rate at which the oxygen solubility changes with respect to the water
+      temperature; (mg/L)/$^\circ$C.
+
+      (b) $S'(16) \approx -0.25$; as the temperature increases past $16^\circ$C, the
+      oxygen solubility is decreasing at a rate of $0.25$ (mg/L)/$^\circ$C.
+    Annotations: ''
 - id: 1547151340240
   fields:
     Front: |
