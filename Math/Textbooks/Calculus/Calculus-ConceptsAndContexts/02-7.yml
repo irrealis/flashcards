@@ -193,3 +193,13 @@ notes:
     Annotations: ''
   tags:
   - requiresCoding
+- id: 1547176070082
+  fields:
+    Front: |
+      CCAC 02.7 19: Find the derivative of the function using the definition of derivative. State the domain of the function and the domain of its derivative.
+      $$
+      f(x) = \frac{1}{2}x - \frac{1}{3}
+      $$
+    Back: |
+      $f'(x) = \frac{1}{2}$, $\mathbb{R}$, $\mathbb{R}$
+    Annotations: ''
