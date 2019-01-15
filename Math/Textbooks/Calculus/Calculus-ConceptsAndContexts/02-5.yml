@@ -64,6 +64,17 @@ notes:
     Back: |
       $\infty$
     Annotations: ''
+- id: 1547149264195
+  fields:
+    Front: |
+      CCAC 02.5 03b: For the function $f$ whose graph is given, state the following:
+      $$$$
+      \lim_{x \to -1^-} f(x)
+      $$$$
+      ![](CCAC-02.5-03.jpg)
+    Back: |
+      $\infty$
+    Annotations: ''
 - id: 1547149265157
   useMarkdown: pweave
   fields:
