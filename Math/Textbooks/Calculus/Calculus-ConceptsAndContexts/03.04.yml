@@ -90,3 +90,16 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547507439597
+  fields:
+    Front: |
+      CCAC 03.04 11: Find the derivative of the function.
+      $$$$
+      f(z) = \frac{1}{z^2 + 1}
+      $$$$
+    Back: |
+      $$$$
+      f'(z) = -\frac{2z}{(z^2 + 1)^2}
+      $$$$
+    Annotations: ''
+  tags: []
