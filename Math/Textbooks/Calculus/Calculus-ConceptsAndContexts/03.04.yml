@@ -479,3 +479,30 @@ notes:
       (b) $0.16$
     Annotations: ''
   tags: []
+- id: 1547512845046
+  media:
+  - path: ${file_dir}/images/CCAC-03.04-73.1.jpg
+  - path: ${file_dir}/images/CCAC-03.04-73.2.jpg
+  fields:
+    Front: >
+      CCAC 03.04 73: The motion of a spring that is subject to a frictional force
+      or a damping force (such as a shock absorber in a car) is often modeled by the
+      product of an exponential function and a sine or cosine function. Suppose the
+      equation of motion of a point on such a spring is
+
+      $$$$
+
+      s(t) = 2e^{-1.5t} \sin 2\pi t
+
+      $$$$
+
+      where $s$ is measured in centimeters and $t$ in seconds. Find the velocity after
+      $t$ seconds, and graph both the position and velocity functions for $0 \le t
+      \le 2$.
+    Back: |
+      $v(t) = 2e^{-1.5t} (2\pi \cos 2\pi t - 1.5 \sin 2\pi t)$
+      ![](CCAC-03.04-73.1.jpg)
+      ![](CCAC-03.04-73.2.jpg)
+    Annotations: ''
+  tags:
+  - requiresCoding
