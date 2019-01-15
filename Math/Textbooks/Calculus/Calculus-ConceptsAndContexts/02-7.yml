@@ -213,3 +213,13 @@ notes:
     Back: |
       $f'(t) = 5 - 18t$, $\mathbb{R}$, $\mathbb{R}$
     Annotations: ''
+- id: 1547176070297
+  fields:
+    Front: |
+      CCAC 02.7 23: Find the derivative of the function using the definition of derivative. State the domain of the function and the domain of its derivative.
+      $$
+      f(x) = x^2 - 2x^3
+      $$
+    Back: |
+      $f'(x) = 2x - 6x^2$, $\mathbb{R}$, $\mathbb{R}$
+    Annotations: ''
