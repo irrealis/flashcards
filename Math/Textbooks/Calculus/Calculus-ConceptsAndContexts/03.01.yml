@@ -239,3 +239,16 @@ notes:
       $$$$
     Annotations: ''
   tags: []
+- id: 1547241828821
+  fields:
+    Front: |
+      CCAC 03.01 25: Differentiate the function.
+      $$$$
+      z = \frac{A}{y^{10}} + Be^y
+      $$$$
+    Back: |
+      $$$$
+      z' = -10A/y^{11} + Be^y
+      $$$$
+    Annotations: ''
+  tags: []
