@@ -10,6 +10,16 @@ defaults:
   - CCAC-02.4-Continuity
   markdownTabLength: 2
 notes:
+- id: 1547147565271
+  fields:
+    Front: |
+      CCAC 02.4 00a: Let $f$ be a function defined at $a$. Define the meaning of "**$f$ is continuous at $a$**".
+    Back: |
+      **$f$ is continuous at $a$** if
+      $$$$
+      \lim_{x \to a} f(x) = f(a).
+      $$$$
+    Annotations: ''
 - id: 1547147566296
   fields:
     Front: |
