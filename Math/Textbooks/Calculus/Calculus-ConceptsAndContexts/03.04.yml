@@ -441,3 +441,15 @@ notes:
       $-2^{50} \cos 2x$.
     Annotations: ''
   tags: []
+- id: 1547511773996
+  fields:
+    Front: |
+      CCAC 03.04 69: The displacement of a particle on a vibrating string is given by the equation
+      $$$$
+      s(t) = 10 + \frac{1}{4}\sin(10 \pi t)
+      $$$$
+      where $s$ is measured in centimeters and $t$ in seconds. Find the velocity of the particle after $t$ seconds.
+    Back: |
+      $v(t) = \frac{5}{2} \pi \cos(10 \pi t)\; \text{cm/s}$
+    Annotations: ''
+  tags: []
