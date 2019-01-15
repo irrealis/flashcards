@@ -303,3 +303,11 @@ notes:
       (c) $20$
     Annotations: ''
   tags: []
+- id: 1547251513021
+  fields:
+    Front: |
+      CCAC 03.02 43: If $f(x) = e^x g(x)$, where $g(0) = 2$ and $g'(0) = 5$, find $f'(0)$.
+    Back: |
+      $7$.
+    Annotations: ''
+  tags: []
