@@ -71,6 +71,39 @@ notes:
       \text{if $f(a)$ is defined.}
       $$$$
     Annotations: ''
+- id: 1547081316395
+  fields:
+    Front: |
+      CCAC 02.3 00d: Suppose that $c$ is a constant, and the limits
+      $$$$
+      \lim_{x \to a} f(x) \quad \text{and} \quad \lim_{x \to a} g(x)
+      $$$$
+      exist. State the Limit Laws of Powers.
+    Back: |
+      Limit Laws of Powers:
+      $$$$
+      \lim_{x \to a} [f(x)]^n =
+      [\lim_{x \to a} f(x)]^n, \quad
+      \text{where $n$ is a positive integer.}
+      $$$$
+      $$$$
+      \lim_{x \to a} \sqrt[n]{f(x)} =
+      \sqrt[n]{\lim_{x \to a} f(x)}
+      \\
+      \text{(If $n$ is even, we assume that $\lim_{x \to a} f(x) > 0$.)}
+      $$$$
+      $$$$
+      \lim_{x \to a} x^n = a^n, \quad
+      \text{where $n$ is a positive integer.}
+      $$$$
+      $$$$
+      \lim_{x \to a} \sqrt[n]{x} =
+      \sqrt[n]{a}, \quad
+      \text{where $n$ is a positive integer.}
+      \\
+      \text{(If $n$ is even, we assume that $a > 0$.)}
+      $$$$
+    Annotations: ''
 - id: 1547081316871
   tags: []
   fields:
