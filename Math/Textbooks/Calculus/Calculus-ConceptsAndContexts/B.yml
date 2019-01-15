@@ -9,6 +9,17 @@ defaults:
   - Calculus-ConceptsAndContexts
   - CCAC-B-CoordinateGeometry
 notes:
+- id: 1547063862374
+  fields:
+    Front: |
+      CCAC B 00a: State the Distance Formula for the $xy$-plane.
+    Back: |
+      The distance between the points $P_1(x_1, y_1)$ and $P_2(x_2, y_2)$ is
+      $$$$
+      |P_1 P_2| = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}
+      $$$$
+    Annotations: ''
+  tags: []
 - id: 1547063863427
   fields:
     Front: |
