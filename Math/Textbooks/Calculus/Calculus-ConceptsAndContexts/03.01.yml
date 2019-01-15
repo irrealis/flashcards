@@ -408,3 +408,11 @@ notes:
       $(-2, 21)$, $(1, -6)$.
     Annotations: ''
   tags: []
+- id: 1547241830481
+  fields:
+    Front: |
+      CCAC 03.01 53: Find equations of both lines that are tangent to the curve $y = 1 + x^3$ and parallel to the line $12x - y = 1$.
+    Back: |
+      $y = 12x - 15$, $y = 12x + 17$.
+    Annotations: ''
+  tags: []
