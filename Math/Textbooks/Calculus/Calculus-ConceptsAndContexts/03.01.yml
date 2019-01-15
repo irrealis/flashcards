@@ -367,3 +367,15 @@ notes:
       $f'(x) = 100x^9 + 25x^4 - 1$, $f''(x) = 900x^8 + 100x^3$.
     Annotations: ''
   tags: []
+- id: 1547241829948
+  fields:
+    Front: |
+      CCAC 03.01 43: Find the first and second derivatives of the function. Check to see that your answers are reasonable by comparing the graphs of $f$, $f'$, and $f''$.
+      $$$$
+      f(x) = 2x - 5x^{3/4}
+      $$$$
+    Back: |
+      $f'(x) = 2 - \frac{15}{4}x^{-1/4}$, $f''(x) = \frac{15}{16}x^{-5/4}$.
+    Annotations: ''
+  tags:
+  - requiresCoding
