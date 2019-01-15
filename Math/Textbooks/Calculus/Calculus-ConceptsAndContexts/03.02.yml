@@ -311,3 +311,17 @@ notes:
       $7$.
     Annotations: ''
   tags: []
+- id: 1547251673746
+  media:
+  - path: ${file_dir}/images/CCAC-03.02-45.1.jpg
+  fields:
+    Front: |
+      CCAC 03.02 45: If $f$ and $g$ are the functions whose graphs are shown, let $u(x) = f(x)g(x)$ and $v(x) = f(x)/g(x)$.
+      (a) find $u'(1)$.
+      (b) find $v'(5)$.
+      ![](CCAC-03.02-45.1.jpg)
+    Back: |
+      (a) $0$.
+      (b) $-\frac{2}{3}$.
+    Annotations: ''
+  tags: []
