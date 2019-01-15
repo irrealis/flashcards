@@ -66,6 +66,16 @@ notes:
       y = mx + b
       $$$$
     Annotations: ''
+- id: 1547063863018
+  fields:
+    Front: |
+      CCAC B 00f: State the Point-Point equation of a line in the $xy$-plane.
+    Back: |
+      An equation of the line passing through the points $P_1(x_1, y_1)$ and $P_2(x_2, y_2)$ is
+      $$$$
+      (x_2 - x_1)(y - y_1) = (y_2 - y_1)(x - x_1)
+      $$$$
+    Annotations: ''
 - id: 1547063863427
   fields:
     Front: |
