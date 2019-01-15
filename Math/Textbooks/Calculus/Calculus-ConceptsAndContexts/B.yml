@@ -46,6 +46,16 @@ notes:
       $$$$
       The slope of a vertical line is not defined.
     Annotations: ''
+- id: 1547063862811
+  fields:
+    Front: |
+      CCAC B 00d: State the Point-Slope equation of a line in the $xy$-plane.
+    Back: |
+      An equation of the line passing through the point $P_1(x_1, y_1)$ and having slope $m$ is
+      $$$$
+      y - y_1 = m(x - x_1)
+      $$$$
+    Annotations: ''
 - id: 1547063863427
   fields:
     Front: |
