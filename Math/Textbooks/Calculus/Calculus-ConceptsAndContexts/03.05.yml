@@ -1,0 +1,367 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Calculus-ConceptsAndContexts
+  - CCAC-03-DifferentiationRules
+  - CCAC-03.05-ImplicitDifferentiation
+  markdownTabLength: 2
+notes:
+- id: 1547583650739
+  fields:
+    Front: |
+      CCAC 03.05 01:
+      (a) Find $y'$ by implicit differentiation.
+      (b) Solve the equation explicitly for $y$, and differentiate to get $y'$ in terms of $x$.
+      (c) Check that your solutions to parts (a) and (b) are consistent by substituting the expression for $y$ into your solution for part (a).
+      $$$$
+      xy + 2x + 3x^2 = 4
+      $$$$
+    Back: |
+      (a) $y' = -(y + 2 + 6x)/x$
+      (b) $y = (4/x) -2 - 3x$, $y' = -(4/x^2) - 3$
+    Annotations: ''
+- id: 1547583770964
+  fields:
+    Front: |
+      CCAC 03.05 03: Find $dy/dx$ by implicit differentiation.
+      $$$$
+      x^3 + y^3 = 1
+      $$$$
+    Back: |
+      $$$$
+      y' = -x^2/y^2
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547583874813
+  fields:
+    Front: |
+      CCAC 03.05 05: Find $dy/dx$ by implicit differentiation.
+      $$$$
+      x^2 + xy - y^2 = 4
+      $$$$
+    Back: |
+      $$$$
+      y' = \frac{2x + y}{2y - x}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547583995914
+  fields:
+    Front: |
+      CCAC 03.05 07: Find $dy/dx$ by implicit differentiation.
+      $$$$
+      x^4(x + y) = y^2(3x - y)
+      $$$$
+    Back: |
+      $$$$
+      y' = \frac{3y^2 - 5x^4 - 4x^3y}{x^4 + 3y^2 - 6xy}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547584078314
+  fields:
+    Front: |
+      CCAC 03.05 09: Find $dy/dx$ by implicit differentiation.
+      $$$$
+      x^2 y^2 + x \sin y = 4
+      $$$$
+    Back: |
+      $$$$
+      y' = \frac{-2 x y^2 - \sin y}{2 x^2 y + x \cos y}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547584129239
+  fields:
+    Front: |
+      CCAC 03.05 11: Find $dy/dx$ by implicit differentiation.
+      $$$$
+      4 \cos x \sin y = 1
+      $$$$
+    Back: |
+      $$$$
+      y' = \tan x \tan y
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547584199013
+  fields:
+    Front: |
+      CCAC 03.05 13: Find $dy/dx$ by implicit differentiation.
+      $$$$
+      e^{x / y} = x - y
+      $$$$
+    Back: |
+      $$$$
+      y' = \frac{y (y - e^{x / y})}{y^2 - x e^{x / y}}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547584391666
+  fields:
+    Front: |
+      CCAC 03.05 15: Find $dy/dx$ by implicit differentiation.
+      $$$$
+      e^y \cos x = 1 + \sin(x y)
+      $$$$
+    Back: |
+      $$$$
+      y' = \frac{e^y \sin x + y \cos(x y)}{e^y \cos x - x \cos(x y)}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547584469763
+  fields:
+    Front: |
+      CCAC 03.05 17: If $f(x) + x^2 [f(x)]^3 = 10$ and $f(1) = 2$, find $f'(1)$.
+    Back: |
+      $-\frac{16}{13}$
+    Annotations: ''
+  tags: []
+- id: 1547584613638
+  fields:
+    Front: |
+      CCAC 03.05 19: Regard $y$ as the independent variable and $x$ as the dependent variable, and use implicit differentiation to find $dx/dy$.
+      $$$$
+      x^4 y^2 - x^3 y + 2 x y^3 = 0
+      $$$$
+    Back: |
+      $$$$
+      x' = \frac{-2 x^4 y + x^3 - 6 x y^2}{4 x^3 y^2 - 3 x^2 y + 2 y^3}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547584730463
+  fields:
+    Front: |
+      CCAC 03.05 21: Use implicit differentiation to find an equation of the tangent line to the curve at the given point.
+      $$$$
+      y \sin 2 x = x \cos 2 y, \quad (\pi / 2, \pi / 4)
+      $$$$
+    Back: |
+      $y = \frac{1}{2} x$
+    Annotations: ''
+  tags: []
+- id: 1547584819664
+  fields:
+    Front: |
+      CCAC 03.05 23: Use implicit differentiation to find an equation of the tangent line to the curve at the given point.
+      $$$$
+      x^2 + x y + y^2 = 3, \quad (1, 1) \quad \text{(ellipse)}
+      $$$$
+    Back: |
+      $y = -x + 2$
+    Annotations: ''
+  tags: []
+- id: 1547584946589
+  media:
+  - path: ${file_dir}/images/CCAC-03.05-25.1.jpg
+  fields:
+    Front: |
+      CCAC 03.05 25: Use implicit differentiation to find an equation of the tangent line to the curve at the given point.
+      $$$$
+      x^2 + y^2 = (2 x^2 + 2 y^2 - x)^2, \quad (0, \tfrac{1}{2}) \quad \text{(cardioid)}
+      $$$$
+      ![](CCAC-03.05-25.1.jpg)
+    Back: |
+      $y = x + \frac{1}{2}$
+    Annotations: ''
+  tags: []
+- id: 1547585181839
+  media:
+  - path: ${file_dir}/images/CCAC-03.05-27.1.jpg
+  fields:
+    Front: |
+      CCAC 03.05 27: Use implicit differentiation to find an equation of the tangent line to the curve at the given point.
+      $$$$
+      2 (x^2 + y^2)^2 = 25 (x^2 - y^2), \quad (3, 1) \quad \text{(lemniscate)}
+      $$$$
+      ![](CCAC-03.05-27.1.jpg)
+    Back: |
+      $y = -\frac{9}{13} x + \frac{40}{13}$
+    Annotations: ''
+  tags: []
+- id: 1547585373538
+  media:
+  - path: ${file_dir}/images/CCAC-03.05-29.1.jpg
+  fields:
+    Front: >
+      CCAC 03.05 29:
+
+      (a) The curve with equation $y^2 = 5 x^4 - x^2$ is called a **kampyle of Eudoxus**.
+      Find an equation of the tangent line to this curve at the point $(1, 2)$.
+
+      (b) Illustrate part (a) by graphing the curve and the tangent line on a common
+      screen. (If your graphing device will graph implictly-defined curves, then use
+      that capability. If not, you can still graph this curve by graphing its upper
+      and lower halves separately.)
+    Back: |
+      (a) $y = \frac{9}{2} x - \frac{5}{2}$
+      (b)
+      ![](CCAC-03.05-29.1.jpg)
+    Annotations: ''
+  tags:
+  - requiresCoding
+- id: 1547585507964
+  fields:
+    Front: |
+      CCAC 03.05 31: Find $y''$ by implicit differentiation.
+      $$$$
+      9 x^2 + y^2 = 9
+      $$$$
+    Back: |
+      $-81/y^3$
+    Annotations: ''
+  tags: []
+- id: 1547585549239
+  fields:
+    Front: |
+      CCAC 03.05 33: Find $y''$ by implicit differentiation.
+      $$$$
+      x^3 + y^3 = 1
+      $$$$
+    Back: |
+      $-2 x / y^5$
+    Annotations: ''
+  tags: []
+- id: 1547585638414
+  fields:
+    Front: |
+      CCAC 03.05 35: If $x y + e^y = e$, find the value of $y''$ at the point where $x = 0$.
+    Back: |
+      $1 / e^2$
+    Annotations: ''
+  tags: []
+- id: 1547585844964
+  useMarkdown: pweave
+  fields:
+    Front: |
+      CCAC 03.05 37: Fanciful shapes can be created by using the implicit plotting capabilities of computer algebra systems.
+      (a) Graph the curve with equation
+      $$$$
+      y (y^2 - 1) (y - 2) = x (x - 1) (x - 2)
+      $$$$
+      At how many points does this curve have horizontal tangents? Estimate the $x$-coordinates of these points.
+      (b) Find equations of the tangent lines at the point $(0, 1)$ and $(0, 2)$.
+      (c) Find the exact $x$-coordinates of the points in part (a).
+      (d) Create even more fanciful curves by modifying the equation in part (a).
+    Back: |
+      (a)
+      ```{python }
+      import matplotlib.pyplot as plt
+      import sympy as sy
+
+      plt.rc('text', usetex = True)
+      plt.rc('font', family = 'serif')
+
+      x, y = sy.symbols('x y')
+      p = sy.plot_implicit(
+        sy.Eq(y * (y**2 - 1) * (y - 2), x * (x - 1) * (x - 2)),
+        xlabel = '$x$', ylabel = '$y$',
+      )
+      ```
+      (b) $y = -x + 1$, $y = \frac{1}{3} x + 2$
+      (c) $1 \mp \frac{1}{3} \sqrt{3}$
+    Annotations: ''
+  tags:
+  - requiresCoding
+- id: 1547586655198
+  fields:
+    Front: |
+      CCAC 03.05 39: Find the points on the lemniscate where the tangent is horizontal.
+      $$$$
+      2 (x^2 + y^2)^2 = 25 (x^2 - y^2), \quad \text{(lemniscate)}
+      $$$$
+      ![](CCAC-03.05-27.1.jpg)
+    Back: |
+      $(\pm \frac{5}{4} \sqrt{3}, \pm \frac{5}{4})$
+    Annotations: ''
+  tags: []
+- id: 1547586893363
+  media:
+  - path: ${file_dir}/images/CCAC-03.05-41.1.jpg
+  fields:
+    Front: |
+      CCAC 03.05 41: Two curves are **orthogonal** if their tangent lines are perpendicular at each point of intersection. Show that the given family of curves are **orthogonal trajectories** of each other, that is, every curve in one family is orthogonal to every curve in the other family. Sketch both families of curves on the same axes.
+      $$$$
+      x^2 + y^2 = r^2, \quad
+      ax + by = 0
+      $$$$
+    Back: |
+      ![](CCAC-03.05-41.1.jpg)
+    Annotations: ''
+  tags:
+  - proof
+- id: 1547586965988
+  media:
+  - path: ${file_dir}/images/CCAC-03.05-43.1.jpg
+  fields:
+    Front: |
+      CCAC 03.05 43: Two curves are **orthogonal** if their tangent lines are perpendicular at each point of intersection. Show that the given family of curves are **orthogonal trajectories** of each other, that is, every curve in one family is orthogonal to every curve in the other family. Sketch both families of curves on the same axes.
+      $$$$
+      y = c x^2, \quad
+      x^2 + 2 y ^2 = k
+      $$$$
+    Back: |
+      ![](CCAC-03.05-43.1.jpg)
+    Annotations: ''
+  tags:
+  - proof
+- id: 1547587478614
+  fields:
+    Front: |
+      CCAC 03.05 47:
+      (a) The _van der Waals equation_ for $n$ moles of a gas is
+      $$$$
+      \left(
+        P + \frac{n^2 a}{V^2}
+      \right)
+      (V - n b)
+      = n R T
+      $$$$
+      where $P$ is the pressure, $V$ is the volume, and $T$ is the temperature of the gas. The constant $R$ is the universal gas constant, and $a$ and $b$ are positive constants that are characteristic of a particular gas. If $T$ remains constant, use implicit differentiation to find $dV/dP$.
+      (b) Find the rate of change of volume with respect to pressure of $1$ mole of carbon dioxide at a volume of $V = 10 \; \mathrm{L}$ and a pressure of $P = 2.5\; \mathrm{atm}$. Use $a = 3.592 \; \mathrm{L^2 \cdot atm / mole^2}$ and $b = 0.04267 \; \mathrm{L / mole}$.
+    Back: |
+      (a)
+      $$$$
+      \frac{V^3 (n b - V)}{P V^3 - n^2 a V + 2 n^3 a b}
+      $$$$
+      (b) $-4.04 \; \mathrm{L/atm}$
+    Annotations: ''
+  tags: []
+- id: 1547587942163
+  fields:
+    Front: >
+      CCAC 03.05 51: The equation $x^2 - x y + y^2 = 3$ represents a "rotated ellipse,",
+      that is, an ellipse whose axes are not parallel to the coordinate axes. Find
+      the points at which this ellipse crosses the $x$-axis, and show that the tangent
+      lines at these points are parallel.
+    Back: |
+      $(\pm \sqrt{3}, 0)$
+    Annotations: ''
+  tags:
+  - proof
+- id: 1547588090239
+  fields:
+    Front: |
+      CCAC 03.05 53: Find all points on the curve $x^2 y^2 + x y = 2$ where the slope of the tangent line is $-1$.
+    Back: |
+      $(-1, -1)$, $(1, 1)$
+    Annotations: ''
+  tags: []
+- id: 1547588336888
+  fields:
+    Front: |
+      CCAC 03.05 55: The **Bessel function** of order $0$, $y = J(x)$, satisfies the differential equation $x y'' + y' + x y = 0$ for all values of $x$, and its value at $0$ is $J(0) = 1$.
+      (a) Find $J'(0)$.
+      (b) Use implicit differentiation to find $J''(0)$.
+    Back: |
+      (a) $0$
+      (b) $-\frac{1}{2}$
+    Annotations: ''
+  tags: []

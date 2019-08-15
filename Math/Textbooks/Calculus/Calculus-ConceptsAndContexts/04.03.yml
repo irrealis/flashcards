@@ -1,0 +1,562 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Calculus-ConceptsAndContexts
+  - CCAC-04-ApplicationsOfDifferentiation
+  - CCAC-04.03-DerivativesAndTheShapesOfCurves
+  markdownTabLength: 2
+notes:
+- id: 1547778106792
+  fields:
+    Front: |
+      CCAC 04.03 00a: State **The Mean Value Theorem**.
+    Back: |
+      If $f$ is a differentiable function on the interval $[a,b]$, then there exists a number $c$ between $a$ and $b$ such that
+      $$$$
+      f'(c) = \frac{f(b) - f(a)}{b - a}
+      $$$$
+      or, equivalently,
+      $$$$
+      f(b) - f(a) = f'(c)(b - a)
+      $$$$
+    Annotations: ''
+  tags:
+  - Theory
+- id: 1547778106955
+  fields:
+    Front: |
+      CCAC 04.03 00b: Describe **The Increasing/Decreasing Test**.
+    Back: |
+      (a) If $f'(x) > 0$ on an interval, then $f$ is increasing on that interval.
+      (b) If $f'(x) < 0$ on an interval, then $f$ is decreasing on that interval.
+    Annotations: ''
+  tags:
+  - Theory
+- id: 1547778107114
+  fields:
+    Front: |
+      CCAC 04.03 00c: Describe **The First Derivative Test**.
+    Back: |
+      Suppose that $c$ is a critical number of a continuous function $f$.
+      (a) If $f'$ changes from positive to negative at $c$, then $f$ has a local max at $c$.
+      (b) If $f'$ changes from negative to positive at $c$, then $f$ has a local min at $c$.
+      (c) If $f'$ does not change sign at $c$, then $f$ has no local max or min at $c$.
+    Annotations: ''
+  tags:
+  - Theory
+- id: 1547778107288
+  fields:
+    Front: |
+      CCAC 04.03 00d: Describe **The Concavity Test**.
+    Back: |
+      (a) If $f''(x) > 0$ for all $x$ in $I$, then the graph of $f$ is concave upward on $I$.
+      (b) If $f''(x) < 0$ for all $x$ in $I$, then the graph of $f$ is concave downward on $I$.
+    Annotations: ''
+  tags:
+  - Theory
+- id: 1547778107442
+  fields:
+    Front: |
+      CCAC 04.03 00e: Describe **The Second Derivative Test**.
+    Back: |
+      Suppose $f''$ is continuous near $c$.
+      (a) If $f'(c) = 0$ and $f''(c) > 0$, then $f$ has a local min at $c$.
+      (b) If $f'(c) = 0$ and $f''(c) < 0$, then $f$ has a local max at $c$.
+    Annotations: ''
+  tags:
+  - Theory
+- id: 1547778107613
+  media:
+  - path: ${file_dir}/images/CCAC-04.03-01.1.jpg
+  fields:
+    Front: |
+      CCAC 04.03 01: Use the graph of $f$ to estimate the values of $c$ that satisfy the conclusion of the Mean Value Theorem for the interval $[0, 8]$.
+      ![](CCAC-04.03-01.1.jpg)
+    Back: |
+      0.8, 3.2, 4.4, 6.1
+    Annotations: ''
+- id: 1547778107793
+  fields:
+    Front: |
+      CCAC 04.03 03: Suppose you are given a formula for a function $f$.
+      (a) How do you determine where $f$ is increasing or decreasing?
+      (b) How do you determine where the graph of $f$ is concave upward or concave downward?
+      (c) How do you locate inflection points?
+    Back: |
+      (a) The Increasing/Decreasing Test.
+      (b) The Concavity Test.
+      (c) Find points at which the concavity changes.
+    Annotations: ''
+- id: 1547778107966
+  media:
+  - path: ${file_dir}/images/CCAC-04.03-05.1.jpg
+  fields:
+    Front: |
+      CCAC 04.03 05: In each part state the $x$-coordinates of the inflection points of $f$. Give reasons for your answers.
+      (a) The curve is the graph of $f$.
+      (b) The curve is the graph of $f'$.
+      (c) The curve is the graph of $f''$.
+      ![](CCAC-04.03-05.1.jpg)
+    Back: |
+      (a) 3, 5
+      (b) 2, 4, 6
+      (c) 1, 7
+    Annotations: ''
+- id: 1547778108164
+  fields:
+    Front: |
+      CCAC 04.03 07:
+      (a) Find the intervals on which $f$ is increasing or decreasing.
+      (b) Find the local maximum and minimum values of $f$.
+      (c) Find the intervals of concavity and the inflection points.
+      $$$$
+      f(x) = 2x^3 + 3x^2 - 36x
+      $$$$
+    Back: |
+      (a) Inc on $(-\infty, -3)$, $(2, \infty)$; dec on $(-3, 2)$.
+      (b) Loc max $f(-3) = 81$; loc min $f(2) = -44$.
+      (c) CU on $(-\frac{1}{2}, \infty)$; CD on $(-\infty, -\frac{1}{2})$; IP $(-\frac{1}{2}, \frac{37}{2})$.
+    Annotations: ''
+- id: 1547778108339
+  fields:
+    Front: |
+      CCAC 04.03 09:
+      (a) Find the intervals on which $f$ is increasing or decreasing.
+      (b) Find the local maximum and minimum values of $f$.
+      (c) Find the intervals of concavity and the inflection points.
+      $$$$
+      f(x) = x^4 - 2x^2 + 3
+      $$$$
+    Back: |
+      (a) Inc on $(-1, 0)$, $(1, \infty)$; dec on $(-\infty, -1)$, $(0, 1)$.
+      (b) Loc max $f(0) = 3$; loc min $f(\pm 1) = 2$.
+      (c) CU on $(-\infty, -\sqrt{3}/3)$, $(\sqrt{3}/3, \infty)$; CD on $(-\sqrt{3}/3, \sqrt{3}/3)$; IP $(\pm\sqrt{3}/3, \frac{22}{9})$.
+    Annotations: ''
+- id: 1547778108532
+  fields:
+    Front: |
+      CCAC 04.03 11:
+      (a) Find the intervals on which $f$ is increasing or decreasing.
+      (b) Find the local maximum and minimum values of $f$.
+      (c) Find the intervals of concavity and the inflection points.
+      $$$$
+      f(x) = \sin x + \cos x, \quad 0 \le x \le 2\pi
+      $$$$
+    Back: |
+      (a) Inc on $(0, \pi/4)$, $(5\pi/4, 2\pi)$; dec on $(\pi/4, 5\pi/4)$.
+      (b) Loc max $f(\pi/4) = \sqrt{2}$; loc min $f(5\pi/4) = -\sqrt{2}$.
+      (c) CU on $(3\pi/4, 7\pi/4)$; CD on $(0, 3\pi/4)$, $(7\pi/4, 2\pi)$; IP $(3\pi/4, 0)$, $(7\pi/4, 0)$.
+    Annotations: ''
+- id: 1547778108714
+  fields:
+    Front: |
+      CCAC 04.03 13:
+      (a) Find the intervals on which $f$ is increasing or decreasing.
+      (b) Find the local maximum and minimum values of $f$.
+      (c) Find the intervals of concavity and the inflection points.
+      $$$$
+      f(x) = e^{2x} + e^{-x}
+      $$$$
+    Back: |
+      (a) Inc on $(-\frac{1}{3} \ln 2, \infty)$; dec on $(-\infty, -\frac{1}{3} \ln 2)$.
+      (b) Loc min $f(-\frac{1}{3} \ln 2) = 2^{-2/3} + 2^{1/3}$.
+      (c) CU on $(-\infty, \infty)$.
+    Annotations: ''
+- id: 1547778108913
+  fields:
+    Front: |
+      CCAC 04.03 15:
+      (a) Find the intervals on which $f$ is increasing or decreasing.
+      (b) Find the local maximum and minimum values of $f$.
+      (c) Find the intervals of concavity and the inflection points.
+      $$$$
+      f(x) = (\ln x)/\sqrt{x}
+      $$$$
+    Back: |
+      (a) Inc on $(0, e^2)$; dec on $(e^2, \infty)$.
+      (b) Loc max $f(e^2) = 2/e$.
+      (c) CU on $(e^{8/3}, \infty)$; CD on $(0, e^{8/3})$; IP $(e^{8/3}, \frac{8}{3}e^{-4/3})$.
+    Annotations: ''
+- id: 1547778109080
+  fields:
+    Front: |
+      CCAC 04.03 17: Find the local maximum and minimum values of $f$ using both the First and Second Derivative Tests. Which method do you prefer?
+      $$$$
+      f(x) = x + \sqrt{1 - x}
+      $$$$
+    Back: |
+      Loc max $f(\frac{3}{4}) = \frac{5}{4}$.
+    Annotations: ''
+- id: 1547778109184
+  fields:
+    Front: |
+      CCAC 04.03 19: Suppose $f''$ is continuous on $(-\infty, \infty)$.
+      (a) If $f'(2) = 0$ and $f''(2) = -5$, what can you say about $f$?
+      (b) If $f'(6) = 0$ and $f''(6) = 0$, what can you say about $f$?
+    Back: |
+      (a) $f$ has a local maximum at 2.
+      (b) $f$ has a horizontal tangent at 6.
+    Annotations: ''
+- id: 1547778109364
+  media:
+  - path: ${file_dir}/images/CCAC-04.03-21.1.jpg
+  fields:
+    Front: |
+      CCAC 04.03 21:
+      (a) Find the intervals of increase or decrease.
+      (b) Find the local maximum and minimum values.
+      (c) Find the intervals of concavity and the inflection points.
+      (d) Use the information from parts (a)-(c) to sketch the graph. Check your work with a graphing device if you have one.
+      $$$$
+      f(x) = 2x^3 - 3x^2 - 12x
+      $$$$
+    Back: |
+      (a) Inc on $(-\infty, -1)$, $(2, \infty)$; dec on $(-1, 2)$.
+      (b) Loc max $f(-1) = 7$; loc min $f(2) = -20$.
+      (c) CU on $(\frac{1}{2}, \infty)$; CD on $(-\infty, \frac{1}{2})$; IP $(\frac{1}{2}, -\frac{13}{2})$.
+      (d)
+      ![](CCAC-04.03-21.1.jpg)
+    Annotations: ''
+- id: 1547778109565
+  media:
+  - path: ${file_dir}/images/CCAC-04.03-23.1.jpg
+  fields:
+    Front: |
+      CCAC 04.03 23:
+      (a) Find the intervals of increase or decrease.
+      (b) Find the local maximum and minimum values.
+      (c) Find the intervals of concavity and the inflection points.
+      (d) Use the information from parts (a)-(c) to sketch the graph. Check your work with a graphing device if you have one.
+      $$$$
+      f(x) = 2 + 2x^2 - x^4
+      $$$$
+    Back: |
+      (a) Inc on $(-\infty, -1)$, $(0, 1)$; dec on $(-1, 0)$, $(1, \infty)$.
+      (b) Loc max $f(-1) = 3$, $f(1) = 3$; loc min $f(0) = 2$.
+      (c) CU on $(-1/\sqrt{3}, 1/\sqrt{3})$; CD on $(-\infty, -1/\sqrt{3})$, $(1/\sqrt{3}, \infty)$; IP $(\pm 1/\sqrt{3}, \frac{23}{9})$.
+      (d)
+      ![](CCAC-04.03-23.1.jpg)
+    Annotations: ''
+- id: 1547778109770
+  media:
+  - path: ${file_dir}/images/CCAC-04.03-25.1.jpg
+  fields:
+    Front: |
+      CCAC 04.03 25:
+      (a) Find the intervals of increase or decrease.
+      (b) Find the local maximum and minimum values.
+      (c) Find the intervals of concavity and the inflection points.
+      (d) Use the information from parts (a)-(c) to sketch the graph. Check your work with a graphing device if you have one.
+      $$$$
+      h(x) = (x + 1)^5 - 5x - 2
+      $$$$
+    Back: |
+      (a) Inc on $(-\infty, -2)$, $(0, \infty)$; dec on $(-2, 0)$.
+      (b) Loc max $h(-2) = 7$; loc min $h(0) = -1$.
+      (c) CU on $(-1, \infty)$; CD on $(-\infty, -1)$; IP $(-1, 3)$.
+      (d)
+      ![](CCAC-04.03-25.1.jpg)
+    Annotations: ''
+- id: 1547778109964
+  media:
+  - path: ${file_dir}/images/CCAC-04.03-27.1.jpg
+  fields:
+    Front: |
+      CCAC 04.03 27:
+      (a) Find the intervals of increase or decrease.
+      (b) Find the local maximum and minimum values.
+      (c) Find the intervals of concavity and the inflection points.
+      (d) Use the information from parts (a)-(c) to sketch the graph. Check your work with a graphing device if you have one.
+      $$$$
+      A(x) = x\sqrt{x + 3}
+      $$$$
+    Back: |
+      (a) Inc on $(-2, \infty)$; dec on $(-3, -2)$.
+      (b) Loc min $A(-2) = -2$.
+      (c) CU on $(-3, \infty)$.
+      (d)
+      ![](CCAC-04.03-27.1.jpg)
+    Annotations: ''
+- id: 1547778110177
+  media:
+  - path: ${file_dir}/images/CCAC-04.03-29.1.jpg
+  fields:
+    Front: |
+      CCAC 04.03 29:
+      (a) Find the intervals of increase or decrease.
+      (b) Find the local maximum and minimum values.
+      (c) Find the intervals of concavity and the inflection points.
+      (d) Use the information from parts (a)-(c) to sketch the graph. Check your work with a graphing device if you have one.
+      $$$$
+      C(x) = x^{1/3}(x + 4)
+      $$$$
+    Back: |
+      (a) Inc on $(-1, \infty)$; dec on $(-\infty, -1)$.
+      (b) Loc min $C(-1) = -3$.
+      (c) CU on $(-\infty, 0)$, $(2, \infty)$; CD on $(0, 2)$; IP $(0,0)$, $(2, 6\sqrt[3]{2})$.
+      (d)
+      ![](CCAC-04.03-29.1.jpg)
+    Annotations: ''
+- id: 1547778110395
+  media:
+  - path: ${file_dir}/images/CCAC-04.03-31.1.jpg
+  fields:
+    Front: |
+      CCAC 04.03 31:
+      (a) Find the intervals of increase or decrease.
+      (b) Find the local maximum and minimum values.
+      (c) Find the intervals of concavity and the inflection points.
+      (d) Use the information from parts (a)-(c) to sketch the graph. Check your work with a graphing device if you have one.
+      $$$$
+      f(\theta) = 2 \cos \theta + \cos^2 \theta, \quad 0 \le \theta \le 2\pi
+      $$$$
+    Back: |
+      (a) Inc on $(\pi, 2\pi)$; dec on $(0, \pi)$.
+      (b) Loc min $f(\pi) = -1$.
+      (c) CU on $(\pi/3, 5\pi/3)$; CD on $(0, \pi/3)$, $(5\pi/3, 2\pi)$; IP $(\pi/3, \frac{5}{4})$, $(5\pi/3, \frac{5}{4})$.
+      (d)
+      ![](CCAC-04.03-31.1.jpg)
+    Annotations: ''
+- id: 1547778110589
+  media:
+  - path: ${file_dir}/images/CCAC-04.03-33.1.jpg
+  fields:
+    Front: |
+      CCAC 04.03 33:
+      (a) Find the vertical and horizontal asymptotes.
+      (b) Find the intervals of increase or decrease.
+      (c) Find the local maximum and minimum values.
+      (d) Find the intervals of concavity and the inflection points.
+      (e) Use the information from parts (a)-(d) to sketch the graph of $f$.
+      $$$$
+      f(x) = \frac{x^2}{x^2 - 1}
+      $$$$
+    Back: |
+      (a) HA $y = 1$; VA $x = -1$, $x = 1$.
+      (b) Inc on $(-\infty, -1)$, $(-1, 0)$; dec on $(0, 1)$, $(1, \infty)$.
+      (c) Loc max $f(0) = 0$.
+      (d) CU on $(-\infty, -1)$, $(1, \infty)$; CD on $(-1, 1)$.
+      (e)
+      ![](CCAC-04.03-33.1.jpg)
+    Annotations: ''
+- id: 1547778110788
+  media:
+  - path: ${file_dir}/images/CCAC-04.03-35.1.jpg
+  fields:
+    Front: |
+      CCAC 04.03 35:
+      (a) Find the vertical and horizontal asymptotes.
+      (b) Find the intervals of increase or decrease.
+      (c) Find the local maximum and minimum values.
+      (d) Find the intervals of concavity and the inflection points.
+      (e) Use the information from parts (a)-(d) to sketch the graph of $f$.
+      $$$$
+      f(x) = \sqrt{x^2 + 1} - x
+      $$$$
+    Back: |
+      (a) HA $y = 0$.
+      (b) Dec on $(-\infty, \infty)$.
+      (c) None.
+      (d) CU on $(-\infty, \infty)$.
+      (e)
+      ![](CCAC-04.03-35.1.jpg)
+    Annotations: ''
+- id: 1547778110991
+  media:
+  - path: ${file_dir}/images/CCAC-04.03-37.1.jpg
+  fields:
+    Front: |
+      CCAC 04.03 37:
+      (a) Find the vertical and horizontal asymptotes.
+      (b) Find the intervals of increase or decrease.
+      (c) Find the local maximum and minimum values.
+      (d) Find the intervals of concavity and the inflection points.
+      (e) Use the information from parts (a)-(d) to sketch the graph of $f$.
+      $$$$
+      f(x) = \ln(1 - \ln x)
+      $$$$
+    Back: |
+      (a) VA $x = 0$, $x = e$.
+      (b) Dec on $(0, e)$.
+      (c) None.
+      (d) CU on $(0, 1)$; CD on $(1, e)$; IP $(1, 0)$.
+      (e)
+      ![](CCAC-04.03-37.1.jpg)
+    Annotations: ''
+- id: 1547778111192
+  media:
+  - path: ${file_dir}/images/CCAC-04.03-39.1.jpg
+  fields:
+    Front: |
+      CCAC 04.03 39:
+      (a) Find the vertical and horizontal asymptotes.
+      (b) Find the intervals of increase or decrease.
+      (c) Find the local maximum and minimum values.
+      (d) Find the intervals of concavity and the inflection points.
+      (e) Use the information from parts (a)-(d) to sketch the graph of $f$.
+      $$$$
+      f(x) = e^{-1/(x + 1)}
+      $$$$
+    Back: |
+      (a) HA $y = 1$; VA $x = -1$.
+      (b) Inc on $(-\infty, -1)$, $(-1, \infty)$.
+      (c) None.
+      (d) CU on $(-\infty, -1)$, $(-1, -\frac{1}{2})$; CD on $(-\frac{1}{2}, \infty)$; IP $(-\frac{1}{2}, 1/e^2)$.
+      (e)
+      ![](CCAC-04.03-39.1.jpg)
+    Annotations: ''
+- id: 1547778111388
+  fields:
+    Front: |
+      CCAC 04.03 41: Suppose the derivative of a function $f$ is $f'(x) = (x + 1)^2 (x - 3)^5 (x - 6)^4$. On what interval is $f$ increasing?
+    Back: |
+      $(3, \infty)$
+    Annotations: ''
+- id: 1547778111544
+  fields:
+    Front: |
+      CCAC 04.03 43:
+      (a) Use a graph of $f$ to estimate the maximum and minimum values. Then find the exact values.
+      (b) Estimate the value of $x$ at which $f$ increases most rapidly. Then find the exact value.
+      $$$$
+      f(x) = \frac{x + 1}{\sqrt{x^2 + 1}}
+      $$$$
+    Back: |
+      (a) Loc and abs max $f(1) = \sqrt{2}$; no min.
+      (b) $\frac{1}{4}(3 - \sqrt{17})$
+    Annotations: ''
+  tags:
+  - requiresCoding
+- id: 1547778111734
+  fields:
+    Front: |
+      CCAC 04.03 45:
+      (a) Use a graph of $f$ to give a rough estimate of the intervals of concavity and the coordinates of the points of inflection.
+      (b) Use a graph of $f''$ to give better estimates.
+      $$$$
+      f(x) = \cos x + \tfrac{1}{2} \cos 2x, \quad 0 \le x \le 2\pi
+      $$$$
+    Back: >
+      (b) CU on $(0.94, 2.57)$, $(3.71, 5.35)$; CD on $(0, 0.94)$, $(2.57, 3.71)$,
+      $(5.35, 2\pi)$; IP $(0.94, 0.44)$, $(2.57, -0.63)$, $(3.71, -0.63)$, $(5.35,
+      0.44)$.
+    Annotations: ''
+  tags:
+  - requiresCoding
+- id: 1547778111889
+  fields:
+    Front: |
+      CCAC 04.03 47: Estimate the intervals of concavity to one decimal place by using a computer algebra system to compute and graph $f''$.
+      $$$$
+      f(x) = \frac{x^4 + x^3 + 1}{\sqrt{x^2 + x + 2}}
+      $$$$
+    Back: |
+      CU on $(-\infty, -0.6)$, $(0.0, \infty)$; CD on $(-0.6, 0.0$.)
+    Annotations: ''
+  tags:
+  - requiresCoding
+- id: 1547778112039
+  fields:
+    Front: |
+      CCAC 04.03 49: Let $f(t)$ be the temperature at time $t$ where you live and suppose that at time $t = 3$ you feel uncomfortably hot. How do you feel about the given data in each case?
+      (a) $f'(3) = 2$, $f''(3) = 4$.
+      (b) $f'(3) = 2$, $f''(3) = -4$.
+      (b) $f'(3) = -2$, $f''(3) = 4$.
+      (b) $f'(3) = -2$, $f''(3) = -4$.
+    Back: |
+      (a) Very unhappy.
+      (b) Unhappy.
+      (c) Happy.
+      (d) Very happy.
+    Annotations: ''
+- id: 1547778112193
+  fields:
+    Front: |
+      CCAC 04.03 51: Find $dy/dx$ and $d^2 y/dx^2$. For which values of $t$ is the parametric curve concave upward?
+      $$$$
+      x = t^3 - 12t, \quad y = t^2 - 1
+      $$$$
+    Back: |
+      $$$$
+      \frac{2t}{3t^2 - 12}, \quad \frac{-2(t^2 + 4)}{9(t^2 - 4)^3}, \quad -2 < t < 2
+      $$$$
+    Annotations: ''
+- id: 1547778112358
+  media:
+  - path: ${file_dir}/images/CCAC-04.03-53.1.jpg
+  fields:
+    Front: |
+      CCAC 04.03 53: In the theory of relativity, the mass of a particle is
+      $$$$
+      m = \frac{m_0}{\sqrt{1 - v^2/c^2}}
+      $$$$
+      where $m_0$ is the rest mass of the particle, $m$ is the mass when the particle moves with speed $v$ relative to the observer, and $c$ is the speed of light. Sketch the graph of $m$ as a function of $v$.
+    Back: |
+      ![](CCAC-04.03-53.1.jpg)
+    Annotations: ''
+- id: 1547778112582
+  media:
+  - path: ${file_dir}/images/CCAC-04.03-55.1.jpg
+  - path: ${file_dir}/images/CCAC-04.03-55.2.jpg
+  fields:
+    Front: |
+      CCAC 04.03 55: The figure shows a beam of length $L$ embedded in concrete walls. If a constant load $W$ is distributed evenly along its length, the beam takes the shape of the deflection curve
+      $$$$
+      y = - \frac{W}{24EI}x^4 + \frac{WL}{12EI}x^3 - \frac{WL^2}{24EI}x^2
+      $$$$
+      where $E$ and $I$ are positive constants. ($E$ is Young's modulus of elasticity and $I$ is the moment of inertia of a cross-section of the beam.) Sketch the graph of the deflection curve.
+      ![](CCAC-04.03-55.1.jpg)
+    Back: |
+      ![](CCAC-04.03-55.2.jpg)
+    Annotations: ''
+- id: 1547778112814
+  fields:
+    Front: >
+      CCAC 04.03 57: A _drug response curve_ describes the level of medication in
+      the bloodstream after a drug is administered. A surge function $S(t) = A t^p
+      e^{-kt}$ is often used to model the response curve, reflecting an initial surge
+      in the drug level and then a more gradual decline. If, for a particular drug,
+      $A = 0.01$, $p = 4$, $k = 0.07$, and $t$ is measured in minutes, estimate the
+      times corresponding to the inflection points and explain their significance.
+      If you have a graphing device, use it to graph the drug response curve.
+    Back: |
+      28.57 min, when the rate of increase of drug level in the bloodstream is greatest; 85.71 min, when the rate of decrease is greatest.
+    Annotations: ''
+  tags:
+  - requiresCoding
+- id: 1547778112982
+  fields:
+    Front: >
+      CCAC 04.03 59: Find a cubic function $f(x) = ax^3 + bx^2 + cx + d$ that has
+      a local maximum value of $3$ at $x = -2$ and a local minimum value of $0$ at
+      $x = 1$.
+    Back: |
+      $$$$
+      f(x) = \tfrac{1}{9}(2x^3 + 3x^2 - 12x + 7)
+      $$$$
+    Annotations: ''
+- id: 1547778113139
+  fields:
+    Front: >
+      CCAC 04.03 63: Suppose that $f(0) = -3$ and $f'(x) \le 5$ for all values of
+      $x$. The inequality gives a restriction on the rate of growth of $f$, which
+      then imposes a restriction on the possible values of $f$. Use the Mean Value
+      Theorem to determine how large $f(4)$ can possibly be.
+    Back: |
+      $17$
+    Annotations: ''
+- id: 1547778113307
+  fields:
+    Front: |
+      CCAC 04.03 71:
+      (a) If the function $f(x) = x^3 + ax^2 + bx$ has the local minimum value $-\frac{2}{9}\sqrt{3}$ at $x = 1/\sqrt{3}$, what are the values of $a$ and $b$?
+      (b) Which of the tangent lines to the curve in part (a) has the smallest slope?
+    Back: |
+      (a) $a = 0$, $b = -1$
+      (b) $y = -x$ at $(0, 0)$
+    Annotations: ''
+  tags: []

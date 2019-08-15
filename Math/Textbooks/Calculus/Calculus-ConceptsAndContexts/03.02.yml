@@ -20,6 +20,8 @@ notes:
       (fg)' = fg' + gf'
       $$$$
     Annotations: ''
+  tags:
+  - Theory
 - id: 1547241942052
   fields:
     Front: |
@@ -30,6 +32,8 @@ notes:
       \left( \frac{f}{g} \right)' = \frac{gf' - fg'}{g^2}
       $$$$
     Annotations: ''
+  tags:
+  - Theory
 - id: 1547242828608
   fields:
     Front: >

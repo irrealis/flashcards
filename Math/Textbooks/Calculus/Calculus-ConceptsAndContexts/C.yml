@@ -22,8 +22,10 @@ notes:
         1 + \cot^2 \theta &= \csc^2 \theta \\
       \end{align}
       $$$$
-    Annotations: ''
-  tags: []
+    Annotations: 'Issues:<div>- 190216: mixed up definitions of \(\sec \theta = 1/\cos
+      \theta\) and \(\csc \theta = 1/\sin \theta\).</div>'
+  tags:
+  - Theory
 - id: 1547063891146
   fields:
     Front: |
@@ -38,6 +40,8 @@ notes:
       \end{align}
       $$$$
     Annotations: ''
+  tags:
+  - Theory
 - id: 1547063891256
   fields:
     Front: |
@@ -52,6 +56,8 @@ notes:
       \end{align}
       $$$$
     Annotations: ''
+  tags:
+  - Theory
 - id: 1547063891380
   fields:
     Front: |
@@ -65,6 +71,8 @@ notes:
       \end{align}
       $$$$
     Annotations: ''
+  tags:
+  - Theory
 - id: 1547063891480
   fields:
     Front: |
@@ -78,6 +86,8 @@ notes:
       \end{align}
       $$$$
     Annotations: ''
+  tags:
+  - Theory
 - id: 1547063891633
   fields:
     Front: |
@@ -91,6 +101,8 @@ notes:
       \end{align}
       $$$$
     Annotations: ''
+  tags:
+  - Theory
 - id: 1547063891767
   useMarkdown: pweave
   fields:
@@ -125,6 +137,8 @@ notes:
       p._backend.plt.show()
       ```
     Annotations: ''
+  tags:
+  - Theory
 - id: 1547063894796
   useMarkdown: pweave
   fields:
@@ -159,6 +173,8 @@ notes:
       p._backend.plt.show()
       ```
     Annotations: ''
+  tags:
+  - Theory
 - id: 1547063897746
   useMarkdown: pweave
   fields:
@@ -193,6 +209,8 @@ notes:
       p._backend.plt.show()
       ```
     Annotations: ''
+  tags:
+  - Theory
 - id: 1547063900746
   useMarkdown: pweave
   fields:
@@ -227,6 +245,8 @@ notes:
       p._backend.plt.show()
       ```
     Annotations: ''
+  tags:
+  - Theory
 - id: 1547063903897
   useMarkdown: pweave
   fields:
@@ -261,6 +281,8 @@ notes:
       p._backend.plt.show()
       ```
     Annotations: ''
+  tags:
+  - Theory
 - id: 1547063907095
   useMarkdown: pweave
   fields:
@@ -295,6 +317,8 @@ notes:
       p._backend.plt.show()
       ```
     Annotations: ''
+  tags:
+  - Theory
 - id: 1547063910221
   tags: []
   fields:
@@ -500,7 +524,7 @@ notes:
       ```
     Back: |
       5.73576 cm
-    Annotations: ''
+    Annotations: 'Issues:<div>-190216: wrong \(10\sin(35/180)\) instead of \(10\sin(35\pi/180)\).</div>'
 - id: 1547063916271
   useMarkdown: pweave
   tags: []
@@ -548,7 +572,7 @@ notes:
       $$$$
     Back: |
       $\frac{1}{15}(4 + 6\sqrt{2})$
-    Annotations: ''
+    Annotations: 'Issues:<div>- 190216: Mixed up \(\sin(x+y)\) and \(\cos(x+y)\).</div>'
 - id: 1547063918115
   tags: []
   fields:
@@ -644,4 +668,4 @@ notes:
         xlabel = '$x$', ylabel = '$y$',
       )
       ```
-    Annotations: ''
+    Annotations: 'Issues:<div>- 190217: plotted cotangent instead of tangent function.</div>'

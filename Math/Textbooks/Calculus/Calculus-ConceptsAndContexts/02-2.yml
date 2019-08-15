@@ -111,11 +111,12 @@ notes:
 - id: 1547078083070
   fields:
     Front: |
-      CCAC 02.2 05g: For the function $g$ whose graph is given, state the value of $g(t)$, if it exists. If it does not exist, explain why.
+      CCAC 02.2 05g: For the function $g$ whose graph is given, state the value of $g(2)$, if it exists. If it does not exist, explain why.
       ![](CCAC-02.2-05.jpg)
     Back: |
       $1$.
     Annotations: ''
+  tags: []
 - id: 1547078083171
   fields:
     Front: |
@@ -133,12 +134,13 @@ notes:
       \begin{cases}
         1 + x & \text{if $x<-1$} \\
         x^2 & \text{if $-1\le x<1$} \\
-        2-x & \text{if $1\le x$} \\
+        2-x & \text{if $x \ge 1$} \\
       \end{cases}
       $$$$
     Back: |
       $\lim_{x\to a}{f(x)}$ exists for all $a$ except $a=-1$.
     Annotations: ''
+  tags: []
 - id: 1547078083526
   tags:
   - requiresCoding

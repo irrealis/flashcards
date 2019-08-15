@@ -21,6 +21,8 @@ notes:
       $$$$
       provided that this limit exists.
     Annotations: ''
+  tags:
+  - Theory
 - id: 1547151319490
   fields:
     Front: |
@@ -32,6 +34,8 @@ notes:
       $$$$
       if this limit exists.
     Annotations: ''
+  tags:
+  - Theory
 - id: 1547151319596
   fields:
     Front: |
@@ -265,7 +269,7 @@ notes:
 - id: 1547151332418
   fields:
     Front: |
-      CCAC 02.6 19: If an equation of the tangent line to the curve $y = f(x)$ at the point where $a = 2$ is $y = 4x-5$, find $f(2)$ and $f'(2)$.
+      CCAC 02.6 19: If an equation of the tangent line to the curve $y = f(x)$ at the point where $x = 2$ is $y = 4x-5$, find $f(2)$ and $f'(2)$.
     Back: |
       $f(2) = 3$; $f'(2) = 4$.
     Annotations: ''

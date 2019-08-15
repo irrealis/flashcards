@@ -1,0 +1,567 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Calculus-ConceptsAndContexts
+  - CCAC-04-ApplicationsOfDifferentiation
+  - CCAC-04.Review
+  markdownTabLength: 2
+notes:
+- id: 1547778131990
+  fields:
+    Front: |
+      CCAC 04.Review, True-False 01: If $f'(c) = 0$, then $f$ has a local maximum or minimum at $c$.
+    Back: |
+      False
+    Annotations: ''
+  tags: []
+- id: 1547778132153
+  fields:
+    Front: >
+      CCAC 04.Review, True-False 03: If $f$ is continuous on $(a, b)$, then $f$ attains
+      an absolute maximum value $f(c)$ and an absolute minimum value $f(d)$ at some
+      numbers $c$ and $d$ in $(a, b)$.
+    Back: |
+      False
+    Annotations: ''
+  tags: []
+- id: 1547778132314
+  fields:
+    Front: |
+      CCAC 04.Review, True-False 05: If $f'(x) < 0$ for $1 < x < 6$, then $f$ is decreasing on $(1, 6)$.
+    Back: |
+      True
+    Annotations: ''
+  tags: []
+- id: 1547778132459
+  fields:
+    Front: |
+      CCAC 04.Review, True-False 07: If $f'(x) = g'(x)$ for $0 < x < 1$, then $f(x) = g(x)$ for $0 < x < 1$.
+    Back: |
+      False
+    Annotations: ''
+  tags: []
+- id: 1547778132612
+  fields:
+    Front: |
+      CCAC 04.Review, True-False 09: There exists a function $f$ such that $f(x) > 0$, $f'(x) < 0$, and $f''(x) > 0$ for all $x$.
+    Back: |
+      True
+    Annotations: ''
+  tags: []
+- id: 1547778132768
+  fields:
+    Front: |
+      CCAC 04.Review, True-False 11: If $f$ and $g$ are increasing on an interval $I$, then $f + g$ is increasing on $I$.
+    Back: |
+      True
+    Annotations: ''
+  tags: []
+- id: 1547778132909
+  fields:
+    Front: |
+      CCAC 04.Review, True-False 13: If $f$ and $g$ are increasing on an interval $I$, then $fg$ is increasing on $I$.
+    Back: |
+      False
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1547778133046
+  fields:
+    Front: |
+      CCAC 04.Review, True-False 15: If $f$ is increasing and $f(x) > 0$ on $I$, the $g(x) = 1/f(x)$ is decreasing on $I$.
+    Back: |
+      True
+    Annotations: ''
+  tags: []
+- id: 1547778133188
+  fields:
+    Front: |
+      CCAC 04.Review, True-False 17: If $f$ is periodic, then $f'$ is periodic.
+    Back: |
+      True
+    Annotations: ''
+  tags: []
+- id: 1547778133339
+  fields:
+    Front: |
+      CCAC 04.Review, True-False 19: If $f'(x)$ exists and is nonzero for all $x$, then $f(1) \ne f(0)$.
+    Back: |
+      True
+    Annotations: ''
+  tags: []
+- id: 1547778133478
+  fields:
+    Front: |
+      CCAC 04.Review, Exercise 01: Find the local and absolute extreme values of the function on the given interval.
+      $$$$
+      f(x) = x^3 - 6x^2 + 9x + 1, \quad [2,4]
+      $$$$
+    Back: |
+      Abs max $f(4) = 5$, abs and loc min $f(3) = 1$
+    Annotations: ''
+  tags: []
+- id: 1547778133625
+  fields:
+    Front: |
+      CCAC 04.Review, Exercise 03: Find the local and absolute extreme values of the function on the given interval.
+      $$$$
+      f(x) = \frac{3x - 4}{x^2 + 1}, \quad [-2, 2]
+      $$$$
+    Back: |
+      Abs max $f(2) = \frac{2}{5}$, abs and loc min $f(-\frac{1}{3}) = -\frac{9}{2}$
+    Annotations: ''
+  tags: []
+- id: 1547778133765
+  fields:
+    Front: |
+      CCAC 04.Review, Exercise 05: Find the local and absolute extreme values of the function on the given interval.
+      $$$$
+      f(x) = x + \sin 2x, \quad [0, \pi]
+      $$$$
+    Back: >
+      Abs max $f(\pi) = \pi$; abs min $f(0) = 0$; loc max $f(\pi/3) = (\pi/3) + \tfrac{1}{2}\sqrt{3}$;
+      loc min $f(2\pi/3) = (2\pi/3) - \tfrac{1}{2}\sqrt{3}$
+    Annotations: ''
+  tags: []
+- id: 1547778133962
+  media:
+  - path: ${file_dir}/images/CCAC-04.Review-07.1.jpg
+  fields:
+    Front: |
+      CCAC 04.Review, Exercise 07:
+      (a) Find the vertical asymptotes, if any.
+      (b) Find the intervals of increase or decrease.
+      (c) Find the local max and min values.
+      (d) Find the intervals of concavity and the inflection points.
+      (e) Use the information from parts (a)-(d) to sketch the graph of $f$. Check your work with a graphing device.
+      $$$$
+      f(x) = 2 - 2x - x^3
+      $$$$
+    Back: |
+      (a) None
+      (b) Dec on $(-\infty, \infty)$
+      (c) None
+      (d) CU on $(\infty, 0)$; CD on $(0, \infty)$; IP $(0, 2)$
+      (e)
+      ![](CCAC-04.Review-07.1.jpg)
+    Annotations: ''
+  tags: []
+- id: 1547778134166
+  media:
+  - path: ${file_dir}/images/CCAC-04.Review-09.1.jpg
+  fields:
+    Front: |
+      CCAC 04.Review, Exercise 09:
+      (a) Find the vertical asymptotes, if any.
+      (b) Find the intervals of increase or decrease.
+      (c) Find the local max and min values.
+      (d) Find the intervals of concavity and the inflection points.
+      (e) Use the information from parts (a)-(d) to sketch the graph of $f$. Check your work with a graphing device.
+      $$$$
+      f(x) = x + \sqrt{1 - x}
+      $$$$
+    Back: |
+      (a) None
+      (b) Inc on $(-\infty, \frac{3}{4})$, dec on $(\frac{3}{4}, 1)$
+      (c) Loc max $f(\frac{3}{4}) = \frac{5}{4}$
+      (d) CD on $(-\infty, 1)$
+      (e)
+      ![](CCAC-04.Review-09.1.jpg)
+    Annotations: ''
+  tags: []
+- id: 1547778134364
+  media:
+  - path: ${file_dir}/images/CCAC-04.Review-11.1.jpg
+  fields:
+    Front: |
+      CCAC 04.Review, Exercise 11:
+      (a) Find the vertical asymptotes, if any.
+      (b) Find the intervals of increase or decrease.
+      (c) Find the local max and min values.
+      (d) Find the intervals of concavity and the inflection points.
+      (e) Use the information from parts (a)-(d) to sketch the graph of $f$. Check your work with a graphing device.
+      $$$$
+      y = \sin^2 x - 2\cos x
+      $$$$
+    Back: |
+      (a) None
+      (b) Inc on $(2n\pi, (2n + 1)\pi)$, $n$ an integer; dec on $((2n + 1)\pi, (2n + 2)\pi)$
+      (c) Loc max $f((2n + 1)\pi) = 2$; loc min $f(2n\pi) = -2$
+      (d) CU on $(2n\pi + (\pi/3), 2n\pi + (5\pi/3))$; IPs $(2n\pi \pm (\pi/3), -\frac{1}{4})$
+      (e)
+      ![](CCAC-04.Review-11.1.jpg)
+    Annotations: ''
+  tags: []
+- id: 1547778134566
+  media:
+  - path: ${file_dir}/images/CCAC-04.Review-13.1.jpg
+  fields:
+    Front: |
+      CCAC 04.Review, Exercise 13:
+      (a) Find the vertical asymptotes, if any.
+      (b) Find the intervals of increase or decrease.
+      (c) Find the local max and min values.
+      (d) Find the intervals of concavity and the inflection points.
+      (e) Use the information from parts (a)-(d) to sketch the graph of $f$. Check your work with a graphing device.
+      $$$$
+      y = e^x + e^{-3x}
+      $$$$
+    Back: |
+      (a) None
+      (b) Inc on $(\frac{1}{4} \ln 3, \infty)$, dec on $(-\infty, \frac{1}{4} \ln 3)$
+      (c) Loc min $f(\frac{1}{4} \ln 3) = 3^{1/4} + 3^{-3/4}$
+      (d) CU on $(-\infty, \infty)$
+      (e)
+      ![](CCAC-04.Review-13.1.jpg)
+    Annotations: ''
+  tags: []
+- id: 1547778134781
+  media:
+  - path: ${file_dir}/images/CCAC-04.Review-15.1.jpg
+  fields:
+    Front: |
+      CCAC 04.Review, Exercise 15: Produce graphs of $f$ that reveal all the important aspects of the curve. Use graphs of $f'$ and $f''$ to estimate intervals of increase and decrease, extreme values, intervals of concavity, and inflection points. Use calculus to find these quantities exactly.
+      $$$$
+      f(x) = \frac{x^2 - 1}{x^3}
+      $$$$
+    Back: |
+      Inc on $(-\sqrt{3}, 0)$, $(0, \sqrt{3})$;
+      dec on $(-\infty, -\sqrt{3})$, $(\sqrt{3}, \infty)$;
+      loc max $f(\sqrt{3}) = \frac{2}{9}\sqrt{3}$;
+      loc min $f(-\sqrt{3}) = -\frac{2}{9}\sqrt{3}$;
+      CU on $(-\sqrt{6}, 0)$, $(\sqrt{6}, \infty)$;
+      CD on $(-\infty, -\sqrt{6})$, $(0, \sqrt{6})$;
+      IP $(\sqrt{6}, \frac{5}{36}\sqrt{36})$, $(-\sqrt{6}, -\frac{5}{36}\sqrt{6})$
+      ![](CCAC-04.Review-15.1.jpg)
+    Annotations: ''
+  tags:
+  - requiresCoding
+- id: 1547778135020
+  media:
+  - path: ${file_dir}/images/CCAC-04.Review-17.1.jpg
+  fields:
+    Front: |
+      CCAC 04.Review, Exercise 17: Produce graphs of $f$ that reveal all the important aspects of the curve. Use graphs of $f'$ and $f''$ to estimate intervals of increase and decrease, extreme values, intervals of concavity, and inflection points.
+      $$$$
+      f(x) = 3x^6 - 5x^5 + x^4 - 5x^3 - 2x^2 + 2
+      $$$$
+    Back: |
+      Inc on $(-0.23, 0)$, $(1.62, \infty)$;
+      dec on $(-\infty, -0.23)$, $(0, 1.62)$;
+      loc max $f(0) = 2$;
+      loc min $f(-0.23) \approx 1.96$, $f(1.62) \approx -19.2$;
+      CU on $(-\infty, -0.12)$, $(1.24, \infty)$;
+      CD on $(-0.12, 1.24)$;
+      IP $(-0.12, 1.98)$, $(1.24, -12.1)$
+      ![](CCAC-04.Review-17.1.jpg)
+    Annotations: ''
+  tags:
+  - requiresCoding
+- id: 1547778135213
+  media:
+  - path: ${file_dir}/images/CCAC-04.Review-19.1.jpg
+  fields:
+    Front: >
+      CCAC 04.Review, Exercise 19: Graph $f(x) = e^{-1/x^2}$ in a viewing rectangle
+      that shows all the main aspects of this function. Estimate the inflection points.
+      The use calculus to find them exactly.
+    Back: |
+      $(\pm 0.82, 0.22)$; $(\pm \sqrt{2/3}, e^{-3/2})$
+      ![](CCAC-04.Review-19.1.jpg)
+    Annotations: ''
+  tags:
+  - requiresCoding
+- id: 1547778135366
+  fields:
+    Front: |
+      CCAC 04.Review, Exercise 21: Use the graphs of $f$, $f'$, and $f''$ to estimate the $x$-coordinates of the min and max points and inflection points of $f$.
+      $$$$
+      f(x) = \frac{\cos^2 x}{\sqrt{x^2 + x + 1}}, \quad -\pi \le x \le \pi
+      $$$$
+    Back: |
+      -2.96, -0.18, 3.01; -1.57, 1.57; -2.16, -0.75, 0.46, 2.21
+    Annotations: ''
+  tags:
+  - requiresCoding
+- id: 1547778135556
+  fields:
+    Front: >
+      CCAC 04.Review, Exercise 23: Investigate the family of functions $f(x) = \ln(\sin
+      x + C)$. What features do the members of this family have in common? How do
+      they differ? For which values of $C$ is $f$ continuous on $(-\infty, \infty)$?
+      For which values of $C$ does $f$ have no graph at all? What happens as $C \to
+      \infty$?
+    Back: >
+      For $C > -1$, $f$ is periodic with period $2\pi$ and has local maxima at $2n\pi
+      + \pi/2$, $n$ an integer. For $C \le -1$, $f$ has no graph. For $-1 < C \le
+      1$, $f$ has vertical asymptotes. For $C > 1$, $f$ is continuous on $\mathbb{R}$.
+      As $C$ increases, $f$ moves upward and its oscillations become less pronounced.
+    Annotations: ''
+  tags:
+  - requiresCoding
+- id: 1547778135738
+  fields:
+    Front: >
+      CCAC 04.Review, Exercise 25: For what values of the constants $a$ and $b$ is
+      $(1, 6)$ a point of inflection of the curve $y = x^3 + ax^2 + bx + 1$?
+    Back: |
+      $a = -3$, $b = 7$
+    Annotations: ''
+- id: 1547778135887
+  fields:
+    Front: |
+      CCAC 04.Review, Exercise 27: Evaluate the limit.
+      $$$$
+      \lim_{x \to 0} \frac{\tan \pi x}{\ln(1 + x)}
+      $$$$
+    Back: |
+      $\pi$
+    Annotations: ''
+  tags: []
+- id: 1547778136030
+  fields:
+    Front: |
+      CCAC 04.Review, Exercise 29: Evaluate the limit.
+      $$$$
+      \lim_{x \to 0} \frac{e^{4x} - 1 - 4x}{x^2}
+      $$$$
+    Back: |
+      8
+    Annotations: ''
+  tags: []
+- id: 1547778136164
+  fields:
+    Front: |
+      CCAC 04.Review, Exercise 31: Evaluate the limit.
+      $$$$
+      \lim_{x \to \infty} x^3 e^{-x}
+      $$$$
+    Back: |
+      0
+    Annotations: ''
+  tags: []
+- id: 1547778136309
+  fields:
+    Front: |
+      CCAC 04.Review, Exercise 33: Evaluate the limit.
+      $$$$
+      \lim_{x \to 1^+} \left( \frac{x}{x - 1} - \frac{1}{\ln x} \right)
+      $$$$
+    Back: |
+      $\frac{1}{2}$
+    Annotations: ''
+  tags: []
+- id: 1547778136449
+  fields:
+    Front: >
+      CCAC 04.Review, Exercise 35: The angle of elevation of the sun is decreasing
+      at a rate of $\text{0.25 rad/h}$. How fast is the shadow cast by a 400-ft-tall
+      building increasing when the angle of elevation of the is $\pi/6$?
+    Back: |
+      $\text{400 ft/h}$
+    Annotations: ''
+  tags: []
+- id: 1547778136602
+  fields:
+    Front: >
+      CCAC 04.Review, Exercise 37: A balloon is rising at a constant speed of $\text{5
+      ft/s}$. A boy is cycling along a straight road at a speed of $\text{15 ft/s}$.
+      When he passes under the balloon, it is $\text{45 ft}$ above him. How fast is
+      the distance between the boy and the balloon increasing $\text{3 s}$ later?
+    Back: |
+      $\text{13 ft/s}$
+    Annotations: ''
+  tags: []
+- id: 1547778136763
+  fields:
+    Front: >
+      CCAC 04.Review, Exercise 39: Find two positive integers such that the sum of
+      the first number and four times the second number is 1000 and the product of
+      the numbers is as large as possible.
+    Back: |
+      500 and 125
+    Annotations: ''
+  tags: []
+- id: 1547778136913
+  fields:
+    Front: |
+      CCAC 04.Review, Exercise 41: Find the smallest possible area of an isosceles triangle that is circumscribed about a circle of radius $r$.
+    Back: |
+      $3\sqrt{3} r^2$
+    Annotations: ''
+  tags: []
+- id: 1547778137048
+  fields:
+    Front: >
+      CCAC 04.Review, Exercise 43: In $\Delta ABC$, $D$ lies on $AB$, $|CD| = \text{5
+      cm}$, $|AD| = \text{4 cm}$, $|BD| = \text{4 cm}$, and $CD \bot AB$. Where should
+      a point $P$ be chosen on $CD$ so that the sum $|PA| + |PB| + |PC|$ is a minimum?
+      What if $|CD| = \text{2 cm}$?
+    Back: |
+      $4/\sqrt{3}\text{ cm}$ from $D$; at $C$
+    Annotations: ''
+  tags: []
+- id: 1547778137214
+  fields:
+    Front: |
+      CCAC 04.Review, Exercise 45: The velocity of a wave of length $L$ in deep water is
+      $$$$
+      v = K \sqrt{\frac{L}{C} + \frac{C}{L}}
+      $$$$
+      where $K$ and $C$ are known positive constants. What is the length of the wave that gives the minimum velocity?
+    Back: |
+      $L = C$
+    Annotations: ''
+  tags: []
+- id: 1547778137393
+  useMarkdownMathExt: false
+  fields:
+    Front: >
+      CCAC 04.Review, Exercise 47: A hockey team plays in an arena with a seating
+      capacity of 15,000 spectators. With a ticket price set at $12, average attendance
+      at a game has been 11,000. A market survey indicates that for each dollar the
+      ticket price is lowered, average attendance will increase by 1000. How should
+      the owners of the team set the ticket price to maximize their revenue from ticket
+      sales?
+    Back: |
+      $11.50
+    Annotations: ''
+  tags: []
+- id: 1547778137517
+  fields:
+    Front: >
+      CCAC 04.Review, Exercise 49: Use Newton's method to find the absolute maximum
+      value of the function $f(t) = \\cos t + t - t^2$ correct to eight decimal places.
+    Back: |
+      1.16718557
+    Annotations: ''
+  tags: []
+- id: 1547778137664
+  fields:
+    Front: |
+      CCAC 04.Review, Exercise 51: Find the most general antiderivative of the function.
+      $$$$
+      f(x) = e^x - (2/\sqrt{x})
+      $$$$
+    Back: |
+      $$$$
+      F(x) = e^x - 4\sqrt{x} + C
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547778137797
+  fields:
+    Front: |
+      CCAC 04.Review, Exercise 53: Find $f(x)$.
+      $$$$
+      f'(t) = 2t - 3\sin t, \quad f(0) = 5
+      $$$$
+    Back: |
+      $$$$
+      f(t) = t^2 + 3\cos t + 2
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547778137939
+  fields:
+    Front: |
+      CCAC 04.Review, Exercise 55: Find $f(x)$.
+      $$$$
+      f''(x) = 1 - 6x + 48x^2, \quad f(0) = 1, \quad f'(0) = 2
+      $$$$
+    Back: |
+      $$$$
+      f(x) = \tfrac{1}{2}x^2 - x^3 + 4x^4 + 2x + 1
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547778138082
+  fields:
+    Front: |
+      CCAC 04.Review, Exercise 57: A particle is moving with the given data. Find the position of the particle.
+      $$$$
+      v(t) = 2t - 1/(1 + t^2), \quad s(0) = 1
+      $$$$
+    Back: |
+      $$$$
+      s(t) = t^2 - \tan^{-1} t + 1
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547778138240
+  media:
+  - path: ${file_dir}/images/CCAC-04.Review-59.1.jpg
+  fields:
+    Front: |
+      CCAC 04.Review, Exercise 59:
+      (a) If $f(x) = 0.1e^x + \sin x$, $-4 \le x \le 4$, use a graph of $f$ to sketch a rough graph of the antiderivative $F$ of $f$ that satisfies $F(0) = 0$.
+      (b) Find an expression for $F(x)$.
+      (c) Graph $F$ using the expression in part (b). Compare with your sketch in part (a).
+    Back: |
+      (b) $0.1e^x - \cos x + 0.9$
+      (c)
+      ![](CCAC-04.Review-59.1.jpg)
+    Annotations: ''
+  tags: []
+- id: 1547778138418
+  fields:
+    Front: >
+      CCAC 04.Review, Exercise 61: A canister is dropped from a helicopter $\text{500
+      m}$ above the ground. Its parachute does not open, but the canister has been
+      designed to withstand an impact velocity of $\text{100 m/s}$. Will it burst?
+    Back: |
+      No.
+    Annotations: ''
+  tags: []
+- id: 1547778138567
+  media:
+  - path: ${file_dir}/images/CCAC-04.Review-63.1.jpg
+  fields:
+    Front: >
+      CCAC 04.Review, Exercise 63: A rectangular beam will be cut from a cylindrical
+      log of radius 10 inches.
+
+      (a) Show that the beam of maximal cross-sectional area is a square.
+
+      (b) Four rectangular planks will be cut from the four sections of the log that
+      remain after cutting the square beam. Determine the dimensions of the planks
+      that will have maximal cross-sectional area.
+
+      (c) Suppose that the strength a rectangular beam is proportional to the product
+      of its width and the square of its depth. Find the dimensions of the strongest
+      beam that can be cut from the cylindrical log.
+
+      ![](CCAC-04.Review-63.1.jpg)
+    Back: |
+      (b) About $\text{8.5 in.}$ by $\text{2 in.}$
+      (c) $20/\sqrt{3}\text{ in.}$, $20\sqrt{2/3}\text{ in.}$
+    Annotations: ''
+  tags: []
+- id: 1547778138810
+  media:
+  - path: ${file_dir}/images/CCAC-04.Review-65.1.jpg
+  fields:
+    Front: >
+      CCAC 04.Review, Exercise 65: A light is to be placed atop a pole of height $h$
+      feet to illuminate a busy traffic circle, which has a radius of $\text{40 ft}$.
+      The intensity of illumination $I$ at any point $P$ on the circle is directly
+      proportional to the cosine of the angle $\theta$ (see the figure) and inversely
+      proportional to the square of the distance $d$ from the source.
+
+      (a) How tall should the light pole be to maximize $I$?
+
+      (b) Suppose that the light pole is $h$ feet tall and that a woman is walking
+      away from the base of the pole at a rate of $\text{4 ft/s}$. At what rate is
+      the intensity of the light at a point on her back $\text{4 ft}$ above the ground
+      decreasing when she reaches the outer edge of the traffic circle?
+
+      ![](CCAC-04.Review-65.1.jpg)
+    Back: |
+      (a) $20\sqrt{2} \approx \text{28 ft}$
+      (b) $\frac{dI}{dt} = \frac{-480k(h - 4)}{[(h - 4)^2 + 1600]^{5/2}}$, where $k$ is the constant of proportionality
+    Annotations: ''
+  tags: []

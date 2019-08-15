@@ -1,0 +1,576 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Calculus-ConceptsAndContexts
+  - CCAC-05-Integrals
+  - CCAC-05.03-EvaluatingDefiniteIntegrals
+  markdownTabLength: 2
+notes:
+- id: 1565655561669
+  fields:
+    Front: |
+      CCAC 05.03 00a: State the **Evaluation Theorem**.
+    Back: |
+      If $f$ is continuous on the interval $[a,b],$ then
+      $$$$
+      \int_{a}^{b} {f(x) \, dx} = F(b) - F(a)
+      $$$$
+      where $F$ is any antiderivative of $f$, that is, $F'=f.$
+    Annotations: ''
+  tags:
+  - Theory
+- id: 1565655561819
+  fields:
+    Front: |
+      CCAC 05.03 00b: Define **indefinite integral**.
+    Back: |
+      The notation $\int{f(x)\,dx}$ is traditionally used for an antiderivative of $f$ and is called an **indefinite integral**. Thus
+      $$$$
+      \int{f(x)\,dx} = F(x) \qquad \text{means} \qquad F'(x) = f(x).
+      $$$$
+      The connection between the definite and indefinite integral is given by the Evaluation Theorem: If $f$ is continuous on $[a,b]$, then
+      $$$$
+      \int_{a}^{b} {f(x) \, dx} = \left. \int {f(x) \, dx} \right]_{a}^{b}
+      $$$$
+    Annotations: ''
+  tags:
+  - Theory
+- id: 1565655561970
+  fields:
+    Front: |
+      CCAC 05.03 00c: State the **Net Change Theorem**.
+    Back: |
+      The integral of a rate of change is the net change:
+      $$$$
+      \int_{a}^{b} {F'(x) \, dx} = F(b) - F(a)
+      $$$$
+      This is simply a reformulation of the Evaluation Theorem.
+    Annotations: ''
+  tags:
+  - Theory
+- id: 1565655562079
+  fields:
+    Front: |
+      CCAC 05.03 01: Evaluate the integral.
+      $$$$
+      \int_{-2}^{3} {(x^2 - 3)\,dx}
+      $$$$
+    Back: |
+      $$$$
+      -\frac{10}{3}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1565655562180
+  fields:
+    Front: |
+      CCAC 05.03 03: Evaluate the integral.
+      $$$$
+      \int_{0}^{2} {(x^4 - \tfrac{3}{4}x^2 + \tfrac{2}{3}x - 1)\,dx}
+      $$$$
+    Back: |
+      $$$$
+      \frac{56}{15}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1565655562296
+  fields:
+    Front: |
+      CCAC 05.03 05: Evaluate the integral.
+      $$$$
+      \int_{0}^{1} {x^{4/5}\,dx}
+      $$$$
+    Back: |
+      $$$$
+      \frac{5}{9}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1565655562413
+  fields:
+    Front: |
+      CCAC 05.03 07: Evaluate the integral.
+      $$$$
+      \int_{-1}^{0} {(2x - e^x)\,dx}
+      $$$$
+    Back: |
+      $$$$
+      -2 + 1/e
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1565655562520
+  fields:
+    Front: |
+      CCAC 05.03 09: Evaluate the integral.
+      $$$$
+      \int_{1}^{2} {(1 + 2y)^2 \, dy}
+      $$$$
+    Back: |
+      $$$$
+      \frac{49}{3}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1565655562621
+  fields:
+    Front: |
+      CCAC 05.03 11: Evaluate the integral.
+      $$$$
+      \int_{1}^{9} {\frac{x - 1}{\sqrt{x}} \, dx}
+      $$$$
+    Back: |
+      $$$$
+      \frac{40}{3}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1565655562729
+  fields:
+    Front: |
+      CCAC 05.03 13: Evaluate the integral.
+      $$$$
+      \int_{0}^{1} {x(\sqrt[3]{x} + \sqrt[4]{x}) \, dx}
+      $$$$
+    Back: |
+      $$$$
+      \frac{55}{63}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1565655562847
+  fields:
+    Front: |
+      CCAC 05.03 15: Evaluate the integral.
+      $$$$
+      \int_{0}^{\pi/4} {\sec^2 t \, dt}
+      $$$$
+    Back: |
+      $$$$
+      1
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1565655562954
+  fields:
+    Front: |
+      CCAC 05.03 17: Evaluate the integral.
+      $$$$
+      \int_{1}^{9} {\frac{1}{2x} \, dx}
+      $$$$
+    Back: |
+      $$$$
+      \ln 3
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1565655563071
+  fields:
+    Front: |
+      CCAC 05.03 19: Evaluate the integral.
+      $$$$
+      \int_{1/2}^{\sqrt{3}/2} {\frac{6}{\sqrt{1 - t^2}} \, dt}
+      $$$$
+    Back: |
+      $$$$
+      \pi
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1565655563172
+  fields:
+    Front: |
+      CCAC 05.03 21: Evaluate the integral.
+      $$$$
+      \int_{-1}^{1} {e^{u+1} \, du}
+      $$$$
+    Back: |
+      $$$$
+      e^2 - 1
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1565655563273
+  fields:
+    Front: |
+      CCAC 05.03 23: Evaluate the integral.
+      $$$$
+      \int_{1}^{2} {\frac{v^3 + 3v^6}{v^4} \, dv}
+      $$$$
+    Back: |
+      $$$$
+      \ln 2 + 7
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1565655563396
+  fields:
+    Front: |
+      CCAC 05.03 25: Evaluate the integral.
+      $$$$
+      \int_{0}^{\pi/4} {\frac{1 + \cos^2\theta}{\cos^2\theta} \, d\theta}
+      $$$$
+    Back: |
+      $$$$
+      1 + \pi/4
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1565655563496
+  fields:
+    Front: |
+      CCAC 05.03 27: Evaluate the integral.
+      $$$$
+      \int_{0}^{1/\sqrt{3}} {\frac{t^2 - 1}{t^4-1} \, dt}
+      $$$$
+    Back: |
+      $$$$
+      \pi/6
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1565655563613
+  fields:
+    Front: |
+      CCAC 05.03 29: Evaluate the integral.
+      $$$$
+      \int_{-1}^{2} {(x - 2|x|) \, dx}
+      $$$$
+    Back: |
+      $$$$
+      -3.5
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1565655563721
+  fields:
+    Front: |
+      CCAC 05.03 31: What is wrong with the equation?
+      $$$$
+      \int_{-1}^{3} {\frac{1}{x^2} \, dx} = \left. \frac{x^{-1}}{-1} \right]_{-1}^{3} = -\frac{4}{3}
+      $$$$
+    Back: |
+      The function $f(x) = 1/x^2$ is not continuous on the interval $[-1, 3]$, so the Evaluation Theorem cannot be applied.
+    Annotations: ''
+  tags: []
+- id: 1565659406269
+  fields:
+    Front: |
+      CCAC 05.03 33: Use a graph to give a rough estimate of the area of the region that lies beneath the given curve. Then find the exact area.
+      $$$$
+      y = \sin x, \quad 0 \le x \le \pi
+      $$$$
+    Back: |
+      $$$$
+      2
+      $$$$
+    Annotations: ''
+  tags:
+  - requiresCoding
+- id: 1565659538569
+  fields:
+    Front: >
+      CCAC 05.03 35: Use a graph to estimate the $x$-intercepts of the curve $y =
+      1 - 2x - 5x^4$. Then use this information to estimate the area of the region
+      that lies under the curve and above the $x$-axis.
+    Back: |
+      $$$$
+      \approx 1.36
+      $$$$
+    Annotations: ''
+  tags:
+  - requiresCoding
+- id: 1565659668119
+  media:
+  - path: ${file_dir}/images/CCAC-05.03-37.1.jpg
+  fields:
+    Front: |
+      CCAC 05.03 37: Evaluate the integral and interpret it as a difference of areas. Illustrate with a sketch.
+      $$$$
+      \int_{-1}^{2} x^3 \, dx
+      $$$$
+    Back: |
+      3.75
+      ![](CCAC-05.03-37.1.jpg)
+    Annotations: ''
+  tags: []
+- id: 1565660060169
+  fields:
+    Front: |
+      CCAC 05.03 39: Verify by differentiation that the formula is correct.
+      $$$$
+      \int \cos^3 x \, dx = \sin x - \tfrac{1}{3}\sin^3 x + C
+      $$$$
+    Back: |
+      $$$$
+      \begin{align}
+      \frac{d}{dx}(\sin x - \tfrac{1}{3}\sin^3 x + C)
+      &= \cos x - \sin^2 x \cos x + 0 \\
+      &= \cos x (1 - \sin^2 x) \\
+      &= \cos x (\cos^2 x) \\
+      &= \cos^3 x \\
+      \end{align}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1565660236719
+  media:
+  - path: ${file_dir}/images/CCAC-05.03-41.1.jpg
+  fields:
+    Front: |
+      CCAC 05.03 41: Find the general indefinite integral. Illustrate by graphing several members of the family on the same screen.
+      $$$$
+      \int (\cos x + \tfrac{1}{2}x) \, dx
+      $$$$
+    Back: |
+      $\sin x + \tfrac{1}{4}x^2 + C$
+      ![](CCAC-05.03-41.1.jpg)
+    Annotations: ''
+  tags:
+  - requiresCoding
+- id: 1565660378144
+  fields:
+    Front: |
+      CCAC 05.03 43: Find the general indefinite integral.
+      $$$$
+      \int (1 - t)(2 + t^2) \, dt
+      $$$$
+    Back: |
+      $$$$
+      2t - t^2 + \tfrac{1}{3}t^3 - \tfrac{1}{4}t^4 + C
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1565660444195
+  fields:
+    Front: |
+      CCAC 05.03 45: Find the general indefinite integral.
+      $$$$
+      \int (1 + \tan^2 \alpha) \, d\alpha
+      $$$$
+    Back: |
+      $$$$
+      \tan \alpha + C
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1565660508870
+  fields:
+    Front: |
+      CCAC 05.03 47: Find the general indefinite integral.
+      $$$$
+      \int \frac{\sin x}{1 - \sin^2 x} \, dx
+      $$$$
+    Back: |
+      $$$$
+      \sec x + C
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1565660689220
+  media:
+  - path: ${file_dir}/images/CCAC-05.03-49.1.jpg
+  fields:
+    Front: >
+      CCAC 05.03 49: The area of the region that lies to the right of the $y$-axis
+      and to the left of the parabola $x = 2y - y^2$ (the shaded region in the figure)
+      is given by the integral $\int_0^2 (2y - y^2) \, dy$. (Turn your head clockwise
+      and think of the region as lying below the curve $x = 2y - y^2$ from $y = 0$
+      to $y = 2$.) Find the area of the region.
+
+      ![](CCAC-05.03-49.1.jpg)
+    Back: |
+      $\frac{4}{3}$
+    Annotations: ''
+  tags: []
+- id: 1565660819469
+  fields:
+    Front: |
+      CCAC 05.03 51: If $w'(t)$ is the rate of growth of a child in pounds per year, what does $\int_{5}^{10} w'(t) \, dt$ represent?
+    Back: |
+      The increase in the child's weight (in pounds) between the ages of 5 and 10.
+    Annotations: ''
+  tags: []
+- id: 1565660928144
+  fields:
+    Front: |
+      CCAC 05.03 53: If oil leaks from a tank at a rate of $r(t)$ gallons per minute at time $t$, what does $\int_{0}^{120} r(t) \, dt$ represent?
+    Back: |
+      The number of gallons of oil leaked in the first two hours.
+    Annotations: ''
+  tags: []
+- id: 1565661068745
+  fields:
+    Front: >
+      CCAC 05.03 55: In CCAC-04.06 we defined the marginal revenue function $R'(x)$
+      as the derivative of the revenue function $R(x)$, where $x$ is the number of
+      units sold. What does $\int_{1000}^{5000} R'(x) \, dx$ represent?
+    Back: |
+      The increase in revenue when production is increased from 1000 to 5000 units.
+    Annotations: ''
+  tags: []
+- id: 1565661218720
+  fields:
+    Front: |
+      CCAC 05.03 57: If $x$ is measured in meters and $f(x)$ is measured in newtons, what are the units for $\int_{0}^{100} f(x) \, dx$?
+    Back: |
+      Newton-meters.
+    Annotations: ''
+  tags: []
+- id: 1565661351169
+  fields:
+    Front: |
+      CCAC 05.03 59: The velocity function (in meters per second) is given for a particle moving along a line. Find (a) the displacement and (b) the distance traveled by the particle during the given time interval.
+      $$$$
+      v(t) = 3t - 5, \quad 0 \le t \le 3
+      $$$$
+    Back: |
+      (a) $-\tfrac{3}{2}$ m
+      (b) $\tfrac{41}{6}$ m
+    Annotations: ''
+  tags: []
+- id: 1565661658769
+  fields:
+    Front: |
+      CCAC 05.03 61: The acceleration function (in $\text{m}/\text{s}^2$) and the initial velocity are given for a particle moving along a line. Find (a) the velocity at time $t$ and (b) the distance traveled during the given time.
+      $$$$
+      a(t) = t + 4, \quad v(0) = 5, \quad 0 \le t \le 10
+      $$$$
+    Back: |
+      (a) $v(t) = \tfrac{1}{2}t^2 + 4t + 5$ m/s
+      (b) $416 \tfrac{2}{3}$ m
+    Annotations: ''
+  tags: []
+- id: 1565661826120
+  fields:
+    Front: >
+      CCAC 05.03 63: The linear density of a rod of length 4 m is given by $\rho(x)
+      = 9 + 2\sqrt{x}$ measured in kilograms per meter, where $x$ is measured in meters
+      from one end of the rod. Find the total mass of the rod.
+    Back: |
+      $46 \tfrac{2}{3}$ kg
+    Annotations: ''
+  tags: []
+- id: 1565662018044
+  fields:
+    Front: |
+      CCAC 05.03 65: The velocity of a car was read from its speedometer at 10-second intervals and recorded in the table. Use the Midpoint Rule to estimate the distance traveled by the car.
+      $$$$
+      \begin{array}{|c|c|}
+        \hline
+        \text{$t$ (s)} & \text{$v$ (mi/h)} \\
+        \hline
+        0 & 0 \\
+        10 & 38 \\
+        20 & 52 \\
+        30 & 58 \\
+        40 & 55 \\
+        50 & 51 \\
+        60 & 56 \\
+        70 & 53 \\
+        80 & 50 \\
+        90 & 47 \\
+        100 & 45 \\
+        \hline
+      \end{array}
+      $$$$
+    Back: |
+      1.4 mi
+    Annotations: ''
+  tags: []
+- id: 1565662413644
+  useMarkdownMathExt: false
+  fields:
+    Front: >
+      CCAC 05.03 67: The marginal cost of manufacturing \\(x\\) yards of a certain
+      fabric is \\(C'(x) = 3 - 0.01x + 0.000006x^2\\) (in dollars per yard). Find
+      the increase in cost if the production level is raised from 2000 yards to 4000
+      yards.
+    Back: |
+      $58,000
+    Annotations: ''
+  tags: []
+- id: 1565663068794
+  media:
+  - path: ${file_dir}/images/CCAC-05.03-69.1.jpg
+  fields:
+    Front: >
+      CCAC 05.03 69: Economists use a cumulative distribution called a _Lorenz curve_
+      to describe the distribution of income between households in a given country.
+      Typically, a Lorenz curve is defined on $[0,1]$ with endpoints $(0,0)$ and $(1,1)$,
+      and is continuous, increasing, and concave upward. The points on this curve
+      are determined by ranking all households by income and then computing the percentage
+      of households whose income is less than or equal to a given percentage of the
+      total income of the country. For example, the point $(a/100,b/100)$ is on the
+      Lorenz curve if the bottom $a$% of the households receive less than or equal
+      to $b$% of the total income. _Absolute equality_ of income distribution would
+      occur if the bottom $a$% of the households receive $a$% of the income, in which
+      case the Lorenz curve would be the line $y = x$.  The area between the Lorenz
+      curve and the line $y = x$ measures how much the income distribution differs
+      from absolute equality. The _coefficient of inequality_ is the ratio of the
+      area between the Lorenz curve and the line $y = x$ to the area under $y = x$.
+
+      ![](CCAC-05.03-69.1.jpg)
+
+      (a) Show that the coefficient of inequality is twice the area between the Lorenz
+      curve and the line $y = x$, that is, show that
+
+      $$$$
+
+      \text{coefficient of inequality} = 2\int_0^1 [x - L(x)] \, dx
+
+      $$$$
+
+      (b) The income distribution of a certain country is represented by the Lorenz
+      curve defined by the equation
+
+      $$$$
+
+      L(x) = \tfrac{5}{12}x^2 + \tfrac{7}{12}x
+
+      $$$$
+
+      What is the percentage of total income received by the bottom 50% of the households?
+      Find the coefficient of inequality.
+    Back: |
+      (b) At most 40%; $\tfrac{5}{36}$.
+    Annotations: ''
+  tags: []
+- id: 1565663375194
+  fields:
+    Front: |
+      CCAC 05.03 71:
+      (a) Show that $1 \le \sqrt{1 + x^3} \le 1 + x^3$ for $x \ge 0$.
+      (b) Show that $1 \le \int_0^1 \sqrt{1 + x^3} \, dx \le 1.25$.
+    Back: |
+      (To-do: write these proofs.)
+    Annotations: ''
+  tags: []
+- id: 1565663560344
+  fields:
+    Front: >
+      CCAC 05.03 73: Suppose $h$ is a function such that $h(1) = -2$, $h'(1) = 2$,
+      $h''(1) = 3$, $h(2) = 6$, $h'(2) = 5$, $h''(2) = 13$, and $h''$ is continuous
+      everywhere. Evaluate $\int_1^2 h''(u) \, du$.
+    Back: |
+      3.
+    Annotations: ''
+  tags: []
+- id: 1565663690169
+  fields:
+    Front: |
+      CCAC 05.03 75: Evaluate the limit by first recognizing the sum as a Riemann sum for a function defined on $[0,1]$.
+      $$$$
+      \lim_{n\to \infty} \sum_{i=1}^n \frac{i^3}{n^4}
+      $$$$
+    Back: |
+      $$$$
+      \tfrac{1}{4}
+      $$$$
+    Annotations: ''
+  tags: []

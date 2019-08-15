@@ -1,0 +1,451 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Calculus-ConceptsAndContexts
+  - CCAC-05-Integrals
+  - CCAC-05.02-TheDefiniteIntegral
+  markdownTabLength: 2
+notes:
+- id: 1565655187222
+  fields:
+    Front: |
+      CCAC 05.02 00a: State the definition of the **Riemann sum** and the **definite Riemann integral of $f$ from $a$ to $b$**.
+    Back: |
+      If $f$ is a function defined for $a \le x \le b$, we divide the interval $[a,b]$ into $n$ subintervals of equal width $\Delta x = (b-a)/n$. We let $x_0(=a),x_1,x_2,\ldots,x_n(=b)$ be the endpoints of the subintervals and we let $x_1^*,x_2^*,\ldots,x_n^*$ be any **sample points** in these subintervals, so $x_i^*$ lies in the $i\text{th}$ subinterval $[x_{i-1},x_i]$. The the **definite Riemann integral of $f$ from $a$ to $b$** is
+      $$$$
+      \int_{a}^{b} {f(x) \, dx} = \lim_{n\to \infty} \sum_{i=1}^{n} {f(x_i^*) \, \Delta
+      x}
+      $$$$
+      provided that this limit exists. If it does exist, we say that $f$ is **Riemann integrable** on $[a,b]$.
+      The sum
+      $$$$
+      \sum_{i=1}^{n} {f(x_i^*) \, \Delta x}
+      $$$$
+      that occurs in this definition is called a **Riemann sum** after the German mathematician Bernhard Riemann (1826-1866).
+    Annotations: ''
+  tags:
+  - Theory
+- id: 1565655187369
+  fields:
+    Front: |
+      CCAC 05.02 00b: State the **Continuity Integrability Criterion**.
+    Back: >
+      If $f$ is continuous on $[a,b]$, or if $f$ has only a finite number of jump
+      discontinuities, then $f$ is Riemann integrable on $[a,b]$; that is, the definite
+      integral $\int_a^b {f(x) \, dx}$ exists.
+    Annotations: ''
+  tags:
+  - Theory
+- id: 1565655187499
+  fields:
+    Front: |
+      CCAC 05.02 00c: State the **Midpoint Rule**.
+    Back: |
+      $$$$
+      \int_{a}^{b} {f(x) \, dx} \approx \sum_{i=1}^{n} {f(\bar{x_i}) \, \Delta x} = \Delta x [f(\bar{x_1}) + \cdots + f(\bar{x_n})]
+      $$$$
+      where
+      $$$$
+      \Delta x = \frac{b-a}{n}
+      $$$$
+      and where
+      $$$$
+      \bar{x_i} = \tfrac{1}{2}(x_{i-1} + x_i)
+      $$$$
+      is the midpoint of $[x_{i-1},x_i]$.
+    Annotations: ''
+  tags:
+  - Theory
+- id: 1565655187644
+  fields:
+    Front: |
+      CCAC 05.02 00d: State six basic properties of the Riemann integral.
+    Back: |
+      1. $\int_a^b f(x)\,dx = -\int_b^a f(x)\,dx$
+      2. $\int_a^a f(x)\,dx = 0$
+      3. $\int_a^b c\,dx = c(b-a)$
+      4. $\int_a^b [f(x) + g(x)]\,dx = \int_a^b f(x)\,dx + \int_a^b g(x)\,dx$
+      5. $\int_a^b cf(x)\,dx = c\int_a^b f(x)\,dx,$ where $c$ is any constant
+      6. $\int_a^b [f(x) - g(x)]\,dx = \int_a^b f(x)\,dx - \int_a^b g(x)\,dx$
+    Annotations: ''
+  tags:
+  - Theory
+- id: 1565655187821
+  fields:
+    Front: |
+      CCAC 05.02 00e: State three comparison properties of the Riemann integral.
+    Back: |
+      1. If $f(x) \ge 0$ for $a \le x \le b,$ then $\int_a^b f(x)\,dx \ge 0$.
+      2. If $f(x) \ge g(x)$ for $a \le x \le b,$ then $\int_a^b f(x)\,dx \ge \int_a^b g(x)\,dx$.
+      3. If $m \le f(x) \le M$ for $a \le x \le b,$ then
+      $$$$
+      m(b-a) \le \int_a^b f(x)\,dx \le M(b-a)
+      $$$$
+    Annotations: ''
+  tags:
+  - Editing
+  - Theory
+- id: 1565655188194
+  media:
+  - path: ${file_dir}/images/CCAC-05.02-01.1.jpg
+  fields:
+    Front: >
+      CCAC 05.02 01: Evaluate the Riemann sum for $f(x) = 3 - \frac{1}{2}x$, $2 \le
+      x \le 14$, with six subintervals, taking the sample points to be the left endpoints.
+      Explain, with the aid of a diagram, what the Riemann sum represents.
+    Back: |
+      -6
+      The Riemann sum represents the sum of the areas of the two rectangles above the $x-\text{axis}$ minus the sum of the areas of the three rectangles below the $x-\text{axis}$; that is, the net area of the rectangles with respect to the $x-\text{axis}$.
+      ![](CCAC-05.02-01.1.jpg)
+    Annotations: ''
+  tags: []
+- id: 1565655188419
+  media:
+  - path: ${file_dir}/images/CCAC-05.02-03.1.jpg
+  fields:
+    Front: >
+      CCAC 05.02 03: If $f(x) = e^x - 2$, $0 \le x \le 2$, find the Riemann sum with
+      $n = 4$ correct to six decimal places, taking the sample points to be midpoints.
+      What does the Riemann sum represent? Illustrate with a diagram.
+    Back: |
+      2.322986
+      The Riemann sum represents the sum of the areas of the three rectangles above the $x-\text{axis}$ minus the area of the rectangle below the $x-\text{axis}$.
+      ![](CCAC-05.02-03.1.jpg)
+    Annotations: ''
+  tags: []
+- id: 1565655188568
+  media:
+  - path: ${file_dir}/images/CCAC-05.02-05.1.jpg
+  fields:
+    Front: |
+      CCAC 05.02 05: The graph of a function $f$ is given. Estimate $\int_{0}^{8} f(x) dx$ using four subintervals with (a) right endpoints, (b) left endpoints, and (c) midpoints.
+      ![](CCAC-05.02-05.1.jpg)
+    Back: |
+      (a) 4
+      (b) 6
+      (c) 10
+    Annotations: ''
+  tags: []
+- id: 1565655188719
+  fields:
+    Front: |
+      CCAC 05.02 07: A table of values of an increasing function $f$ is shown. Use the table to find lower and upper estimates for $\int_{10}^{30} f(x) dx$.
+
+      $$$$
+      \begin{array}{|c|c|c|c|c|c|c|}
+        \hline
+        x & 10 & 14 & 18 & 22 & 26 & 30 \\
+        \hline
+        f(x) & -12 & -6 & -2 & 1 & 3 & 8 \\
+        \hline
+      \end{array}
+      $$$$
+    Back: |
+      Lower, $L_5 = -64$; upper, $R_5 = 16$
+    Annotations: ''
+  tags: []
+- id: 1565655188849
+  fields:
+    Front: |
+      CCAC 05.02 09: Use the Midpoint Rule with the given value of $n$ to approximate the integral. Round the answer to four decimal places.
+
+      $$$$
+      \int_{2}^{10} \sqrt{x^3 + 1} dx, \quad n = 4
+      $$$$
+    Back: |
+      124.1644
+    Annotations: ''
+  tags: []
+- id: 1565655188999
+  fields:
+    Front: |
+      CCAC 05.02 11: Use the Midpoint Rule with the given value of $n$ to approximate the integral. Round the answer to four decimal places.
+
+      $$$$
+      \int_{0}^{1} \sin(x^2) dx, \quad n = 5
+      $$$$
+    Back: |
+      0.3084
+    Annotations: ''
+  tags: []
+- id: 1565655189122
+  fields:
+    Front: >
+      CCAC 05.02 13: If you have a CAS that evaluates midpoint approximations and
+      graphs the corresponding rectangles (use `middlesum` and `middlebox` commands
+      in Maple), check the answer to exercise CCAC 05.02 11 and illustrate with a
+      graph. Then repeat with $n = 10$ and $n = 20$.
+    Back: |
+      0.030843908, 0.30981629, 0.31015563
+    Annotations: ''
+  tags:
+  - requiresCoding
+- id: 1565655189250
+  fields:
+    Front: >
+      CCAC 05.02 15: Use a calculuator or computer to make a table of values of right
+      Riemann sums $R_n$ for the integral $\int_{0}^{\pi} \sin x dx$ with $n=$ 5,
+      10, 50, and 100. What value doe these numbers appear to be approaching?
+    Back: |
+      $$$$
+      \begin{array}{|c|c|}
+      \hline
+      n & R_n \\
+      \hline
+      5 & 1.933766 \\
+      10 & 1.983524 \\
+      50 & 1.999342 \\
+      100 & 1.999836 \\
+      \hline
+      \end{array}
+      $$$$
+
+      The values of $R_n$ appear to be approaching 2.
+    Annotations: ''
+  tags:
+  - requiresCoding
+- id: 1565655189416
+  fields:
+    Front: |
+      CCAC 05.02 17: Express the limit as a definite integral on the given interval.
+      $$$$
+      \lim_{n\to\infty} \sum_{i=1}^{n} x_i \ln(1 + x_i^2) \Delta x, \quad [2, 6]
+      $$$$
+    Back: |
+      $$$$
+      \int_{2}^{6} x \ln(1 + x^2) dx
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1565655189532
+  fields:
+    Front: |
+      CCAC 05.02 19: Express the limit as a definite integral on the given interval.
+      $$$$
+      \lim_{n\to\infty} \sum_{i=1}^{n} \sqrt{2x_i^* + (x_i^*)^2} \Delta x, \quad [1, 8]
+      $$$$
+    Back: |
+      $$$$
+      \int_{1}^{8} x \sqrt{2x + x^2} dx
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1565655189676
+  fields:
+    Front: |
+      CCAC 05.02 21: Use the form of the definition of the  integral given in CCAC-05.02 Theorem 4 to evaluate the integral.
+      $$$$
+      \int_{-1}^{5} (1 + 3x) dx
+      $$$$
+    Back: |
+      42
+    Annotations: ''
+  tags: []
+- id: 1565655189832
+  fields:
+    Front: |
+      CCAC 05.02 23: Use the form of the definition of the  integral given in CCAC-05.02 Theorem 4 to evaluate the integral.
+      $$$$
+      \int_{0}^{2} (2 - x^2) dx
+      $$$$
+    Back: |
+      $\frac{4}{3}$
+    Annotations: ''
+  tags: []
+- id: 1565655189984
+  fields:
+    Front: |
+      CCAC 05.02 25: Use the form of the definition of the  integral given in CCAC-05.02 Theorem 4 to evaluate the integral.
+      $$$$
+      \int_{1}^{2} x^3 dx
+      $$$$
+    Back: |
+      3.75
+    Annotations: ''
+  tags: []
+- id: 1565655190133
+  fields:
+    Front: |
+      CCAC 05.02 27: Express the integral as a limit of Riemann sums. Do not evaluate the limit.
+      $$$$
+      \int_{2}^{6} \frac{x}{1 + x^5} dx
+      $$$$
+    Back: |
+      $$$$
+      \lim_{n\to\infty} \sum_{i=1}^{n} \frac{2 + 4i/n}{1 + (2 + 4i/n)^5} \cdot \frac{4}{n}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1565655190233
+  fields:
+    Front: |
+      CCAC 05.02 29: Express the integral as a limit of sums. Then evaluate, using a computer algebra system to find both the sum and the limit.
+      $$$$
+      \int_{0}^{\pi} \sin(5x) dx
+      $$$$
+    Back: |
+      $$$$
+      \lim_{n\to\infty} \sum_{i=1}^{n} \left( \sin\frac{5 \pi i}{n} \right) \frac{\pi}{n} = \frac{2}{5}
+      $$$$
+    Annotations: ''
+  tags:
+  - requiresCoding
+- id: 1565655190319
+  media:
+  - path: ${file_dir}/images/CCAC-05.02-31.1.jpg
+  fields:
+    Front: |
+      CCAC 05.02 31: The graph of $f$ is shown. Evaluate each integral by interpreting it in terms of areas.
+      (a) $\int_{0}^{2} f(x) dx$
+      (b) $\int_{0}^{5} f(x) dx$
+      (c) $\int_{5}^{7} f(x) dx$
+      (d) $\int_{0}^{9} f(x) dx$
+
+      ![](CCAC-05.02-31.1.jpg)
+    Back: |
+      (a) 4
+      (b) 10
+      (c) -3
+      (d) 2
+    Annotations: ''
+  tags: []
+- id: 1565655190469
+  fields:
+    Front: |
+      CCAC 05.02 33: Evaluate the integral by interpreting it in terms of areas.
+      $$$$
+      \int_{0}^{3} \left( \frac{1}{2}x - 1 \right) dx
+      $$$$
+    Back: |
+      $-\frac{3}{4}$
+    Annotations: ''
+  tags: []
+- id: 1565655190584
+  fields:
+    Front: |
+      CCAC 05.02 35: Evaluate the integral by interpreting it in terms of areas.
+      $$$$
+      \int_{-3}^{0} \left( 1+\sqrt{9 - x^2} \right) dx
+      $$$$
+    Back: |
+      $3 + \frac{9}{4}\pi$
+    Annotations: ''
+  tags: []
+- id: 1565655190732
+  fields:
+    Front: |
+      CCAC 05.02 37: Evaluate the integral by interpreting it in terms of areas.
+      $$$$
+      \int_{-1}^{2} |x| dx
+      $$$$
+    Back: |
+      2.5
+    Annotations: ''
+  tags: []
+- id: 1565655190837
+  fields:
+    Front: |
+      CCAC 05.02 39: Evaluate $\int_{\pi}^{\pi} \sin^2(x)\cos^4(x) dx$.
+    Back: |
+      0
+    Annotations: ''
+  tags: []
+- id: 1565655190950
+  fields:
+    Front: |
+      CCAC 05.02 41: Write as a single integral in the form $\int_a^b f(x) dx$:
+      $$$$
+      \int_{-2}^{2} f(x) dx + \int_{2}^{5} f(x) dx - \int_{-2}^{-1} f(x) dx
+      $$$$
+    Back: |
+      $$$$
+      \int_{-1}^{5} f(x) dx
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1565655191066
+  fields:
+    Front: |
+      CCAC 05.02 43: If $\int_{0}^{9} f(x) dx = 37$ and $\int_{0}^{9} g(x) dx = 16$, find $\int_{0}^{9}[2f(x) + 3g(x)] dx$.
+    Back: |
+      122
+    Annotations: ''
+  tags: []
+- id: 1565655191183
+  fields:
+    Front: |
+      CCAC 05.02 45: Use the result of CCAC-05.02 Example 3 to evaluate $\int_{1}^{3} e^{x+2} dx$.
+    Back: |
+      $e^5 - e^3$
+    Annotations: ''
+  tags: []
+- id: 1565655191333
+  media:
+  - path: ${file_dir}/images/CCAC-05.02-47.1.jpg
+  fields:
+    Front: |
+      CCAC 05.02 47: For the function $f$ whose graph is shown, list the following quantities in increasing order, from smallest to largest, and explain your reasoning.
+      (A) $\int_{0}^{8} f(x) dx$
+      (B) $\int_{0}^{3} f(x) dx$
+      (C) $\int_{3}^{8} f(x) dx$
+      (D) $\int_{4}^{8} f(x) dx$
+      (E) $f'(1)$
+      ![](CCAC-05.02-47.1.jpg)
+    Back: |
+      B < E < A < D < C
+    Annotations: ''
+  tags: []
+- id: 1565655191513
+  media:
+  - path: ${file_dir}/images/CCAC-05.02-49.1.jpg
+  fields:
+    Front: |
+      CCAC 05.02 49: Each of the regions $A$, $B$, and $C$ bounded by the graph of $f$ and the $x-$axis has area 3. Find the value of
+      $$$$
+      \int_{-4}^{2} [f(x) + 2x + 5] dx
+      $$$$
+      ![](CCAC-05.02-49.1.jpg)
+    Back: |
+      15
+    Annotations: ''
+  tags: []
+- id: 1565655191668
+  fields:
+    Front: |
+      CCAC 05.02 51: Use the properties of integrals to verify that
+      $$$$
+      2 \le \int_{-1}^{1} \sqrt{1 + x^2} dx \le 2\sqrt{2}
+      $$$$
+    Back: |
+      (The book provides no answer; this is a proof.)
+    Annotations: ''
+  tags:
+  - proof
+- id: 1565655191852
+  fields:
+    Front: |
+      CCAC 05.02 53: Express the limit as a definite integral.
+      $$$$
+      \lim_{n\to\infty} \sum_{i=i}^{n} \frac{i^4}{n^5}
+      $$$$
+      [_Hint_: Consider $f(x) = x^4$.]
+    Back: |
+      $$$$
+      \int_{0}^{1} x^4 dx
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1565655191982
+  fields:
+    Front: >
+      CCAC 05.02 55: Let $f(x) = 0$ if $x$ is any rational number and $f(x) = 1$ if
+      $x$ is any irrational number. Show that $f$ is not integrable on $[0,1]$.
+    Back: |
+      (The book provides no answer; this is a proof.)
+    Annotations: ''
+  tags:
+  - proof

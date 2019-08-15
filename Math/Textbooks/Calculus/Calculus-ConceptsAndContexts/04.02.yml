@@ -1,0 +1,551 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Calculus-ConceptsAndContexts
+  - CCAC-04-ApplicationsOfDifferentiation
+  - CCAC-04.02-MaximumAndMinimumValues
+  markdownTabLength: 2
+notes:
+- id: 1547778100587
+  fields:
+    Front: |
+      CCAC 04.02 00a: Define the **absolute minimum** and **absolute maximum** of a function $f$.
+    Back: |
+      Let $c$ be a number in the domain $D$ of $f$. Then $f(c)$ is the:
+
+      - **absolute minimum** value of $f$ on $D$ if $f(c) \le f(x)$ for all $x \in D$;
+      - **absolute maximum** value of $f$ on $D$ if $f(c) \ge f(x)$ for all $x \in D$.
+    Annotations: ''
+  tags:
+  - Theory
+- id: 1547778100763
+  fields:
+    Front: |
+      CCAC 04.02 00b: Define **local minima** and **local maxima** of a function $f$.
+    Back: |
+      $f(c)$ is a:
+
+      - **local minimum** value of $f$ if $f(c) \le f(x)$ when $x$ is near $c$.
+      - **local maximum** value of $f$ if $f(c) \ge f(x)$ when $x$ is near $c$.
+
+      Note: the term "near" requires that $f$ be defined on an open neighborhood of $c$. This means that if the domain of $f$ is $[a,b]$ then $f(a)$ cannot be a local min/max (nor $f(b)$).
+    Annotations: ''
+  tags:
+  - Theory
+- id: 1547778100913
+  fields:
+    Front: |
+      CCAC 04.02 00c: State **The Extreme Value Theorem**.
+    Back: >
+      If $f$ is continuous on a closed interval $[a, b]$, then $f$ attains an absolute
+      maximum value $f(c)$ and an absolute minimum value $f(d)$ at some numbers $c,
+      d \in [a,b]$.
+    Annotations: ''
+  tags:
+  - Theory
+- id: 1547778101089
+  fields:
+    Front: |
+      CCAC 04.02 00d: State **Fermat's Theorem**.
+    Back: |
+      If $f$ has a local maximum or minimum at $c$, and if $f'(c)$ exists, then $f'(c) = 0$.
+    Annotations: ''
+  tags:
+  - Theory
+- id: 1547778101229
+  fields:
+    Front: |
+      CCAC 04.02 00e: Define **critical numbers** of a function $f$.
+    Back: |
+      A **critical number** of $f$ is a number $c$ in the domain of $f$ such that either $f'(c) = 0$ or $f'(c)$ does not exist.
+    Annotations: ''
+  tags:
+  - Theory
+- id: 1547778101388
+  fields:
+    Front: |
+      CCAC 04.02 00f: Describe **The Closed Interval Method**.
+    Back: |
+      To find the _absolute_ maximum and minimum values of a continuous function $f$ on a closed interval $[a,b]$:
+      (1) Find the values of $f$ at the critical numbers of $f$ in $(a,b)$.
+      (2) Find the values of $f$ at the endpoints $a$ and $b$.
+      (3) The largest of the values from (1) and (2) is the absolute maximum; the smallest is the absolute minimum.
+    Annotations: ''
+  tags:
+  - Theory
+- id: 1547778101549
+  fields:
+    Front: |
+      CCAC 04.02 01: Explain the difference between an absolute minimum and a local minimum.
+    Back: |
+      Absolute minimum: smallest function value on the entire domain of the function.
+      Local minimum at $c$: smallest function value when $x$ is near $c$.
+    Annotations: ''
+  tags: []
+- id: 1547778101714
+  media:
+  - path: ${file_dir}/images/CCAC-04.02-03.1.jpg
+  fields:
+    Front: >
+      CCAC 04.02 03: At each of the numbers $a$, $b$, $c$, $d$, $r$, and $s$, state
+      whether the function whose graph is shown has an absolute max or min, local
+      max or min, or neither max nor min.
+
+      ![](CCAC-04.02-03.1.jpg)
+    Back: |
+      Absolute max at $s$, absolute min at $r$, local max at $c$, local min at $b$ and $r$.
+    Annotations: 'Questions:<div>190116: The book''s answer states \(f(r)\) is both
+      a local and absolute min, whereas \(f(s)\) is an absolute max but <i>not</i>&nbsp;a
+      local max. The book seems to allows function values at endpoints in the definition
+      of absolute max/min, but not in the definition of local max/min. Perhaps the
+      term "near" requires that \(f\) be defined on an open neighborhood of \(c\)
+      for \(f(c)\) to be a local max/min.</div>'
+  tags:
+  - ann:questions
+- id: 1547778101923
+  media:
+  - path: ${file_dir}/images/CCAC-04.02-05.1.jpg
+  fields:
+    Front: |
+      CCAC 04.02 05: Use the graph to state the absolute and local max and min values of the function.
+      ![](CCAC-04.02-05.1.jpg)
+    Back: |
+      Absolute max $f(4) = 5$
+      Local max $f(4) = 5$ and $f(6) = 4$
+      Local min $f(2) = 2$ and $f(1) = f(5) = 3$
+    Annotations: 'Questions:<div>190116: Here \(f(0) = 2\) is not considered a local
+      min. This is consistent with problem CCAC 04.02 01, where the absolute max at
+      \(s\) is not considered a local max. 0 is an interval endpoint in this problem,
+      and \(s\) is an interval endpoint in CCAC 04.02 01. The book allows function
+      values at endpoints in the definition of absolute max/min, but not in the definition
+      of local max/min. Perhaps the term "near" requires that \(f\) be defined on
+      an open neighborhood of \(c\) for \(f(c)\) to be a local max/min.</div>'
+  tags:
+  - ann:questions
+- id: 1547778102113
+  media:
+  - path: ${file_dir}/images/CCAC-04.02-07.1.jpg
+  fields:
+    Front: |
+      CCAC 04.02 07: Sketch the graph of a function $f$ that is continuous on $[1,5]$ and has the given properties:
+      Absolute min at 2.
+      Absolute max at 3.
+      Local min at 4.
+    Back: |
+      ![](CCAC-04.02-07.1.jpg)
+    Annotations: ''
+  tags: []
+- id: 1547778102271
+  media:
+  - path: ${file_dir}/images/CCAC-04.02-09.1.jpg
+  fields:
+    Front: |
+      CCAC 04.02 09: Sketch the graph of a function $f$ that is continuous on $[1,5]$ and has the given properties:
+      Absolute max at 5.
+      Absolute min at 2.
+      local max at 3.
+      local mins at 2 and 4.
+    Back: |
+      ![](CCAC-04.02-09.1.jpg)
+    Annotations: ''
+  tags: []
+- id: 1547778102463
+  media:
+  - path: ${file_dir}/images/CCAC-04.02-11.1.jpg
+  - path: ${file_dir}/images/CCAC-04.02-11.2.jpg
+  - path: ${file_dir}/images/CCAC-04.02-11.3.jpg
+  fields:
+    Front: |
+      CCAC 04.02 11:
+      (a) Sketch the graph of a function that has a local max at 2 and is differentiable at 2.
+      (b) Sketch the graph of a function that has a local max at 2 and is continuous byt not differentiable at 2.
+      (c) Sketch the graph of a function that has a local max at 2 and is not continuous at 2.
+    Back: |
+      (a)
+      ![](CCAC-04.02-11.1.jpg)
+      (b)
+      ![](CCAC-04.02-11.2.jpg)
+      (c)
+      ![](CCAC-04.02-11.3.jpg)
+    Annotations: ''
+  tags: []
+- id: 1547778102713
+  media:
+  - path: ${file_dir}/images/CCAC-04.02-13.1.jpg
+  - path: ${file_dir}/images/CCAC-04.02-13.2.jpg
+  fields:
+    Front: |
+      CCAC 04.02 13:
+      (a) Sketch the graph of a function on $[-1, 2]$ that has an absolute max but not absolute min.
+      (b) Sketch the graph of a function on $[-1, 2]$ that is discontinuous but has both an absolute max and absolute min.
+    Back: |
+      (a)
+      ![](CCAC-04.02-13.1.jpg)
+      (b)
+      ![](CCAC-04.02-13.2.jpg)
+    Annotations: ''
+  tags: []
+- id: 1547778102916
+  fields:
+    Front: |
+      CCAC 04.02 15: Sketch the graph of $f$ by hand and use your sketch to find the absolute and local max and min values of $f$. (Use the graphs and transformations of CCAC-1.2 and -1.3.)
+      $$$$
+      f(x) = \frac{1}{2}(3x - 1), \quad x \le 3
+      $$$$
+    Back: |
+      Absolute max $f(3) = 4$.
+    Annotations: ''
+  tags: []
+- id: 1547778103050
+  fields:
+    Front: |
+      CCAC 04.02 17: Sketch the graph of $f$ by hand and use your sketch to find the absolute and local max and min values of $f$. (Use the graphs and transformations of CCAC-1.2 and -1.3.)
+      $$$$
+      f(x) = x^2, \quad 0 < x < 2
+      $$$$
+    Back: |
+      None.
+    Annotations: ''
+  tags: []
+- id: 1547778103184
+  fields:
+    Front: |
+      CCAC 04.02 19: Sketch the graph of $f$ by hand and use your sketch to find the absolute and local max and min values of $f$. (Use the graphs and transformations of CCAC-1.2 and -1.3.)
+      $$$$
+      f(x) = \ln x, \quad 0 < x \le 2
+      $$$$
+    Back: |
+      Absolute max $f(2) = \ln 2$.
+    Annotations: ''
+  tags: []
+- id: 1547778103321
+  fields:
+    Front: |
+      CCAC 04.02 21: Sketch the graph of $f$ by hand and use your sketch to find the absolute and local max and min values of $f$. (Use the graphs and transformations of CCAC-1.2 and -1.3.)
+      $$$$
+      f(x) = 1 - \sqrt{x}
+      $$$$
+    Back: |
+      Absolute max $f(0) = 1$.
+    Annotations: ''
+  tags: []
+- id: 1547778103447
+  fields:
+    Front: |
+      CCAC 04.02 23: Find the critical numbers of the function.
+      $$$$
+      f(x) = 4 + \frac{1}{3}x - \frac{1}{2}x^2
+      $$$$
+    Back: |
+      $$$$
+      \frac{1}{3}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547778103590
+  fields:
+    Front: |
+      CCAC 04.02 25: Find the critical numbers of the function.
+      $$$$
+      f(x) = x^3 + 3x^2 - 24x
+      $$$$
+    Back: |
+      $$$$
+      -4, 2
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547778103716
+  fields:
+    Front: |
+      CCAC 04.02 27: Find the critical numbers of the function.
+      $$$$
+      s(t) = 3t^4 + 4t^3 - 6t^2
+      $$$$
+    Back: |
+      $$$$
+      0, \frac{1}{2}(-1 \pm \sqrt{5})
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547778103853
+  fields:
+    Front: |
+      CCAC 04.02 29: Find the critical numbers of the function.
+      $$$$
+      g(y) = \frac{y - 1}{y^2 - y + 1}
+      $$$$
+    Back: |
+      $$$$
+      0, 2
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547778103990
+  fields:
+    Front: |
+      CCAC 04.02 31: Find the critical numbers of the function.
+      $$$$
+      h(t) = t^{3/4} - 2t^{1/4}
+      $$$$
+    Back: |
+      $$$$
+      0, \frac{4}{9}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547778104144
+  fields:
+    Front: |
+      CCAC 04.02 33: Find the critical numbers of the function.
+      $$$$
+      F(x) = x^{4/5}(x - 4)^2
+      $$$$
+    Back: |
+      $$$$
+      0, \frac{8}{7}, 4
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547778104288
+  fields:
+    Front: |
+      CCAC 04.02 35: Find the critical numbers of the function.
+      $$$$
+      f(\theta) = 2 \cos \theta + \sin^2 \theta
+      $$$$
+    Back: |
+      $$$$
+      n\pi\text{ ($n$ an integer)}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547778104432
+  fields:
+    Front: |
+      CCAC 04.02 37: Find the critical numbers of the function.
+      $$$$
+      f(x) = x^2 e^{-3x}
+      $$$$
+    Back: |
+      $$$$
+      0, \frac{2}{3}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547778104580
+  fields:
+    Front: |
+      CCAC 04.02 39: A formula for the _derivative_ of a function $f$ is given. How many critical numbers does $f$ have?
+      $$$$
+      f'(x) = 5e^{-0.1|x|} \sin x - 1
+      $$$$
+    Back: |
+      $$$$
+      10
+      $$$$
+    Annotations: ''
+  tags:
+  - requiresCoding
+- id: 1547778104715
+  fields:
+    Front: |
+      CCAC 04.02 41: Find the absolute max and absolute min values of $f$ on the given interval.
+      $$$$
+      f(x) = 12 + 4x - x^2, \quad [0, 5]
+      $$$$
+    Back: |
+      $$$$
+      f(2) = 16, \quad f(5) = 7
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547778104864
+  fields:
+    Front: |
+      CCAC 04.02 43: Find the absolute max and absolute min values of $f$ on the given interval.
+      $$$$
+      f(x) = 2x^3 - 3x^2 - 12x + 1, \quad [-2, 3]
+      $$$$
+    Back: |
+      $$$$
+      f(-1) = 8, \quad f(2) = -19
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547778105008
+  fields:
+    Front: |
+      CCAC 04.02 45: Find the absolute max and absolute min values of $f$ on the given interval.
+      $$$$
+      f(x) = x^4 - 2x^2 + 3, \quad [-2, 3]
+      $$$$
+    Back: |
+      $$$$
+      f(3) = 66, \quad f(\pm 1) = 2
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547778105144
+  fields:
+    Front: |
+      CCAC 04.02 47: Find the absolute max and absolute min values of $f$ on the given interval.
+      $$$$
+      f(t) = t\sqrt{4 - t^2}, \quad [-1, 2]
+      $$$$
+    Back: |
+      $$$$
+      f(\sqrt{2}) = 2, \quad f(-1) = -\sqrt{3}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547778105293
+  fields:
+    Front: |
+      CCAC 04.02 49: Find the absolute max and absolute min values of $f$ on the given interval.
+      $$$$
+      f(x) = xe^{-x^2/8}, \quad [-1, 4]
+      $$$$
+    Back: |
+      $$$$
+      f(2) = 2/\sqrt{e}, \quad f(-1) = -1/\sqrt[8]{e}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547778105433
+  fields:
+    Front: |
+      CCAC 04.02 51: Find the absolute max and absolute min values of $f$ on the given interval.
+      $$$$
+      f(x) = \ln(x^2 + x + 1), \quad [-1, 1]
+      $$$$
+    Back: |
+      $$$$
+      f(1) = \ln 3, \quad f(-\tfrac{1}{2}) = \ln \tfrac{3}{4}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547778105568
+  fields:
+    Front: |
+      CCAC 04.02 53: Find the absolute max and absolute min values of $f$ on the given interval.
+      $$$$
+      f(t) = 2\cos t + \sin 2t, \quad [0, \pi/2]
+      $$$$
+    Back: |
+      $$$$
+      f(\pi/6) = \tfrac{3}{2}\sqrt{3}, \quad f(\pi/2) = 0
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547778105718
+  fields:
+    Front: |
+      CCAC 04.02 55: If $a$ and $b$ are positive numbers, find the maximum value of $f(x) = x^a (1 - x)^b$, $0 \le x \le 1$.
+    Back: |
+      $$$$
+      f\left( \frac{a}{ a + b} \right) = \frac{a^a b^b}{(a + b)^{a + b}}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547778105846
+  fields:
+    Front: |
+      CCAC 04.02 57:
+      (a) Use a graph to estimate the absolute max and min values of the function to two decimal places.
+      (b) Use calculus to find the exact max and min values.
+      $$$$
+      f(x) = x^5 - x^3 + 2, \quad -1 \le x \le 1
+      $$$$
+    Back: |
+      (a) 2.19, 1.81
+      (b) $\frac{6}{25}\sqrt{\frac{3}{5}} + 2$, $-\frac{6}{25}\sqrt{\frac{3}{5}} + 2$
+    Annotations: ''
+  tags:
+  - requiresCoding
+- id: 1547778105991
+  fields:
+    Front: |
+      CCAC 04.02 59:
+      (a) Use a graph to estimate the absolute max and min values of the function to two decimal places.
+      (b) Use calculus to find the exact max and min values.
+      $$$$
+      f(x) = x \sqrt{x - x^2}
+      $$$$
+    Back: |
+      (a) 0.32, 0.00
+      (b) $\frac{3}{16}\sqrt{3}$, $0$
+    Annotations: ''
+  tags:
+  - requiresCoding
+- id: 1547778106136
+  fields:
+    Front: |
+      CCAC 04.02 61: Between $0^\circ\text{C}$ and $32^\circ\text{C}$, the volume $V$ (in cubic centimeters) of $1\text{ kg}$ of water at a temperature $T$ is given approximately by the formula
+      $$$$
+      V = 999.87 - 0.06426T + 0.0085043T^2 - 0.0000679T^3
+      $$$$
+      Find the temperature at which water has its maximum density.
+    Back: |
+      $$$$
+      \approx 3.9665^\circ\text{C}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547778106316
+  fields:
+    Front: |
+      CCAC 04.02 63: A model for the US average price of a pound of white sugar from 1993 to 2003 is given by the function
+      $$$$
+      S(t) = - 0.00003237t^5 + 0.0009037t^4 \\
+      \quad - 0.008956t^3 + 0.03629t^2 - 0.04458t + 0.4074
+      $$$$
+      where $t$ is measured in years since August of 1993. Estimate the times when sugar was cheapest and most expensive during the period 1993-2003.
+    Back: |
+      Cheapest, $t \approx 0.855$ (June 1994);
+      most expensive, $t \approx 4.618$ (March 1998)
+    Annotations: ''
+  tags: []
+- id: 1547778106518
+  media:
+  - path: ${file_dir}/images/CCAC-04.02-65.1.jpg
+  fields:
+    Front: >
+      CCAC 04.02 65: When a foreign object lodged in the trachea (windpipe) forces
+      a person to cough, the diaphragm thrusts upward causing an increase in pressure
+      in the lungs. This is accompanied by a contraction of the trachea, maching a
+      narrower channel for expelled air to flow through. For a given amount of air
+      to escape in a fixed time, it must move faster through the narrower channel
+      than the wider one. The greater the velocity of the airstream, the greater the
+      force on the foreign object. X rays show that the radius of the circular tracheal
+      tube contracts to about two-thirds of its normal radius during a cough. According
+      to a mathematical model of coughing, the velocity $v$ of the airstream is related
+      to the radius $r$ of the trachea by the equation
+
+      $$$$
+
+      v(r) = k(r_0 - r)r^2 \quad \tfrac{1}{2}r_0 \le r \le r_0
+
+      $$$$
+
+      where $k$ is a constant and $r_0$ is the normal radius of the trachea. The restriction
+      on $r$ is due to the fact that the tracheal wall stiffens under pressure and
+      a contraction greater than $\frac{1}{2}r_0$ is prevented (otherwise the person
+      would suffocate).
+
+      (a) Determine the value of $r$ in the interval $[\frac{1}{2}r_0, r_0]$ at which
+      $v$ has an absolute maximum. How does it compare with experimental evidence?
+
+      (b) What is the absolute maximum value of $v$ on the interval?
+
+      (c) Sketch the graph of $v$ on the interval $[0, r_0]$
+    Back: |
+      (a) $r = \frac{2}{3}r_0$
+      (b) $v = \frac{4}{27}kr_0^3$
+      ![](CCAC-04.02-65.1.jpg)
+    Annotations: ''
+  tags: []

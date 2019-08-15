@@ -1,0 +1,257 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Calculus-ConceptsAndContexts
+  - CCAC-03-DifferentiationRules
+  - CCAC-03.09-LinearApproximationsAndDifferentials
+  markdownTabLength: 2
+notes:
+- id: 1547602257113
+  fields:
+    Front: |
+      CCAC 03.09 00a: If $f$ is differentiable at $a$, state its **linear approximation** or **tangent line approximation** when $x$ is near $a$.
+    Back: |
+      $$$$
+      f(x) \approx L(x) = f(a) + f'(a)(x - a)
+      $$$$
+      where $L$ is the **linearization** of $f$ at $a$. In terms of **differentials**,
+      $$$$
+      f(a + dx) \approx f(a) + dy, \\
+      \text{where} \; dx = x - a \; \text{and} \; dy = f'(a)dx.
+      $$$$
+    Annotations: ''
+  tags:
+  - Theory
+- id: 1547603806413
+  fields:
+    Front: >
+      CCAC 03.09 01: The turkey in CCAC-3.9 Example 1 is removed from the oven when
+      its temperature reaches $185 \mathrm{^\circ F}$ and is placed on a table in
+      a room where the temperature is $75 \mathrm{^\circ F}$. After 10 minutes the
+      temperature of the turkey is $172 \mathrm{^\circ F}$, and after 20 minutes it
+      is $160 \mathrm{^\circ F}$. Use a linear approximation to predict the temperature
+      of the turkey after half an hour. Do you think your prediction is an overestimate
+      or an underestimate? Why?
+    Back: |
+      $148 \mathrm{^\circ F}$; underestimate.
+    Annotations: ''
+  tags: []
+- id: 1547604054914
+  media:
+  - path: ${file_dir}/images/CCAC-03.09-03.1.jpg
+  fields:
+    Front: >
+      CCAC 03.09 03: The graph indicates how Australia's population is aging by showing
+      the past and projected percentage of the population aged 65 and over. Use a
+      linear approximation to predict the percentage of the population that will be
+      65 and over in the years 2040 and 2050. Do you think your predictions are too
+      high or too low? Why?
+
+      ![](CCAC-03.09-03.1.jpg)
+    Back: |
+      22.6%, 24.2%; too high; tangent lines lie above the curve.
+    Annotations: ''
+  tags: []
+- id: 1547604183539
+  fields:
+    Front: |
+      CCAC 03.09 05: Find the linearization $L(x)$ of the function at $a$.
+      $$$$
+      f(x) = x^4 + 3x^2, \quad a = -1
+      $$$$
+    Back: |
+      $$$$
+      L(x) = -10x - 6
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547604293164
+  fields:
+    Front: |
+      CCAC 03.09 07: Find the linearization $L(x)$ of the function at $a$.
+      $$$$
+      f(x) = \cos x, \quad a = \pi/2
+      $$$$
+    Back: |
+      $$$$
+      L(x) = -x + \pi/2
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547604463313
+  media:
+  - path: ${file_dir}/images/CCAC-03.09-09.1.jpg
+  fields:
+    Front: >
+      CCAC 03.09 09: Find the linear approximation of the function $f(x) = \sqrt{1
+      - x}$ at $a = 0$ and use it to approximate the numbers $\sqrt{0.9}$ and $\sqrt{0.99}$.
+      Illustrate by graphing $f$ and the tangent line.
+    Back: |
+      $\sqrt{1 - x} \approx 1 - \frac{1}{2} x$; $\sqrt{0.9} \approx 0.95$; $\sqrt{0.99} \approx 0.995$.
+      ![](CCAC-03.09-09.1.jpg)
+    Annotations: ''
+  tags:
+  - requiresCoding
+- id: 1547604620488
+  fields:
+    Front: |
+      CCAC 03.09 11: Verify the given linear approximation at $a = 0$. Then determine the values of $x$ for which the linear approximation is accurate to within $0.1$.
+      $$$$
+      \sqrt[3]{1 - x} \approx 1 - \frac{1}{3} x
+      $$$$
+    Back: |
+      $-1.204 < x < 0.706$
+    Annotations: ''
+  tags: []
+- id: 1547604703238
+  fields:
+    Front: |
+      CCAC 03.09 13: Verify the given linear approximation at $a = 0$. Then determine the values of $x$ for which the linear approximation is accurate to within $0.1$.
+      $$$$
+      \frac{1}{(1 + 2x)^4} \approx 1 - 8x
+      $$$$
+    Back: |
+      $-0.045 < x < 0.055$
+    Annotations: ''
+  tags: []
+- id: 1547604784242
+  fields:
+    Front: |
+      CCAC 03.09 15: Use a linear approximation (or differentials) to estimate the given number.
+      $$$$
+      (2.001)^5
+      $$$$
+    Back: |
+      $32.08$
+    Annotations: ''
+  tags: []
+- id: 1547604835864
+  fields:
+    Front: |
+      CCAC 03.09 17: Use a linear approximation (or differentials) to estimate the given number.
+      $$$$
+      (8.06)^{2/3}
+      $$$$
+    Back: |
+      $4.02$
+    Annotations: ''
+  tags: []
+- id: 1547604976589
+  fields:
+    Front: |
+      CCAC 03.09 23a: Find the differential of the function.
+      $$$$
+      y = \frac{u + 1}{u - 1}
+      $$$$
+    Back: |
+      $$$$
+      dy = -\frac{2}{(u - 1)^2} du
+      $$$$
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1547605052139
+  fields:
+    Front: |
+      CCAC 03.09 23b: Find the differential of the function.
+      $$$$
+      y = (1 + r^3)^{-2}
+      $$$$
+    Back: |
+      $$$$
+      dy = -\frac{6r^2}{(1 + r^3)^3} dr
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547605213264
+  fields:
+    Front: |
+      CCAC 03.09 25: Let $y = e^{x/10}$.
+      (a) Find the differential $dy$.
+      (b) Evaluate $dy$ and $\Delta y$ if $x = 0$ and $dx = 0.1$.
+    Back: |
+      (a) $dy = \frac{1}{10} e^{x/10} dx$
+      (b) $0.01$; $0.0101$
+    Annotations: ''
+  tags: []
+- id: 1547605424714
+  fields:
+    Front: >
+      CCAC 03.09 27: The edge of a cube was found to be $30 \;\mathrm{cm}$ with a
+      possible error in measurement of $0.1 \;\mathrm{cm}$. Use differentials to estimate
+      the maximum possible error, relative error, and percentage error in computing
+      (a) the volume of the cube and (b) the surface area of the cube.
+    Back: |
+      (a) $270 \;\mathrm{cm^3}$, $0.01$, $1\%$
+      (b) $36 \;\mathrm{cm^2}$, $0.00\overline{6}$, $0.\overline{6}\%$
+    Annotations: ''
+  tags: []
+- id: 1547605651213
+  fields:
+    Front: >
+      CCAC 03.09 29: The circumference of a sphere was measured to be $84 \;\mathrm{cm}$
+      with a possible error of $0.5 \;\mathrm{cm}$.
+
+      (a) Use differentials to estimate the maximum error in the calculated surface
+      area. What is the relative error?
+
+      (b) Use differentials to estimate the maximum error in the calculated volume.
+      What is the relative error?
+    Back: |
+      (a) $84/\pi \approx 27 \;\mathrm{cm^2}$; $\frac{1}{84} \approx 0.012 = 1.2\%$
+      (a) $1764/\pi^2 \approx 179 \;\mathrm{cm^3}$; $\frac{1}{56} \approx 0.018 = 1.8\%$
+    Annotations: ''
+  tags: []
+- id: 1547605828064
+  fields:
+    Front: |
+      CCAC 03.09 31:
+      (a) Use differentials to find a formula for the approximate volume of a thin cylindrical shell with height $h$, inner radius $r$, and thickness $\Delta r$.
+      (b) What is the error involved in using the formula from part (a)?
+    Back: |
+      (a) $2\pi rh \Delta r$
+      (b) $\pi(\Delta r)^2h$
+    Annotations: ''
+  tags: []
+- id: 1547606075914
+  fields:
+    Front: >
+      CCAC 03.09 33: When blood flows along a blood vessel, the flux $F$ (the volume
+      of blood per unit time that flows past a given point) is proportional to the
+      fourth power of the radius $R$ of the blood vessel:
+
+      $$$$
+
+      F = kR^4
+
+      $$$$
+
+      (This is known as Poiseuille's Law; we will show why it is true in CCAC-6.7.)
+      A partially clogged artery can be expanded by an operation called angioplasty,
+      in which a balloon-tipped catheter is inflated inside the artery in order to
+      widen it and restore the normal blood flow.
+
+      Show that the relative change in $F$ is about four times the relative change
+      in $R$. How will a $5\%$ increase in the radius affect the blood flow?
+    Back: |
+      A $5\%$ increase in the radius corresponds to a $20\%$ increase in blood flow.
+    Annotations: ''
+  tags:
+  - proof
+- id: 1547606294764
+  media:
+  - path: ${file_dir}/images/CCAC-03.09-35.1.jpg
+  fields:
+    Front: |
+      CCAC 03.09 35: Suppose that the only information we have about a function $f$ is that $f(1) = 5$ and the graph of its _derivative_ is as shown.
+      (a) Use a linear approximation to estimate $f(0.9)$ and $f(1.1)$.
+      (b) Are your estimates in part (a) too large or too small? Explain.
+      ![](CCAC-03.09-35.1.jpg)
+    Back: |
+      (a) $4.8$, $5.2$
+      (b) Too large.
+    Annotations: ''

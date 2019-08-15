@@ -1,0 +1,210 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Calculus-ConceptsAndContexts
+  - CCAC-04-ApplicationsOfDifferentiation
+  - CCAC-04.07-NewtonsMethod
+  markdownTabLength: 2
+notes:
+- id: 1547778125270
+  fields:
+    Front: |
+      CCAC 04.07 00a: What does **Newton's Method** approximate? Give the successive approximation.
+    Back: |
+      **Newton's Method** tries to find successively better approximations to roots of a real-valued function $f(x)$. For approximation $x_n$, the next is given by
+      $$$$
+      x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}
+      $$$$
+    Annotations: ''
+  tags:
+  - Theory
+- id: 1547778125439
+  media:
+  - path: ${file_dir}/images/CCAC-04.07-01.1.jpg
+  fields:
+    Front: >
+      CCAC 04.07 01: The figure shows the graph of a function $f$. Suppose that Newton's
+      method is used to approximate the root $r$ of the equation $f(x) = 0$ with initial
+      approximation $x_1 = 1$.
+
+      (a) Draw the tangent lines that are used to find $x_2$ and $x_3$, and estimate
+      the numerical values of $x_2$ and $x_3$.
+
+      (b) Would $x_1 = 5$ be a better first approximation? Explain.
+
+      ![](CCAC-04.07-01.1.jpg)
+    Back: |
+      (a) $x_2 \approx 2.3$, $x_3 \approx 3$
+      (b) No
+    Annotations: ''
+  tags: []
+- id: 1547778125639
+  fields:
+    Front: >
+      CCAC 04.07 03: Suppose the line $y = 5x - 4$ is tangent to the curve $y = f(x)$
+      when $x = 3$. If Newton's method is used to locate a root of the equation $f(x)
+      = 0$ and the initial approximation is $x_1 = 3$, find the second approximation
+      $x_2$.
+    Back: |
+      $\frac{4}{5}$
+    Annotations: ''
+  tags: []
+- id: 1547778125788
+  fields:
+    Front: |
+      CCAC 04.07 05: Use Newton's method with the specified initial approximation $x_1$ to find $x_3$, the third approximation to the root of the given equation. (Give your answer to four decimal places.)
+      $$$$
+      x^3 + 2x - 4 = 0, \quad x_1 = 2
+      $$$$
+    Back: |
+      1.1797
+    Annotations: ''
+  tags: []
+- id: 1547778125932
+  fields:
+    Front: |
+      CCAC 04.07 07: Use Newton's method with the specified initial approximation $x_1$ to find $x_3$, the third approximation to the root of the given equation. (Give your answer to four decimal places.)
+      $$$$
+      x^5 - x - 1 = 0, \quad x_1 = 1
+      $$$$
+    Back: |
+      1.1785
+    Annotations: ''
+  tags: []
+- id: 1547778126087
+  fields:
+    Front: >
+      CCAC 04.07 09: Use Newton's method with the specified initial approximation
+      $x_1 = -1$ to find $x_2$, the second approximation to the root of the equation
+      $x^3 + x + 3 = 0$. Explain how the method works by first graphing the function
+      and its tangent line at $(-1, 1)$.
+    Back: |
+      -1.25
+    Annotations: ''
+  tags:
+  - requiresCoding
+- id: 1547778126221
+  fields:
+    Front: |
+      CCAC 04.07 11: Use Newton's method to approximate the given number correct to eight decimal places.
+      $$$$
+      \sqrt[5]{20}
+      $$$$
+    Back: |
+      1.82056420
+    Annotations: ''
+  tags: []
+- id: 1547778126380
+  fields:
+    Front: |
+      CCAC 04.07 13: Use Newton's method to find all roots of the equation correct to six decimal places.
+      $$$$
+      x^4 = 1 + x
+      $$$$
+    Back: |
+      -0.724492, 1.220744
+    Annotations: ''
+  tags: []
+- id: 1547778126554
+  fields:
+    Front: |
+      CCAC 04.07 15: Use Newton's method to find all roots of the equation correct to six decimal places.
+      $$$$
+      (x - 2)^2 = \ln x
+      $$$$
+    Back: |
+      1.412391, 3.057104
+    Annotations: ''
+  tags: []
+- id: 1547778126708
+  fields:
+    Front: |
+      CCAC 04.07 17: Use Newton's method to find all the roots of the equation correct to eight decimal places. Start by drawing a graph to find initial approximations.
+      $$$$
+      x^6 - x^5 - 6x^4 - x^2 + x + 10 = 0
+      $$$$
+    Back: |
+      -1.93822883, -1.21997997, 1.13929375, 2.98984102
+    Annotations: ''
+  tags:
+  - requiresCoding
+- id: 1547778126848
+  fields:
+    Front: |
+      CCAC 04.07 19: Use Newton's method to find all the roots of the equation correct to eight decimal places. Start by drawing a graph to find initial approximations.
+      $$$$
+      x^2\sqrt{2 - x - x^2} = 1
+      $$$$
+    Back: |
+      -1.97806681, -0.82646233
+    Annotations: ''
+  tags:
+  - requiresCoding
+- id: 1547778126990
+  fields:
+    Front: |
+      CCAC 04.07 21: Use Newton's method to find all the roots of the equation correct to eight decimal places. Start by drawing a graph to find initial approximations.
+      $$$$
+      4e^{-x^2}\sin x = x^2 - x + 1
+      $$$$
+    Back: |
+      0.21916368, 1.08422462
+    Annotations: ''
+  tags:
+  - requiresCoding
+- id: 1547778127160
+  fields:
+    Front: |
+      CCAC 04.07 23:
+      (a) Apply Newton's method to the equation $x^2 - a = 0$ to derive the following square-root algorithm (used by the ancient Babylonians to compute $\sqrt{a}$):
+      $$$$
+      x_{n+1} = \frac{1}{2}\left( x_n + \frac{a}{x_n} \right)
+      $$$$
+      (b) Use part (a) to compute $\sqrt{1000}$ correct to six decimal places.
+    Back: |
+      (b) 31.622777
+    Annotations: ''
+  tags: []
+- id: 1547778127332
+  fields:
+    Front: >
+      CCAC 04.07 29: Use Newton's method to find the coordinates of the inflection
+      point of the curve $y = e^{\cos x}$, $0 \le x \le \pi$, correct to six decimal
+      places.
+    Back: |
+      $(0.904557, 1.855277)$
+    Annotations: ''
+  tags: []
+- id: 1547778127462
+  fields:
+    Front: >
+      CCAC 04.07 31: Use Newton's method to find the coordinates, correct to six decimal
+      places, of the point on the parabola $y = (x - 1)^2$ that is closest to the
+      origin.
+    Back: |
+      $(0.410245, 0.347810)$
+    Annotations: ''
+  tags: []
+- id: 1547778127619
+  useMarkdownMathExt: false
+  fields:
+    Front: |
+      CCAC 04.07 33: A car dealer sells a new car for $18,000. He also offers to sell the same car for payments of $375 per month for five years. What monthly interest rate is this dealer charging?
+      To solve this problem you will need to use the formula for the present value \\(A\\) of an annuity consisting of \\(n\\) equal payments of size \\(R\\) with interest rate \\(i\\) per time period:
+      \\[
+      A = \frac{R}{i}[1 - (1 + i)^{-n}]
+      \\]
+      Replacing \\(i\\) by \\(x\\), show that
+      \\[
+      48x(1 + x)^{60} - (1 + x)^{60} + 1 = 0
+      \\]
+      Use Newton's method to solve this equation.
+    Back: |
+      0.76286%
+    Annotations: ''
+  tags:
+  - Proof

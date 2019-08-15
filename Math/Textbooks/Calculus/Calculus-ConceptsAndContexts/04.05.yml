@@ -1,0 +1,600 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Calculus-ConceptsAndContexts
+  - CCAC-04-ApplicationsOfDifferentiation
+  - CCAC-04.05-IndeterminateFormsAndLHospitalsRule
+  markdownTabLength: 2
+notes:
+- id: 1547778113566
+  fields:
+    Front: |
+      CCAC 04.05 00a: List and define seven important **Indeterminate Forms**.
+    Back: |
+      **Indeterminate Form (or Indeterminate Quotient) of Type $\frac{0}{0}$:**
+      $\lim_{x \to a} \frac{f(x)}{g(x)}$ in which $\lim_{x \to a} f(x) = 0$ and $\lim_{x \to a} g(x) = 0$.
+
+      **Indeterminate Form (or Indeterminate Quotient)    of Type $\frac{\infty}{\infty}$:**
+      $\lim_{x \to a} \frac{f(x)}{g(x)}$ in which $\lim_{x \to a} f(x) = \pm\infty$ and $\lim_{x \to a} g(x) = \pm\infty$.
+
+      **Indeterminate Form of Type $0 \cdot \infty$ (or Indeterminate Product):**
+      $\lim_{x \to a} f(x) \cdot g(x)$ in which $\lim_{x \to a} f(x) = 0$ and $\lim_{x \to a} g(x) = \pm\infty$.
+
+      **Indeterminate Form of Type $\infty - \infty$ (or Indeterminate Difference):**
+      $\lim_{x \to a} f(x) - g(x)$ in which $\lim_{x \to a} f(x) = \infty$ and $\lim_{x \to a} g(x) = \infty$.
+
+      **Indeterminate Form (or Indeterminate Power) of Type $0^0$:**
+      $\lim_{x \to a} f(x)^{g(x)}$ in which $\lim_{x \to a} f(x) = 0$ and $\lim_{x \to a} g(x) = 0$.
+
+      **Indeterminate Form (or Indeterminate Power) of Type $\infty^0$:**
+      $\lim_{x \to a} f(x)^{g(x)}$ in which $\lim_{x \to a} f(x) = \infty$ and $\lim_{x \to a} g(x) = 0$.
+
+      **Indeterminate Form (or Indeterminate Power) of Type $1^{\infty}$:**
+      $\lim_{x \to a} f(x)^{g(x)}$ in which $\lim_{x \to a} f(x) = 1$ and $\lim_{x \to a} g(x) = \pm\infty$.
+    Annotations: ''
+  tags:
+  - Theory
+- id: 1547778113833
+  fields:
+    Front: |
+      CCAC 04.05 00b: State **l'Hospital's Rule.**
+    Back: |
+      Suppose $f$ and $g$ are differentiable and $g'(x) \ne 0$ near $a$ (except possibly at $a$), and suppose that
+      $$$$
+      \lim_{x \to a} f(x) = 0 \quad \text{and} \quad \lim_{x \to a} g(x) = 0
+      $$$$
+      or that
+      $$$$
+      \lim_{x \to a} f(x) = \pm\infty \quad \text{and} \quad \lim_{x \to a} g(x) = \pm\infty.
+      $$$$
+      and that
+      $$$$
+      \lim_{x \to a} \frac{f'(x)}{g'(x)} \quad \text{exists or is $\pm\infty$.}
+      $$$$
+      Then
+      $$$$
+      \lim_{x \to a} \frac{f(x)}{g(x)} = \lim_{x \to a} \frac{f'(x)}{g'(x)}.
+      $$$$
+    Annotations: ''
+  tags:
+  - Theory
+- id: 1547778114013
+  fields:
+    Front: |
+      CCAC 04.05 01a: Given that
+      $$$$
+      \lim_{x \to a} f(x) = \lim_{x \to a} g(x) = 0, \\
+      \lim_{x \to a} h(x) = 1, \text{ and} \\
+      \lim_{x \to a} p(x) = \lim_{x \to a} q(x) = \infty,
+      $$$$
+      Is the following an indeterminate form? If not, evaluate the limit if possible.
+      $$$$
+      \lim_{x \to a} \frac{f(x)}{g(x)}
+      $$$$
+    Back: |
+      Indeterminate
+    Annotations: ''
+  tags: []
+- id: 1547778114156
+  fields:
+    Front: |
+      CCAC 04.05 01b: Given that
+      $$$$
+      \lim_{x \to a} f(x) = \lim_{x \to a} g(x) = 0, \\
+      \lim_{x \to a} h(x) = 1, \text{ and} \\
+      \lim_{x \to a} p(x) = \lim_{x \to a} q(x) = \infty,
+      $$$$
+      Is the following an indeterminate form? If not, evaluate the limit if possible.
+      $$$$
+      \lim_{x \to a} \frac{f(x)}{p(x)}
+      $$$$
+    Back: |
+      0
+    Annotations: ''
+  tags: []
+- id: 1547778114289
+  fields:
+    Front: |
+      CCAC 04.05 01c: Given that
+      $$$$
+      \lim_{x \to a} f(x) = \lim_{x \to a} g(x) = 0, \\
+      \lim_{x \to a} h(x) = 1, \text{ and} \\
+      \lim_{x \to a} p(x) = \lim_{x \to a} q(x) = \infty,
+      $$$$
+      Is the following an indeterminate form? If not, evaluate the limit if possible.
+      $$$$
+      \lim_{x \to a} \frac{h(x)}{p(x)}
+      $$$$
+    Back: |
+      0
+    Annotations: ''
+  tags: []
+- id: 1547778114445
+  fields:
+    Front: |
+      CCAC 04.05 01d: Given that
+      $$$$
+      \lim_{x \to a} f(x) = \lim_{x \to a} g(x) = 0, \\
+      \lim_{x \to a} h(x) = 1, \text{ and} \\
+      \lim_{x \to a} p(x) = \lim_{x \to a} q(x) = \infty,
+      $$$$
+      Is the following an indeterminate form? If not, evaluate the limit if possible.
+      $$$$
+      \lim_{x \to a} \frac{p(x)}{f(x)}
+      $$$$
+    Back: |
+      $\infty$, $-\infty$, or does not exist
+    Annotations: ''
+  tags: []
+- id: 1547778114614
+  fields:
+    Front: |
+      CCAC 04.05 01e: Given that
+      $$$$
+      \lim_{x \to a} f(x) = \lim_{x \to a} g(x) = 0, \\
+      \lim_{x \to a} h(x) = 1, \text{ and} \\
+      \lim_{x \to a} p(x) = \lim_{x \to a} q(x) = \infty,
+      $$$$
+      Is the following an indeterminate form? If not, evaluate the limit if possible.
+      $$$$
+      \lim_{x \to a} \frac{p(x)}{q(x)}
+      $$$$
+    Back: |
+      Indeterminate
+    Annotations: ''
+  tags: []
+- id: 1547778114714
+  fields:
+    Front: |
+      CCAC 04.05 03a: Given that
+      $$$$
+      \lim_{x \to a} f(x) = \lim_{x \to a} g(x) = 0, \\
+      \lim_{x \to a} h(x) = 1, \text{ and} \\
+      \lim_{x \to a} p(x) = \lim_{x \to a} q(x) = \infty,
+      $$$$
+      Is the following an indeterminate form? If not, evaluate the limit if possible.
+      $$$$
+      \lim_{x \to a} [f(x) - p(x)]
+      $$$$
+    Back: |
+      $-\infty$
+    Annotations: ''
+  tags: []
+- id: 1547778114848
+  fields:
+    Front: |
+      CCAC 04.05 03b: Given that
+      $$$$
+      \lim_{x \to a} f(x) = \lim_{x \to a} g(x) = 0, \\
+      \lim_{x \to a} h(x) = 1, \text{ and} \\
+      \lim_{x \to a} p(x) = \lim_{x \to a} q(x) = \infty,
+      $$$$
+      Is the following an indeterminate form? If not, evaluate the limit if possible.
+      $$$$
+      \lim_{x \to a} [p(x) - q(x)]
+      $$$$
+    Back: |
+      Indeterminate
+    Annotations: ''
+  tags: []
+- id: 1547778114990
+  fields:
+    Front: |
+      CCAC 04.05 03c: Given that
+      $$$$
+      \lim_{x \to a} f(x) = \lim_{x \to a} g(x) = 0, \\
+      \lim_{x \to a} h(x) = 1, \text{ and} \\
+      \lim_{x \to a} p(x) = \lim_{x \to a} q(x) = \infty,
+      $$$$
+      Is the following an indeterminate form? If not, evaluate the limit if possible.
+      $$$$
+      \lim_{x \to a} [p(x) + q(x)]
+      $$$$
+    Back: |
+      $\infty$
+    Annotations: ''
+  tags: []
+- id: 1547778115133
+  fields:
+    Front: |
+      CCAC 04.05 05: Find the limit. Use l'Hospital's Rule where appropriate. If there is more than one elementary method, consider using it. If l'Hospital's Rule doesn't apply, explain why.
+      $$$$
+      \lim_{x \to 1} \frac{x^2 - 1}{x^2 - x}
+      $$$$
+    Back: |
+      $2$
+    Annotations: ''
+  tags: []
+- id: 1547778115282
+  fields:
+    Front: |
+      CCAC 04.05 07: Find the limit. Use l'Hospital's Rule where appropriate. If there is more than one elementary method, consider using it. If l'Hospital's Rule doesn't apply, explain why.
+      $$$$
+      \lim_{x \to (\pi/2)^+} \frac{\cos x}{1 - \sin x}
+      $$$$
+    Back: |
+      $-\infty$
+    Annotations: ''
+  tags: []
+- id: 1547778115426
+  fields:
+    Front: |
+      CCAC 04.05 09: Find the limit. Use l'Hospital's Rule where appropriate. If there is more than one elementary method, consider using it. If l'Hospital's Rule doesn't apply, explain why.
+      $$$$
+      \lim_{t \to 0} \frac{e^t - 1}{t^3}
+      $$$$
+    Back: |
+      $\infty$
+    Annotations: ''
+  tags: []
+- id: 1547778115574
+  fields:
+    Front: |
+      CCAC 04.05 11: Find the limit. Use l'Hospital's Rule where appropriate. If there is more than one elementary method, consider using it. If l'Hospital's Rule doesn't apply, explain why.
+      $$$$
+      \lim_{x \to \infty} \frac{\ln x}{\sqrt{x}}
+      $$$$
+    Back: |
+      $0$
+    Annotations: ''
+  tags: []
+- id: 1547778115710
+  fields:
+    Front: |
+      CCAC 04.05 13: Find the limit. Use l'Hospital's Rule where appropriate. If there is more than one elementary method, consider using it. If l'Hospital's Rule doesn't apply, explain why.
+      $$$$
+      \lim_{x \to 0^+} \frac{\ln x}{x}
+      $$$$
+    Back: |
+      $-\infty$
+    Annotations: ''
+  tags: []
+- id: 1547778115853
+  fields:
+    Front: |
+      CCAC 04.05 15: Find the limit. Use l'Hospital's Rule where appropriate. If there is more than one elementary method, consider using it. If l'Hospital's Rule doesn't apply, explain why.
+      $$$$
+      \lim_{x \to 0} \frac{\sqrt{1 + 2x} - \sqrt{1 - 4x}}{x}
+      $$$$
+    Back: |
+      $3$
+    Annotations: ''
+  tags: []
+- id: 1547778115989
+  fields:
+    Front: |
+      CCAC 04.05 17: Find the limit. Use l'Hospital's Rule where appropriate. If there is more than one elementary method, consider using it. If l'Hospital's Rule doesn't apply, explain why.
+      $$$$
+      \lim_{t \to 0} \frac{5^t - 3^t}{t}
+      $$$$
+    Back: |
+      $\ln \frac{5}{3}$
+    Annotations: ''
+  tags: []
+- id: 1547778116138
+  fields:
+    Front: |
+      CCAC 04.05 19: Find the limit. Use l'Hospital's Rule where appropriate. If there is more than one elementary method, consider using it. If l'Hospital's Rule doesn't apply, explain why.
+      $$$$
+      \lim_{x \to 0} \frac{e^x - 1 - x}{x^2}
+      $$$$
+    Back: |
+      $\frac{1}{2}$
+    Annotations: ''
+  tags: []
+- id: 1547778116271
+  fields:
+    Front: |
+      CCAC 04.05 21: Find the limit. Use l'Hospital's Rule where appropriate. If there is more than one elementary method, consider using it. If l'Hospital's Rule doesn't apply, explain why.
+      $$$$
+      \lim_{x \to 1} \frac{1 - x - \ln x}{1 + \cos \pi x}
+      $$$$
+    Back: |
+      $-1/\pi^2$
+    Annotations: ''
+  tags: []
+- id: 1547778116414
+  fields:
+    Front: |
+      CCAC 04.05 23: Find the limit. Use l'Hospital's Rule where appropriate. If there is more than one elementary method, consider using it. If l'Hospital's Rule doesn't apply, explain why.
+      $$$$
+      \lim_{x \to 1} \frac{x^a - ax + a - 1}{(x - 1)^2}
+      $$$$
+    Back: |
+      $\frac{1}{2} a(a - 1)$
+    Annotations: ''
+  tags: []
+- id: 1547778116562
+  fields:
+    Front: |
+      CCAC 04.05 25: Find the limit. Use l'Hospital's Rule where appropriate. If there is more than one elementary method, consider using it. If l'Hospital's Rule doesn't apply, explain why.
+      $$$$
+      \lim_{x \to 0} \frac{\cos x - 1 + \tfrac{1}{2}x^2}{x^4}
+      $$$$
+    Back: |
+      $\frac{1}{24}$
+    Annotations: ''
+  tags: []
+- id: 1547778116709
+  fields:
+    Front: |
+      CCAC 04.05 27: Find the limit. Use l'Hospital's Rule where appropriate. If there is more than one elementary method, consider using it. If l'Hospital's Rule doesn't apply, explain why.
+      $$$$
+      \lim_{x \to \infty} x \sin(\pi/x)
+      $$$$
+    Back: |
+      $\pi$
+    Annotations: ''
+  tags: []
+- id: 1547778116840
+  fields:
+    Front: |
+      CCAC 04.05 29: Find the limit. Use l'Hospital's Rule where appropriate. If there is more than one elementary method, consider using it. If l'Hospital's Rule doesn't apply, explain why.
+      $$$$
+      \lim_{x \to 0} \cot 2x \sin 6x
+      $$$$
+    Back: |
+      $3$
+    Annotations: ''
+  tags: []
+- id: 1547778116989
+  fields:
+    Front: |
+      CCAC 04.05 31: Find the limit. Use l'Hospital's Rule where appropriate. If there is more than one elementary method, consider using it. If l'Hospital's Rule doesn't apply, explain why.
+      $$$$
+      \lim_{x \to \infty} x^3 e^{-x^2}
+      $$$$
+    Back: |
+      $0$
+    Annotations: ''
+  tags: []
+- id: 1547778117133
+  fields:
+    Front: |
+      CCAC 04.05 33: Find the limit. Use l'Hospital's Rule where appropriate. If there is more than one elementary method, consider using it. If l'Hospital's Rule doesn't apply, explain why.
+      $$$$
+      \lim_{x \to 1} \left( \frac{x}{x - 1} - \frac{1}{\ln x} \right)
+      $$$$
+    Back: |
+      $\frac{1}{2}$
+    Annotations: ''
+  tags: []
+- id: 1547778117283
+  fields:
+    Front: |
+      CCAC 04.05 35: Find the limit. Use l'Hospital's Rule where appropriate. If there is more than one elementary method, consider using it. If l'Hospital's Rule doesn't apply, explain why.
+      $$$$
+      \lim_{x \to \infty} \left( \sqrt{x^2 + x} - x \right)
+      $$$$
+    Back: |
+      $\frac{1}{2}$
+    Annotations: ''
+  tags: []
+- id: 1547778117421
+  fields:
+    Front: |
+      CCAC 04.05 37: Find the limit. Use l'Hospital's Rule where appropriate. If there is more than one elementary method, consider using it. If l'Hospital's Rule doesn't apply, explain why.
+      $$$$
+      \lim_{x \to \infty} (x - \ln x)
+      $$$$
+    Back: |
+      $\infty$
+    Annotations: ''
+  tags: []
+- id: 1547778117564
+  fields:
+    Front: |
+      CCAC 04.05 39: Find the limit. Use l'Hospital's Rule where appropriate. If there is more than one elementary method, consider using it. If l'Hospital's Rule doesn't apply, explain why.
+      $$$$
+      \lim_{x \to 0^+} x^{x^2}
+      $$$$
+    Back: |
+      $1$
+    Annotations: ''
+  tags: []
+- id: 1547778117704
+  fields:
+    Front: |
+      CCAC 04.05 41: Find the limit. Use l'Hospital's Rule where appropriate. If there is more than one elementary method, consider using it. If l'Hospital's Rule doesn't apply, explain why.
+      $$$$
+      \lim_{x \to 0} (1 - 2x)^{1/x}
+      $$$$
+    Back: |
+      $e^{-2}$
+    Annotations: ''
+  tags: []
+- id: 1547778117841
+  fields:
+    Front: |
+      CCAC 04.05 43: Find the limit. Use l'Hospital's Rule where appropriate. If there is more than one elementary method, consider using it. If l'Hospital's Rule doesn't apply, explain why.
+      $$$$
+      \lim_{x \to \infty} x^{1/x}
+      $$$$
+    Back: |
+      $1$
+    Annotations: ''
+  tags: []
+- id: 1547778117975
+  fields:
+    Front: |
+      CCAC 04.05 45: Find the limit. Use l'Hospital's Rule where appropriate. If there is more than one elementary method, consider using it. If l'Hospital's Rule doesn't apply, explain why.
+      $$$$
+      \lim_{x \to 0^+} (4x + 1)^{\cot x}
+      $$$$
+    Back: |
+      $e^4$
+    Annotations: ''
+  tags: []
+- id: 1547778118118
+  fields:
+    Front: |
+      CCAC 04.05 47: Use a graph to estimate the value of the limit. Then use l'Hospital's Rule to find the exact value.
+      $$$$
+      \lim_{x \to \infty} \left( 1 + \frac{2}{x} \right)^x
+      $$$$
+    Back: |
+      $e^2$
+    Annotations: ''
+  tags:
+  - requiresCoding
+- id: 1547778118263
+  fields:
+    Front: |
+      CCAC 04.05 49: Illustrate l'Hospital's Rule by graphing both $f(x)/g(x)$ and $f'(x)/g'(x)$ near $x = 0$ to see that these ratios have the same linit as $x \to 0$. Also, calculate the exact value of the limit.
+      $$$$
+      f(x) = e^x - 1, \quad g(x) = x^3 + 4x
+      $$$$
+    Back: |
+      $\frac{1}{4}$
+    Annotations: ''
+  tags:
+  - requiresCoding
+- id: 1547778118437
+  media:
+  - path: ${file_dir}/images/CCAC-04.05-51.1.jpg
+  fields:
+    Front: |
+      CCAC 04.05 51: Use l'Hospital's Rule to help find the asymptotes of $f$. Then use them, together with information from $f'$ and $f''$, to sketch the graph of $f$. Check your work with a graphing device.
+      $$$$
+      f(x) = xe^{-x}
+      $$$$
+    Back: |
+      HA $y = 0$
+      ![](CCAC-04.05-51.1.jpg)
+    Annotations: ''
+  tags:
+  - requiresCoding
+- id: 1547778118613
+  media:
+  - path: ${file_dir}/images/CCAC-04.05-53.1.jpg
+  fields:
+    Front: |
+      CCAC 04.05 53: Use l'Hospital's Rule to help find the asymptotes of $f$. Then use them, together with information from $f'$ and $f''$, to sketch the graph of $f$. Check your work with a graphing device.
+      $$$$
+      f(x) = (\ln x)/x
+      $$$$
+    Back: |
+      HA $y = 0$, VA $x = 0$
+      ![](CCAC-04.05-53.1.jpg)
+    Annotations: ''
+  tags:
+  - requiresCoding
+- id: 1547778118845
+  media:
+  - path: ${file_dir}/images/CCAC-04.05-55.1.jpg
+  fields:
+    Front: |
+      CCAC 04.05 55:
+      (a) Graph the function.
+      (b) Use l'Hospital's Rule to explain the behavior as $x \to 0$.
+      (c) Estimate the minimum value and intervals of concavity. Then use calculus to find the exact values.
+      $$$$
+      f(x) = x^2 \ln x
+      $$$$
+    Back: |
+      (a)
+      ![](CCAC-04.05-55.1.jpg)
+      (b) $\lim_{x \to 0^+} f(x) = 0$
+      (c) Loc min $f(1/\sqrt{e}) = -1/(2e)$, CD on $(0, e^{-3/2})$; CU on $(e^{-3/2}, \infty)$
+    Annotations: ''
+  tags:
+  - requiresCoding
+- id: 1547778119040
+  media:
+  - path: ${file_dir}/images/CCAC-04.05-57.1.jpg
+  fields:
+    Front: |
+      CCAC 04.05 57:
+      (a) Graph the function.
+      (b) Explain the shape of the graph by computing the limit as $x \to 0^+$ or as $x \to \infty$.
+      (c) Estimate the max and min values and then use calculus to find the exact values.
+      (d) Use a graph of $f''$ to estimate the $x$-coordinates of the inflection points.
+      $$$$
+      f(x) = x^{1/x}
+      $$$$
+    Back: |
+      (a)
+      ![](CCAC-04.05-57.1.jpg)
+      (b) $\lim_{x \to 0^+} x^{1/x} = 0$, $\lim_{x\ \to \infty} x^{1/x} = 1$
+      (c) Loc min $f(e) = e^{1/e}$
+      (d) IP at $x \approx 0.58, 4.37$
+    Annotations: ''
+  tags:
+  - requiresCoding
+- id: 1547778119264
+  media:
+  - path: ${file_dir}/images/CCAC-04.05-59.1.jpg
+  fields:
+    Front: >
+      CCAC 04.05 59: Investigate the family of curves given by $f(x) = xe^{-cx}$,
+      where $c$ is a real number. Start by computing the limits as $x \to \pm \infty$.
+      Identify any transitional values of $c$ where the basic shape changes. What
+      happens to the max or min points and inflection points as $c$ changes? Illustrate
+      by graphing several members of the family.
+    Back: |
+      ![](CCAC-04.05-59.1.jpg)
+      For $c > 0$, $\lim_{x \to \infty} f(x) = 0$ and $\lim_{x \to -\infty} f(x) = -\infty$.
+      For $c < 0$, $\lim_{x \to \infty} f(x) = \infty$ and $\lim_{x \to -\infty} f(x) = 0$.
+      As $|c|$ increases, the max and min points and the IPs get closer to the origin.
+    Annotations: ''
+  tags:
+  - requiresCoding
+- id: 1547778119439
+  fields:
+    Front: |
+      CCAC 04.05 61: What happens if you try to use l'Hospital's Rule to evaluate
+      $$$$
+      \lim_{x \to \infty} \frac{x}{\sqrt{x^2 + 1}}
+      $$$$
+      Evaluate the limit using another method.
+    Back: |
+      $1$
+    Annotations: ''
+  tags: []
+- id: 1547778119624
+  fields:
+    Front: >
+      CCAC 04.05 69: The first appearance in print of l'Hospital's Rule was in the
+      book _Analyse des Infiniment Petits_ published by the Marquise de l'Hospital
+      in 1696. This was the first calculus _textbook_ ever published and the example
+      that the Marquis used in that book to illustrate this rule was to find the limit
+      of the function
+
+      $$$$
+
+      y = \frac{\sqrt{2a^3 x - x^4} - a\sqrt[3]{aax}}{a - \sqrt[4]{ax^3}}
+
+      $$$$
+
+      as $x$ approaches $a$, where $a > 0$. (At that time it was common to write $aa$
+      instead of $a^2$.) Solve this problem.
+    Back: |
+      $\frac{16}{9}a$
+    Annotations: ''
+  tags: []
+- id: 1547778119780
+  fields:
+    Front: |
+      CCAC 04.05 71: Evaluate
+      $$$$
+      \lim_{x \to \infty} \left[ x - x^2\ln\left( \frac{1 + x}{x} \right) \right]
+      $$$$
+    Back: |
+      $\frac{1}{2}$
+    Annotations: ''
+  tags: []
+- id: 1547778119918
+  fields:
+    Front: |
+      CCAC 04.05 73: If $f'$ is continuous, $f(2) = 0$, and $f'(2) = 7$, evaluate
+      $$$$
+      \lim_{x \to 0} \frac{f(2 + 3x) + f(2 + 5x)}{x}
+      $$$$
+    Back: |
+      $56$
+    Annotations: ''
+  tags: []

@@ -1,0 +1,369 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Calculus-ConceptsAndContexts
+  - CCAC-04-ApplicationsOfDifferentiation
+  - CCAC-04.08-Antiderivatives
+  markdownTabLength: 2
+notes:
+- id: 1547778127816
+  fields:
+    Front: |
+      CCAC 04.08 00a: Define **antiderivative**.
+    Back: |
+      A function $F$ is called an **antiderivative** of $f$ on an interval $I$ if $F'(x) = f(x)$ for all $x$ in $I$.
+    Annotations: ''
+  tags:
+  - Theory
+- id: 1547778127944
+  fields:
+    Front: |
+      CCAC 04.08 01: Find the most general antiderivative of the function. (Check your answer by differentiation.)
+      $$$$
+      f(x) = \tfrac{1}{2} + \tfrac{3}{4}x^2 - \tfrac{4}{5}x^3
+      $$$$
+    Back: |
+      $$$$
+      F(x) = \tfrac{1}{2}x + \tfrac{1}{4}x^3 - \tfrac{1}{5}x^4 + C
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547778128090
+  fields:
+    Front: |
+      CCAC 04.08 03: Find the most general antiderivative of the function. (Check your answer by differentiation.)
+      $$$$
+      f(x) = (x + 1)(2x - 1)
+      $$$$
+    Back: |
+      $$$$
+      F(x) = \tfrac{2}{3}x^3 + \tfrac{1}{2}x^2 - x + C
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547778128237
+  fields:
+    Front: |
+      CCAC 04.08 05: Find the most general antiderivative of the function. (Check your answer by differentiation.)
+      $$$$
+      f(x) = 5x^{1/4} - 7x^{3/4}
+      $$$$
+    Back: |
+      $$$$
+      F(x) = 4x^{5/4} - 4x^{7/4} + C
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547778128379
+  fields:
+    Front: |
+      CCAC 04.08 07: Find the most general antiderivative of the function. (Check your answer by differentiation.)
+      $$$$
+      f(x) = 6\sqrt{x} - \sqrt[6]{x}
+      $$$$
+    Back: |
+      $$$$
+      F(x) = 4x^{3/2} - \tfrac{6}{7}x^{7/6} + C
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547778128523
+  fields:
+    Front: |
+      CCAC 04.08 09: Find the most general antiderivative of the function. (Check your answer by differentiation.)
+      $$$$
+      f(x) = \frac{10}{x^9}
+      $$$$
+    Back: |
+      $$$$
+      F(x) =
+      \begin{cases}
+      -5/(4x^8) + C_1 & \text{if $x < 0$} \\
+      -5/(4x^8) + C_2 & \text{if $x > 0$} \\
+      \end{cases}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547778128663
+  fields:
+    Front: |
+      CCAC 04.08 11: Find the most general antiderivative of the function. (Check your answer by differentiation.)
+      $$$$
+      f(u) = \frac{u^4 + 3\sqrt{u}}{u^2}
+      $$$$
+    Back: |
+      $$$$
+      F(u) = \tfrac{1}{3}u^3 - 6u^{-1/2} + C
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547778128794
+  fields:
+    Front: |
+      CCAC 04.08 13: Find the most general antiderivative of the function. (Check your answer by differentiation.)
+      $$$$
+      g(\theta) = \cos \theta - 5\sin \theta
+      $$$$
+    Back: |
+      $$$$
+      G(\theta) = \sin \theta + 5\cos \theta + C
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547778128936
+  fields:
+    Front: |
+      CCAC 04.08 15: Find the most general antiderivative of the function. (Check your answer by differentiation.)
+      $$$$
+      f(x) = \frac{x^5 - x^3 + 2x}{x^4}
+      $$$$
+    Back: |
+      $$$$
+      F(x) = \tfrac{1}{2}x^2 - \ln|x| - 1/x^2 + C
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547778129064
+  fields:
+    Front: |
+      CCAC 04.08 17: Find the antiderivative $F$ of $f$ that satisfies the given condition. Check your answer by comparing the graphs of $f$ and $F$.
+      $$$$
+      f(x) = 5x^4 - 2x^5, \quad F(0) = 4
+      $$$$
+    Back: |
+      $$$$
+      F(x) = x^5 - \tfrac{1}{3}x^6 + 4
+      $$$$
+    Annotations: ''
+  tags:
+  - requiresCoding
+- id: 1547778129235
+  fields:
+    Front: |
+      CCAC 04.08 19: Find $f$.
+      $$$$
+      f''(x) = 6x + 12x^2
+      $$$$
+    Back: |
+      $$$$
+      x^3 + x^4 + Cx + D
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547778129363
+  fields:
+    Front: |
+      CCAC 04.08 21: Find $f$.
+      $$$$
+      f''(x) = \tfrac{2}{3}x^{2/3}
+      $$$$
+    Back: |
+      $$$$
+      \tfrac{3}{20}x^{8/3} + Cx + D
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547778129507
+  fields:
+    Front: |
+      CCAC 04.08 23: Find $f$.
+      $$$$
+      f'(x) = 1 - 6x, \quad f(0) = 8
+      $$$$
+    Back: |
+      $$$$
+      x - 3x^2 + 8
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547778129654
+  fields:
+    Front: |
+      CCAC 04.08 25: Find $f$.
+      $$$$
+      f'(x) = \sqrt{x}(6 + 5x), \quad f(1) = 10
+      $$$$
+    Back: |
+      $$$$
+      4x^{3/2} + 2x^{5/2} + 4
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547778129790
+  fields:
+    Front: |
+      CCAC 04.08 27: Find $f$.
+      $$$$
+      f'(t) = 2\cos t + \sec^2 t, \quad -\pi/2 < t < \pi/2, \quad f(\pi/3) = 4
+      $$$$
+    Back: |
+      $$$$
+      2 \sin t + \tan t + 4 - 2\sqrt{3}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547778129931
+  fields:
+    Front: |
+      CCAC 04.08 29: Find $f$.
+      $$$$
+      f''(x) = -2 + 12x -  12x^2, \quad f(0) = 4, \quad f'(0)= 12
+      $$$$
+    Back: |
+      $$$$
+      -x^2 + 2x^3 - x^4 + 12x + 4
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547778130064
+  fields:
+    Front: |
+      CCAC 04.08 31: Find $f$.
+      $$$$
+      f''(\theta) = \sin \theta + \cos \theta, \quad f(0) = 3, \quad f'(0) = 4
+      $$$$
+    Back: |
+      $$$$
+      -\sin \theta - \cos \theta + 5\theta + 4
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547778130207
+  fields:
+    Front: |
+      CCAC 04.08 33: Find $f$.
+      $$$$
+      f''(x) = 2 - 12x, \quad f(0) = 9, \quad f(2) = 15
+      $$$$
+    Back: |
+      $$$$
+      x^2 - 2x^3 + 9x + 9
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547778130357
+  fields:
+    Front: |
+      CCAC 04.08 35: Find $f$.
+      $$$$
+      f''(x) = 2 + \cos x, \quad f(0) = -1, \quad f(\pi/2) = 0
+      $$$$
+    Back: |
+      $$$$
+      x^2 - \cos x - \tfrac{1}{2}\pi x
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547778130493
+  fields:
+    Front: >
+      CCAC 04.08 37: Given that the graph of $f$ passes through the point $(1, 6)$
+      and that the slope of its tangent line at $(x, f(x))$ is $2x + 1$, find $f(2)$.
+    Back: |
+      10
+    Annotations: ''
+  tags: []
+- id: 1547778130657
+  media:
+  - path: ${file_dir}/images/CCAC-04.08-39.1.jpg
+  - path: ${file_dir}/images/CCAC-04.08-39.2.jpg
+  fields:
+    Front: |
+      CCAC 04.08 39: The graph of $f'$ is shown in the figure. Sketch the graph of $f$ if $f$ is continuous and $f(0) = -1$.
+      ![](CCAC-04.08-39.1.jpg)
+    Back: |
+      ![](CCAC-04.08-39.2.jpg)
+    Annotations: ''
+  tags: []
+- id: 1547778130857
+  fields:
+    Front: >
+      CCAC 04.08 41: A particle moves along a straight line with velocity function
+      $v(t) = \sin t - \cos t$ and its initial displacement is $s(0) = 0\text{ m}$.
+      Find its position function $s(t)$.
+    Back: |
+      $s(t) = 1 - \cos t - \sin t$
+    Annotations: ''
+  tags: []
+- id: 1547778131017
+  fields:
+    Front: |
+      CCAC 04.08 43: A stone is dropped from the upper observation deck (the Space Deck) of the CN Tower, $450\text{ m}$ above the ground.
+      (a) Find the distance of the stone above ground level at time $t$.
+      (b) How long does it take the stone to reach the ground?
+      (c) With what velocity does it strike the ground?
+      (d) If the stone is thrown downward with a speed of $5\text{ m/s}$, how long does it take to reach the ground?
+    Back: |
+      (a) $s(t) = 450 - 4.9t^2$
+      (b) $\sqrt{450/4.9} \approx 9.58\text{ s}$
+      (c) $-9.8\sqrt{450/4.9} \approx -93.9\text{ m/s}$
+      (d) About $9.09\text{ s}$
+    Annotations: ''
+  tags: []
+- id: 1547778131189
+  useMarkdownMathExt: false
+  fields:
+    Front: >
+      CCAC 04.08 47: A company estimates that the marginal cost (in dollars per item)
+      of producing \\(x\\) items is \\(1.92 - 0.002x\\). If the cost of producing
+      one item is $562, find the cost of producing 100 items.
+    Back: |
+      $742.08
+    Annotations: ''
+  tags: []
+- id: 1547778131318
+  fields:
+    Front: |
+      CCAC 04.08 49: A stone was dropped off a cliff and hit the ground with a speed of $120\text{ ft/s}$. What is the height of the cliff?
+    Back: |
+      $225\text{ ft}$
+    Annotations: ''
+  tags: []
+- id: 1547778131459
+  fields:
+    Front: >
+      CCAC 04.08 51: What constant acceleration is required to increase the speed
+      of a car from $30\text{ mi/h}$ to $50\text{ mi/h}$ in $5\text{ s}$?
+    Back: |
+      $\frac{88}{15} \approx 5.87\text{ ft/s^2}$
+    Annotations: ''
+  tags: []
+- id: 1547778131607
+  fields:
+    Front: >
+      CCAC 04.08 53: A car is traveling at $100\text{ km/h}$ when the driver sees
+      an accident $80\text{ m}$ ahead and slams on the brakes. What constant deceleration
+      is required to stop the car in time to avoid a pileup?
+    Back: |
+      $\text{62,500 km/h}^2 \approx \text{4.82 m/s}^2$
+    Annotations: ''
+  tags: []
+- id: 1547778131765
+  fields:
+    Front: >
+      CCAC 04.08 57: A high-speed bullet train accelerates and decelerates at the
+      rate of $\text{4 ft/s}^2$. Its maximum cruising speed is $\text{90 mi/h}$.
+
+      (a) What is the maximum distance the train can travel if it accelerates from
+      rest until it reaches its cruising speed and then runs at that speed for 15
+      minutes?
+
+      (b) Suppose that the train starts from rest and must come to a complete stop
+      in 15 minutes. What is the maximum distance it can travel under these conditions?
+
+      (c) Find the minimum time that the train takes to travel between two consecutive
+      stations that are 45 miles apart.
+
+      (d) The trip from one station to the next takes 37.5 minutes. How far apart
+      are the stations?
+    Back: |
+      (a) $\text{22.9125 mi}$
+      (b) $\text{21.675 mi}$
+      (c) $\text{30 min 33 s}$
+      (d) $\text{55.425 mi}$
+    Annotations: ''
+  tags: []

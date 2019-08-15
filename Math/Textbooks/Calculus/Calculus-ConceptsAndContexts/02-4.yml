@@ -20,6 +20,8 @@ notes:
       \lim_{x \to a} f(x) = f(a).
       $$$$
     Annotations: ''
+  tags:
+  - Theory
 - id: 1547147565396
   fields:
     Front: >
@@ -35,6 +37,8 @@ notes:
       \lim_{x \to a^-} f(x) = f(a).
       $$$$
     Annotations: ''
+  tags:
+  - Theory
 - id: 1547147565546
   fields:
     Front: |
@@ -45,6 +49,8 @@ notes:
       we understand _continuous at the endpoint_ to mean _continuous from the right_
       or _continuous from the left_.)
     Annotations: ''
+  tags:
+  - Theory
 - id: 1547147565681
   fields:
     Front: |
@@ -54,6 +60,8 @@ notes:
     Back: |
       Each of the following are continuous: $f + g$, $f - g$, $cf$, $fg$, and (when $g(a) \ne 0$) $f/g$.
     Annotations: ''
+  tags:
+  - Theory
 - id: 1547147565796
   fields:
     Front: |
@@ -66,6 +74,8 @@ notes:
       Exponential functions
       Logarithmic functions
     Annotations: ''
+  tags:
+  - Theory
 - id: 1547147565920
   fields:
     Front: |
@@ -79,6 +89,8 @@ notes:
       That is, _a limit symbol can be moved through a function symbol if the function is continuous and the limit exists_.
       In other words, _the order of these two symbols can be reversed_.
     Annotations: ''
+  tags:
+  - Theory
 - id: 1547147566046
   fields:
     Front: |
@@ -88,14 +100,19 @@ notes:
       If $g$ is continuous at $a$, and $f$ is continuous at $g(a)$, then $f \circ g$ is continuous at $a$.
       In other words, _the compose of continuous functions is continuous_.
     Annotations: ''
+  tags:
+  - Theory
 - id: 1547147566171
   fields:
     Front: |
       CCAC 02.4 00h: State the Intermediate Value Theorem.
     Back: >
-      Suppose that $f$ is continuous $[a,b]$, and let $N$ be between $f(a)$ and $f(b)$
-      where $f(a) \ne f(b)$. Then there exists $c \in (a,b)$ such that $f(c) = N$.
+      Suppose that $f$ is continuous on $[a,b]$, and let $N$ be between $f(a)$ and
+      $f(b)$ where $f(a) \ne f(b)$. Then there exists $c \in (a,b)$ such that $f(c)
+      = N$.
     Annotations: ''
+  tags:
+  - Theory
 - id: 1547147566296
   fields:
     Front: |

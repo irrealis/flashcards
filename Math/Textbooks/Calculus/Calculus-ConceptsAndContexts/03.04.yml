@@ -24,7 +24,8 @@ notes:
       \frac{dy}{dx} = \frac{dy}{du} \frac{du}{dx}.
       $$$$
     Annotations: ''
-  tags: []
+  tags:
+  - Theory
 - id: 1547506986946
   fields:
     Front: |

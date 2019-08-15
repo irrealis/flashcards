@@ -41,6 +41,8 @@ notes:
       \text{if}\ \lim_{x \to a} g(x) \ne 0
       $$$$
     Annotations: ''
+  tags:
+  - Theory
 - id: 1547081316145
   fields:
     Front: |
@@ -60,6 +62,8 @@ notes:
       c \lim_{x \to a} f(x)
       $$$$
     Annotations: ''
+  tags:
+  - Theory
 - id: 1547081316271
   fields:
     Front: |
@@ -71,6 +75,8 @@ notes:
       \text{if $f(a)$ is defined.}
       $$$$
     Annotations: ''
+  tags:
+  - Theory
 - id: 1547081316395
   fields:
     Front: |
@@ -103,7 +109,12 @@ notes:
       \\
       \text{(If $n$ is even, we assume that $a > 0$.)}
       $$$$
-    Annotations: ''
+    Annotations: 'Minor trouble p:<div>- 190217: subtlety: why \(0 &lt; \lim_{x\to
+      a} f(x)\)? To guarantee lower limit exists. This is kind of artificial, but
+      necessary for restricted vocabulary presented so far.</div>'
+  tags:
+  - Theory
+  - ann:minor-trouble
 - id: 1547081316550
   fields:
     Front: |
@@ -115,6 +126,8 @@ notes:
       \lim_{x \to a^-} f(x) = L = \lim_{x \to a^+} f(x).
       $$$$
     Annotations: ''
+  tags:
+  - Theory
 - id: 1547081316645
   fields:
     Front: |
@@ -124,7 +137,11 @@ notes:
       $$$$
       \lim_{x \to a} f(x) \le \lim_{x \to a} g(x).
       $$$$
-    Annotations: ''
+    Annotations: 'Trouble:<div>- 190217: I made stronger condition that \(f(x) &lt;
+      g(x)\).</div>'
+  tags:
+  - Theory
+  - ann:trouble
 - id: 1547081316771
   fields:
     Front: |
@@ -139,6 +156,8 @@ notes:
       \lim_{x \to a} g(x) = L.
       $$$$
     Annotations: ''
+  tags:
+  - Theory
 - id: 1547081316871
   tags: []
   fields:
@@ -246,7 +265,8 @@ notes:
       $0$
     Annotations: ''
 - id: 1547081317607
-  tags: []
+  tags:
+  - ann:trouble
   fields:
     Front: |
       CCAC 02.3 03: Evaluate the limit, and justify each step by indicating the appropriate Limit Law(s).
@@ -255,9 +275,10 @@ notes:
       $$$$
     Back: |
       $59$
-    Annotations: ''
+    Annotations: 'Trouble:<div>- 190217: flipped a sign.</div>'
 - id: 1547081317741
-  tags: []
+  tags:
+  - ann:trouble
   fields:
     Front: |
       CCAC 02.3 05: Evaluate the limit, and justify each step by indicating the appropriate Limit Law(s).
@@ -266,7 +287,7 @@ notes:
       $$$$
     Back: |
       $390$
-    Annotations: ''
+    Annotations: 'Trouble:<div>- 190217-1739: multiplied 64 by 2 instead of by 6.</div>'
 - id: 1547081317846
   tags: []
   fields:
@@ -317,7 +338,7 @@ notes:
     Front: |
       CCAC 02.3 15: Evaluate the limit, if it exists.
       $$$$
-      \lim_{h\to 0}\frac{(4 + h^2) - 16}{h}
+      \lim_{h\to 0}\frac{(4 + h)^2 - 16}{h}
       $$$$
     Back: |
       $8$

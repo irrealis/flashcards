@@ -1,0 +1,326 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Calculus-ConceptsAndContexts
+  - CCAC-03-DifferentiationRules
+  - CCAC-03.08-RatesOfChangeInTheNaturalAndSocialSciences
+  markdownTabLength: 2
+notes:
+- id: 1547595644938
+  media:
+  - path: ${file_dir}/images/CCAC-03.08-01.1.jpg
+  - path: ${file_dir}/images/CCAC-03.08-01.2.jpg
+  fields:
+    Front: |
+      CCAC 03.08 01: A particle moves according to a law of motion $s = f(t)$, $t \ge 0$, where $t$ is measured in seconds and $s$ in feet.
+      (a) Find the velocity at time $t$.
+      (b) What is velocity after $3 \; \mathrm{s}$?
+      (c) When is the particle at rest?
+      (d) When is the particle moving in the positive direction?
+      (e) Find the total distance traveled during the first $8 \; \mathrm{s}$.
+      (f) Draw a diagram like CCAC-3.8 Figure 2 to illustrate the motion of the particle.
+      (g) Find the acceleration at time $t$ and after $3 \; \mathrm{s}$.
+      (h) Graph the position, velocity, and acceleration functions for $0 \le t \le 8$.
+      (i) When is the particle speeding up? When is it slowing down?
+      $$$$
+      f(t) = t^3 - 12t^2 + 36t
+      $$$$
+    Back: |
+      (a) $3t^2 - 24t + 36$
+      (b) $-9 \; \mathrm{ft/s}$
+      (c) $t = 2, 6$
+      (d) $0 \le t < 2$, $t > 6$
+      (e) $96 \; \mathrm{ft}$
+      (f) ![](CCAC-03.08-01.1.jpg)
+      (g) $6t - 24$; $-6 \; \mathrm{ft/s^2}$
+      (h) ![](CCAC-03.08-01.2.jpg)
+      (i) Speeding up when $2 < t < 4$ or $t > 6$; slowing down when $0 \le t < 2$ or $4 < t < 6$.
+    Annotations: ''
+- id: 1547596030614
+  media:
+  - path: ${file_dir}/images/CCAC-03.08-05.1.jpg
+  - path: ${file_dir}/images/CCAC-03.08-05.2.jpg
+  fields:
+    Front: |
+      CCAC 03.08 05: Graphs of the _velocity_ functions of two particles are shown, where $t$ is measured in seconds. When is each particle speeding up? When is it slowing down? Explain.
+      (a) ![](CCAC-03.08-05.1.jpg)
+      (b) ![](CCAC-03.08-05.2.jpg)
+    Back: |
+      (a) Speeding up when $0 < t < 1$ or $2 < t < 3$; slowing down when $1 < t < 2$.
+      (b) Speeding up when $1 < t < 2$ or $3 < t < 4$; slowing down when $0 < t < 1$ or $2 < t < 3$.
+    Annotations: ''
+  tags: []
+- id: 1547596487889
+  fields:
+    Front: |
+      CCAC 03.08 07: The position function of a particle is given by $s = t^3 - 4.5t^2 - 7t$, $t \ge 0$.
+      (a) When does the particle reach velocity of $5 \; \mathrm{m/s}$?
+      (b) When is the acceleration zero? What is the significance of this value of $t$?
+    Back: |
+      (a) $t = 4 \; \mathrm{s}$
+      (b) $t = 1.5 \; \mathrm{s}$; the velocity has an absolute minimum.
+    Annotations: ''
+  tags: []
+- id: 1547596711138
+  fields:
+    Front: >
+      CCAC 03.08 09: If a stone is thrown vertically upward from the surface of the
+      moon with a velocity of $10 \;\mathrm{m/s}$, its height (in meters) after $t$
+      seconds is $h = 10t - 0.83t^2$.
+
+      (a) What is the velocity of the stone after $3 \;\mathrm{s}$?
+
+      (b) What is the velocity of the stone after it has risen $25 \;\mathrm{m}$?
+    Back: |
+      (a) $5.02 \;\mathrm{m/s}$
+      (b) $\sqrt{17} \;\mathrm{m/s}$
+    Annotations: ''
+  tags: []
+- id: 1547597021114
+  fields:
+    Front: >
+      CCAC 03.08 11:
+
+      (a) A company makes computer chips from square wafers of silicon. It wants to
+      keep the side length of a wafer very close to $15 \;\mathrm{mm}$, and it wants
+      to know how the area $A(x)$ of a wafer changes when the side length $x$ changes.
+      Find $A'(15)$ and explain its meaning in this situation.
+
+      (b) Show that the rate of change of the area of a square with respect to its
+      side length is half its perimeter. Try to explain geometrically why this is
+      true by drawing a square whose side length $x$ is increased by an amount $\Delta
+      x$. How can you approximate the resulting change in area $\Delta A$ if $\Delta
+      x$ is small?
+    Back: |
+      (a) $30 \;\mathrm{mm^2/mm}$; the rate at which the area is increasing with respect to side length as $x$ reaches $15 \;\mathrm{mm}$.
+      (b) $\Delta A \approx 2x\Delta x$.
+    Annotations: ''
+  tags: []
+- id: 1547597403514
+  fields:
+    Front: >
+      CCAC 03.08 13:
+        (a) Find the average rate of change of the area of a circle with respect to
+      its radius $r$ as $r$ changes from (i) $2$ to $3$, (ii) $2$ to $2.5$, (iii)
+      $2$ to $2.1$.
+        (b) Find the instantaneous rate of change when $r = 2$.
+        (c) Show that the rate of change of the area of a circle with respect to its
+      radius (at any $r$) is equal to the circumference of the circle. Try to explain
+      geometrically why this is true by drawing a circle whose radius is increased
+      by an amount $\Delta r$. How can you approximate the resulting change in area
+      $\Delta A$ if $\Delta r$ is small?
+    Back: |
+      (a) (i) $5\pi$, (ii) $4.5\pi$, (iii) $4.1\pi$.
+      (b) $4\pi$.
+      (c) $\Delta A \approx 2\pi r \Delta r$.
+    Annotations: ''
+  tags: []
+- id: 1547597650489
+  fields:
+    Front: >
+      CCAC 03.08 15: A spherical balloon is being inflated. Find the rate of increase
+      of the surface area $(S = 4\pi r^2)$ with respect to the radius $r$ when $r$
+      is (a) $1 \;\mathrm{ft}$, (b) $2 \;\mathrm{ft}$, and (c) $3 \;\mathrm{ft}$.
+      What conclusion can you make?
+    Back: |
+      (a) $8\pi \;\mathrm{ft^2/ft}$
+      (b) $16\pi \;\mathrm{ft^2/ft}$
+      (c) $24\pi \;\mathrm{ft^2/ft}$
+      The rate increases as the radius increases.
+    Annotations: ''
+  tags: []
+- id: 1547597894163
+  fields:
+    Front: >
+      CCAC 03.08 17: The mass of the part of a metal rod that lies between its left
+      end and a point $x$ meters to the right is $3x^2 \;\mathrm{kg}$. Find the linear
+      density (CCAC 3.8 Example 2) when $x$ is (a) $1 \;\mathrm{m}$, (b) $2 \;\mathrm{m}$,
+      and (c) $3 \;\mathrm{m}$. Where is the density the highest? The lowest?
+    Back: |
+      (a) $6 \;\mathrm{kg/m}$.
+      (b) $12 \;\mathrm{kg/m}$.
+      (c) $18 \;\mathrm{kg/m}$.
+      At the right end; at the left end.
+    Annotations: ''
+  tags: []
+- id: 1547598181239
+  fields:
+    Front: >
+      CCAC 03.08 19: The quantity of charge $Q$ in coulombs $(\mathrm{C})$ that has
+      passed through a point in a wire up to time $t$ (measured in seconds) is given
+      by $Q(t) = t^3 - 2t^2 + 6t + 2$. Find the current when (a) $t = 0.5 \;\mathrm{s}$
+      and (b) $t = 1 \;\mathrm{s}$. [See CCAC-3.8 Example 3. The unit of current is
+      an ampere $(1 \;\mathrm{A} = 1 \;\mathrm{C/s})$.] At what time is the current
+      lowest?
+    Back: |
+      (a) $4.75 \;\mathrm{A}$.
+      (b) $5 \;\mathrm{A}$.
+      $t = \frac{2}{3} \;\mathrm{s}$.
+    Annotations: ''
+  tags: []
+- id: 1547598378288
+  fields:
+    Front: >
+      CCAC 03.08 21: Boyle's Law states that when a sample of gas is compressed at
+      a constant temperature, the product of the pressure and the volume remains constant:
+      $PV = C$.
+
+      (a) Find the rate of change of volume with respect to pressure.
+
+      (b) A sample of gas is in a container at low pressure and is steadily compressed
+      at constant temperature for 10 minutes. Is the volume decreasing more rapidly
+      at the beginning or the end of the 10 minutes? Explain.
+
+      (c) Prove that the isothermal compressibility (see CCSC-3.8 Example 5) is given
+      by $\beta = 1/P$.
+    Back: |
+      (a) $dV/dP = -C/P^2$.
+      (b) At the beginning.
+    Annotations: ''
+  tags:
+  - proof
+- id: 1547598625163
+  fields:
+    Front: >
+      CCAC 03.08 23: In CCAC-3.8 Example 6 we considered a bacteria population that
+      doubles every hour. Suppose that another population triples every hour and starts
+      with 400 bacteria. Find an expression for the number $n$ of bacteria after $t$
+      hours, and use it to estimate the rate of growth of the bacteria population
+      after 2.5 hours.
+    Back: |
+      $400(3^t) \ln 3$; $\approx 6850 \;\mathrm{bacteria/h}$.
+    Annotations: ''
+  tags: []
+- id: 1547599233464
+  fields:
+    Front: |
+      CCAC 03.08 25: The table gives the population of the world in the 20th century.
+      $$$$
+      \begin{array}{|c|c|c|c|}
+      \hline
+      & \text{Population} &  & \text{Population} \\
+      \text{Year} & \text{(in millions)} & \text{Year} & \text{(in millions)} \\
+      \hline
+      1990 & 1650 & 1960 & 3040 \\
+      1910 & 1750 & 1970 & 3710 \\
+      1920 & 1860 & 1980 & 4450 \\
+      1930 & 2070 & 1990 & 5280 \\
+      1940 & 2300 & 2000 & 6080 \\
+      1950 & 2560 & & \\
+      \hline
+      \end{array}
+      $$$$
+      (a) Estimate the rate of population growth in 1920 and in 1980 by averaging the slopes of two secant lines.
+      (b) Use a graphing calculator or computer to find a cubic function (a third-degree polynomial) that models the data.
+      (c) Use your model in part (b) to find a model for the rate of population growth in the 20th century.
+      (d) Use part (c) to estimate the rates of growth in 1920 and 1980. Compare with your estimates in part (a).
+      (e) Estimate the rate of growth in 1985.
+    Back: |
+      (a) $16 \;\mathrm{million/year}$; $78.5 \;\mathrm{million/year}$.
+      (b) $P(t) = at^3 + bt^2 + ct + d$, where $a \approx 0.00129371$, $b \approx -7.061422$, $c \approx \text{12,822.979}$, $d \approx \text{7,743,770}$.
+      (c) $P'(t) = 3at^2 + 2bt + c$.
+      (d) $14.48 \;\mathrm{million/year}$; $75.29 \;\mathrm{million/year}$ (smaller)
+      (e) $81.62 \;\mathrm{million/year}$.
+    Annotations: ''
+  tags:
+  - requiresCoding
+- id: 1547599967813
+  fields:
+    Front: >
+      CCAC 03.08 27: Refer to the law of laminar flow given in CCAC-3.8 Example 7.
+      Consider a blood vessel with radius $0.01 \;\mathrm{cm}$, length $3 \;\mathrm{cm}$,
+      pressure difference $3000 \;\mathrm{dynes/cm^2}$, and viscosity $\eta = 0.027$.
+
+      (a) Find the velocity of the blood along the centerline $r = 0$, at radius $r
+      = 0.005 \;\mathrm{cm}$, and at the wall $r = R = 0.01 \;\mathrm{cm}$.
+
+      (b) Find the velocity gradient at $r = 0$ $r = 0.005$, and $r = 0.01$.
+
+      (c) Where is the velocity the greatest? Where is the velocity changing most?
+    Back: |
+      (a) $0.926 \;\mathrm{cm/s}$; $0.694 \;\mathrm{cm/s}$; $0$.
+      (b) $0$; $-92.6 \;\mathrm{(cm/s)/cm}$; $-185.2 \;\mathrm{(cm/s)/cm}$.
+      (c) At the center; at the edge.
+    Annotations: ''
+  tags: []
+- id: 1547600340763
+  useMarkdownMathExt: false
+  fields:
+    Front: |
+      CCAC 03.08 29: The cost, in dollars, of producing \\(x\\) yards of a certain fabric is
+      \\[
+      C(x) = 1200 + 12x - 0.1x^2 + 0.0005x^3
+      \\]
+      (a) Find the marginal cost function.
+      (b) Find \\(C'(200)\\), and explain its meaning. What does it predict?
+      (c) Compare \\(C'(200)\\) with the cost of manufacturing the 201st yard of fabric.
+    Back: |
+      (a) \\(C'(x) = 12 - 0.2x + 0.0015x^2\\).
+      (b) $32/yard; the cost of producing the 201st yard.
+      (c) $32.20.
+    Annotations: ''
+  tags: []
+- id: 1547600564964
+  fields:
+    Front: |
+      CCAC 03.08 31: If $p(x)$ is the total value of the production when there are $x$ workers in a plant, then the _average productivity_ of the workforce at the plant is
+      $$$$
+      A(x) = \frac{p(x)}{x}
+      $$$$
+      (a) Find $A'(x)$. Why does the company want to hire more workers if $A'(x) > 0$?
+      (b) Show that $A'(x) > 0$ if $p'(x)$ is greater than the average productivity.
+    Back: |
+      (a) $[xp'(x) - p(x)]/x^2$; the average productivity increases as new workers are added.
+    Annotations: ''
+  tags:
+  - proof
+- id: 1547600883963
+  fields:
+    Front: >
+      CCAC 03.08 33: The gas law for an ideal gas at absolute temperature $T$ (in
+      kelvins), pressure $P$ (in atmospheres), and volume $V$ (in liters) is $PV =
+      nRT$, where $n$ is the number of moles of the gas and $R = 0.0821$ is the gas
+      constant. Suppose that, at certain instant, $P = 8.0 \;\mathrm{atm}$ and is
+      increasing at a rate of $0.10 \;\mathrm{atm/min}$ and $V = 10 \;\mathrm{L}$
+      and is decreasing at a rate of $0.15 \;\mathrm{L/min}$. Find the rate of change
+      of $T$ with respect to time at that instant if $n = 10 \;\mathrm{mol}$.
+    Back: |
+      $-0.2436 \;\mathrm{K/min}$.
+    Annotations: ''
+  tags: []
+- id: 1547601241238
+  fields:
+    Front: >
+      CCAC 03.08 35: In the study of ecosystems, _predator-prey models_ are often
+      used to study the interaction between species. Consider populations of tundra
+      wolves, given by $W(t)$, and caribou, given by $C(t)$, in northern Canada. The
+      interaction has been modeled by the equations
+
+      $$$$
+
+      \frac{dC}{dt} = aC - bCW
+
+      \quad
+
+      \frac{dW}{dt} = -cW + dCW
+
+      $$$$
+
+      (a) What values of $dC/dt$ and $dW/dt$ correspond to stable populations?
+
+      (b) How would the statement "The caribou go extinct" be represented mathematically?
+
+      (c) Suppose that $a = 0.05$, $b = 0.001$, $c = 0.05$, and $d = 0.0001$. Find
+      all population pairs $(C, W)$ that lead to stable populations. According to
+      this model, is it possible for the two species to live in balance, or will one
+      or both species become extinct?
+    Back: |
+      (a) $0$ and $0$.
+      (b) $C = 0$.
+      (c) $(0, 0)$, $(500, 50)$; it is possible for the species to coexist.
+    Annotations: ''
+  tags: []

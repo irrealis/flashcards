@@ -144,7 +144,7 @@ notes:
     Back: |
       ![](CCAC-02.8-17.1.jpg)
     Annotations: ''
--- id: 1547213342121
+- id: 1547213342121
   media:
   - path: ${file_dir}/images/02.8-19.1.jpg
     name: CCAC-02.8-19.1.jpg
@@ -251,4 +251,14 @@ notes:
       ![](CCAC-02.8-33.1.jpg)
     Annotations: ''
   tags:
-   requiresCoding
+  - C
+  - d
+  - e
+  - g
+  - i
+  - n
+  - o
+  - q
+  - r
+  - s
+  - u

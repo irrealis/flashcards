@@ -124,13 +124,14 @@ notes:
     Front: |
       CCAC 02.5 05: Sketch the graph of an example of a function $f$ that satisfies all of the given conditions.
       $$$$
-      \lim_{x \to 0} f(x) = \infty, \quad
+      \lim_{x \to 0} f(x) = -\infty, \quad
       \lim_{x \to -\infty} f(x) = 5, \quad
       \lim_{x \to \infty} f(x) = -5
       $$$$
     Back: |
       ![](CCAC-02.5-05.jpg)
     Annotations: ''
+  tags: []
 - id: 1547149264824
   media:
   - path: ${file_dir}/images/02.5-07.jpg
@@ -205,28 +206,12 @@ notes:
       $$$$
       y = \frac{x^3}{x^3 - 2x + 1}
       $$$$
-      by evaluating the function $f(x) = x^2/2^x$ for $x=0$, $1$, $2$, $3$, $4$, $5$, $6$, $7$, $8$, $9$, $10$, $20$, $50$, and $100$. Then use a graph of $f$ to support your guess.
     Back: |
       $x \approx -1.62$, $x \approx 0.62$, $x = 1$, $y = 1$;
-      ```{python echo = False}
-      import matplotlib.pyplot as plt
-      import sympy as sy
-
-      import math
-
-      plt.rc('text', usetex = True)
-      plt.rc('font', family = 'serif')
-
-      x = sy.symbols('x')
-      p = sy.plot(
-        ((x**3)/(x**3 - 2*x + 1), (x, -6, 6)),
-        xlim = (-6, 6), ylim = (-4, 4),
-        xlabel = '$x$', ylabel = '$y$',
-      )
-      ```
     Annotations: ''
     tags:
     - requiresCoding
+  tags: []
 - id: 1547149271421
   fields:
     Front: |

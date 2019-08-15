@@ -22,7 +22,8 @@ notes:
       $\sec' x = \sec x \tan x$
       $\cot' x = -\csc^2 x$
     Annotations: ''
-  tags: []
+  tags:
+  - Theory
 - id: 1547501800596
   fields:
     Front: |

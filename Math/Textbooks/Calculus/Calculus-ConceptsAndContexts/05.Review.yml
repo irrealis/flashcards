@@ -1,0 +1,20 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Calculus-ConceptsAndContexts
+  - CCAC-05-Integrals
+  - CCAC-05.Review
+  markdownTabLength: 2
+notes:
+- id: 1565654879965
+  fields:
+    Front: |
+      CCAC 05.Review 01: ...
+    Back: |
+      ...
+    Annotations: ''
+  tags: []

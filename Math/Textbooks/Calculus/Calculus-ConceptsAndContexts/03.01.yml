@@ -19,6 +19,8 @@ notes:
       \frac{d}{dx} (c) = 0
       $$$$
     Annotations: ''
+  tags:
+  - Theory
 - id: 1547241826858
   fields:
     Front: |
@@ -29,7 +31,8 @@ notes:
       \frac{d}{dx} (x^n) = nx^{n-1}
       $$$$
     Annotations: ''
-  tags: []
+  tags:
+  - Theory
 - id: 1547241826988
   fields:
     Front: |
@@ -40,7 +43,8 @@ notes:
       (cf)' = cf'
       $$$$
     Annotations: ''
-  tags: []
+  tags:
+  - Theory
 - id: 1547241827092
   fields:
     Front: |
@@ -51,7 +55,8 @@ notes:
       (f + g)' = f' + g'
       $$$$
     Annotations: ''
-  tags: []
+  tags:
+  - Theory
 - id: 1547241827196
   fields:
     Front: |
@@ -62,7 +67,8 @@ notes:
       \lim_{h \to 0} \frac{e^h - 1}{h} = 1
       $$$$
     Annotations: ''
-  tags: []
+  tags:
+  - Theory
 - id: 1547241827298
   fields:
     Front: |
@@ -72,7 +78,8 @@ notes:
       \frac{d}{dx} (e^x) = e^x
       $$$$
     Annotations: ''
-  tags: []
+  tags:
+  - Theory
 - id: 1547241827421
   fields:
     Front: |

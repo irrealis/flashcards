@@ -23,27 +23,29 @@ notes:
       \end{cases}
       $$$$
     Annotations: ''
-  tags: []
+  tags:
+  - Theory
 - id: 1547063852046
   fields:
     Front: |
-      CCAC A 00b: State seven critical properties of absolute values.
+      CCAC A 00b: State Eight critical properties of absolute values.
     Back: |
       For any real numbers $a$ and $b$ and integer $n$,
-      (0) $\sqrt{a^2} = |a|$
-      (1) $|ab| = |a||b|$
-      (2) $|a^n| = |a|^n$
+      (1) $\sqrt{a^2} = |a|$
+      (2) $|a+b| \le |a|+|b|$ (Triangle Inequality)
+      (3) $|ab| = |a||b|$
+      (4) $|a^n| = |a|^n$
 
-      For $b \ne n$,
-      (3) $\left|\frac{a}{b}\right| = \frac{|a|}{|b|}$
+      For $b \ne 0$,
+      (5) $\left|\frac{a}{b}\right| = \frac{|a|}{|b|}$
 
       For any real $x$ and $a > 0$,
-      (4) $|x| = a$ if and only if $x = \pm a$
-      (5) $|x| < a$ if and only if $-a < x < a$
-      (g) $|x| > a$ if and only if $x > a$ or $x < -a$
-    Annotations: Fix me:<div>- should read \(b \ne 0\), not \(b \ne n\).</div>
+      (6) $|x| = a$ if and only if $x = \pm a$
+      (7) $|x| < a$ if and only if $-a < x < a$
+      (8) $|x| > a$ if and only if $x > a$ or $x < -a$
+    Annotations: ''
   tags:
-  - ann:fix-me
+  - Theory
 - id: 1547063852178
   tags: []
   fields:
@@ -173,7 +175,7 @@ notes:
   useMarkdown: pweave
   fields:
     Front: |
-      CCAC A 17: Solve the inequality $0 \le 1-x < 1$ in terms of intervals, and illustrate the solution set on the real nuumber line.
+      CCAC A 17: Solve the inequality $(x - 1)(x - 2) > 0$ in terms of intervals, and illustrate the solution set on the real nuumber line.
     Back: |
       $(-\infty, 1) \cup (2, \infty)$
       ```{python echo = False}
@@ -194,10 +196,8 @@ notes:
       ax.plot(2, 0, 'ko', markerfacecolor = 'white', markersize = 4)
       _=_
       ```
-    Annotations: 'Fix me:<div>- 190114: I don’t think the card’s answer is correct.
-      Compare with original text.</div>'
-  tags:
-  - ann:fix-me
+    Annotations: ''
+  tags: []
 - id: 1547063856996
   useMarkdown: pweave
   fields:
@@ -321,29 +321,19 @@ notes:
   tags: []
 - id: 1547063861376
   fields:
-    Front: >
-      CCAC A 29a: As dry air moves upward, it expands, and in doing so cools at a
-      rate of about $1^\circ$C for each 100-m rise, up to about 12 km. If the ground
-      temperature is $20^\circ$C, write a formula for the temperature at height $h$.
+    Front: |
+      CCAC A 29: As dry air moves upward, it expands, and in doing so cools at a
+      rate of about $1^\circ$C for each 100-m rise, up to about 12 km.
+
+      (a) If the ground temperature is $20^\circ$C, write a formula for the temperature at height $h$.
+      (b) What range of temperature can be expected if a plane takes off and reaches a maximum of 5 km?
     Back: |
-      $T = 20 - 10h$, $0 \le h \le 12$
-    Annotations: 'Fix me:<div>190114: should combine parts (a) &amp; (b).</div><div><br></div><div>Minor
-      trouble:</div><div>190114: I expressed formula for meters instead of km. I’d
-      say the latter is correct.</div>'
+      (a) $T = 20 - 10h$, $0 \le h \le 12$
+      (b) $-30^\circ\text{C} \le T \le 20^\circ\text{C}$
+    Annotations: '<div>Minor trouble:</div><div>190114: I expressed formula for meters
+      instead of km. I’d say the latter is correct.</div>'
   tags:
-  - ann:fix-me
   - ann:minor-trouble
-- id: 1547063861496
-  fields:
-    Front: >
-      CCAC A 29b: As dry air moves upward, it expands, and in doing so cools at a
-      rate of about $1^\circ$C for each 100-m rise, up to about 12 km. What range
-      of temperature can be expected if a plane takes off and reaches a maximum of
-      5 km?
-    Back: |
-      $-30^\circ\text{C} \le T \le 20^\circ\text{C}$
-    Annotations: ''
-  tags: []
 - id: 1547063861596
   fields:
     Front: |

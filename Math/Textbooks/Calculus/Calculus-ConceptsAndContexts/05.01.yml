@@ -1,0 +1,228 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Calculus-ConceptsAndContexts
+  - CCAC-05-Integrals
+  - CCAC-05.01-AreasAndDistances
+  markdownTabLength: 2
+notes:
+- id: 1565655185144
+  media:
+  - path: ${file_dir}/images/CCAC-05.01-01.1.jpg
+  - path: ${file_dir}/images/CCAC-05.01-01.2.jpg
+  - path: ${file_dir}/images/CCAC-05.01-01.3.jpg
+  fields:
+    Front: |
+      CCAC 05.01 01:
+      (a) By reading values from the given graph of $f$, use four rectangles to find a lower estimate and an upper estimate for the area under the given graph of $f$ from $x=0$ to $x=8$. In each case sketch the rectangles that you use.
+      (b) Find new estimates using eight rectangles in each casee.
+      ![](CCAC-05.01-01.1.jpg)
+    Back: |
+      (a) $L_4 \approx 33$, $R_4 \approx 41$
+      ![](CCAC-05.01-01.2.jpg)
+      (b) $L_8 \approx 35.1$, $R_8 \approx 39.1$
+      ![](CCAC-05.01-01.3.jpg)
+    Annotations: ''
+  tags: []
+- id: 1565655185344
+  media:
+  - path: ${file_dir}/images/CCAC-05.01-03.1.jpg
+  - path: ${file_dir}/images/CCAC-05.01-03.2.jpg
+  fields:
+    Front: >
+      CCAC 05.01 03:
+
+      (a) Estimate the area under the graph of $f(x)=\cos x$ from $x=0$ to $x=\pi/2$
+      using four approximating rectangles and right endpoints. Sketch the graph and
+      the rectangles. Is your estimate an underestimate or an overestimate?
+
+      (b) Repeat part (a) using left endpoints.
+    Back: |
+      (a) 0.7908, underestimate
+      ![](CCAC-05.01-03.1.jpg)
+      (b) 1.1835, overestimate
+      ![](CCAC-05.01-03.2.jpg)
+    Annotations: ''
+  tags: []
+- id: 1565655185570
+  media:
+  - path: ${file_dir}/images/CCAC-05.01-05.1.jpg
+  - path: ${file_dir}/images/CCAC-05.01-05.2.jpg
+  - path: ${file_dir}/images/CCAC-05.01-05.3.jpg
+  fields:
+    Front: |
+      CCAC 05.01 05:
+      (a) Estimate the area under the graph of $f(x)=1+x^2$ from $x=-1$ to $x=2$ using three rectangles and right endpoints. Then improve your estimate by using six rectangles. Sketch the curve and the approximating rectangles.
+      (b) Repeat part (a) using left endpoints.
+      (c) Repeat part (a) using midpoints.
+      (d) From your sketches in parts (a)-(c), which appears to be the best estimate?
+    Back: |
+      (a) 8, 6.875
+      ![](CCAC-05.01-05.1.jpg)
+      (b) 5, 5.375
+      ![](CCAC-05.01-05.2.jpg)
+      (c) 5.75, 5.9375
+      ![](CCAC-05.01-05.3.jpg)
+      (d) $M_6$
+    Annotations: ''
+  tags: []
+- id: 1565655185794
+  fields:
+    Front: >
+      CCAC 05.01 07: With a programmable calculator (or a computer), it is possible
+      to evaluate the expressions for the sums of areas using approximating rectangles,
+      even for large values of $n$, using looping. (On a  TI use the Is> command or
+      a For-EndFor loop, on a Casio use Isz, on an HP or in BASIC use a FOR-NEXT loop.)
+      Compute the sum of the areas of approximating rectangles using equal subintervals
+      and right endpoints for $n=$ 10, 30, 50, and 100. Then guess the value of the
+      exact area.
+
+
+      The region under $y=x^4$ from 0 to 1.
+    Back: |
+      0.2533, 0.2170, 0.2101, 0.2050; 0.2
+    Annotations: ''
+  tags:
+  - requiresCoding
+- id: 1565655185970
+  fields:
+    Front: >
+      CCAC 05.01 09:
+
+      Some computer algebra systems have commands that will draw approximating rectangles
+      and evaluate the sums of their areas, at least if $x^{*}_{i}$ is a left or right
+      endpoint. (For instance, in maple use `leftbox`, `rightbox`, `leftsum`, and
+      `rightsum`.)
+
+      (a) If $f(x) = 1/(x^2+1)$, $0 \le x \le 1$, find the left and right sums for
+      $n=$ 10, 30, and 50.
+
+      (b) Illustrate by graphing the rectangles in part (a).
+
+      (c) Show that the exact area under $f$ lies between 0.780 and 0.791.
+    Back: |
+      (a) Left: 0.8100, 0.7937, 0.7904; Right: 0.7600, 0.7770, 0.7804
+    Annotations: ''
+  tags: []
+- id: 1565655186120
+  fields:
+    Front: |
+      CCAC 05.01 13: Oil leaked from a tank at a rate of $r(t)$ liters per hour. The rate decreased as time passed and values of the rate at two-hour time intervals are shown in the table. Find lower and upper estimates for the total amount of oil that leaked out.
+
+      $$
+      \begin{array}{|c|c|c|c|c|c|c|}
+        \hline
+        t \text{ (h)} & 0 & 2 & 4 & 6 & 8 & 10 \\
+        \hline
+        r(t) \text{ (L/h)} & 8.7 & 7.6 & 6.8 & 6.2 & 5.7 & 5.3 \\
+        \hline
+      \end{array}
+      $$
+    Back: |
+      63.2 L, 70 L
+    Annotations: ''
+  tags: []
+- id: 1565655186244
+  media:
+  - path: ${file_dir}/images/CCAC-05.01-15.1.jpg
+  fields:
+    Front: |
+      CCAC 05.01 15:  The velocity graph of a braking car is shown. Use it to estimate the distance traveled by the car while the brakes are applied.
+      ![](CCAC-05.01-15.1.jpg)
+    Back: |
+      155 ft
+    Annotations: ''
+  tags: []
+- id: 1565655186374
+  fields:
+    Front: |
+      CCAC 05.01 17: Use CCAC Definition 2 to find an expression for the area under the graph of $f$ as a limit. Do not evaluate the limit.
+
+      $$$$
+      f(x) = \frac{2x}{x^2+1}, \quad 1 \le x \le 3
+      $$$$
+    Back: |
+      $$$$
+      \lim_{n\to\infty} \sum_{i=1}^{n} \frac{2(1 + 2i/n)}{(1 + 2i/n)^2 + 1}\cdot\frac{2}{n}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1565655186475
+  fields:
+    Front: |
+      CCAC 05.01 19: Use CCAC Definition 2 to find an expression for the area under the graph of $f$ as a limit. Do not evaluate the limit.
+
+      $$$$
+      f(x) = x \cos x, \quad 0 \le x \le \pi/2
+      $$$$
+    Back: |
+      $$$$
+      \lim_{n\to\infty} \sum_{i=1}^{n} \left( \frac{i\pi}{2n} \cos \frac{i\pi}{2n} \right) \frac{\pi}{2n}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1565655186582
+  fields:
+    Front: |
+      CCAC 05.01 21: Determine a region whose area is equal to the given limit. Do not evaluate the limit.
+
+      $$$$
+      \lim_{n\to\infty} \sum_{i=1}^{n} \frac{\pi}{4n} \tan \frac{i\pi}{4n}
+      $$$$
+    Back: |
+      The region under the graph of $y = \tan x$ from 0 to $\pi/4$
+    Annotations: ''
+  tags: []
+- id: 1565655186699
+  fields:
+    Front: |
+      CCAC 05.01 23: Let $A$ be the area under the graph of an increasing continuous function $f$ from $a$ to $b$, and let $L_n$ and $R_n$ be the approximations to $A$ with $n$ subintervals using left and right endpoints, respectively.
+      (a) How are $A$, $L_n$, and $R_n$ related?
+      (b) Show that
+          $$$$
+          R_n - L_n = \frac{b-a}{n} [f(b) - f(a)]
+          $$$$
+      (c) Deduce that
+          $$$$
+          R_n - A < \frac{b-a}{n} [f(b) - f(a)]
+          $$$$
+    Back: |
+      (a) $L_n < A < R_n$
+    Annotations: ''
+  tags: []
+- id: 1565655186832
+  fields:
+    Front: |
+      CCAC 05.01 25:
+      (a) Express the are under the curve $y=x^5$ from 0 to 2 as a limit.
+      (b) Use a computer algebra system to find the sum in your expression from part (a).
+      (c) Evaluate the limit in part (a).
+    Back: |
+      (a)
+      $$$$
+      \lim_{n\to\infty} \frac{64}{n^6} \sum_{i=0}^{n} i^5
+      $$$$
+      (b)
+      $$$$
+      \frac{n^2 (n+1)^2 (2n^2 + 2n - 1)}{12}
+      $$$$
+      (c) $\frac{32}{3}$
+    Annotations: ''
+  tags:
+  - requiresCoding
+- id: 1565655186985
+  fields:
+    Front: >
+      CCAC 05.01 27: Find the exact area under the cosine curve $y=\cos x$ from $x=0$
+      to $x=b$, where $0 \le b \le \pi/2$. (Use a computer algebra system both to
+      evaluate the sum and compute the limit.) In particular, what is the area if
+      $b=\pi/2$?
+    Back: |
+      $\sin b$, 1
+    Annotations: ''
+  tags:
+  - requiresCoding

@@ -1,0 +1,465 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Calculus-ConceptsAndContexts
+  - CCAC-04-ApplicationsOfDifferentiation
+  - CCAC-04.06-OptimizationProblems
+  markdownTabLength: 2
+notes:
+- id: 1547778120109
+  fields:
+    Front: |
+      CCAC 04.06 00a: Describe **The First Derivative Test for Absolute Extreme Values**.
+    Back: >
+      Suppose that $c$ is a critical number of a continuous function $f$ defined on
+      an interval.
+
+      (a) If $f'(x) > 0$ for all $x < c$ and $f'(x) < 0$ for all $x > c$, then $f(x)$
+      is the absolute maximum value of $f$.
+
+      (b) If $f'(x) < 0$ for all $x < c$ and $f'(x) > 0$ for all $x > c$, then $f(x)$
+      is the absolute minimum value of $f$.
+    Annotations: ''
+  tags:
+  - Theory
+- id: 1547778120307
+  fields:
+    Front: |
+      CCAC 04.06 01: Consider the following problem: Find two numbers whose sum is 23 and whose product is a maximum.
+      (a) Make a table of values, like the following one, so that the sum of the numbers in the first columns is always 23. On the basis of the evidence in your table, estimate the answer to the problem.
+      $$$$
+      \begin{array}{|c|c|c|}
+      \hline
+      \text{First number} & \text{Second number} & \text{Product} \\
+      \hline
+      1 & 22 & 22 \\
+      2 & 21 & 42 \\
+      3 & 20 & 60 \\
+      \vdots & \vdots & \vdots \\
+      \hline
+      \end{array}
+      $$$$
+      (b) Use calculus to solve the problem and compare with your answer to part (a).
+    Back: |
+      (a) 11, 12
+      (b) 11.5, 11.5
+    Annotations: ''
+  tags: []
+- id: 1547778120487
+  fields:
+    Front: |
+      CCAC 04.06 03: Find two positive numbers whose product is 100 and whose sum is a minimum.
+    Back: |
+      10, 10
+    Annotations: ''
+  tags: []
+- id: 1547778120639
+  fields:
+    Front: |
+      CCAC 04.06 05: Find the dimensions of a rectangle with perimeter $100\text{ m}$ whose area is as large as possible.
+    Back: |
+      $25\text{ m}$ by $25\text{ m}$
+    Annotations: ''
+  tags: []
+- id: 1547778120806
+  fields:
+    Front: |
+      CCAC 04.06 07: A model used for the yield $Y$ of an agricultural crop as a function of nitrogen level $N$ in the soil (measured in appropriate units) is
+      $$$$
+      Y = \frac{kN}{1 + N^2}
+      $$$$
+      where $k$ is a positive constant. What nitrogen level gives the best yield?
+    Back: |
+      $N = 1$
+    Annotations: ''
+  tags: []
+- id: 1547778121019
+  media:
+  - path: ${file_dir}/images/CCAC-04.06-09.1.jpg
+  fields:
+    Front: >
+      CCAC 04.06 09: Consider the following problem: A farmer with $750\text{ ft}$
+      of fencing wants to enclose a rectangular area and then divide it into four
+      pens with fencing parallel to one side of the rectangle. What is the largest
+      possible total area of the four pens?
+
+      (a) Draw several diagrams illustrating the situation, some with shallow, wide
+      pens and some with deep, narrow pens. Find the total areas of these configurations.
+      Does it appear that there is a maximum area? If so, estimate it.
+
+      (b) Draw a diagram illustrating the general situation. Introduce notation and
+      label the diagram with your symbols.
+
+      (c) Write an expression for the total area.
+
+      (d) Use the given information to write an equation that relates the variables.
+
+      (e) Use part (d) to write the total area as a function of one variable.
+
+      (f) Finish solving the problem and compare the answer with your estimate in
+      part (a).
+    Back: |
+      ![](CCAC-04.06-09.1.jpg)
+      (c) $A = xy$
+      (d) $5x + 2y = 750$
+      (e) $A(x) = 375x - \frac{5}{2}x^2$
+      (f) $\text{14,062.5 ft}^2$
+    Annotations: ''
+  tags: []
+- id: 1547778121206
+  fields:
+    Front: >
+      CCAC 04.06 11: If $\text{1200 cm}^2$ of material is available to make a box
+      with a square base and an open top, find the largest possible volume of the
+      box.
+    Back: |
+      $\text{4000 cm}^3$
+    Annotations: ''
+  tags: []
+- id: 1547778121310
+  fields:
+    Front: |
+      CCAC 04.06 15: Find the points on the ellipse $4x^2 + y^2 = 4$ that are farthest away from the point $(1, 0)$.
+    Back: |
+      $(-\frac{1}{3}, \pm\frac{4}{3}\sqrt{2})$
+    Annotations: ''
+  tags: []
+- id: 1547778121465
+  fields:
+    Front: >
+      CCAC 04.06 17: Find the dimensions of the rectangle of largest area that can
+      be inscribed in an equilateral triangle of side $L$ if one side of the rectangle
+      lies on the base of the triangle.
+    Back: |
+      $L/2$, $\sqrt{3}L/4$
+    Annotations: ''
+  tags: []
+- id: 1547778121595
+  fields:
+    Front: |
+      CCAC 04.06 19: A right circular cylinder is inscribed in a sphere of radius $r$. Find the largest possible volume of such a cylinder.
+    Back: |
+      $4\pi r^3/(3 \sqrt{3})$
+    Annotations: ''
+  tags: []
+- id: 1547778121739
+  fields:
+    Front: |
+      CCAC 04.06 21: Find the dimensions of the isosceles triangle of largest area that can be inscribed in a circle of radius $r$.
+    Back: |
+      Base $\sqrt{3}r$, height $3r/2$
+    Annotations: ''
+  tags: []
+- id: 1547778121909
+  fields:
+    Front: >
+      CCAC 04.06 23: A Norman window has the shape of a rectangle surmounted by a
+      semicircle. (Thus the diameter of the semicircle is equal to the width of the
+      rectangle.) If the perimeter of the window is $\text{30 ft}$, find the dimensions
+      of the window so that the greatest possible amount of light is admitted.
+    Back: |
+      Width $60/(4 + \pi)\text{ ft}$; rectnagle height $30/(4 + \pi)\text{ ft}$
+    Annotations: ''
+  tags: []
+- id: 1547778122114
+  fields:
+    Front: >
+      CCAC 04.06 25: A piece of wire $\text{10 m}$ long is cut into two pieces. One
+      piece is bent into a square and the other is bent into an equilateral triangle.
+      How should the wire be cut so that the total area enclosed is (a) a maximum?
+      (b) a minimum?
+    Back: |
+      (a) Use all of the wire for the square
+      (b) $40\sqrt{3}/(9 + 4\sqrt{3})\text{ m}$ for the square
+    Annotations: ''
+  tags: []
+- id: 1547778122239
+  media:
+  - path: ${file_dir}/images/CCAC-04.06-27.1.jpg
+  fields:
+    Front: >
+      CCAC 04.06 27: A cone-shaped drinking cup is made from a circular piece of paper
+      of radius $R$ by cutting out a sector and joining the edges $CA$ and $CB$. Find
+      the maximum capacity of such a cup.
+
+      ![](CCAC-04.06-27.1.jpg)
+    Back: |
+      $V = 2\pi R^3/(9\sqrt{3})$
+    Annotations: ''
+  tags: []
+- id: 1547778122409
+  fields:
+    Front: |
+      CCAC 04.06 31: If a resistor of $R$ ohms is connected across a battery of $E$ volts with internal resistance $r$ ohms, then the power (in watts) in the external resistor is
+      $$$$
+      P = \frac{E^2 R}{(R + r)^2}
+      $$$$
+      If $E$ and $r$ are fixed but $R$ varies, what is the maximum value of the power?
+    Back: |
+      $$$$
+      E^2/(4r)
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547778122615
+  media:
+  - path: ${file_dir}/images/CCAC-04.06-33.1.jpg
+  fields:
+    Front: >
+      CCAC 04.06 33: In a beehive, each cell is a regular hexagonal prism, open at
+      one end with a trihedral angle at the other end as in the figure. It is believed
+      that bees form their cells in such a way as to minimize the surface area for
+      a given volume, thus using the least amount of wax in cell construction. Examination
+      of these cells has shown that the measure of the apex angle $\theta$ is amazingly
+      consistent. Based on the geometry of the cell, it can be shown that the surface
+      area $S$ is given by
+
+      $$$$
+
+      S = 6sh - \tfrac{3}{2}s^2 \cot \theta + (3s^2\sqrt{3}/2) \csc \theta
+
+      $$$$
+
+      where $s$, the length of the sides of the hexagon, and $h$, the height, are
+      constants.
+
+      (a) Calculate $dS/d\theta$.
+
+      (b) What angle should the bees prefer?
+
+      (c) Determine the minimum surface area of the cell (in terms of $s$ and $h$).
+
+      _Note:_ Actual measurements of the angle $\theta$ in beehives have been made,
+      and the measures of these angles seldom differ from the calculated value by
+      more than $2^\circ$.
+
+      ![](CCAC-04.06-33.1.jpg)
+    Back: |
+      (a) $\frac{3}{2}s^2 \csc \theta (\csc \theta - \sqrt{3}\cot \theta)$
+      (b) $\cos^{-1}(1/\sqrt{3}) \approx 55^\circ$
+      (c) $6s[h + s/(2\sqrt{2})]$
+    Annotations: ''
+  tags: []
+- id: 1547778122839
+  useMarkdownMathExt: false
+  fields:
+    Front: >
+      CCAC 04.06 35: An oil refinery is located on the north bank of a straight river
+      that is \\(\text{2 km}\\) wide. A pipeline is to be constructed from the refinery
+      to storage tanks located on the south bank of the river \\(\text{6 km}\\) east
+      of the refinery. The cost of laying pipe is $400,000/km over land to a point
+      \\(P\\) on the north bank and $800,000/km under the river to the tanks. To minimize
+      the cost of the pipeline, where should \\(P\\) be located?
+    Back: |
+      \\(\approx 4.85\text{ km}\\) east of the refinery
+    Annotations: ''
+  tags: []
+- id: 1547778123018
+  fields:
+    Front: >
+      CCAC 04.06 37: The illumination of an object by a light source is directly proportional
+      to the strength of the source and inversely proportional to the square of the
+      distance from the source. If two light sources, one three times as strong as
+      the other, are placed $10 \text{ ft}$ apart, where should an object be placed
+      on the line between the sources so as to receive the least illumination?
+    Back: |
+      $10\sqrt[3]{3}/(1 + \sqrt[3]{3})\text{ ft}$ from the stronger source
+    Annotations: ''
+  tags: []
+- id: 1547778123189
+  fields:
+    Front: |
+      CCAC 04.06 39: Find an equation of the line through the point $(3, 5)$ that cuts off the least area from the first quadrant.
+    Back: |
+      $y = -\frac{5}{3}x + 10$
+    Annotations: ''
+  tags: []
+- id: 1547778123319
+  fields:
+    Front: >
+      CCAC 04.06 41: What is the shortest possible length of the line segment that
+      is cut off by the first quadrant and is tangent to the curve $y = 3/x$ at some
+      point?
+    Back: |
+      $2\sqrt{6}$
+    Annotations: ''
+  tags: []
+- id: 1547778123484
+  useMarkdownMathExt: false
+  fields:
+    Front: >
+      CCAC 04.06 43:
+
+      (a) If \\(C(x)\\) is the cost of producing \\(x\\) units of a commodity, then
+      the **average cost** per unit is \\(c(x) = C(x)/x\\). Show that if the average
+      cost is minimum, then the marginal cost equals the average cost.
+
+      (b) If \\(C(x) = \text{16,000} + 200x + 4x^{3/2}\\), in dollars, find (i) the
+      cost, average cost, and marginal cost at a production level of 1000 units; (ii)
+      the production level that will minimize the average cost; and (iii) the minimum
+      average cost.
+    Back: |
+      (b) (i) $342,491; $342/unit; $390/unit; (ii) 400; (iii) $320/unit.
+    Annotations: ''
+  tags:
+  - Proof
+- id: 1547778123667
+  useMarkdownMathExt: false
+  fields:
+    Front: >
+      CCAC 04.06 45: A baseball team plays in a stadium that holds 55,000 spectators.
+      With ticket prices at $10, the average attendance had been 27,000. When ticket
+      prices were lowered to $8, the average attendance rose to 33,000.
+
+      (a) Find the demand function, assuming that it is linear.
+
+      (b) How should ticket prices be set to maximize revenue?
+    Back: |
+      (a) \\(p(x) = 19 - \frac{1}{3000}x\\)
+      (b) $9.50
+    Annotations: ''
+  tags: []
+- id: 1547778123813
+  useMarkdownMathExt: false
+  fields:
+    Front: >
+      CCAC 04.06 47: A manufacturer has been selling 1000 television sets a week at
+      $450 each. A market survey indicates that for each $10 rebate offered to the
+      buyer, the number of sets sold will increase by 100 per week.
+
+      (a) Find the demand function.
+
+      (b) How large a rebate shoud the company offer the buyer in order to maximize
+      its revenue?
+
+      (c) If its weekly cost function is \\(C(x) = \text{68,000} + 150x\\), how should
+      the manufacturer set the size of the rebate in order to maximize its profit?
+    Back: |
+      (a) \\(p(x) = 550 - \frac{1}{10} x\\)
+      (b) $175
+      (c) $100
+    Annotations: ''
+  tags: []
+- id: 1547778123963
+  fields:
+    Front: >
+      CCAC 04.06 49: Let $a$ and $b$ be positive numbers. Find the length of the shortest
+      line segment that is cut off by the first quadrant and passes through the point
+      $(a, b)$.
+    Back: |
+      $(a^{2/3} + b^{2/3})^{3/2}$
+    Annotations: ''
+  tags: []
+- id: 1547778124094
+  media:
+  - path: ${file_dir}/images/CCAC-04.06-53.1.jpg
+  fields:
+    Front: >
+      CCAC 04.06 53: The upper right-hand corner of a piece of paper, $\text{ 12 in.}$
+      by $\text{8 in.}$ as in the figure, is folded over to the bottom edge. How would
+      you fold it so as to minimize the length of the fold? In other words, how would
+      you choose $x$ to minimize $y$?
+
+      ![](CCAC-04.06-53.1.jpg)
+    Back: |
+      $x = 6\text{ in.}$
+    Annotations: ''
+  tags: []
+- id: 1547778124288
+  fields:
+    Front: |
+      CCAC 04.06 55: Find the maximum area of a rectangle that can be circumscribed about a given rectangle with length $L$ and width $W$.
+      [_Hint:_ Express the area as a function of an angle $\theta$.]
+    Back: |
+      $\frac{1}{2}(L + W)^2$
+    Annotations: ''
+  tags: []
+- id: 1547778124438
+  media:
+  - path: ${file_dir}/images/CCAC-04.06-57.1.jpg
+  fields:
+    Front: |
+      CCAC 04.06 57: Where should the point $P$ be chosen on the line segment $AB$ so as to maximize the angle $\theta$?
+      ![](CCAC-04.06-57.1.jpg)
+    Back: |
+      At a distance $5 - 2\sqrt{5}$ from $A$
+    Annotations: ''
+  tags: []
+- id: 1547778124682
+  media:
+  - path: ${file_dir}/images/CCAC-04.06-59.1.jpg
+  fields:
+    Front: >
+      CCAC 04.06 59: Ornithologists have determined that some species of birds tend
+      to avoid flights over large bodies of water during daylight hours. It is believed
+      that more energy is required to fly over water than over land because air generally
+      rises over land and falls over water during the day. A bird with these tendencies
+      is released from an island that is $\text{5 km}$ from the nearest point $B$
+      on a straight shoreline, flies to a point $C$ on the shoreline, and then flies
+      along the shoreline to its nesting area $D$. Assume that the bird instinctively
+      chooses a path that will minimize its energy expenditure. Points $B$ and $D$
+      are $\text{13 km}$ apart.
+
+      (a) In general, if it takes 1.4 times as much energy to fly over water as it
+      does over land, to what point $C$ should the bird fly in order to minimize the
+      total energy expended in returning to its nesting area?
+
+      (b) Let $W$ and $L$ denote the energy (in joules) per kilometer flown over water
+      and land, respectively. What would a large value of the ratio $W/L$ mean in
+      terms of the bird's flight? What would a small value mean? Determine the ratio
+      $W/L$ corresponding to the minimum expenditure of energy.
+
+      (c) What should the value of $W/L$ be in order for the bird to fly directly
+      to its nesting area $D$? What should the value of $W/L$ be for the bird to fly
+      to $B$ and then along the shore to $D$?
+
+      (d) If the ornithologists observe that birds of a certain species reach the
+      shore at a point $\text{4 km}$ from $B$, how many times more energy does it
+      take a bird to fly over water than over land?
+
+      ![](CCAC-04.06-59.1.jpg)
+    Back: |
+      (a) About $\text{5.1 km}$ from $B$
+      (b) $C$ is close to $B$; $C$ is close to $D$; $W/L = \sqrt{25 + x^2}/x$, where $x = |BC|$
+      (c) $\approx 1.07$; no such value
+      (d) $\sqrt{41}/4 \approx 1.6$
+    Annotations: ''
+  tags: []
+- id: 1547778124989
+  media:
+  - path: ${file_dir}/images/CCAC-04.06-61.1.jpg
+  fields:
+    Front: >
+      CCAC 04.06 61: The speed of sound $c_1$ in an upper layer and $c_2$ in a lower
+      layer of rock and the thickness $h$ of the upper layer can be determined by
+      seismic exploration if the speed of sound in the lower layer is greater than
+      the speed in the upper layer. A dynamite charge is detonated at a point $P$
+      and the transmitted signals are recorded at a point $Q$, which is a distance
+      $D$ from $P$. The first signal to arrive at $Q$ travels along the surface and
+      takes $T_1$ seconds. The next signal travels from $P$ to a point $R$, from $R$
+      to $S$ in the lower layer, and then to $Q$, taking $T_2$ seconds. The third
+      signal is reflected off the lower layer at the midpoint $O$ of $RS$ and takes
+      $T_3$ seconds to reach $Q$.
+
+      (a) Express $T_1$, $T_2$, and $T_3$ in terms of $D$, $h$, $c_1$, $c_2$, and
+      $\theta$.
+
+      (b) Show that $T_2$ is a minimum when $\sin \theta = c_1/c_2$.
+
+      (c) Suppose that $D = 1\text{ km}$, $T_1 = 0.26\text{ s}$, $T_2 = 0.32\text{
+      s}$, and $T_3 = 0.34\text{ s}$. Find $c_1$, $c_2$, and $h$.
+
+      ![](CCAC-04.06-61.1.jpg)
+
+      _Note:_ Geophysicists use this technique when studying the structure of the
+      earth's crust, whether searching for oil or examining fault lines.
+    Back: |
+      (a) $T_1 = D/c_1$, $T_2 = (2h \sec \theta)/c_1 + (D - 2h\tan \theta)/c_2$, $T_3 = \sqrt{4h^2 + D^2}/c_1$
+      (c) $c_1 \approx 3.85\text{ km/s}$, $c_2 \approx 7.66\text{ km/s}$, $h \approx 0.42\text{ km}$
+    Annotations: ''
+  tags:
+  - Proof

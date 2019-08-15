@@ -1,0 +1,273 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Calculus-ConceptsAndContexts
+  - CCAC-03-DifferentiationRules
+  - CCAC-03.06-InverseTrigonometricFunctionsAndTheirDerivatives
+  markdownTabLength: 2
+notes:
+- id: 1547589034289
+  fields:
+    Front: |
+      CCAC 03.06 00a: State the following **Inverse Trigonometric Derivatives**:
+      $$$$
+      \frac{d}{dx} (\sin^{-1} x),
+      \quad
+      \frac{d}{dx} (\cos^{-1} x),
+      \quad
+      \frac{d}{dx} (\tan^{-1} x)
+      $$$$
+    Back: |
+      $$$$
+      \frac{d}{dx} (\sin^{-1} x) = \frac{1}{\sqrt{1 - x^2}},
+      \quad
+      -1 < x < 1
+      \\
+      \frac{d}{dx} (\cos^{-1} x) = -\frac{1}{\sqrt{1 - x^2}},
+      \quad
+      -1 < x < 1
+      \\
+      \frac{d}{dx} (\tan^{-1} x) = \frac{1}{1 + x^2}
+      $$$$
+    Annotations: ''
+  tags:
+  - Theory
+- id: 1547589284164
+  fields:
+    Front: |
+      CCAC 03.06 01: Find the exact value of each expression.
+      (a) $\sin^{-1} (\sqrt{3} / 2)$
+      (b) $\cos^{-1} (-1)$
+    Back: |
+      (a) $\pi / 3$
+      (b) $\pi$
+    Annotations: ''
+  tags: []
+- id: 1547589367939
+  fields:
+    Front: |
+      CCAC 03.06 03: Find the exact value of each expression.
+      (a) $\arctan 1$
+      (b) $\sin^{-1} (1 / \sqrt{2})$
+    Back: |
+      (a) $\pi / 4$
+      (b) $\pi / 4$
+    Annotations: ''
+  tags: []
+- id: 1547589475167
+  fields:
+    Front: |
+      CCAC 03.06 05: Find the exact value of the expression.
+      $$$$
+      \tan (\sin^{-1} (\tfrac{2}{3}))
+      $$$$
+    Back: |
+      $2 / \sqrt{5}$
+    Annotations: ''
+  tags: []
+- id: 1547589564013
+  fields:
+    Front: |
+      CCAC 03.06 07: Find the exact value of the expression.
+      $$$$
+      \sin (2 \tan^{-1} \sqrt{2})
+      $$$$
+    Back: |
+      $\frac{2}{3} \sqrt{2}$
+    Annotations: ''
+  tags: []
+- id: 1547589654945
+  fields:
+    Front: |
+      CCAC 03.06 11: Simplify the expression.
+      $$$$
+      \sin(\tan^{-1} x)
+      $$$$
+    Back: |
+      $x / \sqrt{1 + x^2}$
+    Annotations: ''
+  tags: []
+- id: 1547589813217
+  media:
+  - path: ${file_dir}/images/CCAC-03.06-13.1.jpg
+  fields:
+    Front: |
+      CCAC 03.06 13: Graph the given functions on the same screen. How are these graphs related?
+      $$$$
+      y = \sin x, \; -\pi / 2 \le x \le \pi / 2; \quad
+      y = \sin^{-1} x; \quad
+      y = x
+      $$$$
+    Back: |
+      ![](CCAC-03.06-13.1.jpg)
+      The second graph is the reflection of the first graph about the line $y = x$.
+    Annotations: ''
+  tags:
+  - requiresCoding
+- id: 1547589952238
+  fields:
+    Front: |
+      CCAC 03.06 17: Find the derivative of the function. Simplify where possible.
+      $$$$
+      y = (\tan^{-1} x)^2
+      $$$$
+    Back: |
+      $$$$
+      y' = \frac{2 \tan^{-1} x}{1 + x^2}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547590025189
+  fields:
+    Front: |
+      CCAC 03.06 19: Find the derivative of the function. Simplify where possible.
+      $$$$
+      y = \sin^{-1} (2x + 1)
+      $$$$
+    Back: |
+      $$$$
+      y' = \frac{1}{\sqrt{-x^2 - x}}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547590101163
+  fields:
+    Front: |
+      CCAC 03.06 21: Find the derivative of the function. Simplify where possible.
+      $$$$
+      G(x) = \sqrt{1 - x^2} \arccos x
+      $$$$
+    Back: |
+      $$$$
+      G'(x) = -1 - \frac{x \arccos x}{\sqrt{1 - x^2}}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547590206846
+  fields:
+    Front: |
+      CCAC 03.06 23: Find the derivative of the function. Simplify where possible.
+      $$$$
+      y = \cos^{-1}(e^{2x})
+      $$$$
+    Back: |
+      $$$$
+      y' = -\frac{2e^{2x}}{\sqrt{1 - e^{4x}}}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547590267939
+  fields:
+    Front: |
+      CCAC 03.06 25: Find the derivative of the function. Simplify where possible.
+      $$$$
+      y = \arctan(\cos \theta)
+      $$$$
+    Back: |
+      $$$$
+      y' = -\frac{\sin \theta}{1 + \cos^2 \theta}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547590324539
+  fields:
+    Front: |
+      CCAC 03.06 27: Find the derivative of the function. Simplify where possible.
+      $$$$
+      y = x \sin^{-1} x + \sqrt{1 - x^2}
+      $$$$
+    Back: |
+      $$$$
+      y' = \sin^{-1} x
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547590477489
+  fields:
+    Front: |
+      CCAC 03.06 29: Find the derivative of the function. Simplify where possible.
+      $$$$
+      y = \arccos \left( \frac{b + a \cos x}{a + b \cos x} \right), \; 0 \le x \le \pi, \; a > b > 0
+      $$$$
+    Back: |
+      $$$$
+      y' = \frac{\sqrt{a^2 + b^2}}{a + b \cos x}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547590636449
+  fields:
+    Front: |
+      CCAC 03.06 31: Find the derivative of the function. Find the domains of the function and its derivative.
+      $$$$
+      g(x) = \cos^{-1}(3 - 2x)
+      $$$$
+    Back: |
+      $$$$
+      g'(x) = \frac{2}{\sqrt{1 - (3 - 2x)^2}}
+      $$$$
+      $[1,2]$, $(1,2)$
+    Annotations: ''
+  tags: []
+- id: 1547590721764
+  fields:
+    Front: |
+      CCAC 03.06 33: If $g(x) = x \sin^{-1}(x/4) + \sqrt{16 - x^2}$, find $g'(2)$.
+    Back: |
+      $\pi/6$
+    Annotations: ''
+  tags: []
+- id: 1547590840188
+  fields:
+    Front: |
+      CCAC 03.06 35: Find $f'(x)$. Check that your answer is reasonable by comparing the graphs of $f$ and $f'$.
+      $$$$
+      f(x) = \sqrt{1 - x^2} \arcsin x
+      $$$$
+    Back: |
+      $$$$
+      1 - \frac{x \arcsin x}{\sqrt{1 - x^2}}
+      $$$$
+    Annotations: ''
+  tags:
+  - requiresCoding
+- id: 1547590911994
+  fields:
+    Front: |
+      CCAC 03.06 37: Find the limit.
+      $$$$
+      \lim_{x \to -1^+} \sin^{-1} x
+      $$$$
+    Back: |
+      $-\pi/2$
+    Annotations: ''
+  tags: []
+- id: 1547591028664
+  fields:
+    Front: |
+      CCAC 03.06 39: Find the limit.
+      $$$$
+      \lim_{x \to \infty} \arctan(e^x)
+      $$$$
+    Back: |
+      $\pi/2$
+    Annotations: ''
+  tags: []
+- id: 1547591192365
+  fields:
+    Front: |
+      CCAC 03.06 41:
+      (a) Suppose $f$ is a one-to-one differentiable function and that its inverse function $f^{-1}$ is also differentiable. Use implicit differentiation to show that
+      $$$$
+      (f^{-1})'(x) = \frac{1}{f'(f^{-1}(x))}
+      $$$$
+      provided that the denominator is not zero.
+      (b) If $f(4) = 5$ and $f'(4) = \frac{2}{3}$, find $(f^{-1})'(5)$.
+    Back: |
+      $\frac{3}{2}$
+    Annotations: ''
+  tags: []

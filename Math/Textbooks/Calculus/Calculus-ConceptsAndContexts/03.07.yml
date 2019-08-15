@@ -1,0 +1,339 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Calculus-ConceptsAndContexts
+  - CCAC-03-DifferentiationRules
+  - CCAC-03.07-DerivativesOfLogarithmicFunctions
+  markdownTabLength: 2
+notes:
+- id: 1547591598543
+  fields:
+    Front: |
+      CCAC 03.07 00a: State the derivative of $\log_a x$.
+    Back: |
+      $$$$
+      \frac{d}{dx}\log_a x = \frac{1}{x \ln a}
+      $$$$
+    Annotations: ''
+  tags:
+  - Theory
+- id: 1547591679689
+  fields:
+    Front: |
+      CCAC 03.07 00b: State the derivative of $\ln x$.
+    Back: |
+      $$$$
+      \frac{d}{dx}\ln x = \frac{1}{x}
+      $$$$
+    Annotations: ''
+  tags:
+  - Theory
+- id: 1547591713788
+  fields:
+    Front: |
+      CCAC 03.07 00c: State the derivative of $\ln |x|$.
+    Back: |
+      $$$$
+      \frac{d}{dx}\ln |x| = \frac{1}{x}
+      $$$$
+    Annotations: ''
+  tags:
+  - Theory
+- id: 1547591970940
+  fields:
+    Front: |
+      CCAC 03.07 00d: State the steps of **Logarithmic Differentiation**. When should it be used?
+    Back: |
+      (1) Take natural logarithms of both sides of an equation $y = f(x)$, and use the Laws of Logarithms to simplify.
+      (2) Differentiate implicitly with respect to $x$.
+      (3) Solve the resulting equation for $y'$.
+      Use **Logarithmic Differentiation** for complicated functions involving products, quotients, or powers.
+    Annotations: ''
+  tags:
+  - Theory
+- id: 1547592174398
+  fields:
+    Front: >
+      CCAC 03.07 01: Explain why the natural logarithmic function $y = \ln x$ is used
+      much more frequently in calculus that the other logarithmic functions $y = \log_a
+      x$.
+    Back: |
+      The differentiation formula is simplest.
+    Annotations: ''
+  tags: []
+- id: 1547592257413
+  fields:
+    Front: |
+      CCAC 03.07 03: Differentiate the function.
+      $$$$
+      f(x) = \sin(\ln x)
+      $$$$
+    Back: |
+      $$$$
+      f'(x) = \frac{\cos(\ln x)}{x}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547592323557
+  fields:
+    Front: |
+      CCAC 03.07 05: Differentiate the function.
+      $$$$
+      f(x) = \log_2(1 - 3x)
+      $$$$
+    Back: |
+      $$$$
+      f'(x) = \frac{3}{(3x - 1)\ln 2}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547592395889
+  fields:
+    Front: |
+      CCAC 03.07 07: Differentiate the function.
+      $$$$
+      f(x) = \sqrt[5]{\ln x}
+      $$$$
+    Back: |
+      $$$$
+      f'(x) = \frac{1}{5x \sqrt[5]{(\ln x)^4}}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547592484888
+  fields:
+    Front: |
+      CCAC 03.07 09: Differentiate the function.
+      $$$$
+      f(x) = \sin x \ln(5x)
+      $$$$
+    Back: |
+      $$$$
+      f'(x) = \frac{\sin x}{x} + \cos x \ln(5x)
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547592566034
+  fields:
+    Front: |
+      CCAC 03.07 11: Differentiate the function.
+      $$$$
+      F(t) = \ln \frac{(2t + 1)^3}{(3t - 1)^4}
+      $$$$
+    Back: |
+      $$$$
+      F'(t) = \frac{6}{2t + 1} - \frac{12}{3t - 1}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547592628364
+  fields:
+    Front: |
+      CCAC 03.07 13: Differentiate the function.
+      $$$$
+      g(x) = \ln(x \sqrt{x^2 - 1})
+      $$$$
+    Back: |
+      $$$$
+      g'(x) = \frac{2x^2 - 1}{x(x^2 - 1)}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547592691564
+  fields:
+    Front: |
+      CCAC 03.07 15: Differentiate the function.
+      $$$$
+      y = \ln |2 - x - 5x^2|
+      $$$$
+    Back: |
+      $$$$
+      y' = \frac{10x + 1}{5x^2 + x - 2}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547592764414
+  fields:
+    Front: |
+      CCAC 03.07 17: Differentiate the function.
+      $$$$
+      y = \ln(e^{-x} + xe^{-x})
+      $$$$
+    Back: |
+      $$$$
+      y' = \frac{-x}{1 + x}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547592821789
+  fields:
+    Front: |
+      CCAC 03.07 19: Differentiate the function.
+      $$$$
+      y = 2x \log_{10}\sqrt{x}
+      $$$$
+    Back: |
+      $$$$
+      y' = \frac{1}{\ln 10} + \log_{10} x
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547592915289
+  fields:
+    Front: |
+      CCAC 03.07 21: Find $y'$ and $y''$.
+      $$$$
+      y = x^2 \ln(2x)
+      $$$$
+    Back: |
+      $y' = x + 2x \ln(2x)$; $y'' = 3 + 2\ln(2x)$
+    Annotations: ''
+  tags: []
+- id: 1547593072398
+  fields:
+    Front: |
+      CCAC 03.07 23: Differentiate $f$, and find the domain of $f$.
+      $$$$
+      f(x) = \frac{x}{1 - \ln(x - 1)}
+      $$$$
+    Back: |
+      $$$$
+      f'(x) = \frac{2x - 1 - (x-1)\ln(x-1)}{(x-1)[1 - \ln(x - 1)]^2}
+      $$$$
+      $(1, 1 + e) \cup (1 + e, \infty)$
+    Annotations: ''
+  tags: []
+- id: 1547593160489
+  fields:
+    Front: |
+      CCAC 03.07 25: Find an equation of the tangent line to the curve at the given point.
+      $$$$
+      y = \ln(x^2 - 3x + 1), \quad (3, 0)
+      $$$$
+    Back: |
+      $$$$
+      y = 3x - 9
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547593238313
+  fields:
+    Front: |
+      CCAC 03.07 27: Find an equation of the tangent line to the curve at the given point.
+      $$$$
+      y = \ln(xe^{x^2}), \quad (1, 1)
+      $$$$
+    Back: |
+      $$$$
+      y = 3x - 2
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547593340863
+  fields:
+    Front: |
+      CCAC 03.07 29:
+      (a) On what interval is $f(x) = x \ln x$ decreasing?
+      (b) On what interval is $f$ concave upward?
+    Back: |
+      (a) $(0, 1/e)$
+      (b) $(0, \infty)$
+    Annotations: ''
+  tags: []
+- id: 1547593417916
+  fields:
+    Front: |
+      CCAC 03.07 31: Let $f(x) = cx + \ln(\cos x)$. For what value of $c$ is $f'(\pi/4) = 6$?
+    Back: |
+      $7$
+    Annotations: ''
+  tags: []
+- id: 1547593547268
+  fields:
+    Front: |
+      CCAC 03.07 33: Use logarithmic differentiation to find the derivative of the function.
+      $$$$
+      y = (2x + 1)^5 (x^4 - 3)^6
+      $$$$
+    Back: |
+      $$$$
+      y' = (2x + 1)^5 (x^4 - 3)^6 \left( \frac{10}{2x + 1} + \frac{24x^3}{x^4 - 3} \right)
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547593686614
+  fields:
+    Front: |
+      CCAC 03.07 35: Use logarithmic differentiation to find the derivative of the function.
+      $$$$
+      y = \frac{\sin^2 x \tan^4 x}{(x^2 + 1)^2}
+      $$$$
+    Back: |
+      $$$$
+      y' = \frac{\sin^2 x \tan^4 x}{(x^2 + 1)^2} \left( 2\cot x + \frac{4 \sec^2 x}{\tan x} - \frac{4x}{x^2 + 1} \right)
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547593788257
+  fields:
+    Front: |
+      CCAC 03.07 37: Use logarithmic differentiation to find the derivative of the function.
+      $$$$
+      y = x^x
+      $$$$
+    Back: |
+      $$$$
+      y' = x^x(1 + \ln x)
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547593847217
+  fields:
+    Front: |
+      CCAC 03.07 39: Use logarithmic differentiation to find the derivative of the function.
+      $$$$
+      y = (\cos x)^x
+      $$$$
+    Back: |
+      $$$$
+      y' = (\cos x)^x (-x \tan x + \ln \cos x)
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547593931589
+  fields:
+    Front: |
+      CCAC 03.07 41: Use logarithmic differentiation to find the derivative of the function.
+      $$$$
+      y = (\tan x)^{1/x}
+      $$$$
+    Back: |
+      $$$$
+      y' = (\tan x)^{1/x} \left( \frac{\sec^2 x}{x \tan x} - \frac{\ln \tan x}{x^2} \right)
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547594018864
+  fields:
+    Front: |
+      CCAC 03.07 43: Find $y'$ if $y = \ln(x^2 + y^2)$.
+    Back: |
+      $$$$
+      y' = \frac{2x}{x^2 + y^2 - 2y}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547594116539
+  fields:
+    Front: |
+      CCAC 03.07 45: Find a formula for $f^{(n)}(x)$ if $f(x) = \ln(x - 1)$.
+    Back: |
+      $$$$
+      f^{(n)}(x) = \frac{(-1)^{n-1} (n-1)!}{(x - 1)^n}
+      $$$$
+    Annotations: ''
+  tags: []

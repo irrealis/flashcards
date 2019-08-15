@@ -1,0 +1,592 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Calculus-ConceptsAndContexts
+  - CCAC-03-DifferentiationRules
+  - CCAC-03.Review
+  markdownTabLength: 2
+notes:
+- id: 1547613246158
+  fields:
+    Front: |
+      CCAC 03.Review, True-False 01: If $f$ and $g$ are differentiable, then
+      $$$$
+      \frac{d}{dx}[f(x) + g(x)] = f'(x) + g'(x)
+      $$$$
+    Back: |
+      True
+    Annotations: ''
+  tags: []
+- id: 1547647554064
+  fields:
+    Front: |
+      CCAC 03.Review, True-False 03: If $f$ and $g$ are differentiable, then
+      $$$$
+      \frac{d}{dx}[f(g(x))] = f'(g(x))g'(x)
+      $$$$
+    Back: |
+      True
+    Annotations: ''
+- id: 1547647554165
+  fields:
+    Front: |
+      CCAC 03.Review, True-False 05: If $f$ is differentiable, then
+      $$$$
+      \frac{d}{dx}f(\sqrt{x}) = \frac{f'(x)}{2\sqrt{x}}
+      $$$$
+    Back: |
+      False
+    Annotations: ''
+  tags: []
+- id: 1547647661888
+  fields:
+    Front: |
+      CCAC 03.Review, True-False 07:
+      $$$$
+      \frac{d}{dx}(10^x) = x10^{x-1}
+      $$$$
+    Back: |
+      False
+    Annotations: ''
+  tags: []
+- id: 1547647921814
+  fields:
+    Front: |
+      CCAC 03.Review, True-False 09:
+      $$$$
+      \frac{d}{dx}(\tan^2 x) = \frac{d}{dx}(\sec^2 x)
+      $$$$
+    Back: |
+      True
+    Annotations: ''
+  tags: []
+- id: 1547648027938
+  fields:
+    Front: |
+      CCAC 03.Review, True-False 11: If $g(x) = x^5$, then
+      $$$$
+      \lim_{x \to 2} \frac{g(x) - g(2)}{x - 2} = 80
+      $$$$
+    Back: |
+      True
+    Annotations: ''
+  tags: []
+- id: 1547650365915
+  fields:
+    Front: |
+      CCAC 03.Review, Exercise 01: Calculate $y'$.
+      $$$$
+      y = (x^4 - 3x^2 + 5)^3
+      $$$$
+    Back: |
+      $$$$
+      6x(x^4 - 3x^2 + 5)^2 (2x^2 - 3)
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547650467088
+  fields:
+    Front: |
+      CCAC 03.Review, Exercise 03: Calculate $y'$.
+      $$$$
+      y = \sqrt{x} + \frac{1}{\sqrt[3]{x^4}}
+      $$$$
+    Back: |
+      $$$$
+      \frac{1}{2\sqrt{x}} - \frac{4}{3\sqrt[3]{x^7}}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547650529863
+  fields:
+    Front: |
+      CCAC 03.Review, Exercise 05: Calculate $y'$.
+      $$$$
+      y = 2x \sqrt{x^2 + 1}
+      $$$$
+    Back: |
+      $$$$
+      \frac{2(2x^2 + 1)}{\sqrt{x^2 + 1}}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547650609252
+  fields:
+    Front: |
+      CCAC 03.Review, Exercise 07: Calculate $y'$.
+      $$$$
+      y = e^{\sin 2\theta}
+      $$$$
+    Back: |
+      $$$$
+      2 \cos(2\theta) e^{\sin 2\theta}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547650666685
+  fields:
+    Front: |
+      CCAC 03.Review, Exercise 09: Calculate $y'$.
+      $$$$
+      y = \frac{t}{1 - t^2}
+      $$$$
+    Back: |
+      $$$$
+      \frac{t^2 + 1}{(1 - t^2)^2}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547650741088
+  fields:
+    Front: |
+      CCAC 03.Review, Exercise 11: Calculate $y'$.
+      $$$$
+      y = \frac{e^{1/x}}{x^2}
+      $$$$
+    Back: |
+      $$$$
+      -\frac{e^{1/x} (1 + 2x)}{x^4}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547650885414
+  fields:
+    Front: |
+      CCAC 03.Review, Exercise 13: Calculate $y'$.
+      $$$$
+      x y^4 + x^2 y = x + 3y
+      $$$$
+    Back: |
+      $$$$
+      \frac{1 - y^4 - 2xy}{4xy^3 + x^2 - 3}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547650999413
+  fields:
+    Front: |
+      CCAC 03.Review, Exercise 15: Calculate $y'$.
+      $$$$
+      y = \frac{\sec 2\theta}{1 + \tan 2\theta}
+      $$$$
+    Back: |
+      $$$$
+      \frac{2 \sec(2\theta)(\tan(2\theta) - 1)}{(1 + \tan(2\theta))^2}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547651128415
+  fields:
+    Front: |
+      CCAC 03.Review, Exercise 17: Calculate $y'$.
+      $$$$
+      y = e^{cx} (c \sin x - \cos x)
+      $$$$
+    Back: |
+      $$$$
+      (1 + c^2) e^{cx} \sin x
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547651193689
+  fields:
+    Front: |
+      CCAC 03.Review, Exercise 19: Calculate $y'$.
+      $$$$
+      y = \log_5(1 + 2x)
+      $$$$
+    Back: |
+      $$$$
+      \frac{2}{(1 + 2x) \ln 5}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547651528493
+  fields:
+    Front: |
+      CCAC 03.Review, Exercise 21: Calculate $y'$.
+      $$$$
+      \sin(xy) = x^2 - y
+      $$$$
+    Back: |
+      $$$$
+      \frac{2x - y \cos(xy)}{x \cos(xy) + 1}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547651599463
+  fields:
+    Front: |
+      CCAC 03.Review, Exercise 23: Calculate $y'$.
+      $$$$
+      y = 3^{x \ln x}
+      $$$$
+    Back: |
+      $$$$
+      3^{x \ln x}(\ln 3)(1 + \ln x)
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547651683864
+  fields:
+    Front: |
+      CCAC 03.Review, Exercise 25: Calculate $y'$.
+      $$$$
+      y = \ln \sin x - \tfrac{1}{2} \sin^2 x
+      $$$$
+    Back: |
+      $$$$
+      \cot x - \sin x \cos x
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547651753269
+  fields:
+    Front: |
+      CCAC 03.Review, Exercise 27: Calculate $y'$.
+      $$$$
+      y = x \tan^{-1}(4x)
+      $$$$
+    Back: |
+      $$$$
+      \frac{4x}{1 + 16x^2} + \tan^{-1}(4x)
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547651810563
+  fields:
+    Front: |
+      CCAC 03.Review, Exercise 29: Calculate $y'$.
+      $$$$
+      y = \ln |\sec 5x + \tan 5x|
+      $$$$
+    Back: |
+      $$$$
+      5 \sec 5x
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547651863863
+  fields:
+    Front: |
+      CCAC 03.Review, Exercise 31: Calculate $y'$.
+      $$$$
+      y = \tan^2(\sin \theta)
+      $$$$
+    Back: |
+      $$$$
+      2 \cos \theta \tan(\sin \theta) \sec^2(\sin \theta)
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547651946213
+  fields:
+    Front: |
+      CCAC 03.Review, Exercise 33: Calculate $y'$.
+      $$$$
+      y = \sin(\tan \sqrt{1 + x^3})
+      $$$$
+    Back: |
+      $$$$
+      \cos(\tan \sqrt{1 + x^3}) (\sec^2 \sqrt{1 + x^3}) \frac{3x^2}{2 \sqrt{1 + x^3}}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547652077947
+  fields:
+    Front: |
+      CCAC 03.Review, Exercise 35: Calculate $y'$.
+      $$$$
+      y = \cos(e^{\sqrt{\tan 3x}})
+      $$$$
+    Back: |
+      $$$$
+      \frac{-3 \sin(e^{\sqrt{\tan 3x}}) e^{\sqrt{\tan 3x}} \sec^2(3x)}{2 \sqrt{\tan 3x}}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547652153967
+  fields:
+    Front: |
+      CCAC 03.Review, Exercise 37: If $f(t) = \sqrt{4t + 1}$, find $f''(2)$.
+    Back: |
+      $-\frac{4}{27}$
+    Annotations: ''
+  tags: []
+- id: 1547652245718
+  fields:
+    Front: |
+      CCAC 03.Review, Exercise 39: If $f(x) = 2^x$, find $f^{(n)}(x)$.
+    Back: |
+      $2^x (\ln 2)^n$
+    Annotations: ''
+  tags: []
+- id: 1547654217238
+  fields:
+    Front: |
+      CCAC 03.Review, Exercise 41: Find an equation of the tangent to the curve at the given point.
+      $$$$
+      y = 4 \sin^2 x, \quad (\pi/6, 1)
+      $$$$
+    Back: |
+      $$$$
+      y = 2 \sqrt{3} x + 1 - \pi \sqrt{3}/3
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547654325239
+  fields:
+    Front: |
+      CCAC 03.Review, Exercise 43: Find an equation of the tangent to the curve at the given point.
+      $$$$
+      x = \ln t, \quad
+      y = t^2 + 1, \quad
+      (0, 2)
+      $$$$
+    Back: |
+      $$$$
+      y = 2x + 2
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547654397813
+  fields:
+    Front: |
+      CCAC 03.Review, Exercise 45: Find equations of the tangent line and normal line to the curve at the given point.
+      $$$$
+      y = (2 + x) e^{-x}, \quad (0,2)
+      $$$$
+    Back: |
+      $$$$
+      y = -x +2; \quad y = x + 2
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547654693743
+  media:
+  - path: ${file_dir}/images/CCAC-03.Review-47.1.jpg
+  fields:
+    Front: |
+      CCAC 03.Review, Exercise 47:
+      (a) If $f(x) = x\sqrt{5 - x}$, find $f'(x)$.
+      (b) Find equations of the tangent lines to the curve $y = x\sqrt{5 - x}$ at the points $(1, 2)$ and $(4, 4)$.
+      (c) Illustrate part (b) by graphing the curve and tangent lines on the same screen.
+      (d) Check to see that your answer to part (a) is reasonable by comparing the graphs of $f$ and $f'$.
+    Back: |
+      (a)
+      $$$$
+      \frac{10 - 3x}{2\sqrt{5 - x}}
+      $$$$
+      (b)
+      $$$$
+      y = \frac{7}{4}x + \frac{1}{4}, \quad y = -x + 8
+      $$$$
+      (c)
+      ![](CCAC-03.Review-47.1.jpg)
+    Annotations: ''
+  tags:
+  - requiresCoding
+- id: 1547660994616
+  media:
+  - path: ${file_dir}/images/CCAC-03.Review-49.1.jpg
+  fields:
+    Front: |
+      CCAC 03.Review, Exercise 49: If $f(x) = xe^{\sin x}$, find $f'(x)$. Graph $f$ and $f'$ on the same screen, and comment.
+    Back: |
+      $$$$
+      e^{\sin x} (x \cos x + 1)
+      $$$$
+      ![](CCAC-03.Review-49.1.jpg)
+    Annotations: ''
+  tags:
+  - requiresCoding
+- id: 1547661228563
+  fields:
+    Front: >
+      CCAC 03.Review, Exercise 51: Suppose that $h(x) = f(x) g(x)$ and $F(x) = f(g(x))$,
+      where $f(2) = 3$, $g(2) = 5$, $g'(2) = 4$, $f'(2) = -2$, and $f'(5) = 11$. Find
+      (a) $h'(2)$ and (b) $F'(2)$.
+    Back: |
+      (a) $2$
+      (b) $44$
+    Annotations: ''
+  tags: []
+- id: 1547661370144
+  fields:
+    Front: |
+      CCAC 03.Review, Exercise 53: Find $f'$ in terms of $g'$.
+      $$$$
+      f(x) = x^2 g(x)
+      $$$$
+    Back: |
+      $$$$
+      2x g(x) + x^2 g'(x)
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547661431238
+  fields:
+    Front: |
+      CCAC 03.Review, Exercise 55: Find $f'$ in terms of $g'$.
+      $$$$
+      f(x) = [g(x)]^2
+      $$$$
+    Back: |
+      $$$$
+      2g(x) g'(x)
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547661478393
+  fields:
+    Front: |
+      CCAC 03.Review, Exercise 57: Find $f'$ in terms of $g'$.
+      $$$$
+      f(x) = g(e^x)
+      $$$$
+    Back: |
+      $$$$
+      g'(e^x) e^x
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547661575564
+  fields:
+    Front: |
+      CCAC 03.Review, Exercise 59: Find $f'$ in terms of $g'$.
+      $$$$
+      f(x) = \ln |g(x)|
+      $$$$
+    Back: |
+      $$$$
+      g'(x) / g(x)
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547661682042
+  fields:
+    Front: |
+      CCAC 03.Review, Exercise 61: Find $h'$ in terms of $f'$ and $g'$.
+      $$$$
+      h(x) = \frac{f(x) g(x)}{f(x) + g(x)}
+      $$$$
+    Back: |
+      $$$$
+      \frac{f'(x) [g(x)]^2 + g'(x) [f(x)]^2}{[f(x) + g(x)]^2}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547661774788
+  fields:
+    Front: |
+      CCAC 03.Review, Exercise 63: At what point on the curve $y = [\ln(x + 4)]^2$ is the tangent horizontal?
+    Back: |
+      $(-3, 0)$
+    Annotations: ''
+  tags: []
+- id: 1547661913214
+  fields:
+    Front: |
+      CCAC 03.Review, Exercise 65: Find the points on the ellipse $x^2 + 2y^2 = 1$ where the tangent line has slope $1$.
+    Back: |
+      $(\pm 2/\sqrt{6}, \mp 1/\sqrt{6})$
+    Annotations: ''
+  tags: []
+- id: 1547662029688
+  fields:
+    Front: >
+      CCAC 03.Review, Exercise 67: Find a parabola $y = ax^2 + bx + c$ that passes
+      through the point $(1, 4)$ and whose tangent lines at $x = -1$ and $x = 5$ have
+      slopes $6$ and $-2$, respectively.
+    Back: |
+      $y = -\frac{2}{3}x^2 + \frac{14}{3}x$
+    Annotations: ''
+  tags: []
+- id: 1547662261964
+  fields:
+    Front: >
+      CCAC 03.Review, Exercise 69: An equation of motion of the form $s = Ae^{-ct}
+      \cos(\omega t + \delta)$ represents damped oscillation of an object. Find the
+      velocity and acceleration of the object.
+    Back: |
+      $v(t) = -Ae^{-ct}[c \cos(\omega t + \delta) + \omega\sin(\omega t + \delta)]$
+      $a(t) = Ae^{-ct}[(c^2 - \omega^2)\cos(\omega t + \delta) + 2c\omega\sin(\omega t + \delta)]$
+    Annotations: ''
+  tags: []
+- id: 1547662438414
+  fields:
+    Front: >
+      CCAC 03.Review, Exercise 71: The mass of part of a wire is $x(1 + \sqrt{x})$
+      kilograms, where $x$ is measured in meters from one end of the wire. Find the
+      linear density of the wire when $x = 4 \;\mathrm{m}$.
+    Back: |
+      $4 \;\mathrm{kg/m}$
+    Annotations: ''
+  tags: []
+- id: 1547662843939
+  useMarkdownMathExt: false
+  fields:
+    Front: |
+      CCAC 03.Review, Exercise 73: The cost, in dollars, of producing \\(x\\) units of a certain commodity is
+      \\[
+      C(x) = 920 + 2x - 0.02x^2 + 0.00007x^3
+      \\]
+      (a) Find the marginal cost function.
+      (b) Find \\(C'(100)\\) and explain its meaning.
+      (c) Comnpare \\(C'(100)\\) with the cost of producing the 101st item.
+      (d) For what value of \\(x\\) does \\(C\\) have an inflection point? What is the significance of this value of \\(x\\)?
+    Back: |
+      (a) \\(C'(x) = 2 - 0.04x + 0.00021x^2\\)
+      (b) \\(\mathrm{$0.10/unit}\\); the approximate cost of producing the 101st unit.
+      (c) \\(C(101) - C(100) = 0.10107\\)
+      (d) About 95.24; at this of \\(x\\) the marginal cost is minimized.
+    Annotations: ''
+  tags: []
+- id: 1547663161239
+  fields:
+    Front: >
+      CCAC 03.Review, Exercise 75:
+
+      (a) Find the linearization of $f(x) = \sqrt[3]{1 + 3x}$ at $a = 0$. State the
+      corresponding linear approximation and use it to give an approximate value for
+      $\sqrt[3]{1.03}$.
+
+      (b) Determine the values of $x$ for which the linear approximation given in
+      part (a) is accurate to within 0.1.
+    Back: |
+      (a) $L(x) = 1 + x$; $\sqrt[3]{1 + 3x} \approx 1 + x$; $\sqrt[3]{1.03} \approx 1.01$
+      (b) $-0.23 < x < 0.40$
+    Annotations: ''
+  tags:
+  - requiresCoding
+- id: 1547663395614
+  fields:
+    Front: |
+      CCAC 03.Review, Exercise 77: Express the limit
+      $$$$
+      \lim_{\theta \to \pi/3} \frac{\cos \theta - 0.5}{\theta - \pi/3}
+      $$$$
+      as a derivative and thus evaluate it.
+    Back: |
+      $$$$
+      \left. (\cos \theta)' \right|_{\theta = \pi/3} = -\sqrt{3}/2
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1547663555663
+  fields:
+    Front: |
+      CCAC 03.Review, Exercise 79: Evaluate.
+      $$$$
+      \lim_{x \to 0} \frac{\sqrt{1 + \tan x} - \sqrt{1 + \sin x}}{x^3}
+      $$$$
+    Back: |
+      $$$$
+      \frac{1}{4}
+      $$$$
+    Annotations: ''
+  tags: []

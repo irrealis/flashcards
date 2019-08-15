@@ -100,17 +100,15 @@ notes:
       in the plane. Find an equation of the line that passes through $A$ and $B$.
       What are the intercepts?
     Back: |
-      $4x - 3y + 16 = 0$; $x$-intercept: $-4$; $y$-intercept: $-16/3$.
+      $4x + 3y + 16 = 0$; $x$-intercept: $-4$; $y$-intercept: $-16/3$.
 
       ---
       (If you have had difficulty with this problem, you may wish to consult the review of analytic geometry in Appendix B of CCAC.)
     Annotations: Thoughts:<div>- The answer is given in canonical form \(ax + by +
       c = 0\). One way to compute this is \[(y-y_0)(x_1-x_0) - (x-x_0)(y_1-y_0) =
       0.\]</div><div><br></div><div>To-do:</div><div>- Practice \((y-y_0)(x_1-x_0)
-      - (x-x_0)(y_1-y_0) = 0\).</div><div><br></div><div>Fix-me:</div><div>- The typeset
-      answer is incorrect. It should be&nbsp;<span class="math">\(4x + 3y + 16 = 0\)</span>.</div>
+      - (x-x_0)(y_1-y_0) = 0\).</div>
   tags:
-  - ann:fix-me
   - ann:thoughts
   - ann:to-do
 - id: 1543521862926

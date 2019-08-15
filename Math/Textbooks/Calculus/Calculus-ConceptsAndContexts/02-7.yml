@@ -21,6 +21,8 @@ notes:
       $$$$
       given any number $x$ for which this limit exists.
     Annotations: ''
+  tags:
+  - Theory
 - id: 1547176064696
   media:
   - path: ${file_dir}/images/02.7-01.jpg
@@ -231,7 +233,7 @@ notes:
       g(x) = \sqrt{1 + 2x}
       $$
     Back: |
-      $g'(x) = 1/\sqrt{1 + 2x}$, $\left[-\frac{1}{2}, \infty\right)$, $\left[-\frac{1}{2}, \infty\right)$
+      $g'(x) = 1/\sqrt{1 + 2x}$, $\left[-\frac{1}{2}, \infty\right)$, $\left(-\frac{1}{2}, \infty\right)$
     Annotations: ''
   tags: []
 - id: 1547176070528

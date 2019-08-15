@@ -25,6 +25,8 @@ notes:
       \lim_{x \to a} f(x) = L.
       $$$$
     Annotations: ''
+  tags:
+  - Theory
 - id: 1547063926320
   fields:
     Front: |
@@ -39,6 +41,8 @@ notes:
       \lim_{x \to \infty} f(x) = L.
       $$$$
     Annotations: ''
+  tags:
+  - Theory
 - id: 1547063926473
   fields:
     Front: |
@@ -53,6 +57,8 @@ notes:
       \lim_{n \to \infty} a_n = L \quad \text{or} \quad a_n \to L \; \text{as} \; n \to \infty.
       $$$$
     Annotations: ''
+  tags:
+  - Theory
 - id: 1547063926596
   fields:
     Front: |
@@ -62,9 +68,11 @@ notes:
       $$$$
       n > N \implies a_n > M.
       $$$$
-    Annotations: ''
+    Annotations: 'Minor issues:<div>- 190217: I tend to write \(M\in \mathbb{Z}^+\)
+      instead of \(M\in \mathbb{R}^+\).</div>'
   tags:
-  - Editing
+  - Theory
+  - ann:minor-trouble
 - id: 1547063926746
   useMarkdown: pweave
   tags: []
@@ -181,8 +189,8 @@ notes:
 
       a. What radius produces such a disk?
 
-      b. If the machinist is allowed an error tolerance of $\pm\ \text{cm}^2$ in the
-      area of the disk, how close to the ideal radius in part (a) must the machinist
+      b. If the machinist is allowed an error tolerance of $\pm 5 \ \text{cm}^2$ in
+      the area of the disk, how close to the ideal radius in part (a) must the machinist
       control the radius?
 
       c. In terms of the $\epsilon,\delta$ definition of $\lim_{x\to a}{f(x)}=L$,

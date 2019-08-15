@@ -1,0 +1,292 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Calculus-ConceptsAndContexts
+  - CCAC-04-ApplicationsOfDifferentiation
+  - CCAC-04.01-RelatedRates
+  markdownTabLength: 2
+notes:
+- id: 1547778096688
+  fields:
+    Front: |
+      CCAC 04.01 00a: List components of a general **Differential Calculus Problem Solving Strategy**.
+    Back: |
+      (1) Read problem carefully.
+      (2) Diagram if possible.
+      (3) Introduce notation. Identify givens and unknowns.
+      (4) Express givens and unknowns in terms of derivatives.
+      (5) Relate various quantities with equations.
+      (6) Use Chain rule to differentiate both sides.
+      (7) Substitute givens into result, and solve for unknowns.
+    Annotations: ''
+  tags:
+  - Theory
+- id: 1547778096841
+  fields:
+    Front: |
+      CCAC 04.01 01: If $V$ is the volume of a cube with edge length $x$, and the cube expands as time passes, find $dV/dt$ in terms of $dx/dt$.
+    Back: |
+      $dV/dt = 3x^2 dx/dt$
+    Annotations: ''
+- id: 1547778096989
+  fields:
+    Front: >
+      CCAC 04.01 03: Each side of a square is increasing at a rate of $6 \;\mathrm{cm/s}$.
+      At what rate is the area of the square increasing when the area of the square
+      is $16 \;\mathrm{cm^2}$?
+    Back: |
+      $48 \;\mathrm{cm^2/s}$
+    Annotations: ''
+- id: 1547778097146
+  fields:
+    Front: >
+      CCAC 04.01 05: A cylindrical tank with radius $5 \;\mathrm{m}$ is being filled
+      with water at a rate of $3 \;\mathrm{m^3/min}$. How fast is the height of the
+      water increasing?
+    Back: |
+      $3/(25\pi) \;\mathrm{m/min}$
+    Annotations: ''
+- id: 1547778097289
+  fields:
+    Front: |
+      CCAC 04.01 07: Suppose $y = \sqrt{2x + 1}$, where $x$ and $y$ are functions of $t$.
+      (a) If $dx/dt = 3$, find $dy/dt$ when $x = 4$.
+      (b) If $dy/dt = 5$, find $dx/dt$ when $x = 12$.
+    Back: |
+      (a) $1$
+      (b) $25$
+    Annotations: ''
+- id: 1547778097463
+  fields:
+    Front: |
+      CCAC 04.01 09: If $z^2 = x^2 + y^2$, $dx/dt = 2$, and $dy/dt = 3$, find $dz/dt$ when $x = 5$ and $y = 12$.
+    Back: |
+      $\pm\frac{46}{13}$
+    Annotations: ''
+- id: 1547778097618
+  media:
+  - path: ${file_dir}/images/CCAC-04.01-11.1.jpg
+  fields:
+    Front: |
+      CCAC 04.01 11: If a snowball melts so that its surface area decreases at a rate of $1 \;\mathrm{cm^2/min}$, find the rate at which the diameter decreases when the diameter is $10 \;\mathrm{cm}$.
+      (a) What quantities are given in the problem?
+      (b) What is the unknown?
+      (c) Draw a picture of the situation for any time $t$.
+      (d) Write an equation that relates the quantities.
+      (e) Finish solving the problem.
+    Back: |
+      (a) The rate of decrease of the surface area is $1 \;\mathrm{cm^2/min}$.
+      (b) The rate of decrease of the diameter when the diameter is $10 \;\mathrm{cm}$.
+      (c)
+      ![](CCAC-04.01-11.1.jpg)
+      (d) $S = \pi/x^2$
+      (e) $1/(20\pi) \;\mathrm{cm/min}$
+    Annotations: ''
+- id: 1547778097834
+  media:
+  - path: ${file_dir}/images/CCAC-04.01-13.1.jpg
+  fields:
+    Front: |
+      CCAC 04.01 13: A plane flying horizontally at an altitude of $1 \;\mathrm{mi}$ and a speed of $500 \;\mathrm{mi/h}$ passes directly over a radar station. Find the rate at which the distance from the plane to the station is increasing when it is $2 \;\mathrm{mi}$ away from the station.
+      (a) What quantities are given in the problem?
+      (b) What is the unknown?
+      (c) Draw a picture of the situation for any time $t$.
+      (d) Write an equation that relates the quantities.
+      (e) Finish solving the problem.
+    Back: |
+      (a) The plane's altitude is $1 \;\mathrm{mi}$ and its speed is $500 \;\mathrm{mi/h}$.
+      (b) The rate at which the distance from the plane to the station is increasing when the plane is $2 \;\mathrm{mi}$ from the station.
+      (c)
+      ![](CCAC-04.01-13.1.jpg)
+      (d) $y^2 = x^2 + 1$
+      (e) $250\sqrt{3} \;\mathrm{mi/h}$
+    Annotations: ''
+- id: 1547778098015
+  fields:
+    Front: >
+      CCAC 04.01 15: Two cars start moving from the same point. One travels south
+      at $60 \;\mathrm{mi/h}$ and the other travels west at $25 \;\mathrm{mi/h}$.
+      At what rate is the distance between the cars increasing two hours later?
+    Back: |
+      $65 \;\mathrm{mi/h}$
+    Annotations: ''
+- id: 1547778098155
+  fields:
+    Front: >
+      CCAC 04.01 17: A man starts walking north at $4 \;\mathrm{ft/s}$ from a point
+      $P$. Five minutes later a woman starts walking south at $5 \;\mathrm{ft/s}$
+      from a point $500 \;\mathrm{ft}$ due east of $P$. At what rate are the people
+      moving apart $15 \;\mathrm{min}$ after the woman starts walking?
+    Back: |
+      $837/\sqrt{8674} \approx 8.99 \;\mathrm{ft/s}$
+    Annotations: ''
+- id: 1547778098315
+  fields:
+    Front: >
+      CCAC 04.01 19: The altitude of a triangle is increasing at a rate of $1 \;\mathrm{cm/min}$
+      while the area of the triangle is increasing at a rate of $2 \;\mathrm{cm^2/min}$.
+      At what rate is the base of the triangle changing when the altitude is $10 \;\mathrm{cm}$
+      and the area is $100 \;\mathrm{cm^2}$?
+    Back: |
+      $-1.6 \;\mathrm{cm/min}$
+    Annotations: ''
+- id: 1547778098488
+  fields:
+    Front: >
+      CCAC 04.01 21: At noon, ship A is $100 \;\mathrm{km}$ west of ship B. Ship A
+      is sailing south at $35 \;\mathrm{km/h}$ and ship B is sailing north at $25
+      \;\mathrm{km/h}$. How fast is the distance between the ships changing at 4:00
+      PM?
+    Back: |
+      $\frac{720}{13} \approx 55.4 \;\mathrm{km/h}$
+    Annotations: ''
+- id: 1547778098633
+  fields:
+    Front: >
+      CCAC 04.01 23: The top of a ladder slides down a vertical wall at a rate of
+      $0.15 \;\mathrm{m/s}$. At the moment when the bottom of the ladder is $3 \;\mathrm{m}$
+      from the wall, it slides away from the wall at a rate of $0.2 \;\mathrm{m/s}$.
+      How long is the ladder?
+    Back: |
+      $5 \;\mathrm{m}$
+    Annotations: ''
+  tags: []
+- id: 1547778098789
+  media:
+  - path: ${file_dir}/images/CCAC-04.01-25.1.jpg
+  fields:
+    Front: >
+      CCAC 04.01 25: Two carts, A and B, are connected by a rope $39 \;\mathrm{ft}$
+      long that passes over a pulley $P$ (see the figure). The point $Q$ is on the
+      floor $12 \;\mathrm{ft}$ directly beneath $P$ and between the carts. Cart A
+      is being bulled away from $Q$ at a speed of $2 \;\mathrm{ft/s}$. How fast is
+      cart B moving toward $Q$ at the instant when cart A is $5 \;\mathrm{ft}$ from
+      $Q$?
+
+      ![](CCAC-04.01-25.1.jpg)
+    Back: |
+      $10/\sqrt{133} \approx 0.87 \;\mathrm{ft/s}$
+    Annotations: ''
+  tags: []
+- id: 1547778098992
+  fields:
+    Front: >
+      CCAC 04.01 27: A trough is $10 \;\mathrm{ft}$ long and its ends have the shape
+      of isosceles triangles that are 3 ft across at the top and have a height of
+      1 ft. If the trough is being filled with water at a rate $12 \;\mathrm{ft^3/min}$,
+      how fast is the water level rising when the water is 6 inches deep?
+    Back: |
+      $\frac{4}{5}$ ft/min
+    Annotations: ''
+  tags: []
+- id: 1547778099155
+  media:
+  - path: ${file_dir}/images/CCAC-04.01-29.1.jpg
+  fields:
+    Front: >
+      CCAC 04.01 29: Gravel is being dumped from a conveyor belt at a rate of $30
+      \;\mathrm{ft^3/min}$, and its courseness is such that it forms a pile in the
+      shape of a cone whose base diameter and height are always equal. How fast is
+      the height of the pile increasing when the pile is 10 ft high?
+
+      ![](CCAC-04.01-29.1.jpg)
+    Back: |
+      $6/(5\pi) \approx 0.38$ ft/min
+    Annotations: ''
+  tags: []
+- id: 1547778099316
+  fields:
+    Front: >
+      CCAC 04.01 31: Two sides of a triangle are 4 m and 5 m in length and the angle
+      between them is increasing at a rate of $0.06$ rad/s. Find the rate at which
+      the area of the triangle is increasing when the angle between the sides of fixed
+      length is $\pi/3$.
+    Back: |
+      $0.3\;\mathrm{m^2/s}$
+    Annotations: ''
+  tags: []
+- id: 1547778099468
+  fields:
+    Front: >
+      CCAC 04.01 33: Boyle's Law states that when a sample of gas is compressed at
+      a constant temperature, the pressure $P$ and volume $V$ satisfy the equation
+      $PV = C$, where $C$ is a constant. Suppose that a certain instant the volume
+      is $600\;\mathrm{cm^3}$, the pressure is 150 kPa, and the pressure is increasing
+      at a rate of 20 kPa/min. At what rate is the volume decreasing at this instant?
+    Back: |
+      $80\;\mathrm{cm^3/min}$
+    Annotations: ''
+  tags: []
+- id: 1547778099670
+  media:
+  - path: ${file_dir}/images/CCAC-04.01-35.1.jpg
+  fields:
+    Front: |
+      CCAC 04.01 35: If two resistors with resistances $R_1$ and $R_2$ are connected in parallel, as in the figure, then the total resistance $R$, measured in ohms ($\Omega$), is given by
+      $$$$
+      \frac{1}{R} = \frac{1}{R_1} + \frac{1}{R_2}
+      $$$$
+      If $R_1$ and $R_2$ are increasing at rates of $0.3\;\mathrm{\Omega/s}$ and $0.2\;\mathrm{\Omega/s}$, respectively, how fast is $R$ changing when $R_1 = 80\;\mathrm{\Omega}$ and $R_2 = 100\;\mathrm{\Omega}$?
+      ![](CCAC-04.01-35.1.jpg)
+    Back: |
+      $\frac{107}{810} \approx 0.132\;\mathrm{\Omega/s}$
+    Annotations: ''
+  tags: []
+- id: 1547778099889
+  fields:
+    Front: >
+      CCAC 04.01 37: A television camera is positioned 4000 ft from the base of a
+      rocket launching pad. The angle of elevation of the camera has to change at
+      the correct rate in order to keep the rocket in sight. Also, the mechanism for
+      focusing the camera has to take into account the increasing distance from the
+      camera to the rising rocket. Let's assume the rocket rises vertically and its
+      speed is 600 ft/s when it has risen 3000 ft.
+
+      (a) How fast is the distance from the television camera to the rocket changing
+      at that moment?
+
+      (b) If the television camera is always kept aimed at the rocket, how fast is
+      the camera's angle of elevation changing at that same moment?
+    Back: |
+      (a) 360 ft/s
+      (b) 0.096 rad/s
+    Annotations: ''
+  tags: []
+- id: 1547778100048
+  fields:
+    Front: >
+      CCAC 04.01 39: A plane flies horizontally at an altitude of 5 km and passes
+      directly over a tracking telescope on the ground. When the angle of elevation
+      is $\pi/3$, this angle is decreasing at a rate of $\pi/6\text{ rad/min}$. How
+      fast is the plane traveling at that time?
+    Back: |
+      $\frac{10}{9}\pi\text{ km/min}$
+    Annotations: ''
+  tags: []
+- id: 1547778100183
+  fields:
+    Front: >
+      CCAC 04.01 41: A plane flying with a constant speed of $300\text{ km/h}$ passes
+      over a ground radar station at an altitude of $1\text{ km}$ and climbs at an
+      angle of $30^\circ$. At what rate is the distance from the plane to the radar
+      station increasing a minute later?
+    Back: |
+      $1650/\sqrt{31} \approx 296\text{ km/h}$
+    Annotations: ''
+  tags: []
+- id: 1547778100366
+  fields:
+    Front: >
+      CCAC 04.01 43: A runner sprints around a circular track of radius $100\text{
+      m}$ at a constant speed of $7\text{ m/s}$. The runner's friend is standing at
+      a distance $200\text{ m}$ from the center of the track. How fast is the distance
+      between the friends changing when the distance between them is $200\text{ m}$?
+    Back: |
+      $\frac{7}{4}\sqrt{15} \approx 6.78\text{ m/s}$
+    Annotations: ''
+  tags:
+  - Editing

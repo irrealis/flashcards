@@ -19,7 +19,8 @@ notes:
       |P_1 P_2| = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}
       $$$$
     Annotations: ''
-  tags: []
+  tags:
+  - Theory
 - id: 1547063862487
   fields:
     Front: |
@@ -34,7 +35,8 @@ notes:
       x^2 + y^2 = r^2
       $$$$
     Annotations: ''
-  tags: []
+  tags:
+  - Theory
 - id: 1547063862646
   fields:
     Front: |
@@ -46,6 +48,8 @@ notes:
       $$$$
       The slope of a vertical line is not defined.
     Annotations: ''
+  tags:
+  - Theory
 - id: 1547063862811
   fields:
     Front: |
@@ -56,6 +60,8 @@ notes:
       y - y_1 = m(x - x_1)
       $$$$
     Annotations: ''
+  tags:
+  - Theory
 - id: 1547063862914
   fields:
     Front: |
@@ -66,6 +72,8 @@ notes:
       y = mx + b
       $$$$
     Annotations: ''
+  tags:
+  - Theory
 - id: 1547063863018
   fields:
     Front: |
@@ -76,6 +84,8 @@ notes:
       (x_2 - x_1)(y - y_1) = (y_2 - y_1)(x - x_1)
       $$$$
     Annotations: ''
+  tags:
+  - Theory
 - id: 1547063863153
   fields:
     Front: |
@@ -87,6 +97,8 @@ notes:
       m_2 = -\frac{1}{m_1}
       $$$$
     Annotations: ''
+  tags:
+  - Theory
 - id: 1547063863427
   fields:
     Front: |
@@ -204,7 +216,10 @@ notes:
       Through $(4,5)$, parallel to the $x$-axis.
     Back: |
       $y = 5$
-    Annotations: ''
+    Annotations: 'Trouble:<div>190116: didn’t follow instructions, wasn’t paying close
+      enough attention.</div>'
+  tags:
+  - ann:trouble
 - id: 1547063870125
   fields:
     Front: |
@@ -271,7 +286,7 @@ notes:
         xlabel = '$x$', ylabel = '$y$',
       )
       ```
-    Annotations: ''
+    Annotations: 'Issues:<div>190212-0904: graphed w wrong slope</div>'
   tags: []
 - id: 1547063876395
   useMarkdown: pweave
@@ -427,7 +442,8 @@ notes:
       plt.ylim((-3, 3))
       plt.show()
       ```
-    Annotations: ''
+    Annotations: 'Issues:<div>- 190216: sketched as though $y$ were less than both
+      lines. It’s less than the right hand, but greater than the left hand.</div>'
   tags: []
 - id: 1547063887121
   fields:
