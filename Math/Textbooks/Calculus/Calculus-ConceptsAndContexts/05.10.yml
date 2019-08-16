@@ -10,11 +10,475 @@ defaults:
   - CCAC-05.10-ImproperIntegrals
   markdownTabLength: 2
 notes:
-- id: 1565654879805
+- id: 1565977527194
   fields:
     Front: |
-      CCAC 05.10 01: ...
+      CCAC 05.10 01: Explain why each of the following integrals is improper.
+      (a)
+      $$$$
+      \int_{1}^{\infty} x^{4} e^{-x^{4}} \,dx
+      $$$$
+      (b)
+      $$$$
+      \int_{0}^{\pi / 2} \sec x \,dx
+      $$$$
+      (c)
+      $$$$
+      \int_{0}^{2} \frac{x}{x^{2}-5 x+6} \,dx
+      $$$$
+      (d)
+      $$$$
+      \int_{-\infty}^{0} \frac{1}{x^{2}+5} \,dx
+      $$$$
     Back: |
-      ...
+      (a) Infinite interval
+      (b) Infinite discontinuity
+      (c) Infinite discontinuity
+      (d) Infinite interval
+    Annotations: ''
+  tags: []
+- id: 1565977665969
+  fields:
+    Front: >
+      CCAC 05.10 03: Find the area under the curve $y=1 / x^{3}$ from $x=1$ to $x=t$
+      and evaluate it for $t=$ 10, 100, and 1000. Then find the total area under this
+      curve for $x \geqslant 1$.
+    Back: |
+      $\frac{1}{2}-1 /\left(2 t^{2}\right)$; 0.495, 0.49995, 0.4999995; 0.5.
+    Annotations: ''
+  tags: []
+- id: 1565977763520
+  fields:
+    Front: |
+      CCAC 05.10 05: Determine whether each integral is convergent or divergent. Evaluate those that are convergent.
+      $$$$
+      \int_{3}^{\infty} \frac{1}{(x-2)^{3 / 2}} \,dx
+      $$$$
+    Back: |
+      2
+    Annotations: ''
+  tags: []
+- id: 1565977816869
+  fields:
+    Front: |
+      CCAC 05.10 07: Determine whether each integral is convergent or divergent. Evaluate those that are convergent.
+      $$$$
+      \int_{-\infty}^{-1} \frac{1}{\sqrt{2-w}} \,dw
+      $$$$
+    Back: |
+      Divergent
+    Annotations: ''
+  tags: []
+- id: 1565977914944
+  fields:
+    Front: |
+      CCAC 05.10 09: Determine whether each integral is convergent or divergent. Evaluate those that are convergent.
+      $$$$
+      \int_{4}^{\infty} e^{-y / 2} \,dy
+      $$$$
+    Back: |
+      $2e^{-2}$
+    Annotations: ''
+  tags: []
+- id: 1565977966544
+  fields:
+    Front: |
+      CCAC 05.10 11: Determine whether each integral is convergent or divergent. Evaluate those that are convergent.
+      $$$$
+      \int_{2 \pi}^{\infty} \sin \theta \,d\theta
+      $$$$
+    Back: |
+      Divergent
+    Annotations: ''
+  tags: []
+- id: 1565978050069
+  fields:
+    Front: |
+      CCAC 05.10 13: Determine whether each integral is convergent or divergent. Evaluate those that are convergent.
+      $$$$
+      \int_{-\infty}^{\infty} x e^{-x^{2}} \,dx
+      $$$$
+    Back: |
+      0
+    Annotations: ''
+  tags: []
+- id: 1565978125594
+  fields:
+    Front: |
+      CCAC 05.10 15: Determine whether each integral is convergent or divergent. Evaluate those that are convergent.
+      $$$$
+      \int_{1}^{\infty} \frac{x+1}{x^{2}+2 x} \,dx
+      $$$$
+    Back: |
+      Divergent
+    Annotations: ''
+  tags: []
+- id: 1565979714919
+  fields:
+    Front: |
+      CCAC 05.10 17: Determine whether each integral is convergent or divergent. Evaluate those that are convergent.
+      $$$$
+      \int_{0}^{\infty} s e^{-5 s} \,ds
+      $$$$
+    Back: |
+      $\frac{1}{25}$
+    Annotations: ''
+  tags: []
+- id: 1565979764669
+  fields:
+    Front: |
+      CCAC 05.10 19: Determine whether each integral is convergent or divergent. Evaluate those that are convergent.
+      $$$$
+      \int_{1}^{\infty} \frac{\ln x}{x} \,dx
+      $$$$
+    Back: |
+      Divergent
+    Annotations: ''
+  tags: []
+- id: 1565979816119
+  fields:
+    Front: |
+      CCAC 05.10 21: Determine whether each integral is convergent or divergent. Evaluate those that are convergent.
+      $$$$
+      \int_{-\infty}^{\infty} \frac{x^{2}}{9+x^{6}} \,dx
+      $$$$
+    Back: |
+      $\pi/9$
+    Annotations: ''
+  tags: []
+- id: 1565979865944
+  fields:
+    Front: |
+      CCAC 05.10 23: Determine whether each integral is convergent or divergent. Evaluate those that are convergent.
+      $$$$
+      \int_{e}^{\infty} \frac{1}{x(\ln x)^{3}} \,dx
+      $$$$
+    Back: |
+      $\frac{1}{2}$
+    Annotations: ''
+  tags: []
+- id: 1565979913369
+  fields:
+    Front: |
+      CCAC 05.10 25: Determine whether each integral is convergent or divergent. Evaluate those that are convergent.
+      $$$$
+      \int_{0}^{1} \frac{3}{x^{5}} \,dx
+      $$$$
+    Back: |
+      Divergent
+    Annotations: ''
+  tags: []
+- id: 1565979978094
+  fields:
+    Front: |
+      CCAC 05.10 27: Determine whether each integral is convergent or divergent. Evaluate those that are convergent.
+      $$$$
+      \int_{-2}^{14} \frac{dx}{\sqrt[4]{x+2}}
+      $$$$
+    Back: |
+      $\frac{32}{3}$
+    Annotations: ''
+  tags: []
+- id: 1565980028144
+  fields:
+    Front: |
+      CCAC 05.10 29: Determine whether each integral is convergent or divergent. Evaluate those that are convergent.
+      $$$$
+      \int_{0}^{33}(x-1)^{-1 / 5} \,dx
+      $$$$
+    Back: |
+      $\frac{75}{4}$
+    Annotations: ''
+  tags: []
+- id: 1565980064319
+  fields:
+    Front: |
+      CCAC 05.10 31: Determine whether each integral is convergent or divergent. Evaluate those that are convergent.
+      $$$$
+      \int_{-1}^{1} \frac{e^{x}}{e^{x}-1} \,dx
+      $$$$
+    Back: |
+      Divergent
+    Annotations: ''
+  tags: []
+- id: 1565980150094
+  fields:
+    Front: |
+      CCAC 05.10 33: Determine whether each integral is convergent or divergent. Evaluate those that are convergent.
+      $$$$
+      \int_{0}^{2} z^{2} \ln z \,dz
+      $$$$
+    Back: |
+      $\frac{8}{3} \ln 2-\frac{8}{9}$
+    Annotations: ''
+  tags: []
+- id: 1565980512194
+  media:
+  - path: ${file_dir}/images/CCAC-05.10-35.1.jpg
+  fields:
+    Front: |
+      CCAC 05.10 35: Sketch the region and find its area (if the area is finite).
+      $$$$
+      S=\left\{(x, y) | x \leqslant 1,0 \leqslant y \leqslant e^{x}\right\}
+      $$$$
+    Back: |
+      $e$
+      ![](CCAC-05.10-35.1.jpg)
+    Annotations: ''
+  tags: []
+- id: 1565980872370
+  media:
+  - path: ${file_dir}/images/CCAC-05.10-37.1.jpg
+  fields:
+    Front: |
+      CCAC 05.10 37: Sketch the region and find its area (if the area is finite).
+      $$$$
+      S=\left\{(x, y) | 0 \leqslant y \leqslant 2 /\left(x^{2}+9\right)\right\}
+      $$$$
+    Back: |
+      $2\pi / 3$
+      ![](CCAC-05.10-37.1.jpg)
+    Annotations: ''
+  tags:
+  - requiresCoding
+- id: 1565981004169
+  media:
+  - path: ${file_dir}/images/CCAC-05.10-39.1.jpg
+  fields:
+    Front: |
+      CCAC 05.10 39: Sketch the region and find its area (if the area is finite).
+      $$$$
+      S=\left\{(x, y) | 0 \leqslant x<\pi / 2,0 \leqslant y \leqslant \sec ^{2} x\right\}
+      $$$$
+    Back: |
+      Infinite area
+      ![](CCAC-05.10-39.1.jpg)
+    Annotations: ''
+  tags:
+  - requiresCoding
+- id: 1565981751219
+  media:
+  - path: ${file_dir}/images/CCAC-05.10-41.1.jpg
+  fields:
+    Front: "CCAC 05.10 41: \n(a) If $g(x)=\\left(\\sin ^{2} x\\right) / x^{2}$, use
+      your calculator or computer to make a table of approximate values of $\\int_{1}^{t}
+      g(x) \\,dx$ for $t=$ 2, 5, 10, 100, 1000, and 10,000. Does it appear that $\\int_{1}^{\\infty}
+      g(x) \\,dx$ is convergent?\n(b) Use the Comparison Theorem with $f(x)=1 / x^{2}$
+      to show that $\\int_{1}^{\\infty} g(x) \\,dx$ is convergent.\n(c) Illustrate
+      part (b) by graphing $f$ and $g$ on the same screen for $1 \\leqslant x \\leqslant
+      10$ . Use your graph to explain intuitively why $\\int_{1}^{\\infty} g(x) \\,dx$
+      is convergent.\n"
+    Back: |
+      (a)
+      $$$$
+      \begin{array}{|c|c|}
+      \hline
+      {t} & {\int_{1}^{\prime}\left[\left(\sin ^{2} x\right) / x^{2}\right] d x} \\
+      \hline
+      {2} & {0.447453} \\
+      {5} & {0.447453} \\
+      {10} & {0.621306} \\
+      {100} & {0.668479} \\
+      {1.000} & {0.672957} \\
+      {10,000} & {0.673407} \\
+      \hline
+      \end{array}
+      $$$$
+      It appears that the integral is convergent.
+      (b)
+      $$$$
+      \begin{aligned}
+      -1 \leq \sin x \leq 1
+      & \Rightarrow 0 \leq \sin ^{2} x \leq 1 \\
+      & \Rightarrow 0 \leq \frac{\sin ^{2} x}{x^{2}} \leq \frac{1}{x^{2}}.
+      \end{aligned}
+      $$$$
+      Since $\int_{1}^{\infty} \frac{1}{x^{2}} \,dx$ is convergent [CCAC-05.10 Equation 2 with $p=2>1$], $\int_{1}^{\infty} \frac{\sin ^{2} x}{x^{2}} \,dx$ is convergent by the Comparison Theorem.
+      (c)
+      ![](CCAC-05.10-41.1.jpg)
+      Since $\int_{1}^{\infty} f(x) \,dx$ is finite and the area under $g(x)$ is less than the area under $f(x)$ on any interval $[1, t], \int_{1}^{\infty} g(x) \,dx$ must be finite; that is, the integral is convergent.
+    Annotations: ''
+  tags:
+  - requiresCoding
+- id: 1565982087744
+  fields:
+    Front: |
+      CCAC 05.10 43: Use the Comparison Theorem to determine whether the integral is convergent or divergent.
+      $$$$
+      \int_{0}^{\infty} \frac{x}{x^{3}+1} \,dx
+      $$$$
+    Back: |
+      Convergent
+    Annotations: ''
+  tags: []
+- id: 1565982137894
+  fields:
+    Front: |
+      CCAC 05.10 45: Use the Comparison Theorem to determine whether the integral is convergent or divergent.
+      $$$$
+      \int_{1}^{\infty} \frac{x+1}{\sqrt{x^{4}-x}} \,dx
+      $$$$
+    Back: |
+      Divergent
+    Annotations: ''
+  tags: []
+- id: 1565982186844
+  fields:
+    Front: |
+      CCAC 05.10 47: Use the Comparison Theorem to determine whether the integral is convergent or divergent.
+      $$$$
+      \int_{0}^{1} \frac{\sec ^{2} x}{x \sqrt{x}} \,dx
+      $$$$
+    Back: |
+      Divergent
+    Annotations: ''
+  tags: []
+- id: 1565985632345
+  fields:
+    Front: |
+      CCAC 05.10 49: The integral
+      $$$$
+      \int_{0}^{\infty} \frac{1}{\sqrt{x}(1+x)} \,dx
+      $$$$
+      is improper for two reasons: The interval $[0, \infty)$ is infinite and the integrand has an infinite discontinuity at $0$. Evaluate it by expressing it as a sum of improper integrals of Type 2 and Type 1 as follows:
+      $$$$
+      \int_{0}^{\infty} \frac{1}{\sqrt{x}(1+x)} \,dx=\int_{0}^{1} \frac{1}{\sqrt{x}(1+x)} \,dx+\int_{1}^{\infty} \frac{1}{\sqrt{x}(1+x)} \,dx
+      $$$$
+    Back: |
+      $\pi$
+    Annotations: ''
+  tags: []
+- id: 1565985794444
+  fields:
+    Front: |
+      CCAC 05.10 51: Find the values of $p$ for which the integral converges and evaluate the integral for those values of $p$.
+      $$$$
+      \int_{0}^{1} \frac{1}{x^{p}} \,dx
+      $$$$
+    Back: |
+      $$$$
+      p<1, 1/(1-p)
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1565986289544
+  fields:
+    Front: "CCAC 05.10 53: \n(a) Show that $\\int_{-\\infty}^{\\infty} x \\,dx$ is
+      divergent.\n(b) Show that\n$$$$\n\\lim _{t \\rightarrow \\infty} \\int_{-t}^{t}
+      x \\,dx = 0.\n$$$$\nThis shows that we can't define\n$$$$\n\\int_{-\\infty}^{\\infty}
+      f(x) \\,dx = \\lim _{t \\rightarrow \\infty} \\int_{-t}^{t} f(x) \\,dx.\n$$$$\n"
+    Back: |
+      (a)
+      $$$$
+      I=\int_{-\infty}^{\infty} x \,dx=\int_{-\infty}^{0} x \,dx+\int_{0}^{\infty} x \,dx
+      $$$$
+      and
+      $$$$
+      \begin{aligned}
+      \int_{0}^{\infty} x \,dx
+      &=\lim _{t \rightarrow \infty} \int_{0}^{t} x \,dx \\
+      &=\lim _{t \rightarrow \infty}\left[\frac{1}{2} x^{2}\right]_{0}^{t} \\
+      &=\lim _{t \rightarrow \infty}\left[\frac{1}{2} t^{2}-0\right] \\
+      &=\infty,
+      \end{aligned}
+      $$$$
+      so $I$ is divergent.
+      (b) $\int_{-t}^{t} x \,dx=\left[\frac{1}{2} x^{2}\right]_{-t}^{t}=\frac{1}{2} t^{2}-\frac{1}{2} t^{2}=0$, so $\lim _{t \rightarrow \infty} \int_{-t}^{t} x \,dx=0$. Therefore, $\int_{-\infty}^{\infty} x \,dx \neq \lim _{t \rightarrow \infty} \int_{-t}^{t} x \,dx$.
+    Annotations: ''
+  tags: []
+- id: 1565986591745
+  media:
+  - path: ${file_dir}/images/CCAC-05.10-55.1.jpg
+  fields:
+    Front: >
+      CCAC 05.10 55: A manufacturer of lightbulbs wants to produce bulbs that last
+      about 700 hours but, of course, some bulbs burn out faster than others. Let
+      $F(t)$ be the fraction of the company's bulbs that burn out before $t$ hours,
+      so $F(t)$ always lies between 0 and $1$.
+
+      (a) Make a rough sketch of what you think the graph of $F$ might look like.
+
+      (b) What is the meaning of the derivative $r(t)=F^{\prime}(t)$?
+
+      (c) What is the value of $\int_{0}^{\infty} r(t) \,dt$? Why?
+    Back: |
+      (a)
+      ![](CCAC-05.10-55.1.jpg)
+      (b) The rate at which the fraction $F(t)$ increases as $t$ increases.
+      (c) $1$; all bulbs burn out eventually.
+    Annotations: ''
+  tags: []
+- id: 1565986842844
+  fields:
+    Front: >
+      CCAC 05.10 57: As we will see in Section CCAC-07.04, a radioactive substance
+      decays exponentially: The mass at time $t$ is $m(t)=m(0) e^{k t}$, where $m(0)$
+      is the initial mass and $k$ is a negative constant. The _mean life_ $M$ of an
+      atom in the substance is
+
+      $$$$
+
+      M=-k \int_{0}^{\infty} t e^{k t} \,dt.
+
+      $$$$
+
+      For the radioactive carbon isotope, $^{14} \mathrm{C}$, used in radiocarbon
+      dating, the value of $k$ is $-0.000121$. Find the mean life of a $^{14} \mathrm{C}$
+      atom.
+    Back: |
+      8264.5 years
+    Annotations: ''
+  tags: []
+- id: 1565987022644
+  fields:
+    Front: |
+      CCAC 05.10 59: Determine how large the number $a$ has to be so that
+      $$$$
+      \int_{a}^{\infty} \frac{1}{x^{2}+1} \,dx < 0.001
+      $$$$
+    Back: |
+      1000
+    Annotations: ''
+  tags: []
+- id: 1565987340744
+  fields:
+    Front: |
+      CCAC 05.10 61: Show that $\int_{0}^{x} x^{2} e^{-x^{2}} \,dx = \frac{1}{2} \int_{0}^{x} e^{-x^{2}} \,dx$.
+    Back: |
+      We use integration by parts: let
+      $$$$
+      u=x, dv=x e^{-x^{2}} \,dx \quad \Rightarrow \quad du=dx, v=-\frac{1}{2} e^{-x^{2}}
+      $$$$
+      So
+      $$$$
+      \begin{aligned}
+      \int_{0}^{\infty} x^{2} e^{-x^{2}} \,dx
+      &= \lim _{t \rightarrow \infty}\left[-\frac{1}{2} x e^{-x^{2}}\right]_{0}^{t}+\frac{1}{2} \int_{0}^{\infty} e^{-x^{2}} \,dx \\
+      &= \lim _{t \rightarrow \infty}\left[-\frac{t}{2 e^{t^{2}}}\right]+\frac{1}{2} \int_{0}^{\infty} e^{-x^{2}} \,dx \\
+      &= \frac{1}{2} \int_{0}^{\infty} e^{-x^{2}} \,dx
+      \end{aligned}
+      $$$$
+      (The limit is 0 by l'Hospital's Rule.)
+    Annotations: ''
+  tags: []
+- id: 1565987517069
+  fields:
+    Front: |
+      CCAC 05.10 63: Find the value of the constant $C$ for which the integral
+      $$$$
+      \int_{0}^{\infty}\left(\frac{1}{\sqrt{x^{2}+4}}-\frac{C}{x+2}\right) \,dx
+      $$$$
+      converges. Evaluate the integral for this value of $C$.
+    Back: |
+      $C=1$; $\ln 2$
+    Annotations: ''
+  tags: []
+- id: 1565987637694
+  fields:
+    Front: >
+      CCAC 05.10 65: Suppose $f$ is continuous on $[0, \infty)$ and $\lim _{x \rightarrow
+      \infty} f(x)=1$. Is it possible that $\int_{0}^{\infty} f(x) \,dx$ is convergent?
+    Back: |
+      No
     Annotations: ''
   tags: []

@@ -10,11 +10,284 @@ defaults:
   - CCAC-05.08-IntegrationUsingTablesAndComputerAlgebraSystems
   markdownTabLength: 2
 notes:
-- id: 1565654879521
+- id: 1565902382144
   fields:
     Front: |
-      CCAC 05.08 01: ...
+      CCAC 05.08 01: Use the Table of Integrals on CCAC Reference Pages 6-10 to evaluate the integral.
+      $$$$
+      \int \tan ^{3}(\pi x) \,dx
+      $$$$
     Back: |
-      ...
+      $$$$
+      \frac{1}{2 \pi} \tan ^{2}(\pi x)+\frac{1}{\pi} \ln |\cos (\pi x)|+C
+      $$$$
     Annotations: ''
   tags: []
+- id: 1565902481833
+  fields:
+    Front: |
+      CCAC 05.08 03: Use the Table of Integrals on CCAC Reference Pages 6-10 to evaluate the integral.
+      $$$$
+      \int \frac{dx}{x^{2} \sqrt{4 x^{2}+9}}
+      $$$$
+    Back: |
+      $$$$
+      -\sqrt{4 x^{2}+9} /(9 x)+C
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1565902557594
+  fields:
+    Front: |
+      CCAC 05.08 05: Use the Table of Integrals on CCAC Reference Pages 6-10 to evaluate the integral.
+      $$$$
+      \int e^{2 x} \arctan \left(e^{x}\right) \,dx
+      $$$$
+    Back: |
+      $$$$
+      \frac{1}{2}\left(e^{2 x}+1\right) \arctan \left(e^{x}\right)-\frac{1}{2} e^{x}+C
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1565902619619
+  fields:
+    Front: |
+      CCAC 05.08 07: Use the Table of Integrals on CCAC Reference Pages 6-10 to evaluate the integral.
+      $$$$
+      \int_{0}^{\pi} x^{3} \sin x \,dx
+      $$$$
+    Back: |
+      $$$$
+      \pi^{3}-6 \pi
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1565902681545
+  fields:
+    Front: |
+      CCAC 05.08 09: Use the Table of Integrals on CCAC Reference Pages 6-10 to evaluate the integral.
+      $$$$
+      \int \frac{\tan ^{3}(1 / z)}{z^{2}} \,dz
+      $$$$
+    Back: |
+      $$$$
+      -\frac{1}{2} \tan ^{2}(1 / z)-\ln |\cos (1 / z)|+C
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1565902809238
+  fields:
+    Front: |
+      CCAC 05.08 11: Use the Table of Integrals on CCAC Reference Pages 6-10 to evaluate the integral.
+      $$$$
+      \int y \sqrt{6+4 y-4 y^{2}} \,dy
+      $$$$
+    Back: |
+      $$$$
+      \begin{array}{l}
+      {\frac{2 y-1}{8} \sqrt{6+4 y-4 y^{2}}+\frac{7}{8} \sin ^{-1}\left(\frac{2 y-1}{\sqrt{7}}\right)} \\
+      {-\frac{1}{12}\left(6+4 y-4 y^{2}\right)^{3 / 2}+C}
+      \end{array}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1565903504797
+  fields:
+    Front: |
+      CCAC 05.08 13: Use the Table of Integrals on CCAC Reference Pages 6-10 to evaluate the integral.
+      $$$$
+      \int \sin ^{2} x \cos x \ln (\sin x) \,dx
+      $$$$
+    Back: |
+      $$$$
+      \frac{1}{9} \sin ^{3} x[3 \ln (\sin x)-1]+C
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1565903582819
+  fields:
+    Front: |
+      CCAC 05.08 15: Use the Table of Integrals on CCAC Reference Pages 6-10 to evaluate the integral.
+      $$$$
+      \int \frac{e^{x}}{3-e^{2 x}} \,dx
+      $$$$
+    Back: |
+      $$$$
+      \frac{1}{2 \sqrt{3}} \ln \left|\frac{e^{x}+\sqrt{3}}{e^{x}-\sqrt{3}}\right|+C
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1565903878252
+  fields:
+    Front: |
+      CCAC 05.08 17: Use the Table of Integrals on CCAC Reference Pages 6-10 to evaluate the integral.
+      $$$$
+      \int \frac{x^{4} dx}{\sqrt{x^{10}-2}}
+      $$$$
+    Back: |
+      $$$$
+      \frac{1}{5} \ln \left|x^{5}+\sqrt{x^{10}-2}\right|+C
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1565903969319
+  fields:
+    Front: |
+      CCAC 05.08 19: Use the Table of Integrals on CCAC Reference Pages 6-10 to evaluate the integral.
+      $$$$
+      \int \frac{\sqrt{4+(\ln x)^{2}}}{x} \,dx
+      $$$$
+    Back: |
+      $$$$
+      \frac{1}{2}(\ln x) \sqrt{4+(\ln x)^{2}}+2 \ln \left[\ln x+\sqrt{4+(\ln x)^{2}}\right]+C
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1565904037169
+  fields:
+    Front: |
+      CCAC 05.08 21: Use the Table of Integrals on CCAC Reference Pages 6-10 to evaluate the integral.
+      $$$$
+      \int \sqrt{e^{2 x}-1} \,dx
+      $$$$
+    Back: |
+      $$$$
+      \sqrt{e^{2 x}-1}-\cos ^{-1}\left(e^{-x}\right)+C
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1565904717535
+  fields:
+    Front: |
+      CCAC 05.08 23: Venify Formula 53 in the CCAC Table of Integrals and stated below (a) by differentiation and $(b)$ by using the substitution $t=a+b u$.
+      $$$$
+      \int \frac{u^{2} \,du}{(a+b u)^{2}}=\frac{1}{b^{3}}\left(a+b u-\frac{a^{2}}{a+b u}-2 a \ln |a+b u|\right)+C
+      $$$$
+    Back: |
+      (a)
+      $$$$
+      \begin{aligned}
+      \frac{d}{d u}\left[\frac{1}{b^{3}}\left(a+b u-\frac{a^{2}}{a+b u}-2 a \ln |a+b u|\right)+C\right]
+      &= \frac{1}{b^{3}}\left[b+\frac{b a^{2}}{(a+b u)^{2}}-\frac{2 a b}{(a+b u)}\right] \\
+      &= \frac{1}{b^{3}}\left[\frac{b(a+b u)^{2}+b a^{2}-(a+b u) 2 a b}{(a+b u)^{2}}\right] \\
+      &= \frac{1}{b^{3}}\left[\frac{b^{3} u^{2}}{(a+b u)^{2}}\right]=\frac{u^{2}}{(a+b u)^{2}}
+      \end{aligned}
+      $$$$
+
+      (b) Let $t=a+b u \Rightarrow dt = b \,du$. Note that $u=\frac{t-a}{b}$ and $du=\frac{1}{b} \,dt$.
+      $$$$
+      \begin{aligned}
+      \int \frac{u^{2} \,du}{(a+b u)^{2}}
+      &= \frac{1}{b^{3}} \int \frac{(t-a)^{2}}{t^{2}} \,dt \\
+      &= \frac{1}{b^{3}} \int \frac{t^{2}-2 a t+a^{2}}{t^{2}} \,dt \\
+      &= \frac{1}{b^{3}} \int\left(1-\frac{2 a}{t}+\frac{a^{2}}{t^{2}}\right) \,dt \\
+      &= \frac{1}{b^{3}}\left(t-2 a \ln |t|-\frac{a^{2}}{t}\right)+C \\
+      &= \frac{1}{b^{3}}\left(a+b u-\frac{a^{2}}{a+b u}-2 a \ln |a+b u|\right)+C
+      \end{aligned}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1565904905794
+  fields:
+    Front: |
+      CCAC 05.08 25: Use a computer algebra system to evaluate the integral. Compare the answer with the result of using tables. If the answers are not the same, show that they are equivalent.
+      $$$$
+      \int \sec ^{4} x \,dx
+      $$$$
+    Back: |
+      $$$$
+      \frac{1}{3} \tan x \sec ^{2} x+\frac{2}{3} \tan x+C
+      $$$$
+    Annotations: ''
+  tags:
+  - requiresCoding
+- id: 1565904995295
+  fields:
+    Front: |
+      CCAC 05.08 27: Use a computer algebra system to evaluate the integral. Compare the answer with the result of using tables. If the answers are not the same, show that they are equivalent.
+      $$$$
+      \int x^{2} \sqrt{x^{2}+4} \,dx
+      $$$$
+    Back: |
+      $$$$
+      \frac{1}{4} x\left(x^{2}+2\right) \sqrt{x^{2}+4}-2 \ln \left(\sqrt{x^{2}+4}+x\right)+C
+      $$$$
+    Annotations: ''
+  tags:
+  - requiresCoding
+- id: 1565905080923
+  fields:
+    Front: |
+      CCAC 05.08 29: Use a computer algebra system to evaluate the integral. Compare the answer with the result of using tables. If the answers are not the same, show that they are equivalent.
+      $$$$
+      \int x \sqrt{1+2 x} \,dx
+      $$$$
+    Back: |
+      $$$$
+      \frac{1}{10}(1+2 x)^{5 / 2}-\frac{1}{6}(1+2 x)^{3 / 2}+C
+      $$$$
+    Annotations: ''
+  tags:
+  - requiresCoding
+- id: 1565905141019
+  fields:
+    Front: |
+      CCAC 05.08 31: Use a computer algebra system to evaluate the integral. Compare the answer with the result of using tables. If the answers are not the same, show that they are equivalent.
+      $$$$
+      \int \tan ^{5} x \,dx
+      $$$$
+    Back: |
+      $$$$
+      -\ln |\cos x|-\frac{1}{2} \tan ^{2} x+\frac{1}{4} \tan ^{4} x+C
+      $$$$
+    Annotations: ''
+  tags:
+  - requiresCoding
+- id: 1565905497185
+  fields:
+    Front: |
+      CCAC 05.08 33:
+      (a) Use the table of integrals to evaluate $F(x)=\int f(x) \,dx$ where
+      $$$$
+      f(x)=\frac{1}{x \sqrt{1-x^{2}}}
+      $$$$
+      What is the domain of $f$ and $F$?
+
+      (b) Use a CAS to evaluate $F(x)$. What is the domain of the function $F$ that the CAS produces? Is there a discrepancy between this domain and the domain of the function $F$ that you found in part (a)?
+    Back: |
+      (a)
+      $$$$
+      \begin{align}
+      F(x)
+      &= \int f(x) \,dx = \int \frac{1}{x \sqrt{1-x^{2}}} \,dx \\
+      &\stackrel{35}{=} -\frac{1}{1} \ln \left|\frac{1+\sqrt{1-x^{2}}}{x}\right|+C \\
+      &= -\ln \left|\frac{1+\sqrt{1-x^{2}}}{x}\right|+C.
+      \end{align}
+      $$$$
+      $f$ has domain
+      $$$$
+      \begin{align}
+      \left\{x | x \neq 0,1-x^{2}>0\right\}
+      &= \{x|x \neq 0,| x |<1\} \\
+      &= (-1,0) \cup(0,1).
+      \end{align}
+      $$$$
+      $F$ has the same domain.
+
+      (b) Derive gives $F(x)=\ln \left(\sqrt{1-x^{2}}-1\right)-\ln x$ and Mathematica gives $F(x)=\ln x-\ln \left(1+\sqrt{1-x^{2}}\right)$. Both are correct if you take absolute values of the logarithm arguments, and both would then have the same domain. Maple gives $F(x)=-\operatorname{arctanh}\left(1 / \sqrt{1-x^{2}}\right)$. This function has domain
+      $$$$
+      \begin{align}
+      \left\{x| | x |<1,-1<1 / \sqrt{1-x^{2}}<1\right\}
+      &= \left\{x| | x |<1,1 / \sqrt{1-x^{2}}<1\right\} \\
+      &= \left\{x| | x |<1, \sqrt{1-x^{2}}>1\right\} \\
+      &= \emptyset
+      \end{align}
+      $$$$
+      the empty set! If we apply the command `convert(%,ln);` to Maple's answer, we get
+      $$$$
+      -\frac{1}{2} \ln \left(\frac{1}{\sqrt{1-x^{2}}}+1\right)+\frac{1}{2} \ln \left(1-\frac{1}{\sqrt{1-x^{2}}}\right),
+      $$$$
+      which has the same domain, $\emptyset$.
+    Annotations: ''
+  tags:
+  - requiresCoding

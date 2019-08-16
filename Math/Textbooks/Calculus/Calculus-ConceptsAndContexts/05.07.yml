@@ -10,11 +10,251 @@ defaults:
   - CCAC-05.07-AdditionalTechniquesOfIntegration
   markdownTabLength: 2
 notes:
-- id: 1565654879406
+- id: 1565900352683
   fields:
     Front: |
-      CCAC 05.07 01: ...
+      CCAC 05.07 01: Evaluate the integral.
+      $$$$
+      \int \sin ^{3} x \cos ^{2} x \,dx
+      $$$$
     Back: |
-      ...
+      $$$$
+      \frac{1}{5} \cos ^{5} x-\frac{1}{3} \cos ^{3} x+C
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1565900439219
+  fields:
+    Front: |
+      CCAC 05.07 03: Evaluate the integral.
+      $$$$
+      \int_{\pi / 2}^{3 \pi / 4} \sin ^{5} x \cos ^{3} x \,dx
+      $$$$
+    Back: |
+      $$$$
+      -\frac{11}{384}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1565900508320
+  fields:
+    Front: |
+      CCAC 05.07 05: Evaluate the integral.
+      $$$$
+      \int_{0}^{2 \pi} \cos ^{2}(6 \theta) \,d\theta
+      $$$$
+    Back: |
+      $$$$
+      \pi
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1565900623094
+  fields:
+    Front: |
+      CCAC 05.07 07: Use the substitution $u=\sec x$ to evaluate the integral.
+      $$$$
+      \int \tan ^{3} x \sec x \,dx
+      $$$$
+    Back: |
+      $$$$
+      \frac{1}{3} \sec ^{3} x-\sec x+C
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1565900706662
+  fields:
+    Front: |
+      CCAC 05.07 09: Use the substitution $u=\tan x$ to evaluate the integral.
+      $$$$
+      \int_{0}^{\pi / 4} \tan ^{2} x \sec ^{4} x \,dx
+      $$$$
+    Back: |
+      $$$$
+      \frac{8}{15}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1565900835746
+  fields:
+    Front: |
+      CCAC 05.07 11: Use the substitution $x=3 \sin \theta,-\pi / 2 \leqslant \theta \leqslant \pi / 2,$ and the identity $\cot ^{2} \theta=\csc ^{2} \theta-1$ to evaluate
+      $$$$
+      \int \frac{\sqrt{9-x^{2}}}{x^{2}} \,dx
+      $$$$
+    Back: |
+      $$$$
+      -\frac{\sqrt{9-x^{2}}}{x}-\sin ^{-1}\left(\frac{x}{3}\right)+C
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1565900953169
+  fields:
+    Front: |
+      CCAC 05.07 13: Use the subsititution $x=2 \tan \theta,-\pi / 2<\theta<\pi / 2,$ to
+      evaluate
+      $$$$
+      \int \frac{1}{x^{2} \sqrt{x^{2}+4}} \,dx
+      $$$$
+    Back: |
+      $$$$
+      -\frac{\sqrt{x^{2}+4}}{4 x}+C
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1565901048798
+  fields:
+    Front: |
+      CCAC 05.07 15: Evaluate the integral.
+      $$$$
+      \int_{\sqrt{2}}^{2} \frac{1}{t^{3} \sqrt{t^{2}-1}} \,dt
+      $$$$
+    Back: |
+      $$$$
+      \frac{\pi}{24}+\frac{\sqrt{3}}{8}-\frac{1}{4}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1565901148445
+  fields:
+    Front: |
+      CCAC 05.07 17: Evaluate the integral.
+      $$$$
+      \int \frac{dx}{x^{2} \sqrt{4-x^{2}}}
+      $$$$
+    Back: |
+      $$$$
+      -\frac{\sqrt{4-x^{2}}}{4 x}+c
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1565901300044
+  fields:
+    Front: |
+      CCAC 05.07 19: Write out the form of the partial fraction expansion of the function. Do not determine the numerical values of the coefficients.
+
+      (a)
+      $$$$
+      \frac{2 x}{(x+3)(3 x+1)}
+      $$$$
+
+      (b)
+      $$$$
+      \frac{1}{x^{3}+2 x^{2}+x}
+      $$$$
+    Back: |
+      (a)
+      $$$$
+      \frac{A}{x+3}+\frac{B}{3 x+1}
+      $$$$
+
+      (b)
+      $$$$
+      \frac{A}{x}+\frac{B}{x+1}+\frac{C}{(x+1)^{2}}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1565901412563
+  fields:
+    Front: |
+      CCAC 05.07 21: Evaluate the integral.
+      $$$$
+      \int \frac{5 x+1}{(2 x+1)(x-1)} \,dx
+      $$$$
+    Back: |
+      $$$$
+      \frac{1}{2} \ln |2 x+1|+2 \ln |x-1|+C
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1565901489219
+  fields:
+    Front: |
+      CCAC 05.07 23: Evaluate the integral.
+      $$$$
+      \int_{2}^{3} \frac{1}{x^{2}-1} \,dx
+      $$$$
+    Back: |
+      $$$$
+      \frac{1}{2} \ln \frac{3}{2}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1565901549319
+  fields:
+    Front: |
+      CCAC 05.07 25: Evaluate the integral.
+      $$$$
+      \int \frac{10}{(x-1)\left(x^{2}+9\right)} \,dx
+      $$$$
+    Back: |
+      $$$$
+      \ln |x-1|-\frac{1}{2} \ln \left(x^{2}+9\right)-\frac{1}{3} \tan ^{-1}(x / 3)+C
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1565901611144
+  fields:
+    Front: |
+      CCAC 05.07 27: Evaluate the integral.
+      $$$$
+      \int \frac{x^{3}+x^{2}+2 x+1}{\left(x^{2}+1\right)\left(x^{2}+2\right)} \,dx
+      $$$$
+    Back: |
+      $$$$
+      \frac{1}{2} \ln \left(x^{2}+1\right)+(1 / \sqrt{2}) \tan ^{-1}(x / \sqrt{2})+C
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1565901689844
+  fields:
+    Front: |
+      CCAC 05.07 29: Use long division to evaluate the integral.
+      $$$$
+      \int \frac{x}{x-6} \,dx
+      $$$$
+    Back: |
+      $$$$
+      x+6 \ln |x-6|+C
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1565901748835
+  fields:
+    Front: |
+      CCAC 05.07 31: Use long division to evaluate the integral.
+      $$$$
+      \int \frac{x^{3}+4}{x^{2}+4} \,dx
+      $$$$
+    Back: |
+      $$$$
+      \frac{1}{2} x^{2}-2 \ln \left(x^{2}+4\right)+2 \tan ^{-1}(x / 2)+C
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1565901838785
+  fields:
+    Front: |
+      CCAC 05.07 33: Make a substitution to express the integrand as a rational function and then evaluate the integral.
+      $$$$
+      \int_{9}^{16} \frac{\sqrt{x}}{x-4} \,dx
+      $$$$
+    Back: |
+      $$$$
+      2+\ln \frac{25}{9}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1565901925045
+  fields:
+    Front: |
+      CCAC 05.07 35: By completing the square in the quadratic $x^{2}+x+1$ and making a substitution, evaluate
+      $$$$
+      \int \frac{dx}{x^{2}+x+1}
+      $$$$
+    Back: |
+      $$$$
+      \frac{2}{\sqrt{3}} \tan ^{-1}\left(\frac{2 x+1}{\sqrt{3}}\right)+C
+      $$$$
     Annotations: ''
   tags: []

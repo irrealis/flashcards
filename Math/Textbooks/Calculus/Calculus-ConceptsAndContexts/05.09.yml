@@ -10,11 +10,443 @@ defaults:
   - CCAC-05.09-ApproximateIntegration
   markdownTabLength: 2
 notes:
-- id: 1565654879650
+- id: 1565906978770
+  media:
+  - path: ${file_dir}/images/CCAC-05.09-01.1.jpg
   fields:
     Front: |
-      CCAC 05.09 01: ...
+      CCAC 05.09 01: Let $I=\int_{0}^{4} f(x) \,dx$, where $f$ is the function whose graph is shown.
+      (a) Use the graph to find $L_{2}, R_{2},$ and $M_{2}$ .
+      (b) Are these underestimates or overestimates of $I$?
+      (c) Use the graph to find $T_{2}$ . How does it compare with $I$?
+      (d) For any value of $n$, list the numbers $L_{n}, R_{n}, M_{n}, T_{n},$ and $I$ in increasing order.
+      ![](CCAC-05.09-01.1.jpg)
     Back: |
-      ...
+      (a) $L_{2}=6$, $R_{2}=12$, $M_{2} \approx 9.6$
+      (b) $L_{2}$ is an underestimate, $R_{2}$ and $M_{2}$ are overestimates.
+      (c) $T_{2}=9<I$
+      (d) $L_{n}<T_{n}<I<M_{n}<R_{n}$
+    Annotations: ''
+  tags: []
+- id: 1565907275894
+  fields:
+    Front: >
+      CCAC 05.09 03: Estimate $\int_{0}^{1} \cos \left(x^{2}\right) \,dx$ using (a)
+      the Trapezoidal Rule and (b) the Midpoint Rule, each with $n=4$. From a graph
+      of the integrand, decide whether your answers are underestimates or overestimates.
+      What can you conclude about the true value of the integral?
+    Back: |
+      (a) $T_{4} \approx 0.895759$ (underestimate)
+      (b) $M_{4} \approx 0.908907$ (overestimate)
+      $T_{4}<I<M_{4}$
+    Annotations: ''
+  tags:
+  - requiresCoding
+- id: 1565907449292
+  fields:
+    Front: |
+      CCAC 05.09 05: Use (a) the Midpoint Rule and (b) Simpson's Rule to approximate the given integral with the specified value of $n$.  (Round your answers to six decimal places.) Compare your results to the actual value to determine the error in each approximation.
+      $$$$
+      \int_{0}^{2} \frac{x}{1+x^{2}} \,dx, \quad n=10
+      $$$$
+    Back: |
+      (a) $M_{10} \approx 0.806598, E_{M} \approx-0.001879$
+      (b) $S_{10} \approx 0.804779, E_{S} \approx-0.000060$
+    Annotations: ''
+  tags: []
+- id: 1565907595144
+  fields:
+    Front: |
+      CCAC 05.09 07: Use (a) the Trapezoidal Rule, (b) the Midpoint Rulc, and (c) Simpson's Rule to approximate the given integral with the specified value of $n$. (Round your answers to six decimal places.)
+      $$$$
+      \int_{0}^{2} \sqrt[4]{1+x^{2}} \,dx, \quad n=8
+      $$$$
+    Back: |
+      (a) 2.413790
+      (b) 2.411453
+      (c) 2.412232
+    Annotations: ''
+  tags: []
+- id: 1565907752634
+  fields:
+    Front: |
+      CCAC 05.09 09: Use (a) the Trapezoidal Rule, (b) the Midpoint Rulc, and (c) Simpson's Rule to approximate the given integral with the specified value of $n$. (Round your answers to six decimal places.)
+        $$$$
+        \int_{1}^{2} \frac{\ln x}{1+x} \,dx, \quad n=10
+        $$$$
+    Back: |
+      (a) 0.146879
+      (b) 0.147391
+      (c) 0.147219
+    Annotations: ''
+  tags: []
+- id: 1565907861594
+  fields:
+    Front: |
+      CCAC 05.09 11: Use (a) the Trapezoidal Rule, (b) the Midpoint Rulc, and (c) Simpson's Rule to approximate the given integral with the specified value of $n$. (Round your answers to six decimal places.)
+      $$$$
+      \int_{0}^{1 / 2} \sin \left(e^{t / 2}\right) \,dt, \quad n=8
+      $$$$
+    Back: |
+      (a) 0.451948
+      (b) 0.451991
+      (c) 0.451976
+    Annotations: ''
+  tags: []
+- id: 1565907945794
+  fields:
+    Front: |
+      CCAC 05.09 13: Use (a) the Trapezoidal Rule, (b) the Midpoint Rulc, and (c) Simpson's Rule to approximate the given integral with the specified value of $n$. (Round your answers to six decimal places.)
+      $$$$
+      \int_{0}^{4} e^{\sqrt{t}} \sin t \,dt, \quad n=8
+      $$$$
+    Back: |
+      (a) 4.513618
+      (b) 4.748256
+      (c) 4.675111
+    Annotations: ''
+  tags: []
+- id: 1565908069926
+  fields:
+    Front: |
+      CCAC 05.09 15: Use (a) the Trapezoidal Rule, (b) the Midpoint Rulc, and (c) Simpson's Rule to approximate the given integral with the specified value of $n$. (Round your answers to six decimal places.)
+      $$$$
+      \int_{1}^{5} \frac{\cos x}{x} \,dx, \quad n=8
+      $$$$
+    Back: |
+      (a) $-0.495333$
+      (b) $-0.543321$
+      (c) $-0.526123$
+    Annotations: ''
+  tags: []
+- id: 1565908307019
+  fields:
+    Front: "CCAC 05.09 17: \n  (a) Find the approximations $T_{s}$ and $M_{s}$ for
+      the integral $\\int_{0}^{t} \\cos \\left(x^{2}\\right) \\,dx$.\n  (b) Estimate
+      the errors in the approximations of part (a).\n  (c) How large do we have to
+      choose $n$ so that the approximations $T_{n}$ and $M_{n}$ to the integral in
+      part (a) are accurate to within 0.0001?\n"
+    Back: |
+      (a) $T_{8} \approx 0.902333$, $M_{8} \approx 0.905620$
+      (b) $\left|E_{r}\right| \leqslant 0.0078$, $\left|E_{\mathrm{M}}\right| \leqslant 0.0039$
+      (c) $n=71$ for $T_{n}$, $n=50$ for $M_{n}$
+    Annotations: ''
+  tags: []
+- id: 1565908837722
+  fields:
+    Front: "CCAC 05.09 19: \n(a) Find the approximations $T_{10}$, $M_{10}$, and $S_{10}$
+      for $\\int_{0}^{\\pi} \\sin x \\,dx$ and the corresponding errors $E_{T}$, $E_{M}$,
+      and $E_{S}$.\n(b) Compare the actual errors in part (a) with the error estimates
+      given by (3) and (4).\n(c) How large do we have to choose $n$ so that the approximations
+      $T_{n}$, $M_{n},$ and $S_{n}$ to the integral in part (a) are accurate to within
+      0.00001?\n"
+    Back: >
+      (a) $T_{10} \approx 1.983524$, $E_{T} \approx 0.016476$; $M_{10} \approx 2.008248$,
+      $E_{M} \approx-0.008248$; $S_{10} \approx 2.000110$, $E_{S} \approx-0.000110$
+
+      (b) $\left|E_{\tau}\right| \leqslant 0.025839$, $\left|E_{y}\right| \leqslant
+      0.012919 $, $\left|E_{s}\right| \leqslant 0.000170$
+
+      (c) $n=509$ for $T_{n}$, $n=360$ for $M_{n}$, $n=22$ for $S_{n}$
+    Annotations: ''
+  tags: []
+- id: 1565910516345
+  media:
+  - path: ${file_dir}/images/CCAC-05.09-21.1.jpg
+  - path: ${file_dir}/images/CCAC-05.09-21.2.jpg
+  fields:
+    Front: >
+      CCAC 05.09 21: The trouble with the error estimates is that it is often very
+      difficult to compute four derivatives and obtain a good upper bound $K$ for
+      $\left|f^{(4)}(x)\right|$ by hand. But computer algebra systems have no problem
+      computing $f^{(4)}$ and graphing it, so we can easily find a value for $K$ from
+      a machine graph. This exercise deals with approximations to the integral $I=\int_{0}^{2
+      \pi} f(x) \,dx$, where $f(x)=e^{\cos x}$.
+
+      (a) Use a graph to get a good upper bound for $\left|f^{\prime \prime}(x)\right|$.
+
+      (b) Use $M_{10}$ to approximate $I$.
+
+      (c) Use part (a) to estimate the error in part (b).
+
+      (d) Use the built-in numerical integration capability of your CAS to approximate
+      $I$.
+
+      (e) How does the actual error compare with the error estimate in part (c)?
+
+      (f) Use a graph to get a good upper bound for $\left|f^{(4)}(x)\right|$.
+
+      (g) Use $S_{10}$ to approximate $I$.
+
+      (h) Use part (f) to estimate the error in part (g).
+
+      (i) How does the actual error compare with the error estimate in part (h)?
+
+      (j) How large should $n$ be to guarantee that the size of the error in using
+      $S_{n}$ is less than 0.0001?
+    Back: |
+      (a) Using a CAS, we differentiate $f(x)=e^{\cos x}$ twice, and find that $f^{\prime \prime}(x)=e^{\cos x}\left(\sin ^{2} x-\cos x\right)$. From the graph, we see that the maximum value of $\left|f^{\prime \prime}(x)\right|$ occurs at the endpoints of the interval $[0,2 \pi]$. Since $f^{\prime \prime}(0)=-e$, we can use $K=e$ or $K=2.8$.
+      ![](CCAC-05.09-21.1.jpg)
+
+      (b) A CAS gives $M_{10} \approx 7.954926518$ . (In Maple, use `Student[Calculus1][RiemannSum]` or `Student[Calculus1][ApproximateInt]`.)
+
+      (c) Using CCAC-05.09 Theorem 3 for the Midpoint Rule, with $K=e$, we get $\left|E_{M}\right| \leq \frac{e(2 \pi-0)^{3}}{24 \cdot 10^{2}} \approx 0.280945995$. With $K=2.8$, we get $\left|E_{M}\right| \leq \frac{2.8(2 \pi-0)^{3}}{24 \cdot 10^{2}}=0.289391916$.
+
+      (d) A CAS gives $I \approx 7.954926521$.
+
+      (e) The actual error is only about $3 \times 10^{-9}$, much less than the estimate in part (c).
+
+      (f) We use the CAS to differentiate twice more, and then graph
+      $$$$
+      f^{(4)}(x)=e^{\cos x}\left(\sin ^{4} x-6 \sin ^{2} x \cos x+3-7 \sin ^{2} x+\cos x\right).
+      $$$$
+      From the graph, we see that the maximum value of $\left|f^{(4)}(x)\right|$ occurs at the endpoints of the interval $[0,2 \pi]$. Since $f^{(4)}(0)=4 e$, we can use $K=4 e$ or $K=10.9$.
+      ![](CCAC-05.09-21.2.jpg)
+
+      (g) A CAS gives $S_{10} \approx 7.95378942 .$ (In Maple, use `Student[Calculus1][ApproximateInt]`.)
+
+      (h) Using Theorem 4 with $K=4 e$, we get $\left|E_{S}\right| \leq \frac{4 e(2 \pi-0)^{5}}{180 \cdot 10^{4}} \approx 0.059153618$. With $K=10.9$, we get $\left|E_{S}\right| \leq \frac{10.9(2 \pi-0)^{5}}{180 \cdot 10^{4}} \approx 0.059299814$.
+
+      (i) The actual error is about $7.954926521-7.953789422 \approx 0.00114$. This is quite a bit smaller than the estimate in part (h), though the difference is not nearly as great as it was in the case of the Midpoint Rule.
+
+      (j) To ensure that $\left|E_{S}\right| \leq 0.0001,$ we use Theorem 4:
+      $$$$
+      \begin{align}
+      \left|E_{S}\right| \leq \frac{4 e(2 \pi)^{5}}{180 \cdot n^{4}} \leq 0.0001 \quad
+      &\Rightarrow \quad \frac{4 e(2 \pi)^{5}}{180 \cdot 0.0001} \leq n^{4} \\
+      &\Rightarrow n^{4} \geq 5,915,362 \\
+      &\Leftrightarrow n \geq 49.3.
+      \end{align}
+      $$$$
+      So we must take $n \geq 50$ to ensure that $\left|I-S_{n}\right| \leq 0.0001$. $(K=10.9$ leads to the same value of $n$.)
+    Annotations: ''
+  tags: []
+- id: 1565972395461
+  fields:
+    Front: >
+      CCAC 05.09 23: Find the approximations $L_{n}$, $R_{n}$, $T_{n}$ and $M_{n}$
+      for $n=5$, $10$, and $20$. Then compute the corresponding errors $E_{L}$, $E_{R}$,
+      $E_{T}$, and $E_{M}$. Round your answers to six decimal places. You may wish
+      to use the sum command on a computer algebra system.  What observations can
+      you make? In particular, what happens to the errors when $n$ is doubled?
+    Back: |
+      $$$$
+      \begin{array}{|c|c|c|c|c|}
+      \hline
+      n & {L_{n}} & {R_{n}} & {T_{n}} & {M_{n}} \\
+      \hline
+      {5} & {0.742943} & {1.286599} & {1.014771} & {0.992621} \\
+      {10} & {0.867782} & {1.139610} & {1.003696} & {0.998152} \\
+      {20} & {0.932967} & {1.068881} & {1.000924} & {0.999538} \\
+      \hline
+      \end{array}
+      $$$$
+      $$$$
+      \begin{array}{|c|c|c|c|c|c|}
+      \hline
+      n & {E_{L}} & {E_{R}} & {E_{T}} & {E_{M}} \\
+      \hline
+      {5} & {0.257057} & {-0.286599} & {-0.014771} & {0.007379} \\
+      {10} & {0.132218} & {-0.139610} & {-0.003696} & {0.001848} \\
+      {20} & {0.067033} & {-0.068881} & {-0.000924} & {0.000462} \\
+      \hline
+      \end{array}
+      $$$$
+      _Observations:_
+      1. $E_{L}$ and $E_{R}$ are always opposite in sign, as are $E_{T}$ and $E_{M}$.
+      2. As $n$ is doubled, $E_{L}$ and $E_{R}$ are decreased by about a factor of 2, and $E_{T}$ and $E_{M}$ are decreased by a factor of about 4.
+      3. The Midpoint approximation is about twice as accurate as the Trapezoidal approximation.
+      4. All the approximations become more accurate as the value of $n$ increases.
+      5. The Midpoint and Trapezoidal approximations are much more accurate than the endpoint approximations.
+    Annotations: ''
+  tags:
+  - requiresCoding
+- id: 1565972782200
+  fields:
+    Front: >
+      CCAC 05.09 25: Find the approximations $T_{n}$, $M_{n}$, and $S_{n}$ for $n=6$
+      and $12$. Then compute the corresponding errors $E_{T}$, $E_{M}$, and $E_{s}$. 
+      (Round your answers to six decimal places. You may wish to use the sum command
+      on a computer algebra system.) What observations can you make? In particular,
+      what happens to the errors when $n$ is doubled?
+    Back: |
+      $$$$
+      \begin{array}{|c|c|c|c|}
+      \hline
+      {n} & {T_{n}} & {M_{n}} & {S_{n}} \\
+      \hline
+      {6} & {6.695473} & {6.252572} & {6.403292} \\
+      {12} & {6.474023} & {6.363008} & {6.400206} \\
+      \hline
+      \end{array}
+      $$$$
+      $$$$
+      \begin{array}{|c|c|c|c|}
+      \hline
+      {n} & {E_{T}} & {E_{M}} & {E_{S}} \\
+      \hline
+      {6} & {-0.295473} & {0.147428} & {-0.003292} \\
+      {12} & {-0.074023} & {0.036992} & {-0.000206} \\
+      \hline
+      \end{array}
+      $$$$
+      _Observations:_
+      1. $E_{T}$ and $E_{M}$ are opposite in sign and decrease by a factor of about 4 as $n$ is doubled.
+      2. The Simpson's approximation is much more accurate than the Midpoint and Trapezoidal approximations, and $E_{S}$ seems to decrease by a factor of about 16 as $n$ is doubled.
+    Annotations: ''
+  tags:
+  - requiresCoding
+- id: 1565973199288
+  media:
+  - path: ${file_dir}/images/CCAC-05.09-27.1.jpg
+  fields:
+    Front: |
+      CCAC 05.09 27: Estimate the area under the graph in the figure by using (a) the Trapezoidal Rule, (b) the Midpoint Rule, and (c) Simpson's Rule, each with $n=6$.
+      ![](CCAC-05.09-27.1.jpg)
+    Back: |
+      (a)
+      $$$$
+      \begin{aligned}
+      \Delta x &=(b-a) / n=(6-0) / 6=1 \\
+      T_{6} &=\frac{1}{2}[f(0)+2 f(1)+2 f(2)+2 f(3)+2 f(4)+2 f(5)+f(6)] \\
+      & \approx \frac{1}{2}[2+2(1)+2(3)+2(5)+2(4)+2(3)+4] \\
+      &=\frac{1}{2}(38)=19
+      \end{aligned}
+      $$$$
+      (b)
+      $$$$
+      \begin{aligned}
+      M_{6} &= 1[f(0.5)+f(1.5)+f(2.5)+f(3.5)+f(4.5)+f(5.5)] \\
+      & \approx 1.3+1.5+4.6+4.7+3.3+3.2 \\
+      &=18.6
+      \end{aligned}
+      $$$$
+      (c)
+      $$$$
+      \begin{aligned}
+      S_{6} &=\frac{1}{3}[f(0)+4 f(1)+2 f(2)+4 f(3)+2 f(4)+4 f(5)+f(6)] \\
+      & \approx \frac{1}{3}[2+4(1)+2(3)+4(5)+2(4)+4(3)+4] \\
+      &=\frac{1}{3}(56)=18 . \overline{6}
+      \end{aligned}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1565973399069
+  media:
+  - path: ${file_dir}/images/CCAC-05.09-29.1.jpg
+  fields:
+    Front: |
+      CCAC 05.09 29: The graph of the acceleration $a(t)$ of a car measured in $\mathrm{ft} / \mathrm{s}^{2}$ is shown. Use Simpson's Rule to estimate the increase in the
+      velocity of the car during the 6-second time interval.
+      ![](CCAC-05.09-29.1.jpg)
+    Back: |
+      37.73 $\mathrm{ft} / \mathrm{s}$
+    Annotations: ''
+  tags: []
+- id: 1565973505263
+  fields:
+    Front: >
+      CCAC 05.09 31: The table (supplied by San Diego Gas and Electric) gives the
+      power consumption $P$ in megawatts in San Diego County from midnight to 6:00
+      A.M. on a day in December. Use Simpson's Rule to estimate the energy used during
+      that time period. (Use the fact that power is the derivative of energy.)
+    Back: |
+      $10,177$ megawatt-hours
+    Annotations: ''
+  tags: []
+- id: 1565973748444
+  fields:
+    Front: |
+      CCAC 05.09 33:
+      (a) Use the Midpoint Rule and the given data to estimate the value of the integral $\int_{0}^{3.2} f(x) \,dx$.
+      $$$$
+      \begin{array}{|c|c|c|c|}
+      \hline
+      {x} & {f(x)} & {x} & {f(x)} \\
+      \hline
+      {0.0} & {6.8} & {2.0} & {7.6} \\
+      {0.4} & {6.8} & {2.4} & {7.6} \\
+      {0.4} & {6.5} & {2.4} & {8.4} \\
+      {0.8} & {6.3} & {2.8} & {8.8} \\
+      {1.2} & {6.4} & {3.2} & {9.0} \\
+      {1.6} & {6.9} & {} \\
+      \hline
+      \end{array}
+      $$$$
+      (b) If it is known that $-4 \leqslant f^{\prime \prime}(x) \leqslant 1$ for all $x$, estimate the error involved in the approximation in part (a).
+    Back: |
+      (a) 23.44
+      (b) 0.3413
+    Annotations: ''
+  tags: []
+- id: 1565973977937
+  fields:
+    Front: >
+      CCAC 05.09 35: The intensity of light with wavelength $\lambda$ traveling through
+      a diffraction grating with $N$ slits at an angle $\theta$ is given by $I(\theta)=N^{2}
+      \sin ^{2} k / k^{2}$, where $k=(\pi N d \sin \theta) / \lambda$ and $d$ is the
+      distance between adjacent slits. A helium-neon laser with wavelength $\lambda=632.8
+      \times 10^{-9} \mathrm{m}$ is emitting a narrow band of light, given by $-10^{-6}<\theta<10^{-6}$,
+      through a grating with $10,000$ slits spaced $10^{-4} \mathrm{m}$ apart. Use
+      the Midpoint Rule with $n=10$ to estimate the total light intensity $\int_{-10^{-6}}^{10^{-6}}
+      I(\theta) \,d\theta$ emerging from the grating.
+    Back: |
+      59.4
+    Annotations: ''
+  tags: []
+- id: 1565974140395
+  media:
+  - path: ${file_dir}/images/CCAC-05.09-37.1.jpg
+  fields:
+    Front: >
+      CCAC 05.09 37: Sketch the graph of a continuous function on $[0,2]$ for which
+      the Trapezoidal Rule with $n=2$ is more accurate than the Midpoint Rule.
+    Back: |
+      ![](CCAC-05.09-37.1.jpg)
+    Annotations: ''
+  tags: []
+- id: 1565974251095
+  fields:
+    Front: |
+      CCAC 05.09 39: If $f$ is a positive function and $f^{\prime \prime}(x)<0$ for $a \leqslant x \leqslant b$, show that
+      $$$$
+      T_{n}<\int_{a}^{b} f(x) \,dx<M_{n}
+      $$$$
+    Back: >
+      Since the Trapezoidal and Midpoint approximations on the interval $[a, b]$ are
+      the sums of the Trapezoidal and Midpoint approximations on the subintervals
+      $\left[x_{i-1}, x_{i}\right], i=1,2, \ldots, n$, we can focus our attention
+      on one such interval. The condition $f^{\prime \prime}(x)<0$ for $a \leq x \leq
+      b$ means that the graph of $f$ is concave down as in CCAC-05.09 Figure 5. In
+      that figure, $T_{n}$ is the area of the trapezoid $A Q R D$, $\int_{a}^{b} f(x)
+      \,dx$ is the area of the region $A Q P R D$, and $M_{n}$ is the trapezoid $A
+      B C D$, so $T_{n}<\int_{a}^{b} f(x) d x<M_{n}$. In general, the condition $f^{\prime
+      \prime}<0$ implies that the graph of $f$ on $[a, b]$ lies above the chord joining
+      the points $(a, f(a))$ and $(b, f(b))$. Thus, $\int_{a}^{b} f(x) \,dx>T_{n}$.
+      Since $M_{n}$ is the area under a tangent to the graph, and since $f^{\prime
+      \prime}<0$ implies that the tangent lies above the graph, we also have $M_{n}>\int_{a}^{b}
+      f(x) \,dx$. Thus, $T_{n}<\int_{a}^{b} f(x) \,dx<M_{n}$.
+    Annotations: ''
+  tags: []
+- id: 1565975181994
+  fields:
+    Front: |
+      CCAC 05.09 41: Show that $\frac{1}{2}\left(T_{n}+M_{n}\right)=T_{2 n}$.
+    Back: |
+      $T_{n}=\frac{1}{2} \Delta x\left[f\left(x_{0}\right)+2 f\left(x_{1}\right)+\cdots+2 f\left(x_{n-1}\right)+f\left(x_{n}\right)\right]$ and $M_{n}=\Delta x\left[f\left(\overline{x}_{1}\right)+f\left(\overline{x}_{2}\right)+\cdots+f\left(\overline{x}_{n-1}\right)+f\left(\overline{x}_{n}\right)\right],$ where $\overline{x}_{i}=\frac{1}{2}\left(x_{i-1}+x_{i}\right)$. Now
+      $$$$
+      T_{2 n}=\frac{1}{2}\left(\frac{1}{2} \Delta x\right)\left[f\left(x_{0}\right)+2 f\left(\overline{x}_{1}\right)+2 f\left(x_{1}\right)+2 f\left(\overline{x}_{2}\right)+2 f\left(x_{2}\right) \\
+      +\cdots+2 f\left(\overline{x}_{n-1}\right)+2 f\left(x_{n-1}\right)+2 f\left(\overline{x}_{n}\right)+f\left(x_{n}\right)\right]
+      $$$$
+      so
+      $$$$
+      \begin{aligned}
+      \frac{1}{2}\left(T_{n}+M_{n}\right)
+      &=\frac{1}{2} T_{n}+\frac{1}{2} M_{n} \\
+      &=\frac{1}{4} \Delta x\left[f\left(x_{0}\right)+2 f\left(x_{1}\right)+\cdots+2 f\left(x_{n-1}\right)+f\left(x_{n}\right)\right] \\
+      &+\frac{1}{4} \Delta x\left[2 f\left(\pi_{1}\right)+2 f\left(\overline{x}_{2}\right)+\cdots+2 f\left(\overline{x}_{n-1}\right)+2 f\left(\overline{x}_{n}\right)\right] \\
+      &=T_{2 n}.
+      \end{aligned}
+      $$$$
     Annotations: ''
   tags: []
