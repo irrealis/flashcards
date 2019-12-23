@@ -1,0 +1,60 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Proofs
+  - SingleVariableEssentialCalculus
+  - SVEC-03-ApplicationsOfDifferentiation
+  - SVEC-03.06-NewtonsMethod
+  markdownTabLength: 2
+notes:
+- id: 1573079662120
+  media:
+  - path: ${file_dir}/images/SVEC-03.06.Pf-01.1.jpg
+  - path: ${file_dir}/images/SVEC-03.06.Pf-01.2.jpg
+  - path: ${file_dir}/images/SVEC-03.06.Pf-01.3.jpg
+  fields:
+    Front: |
+      SVEC 03.06 Proof 01:
+      ##### newton's method
+      Derive the **next-approximation formula of Newton's Method.**
+    Back: |
+      The geometry behind Newton's method is shown in the figure below, where the root that we are trying to find is labeled $r .$
+      <p align="center">![](SVEC-03.06.Pf-01.1.jpg)</p>
+      We start with a first approximation $x_{1},$ which is obtained by guessing, or from a rough sketch of the graph of $f,$ or from a computer-generated graph of $f .$ Consider the tangent line $L$ to the curve $y=f(x)$ at the point $\left(x_{1}, f\left(x_{1}\right)\right)$ and look at the $x$ -intercept of $L,$ labeled $x_{2} .$ The idea behind Newton's method is that the tangent line is close to the curve and so its $x$ -intercept, $x_{2},$ is close to the $x$ -intercept of the curve (namely, the root $r$ that we are seeking). Because the tangent is a line, we can easily find its $x$ -intercept.
+
+      To find a formula for $x_{2}$ in terms of $x_{1}$ we use the fact that the slope of $L$ is $f^{\prime}\left(x_{1}\right),$ so its equation is
+      $$$
+      y-f\left(x_{1}\right)=f^{\prime}\left(x_{1}\right)\left(x-x_{1}\right)
+      $$$ Since the $x$ -intercept of $L$ is $x_{2},$ we set $y=0$ and obtain
+      $$$
+      0-f\left(x_{1}\right)=f^{\prime}\left(x_{1}\right)\left(x_{2}-x_{1}\right)
+      $$$ If $f^{\prime}\left(x_{1}\right) \neq 0,$ we can solve this equation for $x_{2}:$
+      $$$
+      x_{2}=x_{1}-\frac{f\left(x_{1}\right)}{f^{\prime}\left(x_{1}\right)}
+      $$$
+      We use $x_{2}$ as a second approximation to $r .$
+
+      Next we repeat this procedure with $x_{1}$ replaced by $x_{2},$ using the tangent line at $\left(x_{2}, f\left(x_{2}\right)\right) .$ This gives a third approximation:
+      $$$
+      x_{3}=x_{2}-\frac{f\left(x_{2}\right)}{f^{\prime}\left(x_{2}\right)}
+      $$$ If we keep repeating this process, we obtain a sequence of approximations $x_{1}, x_{2},$ $x_{3}, x_{4}, \ldots$ as shown in the figure below.
+      <p align="center">![](SVEC-03.06.Pf-01.2.jpg)</p>
+      In general, if the $n$ th approximation is $x_{n}$ and $f^{\prime}\left(x_{n}\right) \neq 0,$ then the next approximation is given by
+      $$$
+      x_{n+1}=x_{n}-\frac{f\left(x_{n}\right)}{f^{\prime}\left(x_{n}\right)}
+      $$$
+
+      If the numbers $x_{n}$ become closer and closer to $r$ as $n$ becomes large, then we say that the sequence _converges_ to $r$ and we write
+      $$$
+      \lim _{n \rightarrow \infty} x_{n}=r
+      $$$
+      Although the sequence of successive approximations converges to the desired root for functions of the type illustrated above, in certain circumstances the sequence may not converge. For example, consider the situation shown below.
+      <p align="center">![](SVEC-03.06.Pf-01.3.jpg)</p>
+      You can see that $x_{2}$ is a worse approximation than $x_{1} .$ This is likely to be the case when $f^{\prime}\left(x_{1}\right)$ is close to 0. It might even happen that an approximation (such as $x_{3}$ in figure) falls outside the domain of $f$. Then Newton's method fails and a better initial approximation $x_{1}$ should be chosen.
+    Annotations: ''
+  tags:
+  - Editing

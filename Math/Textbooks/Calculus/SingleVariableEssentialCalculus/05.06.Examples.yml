@@ -1,0 +1,140 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - SingleVariableEssentialCalculus
+  - SVEC-05-InverseFunctions
+  - SVEC-05.06-InverseTrigonometricFunctions
+  markdownTabLength: 2
+notes:
+- id: 1574466038752
+  fields:
+    Front: |
+      SVEC 05.06 Example 01a:
+      Evaluate $\sin ^{-1}\left(\frac{1}{2}\right) .$
+    Back: |
+      We have
+      $$$
+      \quad \sin ^{-1}\left(\frac{1}{2}\right)=\frac{\pi}{6}
+      $$$ because $\sin (\pi / 6)=\frac{1}{2}$ and $\pi / 6$ lies between $-\pi / 2$ and $\pi / 2 .$
+    Annotations: ''
+  tags: []
+- id: 1574466038944
+  media:
+  - path: ${file_dir}/images/SVEC-05.06.Ex-01b.1.jpg
+  fields:
+    Front: |
+      SVEC 05.06 Example 01b:
+      Evaluate $\tan \left(\arcsin \frac{1}{3}\right) .$
+    Back: |
+      Let $\theta=\arcsin \frac{1}{3},$ so $\sin \theta=\frac{1}{3}$. Then we can draw a right triangle with angle $\theta$ as in the figure below and deduce from the Pythagorean Theorem that third side has length $\sqrt{9-1}=2 \sqrt{2}$.
+      <p align="center">![](SVEC-05.06.Ex-01b.1.jpg)</p>
+      This enables us to read from the triangle that
+      $$$
+      \tan \left(\arcsin \frac{1}{3}\right)=\tan \theta=\frac{1}{2 \sqrt{2}}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1574466878143
+  fields:
+    Front: |
+      SVEC 05.06 Example 02:
+      If $f(x)=\sin ^{-1}\left(x^{2}-1\right),$ find (a) the domain of $f,$ (b) $f^{\prime}(x),$ and (c) the domain of $f^{\prime} .$
+    Back: |
+      (a) Since the domain of the inverse sine function is $[-1,1]$, the domain of $f$ is
+      $$$
+      \begin{aligned}\left\{x |-1 \leqslant x^{2}-1 \leqslant 1\right\} &=\left\{x | 0 \leqslant x^{2} \leqslant 2\right\} \\ &=\{x|| x | \leqslant \sqrt{2}\}=[-\sqrt{2}, \sqrt{2}] \end{aligned}
+      $$$
+      (b) Combining the derivative of arcsine with the Chain Rule, we have
+      $$$
+      \begin{aligned} f^{\prime}(x) &=\frac{1}{\sqrt{1-\left(x^{2}-1\right)^{2}}} \frac{d}{d x}\left(x^{2}-1\right) \\ &=\frac{1}{\sqrt{1-\left(x^{4}-2 x^{2}+1\right)}} 2 x=\frac{2 x}{\sqrt{2 x^{2}-x^{4}}} \end{aligned}
+      $$$
+      (c) The domain of $f^{\prime}$ is
+      $$$
+      \begin{aligned}\left\{x |-1<x^{2}-1<1\right\} &=\left\{x | 0<x^{2}<2\right\} \\ &=\{x|0<| x |<\sqrt{2}\}=(-\sqrt{2}, 0) \cup(0, \sqrt{2}) \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1574468367019
+  media:
+  - path: ${file_dir}/images/SVEC-05.06.Ex-03.1.jpg
+  fields:
+    Front: |
+      SVEC 05.06 Example 03:
+      Simplify the expression $\cos \left(\tan ^{-1} x\right) .$
+    Back: |
+      Solution 1: Let $y=\tan ^{-1} x$. Then tan $y=x$ and $-\pi / 2<y<\pi / 2 .$ We want to find cos $y$ but, since tan $y$ is known, it's easier to find sec $y$ first:
+      $$$
+      \begin{aligned}
+        \sec ^{2} y &= 1+\tan ^{2} y=1+x^{2} \\
+        \sec y &= \sqrt{1+x^{2}} \quad \text { (since } \sec y>0 \text { for }-\pi / 2<y<\pi / 2)
+      \end{aligned}
+      $$$
+      Thus
+      $$$\cos \left(\tan ^{-1} x\right)=\cos y=\frac{1}{\sec y}=\frac{1}{\sqrt{1+x^{2}}}$$$
+
+      Solution 2: Instead of using trigonometric identities, it is perhaps easier to use a diagram. If $y=\tan ^{-1} x,$ then tan $y=x,$ and we can read from the following figure (which illustrates the case $y>0$ ) that
+      $$$
+      \cos \left(\tan ^{-1} x\right)=\cos y=\frac{1}{\sqrt{1+x^{2}}}
+      $$$
+      <p align="center">![](SVEC-05.06.Ex-03.1.jpg)</p>
+    Annotations: ''
+  tags: []
+- id: 1574469103822
+  fields:
+    Front: |
+      SVEC 05.06 Example 04:
+      Evaluate $\lim _{x \rightarrow 2^{+}} \arctan \left(\frac{1}{x-2}\right) .$
+    Back: |
+      If we let $t=1 /(x-2),$ we know that $t \rightarrow \infty$ as $x \rightarrow 2^{+} .$ Therefore we have
+      $$$
+      \lim _{x \rightarrow 2^{+}} \arctan \left(\frac{1}{x-2}\right)=\lim _{t \rightarrow \infty} \arctan t=\frac{\pi}{2}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1574470930151
+  fields:
+    Front: |
+      SVEC 05.06 Example 05:
+      Differentiate $f(x)=x \tan ^{-1} \sqrt{x} .$
+    Back: |
+      Using the Chain Rule,
+      $$$f^{\prime}(x)=x \frac{1}{1+(\sqrt{x})^{2}} \frac{1}{2} x^{-1 / 2}+\tan ^{-1} \sqrt{x}=\frac{\sqrt{x}}{2(1+x)}+\tan ^{-1} \sqrt{x}$$$
+    Annotations: ''
+  tags: []
+- id: 1574471512970
+  fields:
+    Front: |
+      SVEC 05.06 Example 06:
+      Find $\int_{0}^{1 / 4} \frac{1}{\sqrt{1-4 x^{2}}} d x .$
+    Back: |
+      If we write
+      $$$
+      \int_{0}^{1 / 4} \frac{1}{\sqrt{1-4 x^{2}}} d x=\int_{0}^{1 / 4} \frac{1}{\sqrt{1-(2 x)^{2}}} d x
+      $$$ then the integral resembles the arcsine derivative and the substitution $u=2 x$ is suggested.  This gives $d u=2 d x,$ so $d x=d u / 2 .$ When $x=0, u=0 ;$ when $x=\frac{1}{4}, u=\frac{1}{2} .$ So
+      $$$
+      \begin{aligned} \int_{0}^{1 / 4} \frac{1}{\sqrt{1-4 x^{2}}} d x &\left.=\frac{1}{2} \int_{0}^{1 / 2} \frac{d u}{\sqrt{1-u^{2}}}=\frac{1}{2} \sin ^{-1} u\right]_{0}^{1 / 2} \\ &=\frac{1}{2}\left[\sin ^{-1}\left(\frac{1}{2}\right)-\sin ^{-1} 0\right]=\frac{1}{2} \cdot \frac{\pi}{6}=\frac{\pi}{12} \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1574471779893
+  fields:
+    Front: |
+      SVEC 05.06 Example 07:
+      Evaluate $\int \frac{1}{x^{2}+a^{2}} d x .$
+    Back: |
+      To make the given integral more like the arctan derivative we write
+      $$$
+      \int \frac{d x}{x^{2}+a^{2}}=\int \frac{d x}{a^{2}\left(\frac{x^{2}}{a^{2}}+1\right)}=\frac{1}{a^{2}} \int \frac{d x}{\left(\frac{x}{a}\right)^{2}+1}
+      $$$ This suggests that we substitute $u=x / a .$ Then $d u=d x / a, d x=a d u,$ and
+      $$$
+      \int \frac{d x}{x^{2}+a^{2}}=\frac{1}{a^{2}} \int \frac{a d u}{u^{2}+1}=\frac{1}{a} \int \frac{d u}{u^{2}+1}=\frac{1}{a} \tan ^{-1} u+C
+      $$$
+      Thus
+      $$$\int \frac{1}{x^{2}+a^{2}} d x=\frac{1}{a} \tan ^{-1}\left(\frac{x}{a}\right)+C$$$
+    Annotations: ''
+  tags: []

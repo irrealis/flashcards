@@ -1,0 +1,263 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1350
+  - APPM-1350-WA32
+  - SingleVariableEssentialCalculus
+  - SVEC-05-InverseFunctions
+  - SVEC-05.02-TheNaturalLogarithmicFunction
+  - WebAssign
+  - Exam4
+  markdownTabLength: 2
+notes:
+- id: 1576108384859
+  fields:
+    Front: |
+      APPM 1350 WA32-01:
+      Express the expression below as a single logarithm.
+      $$$
+      \ln (x)+\frac{1}{4} \ln (y)
+      $$$
+    Back: |
+      Using Laws 3 and 1 of logarithms, we have
+      $$$
+      \begin{align}
+        \ln (x)+\frac{1}{4}
+        &=\ln (x)+\ln (y^{\frac{1}{4}}) \\
+        &=\ln(xy^{\frac{1}{4}})
+      \end{align}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1576108667158
+  fields:
+    Front: |
+      APPM 1350 WA32-02:
+      Differentiate $y=\ln \left(x^{4}+5\right)$.
+    Back: |
+      To use the Chain Rule, we let $u=x^{4}+5 .$ Then $y=\ln u,$ so
+      $$$
+      \begin{aligned}
+        \frac{d y}{d x}=\frac{d y}{d u} \frac{d u}{d x}
+        &=\frac{1}{u} \frac{du}{dx} \\
+        &=\frac{1}{x^{4}+5}(4 x^{3}) \\
+        &=\frac{4 x^{3}}{x^{4}+5}
+      \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1576109393182
+  fields:
+    Front: |
+      APPM 1350 WA32-03:
+      Find $f^{\prime}(x)$ if $f(x)=\ln (|8 x|)$.
+    Back: |
+      Since
+      $$$
+      f(x) = \left\{
+        \begin{array}{ll}
+          {\ln(8x)} & {\text { if } x > 0} \\
+          {\ln(-8x)} & {\text { if } x < 0}
+        \end{array}
+      \right.
+      $$$ it follows that
+      $$$
+      f^{\prime}(x) = \left\{
+        \begin{array}{ll}
+          {\frac{1}{8x}\cdot 8 = \frac{1}{x}} & {\text { if } x > 0} \\
+          {\frac{1}{-8x}\cdot -8 = \frac{1}{x}} & {\text { if } x < 0}
+        \end{array}
+      \right.
+      $$$ Thus $f^{\prime}(x) = \frac{1}{x}$ for all $x \ne 0$.
+    Annotations: ''
+  tags: []
+- id: 1576109534183
+  fields:
+    Front: |
+      APPM 1350 WA32-04:
+      Express the given quantity as a single logarithm.
+      $$$
+      \ln (a+b)+\ln (a-b)-3 \ln c
+      $$$
+    Back: |
+      $$$\ln \left(\frac{a^{2}-b^{2}}{c^{3}}\right)$$$
+
+      ##### Full solution:
+      $$$
+      \begin{aligned}
+        \ln (a+b)+\ln (a-b)-3 \ln c
+        &=\ln [(a+b)(a-b)]-\ln c^{3} \quad[\text { by Laws } 1,3] \\
+        &=\ln \frac{(a+b)(a-b)}{c^{3}} \\
+        & \text { or } \ln \frac{a^{2}-b^{2}}{c^{3}}
+      \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1576110101758
+  media:
+  - path: ${file_dir}/images/APPM-1350-WA32-05.1.jpg
+  - path: ${file_dir}/images/APPM-1350-WA32-05.2.jpg
+  - path: ${file_dir}/images/APPM-1350-WA32-05.3.jpg
+  - path: ${file_dir}/images/APPM-1350-WA32-05.4.jpg
+  - path: ${file_dir}/images/APPM-1350-WA32-05.5.jpg
+  - path: ${file_dir}/images/APPM-1350-WA32-05.6.jpg
+  fields:
+    Front: |
+      APPM 1350 WA32-05:
+      Make a rough sketch of the graph of each function. Do not use a calculator. Just use the graphs given in the figures below and, if necessary, graph transformations.
+      <p align="center">
+      ![](APPM-1350-WA32-05.1.jpg)
+      </p>
+      <p align="center">
+      ![](APPM-1350-WA32-05.2.jpg)
+      </p>
+      (a) $\quad y=\log _{10}(x+4)$
+      (b) $\quad y=-\ln x$
+    Back: |
+      (a)
+      <p align="center">
+      ![](APPM-1350-WA32-05.3.jpg)
+      </p>
+      (b)
+      <p align="center">
+      ![](APPM-1350-WA32-05.4.jpg)
+      </p>
+
+      ##### Full solution:
+      (a) Shift the graph of $y=\log _{10} x$ five units to the left to obtain the graph of $y=\log _{10}(x+4) .$ Note the vertical asymptote of $x=-4$.
+      <p align="center">
+      ![](APPM-1350-WA32-05.5.jpg)
+      </p>
+      (b) Reflect the graph of $y=\ln x$ about the $x$ -axis to obtain the graph of $y=-\ln x$.
+      <p align="center">
+      ![](APPM-1350-WA32-05.6.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1576110360507
+  fields:
+    Front: |
+      APPM 1350 WA32-06:
+      Find the limit.
+      $$$
+      \lim _{x \rightarrow 4^{+}} \ln \left(x^{2}-16\right)
+      $$$
+    Back: |
+      $$$
+      -\infty
+      $$$
+
+      ##### Full solution:
+      Let $t=x^{2}-16 .$ Then as $x \rightarrow 4^{+}, t \rightarrow 0^{+},$ and $\lim _{x \rightarrow 4^{+}} \ln \left(x^{2}-16\right)=$ $\lim _{t \rightarrow 0^{+}} \ln t=-\infty$.
+    Annotations: ''
+  tags: []
+- id: 1576110625483
+  fields:
+    Front: |
+      APPM 1350 WA32-07:
+      Evaluate the integral.
+      $$$
+      \int_{2}^{3} \frac{d t}{3-5 t}
+      $$$
+    Back: |
+      $$$\frac{1}{5} \ln \frac{7}{12}$$$
+
+      ##### Full solution:
+      $$$
+      \begin{aligned}
+        \int_{2}^{3} \frac{d t}{3-5 t}
+        &=\left[-\frac{1}{5} \ln |3-5 t|\right]_{2}^{3} \\
+        &=-\frac{1}{5} \ln 12-\left(-\frac{1}{5} \ln 7\right) \\
+        &=\frac{1}{5}(\ln 7-\ln 12)=\frac{1}{5} \ln \frac{7}{12}
+      \end{aligned}
+      $$$ Or: Let $u=3-5 t .$ Then $d u=-5 t,$ so
+      $$$
+      \begin{aligned}
+        \int_{2}^{3} \frac{d t}{3-5 t}
+        &=\int_{-7}^{-12} \frac{-\frac{1}{5} d u}{u}=\left[-\frac{1}{5} \ln |u|\right]_{-7}^{-12} \\
+        &=-\frac{1}{5} \ln 12-\left(-\frac{1}{5} \ln 7\right) \\
+        &=\frac{1}{5}(\ln 7-\ln 12)=\frac{1}{5} \ln \frac{7}{12}
+      \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1576110758683
+  fields:
+    Front: |
+      APPM 1350 WA32-08:
+      Evaluate the integral.
+      $$$
+      \int_{1}^{e} \frac{5 x^{2}+9 x+9}{x} d x
+      $$$
+    Back: |
+      $$$-\frac{5}{2}+9 c+\frac{5 c^{2}}{2}$$$
+
+      ##### Full solution:
+      $$$\begin{aligned} \int_{1}^{e} \frac{5 x^{2}+9 x+9}{x} d x &=\int_{1}^{e}\left(5 x+9+\frac{9}{x}\right) d x=\left[\frac{5}{2} x^{2}+9 x+9 \ln x\right]_{1}^{e} \\ &=\left(\frac{5}{2} e^{2}+9 e+9\right)-\left(\frac{5}{2}+9+0\right) \\ &=\frac{5}{2} e^{2}+9 e-\frac{5}{2} \end{aligned}$$$
+    Annotations: ''
+  tags: []
+- id: 1576111093484
+  media:
+  - path: ${file_dir}/images/APPM-1350-WA32-09.1.jpg
+  fields:
+    Front: |
+      APPM 1350 WA32-09:
+      Let $f(x)=\sqrt{9-x^{2}}, \quad 0 \leq x \leq 3$.
+      (a) Find $f^{-1}$. How is it related to $f ?$
+      (b) Graph $f^{-1}$.
+    Back: |
+      (a)
+      $$$f^{-1}(x)=\sqrt{9-x^{2}}$$$ They are identical.
+      (b)
+      <p align="center">
+      ![](APPM-1350-WA32-09.1.jpg)
+      </p>
+
+      ##### Full solution:
+      (a) $\quad y=f(x)=\sqrt{9-x^{2}}(0 \leq x \leq 3$ and note that $y \geq 0) \Rightarrow y^{2}=9-x^{2} \Rightarrow x^{2}=9-y^{2} \Rightarrow$ $x=\sqrt{9-y^{2}} .$ So $f^{-1}(x)=\sqrt{9-x^{2}}, 0 \leq x \leq 3 .$ We see that $f^{-1}$ and $f$ are the same function.
+
+      (b) The graph of $f$ is the portion of the circle $x^{2}+y^{2}=9$ with $0 \leq x \leq 3$ and $0 \leq y \leq 3$ (quarter-circle in the first quadrant). The graph of $f$ is symmetric with respect to the line $y=x,$ so its reflection about $y=x$ is itself, that is $f^{-1}=f$.
+    Annotations: ''
+  tags: []
+- id: 1576111413732
+  fields:
+    Front: |
+      APPM 1350 WA32-10a:
+      Solve for $x$.
+      $$$\ln (\ln (x))=7$$$
+    Back: |
+      $$$x=e^{e^{7}}$$$
+
+      ##### Full solution:
+      $e^{e^{x}}=7 \quad \Leftrightarrow \quad \ln \left(e^{x^{x}}\right)=\ln 7 \quad e^{x} \ln e=e^{x}=\ln 7 \quad \Leftrightarrow$ $\ln e^{x}=\ln (\ln 7) \quad \Leftrightarrow \quad x=\ln (\ln 7)$.
+    Annotations: ''
+  tags: []
+- id: 1576111531083
+  fields:
+    Front: |
+      APPM 1350 WA32-10b:
+      Solve for $x$.
+      $$$e^{e^{x}}=10$$$
+    Back: |
+      $$$x=\ln (\ln (10))$$$
+    Annotations: ''
+  tags: []
+- id: 1576111633683
+  fields:
+    Front: |
+      APPM 1350 WA32-11:
+      Differentiate the function.
+      $$$
+      F(t)=e^{6 t \sin (2 t)}
+      $$$
+    Back: |
+      $$$F^{\prime}(t)=e^{6 t \sin (2 t)}(6 \sin (2 t)+12 t \cos (2 t))$$$
+
+      ##### Full solution:
+      $F(t)=e^{6 t \sin (2 t)} \Rightarrow F^{\prime}(t)=e^{6 t \sin (2 t)}(6 t \sin (2 t))^{\prime}$ $=e^{6 t \sin (2 t)}(6 t \cdot 2 \cos (2 t)+\sin (2 t) \cdot 6)$ $=e^{6 t \sin (2 t)}(12 t \cos (2 t)+6 \sin (2 t)).$
+    Annotations: ''
+  tags: []

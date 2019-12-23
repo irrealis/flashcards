@@ -1,0 +1,80 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Proofs
+  - SingleVariableEssentialCalculus
+  - SVEC-04-Integrals
+  - SVEC-04.04-TheFundamentalTheoremOfCalculus
+  markdownTabLength: 2
+notes:
+- id: 1572837031620
+  media:
+  - path: ${file_dir}/images/SVEC-04.04.Pf-01.1.jpg
+  fields:
+    Front: |
+      SVEC 04.04 Proof 01:
+      ##### the fundamental theorem of calculus, part 1
+      Prove the **Fundamental Theorem of Calculus, Part 1.**
+    Back: |
+      If $x$ and $x+h$ are in the open interval $(a, b),$ then
+      $$$
+      \begin{aligned}
+        g(x+h)-g(x)
+        &=\int_{a}^{x+h} f(t) d t-\int_{a}^{x} f(t) d t \\
+        &=\left(\int_{a}^{x} f(t) d t+\int_{x}^{x+h} f(t) d t\right)-\int_{a}^{x} f(t) d t \\
+        &=\int_{x}^{x+h} f(t) d t
+      \end{aligned}
+      $$$ and so, for $h \neq 0,$
+      $$$
+      \frac{g(x+h)-g(x)}{h}=\frac{1}{h} \int_{x}^{x+h} f(t) d t
+      $$$ For now let's assume that $h>0 .$ Since $f$ is continuous on $[x, x+h],$ the Extreme Value Theorem says that there are numbers $u$ and $v$ in $[x, x+h]$ such that $f(u)=m$ and $f(v)=M,$ where $m$ and $M$ are the absolute minimum and maximum values of $f$ on $[x, x+h]$. (See figure below.)
+      <p align="center">![](SVEC-04.04.Pf-01.1.jpg)</p>
+      By Property 8 of integrals, we have
+      $$$
+      m h \leqslant \int_{x}^{x+h} f(t) d t \leqslant M h
+      $$$ that is,
+      $$$
+      f(u) h \leqslant \int_{x}^{x+h} f(t) d t \leqslant f(v) h
+      $$$ Since $h>0,$ we can divide this inequality by $h:$
+      $$$
+      f(u) \leqslant \frac{1}{h} \int_{x}^{x+h} f(t) d t \leqslant f(v)
+      $$$ Now we use replace the middle part of this inequality:
+      $$$
+      f(u) \leqslant \frac{g(x+h)-g(x)}{h} \leqslant f(v)
+      $$$ This can be proved in a similar manner for the case $h<0$
+
+      Now we let $h \rightarrow 0 .$ Then $u \rightarrow x$ and $v \rightarrow x,$ since $u$ and $v$ lie between $x$ and $x+h .$ Thus
+      $$$
+      \lim _{h \rightarrow 0} f(u)=\lim _{u \rightarrow x} f(u)=f(x)
+      $$$ and
+      $$$
+      \lim _{h \rightarrow 0} f(v)=\lim _{v \rightarrow x} f(v)=f(x)
+      $$$ because $f$ is continuous at $x .$ We conclude using the Squeeze Theorem that
+      $$$
+      g^{\prime}(x)=\lim _{h \rightarrow 0} \frac{g(x+h)-g(x)}{h}=f(x)
+      $$$
+      If $x=a$ or $b,$ then this can be interpreted as a one-sided limit. Then Theorem 2.2 .4 (modified for one-sided limits) shows that $g$ is continuous on $[a, b] .$
+      $\square$
+    Annotations: ''
+  tags: []
+- id: 1572838206019
+  fields:
+    Front: |
+      SVEC 04.04 Proof 02:
+      ##### the average value of a function
+      Prove the **Mean Value Theorem for Integrals.**
+    Back: |
+      Let $F(x)=\int_{a}^{x} f(t) d t$ for $a \leqslant x \leqslant b .$ By the Mean Value Theorem for derivatives, there is a number $c$ between $a$ and $b$ such that
+      $$$
+      F(b)-F(a)=F^{\prime}(c)(b-a)
+      $$$ But $F^{\prime}(x)=f(x)$ by FTC1. Therefore
+      $$$
+      \int_{a}^{b} f(t) d t-0=f(c)(b-a)
+      $$$
+      $\square$
+    Annotations: ''
+  tags: []

@@ -1,0 +1,88 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theory
+  - SingleVariableEssentialCalculus
+  - SVEC-05-InverseFunctions
+  - SVEC-05.05-ExponentialGrowthAndDecay
+  markdownTabLength: 2
+notes:
+- id: 1574391310144
+  fields:
+    Front: |
+      SVEC 05.05 Theory 01:
+      State the **law of natural growth/decay.**
+    Back: |
+      $$$\frac{d y}{d t}=k y$$$
+    Annotations: ''
+  tags: []
+- id: 1574391424469
+  fields:
+    Front: |
+      SVEC 05.05 Theory 02:
+      What are the solutions of the differential equation $d y / d t=k y ?$
+    Back: |
+      The only solutions of the differential equation $d y / d t=k y$ are the exponential functions
+      $$$
+      y(t)=y(0) e^{k t}
+      $$$
+    Annotations: 'Trouble:<div>- 191122-0757: knowledge: wrote this as \(y=Ce^{kt}\).</div>'
+  tags:
+  - ann:trouble
+- id: 1574391754993
+  fields:
+    Front: |
+      SVEC 05.05 Theory 03:
+      ##### population growth
+      What is a population growth rate and relative growth rate in terms of the proportionality constant $k$?
+    Back: |
+      Growth rate as a function of population size:
+      $$$\frac{d P}{d t}=k P$$$ Relative growth rate:
+      $$$\frac{1}{P} \frac{d P}{d t}=k$$$
+    Annotations: ''
+  tags: []
+- id: 1574392367095
+  fields:
+    Front: |
+      SVEC 05.05 Theory 04:
+      ##### radioactive decay
+      What is a **half life** in terms of exponential decay?
+    Back: |
+      Physicists express the rate of decay in terms of half-life, the time required for half of any given quantity to decay.
+
+      Radioactive substances decay by spontaneously emitting radiation. If $m(t)$ is the mass remaining from an initial mass $m_{0}$ of the substance after time $t,$ then the relative decay rate
+      $$$
+      -\frac{1}{m} \frac{d m}{d t}
+      $$$ has been found experimentally to be constant. (Since $d m / d t$ is negative, the relative decay rate is positive.) It follows that
+      $$$
+      \frac{d m}{d t}=k m
+      $$$ where $k$ is a negative constant. In other words, radioactive substances decay at a rate proportional to the remaining mass. This means that the mass decays exponentially:
+      $$$
+      m(t)=m_{0} e^{k t}
+      $$$
+    Annotations: 'Minor trouble:<div>- 191122-1033: Knowledge: customary symbol for
+      mass function of time is \(m(t)\).</div>'
+  tags:
+  - ann:minor-trouble
+- id: 1574393085694
+  fields:
+    Front: |
+      SVEC 05.05 Theory 05:
+      ##### Newton's Law of Cooling
+      What is **Newton's Law of Cooling?**
+    Back: |
+      Newton's Law of Cooling states that the rate of cooling of an object is proportional to the temperature difference between the object and its surroundings, provided that this difference is not too large. (This law also applies to warming.) If we let $T(t)$ be the temperature of the object at time $t$ and $T_{s}$ be the temperature of the surroundings, then we can formulate Newton's Law of Cooling as a differential equation:
+      $$$
+      \frac{d T}{d t}=k\left(T-T_{s}\right)
+      $$$ where $k$ is a constant. This equation is not quite the same as form as the usual expression exponential decay, so we make the change of variable $y(t)=T(t)-T_{s} .$ Because $T_{s}$ is constant, we have $y^{\prime}(t)=T^{\prime}(t)$ and so the equation becomes
+      $$$
+      \frac{d y}{d t}=k y
+      $$$ We can then find an expression for $y,$ from which we can find $T.$
+    Annotations: 'Trouble:<div>- 191122-1045: memory. Just couldn''t remember the
+      formula/derivation.</div>'
+  tags:
+  - ann:trouble

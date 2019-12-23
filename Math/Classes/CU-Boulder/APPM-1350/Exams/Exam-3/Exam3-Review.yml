@@ -1,0 +1,458 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1350
+  - APPM-1350-Exams
+  - APPM-1350-Exam3-Review
+  markdownTabLength: 2
+notes:
+- id: 1573591216993
+  fields:
+    Front: |
+      APPM 1350 Exam-3 Review.01:
+      Find a positive number such that the sum of the number and its reciprocal is as small as possible.
+    Back: |
+      We wish to find a number $x>0$ such that the sum $S=x+1 / x$ is minimized. Note that $S^{\prime}(x)=1-1 / x^{2}=\frac{x^{2}-1}{x^{2}}$ and so the critical points are $x=\pm 1 .$ Note that $x>0$ implies $x=1$ and $S^{\prime \prime}(x)=2 / x^{3}$ and so $S^{\prime \prime}(1)>0$ which implies a minimum.
+    Annotations: 'Minor trouble:<div>- 191112-1544: instruction error: missed the
+      part about <i>positive number.</i> Caught the error, but the error slowed me
+      down.</div>'
+  tags:
+  - ann:minor-trouble
+- id: 1573591621744
+  media:
+  - path: ${file_dir}/images/APPM-1350-Exam-3-Review.02.1.jpg
+  fields:
+    Front: |
+      APPM 1350 Exam-3 Review.02:
+      A farmer with $200 \text{ ft}$ of fencing wants to enclose a rectangular area and then divide it into four pens with fencing parallel to one side of the rectangle. What is the largest possible total area of the four pens?
+    Back: |
+      $\,$
+      <p align="center">![](APPM-1350-Exam-3-Review.02.1.jpg)</p>
+      Let $x$ and $y$ be the length of the sides of the rectangular fence. We wish to build pens with walls that are parallel to the side of length $x .$ Thus, we wish to maximize the area $A=x y$ subject to the constraint on the perimeter, $5 x+2 y=200 .$ Solving for $y$ in the constraint condition and substituting into $A$ yields, $A(x)=x\left(\frac{200-5 x}{2}\right)=\frac{200 x-5 x^{2}}{2}$ and note that $y \geq 0$ implies $x \leq 40$ and so we wish to maximize $A(x)=\frac{200 x-5 x^{2}}{2}$ where $0 \leq x \leq 40 .$ Now note that $A^{\prime}(x)=\frac{200-10 x}{2}$ and so $x=20$ is a critical point.  Now note that $A(0)=0=A(40)$ and $A(20)=1000,$ thus the largest possible area is $A=1000 \mathrm{ft}^{2}$.
+    Annotations: 'Trouble:<div>- 191112-1638: arithmetic error. Got \(\frac{40000}{40}
+      = 4000\) instead of \(1000\).</div><div><br></div><div>Thoughts:</div><div>-
+      191112-1656: When solving final problem, go back to the version before variable
+      elimination, it''s simpler and less prone to errors.</div>'
+  tags:
+  - ann:thoughts
+  - ann:trouble
+- id: 1573591621907
+  fields:
+    Front: |
+      APPM 1350 Exam-3 Review.03a:
+      Evaluate the following integral:
+      $$$\int \frac{\sin (\sqrt{x})}{\sqrt{x}} d x$$$
+    Back: |
+      Let $u=\sqrt{x}$ then $d u=d x / 2 \sqrt{x}$ and
+      $$$
+      \int \frac{\sin (\sqrt{x})}{\sqrt{x}} d x=2 \int \sin (u) d u=-2 \cos (u)+C=-2 \cos (\sqrt{x})+C
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1573591622047
+  fields:
+    Front: |
+      APPM 1350 Exam-3 Review.03b:
+      Evaluate the following integral:
+      $$$\int \sec ^{3}(x) \tan (x) d x$$$
+    Back: |
+      $$$
+      \begin{aligned}
+        \int \sec ^{3}(x) \tan (x) d x
+        &=\int \sec ^{2}(x) \sec (x) \tan (x) d x \underbrace{=}_{u=\sec (x)} \int u^{2} d u \\
+        &=\frac{u^{3}}{3}+C=\frac{\sec ^{3}(x)}{3}+C
+      \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1573591622191
+  fields:
+    Front: |
+      APPM 1350 Exam-3 Review.03c:
+      Evaluate the following integral:
+      $$$\int_{0}^{1} x^{2}\left(1+2 x^{3}\right)^{5} d x$$$
+    Back: |
+      $$$
+      \begin{aligned}
+        \int_{0}^{1} x^{2}\left(1+2 x^{3}\right)^{5} d x \underbrace{=}_{u=1+2 x^{3}} \frac{1}{6} \int_{1}^{3} u^{5} d u
+        &=\left.\frac{u^{6}}{36}\right|_{1} ^{3}=728 / 36=182 / 9
+      \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1573591622341
+  fields:
+    Front: |
+      APPM 1350 Exam-3 Review.03d:
+      Evaluate the following integral:
+      $$$\int_{-2}^{2}(x+3) \sqrt{4-x^{2}} d x$$$
+    Back: |
+      (d) Note that $\int_{-2}^{2}(x+3) \sqrt{4-x^{2}} d x=\int_{-2}^{2} x \sqrt{4-x^{2}} d x+\int_{-2}^{2} 3 \sqrt{4-x^{2}} d x,$ and note that $f(x)=x \sqrt{4-x^{2}}$ is an odd function so $\int_{-2}^{2} x \sqrt{4-x^{2}} d x=0$ and if we interpret $\int_{-2}^{2} \sqrt{4-x^{2}} d x$ geometrically as the area of a semicircle of radius 2 then $\int_{-2}^{2} \sqrt{4-x^{2}} d x=2 \pi$ and thus,
+      $$$
+      \begin{aligned}
+        \int_{-2}^{2}(x+3) \sqrt{4-x^{2}} d x
+        &=\int_{-2}^{2} x \sqrt{4-x^{2}} d x+3 \int_{-2}^{2} \sqrt{4-x^{2}} d x \\
+        &=0+3(2 \pi)=6 \pi
+      \end{aligned}
+      $$$
+    Annotations: 'Trouble:<div>- 191112-1745: knowledge/skill failure: I had no idea
+      how to approach this quickly.</div><div><br></div><div>Thoughts:</div><div>-
+      191112-1745: two useful insights:</div><div>&nbsp; &nbsp; - Watch for integration
+      limits of the form \(-a, a\). If seen, look for possible odd-function component
+      of integrand. If it can be separated, it can then be zeroed.</div><div>&nbsp;
+      &nbsp; - Watch for circle components of the \(\sqrt{r^2 - x^2}\), with integration
+      limits \(a,b\) for which \(-r \le a,b \le r\). If it can be separated, it can
+      solved with a geometric argument.</div>'
+  tags:
+  - ann:thoughts
+  - ann:trouble
+- id: 1573591622490
+  fields:
+    Front: |
+      APPM 1350 Exam-3 Review.03e:
+      Evaluate the following integral:
+      $$$\int_{-1}^{2}(x-2|x|) d x$$$
+    Back: |
+      Using the fact that $|x|=x$ if $x \geq 0$ and $|x|=-x$ if $x<0,$ we have
+      $$$
+      \begin{aligned}
+        \int_{-1}^{2}(x-2|x|) d x
+        &=\int_{-1}^{0} 3 x d x+\int_{0}^{2}-x d x \\
+        &=\left.\frac{3 x^{2}}{2}\right|_{-1} ^{0}-\left.\frac{x^{2}}{2}\right|_{0} ^{2} \\
+        &=-7 / 2
+      \end{aligned}
+      $$$
+    Annotations: 'Trouble:<div>- 191112-1811: transcription errors: multiple: transcribed
+      \(1\) to \(2\), dropped a different \(2\).</div>'
+  tags:
+  - ann:trouble
+- id: 1573591622641
+  fields:
+    Front: |
+      APPM 1350 Exam-3 Review.03f:
+      Evaluate the following integral:
+      $$$10 \int_{-1}^{0}\left(1+x^{5}\right)^{3 / 2} x^{9} d x$$$
+    Back: |
+      (f) If $\left.u=1+x^{5}, \text { then } d u=5 x^{4} d x \text { (and note } x^{5}=u-1\right)$, so
+      $$$
+      \begin{aligned}
+        10 \int_{-1}^{0}\left(1+x^{5}\right)^{3 / 2} x^{9} d x
+        &=2 \int_{0}^{1} u^{3 / 2}(u-1) d u \\
+        &=2 \int_{0}^{1}\left(u^{5 / 2}-u^{3 / 2}\right) d u \\
+        &=\left.2\left(\frac{2}{7} u^{7 / 2}-\frac{2}{5} u^{5 / 2}\right)\right|_{0} ^{1} \\
+        &=2\left(\frac{2}{7}-\frac{2}{5}\right) \\
+        &=-\frac{8}{35}
+      \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1573591622791
+  fields:
+    Front: |
+      APPM 1350 Exam-3 Review.03g:
+      Evaluate the following integral:
+      $$$\int_{0}^{1} 4 x \sqrt{1-x^{4}} d x$$$
+    Back: |
+      If we use the change of variables $u=x^{2},$ then $d u=2 x d x$ and so we have
+      $$$
+      \int_{0}^{1} 4 x \sqrt{1-x^{4}} d x=2 \int_{0}^{1} \sqrt{1-u^{2}} d u
+      $$$
+      now note that the integral $\int_{0}^{1} \sqrt{1-u^{2}} d u$ represents the area of one quarter of a unit circle, since the graph of $y=\sqrt{1-u^{2}}$ is the top half of a circle with radius equal to one. Thus, using the formula $A=\pi r^{2}$ we have,
+      $$$
+      \begin{aligned}
+        \int_{0}^{1} 4 x \sqrt{1-x^{4}} d x
+        &=2 \int_{0}^{1} \sqrt{1-u^{2}} d u \\
+        &=2 \cdot \frac{\pi}{4}=\frac{\pi}{2}
+      \end{aligned}
+      $$$
+    Annotations: 'Trouble:<div>- 191112-2038: knowledge/skill fail: didn''t think
+      to coax this to circle form \(\sqrt{r^2 - x^2}\).</div><div><br></div><div>-
+      191112-2039: useful insight: watch for proto-circle components of the form \(\sqrt{r^2
+      - x^{2n}}\). It may be possible to convert to a circle-component with a change
+      of variables \(u = x^n\). If it can be separated and the new limits of integration
+      \(a,b\) are such that \(-r \le a,b \le r\), then it can be solved with a geometric
+      argument.</div>'
+  tags:
+  - ann:thoughts
+  - ann:trouble
+- id: 1573592373619
+  fields:
+    Front: |
+      APPM 1350 Exam-3 Review.04a:
+      If $f$ is continuous and $\int_{0}^{4} f(x) d x=10,$ find $\int_{0}^{2} f(2 x) d x .$
+    Back: |
+      Let $u=2 x,$ then $d u=2 d x$ and so
+      $$$
+      \int_{0}^{2} f(2 x) d x=\frac{1}{2} \int_{0}^{4} f(u) d u=5
+      $$$
+    Annotations: 'Trouble:<div>- 191112-2101: attention fail: forgot to transcribe
+      factor of \(\frac{1}{2}\).</div><div>- 191112-2151: attention fail: wrote \(\frac{1}{2}\cdot
+      10 = \frac{5}{2}\) even though I was <i>thinking </i>\(5\).</div>'
+  tags:
+  - ann:trouble
+- id: 1573592373774
+  fields:
+    Front: |
+      APPM 1350 Exam-3 Review.04b:
+      If $f^{\prime}$ is continuous on $[a, b],$ show that $2 \int_{a}^{b} f(x) f^{\prime}(x) d x=[f(b)]^{2}-[f(a)]^{2} .$
+    Back: |
+      Note that since $f^{\prime}$ is continuous that implies the product $f(x) f^{\prime}(x)$ is continuous and therefore it is integrable, so the integral makes sense. Now if we let $u=f(x)$ then $d u=f^{\prime}(x) d x$ and so
+      $$$
+      \begin{aligned}
+        2 \int_{a}^{b} f(x) f^{\prime}(x) d x
+        &=2 \int_{f(a)}^{f(b)} u d u \\
+        &=\left.2 \cdot \frac{u^{2}}{2}\right|_{f(a)} ^{f(b)} \\
+        &=[f(b)]^{2}-[f(a)]^{2}
+      \end{aligned}
+      $$$
+    Annotations: 'Minor trouble:<div>- 191112-2114: slight knowledge/skill fail: part
+      of this proof is to show that \(f(x)f^{\prime}(x)\) satisfies the criteria for
+      integrability. Forgot to include that part. It entered my mind, but then left
+      it before I was done with my solution.</div>'
+  tags:
+  - ann:minor-trouble
+- id: 1573592373916
+  fields:
+    Front: |
+      APPM 1350 Exam-3 Review.05a:
+      Find the average value of $f(t)=t \sqrt{1+t^{2}}$ over the interval $[0,5] .$
+    Back: |
+      Note that for $u=1+t^{2}$
+      $$$
+      \begin{aligned}
+        f_{\text{ave}}
+        &=\frac{1}{5-0} \int_{0}^{5} t \sqrt{1+t^{2}} d t \\
+        &=\frac{1}{5} \cdot \frac{1}{2} \int_{1}^{26} \sqrt{u} d u \\
+        &=\frac{1}{10}\left(\left.\frac{2}{3} u^{3 / 2}\right|_{1} ^{26}\right) \\
+        &=\frac{1}{15}\left(26^{3 / 2}-1\right)
+      \end{aligned}
+      $$$
+    Annotations: 'Trouble:<div>- 191112-2101: attention fail: forgot to transcribe
+      factor of \(\frac{1}{2}\).</div><div>- 191112-2151: attention fail: wrote \(\frac{1}{2}\cdot
+      10 = \frac{5}{2}\) even though I was&nbsp;<i>thinking&nbsp;</i>\(5\).</div>'
+  tags:
+  - Editing
+- id: 1573592374093
+  fields:
+    Front: |
+      APPM 1350 Exam-3 Review.05b:
+      State the Mean Value Theorem for Integrals. Find a number $c$ in $[2,5]$ such that $f_{\text {ave }}=f(c)$ where $f(x)=(x-3)^{2} .$
+    Back: |
+      Mean Value Theorem for Integrals: If $f$ is continuous on $[a, b],$ then there exists a number $c$ in $[a, b]$ such that
+      $$$
+      f(c)=f_{a v e}=\frac{1}{b-a} \int_{a}^{b} f(x) d x
+      $$$
+      Now note that with $u = x-3$
+      $$$
+      \begin{aligned}
+        f_{\text{ave}}
+        &=\frac{1}{5-2} \int_{2}^{5}(x-3)^{2} d x \\
+        &=\frac{1}{3} \int_{-1}^{2} u^{2} d u \\
+        &=\left.\frac{1}{3} \cdot \frac{u^{3}}{3}\right|_{-1} ^{2} \\
+        &=\frac{9}{9}=1
+      \end{aligned}
+      $$$
+      Now $f(c)=f_{\text{ave}}$ implies $(c-3)^{2}=1$ and so $c=3 \pm 1=2,4$
+    Annotations: 'Trouble:<div>- 191112-2214: knowledge/skill fail: forgot that \(x^2
+      = a \rightarrow x = \pm \sqrt{a}\).</div><div><br></div><div>Thoughts:</div><div>-
+      191112-2227: <i>any</i>&nbsp;time I solve \(\left(f(x)\right)^2 = a\) I need
+      to remember: \(f(x) = \pm\sqrt{a}\).</div>'
+  tags:
+  - ann:thoughts
+  - ann:trouble
+- id: 1573592374258
+  fields:
+    Front: |
+      APPM 1350 Exam-3 Review.06a:
+      Find the derivative of:
+      $$$g(t)=\int_{1}^{\cos (t)} \sqrt[3]{1-x^{2}} d x$$$
+    Back: |
+      $g^{\prime}(t)=\sqrt[8]{1-\cos ^{2}(t)} \cdot-\sin (t)=-\sin (t) \sqrt[3]{1-\cos ^{2}(t)}$
+    Annotations: ''
+  tags: []
+- id: 1573592374399
+  fields:
+    Front: |
+      APPM 1350 Exam-3 Review.06b:
+      Find the derivative of:
+      $$$y=\int_{\sqrt{x}}^{x} \frac{\cos (t)}{t} d t$$$
+    Back: |
+      $$$
+      \begin{aligned}
+        \frac{d y}{d x}
+        &=\frac{d}{d x}\left[\int_{\sqrt{x}}^{x} \frac{\cos (t)}{t} d t\right] \\
+        &=\frac{d}{d x}\left[\int_{\sqrt{x}}^{1} \frac{\cos (t)}{t} d t+\int_{1}^{x} \frac{\cos (t)}{t} d t\right] \\
+        &=\frac{d}{d x}\left[-\int_{1}^{\sqrt{x}} \frac{\cos (t)}{t} d t+\int_{1}^{x} \frac{\cos (t)}{t} d t\right] \\
+        &=-\frac{\cos (\sqrt{x})}{\sqrt{x}} \frac{1}{2 \sqrt{x}}+\frac{\cos (x)}{x} \\
+        &=-\frac{\cos (\sqrt{x})}{2 x}+\frac{\cos (x)}{x}
+      \end{aligned}$$$
+    Annotations: 'Trouble:<div>- 191112-2307: knowledge/skill fail: missed a subtlety
+      here. I split integration limits on zero, which is not in the domain of the
+      integrand.</div><div><br></div><div>Thoughts:</div><div>- 191112-2307: Watch
+      the integrand for domain exclusions, just like everything else.</div>'
+  tags:
+  - ann:thoughts
+  - ann:trouble
+- id: 1573592374534
+  fields:
+    Front: |
+      APPM 1350 Exam-3 Review.07:
+      Let $h(x)=\int_{-1}^{\sqrt{x}} \sqrt{1+t^{6}} d t .$ Find $h^{\prime}(2) .$
+    Back: |
+      By the FTC, $h^{\prime}(x)=\sqrt{1+(\sqrt{x})^{6}} \cdot\left(\frac{1}{2} x^{-1 / 2}\right)=\frac{1}{2 \sqrt{x}} \sqrt{1+x^{3}}=\frac{\sqrt{1+x^{3}}}{2 \sqrt{x}} .$
+      $$$
+      h^{\prime}(2)=\frac{\sqrt{9}}{2 \sqrt{2}}=\frac{3}{2 \sqrt{2}}=\frac{3}{2 \sqrt{2}} \cdot \frac{\sqrt{2}}{\sqrt{2}}=\frac{3 \sqrt{2}}{4}
+      $$$
+    Annotations: 'Trouble:<div>- 191112-2332: instruction fail: forgot final step
+      of computing \(h''(2)\).</div>'
+  tags:
+  - ann:trouble
+- id: 1573592374682
+  fields:
+    Front: |
+      APPM 1350 Exam-3 Review.08:
+      Find the intervals where the function $f(x)=\int_{0}^{x} \frac{1}{1+t+t^{2}} d t$ is concave up and concave down.
+    Back: |
+      Note that $f^{\prime}(x)=\frac{1}{1+x+x^{2}}=\left(1+x+x^{2}\right)^{-1}$ and $f^{\prime \prime}(x)=-\frac{(1+2 x)}{\left(1+x+x^{2}\right)^{2}}$ and the only potential point of inflection is $x=-1 / 2$ and $f^{\prime \prime}(x)>0$ if $x<-1 / 2$ and $f^{\prime \prime}(x)<0$ if $x>-1 / 2$ and so $f(x)$ is concave up on $(-\infty,-1 / 2)$ and concave down on $(-1 / 2,+\infty) .$
+    Annotations: 'Trouble:<div>- 191112-2347: attention/skill fail: chose wrong set
+      of intervals from final answer.</div><div><br></div><div>Thoughts:</div><div>-
+      191112-2347: when making an interval table, draw a box around first column,
+      and when finishing evaluations, draw a line from last column to first to help
+      remember to use the first column.</div>'
+  tags:
+  - Editing
+  - ann:thoughts
+  - ann:trouble
+- id: 1573592374816
+  fields:
+    Front: |
+      APPM 1350 Exam-3 Review.09:
+      The velocity function (in meters per second) of a particle in motion is given by $v(t)=3 t-5,$ find (a) the displacement and (b) the total distance traveled by the particle in the first $3$ seconds.
+    Back: |
+      $$$
+      $$$
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1573592374970
+  fields:
+    Front: |
+      APPM 1350 Exam-3 Review.10a:
+      Find an approximation to the integral $\int_{0}^{2}\left(2-x^{2}\right) d x$ using a Riemann sum with a regular partition with $n=5$ using: (i) right endpoints, (ii) left endpoints, (iii) midpoints
+    Back: |
+      $$$
+      $$$
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1573592375117
+  fields:
+    Front: |
+      APPM 1350 Exam-3 Review.10b:
+      Evaluate the lower sums (under estimate) for approximating the area of the region bounded by $f(x)=x^{2}-4$, $-2 \leq x \leq 2$ and the $x$-axis using $4$ approximating rectangles of equal width.
+    Back: |
+      $$$
+      $$$
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1573592375266
+  fields:
+    Front: |
+      APPM 1350 Exam-3 Review.11a:
+      Given that: $\sum_{i=1}^{n} i=\frac{n(n+1)}{2}, \quad \sum_{i=1}^{n} i^{2}=\frac{n(n+1)(2 n+1)}{6}, \quad$ and $\quad \sum_{i=1}^{n} i^{3}=\left[\frac{n(n+1)}{2}\right]^{2} .$
+      Use the limit definition of the integral, with right endpoints and a regular partition, to evaluate the following integral, show all work:
+      $$$\int_{0}^{2}\left(2-x^{2}\right) d x$$$
+    Back: |
+      $$$
+      $$$
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1573592375450
+  fields:
+    Front: |
+      APPM 1350 Exam-3 Review.11b:
+      Given that: $\sum_{i=1}^{n} i=\frac{n(n+1)}{2}, \quad \sum_{i=1}^{n} i^{2}=\frac{n(n+1)(2 n+1)}{6}, \quad$ and $\quad \sum_{i=1}^{n} i^{3}=\left[\frac{n(n+1)}{2}\right]^{2} .$
+      Use the limit definition of the integral, with right endpoints and a regular partition, to evaluate the following integral, show all work:
+      $$$\int_{0}^{1} x^{3}+3 x d x$$$
+    Back: |
+      $$$
+      $$$
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1573592751120
+  fields:
+    Front: |
+      APPM 1350 Exam-3 Review.12a:
+      Write the sum in expanded form.
+      $$$\sum_{k=6}^{10} x^{k}$$$
+    Back: |
+      $$$
+      $$$
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1573592751311
+  fields:
+    Front: |
+      APPM 1350 Exam-3 Review.12b:
+      Evaluate the sum.
+      $$$\sum_{i=3}^{99}\left(\frac{1}{i}-\frac{1}{i+1}\right)$$$
+    Back: |
+      $$$
+      $$$
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1573592751449
+  fields:
+    Front: |
+      APPM 1350 Exam-3 Review.12c:
+      Evaluate the limit:
+      $$$\lim _{n \rightarrow \infty} \sum_{j=1}^{n} \frac{1}{n}\left(\frac{j}{n}\right)^{2}$$$
+    Back: |
+      $$$
+      $$$
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1573592751595
+  fields:
+    Front: |
+      APPM 1350 Exam-3 Review.12d:
+      $$$\lim _{n \rightarrow \infty} \frac{1}{n}\left[\left(\frac{1}{n}\right)^{9}+\left(\frac{2}{n}\right)^{9}+\cdots+\left(\frac{n}{n}\right)^{9}\right]$$$
+    Back: |
+      $$$
+      $$$
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1573592751761
+  fields:
+    Front: |
+      APPM 1350 Exam-3 Review.13:
+      (a) Set up a Newton's method algorithm to approximate $\sqrt[5]{-2} .$
+      (b) Now, starting with $x_{1}=-1,$ find $x_{2},$ the second iteration approximation of $\sqrt[5]{-2} .$
+    Back: |
+      $$$
+      $$$
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1573592751932
+  fields:
+    Front: |
+      APPM 1350 Exam-3 Review.14:
+      The Max-Min property of the definite integral states that if $m \leq f(x) \leq M$ on $[a, b],$ then $m(b-a) \leq$ $\int_{a}^{b} f(x) d x \leq M(b-a) .$ Use this property to estimate the value of $\int_{-3}^{4} \sqrt{100-4 x^{2}} d x .$
+    Back: |
+      $$$
+      $$$
+    Annotations: ''
+  tags:
+  - Editing

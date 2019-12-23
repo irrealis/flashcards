@@ -1,0 +1,134 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - SingleVariableEssentialCalculus
+  - SVEC-04-Integrals
+  - SVEC-04.01-AreasAndDistances
+  markdownTabLength: 2
+notes:
+- id: 1572914562420
+  media:
+  - path: ${file_dir}/images/SVEC-04.01.Ex-01.1.jpg
+  - path: ${file_dir}/images/SVEC-04.01.Ex-01.2.jpg
+  - path: ${file_dir}/images/SVEC-04.01.Ex-01.3.jpg
+  - path: ${file_dir}/images/SVEC-04.01.Ex-01.4.jpg
+  - path: ${file_dir}/images/SVEC-04.01.Ex-01.5.jpg
+  - path: ${file_dir}/images/SVEC-04.01.Ex-01.6.jpg
+  fields:
+    Front: |
+      SVEC 04.01 Example 01:
+      ##### the area problem
+      Use rectangles to estimate the area under the parabola $y=x^{2}$ from 0 to 1 (the parabolic region $S$ illustrated in the figure below).
+      <p align="center">![](SVEC-04.01.Ex-01.1.jpg)</p>
+    Back: |
+      We first notice that the area of $S$ must be somewhere between 0 and 1 because $S$ is contained in a square with side length $1,$ but we can certainly do better than that. Suppose we divide $S$ into four strips $S_{1}, S_{2}, S_{3},$ and $S_{4}$ by drawing the vertical lines $x=\frac{1}{4}, x=\frac{1}{2},$ and $x=\frac{3}{4}$ as in the following figure:
+      <p align="center">![](SVEC-04.01.Ex-01.2.jpg)</p>
+
+      We can approximate each strip by a rectangle whose base is the same as the strip and whose height is the same as the right edge of the strip [see figure below].
+      <p align="center">![](SVEC-04.01.Ex-01.3.jpg)</p>
+
+      In other words, the heights of these rectangles are the values of the function $f(x)=x^{2}$ at the right endpoints of the subintervals $\left[0, \frac{1}{4}\right],\left[\frac{1}{4}, \frac{1}{2}\right],\left[\frac{1}{2}, \frac{3}{4}\right],$ and $\left[\frac{3}{4}, 1\right] .$
+
+      Each rectangle has width $\frac{1}{4}$ and the heights are $\left(\frac{1}{4}\right)^{2},\left(\frac{1}{2}\right)^{2},\left(\frac{3}{4}\right)^{2},$ and $1^{2} .$ If we let $R_{4}$ be the sum of the areas of these approximating rectangles, we get
+      $$$
+      R_{4}=\frac{1}{4} \cdot\left(\frac{1}{4}\right)^{2}+\frac{1}{4} \cdot\left(\frac{1}{2}\right)^{2}+\frac{1}{4} \cdot\left(\frac{3}{4}\right)^{2}+\frac{1}{4} \cdot 1^{2}=\frac{15}{32}=0.46875
+      $$$ From the preceding figure we see that the area $A$ of $S$ is less than $R_{4},$ so
+      $$$A<0.46875$$$
+      Instead of using the rectangles in the above figure we could use the smaller rectangles in the following figure whose heights are the values of $f$ at the left endpoints of the subintervals.
+      <p/><p align="center">![](SVEC-04.01.Ex-01.4.jpg)</p>
+      (The leftmost rectangle has collapsed because its height is $0 .)$ The sum of the areas of these approximating rectangles is
+      $$$
+      L_{4}=\frac{1}{4} \cdot 0^{2}+\frac{1}{4} \cdot\left(\frac{1}{4}\right)^{2}+\frac{1}{4} \cdot\left(\frac{1}{2}\right)^{2}+\frac{1}{4} \cdot\left(\frac{3}{4}\right)^{2}=\frac{7}{32}=0.21875
+      $$$ We see that the area of $S$ is larger than $L_{4},$ so we have lower and upper estimates for $A:$
+      $$$
+      0.21875<A<0.46875
+      $$$ We can repeat this procedure with a larger number of strips. The next two figures show what happens when we divide the region $S$ into eight strips of equal width.
+
+      Using left endpoints:
+      <p align="center">![](SVEC-04.01.Ex-01.5.jpg)</p>
+
+      Using right endpoints:
+      <p align="center">![](SVEC-04.01.Ex-01.6.jpg)</p>
+
+      By computing the sum of the areas of the smaller rectangles $\left(L_{8}\right)$ and the sum of the areas of the larger rectangles $\left(R_{8}\right),$ we obtain better lower and upper estimates for $A:$
+      $$$
+      0.2734375<A<0.3984375
+      $$$ So one possible answer to the question is to say that the true area of $S$ lies somewhere between $0.2734375$ and $0.3984375.$
+
+      We could obtain better estimates by increasing the number of strips. The following table shows the results of similar calculations (with a computer) using $n$ rectangles whose heights are found with left endpoints $\left(L_{n}\right)$ or right endpoints $\left(R_{n}\right) .$
+      $$$\begin{array}{|c|c|c|}\hline n & {L_{n}} & {R_{n}} \\ \hline 10 & {0.2850000} & {0.3850000} \\ {20} & {0.3087500} & {0.3850000} \\ {30} & {0.3168519} & {0.3501852} \\ {50} & {0.3234000} & {0.3434000} \\ {100} & {0.3283500} & {0.3383500} \\ {1000} & {0.3328335} & {0.3338335} \\ \hline\end{array}$$$ In particular, we see by using $50$ strips that the area lies between $0.3234$ and $0.3434.$ With $1000$ strips we narrow it down even more: $A$ lies between $0.3328335$ and $0.3338335.$ A good estimate is obtained by averaging these numbers: $A \approx 0.3333335.$
+    Annotations: ''
+  tags: []
+- id: 1572915264644
+  media:
+  - path: ${file_dir}/images/SVEC-04.01.Ex-02.1.jpg
+  fields:
+    Front: |
+      SVEC 04.01 Example 02:
+      ##### the area problem
+      For the region $S$ under the parabola $y=x^{2}$ from 0 to 1 (the parabolic region $S$ illustrated in the figure below), show that the sum of the areas of the upper approximating rectangles approaches $\frac{1}{3},$ that is,
+      $$$
+      \lim _{n \rightarrow \infty} R_{n}=\frac{1}{3}
+      $$$
+      <p align="center">![](SVEC-04.01.Ex-01.1.jpg)</p>
+    Back: |
+      $R_{n}$ is the sum of the areas of the $n$ rectangles in the following figure.
+      <p align="center">![](SVEC-04.01.Ex-02.1.jpg)</p>
+      Each rectangle has width $1 / n$ and the heights are the values of the function $f(x)=x^{2}$ at the points $1 / n, 2 / n, 3 / n, \ldots, n / n ;$ that is, the heights are $(1 / n)^{2},(2 / n)^{2},(3 / n)^{2}, \ldots,(n / n)^{2}.$ Thus
+      $$$
+      \begin{aligned} R_{n} &=\frac{1}{n}\left(\frac{1}{n}\right)^{2}+\frac{1}{n}\left(\frac{2}{n}\right)^{2}+\frac{1}{n}\left(\frac{3}{n}\right)^{2}+\cdots+\frac{1}{n}\left(\frac{n}{n}\right)^{2} \\ &=\frac{1}{n} \cdot \frac{1}{n^{2}}\left(1^{2}+2^{2}+3^{2}+\cdots+n^{2}\right) \\ &=\frac{1}{n^{3}}\left(1^{2}+2^{2}+3^{2}+\cdots+n^{2}\right) \end{aligned}
+      $$$ Here we need the formula for the sum of the squares of the first $n$ positive integers:
+      $$$1^{2}+2^{2}+3^{2}+\cdots+n^{2}=\frac{n(n+1)(2 n+1)}{6}$$$ Putting this formula into our expression for $R_{n}$, we get
+      $$$
+      R_{n}=\frac{1}{n^{3}} \cdot \frac{n(n+1)(2 n+1)}{6}=\frac{(n+1)(2 n+1)}{6 n^{2}}
+      $$$ Thus we have
+      $$$
+      \begin{aligned} \lim _{n \rightarrow \infty} R_{n} &=\lim _{n \rightarrow \infty} \frac{(n+1)(2 n+1)}{6 n^{2}} \\ &=\lim _{n \rightarrow \infty} \frac{1}{6}\left(\frac{n+1}{n}\right)\left(\frac{2 n+1}{n}\right) \\ &=\lim _{n \rightarrow \infty} \frac{1}{6}\left(1+\frac{1}{n}\right)\left(2+\frac{1}{n}\right) \\ &=\frac{1}{6} \cdot 1 \cdot 2=\frac{1}{3} \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1572915709820
+  media:
+  - path: ${file_dir}/images/SVEC-04.01.Ex-03.1.jpg
+  fields:
+    Front: |
+      SVEC 04.01 Example 03:
+      ##### the area problem
+      Let $A$ be the area of the region that lies under the graph of $f(x)=\cos x$ between $x=0$ and $x=b,$ where $0 \leqslant b \leqslant \pi / 2.$
+
+      (a) Using right endpoints, find an expression for $A$ as a limit. Do not evaluate the limit.
+
+      (b) Estimate the area for the case $b=\pi / 2$ by taking the sample points to be midpoints and using four subintervals.
+    Back: |
+      (a) Since $a=0,$ the width of a subinterval is
+      $$$
+      \Delta x=\frac{b-0}{n}=\frac{b}{n}
+      $$$ So $x_{1}=b / n, x_{2}=2 b / n, x_{3}=3 b / n, x_{i}=i b / n,$ and $x_{n}=n b / n .$ The sum of the areas of the approximating rectangles is
+      $$$
+      \begin{aligned} R_{n} &=f\left(x_{1}\right) \Delta x+f\left(x_{2}\right) \Delta x+\cdots+f\left(x_{n}\right) \Delta x \\ &=\left(\cos x_{1}\right) \Delta x+\left(\cos x_{2}\right) \Delta x+\cdots+\left(\cos x_{n}\right) \Delta x \\ &=\left(\cos \frac{b}{n}\right) \frac{b}{n}+\left(\cos \frac{2 b}{n}\right) \frac{b}{n}+\cdots+\left(\cos \frac{n b}{n}\right) \frac{b}{n} \end{aligned}
+      $$$ The area is
+      $$$
+      A=\lim _{n \rightarrow \infty} R_{n}=\lim _{n \rightarrow \infty} \frac{b}{n}\left(\cos \frac{b}{n}+\cos \frac{2 b}{n}+\cos \frac{3 b}{n}+\cdots+\cos \frac{n b}{n}\right)
+      $$$ Using sigma notation we could write
+      $$$
+      A=\lim _{n \rightarrow \infty} \frac{b}{n} \sum_{i=1}^{n} \cos \frac{i b}{n}
+      $$$
+
+      (b) With $n=4$ and $b=\pi / 2$ we have $\Delta x=(\pi / 2) / 4=\pi / 8,$ so the subintervals are $[0, \pi / 8],[\pi / 8, \pi / 4],[\pi / 4,3 \pi / 8],$ and $[3 \pi / 8, \pi / 2] .$ The midpoints of these subintervals are
+      $$$
+      x_{1}^{*}=\frac{\pi}{16} \quad x_{2}^{*}=\frac{3 \pi}{16} \quad x_{3}^{*}=\frac{5 \pi}{16} \quad x_{4}^{*}=\frac{7 \pi}{16}
+      $$$ and the sum of the areas of the four approximating rectangles (see following figure) is
+      $$$
+      \begin{aligned} M_{4} &=\sum_{i=1}^{4} f\left(x_{i}^{*}\right) \Delta x \\ &=f(\pi / 16) \Delta x+f(3 \pi / 16) \Delta x+f(5 \pi / 16) \Delta x+f(7 \pi / 16) \Delta x \\ &=\left(\cos \frac{\pi}{16}\right) \frac{\pi}{8}+\left(\cos \frac{3 \pi}{16}\right) \frac{\pi}{8}+\left(\cos \frac{5 \pi}{16}\right) \frac{\pi}{8}+\left(\cos \frac{7 \pi}{16}\right) \frac{\pi}{8} \\ &=\frac{\pi}{8}\left(\cos \frac{\pi}{16}+\cos \frac{3 \pi}{16}+\cos \frac{5 \pi}{16}+\cos \frac{7 \pi}{16}\right) \approx 1.006 \end{aligned}
+      $$$ So an estimate for the area is
+      $$$
+      A \approx 1.006
+      $$$
+      <p/><p align="center">![](SVEC-04.01.Ex-03.1.jpg)</p>
+    Annotations: ''
+  tags: []

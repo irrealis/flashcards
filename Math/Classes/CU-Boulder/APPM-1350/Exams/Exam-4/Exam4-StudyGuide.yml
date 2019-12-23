@@ -1,0 +1,252 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1350
+  - APPM-1350-Exams
+  - APPM-1350-Exam4
+  - APPM-1350-Exam4-StudyGuide
+  markdownTabLength: 2
+notes:
+- id: 1576539010508
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Studyguide.01:
+      Define **one-to-one.**
+    Back: |
+      A function $f$ is called a one-to-one function if
+      $$$
+      f\left(x_{1}\right) \neq f\left(x_{2}\right) \text { whenever } x_{1} \neq x_{2}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1576539137108
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Studyguide.02:
+      Define **inverse function.**
+    Back: |
+      Let $f$ be a one-to-one function with domain $A$ and range $B .$ Then its inverse function $f^{-1}$ has domain $B$ and range $A$ and is defined by
+      $$$
+      f^{-1}(y)=x \Longleftrightarrow f(x)=y
+      $$$
+      for any $y$ in $B$. The graph of $f^{-1}$ is obtained by reflecting the graph of $f$ about the line $y=x .$
+    Annotations: ''
+  tags: []
+- id: 1576539244583
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Studyguide.03:
+      Give the **derivative of an inverse function.**
+    Back: |
+      If $f$ is a one-to-one differentiable function with inverse function $f^{-1}$ and $f^{\prime}\left(f^{-1}(a)\right) \neq 0$, then
+      $$$
+      \left(f^{-1}\right)^{\prime}(a)=\frac{1}{f^{\prime}\left(f^{-1}(a)\right)}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1576539316857
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Studyguide.04:
+      Define **natural logarithm.**
+    Back: |
+      $$$
+      \ln x=\int_{1}^{x} \frac{1}{t} d t, \quad x>0 \\
+      \ln 1=0 \quad \ln e=1
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1576539393083
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Studyguide.05:
+      List the **Laws of Logarithms.**
+    Back: |
+      $$$
+      \begin{aligned}
+        \ln (x y) &=\ln x+\ln y & \ln \left(x^{r}\right) &=r \ln x \\
+        \ln \left(\frac{x}{y}\right) &=\ln x-\ln y & \ln \left(\frac{1}{x}\right) &=-\ln x
+      \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1576539770933
+  media:
+  - path: ${file_dir}/images/APPM-1350-Exam-4-Studyguide.06.1.jpg
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Studyguide.06:
+      Define the **natural exponential function.**
+    Back: |
+      $ $
+      <p align="center">
+      $e^{x}=y \quad \Longleftrightarrow \quad x=\ln y$
+      $e^{\ln x}=x \quad \ln e^{x}=x$
+      $e=\lim _{n \rightarrow \infty}\left(1+\frac{1}{n}\right)^{n}=\lim _{x \rightarrow 0}(1+x)^{1 / x}$
+      $ $
+      ![](APPM-1350-Exam-4-Studyguide.06.1.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1576539881733
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Studyguide.07:
+      Define the **general logarithmic functions.**
+    Back: |
+      $ $
+      <p align="center">
+      $\log _{a} x=y \Longleftrightarrow a^{y}=x$
+      $a^{\log _{a} x}=x \quad \log _{a} a^{x}=x$
+      $\log _{a} x=\frac{\ln x}{\ln a}$
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1576540063258
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Studyguide.08:
+      Give the **exponential and logarithmic derivative and integral formulae.**
+    Back: |
+      $$$
+      \begin{aligned}
+        \frac{d}{d x}(\ln x) &=\frac{1}{x} \\
+        \frac{d}{d x}\left(e^{x}\right) &=e^{x} \\
+        \frac{d}{d x}\left(a^{x}\right) &=a^{x}(\ln a) \\
+      \end{aligned}
+      $$$
+      $$$
+      \begin{aligned}
+        \int \frac{d x}{x} &=\ln |x|+C \\
+        \int e^{x} d x &=e^{x}+C \\
+        \int a^{x} d x &=\frac{a^{x}}{\ln a}+C
+      \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1576540147084
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Studyguide.09:
+      State the **Law of Exponential Change.**
+    Back: |
+      $$$\frac{d y}{d t}=k y \Longrightarrow y(t)=y_{0} e^{k t}$$$
+    Annotations: ''
+  tags: []
+- id: 1576540189633
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Studyguide.10:
+      State **Newton's Law of Cooling.**
+    Back: |
+      $$$\frac{d T}{d t}=k\left(T-T_{S}\right) \Longrightarrow T(t)-T_{S}=\left(T_{0}-T_{S}\right) e^{k t}$$$
+    Annotations: ''
+  tags: []
+- id: 1576540454782
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Studyguide.11:
+      Define the **inverse trigonometric functions,** including their domains.
+      $$$
+      \begin{array}{ll}
+        {\sin ^{-1} x=\theta} & {\Longleftrightarrow \sin \theta=x \quad \text { and } \quad \theta \text { in }[-\pi / 2, \pi / 2]} \\
+        {\cos ^{-1} x=\theta} & {\Longleftrightarrow \cos \theta=x \quad \text { and } \quad \theta \text { in }[0, \pi]} \\
+        {\tan ^{-1} x=\theta} & {\Longleftrightarrow \tan \theta=x \quad \text { and } \quad \theta \text { in }(-\pi / 2, \pi / 2)} \\
+        {^{*} \cot ^{-1} x=\theta} & {\Longleftrightarrow \cot \theta=x \quad \text { and } \quad \theta \text { in }(0, \pi)} \\
+        {^{*} \sec ^{-1} x=\theta} & {\Longleftrightarrow \sec \theta=x \quad \text { and } \quad \theta \text { in }[0, \pi / 2) \cup[\pi, 3 \pi / 2)} \\
+        {^{*} \csc ^{-1} x=\theta} & {\Longleftrightarrow \csc \theta=x \quad \text { and } \quad \theta \text { in }(0, \pi / 2] \cup(\pi, 3 \pi / 2]}
+      \end{array}
+      $$$
+      $*$ You need not memorize formulas marked with an asterisk.
+    Back: ''
+    Annotations: ''
+  tags: []
+- id: 1576540696133
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Studyguide.12:
+      Give the **derivatives of the inverse trigonometric functions.**
+    Back: |
+      $$$
+      \begin{aligned} \frac{d}{d x}\left(\sin ^{-1} x\right) &=\frac{1}{\sqrt{1-x^{2}}} \\ \frac{d}{d x}\left(\cos ^{-1} x\right) &=\frac{-1}{\sqrt{1-x^{2}}} \\ \frac{d}{d x}\left(\tan ^{-1} x\right) &=\frac{1}{1+x^{2}} \end{aligned}
+      $$$
+      $$$
+      \begin{aligned}
+      * \frac{d}{d x}\left(\csc ^{-1} x\right) &=\frac{-1}{x \sqrt{x^{2}-1}} \\
+      * \frac{d}{d x}\left(\sec ^{-1} x\right) &=\frac{1}{x \sqrt{x^{2}-1}} \\
+      * \frac{d}{d x}\left(\cot ^{-1} x\right) &=\frac{-1}{1+x^{2}}
+      \end{aligned}
+      $$$
+      $*$ You need not memorize formulas marked with an asterisk.
+    Annotations: ''
+  tags: []
+- id: 1576541087382
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Studyguide.13:
+      Give the **inverse trigonometric integral formulae.**
+    Back: |
+      $$$
+      \begin{aligned}
+      \int \frac{1}{\sqrt{1-x^{2}}} d x &=\sin ^{-1} x+C \\
+      \int \frac{1}{1+x^{2}} d x &=\tan ^{-1} x+C \\
+      * \int \frac{1}{x \sqrt{x^{2}-1}} d x &=\sec ^{-1} x+C \\
+      \end{aligned}
+      $$$
+      $*$ You need not memorize formulas marked with an asterisk.
+    Annotations: ''
+  tags: []
+- id: 1576541245682
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Studyguide.14:
+      Define the **hyperbolic functions.**
+    Back: |
+      $$$
+      \begin{aligned}
+        \sinh x &=\frac{e^{x}-e^{-x}}{2} \\
+        \cosh x &=\frac{e^{x}+e^{-x}}{2} \\
+        \tanh x &=\frac{\sinh x}{\cosh x} \\
+        * \operatorname{csch} x &=\frac{1}{\sinh x} \\
+        * \operatorname{sech} x&=\frac{1}{\cosh x} \\
+        * \operatorname{coth} x&=\frac{\cosh x}{\sinh x}
+      \end{aligned}
+      $$$
+      $*$ You need not memorize formulas marked with an asterisk.
+    Annotations: ''
+  tags: []
+- id: 1576541487634
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Studyguide.15:
+      Give the **derivatives of the hyperbolic functions.**
+    Back: |
+      $$$
+      \begin{aligned}
+        \frac{d}{d x}(\sinh x) &=\cosh x \\
+        \frac{d}{d x}(\cosh x) &=\sinh x \\
+        \frac{d}{d x}(\tanh x) &=\operatorname{sech}^{2} x \\
+        * \frac{d}{d x}(\operatorname{csch} x) &=-\operatorname{csch} x \operatorname{coth} x \\
+        * \frac{d}{d x}(\operatorname{sech} x) &=-\operatorname{sech} x \tanh x \\
+        * \frac{d}{d x}(\operatorname{coth} x) &=-\operatorname{csch}^{2} x \\
+      \end{aligned}
+      $$$
+      $*$ You need not memorize formulas marked with an asterisk.
+    Annotations: ''
+  tags: []
+- id: 1576541608908
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Studyguide.16:
+      State **l'Hospital's Rule.**
+    Back: |
+      $$$
+      \lim _{x \rightarrow a} \frac{f(x)}{g(x)}=\lim _{x \rightarrow a} \frac{f^{\prime}(x)}{g^{\prime}(x)}
+      $$$
+      for indeterminate form $0 / 0$ or $\infty / \infty .$
+    Annotations: ''
+  tags: []

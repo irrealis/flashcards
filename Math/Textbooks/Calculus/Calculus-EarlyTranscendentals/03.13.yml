@@ -1,0 +1,29 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Calculus-EarlyTrancendentals
+  - CET-03-DifferentiationRules
+  - CET-03.13-Review-Exercises
+  markdownTabLength: 2
+notes:
+- id: 0
+  fields:
+    Front: |
+      CET 03.13 Th.0a: XX
+    Back: |
+      XX
+    Annotations: ''
+  tags:
+  - Theory
+- id: 0
+  fields:
+    Front: |
+      CET 03.13 01: XX
+    Back: |
+      XX
+    Annotations: ''
+  tags: []

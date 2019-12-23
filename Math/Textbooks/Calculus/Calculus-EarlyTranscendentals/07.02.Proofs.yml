@@ -1,0 +1,32 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Proofs
+  - Calculus-EarlyTrancendentals
+  - CET-07-TechniquesOfIntegration
+  - CET-07.02-TrigonometricIntegrals
+  markdownTabLength: 2
+notes:
+- id: 1576705967708
+  fields:
+    Front: |
+      CET-07.02-01 Proof:
+      Prove that $\int \sec x d x=\ln |\sec x+\tan x|+C.$
+    Back: |
+      We could verify by differentiating the right side, or as follows. First we multiply numerator and denominator by sec $x+\tan x$ :
+      $$$
+      \begin{aligned}
+      \int \sec x d x
+      &=\int \sec x \frac{\sec x+\tan x}{\sec x+\tan x} d x \\
+      &=\int \frac{\sec ^{2} x+\sec x \tan x}{\sec x+\tan x} d x
+      \end{aligned}
+      $$$ If we substitute $u=\sec x+\tan x,$ then $d u=\left(\sec x \tan x+\sec ^{2} x\right) d x,$ so the integral becomes $\int(1 / u) d u=\ln |u|+C .$ Thus we have
+      $$$
+      \int \sec x d x=\ln |\sec x+\tan x|+C
+      $$$
+    Annotations: ''
+  tags: []

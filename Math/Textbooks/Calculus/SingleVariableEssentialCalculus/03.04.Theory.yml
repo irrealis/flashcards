@@ -1,0 +1,67 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theory
+  - SingleVariableEssentialCalculus
+  - SVEC-03-ApplicationsOfDifferentiation
+  - SVEC-03.04-CurveSketching
+  markdownTabLength: 2
+notes:
+- id: 1573065075718
+  fields:
+    Front: |
+      SVEC 03.04 Theory 01:
+      ##### guidelines for sketching a curve
+      What are the guidelines for sketching a curve?
+    Back: |
+      ##### A. Domain
+      - Where is $f$ defined?
+      - Where is $f$ _not_ defined?
+      ##### B. Intercepts
+      - $y-\text{intercept}$: at most one: $y = f(0)$
+      - $x-\text{intercepts}$: possibly many: set $y = f(x) = 0$, solve for $x$
+      ##### C. Symmetry and Periodicity
+      - Symmetry about the $y-\text{axis}$: even: $f(-x) = f(x)$
+      - Symmetry about the origin: odd: $f(-x) = -f(x)$
+      - Periodic: graph repeats: $f(x + p) = f(x),$ $p > 0$
+      ##### D. Asymptotes
+      - Vertical: $\lim_{x \to a}f(x) = \pm\infty$
+      - Horizontal: $\lim_{x \to \pm\infty}f(x) = L;$ at most two, at $\pm\infty$
+      - Slant: $\lim_{x \to \pm\infty}f(x) = mx + b;$ at most two, at $\pm\infty$
+      ##### E. Intervals of Increase or Decrease
+      - I/D test:
+        - Increasing on $I$: $f'(x) > 0$ on $I:$
+        - Decreasing on $I$: $f'(x) < 0$ on $I:$
+      ##### F.  Extrema
+      - Find critical numbers: $f'(c) = 0$ or DNE
+      - 1st Derivative Test:
+        - Local minimum: $f'$ changes from $-$ to $+$ at $c$
+        (mnemonic: _uphill_ $\rightarrow$ _min speed_)
+        - Local maximum: $f'$ changes from $+$ to $-$ at $c$
+        (mnemonic: _downhill_ $\rightarrow$ _max speed_)
+      - Jumps: $\lim_{x \to a} f(x) = L_a \ne f(a)$
+      ##### G. Concavity and Inflection
+      - Compute $f''(x)$
+      - Concavity test:
+        - CU: Concave up on $I$: $f''(x) > 0$ on $I$
+        - CD: Concave down on $I$: $f''(x) < 0$ on $I$
+        - IP: Inflection Point at $c$: $f''(x)$ changes sign at $c$
+      ##### H. Sketching
+      - (C) Mark symmetry/periodicity
+      - (B, F, G) Mark **intercepts,** **local extrema,** **jumps,** **IPs**
+      - (A) Note **domain**
+      - (D) Sketch **asymptotes**
+      - (E, G) Mark intervals with rise/fall/concavity
+      - Plot curve (mnemonic: **_stuttering remote-controlled potato car:_** SpPD Rf cARr):
+        - Symmetry/periodicity: (C) Start with source of symmetry/periodicity
+        - Points: (B, F, G) Pass through intercepts/extrema/jumps/IPs
+        - Domain: (A) Honor domain
+        - Rise/Fall/Concavity: (E, G) Honor interval rise/fall/concavity
+        - Asymptotes: (D) Approach asymptotes
+        - Reflect/Repeat: (C) Reflect or repeat
+    Annotations: ''
+  tags: []

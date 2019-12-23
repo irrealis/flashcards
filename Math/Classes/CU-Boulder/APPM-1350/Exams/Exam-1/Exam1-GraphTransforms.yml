@@ -1,0 +1,146 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1350
+  - APPM-1350-Exams
+  - APPM-1350-Exam1
+  - APPM-1350-Exam1-GraphTransforms
+  markdownTabLength: 2
+notes:
+- id: 1568225841520
+  fields:
+    Front: |
+      APPM 1350 Exam-1 Study Guide 36: **shifting graphs**
+      Given the graph $y = f(x)$ and $k>0,$ how do we shift the graph _up_ by $k$ units?
+    Back: |
+      $$$$
+      y = f(x) + k
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568226977392
+  fields:
+    Front: |
+      APPM 1350 Exam-1 Study Guide 37: **shifting graphs**
+      Given the graph $y = f(x)$ and $k>0,$ how do we shift the graph _down_ by $k$ units?
+    Back: |
+      $$$$
+      y = f(x) - k
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568235788300
+  fields:
+    Front: |
+      APPM 1350 Exam-1 Study Guide 38: **shifting graphs**
+      Given the graph $y = f(x)$ and $k>0,$ how do we shift the graph _right_ by $k$ units?
+    Back: |
+      $$$$
+      y = f(x - k)
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568235871395
+  fields:
+    Front: |
+      APPM 1350 Exam-1 Study Guide 39: **shifting graphs**
+      Given the graph $y = f(x)$ and $k>0,$ how do we shift the graph _left_ by $k$ units?
+    Back: |
+      $$$$
+      y = f(x + k)
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568236024846
+  fields:
+    Front: |
+      APPM 1350 Exam-1 Study Guide 40:  **scaling graphs**
+      Given the graph $y = f(x)$ and $c>0,$ how do we _stretch_ the graph _vertically_?
+    Back: |
+      $$$$
+      y = c\cdot f(x)
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568236080671
+  fields:
+    Front: |
+      APPM 1350 Exam-1 Study Guide 41:  **scaling graphs**
+      Given the graph $y = f(x)$ and $c>0,$ how do we _compress_ the graph _vertically_?
+    Back: |
+      $$$$
+      y = \frac{1}{c} f(x)
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568236146746
+  fields:
+    Front: |
+      APPM 1350 Exam-1 Study Guide 42:  **scaling graphs**
+      Given the graph $y = f(x)$ and $c>0,$ how do we _compress_ the graph _horizontally_?
+    Back: |
+      $$$$
+      y = f(cx)
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568236206649
+  fields:
+    Front: |
+      APPM 1350 Exam-1 Study Guide 43:  **scaling graphs**
+      Given the graph $y = f(x)$ and $c>0,$ how do we _stretch_ the graph _horizontally_?
+    Back: |
+      $$$$
+      y = f(x/c)
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568236285176
+  fields:
+    Front: |
+      APPM 1350 Exam-1 Study Guide 44:  **reflecting graphs**
+      Given the graph $y = f(x)$ how do we _reflect_ the graph about the $x-$axis?
+    Back: |
+      $$$$
+      y = -f(x)
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568236376488
+  fields:
+    Front: |
+      APPM 1350 Exam-1 Study Guide 45:  **reflecting graphs**
+      Given the graph $y = f(x)$ how do we _reflect_ the graph about the $y-$axis?
+    Back: |
+      $$$$
+      y = f(-x)
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568237394725
+  fields:
+    Front: |
+      APPM 1350 Exam-1 Study Guide 45:  **reflecting graphs**
+      Given the graph $y = f(x)$ how do we _reflect_ the graph about the _origin_?
+    Back: |
+      $$$$
+      y = -f(-x)
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568237473428
+  fields:
+    Front: |
+      APPM 1350 Exam-1 Study Guide 45:  **reflecting graphs**
+      Given the graph $y = f(x)$ how do we _reflect_ the _negative function values_ about the $x-$axis?
+    Back: |
+      $$$$
+      y = |f(x)|
+      $$$$
+    Annotations: ''
+  tags:
+  - Editing

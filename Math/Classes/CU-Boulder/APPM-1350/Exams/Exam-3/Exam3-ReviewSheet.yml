@@ -1,0 +1,213 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1350
+  - APPM-1350-Exams
+  - APPM-1350-Exam3-ReviewSheet
+  markdownTabLength: 2
+notes:
+- id: 1573590248819
+  fields:
+    Front: |
+      APPM 1350 Exam Review Sheet 01:
+      1. Give upper and lower bounds for $\int_{2}^{4}\left(4 x^{2}+2 x\right) d x$ using a Riemann sum with 4 intervals.
+    Back: |
+      $$$$
+      $$$$
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1573590248988
+  fields:
+    Front: |
+      APPM 1350 Exam Review Sheet 02:
+      2. Evaluate $\lim _{n \rightarrow \infty} \sum_{i=1}^{n} \frac{i^{3}}{n^{4}}.$
+    Back: |
+      $$$$
+      $$$$
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1573590249118
+  fields:
+    Front: |
+      APPM 1350 Exam Review Sheet 03:
+      3. Use Riemann sums to evaluate $\int_{2}^{5}\left(x^{2}+2\right) d x.$
+    Back: |
+      $$$$
+      $$$$
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1573590249244
+  fields:
+    Front: |
+      APPM 1350 Exam Review Sheet 04a:
+      Evaluate the following integral exactly.
+      $$$\int_{0}^{1}\left(9 x^{2}-3 \cos (3 x)\right) d x$$$
+    Back: |
+      $$$$
+      $$$$
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1573590249368
+  fields:
+    Front: |
+      APPM 1350 Exam Review Sheet 04b:
+      Evaluate the following integral exactly.
+      $$$\int_{1}^{4}\left(\frac{1}{\sqrt{x}}+x^{-\frac{3}{2}}\right) d x$$$
+    Back: |
+      $$$$
+      $$$$
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1573590249494
+  fields:
+    Front: |
+      APPM 1350 Exam Review Sheet 04c:
+      Evaluate the following integral exactly.
+      $$$\int_{1}^{2} x \sqrt{x-1} d x$$$
+    Back: |
+      $$$$
+      $$$$
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1573590249618
+  fields:
+    Front: |
+      APPM 1350 Exam Review Sheet 04d:
+      Evaluate the following integral exactly.
+      $$$\int_{0}^{\pi / 4}\left(\sec ^{2}(x)+\sec (x) \tan (x)\right) d x$$$
+    Back: |
+      $$$$
+      $$$$
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1573590249744
+  fields:
+    Front: |
+      APPM 1350 Exam Review Sheet 04e:
+      Evaluate the following integral exactly.
+      $$$\int_{0}^{\pi / 2} \cos (x) \sin (x) d x$$$
+    Back: |
+      $$$$
+      $$$$
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1573590249869
+  fields:
+    Front: |
+      APPM 1350 Exam Review Sheet 04f:
+      Evaluate the following integral exactly.
+      $$$\int_{-2}^{2} \sin \left(x^{3}\right) d x$$$
+    Back: |
+      $$$$
+      $$$$
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1573590249993
+  fields:
+    Front: |
+      APPM 1350 Exam Review Sheet 04g:
+      Evaluate the following integral exactly.
+      $$$\int_{0}^{4}[\cos (x)-\cos (4-x)] d x$$$
+    Back: |
+      $$$$
+      $$$$
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1573590250119
+  fields:
+    Front: |
+      APPM 1350 Exam Review Sheet 04h:
+      Evaluate the following integral exactly.
+      $$$\int_{-3}^{3} \sqrt{9-x^{2}} d x$$$
+    Back: |
+      $$$$
+      $$$$
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1573590779993
+  fields:
+    Front: |
+      APPM 1350 Exam Review Sheet 05a:
+      Find the average value of $f$ on the given interval.
+      $f(x)=x^{2}$ on $[0,2]$
+    Back: |
+      $$$$
+      $$$$
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1573590780176
+  fields:
+    Front: |
+      APPM 1350 Exam Review Sheet 05b:
+      Find the average value of $f$ on the given interval.
+      $f(x)=4 \sin (2 x)+2 \cos (2 x)$ on $[0, \pi / 4]$
+    Back: |
+      $$$$
+      $$$$
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1573590780327
+  fields:
+    Front: |
+      APPM 1350 Exam Review Sheet 06:
+      Find a value $c$ in $[0,2]$ such that, for $f$ from 5(a), $f(c)$ is the average value from $5(a) .$
+
+      It would be hard to do this for 5(b), but you could get an approximate answer with Newton's method. Set up how you would do this.
+    Back: |
+      $$$$
+      $$$$
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1573590780494
+  fields:
+    Front: |
+      APPM 1350 Exam Review Sheet 07a:
+      ##### optimization problems
+      Find the minimal product of two numbers with a difference of $7 .$
+    Back: |
+      $$$$
+      $$$$
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1573590780643
+  fields:
+    Front: |
+      APPM 1350 Exam Review Sheet 07b:
+      ##### optimization problems
+      Find the maximal volume of cylinder with a circular base such that two times the radius plus the height is equal to $30 .$
+    Back: |
+      $$$$
+      $$$$
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1573590780793
+  fields:
+    Front: |
+      APPM 1350 Exam Review Sheet 08:
+      Find the slant asymptote of $\frac{x^{2}+5 x+7}{3 x+6} .$
+    Back: |
+      $$$$
+      $$$$
+    Annotations: ''
+  tags:
+  - ToDo

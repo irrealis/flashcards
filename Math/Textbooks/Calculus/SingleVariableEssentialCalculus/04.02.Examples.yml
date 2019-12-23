@@ -1,0 +1,187 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - SingleVariableEssentialCalculus
+  - SVEC-04-Integrals
+  - SVEC-04.02-TheDefiniteIntegral
+  markdownTabLength: 2
+notes:
+- id: 1572917542744
+  fields:
+    Front: |
+      SVEC 04.02 Example 01:
+      Express
+      $$$
+      \lim _{n \rightarrow \infty} \sum_{i=1}^{n}\left(x_{i}^{3}+x_{i} \sin x_{i}\right) \Delta x
+      $$$ as an integral on the interval $[0, \pi].$
+    Back: |
+      Comparing the given limit with the limit in simplified definite integral theorem, we see that they will be identical if we choose $f(x)=x^{3}+x \sin x .$ We are given that $a=0$ and $b=\pi .$ Therefore, by Theorem $4,$ we have
+      $$$
+      \lim _{n \rightarrow \infty} \sum_{i=1}^{n}\left(x_{i}^{3}+x_{i} \sin x_{i}\right) \Delta x=\int_{0}^{\pi}\left(x^{3}+x \sin x\right) d x
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1572918568794
+  media:
+  - path: ${file_dir}/images/SVEC-04.02.Ex-02.1.jpg
+  - path: ${file_dir}/images/SVEC-04.02.Ex-02.2.jpg
+  - path: ${file_dir}/images/SVEC-04.02.Ex-02.3.jpg
+  fields:
+    Front: |
+      SVEC 04.02 Example 02:
+      ##### evaluating integrals
+      (a) Evaluate the Riemann sum for $f(x)=x^{3}-6 x$ taking the sample points to be right endpoints and $a=0, b=3,$ and $n=6 .$
+
+      (b) Evaluate $\int_{0}^{3}\left(x^{3}-6 x\right) d x.$
+    Back: |
+      (a) With $n=6$ the interval width is
+      $$$
+      \Delta x=\frac{b-a}{n}=\frac{3-0}{6}=\frac{1}{2}
+      $$$ and the right endpoints are $x_{1}=0.5, x_{2}=1.0, x_{3}=1.5, x_{4}=2.0, x_{5}=2.5,$ and
+      $x_{6}=3.0 .$ So the Riemann sum is
+      $$$
+      \begin{aligned} R_{6} &=\sum_{i=1}^{6} f\left(x_{i}\right) \Delta x \\ &=f(0.5) \Delta x+f(1.0) \Delta x+f(1.5) \Delta x+f(2.0) \Delta x+f(2.5) \Delta x+f(3.0) \Delta x \\ &=\frac{1}{2}(-2.875-5-5.625-4+0.625+9) \\ &=-3.9375 \end{aligned}
+      $$$ Notice that $f$ is not a positive function and so the Riemann sum does not represent a sum of areas of rectangles. But it does represent the sum of the areas of the dark blue rectangles (above the $x$ -axis) minus the sum of the areas of the light blue rectangles (below the $x$ -axis) in the figure below.
+      <p align="center">![](SVEC-04.02.Ex-02.1.jpg)</p>
+
+      (b) With $n$ subintervals we have
+      $$$
+      \Delta x=\frac{b-a}{n}=\frac{3}{n}
+      $$$ Thus $x_{0}=0, x_{1}=3 / n, x_{2}=6 / n, x_{3}=9 / n,$ and, in general, $x_{i}=3 i / n .$ since we are using right endpoints, we can use the simplified definite integral theorem:
+      $$$
+      \begin{aligned}
+        \int_{0}^{3}\left(x^{3}-6 x\right) d x
+        &=\lim _{n \rightarrow \infty} \sum_{i=1}^{n} f\left(x_{i}\right) \Delta x=\lim _{n \rightarrow \infty} \sum_{i=1}^{n} f\left(\frac{3 i}{n}\right) \frac{3}{n} \\
+        &=\lim _{n \rightarrow \infty} \frac{3}{n} \sum_{i=1}^{n}\left[\left(\frac{3 i}{n}\right)^{3}-6\left(\frac{3 i}{n}\right)\right] \\
+        &=\lim _{n \rightarrow \infty} \frac{3}{n} \sum_{i=1}^{n}\left[\frac{27}{n^{3}} i^{3}-\frac{18}{n} i\right] \\
+        &=\lim _{n \rightarrow \infty}\left[\frac{81}{n^{4}} \sum_{i=1}^{n} i^{3}-\frac{54}{n^{2}} \sum_{i=1}^{n} i\right] \\
+        &=\lim _{n \rightarrow \infty}\left\{\frac{81}{n^{4}}\left[\frac{n(n+1)}{2}\right]^{2}-\frac{54}{n^{2}} \frac{n(n+1)}{2}\right\} \\
+        &=\lim _{n \rightarrow \infty}\left[\frac{81}{4}\left(1+\frac{1}{n}\right)^{2}-27\left(1+\frac{1}{n}\right)\right] \\
+        &=\frac{81}{4}-27=-\frac{27}{4}=-6.75
+      \end{aligned}
+      $$$ This integral can't be interpreted as an area because $f$ takes on both positive and negative values. But it can be interpreted as the difference of areas $A_{1}-A_{2},$ where $A_{1}$ and $A_{2}$ are shown below.
+      <p align="center">
+      ![](SVEC-04.02.Ex-02.2.jpg)
+      $\int_{0}^{3}\left(x^{3}-6 x\right) d x=A_{1}-A_{2}=-6.75$
+      </p>
+
+      The next figure illustrates the calculation by showing the positive and negative terms in the right Riemann sum $R_{n}$ for $n=40 .$
+      <p align="center">
+      ![](SVEC-04.02.Ex-02.3.jpg)
+      $R_{40} \approx-6.3998$
+      </p>
+
+      The values in the following table show the Riemann sums approaching the exact value of the integral, $-6.75,$ as $n \rightarrow \infty .$
+      $$$\begin{array}{|r|r|}\hline n & {R_{n}} \\ \hline 40 & {-6.3998} \\ {100} & {-6.3998} \\ {500} & {-6.7229} \\ {1000} & {-6.7365} \\ {5000} & {-6.7473} \\ \hline\end{array}$$$
+    Annotations: ''
+  tags: []
+- id: 1572919247994
+  media:
+  - path: ${file_dir}/images/SVEC-04.02.Ex-03a.1.jpg
+  fields:
+    Front: |
+      SVEC 04.02 Example 03a:
+      ##### evaluating integrals
+      Evaluate the following integral by interpreting it in terms of areas.
+      $$$\int_{0}^{1} \sqrt{1-x^{2}} d x$$$
+    Back: |
+      Since $f(x)=\sqrt{1-x^{2}} \geqslant 0,$ we can interpret this integral as the area under the curve $y=\sqrt{1-x^{2}}$ from 0 to $1 .$ But, since $y^{2}=1-x^{2},$ we get $x^{2}+y^{2}=1$, which shows that the graph of $f$ is the quarter-circle with radius 1 in the following figure.
+      <p align="center">![](SVEC-04.02.Ex-03a.1.jpg)</p>
+      Therefore
+      $$$
+      \int_{0}^{1} \sqrt{1-x^{2}} d x=\frac{1}{4} \pi(1)^{2}=\frac{\pi}{4}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1572919499618
+  media:
+  - path: ${file_dir}/images/SVEC-04.02.Ex-03b.1.jpg
+  fields:
+    Front: |
+      SVEC 04.02 Example 03b:
+      ##### evaluating integrals
+      Evaluate the following integral by interpreting it in terms of areas.
+      $$$\int_{0}^{3}(x-1) d x$$$
+    Back: |
+      The graph of $y=x-1$ is the line with slope 1 shown in the figure below.
+      <p align="center">![](SVEC-04.02.Ex-03b.1.jpg)</p>
+      We compute the integral as the difference of the areas of the two triangles:
+      $$$
+      \int_{0}^{3}(x-1) d x=A_{1}-A_{2}=\frac{1}{2}(2 \cdot 2)-\frac{1}{2}(1 \cdot 1)=1.5
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1572919892469
+  media:
+  - path: ${file_dir}/images/SVEC-04.02.Ex-04.1.jpg
+  fields:
+    Front: |
+      SVEC 04.02 Example 04:
+      ##### the midpoint rule
+      Use the Midpoint Rule with $n=5$ to approximate $\int_{1}^{2} \frac{1}{x} d x.$
+    Back: |
+      The endpoints of the five subintervals are $1,1.2,1.4,1.6,1.8,$ and $2.0,$ so the midpoints are $1.1,1.3,1.5,1.7,$ and $1.9 .$ The width of the subintervals is $\Delta x=(2-1) / 5=\frac{1}{5},$ so the Midpoint Rule gives
+      $$$
+      \begin{aligned} \int_{1}^{2} \frac{1}{x} d x & \approx \Delta x[f(1.1)+f(1.3)+f(1.5)+f(1.7)+f(1.9)] \\ &=\frac{1}{5}\left(\frac{1}{1.1}+\frac{1}{1.3}+\frac{1}{1.5}+\frac{1}{1.7}+\frac{1}{1.9}\right) \approx 0.691908 \end{aligned}
+      $$$ Since $f(x)=1 / x>0$ for $1 \leqslant x \leqslant 2,$ the integral represents an area, and the approximation given by the Midpoint Rule is the sum of the areas of the rectangles shown below.
+      <p align="center">![](SVEC-04.02.Ex-04.1.jpg)</p>
+    Annotations: ''
+  tags: []
+- id: 1572920393370
+  fields:
+    Front: |
+      SVEC 04.02 Example 05:
+      ##### properties of the definite integral
+      Use the properties of integrals to evaluate $\int_{0}^{1}\left(4+3 x^{2}\right) d x.$
+    Back: |
+      Using the sum and constant-multiple rules we have
+      $$$
+      \int_{0}^{1}\left(4+3 x^{2}\right) d x=\int_{0}^{1} 4 d x+\int_{0}^{1} 3 x^{2} d x=\int_{0}^{1} 4 d x+3 \int_{0}^{1} x^{2} d x
+      $$$ We know from the constant rule that
+      $$$
+      \int_{0}^{1} 4 d x=4(1-0)=4
+      $$$ and we found in an earlier example that $\int_{0}^{1} x^{2} d x=\frac{1}{3} .$ So
+      $$$\begin{aligned} \int_{0}^{1}\left(4+3 x^{2}\right) d x &=\int_{0}^{1} 4 d x+3 \int_{0}^{1} x^{2} d x \\ &=4+3 \cdot \frac{1}{3}=5 \end{aligned}$$$
+    Annotations: ''
+  tags: []
+- id: 1572920559468
+  fields:
+    Front: |
+      SVEC 04.02 Example 06:
+      ##### properties of the definite integral
+      If it is known that $\int_{0}^{10} f(x) d x=17$ and $\int_{0}^{8} f(x) d x=12,$ find $\int_{8}^{10} f(x) d x.$
+    Back: |
+      By the adjacent-interval rule we have
+      $$$
+      \int_{0}^{8} f(x) d x+\int_{8}^{10} f(x) d x=\int_{0}^{10} f(x) d x
+      $$$ so
+      $$$
+      \int_{8}^{10} f(x) d x=\int_{0}^{10} f(x) d x-\int_{0}^{8} f(x) d x=17-12=5
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1572921098269
+  media:
+  - path: ${file_dir}/images/SVEC-04.02.Ex-07.1.jpg
+  fields:
+    Front: |
+      SVEC 04.02 Example 07:
+      ##### properties of the definite integral
+      Use the upper/lower-bounds rule to estimate $\int_{1} ^ { 4 } \sqrt { x } d x.$
+    Back: |
+      Since $f(x)=\sqrt{x}$ is an increasing function, its absolute minimum on $[1,4]$ is $m=f(1)=1$ and its absolute maximum on $[1,4]$ is $M=f(4)=\sqrt{4}=2.$ Thus the upper/lower-bounds rule gives
+      $$$
+      1(4-1) \leqslant \int_{1}^{4} \sqrt{x} d x \leqslant 2(4-1)
+      $$$ or
+      $$$
+      3 \leqslant \int_{1}^{4} \sqrt{x} d x \leqslant 6
+      $$$ The result is illustrated below.
+      <p align="center">![](SVEC-04.02.Ex-07.1.jpg)</p>
+      The area under $y=\sqrt{x}$ from 1 to 4 is greater than the area of the lower rectangle and less than the area of the large rectangle.
+    Annotations: ''
+  tags: []

@@ -1,0 +1,29 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Calculus-EarlyTrancendentals
+  - CET-02-LimitsAndDerivatives
+  - CET-02.06-LimitsAtInfinity-HorizontalAsymptotes
+  markdownTabLength: 2
+notes:
+- id: 0
+  fields:
+    Front: |
+      CET 02.06 Th.0a: XX
+    Back: |
+      XX
+    Annotations: ''
+  tags:
+  - Theory
+- id: 0
+  fields:
+    Front: |
+      CET 02.06 01: XX
+    Back: |
+      XX
+    Annotations: ''
+  tags: []

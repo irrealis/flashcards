@@ -1,0 +1,136 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - SingleVariableEssentialCalculus
+  - SVEC-01-FunctionsAndLimits
+  - SVEC-01.01-FunctionsAndTheirRepresentations
+  markdownTabLength: 2
+notes:
+- id: 1572386152029
+  media:
+  - path: ${file_dir}/images/SVEC-01.01.Ex-01.1.jpg
+  fields:
+    Front: |
+      SVEC 01.01 Example 01:
+      The graph of a function $f$ is shown below.
+      <p align="center">![](SVEC-01.01.Ex-01.1.jpg)</p>
+      (a) Find the values of $f(1)$ and $f(5)$.
+      (b) What are the domain and range of $f ?$
+    Back: |
+      (a) We see from the figure that the point $(1,3)$ lies on the graph of $f,$ so the value of $f$ at 1 is $f(1)=3 .$ (In other words, the point on the graph that lies above $x=1$ is 3 units above the $\mathrm{x}$ -axis.) When $x=5,$ the graph lies about 0.7 unit below the $x$ -axis, so we estimate that $f(5) \approx-0.7 .$
+
+      (b) We see that $f(x)$ is defined when $0 \leqslant x \leqslant 7$, so the domain of $f$ is the closed interval $[0,7]$. Notice that $f$ takes on all values from $-2$ to $4,$ so the range of $f$ is
+      $$$$
+      \{y |-2 \leq y \leq 4\}=[-2,4]
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1572386395304
+  media:
+  - path: ${file_dir}/images/SVEC-01.01.Ex-02.1.jpg
+  fields:
+    Front: |
+      SVEC 01.01 Example 02:
+      ##### representations of a function
+      When you turn on a hot-water faucet, the temperature $T$ of the water depends on how long the water has been running. Draw a rough graph of $T$ as a function of the time $t$ that has elapsed since the faucet was turned on.
+    Back: |
+      The initial temperature of the running water is close to room tempera- ture because the water has been sitting in the pipes. When the water from the hot- water tank starts flowing from the faucet, $T$ increases quickly. In the next phase, $T$ is constant at the temperature of the heated water in the tank. When the tank is drained, $T$ decreases to the temperature of the water supply. This enables us to make the rough sketch of $T$ as a function of $t$ as below.
+      <p align="center">![](SVEC-01.01.Ex-02.1.jpg)</p>
+    Annotations: ''
+  tags: []
+- id: 1572386553550
+  fields:
+    Front: |
+      SVEC 01.01 Example 03:
+      ##### representations of a function
+      Find the domain of each function.
+      (a) $f(x)=\sqrt{x+2}$
+      (b) $g(x)=\frac{1}{x^{2}-x}$
+    Back: |
+      (a) Because the square root of a negative number is not defined (as a real number), the domain of $f$ consists of all values of $x$ such that $x+2 \geqslant 0 .$ This is equivalent to $x \geqslant-2,$ so the domain is the interval $[-2, \infty) .$
+
+      (b) Since
+      $$$$g(x)=\frac{1}{x^{2}-x}=\frac{1}{x(x-1)}$$$$
+      and division by 0 is not allowed, we see that $g(x)$ is not defined when $x=0$ or $x=1 .$ Thus the domain of $g$ is $\{x | x \neq 0, x \neq 1\},$ which could also be written in interval notation as $(-\infty, 0) \cup(0,1) \cup(1, \infty).$
+    Annotations: ''
+  tags: []
+- id: 1572387144755
+  media:
+  - path: ${file_dir}/images/SVEC-01.01.Ex-04.1.jpg
+  fields:
+    Front: |
+      SVEC 01.01 Example 04:
+      ##### piecewise defined functions
+      A function $f$ is defined by
+      $$$$
+      f(x)=\left\{\begin{array}{ll}{1-x} & {\text { if } x \leqslant 1} \\ {x^{2}} & {\text { if } x>1}\end{array}\right.
+      $$$$
+      Evaluate $f(0), f(1),$ and $f(2)$ and sketch the graph.
+    Back: |
+      Remember that a function is a rule. For this particular function the rule is the following: First look at the value of the input $x$. If it happens that $x \leqslant 1,$ then the value of $f(x)$ is $1-x .$ On the other hand, if $x>1$, then the value of $f(x)$ is $x^{2}$.
+
+      Since $0 \leqslant 1,$ we have $f(0)=1-0=1.$
+      Since $1 \leqslant 1,$ we have $f(1)=1-1=0.$
+      Since $2>1,$ we have $f(2)=2^{2}=4.$
+
+      How do we draw the graph of $f ?$ We observe that if $x \leqslant 1,$ then $f(x)=1-x$ so the part of the graph of $f$ that lies to the left of the vertical line $x=1$ must coincide with the line $y=1-x,$ which has slope $-1$ and $y$ -intercept $1 .$ If $x>1,$ then $f(x)=x^{2},$ so the part of the graph of $f$ that lies to the right of the line $x=1$ must coincide with the graph of $y=x^{2},$ which is a parabola. This enables us to sketch the graph below.
+      <p align="center">![](SVEC-01.01.Ex-04.1.jpg)</p>
+      The solid dot indicates that the point $(1,0)$ is included on the graph; the open dot indicates that the point $(1,1)$ is excluded from the graph.
+    Annotations: ''
+  tags: []
+- id: 1572389657920
+  media:
+  - path: ${file_dir}/images/SVEC-01.01.Ex-05.1.jpg
+  fields:
+    Front: |
+      SVEC 01.01 Example 05:
+      ##### piecewise defined functions
+      Sketch the graph of the absolute value function $f(x)=|x|.$
+    Back: |
+      We know that
+      $$$$
+      |x|=
+      \left\{
+        \begin{array}{ll}
+          {x} & {\text { if } x \geqslant 0} \\
+          {-x} & {\text { if } x < 0}
+        \end{array}
+      \right.
+      $$$$
+      The graph of $f$ coincides with the line $y=x$ to the right of the $y$ axis and coincides with the line $y=-x$ to the left of the $y$ axis (see below).
+      <p align="center">![](SVEC-01.01.Ex-05.1.jpg)</p>
+    Annotations: ''
+  tags: []
+- id: 1572390259471
+  media:
+  - path: ${file_dir}/images/SVEC-01.01.Ex-07.1.jpg
+  - path: ${file_dir}/images/SVEC-01.01.Ex-07.2.jpg
+  - path: ${file_dir}/images/SVEC-01.01.Ex-07.3.jpg
+  fields:
+    Front: |
+      SVEC 01.01 Example 07:
+      ##### symmetry
+      Determine whether each of the following functions is even, odd, or neither even nor odd.
+      (a) $f(x)=x^{5}+x$
+      (b) $g(x)=1-x^{4}$
+      (c) $h(x)=2 x-x^{2}$
+    Back: |
+      (a)
+      $$$$\begin{aligned} f(-x) &=(-x)^{5}+(-x)=(-1)^{5} x^{5}+(-x) \\ &=-x^{5}-x=-\left(x^{5}+x\right) \\ &=-f(x) \end{aligned}$$$$
+      Therefore $f$ is an odd function.
+      <p align="center">![](SVEC-01.01.Ex-07.1.jpg)</p>
+      (b)
+      $$$$g(-x)=1-(-x)^{4}=1-x^{4}=g(x)$$$$
+      So $g$ is even.
+      <p align="center">![](SVEC-01.01.Ex-07.2.jpg)</p>
+      (c)
+      $$$$h(-x)=2(-x)-(-x)^{2}=-2 x-x^{2}$$$$
+      Since $h(-x) \neq h(x)$ and $h(-x) \neq-h(x),$ we conclude that $h$ is neither even nor odd.
+      <p align="center">![](SVEC-01.01.Ex-07.3.jpg)</p>
+    Annotations: ''
+  tags: []

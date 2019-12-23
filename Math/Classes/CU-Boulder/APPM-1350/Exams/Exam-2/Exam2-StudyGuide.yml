@@ -1,0 +1,245 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1350
+  - APPM-1350-Exams
+  - APPM-1350-Exam2
+  - APPM-1350-Exam2-StudyGuide
+  markdownTabLength: 2
+notes:
+- id: 1571005002629
+  fields:
+    Front: |
+      APPM 1350 Exam-2 Study Guide 01:
+      State the general form for **Linearization of a Function.**
+    Back: |
+      $$$$
+      L(x)=f(a)+f^{\prime}(a)(x-a)
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1571005074930
+  fields:
+    Front: |
+      APPM 1350 Exam-2 Study Guide 02:
+      State the general form for **Differentials.**
+    Back: |
+      $$$$
+      d y=f^{\prime}(x) d x
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1571005365405
+  fields:
+    Front: |
+      APPM 1350 Exam-2 Study Guide 03:
+      State the general formula for the **circumference of a circle.**
+    Back: |
+      $$$$
+      2 \pi r
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1571005365572
+  fields:
+    Front: |
+      APPM 1350 Exam-2 Study Guide 04:
+      State the general formula for the **area of a circle.**
+    Back: |
+      $$$$
+      \pi r^2
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1571005365705
+  fields:
+    Front: |
+      APPM 1350 Exam-2 Study Guide 05:
+      State the general formula for the **surface area of a sphere.**
+    Back: |
+      $$$$
+      4 \pi r^2
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1571005365840
+  fields:
+    Front: |
+      APPM 1350 Exam-2 Study Guide 06:
+      State the general formula for the **surface area of a cylinder.**
+    Back: |
+      $$$$
+      2 \pi r h + 2 \pi r^2
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1571005365990
+  fields:
+    Front: |
+      APPM 1350 Exam-2 Study Guide 07:
+      State the general formula for the **volume of a sphere.**
+    Back: |
+      $$$$
+      \frac{4}{3} \pi r^{3}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1571005366156
+  fields:
+    Front: |
+      APPM 1350 Exam-2 Study Guide 08:
+      State the general formula for the **volume of a cylinder.**
+    Back: |
+      $$$$
+      \pi r^{2} h
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1571005366288
+  fields:
+    Front: |
+      APPM 1350 Exam-2 Study Guide 09:
+      State the general formula for the **volume of a cone.**
+    Back: |
+      $$$$
+      \frac{1}{3} \pi r^{2} h
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1571005473179
+  fields:
+    Front: |
+      APPM 1350 Exam-2 Study Guide 10:
+      State **Rolle's Theorem.**
+    Back: |
+      If $f$ is continuous on $[a, b]$ and differentiable on $(a, b)$ and $f(a)=f(b)$ then there is a number $c$ in $(a, b)$ such that $f^{\prime}(c)=0$.
+    Annotations: ''
+  tags: []
+- id: 1571005613654
+  fields:
+    Front: |
+      APPM 1350 Exam-2 Study Guide 11:
+      State the **Mean Value Theorem.**
+    Back: |
+      If $f$ is continuous on $[a, b]$ and differentiable on $(a, b),$ then there is a number $c$ in $(a, b)$ such that
+      $$$$
+      f^{\prime}(c)=\frac{f(b)-f(a)}{b-a}.
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1571005689578
+  fields:
+    Front: |
+      APPM 1350 Exam-2 Study Guide 12:
+      State the **Extreme Value Theorem.**
+    Back: |
+      If $f$ is continuous on $[a, b],$ then $f$ attains an absolute maximum value and an absolute minimum value in the interval.
+    Annotations: ''
+  tags: []
+- id: 1571005763679
+  fields:
+    Front: |
+      APPM 1350 Exam-2 Study Guide 13:
+      State **Fermat's Theorem.**
+    Back: |
+      If $f$ has a local maximum or minimum value at $c,$ and if $f^{\prime}(c)$ exists, then $f^{\prime}(c)=0$.
+    Annotations: ''
+  tags: []
+- id: 1571005806955
+  fields:
+    Front: |
+      APPM 1350 Exam-2 Study Guide 14:
+      State the **Increasing / Decreasing Test.**
+    Back: |
+      If $f^{\prime}(x)>0$ on an interval, then $f$ is increasing on that interval.
+      If $f^{\prime}(x)<0$ on an interval, then $f$ is decreasing on that interval.
+    Annotations: ''
+  tags: []
+- id: 1571005862029
+  fields:
+    Front: |
+      APPM 1350 Exam-2 Study Guide 15:
+      Define **critical number.**
+    Back: |
+      A **critical number** is a value $c$ in the domain of $f$ such that $f^{\prime}(c)=0$ or $f^{\prime}(c)$ does not exist.
+    Annotations: ''
+  tags: []
+- id: 1571005913230
+  fields:
+    Front: |
+      APPM 1350 Exam-2 Study Guide 16:
+      State the **Concavity Test.**
+    Back: |
+      If $f^{\prime \prime}(x)>0$ on an interval, then $f$ is concave upward on that interval.
+      If $f^{\prime \prime}(x)<0$ on an interval, then $f$ is concave downward on that interval.
+    Annotations: ''
+  tags: []
+- id: 1571005966854
+  fields:
+    Front: |
+      APPM 1350 Exam-2 Study Guide 17:
+      Define **inflection point.**
+    Back: |
+      An **inflection point** on the graph of $f$ is a point where $f$ is continuous and the concavity of $f$ changes from upward to downward or downward to upward.
+    Annotations: ''
+  tags: []
+- id: 1571006193729
+  fields:
+    Front: |
+      APPM 1350 Exam-2 Study Guide 18:
+      State the **First Derivative Test for Local Extrema.**
+    Back: |
+      Suppose $c$ is a critical number of $f$.
+
+      If $f^{\prime}$ changes from positive to negative at $c,$ then $f$ has a local maximum at $c$.
+      If $f^{\prime}$ changes from negative to positive at $c,$ then $f$ has a local minimum at $c .$
+    Annotations: ''
+  tags: []
+- id: 1571006256929
+  fields:
+    Front: |
+      APPM 1350 Exam-2 Study Guide 19:
+      State the **Second Derivative Test for Local Extrema.**
+    Back: |
+      Suppose $f^{\prime \prime}$ is continuous near $c .$
+
+      If $f^{\prime}(c)=0$ and $f^{\prime \prime}(c)>0,$ then $f$ has a local minimum at $c .$
+      If $f^{\prime}(c)=0$ and $f^{\prime \prime}(c)<0,$ then $f$ has a local maximum at $c .$
+    Annotations: ''
+  tags: []
+- id: 1571006694630
+  fields:
+    Front: |
+      APPM 1350 Exam-2 Study Guide 20:
+      State eight **Guidelines for Graphing $y=f(x)$.**
+    Back: |
+      1. Identify the **domain** and **symmetry** of $f$.
+      2. Find the $x$ and $y$ **intercepts** of $f$.
+      3. Find **asymptotes:**
+        - Find **horizontal asymptotes:** $\lim _{x \rightarrow \pm \infty} f(x)=L$.
+        - Find **vertical asymptotes:** $\lim _{x \rightarrow a^{-}} f(x)=\pm \infty, \lim _{x \rightarrow a^{+}} f(x)=\pm \infty$.
+        - Find **slant asymptotes:** $\lim _{x \rightarrow \pm \infty}(f(x)-(m x+b))=0$.
+      4. Find $y^{\prime} .$ Identify the **critical numbers** where $y^{\prime}=0$ or $y^{\prime}$ is undefined.
+      5. Determine the **rise and fall** of $f(x)$. Identify local **extrema.**
+      6. Find $y^{\prime \prime} .$ Identify the numbers where $y^{\prime \prime}=0$ or $y^{\prime \prime}$ is undefined.
+      7. Determine the **concavity** of $f(x)$. Identify **inflection points.**
+      8. Draw the **general shape** of $f$ and **sketch the curve.** Label important points and asymptotes.
+    Annotations: ''
+  tags: []
+- id: 1571009138529
+  fields:
+    Front: |
+      APPM 1350 Exam-2 Study Guide 21:
+      State the **Closed Interval Method.**
+    Back: |
+      To find the absolute maximum and minimum values of a continuous function $f$ on a closed interval $[a, b]:$
+
+      1. Find the values of $f$ at the critical numbers of $f$ in $(a, b) .$
+      2. Find the values of $f$ at the endpoints of the interval.
+      3. The largest of the values from Steps 1 and 2 is the absolute maximum value; the smallest of these values is the absolute minimum value.
+    Annotations: ''
+  tags: []

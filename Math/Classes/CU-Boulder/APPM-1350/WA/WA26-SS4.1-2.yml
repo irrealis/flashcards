@@ -1,0 +1,271 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1350
+  - APPM-1350-WA26
+  - SingleVariableEssentialCalculus
+  - SVEC-04-Integrals
+  - SVEC-04.01-AreasAndDistances
+  - SVEC-04.02-TheDefiniteIntegral
+  - WebAssign
+  - Exam3
+  markdownTabLength: 2
+notes:
+- id: 1572649498795
+  media:
+  - path: ${file_dir}/images/APPM-1350-WA26-01.1.jpg
+  - path: ${file_dir}/images/APPM-1350-WA26-01.2.jpg
+  - path: ${file_dir}/images/APPM-1350-WA26-01.3.jpg
+  - path: ${file_dir}/images/APPM-1350-WA26-01.4.jpg
+  fields:
+    Front: |
+      APPM 1350 WA25-01 04.01-2:
+      Evaluate the upper and lower sums for $f(x)=2+\sin x, \quad 0 \leq x \leq \pi,$ with $n=2,4,$ and $8 .$ Illustrate with diagrams like the figure shown below. (Round your answers to two decimal places.)
+      <p/><p align="center">![](APPM-1350-WA26-01.1.jpg)</p>
+    Back: |
+      $n = 2:$ upper sum: $9.42$; lower sum: $6.28$.
+      <p/><p align="center">![](APPM-1350-WA26-01.2.jpg)</p>
+      $n = 4:$ upper sum: $8.96$; lower sum: $7.39$.
+      <p/><p align="center">![](APPM-1350-WA26-01.3.jpg)</p>
+      $n = 8:$ upper sum: $8.65$; lower sum: $7.86$.
+      <p/><p align="center">![](APPM-1350-WA26-01.4.jpg)</p>
+
+
+      ##### Full solution:
+
+      $f(x)=2+\sin x, 0 \leq x \leq \pi, \Delta x=\pi / 2.$
+
+      $n = 2:$ upper sum: $9.42$; lower sum: $6.28$:
+
+      The maximum values of $f$ on both subintervals occur at $x=\frac{\pi}{2},$ so
+      $$$$
+      \begin{align}
+        \text{upper sum} &= f\left(\frac{\pi}{2}\right) \cdot \frac{\pi}{2}+f\left(\frac{\pi}{2}\right) \cdot \frac{\pi}{2} \\
+        &= 3 \cdot \frac{\pi}{2}+3 \cdot \frac{\pi}{2}=3 \pi \approx 9.42
+      \end{align}
+      $$$$
+      The minimum values of $f$ on the subintervals occur at $x=0$ and $x=\pi,$ so
+      $$$$
+      \begin{align}
+        \text{lower sum} &= f(0) \cdot \frac{\pi}{2}+f(\pi) \cdot \frac{\pi}{2} \\
+        &= 2 \cdot \frac{\pi}{2}+2 \cdot \frac{\pi}{2}=2 \pi \approx 6.28
+      \end{align}
+      $$$$
+      <p/><p align="center">![](APPM-1350-WA26-01.2.jpg)</p>
+
+      $n = 4:$ upper sum: $8.96$; lower sum: $7.39$:
+
+      $$$$\begin{aligned} \text { upper sum } &=\left[f\left(\frac{\pi}{4}\right)+f\left(\frac{\pi}{2}\right)+f\left(\frac{\pi}{2}\right)+f\left(\frac{3 \pi}{4}\right)\right]\left(\frac{\pi}{4}\right) \\ &=\left[\left(2+\frac{1}{2} \sqrt{2}\right)+(2+1)+(2+1)+\left(2+\frac{1}{2} \sqrt{2}\right)\right]\left(\frac{\pi}{4}\right) \\ &=(10+\sqrt{2})\left(\frac{\pi}{4}\right) \approx 8.96 \end{aligned}$$$$
+      $$$$\begin{aligned} \text { Iower sum } &=\left[f(0)+f\left(\frac{\pi}{4}\right)+f\left(\frac{3 \pi}{4}\right)+f(\pi)\right]\left(\frac{\pi}{4}\right) \\ &=\left[(2+0)+\left(2+\frac{1}{2} \sqrt{2}\right)+\left(2+\frac{1}{2} \sqrt{2}\right)+(2+0)\right]\left(\frac{\pi}{4}\right) \\ &=(8+\sqrt{2})\left(\frac{\pi}{4}\right) \approx 7.39 \end{aligned}$$$$
+      <p/><p align="center">![](APPM-1350-WA26-01.3.jpg)</p>
+
+      $n = 8:$ upper sum: $8.65$; lower sum: $7.86$:
+
+      $$$$
+      \begin{align}
+      \text{upper sum} &= \left[f\left(\frac{\pi}{8}\right)+f\left(\frac{\pi}{4}\right)+f\left(\frac{3 \pi}{8}\right)+f\left(\frac{\pi}{2}\right)+f\left(\frac{\pi}{2}\right)+f\left(\frac{5 \pi}{8}\right)+f\left(\frac{3 \pi}{4}\right)+f\left(\frac{7 \pi}{8}\right)\right]\left(\frac{\pi}{8}\right) \\
+      &\approx 8.65
+      \end{align}
+      $$$$
+      $$$$
+      \begin{align}
+      \text {lower sum} &=\left[f(0)+f\left(\frac{\pi}{8}\right)+f\left(\frac{\pi}{4}\right)+f\left(\frac{3 \pi}{8}\right)+f\left(\frac{5 \pi}{8}\right)+f\left(\frac{3 \pi}{4}\right)+f\left(\frac{7 \pi}{8}\right)+f(\pi)\right]\left(\frac{\pi}{8}\right) \\
+      &\approx 7.86
+      \end{align}
+      $$$$
+      <p/><p align="center">![](APPM-1350-WA26-01.4.jpg)</p>
+    Annotations: ''
+  tags: []
+- id: 1572650486220
+  fields:
+    Front: |
+      APPM 1350 WA25-02 04.01-2:
+      A table of values of an increasing function $f$ is shown. Use the table to find lower and upper estimates for $\int_{10}^{30} f(x) d x .$
+      $$$$\begin{array}{|c|c|c|c|c|c|c|}\hline x & {10} & {14} & {18} & {22} & {26} & {30} \\ \hline f(x) & {-15} & {-6} & {-4} & {1} & {3} & {8} \\ \hline\end{array}$$$$
+    Back: |
+      Lower estimate: $-84$
+      Upper estimate: $8$
+
+      ##### Full solution:
+
+      Since $f$ is increasing, $L_{5} \leq \int_{10}^{30} f(x) d x \leq R_{5}.$
+      $$$$\begin{aligned} \text { Lower estimate } &=L_{5}=\sum_{i=1}^{5} f\left(x_{i-1}\right) \Delta x \\ &=4[f(10)+f(14)+f(18)+f(22)+f(26)] \\ &=4(-15+(-6)+(-4)+1+3)=4(-21)=-84 \\ \text { Upper estimate } &=R_{5}=\sum_{i=1}^{5} f\left(x_{i}\right) \Delta x \\ &=4[f(14)+f(18)+f(22)+f(26)+f(30)] \\ &=4(-6+(-4)+1+3+8)=4(2)=8 \end{aligned}$$$$
+    Annotations: ''
+  tags: []
+- id: 1572650695170
+  fields:
+    Front: |
+      APPM 1350 WA25-03 04.01-2:
+      Express the integral as a limit of Riemann sums. Do not evaluate the limit. (Use the right endpoints of each subinterval as your sample points.)
+      $$$$\int_{2}^{6} \frac{x}{1+x^{3}} d x$$$$
+    Back: |
+      $$$$\lim _{n \rightarrow \infty} \sum_{i=1}^{n} \frac{2+\frac{4 i}{n}}{1+\left(2+\frac{4 i}{n}\right)^{3}} \cdot \frac{4}{n}$$$$
+
+      ##### Full solution:
+
+      $f(x)=\frac{x}{1+x^{3}}, a=2, b=6,$ and $\Delta x=\frac{6-2}{n}=\frac{4}{n}.$ We get $x_{i}^{*}=x_{i}=2+i \Delta x=2+\frac{4 i}{n},$ so
+      $$$$\int_{2}^{6} \frac{x}{1+x^{3}} d x=\lim _{n \rightarrow \infty} R_{n}=\lim _{n \rightarrow \infty} \sum_{i=1}^{n} \frac{2+\frac{4 i}{n}}{1+\left(2+\frac{4 i}{n}\right)^{3}} \cdot \frac{4}{n}.$$$$
+    Annotations: ''
+  tags: []
+- id: 1572650966819
+  fields:
+    Front: |
+      APPM 1350 WA25-04 04.01-2:
+      Use the form of the definition of the integral given in the theorem to evaluate the integral.
+      $$$$\int_{1}^{3}\left(x^{2}-4 x+5\right) d x$$$$
+      Theorem: If $f$ is integrable on $[a, b]$, then
+      $$$$
+      \int_{a}^{b} f(x) d x=\lim _{n \rightarrow \infty} \sum_{i=1}^{n} f\left(x_{i}\right) \Delta x
+      $$$$
+      where $\quad \Delta x=\frac{b-a}{n} \quad$ and $\quad x_{i}=a+i \Delta x$
+    Back: |
+      $8/3$
+
+      ##### Full solution:
+
+      Note that $\Delta x=\frac{3-1}{n}=\frac{2}{n}$ and $x_{i}=1+i \Delta x=1+\frac{2 i}{n} .$
+      $$$$
+      \begin{aligned}
+        \int_{1}^{3}\left(x^{2}-4 x+5\right) d x
+        &=\lim _{n \rightarrow \infty} \sum_{i=1}^{n} f\left(x_{i}\right) \Delta x=\lim _{n \rightarrow \infty} \sum_{i=1}^{n} f\left(1+\frac{2 i}{n}\right) \frac{2}{n} \\
+        &=\lim _{n \rightarrow \infty} \frac{2}{n} \sum_{i=1}^{n}\left[\left(1+\frac{2 j}{n}\right)^{2}-4\left(1+\frac{2 i}{n}\right)+5\right] \\
+        &=\lim _{n \rightarrow \infty} \frac{2}{n} \sum_{i=1}^{n}\left[1+\frac{4 i}{n}+\frac{4 i^{2}}{n^{2}}-4-\frac{8 i}{n}+5\right] \\
+        &=\lim _{n \rightarrow \infty} \frac{2}{n} \sum_{i=1}^{n}\left[\frac{4 i^{2}}{n^{2}}-\frac{4 i}{n}+2\right] \\
+        &=\lim _{n \rightarrow \infty} \frac{2}{n}\left[\frac{4}{n^{2}} \sum_{i=1}^{n} i^{2}-\frac{4}{n} \sum_{i=1}^{n} i+\sum_{i=1}^{n} 2\right] \\
+        &=\lim _{n \rightarrow \infty}\left[\frac{8}{n^{3}} \frac{n(n+1)(2 n+1)}{6}-\frac{8}{n^{2}} \frac{n(n+1)}{2}+\frac{2}{n} \cdot n(2)\right] \\
+        &=\lim _{n \rightarrow \infty}\left[\frac{4}{3} \frac{(n+1)(2 n+1)}{n^{2}}-4 \frac{n+1}{n}+4\right] \\
+        &=\lim _{n \rightarrow \infty}\left[\frac{4}{3} \frac{n+1}{n} \frac{2 n+1}{n}-4\left(1+\frac{1}{n}\right)+4\right] \\
+        &=\lim _{n \rightarrow \infty}\left[\frac{4}{3}\left(1+\frac{1}{n}\right)\left(2+\frac{1}{n}\right)-4\left(1+\frac{1}{n}\right)+4\right] \\
+        &=\left[\frac{4}{3}(1)(2)-4(1)+4\right]=\frac{8}{3} \\
+      \end{aligned}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1572651602269
+  media:
+  - path: ${file_dir}/images/APPM-1350-WA26-05.1.jpg
+  fields:
+    Front: |
+      APPM 1350 WA25-05 04.01-2:
+      The graph of $f$ is shown. Evaluate each integral by interpreting it in terms of areas.
+      <p/><p align="center">![](APPM-1350-WA26-05.1.jpg)</p>
+
+      (a)
+      $$$$\int_{0}^{14} f(x) d x$$$$
+      (b)
+      $$$$\int_{0}^{35} f(x) d x$$$$
+      (c)
+      $$$$\int_{35}^{49} f(x) d x$$$$
+      (d)
+      $$$$\int_{0}^{63} f(x) d x$$$$
+    Back: |
+      (a) $196$
+      (b) $490$
+      (c) $-147$
+      (d) $98$
+
+      ##### Full solution:
+
+      (a) Think of $\int_{0}^{14} f(x) d x$ as the area of a trapezoid with bases 7 and 21 and height $14 .$ The area of a trapezoid is $A=\frac{1}{2}(b+B) h,$ so
+      $$$$\int_{0}^{14} f(x) d x= \frac{1}{2}(7+21) 14=196 .$$$$
+
+      (b)
+      $$$$
+      \begin{aligned}
+        \int_{0}^{35} f(x) d x
+        &=& \int_{0}^{14} f(x) d x \quad &+& \quad \int_{14}^{21} f(x) d x \quad &+& \quad \int_{21}^{35} f(x) d x \\
+        &=& \frac{1}{2}(7+21) 14 \quad &+& \quad 21 \cdot 7 \quad &+& \quad \frac{1}{2} \cdot 14 \cdot 21 \\
+        &=& 196 \quad &+& \quad 147 \quad &+& \quad 147 \\
+        &=& 490 \quad. \\
+      \end{aligned}
+      $$$$
+
+      (c)
+      $\int_{35}^{49} f(x) d x$ is the negative of the area of the triangle with base 14 and
+      height $21 . \int_{35}^{49} f(x) d x=-\frac{1}{2} \cdot 14 \cdot 21=-147.$
+
+      (d)
+      $\int_{49}^{63} f(x) d x$ is the negative of the area of a trapezoid with bases 21 and 14 and height $14,$ so it equals $-\frac{1}{2}(B+b) h=-\frac{1}{2}(21+14) 14=-245.$ Thus, $\int_{0}^{63} f(x) d x=\int_{0}^{35} f(x) d x+\int_{35}^{49} f(x) d x+\int_{49}^{63} f(x) d x$ $=490+(-147)+(-245)=98.$
+    Annotations: ''
+  tags: []
+- id: 1572652113419
+  fields:
+    Front: |
+      APPM 1350 WA25-06 04.01-2:
+      If $\int_{1}^{5} f(x) d x=12$ and $\int_{4}^{5} f(x) d x=3.5,$ find $\int_{1}^{4} f(x) d x.$
+    Back: |
+      $8.5$
+
+      ##### Full solution:
+
+      $\int_{1}^{4} f(x) d x=\int_{1}^{5} f(x) d x-\int_{4}^{5} f(x) d x=12-3.5=8.5$
+    Annotations: ''
+  tags: []
+- id: 1572652322569
+  fields:
+    Front: |
+      APPM 1350 WA25-07 04.01-2:
+      Find $f .$
+      $$$$
+      f^{\prime \prime}(\theta)=\sin \theta+\cos \theta, \quad f(0)=3, \quad f^{\prime}(0)=1
+      $$$$
+    Back: |
+      $$$$
+      f(\theta) = -\sin (\theta)-\cos (\theta)+2 \theta+4
+      $$$$
+
+      ##### Full solution:
+
+      $f^{\prime \prime}(\theta)=\sin \theta+\cos \theta \Rightarrow f^{\prime}(\theta)=-\cos \theta+\sin \theta+C .$ $f^{\prime}(0)=-1+C$ and $f^{\prime}(0)=1 \Rightarrow C=2,$ so $f^{\prime}(\theta)=-\cos \theta+\sin \theta+2$ and hence, $f(\theta)= -\sin \theta-\cos \theta+2 \theta+D .$ $f(0)=-1+D$ and $f(0)=3 \Rightarrow D=4$ so $f(\theta)=-\sin \theta-\cos \theta+2 \theta+4 .$
+    Annotations: ''
+  tags: []
+- id: 1572652511594
+  fields:
+    Front: |
+      APPM 1350 WA25-08 04.01-2:
+      Find the limit.
+      $$$$
+      \lim _{n \rightarrow \infty} \sum_{i=1}^{n} \frac{1}{n}\left(\frac{i}{n}\right)^{2}
+      $$$$
+    Back: |
+      $\frac{1}{3}$
+
+      ##### Full solution:
+
+      $$$$
+      \begin{aligned}
+        \lim _{n \rightarrow \infty} \sum_{i=1}^{n} \frac{1}{n}\left(\frac{i}{n}\right)^{2}
+        &=\lim _{n \rightarrow \infty} \frac{1}{n^{3}} \sum_{i=1}^{n} i^{2} \\
+        &=\lim _{n \rightarrow \infty} \frac{1}{n^{3}} \frac{n(n+1)(2 n+1)}{6} \\
+        &=\lim _{n \rightarrow \infty} \frac{1}{6}\left(1+\frac{1}{n}\right)\left(2+\frac{1}{n}\right) \\
+        &=\frac{1}{6}(1)(2)=\frac{1}{3}
+      \end{aligned}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1572652660520
+  fields:
+    Front: |
+      APPM 1350 WA25-09 04.01-2:
+      Evaluate the integral.
+      $$$$
+      \int_{0}^{\pi}(7 \sin \theta-3 \cos \theta) d \theta
+      $$$$
+    Back: |
+      $14$
+
+      ##### Full solution:
+
+      $$$$
+      \begin{aligned}
+        \int_{0}^{\pi}(7 \sin \theta-3 \cos \theta) d \theta
+        &= [-7 \cos \theta-3 \sin \theta]_{0}^{\pi} \\
+        &=(7-0)-(-7-0)=14\
+      \end{aligned}
+      $$$$
+    Annotations: ''
+  tags: []

@@ -1,0 +1,505 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1350
+  - APPM-1350-Exams
+  - APPM-1350-Exam1
+  - APPM-1350-Exam1-TrigFormulae
+  markdownTabLength: 2
+notes:
+- id: 1568220536370
+  fields:
+    Front: |
+      APPM 1350 Exam-1 Study Guide 01:
+
+      Express $\sin\theta$ in terms of opposite, adjacent, and hypotenuse.
+
+      (Something to try: draw and label the corresponding triangle.)
+    Back: |
+      $$$$
+      \sin\theta = \frac{\text{opp}}{\text{hyp}}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568220670546
+  fields:
+    Front: |
+      APPM 1350 Exam-1 Study Guide 02:
+
+      Express $\cos\theta$ in terms of opposite, adjacent, and hypotenuse.
+
+      (Something to try: draw and label the corresponding triangle.)
+    Back: |
+      $$$$
+      \cos\theta = \frac{\text{adj}}{\text{hyp}}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568220808446
+  fields:
+    Front: |
+      APPM 1350 Exam-1 Study Guide 03:
+
+      Express $\tan\theta$ in terms of opposite, adjacent, and hypotenuse.
+
+      (Something to try: draw and label the corresponding triangle.)
+    Back: |
+      $$$$
+      \tan\theta = \frac{\text{opp}}{\text{adj}}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568220848946
+  fields:
+    Front: |
+      APPM 1350 Exam-1 Study Guide 04:
+
+      Express $\sec\theta$ in terms of opposite, adjacent, and hypotenuse.
+
+      (Something to try: draw and label the corresponding triangle.)
+    Back: |
+      $$$$
+      \sec\theta = \frac{\text{hyp}}{\text{adj}}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568220894371
+  fields:
+    Front: |
+      APPM 1350 Exam-1 Study Guide 05:
+
+      Express $\csc\theta$ in terms of opposite, adjacent, and hypotenuse.
+
+      (Something to try: draw and label the corresponding triangle.)
+    Back: |
+      $$$$
+      \csc\theta = \frac{\text{hyp}}{\text{opp}}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568220933596
+  fields:
+    Front: |
+      APPM 1350 Exam-1 Study Guide 06:
+
+      Express $\cot\theta$ in terms of opposite, adjacent, and hypotenuse.
+
+      (Something to try: draw and label the corresponding triangle.)
+    Back: |
+      $$$$
+      \cot\theta = \frac{\text{adj}}{\text{opp}}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568221132520
+  fields:
+    Front: |
+      APPM 1350 Exam-1 Study Guide 07:
+
+      Express $\sin\theta$ in terms of $x,$ $y,$ and $r.$
+
+      (Something to try: draw and label the corresponding triangle.)
+    Back: |
+      $$$$
+      \sin\theta = \frac{y}{r}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568221185095
+  fields:
+    Front: |
+      APPM 1350 Exam-1 Study Guide 08:
+
+      Express $\cos\theta$ in terms of $x,$ $y,$ and $r.$
+
+      (Something to try: draw and label the corresponding triangle.)
+    Back: |
+      $$$$
+      \cos\theta = \frac{x}{r}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568221214571
+  fields:
+    Front: |
+      APPM 1350 Exam-1 Study Guide 09:
+
+      Express $\tan\theta$ in terms of $x,$ $y,$ and $r.$
+
+      (Something to try: draw and label the corresponding triangle.)
+    Back: |
+      $$$$
+      \tan\theta = \frac{y}{x}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568221246570
+  fields:
+    Front: |
+      APPM 1350 Exam-1 Study Guide 10:
+
+      Express $\sec\theta$ in terms of $x,$ $y,$ and $r.$
+
+      (Something to try: draw and label the corresponding triangle.)
+    Back: |
+      $$$$
+      \sec\theta = \frac{r}{x}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568221320770
+  fields:
+    Front: |
+      APPM 1350 Exam-1 Study Guide 11:
+
+      Express $\csc\theta$ in terms of $x,$ $y,$ and $r.$
+
+      (Something to try: draw and label the corresponding triangle.)
+    Back: |
+      $$$$
+      \csc\theta = \frac{r}{y}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568221370374
+  fields:
+    Front: |
+      APPM 1350 Exam-1 Study Guide 12:
+
+      Express $\cot\theta$ in terms of $x,$ $y,$ and $r.$
+
+      (Something to try: draw and label the corresponding triangle.)
+    Back: |
+      $$$$
+      \cot\theta = \frac{x}{y}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568221503095
+  fields:
+    Front: |
+      APPM 1350 Exam-1 Study Guide 13:
+
+      Express $y$ in terms trig of functions of $\theta$ normalized to $r.$
+
+      (Something to try: draw and label the corresponding triangle.)
+    Back: |
+      $$$$
+      y = r\sin\theta
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568221587640
+  fields:
+    Front: |
+      APPM 1350 Exam-1 Study Guide 14:
+
+      Express $x$ in terms trig of functions of $\theta$ normalized to $r.$
+
+      (Something to try: draw and label the corresponding triangle.)
+    Back: |
+      $$$$
+      x = r\cos\theta
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568221650946
+  fields:
+    Front: |
+      APPM 1350 Exam-1 Study Guide 15:
+
+      Express $r$ in terms trig of functions of $\theta$ normalized to $x.$
+
+      (Something to try: draw and label the corresponding triangle.)
+    Back: |
+      $$$$
+      r = x\sec\theta
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568221729496
+  fields:
+    Front: |
+      APPM 1350 Exam-1 Study Guide 16:
+
+      Express $y$ in terms of trig functions of $\theta$ normalized to $x.$
+
+      (Something to try: draw and label the corresponding triangle.)
+    Back: |
+      $$$$
+      y = x\tan\theta
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568221822150
+  fields:
+    Front: |
+      APPM 1350 Exam-1 Study Guide 17:
+
+      Express $r$ in terms of trig functions of $\theta$ normalized to $y.$
+
+      (Something to try: draw and label the corresponding triangle.)
+    Back: |
+      $$$$
+      r = y\csc\theta
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568221870346
+  fields:
+    Front: |
+      APPM 1350 Exam-1 Study Guide 18:
+
+      Express $x$ in terms of trig functions of $\theta$ normalized to $y.$
+
+      (Something to try: draw and label the corresponding triangle.)
+    Back: |
+      $$$$
+      x = y\cot\theta
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568221985620
+  fields:
+    Front: |
+      APPM 1350 Exam-1 Study Guide 19:
+
+      Express $\sin(-\theta)$ in terms of $\sin\theta.$
+
+      (Something to try: draw and label the corresponding triangle.)
+    Back: |
+      $$$$
+      \sin(-\theta) = -\sin\theta
+      $$$$
+      $\sin$ is an **odd** function.
+    Annotations: ''
+  tags: []
+- id: 1568222056730
+  fields:
+    Front: |
+      APPM 1350 Exam-1 Study Guide 20:
+
+      Express $\cos(-\theta)$ in terms of $\cos\theta.$
+
+      (Something to try: draw and label the corresponding triangle.)
+    Back: |
+      $$$$
+      \cos(-\theta) = \cos\theta
+      $$$$
+      $\cos$ is an **even** function.
+    Annotations: ''
+  tags: []
+- id: 1568222455729
+  fields:
+    Front: |
+      APPM 1350 Exam-1 Study Guide 21: **addition formula**
+
+      Express $\sin x+y$ in terms of $\sin$ and $\cos$ of $x$ and $y$.
+
+      (Something to try: derive from $e^{i\theta} = \cos\theta + \mathrm{i}\sin\theta.$)
+    Back: |
+      $$$$
+      \sin(x+y) = \sin x \cos y + \cos x \sin y
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568222807895
+  fields:
+    Front: |
+      APPM 1350 Exam-1 Study Guide 22: **addition formula**
+
+      Express $\cos x+y$ in terms of $\sin$ and $\cos$ of $x$ and $y$.
+
+      (Something to try: derive from $e^{i\theta} = \cos\theta + \mathrm{i}\sin\theta.$)
+    Back: |
+      $$$$
+      \cos(x+y) = \cos x \cos y - \sin x \sin y
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568222923577
+  fields:
+    Front: |
+      APPM 1350 Exam-1 Study Guide 23: **subtraction formula**
+
+      Express $\sin x-y$ in terms of $\sin$ and $\cos$ of $x$ and $y$.
+
+      (Something to try: derive from $e^{i\theta} = \cos\theta + \mathrm{i}\sin\theta.$)
+    Back: |
+      $$$$
+      \sin(x-y) = \sin x \cos y - \cos x \sin y
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568223300834
+  fields:
+    Front: |
+      APPM 1350 Exam-1 Study Guide 24: **subtraction formula**
+
+      Express $\cos x-y$ in terms of $\sin$ and $\cos$ of $x$ and $y$.
+
+      (Something to try: derive from $e^{i\theta} = \cos\theta + \mathrm{i}\sin\theta.$)
+    Back: |
+      $$$$
+      \sin(x-y) = \cos x \cos y + \sin x \sin y
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568223456312
+  fields:
+    Front: |
+      APPM 1350 Exam-1 Study Guide 25: **addition formula**
+
+      Express $\tan x+y$ in terms of $\tan$ of $x$ and $y$.
+
+      (Something to try: derive from $\sin$ and $\cos$ of $x$ and $y.$)
+    Back: |
+      $$$$
+      \tan(x+y) = \frac{\tan x + \tan y}{1 - \tan x \tan y}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568223550871
+  fields:
+    Front: |
+      APPM 1350 Exam-1 Study Guide 26: **subtraction formula**
+
+      Express $\tan x-y$ in terms of $\tan$ of $x$ and $y$.
+
+      (Something to try: derive from $\sin$ and $\cos$ of $x$ and $y.$)
+    Back: |
+      $$$$
+      \tan(x-y) = \frac{\tan x - \tan y}{1 + \tan x \tan y}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568223750620
+  fields:
+    Front: |
+      APPM 1350 Exam-1 Study Guide 27: **double-angle formula**
+
+      Express $\sin 2x$ in terms of $\sin x$ and $\cos x.$
+
+      (Something to try: derive from **addition formula** $\sin x+x.$)
+    Back: |
+      $$$$
+      \sin 2x = 2 \sin x \cos x
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568223804820
+  fields:
+    Front: |
+      APPM 1350 Exam-1 Study Guide 28: **double-angle formula**
+
+      Express $\cos 2x$ in terms of $\sin x$ and $\cos x.$
+
+      (Something to try: derive from **addition formula** $\cos x+x.$)
+    Back: |
+      $$$$
+      \cos 2x = \cos^2 x - \sin^2 x
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568224265409
+  fields:
+    Front: |
+      APPM 1350 Exam-1 Study Guide 29: **alternate double-angle formula**
+
+      Express $\cos 2x$ in terms of $\cos x.$
+
+      (Something to try: derive from **double-angle formula** $\cos x+x$ and identity $\sin^2 x + \cos^2 x = 1.$)
+    Back: |
+      $$$$
+      \cos 2x = 2 \cos^2 x - 1
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568224332945
+  fields:
+    Front: |
+      APPM 1350 Exam-1 Study Guide 30: **alternate double-angle formula**
+
+      Express $\cos 2x$ in terms of $\sin x.$
+
+      (Something to try: derive from **double-angle formula** $\cos x+x$ and identity $\sin^2 x + \cos^2 x = 1.$)
+    Back: |
+      $$$$
+      \cos 2x = 1 - 2 \sin^2 x
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568224534020
+  fields:
+    Front: |
+      APPM 1350 Exam-1 Study Guide 31: **half-angle formula**
+
+      Express $\cos^2 x$ in terms of $\cos 2x.$
+
+      (Something to try: derive from **alternate double-angle formulae**.)
+    Back: |
+      $$$$
+      \cos^2 x = \frac{1 + \cos 2x}{2}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568224583996
+  fields:
+    Front: |
+      APPM 1350 Exam-1 Study Guide 32: **half-angle formula**
+
+      Express $\sin^2 x$ in terms of $\cos 2x.$
+
+      (Something to try: derive from **alternate double-angle formulae**.)
+    Back: |
+      $$$$
+      \sin^2 x = \frac{1 - \cos 2x}{2}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568224746121
+  fields:
+    Front: |
+      APPM 1350 Exam-1 Study Guide 33: **product formula**
+
+      Express $\sin x \cos y$ in terms of $\sin$ and $\cos$ of $x \pm y.$
+
+      (Something to try: derive from **addition** and **subtraction formulae**.)
+    Back: |
+      $$$$
+      \sin x \cos y = \tfrac{1}{2}[\sin(x + y) + \sin(x - y)]
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568224808920
+  fields:
+    Front: |
+      APPM 1350 Exam-1 Study Guide 34: **product formula**
+
+      Express $\cos x \cos y$ in terms of $\sin$ and $\cos$ of $x \pm y.$
+
+      (Something to try: derive from **addition** and **subtraction formulae**.)
+    Back: |
+      $$$$
+      \cos x \cos y = \tfrac{1}{2}[\cos(x + y) + \cos(x - y)]
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568224883320
+  fields:
+    Front: |
+      APPM 1350 Exam-1 Study Guide 35: **product formula**
+
+      Express $\sin x \sin y$ in terms of $\sin$ and $\cos$ of $x \pm y.$
+
+      (Something to try: derive from **addition** and **subtraction formulae**.)
+    Back: |
+      $$$$
+      \sin x \sin y = \tfrac{1}{2}[\cos(x - y) - \cos(x + y)]
+      $$$$
+    Annotations: ''
+  tags: []

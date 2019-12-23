@@ -1,0 +1,20 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Calculus-EarlyTrancendentals
+  - CET-01-FunctionsAndModels
+  - CET-01.06-Review-TF
+  markdownTabLength: 2
+notes:
+- id: 0
+  fields:
+    Front: |
+      CET 01.06 01: XX
+    Back: |
+      XX
+    Annotations: ''
+  tags: []

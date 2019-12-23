@@ -1,0 +1,111 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1350
+  - APPM-1350-Exams
+  - APPM-1350-Exam4
+  - APPM-1350-HW14
+  - APPM-1350-Section05.06
+  - APPM-1350-Section05.07
+  - APPM-1350-Section05.08
+  - WrittenHomework
+  markdownTabLength: 2
+notes:
+- id: 1576099353532
+  fields:
+    Front: |
+      APPM 1350 HW-14-01a:
+      Evaluate the limit.
+      $$$\lim _{x \rightarrow 1^{-}} \frac{\cos ^{-1} x}{x-1}$$$
+    Back: |
+      $$$-\infty$$$
+    Annotations: ''
+  tags: []
+- id: 1576099423507
+  fields:
+    Front: |
+      APPM 1350 HW-14-01b:
+      Evaluate the limit.
+      $$$\lim _{t \rightarrow 0} \frac{\sinh t-7 t}{t^{3}-\tanh t}$$$
+    Back: |
+      $$$6$$$
+    Annotations: ''
+  tags: []
+- id: 1576099522083
+  fields:
+    Front: |
+      APPM 1350 HW-14-01c:
+      Evaluate the limit.
+      $$$\lim _{x \rightarrow \infty} \frac{1}{x} \ln \left(\frac{7^{x}+2^{x}}{3}\right)$$$
+    Back: |
+      $$$\ln 7$$$
+    Annotations: ''
+  tags: []
+- id: 1576099590083
+  fields:
+    Front: |
+      APPM 1350 HW-14-02a:
+      Evaluate the integral.
+      $$$\int \frac{t}{\sqrt{1-t^{4}}} d t$$$
+    Back: |
+      $$$\frac{1}{2} \sin ^{-1} t^{2}+C$$$
+    Annotations: ''
+  tags: []
+- id: 1576099647783
+  fields:
+    Front: |
+      APPM 1350 HW-14-02b:
+      Evaluate the integral.
+      $$$\int_{\pi / 6}^{\pi / 4} \frac{\csc ^{2} u}{1+(\cot u)^{2}} d u$$$
+    Back: |
+      $$$\pi / 12$$$
+    Annotations: ''
+  tags: []
+- id: 1576099708958
+  fields:
+    Front: |
+      APPM 1350 HW-14-03:
+      Let $h(r)=\int_{3}^{\ln r} e^{t} \sinh t d t .$ Find $d h / d r .$ Fully simplify your answer.
+    Back: |
+      $$$\frac{r^{2}-1}{2 r}$$$
+    Annotations: ''
+  tags: []
+- id: 1576099843908
+  fields:
+    Front: |
+      APPM 1350 HW-14-04:
+      A heavy chain is attached to the tops of two poles, forming the shape of the catenary curve
+      $$$
+      y=\frac{T}{k} \cosh \left(\frac{k x}{T}\right)
+      $$$ where $T$ and $k$ are positive constants. Suppose the poles are located at $x=-T / k$ and $x=T / k .$
+      (a) If we measure the height of the chain at its highest and lowest points, what is the difference?
+      (b) Show that
+      $$$
+      \frac{d^{2} y}{d x^{2}}=\frac{k}{T} \sqrt{1+\left(\frac{d y}{d x}\right)^{2}}
+      $$$
+    Back: |
+      (a)
+      $$$\frac{T}{k}(\cosh 1-1)$$$
+      (b)
+      To-do
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1576100174433
+  media:
+  - path: ${file_dir}/images/APPM-1350-HW-14-05.1.jpg
+  fields:
+    Front: |
+      APPM 1350 HW-14-05:
+      Abbott and Costello made arrangements to meet at the intersection of Folsom St and Colorado Ave at noon but Abbott is running late and Costello is tired of waiting so Costello starts walking north along Folsom St at the rate of 1 $\mathrm{m} / \mathrm{sec}$. At this moment Abbott is $50 \text{ m}$ away, walking east on Colorado Ave at a constant rate. Twenty seconds later the distance between them is $10 \sqrt{5} \text{ m}$. Use an inverse trig function to find the rate at which the angle $\theta$ (shown in the diagram) is changing then.
+      <p align="center">
+      ![](APPM-1350-HW-14-05.1.jpg)
+      </p>
+    Back: |
+      $$$-\frac{1}{10} \text{ rad} / \mathrm{sec}$$$
+    Annotations: ''
+  tags: []

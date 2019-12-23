@@ -1,0 +1,130 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1350
+  - APPM-1350-WA23
+  - SingleVariableEssentialCalculus
+  - SVEC-03-ApplicationsOfDifferentiation
+  - SVEC-03.06-NewtonsMethod
+  - WebAssign
+  - Exam3
+  markdownTabLength: 2
+notes:
+- id: 1572653663219
+  fields:
+    Front: |
+      APPM 1350 WA23-04 03.06:
+      Use Newton's method to approximate the given number correct to eight decimal places.
+      $$$$
+      \sqrt[6]{49}
+      $$$$
+    Back: |
+      $1.91293118$
+
+      ##### Full solution:
+
+      To approximate $x=\sqrt[6]{49}\left(\text { so that } x^{6}=49\right),$ we can take $f(x)=x^{6}-49 .$ So $f^{\prime}(x)=6 x^{5},$ and thus, $x_{n+1}=x_{n}-\frac{x_{n}^{6}-49}{6 x_{n}^{5}} .$ Since $\sqrt[6]{64}=2$ and 49 is reasonably close to $64,$ we'll use $x_{1}=2 .$ We need to find approximations until they agree to eight decimal places. $x_{1}=2 \Rightarrow x_{2} \approx 1.92187500, x_{3} \approx 1.91303459,$ ...
+      So $\sqrt[6]{49} \approx 1.91293118,$ to eight decimal places.
+    Annotations: ''
+  tags: []
+- id: 1572653932869
+  media:
+  - path: ${file_dir}/images/APPM-1350-WA23-05.1.jpg
+  fields:
+    Front: |
+      APPM 1350 WA23-05 03.06:
+      (a) Use Newton's method with $x_{1}=1$ to find the root of the equation $x^{3}-x=4$ correct to six decimal places.
+      (b) Solve the equation in part (a) using $x_{1}=0.6$ as the initial approximation.
+      (c) Solve the equation in part (a) using $x_{1}=0.57 .$ ( You definitely need a programmable calculator for this part.)
+      (d) Graph $f(x)=x^{3}-x-4$ and its tangent lines at $x_{1}=1,0.6,$ and $0.57 .$
+    Back: |
+      (a) $1.796322$
+      (b) $1.796322$
+      (c) $1.796322$
+      (d)
+      <p/><p align="center">![](APPM-1350-WA23-05.1.jpg)</p>
+      #
+      ##### Full solution:
+
+      (a-c)
+      $x^{3}-x=4 \quad \Leftrightarrow \quad x^{3}-x-4=0 .$ $f(x)=x^{3}-x-4 \quad \Rightarrow \quad f^{\prime}(x)=3 x^{2}-1,$ so $x_{n+1}=x_{n}-\frac{x_{n}^{3}-x_{n}-4}{3 x_{n}^{2}-1} .$
+
+      (d)
+      From the figure, we see that the tangent line corresponding to $x_{1}=1$ results in a sequence of approximations that converges quite quickly $\left(x_{7} \approx x_{8}\right) .$ The tangent line corresponding to $x_{1}=0.6$ is close to being horizontal, so $x_{2}$ is quite far from the root. But the sequence still converges-just a little more slowly $\left(x_{14} \approx x_{15}\right) .$ Lastly, the tangent line corresponding to $x_{1}=0.57$ is very nearly horizontal, $x_{2}$ is farther away from the root, and the sequence takes more iterations to converge $\left(x_{21} \approx x_{22}\right) .$
+    Annotations: ''
+  tags: []
+- id: 1572654710169
+  media:
+  - path: ${file_dir}/images/APPM-1350-WA23-06.1.jpg
+  - path: ${file_dir}/images/APPM-1350-WA23-06.2.jpg
+  fields:
+    Front: |
+      APPM 1350 WA23-06 03.06:
+      The graph of the derivative $f^{\prime}$ of a continuous function $f$ is shown. (Assume the function $f$ is defined only for $0<x<\infty,$ and that $f$ does not change behavior as it exits the graph to the right.)
+      <p/><p align="center">![](APPM-1350-WA23-06.1.jpg)</p>
+      (a) On what interval is $f$ increasing? On what interval is $f$ decreasing?
+      (b) At what value(s) of $x$ does $f$ have a local maximum? At what value(s) of $x$ does $f$ have a local minimum?
+      (c) On what interval is $f$ concave upward? On what interval is $f$ concave downward?
+      (d) State the $x$ coordinate(s) of the point(s) of inflection.
+      (e) Assuming that $f(0)=0,$ sketch a graph of $f .$
+    Back: |
+      (a) Increasing: $(0,2) \cup(4,6) \cup(8, \infty);$ decreasing: $(2,4) \cup(6,8).$
+      (b) Local maxima: $2,6;$ local minima: $4,8.$
+      (c) Concave upward: $(3,6) \cup(6, \infty);$ concave downward: $(0,3).$
+      (d) $3.$
+      (e)
+      <p/><p align="center">![](APPM-1350-WA23-06.2.jpg)</p>
+
+      ##### Full solution:
+
+      (a) $f$ is increasing where $f^{\prime}$ is positive, that is, on $(0,2),(4,6),$ and $(8, \infty)$ and decreasing where $f^{\prime}$ is negative, that is, on $(2,4)$ and $(6,8).$
+
+      (b) $f$ has local maxima where $f^{\prime}$ changes from positive to negative, at $x=2$ and at $x=6,$ and local minima where $f^{\prime}$ changes from negative to positive, at $x=4$ and at $x=8.$
+
+      (c) $f$ is concave upward $(\mathrm{CU})$ where $f^{\prime}$ is increasing, that is, on $(3,6)$ and $(6, \infty),$ and concave downward (CD) where $f^{\prime}$ is decreasing, that is, on $(0,3) .$
+
+      (d) There is a point of inflection where $f$ changes from being $\mathrm{CD}$ to being $\mathrm{CU},$ that is, at $x=3.$
+    Annotations: ''
+  tags: []
+- id: 1572654930119
+  fields:
+    Front: |
+      APPM 1350 WA23-07 03.06:
+      Find the most general antiderivative of the function. (Check your answer by differentiation. Use $C$ for the constant of the antiderivative.)
+      $$$
+      g(t)=\frac{5+t+t^{2}}{\sqrt{t}}
+      $$$
+    Back: |
+      $G(t) = C+\frac{2 t^{5 / 2}}{5}+\frac{2 t^{3 / 2}}{3}+10 \sqrt{t}$
+
+      ##### Full solution:
+
+      $$$$
+      g(t)=\frac{5+t+t^{2}}{\sqrt{t}}=5 t^{-1 / 2}+t^{1 / 2}+t^{3 / 2} \\
+      \Rightarrow G(t)=10 t^{1 / 2}+\frac{2}{3} t^{3 / 2}+\frac{2}{5} t^{5 / 2}+C
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1572655034944
+  fields:
+    Front: |
+      APPM 1350 WA23-08 03.06:
+      Find the most general antiderivative of the function. (Check your answer by differentiation. Use C for the constant of the antiderivative.)
+      $$$$
+      f(x)=6 \sqrt{x}+8 \cos x
+      $$$$
+    Back: |
+      $F(x) = C+4 x^{3 / 2}+8 \sin (x)$
+
+      ##### Full solution:
+
+      $$$$
+      f(x)=6 \sqrt{x}+8 \cos x=6 x^{1 / 2}+8 \cos x \Rightarrow \\
+      F(x)=6\left(\frac{x^{3 / 2}}{3 / 2}\right)+8 \sin x+C=4 x^{3 / 2}+8 \sin x+C
+      $$$$
+    Annotations: ''
+  tags: []

@@ -1,0 +1,125 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1350
+  - APPM-1350-Exams
+  - APPM-1350-Exam1
+  - APPM-1350-HW02
+  - APPM-1350-Section01.03
+  - APPM-1350-Section01.04
+  - APPM-1350-Section01.05
+  - WrittenHomework
+  markdownTabLength: 2
+notes:
+- id: 1572035131680
+  media:
+  - path: ${file_dir}/images/HW-02-01.1.jpg
+  fields:
+    Front: |
+      APPM 1350 HW-02 01:
+      ![](HW-02-01.1.jpg)
+      Refer to the graph above to find the following limits. No explanation is necessary.
+      (a) $\lim _{x \rightarrow 1} f(x)=$
+      (b) $\lim _{x \rightarrow 2^{+}} f(x)=$
+      (c) $\lim _{x \rightarrow 2} f(x)=$
+      (d) $\lim _{x \rightarrow 3} f(x)=$
+      (e) $\lim _{x \rightarrow 4} f(x)=$
+      (f) $\lim _{x \rightarrow 5^{-}} f(x)=$
+    Back: |
+      (a) $\lim _{x \rightarrow 1} f(x)=1$
+      (b) $\lim _{x \rightarrow 2^{+}} f(x)=1$
+      (c) $\lim _{x \rightarrow 2} f(x)=\mathrm{D} \mathrm{NE}$
+      (d) $\lim _{x \rightarrow 3} f(x)=0$
+      (e) $\lim _{x \rightarrow 4} f(x)=1$
+      (f) $\lim _{x \rightarrow 5^{-}} f(x)=-1$
+    Annotations: ''
+  tags: []
+- id: 1572035230780
+  fields:
+    Front: |
+      APPM 1350 HW-02 02:
+      Evaluate the following limits. Simplify your answers.
+      (a) $\lim _{t \rightarrow 3^{+}} \frac{3-t}{2 \sqrt{3}-\sqrt{4 t}}$
+      (b) $\lim _{\theta \rightarrow 0} \frac{\sec 3 \theta \tan 3 \theta}{2 \theta}$
+    Back: |
+      (a) $\sqrt{3}$
+      (b) $\frac{3}{2}$
+    Annotations: ''
+  tags: []
+- id: 1572035286880
+  fields:
+    Front: |
+      APPM 1350 HW-02 03:
+      Suppose
+      $$$
+      \sec \left(x+\frac{\pi}{2}\right) \leq g(x) \leq-2+\csc x, \quad 0<x<\pi.
+      $$$
+      Find $\lim _{x \rightarrow \pi / 2} g(x)$
+    Back: |
+      $-1.$
+    Annotations: ''
+  tags: []
+- id: 1572035406229
+  fields:
+    Front: |
+      APPM 1350 HW-02 04:
+      Let $f(t)=\frac{4 t+20}{5-|t|}.$
+      (a) Write $f$ as a piecewise function without using absolute value.
+      (b) Evaluate $\lim _{t \rightarrow-5} f(t).$
+    Back: |
+      (a) $f(t)=\left\{\begin{array}{ll}{\frac{4 t+20}{5-t},} & {t>0} \\ {\frac{4 t+20}{5+t},} & {t<0}\end{array}\right.$
+      (b) $4.$
+    Annotations: ''
+  tags: []
+- id: 1572035516904
+  fields:
+    Front: |
+      APPM 1350 HW-02 05:
+      Let
+      $$$
+      g(x)=\left\{\begin{array}{cc}{\frac{x^{3 / 2}+5 \sqrt{x}}{\sqrt{x}}} & {\text { if } x>0} \\ {5} & {\text { if } x=0} \\ {\sin x \csc (5 x)} & {\text { if } x<0}\end{array}\right.
+      $$$
+      (a) Is $g$ right-continuous at $x=0 ?$
+      (b) Is $g$ left-continuous at $x=0 ?$
+      (c) Is $g$ continuous at $x=0 ?$
+      Use the definition of continuity to justify your answers.
+    Back: |
+      (a) Yes
+      (b) No
+      (c) No
+    Annotations: ''
+  tags: []
+- id: 1572035636155
+  fields:
+    Front: |
+      APPM 1350 HW-02 06:
+      A cylindrical can has a base radius of $4 \mathrm{cm} .$ Suppose the can is filled with $500 \mathrm{cm}^{3}$ of oil. Let $h$ represent the height and $V(h)$ represent the volume of the oil.
+      (a) $\square$ What is the height of the oil rounded to the nearest hundredth?
+      (b) If the volume of the oil is measured with an error tolerance of $\pm 5 \mathrm{cm}^{3},$ how close must the height be to the ideal one?
+      (c) In terms of the $\epsilon, \delta$ definition of $\lim _{x \rightarrow a} f(x)=L,$ determine the values of $x, f(x), a, L, \epsilon,$ and $\delta .$
+    Back: |
+      (a) $9.95 \mathrm{cm}$
+      (b) Within $0.10 \mathrm{cm}$
+      (c) $x=h, f(x)=V(h), a=9.95, L=500, \epsilon=5,$ and $\delta=0.10$
+    Annotations: ''
+  tags: []
+- id: 1572035776329
+  fields:
+    Front: |
+      APPM 1350 HW-02 07:
+      An NB A basketball has a circumference of 29.5 in. Let $r$ represent the radius and $C(r)$ the circumference of a basketball.
+      (a) $\square$ What radius corresponds to the target circumference? Round your answer to the nearest hundredth.
+      (b) Suppose the manufacturing error tolerance for the circumference is $\pm 0.25$ in. How close must the radius be to the ideal one?
+      (c) In terms of the $\epsilon, \delta$ definition of $\lim _{x \rightarrow a} f(x)=L$, determine the values of $x, f(x), a, L, \epsilon,$ and $\delta .$
+      (d) Illustrate with a graph of $C(r)$ using arbitrary values of $\epsilon$ and $\delta .$
+    Back: |
+      (a) 4.70 in
+      (b) Within 0.03 in.
+      (c) $x=r, f(x)=C(r), a=4.70, L=29.5, \epsilon=0.25,$ and $\delta=0.03$
+      (d)
+    Annotations: ''
+  tags: []

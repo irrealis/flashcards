@@ -1,0 +1,156 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Calculus-EarlyTrancendentals
+  - CET-Tables
+  - CET-Tables.00-Integrals
+  markdownTabLength: 2
+notes:
+- id: 1576617542082
+  fields:
+    Front: |
+      CET-Tables.00-01: Give the integral.
+      $$$\int x^{n} d x$$$
+    Back: |
+      $$$\int x^{n} d x=\frac{x^{n+1}}{n+1}+C \quad(n \neq-1)$$$
+    Annotations: ''
+  tags: []
+- id: 1576617542255
+  fields:
+    Front: |
+      CET-Tables.00-02: Give the integral.
+      $$$\int e^{x} d x$$$
+    Back: |
+      $$$\int e^{x} d x=e^{x}+C$$$
+    Annotations: ''
+  tags: []
+- id: 1576617542357
+  fields:
+    Front: |
+      CET-Tables.00-03: Give the integral.
+      $$$\int \sin x d x$$$
+    Back: |
+      $$$\int \sin x d x=-\cos x+C$$$
+    Annotations: ''
+  tags: []
+- id: 1576617542458
+  fields:
+    Front: |
+      CET-Tables.00-04: Give the integral.
+      $$$\int \sec ^{2} x d x$$$
+    Back: |
+      $$$\int \sec ^{2} x d x=\tan x+C$$$
+    Annotations: ''
+  tags: []
+- id: 1576617542587
+  fields:
+    Front: |
+      CET-Tables.00-05: Give the integral.
+      $$$\int \sec x \tan x d x$$$
+    Back: |
+      $$$\int \sec x \tan x d x=\sec x+C$$$
+    Annotations: ''
+  tags: []
+- id: 1576617542683
+  fields:
+    Front: |
+      CET-Tables.00-06: Give the integral.
+      $$$\int \sinh x d x$$$
+    Back: |
+      $$$\int \sinh x d x=\cosh x+C$$$
+    Annotations: ''
+  tags: []
+- id: 1576617542815
+  fields:
+    Front: |
+      CET-Tables.00-Tables: Give the integral.
+      $$$\int \tan x d x$$$
+    Back: |
+      $$$\int \tan x d x=\ln |\sec x|+C$$$
+    Annotations: ''
+  tags: []
+- id: 1576617542911
+  fields:
+    Front: |
+      CET-Tables.00-08: Give the integral.
+      $$$\int \frac{1}{x^{2}+a^{2}} d x$$$
+    Back: |
+      $$$\int \frac{1}{x^{2}+a^{2}} d x=\frac{1}{a} \tan ^{-1}\left(\frac{x}{a}\right)+C$$$
+    Annotations: ''
+  tags: []
+- id: 1576617543008
+  fields:
+    Front: |
+      CET-Tables.00-09: Give the integral.
+      $$$\int \frac{1}{x} d x$$$
+    Back: |
+      $$$\int \frac{1}{x} d x=\ln |x|+C$$$
+    Annotations: ''
+  tags: []
+- id: 1576617543133
+  fields:
+    Front: |
+      CET-Tables.00-10: Give the integral.
+      $$$\int b^{x} d x$$$
+    Back: |
+      $$$\int b^{x} d x=\frac{b^{x}}{\ln b}+c$$$
+    Annotations: ''
+  tags: []
+- id: 1576617543257
+  fields:
+    Front: |
+      CET-Tables.00-11: Give the integral.
+      $$$\int \cos x d x$$$
+    Back: |
+      $$$\int \cos x d x=\sin x+C$$$
+    Annotations: ''
+  tags: []
+- id: 1576617543357
+  fields:
+    Front: |
+      CET-Tables.00-12: Give the integral.
+      $$$\int \csc ^{2} x d x$$$
+    Back: |
+      $$$\int \csc ^{2} x d x=-\cot x+C$$$
+    Annotations: ''
+  tags: []
+- id: 1576617543460
+  fields:
+    Front: |
+      CET-Tables.00-13: Give the integral.
+      $$$\int \csc x \cot x d x$$$
+    Back: |
+      $$$\int \csc x \cot x d x=-\csc x+C$$$
+    Annotations: ''
+  tags: []
+- id: 1576617543562
+  fields:
+    Front: |
+      CET-Tables.00-14: Give the integral.
+      $$$\int \cosh x d x$$$
+    Back: |
+      $$$\int \cosh x d x=\sinh x+C$$$
+    Annotations: ''
+  tags: []
+- id: 1576617543662
+  fields:
+    Front: |
+      CET-Tables.00-15: Give the integral.
+      $$$\int \cot x d x$$$
+    Back: |
+      $$$\int \cot x d x=\ln |\sin x|+C$$$
+    Annotations: ''
+  tags: []
+- id: 1576617543782
+  fields:
+    Front: |
+      CET-Tables.00-16: Give the integral.
+      $$$\int \frac{1}{\sqrt{a^{2}-x^{2}}} d x$$$
+    Back: |
+      $$$\int \frac{1}{\sqrt{a^{2}-x^{2}}} d x=\sin ^{-1}\left(\frac{x}{a}\right)+C, \quad a>0$$$
+    Annotations: ''
+  tags: []

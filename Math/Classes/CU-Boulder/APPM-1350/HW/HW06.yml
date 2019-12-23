@@ -1,0 +1,103 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1350
+  - APPM-1350-Exams
+  - APPM-1350-Exam2
+  - APPM-1350-HW06
+  - APPM-1350-Section02.06
+  - APPM-1350-Section02.07
+  - APPM-1350-Section02.08
+  - WrittenHomework
+  markdownTabLength: 2
+notes:
+- id: 1572039263354
+  fields:
+    Front: |
+      APPM 1350 HW-06 01:
+      Let $y^{2} \cos (1 / y)=2 x+2 y .$ Find $d y / d x.$
+    Back: |
+      $\frac{2}{\sin (1 / y)+2 y \cos (1 / y)-2}$
+    Annotations: ''
+  tags: []
+- id: 1572039370729
+  fields:
+    Front: |
+      APPM 1350 HW-06 02:
+      At pressure $P$ atmospheres, a fraction $f$ of a gas decomposes. The relationship between $P$ and $f$ is
+      $$$\frac{4 f^{2} P}{1-f^{2}}=K$$$
+      where $K$ is a positive constant. Find $d f / d P.$
+    Back: |
+      $\frac{f^{3}-f}{2 P}$
+    Annotations: ''
+  tags: []
+- id: 1572039731229
+  media:
+  - path: ${file_dir}/images/HW-06-03.1.jpg
+  fields:
+    Front: |
+      APPM 1350 HW-06 03:
+      Shown below is the tangent line approximation to $f(x)$ near $x=a.$
+      (a) Find the values of $a, f(a),$ and $f^{\prime}(a) .$
+      (b) Estimate the values of $f(2.1)$ and $f(1.98) .$ Are these under or overestimates? Why? Which estimate do you expect to be more accurate?
+      ![](HW-06-03.1.jpg)
+    Back: |
+      (a) $2,5,-2$
+      (b) $4.8,5.04,$ overestimates
+    Annotations: ''
+  tags: []
+- id: 1572039830354
+  fields:
+    Front: |
+      APPM 1350 HW-06 04:
+      Find the linearization of $f(x)=(1+x)^{k}$ at $x=0 .$ Use it to approximate the value of $\sqrt[4]{1.008}.$
+    Back: |
+      $1+k x, 1.002$
+    Annotations: ''
+  tags: []
+- id: 1572039881156
+  fields:
+    Front: |
+      APPM 1350 HW-06 05:
+      Suppose liquid is flowing through an expandable tube. The volume, $V,$ of the liquid is related to the radius, $r,$ of the tube by the formula $V r^{-4}=k,$ where $k$ is a constant. What is the relative change in volume if the radius increases by $10 \% ?$
+    Back: |
+      $40 \%$ increase
+    Annotations: ''
+  tags: []
+- id: 1572039943654
+  fields:
+    Front: |
+      APPM 1350 HW-06 06:
+      Cassius shapes a piece of clay into a cylinder of length $L$ and radius $r .$ He rolls the clay, maintaining the cylindrical shape so that the length $L$ increases at a rate of $0.1 \mathrm{cm} / \mathrm{sec} .$
+      (a) Find the rate at which the radius is changing when $r=1 \mathrm{cm}$ and $L=5 \mathrm{cm} .$
+      (b) At what rate is the lateral surface area of the cylinder changing then?
+    Back: |
+      (a) $-0.01 \text{ cm} / \mathrm{sec}$
+      (b) $0.1 \pi \text{ cm}^{2} / \mathrm{sec}$
+    Annotations: ''
+  tags: []
+- id: 1572040007579
+  fields:
+    Front: |
+      APPM 1350 HW-06 07:
+      On a hot summer day, Mork buys a raspberry sno-cone for Mindy but by the time he walks over to where she is waiting, the ice has melted into a raspberry syrup and is starting to leak out of the bottom of the cone. The cone measures $16 \mathrm{cm}$ high and $8 \mathrm{cm}$ across. If the syrup leaks at a rate of $20 \pi \mathrm{cm}^{3} / \mathrm{min}$, how fast is the level of the syrup falling when it is $12 \mathrm{cm}$ high?
+    Back: |
+      $20 / 9 \text{ cm} / \mathrm{min}$
+    Annotations: ''
+  tags: []
+- id: 1572040178129
+  media:
+  - path: ${file_dir}/images/HW-06-08.1.jpg
+  fields:
+    Front: |
+      APPM 1350 HW-06 08:
+      Abbott and Costello made arrangements to meet at the intersection of Folsom St and Colorado Ave at noon but Abbott is running late and Costello is tired of waiting so Costello starts walking north along Folsom St at the rate of 1 $\mathrm{m} / \mathrm{sec}$. At this moment Abbott is 50 $\mathrm{m}$ away, walking east on Colorado Ave at a constant rate. Twenty seconds later the distance between them is $10 \sqrt{5} \mathrm{m}$. At what rate is the angle $\theta$ (shown in the diagram) changing then?
+      ![](HW-06-08.1.jpg)
+    Back: |
+      $-1 / 10 \text{ rad}/\text{sec}$
+    Annotations: ''
+  tags: []

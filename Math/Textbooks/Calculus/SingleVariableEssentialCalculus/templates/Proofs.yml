@@ -1,0 +1,14 @@
+  media:
+  - path: ${file_dir}/images/SVEC-XX.XX-XX.Pf.1.jpg
+      <p align="center">
+      ![](SVEC-XX.XX-XX.Pf.1.jpg)
+      </p>
+  tags: []
+- id: 0
+  fields:
+    Front: |
+      SVEC XX.XX-XX Proof:
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing

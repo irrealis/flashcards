@@ -1,0 +1,146 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - SingleVariableEssentialCalculus
+  - SVEC-03-ApplicationsOfDifferentiation
+  - SVEC-03.04-CurveSketching
+  markdownTabLength: 2
+notes:
+- id: 1573069743043
+  media:
+  - path: ${file_dir}/images/SVEC-03.04.Ex-01.1.jpg
+  - path: ${file_dir}/images/SVEC-03.04.Ex-01.2.jpg
+  fields:
+    Front: |
+      SVEC 03.04 Example 01:
+      ##### curve sketching
+      Sketch the curve $y=\frac{2 x^{2}}{x^{2}-1}.$
+    Back: |
+      **A.** The domain is
+      $$$
+      \left\{x | x^{2}-1 \neq 0\right\}=\{x | x \neq \pm 1\}=(-\infty,-1) \cup(-1,1) \cup(1, \infty)
+      $$$ **B.** The $x$ - and $y$ -intercepts are both $0 .$
+      **C.** Since $f(-x)=f(x),$ the function $f$ is even. The curve is symmetric about the
+      $y$ -axis.
+
+      **D.**
+      $$$
+      \lim _{x \rightarrow \pm \infty} \frac{2 x^{2}}{x^{2}-1}=\lim _{x \rightarrow \pm \infty} \frac{2}{1-1 / x^{2}}=2
+      $$$ Therefore the line $y=2$ is a horizontal asymptote.
+      Since the denominator is 0 when $x=\pm 1$, we compute the following limits:
+      $$$
+      \begin{alignat}{3}
+        \lim _{x \rightarrow 1^{+}} \frac{2 x^{2}}{x^{2}-1} &=\infty \quad &\lim _{x \rightarrow 1^{-}} \frac{2 x^{2}}{x^{2}-1} &=-\infty \\
+        \lim _{x \rightarrow-1^{+}} \frac{2 x^{2}}{x^{2}-1} &=-\infty \quad &\lim _{x \rightarrow-1^{-}} \frac{2 x^{2}}{x^{2}-1} &=\infty
+      \end{alignat}
+      $$$ Therefore the lines $x=1$ and $x=-1$ are vertical asymptotes. This information about limits and asymptotes enables us to draw the preliminary sketch below, showing the parts of the curve near the asymptotes.
+      <p align="center">![](SVEC-03.04.Ex-01.1.jpg)
+      Preliminary sketch.
+      We have shown the curve approaching its horizontal asymptote from above.  This is confirmed by the intervals of increase and decrease.
+      </p>
+      **E.**
+      $$$
+      f^{\prime}(x)=\frac{4 x\left(x^{2}-1\right)-2 x^{2} \cdot 2 x}{\left(x^{2}-1\right)^{2}}=\frac{-4 x}{\left(x^{2}-1\right)^{2}}
+      $$$ Since $f^{\prime}(x)>0$ when $x<0(x \neq-1)$ and $f^{\prime}(x)<0$ when $x>0(x \neq 1), f$ is increasing on $(-\infty,-1)$ and $(-1,0)$ and decreasing on $(0,1)$ and $(1, \infty) .$
+
+      **F.** The only critical number is $x=0 .$ since $f^{\prime}$ changes from positive to negative at $0, f(0)=0$ is a local maximum by the First Derivative Test.
+
+      **G.**
+      $$$
+      f^{\prime \prime}(x)=\frac{-4\left(x^{2}-1\right)^{2}+4 x \cdot 2\left(x^{2}-1\right) 2 x}{\left(x^{2}-1\right)^{4}}=\frac{12 x^{2}+4}{\left(x^{2}-1\right)^{3}}
+      $$$ Since $12 x^{2}+4>0$ for all $x,$ we have
+      $$$
+      f^{\prime \prime}(x)>0 \quad \Longleftrightarrow \quad x^{2}-1>0 \quad \Leftrightarrow \quad|x|>1
+      $$$ and $f^{\prime \prime}(x)<0 \quad \Longleftrightarrow|x|<1 .$ Thus the curve is concave upward on the intervals $(-\infty,-1)$ and $(1, \infty)$ and concave downward on $(-1,1) .$ It has no point of inflection since 1 and $-1$ are not in the domain of $f .$
+
+      **H.** Using the information in $\mathrm{E}-\mathrm{G},$ we finish the sketch below.
+      <p align="center">
+      ![](SVEC-03.04.Ex-01.2.jpg)
+      Finished sketch of $y=\frac{2 x^{2}}{x^{2}-1}$
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1573071156869
+  media:
+  - path: ${file_dir}/images/SVEC-03.04.Ex-02.1.jpg
+  fields:
+    Front: |
+      SVEC 03.04 Example 02:
+      ##### curve sketching
+      Sketch the graph of $f(x)=\frac{x^{2}}{\sqrt{x+1}}.$
+    Back: |
+      **A.** Domain $=\{x | x+1>0\}=\{x | x>-1\}=(-1, \infty)$
+      **B.** The $x-$ and $y$ -intercepts are both $0 .$
+      **C.** Symmetry: None
+      **D.** Since
+      $$$
+      \lim _{x \rightarrow \infty} \frac{x^{2}}{\sqrt{x+1}}=\infty
+      $$$ there is no horizontal asymptote. since $\sqrt{x+1} \rightarrow 0$ as $x \rightarrow-1^{+}$ and $f(x)$ is
+      always positive, we have
+      $$$
+      \lim _{x \rightarrow-1^{+}} \frac{x^{2}}{\sqrt{x+1}}=\infty
+      $$$ and so the line $x=-1$ is a vertical asymptote.
+
+      **E.**
+      $$$
+      f^{\prime}(x)=\frac{2 x \sqrt{x+1}-x^{2} \cdot 1 /(2 \sqrt{x+1})}{x+1}=\frac{x(3 x+4)}{2(x+1)^{3 / 2}}
+      $$$ We see that $f^{\prime}(x)=0$ when $x=0$ (notice that $-\frac{4}{3}$ is not in the domain of $f$) so the only critical number is $0 .$ since $f^{\prime}(x)<0$ when $-1<x<0$ and $f^{\prime}(x)>0$ when $x>0, f$ is decreasing on $(-1,0)$ and increasing on $(0, \infty) .$
+
+      **F.** since $f^{\prime}(0)=0$ and $f^{\prime}$ changes from negative to positive at $0, f(0)=0$ is a local (and absolute) minimum by the First Derivative Test.
+
+      **G.**
+      $$$
+      \begin{aligned}
+        f^{\prime \prime}(x)
+        &=\frac{2(x+1)^{3 / 2}(6 x+4)-\left(3 x^{2}+4 x\right) 3(x+1)^{1 / 2}}{4(x+1)^{3}} \\
+        &=\frac{3 x^{2}+8 x+8}{4(x+1)^{5 / 2}}
+      \end{aligned}
+      $$$ Note that the denominator is always positive. The numerator is the quadratic $3 x^{2}+8 x+8,$ which is always positive because its discriminant is $b^{2}-4 a c=-32,$ which is negative, and the coefficient of $x^{2}$ is positive. Thus $f^{\prime \prime}(x)>0$ for all $x$ in the domain of $f,$ which means that $f$ is concave upward on $(-1, \infty)$ and there is no point of inflection.
+
+      **H.** The curve is sketched below.
+      <p align="center">![](SVEC-03.04.Ex-02.1.jpg)</p>
+    Annotations: ''
+  tags: []
+- id: 1573071731419
+  media:
+  - path: ${file_dir}/images/SVEC-03.04.Ex-03.1.jpg
+  - path: ${file_dir}/images/SVEC-03.04.Ex-03.2.jpg
+  fields:
+    Front: |
+      SVEC 03.04 Example 03:
+      ##### curve sketching
+      Sketch the graph of $f(x)=\frac{\cos x}{2+\sin x}.$
+    Back: |
+      **A.** The domain is $\mathbb{R}$.
+      **B.** The $y$ -intercept is $f(0)=\frac{1}{2} .$ The $x$ -intercepts occur when $\cos x=0$, that is, $x=(2 n+1) \pi / 2,$ where $n$ is an integer.
+      **C.** $f$ is neither even nor odd, but $f(x+2 \pi)=f(x)$ for all $x$ and so $f$ is periodic
+      and has period $2 \pi .$ Thus in what follows we need to consider only $0 \leqslant x \leqslant 2 \pi$ and then extend the curve by translation in part H.
+      **D.** Asymptotes: None
+
+      **E.**
+      $$$
+      \begin{aligned}
+        f^{\prime}(x)
+        &=\frac{(2+\sin x)(-\sin x)-\cos x(\cos x)}{(2+\sin x)^{2}} \\
+        &=-\frac{2 \sin x+1}{(2+\sin x)^{2}}
+      \end{aligned}
+      $$$ Thus $f^{\prime}(x)>0$ when $2 \sin x+1<0 \Longleftrightarrow \sin x<-\frac{1}{2} \Longleftrightarrow$ $7 \pi / 6<x<11 \pi / 6 .$ So $f$ is increasing on $(7 \pi / 6,11 \pi / 6)$ and decreasing on $(0,7 \pi / 6)$ and $(11 \pi / 6,2 \pi).$
+
+      **F.** From part $\mathrm{E}$ and the First Derivative Test, we see that the local minimum value is $f(7 \pi / 6)=-1 / \sqrt{3}$ and the local maximum value is $f(11 \pi / 6)=1 / \sqrt{3}.$
+
+      **G.** If we use the Quotient Rule again and simplify, we get
+      $$$
+      f^{\prime \prime}(x)=-\frac{2 \cos x(1-\sin x)}{(2+\sin x)^{3}}
+      $$$ Because $(2+\sin x)^{3}>0$ and $1-\sin x \geqslant 0$ for all $x,$ we know that $f^{\prime \prime}(x)>0$ when $\cos x<0,$ that is, $\pi / 2<x<3 \pi / 2 .$ So $f$ is concave upward on $(\pi / 2,3 \pi / 2)$ and concave downward on $(0, \pi / 2)$ and $(3 \pi / 2,2 \pi) .$ The inflection points are $(\pi / 2,0)$ and $(3 \pi / 2,0) .$
+
+      **H.** The graph of the function restricted to $0 \leqslant x \leqslant 2 \pi$ is shown below.
+      <p align="center">![](SVEC-03.04.Ex-03.1.jpg)</p>
+      Then we extend it, using periodicity, to the complete graph below.
+      <p/><p align="center">![](SVEC-03.04.Ex-03.2.jpg)</p>
+    Annotations: ''
+  tags: []

@@ -1,0 +1,154 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theory
+  - SingleVariableEssentialCalculus
+  - SVEC-05-InverseFunctions
+  - SVEC-05.04-GeneralLogarithmicAndExponentialFunctions
+  markdownTabLength: 2
+notes:
+- id: 1574113427219
+  fields:
+    Front: |
+      SVEC 05.04 Theory 01:
+      ##### general exponential functions
+      Define the **exponential function with base $a$.**
+    Back: |
+      $$$a^{x}=e^{x \ln a}$$$
+    Annotations: ''
+  tags: []
+- id: 1574373630844
+  fields:
+    Front: |
+      SVEC 05.04 Theory 02:
+      ##### general exponential functions
+      State the **general laws of exponents.**
+    Back: |
+      If $x$ and $y$ are real numbers and $a, b>0,$ then
+      1. $a^{x+y}=a^{x} a^{y}$
+      2. $a^{x-y}=a^{x} / a^{y}$
+      3. $\left(a^{x}\right)^{y}=a^{x y}$
+      4. $(a b)^{x}=a^{x} b^{x}$
+    Annotations: 'Trouble:<div>- 191121-1623: two knowledge errors:</div><div>&nbsp;
+      &nbsp; - Forgot constraint that \(a,b &gt; 0 .\)</div><div>&nbsp; &nbsp; - Couldn''t
+      remember number 4.</div><div><br></div><div>Thoughts:</div><div>- 191121-1640:
+      law 4 is new because now we can work with more bases than just \(e .\)</div>'
+  tags:
+  - ann:thoughts
+  - ann:trouble
+- id: 1574374469244
+  fields:
+    Front: |
+      SVEC 05.04 Theory 03:
+      ##### general exponential functions
+      State the **differentiation formula for general exponential functions.**
+    Back: |
+      $$$\frac{d}{d x}\left(a^{x}\right)=a^{x} \ln a$$$
+    Annotations: 'Fix me:<div>- 191121-1643: Should this item include the constraint
+      that \(a &gt; 0\)? This constraint is implied by the logarithm.</div>'
+  tags:
+  - ann:fix-me
+- id: 1574375390944
+  fields:
+    Front: |
+      SVEC 05.04 Theory 04:
+      ##### general exponential integrals
+      State the **general exponential integral formula.**
+    Back: |
+      $$$\int a^{x} d x=\frac{a^{x}}{\ln a}+C, \quad a \neq 1$$$
+    Annotations: 'Trouble:<div>- 191121-1630: knowledge error: forgot constraint that
+      \(a \ne 1\).</div><div>- 191121-1637: knowledge error: repeat of above error,
+      forgot constraint that \(a \ne 1\).</div><div><br></div><div>Fix me:</div><div>-
+      191121-1645: should this item also include the constraint that \(a &gt; 0\)
+      which is implied by \(\ln a\)?</div>'
+  tags:
+  - ann:fix-me
+  - ann:trouble
+- id: 1574375968744
+  fields:
+    Front: |
+      SVEC 05.04 Theory 05:
+      ##### the power rule revisited
+      State the **Power Rule** for real-numbered powers.
+    Back: |
+      If $n$ is any real number and $f(x)=x^{n},$ then
+      $$$
+      f^{\prime}(x)=n x^{n-1}
+      $$$
+    Annotations: 'Trouble:<div>- 191121-1634: knowledge/alertness: added incorrect
+      constraint that \(n \ne -1 .\)</div><div><br></div><div>Minor trouble:</div><div>-
+      191121-1652: memory: slight difficulty remembering what the&nbsp;<i>Power Rule</i>&nbsp;is.</div>'
+  tags:
+  - ann:minor-trouble
+  - ann:trouble
+- id: 1574376733854
+  fields:
+    Front: |
+      SVEC 05.04 Theory 06:
+      ##### general logarithm functions
+      Define the **logarithmic function with base $a$** in terms of $a^x$.
+    Back: |
+      If $a>0$ and $a \neq 1,$ then $f(x)=a^{x}$ is a one-to-one function. Its inverse function is called the logarithmic function with base $a$ and is denoted by $\log _{a} .$ Thus
+      $$$\log _{a} x=y \quad \Longleftrightarrow \quad a^{y}=x$$$ In particular, we see that
+      $$$
+      \log _{e} x=\ln x
+      $$$
+    Annotations: 'Trouble:<div>- 191121-1649: knowledge error: I wrote \(\log_{a}
+      x = \frac{\ln x}{\ln a}\), which is a theorem in our text, instead of the biconditional,
+      which is the definition in our text.</div>'
+  tags:
+  - ann:trouble
+- id: 1574376836601
+  fields:
+    Front: |
+      SVEC 05.04 Theory 07:
+      ##### general logarithm functions
+      State the **cancellation equations for the inverse functions $\log _{a} x$ and $a^{x}.$**
+    Back: |
+      The cancellation equations for the inverse functions $\log _{a} x$ and $a^{x}$ are
+      $$$
+      a^{\log _{a} x}=x \quad \text { and } \quad \log _{a}\left(a^{x}\right)=x
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1574376943239
+  fields:
+    Front: |
+      SVEC 05.04 Theory 08:
+      ##### general logarithm functions
+      State the **Change of Base Formula.**
+    Back: |
+      For any positive number $a$ with (a \neq 1)$ we have
+      $$$
+      \log _{a} x=\frac{\ln x}{\ln a}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1574377330479
+  fields:
+    Front: |
+      SVEC 05.04 Theory 09:
+      ##### general logarithm functions
+      What is the derivative of the general logarithmic function?
+    Back: |
+      $$$\frac{d}{d x}\left(\log _{a} x\right)=\frac{1}{x \ln a}$$$
+    Annotations: ''
+  tags: []
+- id: 1574377880029
+  fields:
+    Front: |
+      SVEC 05.04 Theory 10:
+      ##### the number $e$ as a limit
+      Express the number $e$ as a limit.
+    Back: |
+      $$$e=\lim _{x \rightarrow 0}(1+x)^{1 / x}$$$
+      An alternative expression for $e$ is
+      $$$e=\lim _{n \rightarrow \infty}\left(1+\frac{1}{n}\right)^{n}$$$
+    Annotations: 'Trouble:<div>- 191121-1700: knowledge/memory: Couldn''t remember
+      this expression.</div>'
+  tags:
+  - ann:trouble

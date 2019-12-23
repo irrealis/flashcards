@@ -1,0 +1,97 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1350
+  - APPM-1350-Exams
+  - APPM-1350-Exam3
+  - APPM-1350-HW09
+  - APPM-1350-Section03.06
+  - APPM-1350-Section03.07
+  - WrittenHomework
+  markdownTabLength: 2
+notes:
+- id: 1572046016786
+  fields:
+    Front: |
+      APPM 1350 HW-09 01:
+      Suppose Newton's Method is applied to the following function.
+      $$$
+      g(x)=
+      \left\{
+        \begin{array}{ll}
+          {\sqrt{x-1}} & {\text { for } x \geq 1} \\
+          {-\sqrt{1-x}} & {\text { for } x<1}
+        \end{array}
+      \right.
+      $$$
+      (a) First find $g^{\prime}(x) .$
+      (b) Now apply Newton's Method to $g$ using an initial value of $x_{1}=0 .$ Without a calculator find the next four approximations.
+      (c) Will Newton's Method converge to a root of $g ?$ Explain.
+    Back: |
+      (a) $g^{\prime}(x)=\left\{\begin{array}{ll}{\frac{1}{2}(x-1)^{-1 / 2}} & {\text { for } x>1} \\ {\frac{1}{2}(1-x)^{-1 / 2}} & {\text { for } x<1}\end{array}\right.$
+      (b) $x_{2}=2, x_{3}=0, x_{4}=2, x_{5}=0$
+      (c) No.
+    Annotations: ''
+  tags: []
+- id: 1572046056704
+  fields:
+    Front: |
+      APPM 1350 HW-09 02:
+      Use the Intermediate Value Theorem to show that $-2 x^{3}+x^{2}-4=0$ has a solution in $(-2,-1) .$
+      $\square$ Use Newton's Method to find the solution to five decimal places.
+    Back: |
+      $-1.11339$
+    Annotations: ''
+  tags: []
+- id: 1572046124429
+  fields:
+    Front: |
+      APPM 1350 HW-09 03:
+      Newton's Method can be sensitive to small changes in starting values. Let $f(x)=\sin x-2 x / 3 .$
+      $\square$ Apply Newton's Method using the three different initial values listed below. Round your results to five decimal places.
+      (a) $x_{1}=0.82$
+      (b) $x_{1}=0.905$
+      (c) $x_{1}=0.91$
+    Back: |
+      $1.49578,-1.49578,0$
+    Annotations: ''
+  tags: []
+- id: 1572046158156
+  fields:
+    Front: |
+      APPM 1350 HW-09 04:
+      Find the general antiderivative of $\frac{-4 r^{2}+3 r-5 \sqrt{r}+1}{2 \sqrt{r}}.$
+    Back: |
+      $-\frac{4}{5} r^{5 / 2}+r^{3 / 2}-\frac{5}{2} r+r^{1 / 2}+C$
+    Annotations: ''
+  tags: []
+- id: 1572046188555
+  media:
+  - path: ${file_dir}/images/HW-09-05.1.jpg
+  fields:
+    Front: |
+      APPM 1350 HW-09 05:
+      A car traveling at $55 \mathrm{mph} \text { (about } 80 \mathrm{ft} / \mathrm{sec})$ comes to a halt after five seconds, decelerating at a constant rate.
+      (a) Graph the velocity function $v(t), 0 \leq t \leq 5,$ in ft/sec.
+      (b) Use the graph to calculate the total stopping distance.
+      (c) Confirm your answer using antiderivatives.
+    Back: |
+      (a **[my answer]**)
+      ![](HW-09-05.1.jpg)
+      (b) $200\text{ ft}$
+      (c **[my answer]**) $200 \text{ ft}$
+    Annotations: ''
+  tags: []
+- id: 1572046235733
+  fields:
+    Front: |
+      APPM 1350 HW-09 06:
+      On the moon the acceleration due to gravity is about $5 \mathrm{ft} / \mathrm{sec}^{2} .$ Suppose a golf ball is shot straight up into the air with a velocity of $20 \mathrm{ft}$ sec from the top of a cliff $50 \mathrm{ft}$ high. If the ball lands at the base of the cliff, with what velocity will it hit the ground?
+    Back: |
+      $-30\text{ ft/sec}$
+    Annotations: ''
+  tags: []

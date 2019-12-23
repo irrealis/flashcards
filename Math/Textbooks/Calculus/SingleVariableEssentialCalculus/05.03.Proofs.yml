@@ -1,0 +1,70 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Proofs
+  - SingleVariableEssentialCalculus
+  - SVEC-05-InverseFunctions
+  - SVEC-05.03-TheNaturalExponentialFunction
+  markdownTabLength: 2
+notes:
+- id: 1574113423746
+  fields:
+    Front: |
+      SVEC 05.03 Proof 01:
+      Prove that $\exp (0)=1$ and $\exp (1)=e .$
+    Back: |
+      $\exp (0)=1$ since $\ln 1=0 ,$ and $\exp (1)=e$ since $\ln e=1 .$
+      $\square$
+    Annotations: ''
+  tags: []
+- id: 1574110471219
+  fields:
+    Front: |
+      SVEC 05.03 Proof 02:
+      Prove that $\exp (r)=e^{r} .$
+    Back: |
+      If $r$ is any rational number, then the third law of logarithms gives
+      $$$
+      \ln \left(e^{r}\right)=r \ln e=r
+      $$$ Therefore,
+      $$$\exp (r)=e^{r}$$$
+    Annotations: ''
+  tags: []
+- id: 1574111961119
+  fields:
+    Front: |
+      SVEC 05.03 Proof 03:
+      Prove the **Laws of Exponents.**
+    Back: |
+      1. Using the first law of logarithms and cancellation equations, we have
+      $$$
+      \ln \left(e^{x} e^{y}\right)=\ln \left(e^{x}\right)+\ln \left(e^{y}\right)=x+y=\ln \left(e^{x+y}\right)
+      $$$ Since $\ln$ is a one-to-one function, it follows that $e^{x} e^{y}=e^{x+y} .$
+
+      To-Do: Laws 2 and 3 are proved similarly.
+      $\square$
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1574112473218
+  fields:
+    Front: |
+      SVEC 05.03 Proof 04:
+      ##### differentiation
+      Prove that $\frac{d}{d x}\left(e^{x}\right)=e^{x} .$
+    Back: |
+      The function $y=e^{x}$ is differentiable because it is the inverse function of $y=\ln x,$ which we know is differentiable with nonzero derivative. To find its derivative, we use the inverse function method. Let $y=e^{x} .$ Then $\ln y=x$ and, differentiating this latter equation implicitly with respect to $x,$ we get
+      $$$
+      \begin{aligned}
+        \frac{1}{y} \frac{d y}{d x} &= 1 \\
+        \frac{d y}{d x} &= y=e^{x}
+      \end{aligned}
+      $$$
+      $\square$
+    Annotations: ''
+  tags:
+  - Editing

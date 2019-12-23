@@ -1,0 +1,118 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1350
+  - APPM-1350-WA09
+  - APPM-1350-Section02.01
+  markdownTabLength: 2
+notes:
+- id: 1571012545929
+  fields:
+    Front: |
+      APPM 1350 WebAssign 09 S2.1 01:
+      (a) Find the slope $m$ of the tangent to the curve $y=3+4 x^{2}-2 x^{3}$ at the point where $x=a$.
+      (b) Find equations of the tangent lines at the points $(1,5)$ and $(2,3)$.
+    Back: |
+      (a) $m = 8 a-6 a^{2}$
+      (b) $y(x) = 2 x+3$ at the point $(1,5)$; $y(x) = -8 x+19$ at the point $(2,3)$.
+    Annotations: ''
+  tags: []
+- id: 1571012910205
+  fields:
+    Front: |
+      APPM 1350 WebAssign 09 S2.1 02:
+      Find $f^{\prime}(a)$.
+      $$$$
+      f(t)=\frac{6 t+28}{t+5}
+      $$$$
+    Back: |
+      $$$$
+      f^{\prime}(a)= \frac{2}{(a+5)^{2}}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1571013069230
+  fields:
+    Front: |
+      APPM 1350 WebAssign 09 S2.1 03:
+      Find $f^{\prime}(a)$
+      $$$$
+      f(x)=\sqrt{1-6 x}
+      $$$$
+    Back: |
+      $$$$
+      f^{\prime}(a) = -\frac{3}{\sqrt{1-6 a}}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1571013168579
+  fields:
+    Front: |
+      APPM 1350 WebAssign 09 S2.1 04:
+      The limit represents the derivative of some function $f$ at some number a. State such an $f$ and a.
+      $$$$
+      \lim _{h \rightarrow 0} \frac{(1+h)^{3}-1}{h}
+      $$$$
+    Back: |
+      $$$$
+      f(x)=x^{3}, a=1
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1571013322208
+  fields:
+    Front: |
+      APPM 1350 WebAssign 09 S2.1 05:
+      The quantity (in pounds) of a gourmet ground contee that is sold by a company at a price of $p$ dollars per pound is $Q=f(p)$.
+      (a) What is the meaning of the derivative $f^{\prime}(8) $? What are the units of $f^{\prime}(8) $?
+      (b) In general, will $f^{\prime}(8)$ be positive or negative?
+    Back: |
+      (a) The rate of change of the quantity of coffee sold with respect to the price per pound when the price is 8 dollars per pound; pounds/(dollars/pound).
+      (b) Negative.
+    Annotations: ''
+  tags: []
+- id: 1571013425154
+  fields:
+    Front: |
+      APPM 1350 WebAssign 09 S2.1 06:
+      Use continuity to evaluate the limit.
+      $$$$
+      \lim _{x \rightarrow 1} \frac{8+\sqrt{x}}{\sqrt{8+x}}
+      $$$$
+    Back: |
+      $\sqrt{9}$.
+    Annotations: ''
+  tags: []
+- id: 1571013931404
+  media:
+  - path: ${file_dir}/images/APPM-1350-WA09-07.1.jpg
+  - path: ${file_dir}/images/APPM-1350-WA09-07.2.jpg
+  fields:
+    Front: |
+      APPM 1350 WebAssign 09 S2.1 07:
+      The graphs of four derivatives are given below. Match the graph of each function in (a)-(d) with the graph of its derivative in I-IV.
+      ![](APPM-1350-WA09-07.1.jpg)
+      ![](APPM-1350-WA09-07.2.jpg)
+    Back: |
+      (a) III
+      (b) I
+      (c) II
+      (d) IV
+    Annotations: ''
+  tags: []
+- id: 1571014151329
+  media:
+  - path: ${file_dir}/images/APPM-1350-WA09-08.1.jpg
+  fields:
+    Front: |
+      APPM 1350 WebAssign 09 S2.1 08:
+      The graph shows how the average age of first marriage of Japanese men varied in the last half of the 20th century. Sketch the graph of the derivative function $M^{\prime}(t)$. During which years was the derivative negative?
+      ![](APPM-1350-WA09-08.1.jpg)
+    Back: |
+      1963 to 1971.
+    Annotations: ''
+  tags: []

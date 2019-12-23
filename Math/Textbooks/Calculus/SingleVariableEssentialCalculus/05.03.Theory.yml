@@ -1,0 +1,154 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theory
+  - SingleVariableEssentialCalculus
+  - SVEC-05-InverseFunctions
+  - SVEC-05.03-TheNaturalExponentialFunction
+  markdownTabLength: 2
+notes:
+- id: 1574109867469
+  fields:
+    Front: |
+      SVEC 05.03 Theory 01:
+      What is the inverse function of $\ln y=x ?$
+    Back: |
+      $$$\exp (x)=y \quad \Longleftrightarrow \ln y=x$$$
+    Annotations: ''
+  tags: []
+- id: 1574109930894
+  fields:
+    Front: |
+      SVEC 05.03 Theory 02:
+      What are the cancellation equations for $\exp (x)=y$ and $\ln y=x ?$
+    Back: |
+      $$$\exp (\ln x)=x \quad \text{ and } \quad \ln (\exp x)=x$$$
+    Annotations: ''
+  tags: []
+- id: 1574110230695
+  fields:
+    Front: |
+      SVEC 05.03 Theory 03:
+      What are $\exp (0)$ and $\exp (1) ?$
+    Back: |
+      $$$\exp (0)=1 \text{ and } \exp (1)=e$$$
+    Annotations: ''
+  tags: []
+- id: 1574110466069
+  fields:
+    Front: |
+      SVEC 05.03 Theory 04:
+      What is $\exp (r) ?$
+    Back: |
+      $$$\exp (r)=e^{r}$$$
+    Annotations: ''
+  tags: []
+- id: 1574110556944
+  fields:
+    Front: |
+      SVEC 05.03 Theory 05:
+      Define $e^{x} .$
+    Back: |
+      $$$e^{x}=\exp (x)$$$
+    Annotations: ''
+  tags: []
+- id: 1574110647818
+  fields:
+    Front: |
+      SVEC 05.03 Theory 06:
+      What is the inverse function of $e^x ?$
+    Back: |
+      $$$e^{x}=y \quad \Longleftrightarrow \quad \ln y=x$$$
+    Annotations: ''
+  tags: []
+- id: 1574110763644
+  fields:
+    Front: |
+      SVEC 05.03 Theory 07:
+      What are the cancellation equations for $e^x=y$ and $\ln y=x ?$
+    Back: |
+      $$$
+      e^{\ln x}=x \quad x>0
+      $$$ and
+      $$$
+      \ln \left(e^{x}\right)=x \quad \text{ for all }x
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1574111447969
+  fields:
+    Front: |
+      SVEC 05.03 Theory 08:
+      What is the range of $f(x) = e^x ?$
+    Back: |
+      The exponential function $f(x)=e^{x}$ is an increasing continuous function with domain $\mathbb{R}$ and range $(0, \infty) .$ Thus $e^{x}>0$ for all $x$.
+    Annotations: ''
+  tags: []
+- id: 1574111557094
+  fields:
+    Front: |
+      SVEC 05.03 Theory 09:
+      What are the asymptotes of $f(x) = e^x ?$
+    Back: |
+      $$$
+      \lim _{x \rightarrow-\infty} e^{x}=0 \quad \text{ and } \quad \lim _{x \rightarrow \infty} e^{x}=\infty
+      $$$ So the $x$ -axis is a horizontal asymptote of $f(x)=e^{x} .$
+    Annotations: ''
+  tags: []
+- id: 1574111830518
+  fields:
+    Front: |
+      SVEC 05.03 Theory 10:
+      State the **Laws of Exponents.**
+    Back: |
+      If $x$ and $y$ are real numbers and $r$ is rational, then
+      1.
+      $$$e^{x+y}=e^{x} e^{y}$$$
+      2.
+      $$$e^{x-y}=\frac{e^{x}}{e^{y}}$$$
+      3.
+      $$$\left(e^{x}\right)^{r}=e^{r x}$$$
+    Annotations: 'Trouble:<div>- 191118-1902: knowledge error: forgot 3rd law.</div>'
+  tags:
+  - ann:trouble
+- id: 1574112064644
+  fields:
+    Front: |
+      SVEC 05.03 Theory 11:
+      ##### differentiation
+      What is $\frac{d}{d x}\left(e^{x}\right) ?$
+    Back: |
+      The natural exponential function has the remarkable property that it is its own derivative.
+      $$$\frac{d}{d x}\left(e^{x}\right)=e^{x}$$$
+    Annotations: ''
+  tags: []
+- id: 1574112686319
+  fields:
+    Front: |
+      SVEC 05.03 Theory 12:
+      ##### differentiation
+      If $u = f(x)$, what is $\frac{d}{d x}\left(e^{u}\right) ?$
+    Back: |
+      $$$
+      \frac{d}{d x}\left(e^{u}\right)=e^{u} \frac{d u}{d x} = e^{f(x)} f^{\prime}(x)
+      $$$
+    Annotations: 'Trouble:<div>- 191118-1905: memory error: forgot to differentiate
+      \(f\).</div>'
+  tags:
+  - ann:trouble
+- id: 1574113041469
+  fields:
+    Front: |
+      SVEC 05.03 Theory 13:
+      ##### integration
+      What is $\int e^{x} d x ?$
+    Back: |
+      Because the exponential function $y=e^{x}$ has a simple derivative, its integral is also simple:
+      $$$\int e^{x} d x=e^{x}+C$$$
+    Annotations: ''
+  tags:
+  - Editing

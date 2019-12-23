@@ -1,0 +1,135 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1350
+  - APPM-1350-WA29
+  - SingleVariableEssentialCalculus
+  - SVEC-04-Integrals
+  - SVEC-04.04-TheFundamentalTheoremOfCalculus
+  - SVEC-04.05-TheSubstitutionRule
+  - WebAssign
+  - Exam3
+  markdownTabLength: 2
+notes:
+- id: 1573443592969
+  fields:
+    Front: |
+      APPM 1350 WA29-03 04.04-5:
+      Find the average value $g_{\text {ave}}$ of the function $g$ on the given interval.
+      $$$
+      g(x)=4 \sqrt[3]{x}, \quad[1,125]
+      $$$
+    Back: |
+      $$$
+      g_{\text{ave}} = \frac{468}{31}
+      $$$
+
+      ##### Full solution:
+      $$$\begin{aligned} g_{\text {ave }} &=\frac{1}{b-a} \int_{a}^{b} g(x) d x=4 \frac{1}{125-1} \int_{1}^{125} \sqrt[3]{x} d x=\frac{4}{124}\left[\frac{3}{4} x^{4 / 3}\right]_{1}^{125} \\ &=\frac{12}{496}(625-1)=\frac{468}{31} \end{aligned}$$$
+    Annotations: 'Trouble:<div>- 191112-1120: Transcribe error: miscopied \(3\) to
+      \(1\).</div>'
+  tags:
+  - ann:trouble
+- id: 1573443998793
+  media:
+  - path: ${file_dir}/images/APPM-1350-WA29-04.1.jpg
+  fields:
+    Front: |
+      APPM 1350 WA29-04 04.04-5:
+      Consider the following function and interval.
+      $$$
+      f(x)=(x-8)^{2},[7,10]
+      $$$
+      (a) Find the average value $f_{\text {ave}}$ of $f$ on the given interval.
+      (b) Find all values of $c$ such that $f_{\text {ave }}=f(c) .$
+      (c) Sketch the graph of $f$ and a rectangle whose area is the same as the area under the graph of $f.$
+    Back: |
+      (a) $f_{\text {ave }}=1$
+      (b) $c = 7,9$
+      (c)
+      <p/><p align="center">![](APPM-1350-WA29-04.1.jpg)</p>
+
+      ##### Full solution:
+      $$$\begin{aligned} f_{\text {ave }} &=\frac{1}{10-7} \int_{7}^{10}(x-8)^{2} d x=\frac{1}{3} \int_{7}^{10}\left(x^{2}-16 x+64\right) d x \\ &=\frac{1}{3}\left[\frac{1}{3} x^{3}-8 x^{2}+64 x\right]_{7}^{10} \\ &=\frac{1}{3}\left[\frac{1}{3}(1000)-8(100)+64(10)-\frac{1}{3}(343)+8(49)-64(7)\right]=1 \end{aligned}$$$
+      $f(c)=f_{\text {ave }} \Leftrightarrow(c-8)^{2}=1 \Leftrightarrow c-8=\pm 1 \Leftrightarrow c=7 \text{ or } 9$
+    Annotations: ''
+  tags: []
+- id: 1573444441170
+  media:
+  - path: ${file_dir}/images/APPM-1350-WA29-05.1.jpg
+  - path: ${file_dir}/images/APPM-1350-WA29-05.2.jpg
+  fields:
+    Front: |
+      APPM 1350 WA29-05 04.04-5:
+      Let $g(x)=\int_{0}^{x} f(t) d t,$ where $f$ is the function whose graph is shown.
+      <p/><p align="center">![](APPM-1350-WA29-05.1.jpg)</p>
+      (a) At what values of $x$ do the local maximum and minimum values of $g$ occur?
+      (b) Where does $g$ attain its absolute maximum value?
+      (c) On what interval is $g$ concave downward?
+      (d) Sketch the graph of $g.$
+    Back: |
+      (a) $x_{\min} = 15,35,$ $x_{\max} = 5,25$
+      (b) $x = 45$
+      (c) $\left(\frac{5}{2}, 10\right) \cup(20,30) \cup(40,45)$
+      (d)
+      <p/><p align="center">![](APPM-1350-WA29-05.2.jpg)</p>
+
+      ##### Full solution:
+
+      (a) By FTC1, $g^{\prime}(x)=f(x) .$ So $g^{\prime}(x)=f(x)=0$ at $x=5,15,25,35,$ and $45 .$ $g$ has local maxima at $x=5$ and $25$ (since $f=g^{\prime}$ changes from positive to negative there) and local minima at $x=15$ and $35 .$ There is no local maximum or minimum at $x=45,$ since $f$ is not defined for $x>45 .$
+
+      (b) We can see from the graph that $\left|\int_{0}^{5} f d t\right|<\left|\int_{5}^{15} f d t\right|<\left|f_{15}^{25} f d t\right|<$ $\left|\int_{25}^{35} f d t\right|<\left|\int_{35}^{45} f d t\right|.$ So $g(5)=\left|\int_{0}^{5} f d t\right|,$ $g(25)=\int_{0}^{25} f d t=g(5)-$ $\int_{5}^{15} f d t|+| \int_{15}^{25} f d t |,$ and $g(45)=\int_{0}^{45} f d t=g(25)-\left|\int_{25}^{35} f d t\right|+$ $\left|\int_{35}^{45} f d t\right| .$ Thus, $g(5)<g(25)<g(45),$ and so the absolute maximum of $g(x)$ occurs at $x=45 .$
+
+      (c) $g$ is concave downward on those intervals where $g^{\prime \prime}<0 .$ But $g^{\prime}(x)=$ $f(x),$ so $g^{\prime \prime}(x)=f^{\prime}(x),$ which is negative on (approximately) $\left(\frac{5}{2}, 10\right)$ $(20,30)$ and $(40,45) .$ So $g$ is concave downward on these intervals.
+    Annotations: ''
+  tags: []
+- id: 1573444880369
+  fields:
+    Front: |
+      APPM 1350 WA29-06 04.04-5:
+      If $f(5)=12, f^{\prime}$ is continuous, and $\int_{5}^{7} f^{\prime}(x) d x=17,$ what is the value of $f(7) ?$
+    Back: |
+      $$$f(7) = 29$$$
+
+      ##### Full solution:
+      By FTC2, $\int_{5}^{7} f^{\prime}(x) d x=f(7)-f(5),$ so $17=f(7)-12 \Rightarrow f(7)=$ $17+12=29.$
+    Annotations: ''
+  tags: []
+- id: 1573444993344
+  fields:
+    Front: |
+      APPM 1350 WA29-07 04.04-5:
+      Find the general indefinite integral.
+      $$$
+      \int 5 v\left(v^{2}+6\right)^{2} d v
+      $$$
+    Back: |
+      $$$C+\frac{5 v^{6}}{6}+15 v^{4}+90 v^{2}$$$
+
+      ##### Full solution:
+      $\int 5 v\left(v^{2}+6\right)^{2} d v=\int 5 v\left(v^{4}+12 v^{2}+36\right) d v=\int\left(5 v^{5}+60 v^{3}+180 v\right) d v$ $=5 \frac{v^{6}}{6}+60 \frac{v^{4}}{4}+180 \frac{v^{2}}{2}+C=\frac{5}{6} v^{6}+15 v^{4}+90 v^{2}+C$
+    Annotations: ''
+  tags: []
+- id: 1573445376769
+  media:
+  - path: ${file_dir}/images/APPM-1350-WA29-08.1.jpg
+  fields:
+    Front: |
+      APPM 1350 WA29-08 04.04-5:
+      If a snowball melts so that its surface area decreases at a rate of $2 \text{ cm}^{2} / \mathrm{min},$ find the rate at which the diameter decreases when the diameter is $12 \text{ cm}$.
+    Back: |
+      $$$\frac{1}{12 \pi} \text{ cm}/\text{min}$$$
+
+      ##### Full solution:
+      Given: the rate of decrease of the surface area is $2 \text{ cm}^{2} / \mathrm{min}$. If we let $t$ be time (in minutes) and $S$ be the surface area (in $\mathrm{cm}^{2}$ ), then we are given that dS/dt $=-2 \text{ cm}^{2} / \mathrm{min}$. Unknown: the rate of decrease of the diameter when the diameter is $12 \text{ cm}$.
+
+      If we let $x$ be the diameter, then we want to find $d x / d t$ when $x=12 \text{ cm} .$
+
+      If the radius is $r$ and the diameter $x=2 r,$ then $r=\frac{1}{2} x$ and $S=4 \pi r^{2}=4 \pi\left(\frac{1}{2} x\right)^{2}=\pi x^{2} \Rightarrow$ $\frac{d S}{d t}=\frac{d S}{d x} \frac{d x}{d t}=2 \pi x \frac{d x}{d t}.$ $-2=\frac{d S}{d t}=$ $2 \pi x \frac{d x}{d t} \Rightarrow$ $\frac{d x}{d t}=-\frac{2}{2 \pi x}.$ When $x=12, \frac{d x}{d t}=-\frac{1}{12 \pi} \cdot$ So the rate of decrease is $\frac{1}{12 \pi} \text{ cm} / \mathrm{min}.$
+      <p/><p align="center">![](APPM-1350-WA29-08.1.jpg)</p>
+    Annotations: ''
+  tags: []

@@ -1,0 +1,173 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theory
+  - SingleVariableEssentialCalculus
+  - SVEC-05-InverseFunctions
+  - SVEC-05.08-IndeterminateFormsAndLHospitalsRule
+  markdownTabLength: 2
+notes:
+- id: 1575412195304
+  fields:
+    Front: |
+      SVEC 05.08-01 Theory:
+      ##### indeterminate ratios
+      Define **indeterminate form of type $\frac{0}{0}$.**
+    Back: |
+      In general, if we have a limit of the form
+      $$$
+      \lim _{x \rightarrow a} \frac{f(x)}{g(x)}
+      $$$
+      where both $f(x) \rightarrow 0$ and $g(x) \rightarrow 0$ as $x \rightarrow a$, then this limit may or may not exist and is called an indeterminate form of type $\frac{0}{0} .$
+    Annotations: ''
+  tags: []
+- id: 1575412367157
+  fields:
+    Front: |
+      SVEC 05.08-02 Theory:
+      ##### indeterminate ratios
+      Define **indeterminate form of type $\infty / \infty.$**
+    Back: |
+      In general, if we have a limit of the form
+      $$$
+      \lim _{x \rightarrow a} \frac{f(x)}{g(x)}
+      $$$
+      where both $f(x) \rightarrow \infty$ (or $-\infty$) and $g(x) \rightarrow \infty$ (or $-\infty$) as $x \rightarrow a$, then this limit may or may not exist and is called an indeterminate form of type $\infty / \infty .$
+    Annotations: ''
+  tags: []
+- id: 1575412551754
+  fields:
+    Front: |
+      SVEC 05.08-03 Theory:
+      ##### indeterminate ratios
+      State **L'Hospital's Rule.**
+    Back: |
+      Suppose $f$ and $g$ are differentiable and $g^{\prime}(x) \neq 0$ near $a$ (except possibly at $a$ ). Suppose that
+      $$$
+      \lim _{x \rightarrow a} f(x)=0 \quad \text { and } \quad \lim _{x \rightarrow a} g(x)=0
+      $$$ or that
+      $$$
+      \lim _{x \rightarrow a} f(x)=\pm \infty \quad \text{ and } \quad \lim _{x \rightarrow a} g(x)=\pm \infty
+      $$$ (In other words, we have an indeterminate form of type $\frac{0}{0}$ or $\infty / \infty$.) Then
+      $$$
+      \lim _{x \rightarrow a} \frac{f(x)}{g(x)}=\lim _{x \rightarrow a} \frac{f^{\prime}(x)}{g^{\prime}(x)}
+      $$$ if the limit on the right side exists (or is $\infty$ or $-\infty$ ).
+
+      **Note 1:**
+      L'Hospital's Rule says that the limit of a quotient of functions is equal to the limit of the quotient of their derivatives, provided that the given conditions are satisfied. It is especially important to verify the conditions regarding the limits of $f$ and $g$ before using 1 'Hospital's Rule.
+
+      **Note 2:**
+      L'Hospital's Rule is also valid for one-sided limits and for limits at infin- ity or negative infinity; that is, " $x \rightarrow a \rightarrow a$ " can be replaced by any of the symbols $x \rightarrow a^{+}$, $x \rightarrow a^{-}, x \rightarrow \infty,$ or $x \rightarrow-\infty$.
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1575412780505
+  fields:
+    Front: |
+      SVEC 05.08-04 Theory:
+      ##### indeterminate ratios
+      Specifically state the hypotheses of L'Hospital's Rule.
+    Back: |
+      1. $f$ and $g$ are differentiable.
+      2. $g^{\prime}(x) \neq 0$ near $a$ (except possibly at $a$ ).
+      3.
+      $$$
+      \lim _{x \rightarrow a} f(x)=0 \quad \text { and } \quad \lim _{x \rightarrow a} g(x)=0
+      $$$ or
+      $$$
+      \lim _{x \rightarrow a} f(x)=\pm \infty \quad \text{ and } \quad \lim _{x \rightarrow a} g(x)=\pm \infty
+      $$$ (In other words, we have an indeterminate form of type $\frac{0}{0}$ or $\infty / \infty$.)
+    Annotations: ''
+  tags: []
+- id: 1575414504130
+  fields:
+    Front: |
+      SVEC 05.08-05 Theory:
+      ##### indeterminate products
+      Define **indeterminate form of type $0 \cdot \infty$.**
+    Back: |
+      If $\lim _{x \rightarrow a} f(x)=0$ and $\lim _{x \rightarrow a} g(x)=\infty$ (or $-\infty$), then it isn't clear what the value of $\lim _{x \rightarrow a} f(x) g(x),$ if any, will be. There is a struggle between $f$ and $g .$ If $f$ wins, the answer will be $0 ;$ if $g$ wins, the answer will be $\infty$ (or $-\infty$). Or there may be a compromise where the answer is a finite nonzero number. This kind of limit is called an indeterminate form of type $0 \cdot \infty$.
+    Annotations: ''
+  tags: []
+- id: 1575414504366
+  fields:
+    Front: |
+      SVEC 05.08-06 Theory:
+      ##### indeterminate products
+      How do we deal with an indeterminate form of type $0 \cdot \infty$?
+    Back: |
+      We can deal with it by writing the product $fg$ as a quotient:
+      $$$
+      f g=\frac{f}{1 / g} \quad \text { or } \quad f g=\frac{g}{1 / f}
+      $$$ This converts the given limit into an indeterminate form of type $\frac{0}{0}$ or $\infty / \infty$ so that we can use l'Hospital's Rule.
+    Annotations: ''
+  tags: []
+- id: 1575415168705
+  fields:
+    Front: |
+      SVEC 05.08-07 Theory:
+      ##### indeterminate differences
+      Define **indeterminate form of type $\infty - \infty$.**
+    Back: |
+      If $\lim _{x \rightarrow a} f(x)=\infty$ and $\lim _{x \rightarrow a} g(x)=\infty$, then the limit
+      $$$
+      \lim _{x \rightarrow a}[f(x)-g(x)]
+      $$$ is called an indeterminate form of type $\infty-\infty$.
+    Annotations: ''
+  tags: []
+- id: 1575415307805
+  fields:
+    Front: |
+      SVEC 05.08-08 Theory:
+      ##### indeterminate differences
+      How do we deal with an indeterminate form of type $\infty - \infty$?
+    Back: |
+      Again there is a contest between $f$ and $g .$ Will the answer be $\infty$ ($f$ wins) or will it be $-\infty$ ($g$ wins) or will they compromise on a finite number? To find out, we try to convert the difference into a quotient (for instance, by using a common denominator, or rationalization, or factoring out a common factor) so that we have an indeterminate form of type $\frac{0}{0}$ or $\infty / \infty .$
+    Annotations: ''
+  tags: []
+- id: 1575416618579
+  fields:
+    Front: |
+      SVEC 05.08-09 Theory:
+      ##### indeterminate powers
+      State and define the **indeterminate power forms.**
+    Back: |
+      Several indeterminate forms arise from the limit
+      $$$
+      \lim _{x \rightarrow a}[f(x)]^{g(x)}
+      $$$
+      1.  Type $0^{0}$:
+      $$$
+      \lim _{x \rightarrow a} f(x)=0, \quad \lim _{x \rightarrow a} g(x)=0
+      $$$
+      2.  Type $\infty^{0}$:
+      $$$
+      \lim _{x \rightarrow a} f(x)=\infty, \quad \lim _{x \rightarrow a} g(x)=0
+      $$$
+      3.  Type $1^{\infty}$:
+      $$$
+      \lim _{x \rightarrow a} f(x)=1, \quad \lim _{x \rightarrow a} g(x)=\pm \infty
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1575416931404
+  fields:
+    Front: |
+      SVEC 05.08-10 Theory:
+      ##### indeterminate powers
+      How do we deal with indeterminate power forms?
+    Back: |
+      These three forms can be treated either by taking the natural logarithm:
+      $$$
+      \text { let } y=[f(x)]^{g(x)}, \text { then } \ln y=g(x) \ln f(x)
+      $$$ or by writing the function as an exponential:
+      $$$
+      [f(x)]^{g(x)}=e^{g(x) \ln f(x)}
+      $$$ (Recall that both of these methods were used in differentiating such functions.) In either method we are led to the indeterminate product $g(x) \ln f(x),$ which is of type $0 \cdot \infty$.
+    Annotations: ''
+  tags:
+  - Editing

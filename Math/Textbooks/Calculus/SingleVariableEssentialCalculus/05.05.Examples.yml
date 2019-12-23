@@ -1,0 +1,181 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - SingleVariableEssentialCalculus
+  - SVEC-05-InverseFunctions
+  - SVEC-05.05-ExponentialGrowthAndDecay
+  markdownTabLength: 2
+notes:
+- id: 1574392080344
+  media:
+  - path: ${file_dir}/images/SVEC-05.05.Ex-01.1.jpg
+  fields:
+    Front: |
+      SVEC 05.05 Example 01:
+      ##### population growth
+      Use the fact that the world population was 2560 million in 1950 and 3040 million in 1960 to model the population of the world in the second half of the 20 th century. (Assume that the growth rate is proportional to the population size.) What is the relative growth rate? Use the model to estimate the world population in 1993 and to predict the population in the year 2020.
+    Back: |
+      We measure the time $t$ in years and let $t=0$ in the year $1950 .$ We measure the population $P(t)$ in millions of people. Then $P(0)=2560$ and $P(10)=3040$. since we assuming that $d P / d t=k P$
+      $$$
+      \begin{aligned} P(t) &=P(0) e^{k t}=2560 e^{k t} \\ P(10) &=2560 e^{10 k}=3040 \\ k &=\frac{1}{10} \ln \frac{3040}{2560} \approx 0.017185 \end{aligned}
+      $$$ The relative growth rate is about $1.7 \%$ per year and the model is
+      $$$
+      P(t)=2560 e^{0.017185 t}
+      $$$ We estimate that the world population in 1993 was
+      $$$
+      P(43)=2560 e^{0.01718543} \approx 5360 \text { million }
+      $$$ The model predicts that the population in 2020 will be
+      $$$
+      P(70)=2560 e^{0.01798901} \approx 8524 \text { million }
+      $$$ The graph below shows that the model is fairly accurate to date (the dots repre- sent the actual population), so the estimate for 1993 is quite reliable. But the prediction for 2020 is riskier.
+      <p align="center">![](SVEC-05.05.Ex-01.1.jpg)</p>
+    Annotations: 'Fix me:<div>- 191122-1101: the expressions for \(P(43)\) and \(P(70)\)
+      should contain \(t\) but don''t.</div><div><br></div><div>Trouble:</div><div>-
+      191122-1101: transcribe: I wrote initial date of 1960 instead of 1950.</div>'
+  tags:
+  - ann:fix-me
+  - ann:trouble
+- id: 1574392751319
+  fields:
+    Front: |
+      SVEC 05.05 Example 02:
+      ##### radioactive decay
+      The half-life of radium-226 ($^{226}_{88}\mathrm{Ra}$) is 1590 years.
+      (a) A sample of radium-226 has a mass of $100 \mathrm{mg}$. Find a formula for the mass of $^{226}_{88} \mathrm{Ra}$ that remains after $t$ years.
+      (b) Find the mass after 1000 years correct to the nearest milligram.
+      (c) When will the mass be reduced to $30 \mathrm{mg}$?
+    Back: |
+      (a) Let $m(t)$ be the mass of radium-226 (in milligrams) that remains after $t$ years. Then $d m / d t=k m$ and $y(0)=100,$ so
+      $$$
+      m(t)=m(0) e^{k t}=100 e^{k t}
+      $$$ In order to determine the value of $k,$ we use the fact that $y(1590)=\frac{1}{2}(100) .$ Thus
+      $$$
+      100 e^{1590 k}=50 \quad \text { so } \quad e^{1590 k}=\frac{1}{2}
+      $$$ and
+      $$$1590 k=\ln \frac{1}{2}=-\ln 2$$$
+      $$$k=-\frac{\ln 2}{1590}$$$ Therefore
+      $$$m(t)=100 e^{-(\ln 2) t / 1590}$$$ We could use the fact that $e^{\ln 2}=2$ to write the expression for $m(t)$ in the alternative form
+      $$$
+      m(t)=100 \times 2^{-t / 1590}
+      $$$
+
+      (b) The mass after 1000 years is
+      $$$
+      m(1000)=100 e^{-(\ln 2) 1000 / 1590} \approx 65 \text{ mg}
+      $$$
+
+      (c) We want to find the value of $t$ such that $m(t)=30$, that is,
+      $$$
+      100 e^{-(\ln 2) / 1590}=30 \quad \text { or } \quad e^{-(\ln 2) / l / 1590}=0.3
+      $$$ We solve this equation for $t$ by taking the natural logarithm of both sides:
+      $$$
+      -\frac{\ln 2}{1590} t=\ln 0.3
+      $$$ Thus
+      $$$t=-1590 \frac{\ln 0.3}{\ln 2} \approx 2762 \text{ years}$$$
+    Annotations: 'Thoughts:<div>- 191122-1123: there are some potential shortcuts
+      here worth memorizing.</div>'
+  tags:
+  - ann:thoughts
+- id: 1574393415744
+  fields:
+    Front: |
+      SVEC 05.05 Example 03:
+      ##### Newton's Law of Cooling
+      A bottle of soda pop at room temperature $\left(72^{\circ} \mathrm{F}\right)$ is placed in a refrigerator where the temperature is $44^{\circ} \mathrm{F}$. After half an hour the soda pop has cooled to $61^{\circ} \mathrm{F}.$
+      (a) What is the temperature of the soda pop after another half hour?
+      (b) How long does it take for the soda pop to cool to $50^{\circ} \mathrm{F} ?$
+    Back: |
+      (a) Let $T(t)$ be the temperature of the soda after $t$ minutes. The surrounding temperature is $T_{s}=44^{\circ} \mathrm{F}$, so Newton's Law of Cooling states that
+      $$$
+      \frac{d T}{d t}=k(T-44)
+      $$$ If we let $y=T-44,$ then $y(0)=T(0)-44=72-44=28,$ so $y$ satisfies
+      $$$
+      \frac{d y}{d t}=k y \quad y(0)=28
+      $$$ and then we have
+      $$$
+      y(t)=y(0) e^{k t}=28 e^{k t}
+      $$$ We are given that $T(30)=61,$ so $y(30)=61-44=17$ and
+      $$$
+      28 e^{30 k}=17 \quad e^{30 k}=\frac{17}{28}
+      $$$ Taking logarithms, we have
+      $$$
+      k=\frac{\ln \left(\frac{17}{28}\right)}{30} \approx-0.01663
+      $$$ Thus
+      $$$
+      \begin{aligned} y(t) &=28 e^{-0.01663 t} \\ T(t) &=44+28 e^{-0.01663 t} \\ T(60) &=44+28 e^{-0.01663(60)} \approx 54.3 \end{aligned}
+      $$$ So after another half hour the pop has cooled to about $54^{\circ} \mathrm{F}$.
+
+      (b) We have $T(t)=50$ when
+      $$$\begin{aligned} 44+28 e^{-0.01663 t} &=50 \\ e^{-0.01663 t} &=\frac{6}{28} \\ t &=\frac{\ln \left(\frac{6}{28}\right)}{-0.01663} \approx 92.6 \end{aligned}$$$ The pop cools to $50^{\circ} \mathrm{F}$ after about 1 hour 33 minutes.
+
+      Notice that we have
+      $$$
+      \lim _{t \rightarrow \infty} T(t)=\lim _{t \rightarrow \infty}\left(44+28 e^{-0.01663 t}\right)=44+28 \cdot 0=44
+      $$$ which is to be expected.
+    Annotations: ''
+  tags: []
+- id: 1574463092369
+  fields:
+    Front: |
+      SVEC 05.05 Example 04:
+      ##### continuously compounded interest
+      If \\(\$ 1000\\) is invested at \\(6 \%\\) interest, determine its worth:
+      (a) After one year with annual compounding
+      (b) After two years with annual compounding
+      (c) After \\(t\\) years with annual compounding
+      (d) After three years with annual compounding
+      (e) After three years with semiannual compounding
+      (f) After three years with quarterly compounding
+      (g) After three years with monthly compounding
+      (h) After three years with daily compounding
+      (i) After three years with continuous compounding
+    Back: |
+      If \\(\$ 1000\\) is invested at \\(6 \%\\) interest, then:
+      (a) After one year compounded annually the investment is worth \\(\$ 1000(1.06)=\$ 1060,\\)
+      (b) After 2 years it's worth \\(\$\[1000(1.06)] 1.06=\$ 1123.60,\\)
+      (c) After \\(t\\) years it's worth \\(\$ 1000(1.06)^{t} .\\)
+
+      In general, if an amount \\(A_{0}\\) is invested at an interest rate \\(r(r=0.06\\) in this example), then after \\(t\\) years it's worth \\(A_{0}(1+r)^{t} .\\) Usually, however, interest is compounded more frequently, say, \\(n\\) times a year. Then in each compounding period the interest rate is \\(r / n\\) and there are \\(n t\\) compounding periods in \\(t\\) years, so the value of the investment is
+      \\[
+      A_{0}\left(1+\frac{r}{n}\right)^{n t}
+      \\] For instance, after 3 years at \\(6 \%\\) interest a \\(\$ 1000\\) investment will be worth
+      \\[
+      \begin{aligned}
+        &\text{(d) } &\$ 1000(1.06)^{3} &= \$ 1191.02 \text { with annual compounding } \\\\
+        &\text{(e) } &\$ 1000(1.03)^{6} &= \$ 1194.05 \text { with semiannul compounding } \\\\
+        &\text{(f) } &\$ 1000(1.015)^{12} &= \$ 1195.62 \text { with quarterly compounding } \\\\
+        &\text{(g) } &\$ 1000(1.005)^{36} &= \$ 1196.68 \text { with monthly compounding } \\\\
+        &\text{(h) } &\$ 1000 \left( 1 + \frac{0.06}{365} \right)^{365} &= \$ 1197.20 \text { with daily compounding }
+      \end{aligned}
+      \\] You can see that the interest paid increases as the number of compounding periods \\((n)\\) increases.
+
+      (i) If we let \\(n \rightarrow \infty,\\) then we will be compounding the interest continuously and the value of the investment will be
+      \\[
+      \begin{aligned}
+        A(t)
+        &=\lim_{n \rightarrow \infty} A_{0}\left(1+\frac{r}{n}\right)^{n t}=\lim_{n \rightarrow \infty} A_{0}\left[\left(1+\frac{r}{n}\right)^{n / r}\right]^{r t} \\\\
+        &=A_{0}\left[\lim_{n \rightarrow \infty}\left(1+\frac{r}{n}\right)^{n / r}\right]^{r t} \\\\
+        &=A_{0}\left[\lim_{m \rightarrow \infty}\left(1+\frac{1}{m}\right)^{m}\right]^{r t}
+      \end{aligned}
+      \\] where \\(m = n/r\\).
+
+      But the limit in this expression is equal to the number \\(e.\\) So with continuous compounding of interest at interest rate \\(r,\\) the amount after \\(t\\) years is
+      \\[
+      A(t)=A_{0} e^{r t}
+      \\] If we differentiate this equation, we get
+      \\[
+      \frac{d A}{d t}=r A_{0} e^{r t}=r A(t)
+      \\] which says that, with continuous compounding of interest, the rate of increase of an investment is proportional to its size.
+
+      Returning to the example of \\(\$ 1000\\) invested for 3 years at \\(6 \%\\) interest, we see that with continuous compounding of interest the value of the investment will be
+      \\[
+      A(3)=\$ 1000 e^{(0.06) 3}=\$ 1197.22
+      \\] Notice how close this is to the amount we calculated for daily compounding, \\(\$ 1197.20 .\\) But the amount is easier to compute if we use continuous compounding.
+    Annotations: ''
+  tags:
+  - Editing

@@ -1,0 +1,191 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1350
+  - APPM-1350-WA30
+  - SingleVariableEssentialCalculus
+  - SVEC-04-Integrals
+  - SVEC-04.05-TheSubstitutionRule
+  - WebAssign
+  - Exam3
+  markdownTabLength: 2
+notes:
+- id: 1575330957779
+  fields:
+    Front: |
+      APPM 1350 WA30-01:
+      Evaluate the following integral.
+      $$$
+      \int \frac{x}{\sqrt{2-4 x^{2}}} d x
+      $$$
+    Back: |
+      $$$
+      -\frac{1}{4} \cdot\left(2-4 \cdot x^{2}\right)^{\frac{1}{2}} + C
+      $$$
+
+      ##### Full solution:
+      Let $u=2-4 x^{2} .$ Then $d u = -8 x \cdot d x,$ so $x d x= -\frac{d u}{8}$ and
+      $$$
+      \begin{align}
+      \int \frac{x}{\sqrt{2-4 x^{2}}} d x
+      &= -\frac{1}{8} \int\left(\frac{1}{\sqrt{u}}\right) d u \\
+      &= -\frac{1}{8} \int u^{-1 / 2} d u \\
+      &= -\frac{1}{8} (2 \sqrt{u}) + C \\
+      &= -\frac{1}{4} \cdot\left(2-4 \cdot x^{2}\right)^{\frac{1}{2}} + C
+      \end{align}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1575331082680
+  fields:
+    Front: |
+      APPM 1350 WA30-02:
+      Evaluate the indefinite integral. (Use $C$ for the constant of integration.)
+      $$$
+      \int \frac{a+b x^{5}}{\sqrt{6 a x+b x^{6}}} d x
+      $$$
+    Back: |
+      $$$\frac{1}{3} \sqrt{6 a x+b x^{6}}+C$$$
+
+      ##### Full solution:
+      Let $u=6 a x+b x^{6} .$ Then $d u=\left(6 a+6 b x^{5}\right) d x=6\left(a+b x^{5}\right) d x,$ so $\int \frac{a+b x^{5}}{\sqrt{6 a x+b x^{6}}} d x=$ $\int \frac{\frac{1}{6} d u}{u^{1 / 2}}=\frac{1}{6} \int u^{-1 / 2} d u=\frac{1}{6} \cdot 2 u^{1 / 2}+C$ $=\frac{1}{3} \sqrt{6 a x+b x^{6}}+C.$
+    Annotations: ''
+  tags: []
+- id: 1575331190329
+  fields:
+    Front: |
+      APPM 1350 WA30-03:
+      Evaluate the indefinite integral.
+      $$$
+      \int \sec ^{9} x \tan x d x
+      $$$
+    Back: |
+      $$$\frac{\sec ^{9}(x)}{9} + C$$$
+
+      ##### Full solution:
+      Let $u=\sec x .$ Then $d u=\sec x \tan x d x,$ so $\int \sec ^{9} x \tan x d x=\int \sec ^{8} x(\sec x \tan x) d x=\int u^{8} d u=\frac{1}{9} u^{9}+C$ $=\frac{1}{9} \sec ^{9} x+C .$
+    Annotations: ''
+  tags: []
+- id: 1575331311230
+  fields:
+    Front: |
+      APPM 1350 WA30-04:
+      Evaluate the indefinite integral. (Use $C$ for the constant of integration.)
+      $$$
+      \int x(2 x+5)^{8} d x
+      $$$
+    Back: |
+      $$$C+\frac{1}{40}(2 x+5)^{10}-\frac{5}{36}(2 x+5)^{9}$$$
+
+      ##### Full solution:
+      Let $u=2 x+5 .$ Then $d u=2 d x$ and $x=\frac{1}{2}(u-5),$ so
+      $$$
+      \begin{aligned}
+        \int x(2 x+5)^{8} d x
+        &=\int \frac{1}{2}(u-5) u^{8}\left(\frac{1}{2} d u\right) \\
+        &=\frac{1}{4} \int\left(u^{9}-5 u^{8}\right) d u \\
+        &=\frac{1}{4}\left(\frac{1}{10} u^{10}-\frac{5}{9} u^{9}\right)+C \\
+        &=\frac{1}{40}(2 x+5)^{10}-\frac{5}{36}(2 x+5)^{9}+C
+      \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1575331495954
+  fields:
+    Front: |
+      APPM 1350 WA30-05:
+      Evaluate the definite integral.
+      $$$
+      \int_{0}^{a^{2 / 9}} x^{8} \sqrt{x^{9}+a^{2}} d x \quad(a>0)
+      $$$
+    Back: |
+      $$$\frac{2}{27}(2 \sqrt{2}-1) a^{3}$$$
+
+      ##### Full solution:
+      Let $u=x^{9}+a^{2},$ so $d u=9 x^{8} d x$ and $x^{8} d x=\frac{1}{9} d u .$ When $x=0, u=a^{2} ;$ when $x=a^{2 / 9}, u=2 a^{2} .$ Thus, $\int_{0}^{a^{2 / 9}} x^{8} \sqrt{x^{9}+a^{2}} d x=\int_{a^{2}}^{2 a^{2}} u^{1 / 2}\left(\frac{1}{9} d u\right)=\frac{1}{9}\left[\frac{2}{3} u^{3 / 2}\right]_{a^{2}}^{2 a^{2}}=\left[\frac{2}{27} u^{3 / 2}\right]_{a^{2}}^{2 a^{2}}$ $=\frac{2}{27}\left[\left(2 a^{2}\right)^{3 / 2}-\left(a^{2}\right)^{3 / 2}\right]=\frac{2}{27}(2 \sqrt{2}-1) a^{3}$
+    Annotations: ''
+  tags: []
+- id: 1575331582629
+  fields:
+    Front: |
+      APPM 1350 WA30-06:
+      Evaluate the definite integral.
+      $$$
+      \int_{5}^{6} x \sqrt{x-5} d x
+      $$$
+    Back: |
+      $$$\frac{56}{15}$$$
+
+      ##### Full solution:
+      Let $u=x-5,$ so $u+5=x$ and $d u=d x .$ When $x=5, u=0 ;$ when $x=6$ $u=1 .$ Thus, $\int_{5}^{6} x \sqrt{x-5} d x=\int_{0}^{1}(u+5) \sqrt{u} d u=\int_{0}^{1}\left(u^{3 / 2}+5 u^{1 / 2}\right) d u$ $=\left[\frac{2}{5} u^{5 / 2}+5 \cdot \frac{2}{3} u^{3 / 2}\right]_{0}^{1}$ $=\frac{2}{5}+5 \cdot \frac{2}{3}=\frac{56}{15}$
+    Annotations: ''
+  tags: []
+- id: 1575331953180
+  fields:
+    Front: |
+      APPM 1350 WA30-07:
+      Breathing is cyclic and a full respiratory cycle from the beginning of inhalation to the end of exhalation takes about $3\text{ s}.$ The maximum rate of air flow into the lungs is about $0.6 \text{ L}/\text{s}.$ This explains, in part, why the function $f(t)=\frac{3}{5} \sin (2 \pi t / 3)$ has often been been used to model the rate of air flow into the lungs. Use this model to find the volume of inhaled air in the lungs at time $t .$
+    Back: |
+      $$$
+      \frac{9}{10 \pi}\left(1-\cos \left(\frac{2 \pi t}{3}\right)\right) \text{ L}
+      $$$
+
+      ##### Full solution:
+      The volume of inhaled air in the lungs at time $t$ is
+      $$$
+      \begin{align}
+        V(t)
+        &=\int_{0}^{t} f(u) d u=\int_{0}^{t} \frac{3}{5} \sin \left(\frac{2 \pi}{3} u\right) d u=\int_{0}^{2 \pi t / 3} \frac{3}{5} \sin v\left(\frac{3}{2 \pi} d v\right) \\
+        &\left[\text {substitute } v=\frac{2 \pi}{3} u, d v=\frac{2 \pi}{3} d u\right] \\
+        &=\frac{9}{10 \pi}[-\cos v]_{0}^{2 \pi t / 3}=\frac{9}{10 \pi}\left[-\cos \left(\frac{2 \pi}{3} t\right)+1\right] \\
+        &=\frac{9}{10 \pi}\left[1-\cos \left(\frac{2 \pi}{3} t\right)\right]\text{ liters}
+      \end{align}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1575332158504
+  fields:
+    Front: |
+      APPM 1350 WA30-08:
+      Suppose $h$ is a function such that $h(1)=-3,$ $h^{\prime}(1)=3,$ $h^{\prime \prime}(1)=4,$ $h(4)=6,$ $h^{\prime \prime}(4)=7,$ $h^{\prime \prime}(4)=14,$ and $h^{\prime \prime}$ is continuous everywhere. Evaluate $\int_{1}^{4} h^{\prime \prime}(u) d u .$
+    Back: |
+      $$$4$$$
+
+      ##### Full solution:
+      The second derivative is the derivative of the first derivative, so we'll apply the Net Change Theorem with $F=h^{\prime}:$
+      $$$\int_{1}^{4} h^{\prime \prime}(u) d u=\int_{1}^{4}\left(h^{\prime}\right)^{\prime}(u) d u=h^{\prime}(4)-h^{\prime}(1)=7-3=4 .$$$ The other information is unnecessary.
+    Annotations: ''
+  tags: []
+- id: 1575332265811
+  fields:
+    Front: |
+      APPM 1350 WA30-09:
+      A function is given by a table of values. Determine whether it is one-to-one.
+      $$$\begin{array}{|c|c|c|c|c|c|c|}\hline x & {1} & {2} & {3} & {4} & {5} & {6} \\ \hline f(x) & {1.4} & {1.5} & {2.4} & {3.5} & {3.3} & {2.5} \\ \hline\end{array}$$$
+    Back: |
+      Yes, it is one-to-one.
+
+      ##### Full solution:
+      $f$ is one-to-one because it never takes on the same value twice.
+    Annotations: ''
+  tags: []
+- id: 1575332406854
+  fields:
+    Front: |
+      APPM 1350 WA30-10:
+      Assume that $f$ is a one-to-one function.
+      (a) If $f(8) = 11,$ what is $f^{-1}(11) ?$
+      (b) If $f^{-1}(5)=4,$ what is $f(4) ?$
+    Back: |
+      (a) $8$
+      (b) $5$
+
+      ##### Full solution:
+      (a) Since $f$ is $1-1, f(8)=11 \Leftrightarrow f^{-1}(11)=8 .$
+      (b) Since $f$ is $1-1, f^{-1}(5)=4 \Leftrightarrow f(4)=5 .$
+    Annotations: ''
+  tags: []

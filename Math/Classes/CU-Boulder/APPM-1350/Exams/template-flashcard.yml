@@ -1,0 +1,14 @@
+  tags: []
+- id: 0
+  fields:
+    Front: |
+      APPM 1350 Exam-X-X.XX:
+      <p align="center">
+      </p>
+    Back: |
+      $ $<p align="center">
+      </p>
+    Annotations: ''
+  tags:
+  - Editing
+  - ToDo

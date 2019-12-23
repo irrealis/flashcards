@@ -1,0 +1,12 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1350
+  - APPM-1350-Exams
+  - APPM-1350-Exam3
+  - APPM-1350-Exam3-Review
+  markdownTabLength: 2

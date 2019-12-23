@@ -1,0 +1,186 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-07-TechniquesOfIntegration
+  - CET-07.01-IntegrationByParts
+  markdownTabLength: 2
+notes:
+- id: 1576618785240
+  fields:
+    Front: |
+      CET-07.01-01 Example:
+      Find $\int x \sin x d x.$
+    Back: |
+      **Solution 1:**
+
+      Suppose we choose $f(x)=x$ and $g^{\prime}(x)=\sin x .$ Then $f^{\prime}(x)=1$ and $g(x)=-\cos x .$ (For $g$ we can choose any antiderivative of $g^{\prime} .$ ) Thus, using Formula $1,$ we have
+      $$$
+      \begin{aligned}
+      \int x \sin x d x &=f(x) g(x)-\int g(x) f^{\prime}(x) d x \\
+      &=x(-\cos x)-\int(-\cos x) d x \\
+      &=-x \cos x+\int \cos x d x \\
+      &=-x \cos x+\sin x+C
+      \end{aligned}
+      $$$
+      It's wise to check the answer by differentiating it. If we do so, we get $x$ sin $x$, as expected.
+
+      **Solution 2:**
+
+      Let
+      $$$
+      u =x, \quad d v=\sin x d x
+      $$$ Then
+      $$$
+      d u =d x, \quad v=-\cos x
+      $$$ and so
+      $$$
+      \begin{aligned}
+      \int x \sin x d x
+      &=\int \overbrace{x}^{u} \overbrace{\sin x d x}^{dv} = \overbrace{x}^{u} \overbrace{(-\cos x)}^{v} - \int \overbrace{(-cos x)}^{v} \overbrace{dx}^{du} \\
+      &=-x \cos x+\int \cos x d x \\
+      &=-x \cos x+\sin x+C
+      \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1576620890983
+  fields:
+    Front: |
+      CET-07.01-02 Example:
+      Evaluate $\int \ln x d x.$
+    Back: |
+      Here we don't have much choice for $u$ and $d v .$ Let
+      $$$
+      u=\ln x \quad d v=d x
+      $$$ Then
+      $$$d u=\frac{1}{x} d x \quad v=x$$$ Integrating by parts, we get
+      $$$
+      \begin{aligned}
+      \int \ln x d x &=x \ln x-\int x \frac{d x}{x} \\
+      &=x \ln x-\int d x \\
+      &=x \ln x-x+C
+      \end{aligned}
+      $$$
+
+      Integration by parts is effective in this example because the derivative of the function $f(x)=\ln x$ is simpler than $f.$
+    Annotations: ''
+  tags: []
+- id: 1576621627934
+  fields:
+    Front: |
+      CET-07.01-03 Example:
+      Find $\int t^{2} e^{t} d t.$
+    Back: |
+      Notice that $t^{2}$ becomes simpler when differentiated (whereas $e^{t}$ is unchanged when differentiated or integrated), so we choose
+      $$$
+      u=t^{2} \quad d v=e^{t} d t
+      $$$ Then
+      $$$
+      d u=2 t d t \quad v=e^{t}
+      $$$ Integration by parts gives
+      $$$
+      \int t^{2} e^{t} d t=t^{2} e^{t}-2 \int t e^{t} d t
+      $$$ The integral that we obtained, $\int t e^{t} d t,$ is simpler than the original integral but is still not obvious. Therefore we use integration by parts a second time, this time with $u=t$ and $d v=e^{t} d t .$ Then $d u=d t, v=e^{t},$ and
+      $$$
+      \begin{aligned}
+      \int t e^{t} d t &=t e^{t}-\int e^{t} d t \\
+      &=t e^{t}-e^{t}+C
+      \end{aligned}
+      $$$ Putting this into the the previous result, we get
+      $$$
+      \begin{aligned}
+      \int t^{2} e^{t} d t &=t^{2} e^{t}-2 \int t e^{t} d t \\
+      &=t^{2} e^{t}-2\left(t e^{t}-e^{t}+C\right) \\
+      &=t^{2} e^{t}-2 t e^{t}+2 e^{t}+C_{1}
+      \end{aligned}
+      $$$ where $C_{1}=-2 C.$
+    Annotations: ''
+  tags: []
+- id: 1576622464502
+  fields:
+    Front: |
+      CET-07.01-04 Example:
+      Evaluate $\int e^{x} \sin x d x.$
+    Back: |
+      Neither $e^{x}$ nor sin $x$ becomes simpler when differentiated, but we try choosing $u=e^{x}$ and $d v=\sin x d x$ anyway. Then $d u=e^{x} d x$ and $v=-\cos x,$ so integration by parts gives $$$\int e^{x} \sin x d x=-e^{x} \cos x+\int e^{x} \cos x d x$$$ The integral that we have obtained, $\int e^{x} \cos x d x,$ is no simpler than the original one, but at least it's no more difficult. Having had success in the preceding example integrating by parts twice, we persevere and integrate by parts again. This time we use $u=e^{x}$ and $d v=\cos x d x .$ Then $d u=e^{x} d x, v=\sin x,$ and
+      $$$\int e^{x} \cos x d x=e^{x} \sin x-\int e^{x} \sin x d x$$$ At first glance, it appears as if we have accomplished nothing because we have arrived
+      at $\int e^{x} \sin x d x,$ which is where we started. However, if we substitute this expression for $e^{x} \cos x d x$ into the previous result we get
+      $$$
+      \int e^{x} \sin x d x=-e^{x} \cos x+e^{x} \sin x-\int e^{x} \sin x d x
+      $$$ This can be regarded as an equation to be solved for the unknown integral. Adding $\int e^{x} \sin x d x$ to both sides, we obtain
+      $$$
+      2 \int e^{x} \sin x d x=-e^{x} \cos x+e^{x} \sin x
+      $$$ Dividing by 2 and adding the constant of integration, we get
+      $$$
+      \int e^{x} \sin x d x=\frac{1}{2} e^{x}(\sin x-\cos x)+C
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1576623041203
+  fields:
+    Front: |
+      CET-07.01-05 Example:
+      Calculate $\int_{0}^{1} \tan ^{-1} x d x.$
+    Back: |
+      Let
+      $$$
+      u=\tan ^{-1} x \quad d v=d x
+      $$$ Then
+      $$$
+      d u=\frac{d x}{1+x^{2}} \quad v=x
+      $$$ So
+      $$$
+      \begin{aligned}
+        \int_{0}^{1} \tan ^{-1} x d x
+        &\left.=x \tan ^{-1} x\right]_{0}^{1}-\int_{0}^{1} \frac{x}{1+x^{2}} d x \\
+        &=1 \cdot \tan ^{-1} 1-0 \cdot \tan ^{-1} 0-\int_{0}^{1} \frac{x}{1+x^{2}} d x \\
+        &=\frac{\pi}{4}-\int_{0}^{1} \frac{x}{1+x^{2}} d x
+      \end{aligned}
+      $$$ To evaluate this integral we use the substitution $t=1+x^{2}$ (since $u$ has another meaning in this example). Then $d t=2 x d x,$ so $x d x=\frac{1}{2} d t .$ When $x=0, t=1 ;$ when $x=1$ $t=2 ;$ so
+      $$$
+      \begin{aligned}
+      \int_{0}^{1} \frac{x}{1+x^{2}} d x &=\frac{1}{2} \int_{1}^{2} \frac{d t}{t}=\left.\frac{1}{2} \ln |t|\right|_{1} ^{2} \\
+      &=\frac{1}{2}(\ln 2-\ln 1)=\frac{1}{2} \ln 2
+      \end{aligned}
+      $$$ Therefore
+      $$$
+      \int_{0}^{1} \tan ^{-1} x d x=\frac{\pi}{4}-\int_{0}^{1} \frac{x}{1+x^{2}} d x=\frac{\pi}{4}-\frac{\ln 2}{2}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1576641303949
+  fields:
+    Front: |
+      CET-07.01-06 Example:
+      Prove the reduction formula
+      $$$
+      \int \sin ^{n} x d x=-\frac{1}{n} \cos x \sin ^{n-1} x+\frac{n-1}{n} \int \sin ^{n-2} x d x
+      $$$ where $n \geqslant 2$ is an integer.
+    Back: |
+      Let
+      $$$
+      u=\sin ^{n-1} x \quad d v=\sin x d x
+      $$$ Then
+      $$$
+      d u=(n-1) \sin ^{n-2} x \cos x d x \quad v=-\cos x
+      $$$ so integration by parts gives
+      $$$
+      \int \sin ^{n} x d x=-\cos x \sin ^{n-1} x+(n-1) \int \sin ^{n-2} x \cos ^{2} x d x
+      $$$ since $\cos ^{2} x=1-\sin ^{2} x,$ we have
+      $$$
+      \int \sin ^{n} x d x=-\cos x \sin ^{n-1} x+(n-1) \int \sin ^{n-2} x d x-(n-1) \int \sin ^{n} x d x
+      $$$ We solve this equation for the desired integral by taking the last term on the right side to the left side. Thus we have
+      $$$
+      n \int \sin ^{n} x d x=-\cos x \sin ^{n-1} x+(n-1) \int \sin ^{n-2} x d x
+      $$$ or
+      $$$
+      \int \sin ^{n} x d x=-\frac{1}{n} \cos x \sin ^{n-1} x+\frac{n-1}{n} \int \sin ^{n-2} x d x
+      $$$
+    Annotations: ''
+  tags: []

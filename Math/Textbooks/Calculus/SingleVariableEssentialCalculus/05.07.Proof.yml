@@ -1,0 +1,28 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Proofs
+  - SingleVariableEssentialCalculus
+  - SVEC-05-InverseFunctions
+  - SVEC-05.07-HyperbolicFunctions
+  markdownTabLength: 2
+notes:
+- id: 1575409689505
+  fields:
+    Front: |
+      SVEC 05.07-01 Proof:
+      Derive the derivatives of the six hyperbolic functions.
+    Back: |
+      $$$
+      \frac{d}{d x}(\sinh x)=\frac{d}{d x}\left(\frac{e^{x}-e^{-x}}{2}\right)=\frac{e^{x}+e^{-x}}{2}=\cosh x
+      $$$
+
+      To-do
+    Annotations: ''
+  tags:
+  - Editing
+  - ToDo

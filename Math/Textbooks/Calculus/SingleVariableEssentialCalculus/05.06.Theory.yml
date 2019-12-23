@@ -1,0 +1,250 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theory
+  - SingleVariableEssentialCalculus
+  - SVEC-05-InverseFunctions
+  - SVEC-05.06-InverseTrigonometricFunctions
+  markdownTabLength: 2
+notes:
+- id: 1574465601895
+  media:
+  - path: ${file_dir}/images/SVEC-05.06.Th-01.1.jpg
+  - path: ${file_dir}/images/SVEC-05.06.Th-01.2.jpg
+  fields:
+    Front: |
+      SVEC 05.06 Theory 01:
+      Define the **inverse sine function.**
+    Back: |
+      You can see from the figure below that the sine function $y=\sin x$ is not one-to-one (use the Horizontal Line Test).
+      <p align="center">![](SVEC-05.06.Th-01.1.jpg)</p>
+      But the function $f(x)=\sin x,-\pi / 2 \leqslant x \leqslant \pi / 2$ (see next figure), is one-to-one.
+      <p align="center">
+      ![](SVEC-05.06.Th-01.2.jpg)
+      $y=\sin x,-\frac{\pi}{2} \leqslant x \leqslant \frac{\pi}{2}$
+      </p>
+      The inverse function of this restricted sine function $f$ exists and is denoted by $\sin ^{-1}$ or arcsin. It is called the **inverse sine function** or the **arcsine function.**
+
+      Since the definition of an inverse function says that
+      $$$
+      f^{-1}(x)=y \quad \Longleftrightarrow f(y)=x
+      $$$ we have
+      $$$\sin ^{-1} x=y \quad \Longleftrightarrow \quad \sin y=x$$$ and
+      $$$-\frac{\pi}{2} \leqslant y \leqslant \frac{\pi}{2}$$$ Thus if $-1 \leqslant x \leqslant 1, \sin ^{-1} x$ is the number between $-\pi / 2$ and $\pi / 2$ whose sine is $x .$
+    Annotations: ''
+  tags: []
+- id: 1574466211344
+  fields:
+    Front: |
+      SVEC 05.06 Theory 02:
+      State the cancellation equations for sine and arcsine.
+    Back: |
+      $$$\begin{array}{ll}{\sin ^{-1}(\sin x)=x} & {\text { for }-\frac{\pi}{2} \leqslant x \leqslant \frac{\pi}{2}} \\ {\sin \left(\sin ^{-1} x\right)=x} & {\text { for }-1 \leqslant x \leqslant 1}\end{array}$$$
+    Annotations: ''
+  tags: []
+- id: 1574466303494
+  fields:
+    Front: |
+      SVEC 05.06 Theory 03:
+      Is arcsine continuous? Why or why not?
+    Back: |
+      We know that the sine function is continuous, so the inverse sine function is also continuous.
+    Annotations: ''
+  tags: []
+- id: 1574466382194
+  fields:
+    Front: |
+      SVEC 05.06 Theory 04:
+      Is arcsine differentiable? Why or why not?
+    Back: |
+      We know that the sine function is differentiable, so the inverse sine function is also differentiable.
+    Annotations: ''
+  tags: []
+- id: 1574466516594
+  fields:
+    Front: |
+      SVEC 05.06 Theory 05:
+      What is the derivative of arcsine? What is its domain?
+    Back: |
+      $$$\frac{d}{d x}\left(\sin ^{-1} x\right)=\frac{1}{\sqrt{1-x^{2}}} \quad-1<x<1$$$
+    Annotations: ''
+  tags: []
+- id: 1574467262745
+  media:
+  - path: ${file_dir}/images/SVEC-05.06.Th-06.1.jpg
+  - path: ${file_dir}/images/SVEC-05.06.Th-06.2.jpg
+  fields:
+    Front: |
+      SVEC 05.06 Theory 06:
+      Define the **inverse cosine function.**
+    Back: |
+      The restricted cosine function $f(x)=\cos x, 0 \leqslant x \leqslant \pi,$ is one-to-one (see figure below) and so it has an inverse function denoted by $\cos ^{-1}$ or arccos.
+      $$$\cos ^{-1} x=y \quad \Longleftrightarrow \quad \cos y=x \quad \text{ and } \quad 0 \leqslant y \leqslant \pi$$$
+      <p align="center">
+      ![](SVEC-05.06.Th-06.1.jpg)
+      $y=\cos x, 0 \leqslant x \leqslant \pi$
+      </p>
+      The inverse cosine function, $\cos ^{-1},$ has domain $[-1,1]$ and range $[0, \pi]$ and is a continuous function whose graph is shown below.
+      <p align="center">
+      ![](SVEC-05.06.Th-06.2.jpg)
+      $y=\cos ^{-1} x=\arccos x$
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1574467499519
+  fields:
+    Front: |
+      SVEC 05.06 Theory 07:
+      State the cancellation equations for $\cos$ and $\cos^{-1} .$
+    Back: |
+      $$$\begin{array}{ll}{\cos ^{-1}(\cos x)=x} & {\text { for } 0 \leqslant x \leqslant \pi} \\ {\cos \left(\cos ^{-1} x\right)=x} & {\text { for }-1 \leqslant x \leqslant 1}\end{array}$$$
+    Annotations: ''
+  tags: []
+- id: 1574467590044
+  fields:
+    Front: |
+      SVEC 05.06 Theory 08:
+      What is the derivative of the inverse cosine function? What is its domain?
+    Back: |
+      $$$\frac{d}{d x}\left(\cos ^{-1} x\right)=-\frac{1}{\sqrt{1-x^{2}}} \quad-1<x<1$$$
+    Annotations: ''
+  tags: []
+- id: 1574468062444
+  media:
+  - path: ${file_dir}/images/SVEC-05.06.Th-09.1.jpg
+  - path: ${file_dir}/images/SVEC-05.06.Th-09.2.jpg
+  fields:
+    Front: |
+      SVEC 05.06 Theory 09:
+      Define the **inverse tangent function.**
+    Back: |
+      The tangent function can be made one-to-one by restricting it to the interval $(-\pi / 2, \pi / 2) .$ Thus the inverse tangent function is defined as the inverse of the function $f(x)=\tan x,-\pi / 2<x<\pi / 2 .$ (See figure below.)
+      <p align="center">
+      ![](SVEC-05.06.Th-09.1.jpg)
+      $y=\tan x,-\frac{\pi}{2}<x<\frac{\pi}{2}$
+      </p>
+      The inverse tangent function is denoted by $\tan ^{-1}$ or arctan.
+      $$$
+      \tan ^{-1} x=y \quad \Longleftrightarrow \quad \tan y=x \quad \text{ and } \quad-\frac{\pi}{2}<y<\frac{\pi}{2}
+      $$$ $\tan ^{-1}=\arctan$ has domain $\mathbb{R}$ and its range is $(-\pi / 2, \pi / 2) .$ Its graph is shown below.
+      <p align="center">
+      ![](SVEC-05.06.Th-09.2.jpg)
+      $y=\tan ^{-1} x=\arctan x$
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1574468977318
+  fields:
+    Front: |
+      SVEC 05.06 Theory 10:
+      What are the horizontal asymptotes of the inverse tangent function?
+    Back: |
+      $$$\lim _{x \rightarrow \infty} \tan ^{-1} x=\frac{\pi}{2} \quad \lim _{x \rightarrow-\infty} \tan ^{-1} x=-\frac{\pi}{2}$$$
+    Annotations: ''
+  tags: []
+- id: 1574469728394
+  fields:
+    Front: |
+      SVEC 05.06 Theory 11:
+      Is the inverse tangent function differentiable? Why or why not?
+    Back: |
+      Since $\tan$ is differentiable, $\tan^{-1}$ is also differentiable.
+    Annotations: ''
+  tags: []
+- id: 1574469879594
+  fields:
+    Front: |
+      SVEC 05.06 Theory 12:
+      What is the derivative of the inverse tangent function? What is its domain?
+    Back: |
+      To find its derivative, let $y=\tan ^{-1} x$. Then $\tan y=x .$ Differentiating this last equation implicitly with respect to $x,$ we have
+      $$$
+      \sec ^{2} y \frac{d y}{d x}=1
+      $$$ and so
+      $$$
+      \frac{d y}{d x}=\frac{1}{\sec ^{2} y}=\frac{1}{1+\tan ^{2} y}=\frac{1}{1+x^{2}}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1574470155395
+  media:
+  - path: ${file_dir}/images/SVEC-05.06.Th-13.1.jpg
+  fields:
+    Front: |
+      SVEC 05.06 Theory 13:
+      Define the **inverse secant, cosecant, and cotangent functions.**
+    Back: |
+      These inverse trigonometric functions are not used frequently.
+      $$$
+      \begin{aligned}
+        y=\csc ^{-1} x \quad(|x| \geqslant 1) \quad &\Longleftrightarrow& &\csc y=x \quad \text{ and } \quad y \in(0, \pi / 2] \cup(\pi, 3 \pi / 2] \\
+        y=\sec ^{-1} x \quad(|x| \geqslant 1) \quad &\Longleftrightarrow& &\sec y=x \quad \text{ and } \quad y \in[0, \pi / 2) \cup[\pi, 3 \pi / 2) \\
+        y=\cot ^{-1} x \quad(x \in \mathbb{R}) \quad &\Longleftrightarrow& &\cot y=x \quad \text{ and } \quad y \in(0, \pi)
+      \end{aligned}
+      $$$
+      The choice of intervals for $y$ in the definitions of $\csc ^{-1}$ and $\sec ^{-1}$ is not universally agreed upon. For instance, some authors use $y \in[0, \pi / 2) \cup(\pi / 2, \pi]$ in the definition of $\sec ^{-1} .$ [You can see from the graph of the secant function below that both this choice and the one in above will work.]
+      <p align="center">
+      ![](SVEC-05.06.Th-13.1.jpg)
+      $y=\sec x$
+      </p>
+      The reason for the choice in above is that the differentiation formulas are simpler.
+    Annotations: ''
+  tags: []
+- id: 1574470807919
+  fields:
+    Front: |
+      SVEC 05.06 Theory 14:
+      State the derivatives of all six inverse trigonometric functions.
+    Back: |
+      $$$
+      \begin{aligned}
+        \frac{d}{d x}\left(\sin ^{-1} x\right) &=\frac{1}{\sqrt{1-x^{2}}} \\
+        \frac{d}{d x}\left(\cos ^{-1} x\right) &=-\frac{1}{\sqrt{1-x^{2}}} \\
+        \frac{d}{d x}\left(\tan ^{-1} x\right) &=\frac{1}{1+x^{2}} \\
+        \frac{d}{d x}\left(\csc ^{-1} x\right) &=-\frac{1}{x \sqrt{x^{2}-1}} \\
+        \frac{d}{d x}\left(\sec ^{-1} x\right) &=\frac{1}{x \sqrt{x^{2}-1}} \\
+        \frac{d}{d x}\left(\cot ^{-1} x\right) &=-\frac{1}{1+x^{2}} \\
+      \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1574471172944
+  fields:
+    Front: |
+      SVEC 05.06 Theory 15:
+      What is $\int \frac{1}{\sqrt{1-x^{2}}} d x ?$
+    Back: |
+      $$$\int \frac{1}{\sqrt{1-x^{2}}} d x=\sin ^{-1} x+C$$$
+    Annotations: ''
+  tags: []
+- id: 1574471241844
+  fields:
+    Front: |
+      SVEC 05.06 Theory 16:
+      What is $\int \frac{1}{x^{2}+1} d x ?$
+    Back: |
+      $$$\int \frac{1}{x^{2}+1} d x=\tan ^{-1} x+C$$$
+    Annotations: ''
+  tags: []
+- id: 1574471363043
+  fields:
+    Front: |
+      SVEC 05.06 Theory 17:
+      What is $\int \frac{1}{x \sqrt{x^2 - 1}} dx ?$
+    Back: |
+      $$$\int \frac{1}{x \sqrt{x^2 - 1}} dx = \sec^{-1} x + C$$$
+    Annotations: ''
+  tags: []
+- id: 1574471859494
+  fields:
+    Front: |
+      SVEC 05.06 Theory 18:
+      What is $\int \frac{1}{x^{2}+a^{2}} d x ?$
+    Back: |
+      $$$\int \frac{1}{x^{2}+a^{2}} d x=\frac{1}{a} \tan ^{-1}\left(\frac{x}{a}\right)+C$$$
+    Annotations: ''
+  tags: []

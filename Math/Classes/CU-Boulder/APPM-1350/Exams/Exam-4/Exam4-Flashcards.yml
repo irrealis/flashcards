@@ -1,0 +1,358 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1350
+  - APPM-1350-Exams
+  - APPM-1350-Exam4
+  - APPM-1350-Exam4-Flashcards
+  markdownTabLength: 2
+notes:
+- id: 1576535659959
+  media:
+  - path: ${file_dir}/images/APPM-1350-Exam-4-Flashcard.01.1.jpg
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Flashcard.01:
+      <p align="center">
+      Graphs of
+      $e^{x}$ and $\ln x$
+      </p>
+    Back: |
+      $ $
+      <p align="center">
+      ![](APPM-1350-Exam-4-Flashcard.01.1.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1576535938633
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Flashcard.02:
+      <p align="center">
+      Definition of
+      $\ln x$
+      </p>
+    Back: |
+      $ $<p align="center">
+      $$$\ln x=\int_{1}^{x} \frac{1}{t} d t$$$ for $x>0$
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1576536493933
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Flashcard.03:
+      <p align="center">
+      $\ln 0$
+      $e^0$
+      $\ln 1$
+      $\ln e$
+      </p>
+    Back: |
+      $ $<p align="center">
+      $\ln 0 = \text{DNE}$
+      $e^0 = 1$
+      $\ln 1 = 0$
+      $\ln e = 1$
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1576536596433
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Flashcard.04:
+      <p align="center">
+      $\begin{array}{ll}{\lim _{x \rightarrow \infty} e^{x}} & {\lim _{x \rightarrow \infty} \ln x} \\ {\lim _{x \rightarrow-\infty} e^{x}} & {\lim _{x \rightarrow 0^{+}} \ln x}\end{array}$
+      </p>
+    Back: |
+      $ $<p align="center">
+      $\begin{aligned} \lim _{x \rightarrow \infty} e^{x} &=\infty & & \lim _{x \rightarrow \infty} \ln x=\infty \\ \lim _{x \rightarrow-\infty} e^{x} &=0 & & \lim _{x \rightarrow 0^{+}} \ln x=-\infty \end{aligned}$
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1576536752008
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Flashcard.05:
+      <p align="center">
+      $\ln a b$
+      $\ln \frac{a}{b}$
+      $\ln a^{b}$
+      $(\ln a)(\ln b)$
+      $\frac{\ln a}{\ln b}$
+      $(\ln a)^{b}$
+      </p>
+    Back: |
+      $ $<p align="center">
+      $\ln a b=\ln a+\ln b$
+      $\ln \frac{a}{b}=\ln a-\ln b$
+      $\ln a^{b}=b \ln a$
+      simplest form
+      $\frac{\ln a}{\ln b}=\log _{b} a$
+      simplest form
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1576536826059
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Flashcard.06:
+      <p align="center">
+      $\lim _{x \rightarrow 0}(1+x)^{1 / x}$
+      $\lim _{n \rightarrow \infty}\left(1+\frac{1}{n}\right)^{n}$
+      </p>
+    Back: |
+      $ $<p align="center">
+      $\lim _{x \rightarrow 0}(1+x)^{1 / x}=e$
+      $\lim _{n \rightarrow \infty}\left(1+\frac{1}{n}\right)^{n}=e$
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1576536883533
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Flashcard.07:
+      <p align="center">
+      Derivatives of
+      $e^{x}$
+      $a^{x}$
+      $\ln x$
+      </p>
+    Back: |
+      $ $<p align="center">
+      $e^{x}$
+      $a^{x}(\ln a)$
+      $\frac{1}{x}$
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1576537014284
+  media:
+  - path: ${file_dir}/images/APPM-1350-Exam-4-Flashcard.08.1.jpg
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Flashcard.08:
+      <p align="center">
+      Graph of
+      $\sin ^{-1} x$
+      </p>
+    Back: |
+      $ $<p align="center">
+      $y = \sin^{-1} x$
+      $ $
+      ![](APPM-1350-Exam-4-Flashcard.08.1.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1576537244884
+  media:
+  - path: ${file_dir}/images/APPM-1350-Exam-4-Flashcard.09.1.jpg
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Flashcard.09:
+      <p align="center">
+      Graph of
+      $\cos ^{-1} x$
+      </p>
+    Back: |
+      $ $<p align="center">
+      $y = \cos ^{-1} x$
+      $ $
+      ![](APPM-1350-Exam-4-Flashcard.09.1.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1576537372932
+  media:
+  - path: ${file_dir}/images/APPM-1350-Exam-4-Flashcard.10.1.jpg
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Flashcard.10:
+      <p align="center">
+      Graph of
+      $\tan ^{-1} x$
+      </p>
+    Back: |
+      $ $<p align="center">
+      $y = \tan ^{-1} x$
+      $ $
+      ![](APPM-1350-Exam-4-Flashcard.10.1.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1576537498083
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Flashcard.11:
+      <p align="center">
+      Definitions of
+      $\sinh x$
+      $\cosh x$
+      $\tanh x$
+      </p>
+    Back: |
+      $ $<p align="center">
+      $$$
+      \begin{array}{l}{\sinh x=\frac{e^{x}-e^{-x}}{2}} \\ {\cosh x=\frac{e^{x}+e^{-x}}{2}} \\ {\tanh x=\frac{\sinh x}{\cosh x}=\frac{e^{x}-e^{-x}}{e^{x}+e^{-x}}}\end{array}
+      $$$
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1576537610732
+  media:
+  - path: ${file_dir}/images/APPM-1350-Exam-4-Flashcard.12.1.jpg
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Flashcard.12:
+      <p align="center">
+      Graph of
+      $\sinh x$
+      </p>
+    Back: |
+      $ $<p align="center">
+      $y = \sinh x$
+      $ $
+      ![](APPM-1350-Exam-4-Flashcard.12.1.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1576537875233
+  media:
+  - path: ${file_dir}/images/APPM-1350-Exam-4-Flashcard.13.1.jpg
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Flashcard.13:
+      <p align="center">
+      Graph of
+      $\cosh x$
+      </p>
+    Back: |
+      $ $<p align="center">
+      $y = \cosh x$
+      $ $
+      ![](APPM-1350-Exam-4-Flashcard.13.1.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1576538115157
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Flashcard.14:
+      <p align="center">
+      Graph of
+      $\tanh x$
+      </p>
+    Back: |
+      $ $<p align="center">
+      $y = \tanh x$
+      $ $
+      ![](APPM-1350-Exam-4-Flashcard.14.1.jpg)
+      </p>
+    Annotations: ''
+  media:
+  - path: ${file_dir}/images/APPM-1350-Exam-4-Flashcard.14.1.jpg
+  tags: []
+- id: 1576538186008
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Flashcard.15:
+      <p align="center">
+      Derivatives of
+      $\sin x$
+      $\sin ^{-1} x$
+      $\sinh x$
+      </p>
+    Back: |
+      $ $<p align="center">
+      $\cos x$
+      $\frac{1}{\sqrt{1-x^{2}}}$
+      $\cosh x$
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1576538277208
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Flashcard.16:
+      <p align="center">
+      Derivatives of
+      $\cos x$
+      $\cos ^{-1} x$
+      $\cosh x$
+      </p>
+    Back: |
+      $ $<p align="center">
+      $-\sin x$
+      $\frac{-1}{\sqrt{1-x^{2}}}$
+      $\sinh x$
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1576538433708
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Flashcard.17:
+      <p align="center">
+      Derivatives of
+      $\tan x$
+      $\tan ^{-1} x$
+      $\tanh x$
+      </p>
+    Back: |
+      $ $<p align="center">
+      $\sec ^{2} x$
+      $\frac{1}{1+x^{2}}$
+      $\operatorname{sech}^{2} x$
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1576538531530
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Flashcard.18:
+      <p align="center">
+      $\int e^{u} d u$
+      $\int a^{u} d u$
+      </p>
+    Back: |
+      $ $<p align="center">
+      $e^{u}+C$
+      $\frac{a^{u}}{\ln a}+C$
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1576538570408
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Flashcard.19:
+      <p align="center">
+      $\int \frac{d u}{u}$
+      $\int \frac{d u}{1+u^{2}}$
+      $\int \frac{d u}{\sqrt{1-u^{2}}}$
+      </p>
+    Back: |
+      $ $<p align="center">
+      $\ln |u|+C$
+      $\tan ^{-1} u+C$
+      $\sin ^{-1} u+C$
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1576538664458
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Flashcard.20:
+      <p align="center">
+      Exponential Growth and Decay
+      Newton's Law of Cooling
+      </p>
+    Back: |
+      $ $<p align="center">
+      $\begin{aligned} \frac{d y}{d t} &=k y \\ y(t) &=y_{0} e^{k t} \\ \\ \frac{d T}{d t} &=k\left(T-T_{s}\right) \\ T-T_{S} &=\left(T_{0}-T_{S}\right) e^{k t} \end{aligned}$
+      </p>
+    Annotations: ''
+  tags: []

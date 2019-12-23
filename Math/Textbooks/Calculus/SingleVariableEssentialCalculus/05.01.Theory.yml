@@ -1,0 +1,127 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theory
+  - SingleVariableEssentialCalculus
+  - SVEC-05-InverseFunctions
+  - SVEC-05.01-InverseFunctions
+  markdownTabLength: 2
+notes:
+- id: 1574094675419
+  fields:
+    Front: |
+      SVEC 05.01 Theory 01:
+      Define **one-to-one.**
+    Back: |
+      A function $f$ is called a one-to-one function if it never takes on the same value twice; that is,
+      $$$
+      f\left(x_{1}\right) \neq f\left(x_{2}\right) \quad \text { whenever } x_{1} \neq x_{2}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1574094757544
+  fields:
+    Front: |
+      SVEC 05.01 Theory 02:
+      Define the **horizontal line test.**
+    Back: |
+      A function is one-to-one if and only if no horizontal line intersects its graph more than once.
+    Annotations: 'Trouble:<div>- 191118-1513: Knowledge error: I stated this using
+      a conditional instead of a biconditional.</div>'
+  tags:
+  - ann:trouble
+- id: 1574095170045
+  fields:
+    Front: |
+      SVEC 05.01 Theory 03:
+      Define **inverse function.**
+    Back: |
+      Let $f$ be a one-to-one function with domain $A$ and range $B .$ Then its inverse function $f^{-1}$ has domain $B$ and range $A$ and is defined by
+      $$$
+      f^{-1}(y)=x \quad \Longleftrightarrow \quad f(x)=y
+      $$$
+      for any $y$ in $B$.
+    Annotations: 'Trouble:<div>- 191118-1517: Knowledge error: I forgot to specify
+      the domain and range of \(f^{-1}\).</div>'
+  tags:
+  - ann:trouble
+- id: 1574101166093
+  fields:
+    Front: |
+      SVEC 05.01 Theory 04:
+      State the **cancellation equations.**
+    Back: |
+      $$$\begin{array}{ll}{f^{-1}(f(x))=x} & {\text { for every } x \text { in } A} \\ {f\left(f^{-1}(x)\right)=x} & {\text { for every } x \text { in } B}\end{array}$$$
+    Annotations: 'Trouble:<div>- 191118-1519: Knowledge error: forgot to specify domain
+      and range.</div>'
+  tags:
+  - ann:trouble
+- id: 1574101258743
+  fields:
+    Front: |
+      SVEC 05.01 Theory 05:
+      How do we find the inverse function of a one-to-one function $f ?$
+    Back: |
+      Write $y=f(x) .$
+      Solve this equation for $x$ in terms of $y$ (if possible).
+      To express $f^{-1}$ as a function of $x,$ interchange $x$ and $y .$ The resulting equation is $y=f^{-1}(x) .$
+    Annotations: ''
+  tags: []
+- id: 1574101506568
+  fields:
+    Front: |
+      SVEC 05.01 Theory 06:
+      When the graph of a one-to-one function is known, how do we obtain the graph of the inverse?
+    Back: |
+      The graph of $f^{-1}$ is obtained by reflecting the graph of $f$ about the line $y=x .$
+    Annotations: ''
+  tags: []
+- id: 1574101884694
+  fields:
+    Front: |
+      SVEC 05.01 Theory 07:
+      ##### the calculus of inverse functions
+      State the **Inverse Continuity Theorem.**
+    Back: |
+      If $f$ is a one-to-one continuous function defined on an interval, then its inverse function $f^{-1}$ is also continuous.
+    Annotations: 'Trouble:<div>- 191118-1525: Knowledge error: I stated for continuity
+      on domain. The actual theorem uses continuity on an interval.</div><div>&nbsp;
+      &nbsp; - Actually, the book hasn''t yet defined the image of \(f ,\) so the
+      book''s definition is incomplete. But if \(J = f(I) := \{f(x):\, x \in I\}\)
+      then \(f^{-1}(J) = I\) and then \(f\) is continuous on \(I\) iff \(f^{-1}\)
+      is continuous on \(J .\)</div>'
+  tags:
+  - ann:trouble
+- id: 1574101984769
+  fields:
+    Front: |
+      SVEC 05.01 Theory 08:
+      ##### the calculus of inverse functions
+      State the **Inverse Function Method.**
+    Back: |
+      If $f$ is a one-to-one differentiable function with inverse function $f^{-1}$ and $f^{\prime}\left(f^{-1}(x)\right) \neq 0,$ then the inverse function is differentiable at $x$ and
+      $$$
+      \left(f^{-1}\right)^{\prime}(x)=\frac{1}{f^{\prime}\left(f^{-1}(x)\right)}
+      $$$
+      **Note:** If we write $y=f^{-1}(x),$ then $f(y)=x,$ so when expressed in Leibniz notation, this becomes
+      $$$
+      \frac{d y}{d x}=\frac{1}{\frac{d x}{d y}}
+      $$$
+    Annotations: 'Trouble:<div>- 191118-1602: Knowledge error: forgot domain constraint
+      that \(0 \ne f^{\prime}\left(f^{-1}(x)\right) .\)</div>'
+  tags:
+  - ann:trouble
+- id: 1574122964053
+  fields:
+    Front: |
+      SVEC 05.01 Theory 09:
+      ##### the calculus of inverse functions
+      State the **Derivative Test for Injectivity.**
+    Back: |
+      If $f'(x) > 0$ on $[a, b]$ then $f$ is one-to-one on $[a, b].$
+    Annotations: ''
+  tags: []

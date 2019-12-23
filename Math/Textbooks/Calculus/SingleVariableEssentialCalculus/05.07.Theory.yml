@@ -1,0 +1,248 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theory
+  - SingleVariableEssentialCalculus
+  - SVEC-05-InverseFunctions
+  - SVEC-05.07-HyperbolicFunctions
+  markdownTabLength: 2
+notes:
+- id: 1575406526629
+  fields:
+    Front: |
+      SVEC 05.07-01 Theory:
+      Define the **six hyperbolic functions.**
+    Back: |
+      $$$
+      \begin{aligned}
+        \sinh x &=\frac{e^{x}-e^{-x}}{2} & \operatorname{csch} x=\frac{1}{\sinh x} \\
+        \cosh x &=\frac{e^{x}+e^{-x}}{2} & \operatorname{sech} x=\frac{1}{\cosh x} \\
+        \tanh x &=\frac{\sinh x}{\cosh x} & \operatorname{coth} x=\frac{\cosh x}{\sinh x}
+      \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1575407024180
+  media:
+  - path: ${file_dir}/images/SVEC-05.07-02.Th.1.jpg
+  - path: ${file_dir}/images/SVEC-05.07-02.Th.2.jpg
+  - path: ${file_dir}/images/SVEC-05.07-02.Th.3.jpg
+  fields:
+    Front: |
+      SVEC 05.07-02 Theory:
+      Plot the **hyperbolic functions $\sinh$, $\cosh$, and $\tanh$.**
+    Back: |
+      $$$
+      $$$
+      <p align="center">
+      ![](SVEC-05.07-02.Th.1.jpg)
+      $y=\sinh x=\frac{1}{2} e^{x}-\frac{1}{2} e^{-x}$
+      </p>
+      <p align="center">
+      ![](SVEC-05.07-02.Th.2.jpg)
+      $y=\cosh x=\frac{1}{2} e^{x}+\frac{1}{2} e^{-x}$
+      </p>
+      <p align="center">
+      ![](SVEC-05.07-02.Th.3.jpg)
+      $y=\tanh x=\frac{\sinh x}{\cosh x}$
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1575407359330
+  fields:
+    Front: |
+      SVEC 05.07-03 Theory:
+      What are the domain and range of $\sinh?$ $\cosh?$ $\tanh?$
+    Back: |
+      $\sinh$ has domain $\mathbb{R}$ and range $\mathbb{R},$ while $\cosh$ has domain $\mathbb{R}$ and range $[1, \infty) .$ $\tanh$ has domain $\mathbb{R},$ range $(-1,1)$, and horizontal asymptotes $y=\pm 1$ shown in the plot below.
+      <p align="center">
+      ![](SVEC-05.07-02.Th.3.jpg)
+      $y=\tanh x=\frac{\sinh x}{\cosh x}$
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1575407646254
+  fields:
+    Front: |
+      SVEC 05.07-04 Theory:
+      Give and explain some examples of applications of hyperbolic functions.
+    Back: |
+      Applications of hyperbolic functions to science and engineering occur whenever an entity such as light, velocity, electricity, or radioactivity is gradually absorbed or extinguished, for the decay can be represented by hyperbolic functions. The most famous application is the use of hyperbolic cosine to describe the shape of a hanging wire.
+    Annotations: ''
+  tags: []
+- id: 1575407797704
+  media:
+  - path: ${file_dir}/images/SVEC-05.07-05.Th.1.jpg
+  fields:
+    Front: |
+      SVEC 05.07-05 Theory:
+      Describe the shape of a heavy flexible cable suspended between two points at the same height, in terms of hyperbolic functions.
+    Back: |
+      It can be proved that if a heavy flexible cable (such as a telephone or power line) is suspended between two points at the same height, then it takes the shape of a curve with equation $y=c+a \cosh (x / a)$ called a catenary (see figure below). (The Latin word catena means "chain.")
+      <p align="center">
+      ![](SVEC-05.07-05.Th.1.jpg)
+      A catenary $y=c+a \cosh (x / a)$
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1575408152730
+  media:
+  - path: ${file_dir}/images/SVEC-05.07-06.Th.1.jpg
+  fields:
+    Front: |
+      SVEC 05.07-06 Theory:
+      Describe the velocity of a water wave with length $L$ moving across a body of water with depth $d$ in terms of hyperbolic functions.
+    Back: |
+      The velocity of a water wave with length $L$ moving across a body of water with depth $d$ is modeled by the function
+      $$$
+      v=\sqrt{\frac{g L}{2 \pi} \tanh \left(\frac{2 \pi d}{L}\right)}
+      $$$
+      where $g$ is the acceleration due to gravity. (See figure below.)
+      <p align="center">
+      ![](SVEC-05.07-06.Th.1.jpg)
+      Idealized ocean wave
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1575408247780
+  fields:
+    Front: |
+      SVEC 05.07-07 Theory:
+      List **six hyperbolic identities.**
+    Back: |
+      **Symmetry:**
+      $\sinh (-x)=-\sinh x$
+      $\cosh (-x)=\cosh x$
+
+      **Addition:**
+      $\sinh (x+y)=\sinh x \cosh y+\cosh x \sinh y$
+      $\cosh (x+y)=\cosh x \cosh y+\sinh x \sinh y$
+
+      **Difference of squares:**
+      $\cosh ^{2} x-\sinh ^{2} x=1$
+      $1-\tanh ^{2} x=\operatorname{sech}^{2} x$
+    Annotations: ''
+  tags: []
+- id: 1575409041729
+  media:
+  - path: ${file_dir}/images/SVEC-05.07-08.Th.1.jpg
+  fields:
+    Front: |
+      SVEC 05.07-08 Theory:
+      What does $t$ represent in the unit circle below?
+      <p align="center">![](SVEC-05.07-08.Th.1.jpg)</p>
+    Back: |
+      If $t$ is any real number, the point $P(\cos t, \sin t)$ lies on the unit circle $x^{2}+y^{2}=1$ because $\cos ^{2} t+\sin ^{2} t=1 .$ In fact, $t$ can be interpreted as the radian measure of $\angle P O Q$ in the figure. For this reason the trigonometric functions are sometimes called circular functions.
+
+      $t$ also represents twice the area of the shaded circular sector.
+    Annotations: ''
+  tags: []
+- id: 1575409369506
+  media:
+  - path: ${file_dir}/images/SVEC-05.07-09.Th.1.jpg
+  fields:
+    Front: |
+      SVEC 05.07-09 Theory:
+      What does $t$ represent in the unit hyperbola below?
+      <p align="center">![](SVEC-05.07-09.Th.1.jpg)</p>
+    Back: |
+      If $t$ is any real number, then the point $P(\cosh t, \sinh t)$ lies on the right branch of the hyperbola $x^{2}-y^{2}=1$ because $\cosh ^{2} t-\sinh ^{2} t=1$ and $\cosh t \geqslant 1$. $t$ does not represent the measure of an angle.
+
+      However, it turns out that $t$ represents twice the area of the shaded hyperbolic sector in the figure, just as in the trigonometric case $t$ represents twice the area of the corresponding shaded circular sector of the unit circle.
+    Annotations: ''
+  tags: []
+- id: 1575409566904
+  fields:
+    Front: |
+      SVEC 05.07-10 Theory:
+      State the derivatives of the six hyperbolic functions.
+    Back: |
+      $\frac{d}{d x}(\sinh x)=\cosh x$
+      $\frac{d}{d x}(\cosh x)=\sinh x$
+      $\frac{d}{d x}(\tanh x)=\operatorname{sech}^{2} x$
+      $\frac{d}{d x}(\operatorname{csch} x)=-\operatorname{csch} x \operatorname{coth} x$
+      $\frac{d}{d x}(\operatorname{sech} x)=-\operatorname{sech} x \tanh x$
+      $\frac{d}{d x}(\operatorname{coth} x)=-\operatorname{csch}^{2} x$
+    Annotations: ''
+  tags: []
+- id: 1575410346755
+  fields:
+    Front: |
+      SVEC 05.07-11 Theory:
+      Which of $\sinh$, $\cosh$, and $\tanh$ are one-to-one?
+    Back: |
+      $\sinh$ and tanh are one-to-one functions and so they have inverse functions denoted by $\sinh ^{-1}$ and $\tanh ^{-1} .$ $\cosh$ is not one-to-one.
+    Annotations: ''
+  tags: []
+- id: 1575410346961
+  fields:
+    Front: |
+      SVEC 05.07-12 Theory:
+      What is necessary in order to define the inverse hyperbolic cosine function?
+    Back: |
+      $\cosh$ is not one-to-one, but when restricted to the domain $[0, \infty)$ it becomes one-to-one. The inverse hyperbolic cosine function is then defined as the inverse of this restricted function.
+      $$$y=\cosh ^{-1} x \Longleftrightarrow \cosh y=x \quad\text{and}\quad y \geqslant 0$$$
+    Annotations: ''
+  tags: []
+- id: 1575410716779
+  media:
+  - path: ${file_dir}/images/SVEC-05.07-13.Th.1.jpg
+  - path: ${file_dir}/images/SVEC-05.07-13.Th.2.jpg
+  - path: ${file_dir}/images/SVEC-05.07-13.Th.3.jpg
+  fields:
+    Front: |
+      SVEC 05.07-13 Theory:
+      Plot the inverse hyperbolic functions $\sinh ^{-1},$ $\cosh ^{-1},$ and $\tanh ^{-1}.$
+    Back: |
+      $$$
+      $$$
+      <p align="center">
+      ![](SVEC-05.07-13.Th.1.jpg)
+      $y=\sinh ^{-1} x$
+      domain $=\mathbb{R} \quad$ range $=\mathbb{R}$
+      </p>
+      <p align="center">
+      ![](SVEC-05.07-13.Th.2.jpg)
+      $y=\cosh ^{-1} x$
+      domain $=[1, \infty) \quad$ range $=[0, \infty)$
+      </p>
+      <p align="center">
+      ![](SVEC-05.07-13.Th.3.jpg)
+      $y=\tanh ^{-1} x$
+      domain $=(-1,1) \quad$ range $=\mathbb{R}$
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1575410896329
+  fields:
+    Front: |
+      SVEC 05.07-14 Theory:
+      Express the inverse hyperbolic functions $\sinh ^{-1},$ $\cosh ^{-1},$ and $\tanh ^{-1}$ in terms of logarithms.
+    Back: |
+      $$$
+      \begin{aligned} \sinh ^{-1} x &=\ln (x+\sqrt{x^{2}+1}) & & x \in \mathbb{R} \\ \cosh ^{-1} x &=\ln (x+\sqrt{x^{2}-1}) & & x \geqslant 1 \\ \tanh ^{-1} x &=\frac{1}{2} \ln \left(\frac{1+x}{1-x}\right) & &-1<x<1
+      \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1575411271954
+  fields:
+    Front: |
+      SVEC 05.07-15 Theory:
+      State the derivatives of the six inverse hyperbolic functions. What are their domains?
+    Back: |
+      $\frac{d}{d x}\left(\sinh ^{-1} x\right)=\frac{1}{\sqrt{1+x^{2}}}$
+      $\frac{d}{d x}\left(\cosh ^{-1} x\right)=\frac{1}{\sqrt{x^{2}-1}}$
+      $\frac{d}{d x}\left(\tanh ^{-1} x\right)=\frac{1}{1-x^{2}}$
+      $\frac{d}{d x}\left(\operatorname{csch}^{-1} x\right)=-\frac{1}{|x| \sqrt{x^{2}+1}}$
+      $\frac{d}{d x}\left(\operatorname{sech}^{-1} x\right)=-\frac{1}{x \sqrt{1-x^{2}}}$
+      $\frac{d}{d x}\left(\operatorname{coth}^{-1} x\right)=\frac{1}{1-x^{2}}$
+
+      Notice that the formulas for the derivatives of $\tanh ^{-1} x$ and $\operatorname{coth}^{-1} x$ appear to be identical. But the domains of these functions have no numbers in common: $\tanh ^{-1} x$ is defined for $|x|<1,$ whereas $\operatorname{coth}^{-1} x$ is defined for $|x|>1 .$
+    Annotations: ''
+  tags:
+  - Editing

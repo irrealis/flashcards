@@ -1,0 +1,153 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - SingleVariableEssentialCalculus
+  - SVEC-01-FunctionsAndLimits
+  - SVEC-01.02-ACatalogOfEssentialFunctions
+  markdownTabLength: 2
+notes:
+- id: 1572391271648
+  media:
+  - path: ${file_dir}/images/SVEC-01.02.Ex-01.1.jpg
+  fields:
+    Front: |
+      SVEC 01.02 Example 01:
+      ##### linear models
+      (a) As dry air moves upward, it expands and cools. If the ground temperature is $20^{\circ} \mathrm{C}$ and the temperature at a height of $1 \text{ km}$ is $10^{\circ} \mathrm{C}$, express the temperature $T$ (in $^{\circ} \mathrm{C}$) as a function of the height $h($ in kilometers), assuming that a linear model is appropriate.
+      (b) Draw the graph of the function in part (a). What does the slope represent?
+      (c) What is the temperature at a height of $2.5 \text{ km} ?$
+    Back: |
+      (a) Because we are assuming that $T$ is a linear function of $h,$ we can write
+      $$$$
+      T=m h+b
+      $$$$
+      We are given that $T=20$ when $h=0,$ so
+      $$$$
+      20=m \cdot 0+b=b
+      $$$$
+      In other words, the $y$ -intercept is $b=20$.
+      We are also given that $T=10$ when $h=1,$ so
+      $$$$
+      10=m \cdot 1+20
+      $$$$
+      The slope of the line is therefore $m=10-20=-10$ and the required linear function is
+      $$$$
+      T=-10 h+20
+      $$$$
+
+      (b) The graph is sketched below. The slope is $m=-10^{\circ} \mathrm{C} / \mathrm{km},$ and this represents the rate of change of temperature with respect to height.
+      <p align="center">![](SVEC-01.02.Ex-01.1.jpg)</p>
+
+      (c) At a height of $h=2.5 \text{ km},$ the temperature is
+      $$$$
+      T=-10(2.5)+20=-5^{\circ} \mathrm{C}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1572391755904
+  media:
+  - path: ${file_dir}/images/SVEC-01.02.Ex-02.1.jpg
+  - path: ${file_dir}/images/SVEC-01.02.Ex-02.2.jpg
+  - path: ${file_dir}/images/SVEC-01.02.Ex-02.3.jpg
+  - path: ${file_dir}/images/SVEC-01.02.Ex-02.4.jpg
+  - path: ${file_dir}/images/SVEC-01.02.Ex-02.5.jpg
+  - path: ${file_dir}/images/SVEC-01.02.Ex-02.6.jpg
+  fields:
+    Front: |
+      SVEC 01.02 Example 02:
+      ##### transformations of functions
+      Given the graph of $y=\sqrt{x}$, use transformations to graph $y=\sqrt{x}-2, y=\sqrt{x-2}, y=-\sqrt{x}, y=2 \sqrt{x},$ and $y=\sqrt{-x}$.
+      <p align="center">![](SVEC-01.02.Ex-02.1.jpg)</p>
+    Back: |
+      We sketch $y=\sqrt{x}-2$ by shifting 2 units downward,
+      <p/><p align="left">![](SVEC-01.02.Ex-02.2.jpg)</p>
+      $y=\sqrt{x-2}$ by shifting 2 units to the right,
+      <p/><p align="left">![](SVEC-01.02.Ex-02.3.jpg)</p>
+      $y=-\sqrt{x}$ by reflecting about the $x$ -axis,
+      <p/><p align="left">![](SVEC-01.02.Ex-02.4.jpg)</p>
+      $y=2 \sqrt{x}$ by stretching vertically by a factor of $2,$
+      <p/><p align="left">![](SVEC-01.02.Ex-02.5.jpg)</p>
+      and $y=\sqrt{-x}$ by reflecting about the $y$ -axis.
+      <p/><p align="left">![](SVEC-01.02.Ex-02.6.jpg)</p>
+    Annotations: ''
+  tags: []
+- id: 1572392243226
+  media:
+  - path: ${file_dir}/images/SVEC-01.02.Ex-03.1.jpg
+  - path: ${file_dir}/images/SVEC-01.02.Ex-03.2.jpg
+  fields:
+    Front: |
+      SVEC 01.02 Example 03:
+      ##### transformations of functions
+      Sketch the graph of the function $y=1-\sin x.$
+    Back: |
+      To obtain the graph of $y=1-\sin x,$ we start with $y=\sin x .$
+      <p/><p align="center">![](SVEC-01.02.Ex-03.1.jpg)</p>
+      We reflect about the $x$ -axis to get the graph $y=-\sin x$ and then we shift 1 unit upward to get $y=1-\sin x$.
+      <p/><p align="center">![](SVEC-01.02.Ex-03.2.jpg)</p>
+    Annotations: ''
+  tags: []
+- id: 1572392431406
+  fields:
+    Front: |
+      SVEC 01.02 Example 04:
+      ##### combinations of functions
+      If $f(x)=x^{2}$ and $g(x)=x-3,$ find the composite functions $f \circ g$ and $g \circ f .$
+    Back: |
+      We have
+      $$$$
+      \begin{array}{l}{(f \circ g)(x)=f(g(x))=f(x-3)=(x-3)^{2}} \\ {(g \circ f)(x)=g(f(x))=g\left(x^{2}\right)=x^{2}-3}\end{array}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1572392685656
+  fields:
+    Front: |
+      SVEC 01.02 Example 05:
+      ##### combinations of functions
+      If $f(x)=\sqrt{x}$ and $g(x)=\sqrt{2-x},$ find each function and its domain.
+      (a) $f \circ g$
+      (b) $g \circ f$
+      (c) $f \circ f$
+      (d) $g \circ g$
+    Back: |
+      (a)
+      $$$$(f \circ g)(x)=f(g(x))=f(\sqrt{2-x})=\sqrt{\sqrt{2-x}}=\sqrt[4]{2-x}$$$$
+      The domain of $f \circ g$ is $\{x | 2-x \geqslant 0\}=\{x | x \leqslant 2\}=(-\infty, 2].$
+
+      (b)
+      $$$$(g \circ f)(x)=g(f(x))=g(\sqrt{x})=\sqrt{2-\sqrt{x}}$$$$
+      For $\sqrt{x}$ to be defined we must have $x \geqslant 0 .$ For $\sqrt{2-\sqrt{x}}$ to be defined we must have $2-\sqrt{x} \geqslant 0,$ that is, $\sqrt{x} \leqslant 2,$ or $x \leqslant 4 .$ Thus we have $0 \leqslant x \leqslant 4,$ so the domain of $g \circ f$ is the closed interval $[0,4] .$
+
+      (c)
+      $$$$(f \circ f)(x)=f(f(x))=f(\sqrt{x})=\sqrt{\sqrt{x}}=\sqrt[4]{x}$$$$
+      The domain of $f \circ f$ is $[0, \infty).$
+
+      (d)
+      $$$$(g \circ g)(x)=g(g(x))=g(\sqrt{2-x})=\sqrt{2-\sqrt{2-x}}$$$$
+      This expression is defined when both $2-x \geqslant 0$ and $2-\sqrt{2-x} \geqslant 0 .$ The first inequality means $x \leqslant 2,$ and the second is equivalent to $\sqrt{2-x} \leqslant 2,$ or $2-x \leqslant 4,$ or $x \geqslant-2 .$ Thus, $-2 \leqslant x \leqslant 2,$ so the domain of $g \circ g$ is the closed interval $[-2,2] .$
+    Annotations: ''
+  tags: []
+- id: 1572392783632
+  fields:
+    Front: |
+      SVEC 01.02 Example 06:
+      ##### combinations of functions
+      Given $F(x)=\cos ^{2}(x+9),$ find functions $f, g,$ and $h$ such that $F=f \circ g \circ h .$
+    Back: |
+      Since $F(x)=[\cos (x+9)]^{2},$ the formula for $F$ says: First add $9,$ then
+      take the cosine of the result, and finally square. So we let
+      $$$$
+      h(x)=x+9 \quad g(x)=\cos x \quad f(x)=x^{2}
+      $$$$
+      Then
+      $$$$
+      \begin{aligned}(f \circ g \circ h)(x) &=f(g(h(x)))=f(g(x+9))=f(\cos (x+9)) \\ &=[\cos (x+9)]^{2}=F(x) \end{aligned}
+      $$$$
+    Annotations: ''
+  tags: []

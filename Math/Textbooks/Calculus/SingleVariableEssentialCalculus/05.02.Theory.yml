@@ -1,0 +1,129 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theory
+  - SingleVariableEssentialCalculus
+  - SVEC-05-InverseFunctions
+  - SVEC-05.02-TheNaturalLogarithmicFunction
+  markdownTabLength: 2
+notes:
+- id: 1574103551568
+  fields:
+    Front: |
+      SVEC 05.02 Theory 01:
+      Define the **natural logarithmic function** in terms of an integral.
+    Back: |
+      The natural logarithmic function is the function defined by
+      $$$
+      \ln x=\int_{1}^{x} \frac{1}{t} d t \quad x>0
+      $$$
+    Annotations: 'Trouble:<div>- 191118-1725: knowledge error. Answer was just flat
+      out wrong.</div>'
+  tags:
+  - ann:trouble
+- id: 1574104088369
+  fields:
+    Front: |
+      SVEC 05.02 Theory 02:
+      What is the derivative of the natural logarithmic function?
+    Back: |
+      $$$
+      \frac{d}{d x}(\ln x)=\frac{1}{x}
+      $$$
+      Note that the domain of $x$ is $(0,\infty) .$
+    Annotations: ''
+  tags: []
+- id: 1574104376418
+  fields:
+    Front: |
+      SVEC 05.02 Theory 03:
+      State the **Laws Of Logarithms.**
+    Back: |
+      If $x$ and $y$ are positive numbers and $r$ is a rational number, then
+      1.
+      $$$\ln (x y)=\ln x+\ln y$$$
+      2.
+      $$$\ln \left(\frac{x}{y}\right)=\ln x-\ln y$$$
+      3.
+      $$$\ln \left(x^{r}\right)=r \ln x$$$
+    Annotations: ''
+  tags: []
+- id: 1574104960618
+  fields:
+    Front: |
+      SVEC 05.02 Theory 04:
+      State the **Log Limits.**
+    Back: |
+      (a) $\lim _{x \rightarrow \infty} \ln x=\infty$
+      (b) $\lim _{x \rightarrow 0^{+}} \ln x=-\infty$
+    Annotations: ''
+  tags: []
+- id: 1574107712294
+  fields:
+    Front: |
+      SVEC 05.02 Theory 05:
+      Define $e.$
+    Back: |
+      $e$ is the number such that $\ln e=1 .$
+    Annotations: ''
+  tags: []
+- id: 1574107971294
+  fields:
+    Front: |
+      SVEC 05.02 Theory 06:
+      If $u = g(x)$, what is $\frac{d}{d x}(\ln u) ?$ $\frac{d}{d x}[\ln g(x)] ?$
+    Back: |
+      $$$\frac{d}{d x}(\ln u)=\frac{1}{u} \frac{d u}{d x}$$$
+      $$$\frac{d}{d x}[\ln g(x)]=\frac{g^{\prime}(x)}{g(x)}$$$
+    Annotations: ''
+  tags: []
+- id: 1574108624894
+  fields:
+    Front: |
+      SVEC 05.02 Theory 07:
+      What is the derivative of $\ln |x| ?$
+    Back: |
+      $$$\frac{d}{d x} \ln |x|=\frac{1}{x}$$$
+    Annotations: ''
+  tags: []
+- id: 1574108682819
+  fields:
+    Front: |
+      SVEC 05.02 Theory 08:
+      What is $\int \frac{1}{x} d x ?$
+    Back: |
+      $$$\int \frac{1}{x} d x=\ln |x|+C$$$
+    Annotations: ''
+  tags: []
+- id: 1574109157344
+  fields:
+    Front: |
+      SVEC 05.02 Theory 09:
+      What is $\int \tan x d x ?$
+    Back: |
+      $$$\int \tan x d x=\ln |\sec x|+C$$$
+    Annotations: 'Trouble:<div>- 191118-1737: memory fail. Forgot to include \(|\cdot
+      |\).</div>'
+  tags:
+  - ann:trouble
+- id: 1574109394843
+  fields:
+    Front: |
+      SVEC 05.02 Theory 10:
+      ##### logarithmic differentiation
+      What are the steps in Logarithmic Differentiation?
+    Back: |
+      1. Take natural logarithms of both sides of an equation $y=f(x)$ and use the Laws of Logarithms to simplify.
+      2. Differentiate implicitly with respect to $x .$
+      3. Solve the resulting equation for $y^{\prime}.$
+
+      If $f(x)<0$ for some values of $x,$ then $\ln f(x)$ is not defined, but we can write $|y|=|f(x)|$ and use $\frac{d}{d x} \ln |x|=\frac{1}{x} .$
+    Annotations: 'Trouble:<div>- 191118-1745: knowledge error. My answer was close
+      but not general enough, in that I wasn''t thinking in terms of implicit differentiation.
+      Implicit differentiation is key.</div>'
+  tags:
+  - ann:trouble

@@ -1,0 +1,95 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Proofs
+  - SingleVariableEssentialCalculus
+  - SVEC-04-Integrals
+  - SVEC-04.05-TheSubstitutionRule
+  markdownTabLength: 2
+notes:
+- id: 1573006220393
+  fields:
+    Front: |
+      SVEC 04.05 Proof 01:
+      ##### the substitution rule
+      Prove the **Substitution Rule.**
+    Back: |
+      Whenever we have an integral that we can write in the form $\int f(g(x)) g^{\prime}(x) d x ,$ observe that if $F^{\prime}=f,$ then
+      $$$
+      \int F^{\prime}(g(x)) g^{\prime}(x) d x=F(g(x))+C
+      $$$ because, by the Chain Rule,
+      $$$
+      \frac{d}{d x}[F(g(x))]=F^{\prime}(g(x)) g^{\prime}(x)
+      $$$
+      If we make the "change of variable" or "substitution" $u=g(x),$ then we have
+      $$$
+      \int F^{\prime}(g(x)) g^{\prime}(x) d x=F(g(x))+C=F(u)+C=\int F^{\prime}(u) d u
+      $$$ or, writing $F^{\prime}=f,$ we get
+      $$$
+      \int f(g(x)) g^{\prime}(x) d x=\int f(u) d u
+      $$$ $\square$
+    Annotations: ''
+  tags: []
+- id: 1573008760994
+  fields:
+    Front: |
+      SVEC 04.05 Proof 02:
+      ##### definite integrals
+      Prove the **Substitution Rule for Definite Integrals.**
+    Back: |
+      Let $F$ be an antiderivative of $f$. Then $F(g(x))$ is an antiderivative of $f(g(x)) g^{\prime}(x)$ and so, by the Evaluation Theorem, we have
+      $$$
+      \left.\int_{a}^{b} f(g(x)) g^{\prime}(x) d x=F(g(x))\right]_{a}^{b}=F(g(b))-F(g(a))
+      $$$ But, applying the Evaluation Theorem a second time, we also have
+      $$$
+      \left.\int_{g(a)}^{g(b)} f(u) d u=F(u)\right]_{g(a)}^{g(b)}=F(g(b))-F(g(a))
+      $$$ $\square$
+    Annotations: ''
+  tags: []
+- id: 1573009658519
+  fields:
+    Front: |
+      SVEC 04.05 Proof 03:
+      ##### symmetry
+      Prove the **Symmetry Rules of Integration.**
+    Back: |
+      We split the integral in two:
+      $$$
+      \begin{aligned}
+        \int_{-a}^{a} f(x) d x
+        &=\int_{-a}^{0} f(x) d x+\int_{0}^{a} f(x) d x \\
+        &=-\int_{0}^{-a} f(x) d x+\int_{0}^{a} f(x) d x
+      \end{aligned}
+      $$$ In the first integral on the far right side we make the substitution $u=-x .$ Then $d u=-d x$ and when $x=-a, u=a$. Therefore
+      $$$
+      \begin{aligned}
+        -\int_{0}^{-a} f(x) d x
+        &=-\int_{0}^{a} f(-u)(-d u) \\
+        &=\int_{0}^{a} f(-u) d u
+      \end{aligned}
+      $$$ and so
+      $$$
+      \int_{-a}^{a} f(x) d x=\int_{0}^{a} f(-u) d u+\int_{0}^{a} f(x) d x
+      $$$
+      (a) If $f$ is even, then $f(-u)=f(u)$ so the result is
+      $$$
+      \begin{aligned}
+        \int_{-a}^{a} f(x) d x
+        &=\int_{0}^{a} f(u) d u+\int_{0}^{a} f(x) d x \\
+        &=2 \int_{0}^{a} f(x) d x
+      \end{aligned}
+      $$$
+      (b) If $f$ is odd, then $f(-u)=-f(u)$ and so the result is instead
+      $$$
+      \begin{aligned}
+        \int_{-a}^{a} f(x) d x
+        &=-\int_{0}^{a} f(u) d u+\int_{0}^{a} f(x) d x \\
+        &=0
+      \end{aligned}
+      $$$ $\square$
+    Annotations: ''
+  tags: []

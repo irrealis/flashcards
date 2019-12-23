@@ -1,0 +1,109 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Proofs
+  - SingleVariableEssentialCalculus
+  - SVEC-05-InverseFunctions
+  - SVEC-05.04-GeneralLogarithmicAndExponentialFunctions
+  markdownTabLength: 2
+notes:
+- id: 1574373731368
+  fields:
+    Front: |
+      SVEC 05.04 Proof 01:
+      ##### general exponential functions
+      Prove the **general laws of exponents.**
+    Back: |
+      1. Using Definition 1 and the laws of exponents for $e^{x}$, we have
+      $$$
+      a^{x+y}=e^{(x+y) \ln a}=e^{x \ln a+y \ln a}=e^{x \ln a} e^{y \ln a}=a^{x} a^{y}
+      $$$ 2. To-do
+      3. Using Equation 2 we obtain
+      $$$
+      \left(a^{x}\right)^{y}=e^{y \ln \left(a^{x}\right)}=e^{y x \ln a}=e^{x y \ln a}=a^{x y}
+      $$$ 4. To-do
+      $\square$
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1574374478918
+  fields:
+    Front: |
+      SVEC 05.04 Proof 02:
+      ##### general exponential functions
+      Derive the **differentiation formula for general exponential functions.**
+    Back: |
+      $$$\frac{d}{d x}\left(a^{x}\right)=\frac{d}{d x}\left(e^{x \ln a}\right)=e^{x \ln a} \frac{d}{d x}(x \ln a)=a^{x} \ln a$$$
+      $\square$
+    Annotations: ''
+  tags: []
+- id: 1574375986818
+  fields:
+    Front: |
+      SVEC 05.04 Proof 03:
+      ##### the power rule revisited
+      Prove the **Power Rule** for real-numbered powers.
+    Back: |
+      Let $y=x^{n}$ and use logarithmic differentiation:
+      $$$
+      \ln |y|=\ln |x|^{n}=n \ln |x| \quad x \neq 0
+      $$$ Therefore
+      $$$\frac{y^{\prime}}{y}=\frac{n}{x}$$$ Hence
+      $$$y^{\prime}=n \frac{y}{x}=n \frac{x^{n}}{x}=n x^{n-1}$$$
+      $\square$
+    Annotations: ''
+  tags: []
+- id: 1574377025775
+  fields:
+    Front: |
+      SVEC 05.04 Proof 04:
+      ##### general logarithm functions
+      Prove the **Change of Base Formula.**
+    Back: |
+      Let $y=\log _{a} x$. Then we have $a^{y}=x .$ Taking natural logarithms of both sides of this equation, we get $y \ln a=\ln x .$ Therefore
+      $$$
+      y=\frac{\ln x}{\ln a}
+      $$$
+      $\square$
+    Annotations: ''
+  tags: []
+- id: 1574377430131
+  fields:
+    Front: |
+      SVEC 05.04 Proof 05:
+      ##### general logarithm functions
+      Derive the derivative of the general logarithmic function.
+    Back: |
+      The Change of Base Formula enables us to differentiate any logarithmic function. Since $\ln a$ is a constant, we can differentiate as follows:
+      $$$
+      \frac{d}{d x}\left(\log _{a} x\right)=\frac{d}{d x}\left(\frac{\ln x}{\ln a}\right)=\frac{1}{\ln a} \frac{d}{d x}(\ln x)=\frac{1}{x \ln a}
+      $$$
+      $\square$
+    Annotations: ''
+  tags: []
+- id: 1574377904084
+  fields:
+    Front: |
+      SVEC 05.04 Proof 06:
+      ##### the number $e$ as a limit
+      Derive the number $e$ as a limit.
+    Back: |
+      From the definition of a derivative as a limit, we have
+      $$$
+      \begin{aligned} f^{\prime}(1) &=\lim _{h \rightarrow 0} \frac{f(1+h)-f(1)}{h}=\lim _{x \rightarrow 0} \frac{f(1+x)-f(1)}{x} \\ &=\lim _{x \rightarrow 0} \frac{\ln (1+x)-\ln 1}{x}=\lim _{x \rightarrow 0} \frac{1}{x} \ln (1+x) \\ &=\lim _{x \rightarrow 0} \ln (1+x)^{1 / x} \end{aligned}
+      $$$ Because $f^{\prime}(1)=1,$ we have
+      $$$
+      \lim _{x \rightarrow 0} \ln (1+x)^{1 / x}=1
+      $$$ Then, because limits move through continuous functions, and the exponential function is continuous, we have
+      $$$
+      e=e^{1}=e^{\lim _{x \rightarrow 0} \ln (1+x)^{1 / x}}=\lim _{x \rightarrow 0} e^{\ln (1+x)^{1 / x}}=\lim _{x \rightarrow 0}(1+x)^{1 / x}
+      $$$
+      If we write $n=1 / x$ then $n \rightarrow \infty$ as $x \rightarrow 0^{+}$ and so an alternative expression for $e$ is
+      $$$e=\lim _{n \rightarrow \infty}\left(1+\frac{1}{n}\right)^{n}$$$
+      $\square$
+    Annotations: ''
+  tags: []

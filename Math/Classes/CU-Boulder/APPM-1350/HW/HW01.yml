@@ -1,0 +1,116 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1350
+  - APPM-1350-Exams
+  - APPM-1350-Exam1
+  - APPM-1350-HW01
+  - APPM-1350-SectionAppendixA
+  - APPM-1350-Section01.01
+  - APPM-1350-Section01.02
+  - WrittenHomework
+  markdownTabLength: 2
+notes:
+- id: 1572033507804
+  media:
+  - path: ${file_dir}/images/HW-01-01.1.jpg
+  - path: ${file_dir}/images/HW-01-01.2.jpg
+  - path: ${file_dir}/images/HW-01-01.3.jpg
+  - path: ${file_dir}/images/HW-01-01.4.jpg
+  - path: ${file_dir}/images/HW-01-01.5.jpg
+  fields:
+    Front: |
+      APPM 1350 HW-01 01:
+      Consider the function $y=f(x)$ defined on the interval $[-3,3] .$
+      ![](HW-01-01.1.jpg)
+      Use transformations to graph the following functions on $[-3,3]:$
+      (a) $y=f(x-1)$
+      (b) $y=f(x / 2)$
+      (c) $y=|f(x)-1|$
+      (d) $y=|-f(x)-1|$
+    Back: |
+      (a)
+      ![](HW-01-01.2.jpg)
+      (b)
+      ![](HW-01-01.3.jpg)
+      (c)
+      ![](HW-01-01.4.jpg)
+      (d)
+      ![](HW-01-01.5.jpg)
+    Annotations: ''
+  tags: []
+- id: 1572033720079
+  fields:
+    Front: |
+      APPM 1350 HW-01 02:
+      Let $f(x)=1-\frac{1}{2-\frac{1}{3-x}}$ and $g(x)=\frac{1}{x}+2.$
+      (a) Simplify $f.$
+      (b) What is the domain of $f ?$ Express your answer in interval notation.
+      (c) Find $h(x)=(f \circ g)(x)$ and simplify.
+      (d) Is $h$ even, odd or neither? Justify your answer algebraically.
+    Back: |
+      (a) $\frac{-x+2}{5-2 x}$
+      (b) $\left(-\infty, \frac{5}{2}\right) \cup\left(\frac{5}{2}, 3\right) \cup(3, \infty)$
+      (c) $\frac{-1}{x-2}$
+      (d) neither
+    Annotations: ''
+  tags: []
+- id: 1572033816479
+  fields:
+    Front: |
+      APPM 1350 HW-01 03:
+      Suppose voltage in the U.S. is represented by the function $V_{U}(t)=155 \sin (120 \pi t),$ where $t$ is measured in seconds, and voltage in Belgium is $V_{B}(t)=340 \sin (100 \pi t) .$ Find the maximum voltage and number of cycles per second in the two countries.
+
+      (Hint: $\sin t$ has $1 /(2 \pi)$ cycles per second because its period is $2 \pi .$ )
+    Back: |
+      Maximum voltage: $V_{U} 155$ volts, $V_{B} 340$ volts. Cycles per second: $V_{U} 60, V_{B} 50.$
+    Annotations: ''
+  tags: []
+- id: 1572033955979
+  media:
+  - path: ${file_dir}/images/HW-01-04.1.jpg
+  fields:
+    Front: |
+      APPM 1350 HW-01 04:
+      A 15 -ft ladder leaning against a wall forms an angle of $\theta$ with the ground, $0<\theta<\pi / 2 .$ The base of the ladder is $b$ feet from the wall. The top of the ladder meets the wall $h$ feet above the ground.
+      ![](HW-01-04.1.jpg)
+      (a) For what value of $h$ will $\sec \theta=3 / 2 ?$
+      (b) What values of $\theta$ will satisfy $h / b<\sqrt{3} ?$
+      (c) For what value(s) of $\theta$ will $\frac{4 \cos \theta}{\tan \theta}=3 \csc \theta ?$
+    Back: |
+      (a) $5 \sqrt{5}$
+      (b) $0<\theta<\pi / 3$
+      (c) $\pi / 6$
+    Annotations: ''
+  tags: []
+- id: 1572034021955
+  useMarkdownMathExt: false
+  media:
+  - path: ${file_dir}/images/HW-01-05.1.jpg
+  fields:
+    Front: |
+      APPM 1350 HW-01 05:
+      Buffs Mobile offers a data plan with a monthly charge of $45 for the first \\(500 \mathrm{mb}\\) of use, plus $10 for each additional \\(100 \mathrm{mb}\\) (rounded up to the nearest \\(100 \mathrm{mb}.\\) For example, if a customer uses 0 or \\(500 \mathrm{mb}\\) of data the cost is $45, and if she uses \\(501 \mathrm{mb}\\) the cost is $55.
+
+      (a) Express the monthly cost \\(C(m)\\) in dollars as a function of the number \\(m\\) of megabytes used, \\(0 \leq m \leq 1000.\\)
+      (b) Sketch a graph of \\(C(m)\\) with tick marks clearly labeled.
+    Back: |
+      (a) \\(C(m)=\left\\{\begin{array}{ll}{45} & {0 \leq m \leq 500} \\\\ {45+10\lceil(m-500) / 100\rceil} & { 500<m \leq 1000}\end{array}\right.\\)
+      where \\(\lceil x\rceil\\) equals the least integer greater than or equal to \\(x.\\)
+      (b)
+      ![](HW-01-05.1.jpg)
+    Annotations: ''
+  tags: []
+- id: 1572034739454
+  fields:
+    Front: |
+      APPM 1350 HW-01 06:
+      Rapunzel is 18 years old today and her hair is $70 \mathrm{ft}$ long. Her hair was 2 inches long at birth, then grew at a constant rate until it reached $40 \mathrm{ft}$ in length on her 12 th birthday. Since then Rapunzel's hair has grown at a different constant rate. Express Rapunzel's hair length $H,$ in feet, as a function of her age, $t,$ in years.
+    Back: |
+      $H(t)=\left\{\begin{array}{ll}{\frac{1}{6}+\frac{239}{72} t,} & {0 \leq t \leq 12} \\ {5 t-20,} & {12<t \leq 18}\end{array}\right.$
+    Annotations: ''
+  tags: []

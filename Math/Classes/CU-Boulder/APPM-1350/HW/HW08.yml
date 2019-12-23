@@ -1,0 +1,105 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1350
+  - APPM-1350-Exams
+  - APPM-1350-Exam3
+  - APPM-1350-HW08
+  - APPM-1350-Section03.04
+  - APPM-1350-Section03.05
+  - WrittenHomework
+  markdownTabLength: 2
+notes:
+- id: 1572044587129
+  fields:
+    Front: |
+      APPM 1350 HW-08 01:
+      The line $y=m x+b$ is called a slant asymptote if $f(x)-(m x+b) \rightarrow 0$ as $x \rightarrow \infty$ or $x \rightarrow-\infty$ because the vertical distance between the curve $y=f(x)$ and the line $y=m x+b$ approaches 0 as $x$ becomes large.
+
+      For rational functions $P(x) / Q(x),$ a slant asymptote occurs when the degree of $P$ is one more than the degree of $Q .$ To find the asymptote, use long division to write the function in the form $m x+b+R(x) / Q(x).$
+
+      Find an equation of the slant asymptote of the function $y=\frac{-9 x^{2}+15 x-1}{6 x-2} .$ Verify using appropriate limits.
+    Back: |
+      $y=-\frac{3}{2} x+2$
+    Annotations: ''
+  tags: []
+- id: 1572044645080
+  fields:
+    Front: |
+      APPM 1350 HW-08 02:
+      Consider the function $y=2 x-3 x^{2 / 3}.$
+      (a) Find the domain of the function.
+      (b) Find the $x$ -and $y$ -intercepts of the function.
+      (c) On what intervals is $y$ increasing? decreasing?
+      (d) Find the local maximum and minimum values of $y .$
+      (e) On what intervals is $y$ concave up? concave down?
+      (f) Find the inflection points of $y .$
+      (g) Sketch a graph of $y .$ Clearly label all intercepts, extrema, and inflection points.
+    Back: |
+      (a) $(-\infty, \infty)$
+      (b) $(0,0),\left(\frac{27}{8}, 0\right)$
+      (c **[my answer]**) increasing on $(-\infty, 0) \cup(1, \infty)$, decreasing on $(0, 1)$
+      (d) local max $y=0,$ local min $y=-1$
+      (e **[my answer]**) concave up on $(-\infty, 0) \quad$ and $\quad(0, \infty)$
+      (f) no inflection points
+    Annotations: ''
+  tags: []
+- id: 1572044725929
+  fields:
+    Front: |
+      APPM 1350 HW-08 03:
+      Let $y=\frac{-4-6 x}{1+2 x}.$
+      (a) Find the domain of the function.
+      (b) Does $y$ have any horizontal or vertical asymptotes? Justify your answer using appropriate
+      limits.
+      (c) Find the $x$ and $y$ -intercepts of the function.
+      (d) On what intervals is $y$ increasing or decreasing?
+      (e) Find the local maximum and minimum values of $y .$
+      (f) On what intervals is $y$ concave up or down?
+      (g) Find the inflection points of $y .$
+      (h) Sketch a graph of $y .$ Clearly label all intercepts, asymptotes, extrema, and inflection points.
+    Back: |
+      (a) $(-\infty,-1 / 2) \cup(-1 / 2, \infty)$
+      (b) H.A. $y=-3,$ V.A. $x=-1 / 2$
+      (c) $(-2 / 3,0),(0,-4)$
+      (d **[my answer]**) increasing on $(-\infty,-1 / 2)$ and $(-1 / 2, \infty)$
+      (e) no local extrema
+      (f **[my answer]**) concave up on $(-\infty,-1 / 2)$, concave down on $(-1 / 2, \infty)$
+      (g) no inflection points
+    Annotations: ''
+  tags: []
+- id: 1572044807479
+  fields:
+    Front: |
+      APPM 1350 HW-08 04:
+      A round ring of wire is centered at the origin and lies in a plane perpendicular to the $x$ -axis. The electric field at $(x, 0)$ can be represented by
+      $$$
+      E=\frac{k x}{\left(x^{2}+R^{2}\right)^{3 / 2}}
+      $$$
+      where $R$ is the radius of the ring and $k$ is a positive constant. The field reaches maximum and minimum levels at what values of $x ?$
+    Back: |
+      $\min x=-R / \sqrt{2}, \max x=R / \sqrt{2}$
+    Annotations: ''
+  tags: []
+- id: 1572044856129
+  fields:
+    Front: |
+      APPM 1350 HW-08 05:
+      A right triangle is rotated about one of its legs to form a right circular cone. If the hypotenuse of the triangle is $4 \sqrt{3}$ units long, what is the largest possible volume of such a cone?
+    Back: |
+      $128 \pi / 3$ cubic units
+    Annotations: ''
+  tags: []
+- id: 1572044931704
+  fields:
+    Front: |
+      APPM 1350 HW-08 06:
+      A farmer is designing a grain silo that will be shaped like a cylinder topped by a hemispherical roof. Suppose the cost of building the roof will be twice as expensive (per square meter of surface area) than the cost of the sides. If the desired volume of the silo is $72 \pi \mathrm{m}^{3},$ what dimensions will minimize the cost?
+    Back: |
+      radius $3 \text{ m},$ height $6 \text{ m}$
+    Annotations: ''
+  tags: []

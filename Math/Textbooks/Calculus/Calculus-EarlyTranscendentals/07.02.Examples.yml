@@ -1,0 +1,197 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-07-TechniquesOfIntegration
+  - CET-07.02-TrigonometricIntegrals
+  markdownTabLength: 2
+notes:
+- id: 1576698820363
+  fields:
+    Front: |
+      CET-07.02-01 Example:
+      Evaluate $\int \cos ^{3} x d x.$
+    Back: |
+      Simply substituting $u=\cos x$ isn't helpful, since then $d u=-\sin x d x .$ In order to integrate powers of cosine, we would need an extra sin $x$ factor. Similarly, a power of sine would require an extra cos $x$ factor. Thus here we can separate one cosine factor and convert the remaining $\cos ^{2} x$ factor to an expression involving sine using the identity $\sin ^{2} x+\cos ^{2} x=1$
+      $$$
+      \cos ^{3} x=\cos ^{2} x \cdot \cos x=\left(1-\sin ^{2} x\right) \cos x
+      $$$ We can then evaluate the integral by substituting $u=\sin x,$ so $d u=\cos x d x$ and
+      $$$
+      \begin{aligned}
+      \int \cos ^{3} x d x &=\int \cos ^{2} x \cdot \cos x d x=\int\left(1-\sin ^{2} x\right) \cos x d x \\
+      &=\int\left(1-u^{2}\right) d u=u-\frac{1}{3} u^{3}+C \\
+      &=\sin x-\frac{1}{3} \sin ^{3} x+C
+      \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1576704295758
+  fields:
+    Front: |
+      CET-07.02-02 Example:
+      Find $\int \sin ^{5} x \cos ^{2} x d x.$
+    Back: |
+      We could convert $\cos ^{2} x$ to $1-\sin ^{2} x,$ but we would be left with an expression in terms of $\sin x$ with no extra cos $x$ factor. Instead, we separate a single sine factor and rewrite the remaining $\sin ^{4} x$ factor in terms of $\cos x$:
+      $$$
+      \sin ^{5} x \cos ^{2} x=\left(\sin ^{2} x\right)^{2} \cos ^{2} x \sin x=\left(1-\cos ^{2} x\right)^{2} \cos ^{2} x \sin x
+      $$$ Substituting $u=\cos x,$ we have $d u=-\sin x d x$ and so
+      $$$
+      \begin{aligned}
+      \int \sin ^{5} x \cos ^{2} x d x
+      &=\int\left(\sin ^{2} x\right)^{2} \cos ^{2} x \sin x d x \\
+      &=\int\left(1-\cos ^{2} x\right)^{2} \cos ^{2} x \sin x d x \\
+      &=\int\left(1-u^{2}\right)^{2} u^{2}(-d u) \\
+      &=-\int\left(u^{2}-2 u^{4}+u^{6}\right) d u \\
+      &=-\left(\frac{u^{3}}{3}-2 \frac{u^{5}}{5}+\frac{u^{7}}{7}\right)+C \\
+      &=-\frac{1}{3} \cos ^{3} x+\frac{2}{5} \cos ^{5} x-\frac{1}{7} \cos ^{7} x+C
+      \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1576704463733
+  fields:
+    Front: |
+      CET-07.02-03 Example:
+      Evaluate $\int_{0}^{\pi} \sin ^{2} x d x.$
+    Back: |
+      If we write $\sin ^{2} x=1-\cos ^{2} x,$ the integral is no simpler to evaluate. Using the half-angle formula for $\sin ^{2} x$, however, we have
+      $$$
+      \begin{aligned}
+      \int_{0}^{\pi} \sin ^{2} x d x
+      &=\frac{1}{2} \int_{0}^{\pi}(1-\cos 2 x) d x \\
+      &=\left[\frac{1}{2}\left(x-\frac{1}{2} \sin 2 x\right)\right]_{0}^{\pi} \\
+      &=\frac{1}{2}\left(\pi-\frac{1}{2} \sin 2 \pi\right)-\frac{1}{2}\left(0-\frac{1}{2} \sin 0\right) \\
+      &=\frac{1}{2} \pi
+      \end{aligned}
+      $$$ Notice that we mentally made the substitution $u=2 x$ when integrating $\cos 2 x .$
+    Annotations: ''
+  tags: []
+- id: 1576704847308
+  fields:
+    Front: |
+      CET-07.02-04 Example:
+      Find $\int \sin ^{4} x d x.$
+    Back: |
+      We could evaluate this integral using the reduction formula for $\int \sin ^{n} x d x,$ but a better method is to write $\sin ^{4} x=\left(\sin ^{2} x\right)^{2}$ and use a half-angle formula:
+      $$$
+      \begin{aligned}
+      \int \sin ^{4} x d x &=\int\left(\sin ^{2} x\right)^{2} d x \\
+      &=\int\left(\frac{1-\cos 2 x}{2}\right)^{2} d x \\
+      &=\frac{1}{4} \int\left(1-2 \cos 2 x+\cos ^{2} 2 x\right) d x
+      \end{aligned}
+      $$$ Since $\cos ^{2} 2 x$ occurs, we must use another half-angle formula
+      $$$
+      \cos ^{2} 2 x=\frac{1}{2}(1+\cos 4 x)
+      $$$ This gives
+      $$$
+      \begin{aligned}
+      \int \sin ^{4} x d x &=\frac{1}{4} \int\left[1-2 \cos 2 x+\frac{1}{2}(1+\cos 4 x)\right] d x \\
+      &=\frac{1}{4} \int\left(\frac{3}{2}-2 \cos 2 x+\frac{1}{2} \cos 4 x\right) d x \\
+      &=\frac{1}{4}\left(\frac{3}{2} x-\sin 2 x+\frac{1}{8} \sin 4 x\right)+C
+      \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1576704974858
+  fields:
+    Front: |
+      CET-07.02-05 Example:
+      Evaluate $\int \tan ^{6} x \sec ^{4} x d x.$
+    Back: |
+      If we separate one $\sec^2 x$ factor, we can express the remaining $\sec ^{2} x$ factor in terms of tangent using the identity $\sec ^{2} x=1+\tan ^{2} x .$ We can then evaluate the integral by substituting $u=\tan x$ so that $d u=\sec ^{2} x d x :$
+      $$$
+      \begin{aligned}
+      \int \tan ^{6} x \sec ^{4} x d x &=\int \tan ^{6} x \sec ^{2} x \sec ^{2} x d x \\
+      &=\int \tan ^{6} x\left(1+\tan ^{2} x\right) \sec ^{2} x d x \\
+      &=\int u^{6}\left(1+u^{2}\right) d u \\
+      &=\int\left(u^{6}+u^{8}\right) d u \\
+      &=\frac{u^{7}}{7}+\frac{u^{9}}{9}+C \\
+      &=\frac{1}{7} \tan ^{7} x+\frac{1}{9} \tan ^{9} x+C
+      \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1576705107132
+  fields:
+    Front: |
+      CET-07.02-06 Example:
+      Find $\int \tan ^{5} \theta \sec ^{7} \theta d \theta$.
+    Back: |
+      If we separate a $\sec^2 \theta$ factor, as in the preceding example, we are left with a $\sec ^{5} \theta$ factor, which isn't easily converted to tangent. However, if we separate a $\sec \theta \tan \theta$ factor, we can convert the remaining power of tangent to an expression involving only secant using the identity $\tan ^{2} \theta=\sec ^{2} \theta-1 .$ We can then evaluate the integral by substituting $u=\sec \theta,$ so $d u=\sec \theta \tan \theta d \theta:$
+      $$$
+      \begin{aligned}
+      \int \tan ^{5} \theta \sec ^{7} \theta d \theta &=\int \tan ^{4} \theta \sec ^{6} \theta \sec \theta \tan \theta d \theta \\
+      &=\int\left(\sec ^{2} \theta-1\right)^{2} \sec ^{6} \theta \sec \theta \tan \theta d \theta \\
+      &=\int\left(u^{2}-1\right)^{2} u^{6} d u \\
+      &=\frac{u^{11}}{11}-2 \frac{u^{9}}{9}+\frac{u^{7}}{7}+C \\
+      &=\frac{1}{11} \sec ^{11} \theta-\frac{2}{9} \sec ^{9} \theta+\frac{1}{7} \sec ^{7} \theta+C
+      \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1576706062658
+  fields:
+    Front: |
+      CET-07.02-07 Example:
+      Find $\int \tan ^{3} x d x.$
+    Back: |
+      Here only $\tan x$ occurs, so we use $\tan ^{2} x=\sec ^{2} x-1$ to rewrite a $\tan ^{2} x$ factor in terms of $\sec^2 x$.
+      $$$
+      \begin{aligned}
+      \int \tan ^{3} x d x
+      &=\int \tan x \tan ^{2} x d x \\
+      &=\int \tan x\left(\sec ^{2} x-1\right) d x \\
+      &=\int \tan x \sec ^{2} x d x-\int \tan x d x \\
+      &=\frac{\tan ^{2} x}{2}-\ln |\sec x|+C
+      \end{aligned}
+      $$$ In the first integral we mentally substituted $u=\tan x$ so that $d u=\sec ^{2} x d x.$
+    Annotations: ''
+  tags: []
+- id: 1576708260382
+  fields:
+    Front: |
+      CET-07.02-08 Example:
+      Find $\int \sec ^{3} x d x.$
+    Back: |
+      Here we integrate by parts with
+      $$$
+      \begin{array}{rclcrcl}
+      u &=& \sec x &\quad& dv &=& \sec^2 x \,dx \\
+      du &=& \sec x \tan x \,dx &\quad& v &=& \tan x\\
+      \end{array}
+      $$$ Then
+      $$$
+      \begin{aligned}
+      \int \sec ^{3} x d x
+      &=\sec x \tan x-\int \sec x \tan ^{2} x d x \\
+      &=\sec x \tan x-\int \sec x\left(\sec ^{2} x-1\right) d x \\
+      &=\sec x \tan x-\int \sec ^{3} x d x+\int \sec x d x
+      \end{aligned}
+      $$$ Using $\int \sec x d x=\ln |\sec x+\tan x|+C$ and solving for the required integral, we get
+      $$$
+      \int \sec ^{3} x d x=\frac{1}{2}(\sec x \tan x+\ln |\sec x+\tan x|)+C
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1576708873862
+  fields:
+    Front: |
+      CET-07.02-09 Example:
+      Evaluate $\int \sin 4 x \cos 5 x d x.$
+    Back: |
+      This integral could be evaluated using integration by parts, but it's easier to use a trigonometric product identity as follows:
+      $$$
+      \begin{aligned}
+      \int \sin 4 x \cos 5 x d x
+      &=\int \frac{1}{2}[\sin (-x)+\sin 9 x] d x \\
+      &=\frac{1}{2} \int(-\sin x+\sin 9 x) d x \\
+      &=\frac{1}{2}\left(\cos x-\frac{1}{9} \cos 9 x\right)+C
+      \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []

@@ -1,0 +1,109 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1350
+  - APPM-1350-Exams
+  - APPM-1350-Exam1-2018-Fall
+  markdownTabLength: 2
+notes:
+- id: 1568249911796
+  fields:
+    Front: |
+      APPM 1350 2018-Fall Exam 1, Problem 1, Core Section: Trigonometry (20 pts):
+      (a) Given $\tan \theta=1 / 10$ and $\pi<\theta<3 \pi / 2,$ what is $\cos \theta ?$  _(Similar to WebAssign HW 1#8)_
+
+      (b) Find all values of $x$ in the interval $[0,2 \pi]$ that satisfy cot $x$ csc $x=4 \cos x .$ _(Similar to Written HW 1#1)_
+
+      (c) You see a bear cub in a tree on campus. Your distance from the tree is 100 $\mathrm{ft}.$ The angle between the ground and a straight line from your foot to the bear cub is $\pi / 6$ radians. How high up is the bear cub? _(Similar to Written HW 1#7a)_
+    Back: |
+      (a) Use a reference triangle. If the opposite side has length 1 and the adjacent side has length 10, then the hypotenuse has length $\sqrt{101}$ . In Q3, $3 \cos \theta=-10 / \sqrt{101}.$
+
+      Alternate Solution:
+      In Q3,
+      $$$$\cos \theta=\frac{1}{\sec \theta}=\frac{-1}{\sqrt{1+\tan ^{2} \theta}}=\frac{-1}{\sqrt{101 / 100}}=-\frac{10}{\sqrt{101}}.$$$$
+
+      (b) $\cot x \csc x=4 \cos x \Rightarrow \frac{\cos x}{\sin ^{2} x}=4 \cos x.$ Then $\cos x=0 \Rightarrow x=\frac{\pi}{2}, \frac{3 \pi}{2}$ or $\sin x=\pm \frac{1}{2} \Rightarrow x=\pi, \frac{5 \pi}{6}, \frac{7 \pi}{6}, \frac{11 \pi}{6}.$
+
+      (c) Let $h$ be the height of the tree. We are given that $\tan \frac{\pi}{6}=\frac{1}{\sqrt{3}}=\frac{h}{100}$ so $h=\frac{100}{\sqrt{3}} \mathrm{ft}.$
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1568250473147
+  fields:
+    Front: |
+      APPM 1350 2018-Fall Exam 1, Problem 2, Core Section: Limits (30 pts):
+      Evaluate the following limits or explain why they don't exist. Justify all answers.
+
+      (a) $\lim _{x \rightarrow 0} \frac{x \cos x}{2 \tan (2 x)}$ _(Similar to WebAssign HW 5#4)_
+
+      (b) $\lim _{t \rightarrow 4} \frac{12-3 t}{|t-4|}$ _(Similar to WebAssign HW 7#8)_
+
+      (c) $\lim _{x \rightarrow \infty} \frac{\sin ^{2} x}{x}$ _(Similar to Exam Review Sheet #11a)_
+
+      (d) $\lim _{x \rightarrow 0} \frac{3-\sqrt{9-x^{2}}}{x^{2}}$ _(Similar to WebAssign HW 5#2)_
+    Back: |
+      (a) Use the theorem $\lim _{\theta \rightarrow 0} \frac{\sin \theta}{\theta}=\lim _{\theta \rightarrow 0} \frac{\theta}{\sin \theta}=1.$
+      $$$$
+      \lim _{x \rightarrow 0} \frac{x \cos x}{2 \tan (2 x)}=\lim _{x \rightarrow 0} \frac{x \cos x}{2} \cdot \frac{\cos (2 x)}{\sin (2 x)} \cdot \frac{2}{2}=\lim _{x \rightarrow 0} \frac{\cos x}{2} \cdot \frac{2 x}{\sin (2 x)} \cdot \frac{\cos (2 x)}{2}=\frac{1}{2} \cdot 1 \cdot \frac{1}{2}=\frac{1}{4}.
+      $$$$
+
+      (b)
+      $$$$
+      \lim _{t \rightarrow 4^{+}} \frac{12-3 t}{|t-4|}=\lim _{t \rightarrow 4^{+}} \frac{3(4-t)}{t-4}=-3.
+      $$$$
+      $$$$
+      \lim _{t \rightarrow 4^{-}} \frac{12-3 t}{|t-4|}=\lim _{t \rightarrow 4^{-}} \frac{3(4-t)}{4-t}=3.
+      $$$$
+      It follows that $\lim _{t \rightarrow 4} \frac{12-3 t}{|t-4|}$ does not exist because the right-hand and left-hand limits are not equal.
+
+      (c) Because $0 \leq \sin ^{2} x \leq 1 \Rightarrow 0 \leq \frac{\sin ^{2} x}{x} \leq \frac{1}{x}$ and $\lim _{x \rightarrow \infty} \frac{1}{x}=0,$ by the Squeeze Theorem the value of $\lim _{x \rightarrow \infty} \frac{\sin ^{2} x}{x}$ also is $0.$
+
+      (d) Multiply by the conjugate of the numerator.
+      $$$$
+      \lim _{x \rightarrow 0} \frac{3-\sqrt{9-x^{2}}}{x^{2}} \cdot \frac{3+\sqrt{9-x^{2}}}{3+\sqrt{9-x^{2}}}=\lim _{x \rightarrow 0} \frac{9-\left(9-x^{2}\right)}{x^{2}(3+\sqrt{9-x^{2}})}=\lim _{x \rightarrow 0} \frac{x^{2}}{x^{4}(3+\sqrt{9-x^{2}})}=\frac{1}{6}.
+      $$$$
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1568251207345
+  fields:
+    Front: |
+      APPM 1350 2018-Fall Exam 1, Problem 3 (20 pts):
+      Let
+      $$$$
+      h(x)=\frac{x^{-2}-9}{2 x^{2}+4 x-6}.
+      $$$$
+
+      (a) Find the domain of $h(x) .$ Express your answer in interval notation. _(Similar to WebAssign HW 2#5)_
+
+      (b) Find and classify all discontinuities of $h(x)$ . Justify using appropriate limits. _(Similar to Exam Review Sheet #14)_
+
+      (c) Find the horizontal asymptotes, if any. Justify using appropriate limits. _(Similar to Written HW 3#7)_
+    Back: |
+      (a) The function is undefined where the denominator $2 x^{2}+4 x-6=2(x+3)(x-1)$ equals 0 at
+      $x=-3,1 .$ The domain is $(-\infty,-3) \cup(-3,1) \cup(1, \infty).$
+
+      (b) There is a removable discontinuity at $x=-3:$
+      $$$$
+      \lim _{x \rightarrow-3} \frac{x^{2}-9}{2 x^{2}+4 x-6}=\lim _{x \rightarrow-3} \frac{(x+3)(x-3)}{2(x+3)(x-1)}=\frac{3}{4}.
+      $$$$
+      There is an infinite discontinuity at $x=1:$
+      $$$$
+      \lim _{x \rightarrow 1^{+}} \frac{x^{2}-9}{2 x^{2}+4 x-6}=\lim _{x \rightarrow 1^{+}} \frac{x-3}{2(x-1)}=-\infty
+      $$$$
+      since the numerator approaches $-2$ and the denominator approaches 0 with positive values.
+
+      (c) There is a horizontal asymptote at $y=1 / 2:$
+      $$$$
+      \lim _{x \rightarrow \infty} \frac{x^{2}-9}{2 x^{2}+4 x-6}=\lim _{x \rightarrow \infty} \frac{1-\frac{9}{x^{2}}}{2+\frac{4}{x}-\frac{6}{x^{2}}}=\frac{1}{2}.
+      $$$$
+      $$$$
+      \lim _{x \rightarrow-\infty} \frac{x^{2}-9}{2 x^{2}+4 x-6}=\lim _{x \rightarrow-\infty} \frac{1-\frac{9}{x^{2}}}{2+\frac{4}{x}-\frac{6}{x^{2}}}=\frac{1}{2}.
+      $$$$
+    Annotations: ''
+  tags:
+  - Editing

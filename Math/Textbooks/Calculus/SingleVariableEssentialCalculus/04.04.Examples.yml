@@ -1,0 +1,110 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - SingleVariableEssentialCalculus
+  - SVEC-04-Integrals
+  - SVEC-04.04-TheFundamentalTheoremOfCalculus
+  markdownTabLength: 2
+notes:
+- id: 1572836034794
+  media:
+  - path: ${file_dir}/images/SVEC-04.04.Ex-01.1.jpg
+  - path: ${file_dir}/images/SVEC-04.04.Ex-01.2.jpg
+  - path: ${file_dir}/images/SVEC-04.04.Ex-01.3.jpg
+  - path: ${file_dir}/images/SVEC-04.04.Ex-01.4.jpg
+  fields:
+    Front: |
+      SVEC 04.04 Example 01:
+      If $f$ is the function whose graph is shown in the figure below and $g(x)=\int_{0}^{x} f(t) d t,$ find the values of $g(0), g(1), g(2), g(3), g(4),$ and $g(5) .$ Then sketch a rough graph of $g .$
+      <p align="center">![](SVEC-04.04.Ex-01.1.jpg)</p>
+    Back: |
+      First we notice that $g(0)=\int_{0}^{0} f(t) d t=0 .$ From the figures below we see that $g(1)$ is the area of a triangle:
+      $$$
+      g(1)=\int_{0}^{1} f(t) d t=\frac{1}{2}(1 \cdot 2)=1
+      $$$ To find $g(2)$ we add to $g(1)$ the area of a rectangle:
+      $$$
+      g(2)=\int_{0}^{2} f(t) d t=\int_{0}^{1} f(t) d t+\int_{1}^{2} f(t) d t=1+(1 \cdot 2)=3
+      $$$ We estimate that the area under $f$ from 2 to 3 is about $1.3,$ so
+      $$$
+      g(3)=g(2)+\int_{2}^{3} f(t) d t \approx 3+1.3=4.3
+      $$$ For $t>3, f(t)$ is negative and so we start subtracting areas:
+      $$$
+      \begin{array}{l}{g(4)=g(3)+\int_{3}^{4} f(t) d t \approx 4.3+(-1.3)=3.0} \\ {g(5)=g(4)+\int_{4}^{5} f(t) d t \approx 3+(-1.3)=1.7}\end{array}
+      $$$
+      <p align="center">
+      ![](SVEC-04.04.Ex-01.2.jpg)
+      ![](SVEC-04.04.Ex-01.3.jpg)
+      </p>
+
+      We use these values to sketch the graph of $g$ below. Notice that, because $f(t)$ is positive for $t<3,$ we keep adding area for $t<3$ and so $g$ is increasing up to $x=3,$ where it attains a maximum value. For $x>3, g$ decreases because $f(t)$ is negative.
+      <p align="center">
+      ![](SVEC-04.04.Ex-01.4.jpg)
+      $$$g(x)=\int_{a}^{x} f(t) d t$$$
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1572836247844
+  fields:
+    Front: |
+      SVEC 04.04 Example 02:
+      If $g(x)=\int_{a}^{x} f(t) d t,$ where $a=1$ and $f(t)=t^{2},$ find a formula for $g(x)$ and calculate $g^{\prime}(x) .$
+    Back: |
+      In this case we can compute $g(x)$ explicitly using the Evaluation Theorem:
+      $$$\left.\qquad g(x)=\int_{1}^{x} t^{2} d t=\frac{t^{3}}{3}\right]_{1}^{x}=\frac{x^{3}-1}{3}$$$ Then
+      $$$g^{\prime}(x)=\frac{d}{d x}\left(\frac{1}{3} x^{3}-\frac{1}{3}\right)=x^{2}$$$
+    Annotations: ''
+  tags: []
+- id: 1572837174545
+  fields:
+    Front: |
+      SVEC 04.04 Example 03:
+      Find the derivative of the function $g(x)=\int_{0}^{x} \sqrt{1+t^{2}} d t.$
+    Back: |
+      Since $f(t)=\sqrt{1+t^{2}}$ is continuous, Part 1 of the Fundamental Theorem of Calculus gives
+      $$$
+      g^{\prime}(x)=\sqrt{1+x^{2}}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1572837267194
+  fields:
+    Front: |
+      SVEC 04.04 Example 05:
+      Find $\frac{d}{d x} \int_{1}^{x^{4}} \sec t d t.$
+    Back: |
+      Here we have to be careful to use the Chain Rule in conjunction with Part 1 of the Fundamental Theorem. Let $u=x^{4} .$ Then
+      $$$
+      \begin{aligned}
+        \frac{d}{d x} \int_{1}^{x^{4}} \sec t d t
+        &=\frac{d}{d x} \int_{1}^{u} \sec t d t \\
+        &=\frac{d}{d u}\left[\int_{1}^{u} \sec t d t\right] \frac{d u}{d x} & \text { (by the Chain Rule) } \\
+        &=\sec u \frac{d u}{d x} & \text { (by FTC }1) \\
+        &=\sec \left(x^{4}\right) \cdot 4 x^{3}
+      \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1572838003468
+  fields:
+    Front: |
+      SVEC 04.04 Example 06:
+      ##### the average value of a function
+      Find the average value of the function $f(x)=1+x^{2}$ on the interval $[-1,2] .$
+    Back: |
+      With $a=-1$ and $b=2$ we have
+      $$$
+      \begin{aligned}
+        f_{\text {ave }}
+        &=\frac{1}{b-a} \int_{a}^{b} f(x) d x \\
+        &=\frac{1}{2-(-1)} \int_{-1}^{2}\left(1+x^{2}\right) d x \\
+        &=\frac{1}{3}\left[x+\frac{x^{3}}{3}\right]_{-1}^{2} \\
+        &=2
+      \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []

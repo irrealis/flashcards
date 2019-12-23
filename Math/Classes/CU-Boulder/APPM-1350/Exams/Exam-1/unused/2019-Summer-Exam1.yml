@@ -1,0 +1,172 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1350
+  - APPM-1350-Exams
+  - APPM-1350-Exam1-2019-Summer
+  markdownTabLength: 2
+notes:
+- id: 1568247509196
+  fields:
+    Front: |
+      APPM 1350 2019-Summer Exam 1, Problem 1 (26 pts):
+      For this problem, let
+      $$$$
+      f(x)=\frac{x-3}{\sqrt{x}}.
+      $$$$
+
+      (a) What is the domain of $f(x) ?$
+
+      (b) Where is $f(x)$ continuous?
+
+      (c) Does $f(x)$ have any horizontal asymptotes? If not, demonstrate this. If yes, determine the equation(s) of the horizontal asymptote(s).
+
+      (d) Does $f(x)$ have any vertical asymptotes? If not, demonstrate this. If yes, determine the equation(s) of the vertical asymptote(s).
+
+      (e) Determine the equation of the tangent line to the curve $y=f(x)$ at the point $(1,-2).$
+    Back: |
+      (a) (4 pts) The domain of $f$ is anywhere that $x \geq 0$ (to avoid the square root of a negative number) and also $x \neq 0$ (to avoid division by zero). Hence, the domain is $(0, \infty).$
+
+      (b) (4 pts) Since both $x-3$ and $\sqrt{x}$ are continuous on the domain of $f,$ and the quotient of continuous functions is continuous (wherever the denominator is nonzero), $f$ is continuous on $(0, \infty).$
+
+      (c) (5 pts) We check $\lim _{x \rightarrow \pm \infty} f(x) .$ Note that $f$ is undefined for $x<0,$ so $\lim _{x \rightarrow-\infty} f(x)$ doesn't exist. Then
+      $$$$
+      \lim _{x \rightarrow \infty} \frac{x-3}{\sqrt{x}}=\lim _{x \rightarrow \infty} \sqrt{x}-\frac{3}{\sqrt{x}}=\infty-0=\infty.
+      $$$$
+      Because this limit does not approach a number, there are no horizontal asymptotes.
+
+      (d) (5 pts) $f$ is continuous everywhere on its domain, so it has no vertical asymptotes on $(0, \infty).$ However, it could still have an asymptote at $x=0 .$ We check with the following limit:
+      $$$$
+      \lim _{x \rightarrow 0^{+}} \frac{x-3}{\sqrt{x}}=\lim _{x \rightarrow 0^{+}} \sqrt{x}-\frac{3}{\sqrt{x}}=0-\infty=-\infty.
+      $$$$
+      Because this limit approaches infinity, we say that $x=0$ is a vertical asymptote.
+
+      (e) (8 pts) The slope of the tangent line is the derivative of the function at the point. We can rewrite the given function as $f(x)=\sqrt{x}-3 x^{-1 / 2},$ so
+      $$$$
+      f^{\prime}(x)=\frac{1}{2} x^{-1 / 2}+\frac{3}{2} x^{-3 / 2} \Rightarrow f^{\prime}(1)=\frac{1}{2}(1)+\frac{3}{2}(1)=2.
+      $$$$
+      Thus, the equation of the tangent line is
+      $$$$
+      y-(-2)=2(x-1) \Leftrightarrow y=2 x-4.
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568248068921
+  fields:
+    Front: |
+      APPM 1350 2019-Summer Exam 1, Problem 2 (28 pts):
+      Calculate the following limits, if they exist. If a limit does not exist, indicate this by writing "DNE".
+
+      (a)
+      $$$$
+      \lim _{x \rightarrow 0} \sin (x+\cos (x))
+      $$$$
+
+      (b)
+      $$$$
+      \lim _{x \rightarrow 3}\left[\frac{1}{x-3}-\frac{5}{x^{2}-x-6}\right]
+      $$$$
+
+      (c)
+      $$$$
+      \lim _{x \rightarrow 0} x^{2} \sin \left(\cos \left(\frac{1}{x}\right)\right)
+      $$$$
+
+      (d)
+      $$$$
+      \lim _{x \rightarrow 0^{-}} \frac{x}{|x|}
+      $$$$
+    Back: |
+      (a) (7 pts) $\sin (x)$ and $\cos (x)$ are both continuous, every where, so
+      $$$$
+      \lim _{x \rightarrow 0} \sin (x+\cos (x))=\sin \left(\lim _{x \rightarrow 0} x+\cos \left(\lim _{x \rightarrow 0} x\right)\right)=\sin (0+\cos (0))=\sin (1).
+      $$$$
+
+      (b) (7 pts) In pursuit of a common denominator, we find
+      $$$$
+      \begin{aligned} \lim _{x \rightarrow 3} \frac{1}{x-3}-\frac{5}{x^{2}-x+6} &=\lim _{x \rightarrow 0} \frac{1}{x-3}-\frac{5}{(x-3)(x+2)} \\ &=\lim _{x \rightarrow 3} \frac{x+2}{(x-3)(x+2)}-\frac{5}{(x-3)(x+2)} \\ &=\lim _{x \rightarrow 3} \frac{x-3}{(x-3)(x+2)} \\ &=\lim _{x \rightarrow 3} \frac{1}{x+2} \\ &=\frac{1}{5} \end{aligned}
+      $$$$
+
+      (c) (7 pts) Note that $-1 \leq \sin (\theta) \leq 1$ for any $\theta,$ so in fact we also have $-1 \leq \sin (\cos (1 / x)) \leq 1.$ Multiplying across by $x^{2},$ we have $-x^{2} \leq x^{2} \sin (\cos (1 / x)) \leq x^{2}$ . Now observe that $\lim _{x \rightarrow 0} x^{2}=\lim _{x \rightarrow 0}-x^{2}=0,$ so by the squeeze theorem we can conclude that
+      $$$$
+      \lim _{x \rightarrow 0} x^{2} \sin (\cos (1 / x))=0.
+      $$$$
+
+      (d) (7 pts) since we're investigating a left-hand limit toward zero, we may assume that all values of $x$ are negative. Thus, we can rewrite $|x|=-x .$ We then have
+      $$$$
+      \lim _{x \rightarrow 0^{-}} \frac{x}{|x|}=\lim _{x \rightarrow 0^{-}} \frac{x}{-x}=\lim _{x \rightarrow 0^{-}}-1=-1.
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568248413120
+  fields:
+    Front: |
+      APPM 1350 2019-Summer Exam 1, Problem 3 (26 pts):
+      The following questions are not related. Justify your answers and cite any theorems you use.
+
+      (a) Let
+      $$$$
+      r(s)=\left\{\begin{array}{ll}{a s^{2}+9,} & {\text { if } s \leq 2} \\ {\frac{s^{2}+s-6}{s-2},} & {\text { if } s>2}\end{array}\right.
+      $$$$
+      Use the _definition of continuity_ to determine the value of $a$ that makes $r(s)$ continuous on $\mathbb{R}.$
+
+      (b) Suppose that a continuous function $f(x)$ satisfies $0<f(x)<1$ for every $x$ in $[0,1].$ Consider $g(x)=f(x)-x ;$ demonstrate that $g(x)$ has at least one root in the interval $(0,1) .$ Remember to cite any theorems that you may use. (_Hint:_ Note that $g$ is also continuous).
+
+      (c) Consider $g(t)=t^{2}-3 t+2 .$ Use the _limit definition of the derivative_ to calculate $g^{\prime}(2).$
+
+      (d) Consider $h(x)=\frac{\tan (x)}{x^{3}} .$ Is $h(x)$ odd, even, or neither? Justify your answer.
+    Back: |
+      (a) (7 pts) The definition of continuity says that a function is continuous at a point $c$ if $\lim _{s \rightarrow c} r(x)=r(c) .$ Inspecting this function, we see that it's a polynomial for $s \leq 2$ (which is continuous everywhere) and a rational function for $s>2$ which is continuous everywhere except $s=2.$ Thus, $r$ is continuous everwhere except possibly at $s=2 .$ To determine an $a$ to make the function continuous here, we require
+      $$$$
+      \lim _{s \rightarrow 2^{-}} r(s)=\lim _{s \rightarrow 2^{+}} r(s)=r(2)
+      $$$$
+      $r(2)=4 a+9,$ and certainly $\lim _{x \rightarrow 2^{-}} r(s)=4 a+9$ (by the continuity of polynomials). So we just need
+      $$$$
+      4 a+9=\lim _{s \rightarrow 2^{-}} r(s)=\lim _{s \rightarrow 2^{-}} \frac{s^{2}+s-6}{s-2}=\lim _{s \rightarrow 2^{-}} \frac{(s-2)(s+3)}{s-2}=\lim _{s \rightarrow 2^{-}} s+3=5.
+      $$$$
+      We solve for $a$ using the resulting equation $4 a+9=5,$ which yields $a=-1.$
+
+      (b) (6 pts) Note that $g(0)=f(0)>0$ and $g(1)=f(1)-1<0 .$ since $g$ is continuous and $g(0)>0$ and $g(1)<0,$ the **Intermediate Value Theorem** guarantees a $c$ between 0 and 1 such that $g(c)=0 .$
+
+      (c) (7 pts)
+      $$$$
+      \begin{aligned} \lim _{h \rightarrow 0} \frac{g(2+h)-g(2)}{h} &=\lim _{h \rightarrow 0} \frac{(2+h)^{2}-3(2+h)+2-\left[2^{2}-3(2)+2\right]}{h} \\ &=\lim _{h \rightarrow 0} \frac{4+4 h+h^{2}-6-3 h+2-4+6-2}{h} \\ &=\lim _{h \rightarrow 0} \frac{h+h^{2}}{h} \\ &=\lim _{h \rightarrow 0} 1+h \\ &=1. \end{aligned}
+      $$$$
+
+      (d) (6 pts) Let's check what $h(-x)$ looks like. Note that
+      $$$$
+      h(-x)=\frac{\tan (-x)}{(-x)^{3}}=\frac{\frac{\sin (-x)}{\cos (-x)}}{-x^{3}}=\frac{\frac{-\sin (x)}{\cos (x)}}{-x^{3}}=\frac{\tan (x)}{x^{3}}=h(x).
+      $$$$
+      So $h$ is even.
+    Annotations: ''
+  tags: []
+- id: 1568249484021
+  fields:
+    Front: |
+      APPM 1350 2019-Summer Exam 1, Problem 4 (20 pts):
+      For each of the following statements, determine if the statement is TRUE or FALSE. If the statement is TRUE, briefly explain why. If the statement is FALSE, briefly explain why or provide an example that shows the statement is false.
+
+      (a) If a differentiable function $f(x)$ is periodic with period $T,$ then $f^{\prime}(x)$ is also periodic with period $T .$ (Reminder: $f$ is periodic with period $T$ if $f(x+T)=f(x)$ for each $x$ in its domain.)
+
+      (b) If $\lim _{x \rightarrow \infty} f(x)=L,$ then $L$ is not in the range of $f.$
+
+      (c) The curve $y=\frac{1}{x-1}$ has a vertical asymptote given by the line $y=1.$
+
+      (d) If $f^{\prime}(a)$ exists, then $\lim _{x \rightarrow a} f(x)=f(a).$
+    Back: |
+      (a) (5 pts) TRUE. If a function is periodic, the slope of the tangent line will have the same slope from period to period. One can also show this from definition by writing
+      $$$$
+      f^{\prime}(a+T)=\lim _{h \rightarrow 0} \frac{f(a+T+h)-f(a+T)}{h}=\lim _{h \rightarrow 0} \frac{f(a+h)-f(a)}{h}=f^{\prime}(a).
+      $$$$
+
+      (b) (5 pts) FALSE. The simplest example I can think of is the constant function $f(x)=0 .$ For this function the range of $f$ contains only $\lim _{x \rightarrow \infty} f(x).$
+
+      (c) (5 pts) FALSE. The vertical asymptote is given by the line $x=1.$
+
+      (d) (5 pts) TRUE. $f^{\prime}(a)$ exists means that $f$ is differentiable at $a . \lim _{x \rightarrow a} f(x)=f(a)$ means that $f$ is continuous at $a .$ Differentiability implies continuity.
+    Annotations: ''
+  tags: []

@@ -1,0 +1,165 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1350
+  - APPM-1350-WA21
+  - SingleVariableEssentialCalculus
+  - SVEC-03-ApplicationsOfDifferentiation
+  - SVEC-03.04-CurveSketching
+  - SVEC-03.05-OptimizationProblems
+  - WebAssign
+  - Exam3
+  markdownTabLength: 2
+notes:
+- id: 1573083101119
+  fields:
+    Front: |
+      APPM 1350 WA21-03 03.04-5:
+      Find two numbers whose difference is $56$ and whose product is a minimum.
+    Back: |
+      $$$-28,28$$$
+
+      ##### Full solution:
+      The two numbers are $x+56$ and $x$. Minimize $f(x)=(x+56) x=x^{2}+56 x .$ $f^{\prime}(x)=2 x+56=0 \Rightarrow x=-28 .$ Since $f^{\prime \prime}(x)$ $=2>0,$ there is an absolute minimum at $x=-28 .$ The two numbers are $28$ and $-28 .$
+    Annotations: ''
+  tags: []
+- id: 1573083712695
+  media:
+  - path: ${file_dir}/images/APPM-1350-WA21-04.1.jpg
+  - path: ${file_dir}/images/APPM-1350-WA21-04.2.jpg
+  fields:
+    Front: |
+      APPM 1350 WA21-04 03.04-5:
+      Consider the following problem: A box with an open top is to be constructed trom a square piece of cardboard, $3 \text{ ft}$ wide, by cutting out a square from each of the four corners and bending up the sides. In the following stages, find the largest volume that such a box can have.
+
+      (a) Draw several diagrams to illustrate the situation, some short boxes with large bases and some tall boxes with small bases. Find the volumes of several such boxes.
+
+      (b) Draw a diagram illustrating the general situation. Let $x$ denote the length of the side of the square being cut out. Let $y$ denote the length of the base.
+
+      (c) Write an expression for the volume $V$ in terms of both $x$ and $y .$
+
+      (d) Use the given information to write an equation that relates the variables $x$ and $y .$o
+
+      (e) Use part (d) to write the volume as a function of only $x.$
+
+      (f) Finish solving the problem by finding the largest volume that such a box can have.
+    Back: |
+      (c) $v = xy^2$
+      (d) $3 = 2x + y$
+      (e) $V(x) = (3 - 2x)^2 x
+      (f) $V = 2\text{ ft}$
+
+      ##### Full solution:
+      (a)
+      <p/><p align="center">![](APPM-1350-WA21-04.1.jpg)</p>
+      The volumes of the resulting boxes are $1,1.6875,$ and 2 if $^{3} .$ There appears to be a maximum volume of at least $2 \mathrm{ft}^{3}$.
+
+      (b)
+      <p/><p align="center">![](APPM-1350-WA21-04.2.jpg)</p>
+      Let $x$ denote the length of the side of the square being cut out. Let $y$ denote the length of the base.
+
+      (c) Volume $V=$ length $\times$ width $\times$ height $\Rightarrow V=y \cdot y \cdot x=x y^{2}$
+
+      (d) Length of cardboard $=3 \Rightarrow x+y+x=3 \Rightarrow y+2 x=3$
+
+      (e) $y+2 x=3 \Rightarrow y=3-2 x \Rightarrow V(x)=x(3-2 x)^{2}$
+
+      (f) $V(x)=x(3-2 x)^{2} \Rightarrow V^{\prime}(x)=x \cdot 2(3-2 x)(-2)+(3-2 x)^{2} \cdot 1$ $=(3-2 x)[-4 x+(3-2 x)]=(3-2 x)(-6 x+3),$ so the critical numbers are $x=\frac{3}{2}$ and $x=\frac{1}{2} .$ Now $0 \leq x \leq \frac{3}{2}$ and $V(0)=V\left(\frac{3}{2}\right)=0,$ so the maximum is $V\left(\frac{1}{2}\right)=\left(\frac{1}{2}\right)(2)^{2}=2 \quad \text{ ft}^{3},$ which is the value found from our third figure in part (a).
+    Annotations: ''
+  tags: []
+- id: 1573084017095
+  fields:
+    Front: |
+      APPM 1350 WA21-05 03.04-5:
+      If $10,800 \text{ cm}^{2}$ of material is available to make a box with a square base and an open top, find the largest possible volume of the box.
+    Back: |
+      $$$108,000 \text{ cm}^3$$$
+
+      ##### Full solution:
+      Let $b$ be the length of the base of the box and $h$ the height. The surface area is $10800=b^{2}+4 h b \Rightarrow h=\left(10800-b^{2}\right) /(4 b) .$ The volume is $V=b^{2} h=b^{2}\left(10800-b^{2}\right) / 4 b=2700 b-b^{3} / 4 \Rightarrow$ $V^{\prime}(b)=2700-\frac{3}{4} b^{2}.$
+
+      $V^{\prime}(b)=0 \Rightarrow 2700=\frac{3}{4} b^{2} \Rightarrow b^{2}=3600 \Rightarrow b=\sqrt{3600}=60 .$ Since $V^{\prime}(b)>0$ for $0<b<60$ and $V^{\prime}(b)<0$ for $b>60$, there is an absolute maximum when $b=60$ by the First Derivative Test for Absolute Extreme Values. If $b=60^{2}$, then $h=\left(10800-60^{2}\right) /(4 \cdot 60)=30,$ so the largest possible volume is $b^{2} h=(60)^{2}(30)=108000 \text{ cm}^{3} .$
+    Annotations: ''
+  tags: []
+- id: 1573084232369
+  fields:
+    Front: |
+      APPM 1350 WA21-06 03.04-5:
+      Find the point on the line $y=5 x+3$ that is closest to the origin.
+    Back: |
+      $$$(x, y) = \left(-\frac{15}{26}, \frac{3}{26}\right)$$$
+
+      ##### Full solution:
+      The distance $d$ from the origin $(0,0)$ to a point $(x, 5 x+3)$ on the line is given by $d=\sqrt{(x-0)^{2}+(5 x+3-0)^{2}}$ and the square of the distance is $S=d^{2}=x^{2}+(5 x+3)^{2} . S^{\prime}=2 x+2(5 x+3) 5=52 x+30$ and $S^{\prime}=0 \Leftrightarrow x=-\frac{15}{26} .$ Now $S^{\prime \prime}=52>0,$ so we know that $S$ has a minimum at $x=-\frac{15}{26}$. Thus, the $y$ -value is $5\left(-\frac{15}{26}\right)+3=\frac{3}{26}$ and the point is $\left(-\frac{15}{26}, \frac{3}{26}\right).$
+    Annotations: ''
+  tags: []
+- id: 1573084822144
+  media:
+  - path: ${file_dir}/images/APPM-1350-WA21-07.1.jpg
+  - path: ${file_dir}/images/APPM-1350-WA21-07.2.jpg
+  fields:
+    Front: |
+      APPM 1350 WA21-07 03.04-5:
+      Sketch the curve.
+      $$$
+      y=\frac{x}{x^{2}-16}
+      $$$
+    Back: |
+      <p/><p align="center">![](APPM-1350-WA21-07.1.jpg)</p>
+
+      ##### Full solution:
+      $y=f(x)=x /\left(x^{2}-16\right)$
+
+      **A.** $D=\{x | x \neq 4\}=(-\infty,-4) \cup(-4,4) \cup(4, \infty)$
+      **B.** $x$ -intercept $=0$, $y$ -intercept $=f(0)=0$.
+      **C.** $f(-x)=-f(x)$, so $f$ is odd; the curve is symmetric about the origin.
+      **D.** $\lim _{x \rightarrow+\infty} \frac{x^{2}-16}{x^{2}-16}=0,$ so $y=0$ is a HA. $\lim _{x \rightarrow 4^{+}} \frac{x}{x^{2}-16}=\infty,$ $\lim _{x \rightarrow 4^{-}} \frac{x}{x^{2}-16}=-\infty,$ $\lim _{x \rightarrow-4^{+}} \frac{x}{x^{2}-16}=\infty,$ $\lim _{x \rightarrow-4^{-}} \frac{x}{x^{2}-16}=-\infty,$ so $x=4$ and $x=-4$ are VA.
+      **E.** $f^{\prime}(x)=\frac{\left(x^{2}-16\right)-x(2 x)}{\left(x^{2}-16\right)^{2}}=-\frac{x^{2}+16}{\left(x^{2}-16\right)^{2}}<0[x \neq \pm 4]$ so $f$ is decreasing on $(-\infty,-4),(-4,4),$ and $(4, \infty).$
+      **F.** No extreme values
+      **G.**
+      $$$
+      \begin{aligned}
+        f^{\prime \prime}(x)
+        &=-\frac{2 x\left(x^{2}-16\right)^{2}-\left(x^{2}+16\right) \cdot 2\left(x^{2}-16\right)(2 x)}{\left(x^{2}-16\right)^{4}} \\
+        &=\frac{2 x\left(x^{2}+48\right)}{\left(x^{2}-16\right)^{3}}>0 \text{ when } -4<x<0 \text{ or } x>4,
+      \end{aligned}
+      $$$ so $f$ is $\mathrm{CU}$ on $(-4,0)$ and $(4, \infty) ; \mathrm{CD}$ on $(-\infty,-4)$ and $(0,4) .$ IP at $(0,0)$
+      **H.**
+      <p/><p align="center">![](APPM-1350-WA21-07.2.jpg)</p>
+    Annotations: ''
+  tags: []
+- id: 1573085334669
+  media:
+  - path: ${file_dir}/images/APPM-1350-WA21-08.1.jpg
+  - path: ${file_dir}/images/APPM-1350-WA21-08.2.jpg
+  fields:
+    Front: |
+      APPM 1350 WA21-08 03.04-5:
+      Sketch the curve.
+      $$$
+      y=2 \sqrt{x}-x
+      $$$
+    Back: |
+      <p/><p align="center">![](APPM-1350-WA21-08.1.jpg)</p>
+
+      ##### Full solution:
+      $y=f(x)=2 \sqrt{x}-x$
+
+      **A.** $D=[0, \infty)$
+      **B.** $y$ - intercept: $f(0)=0;$ $x$ -intercepts: $f(x)=0 \Rightarrow 2 \sqrt{x}=x \Rightarrow 4 x=x^{2} \Rightarrow 4 x-x^{2}=0$ $\Rightarrow x(4-x)=0 \Rightarrow x=0,4$
+      **C.** No symmetry
+      **D.** No asymptote
+      **E.** $f^{\prime}(x)=\frac{1}{\sqrt{x}}-1=\frac{1}{\sqrt{x}}(1-\sqrt{x}) .$ This is positive for $x<1$ and negative for $x>1 .$
+      So $f$ is increasing on $(0,1)$ and decreasing on $(1, \infty) .$
+      **F.** Local maximum value $f(1)=1,$ no local minimum.
+      **G.**
+      $f^{\prime \prime}(x)=\left(x^{-1 / 2}-1\right)^{\prime}=-\frac{1}{2} x^{-3 / 2}=\frac{-1}{2 x^{3 / 2}}<0$ for $x>0,$ so $f$ is $\mathrm{CD}$ on $(0, \infty) .$ No IP
+      **H.**
+      <p/><p align="center">![](APPM-1350-WA21-08.2.jpg)</p>
+    Annotations: ''
+  tags:
+  - Editing

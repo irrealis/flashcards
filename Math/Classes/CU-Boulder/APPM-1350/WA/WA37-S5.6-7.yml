@@ -1,0 +1,159 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1350
+  - APPM-1350-WA37
+  - SingleVariableEssentialCalculus
+  - SVEC-05-InverseFunctions
+  - SVEC-05.06-InverseTrigonometricFunctions
+  - SVEC-05.07-HyperbolicFunctions
+  - WebAssign
+  - Exam4
+  markdownTabLength: 2
+notes:
+- id: 1576611551248
+  fields:
+    Front: |
+      APPM 1350 WA37-01:
+      Find the limit. (If an answer does not exist, enter DNE.)
+      $$$
+      \lim _{x \rightarrow \infty} \arctan \left(e^{x}\right)
+      $$$
+    Back: |
+      $$$\frac{\pi}{2}$$$
+
+      ##### Full solution:
+      Let $t=e^{x} .$ As $x \rightarrow \infty, t \rightarrow \infty .$ $\lim_{x \rightarrow \infty} \arctan \left(e^{x}\right)=\lim _{t \rightarrow \infty} \arctan t=\frac{\pi}{2}.$
+    Annotations: ''
+  tags: []
+- id: 1576611674558
+  fields:
+    Front: |
+      APPM 1350 WA37-02:
+      Evaluate the integral.
+      $$$
+      \int_{0}^{\sqrt{3} / 6} \frac{d x}{1+36 x^{2}}
+      $$$
+    Back: |
+      $$$\frac{\pi}{18}$$$
+
+      ##### Full solution:
+      Let $u=6 x .$ Then $d u=6 d x,$ so $\int_{0}^{\sqrt{3} / 6} \frac{d x}{1+36 x^{2}}=\frac{1}{6} \int_{0}^{\sqrt{3}} \frac{1}{1+u^{2}} d u=\frac{1}{6}\left[\tan ^{-1} u\right]_{0}^{\sqrt{3}}$ $=\frac{1}{6}\left(\tan ^{-1} \sqrt{3}-\tan ^{-1} 0\right)=\frac{1}{6}\left(\frac{\pi}{3}-0\right)=\frac{\pi}{18}.$
+    Annotations: ''
+  tags: []
+- id: 1576611809158
+  fields:
+    Front: |
+      APPM 1350 WA37-03:
+      Evaluate the integral.
+      $$$
+      \int \frac{t^{5}}{\sqrt{1-t^{12}}} d t
+      $$$
+    Back: |
+      $$$\frac{1}{6} \sin ^{-1}\left(t^{6}\right) + C$$$
+
+      ##### Full solution:
+      Let $u=t^{6} .$ Then $d u=6 t^{5} d t$ and $\int \frac{t^{5}}{\sqrt{1-t^{12}}} d t=\int \frac{\frac{1}{6} d u}{\sqrt{1-u^{2}}}$ $=\frac{1}{6} \sin ^{-1} u+C=\frac{1}{6} \sin ^{-1}\left(t^{6}\right)+C.$
+    Annotations: ''
+  tags: []
+- id: 1576611899508
+  fields:
+    Front: |
+      APPM 1350 WA37-04:
+      Find the numerical value of each expression. (Round your answers to five decimal places.)
+
+      (a) $\sinh 0$
+      (b) $\cosh 0$
+    Back: |
+      (a) $0$
+      (b) $1$
+
+      ##### Full solution:
+      (a) $\sinh 0=\frac{1}{2}\left(e^{0}-e^{0}\right)=0$
+      (b) $\cosh 0=\frac{1}{2}\left(e^{0}+e^{0}\right)=\frac{1}{2}(1+1)=1$
+    Annotations: ''
+  tags: []
+- id: 1576611988458
+  fields:
+    Front: |
+      APPM 1350 WA37-05:
+      Find the numerical value of each expression. (Round your answers to five decimal places.)
+
+      (a) $\tanh 0$
+      (b) $\tanh 1$
+    Back: |
+      (a) $0$
+      (b) $0.76159$
+
+      ##### Full solution:
+      (a) $\tanh 0=\frac{\left(e^{0}-e^{0}\right) / 2}{\left(e^{0}+e^{0}\right) / 2}=0$
+      (b) $\tanh 1=\frac{e^{1}-e^{-1}}{e^{1}+e^{-1}}=\frac{e^{2}-1}{e^{2}+1} \approx 0.76159$
+    Annotations: ''
+  tags: []
+- id: 1576612069584
+  fields:
+    Front: |
+      APPM 1350 WA37-06:
+      Prove the identity.
+      $$$\cosh (-x)=\cosh x$$$ (This shows that $\cosh$ is an even function.)
+    Back: |
+      $\cosh (-x)=\frac{1}{2}\left[e^{-x}+e^{-(-x)}\right]=\frac{1}{2}\left(e^{-x}+e^{x}\right)=\cosh x$
+    Annotations: ''
+  tags: []
+- id: 1576612291183
+  fields:
+    Front: |
+      APPM 1350 WA37-07:
+      If $\tanh x=\frac{12}{13},$ find the values of the other hyperbolic functions at $x.$
+    Back: |
+      $\sinh x= 12/5$
+      $\cosh x= 13/5$
+      $\operatorname{coth} x= 13/12$
+      $\operatorname{sech} x= 5/13$
+      $\operatorname{csch} x= 5/12$
+
+      ##### Full solution:
+      $\operatorname{coth} x=\frac{1}{\tanh x} \Rightarrow \operatorname{coth} x=\frac{1}{\tanh x}=\frac{1}{12 / 13}=\frac{13}{12}$
+      $\operatorname{sech}^{2} x=1-\tanh ^{2} x=1-\left(\frac{12}{13}\right)^{2}=\frac{25}{169} \Rightarrow \operatorname{sech} x=\frac{5}{13}$ [$\operatorname{sech},$ like $\cosh,$ is positive].
+      $\cosh x=\frac{1}{\operatorname{sech} x} \quad \Rightarrow \quad \cosh x=\frac{1}{5 / 13}=\frac{13}{5}.$
+      $\tanh x=\frac{\sinh x}{\cosh x} \Rightarrow \sinh x=\tanh x \cosh x \quad \Rightarrow \quad \sinh x=\frac{12}{13} \cdot \frac{13}{5}$ $=\frac{12}{5}.$
+      $\operatorname{csch} x=\frac{1}{\sinh x} \quad \Rightarrow \quad \operatorname{csch} x=\frac{1}{12 / 5}=\frac{5}{12}$
+    Annotations: ''
+  tags: []
+- id: 1576612402483
+  fields:
+    Front: |
+      APPM 1350 WA37-08:
+      Find the derivative.
+      $$$
+      y=\sinh (\cosh (x))
+      $$$
+    Back: |
+      $$$y^{\prime}(x)=\cosh (\cosh (x)) \cdot \sinh (x)$$$
+
+      ##### Full solution:
+      $y=\sinh (\cosh (x)) \Rightarrow y^{\prime}=\cosh (\cosh (x)) \cdot \sinh (x)$
+    Annotations: ''
+  tags: []
+- id: 1576612677949
+  fields:
+    Front: |
+      APPM 1350 WA37-09:
+      The rate of change of atmospheric pressure $P$ with respect to altitude $h$ is proportional to $P,$ provided that the temperature is constant. At a specific temperature the pressure is $103.6 \text{ kPa}$ at sea level and $89.1\text{ kPa}$ at $h=1,000 \text{ m} .$ (Round your answers to one decimal place.)
+
+      (a) What is the pressure at an altitude of $2000 \text{ m} ?$
+      (b) What is the pressure at the top of a mountain that is $6158 \text{ m}$ high?
+    Back: |
+      (a) $76.6 \text{ kPa}$
+      (b) $40.9 \text{ kPa}$
+
+      ##### Full solution:
+      (a) Let $P(h)$ be the pressure at altitude $h .$ Then $d P / d h=k P \Rightarrow P(h)=$ $P(0) e^{k h}=103.6 e^{k h}.$ $P(1,000)=103.6 e^{1,000 k}=89.1 \Rightarrow 1,000 k=\ln \left(\frac{89.1}{103.6}\right) \Rightarrow$ $k=\frac{1}{1,000} \ln \left(\frac{89.1}{103.6}\right) \Rightarrow$ $P(h)=103.6 \mathrm{e}^{\frac{1}{1,000} h \ln \left(\frac{(10)}{100.6}\right)},$ so $P(2000)=103.6 e^{2 \ln \left(\frac{99.1}{10.6}\right)}$ $\approx 76.6 \mathrm{kPa}$
+
+      (b) $P(6158)=103.6 e^{\frac{\sin x}{1,000} \ln \left(\frac{A 1}{10.85}\right)} \approx 40.9 \mathrm{kPa}$
+    Annotations: ''
+  tags: []

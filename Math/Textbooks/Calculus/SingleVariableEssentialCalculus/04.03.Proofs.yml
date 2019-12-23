@@ -1,0 +1,37 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Proofs
+  - SingleVariableEssentialCalculus
+  - SVEC-04-Integrals
+  - SVEC-04.03-EvaluatingDefiniteIntegrals
+  markdownTabLength: 2
+notes:
+- id: 1572810859519
+  fields:
+    Front: |
+      SVEC 04.03 Proof 01:
+      ##### evaluation theorem
+      Prove the **Evaluation Theorem:** If $f$ is continuous on the interval $[a, b],$ then
+      $$$
+      \int_{a}^{b} f(x) d x=F(b)-F(a)
+      $$$
+      where $F$ is any antiderivative of $f,$ that is, $F^{\prime}=f.$
+    Back: |
+      We divide the interval $[a, b]$ into $n$ subintervals with endpoints $x_{0}(=a), x_{1}, x_{2}, \ldots, x_{n}(=b)$ and with length $\Delta x=(b-a) / n .$ Let $F$ be any antiderivative of $f .$ By subtracting and adding like terms, we can express the total difference in the $F$ values as the sum of the differences over the subintervals:
+
+      $$$\begin{aligned} F(b)-F(a) &=F\left(x_{n}\right)-F\left(x_{0}\right) \\ &=F\left(x_{n}\right)-F\left(x_{n-1}\right)+F\left(x_{n-1}\right)-F\left(x_{n-2}\right)+\cdots+F\left(x_{2}\right)-F\left(x_{1}\right)+F\left(x_{1}\right)-F\left(x_{0}\right) \\ &=\sum_{i=1}^{n}\left[F\left(x_{i}\right)-F\left(x_{i-1}\right)\right] \end{aligned}$$$
+      Now $F$ is continuous (because it's differentiable) and so we can apply the Mean Value Theorem to $F$ on each subinterval $\left[x_{i-1}, x_{i}\right] .$ Thus there exists a number $x_{i}^{*}$ between $x_{i-1}$ and $x_{i}$ such that
+
+      $$$F\left(x_{i}\right)-F\left(x_{i-1}\right)=F^{\prime}\left(x_{i}^{*}\right)\left(x_{i}-x_{i-1}\right)=f\left(x_{i}^{*}\right) \Delta x$$$
+      Therefore
+      $$$F(b)-F(a)=\sum_{i=1}^{n} f\left(x_{i}^{*}\right) \Delta x$$$
+      Now we take the limit of each side of this equation as $n \rightarrow \infty .$ The left side is a constant and the right side is a Riemann sum for the function $f,$ so
+      $$$F(b)-F(a)=\lim _{n \rightarrow \infty} \sum_{i=1}^{n} f\left(x_{i}^{*}\right) \Delta x=\int_{a}^{b} f(x) d x$$$
+      $\square$
+    Annotations: ''
+  tags: []

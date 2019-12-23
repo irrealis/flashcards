@@ -1,0 +1,110 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1350
+  - APPM-1350-WA20
+  - SingleVariableEssentialCalculus
+  - SVEC-03-ApplicationsOfDifferentiation
+  - SVEC-03.04-CurveSketching
+  - WebAssign
+  - Exam3
+  markdownTabLength: 2
+notes:
+- id: 1573081572794
+  fields:
+    Front: |
+      APPM 1350 WA20-02 03.04:
+      Find the critical numbers of the function.
+      $$$
+      g(y)=\frac{y-3}{y^{2}-3 y+9}
+      $$$
+    Back: |
+      $$$y = 0,6$$$
+
+      ##### Full solution:
+      $g(y)=\frac{y-3}{y^{2}-3 y+9} \Rightarrow g^{\prime}(y)=\frac{\left(y^{2}-3 y+9\right)(1)-(y-3)(2 y-3)}{\left(y^{2}-3 y+9\right)^{2}}$ $=\frac{y^{2}-3 y+9-\left(2 y^{2}-9 y+9\right)}{\left(y^{2}-3 y+9\right)^{2}}=\frac{-y^{2}+6 y}{\left(y^{2}-3 y+9\right)^{2}}=\frac{y(6-y)}{\left(y^{2}-3 y+9\right)^{2}}$
+      $g^{\prime}(y)=0 \Rightarrow \quad y=0,6 .$ The expression $y^{2}-3 y+9$ is never equal to $0,$ so $g^{\prime}(y)$ exists for all real numbers. The critical numbers are 0 and $6 .$
+    Annotations: ''
+  tags: []
+- id: 1573081884403
+  fields:
+    Front: |
+      APPM 1350 WA20-03 03.04:
+      Find the absolute maximum and absolute minimum values of $f$ on the given interval.
+      $$$
+      f(x)=\frac{x}{x^{2}-x+1},\quad[0,3]
+      $$$
+    Back: |
+      Abs. min: $0,$ abs. max: $1$
+
+      ##### Full solution:
+      $$$
+      f(x)=\frac{x}{x^{2}-x+1},[0,3]
+      $$$
+      $$$
+      \begin{aligned}
+        f^{\prime}(x)
+        &=\frac{\left(x^{2}-x+1\right)-x(2 x-1)}{\left(x^{2}-x+1\right)^{2}} \\
+        &=\frac{x^{2}-x+1-2 x^{2}+x}{\left(x^{2}-x+1\right)^{2}} \\
+        &=\frac{1-x^{2}}{\left(x^{2}-x+1\right)^{2}} \\
+        &=0 \Leftrightarrow x=\pm 1$
+      \end{aligned}
+      $$$ but $x=-1$ is not in the given interval, $[0,3] . f(0)=0, f(1)=1,$ and $f(3)=\frac{3}{7} .$ So $f(1)=1$ is the absolute maximum value and $f(0)=0$ is the absolute minimum.
+    Annotations: ''
+  tags: []
+- id: 1573082179393
+  fields:
+    Front: |
+      APPM 1350 WA20-04 03.04:
+      Let $f(x)=(x-3)^{-2} .$ Find all values of $c$ in $(1,4)$ such that $f(4)-f(1)=f^{\prime}(c)(4-1).$ Based off of the result, what conclusions can be made about the Mean Value Theorem?
+    Back: |
+      $c$ does not exist. This does not contradict the Mean Value Theorem since $f$ is not continuous at $x=3.$
+
+      ##### Full solution:
+      $f(x)=(x-3)^{-2} \Rightarrow f^{\prime}(x)=-2(x-3)^{-3}.$
+      $$$
+      \begin{aligned}
+        f(4)-f(1)=f^{\prime}(c)(4-1)
+        &\Rightarrow \frac{1}{1^{2}}-\frac{1}{(-2)^{2}}=\frac{-2}{(c-3)^{3}} \cdot 3 \\
+        &\Rightarrow \frac{3}{4}=\frac{-6}{(c-3)^{3}} \\
+        &\Rightarrow(c-3)^{3}=-8 \\
+        &\Rightarrow c-3=-2 \\
+        &\Rightarrow c=1
+      \end{aligned}
+      $$$ which is not in the open interval $(1,4) .$ This does not contradict the Mean Value Theorem since $f$ is not continuous at $x=3.$
+    Annotations: ''
+  tags: []
+- id: 1573082379869
+  fields:
+    Front: |
+      APPM 1350 WA20-05 03.04:
+      Find two numbers whose difference is 128 and whose product is a minimum.
+    Back: |
+      $-64, 64$
+
+      ##### Full solution:
+      The two numbers are $x+128$ and $x$. Minimize $f(x)=(x+128) x =x^{2}+128 x .$ $f^{\prime}(x)=2 x+128=0 \Rightarrow x=-64$. Since $f^{\prime \prime}(x) =2>0,$ there is an absolute minimum at $x=-64 .$ The two numbers are 64 and $-64 .$
+    Annotations: ''
+  tags: []
+- id: 1573082729769
+  fields:
+    Front: |
+      APPM 1350 WA20-06 03.04:
+      If $30,000 \text{ cm}^{2}$ of material is available to make a box with a square base and an open top, find the largest possible volume of the box.
+    Back: |
+      $500,000$
+
+      ##### Full solution:
+      Let $b$ be the length of the base of the box and $h$ the height. The surface area is $30000=b^{2}+4 h b \Rightarrow h=\left(30000-b^{2}\right) /(4 b) .$ The volume is
+      $$$
+      V= b^{2} h=b^{2}\left(30000-b^{2}\right) / 4 b = 7500 b-b^{3} / 4 \\
+      \Rightarrow V^{\prime}(b)=7500-\frac{3}{4} b^{2} \\
+      V^{\prime}(b)=0 \Rightarrow 7500=\frac{3}{4} b^{2} \\
+      \Rightarrow b^{2}=10000 \Rightarrow b=\sqrt{10000}=100
+      $$$ Since $V^{\prime}(b)>0$ for $0<b<100$ and $V^{\prime}(b)<0$ for $b>100,$ there is an absolute maximum when $b=100$ by the First Derivative Test for Absolute Extreme Values. If $b=100$, then $h=\left(30000-100^{2}\right) /(4 \cdot 100)=50,$ so the largest possible volume is $b^{2} h=(100)^{2}(50)=500000 \text{ cm}^{3}$.
+    Annotations: ''
+  tags: []

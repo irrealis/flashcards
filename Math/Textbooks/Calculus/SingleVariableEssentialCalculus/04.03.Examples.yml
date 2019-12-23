@@ -1,0 +1,152 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - SingleVariableEssentialCalculus
+  - SVEC-04-Integrals
+  - SVEC-04.03-EvaluatingDefiniteIntegrals
+  markdownTabLength: 2
+notes:
+- id: 1572811111594
+  fields:
+    Front: |
+      SVEC 04.03 Example 01:
+      ##### evaluation theorem
+      Evaluate $\int_{-2}^{1} x^{3} d x.$
+    Back: |
+      An antiderivative of $f(x)=x^{3}$ is $F(x)=\frac{1}{4} x^{4},$ so we use the Evaluation Theorem as follows:
+      $$$
+      \int_{-2}^{1} x^{3} d x=F(1)-F(-2)=\frac{1}{4}(1)^{4}-\frac{1}{4}(-2)^{4}=-\frac{15}{4}
+      $$$
+    Annotations: 'Trouble:<div>- 191103-1533: Arithmetic fail: wrote \(\int_a^b f(x)\,
+      dx = F(a) - F(b)\) instead of \(F(b) - F(a)\), which resulted in a sign flip.</div>'
+  tags:
+  - ann:trouble
+- id: 1572811339194
+  media:
+  - path: ${file_dir}/images/SVEC-04.03.Ex-02.1.jpg
+  fields:
+    Front: |
+      SVEC 04.03 Example 02:
+      ##### evaluation theorem
+      Find the area under the cosine curve from 0 to $b,$ where $0 \leqslant b \leqslant \pi / 2.$
+    Back: |
+      Since an antiderivative of $f(x)=\cos x$ is $F(x)=\sin x,$ we have
+      $$$\left.A=\int_{0}^{b} \cos x d x=\sin x\right]_{0}^{b}=\sin b-\sin 0=\sin b$$$ In particular, taking $b=\pi / 2,$ we have proved that the area under the cosine curve from $0 \text { to } \pi / 2 \text { is } \sin (\pi / 2)=1 .$ (See figure below.)
+      <p align="center">![](SVEC-04.03.Ex-02.1.jpg)</p>
+    Annotations: ''
+  tags: []
+- id: 1572812303744
+  fields:
+    Front: |
+      SVEC 04.03 Example 03:
+      ##### evaluating definite integrals
+      Find the general indefinite integral
+      $$$
+      \int\left(10 x^{4}-2 \sec ^{2} x\right) d x
+      $$$
+    Back: |
+      $$$
+      \begin{aligned} \int\left(10 x^{4}-2 \sec ^{2} x\right) d x &=10 \int x^{4} d x-2 \int \sec ^{2} x d x \\ &=10 \frac{x^{5}}{5}-2 \tan x+C \\ &=2 x^{5}-2 \tan x+C \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1572812393094
+  fields:
+    Front: |
+      SVEC 04.03 Example 04:
+      ##### evaluating definite integrals
+      Evaluate $\int_{0}^{3}\left(x^{3}-6 x\right) d x.$
+    Back: |
+      $$$
+      \begin{aligned} \int_{0}^{3}\left(x^{3}-6 x\right) d x &\left.=\frac{x^{4}}{4}-6 \frac{x^{2}}{2}\right]_{0}^{3} \\ &=\left(\frac{1}{4} \cdot 3^{4}-3 \cdot 3^{2}\right)-\left(\frac{1}{4} \cdot 0^{4}-3 \cdot 0^{2}\right) \\ &=\frac{81}{4}-27-0+0=-6.75 \end{aligned}
+      $$$
+    Annotations: 'Trouble:<div>- 191103-1547: Instruction fail. Evaluated as indefinite
+      integral instead of definite integral.</div>'
+  tags:
+  - ann:trouble
+- id: 1572812490069
+  fields:
+    Front: |
+      SVEC 04.03 Example 05:
+      ##### evaluating definite integrals
+      Find $\int_{0}^{12}(x-12 \sin x) d x.$
+    Back: |
+      $$$
+      \begin{aligned} \int_{0}^{12}(x-12 \sin x) d x &\left.=\frac{x^{2}}{2}-12(-\cos x)\right]_{0}^{12} \\ &=\frac{1}{2}(12)^{2}+12(\cos 12-\cos 0) \\ &=72+12 \cos 12-12 \\ &=60+12 \cos 12 \end{aligned}
+      $$$
+      This is the exact value of the integral. If a decimal approximation is desired, we can use a calculator to approximate $\cos 12 .$ Doing so, we get
+      $$$
+      \int_{0}^{12}(x-12 \sin x) d x \approx 70.1262
+      $$$
+    Annotations: 'Trouble:<div>- 191103-1550: Transcription fail: transcribed a +
+      to -.</div>'
+  tags:
+  - ann:trouble
+- id: 1572812654120
+  fields:
+    Front: |
+      SVEC 04.03 Example 06:
+      ##### evaluating definite integrals
+      Evaluate $\int_{1}^{9} \frac{2 t^{2}+t^{2} \sqrt{t}-1}{t^{2}} d t.$
+    Back: |
+      First we need to write the integrand in a simpler form by carrying out the division:
+      $$$
+      \begin{aligned}
+        \int_{1}^{9} \frac{2 t^{2}+t^{2} \sqrt{t}-1}{t^{2}} d t
+        &=\int_{1}^{9}\left(2+t^{1 / 2}-t^{-2}\right) d t \\
+        &\left.\left.=2 t+\frac{t^{3 / 2}}{\frac{3}{2}}-\frac{t^{-1}}{-1}\right]_{1}^{9}=2 t+\tfrac{2}{3} t^{3 / 2}+\frac{1}{t}\right]_{1}^{9} \\
+        &=\left[2 \cdot 9+\tfrac{2}{3}(9)^{3 / 2}+\frac{1}{9}\right]-\left(2 \cdot 1+\tfrac{2}{3} \cdot 1^{3 / 2}+\frac{1}{1}\right) \\
+        &=18+18+\tfrac{1}{9}-2-\tfrac{2}{3}-1=32 \tfrac{4}{9} \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1572814310919
+  fields:
+    Front: |
+      SVEC 04.03 Example 07:
+      ##### net change theorem
+      A particle moves along a line so that its velocity at time $t$ is $v(t)=t^{2}-t-6$ (measured in meters per second).
+      (a) Find the displacement of the particle during the time period $1 \leqslant t \leqslant 4$.
+      (b) Find the distance traveled during this time period.
+    Back: |
+      (a) The displacement is
+      $$$
+      \begin{aligned} s(4)-s(1) &=\int_{1}^{4} v(t) d t=\int_{1}^{4}\left(t^{2}-t-6\right) d t \\ &=\left[\frac{t^{3}}{3}-\frac{t^{2}}{2}-6 t\right]_{1}^{4}=-\frac{9}{2} \end{aligned}
+      $$$ This means that the particle's position at time $t=4$ is $4.5 \mathrm{m}$ to the left of its position at the start of the time period.
+
+      (b) Note that $v(t)=t^{2}-t-6=(t-3)(t+2)$ and so $v(t) \leqslant 0$ on the interval $[1,3]$ and $v(t) \geqslant 0$ on $[3,4] .$ Thus the distance traveled is
+      $$$
+      \begin{aligned} \int_{1}^{4}|v(t)| d t &=\int_{1}^{3}[-v(t)] d t+\int_{3}^{4} v(t) d t \\ &=\left[-\frac{t^{3}}{3}+\frac{t^{2}}{2}+6 t\right]_{1}^{3}+\left[\frac{t^{3}}{3}-\frac{t^{2}}{2}-6 t\right]_{3}^{4} \\ &=\frac{61}{6} \approx 10.17 \mathrm{m} \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1572814645095
+  media:
+  - path: ${file_dir}/images/SVEC-04.03.Ex-08.1.jpg
+  fields:
+    Front: |
+      SVEC 04.03 Example 08:
+      ##### net change theorem
+      The figure below shows the power consumption in the city of San Francisco for a day in September $(P$ is measured in megawatts; $t$ is measured in hours starting at midnight). Estimate the energy used on that day.
+      <p align="center">![](SVEC-04.03.Ex-08.1.jpg)</p>
+    Back: |
+      Power is the rate of change of energy: $P(t)=E^{\prime}(t) .$ So, by the Net Change Theorem,
+      $$$
+      \int_{0}^{24} P(t) d t=\int_{0}^{24} E^{\prime}(t) d t=E(24)-E(0)
+      $$$ is the total amount of energy used on that day. We approximate the value of the integral using the Midpoint Rule with 12 subintervals and $\Delta t=2$ :
+      $$$
+      \begin{aligned}
+        \int_{0}^{24} P(t) d t
+        &\approx [P(1)+P(3)+f(5)+\cdots+P(21)+P(23)] \Delta t \\
+        &\approx (440+400+420+620+790+840+850 \\
+        &\quad +840+810+690+670+550)(2) \\
+        &= 15,840
+      \end{aligned}
+      $$$ The energy used was approximately $15,840$ megawatt-hours.
+    Annotations: ''
+  tags: []

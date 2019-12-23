@@ -1,0 +1,133 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - SingleVariableEssentialCalculus
+  - SVEC-05-InverseFunctions
+  - SVEC-05.04-GeneralLogarithmicAndExponentialFunctions
+  markdownTabLength: 2
+notes:
+- id: 1574374591169
+  fields:
+    Front: |
+      SVEC 05.04 Example 01:
+      ##### general exponential functions
+      Differentiate $10^{x^{2}} .$
+    Back: |
+      Combining the differentiation formula for general exponential functions with the Chain Rule, we have
+      $$$
+      \frac{d}{d x}\left(10^{x^{2}}\right)=10^{x^{2}}(\ln 10) \frac{d}{d x}\left(x^{2}\right)=(2 \ln 10) x 10^{x^{2}}
+      $$$
+    Annotations: 'Trouble:<div>- 191121-1718: memory/alertness: used wrong formula
+      for derivative of general exponential (I incorrectly used the formula for the
+      derivative of general logarithm).</div>'
+  tags:
+  - ann:trouble
+- id: 1574375076895
+  media:
+  - path: ${file_dir}/images/SVEC-05.04.Ex-01b.1.jpg
+  - path: ${file_dir}/images/SVEC-05.04.Ex-01b.2.jpg
+  fields:
+    Front: |
+      SVEC 05.04 Example 01.1:
+      ##### general exponential graphs
+      (a) Graph $a^x$ if $a > 1 .$
+      (b) Graph $a^x$ if $0 < a < 1 .$
+    Back: |
+      (a) If $a>1,$ then $\ln a>0,$ so $(d / d x) a^{x}=a^{x} \ln a>0,$ which shows that $y=a^{x}$ is increasing (see figure below).
+      <p align="center">
+      ![](SVEC-05.04.Ex-01b.1.jpg)
+      $\lim _{x \rightarrow-\infty} a^{x}=0, \lim _{x \rightarrow \infty} a^{x}=\infty$
+      $y=a^{x}, a>1$
+      </p>
+      (b) If $0<a<1,$ then $\ln a<0$ and so $y=a^{x}$ is decreasing
+      (see figure below).
+      <p align="center">
+      ![](SVEC-05.04.Ex-01b.2.jpg)
+      $\lim _{x \rightarrow-\infty} a^{x}=\infty, \lim _{x \rightarrow \infty} a^{x}=0$
+      $y=a^{x}, 0<a<1$
+      </p>
+    Annotations: 'Trouble:<div>- 191121-1721: memory/alertness: somehow I got the
+      graphs right, but the conditions wrong as I labeled the graphs.</div>'
+  tags:
+  - ann:trouble
+- id: 1574375627544
+  fields:
+    Front: |
+      SVEC 05.04 Example 02:
+      ##### general exponential integrals
+      Compute $\int_{0}^{5} 2^{x} d x .$
+    Back: |
+      $$$\left.\int_{0}^{5} 2^{x} d x=\frac{2^{x}}{\ln 2}\right]_{0}^{5}=\frac{2^{5}}{\ln 2}-\frac{2^{0}}{\ln 2}=\frac{31}{\ln 2}$$$
+    Annotations: ''
+  tags: []
+- id: 1574376505569
+  media:
+  - path: ${file_dir}/images/SVEC-05.04.Ex-03.1.jpg
+  fields:
+    Front: |
+      SVEC 05.04 Example 03:
+      ##### the power rule revisited
+      Differentiate $y=x^{\sqrt{x}} .$
+    Back: |
+      Solution 1: Using logarithmic differentiation, we have
+      $$$
+      \begin{aligned}
+        \ln y &= \ln x^{\sqrt{x}}=\sqrt{x} \ln x \\
+        \frac{y^{\prime}}{y} &= \sqrt{x} \cdot \frac{1}{x}+(\ln x) \frac{1}{2 \sqrt{x}} \\
+        y^{\prime} &= y\left(\frac{1}{\sqrt{x}}+\frac{\ln x}{2 \sqrt{x}}\right)=x^{\sqrt{x}}\left(\frac{2+\ln x}{2 \sqrt{x}}\right)
+      \end{aligned}
+      $$$
+      Solution 2: Another method is to write $x^{\sqrt{x}}=\left(e^{\ln x}\right)^{\sqrt{x}}$.
+      $$$
+      \begin{aligned}
+        \frac{d}{d x}\left(x^{\sqrt{x}}\right)
+        &=\frac{d}{d x}\left(e^{\sqrt{x} \ln x}\right)=e^{\sqrt{x} \ln x} \frac{d}{d x}(\sqrt{x} \ln x) \\
+        &=x^{\sqrt{x}}\left(\frac{2+\ln x}{2 \sqrt{x}}\right)
+      \end{aligned}
+      $$$
+
+      The figure below illustrates this example by showing the graphs of $f(x)=x^{\sqrt{x}}$ and its derivative.
+      <p align="center">![](SVEC-05.04.Ex-03.1.jpg)</p>
+    Annotations: 'Trouble:<div>- 191121-1732: Knowledge: I incorrectly assumed I could
+      use the power rule, but I''m not sure where the flaw is in my reasoning. (This
+      probably reflects lack of intuition for the proof of the power rule.)</div><div>&nbsp;
+      &nbsp; - 191121-1750: The flaw is that \(x^{\sqrt{x}}\) is not a power function.
+      Now the question is: what kind of function is \(f(x)^{g(x)}\)? Exponential?</div><div>&nbsp;
+      &nbsp; &nbsp; &nbsp; - Doesn''t matter, because it can be addressed using logarithmic
+      differentiation.</div><div>- 191121-1752: Used logarithmic differentiation,
+      but forgot that <b>logarithmic differentiation is implicit differentiation</b>&nbsp;so
+      one <b>must solve the result for \(y^{\prime}\).</b></div><div><br></div><div>Thoughts:</div><div>-
+      191121-1752: I think the <b>key insight</b>&nbsp;here is that functions of the
+      form \(\frac{d}{dx} f(x)^{g(x)}\) can be approached using logarithmic differentiation.</div><div>-
+      191121-1832: This can also be solved by writing \(x^{\sqrt{x}} = e^{\sqrt{x}
+      \cdot \ln x}\) or in the general case \(f(x)^{g(x)} = e^{g(x) \cdot \ln f(x)}\),
+      and then differentiating.</div>'
+  tags:
+  - ann:thoughts
+  - ann:trouble
+- id: 1574377193426
+  fields:
+    Front: |
+      SVEC 05.04 Example 04:
+      ##### general logarithm functions
+      Evaluate $\log_{8} 5$ correct to six decimal places.
+    Back: |
+      The Change of Base Formula gives
+      $$$\log _{8} 5=\frac{\ln 5}{\ln 8} \approx 0.773976$$$
+    Annotations: ''
+  tags: []
+- id: 1574377532802
+  fields:
+    Front: |
+      SVEC 05.04 Example 05:
+      ##### general logarithm functions
+      Compute $\frac{d}{d x} \log _{10}(2+\sin x) .$
+    Back: |
+      $$$\begin{aligned} \frac{d}{d x} \log _{10}(2+\sin x) &=\frac{1}{(2+\sin x) \ln 10} \frac{d}{d x}(2+\sin x) \\ &=\frac{\cos x}{(2+\sin x) \ln 10} \end{aligned}$$$
+    Annotations: ''
+  tags: []

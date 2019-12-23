@@ -1,0 +1,112 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1350-WA10
+  - APPM-1350-Section02.02
+  markdownTabLength: 2
+notes:
+- id: 1571014633804
+  fields:
+    Front: |
+      APPM 1350 WebAssign 10 S2.2 03:
+      (a) Find the derivative of the function using the definition of derivative.
+      $$$$
+      g(t)=\frac{9}{\sqrt{t}}
+      $$$$
+      (b) State the domain of the function.
+      (c) State the domain of its derivative.
+    Back: |
+      (a)
+      $$$$
+      g^{\prime}(t)= -\frac{9}{2 t^{3/2}}
+      $$$$
+      (b) $(0, \infty)$
+      (c) $(0, \infty)$
+    Annotations: ''
+  tags: []
+- id: 1571014918805
+  fields:
+    Front: |
+      APPM 1350 WebAssign 10 S2.2 04:
+      (a) Find the derivative of the function using the definition of derivative.
+      $$$$
+      g(x)=\sqrt{1-x}
+      $$$$
+      (b) State the domain of the function.
+      (c) State the domain of its derivative.
+    Back: |
+      (a)
+      $$$$
+      g^{\prime}(x)= -\frac{1}{2 \sqrt{1-x}}
+      $$$$
+      (b) $(-\infty, 1]$
+      (c) $(-\infty, 1)$
+    Annotations: ''
+  tags: []
+- id: 1571014988629
+  fields:
+    Front: |
+      APPM 1350 WebAssign 10 S2.2 05:
+      If $f(x)=x^{4}+6 x,$ find $f^{\prime}(x)$.
+    Back: |
+      $$$$
+      f^{\prime}(x)=4 x^{3}+6
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1571015162128
+  media:
+  - path: ${file_dir}/images/APPM-1350-WA10-06.1.jpg
+  fields:
+    Front: |
+      APPM 1350 WebAssign 10 S2.2 06:
+      The graph of $f$ is given. State the numbers at which $f$ is not differentiable.
+      ![](APPM-1350-WA10-06.1.jpg)
+    Back: |
+      $x=-4,0$
+    Annotations: ''
+  tags: []
+- id: 1571015241255
+  media:
+  - path: ${file_dir}/images/APPM-1350-WA10-07.1.jpg
+  fields:
+    Front: |
+      APPM 1350 WebAssign 10 S2.2 07:
+      The graph of $f$ is given. State the numbers at which $f$ is not differentiable.
+      ![](APPM-1350-WA10-07.1.jpg)
+    Back: |
+      $x=-1,4$
+    Annotations: ''
+  tags: []
+- id: 1571015291904
+  fields:
+    Front: |
+      APPM 1350 WebAssign 10 S2.2 08:
+      Differentiate.
+      $$$$
+      f(x)=3 x^{8}-5 \cos x
+      $$$$
+    Back: |
+      $$$$
+      f^{\prime}(x)=24 x^{7}+5 \sin (x)
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1571015345881
+  fields:
+    Front: |
+      APPM 1350 WebAssign 10 S2.2 09:
+      Differentiate the function.
+      $$$$
+      h(x)=(x-2)(3 x+4)
+      $$$$
+    Back: |
+      $$$$
+      h^{\prime}(x)=6 x-2
+      $$$$
+    Annotations: ''
+  tags: []

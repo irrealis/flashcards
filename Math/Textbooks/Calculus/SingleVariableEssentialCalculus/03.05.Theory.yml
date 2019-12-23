@@ -1,0 +1,131 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theory
+  - SingleVariableEssentialCalculus
+  - SVEC-03-ApplicationsOfDifferentiation
+  - SVEC-03.05-OptimizationProblems
+  markdownTabLength: 2
+notes:
+- id: 1573072901369
+  fields:
+    Front: |
+      SVEC 03.05 Theory 01:
+      ##### steps in solving optimization problems
+      List the basic steps in solving optimization problems.
+    Back: |
+      1. Draw a diagram.
+      2. Assign variables to unknown quantities.
+      3. Maximize or minimize which quantity?
+      4. Find a function $f$ of one variable that represents the quantity to be optimized. Perform a substitution if there is more than one variable.
+      5. Find the absolute maximum or minimum value of $f$ on the given domain.
+    Annotations: ''
+  tags: []
+- id: 1573074579319
+  fields:
+    Front: |
+      SVEC 03.05 Theory 02:
+      ##### first derivative test for absolute extreme values
+      State the **First Derivative Test for Absolute Extreme Values.**
+    Back: |
+      Suppose that $c$ is a critical number of a continuous function $f$ defined on an interval.
+      (a) If $f^{\prime}(x)>0$ for all $x<c$ and $f^{\prime}(x)<0$ for all $x>c$, then $f(c)$ is the absolute maximum value of $f$.
+      (b) If $f^{\prime}(x)<0$ for all $x<c$ and $f^{\prime}(x)>0$ for all $x>c,$ then $f(c)$ is the absolute minimum value of $f$.
+    Annotations: ''
+  tags: []
+- id: 1573082343619
+  fields:
+    Front: |
+      SVEC 03.05 Theory 03:
+      ##### applications to business and economics
+      What is a **cost function?**
+    Back: |
+      $C(x),$ the **cost function,** is the cost of producing $x$ units of a certain product.
+    Annotations: ''
+  tags: []
+- id: 1573082343768
+  fields:
+    Front: |
+      SVEC 03.05 Theory 04:
+      ##### applications to business and economics
+      What is a **marginal cost?**
+    Back: |
+      If $C(x),$ the **cost function,** is the cost of producing $x$ units of a certain product, then the **marginal cost** is the rate of change of $C$ with respect to $x .$ In other words, the marginal cost function is the derivative, $C^{\prime}(x),$ of the cost function.
+    Annotations: ''
+  tags: []
+- id: 1573082343918
+  fields:
+    Front: |
+      SVEC 03.05 Theory 05:
+      ##### applications to business and economics
+      What is a **demand function** or **price function?**
+    Back: |
+      In marketing, let $p(x)$ be the price per unit that the company can charge if it sells $x$ units. Then $p$ is called the **demand function** (or **price function**) and we would expect it to be a decreasing function of $x .$
+    Annotations: ''
+  tags: []
+- id: 1573082344083
+  fields:
+    Front: |
+      SVEC 03.05 Theory 06:
+      ##### applications to business and economics
+      What is a **revenue function?**
+    Back: |
+      Let $p(x)$ be the price per unit that the company can charge if it sells $x$ units. Then $p$ is called the **demand function** (or **price function**) and we would expect it to be a decreasing function of $x .$ If $x$ units are sold and the price per unit is $p(x),$ then the total revenue is
+      $$$
+      R(x)=x p(x)
+      $$$ and $R$ is called the **revenue function**.
+    Annotations: ''
+  tags: []
+- id: 1573082344266
+  fields:
+    Front: |
+      SVEC 03.05 Theory 07:
+      ##### applications to business and economics
+      What is a **marginal revenue function?**
+    Back: |
+      Let $p(x)$ be the price per unit that the company can charge if it sells $x$ units. Then $p$ is called the **demand function** (or **price function**) and we would expect it to be a decreasing function of $x .$ If $x$ units are sold and the price per unit is $p(x),$ then the total revenue is
+      $$$
+      R(x)=x p(x)
+      $$$ and $R$ is called the **revenue function**. The derivative $R^{\prime}$ of the revenue function is called the **marginal revenue function** and is the rate of change of revenue with respect to the number of units sold.
+    Annotations: ''
+  tags: []
+- id: 1573082344444
+  fields:
+    Front: |
+      SVEC 03.05 Theory 08:
+      ##### applications to business and economics
+      What is a **profit function?**
+    Back: |
+      Let $p(x)$ be the price per unit that the company can charge if it sells $x$ units. Then $p$ is called the **demand function** (or **price function**) and we would expect it to be a decreasing function of $x .$ If $x$ units are sold and the price per unit is $p(x),$ then the total revenue is
+      $$$
+      R(x)=x p(x)
+      $$$ and $R$ is called the **revenue function**. The derivative $R^{\prime}$ of the revenue function is called the **marginal revenue function** and is the rate of change of revenue with respect to the number of units sold.
+
+      If $x$ units are sold, then the total profit is
+      $$$
+      P(x)=R(x)-C(x)
+      $$$ and $P$ is called the **profit function.**
+    Annotations: ''
+  tags: []
+- id: 1573082344600
+  fields:
+    Front: |
+      SVEC 03.05 Theory 09:
+      ##### applications to business and economics
+      What is a **marginal profit function?**
+    Back: |
+      Let $p(x)$ be the price per unit that the company can charge if it sells $x$ units. Then $p$ is called the **demand function** (or **price function**) and we would expect it to be a decreasing function of $x .$ If $x$ units are sold and the price per unit is $p(x),$ then the total revenue is
+      $$$
+      R(x)=x p(x)
+      $$$ and $R$ is called the **revenue function**. The derivative $R^{\prime}$ of the revenue function is called the **marginal revenue function** and is the rate of change of revenue with respect to the number of units sold.
+
+      If $x$ units are sold, then the total profit is
+      $$$
+      P(x)=R(x)-C(x)
+      $$$ and $P$ is called the **profit function.** The **marginal profit function** is $P^{\prime},$ the derivative of the profit function.
+    Annotations: ''
+  tags: []

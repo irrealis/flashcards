@@ -1,0 +1,136 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1350
+  - APPM-1350-WA38
+  - SingleVariableEssentialCalculus
+  - SVEC-05-InverseFunctions
+  - SVEC-05.07-HyperbolicFunctions
+  - SVEC-05.08-IndeterminateFormsAndLHospitalsRule
+  - WebAssign
+  - Exam4
+  markdownTabLength: 2
+notes:
+- id: 1576613040657
+  fields:
+    Front: |
+      APPM 1350 WA38-01:
+      Find the derivative.
+      $$$
+      h(x)=\ln (\cosh (8 x))
+      $$$
+    Back: |
+      $$$h^{\prime}(x)= 8 \tanh (8 x)$$$
+
+      ##### Full solution:
+      $h(x)=\ln (\cosh (8 x)) \Rightarrow h^{\prime}(x)=\frac{1}{\cosh (8 x)}(\cosh (8 x))^{\prime}=\frac{8 \sinh (8 x)}{\cosh (8 x)}=$ $8 \tanh (8 x)$
+    Annotations: ''
+  tags: []
+- id: 1576613099084
+  fields:
+    Front: |
+      APPM 1350 WA38-02:
+      Evaluate $\lim _{x \rightarrow \infty} \frac{\sinh x}{e^{x}}.$
+    Back: |
+      $$$0.5$$$
+
+      ##### Full solution:
+      $\lim _{x \rightarrow \infty} \frac{\sinh x}{e^{x}}=\lim _{x \rightarrow \infty} \frac{e^{x}-e^{-x}}{2 e^{x}}=\lim _{x \rightarrow \infty} \frac{1-e^{-2 x}}{2}=\frac{1-0}{2}=\frac{1}{2}$
+    Annotations: ''
+  tags: []
+- id: 1576613181283
+  fields:
+    Front: |
+      APPM 1350 WA38-03:
+      Find the limit. Use I'Hospital's Rule if appropriate. If there is a more elementary method, consider using it.
+      $$$
+      \lim _{x \rightarrow 0} \frac{\sin 8 x}{\tan 5 x}
+      $$$
+    Back: |
+      $$$\frac{8}{5}$$$
+
+      ##### Full solution:
+      This limit has the form $\frac{0}{0}$.
+      $\lim _{x \rightarrow 0} \frac{\sin 8 x}{\tan 5 x} \stackrel{\text { H }}{=} \lim _{x \rightarrow 0} \frac{8 \cos 8 x}{5 \sec ^{2}(5 x)}=\frac{8(1)}{5(1)^{2}}=\frac{8}{5}$
+    Annotations: ''
+  tags: []
+- id: 1576613325457
+  fields:
+    Front: |
+      APPM 1350 WA38-04:
+      Find the limit. Use I'Hospital's Rule where appropriate. If there is a more elementary method, consider using it.
+      $$$\lim _{x \rightarrow 0} \frac{x 6^{x}}{6^{x}-1}$$$
+    Back: |
+      $$$\frac{1}{\ln (6)}$$$
+
+      ##### Full solution:
+      This limit has the form $\frac{0}{0}.$ $\lim _{x \rightarrow 0} \frac{x 6^{x}}{6^{x}-1} \stackrel{\mathrm{H}}{=} \lim _{x \rightarrow 0} \frac{x 6^{x} \ln 6+6^{x}}{6^{x} \ln 6}$ $=\lim _{x \rightarrow 0} \frac{6^{x}(x \ln 6+1)}{6^{x} \ln 6}$ $=\lim _{x \rightarrow 0} \frac{x \ln 6+1}{\ln 6}=\frac{1}{\ln 6}$
+    Annotations: ''
+  tags: []
+- id: 1576613452010
+  fields:
+    Front: |
+      APPM 1350 WA38-05:
+      Find the limit. Use I'Hospital's Rule if appropriate. If there is a more elementary method, consider using it.
+      $$$\lim _{x \rightarrow 1} \frac{1-x+\ln x}{1+\cos 3 \pi x}$$$
+    Back: |
+      $$$-\frac{1}{9 \pi^{2}}$$$
+
+      ##### Full solution:
+      This limit has the form $\frac{0}{0}.$ $\lim _{x \rightarrow 1} \frac{1-x+\ln x}{1+\cos 3 \pi x} \stackrel{\mathrm{w}}{=} \lim _{x \rightarrow 1} \frac{-1+1 / x}{-3 \pi \sin 3 \pi x}$ $\stackrel{\mathrm{M}}{=} \lim _{x \rightarrow 1} \frac{-1 / x^{2}}{-9 \pi^{2} \cos 3 \pi x}=$ $\frac{-1}{-9 \pi^{2}(-1)}=-\frac{1}{9 \pi^{2}}$
+    Annotations: ''
+  tags: []
+- id: 1576613534932
+  fields:
+    Front: |
+      APPM 1350 WA38-06:
+      Find the limit. Use I'Hospital's Rule if appropriate. If there is a more elementary method, consider using it.
+      $$$\lim _{x \rightarrow 0} \frac{x}{\tan ^{-1}(4 x)}$$$
+    Back: |
+      $$$\frac{1}{4}$$$
+
+      ##### Full solution:
+      This limit has the form $\frac{0}{0}.$ $\lim _{x \rightarrow 0} \frac{x}{\arctan (4 x)} \stackrel{\mathrm{H}}{=} \lim _{x \rightarrow 0} \frac{1}{\frac{1}{1+(4 x)^{2}} \cdot 4}$ $=\lim _{x \rightarrow 0} \frac{1+16 x^{2}}{4}=\frac{1}{4}$
+    Annotations: ''
+  tags: []
+- id: 1576613663583
+  fields:
+    Front: |
+      APPM 1350 WA38-07:
+      Find the limit. Use I'Hospital's Rule if appropriate. If there is a more elementary method, consider using it.
+      $$$\lim _{x \rightarrow 0} \frac{e^{2 x}-e^{-2 x}-4 x}{x-\sin x}$$$
+    Back: |
+      $$$16$$$
+
+      ##### Full solution:
+      This limit has the form $\frac{0}{0}.$ $\lim _{x \rightarrow 0} \frac{e^{2 x}-e^{-2 x}-4 x}{x-\sin x} \stackrel{\mathrm{u}}{=} \lim _{x \rightarrow 0} \frac{2 e^{2 x}+2 e^{-2 x}-4}{1-\cos x}$ $\stackrel{\mathrm{H}}{=} \lim _{x \rightarrow 0} \frac{4 e^{2 x}-4 e^{-2 x}}{\sin x}$ $\stackrel{\mathrm{H}}{=} \lim _{x \rightarrow 0} \frac{8 e^{2 x}+8 e^{-2 x}}{\cos x}$ $=\frac{8+8}{1}=16$
+    Annotations: ''
+  tags: []
+- id: 1576613872623
+  fields:
+    Front: |
+      APPM 1350 WA38-08:
+      Find the derivative of the function.
+      $$$y=\arctan (\sqrt{\frac{1+x}{1-x}})$$$
+    Back: |
+      $$$y^{\prime}= \frac{1}{2 \sqrt{1-x^{2}}}$$$
+
+      ##### Full solution:
+      $$$
+      \begin{aligned}
+      y=& \arctan (\sqrt{\frac{1+x}{1-x}})=\arctan \left(\left(\frac{1+x}{1-x}\right)^{1 / 2}\right) \\
+      \Rightarrow y^{\prime}=& \frac{1}{1+(\sqrt{\frac{1+x}{1-x}})^{2}} \cdot \frac{d}{d x}\left(\frac{1+x}{1-x}\right)^{1 / 2} \\
+      \Rightarrow y^{\prime}=& \frac{1}{1+\frac{1+x}{1-x}} \cdot \frac{1}{2}\left(\frac{1+x}{1-x}\right)^{-1 / 2} \cdot \frac{(1-x)(1)-(1+x)(-1)}{(1-x)^{2}} \\
+      \Rightarrow y^{\prime}=& \frac{1}{\frac{1-x}{1-x}+\frac{1+x}{1-x}} \cdot \frac{1}{2}\left(\frac{1-x}{1+x}\right)^{1 / 2} \cdot \frac{2}{(1-x)^{2}} \\
+      \Rightarrow y^{\prime}=& \frac{1-x}{2} \cdot \frac{1}{2} \cdot \frac{(1-x)^{1 / 2}}{(1+x)^{1 / 2}} \cdot \frac{2}{(1-x)^{2}} \\
+      \Rightarrow y^{\prime}=& \frac{1}{2(1-x)^{1 / 2}(1+x)^{1 / 2}} \\
+      \Rightarrow y^{\prime}=& \frac{1}{2 \sqrt{1-x^{2}}}
+      \end{aligned}
+      $$$
+    Annotations: ''
+  tags:
+  - Editing

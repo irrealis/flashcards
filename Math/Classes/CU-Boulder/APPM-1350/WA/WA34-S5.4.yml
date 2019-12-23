@@ -1,0 +1,176 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1350
+  - APPM-1350-WA34
+  - SingleVariableEssentialCalculus
+  - SVEC-05-InverseFunctions
+  - SVEC-05.04-GeneralLogarithmicAndExponentialFunctions
+  - WebAssign
+  - Exam4
+  markdownTabLength: 2
+notes:
+- id: 1576466559133
+  fields:
+    Front: |
+      APPM 1350 WA34-02a:
+      Find the exact value of the expression (without a calculator).
+      $$$\ln (1 / e)$$$
+    Back: |
+      $$$-1$$$
+
+      ##### Full solution:
+      $\ln (1 / e)=\ln 1-\ln e=0-1=-1$
+    Annotations: ''
+  tags: []
+- id: 1576466649382
+  fields:
+    Front: |
+      APPM 1350 WA34-02b:
+      Find the exact value of the expression (without a calculator).
+      $$$\log _{11} \sqrt{11}$$$
+    Back: |
+      $$$1/2$$$
+
+      ##### Full solution:
+      $\log _{11} \sqrt{11}=\log _{11} 11^{1 / 2}=\frac{1}{2}$
+    Annotations: ''
+  tags: []
+- id: 1576466729532
+  fields:
+    Front: |
+      APPM 1350 WA34-03a:
+      Find the exact value of the expression (without a calculator).
+      $$$\log _{3} 12-\log _{3} 28+\log _{3} 63$$$
+    Back: |
+      $$$3$$$
+
+      ##### Full solution:
+      $$$\begin{aligned} \log _{3} 12-\log _{3} 28+\log _{3} 63 &=\log _{3}\left(\frac{12}{28}\right)+\log _{3} 63 \quad[\text { by } \operatorname{Law} 2] \\ &=\log _{3}\left(\frac{12}{28} \cdot 63\right) \\ &=\log _{3} 27, \\
+      &\text { and } \log _{3} 27=3 \text { since } 3^{3}=27 \end{aligned}$$$
+    Annotations: ''
+  tags: []
+- id: 1576466850109
+  fields:
+    Front: |
+      APPM 1350 WA34-03b:
+      Find the exact value of the expression (without a calculator).
+      $$$\log _{5} 240-\log _{5} 75-\log _{5} 80$$$
+    Back: |
+      $$$-2$$$
+
+      ##### Full solution:
+      $$$\begin{aligned} \log _{5} 240-\log _{5} 75-\log _{5} 80 &=\log _{5}\left(\frac{240}{75}\right)-\log _{5} 80 \\
+      &=\log _{5}\left(\frac{240}{75 \cdot 80}\right) \\ &=\log _{5}\left(\frac{1}{25}\right),  \\
+      &\text { and } \log _{5}\left(\frac{1}{25}\right)=-2 \text { since } 5^{-2}=\frac{1}{25} \end{aligned}$$$
+    Annotations: ''
+  tags: []
+- id: 1576467111583
+  media:
+  - path: ${file_dir}/images/APPM-1350-WA34-04.1.jpg
+  fields:
+    Front: |
+      APPM 1350 WA34-04:
+      Find the exponential function $f(x)=C a^{x}$ whose graph is given.
+      <p align="center">
+      ![](APPM-1350-WA34-04.1.jpg)
+      </p>
+    Back: |
+      $$$f(x)=4\left(5^{x}\right)$$$
+
+      ##### Full solution:
+      Use $y=C a^{x}$ with the points $(1,20)$ and $(3,500).$ $20=C a^{1} \quad\left[C=\frac{20}{a}\right]$ and $500=C a^{4} \Rightarrow 500=\left(\frac{20}{a}\right) a^{3} \Rightarrow$ $25=a^{2} \Rightarrow a=5$ [since $a>0$] and $C=\frac{20}{5}=4 .$ The function is $f(x)=4 \cdot 5^{x}$.
+    Annotations: ''
+  tags: []
+- id: 1576467313206
+  media:
+  - path: ${file_dir}/images/APPM-1350-WA34-05.1.jpg
+  fields:
+    Front: |
+      APPM 1350 WA34-05:
+      Find the exponential function $f(x)=C a^{x}$ whose graph is given.
+      <p align="center">
+      ![](APPM-1350-WA34-05.1.jpg)
+      </p>
+    Back: |
+      $$$f(x)=2 \cdot\left(\frac{1}{9}\right)^{x}$$$
+
+      ##### Full solution:
+      Given the $y$ -intercept $(0,2),$ we have $y=C a^{x}=2 a^{x} .$ Using the point $\left(2, \frac{2}{81}\right)$ gives us $\frac{2}{81}=2 a^{2} \Rightarrow \frac{1}{81}=a^{2} \Rightarrow a=\frac{1}{9}$ [since $a>0$]. The function is $f(x)=2\left(\frac{1}{9}\right)^{x}$ or $f(x)=2(9)^{-x}$.
+    Annotations: ''
+  tags: []
+- id: 1576467453683
+  fields:
+    Front: |
+      APPM 1350 WA34-06:
+      Use logarithmic differentiation or an alternative method to find the derivative of the function.
+      $$$
+      y=\sqrt{x}^{9 x}
+      $$$
+    Back: |
+      $$$y^{\prime} = \frac{9}{2}(\ln (x)+1)\left(x^{\frac{9}{2} x}\right)$$$
+
+      ##### Full solution:
+      $y=(\sqrt{x})^{9 x} \Rightarrow \ln y=\ln \left((\sqrt{x})^{9 x}\right) \Rightarrow \ln y=9 x \ln x^{1 / 2} \Rightarrow$ $\ln y=\frac{9}{2} x \ln x \Rightarrow \frac{1}{y} y^{\prime}=\frac{9}{2} x \cdot \frac{1}{x}+\ln x \cdot \frac{9}{2} \Rightarrow$ $y^{\prime}=y\left(\frac{9}{2}+\frac{9}{2} \ln x\right) \quad \Rightarrow \quad y^{\prime}=\frac{9}{2}(\sqrt{x})^{9 x}(1+\ln x)$
+    Annotations: ''
+  tags: []
+- id: 1576467624183
+  fields:
+    Front: |
+      APPM 1350 WA34-08:
+      Find the domain of the function.
+      $$$
+      g(x)=\log _{3}\left(x^{2}-9\right)
+      $$$
+    Back: |
+      $$$(-\infty,-3) \cup(3, \infty)$$$
+    Annotations: ''
+  tags: []
+- id: 1576467699483
+  fields:
+    Front: |
+      APPM 1350 WA34-09:
+      Evaluate the definite integral.
+      $$$
+      \int_{1}^{2} \frac{e^{1 / x^{5}}}{x^{6}} d x
+      $$$
+    Back: |
+      $$$\frac{1}{5}(e-\sqrt[3]{c})$$$
+
+      ##### Full solution:
+      Let $u=1 / x^{5},$ so $d u=-5 / x^{6} d x .$ When $x=1, u=1 ;$ when $x=2$, $u=\frac{1}{32} .$ Thus, $\int_{1}^{2} \frac{e^{1 / x^{5}}}{x^{6}} d x=\int_{1}^{\frac{1}{32}} e^{u}\left(-\frac{1}{5} d u\right)=-\frac{1}{5}\left[e^{u}\right]_{1}^{\frac{1}{12}}=\frac{1}{5}(e-\sqrt[22]{e})$.
+    Annotations: ''
+  tags: []
+- id: 1576468004933
+  fields:
+    Front: |
+      APPM 1350 WA34-10:
+      A common inhabitant of human intestines is the bacterium Escherichia coli. A cell of this bacterium in a nutrient-broth medium divides into two cells every 20 minutes. The initial population of a culture is 75 cells.
+      (a) Find the relative growth rate. (Assume $t$ is measured in hours.)
+      (b) Find an expression for the number of cells after $t$ hours.
+      (c) Find the number of cells after 8 hours.
+      (d) Find the rate of growth after 8 hours. (Round your answer to three decimal places.)
+      (e) When will the population reach $20,000$ cells? (Round your answer to two decimal places.)
+    Back: |
+      (a) $k = \ln (8)$
+      (b) $P(t) = 75\left(8^{t}\right)$
+      (c) $1258291200$
+      (d) $2.617$ billion cells per hour
+      (e) $2.69 \text{ hr}$
+
+      ##### Full solution:
+      (a) $P(t)=P(0) e^{k t}=75 e^{k t}$. In 20 minutes ($\frac{1}{3})$ hour), there are $150$ cells, so $P\left(\frac{1}{3}\right)=75 e^{k / 3}=150 \Rightarrow e^{k / 3}=2 \Rightarrow$ $k / 3=\ln 2 \Rightarrow k=3 \ln 2=\ln \left(2^{3}\right)=\ln 8$
+
+      (b) $P(t)=75 e^{(\ln 8) t}=75 \cdot 8^{t}$
+
+      (c) $P(8)=75 \cdot 8^{8}=75 \cdot 2^{24}=1,258,291,200$
+
+      (d) $d P / d t=k P \Rightarrow P^{\prime}(8)=k P(8)=(\ln 8) P(8)$ $\approx 2.617$ billion cells $/ \mathrm{h}$
+
+      (e) $P(t)=20,000 \Rightarrow 75 \cdot 8^{t}=20,000 \Rightarrow 8^{t}=800 / 3 \Rightarrow t \ln 8=$ $\ln (800 / 3) \Rightarrow t=\frac{\ln (800 / 3)}{\ln 8} \approx 2.69 \mathrm{h}$
+    Annotations: ''
+  tags: []

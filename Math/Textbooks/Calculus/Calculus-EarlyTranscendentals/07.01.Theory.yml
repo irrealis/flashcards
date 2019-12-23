@@ -1,0 +1,50 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theorems
+  - Calculus-EarlyTrancendentals
+  - CET-07-TechniquesOfIntegration
+  - CET-07.01-IntegrationByParts
+  markdownTabLength: 2
+notes:
+- id: 1576618085579
+  fields:
+    Front: |
+      CET-07.01-01 Theory:
+      Give the **formula for integration by parts.**
+    Back: |
+      $$$\int f(x) g^{\prime}(x) d x=f(x) g(x)-\int g(x) f^{\prime}(x) d x$$$
+    Annotations: ''
+  tags: []
+- id: 1576618467529
+  fields:
+    Front: |
+      CET-07.01-02 Theory:
+      Give the **formula for integration by parts** in terms of differentials.
+    Back: |
+      Let $u=f(x)$ and $v=g(x) .$ Then the differentials are $d u=f^{\prime}(x) d x$ and $d v=g^{\prime}(x) d x,$ so, by the Substitution Rule, the formula for integration by parts becomes
+      $$$\int u d v=u v-\int v d u$$$
+    Annotations: ''
+  tags: []
+- id: 1576642600858
+  fields:
+    Front: |
+      CET-07.01-03 Theory:
+      What does **LIATE** stand for?
+    Back: |
+      A mnemonic device which is helpful for selecting $u$ when using integration by parts is the LIATE princedence for $u:$
+
+      - Logarithmic
+      - Inverse trigonometric
+      - Algebraic
+      - Trigonometric
+      - Exponential
+
+      If the integrand has several factors, then we try to choose among them a $u$ which appears as high as possible on the list. For example, in $\int x e^{2 x} d x$ the integrand is $x e^{2 x},$ which is the product of an algebraic function $(x)$ and an exponential function $\left(e^{2 x}\right) .$ Since Algebraic appears before Exponential, we choose $u=x .$ Sometimes the integration turns out to be similar regardless of the selection of $u$ and $d v,$ but it is advisable to refer to LIATE when in doubt.
+    Annotations: ''
+  tags:
+  - Editing

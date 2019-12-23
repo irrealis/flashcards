@@ -1,0 +1,60 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1350
+  - APPM-1350-Exams
+  - APPM-1350-Exam4
+  - APPM-1350-HW12
+  - APPM-1350-Section05.01
+  - APPM-1350-Section05.02
+  - APPM-1350-Section05.03
+  - WrittenHomework
+  markdownTabLength: 2
+notes:
+- id: 1576101223508
+  fields:
+    Front: |
+      APPM 1350 HW-12-01:
+      Solve the initial value problem $y^{\prime \prime}=\csc ^{2} x, y(\pi / 2)=0, \quad y^{\prime}(\pi / 2)=2$.
+    Back: |
+      $$$y=-\ln |\sin x|+2 x-\pi$$$
+    Annotations: ''
+  tags: []
+- id: 1576101268757
+  fields:
+    Front: |
+      APPM 1350 HW-12-02:
+      Evaluate $\int_{\ln 2}^{\ln 5}\left|\frac{e^{x}}{\sqrt{e^{x}-1}}\right| d x$.
+    Back: |
+      $$$2$$$
+    Annotations: ''
+  tags: []
+- id: 1576101324857
+  fields:
+    Front: |
+      APPM 1350 HW-12-03:
+      Let $y=\frac{\sqrt{1+x} \sqrt[4]{1-x^{3}}}{2+7 x^{2}} .$ Use logarithmic differentiation to find $y^{\prime} .$ Leave your answer unsimplified.
+    Back: |
+      $$$\frac{\sqrt{1+x} \sqrt[4]{1-x^{3}}}{2+7 x^{2}}\left(\frac{1}{2(1+x)}-\frac{3 x^{2}}{4\left(1-x^{3}\right)}-\frac{14 x}{2+7 x^{2}}\right)$$$
+    Annotations: ''
+  tags: []
+- id: 1576101434032
+  fields:
+    Front: |
+      APPM 1350 HW-12-04:
+      Let $f(x)=\frac{\ln x}{2+3 \ln x}$.
+      (a) Find the domain of $f$.
+      (b) Evaluate $\lim _{x \rightarrow 0^{+}} f(x)$.
+      (c) The function $f$ is one-to-one. Use $f^{\prime}$ to find $\left(f^{-1}\right)^{\prime}(1)$ (without finding $f^{-1}$).
+      (d) Now find the inverse function $f^{-1}$.
+    Back: |
+      (a) $\left(0, e^{-2 / 3}\right) \cup\left(e^{-2 / 3}, \infty\right)$
+      (b) $1 / 3$
+      (c) $1 /(2 e)$
+      (d) $e^{2 x /(1-3 x)}$
+    Annotations: ''
+  tags: []

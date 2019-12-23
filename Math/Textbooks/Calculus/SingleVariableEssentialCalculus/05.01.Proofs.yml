@@ -1,0 +1,40 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Proofs
+  - SingleVariableEssentialCalculus
+  - SVEC-05-InverseFunctions
+  - SVEC-05.01-InverseFunctions
+  markdownTabLength: 2
+notes:
+- id: 1574102127593
+  fields:
+    Front: |
+      SVEC 05.01 Proof 01:
+      ##### the calculus of inverse functions
+      Prove the **Inverse Function Method.**
+    Back: |
+      Write the definition of derivative:
+      $$$
+      \left(f^{-1}\right)^{\prime}(a)=\lim _{x \rightarrow a} \frac{f^{-1}(x)-f^{-1}(a)}{x-a}
+      $$$
+      If $f(b)=a,$ then $f^{-1}(a)=b .$ And if we let $y=f^{-1}(x),$ then $f(y)=x .$ Since $f$ is differentiable, it is continuous, so $f^{-1}$ is continuous by the Inverse Continuity Theorem. Thus if $x \rightarrow a$, then $f^{-1}(x) \rightarrow f^{-1}(a),$ that is, $y \rightarrow b$. Therefore
+      $$$
+      \begin{aligned}\left(f^{-1}\right)^{\prime}(a) &=\lim _{x \rightarrow a} \frac{f^{-1}(x)-f^{-1}(a)}{x-a}=\lim _{y \rightarrow b} \frac{y-b}{f(y)-f(b)} \\ &=\lim _{y \rightarrow b} \frac{1}{\frac{f(y)-f(b)}{y-b}}=\frac{1}{\lim _{y \rightarrow b} \frac{f(y)-f(b)}{y-b}} \\ &=\frac{1}{f^{\prime}(b)}=\frac{1}{f^{\prime}\left(f^{-1}(a)\right)} \end{aligned}
+      $$$
+      $\square$
+
+      **Note:** If it is known in advance that $f^{-1}$ is differentiable, then its derivative can be computed more easily than in the proof above by using implicit differentiation. If $y=f^{-1}(x),$ then $f(y)=x .$ Differentiating the equation $f(y)=x$ implicitly with respect to $x$, remembering that $y$ is a function of $x,$ and using the Chain Rule, we get
+      $$$
+      f^{\prime}(y) \frac{d y}{d x}=1
+      $$$
+      Therefore
+      $$$
+      \frac{d y}{d x}=\frac{1}{f^{\prime}(y)}=\frac{1}{\frac{d x}{d y}}
+      $$$
+    Annotations: ''
+  tags: []

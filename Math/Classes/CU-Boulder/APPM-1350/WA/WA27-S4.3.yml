@@ -1,0 +1,293 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1350
+  - APPM-1350-WA27
+  - SingleVariableEssentialCalculus
+  - SVEC-04-Integrals
+  - SVEC-04.03-EvaluatingDefiniteIntegrals
+  - WebAssign
+  - Exam3
+  markdownTabLength: 2
+notes:
+- id: 1573089567118
+  fields:
+    Front: |
+      APPM 1350 WA27-01 04.03:
+      Evaluate the integral.
+      $$$
+      \int_{0}^{2}(2 x-6)\left(4 x^{2}+9\right) d x
+      $$$
+    Back: |
+      $$$-104$$$
+
+      ##### Full solution:
+      $$$
+      \begin{aligned}
+        \int_{0}^{2}(2 x-6)\left(4 x^{2}+9\right) d x
+        &=\int_{0}^{2}\left(8 x^{3}-24 x^{2}+18 x-54\right) d x \\
+        &=\left[2 x^{4}-8 x^{3}+9 x^{2}-54 x\right]_{0}^{2} \\
+        &=(32-64+36-108)-0 \\
+        &=-104
+      \end{aligned}
+      $$$
+    Annotations: 'Trouble:<div>- 191112-1041: Transcribe error: dropped a digit.</div>'
+  tags:
+  - ann:trouble
+- id: 1573089729568
+  fields:
+    Front: |
+      APPM 1350 WA27-02 04.03:
+      Evaluate the integral.
+      $$$
+      \int_{0}^{1} x(4 \sqrt[3]{x}+5 \sqrt[4]{x}) d x
+      $$$
+    Back: |
+      $$$
+      \frac{248}{63}
+      $$$
+
+      ##### Full solution:
+      $$$
+      \begin{aligned}
+        \int_{0}^{1} x(4 \sqrt[3]{x}+5 \sqrt[4]{x}) d x
+        &=\int_{0}^{1}\left(4 x^{4 / 3}+5 x^{5 / 4}\right) d x \\
+        &=\left[\frac{12}{7} x^{7 / 3}+\frac{20}{9} x^{9 / 4}\right]_{0}^{1} \\
+        &=\left(\frac{12}{7}+\frac{20}{9}\right)-0 \\
+        &=\frac{248}{63}
+      \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1573089852269
+  fields:
+    Front: |
+      APPM 1350 WA27-03 04.03:
+      Evaluate the integral.
+      $$$
+      \int_{4}^{16} \frac{6 x-3}{\sqrt{x}} d x
+      $$$
+    Back: |
+      $$$
+      212
+      $$$
+
+      ##### Full solution:
+      $$$
+      \begin{aligned}
+        \int_{4}^{16} \frac{6 x-3}{\sqrt{x}} d x
+        &=\int_{4}^{16}\left(6 x^{1 / 2}-3 x^{-1 / 2}\right) d x \\
+        &=\left[6 \cdot \frac{2}{3} x^{3 / 2}-3 \cdot 2 x^{1 / 2}\right]_{4}^{16} \\
+        &=\left[4 x^{3 / 2}-6 x^{1 / 2}\right]_{4}^{16} \\
+        &=(256-24)-(32-12) \\
+        &=212
+      \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1573089999169
+  fields:
+    Front: |
+      APPM 1350 WA27-04 04.03:
+      Evaluate the integral.
+      $$$
+      \int_{0}^{2 \pi / 3} \frac{9 \sin \theta+9 \sin \theta \tan ^{2} \theta}{\sec ^{2} \theta} d \theta
+      $$$
+    Back: |
+      $$$\frac{27}{2}$$$
+
+      ##### Full solution:
+      $$$
+      \begin{aligned}
+        \int_{0}^{2 \pi / 3} \frac{9 \sin \theta+9 \sin \theta \tan ^{2} \theta}{\sec ^{2} \theta} d \theta
+        &=9 \int_{0}^{2 \pi / 3} \frac{\sin \theta\left(1+\tan ^{2} \theta\right)}{\sec ^{2} \theta} d \theta \\
+        &=\int_{0}^{\pi / 3} \frac{\sin \theta \sec ^{2} \theta}{\sec ^{2} \theta} d \theta \\
+        &=9 \int_{0}^{2 \pi / 3} \sin \theta d \theta \\
+        &=9[-\cos \theta]_{0}^{2 \pi / 3} \\
+        &=\frac{9}{2}-(-9) \\
+        &=\frac{27}{2}
+      \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1573090117094
+  fields:
+    Front: |
+      APPM 1350 WA27-05 04.03:
+      Evaluate the integral.
+      $$$
+      \int_{-1}^{2}(x-4|x|) d x
+      $$$
+    Back: |
+      $$$
+      -\frac{17}{2}
+      $$$
+
+      ##### Full solution:
+      $$$
+      \begin{aligned}
+        \int_{-1}^{2}(x-4|x|) d x
+        &=\int_{-1}^{0}[x-4(-x)] d x+\int_{0}^{2}[x-4(x)] d x \\
+        &=\int_{-1}^{0} 5 x d x+\int_{0}^{2}(-3 x) d x \\
+        &=5\left[\frac{1}{2} x^{2}\right]_{-1}^{0}-3\left[\frac{1}{2} x^{2}\right]_{0}^{2} \\
+        &=5\left(0-\frac{1}{2}\right)-3(2-0) \\
+        &=-\frac{17}{2} \\
+        &=-8.5
+      \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1573090297394
+  fields:
+    Front: |
+      APPM 1350 WA27-06 04.03:
+      (a) If the units for $x$ are feet and the units for $a(x)$ are pounds per foot, what are the units for $d a / d x ?$
+      (b) What units does $\int_{7}^{9} a(x) d x$ have?
+    Back: |
+      (a) pounds per foot per foot
+      (b) pounds
+
+      ##### Full solution:
+      The units for $a(x)$ are pounds per foot and the units for $x$ are feet,so the units for $d a / d x$ are pounds per foot per foot, denoted $(\text{lb}/\text{ft})/\text{ft}.$ The unit of measurement for $\int_{7}^{9} a(x) d x$ is the product of pounds per foot and feet; that is, pounds.
+    Annotations: ''
+  tags: []
+- id: 1573090545194
+  fields:
+    Front: |
+      APPM 1350 WA27-07 04.03:
+      The acceleration function (in $\left.\mathrm{m} / \mathrm{s}^{2}\right)$ and the initial velocity are given for a particle moving along a line.
+      $$$
+      a(t)=t+6, \quad v(0)=5, \quad 0 \leq t \leq 10
+      $$$ (a) Find the velocity at time $t.$
+      (b) Find the distance traveled during the given time interval.
+    Back: |
+      (a)
+      $$$v(t)= \frac{1}{2} t^{2}+6 t+5$$$
+      (b)
+      $$$1550/3$$$
+
+      ##### Full solution:
+      (a)
+      $v^{\prime}(t)=a(t)=t+6 \Rightarrow v(t)=\frac{1}{2} t^{2}+6 t+C \Rightarrow v(0)=C=5 \Rightarrow$ $v(t)=\frac{1}{2} t^{2}+6 t+5 \mathrm{m} / \mathrm{s}$
+
+      (b)
+      $$$
+      \begin{aligned} \text { Distance traveled } &=\int_{0}^{10}|v(t)| d t=\int_{0}^{10}\left|\frac{1}{2} t^{2}+6 t+5\right| d t \\ &=\int_{0}^{10}\left(\frac{1}{2} t^{2}+6 t+5\right) d t=\left[\frac{1}{6} t^{3}+3 t^{2}+5 t\right]_{0}^{10} \\ &=\frac{500}{3}+300+50=516 \frac{2}{3} \mathrm{m} \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1573090799220
+  fields:
+    Front: |
+      APPM 1350 WA27-08 04.03:
+      Speedometer readings for a motorcycle at 12 -second intervals are given in the table.
+      $$$
+      \begin{array} { | c | c | c | c | c | c | c | }
+        \hline
+        t ( s ) & { 0 } & { 1 2 } & { 2 4 } & { 3 6 } & { 4 8 } & { 6 0 } \\
+        \hline
+        v(f t(s)& {32} & {28} & {25} & {21} & {24} & {28} \\
+        \hline
+      \end{array}
+      $$$
+      (a) Estimate the distance traveled by the motorcycle during this time period using the velocities at the beginning of the time intervals.
+      (b) Give another estimate using the velocities at the end of the time periods.
+      (c) Are your estimates in parts (a) and (b) upper and lower estimates? Explain.
+    Back: |
+      (a)
+      $$$
+      1560\text{ ft}
+      $$$
+      (b)
+      $$$
+      1512\text{ ft}
+      $$$
+      (c)
+      (a) and (b) are neither lower nor upper estimates since $v$ is neither an increasing nor decreasing function of $t$
+
+      ##### Full solution:
+      (a)
+      $$$
+      \begin{aligned} d \approx L_{5} &=(32 \mathrm{ft} / \mathrm{s})(12 \mathrm{s})+28 \cdot 12+25 \cdot 12+21 \cdot 12+24 \cdot 12 \\ &=(32+28+25+21+24) \cdot 12=130 \cdot 12=1560 \text{ ft} \end{aligned}
+      $$$
+      (b)
+      $$$
+      d \approx R_{5}=(28+25+21+24+28) \cdot 12=126 \cdot 12=1512 \text{ ft}
+      $$$
+      (c) The estimates are neither lower nor upper estimates since $v$ is neither an increasing nor a decreasing function of $t .$
+    Annotations: ''
+  tags: []
+- id: 1573091123344
+  fields:
+    Front: |
+      APPM 1350 WA27-09 04.03:
+      Use the form of the definition of the integral given in the following theorem to evaluate the integral.
+      $$$
+      \int_{-2}^{0}\left(5 x^{2}+5 x\right) d x
+      $$$
+      Theorem: If $f$ is integrable on $[a, b]$, then
+      $$$
+      \int_{a}^{b} f(x) d x=\lim _{n \rightarrow \infty} \sum_{i=1}^{n} f\left(x_{i}\right) \Delta x
+      $$$ where $\quad \Delta x=\frac{b-a}{n} \quad$ and $\quad x_{i}=a+i \Delta x$
+    Back: |
+      $$$10/3$$$
+
+      ##### Full solution:
+      Note that $\Delta x=\frac{0-(-2)}{n}=\frac{2}{n}$ and $x_{i}=-2+i \Delta x=-2+\frac{2 i}{n}.$
+      $$$
+      \begin{aligned}
+        \int_{-2}^{0}\left(5 x^{2}+5 x\right) d x
+        &=\lim _{n \rightarrow \infty} \sum_{i=1}^{n} f\left(x_{i}\right) \Delta x \\
+        &=\lim _{n \rightarrow \infty} \sum_{i=1}^{n} f\left(-2+\frac{2 i}{n}\right) \frac{2}{n} \\
+        &=5 \lim _{n \rightarrow \infty} \frac{2}{n} \sum_{i=1}^{n}\left[\left(-2+\frac{2 i}{n}\right)^{2}+\left(-2+\frac{2 i}{n}\right)\right] \\
+        &=5 \lim _{n \rightarrow \infty} \frac{2}{n} \sum_{i=1}^{n}\left[4-\frac{8 i}{n}+\frac{4 i^{2}}{n^{2}}-2+\frac{2 i}{n}\right] \\
+        &=5 \lim _{n \rightarrow \infty} \frac{2}{n} \sum_{i=1}^{n}\left(\frac{4 i^{2}}{n^{2}}-\frac{6 i}{n}+2\right) \\
+        &=5 \lim _{n \rightarrow \infty} \frac{2}{n}\left[\frac{4}{n^{2}} \sum_{i=1}^{n} i^{2}-\frac{6}{n} \sum_{i=1}^{n} i+\sum_{i=1}^{n} 2\right] \\
+        &=5 \lim _{n \rightarrow \infty}\left[\frac{8}{n^{3}} \frac{n(n+1)(2 n+1)}{6}-\frac{12}{n^{2}} \frac{n(n+1)}{2}+\frac{2}{n} \cdot n(2)\right] \\
+        &=5 \lim _{n \rightarrow \infty}\left[\frac{4}{3} \frac{(n+1)(2 n+1)}{n^{2}}-6 \frac{n+1}{n}+4\right] \\
+        &=5 \lim _{n \rightarrow \infty}\left[\frac{4}{3} \frac{n+1}{n} \frac{2 n+1}{n}-6\left(1+\frac{1}{n}\right)+4\right] \\
+        &=5 \lim _{n \rightarrow \infty}\left[\frac{4}{3}\left(1+\frac{1}{n}\right)\left(2+\frac{1}{n}\right)-6\left(1+\frac{1}{n}\right)+4\right] \\
+        &=5\left[\frac{4}{3}(1)(2)-6(1)+4\right] \\
+        &=\frac{10}{3}
+      \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1573091269494
+  fields:
+    Front: |
+      APPM 1350 WA27-10 04.03:
+      Use Part 1 of the Fundamental Theorem of Calculus to find the derivative of the function.
+      $$$
+      g(s)=\int_{4}^{5}\left(t-t^{7}\right)^{2} d t
+      $$$
+    Back: |
+      $$$
+      g^{\prime}(s) = \left(s-s^{7}\right)^{2}
+      $$$
+
+      ##### Full solution:
+      $f(t)=\left(t-t^{7}\right)^{2}$ and $g(s)=\int_{4}^{s}\left(t-t^{7}\right)^{2} d t$, so by FTC1, $g^{\prime}(s)=f(s)=\left(s-s^{7}\right)^{2}.$
+    Annotations: ''
+  tags: []
+- id: 1573091365619
+  fields:
+    Front: |
+      APPM 1350 WA27-11 04.03:
+      Use Part 1 of the Fundamental Theorem of Calculus to find the derivative of the function.
+      $$$
+      h(x)=\int_{3}^{x^{2}} \sqrt{1+r^{3}} d r
+      $$$
+    Back: |
+      $$$
+      h^{\prime}(x) = 2 x \sqrt{1+x^{6}}
+      $$$
+
+      ##### Full solution:
+      Let $u=x^{2} .$ Then $\frac{d u}{d x}=2 x .$ Also, $\frac{d h}{d x}=\frac{d h}{d u} \frac{d u}{d x},$ so $h^{\prime}(x)=\frac{d}{d x} \int_{3}^{x^{2}} \sqrt{1+r^{3}} d r=\frac{d}{d u} \int_{3}^{u} \sqrt{1+r^{3}} d r \cdot \frac{d u}{d x}=\sqrt{1+u^{3}}(2 x)$ $=2 x \sqrt{1+\left(x^{2}\right)^{3}}=2 x \sqrt{1+x^{6}} .$
+    Annotations: ''
+  tags: []

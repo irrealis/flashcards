@@ -1,0 +1,146 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1350
+  - APPM-1350-WA25
+  - SingleVariableEssentialCalculus
+  - SVEC-04-Integrals
+  - SVEC-04.01-AreasAndDistances
+  - SVEC-Appendix-B
+  - WebAssign
+  - Exam3
+  markdownTabLength: 2
+notes:
+- id: 1572645676543
+  fields:
+    Front: |
+      APPM 1350 WA25-01 04.01, App.B:
+      Write the sum in expanded form.
+      $$$$
+      \sum_{j=0}^{n-1}(-4)^{j}
+      $$$$
+    Back: |
+      $1-4+16-64+\cdots+(-4)^{(n-1)}$
+    Annotations: ''
+  tags: []
+- id: 1572645762619
+  fields:
+    Front: |
+      APPM 1350 WA25-02 04.01, App.B:
+      Write the sum in sigma notation.
+      $$$$
+      \frac{1}{1}+\frac{1}{4}+\frac{1}{9}+\frac{1}{16}+\frac{1}{25}+\frac{1}{36}
+      $$$$
+    Back: |
+      $\frac{1}{i^{2}}$
+    Annotations: 'Fix me:<div>191111-2340: typesetting issue in answer</div>'
+  tags:
+  - ann:fix-me
+- id: 1572645803869
+  fields:
+    Front: |
+      APPM 1350 WA25-03 04.01, App.B:
+      Write the sum in sigma notation.
+      $$$$
+      7-7 x+7 x^{2}-7 x^{3}+\cdots+(-1)^{n} 7 x^{n}
+      $$$$
+    Back: |
+      $7(-1)^{j} x^{j}$
+    Annotations: 'Fix me:<div>- 191111-2342: fix typesetting in answer</div>'
+  tags:
+  - ann:fix-me
+- id: 1572645865169
+  fields:
+    Front: |
+      APPM 1350 WA25-04 04.01, App.B:
+      Find the value of the sum.
+      $$$$
+      \sum_{i=4}^{8}(5 i-2)
+      $$$$
+    Back: |
+      $140$
+    Annotations: ''
+  tags: []
+- id: 1572645904945
+  fields:
+    Front: |
+      APPM 1350 WA25-05 04.01, App.B:
+      Find the value of the sum.
+      $$$$
+      \sum_{i=3}^{6} i(i+4)
+      $$$$
+    Back: |
+      $158$
+    Annotations: ''
+  tags: []
+- id: 1572646143794
+  fields:
+    Front: |
+      APPM 1350 WA25-06 04.01, App.B:
+      Oil leaked from a tank at a rate of $r(t)$ liters per hour. The rate decreased as time passed, and values of the rate at two hour time intervals are shown in the table. Find lower and upper estimates for the total amount of oil that leaked out.
+      $$$$
+      \begin{array}{|c|c|c|c|c|c|c|}
+        \hline
+        t\text{ (h)} & {0} & {2} & {4} & {6} & {8} & {10} \\
+        \hline
+        r(t)\text{ (L/h)} & {8.7} & {7.6} & {6.7} & {6.2} & {5.7} & {5.3} \\
+        \hline
+      \end{array}
+      $$$$
+    Back: |
+      Lower estimate: $V \approx 63 \text{ L}$
+      Upper estimate: $V \approx 69.8 \text{ L}$
+    Annotations: ''
+  tags: []
+- id: 1572646331994
+  media:
+  - path: ${file_dir}/images/APPM-1350-WA25-07.1.jpg
+  fields:
+    Front: |
+      APPM 1350 WA25-07 04.01, App.B:
+      The velocity graph of a braking car is shown. Use it to estimate the distance traveled by the car whill the brakes are applied. (Use $M_{6}$ to get the most precise estimate.)
+      <p/><p align="center">![](APPM-1350-WA25-07.1.jpg)</p>
+    Back: |
+      $$$$155 \text{ ft}$$$$
+    Annotations: ''
+  tags: []
+- id: 1572648617244
+  media:
+  - path: ${file_dir}/images/APPM-1350-WA25-08.1.jpg
+  - path: ${file_dir}/images/APPM-1350-WA25-08.2.jpg
+  - path: ${file_dir}/images/APPM-1350-WA25-08.3.jpg
+  - path: ${file_dir}/images/APPM-1350-WA25-08.4.jpg
+  - path: ${file_dir}/images/APPM-1350-WA25-08.5.jpg
+  - path: ${file_dir}/images/APPM-1350-WA25-08.6.jpg
+  fields:
+    Front: |
+      APPM 1350 WA25-08 04.01, App.B:
+      (a) Estimate the area under the graph of $f(x)=2+2 x^{2}$ from $x=-1$ to $x=2$ using three rectangles and right endpoints. Then improve your estimate by using six rectangles. Sketch the curve and the approximating rectangles for $R_{3}$ and $R_{6}.$
+
+      (b) Repeat part (a) using left endpoints.
+
+      (c) Repeat part (a) using midpoints.
+    Back: |
+      (a)
+      $R_3 = 16$
+      <p/><p align="center">![](APPM-1350-WA25-08.1.jpg)</p>
+      $R_6 = 13.75$
+      <p/><p align="center">![](APPM-1350-WA25-08.2.jpg)</p>
+
+      (b)
+      $L_3 = 10$
+      <p/><p align="center">![](APPM-1350-WA25-08.3.jpg)</p>
+      $L_6 = 10.75$
+      <p/><p align="center">![](APPM-1350-WA25-08.4.jpg)</p>
+
+      (c)
+      $M_3 = 11.5$
+      <p/><p align="center">![](APPM-1350-WA25-08.5.jpg)</p>
+      $M_6 = 11.875$
+      <p/><p align="center">![](APPM-1350-WA25-08.6.jpg)</p>
+    Annotations: ''
+  tags: []

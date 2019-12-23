@@ -1,0 +1,176 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1350
+  - APPM-1350-Exams
+  - APPM-1350-Exam2
+  - APPM-1350-Exam2-Archive
+  - APPM-1350-Exam2-Archive-19-1Spring
+  markdownTabLength: 2
+notes:
+- id: 1571007357279
+  fields:
+    Front: |
+      APPM 1350 Exam-2 2019 Spring 01a:
+      Use limits to find all vertical asymptotes of $f(x)=\frac{x^{2}-4}{x^{2}+5 x-14} .$ Justify your answer with limits.
+    Back: |
+      Factoring yields
+      $$$$
+      \frac{x^{2}-4}{x^{2}+5 x-14}=\frac{(x-2)(x+2)}{(x-2)(x+7)}=\frac{x+2}{x+7}
+      $$$$
+      so we have a removable discontinuity at $x=2$ and note that
+      $$$$
+      \lim _{x \rightarrow-7^{-}} \frac{x^{2}-4}{x^{2}+5 x-14}=\lim _{x \rightarrow-7^{-}} \frac{x+2}{x+7}=+\infty \quad \text{and} \quad \lim _{x \rightarrow-7^{+}} \frac{x^{2}-4}{x^{2}+5 x-14}=\lim _{x \rightarrow-7^{+}} \frac{x+2}{x+7}=-\infty
+      $$$$
+      thus we have a vertical asymptote at $x=-7$.
+    Annotations: ''
+  tags: []
+- id: 1571007505379
+  fields:
+    Front: |
+      APPM 1350 Exam-2 2019 Spring 01b:
+      Use the Quotient Rule to find the derivative of $g(x)=\frac{2 x+1}{x^{2}-1}$. Simpify your answer, show all work.
+    Back: |
+      By the Quotient Rule,
+      $$$$
+      \frac{d}{d x}\left[\frac{2 x+1}{x^{2}-1}\right]=\frac{2 \cdot\left(x^{2}-1\right)-(2 x+1) \cdot 2 x}{\left(x^{2}-1\right)^{2}}=\frac{\left(2 x^{2}-2\right)-\left(4 x^{2}+2 x\right)}{\left(x^{2}-1\right)^{2}}=\frac{-2 x^{2}-2 x-2}{\left(x^{2}-1\right)^{2}}=\frac{-2\left(x^{2}+x+1\right)}{\left(x^{2}-1\right)^{2}}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1571007853304
+  fields:
+    Front: |
+      APPM 1350 Exam-2 2019 Spring 01c:
+      The function $h(x)=\sqrt{1-x^{2}}$ has a vertical tangent at which choice below?
+      (A) $x=-1,0,1$
+      (B) $x=-1,1$
+      (C) $x=\frac{1}{2}$
+      (D) $-1 \leq x \leq 1$
+      (E) None of these
+    Back: |
+      Choice B. Note that
+      $$$$
+      h^{\prime}(x)=\frac{1}{2}\left(1-x^{2}\right)^{-1 / 2} \cdot(-2 x)=\frac{-x}{\sqrt{1-x^{2}}}
+      $$$$
+      and
+      $$$$
+      \lim _{x \rightarrow-1^{+}} \frac{-x}{\sqrt{1-x^{2}}}=+\infty \quad\text{and}\quad \lim _{x \rightarrow 1^{-}} \frac{-x}{\sqrt{1-x^{2}}}=-\infty
+      $$$$
+      thus $h(x)$ has vertical tangents at $x=\pm 1$.
+    Annotations: ''
+  tags: []
+- id: 1571007961304
+  fields:
+    Front: |
+      APPM 1350 Exam-2 2019 Spring 02a:
+      The position function of a particle (in meters) at time $t$ seconds is given by $s(t)=t^{3}-4.5 t^{2}-7 t, t \geq 0$ When does the particle reach a velocity of 5 meters/sec? Show all work.
+    Back: |
+      Note that $v(t)=s^{\prime}(t)=3 t^{2}-9 t-7$ and
+      $$$$
+      v(t)=5 \Rightarrow 3 t^{2}-9 t-7=5 \Rightarrow 3 t^{2}-9 t-12=0 \Rightarrow 3\left(t^{2}-3 t-4\right) \Rightarrow 3(t+1)(t-4)=0 \Rightarrow t=-1,4
+      $$$$
+      thus the particle reaches a velocity of $5 \mathrm{m} / \mathrm{sec}$ when $t=4$ seconds.
+    Annotations: ''
+  tags: []
+- id: 1571008117979
+  fields:
+    Front: |
+      APPM 1350 Exam-2 2019 Spring 02b:
+      Chip flies a kite at a constant height of $150 \mathrm{ft}$ above the ground with the wind carrying the kite horizontally away from Chip at a rate of $25 \mathrm{ft} / \mathrm{sec}$. How fast must Chip let out the string when $250 \mathrm{ft}$ of $\mathrm{string}$ is out? Simplify your answer.
+    Back: |
+      The kite string, $z,$ forms the hypotenuse of a right triangle. We are given $\frac{d x}{d t}=25 \mathrm{ft} / \mathrm{sec}$ and wish to find $\frac{d z}{d t}$ when $z=250 \mathrm{ft} .$ Note that
+      $$$$
+      z^{2}=x^{2}+150^{2} \Rightarrow 2 z \frac{d z}{d t}=2 x \frac{d x}{d t} \Rightarrow \frac{d z}{d t}=\frac{x}{z} \frac{d x}{d t}
+      $$$$
+      and when $z=250$ we have a 3-4-5 right triangle and so $x=4 \cdot 50=200,$ that is,
+      $$$$
+      250^{2}=x^{2}+150^{2} \Rightarrow(5 \cdot 50)^{2}=x^{2}+(3 \cdot 50)^{2} \Rightarrow x^{2}=(4 \cdot 50)^{2} \Rightarrow x=4 \cdot 50=200.
+      $$$$
+      Thus
+      $$$$
+      \frac{d z}{d t}=\frac{x}{z} \frac{d x}{d t}=\frac{200}{250} \cdot 25=20 \mathrm{ft} / \mathrm{sec}
+      $$$$
+      so Chip must let the string out at $20 \mathrm{ft} / \mathrm{sec}$.
+    Annotations: ''
+  tags: []
+- id: 1571008358705
+  fields:
+    Front: |
+      APPM 1350 Exam-2 2019 Spring 03a:
+      The radius of a circular disk is given as $12 \mathrm{cm}$ with a maximum error in measurement of $+0.2 \mathrm{cm} .$ Use differentials to estimate the maximum error in the calculated area of the disk. Show all work. Simplify your answer, you may give your answer in terms of $\pi$.
+    Back: |
+      Note that the area of a circle is $A=\pi r^{2}$ and $\Delta r=+0.2 \mathrm{cm}$ when $r=12 \mathrm{cm}$ thus
+      $$$$
+      A=\pi r^{2} \Rightarrow d A=\left.2 \pi r d r\right|_{r=12, d r=\Delta r=0.2}=2 \pi \cdot 12 \cdot(0.2)=4.8 \pi \mathrm{cm}^{2}
+      $$$$
+      thus the maximum error in the calculated area of the disk will be approximately $4.8 \pi \mathrm{cm}^{2}$.
+    Annotations: ''
+  tags: []
+- id: 1571008441404
+  fields:
+    Front: |
+      APPM 1350 Exam-2 2019 Spring 03b:
+      Find $d y / d x$ by implicit differentiation given that $\cos (x y)=1+\sin (y) .$ Simplify your answer.
+    Back: |
+      Differentiating both sides with respect to $x$ yields
+      $$$$
+      -\sin (x y) \cdot\left[1 \cdot y+x y^{\prime}\right]=0+\cos (y) \cdot y^{\prime} \Rightarrow-y \sin (x y)=[\cos (y)+x \sin (x y)] y^{\prime}
+      $$$$
+      thus $y^{\prime}=\frac{-y \sin (x y)}{\cos (y)+x \sin (x y)}$.
+    Annotations: ''
+  tags: []
+- id: 1571008620680
+  fields:
+    Front: |
+      APPM 1350 Exam-2 2019 Spring 03c:
+      The function $f(x)=\frac{3 x+1}{x+\sqrt{4 x^{2}+5}}$ has a horizontal asymptote at which choice below?
+      (A) $y=3$
+      (B) $y=1$
+      (C) $y=3$ and $y=1$
+      (D) $y=-3$ and $y=1$
+      (E) None of these
+    Back: |
+      Choice D. Note that
+      $$$$
+      \lim _{x \rightarrow \infty} \frac{3 x+1}{x+\sqrt{4 x^{2}+5}}=\lim _{x \rightarrow \infty} \frac{x(3+1 / x)}{x+2|x| \sqrt{1+5 / 4 x^{2}}}=\lim _{x \rightarrow \infty} \frac{x(3+1 / x)}{x+2 x \sqrt{1+5 / 4 x^{2}}}=\lim _{x \rightarrow \infty} \frac{x(3+1 / x)}{x(1+2 \sqrt{1+5 / 4 x^{2}})}=\frac{3}{1+2}=1
+      $$$$
+      thus $y=1$ is a horizontal asymptote of $f(x)$ and, similarly,
+      $$$$
+      \lim _{x \rightarrow-\infty} \frac{3 x+1}{x+\sqrt{4 x^{2}+5}}=\lim _{x \rightarrow-\infty} \frac{x(3+1 / x)}{x+2|x| \sqrt{1+5 / 4 x^{2}}}=\lim _{x \rightarrow-\infty} \frac{x(3+1 / x)}{x-2 x \sqrt{1+5 / 4 x^{2}}}=\lim _{x \rightarrow-\infty} \frac{x(3+1 / x)}{\sqrt{1-2 \sqrt{1+5 / 4 x^{2}}}}=\frac{3}{1-2}=-3
+      $$$$
+      thus $y=-3$ is also a horizontal asymptote of $f(x)$.
+    Annotations: ''
+  tags: []
+- id: 1571009272579
+  fields:
+    Front: |
+      APPM 1350 Exam-2 2019 Spring 04a:
+      Find the absolute minimum and maximum values of $f(x)=x \sqrt{3+2 x}$ on the interval $[-1.5,3]$. Give your answer in the form $(x, y)$. Show all work, justify your answers and clearly label your answers.
+    Back: |
+      since $f(x)$ is continuous, we can use the Closed Interval Method. Now note, by the product rule, we have
+      $$$$
+      \begin{aligned} f^{\prime}(x)=\frac{d}{d x}\left[x \cdot(3+2 x)^{1 / 2}\right] &=1 \cdot(3+2 x)^{1 / 2}+x \cdot \frac{1}{2}(3+2 x)^{-1 / 2} \cdot 2 \\ &=(3+2 x)^{1 / 2}+\frac{x}{(3+2 x)^{1 / 2}}=\frac{(3+2 x)+x}{\sqrt{3+2 x}}=\frac{3+3 x}{\sqrt{3+2 x}}=\frac{3(1+x)}{\sqrt{3+2 x}} \end{aligned}
+      $$$$
+      so we have critical points when $f^{\prime}(x)=0 \Rightarrow x=-1$ and when $f^{\prime}(x)$ is undefined, $i . e .$ when $\sqrt{3+2 x}=0 \Rightarrow x=-3 / 2 .$ Now we need to check the value of $f(x)$ at the critical points and the endpoints:
+      $$$$
+      \begin{aligned} f(-3 / 2)=f(-1.5) &=0 \\ f(-1) &=-1 \Rightarrow \text { abs. min at }(-1,-1) \text { and abs. max at }(3,9) .\\ f(3) &=9 \end{aligned}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1571009408954
+  fields:
+    Front: |
+      APPM 1350 Exam-2 2019 Spring 04b:
+      If $f^{\prime}(x)=\lim _{h \rightarrow 0} \frac{\sec (x+h)-\sec (x)}{h},$ find $f^{\prime}(\pi / 4) .$ Justify your answer, show all work.
+    Back: |
+      Here we have
+      $$$$
+      \lim _{h \rightarrow 0} \frac{\sec (x+h)-\sec (x)}{h}=f^{\prime}(x)=\lim _{h \rightarrow 0} \frac{f(x+h)-f(x)}{h} \Rightarrow f(x)=\sec (x) \Rightarrow f^{\prime}(x)=\sec (x) \tan (x)
+      $$$$
+      Thus $f^{\prime}(\pi / 4)=\sec (\pi / 4) \tan (\pi / 4)=\sqrt{2} \cdot 1=\sqrt{2}$.
+    Annotations: ''
+  tags: []

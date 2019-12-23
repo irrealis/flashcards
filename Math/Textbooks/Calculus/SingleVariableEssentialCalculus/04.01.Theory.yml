@@ -1,0 +1,26 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theory
+  - SingleVariableEssentialCalculus
+  - SVEC-04-Integrals
+  - SVEC-04.01-AreasAndDistances
+  markdownTabLength: 2
+notes:
+- id: 1572915451944
+  fields:
+    Front: |
+      SVEC 04.01 Theory 01:
+      ##### the area problem
+      Define the **area $A$ of the region $S$ that lies under the graph of the continuous function $f$.**
+    Back: |
+      The area $A$ of the region $S$ that lies under the graph of the continuous function $f$ is the limit of the sum of the areas of approximating rectangles:
+      $$$
+      A=\lim _{n \rightarrow \infty} R_{n}=\lim _{n \rightarrow \infty}\left[f\left(x_{1}\right) \Delta x+f\left(x_{2}\right) \Delta x+\cdots+f\left(x_{n}\right) \Delta x\right]
+      $$$
+    Annotations: ''
+  tags: []

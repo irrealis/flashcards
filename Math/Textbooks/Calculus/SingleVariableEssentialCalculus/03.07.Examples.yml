@@ -1,0 +1,179 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - SingleVariableEssentialCalculus
+  - SVEC-03-ApplicationsOfDifferentiation
+  - SVEC-03.07-Antiderivatives
+  markdownTabLength: 2
+notes:
+- id: 1573087106169
+  fields:
+    Front: |
+      SVEC 03.07 Examples 01a:
+      ##### antiderivatives
+      Find the most general antiderivative of the following function.
+      $f(x)=\sin x$
+    Back: |
+      If $F(x)=-\cos x,$ then $F^{\prime}(x)=\sin x,$ so an antiderivative of $\sin x$ is $-\cos x .$ The most general antiderivative is $G(x)=-\cos x+C .$
+    Annotations: ''
+  tags: []
+- id: 1573087106344
+  fields:
+    Front: |
+      SVEC 03.07 Examples 01b:
+      ##### antiderivatives
+      Find the most general antiderivative of the following function.
+      $f(x)=x^{n}, \quad n \geqslant 0$
+    Back: |
+      $$$\frac{d}{d x}\left(\frac{x^{n+1}}{n+1}\right)=\frac{(n+1) x^{n}}{n+1}=x^{n}$$$ Thus the general antiderivative of $f(x)=x^{n}$ is
+      $$$
+      F(x)=\frac{x^{n+1}}{n+1}+C
+      $$$ This is valid for $n \geqslant 0$ because then $f(x)=x^{n}$ is defined on an interval.
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1573087106494
+  fields:
+    Front: |
+      SVEC 03.07 Examples 01c:
+      ##### antiderivatives
+      Find the most general antiderivative of the following function.
+      $f(x)=x^{-3}$
+    Back: |
+      If we put $n=-3$ in part (b) we get the particular antiderivative $F(x)=x^{-2} /(-2)$ by the same calculation. But notice that $f(x)=x^{-3}$ is not defined at $x=0 .$ Thus the general antiderivative of $f$ is $x^{-2} /(-2)+C$ on any interval that does not contain $0 .$ So the general antiderivative of $f(x)=1 / x^{3}$ is
+      $$$
+      F(x)=\left\{\begin{array}{ll}{-\frac{1}{2 x^{2}}+C_{1}} & {\text { if } x>0} \\ {-\frac{1}{2 x^{2}}+C_{2}} & {\text { if } x<0}\end{array}\right.
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1573087712669
+  fields:
+    Front: |
+      SVEC 03.07 Examples 02:
+      ##### antiderivatives
+      Find all functions $g$ such that
+      $$$
+      g^{\prime}(x)=4 \sin x+\frac{2 x^{5}-\sqrt{x}}{x}
+      $$$
+    Back: |
+      We first rewrite the given function as follows:
+      $$$
+      g^{\prime}(x)=4 \sin x+\frac{2 x^{5}}{x}-\frac{\sqrt{x}}{x}=4 \sin x+2 x^{4}-\frac{1}{\sqrt{x}}
+      $$$ Thus we want to find an antiderivative of
+      $$$
+      g^{\prime}(x)=4 \sin x+2 x^{4}-x^{-1 / 2}
+      $$$ We obtain
+      $$$
+      \begin{aligned} g(x) &=4(-\cos x)+2 \frac{x^{5}}{5}-\frac{x^{1 / 2}}{\frac{1}{2}}+C \\ &=-4 \cos x+\frac{2}{5} x^{5}-2 \sqrt{x}+C \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1573087855369
+  fields:
+    Front: |
+      SVEC 03.07 Examples 03:
+      ##### antiderivatives
+      Find $f$ if $f^{\prime}(x)=x \sqrt{x}$ and $f(1)=2.$
+    Back: |
+      The general antiderivative of
+      $$$
+      f^{\prime}(x)=x^{3 / 2}
+      $$$ is
+      $$$
+      f(x)=\frac{x^{5 / 2}}{2}+C=\frac{2}{5} x^{5 / 2}+C
+      $$$ To determine $C$ we use the fact that $f(1)=2:$
+      $$$
+      f(1)=\frac{2}{5}+C=2
+      $$$ Solving for $C,$ we get $C=2-\frac{2}{5}=\frac{8}{5},$ so the particular solution is
+      $$$
+      f(x)=\frac{2 x^{5 / 2}+8}{5}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1573087972694
+  fields:
+    Front: |
+      SVEC 03.07 Examples 04:
+      ##### antiderivatives
+      Find $f$ if $f^{\prime \prime}(x)=12 x^{2}+6 x-4, f(0)=4,$ and $f(1)=1.$
+    Back: |
+      The general antiderivative of $f^{\prime \prime}(x)=12 x^{2}+6 x-4$ is
+      $$$
+      f^{\prime}(x)=12 \frac{x^{3}}{3}+6 \frac{x^{2}}{2}-4 x+C=4 x^{3}+3 x^{2}-4 x+C
+      $$$ Using the antidifferentiation rules once more, we find that
+      $$$
+      f(x)=4 \frac{x^{4}}{4}+3 \frac{x^{3}}{3}-4 \frac{x^{2}}{2}+C x+D=x^{4}+x^{3}-2 x^{2}+C x+D
+      $$$ To determine $C$ and $D$ we use the given conditions that $f(0)=4$ and $f(1)=1.$ Since $f(0)=0+D=4,$ we have $D=4 .$ Since
+      $$$
+      f(1)=1+1-2+C+4=1
+      $$$ we have $C=-3 .$ Therefore the required function is
+      $$$
+      f(x)=x^{4}+x^{3}-2 x^{2}-3 x+4
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1573088201245
+  fields:
+    Front: |
+      SVEC 03.07 Examples 05:
+      ##### rectilinear motion
+      A particle moves in a straight line and has acceleration given by $a(t)=6 t+4 .$ Its initial velocity is $v(0)=-6 \text{ cm} / \mathrm{s}$ and its initial displacement is $s(0)=9 \text{ cm} .$ Find its position function $s(t).$
+    Back: |
+      Recall that if the object has position function $s=f(t),$ then the velocity function is $v(t)=s^{\prime}(t) .$ This means that the position function is an antiderivative of the velocity function. Likewise, the acceleration function is $a(t)=v^{\prime}(t)$ so the velocity function is an antiderivative of the acceleration. If the acceleration and the initial values $s(0)$ and $v(0)$ are known, then the position function can be found by antidifferentiating twice.
+
+      Since $v^{\prime}(t)=a(t)=6 t+4,$ antidifferentiation gives
+      $$$
+      v(t)=6 \frac{t^{2}}{2}+4 t+C=3 t^{2}+4 t+C
+      $$$ Note that $v(0)=C .$ But we are given that $v(0)=-6,$ so $C=-6$ and
+      $$$
+      v(t)=3 t^{2}+4 t-6
+      $$$ Since $v(t)=s^{\prime}(t), s$ is the antiderivative of $v:$
+      $$$
+      s(t)=3 \frac{t^{3}}{3}+4 \frac{t^{2}}{2}-6 t+D=t^{3}+2 t^{2}-6 t+D
+      $$$ This gives $s(0)=D .$ We are given that $s(0)=9,$ so $D=9$ and the required position function is
+      $$$
+      s(t)=t^{3}+2 t^{2}-6 t+9
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1573088607320
+  fields:
+    Front: |
+      SVEC 03.07 Examples 06:
+      ##### rectilinear motion
+      A ball is thrown upward with a speed of $48 \text{ ft}/\text{s}$ from the edge of a cliff $432 \text{ ft}$ above the ground. Find its height above the ground $t$ seconds later. When does it reach its maximum height? When does it hit the ground?
+    Back: |
+      An object near the surface of the earth is subject to a gravitational force that produces a downward acceleration denoted by $g .$ For motion close to the ground we may assume that $g$ is constant, its value being about $9.8 \text{ m} / \text{s}^{2}$ (or $32 \text{ ft} / \text{s}^{2}$ ).
+
+      The motion of the ball is vertical and we choose the positive direction to be upward. At time $t$ the distance above the ground is $s(t)$ and the velocity $v(t)$ is decreasing. Therefore the acceleration must be negative and we have
+      $$$
+      a(t)=\frac{d v}{d t}=-32
+      $$$ Taking antiderivatives, we have
+      $$$
+      v(t)=-32 t+C
+      $$$ To determine $C$ we use the given information that $v(0)=48 .$ This gives $48=0+C,$ so
+      $$$
+      v(t)=-32 t+48
+      $$$ The maximum height is reached when $v(t)=0,$ that is, after $1.5 \mathrm{s}$. since $s^{\prime}(t)=v(t),$ we antidifferentiate again and obtain
+      $$$
+      s(t)=-16 t^{2}+48 t+D
+      $$$ Using the fact that $s(0)=432,$ we have $432=0+D$ and so
+      $$$
+      s(t)=-16 t^{2}+48 t+432
+      $$$ The expression for $s(t)$ is valid until the ball hits the ground. This happens when $s(t)=0,$ that is, when
+      $$$
+      -16 t^{2}+48 t+432=0
+      $$$ or, equivalently,
+      $$$
+      t^{2}-3 t-27=0
+      $$$ Using the quadratic formula to solve this equation, we get
+      $$$
+      t=\frac{3 \pm 3 \sqrt{13}}{2}
+      $$$ We reject the solution with the minus sign since it gives a negative value for $t$ Therefore the ball hits the ground after $3(1+\sqrt{13}) / 2 \approx 6.9 \text{ s}.$
+    Annotations: ''
+  tags: []

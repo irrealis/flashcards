@@ -1,0 +1,251 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1350
+  - APPM-1350-WA31
+  - SingleVariableEssentialCalculus
+  - SVEC-05-InverseFunctions
+  - SVEC-05.01-InverseFunctions
+  - WebAssign
+  - Exam4
+  markdownTabLength: 2
+notes:
+- id: 1576098385990
+  fields:
+    Front: |
+      APPM 1350 WA31-01:
+      If $f(1)=6, f(4)=7,$ and $f(8)=-9,$ find $f^{-1}(7),$ $f^{-1}(6),$ and $f^{-1}(-9) .$
+    Back: |
+      $f^{-1}(7) = 4$
+      $f^{-1}(6) = 1$
+      $f^{-1}(-9) = 8$
+
+      ##### Full solution:
+      $f^{-1}(7) = 4$ because $f(4) = 7.$
+      $f^{-1}(6) = 1$ because $f(1) = 6.$
+      $f^{-1}(-9) = 8$ because $f(8) = -9.$
+    Annotations: ''
+  tags: []
+- id: 1576098660708
+  fields:
+    Front: |
+      APPM 1350 WA31-02:
+      Find the inverse function of $f(x)=x^{5}+1$.
+    Back: |
+      $$$\sqrt[5]{x-1}$$$
+
+      ##### Full solution:
+      We first write
+      $$$
+      y=x^{5}+1
+      $$$ Then we solve this equation for $x .$
+      $$$
+      \begin{align}
+        x^{5} &= y-1 \\
+        x &= \sqrt[5]{y-1}
+      \end{align}
+      $$$ Finally, we interchange $x$ and $y$.
+      $$$y=\sqrt[5]{x-1}$$$ Therefore the inverse function is $f^{-1}(x)=$
+      $$$\sqrt[5]{x-1}$$$
+    Annotations: ''
+  tags: []
+- id: 1576101750758
+  fields:
+    Front: |
+      APPM 1350 WA31-03:
+      A function is given by a formula. Determine whether it is one-to-one.
+      $$$
+      f(x)=x^{2}-8 x
+      $$$
+    Back: |
+      No, it is not one-to-one.
+
+      ##### Full solution:
+      The graph of $f(x)=x^{2}+b x$ is a parabola with axis of symmetry $x=-\frac{b}{2 a}$. Pick any $x$ -values equidistant from $x=-\frac{b}{2 a}$ to find two equal function values. For example, $f(0)=0$ and $f(-b / a)=0,$ so $f$ is not one-to-one.
+    Annotations: ''
+  tags: []
+- id: 1576101889882
+  fields:
+    Front: |
+      APPM 1350 WA31-04:
+      A function is given by a formula. Determine whether it is one-to-one.
+      $$$
+      g(x)=2 / x
+      $$$
+    Back: |
+      Yes, it is one-to-one.
+
+      ##### Full solution:
+      $g(x) = 2 / x$. $x_{1} \neq x_{2} \Rightarrow 2 / x_{1} \neq 2 / x_{2} \Rightarrow g\left(x_{1}\right) \neq g\left(x_{2}\right)$, so $g$ is one-to-one.
+
+      Geometric solution: The graph of $g$ is the hyperbola shown in Figure 14 in Section 1.2. It passes the Horizontal Line Test, so $g$ is one-to-one.
+    Annotations: ''
+  tags: []
+- id: 1576102306423
+  media:
+  - path: ${file_dir}/images/APPM-1350-WA31-05.1.jpg
+  fields:
+    Front: |
+      APPM 1350 WA31-05:
+      The graph of $f$ is given.
+      <p/><p align="center">
+      ![](APPM-1350-WA31-05.1.jpg)
+      </p>
+      (a) Why is $f$ one-to-one?
+      (b) What are the domain and range of $f^{-1}$?
+      (c) What is the value of $f^{-1}(2)$?
+      (d) Estimate the value of $f^{-1}(1)$ to the nearest tenth.
+    Back: |
+      (a) $f$ is one-to-one because it passes the Horizontal Line Test.
+      (b) domain $[0,4]$, range $[-2,4]$
+      (c) $1$
+      (d) $0$
+
+      ##### Full solution:
+      (a) Domain of $f=[-2,4]=$ Range of $f^{-1} .$ Range of $f=[0,4]=$ Domain of $f^{-1}$.
+      (b) Since $f(1)=2, f^{-1}(2)=1$
+      (c) Since $f(0)=1, f^{-1}(1)=0$
+    Annotations: ''
+  tags: []
+- id: 1576102865008
+  fields:
+    Front: |
+      APPM 1350 WA31-06:
+      Find a formula for the inverse of the function.
+      $$$
+      f(x)=3+\sqrt{5+8 x}
+      $$$
+    Back: |
+      $$$f^{-1}(x)=\frac{(x-3)^{2}-5}{8}$$$
+
+      ##### Full solution:
+      $y=f(x)=3+\sqrt{5+8 x}(y \geq 3) \Rightarrow$ $y-3=\sqrt{5+8 x} \Rightarrow$ $(y-3)^{2}=5+8 x \Rightarrow$ $(y-3)^{2}-5=8 x$ $\Rightarrow$ $x=\frac{1}{8}(y-3)^{2}-\frac{5}{8}$. Interchange $x$ and $y$: $y=\frac{1}{8}(x-3)^{2}-\frac{5}{8}$. So $f^{-1}(x)=\frac{1}{8}(x-3)^{2}-\frac{5}{8}$. Note that the domain of $f^{-1}$ is $x \geq 3$.
+    Annotations: ''
+  tags: []
+- id: 1576106458358
+  media:
+  - path: ${file_dir}/images/APPM-1350-WA31-07.1.jpg
+  - path: ${file_dir}/images/APPM-1350-WA31-07.2.jpg
+  - path: ${file_dir}/images/APPM-1350-WA31-07.3.jpg
+  fields:
+    Front: |
+      APPM 1350 WA31-07:
+      Use the given graph of $f$ to sketch the graph of $f^{-1}$.
+      <p/><p align="center">
+      ![](APPM-1350-WA31-07.1.jpg)
+      </p>
+    Back: |
+      <p/><p align="center">
+      ![](APPM-1350-WA31-07.2.jpg)
+      </p>
+
+      ##### Full solution:
+      Reflect the graph of $f$ about the line $y=x .$ The points $(-1,-2),(1,-1),(2,2),$ and $(3,4)$ on $f$ are reflected to $(-2,-1),(-1,1),(2,2),$ and $(4,3)$ on $f^{-1}$.
+      <p/><p align="center">
+      ![](APPM-1350-WA31-07.3.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1576106606958
+  fields:
+    Front: |
+      APPM 1350 WA31-08:
+      Find $\left(f^{-1}\right)^{\prime}(a)$.
+      $$$
+      f(x)=2 x^{3}+6 \sin x+4 \cos x, \quad a=4
+      $$$
+    Back: |
+      $$$
+      \left(f^{-1}\right)^{\prime}(a)=\frac{1}{6}
+      $$$
+
+      ##### Full solution:
+      $f(0)=4 \quad \Rightarrow \quad f^{-1}(4)=0,$ and $f(x)=2 x^{3}+6 \sin x+4 \cos x \quad \Rightarrow \quad f^{\prime}(x)=$ $6 x^{2}+6 \cos x-4 \sin x,$ and $f^{\prime}(0)=6$.
+      Thus, $\left(f^{-1}\right)^{\prime}(4)=\frac{1}{f^{\prime}\left(f^{-1}(4)\right)}=\frac{1}{f^{\prime}(0)}=\frac{1}{6}$
+    Annotations: ''
+  tags: []
+- id: 1576106763333
+  fields:
+    Front: |
+      APPM 1350 WA31-09:
+      Suppose $h$ is a function such that $h(1)=-2, h^{\prime}(1)=2, h^{\prime \prime}(1)=3, h(5)=5, h^{\prime \prime}(5)=7, h^{\prime \prime}(5)=12$, and $h^{\prime \prime}$ is continuous everywhere. Evaluate $\int_{1}^{5} h^{\prime \prime}(u) d u$.
+    Back: |
+      $$$5$$$
+
+      ##### Full solution:
+      The second derivative is the derivative of the first derivative, so we'll apply the Net Change Theorem with $F=h^{\prime}$.
+      $\int_{1}^{5} h^{\prime \prime}(u) d u=\int_{1}^{5}\left(h^{\prime}\right)^{\prime}(u) d u=h^{\prime}(5)-h^{\prime}(1)=7-2=5 .$ The other information is unnecessary.
+    Annotations: ''
+  tags: []
+- id: 1576107054284
+  fields:
+    Front: |
+      APPM 1350 WA31-10:
+      Find the average value $h_{\text {ave}}$ of the function $h$ on the given interval.
+      $$$
+      h(x)=7 \cos ^{4} x \sin x, \quad[0, \pi]
+      $$$
+    Back: |
+      $$$
+      h_{\text {ave }}=\frac{14}{5 \pi}
+      $$$
+
+      ##### Full solution:
+      $$$
+      \begin{aligned}
+        h_{\text {ave }}
+        &=\frac{7}{\pi-0} \int_{0}^{\pi} \cos ^{4} x \sin x d x=\frac{7}{\pi} \int_{1}^{-1} u^{4}(-d u) \\
+        &\quad[u=\cos x, d u=-\sin x d x] \\
+        &=\frac{7}{\pi} \int_{-1}^{1} u^{4} d u=\frac{7}{\pi} \cdot 2 \int_{0}^{1} u^{4} d u \\
+        &\quad[\text { Integrals of Symmetric Functions }] \\
+        &=\frac{14}{\pi}\left[\frac{1}{5} u^{5}\right]_{0}^{1} =\frac{14}{5 \pi}
+      \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1576107171407
+  fields:
+    Front: |
+      APPM 1350 WA31-11:
+      If $f$ is continuous and $\int_{0}^{18} f(x) d x=2,$ find $\int_{0}^{9} f(2 x) d x$.
+    Back: |
+      $$$1$$$
+
+      ##### Full solution:
+      Let $u=2 x .$ Then $d u=2 d x,$ so $\int_{0}^{9} f(2 x) d x=\int_{0}^{18} f(u)\left(\frac{1}{2} d u\right)$ $=\frac{1}{2} \int_{0}^{18} f(u) d u=\frac{1}{2}(2)=1$.
+    Annotations: ''
+  tags: []
+- id: 1576107238258
+  fields:
+    Front: |
+      APPM 1350 WA31-12:
+      Express the quantity as a single logarithm.
+      $$$
+      \ln 5+\frac{1}{3} \ln 8
+      $$$
+    Back: |
+      $$$\ln (10)$$$
+
+      ##### Full solution:
+      $\ln 5+\frac{1}{3} \ln 8=\ln 5+\ln 8^{1 / 3}=\ln 5+\ln 2=\ln (5 \cdot 2)=\ln 10$.
+    Annotations: ''
+  tags: []
+- id: 1576107309082
+  fields:
+    Front: |
+      APPM 1350 WA31-13:
+      Differentiate the function.
+      $$$
+      f(x)=\ln \left(64 \sin ^{2} x\right)
+      $$$
+    Back: |
+      $$$f^{\prime}(x)=2 \cot (x)$$$
+
+      ##### Full solution:
+      $f(x)=\ln \left(64 \sin ^{2} x\right)=\ln \left((8 \sin x)^{2}\right)=2 \ln (8|\sin x|) \Rightarrow$ $f^{\prime}(x)=2 \cdot \frac{1}{8 \sin x} \cdot 8 \cos x=2 \cot x$.
+    Annotations: ''
+  tags: []

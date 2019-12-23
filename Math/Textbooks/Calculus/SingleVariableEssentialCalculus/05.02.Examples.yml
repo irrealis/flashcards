@@ -1,0 +1,201 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - SingleVariableEssentialCalculus
+  - SVEC-05-InverseFunctions
+  - SVEC-05.02-TheNaturalLogarithmicFunction
+  markdownTabLength: 2
+notes:
+- id: 1574103744494
+  media:
+  - path: ${file_dir}/images/SVEC-05.02.Ex-01.1.jpg
+  fields:
+    Front: |
+      SVEC 05.02 Example 01:
+      (a) By comparing areas, show that $\frac{1}{2}<\ln 2<\frac{3}{4}.$
+      (b) Use the Midpoint Rule with $n=10$ to estimate the value of $\ln 2.$
+    Back: |
+      (a) We can interpret $\ln 2$ as the area under the curve $y=1 / t$ from 1 to $2 .$ From the figure below we see that this area is larger than the area of rectangle $B C D E$ and smaller than the area of trapezoid $A B C D .$
+      <p align="center">![](SVEC-05.02.Ex-01.1.jpg)</p>
+      Thus we have
+      $$$
+      \begin{aligned} \frac{1}{2} \cdot 1 &<\ln 2<1 \cdot \frac{1}{2}\left(1+\frac{1}{2}\right) \\ \frac{1}{2} &<\ln 2<\frac{3}{4} \end{aligned}
+      $$$
+
+      (b) If we use the Midpoint Rule with $f(t)=1 / t, n=10,$ and $\Delta t=0.1,$ we get
+      $$$
+      \begin{aligned}
+        \ln 2
+        &=\int_{1}^{2} \frac{1}{t} d t \approx(0.1)[f(1.05)+f(1.15)+\cdots+f(1.95)] \\
+        &=(0.1)\left(\frac{1}{1.05}+\frac{1}{1.15}+\cdots+\frac{1}{1.95}\right) \approx 0.693
+      \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1574104776093
+  fields:
+    Front: |
+      SVEC 05.02 Example 02:
+      Expand the expression:
+      $$$\ln \frac{\left(x^{2}+5\right)^{4} \sin x}{x^{3}+1}$$$
+    Back: |
+      Using Laws $1,2,$ and $3,$ we get
+      $$$
+      \begin{aligned} \ln \frac{\left(x^{2}+5\right)^{4} \sin x}{x^{3}+1} &=\ln \left(x^{2}+5\right)^{4}+\ln \sin x-\ln \left(x^{3}+1\right) \\ &=4 \ln \left(x^{2}+5\right)+\ln \sin x-\ln \left(x^{3}+1\right) \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1574104858644
+  fields:
+    Front: |
+      SVEC 05.02 Example 03:
+      Express $\ln a+\frac{1}{2} \ln b$ as a single logarithm.
+    Back: |
+      Using Laws 3 and 1 of logarithms, we have
+      $$$
+      \ln a+\frac{1}{2} \ln b=\ln a+\ln b^{1 / 2}=\ln a+\ln \sqrt{b}=\ln (a \sqrt{b})
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1574107791244
+  fields:
+    Front: |
+      SVEC 05.02 Example 05:
+      Differentiate $y=\ln \left(x^{3}+1\right) .$
+    Back: |
+      To use the Chain Rule, we let $u=x^{3}+1 .$ Then $y=\ln u,$ so
+      $$$
+      \frac{d y}{d x}=\frac{d y}{d u} \frac{d u}{d x}=\frac{1}{u} \frac{d u}{d x}=\frac{1}{x^{3}+1}\left(3 x^{2}\right)=\frac{3 x^{2}}{x^{3}+1}
+      $$$
+    Annotations: 'Trouble:<div>- 191118-1817: knowledge error: differentiated \(x^3
+      + 1\) as \(2x^2\) instead of \(3x^2\).</div>'
+  tags:
+  - ann:trouble
+- id: 1574108073919
+  fields:
+    Front: |
+      SVEC 05.02 Example 06:
+      Find $\frac{d}{d x} \ln (\sin x) .$
+    Back: |
+      $$$
+      \frac{d}{d x} \ln (\sin x) = \frac{1}{\sin x} \frac{d}{d x}(\sin x) = \frac{1}{\sin x} \cos x = \cot x
+      $$$
+    Annotations: 'Minor trouble:<div>- 191118-1818: minor memory error: forgot to
+      simplify \(\frac{\cos x}{\sin x}\) to \(\cot x\).</div>'
+  tags:
+  - ann:minor-trouble
+- id: 1574108187320
+  fields:
+    Front: |
+      SVEC 05.02 Example 07:
+      Differentiate $f(x)=\sqrt{\ln x} .$
+    Back: |
+      The logarithm is the inner function, so the Chain Rule gives
+      $$$
+      f^{\prime}(x)=\frac{1}{2}(\ln x)^{-1 / 2} \frac{d}{d x}(\ln x)=\frac{1}{2 \sqrt{\ln x}} \cdot \frac{1}{x}=\frac{1}{2 x \sqrt{\ln x}}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1574108352619
+  fields:
+    Front: |
+      SVEC 05.02 Example 08:
+      Find $\frac{d}{d x} \ln \frac{x+1}{\sqrt{x-2}} .$
+    Back: |
+      Solution 1:
+      $$$\begin{aligned} \frac{d}{d x} \ln \frac{x+1}{\sqrt{x-2}} &=\frac{1}{\frac{x+1}{\sqrt{x-2}}} \frac{d}{d x} \frac{x+1}{\sqrt{x-2}} \\ &=\frac{\sqrt{x-2}}{x+1} \frac{\sqrt{x-2} \cdot 1-(x+1)\left(\frac{1}{2}\right)(x-2)^{-1 / 2}}{x-2} \\ &=\frac{x-2-\frac{1}{2}(x+1)}{(x+1)(x-2)}=\frac{x-5}{2(x+1)(x-2)} \end{aligned}$$$
+
+      Solution 2: If we first simplify the given function using the laws of logarithms, then the differentiation becomes easier:
+      $$$
+      \begin{aligned}
+        \frac{d}{d x} \ln \frac{x+1}{\sqrt{x-2}}
+        &=\frac{d}{d x}\left[\ln (x+1)-\frac{1}{2} \ln (x-2)\right] \\
+        &=\frac{1}{x+1}-\frac{1}{2}\left(\frac{1}{x-2}\right)
+      \end{aligned}
+      $$$ (This answer can be left as written, but if we used a common denominator we would see that it gives the same answer as in Solution 1.)
+    Annotations: ''
+  tags: []
+- id: 1574108441394
+  fields:
+    Front: |
+      SVEC 05.02 Example 09:
+      Find $f^{\prime}(x)$ if $f(x)=\ln |x| .$
+    Back: |
+      Since
+      $$$
+      f(x)=\left\{\begin{array}{ll}{\ln x} & {\text { if } x>0} \\ {\ln (-x)} & {\text { if } x<0}\end{array}\right.
+      $$$ it follows that
+      $$$
+      f^{\prime}(x)=\left\{\begin{array}{ll}{\frac{1}{x}} & {\text { if } x>0} \\ {\frac{1}{-x}(-1)=\frac{1}{x}} & {\text { if } x<0}\end{array}\right.
+      $$$ Thus $f^{\prime}(x)=1 / x$ for all $x \neq 0 .$
+    Annotations: ''
+  tags: []
+- id: 1574108824694
+  fields:
+    Front: |
+      SVEC 05.02 Example 10:
+      Evaluate $\int \frac{x}{x^{2}+1} d x .$
+    Back: |
+      We make the substitution $u=x^{2}+1$ because the differential $d u=2 x d x$ occurs (except for the constant factor $2$). Thus, $x d x=\frac{1}{2} d u$ and
+      $$$
+      \begin{aligned} \int \frac{x}{x^{2}+1} d x &=\frac{1}{2} \int \frac{d u}{u}=\frac{1}{2} \ln |u|+C \\ &=\frac{1}{2} \ln \left|x^{2}+1\right|+C=\frac{1}{2} \ln \left(x^{2}+1\right)+C \end{aligned}
+      $$$ Notice that we removed the absolute value signs because $x^{2}+1>0$ for all $x .$ We could use the properties of logarithms to write the answer as
+      $$$
+      \ln \sqrt{x^{2}+1}+C
+      $$$ but this isn't necessary.
+    Annotations: ''
+  tags: []
+- id: 1574109002894
+  fields:
+    Front: |
+      SVEC 05.02 Example 11:
+      Calculate $\int_{1}^{e} \frac{\ln x}{x} d x .$
+    Back: |
+      We let $u=\ln x$ because its differential $d u=d x / x$ occurs in the integral. When $x=1, u=\ln 1=0 ;$ when $x=e, u=\ln e=1 .$ Thus
+      $$$
+      \int_{1}^{e} \frac{\ln x}{x} d x=\int_{0}^{1} u d u=\left.\frac{u^{2}}{2}\right]_{0}^{1}=\frac{1}{2}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1574109073569
+  fields:
+    Front: |
+      SVEC 05.02 Example 12:
+      Calculate $\int \tan x d x .$
+    Back: |
+      First we write tangent in terms of sine and cosine:
+      $$$
+      \int \tan x d x=\int \frac{\sin x}{\cos x} d x
+      $$$ This suggests that we should substitute $u=\cos x,$ since then $d u=-\sin x d x$ and so $\sin x d x=-d u:$
+      $$$
+      \begin{aligned} \int \tan x d x &=\int \frac{\sin x}{\cos x} d x=-\int \frac{1}{u} d u \\ &=-\ln |u|+C=-\ln |\cos x|+C \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1574109299818
+  fields:
+    Front: |
+      SVEC 05.02 Example 13:
+      ##### logarithmic differentiation
+      Differentiate $y=\frac{x^{3 / 4} \sqrt{x^{2}+1}}{(3 x+2)^{5}} .$
+    Back: |
+      We take logarithms of both sides of the equation and use the Laws of Logarithms to simplify:
+      $$$
+      \ln y=\frac{3}{4} \ln x+\frac{1}{2} \ln \left(x^{2}+1\right)-5 \ln (3 x+2)
+      $$$ Differentiating implicitly with respect to $x$ gives
+      $$$
+      \frac{1}{y} \frac{d y}{d x}=\frac{3}{4} \cdot \frac{1}{x}+\frac{1}{2} \cdot \frac{2 x}{x^{2}+1}-5 \cdot \frac{3}{3 x+2}
+      $$$ Solving for $d y / d x,$ we get
+      $$$
+      \frac{d y}{d x}=y\left(\frac{3}{4 x}+\frac{x}{x^{2}+1}-\frac{15}{3 x+2}\right)
+      $$$ Because we have an explicit expression for $y,$ we can substitute and write
+      $$$
+      \frac{d y}{d x}=\frac{x^{3 / 4} \sqrt{x^{2}+1}}{(3 x+2)^{5}}\left(\frac{3}{4 x}+\frac{x}{x^{2}+1}-\frac{15}{3 x+2}\right)
+      $$$
+    Annotations: ''
+  tags: []

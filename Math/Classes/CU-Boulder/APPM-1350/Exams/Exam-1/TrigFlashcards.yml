@@ -1,0 +1,273 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1350
+  - APPM-1350-Exams
+  - APPM-1350-Exam1
+  - APPM-1350-Exam1-TrigFlashcards
+  markdownTabLength: 2
+notes:
+- id: 1568214838595
+  fields:
+    Front: |
+      APPM 1350 Trig 01:
+      $$$$
+      \begin{array}{c}{\tan \theta=} \\ {\cot \theta=} \\ {\text { (in terms of } \sin \theta \text { and } \cos \theta)}\end{array}
+      $$$$
+    Back: |
+      $$$$
+      \begin{aligned} \tan \theta &=\frac{\sin \theta}{\cos \theta} \\ \cot \theta &=\frac{\cos \theta}{\sin \theta} \end{aligned}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568214994771
+  fields:
+    Front: |
+      APPM 1350 Trig 02:
+      $$$$
+      \begin{array}{c}{\sec \theta=} \\ {\csc \theta=} \\ {\text { (in terms of } \sin \theta \text { and } \cos \theta)}\end{array}
+      $$$$
+    Back: |
+      $$$$
+      \begin{aligned} \sec \theta &=\frac{1}{\cos \theta} \\ \csc \theta &=\frac{1}{\sin \theta} \end{aligned}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568215048170
+  fields:
+    Front: |
+      APPM 1350 Trig 03:
+      $$$$
+      \begin{array}{l}{\sin 0=} \\ {\sin \frac{\pi}{2}=}\end{array}
+      $$$$
+    Back: |
+      $$$$
+      \begin{aligned} \sin 0 &=0 \\ \sin \frac{\pi}{2} &=1 \end{aligned}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568216082222
+  fields:
+    Front: |
+      APPM 1350 Trig 04:
+      $$$$
+      \begin{aligned} \sin \pi &=\\ \sin \frac{3 \pi}{2} &=\end{aligned}
+      $$$$
+    Back: |
+      $$$$
+      \begin{aligned} \sin \pi &=0 \\ \sin \frac{3 \pi}{2} &=-1 \end{aligned}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568216211171
+  fields:
+    Front: |
+      APPM 1350 Trig 05:
+      $$$$
+      \begin{array}{l}{\cos 0=} \\ {\cos \frac{\pi}{2}=}\end{array}
+      $$$$
+    Back: |
+      $$$$
+      \begin{array}{l}{\cos 0=1} \\ {\cos \frac{\pi}{2}=0}\end{array}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568216345770
+  fields:
+    Front: |
+      APPM 1350 Trig 06:
+      $$$$
+      \begin{array}{l}{\cos \pi=} \\ {\cos \frac{3\pi}{2}=}\end{array}
+      $$$$
+    Back: |
+      $$$$
+      \begin{aligned} \cos \pi &=-1 \\ \cos \frac{3 \pi}{2} &=0 \end{aligned}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568216394920
+  fields:
+    Front: |
+      APPM 1350 Trig 07:
+      $$$$
+      \begin{array}{l}{\sin \frac{\pi}{6}=} \\ {\sin \frac{\pi}{3}=}\end{array}
+      $$$$
+    Back: |
+      $$$$
+      \begin{aligned} \sin \frac{\pi}{6} &=\frac{1}{2} \\ \sin \frac{\pi}{3} &=\frac{\sqrt{3}}{2} \end{aligned}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568216438970
+  fields:
+    Front: |
+      APPM 1350 Trig 08:
+      $$$$
+      \sin \frac{\pi}{4}=
+      $$$$
+    Back: |
+      $$$$
+      \sin \frac{\pi}{4}=\frac{1}{\sqrt{2}}=\frac{\sqrt{2}}{2}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568216485670
+  fields:
+    Front: |
+      APPM 1350 Trig 09:
+      $$$$
+      \begin{array}{l}{\cos \frac{\pi}{6}=} \\ {\cos \frac{\pi}{3}=}\end{array}
+      $$$$
+    Back: |
+      $$$$
+      \begin{aligned} \cos \frac{\pi}{6} &=\frac{\sqrt{3}}{2} \\ \cos \frac{\pi}{3} &=\frac{1}{2} \end{aligned}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568216542120
+  fields:
+    Front: |
+      APPM 1350 Trig 10:
+      $$$$
+      \cos \frac{\pi}{4}=
+      $$$$
+    Back: |
+      $$$$
+      \cos \frac{\pi}{4}=\frac{1}{\sqrt{2}}=\frac{\sqrt{2}}{2}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568216807645
+  fields:
+    Front: |
+      APPM 1350 Trig 11:
+      $$$$
+      \begin{array}{l}{\tan 0=} \\ {\tan \frac{\pi}{4}=} \\ {\tan \frac{\pi}{2}=}\end{array}
+      $$$$
+    Back: |
+      $$$$
+      \begin{aligned} \tan 0 &=0 \\ \tan \frac{\pi}{4} &=1 \\ \tan \frac{\pi}{2} &=\text { undef } \end{aligned}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568216849595
+  fields:
+    Front: |
+      APPM 1350 Trig 12:
+      $$$$
+      \begin{array}{c}{\text { Trigonometric Identity }} \\ {\text { involving }} \\ {\sin \theta \text { and } \cos \theta}\end{array}
+      $$$$
+    Back: |
+      $$$$
+      \sin ^{2} \theta+\cos ^{2} \theta=1
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568216900445
+  fields:
+    Front: |
+      APPM 1350 Trig 13:
+      $$$$
+      \begin{array}{c}{\text { Trigonometric Identity }} \\ {\qquad \text { involving }} \\ {\text { tan } \theta \text { and } \sec \theta}\end{array}
+      $$$$
+    Back: |
+      $$$$
+      \tan ^{2} \theta + 1=\sec ^{2} \theta
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568216983195
+  fields:
+    Front: |
+      APPM 1350 Trig 14:
+      $$$$
+      \begin{array}{c}{\text { Trigonometric Identity }} \\ {\text { involving }} \\ {\cot \theta \text { and } \csc \theta}\end{array}
+      $$$$
+    Back: |
+      $$$$
+      1+\cot ^{2} \theta=\csc ^{2} \theta
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568217035821
+  fields:
+    Front: |
+      APPM 1350 Trig 15:
+      $$$$
+      \begin{array}{l}{\text { In which two quadrants }} \\ {\text { is sin } x \text { positive? }}\end{array}
+      $$$$
+    Back: |
+      $$$$
+      \text { quadrants } 1 \text { and } 2
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568217087920
+  fields:
+    Front: |
+      APPM 1350 Trig 16:
+      $$$$
+      \begin{array}{c}{\text {In which two quadrants }} \\ {\text { is cos } x \text { positive? }}\end{array}
+      $$$$
+    Back: |
+      $$$$
+      \text { quadrants } 1 \text { and } 4
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568217153695
+  fields:
+    Front: |
+      APPM 1350 Trig 17:
+      $$$$
+      \begin{array}{l}{\text { In which two quadrants }} \\ {\text { is tan } x \text { positive? }}\end{array}
+      $$$$
+    Back: |
+      $$$$
+      \text { quadrants } 1 \text { and } 3
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568217438121
+  media:
+  - path: ${file_dir}/images/APPM-1350-Exam1-TrigFlashcards-18.1.jpg
+  fields:
+    Front: |
+      APPM 1350 Trig 18:
+      $$$$
+      \begin{array}{l}{\text {Graph of}} \\ {y=\sin x}\end{array}
+      $$$$
+    Back: |
+      ![](APPM-1350-Exam1-TrigFlashcards-18.1.jpg)
+    Annotations: ''
+  tags: []
+- id: 1568217550770
+  media:
+  - path: ${file_dir}/images/APPM-1350-Exam1-TrigFlashcards-19.1.jpg
+  fields:
+    Front: |
+      APPM 1350 Trig 19:
+      $$$$
+      \begin{array}{l}{\text {Graph of}} \\ {y=\cos x}\end{array}
+      $$$$
+    Back: |
+      ![](APPM-1350-Exam1-TrigFlashcards-19.1.jpg)
+    Annotations: ''
+  tags: []
+- id: 1568217634045
+  media:
+  - path: ${file_dir}/images/APPM-1350-Exam1-TrigFlashcards-20.1.jpg
+  fields:
+    Front: |
+      APPM 1350 Trig 20:
+      $$$$
+      \begin{array}{l}{\text {Graph of}} \\ {y=\tan x}\end{array}
+      $$$$
+    Back: |
+      ![](APPM-1350-Exam1-TrigFlashcards-20.1.jpg)
+    Annotations: ''
+  tags: []

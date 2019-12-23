@@ -1,0 +1,78 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1350
+  - APPM-1350-Exams
+  - APPM-1350-Exam2
+  - APPM-1350-HW05
+  - APPM-1350-Section02.04
+  - APPM-1350-Section02.05
+  - WrittenHomework
+  markdownTabLength: 2
+notes:
+- id: 1572038814904
+  media:
+  - path: ${file_dir}/images/HW-05-01.1.jpg
+  fields:
+    Front: |
+      APPM 1350 HW-05 01:
+      Consider functions $f$ and $g$ whose graphs are shown below.
+      (a) Let $u(x)=g(f(x)) .$ Find $u^{\prime}(-1)$ and $u^{\prime}(1).$
+      (b) Let $v(x)=\sqrt{3 f(x)-(g(x))^{2}} .$ Find $v^{\prime}(-1).$
+      ![](HW-05-01.1.jpg)
+    Back: |
+      (a) $3 / 2,$ DNE
+      (b) $-\frac{3}{4 \sqrt{5}}$
+    Annotations: ''
+  tags: []
+- id: 1572038882404
+  fields:
+    Front: |
+      APPM 1350 HW-05 02:
+      Find an equation for the line tangent to $y=\frac{1}{(2-\tan x)^{3}}$ at $x=\pi / 4.$
+    Back: |
+      $y-1=6(x-\pi / 4)$
+    Annotations: ''
+  tags: []
+- id: 1572038926229
+  fields:
+    Front: |
+      APPM 1350 HW-05 03:
+      If $f(x)=(x-a)^{2} g(x)$ and $g$ is a polynomial, then we say that $a$ is a root of $f$ with multiplicity $2 .$ Find $f^{\prime}(x)$ and $f^{\prime}(a) .$
+    Back: |
+      $(x-a)^{2} g^{\prime}(x)+2(x-a) g(x), 0$
+    Annotations: ''
+  tags: []
+- id: 1572038961604
+  fields:
+    Front: |
+      APPM 1350 HW-05 04:
+      Find the points where $|y|=2 \sqrt{10-6 x+x^{2}}$ has horizontal tangents.
+    Back: |
+      $(3, \pm 2)$
+    Annotations: ''
+  tags: []
+- id: 1572039025905
+  fields:
+    Front: |
+      APPM 1350 HW-05 05:
+      Suppose gas in a canister with volume $V$ is kept at temperature $T .$ Then the pressure of the gas is
+      $$$P=\frac{n R T}{V-n b}-\frac{a n^{2}}{V^{2}},$$$
+      where $a, b, n,$ and $R$ are constants. Find $d P / d V.$
+    Back: |
+      $-n R T(V-n b)^{-2}+2 a n^{2} V^{-3}$
+    Annotations: ''
+  tags: []
+- id: 1572039092504
+  fields:
+    Front: |
+      APPM 1350 HW-05 06:
+      Inside a machine a piston is moving vertically up and down with amplitude $a$ and frequency $k .$ Its position at time $t$ is $y=a \cos (2 \pi k t),$ measured in seconds. How does doubling the frequency affect the velocity and acceleration of the piston?
+    Back: |
+      the velocity doubles and the acceleration quadruples
+    Annotations: ''
+  tags: []

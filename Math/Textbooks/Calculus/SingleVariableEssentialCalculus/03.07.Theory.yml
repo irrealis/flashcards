@@ -1,0 +1,118 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theory
+  - SingleVariableEssentialCalculus
+  - SVEC-03-ApplicationsOfDifferentiation
+  - SVEC-03.07-Antiderivatives
+  markdownTabLength: 2
+notes:
+- id: 1573086627394
+  fields:
+    Front: |
+      SVEC 03.07 Theory 01:
+      ##### antiderivatives
+      Define **antiderivative.**
+    Back: |
+      A function $F$ is called an antiderivative of $f$ on an interval $I$ if $F^{\prime}(x)=f(x)$ for all $x$ in $I .$
+    Annotations: ''
+  tags: []
+- id: 1573086796819
+  fields:
+    Front: |
+      SVEC 03.07 Theory 02:
+      ##### antiderivatives
+      State the **general antiderivative expression.**
+    Back: |
+      If $F$ is an antiderivative of $f$ on an interval $I,$ then the most general antiderivative of $f$ on $I$ is
+      $$$
+      F(x)+C
+      $$$ where $C$ is an arbitrary constant.
+    Annotations: ''
+  tags: []
+- id: 1573087319593
+  fields:
+    Front: |
+      SVEC 03.07 Theory 03:
+      ##### antiderivatives
+      State the particular antiderivative of $cf(x)$.
+    Back: |
+      $$$cF(x)$$$
+    Annotations: ''
+  tags: []
+- id: 1573087492393
+  fields:
+    Front: |
+      SVEC 03.07 Theory 04:
+      ##### antiderivatives
+      State the particular antiderivative of $f(x)+g(x).$
+    Back: |
+      $$$
+      F(x)+G(x)
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1573087492533
+  fields:
+    Front: |
+      SVEC 03.07 Theory 05:
+      ##### antiderivatives
+      State the particular antiderivative of $x^{n} \quad(n \neq-1).$
+    Back: |
+      $$$
+      \frac{x^{n+1}}{n+1}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1573087492668
+  fields:
+    Front: |
+      SVEC 03.07 Theory 06:
+      ##### antiderivatives
+      State the particular antiderivative of $\cos x.$
+    Back: |
+      $$$
+      \sin x
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1573087492822
+  fields:
+    Front: |
+      SVEC 03.07 Theory 07:
+      ##### antiderivatives
+      State the particular antiderivative of $\sin x.$
+    Back: |
+      $$$
+      -\cos x
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1573087492983
+  fields:
+    Front: |
+      SVEC 03.07 Theory 08:
+      ##### antiderivatives
+      State the particular antiderivative of $\sec^2 x.$
+    Back: |
+      $$$
+      \tan x
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1573087493121
+  fields:
+    Front: |
+      SVEC 03.07 Theory 09:
+      ##### antiderivatives
+      State the particular antiderivative of $\sec x \tan x.$
+    Back: |
+      $$$
+      \sec x
+      $$$
+    Annotations: ''
+  tags: []

@@ -1,0 +1,85 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - SingleVariableEssentialCalculus
+  - SVEC-03-ApplicationsOfDifferentiation
+  - SVEC-03.06-NewtonsMethod
+  markdownTabLength: 2
+notes:
+- id: 1573079966870
+  fields:
+    Front: |
+      SVEC 03.06 Example 01:
+      ##### newton's method
+      Starting with $x_{1}=2,$ find the third approximation $x_{3}$ to the root of the equation $x^{3}-2 x-5=0 .$
+    Back: |
+      We apply Newton's method with
+      $$$
+      f(x)=x^{3}-2 x-5 \quad \text { and } \quad f^{\prime}(x)=3 x^{2}-2
+      $$$ Newton himself used this equation to illustrate his method and he chose $x_{1}=2$ after some experimentation because $f(1)=-6, f(2)=-1,$ and $f(3)=16 .$ The next approximation is
+      $$$
+      \begin{aligned}
+        x_{n+1}
+        &=x_{n}-\frac{f\left(x_{n}\right)}{f^{\prime}\left(x_{n}\right)} \\
+        &=x_{n}-\frac{x_{n}^{3}-2 x_{n}-5}{3 x_{n}^{2}-2}
+      \end{aligned}
+      $$$ With $n=1$ we have
+      $$$
+      \begin{aligned} x_{2} &=x_{1}-\frac{x_{1}^{3}-2 x_{1}-5}{3 x_{1}^{2}-2} \\ &=2-\frac{2^{3}-2(2)-5}{3(2)^{2}-2}=2.1 \end{aligned}
+      $$$ Then with $n=2$ we obtain
+      $$$
+      \begin{aligned} x_{3} &=x_{2}-\frac{x_{2}^{3}-2 x_{2}-5}{3 x_{2}^{2}-2} \\ &=2.1-\frac{(2.1)^{3}-2(2.1)-5}{3(2.1)^{2}-2} \approx 2.0946 \end{aligned}
+      $$$ It turns out that this third approximation $x_{3} \approx 2.0946$ is accurate to four decimal places.
+    Annotations: ''
+  tags: []
+- id: 1573080144620
+  fields:
+    Front: |
+      SVEC 03.06 Example 02:
+      ##### newton's method
+      Use Newton's method to find $\sqrt[6]{2}$ correct to eight decimal places.
+    Back: |
+      First we observe that finding $\sqrt[6]{2}$ is equivalent to finding the positive root of the equation
+      $$$
+      x^{6}-2=0
+      $$$ so we take $f(x)=x^{6}-2 .$ Then $f^{\prime}(x)=6 x^{5}$ and the next approximation is
+      $$$
+      x_{n+1}=x_{n}-\frac{x_{n}^{6}-2}{6 x_{n}^{5}}
+      $$$ If we choose $x_{1}=1$ as the initial approximation, then we obtain
+      $$$
+      \begin{array}{l}{x_{2} \approx 1.16666667} \\ {x_{3} \approx 1.1266668} \\ {x_{4} \approx 1.12249707} \\ {x_{5} \approx 1.12246205} \\ {x_{6} \approx 1.12246205}\end{array}
+      $$$ since $x_{5}$ and $x_{6}$ agree to eight decimal places, we conclude that
+      $$$
+      \sqrt[6]{2} \approx 1.12246205
+      $$$ to eight decimal places.
+    Annotations: ''
+  tags: []
+- id: 1573080343187
+  fields:
+    Front: |
+      SVEC 03.06 Example 03:
+      ##### newton's method
+      Find, correct to six decimal places, the root of the equation $\cos x=x .$
+    Back: |
+      We first rewrite the equation in standard form:
+      $$$
+      \cos x-x=0
+      $$$ Therefore we let $f(x)=\cos x-x .$ Then $f^{\prime}(x)=-\sin x-1,$ so the next approximation is
+      $$$
+      \begin{aligned}
+        x_{n+1}
+        &=x_{n}-\frac{f\left(x_{n}\right)}{f^{\prime}\left(x_{n}\right)} \\
+        &=x_{n}-\frac{\cos x_{n}-x_{n}}{-\sin x_{n}-1} \\
+        &=x_{n}+\frac{\cos x_{n}-x_{n}}{\sin x_{n}+1}
+      \end{aligned}
+      $$$ In order to guess a suitable value for $x_{1}$ we sketch the graphs of $y=\cos x$ and $y=x$ in Figure $6 .$ It appears that they intersect at a point whose $x$ -coordinate is somewhat less than $1,$ so let's take $x_{1}=1$ as a convenient first approximation. Then, remembering to put our calculator in radian mode, we get
+      $$$
+      \begin{array}{l}{x_{2} \approx 0.75036387} \\ {x_{3} \approx 0.73911289} \\ {x_{4} \approx 0.73908513} \\ {x_{5} \approx 0.73908513}\end{array}
+      $$$ since $x_{4}$ and $x_{5}$ agree to six decimal places (eight, in fact), we conclude that the root of the equation, correct to six decimal places, is $0.739085 .$
+    Annotations: ''
+  tags: []

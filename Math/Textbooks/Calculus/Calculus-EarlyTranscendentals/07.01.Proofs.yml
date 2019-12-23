@@ -1,0 +1,33 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Proofs
+  - Calculus-EarlyTrancendentals
+  - CET-07-TechniquesOfIntegration
+  - CET-07.01-IntegrationByParts
+  markdownTabLength: 2
+notes:
+- id: 1576618212307
+  fields:
+    Front: |
+      CET-07.01-01 Proof:
+      Derive the **formula for integration by parts.**
+    Back: |
+      The Product Rule states that if $f$ and $g$ are differentiable functions, then
+      $$$
+      \frac{d}{d x}[f(x) g(x)]=f(x) g^{\prime}(x)+g(x) f^{\prime}(x)
+      $$$ In the notation for indefinite integrals this equation becomes
+      $$$
+      \int\left[f(x) g^{\prime}(x)+g(x) f^{\prime}(x)\right] d x=f(x) g(x)
+      $$$ or
+      $$$
+      \int f(x) g^{\prime}(x) d x+\int g(x) f^{\prime}(x) d x=f(x) g(x)
+      $$$ We can rearrange this equation as
+      $$$\int f(x) g^{\prime}(x) d x=f(x) g(x)-\int g(x) f^{\prime}(x) d x$$$
+    Annotations: ''
+  tags:
+  - Editing

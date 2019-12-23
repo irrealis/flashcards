@@ -1,0 +1,180 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1350
+  - APPM-1350-WA35
+  - SingleVariableEssentialCalculus
+  - SVEC-05-InverseFunctions
+  - SVEC-05.05-ExponentialGrowthAndDecay
+  - WebAssign
+  - Exam4
+  markdownTabLength: 2
+notes:
+- id: 1576468294832
+  fields:
+    Front: |
+      APPM 1350 WA35-03:
+      A population of protozoa develops with a constant relative growth rate of $0.7233$ per member per day. On day zero the population consists of four members. Find the population size after six days. (Round your answer to the nearest whole number.)
+    Back: |
+      $$$P(6)=307 \text{ members}$$$
+
+      ##### Full solution:
+      The relative growth rate is $\frac{1}{P} \frac{d P}{d t}=0.7233$, so $\frac{d P}{d t}=0.7233 P$ and, by the theorem that the only solutions of the differential equation $d y / d t=k y$ are the exponential functions $y(t)=y(0) e^{k t}, P(t)=P(0) e^{0.233 t}=4 e^{0.7233 t}$ Thus, $P(6)=4 e^{0.7233(6)} \approx 306.77$ or about $307$ members.
+    Annotations: ''
+  tags: []
+- id: 1576468918483
+  fields:
+    Front: |
+      APPM 1350 WA35-04:
+      A bacteria culture initially contains $100$ cells and grows at a rate proportional to its size. After an hour the population has increased to $450$.
+      (a) Find an expression for the number of bacteria after $t$ hours.
+      (b) Find the number of bacteria after 4 hours. (Round your answer to the nearest whole number.)
+      (c) Find the rate of growth after 4 hours. (Round your answer to the nearest whole number.)
+      (d) When will the population reach $10,000 ?$ (Round your answer to one decimal place.)
+    Back: |
+      (a) $P(t) = 100(4.5)^{t}$
+      (b) $P(4) = 41006$ bacteria
+      (c) $P^{\prime}(4) = 61677$ bacteria per hour
+      (d) $t = 3.1$ hr
+
+      ##### Full solution:
+      (a) By the theorem below, $P(t)=P(0) e^{k t}=100 e^{k t} . \quad$ Now $P(1)=100 e^{k(1)}$ $=450 \Rightarrow e^{k}=\frac{450}{100} \Rightarrow k=\ln 4.5$. So $P(t)=100 e^{(\ln 4.5) t}=100(4.5)^{t}$.
+
+      (b) $P(4)=100(4.5)^{4}=41,006.25 \approx 41,006$ bacteria
+
+      (c) $d P / d t=k P \Rightarrow P^{\prime}(4)=k \cdot P(4)=(\ln 4.5)\left(100(4.5)^{4}\right)$ [from part (a)] $\approx 61,677$ bacteria/ hour
+
+      (d) $P(t)=100(4.5)^{t}=10,000 \Rightarrow(4.5)^{t}=100 \Rightarrow t=(\ln 100) /(\ln 4.5)$ $\approx 3.1$ hours
+    Annotations: ''
+  tags: []
+- id: 1576469221708
+  fields:
+    Front: |
+      APPM 1350 WA35-05:
+      The half-life of cesium- 137 is 30 years. Suppose we have a 150 -mg sample.
+      (a) Find the mass that remains after $t$ years.
+      (b) How much of the sample remains after 90 years? (Round your answer to two decimal places.)
+      (c) After how long will only 1 mg remain? (Round your answer to one decimal place.)
+    Back: |
+      (a) $y(t) =150 \cdot 2^{-t / 30}$ mg
+      (b) $18.75$ mg
+      (c) $t = 216.9$ yr
+
+      ##### Full solution:
+      (a) If $y(t)$ is the mass (in $\mathrm{mg}$ ) remaining after $t$ years then
+      $$$
+      \begin{aligned}
+        y(t)
+        &=y(0) e^{k t} \\
+        &=150 e^{k t} \\
+        y(30) &=150 e^{30 k} \\
+        &=\frac{1}{2}(150) \\
+        e^{30 k} &=\frac{1}{2} \\
+        k &=-\frac{\ln 2}{30} \\
+        y(t) &=150 e^{-(\ln 2) t / 30} \\
+        &=150 \cdot 2^{-t / 30} \mathrm{mg}
+      \end{aligned}
+      $$$
+
+      (b)
+      $$$\begin{aligned} y(90) &=150 \cdot 2^{-90 / 30} \\ & \approx 18.75 \text{ mg} \end{aligned}$$$
+
+      (c)
+      $$$\begin{aligned} 150 e^{-(\ln 2) t / 30} &=1 \\-\frac{(\ln 2) t}{30} &=\ln \frac{1}{150} \\ t &=-30 \frac{\ln \frac{1}{150}}{\ln 2} \\ & \approx 216.9 \text { years } \end{aligned}$$$
+    Annotations: ''
+  tags: []
+- id: 1576608953712
+  fields:
+    Front: |
+      APPM 1350 WA35-06:
+      Scientist can determine the age of ancient objects by a method called radiocarbon dating. The bombardment of the upper atmosphere by cosmic rays converts nitrogen to a radioactive isotope of carbon, $^{14}\mathrm{C},$ with a half-life of about $5730$ years. Vegetation absorbs carbon dioxide through the atmosphere and animal life assimilates $^{14}\mathrm{C}$ through food chains. When a plant or animal dies, it stops replacing its carbon and the amount of $^{14} \mathrm{C}$ begins to decrease through radioactive decay. Therefore, the level of radioactivity must also decay exponentially.
+
+      A parchment fragment was discovered that had about $68 \%$ as much $^{14}\mathrm{C}$ radioactivity as does plant material on Earth today. Estimate the age of the parchment. (Round your answer to the nearest hundred years.)
+    Back: |
+      $$$3200 \text{ yr}$$$
+
+      ##### Full solution:
+      Let $y(t)$ be the level of radioactivity. Thus, $y(t)=y(0) e^{-k t}$ and $k$ is
+      determined by using the half-life:
+      $y(5730)=\frac{1}{2} y(0) \Rightarrow y(0) e^{-k(5730)}=\frac{1}{2} y(0) \Rightarrow e^{-5730 k}=\frac{1}{2} \Rightarrow-5730 k=$ $\ln \frac{1}{2} \Rightarrow k=-\frac{\ln \frac{1}{2}}{5730}=\frac{\ln 2}{5730} \cdot$ If $68 \% \quad$ 14 $\mathrm{C}$ remains, then we know that $y(t)=0.68 y(0) \quad \Rightarrow \quad 0.68=e^{-t(\ln 2) / 5730} \Rightarrow \ln 0.68=-\frac{t \ln 2}{5730} \quad \Rightarrow \quad t=$ $-\frac{5730(\ln 0.68)}{\ln 2} \approx 3190$ years. Rounded to the nearest hundred years, we have 3200.
+    Annotations: ''
+  tags: []
+- id: 1576609339733
+  fields:
+    Front: |
+      APPM 1350 WA35-07:
+      When a cold drink is taken from a refrigerator, its temperature is $5^{\circ} \mathrm{C}$. After 25 minutes in a $20^{\circ} \mathrm{C}$ room its temperature has increased to $10^{\circ} \mathrm{C}$. (Round your answers to two decimal places.)
+
+      (a) What is the temperature of the drink after 40 minutes?
+      (b) when will its temperature be $12^{\circ} \mathrm{C} ?$
+    Back: |
+      (a) $12.16 \text{ }^{\circ}\text{C}$
+      (b) $38.76 \text{ min}$
+
+      ##### Full solution:
+      $\frac{d T}{d t}=k(T-20) .$ Letting $y=T-20,$ we get $\frac{d y}{d t}=k y,$ so $y(t)$ $=y(0) e^{k t} . \quad y(0)=T(0)-20=5-20=-15,$ so $y(25)=y(0) e^{25 k}$ $=-15 e^{25 k},$ and $y(25)=T(25)-20=10-20=-10,$ so $-15 e^{25 k}$ $=-10 \Rightarrow e^{25 k}=\frac{2}{3} \cdot$ Thus, $25 k=\ln \left(\frac{2}{3}\right)$ and $k=\frac{1}{25} \ln \left(\frac{2}{3}\right),$ so $y(t)$ $=y(0) e^{k t}=-15 e^{(1 / 25) \ln (2 / 3) t} .$ More simply, $e^{25 k}=\frac{2}{3} \Rightarrow$ $e^{k}=\left(\frac{2}{3}\right)^{1 / 25} \Rightarrow e^{k t}=\left(\frac{2}{3}\right)^{t / 25} \Rightarrow y(t)=-15 \cdot\left(\frac{2}{3}\right)^{t / 25}$.
+
+      (a) $T(40)=20+y(40)=20-15 \cdot\left(\frac{2}{3}\right)^{40 / 25}=20-15 \cdot\left(\frac{2}{3}\right)^{1.6}$ $\approx 12.16^{\circ} \mathrm{C}$
+
+      (b) $12=T(t)=20+y(t)=20-15 \cdot\left(\frac{2}{3}\right)^{t / 25} \Rightarrow 15 \cdot\left(\frac{2}{3}\right)^{t / 25}$ $=8 \Rightarrow\left(\frac{2}{3}\right) / 1 / 25=\frac{8}{15} \Rightarrow(t / 25) \ln \left(\frac{2}{3}\right)=\ln \left(\frac{8}{15}\right)  \Rightarrow$ $t=25 \ln \left(\frac{8}{15}\right) / \ln \left(\frac{2}{3}\right) \approx 38.76 \min .$
+    Annotations: ''
+  tags: []
+- id: 1576609730307
+  fields:
+    Front: |
+      APPM 1350 WA35-08:
+      Differentiate the function.
+      $$$
+      y=\log _{2}\left(e^{-x} \cos (\pi x)\right)
+      $$$
+    Back: |
+      $$$y^{\prime}=-\frac{1}{\ln (2)}(\pi \tan (\pi x)+1)$$$
+
+      ##### Full solution:
+      $y=\log _{2}\left(e^{-x} \cos \pi x\right)=\log _{2} e^{-x}+\log _{2} \cos \pi x$ $=-x \log _{2} e+\log _{2} \cos \pi x \Rightarrow y^{\prime}=-\log _{2} e+\frac{1}{\cos \pi x(\ln 2)} \frac{d}{d x}(\cos \pi x)$ $=-\log _{2} e+\frac{-\pi \sin \pi x}{\cos \pi x(\ln 2)}=-\log _{2} e-\frac{\pi}{\ln 2} \tan \pi x$
+
+      Note: $\frac{1}{\ln 2}=\frac{\ln e}{\ln 2}=\log _{2} e,$ so the answer could be written as $-\log _{2} e-\pi \log _{2} e \cdot \tan \pi x=\left(-\log _{2} e\right)(1+\pi \tan \pi x).$
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1576609795509
+  fields:
+    Front: |
+      APPM 1350 WA35-09:
+      Find the exact value of each expression. (Enter your answer in radians.)
+
+      (a) $\quad \arctan (\sqrt{3})$
+      (b) $\sin ^{-1}(\sqrt{2} / 2)$
+    Back: |
+      (a) $\frac{\pi}{3}$
+      (b) $\frac{\pi}{4}$
+
+      ##### Full solution:
+      (a) arctan $\sqrt{3}=\pi / 3$ since $\tan \pi / 3=\sqrt{3}$ and $\pi / 3$ is in $\left(-\frac{\pi}{2}, \frac{\pi}{2}\right)$
+      (b) $\sin ^{-1} \sqrt{2} / 2=\pi / 4$ since $\sin \pi / 4=\sqrt{2} / 2$ and $\pi / 4$ is in $\left[-\frac{\pi}{2}, \frac{\pi}{2}\right]$
+    Annotations: ''
+  tags: []
+- id: 1576610116635
+  media:
+  - path: ${file_dir}/images/APPM-1350-WA35-10.1.jpg
+  fields:
+    Front: |
+      APPM 1350 WA35-10:
+      Simplify the expression.
+      $$$
+      \tan \left(\sin ^{-1} x\right)
+      $$$
+    Back: |
+      $$$\frac{x}{\sqrt{1-x^{2}}}$$$
+
+      ##### Full solution:
+      Let $y=\sin ^{-1} x .$ Then $\sin y=x,$ so from the triangle we see that $\tan \left(\sin ^{-1} x\right)=\tan y=\frac{x}{\sqrt{1-x^{2}}}$.
+      <p align="center">
+      ![](APPM-1350-WA35-10.1.jpg)
+      </p>
+    Annotations: ''
+  tags: []

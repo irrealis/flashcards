@@ -1,0 +1,439 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1350
+  - APPM-1350-Exams
+  - APPM-1350-Exam4
+  - APPM-1350-Exam4-Review
+  markdownTabLength: 2
+notes:
+- id: 1576542006408
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Review.01a:
+      Find the limit:
+      $\lim _{x \rightarrow \infty} \sqrt[4]{x}$
+    Back: |
+      Note that $\lim _{x \rightarrow \infty} x^{1 / x}=^{4} \infty^{0,},$ and if we let $y=\lim _{x \rightarrow \infty} x^{1 / x}$ then, by continuity,
+      $$$
+      \ln (y)=\lim _{x \rightarrow \infty} \frac{\ln (x)}{x} \stackrel{L^{\prime} H}{=} \lim _{x \rightarrow \infty} \frac{1 / x}{1}=\lim _{x \rightarrow \infty} \frac{1}{x}=0
+      $$$
+      So, $\ln (y)=0$ and so $y=\lim _{x \rightarrow \infty} \sqrt[x]{x}=e^{0}=1$
+    Annotations: ''
+  tags: []
+- id: 1576542782633
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Review.01b:
+      Find the limit:
+      $\lim _{x \rightarrow 1^{+}} \frac{1}{\ln (x)}-\frac{1}{x-1}$
+    Back: |
+      Note that $\lim _{x \rightarrow 1^{+}} \frac{1}{\ln (x)}-\frac{1}{x-1}=4 \infty-\infty^{\prime \prime}$ and so combining the two fractions and using L'Hospital's Rule
+      twice yields,
+      $$$
+      \begin{align}
+        \lim _{x \rightarrow 1^{+}} \frac{1}{\ln (x)}-\frac{1}{x-1}
+        &=\lim _{x \rightarrow 1^{+}} \frac{x-1-\ln (x)}{(x-1) \ln (x)} \frac{1-1 / x}{\ln (x)+1-1 / x} \\
+        &\stackrel{L^{\prime} F}{=} \lim _{x \rightarrow 1+} \frac{1 / x^{2}}{1 / x+1 / x^{2}} =\frac{1}{2}
+      \end{align}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1576542782832
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Review.01c:
+      Find the limit:
+      $\lim _{x \rightarrow-\infty} x^{2} e^{x}$
+    Back: |
+      Note that $\lim _{x \rightarrow \infty} x^{2} e^{x}="_{\infty} \cdot 0^{\prime \prime},$ so, in the expression, if we divide one term by the reciprocal of the other
+      term and apply L'Hospitals Rule twice, this yields,
+      $$$
+      \lim _{x \rightarrow-\infty} x^{2} e^{x}=\lim _{x \rightarrow-\infty} \frac{x^{2}}{e^{-x}} \lim _{x \rightarrow-\infty} \frac{2 x}{-e^{-x}} \frac{L^{2} H}{=} \lim _{x \rightarrow-\infty} \frac{2}{e^{-x}}=0
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1576542783021
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Review.01d:
+      Find the limit:
+      $\lim _{x \rightarrow 1} \frac{2-x}{(x-1)^{2}}$
+    Back: |
+      Here we have $\lim _{x \rightarrow 1} \frac{2-x}{(x-1)^{2}}=+\infty$
+    Annotations: ''
+  tags: []
+- id: 1576542783174
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Review.01e:
+      Find the limit:
+      $\lim _{x \rightarrow 5^{-}} \frac{-6}{x-5}$
+    Back: |
+      Here $\lim _{x \rightarrow 5^{-}} \frac{-6}{x-5}=+\infty$
+    Annotations: ''
+  tags: []
+- id: 1576542783356
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Review.01f:
+      Find the limit:
+      $\lim _{x \rightarrow \infty} \frac{x^{3}-2 x+3}{5 x^{2}-2 x^{3}}$
+    Back: |
+      $\lim _{x \rightarrow \infty} \frac{x^{3}-2 x+3}{5 x^{2}-2 x^{3}}=\lim _{x \rightarrow \infty} \frac{1-\frac{2}{x^{2}}+\frac{3}{x^{3}}}{\frac{5}{x}-2}=-\frac{1}{2}$
+    Annotations: ''
+  tags: []
+- id: 1576542783515
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Review.01g:
+      Find the limit:
+      $\lim _{x \rightarrow 4} \frac{x-4}{|4-x|}$
+    Back: |
+      Recall that
+      $$$|4-x|=\left\{\begin{aligned} 4-x, & \text { if } x \leq 4 \\-(4-x), & \text { if } x>4 \end{aligned}\right.$$$ thus, $\lim _{x \rightarrow 4^{+}} \frac{x-4}{-(4-x)}=1$ and $\lim _{x \rightarrow 4^{-}} \frac{x-4}{4-x}=-1$ and so $\lim _{x \rightarrow 4} \frac{x-4}{|4-x|}$ does not exist.
+    Annotations: ''
+  tags: []
+- id: 1576542783756
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Review.01h:
+      Find the limit:
+      $\lim _{x \rightarrow \infty} \frac{x}{\sqrt{x^{2}+1}}$
+    Back: |
+      L'Hospitals Rule won't work here, so use dominance of powers instead:
+      $$$
+      \lim _{x \rightarrow \infty} \frac{x}{\sqrt{x^{2}+1}}=\lim _{x \rightarrow \infty} \frac{x}{|x| \sqrt{1+\frac{1}{x^{2}}}}=\lim _{x \rightarrow \infty} \frac{x}{x \sqrt{1+\frac{1}{x^{2}}}}=\lim _{x \rightarrow \infty} \frac{1}{\sqrt{1+\frac{1}{x^{2}}}}=1
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1576543346783
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Review.02a:
+      Find $y^{\prime}:$
+      $y=\ln (\sinh (x))$
+    Back: |
+      $y^{\prime}=\frac{\cosh (x)}{\sinh (x)}$
+    Annotations: ''
+  tags: []
+- id: 1576543347006
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Review.02b:
+      Find $y^{\prime}:$
+      $y=\sqrt{x} e^{\cosh (3 x)}$
+    Back: |
+      $y^{\prime}=\frac{e^{\cosh (3 x)}}{2 x^{1 / 2}}+3 x^{1 / 2} \sinh (3 x) e^{\cosh (3 x)}$
+    Annotations: ''
+  tags: []
+- id: 1576543347172
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Review.02c:
+      Find $y^{\prime}:$
+      $y=\left(1+x^{2}\right) \arctan (x)$
+    Back: |
+      $y^{\prime}=2 x \arctan (x)+1$
+    Annotations: ''
+  tags: []
+- id: 1576543347339
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Review.02d:
+      Find $y^{\prime}:$
+      $y=x \ln \left(\tan ^{-1}(x)\right)$
+    Back: |
+      $y^{\prime}=\ln \left(\tan ^{-1}(x)\right)+x \cdot \frac{1}{1+x^{2}} \cdot \frac{1}{\tan ^{-1}(x)}=\ln \left(\tan ^{-1}(x)\right)+\frac{x}{\left(1+x^{2}\right) \tan ^{-1}(x)}$
+    Annotations: ''
+  tags: []
+- id: 1576543347506
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Review.02e:
+      Find $y^{\prime}:$
+      $y=5^{-1 / x}$
+    Back: |
+      $y^{\prime}=5^{-1 / x} \cdot \ln (5) \cdot \frac{1}{x^{2}}=\frac{5^{-1 / x} \ln (5)}{x^{2}}$
+    Annotations: ''
+  tags: []
+- id: 1576543347656
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Review.02f:
+      Find $y^{\prime}:$
+      $y=x^{\sin (x)}$
+    Back: |
+      Using logarithmic differentiation we have $\ln (y)=\sin (x) \ln (x),$ and so, $\frac{y^{\prime}}{y}=\cos (x) \ln (x)+\frac{\sin x}{x}$ and thes,
+      $$$
+      y^{\prime}=y\left(\cos (x) \ln (x)+\frac{\sin x}{x}\right)=x^{\sin (x)}\left(\cos (x) \ln (x)+\frac{\sin x}{x}\right)
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1576543347813
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Review.02g:
+      Find $y^{\prime}:$
+      $y=\log _{10}\left(x^{2}-4\right)$
+    Back: |
+      Note that $y=\log _{10}\left(x^{2}-4\right)=\frac{\ln \left(x^{2}-4\right)}{\ln (10)},$ so, $y^{\prime}=\frac{2 x}{\ln (10)\left(x^{2}-4\right)}$
+    Annotations: ''
+  tags: []
+- id: 1576543347956
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Review.02h:
+      Find $y^{\prime}:$
+      $y=\sqrt{1+2 e^{3 x}}$
+    Back: |
+      Note $y=\left(1+2 e^{3 x}\right)^{1 / 2},$ so, $y^{\prime}=3 e^{3 x}\left(1+2 e^{3 x}\right)^{-1 / 2}$
+    Annotations: ''
+  tags: []
+- id: 1576543348106
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Review.02i:
+      Find $y^{\prime}:$
+      $y=\ln \left(x^{2}+y^{2}\right)$
+    Back: |
+      Using implicit differentation, we have, $y^{\prime}=\frac{2 x+2 y y^{\prime}}{x^{2}+y^{2}}$ and so $y^{\prime}\left(x^{2}+y^{2}\right)=2 x+2 y y^{\prime}$, and thus
+      $$$
+      y^{\prime}=\frac{2 x}{x^{2}+y^{2}-2 y}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1576543348313
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Review.02j:
+      Find $y^{\prime}:$
+      $y=\int_{1 / x^{2}}^{0} \sin ^{3}(t) d t$
+      (k) $y=\frac{\ln (x)}{e^{x}}$
+    Back: |
+      Note $y=\int_{1 / x^{2}}^{0} \sin ^{3}(t) d t=-\int_{0}^{1 / x^{2}} \sin ^{3}(t) d t,$ and by the FTOC we have, $y^{\prime}=\frac{2}{x^{3}} \sin ^{3}\left(\frac{1}{x^{2}}\right)$
+      (k) Here, $y^{\prime}=\frac{\frac{1}{x} e^{x}-\ln (x) e^{x}}{e^{2 x}}=\frac{1-x \ln (x)}{x e^{x}}$
+    Annotations: ''
+  tags: []
+- id: 1576543348473
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Review.02k:
+      Find $y^{\prime}:$
+      $y=\frac{\ln (x)}{e^{x}}$
+    Back: |
+      Here, $y^{\prime}=\frac{\frac{1}{x} e^{x}-\ln (x) e^{x}}{e^{2 x}}=\frac{1-x \ln (x)}{x e^{x}}$
+    Annotations: ''
+  tags: []
+- id: 1576543529857
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Review.03a:
+      Find the exact value of $\arcsin (-1 / \sqrt{2})$.
+    Back: |
+      If we let $y=\arcsin (-1 / \sqrt{2}),$ then $\sin (y)=-\frac{1}{\sqrt{2}}=-\frac{\sqrt{2}}{2},$ where $-\frac{\pi}{2} \leq y \leq \frac{\pi}{2},$ so $y=-\pi / 4,$ that is $\arcsin (-1 / \sqrt{2})=-\pi / 4$.
+    Annotations: ''
+  tags: []
+- id: 1576543530101
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Review.03b:
+      Find the exact value of $\cos \left(\sin ^{-1}(x)\right)$.
+    Back: |
+      If we let $y=\sin ^{-1}(x),$ then $\sin (y)=x,$ where $-\frac{\pi}{2} \leq y \leq \frac{\pi}{2} .$ Now note that $\cos ^{2}(y)+\sin ^{2}(y)=1$ implies
+      $$$
+      \begin{aligned} \cos (y)=\pm \sqrt{1-\sin ^{2}(y)}=\pm \sqrt{1-x^{2}} \end{aligned}
+      $$$
+      Now note that $-\frac{\pi}{2} \leq y \leq \frac{\pi}{2}$ implies $\cos (y) \geq 0$ and so $\cos \left(\sin ^{-1}(x)\right)=\cos (y)=\cos (y)=\sqrt{1-x^{2}}$.
+    Annotations: ''
+  tags: []
+- id: 1576543668383
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Review.04:
+      Let $g(t)=3-\frac{t}{2 t+1}, \quad t \neq-1 / 2$.
+      (a) Show that $g$ is one-to-one.
+      (b) Let $a=2 \frac{2}{3}$. Calculate $\left(g^{-1}\right)^{\prime}(a)$ without finding $g^{-1}$.
+      (c) Now find $g^{-1}(t)$.
+    Back: |
+      (a) $g^{\prime}(t)=-\frac{(2 t+1)-t(2)}{(2 t+1)^{2}}=\frac{-1}{(2 t+1)^{2}}<0$ so $g$ is one-to-one and therefore invertible.
+
+      (b) Note that $g(1)=2 \frac{2}{3}=\frac{8}{3}$ $\Longrightarrow g^{-1}\left(\frac{8}{3}\right)=1$ $\Longrightarrow\left(g^{-1}\right)^{\prime}\left(\frac{8}{3}\right)=\frac{1}{g^{\prime}(1)}=\frac{1}{-1 / 9}=-9$.
+
+      (c) Let $y=g(t) .$ Solve for $t,$ then swap $t$ and $y$:
+      $y=3-\frac{t}{2 t+1} \Rightarrow \frac{t}{2 t+1}=3-y \Longrightarrow 6 t+3-2 t y-y=t \Rightarrow t=\frac{y-3}{5-2 y} \Rightarrow g^{-1}(t)=\frac{t-3}{5-2 t}$ for $t \neq 5 / 2 .$
+    Annotations: ''
+  tags: []
+- id: 1576543760683
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Review.05a:
+      Find $f^{-1}$ given $f(x)=\frac{1-\sqrt{x}}{1+\sqrt{x}}$.
+    Back: |
+      $$$f^{-1}(x)=\left(\frac{1-x}{1+x}\right)^{2}$$$
+    Annotations: ''
+  tags: []
+- id: 1576543804658
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Review.05b:
+      Find $\left(f^{-1}\right)^{\prime}(1)$ given $f(x)=x^{3}+x+1$.
+    Back: |
+      Note that $f(0)=1$ and so $f^{-1}(1)=0$ and recall $\left(f^{-1}\right)^{\prime}(a)=\frac{1}{f^{\prime}\left(f^{-1}(a)\right)},$ and here $f^{\prime}(x)=3 x^{2}+1$ and so,
+      $$$
+      \left(f^{-1}\right)^{\prime}(1)=\frac{1}{f^{\prime}\left(f^{-1}(1)\right)}=\frac{1}{f^{\prime}(0)}=\frac{1}{1}=1
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1576543987587
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Review.06:
+      Let $h^{\prime \prime}(\theta)=\sec ^{2} \theta, \quad h(0)=1, \quad h(\pi / 4)=\frac{1}{2} \ln 2 .$ Find $h$.
+    Back: |
+      First observe that $\int \tan \theta d \theta$ $=\int \underbrace{\frac{\sin \theta}{\cos \theta} d \theta}_{u = \cos\theta \\ d u=-\sin \theta d \theta}$ $=\int-\frac{d u}{u}$ $=-\ln |u|+C$ $=-\ln |\cos \theta|+C$ $=\ln |\sec \theta|+C$.
+      Solve for $h$.
+      $$$
+      h^{\prime \prime}(\theta)=\sec ^{2} \theta \Longrightarrow h^{\prime}(\theta)=\tan \theta+C \Longrightarrow h(\theta)=\ln |\sec \theta|+C \theta+D
+      $$$ Use the initial values to solve for the constants.
+      $$$
+      \begin{aligned}
+        h(0) &=0+0+D=1 \\
+        h\left(\frac{\pi}{4}\right) &=\ln \sqrt{2}+\frac{\pi}{4} C+1=\frac{1}{2} \ln 2 \\
+        &\Longrightarrow C=-\frac{4}{\pi} \quad\left(\text { note that } \ln \sqrt{2}=\frac{1}{2} \ln 2\right) \\
+        h(\theta) &=\ln |\sec \theta|-\frac{4}{\pi} \theta+1
+      \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1576544207583
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Review.07:
+      Let $y=\sqrt[8]{\frac{3 x-1}{\left(x^{2}+5\right) \cos x}} .$ Use logarithmic differentiation to find $d y / d x$.
+    Back: |
+      $$$\begin{aligned} y &=\sqrt[3]{\frac{3 x-1}{\left(x^{2}+5\right) \cos x}} \\ \ln |y| &=\frac{1}{3}\left(\ln |3 x-1|-\ln \left(x^{2}+5\right)-\ln |\cos x|\right) \\ \frac{1}{y} \frac{d y}{d x} &=\frac{1}{3}\left(\frac{3}{3 x-1}-\frac{2 x}{x^{2}+5}+\frac{\sin x}{\cos x}\right) \\ \frac{d y}{d x} &=\frac{1}{3} \sqrt[3]{\frac{3 x-1}{\left(x^{2}+5\right) \cos x}}\left(\frac{3}{3 x-1}-\frac{2 x}{x^{2}+5}+\tan x\right) \end{aligned}$$$
+    Annotations: ''
+  tags: []
+- id: 1576544291934
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Review.08:
+      A bacteria culture initially contains 10 cells and grows at a rate proportional to its sike. After an hour the population has increased to $106 .$ (a) Find an expression for the number of bacteria after $t$ hours. (b) When will the population reach $10,000$ cells?
+    Back: |
+      (a) Let $y(t)$ be the population of the bacteria at $t$ hours, then $y(t)=y_{0} e^{k t}$ and $y(0)=10$ implies $y_{0}=10 .$ Now $y(1)=106$ implies $106=10 e^{k},$ and so $k=\ln (10.6)$ and thus $y(t)=10 e^{\ln (10.6) t}$.
+
+      (b) We wish to find $t$ such that $y(t)=10,000,$ or $10 e^{\ln (10.6) t}=10,000,$ which implies $e^{\ln (10.6) t}=1000$ and so $\ln (10.6) t=\ln (1000)$ or $t=\frac{\ln (1000)}{\ln (10.6)}.$
+    Annotations: ''
+  tags: []
+- id: 1576544466707
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Review.09:
+      Cobalt- 60 half-life of 5.24 years. How long would it take for a sample to decay by $99 \% ?$
+    Back: |
+      Let $m(t)$ be the mass remaining after $t$ years. Then $m(t)=m_{0} e^{k t} .$ The half-life can be used to find
+      the relative growth rate $k$ :
+      $$$
+      m(5.24)=m_{0} e^{5.24 k}=\frac{1}{2} m_{0} \Longrightarrow e^{5.24 k}=\frac{1}{2} \Rightarrow 5.24 k=-\ln 2 \Rightarrow k=-\frac{\ln 2}{5.24}
+      $$$ Now solve for time $t$ when $m(t)$ is $1 \%$ of $m_{0}$.
+      $$$
+      m(t)=m_{0} e^{k t}=\frac{1}{100} m_{0} \Rightarrow e^{k t}=\frac{1}{100} \Rightarrow k t=-\ln 100 \Longrightarrow t=5.24 \frac{\ln 100}{\ln 2} \approx 34.8 \text { years. }
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1576544989482
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Review.10a:
+      Evaluate the integral:
+      $\int \frac{e^{x}}{e^{2 x}+1} d x$
+    Back: |
+      If we let $u=e^{x},$ then, $\int \frac{e^{x}}{e^{2 x}+1} d x=\int \frac{1}{u^{2}+1} d u=\tan ^{-1}(u)+C=\tan ^{-1}\left(e^{x}\right)+C$
+    Annotations: ''
+  tags: []
+- id: 1576544989632
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Review.10b:
+      Evaluate the integral:
+      $\int \frac{d x}{x+\sqrt{x}}$
+    Back: |
+      Note $\int \frac{d x}{x+\sqrt{x}}=\int \frac{d x}{\sqrt{x}(\sqrt{x}+1)}$ and if we let $u=\sqrt{x}+1$ then $2 d u=\frac{d x}{\sqrt{x}}$ and so
+      $$$
+      \int \frac{d x}{x+\sqrt{x}}=\int \frac{d x}{\sqrt{x}(\sqrt{x}+1)} \stackrel{u=\sqrt{x}+1}{=} \int \frac{2 d u}{u}=2 \ln |u|+C=2 \ln |\sqrt{x}+1|+C
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1576544989809
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Review.10d:
+      Evaluate the integral:
+      $\int \frac{d x}{\sec (x)+\tan (x)}$
+    Back: |
+      Note, if we multiply the top and bottom by $\cos (x)$, then we have
+      $$$
+      \int \frac{1}{\sec (x)+\tan (x)} d x=\int \frac{1}{\sec (x)+\tan (x)} \frac{\cos (x)}{\cos (x)} d x=\int \frac{\cos (x)}{1+\sin (x)} d x
+      $$$ now if we let $u=1+\sin (x)$ then we get $d u=\cos (x),$ and so,
+      $$$
+      \int \frac{1}{\sec (x)+\tan (x)} d x=\int \frac{\cos (x)}{1+\sin (x)} d x \stackrel{u=1+\sin (x)}{=} \int \frac{d u}{u}=\ln |u|+C=\ln |1+\sin (x)|+C
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1576544990008
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Review.10e:
+      Evaluate the integral:
+      $\int_{-1}^{1} e^{|x|} d x$
+    Back: |
+      Note that,
+      $$$
+      \int_{-1}^{1} e^{|x|} d x=\int_{-1}^{0} e^{-x} d x+\int_{0}^{1} e^{x} d x=-\left.e^{-x}\right|_{-1} ^{0}+\left.e^{x}\right|_{0} ^{1}=(-1+e)+(e-1)=2(e-1)
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1576544990215
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Review.10f:
+      Evaluate the integral:
+      $\int \frac{x}{\sqrt{x^{2}+1}} d x$
+    Back: |
+      If we let $u=x^{2}+1$ then $\int \frac{x}{\sqrt{x^{2}+1}} d x=\frac{1}{2} \int \frac{d u}{\sqrt{u}}=\frac{1}{2} \cdot 2 u^{1 / 2}+C=\sqrt{x^{2}+1}+C$
+    Annotations: ''
+  tags: []
+- id: 1576544990366
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Review.10g:
+      Evaluate the integral:
+      $\int \frac{d x}{x \sec (\ln (x))}$
+    Back: |
+      If we let $u=\ln (x)$ then $d u=d x / x$ and
+      $$$
+      \int \frac{d x}{x \sec (\ln (x))}=\int \cos (u) d u=\sin (u)+C=\sin (\ln (x))+C
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1576544990531
+  fields:
+    Front: |
+      APPM 1350 Exam-4-Review.10h:
+      Evaluate the integral:
+      $\int \frac{\cosh (x)}{\cosh ^{2}(x)-1} d x$
+    Back: |
+      Recall that $\cosh ^{2}(x)-1=\sinh ^{2}(x)$ and so we have
+      $$$
+      \int \frac{\cosh (x)}{\cosh ^{2}(x)-1} d x=\int \frac{\cosh (x)}{\sinh ^{2}(x)} d x
+      $$$ now if we let $u=\sinh (x)$ then $d u=\cosh (x) d x$ and thus
+      $$$
+      \int \frac{\cosh (x)}{\cosh ^{2}(x)-1} d x=\int \frac{\cosh (x)}{\sinh ^{2}(x)} d x=\int \frac{d u}{u^{2}}=-u^{-1}+C=\frac{-1}{\sinh (x)}+C=-\operatorname{csch}(x)+C
+      $$$
+    Annotations: ''
+  tags: []

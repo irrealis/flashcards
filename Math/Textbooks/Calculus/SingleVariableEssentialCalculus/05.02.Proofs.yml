@@ -1,0 +1,78 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Proofs
+  - SingleVariableEssentialCalculus
+  - SVEC-05-InverseFunctions
+  - SVEC-05.02-TheNaturalLogarithmicFunction
+  markdownTabLength: 2
+notes:
+- id: 1574104194519
+  fields:
+    Front: |
+      SVEC 05.02 Proof 01:
+      Prove that
+      $$$\frac{d}{d x}(\ln x)=\frac{1}{x}$$$
+    Back: |
+      Notice that the integral that defines $\ln x$ is exactly the type of integral discussed in Part $1$ of the Fundamental Theorem of Calculus. Using that theorem, we have
+      $$$
+      \frac{d}{d x}(\ln x) = \frac{d}{d x} \int_{1}^{x} \frac{1}{t} d t=\frac{1}{x}
+      $$$
+      $\square$
+    Annotations: ''
+  tags: []
+- id: 1574104673920
+  fields:
+    Front: |
+      SVEC 05.02 Proof 02:
+      Prove the **Laws Of Logarithms.**
+    Back: |
+      1. Let $f(x)=\ln (a x)$, where $a$ is a positive constant. Then, using the derivative of the natural logarithm and the Chain Rule, we have
+      $$$
+      f^{\prime}(x)=\frac{1}{a x} \frac{d}{d x}(a x)=\frac{1}{a x} \cdot a=\frac{1}{x}
+      $$$ Therefore $f(x)$ and $\ln x$ have the same derivative and so they must differ by a constant:
+      $$$
+      \ln (a x)=\ln x+C
+      $$$ Putting $x=1$ in this equation, we get $\ln a=\ln 1+C=0+C=C .$ Thus
+      $$$
+      \ln (a x)=\ln x+\ln a
+      $$$ If we now replace the constant $a$ by any number $y,$ we have
+      $$$
+      \ln (x y)=\ln x+\ln y
+      $$$
+
+      2. Using Law 1 with $x=1 / y,$ we have
+      $$$
+      \ln \frac{1}{y}+\ln y=\ln \left(\frac{1}{y} \cdot y\right)=\ln 1=0
+      $$$ and so
+      $$$
+      \ln \frac{1}{y}=-\ln y
+      $$$ Using Law 1 again, we have
+      $$$
+      \ln \left(\frac{x}{y}\right)=\ln \left(x \cdot \frac{1}{y}\right)=\ln x+\ln \frac{1}{y}=\ln x-\ln y
+      $$$
+
+      3. To-Do.
+      $\square$
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1574107609894
+  fields:
+    Front: |
+      SVEC 05.02 Proof 03:
+      Prove the **Log Limits.**
+    Back: |
+      (a) Using Law 3 with $x=2$ and $r=n$ (where $n$ is any positive integer), we have $\ln \left(2^{n}\right)=n \ln 2 .$ Now $\ln 2>0,$ so this shows that $\ln \left(2^{n}\right) \rightarrow \infty$ as $n \rightarrow \infty .$ But $\ln x$ is an increasing function since its derivative $1 / x>0 .$ Therefore $\ln x \rightarrow \infty$ as $x \rightarrow \infty$.
+
+      (b) If we let $t=1 / x,$ then $t \rightarrow \infty$ as $x \rightarrow 0^{+} .$ Thus, using $(\mathrm{a}),$ we have
+      $$$
+      \lim _{x \rightarrow 0^{+}} \ln x=\lim _{t \rightarrow \infty} \ln \left(\frac{1}{t}\right)=\lim _{t \rightarrow \infty}(-\ln t)=-\infty
+      $$$
+      $\square$
+    Annotations: ''
+  tags: []

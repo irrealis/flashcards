@@ -1,0 +1,236 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - SingleVariableEssentialCalculus
+  - SVEC-03-ApplicationsOfDifferentiation
+  - SVEC-03.05-OptimizationProblems
+  markdownTabLength: 2
+notes:
+- id: 1573073827220
+  media:
+  - path: ${file_dir}/images/SVEC-03.05.Ex-01.1.jpg
+  - path: ${file_dir}/images/SVEC-03.05.Ex-01.2.jpg
+  - path: ${file_dir}/images/SVEC-03.05.Ex-01.3.jpg
+  - path: ${file_dir}/images/SVEC-03.05.Ex-01.4.jpg
+  fields:
+    Front: |
+      SVEC 03.04 Example 01:
+      ##### steps in solving optimization problems
+      A farmer has 2400 ft of fencing and wants to fence off a rectangular field that borders a straight river. He needs no fence along the river. What are the dimensions of the field that has the largest area?
+    Back: |
+      In order to get a feeling for what is happening in this problem, let's experiment with some special cases. The following figures (not to scale) show three possible ways of laying out the 2400 ft of fencing. We see that when we try shallow, wide fields or deep, narrow fields, we get relatively small areas. It seems plausible that there is some intermediate configuration that produces the largest area.
+      <p align="center">
+      ![](SVEC-03.05.Ex-01.1.jpg)
+      Area $=100 \cdot 2200=220,000 \text{ ft}^{2}$
+      </p>
+      <p align="center">
+      ![](SVEC-03.05.Ex-01.2.jpg)
+      Area $=700 \cdot 1000=700,000 \text{ ft}^{2}$
+      </p>
+      <p align="center">
+      ![](SVEC-03.05.Ex-01.3.jpg)
+      Area $=1000 \cdot 400=400,000 \text{ ft}^{2}$
+      </p>
+      The figure below illustrates the general case.
+      <p/><p align="center">![](SVEC-03.05.Ex-01.4.jpg)</p>
+      We wish to maximize the area $A$ of the rectangle. Let $x$ and $y$ be the depth and width of the rectangle (in feet). Then we express $A$ in terms of $x$ and $y:$
+      $$$
+      A=x y
+      $$$ We want to express $A$ as a function of just one variable, so we eliminate $y$ by expressing it in terms of $x$. To do this we use the given information that the total length of the fencing is 2400 ft. Thus
+      $$$
+      2 x+y=2400
+      $$$ From this equation we have $y=2400-2 x,$ which gives
+      $$$
+      A=x(2400-2 x)=2400 x-2 x^{2}
+      $$$ Note that $x \geqslant 0 \text { and } x \leqslant 1200 \text { (otherwise } A<0) .$ So the function that we wish to
+      maximize is
+      $$$
+      A(x)=2400 x-2 x^{2} \quad 0 \leqslant x \leqslant 1200
+      $$$ The derivative is $A^{\prime}(x)=2400-4 x,$ so to find the critical numbers we solve the
+      equation
+      $$$
+      2400-4 x=0
+      $$$ which gives $x=600 .$ The maximum value of $A$ must occur either at this critical number or at an endpoint of the interval. Since $A(0)=0, A(600)=720,000,$ and $A(1200)=0,$ the Closed Interval Method gives the maximum value as $A(600)=720,000.$
+
+      [Alternatively, we could have observed that $A^{\prime \prime}(x)=-4<0$ for all $x,$ so $A$ is always concave downward and the local maximum at $x=600$ must be an absolute maximum. ]
+
+      Thus the rectangular field should be $600 \text{ ft}$ deep and $1200 \text{ ft}$ wide.
+    Annotations: ''
+  tags: []
+- id: 1573074464849
+  media:
+  - path: ${file_dir}/images/SVEC-03.05.Ex-02.1.jpg
+  - path: ${file_dir}/images/SVEC-03.05.Ex-02.2.jpg
+  - path: ${file_dir}/images/SVEC-03.05.Ex-02.3.jpg
+  - path: ${file_dir}/images/SVEC-03.05.Ex-02.4.jpg
+  fields:
+    Front: |
+      SVEC 03.04 Example 02:
+      ##### steps in solving optimization problems
+      A cylindrical can is to be made to hold 1 L of oil. Find the dimensions that will minimize the cost of the metal to manufacture the can.
+    Back: |
+      Draw the diagram as in the figure below, where $r$ is the radius and $h$ the height (both in centimeters).
+      <p align="center">![](SVEC-03.05.Ex-02.1.jpg)</p>
+      In order to minimize the cost of the metal, we minimize the total surface area of the cylinder (top, bottom, and sides). From the next two figures we see that the sides are made from a rectangular sheet with dimensions $2 \pi r$ and $h .$
+      <p align="center">
+      ![](SVEC-03.05.Ex-02.2.jpg)
+      Area $2\left(\pi r^{2}\right)$
+      </p>
+      <p align="center">
+      ![](SVEC-03.05.Ex-02.3.jpg)
+      Area $(2 \pi r) h$
+      </p>
+      So the surface area is
+      $$$
+      A=2 \pi r^{2}+2 \pi r h
+      $$$
+
+      To eliminate $h$ we use the fact that the volume is given as $1 \mathrm{L},$ which we take to be $1000 \mathrm{cm}^{3} .$ Thus
+      $$$
+      \pi r^{2} h=1000
+      $$$ which gives $h=1000 /\left(\pi r^{2}\right) .$ Substitution of this into the expression for $A$ gives
+      $$$
+      A=2 \pi r^{2}+2 \pi r\left(\frac{1000}{\pi r^{2}}\right)=2 \pi r^{2}+\frac{2000}{r}
+      $$$ Therefore the function that we want to minimize is
+      $$$
+      A(r)=2 \pi r^{2}+\frac{2000}{r} \quad r>0
+      $$$ To find the critical numbers, we differentiate:
+      $$$
+      A^{\prime}(r)=4 \pi r-\frac{2000}{r^{2}}=\frac{4\left(\pi r^{3}-500\right)}{r^{2}}
+      $$$ Then $A^{\prime}(r)=0$ when $\pi r^{3}=500,$ so the only critical number is $r=\sqrt[3]{500 / \pi}$.
+
+      Observe that $A^{\prime}(r)<0$ for $r<\sqrt[3]{500 / \pi}$ and $A^{\prime}(r)>0$ for $r>\sqrt[3]{500 / \pi},$ so $A$ is decreasing for all $r$ to the left of the critical number and increasing for all $r$ to the right. Thus $r=\sqrt[3]{500 / \pi}$ must give rise to an absolute minimum.
+
+      [Alternatively, we could argue that $A(r) \rightarrow \infty$ as $r \rightarrow 0^{+}$ and $A(r) \rightarrow \infty$ as $r \rightarrow \infty,$ so there must be a minimum value of $A(r),$ which must occur at the critical number. See the figure below.]
+      <p align="center">![](SVEC-03.05.Ex-02.4.jpg)</p>
+
+      The value of $h$ corresponding to $r=\sqrt[3]{500 / \pi}$ is
+      $$$
+      h=\frac{1000}{\pi r^{2}}=\frac{1000}{\pi(500 / \pi)^{2 / 3}}=2 \sqrt[3]{\frac{500}{\pi}}=2 r
+      $$$ Thus to minimize the cost of the can, the radius should be $\sqrt[3]{500 / \pi} \approx 5.42 \mathrm{cm}$ and the height should be equal to twice the radius, namely, the diameter.
+
+      **Note:**
+      An alternative method for solving optimization problems is to use implicit differentiation. Let's look at this example again to illustrate the method. We work with the same equations
+      $$$
+      A=2 \pi r^{2}+2 \pi r h \quad \pi r^{2} h=100
+      $$$ but instead of eliminating $h,$ we differentiate both equations implicitly with respect to $r:$
+      $$$
+      A^{\prime}=4 \pi r+2 \pi r h^{\prime}+2 \pi h \quad \pi r^{2} h^{\prime}+2 \pi r h=0
+      $$$ The minimum occurs at a critical number, so we set $A^{\prime}=0,$ simplify, and arrive at the equations
+      $$$
+      2 r+h+r h^{\prime}=0 \quad 2 h+r h^{\prime}=0
+      $$$ and subtraction gives $2 r-h=0,$ or $h=2 r.$
+    Annotations: ''
+  tags: []
+- id: 1573075010494
+  media:
+  - path: ${file_dir}/images/SVEC-03.05.Ex-03.1.jpg
+  fields:
+    Front: |
+      SVEC 03.04 Example 03:
+      ##### steps in solving optimization problems
+      Find the point on the parabola $y^{2}=2 x$ that is closest to the point $(1,4) .$
+    Back: |
+      The distance between the point $(1,4)$ and the point $(x, y)$ is
+      $$$
+      d=\sqrt{(x-1)^{2}+(y-4)^{2}}
+      $$$
+      (See figure below.)
+      <p align="center">![](SVEC-03.05.Ex-03.1.jpg)</p>
+      But if $(x, y)$ lies on the parabola, then $x=y^{2} / 2,$ so the expression for $d$ becomes
+      $$$
+      d=\sqrt{\left(\frac{1}{2} y^{2}-1\right)^{2}+(y-4)^{2}}
+      $$$ (Alternatively, we could have substituted $y=\sqrt{2 x}$ to get $d$ in terms of $x$ alone.) Instead of minimizing $d$, we minimize its square:
+      $$$
+      d^{2}=f(y)=\left(\frac{1}{2} y^{2}-1\right)^{2}+(y-4)^{2}
+      $$$ (You should convince yourself that the minimum of $d$ occurs at the same point as the minimum of $d^{2},$ but $d^{2}$ is easier to work with.) Differentiating, we obtain
+      $$$
+      f^{\prime}(y)=2\left(\frac{1}{2} y^{2}-1\right) y+2(y-4)=y^{3}-8
+      $$$ so $f^{\prime}(y)=0$ when $y=2 .$ Observe that $f^{\prime}(y)<0$ when $y<2$ and $f^{\prime}(y)>0$ when $y>2,$ so by the First Derivative Test for Absolute Extreme Values, the absolute minimum occurs when $y=2 .$ (Or we could simply say that because of the geometric nature of the problem, it's obvious that there is a closest point but not a farthest point.) The corresponding value of $x$ is $x=y^{2} / 2=2 .$ Thus the point on $y^{2}=2 x$ closest to $(1,4)$ is $(2,2) .$
+    Annotations: ''
+  tags: []
+- id: 1573075574494
+  media:
+  - path: ${file_dir}/images/SVEC-03.05.Ex-04.1.jpg
+  - path: ${file_dir}/images/SVEC-03.05.Ex-04.2.jpg
+  fields:
+    Front: |
+      SVEC 03.04 Example 04:
+      ##### steps in solving optimization problems
+      A man launches his boat from point $A$ on a bank of a straight river, $3 \mathrm{km}$ wide, and wants to reach point $B, 8 \mathrm{km}$ downstream on the opposite bank, as quickly as possible (see figure below).
+      <p align="center">![](SVEC-03.05.Ex-04.1.jpg)</p>
+      He could row his boat directly across the river to point $C$ and then run to $B,$ or he could row directly to $B,$ or he could row to some point $D$ between $C$ and $B$ and then run to $B$. If he can row $6 \text{ km} / \mathrm{h}$ and run $8 \text{ km} / \mathrm{h}$, where should he land to reach $B$ as soon as possible? (We assume that the speed of the water is negligible compared with the speed at which the man rows.)
+    Back: |
+      If we let $x$ be the distance from $C$ to $D,$ then the running distance is $|D B|=8-x$ and the Pythagorean Theorem gives the rowing distance as $|A D|=\sqrt{x^{2}+9}$. We use the equation
+      $$$
+      \text { time }=\frac{\text { distance }}{\text { rate }}
+      $$$ Then the rowing time is $\sqrt{x^{2}+9} / 6$ and the running time is $(8-x) / 8,$ so the total
+      time $T$ as a function of $x$ is
+      $$$
+      T(x)=\frac{\sqrt{x^{2}+9}}{6}+\frac{8-x}{8}
+      $$$ The domain of this function $T$ is $[0,8] .$ Notice that if $x=0$ he rows to $C$ and if $x=8$ he rows directly to $B$. The derivative of $T$ is
+      $$$
+      T^{\prime}(x)=\frac{x}{6 \sqrt{x^{2}+9}}-\frac{1}{8}
+      $$$ Thus, using the fact that $x \geqslant 0,$ we have
+      $$$
+      \begin{aligned}
+        T^{\prime}(x)=0
+        &\Leftrightarrow \frac{x}{6 \sqrt{x^{2}+9}}=\frac{1}{8} \\
+        &\Leftrightarrow 4 x=3 \sqrt{x^{2}+9} \\
+        &\Leftrightarrow 16 x^{2}=9\left(x^{2}+9\right) \\
+        &\Leftrightarrow 7x^2 = 81 \\
+        &\Leftrightarrow x=\frac{9}{\sqrt{7}}
+      \end{aligned}
+      $$$ The only critical number is $x=9 / \sqrt{7} .$ To see whether the minimum occurs at this
+      critical number or at an endpoint of the domain $[0,8],$ we evaluate $T$ at all three
+      points:
+      $$$
+      T(0)=1.5 \quad T\left(\frac{9}{\sqrt{7}}\right)=1+\frac{\sqrt{7}}{8} \approx 1.33 \quad T(8)=\frac{\sqrt{73}}{6} \approx 1.42
+      $$$ since the smallest of these values of $T$ occurs when $x=9 / \sqrt{7}$, the absolute minimum value of $T$ must occur there. The following figure illustrates this calculation by showing the graph of $T .$
+      <p align="center">![](SVEC-03.05.Ex-04.2.jpg)</p>
+      Thus the man should land the boat at a point $9 / \sqrt{7} \mathrm{km}(\approx 3.4 \mathrm{km})$ downstream from his starting point.
+    Annotations: ''
+  tags: []
+- id: 1573075887370
+  media:
+  - path: ${file_dir}/images/SVEC-03.05.Ex-05.1.jpg
+  - path: ${file_dir}/images/SVEC-03.05.Ex-05.2.jpg
+  fields:
+    Front: |
+      SVEC 03.04 Example 05:
+      ##### steps in solving optimization problems
+      Find the area of the largest rectangle that can be inscribed in a semicircle of radius $r .$
+    Back: |
+      **Solution 1**
+      Let's take the semicircle to be the upper half of the circle $x^{2}+y^{2}=r^{2}$ with center the origin. Then the word inscribed means that the rectangle has two vertices on the semicircle and two vertices on the $x$ -axis as shown below.
+      <p align="center">![](SVEC-03.05.Ex-05.1.jpg)</p>
+      Let $(x, y)$ be the vertex that lies in the first quadrant. Then the rectangle has sides of lengths $2 x$ and $y,$ so its area is
+      $$$
+      A=2 x y
+      $$$ To eliminate $y$ we use the fact that $(x, y)$ lies on the circle $x^{2}+y^{2}=r^{2}$ and so $y=\sqrt{r^{2}-x^{2}} .$ Thus
+      $$$
+      A=2 x \sqrt{r^{2}-x^{2}}
+      $$$ The domain of this function is $0 \leqslant x \leqslant r .$ Its derivative is
+      $$$
+      A^{\prime}=-\frac{2 x^{2}}{\sqrt{r^{2}-x^{2}}}+2 \sqrt{r^{2}-x^{2}}=\frac{2\left(r^{2}-2 x^{2}\right)}{\sqrt{r^{2}-x^{2}}}
+      $$$ which is 0 when $2 x^{2}=r^{2},$ that is, $x=r / \sqrt{2}$ (since $x \geqslant 0$ ). This value of $x$ gives a maximum value of $A$ since $A(0)=0$ and $A(r)=0 .$ Therefore the area of the largest inscribed rectangle is
+      $$$
+      A\left(\frac{r}{\sqrt{2}}\right)=2 \frac{r}{\sqrt{2}} \sqrt{r^{2}-\frac{r^{2}}{2}}=r^{2}
+      $$$
+
+      **Solution 2**
+      A simpler solution is possible if we think of using an angle as a variable. Let $\theta$ be the angle shown below.
+      <p align="center">![](SVEC-03.05.Ex-05.2.jpg)</p>
+      Then the area of the rectangle is
+      $$$
+      A(\theta)=(2 r \cos \theta)(r \sin \theta)=r^{2}(2 \sin \theta \cos \theta)=r^{2} \sin 2 \theta
+      $$$ We know that $\sin 2 \theta$ has a maximum value of 1 and it occurs when $2 \theta=\pi / 2 .$ So $A(\theta)$ has a maximum value of $r^{2}$ and it occurs when $\theta=\pi / 4 .$
+
+      Notice that this trigonometric solution doesn't involve differentiation. In fact, we didn't need to use calculus at all.
+    Annotations: ''
+  tags: []

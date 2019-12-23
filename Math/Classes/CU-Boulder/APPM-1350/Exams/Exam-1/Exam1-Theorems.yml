@@ -1,0 +1,110 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1350
+  - APPM-1350-Exams
+  - APPM-1350-Exam1
+  - APPM-1350-Exam1-Theorems
+  markdownTabLength: 2
+notes:
+- id: 1568237668970
+  fields:
+    Front: |
+      APPM 1350 Exam-1 Study Guide 46:  **theorems**
+      Give the **Informal Definition of Limit**.
+    Back: |
+      $$$$\lim _{x \rightarrow a} f(x)=L$$$$
+      if the values of $f(x)$ approach $L$ as $x$ approaches $a.$
+    Annotations: ''
+  tags: []
+- id: 1568237794397
+  fields:
+    Front: |
+      APPM 1350 Exam-1 Study Guide 47:  **theorems**
+      Give the **Precise Definition of Limit**.
+    Back: |
+      If for every $\epsilon>0$ there is a corresponding $\delta>0$ such that
+      $$$$
+      0<|x-a|<\delta \quad \Longrightarrow \quad|f(x)-L|<\epsilon
+      $$$$
+      then
+      $$$$
+      \lim _{x \rightarrow a} f(x)=L.
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568237881895
+  fields:
+    Front: |
+      APPM 1350 Exam-1 Study Guide 48:  **theorems**
+      State the **Squeeze Theorem**.
+    Back: |
+      If $f(x) \leq g(x) \leq h(x)$ when $x$ is near $a$ and $\lim _{x \rightarrow a} f(x)=\lim _{x \rightarrow a} h(x)=L$ then
+      $$$$
+      \lim _{x \rightarrow a} g(x)=L.
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568238022070
+  fields:
+    Front: |
+      APPM 1350 Exam-1 Study Guide 48:  **theorems**
+      What is $\lim _{\theta \rightarrow 0} \frac{\sin \theta}{\theta}?$
+    Back: |
+      $$$$
+      \lim _{\theta \rightarrow 0} \frac{\sin \theta}{\theta}=1
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568239787221
+  fields:
+    Front: |
+      APPM 1350 Exam-1 Study Guide 49:  **theorems**
+      Give the **Definition of Continuity**.
+    Back: |
+      A function $f$ is continuous at $x=a$ if $f(a)=\lim _{x \rightarrow a} f(x).$
+    Annotations: ''
+  tags: []
+- id: 1568239899820
+  fields:
+    Front: |
+      APPM 1350 Exam-1 Study Guide 50:  **theorems**
+      Give the **Three-Part Definition of Continuity**.
+    Back: |
+      A function $f$ is continuous at $x=a$ if:
+      1.  $\lim _{x \rightarrow a} f(x)$ exists.
+      2. $f(a)$ exists.
+      3. $f(a)=\lim _{x \rightarrow a} f(x).$
+    Annotations: ''
+  tags: []
+- id: 1568240011170
+  fields:
+    Front: |
+      APPM 1350 Exam-1 Study Guide 51:  **theorems**
+      State the **Intermediate Value Theorem**.
+    Back: |
+      If $f(x)$ is continuous on $[a, b],$ and $N$ is any number between $f(a)$ and $f(b),$ then there exists a number $c$ in $(a, b)$ such that $f(c)=N.$
+    Annotations: ''
+  tags: []
+- id: 1568240153020
+  fields:
+    Front: |
+      APPM 1350 Exam-1 Study Guide 52:  **theorems**
+      Define **horizontal asymptote**.
+    Back: |
+      A line $y=L$ is a **horizontal asymptote** if $\lim _{x \rightarrow \infty} f(x)=L \quad$ or $\quad \lim _{x \rightarrow-\infty} f(x)=L.$
+    Annotations: ''
+  tags: []
+- id: 1568240271952
+  fields:
+    Front: |
+      APPM 1350 Exam-1 Study Guide 52:  **theorems**
+      Define **vertical asymptote**.
+    Back: |
+      A line $y=L$ is a **vertical asymptote** if $\lim _{x \rightarrow a^{-}} f(x)=\pm \infty \quad$ or $\quad \lim _{x \rightarrow a^{+}} f(x)=\pm \infty.$
+    Annotations: ''
+  tags: []

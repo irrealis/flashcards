@@ -1,0 +1,168 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1350
+  - APPM-1350-WA36
+  - SingleVariableEssentialCalculus
+  - SVEC-05-InverseFunctions
+  - SVEC-05.06-InverseTrigonometricFunctions
+  - WebAssign
+  - Exam4
+  markdownTabLength: 2
+notes:
+- id: 1576610363757
+  fields:
+    Front: |
+      APPM 1350 WA36-01:
+      Find the exact value of each expression. (Enter your answer in radians.)
+
+      (a) $\sin ^{-1}\left(\frac{1}{2}\right)$
+      (b) $\cos ^{-1}\left(\frac{\sqrt{2}}{2}\right)$
+    Back: |
+      (a) $\frac{\pi}{6}$
+      (b) $\frac{\pi}{4}$
+
+      ##### Full solution:
+      (a) $\sin ^{-1}\left(\frac{1}{2}\right)=\frac{\pi}{6}$ since $\sin \frac{\pi}{6}=\frac{1}{2}$ and $\frac{\pi}{6}$ is in $\left[-\frac{\pi}{2}, \frac{\pi}{2}\right]$
+      (b) $\cos ^{-1}\left(\frac{\sqrt{2}}{2}\right)=\frac{\pi}{4}$ since $\cos \frac{\pi}{4}=\frac{\sqrt{2}}{2}$ and $\frac{\pi}{4}$ is in $[0, \pi]$
+    Annotations: ''
+  tags: []
+- id: 1576610446638
+  fields:
+    Front: |
+      APPM 1350 WA36-02:
+      Find the exact value of each expression. (Enter your answers in radians.)
+
+      (a) $\tan ^{-1}\left(\frac{1}{\sqrt{3}}\right)$
+      (b) $\sec ^{-1}\left(\frac{2}{\sqrt{3}}\right)$
+    Back: |
+      (a) $\frac{\pi}{6}$
+      (b) $\frac{\pi}{6}$
+
+      ##### Full solution:
+      (a) $\tan ^{-1}(\pi / 6)=1 / \sqrt{3}$ since $\tan 1 / \sqrt{3}=\pi / 6$ and $\pi / 6$ is in $\left(-\frac{\pi}{2}, \frac{\pi}{2}\right)$
+      (b) $\sec ^{-1} 2 / \sqrt{3}=\pi / 6$ since $\sec \pi / 6=2 / \sqrt{3}$ and $\pi / 6$ is in $\left[0, \frac{\pi}{2}\right) \cup\left[\pi, \frac{3 \pi}{2}\right)$
+    Annotations: ''
+  tags: []
+- id: 1576610524182
+  fields:
+    Front: |
+      APPM 1350 WA36-03:
+      Find the exact value of each expression. (Enter your answer in radians.)
+
+      (a) $\arctan (\sqrt{3})$
+      (b) $\sin ^{-1}(1)$
+    Back: |
+      (a) $\frac{\pi}{3}$
+      (b) $\frac{\pi}{2}$
+
+      ##### Full solution:
+      (a) arctan $\sqrt{3}=\pi / 3$ since $\tan \pi / 3=\sqrt{3}$ and $\pi / 3$ is in $\left(-\frac{\pi}{2}, \frac{\pi}{2}\right)$
+      (b) $\sin ^{-1} 1=\pi / 2$ since $\sin \pi / 2=1$ and $\pi / 2$ is in $\left[-\frac{\pi}{2}, \frac{\pi}{2}\right]$
+    Annotations: ''
+  tags: []
+- id: 1576610611557
+  fields:
+    Front: |
+      APPM 1350 WA36-04:
+      Find the exact value of each expression.
+
+      (a) $\cot ^{-1}(1)$
+      (b) $\arccos \left(\frac{\sqrt{3}}{2}\right)$
+    Back: |
+      (a) $\frac{\pi}{4}$
+      (b) $\frac{\pi}{6}$
+
+      ##### Full solution:
+      (a) $\cot ^{-1}(1)=\pi / 4$ since $\cot \pi / 4=1$ and $\pi / 4$ is in $(0, \pi)$
+      (b) $\arccos (\sqrt{3} / 2)=\pi / 6$ since $\cos \pi / 6=\sqrt{3} / 2$ and $\pi / 6$ is in $[0, \pi]$
+    Annotations: ''
+  tags: []
+- id: 1576610810885
+  fields:
+    Front: |
+      APPM 1350 WA36-05:
+      Find the exact value of each expression.
+
+      (a) $\tan (\arctan (3))$
+      (b) $\sin ^{-1}(\sin (8 \pi / 3))$
+    Back: |
+      (a) $3$
+      (b) $\frac{\pi}{3}$
+
+      ##### Full solution:
+      (a) In general, tan(arctan $x)=x$ for any real number $x .$ Thus, $\tan (\arctan 3)= 3.$
+      (b) $\sin ^{-1}\left(\sin \frac{8 \pi}{3}\right)=\sin ^{-1}\left(\sin \frac{2 \pi}{3}\right)=\sin ^{-1} \frac{\sqrt{3}}{2}=\frac{\pi}{3}$ since $\sin \frac{\pi}{3}=\frac{\sqrt{3}}{2}$ and $\frac{\pi}{3}$ is in $\left[-\frac{\pi}{2}, \frac{\pi}{2}\right].$
+      [Recall that $\frac{8 \pi}{3}=\frac{2 \pi}{3}+2 \pi$ and the sine function is periodic with period $2 \pi.$]
+    Annotations: ''
+  tags: []
+- id: 1576610943083
+  fields:
+    Front: |
+      APPM 1350 WA36-06:
+      Simplify the expression.
+      $$$
+      \tan \left(\sin ^{-1} x\right)
+      $$$
+    Back: |
+      $$$\frac{x}{\sqrt{1-x^{2}}}$$$
+
+      ##### Full solution:
+      Let $y=\sin ^{-1} x .$ Then $\sin y=x,$ so from the triangle we see that $\tan \left(\sin ^{-1} x\right)=\tan y=\frac{x}{\sqrt{1-x^{2}}}$.
+      <p align="center">
+      ![](APPM-1350-WA35-10.1.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1576611036232
+  fields:
+    Front: |
+      APPM 1350 WA36-07:
+      Find the derivative of the function.
+      $$$
+      y=\left(\tan ^{-1}(3 x)\right)^{2}
+      $$$
+    Back: |
+      $$$\frac{6 \tan ^{-1}(3 x)}{1+9 x^{2}}$$$
+
+      ##### Full solution:
+      $y=\left(\tan ^{-1}(3 x)\right)^{2}$ $\Rightarrow y^{\prime}=2\left(\tan ^{-1}(3 x)\right)^{1} \cdot \frac{d}{d x}\left(\tan ^{-1}(3 x)\right)$ $=2 \tan ^{-1}(3 x) \cdot \frac{3}{1+9 x^{2}}$ $=\frac{6 \tan ^{-1}(3 x)}{1+9 x^{2}}$
+    Annotations: ''
+  tags: []
+- id: 1576611184105
+  fields:
+    Front: |
+      APPM 1350 WA36-08:
+      Find the derivative of the function.
+      $$$
+      h(t)=15 \cot ^{-1}(t)+15 \cot ^{-1}(1 / t)
+      $$$
+    Back: |
+      $$$h^{\prime}(t) = 0$$$
+
+      ##### Full solution:
+      $h(t)=15 \cot ^{-1}(t)+15 \cot ^{-1}(1 / t)$ $\Rightarrow h^{\prime}(t)=-\frac{15}{1+t^{2}}-\frac{15}{1+(1 / t)^{2}} \cdot \frac{d}{d t}\left(\frac{1}{t}\right)=-\frac{15}{1+t^{2}}-\frac{15 t^{2}}{t^{2}+1} \cdot\left(-\frac{1}{t^{2}}\right)$ $\Rightarrow \quad h^{\prime}(t)=-\frac{15}{1+t^{2}}+\frac{15}{t^{2}+1}=0.$
+
+      Note that this makes sense because $h(t)=\frac{15 \pi}{2}$ for $t>0$ and $h(t)=-\frac{15 \pi}{2}$ for $t<0.$
+    Annotations: ''
+  tags: []
+- id: 1576611295457
+  fields:
+    Front: |
+      APPM 1350 WA36-09:
+      Use logarithmic differentiation to find the derivative of the function.
+      $$$
+      y=(\ln x)^{\cos 14 x}
+      $$$
+    Back: |
+      $$$y^{\prime}=(\ln (x))^{\cos (14 x)}\left(\frac{\cos (14 x)}{x \ln (x)}-14 \sin (14 x) \ln (\ln (x))\right)$$$
+
+      ##### Full solution:
+      $y=(\ln x)^{\cos 14 x} \Rightarrow \ln y=\cos 14 x(\ln \ln x) \Rightarrow$ $\frac{y^{\prime}}{y}=\cos 14 x \cdot \frac{1}{\ln x} \cdot \frac{1}{x}+(\ln \ln x)(-14 \sin 14 x) \Rightarrow$ $y^{\prime}=(\ln x)^{\cos 14 x}\left(\frac{\cos 14 x}{x \ln x}-14 \sin 14 x \ln \ln x\right)$
+    Annotations: ''
+  tags:
+  - Editing

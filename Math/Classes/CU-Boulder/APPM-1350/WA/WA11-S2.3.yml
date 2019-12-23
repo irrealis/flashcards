@@ -1,0 +1,112 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1350
+  - APPM-1350-WA11
+  - APPM-1350-Section02.03
+  markdownTabLength: 2
+notes:
+- id: 1571015703579
+  fields:
+    Front: |
+      APPM 1350 WebAssign 11 S2.3 03:
+      Differentiate the function.
+      $$$$
+      y=\frac{2 x^{2}+4 x+8}{\sqrt{x}}
+      $$$$
+    Back: |
+      $$$$
+      y^{\prime}= 3 x^{1/2}+2 x^{-1/2}-4 x^{-3/2}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1571015801955
+  fields:
+    Front: |
+      APPM 1350 WebAssign 11 S2.3 04:
+      Find an equation of the tangent line to the curve at the given point.
+      $$$$
+      y=3 x^{2}-x^{3},(1,2)
+      $$$$
+    Back: |
+      $$$$
+      y=3 x-1
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1571015853379
+  fields:
+    Front: |
+      APPM 1350 WebAssign 11 S2.3 05:
+      Find the equation of the tangent line to the curve at the given point.
+      $$$$
+      y=5 x-4 \sqrt{x},(1,1)
+      $$$$
+    Back: |
+      $$$$
+      y=3 x-2
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1571015978005
+  fields:
+    Front: |
+      APPM 1350 WebAssign 11 S2.3 06:
+      Find the $n$ th derivative of each function by calculating the first few derivatives and observing the pattern that occurs.
+      (a) $f(x)=x^{n}$
+      (b) $f(x)=1 / x$
+    Back: |
+      (a) $f^{(n)}(x)=n !$
+      (b) $f^{(n)}(x)=n !(-1)^{n} x^{-(n+1)}$
+    Annotations: ''
+  tags: []
+- id: 1571016073279
+  fields:
+    Front: |
+      APPM 1350 WebAssign 11 S2.3 07:
+      Find an equation of the normal line to the parabola $y=x^{2}-8 x+1$ that is parallel to the line $x-6 y=5$.
+    Back: |
+      $$$$
+      y=\frac{1}{6} x-\frac{37}{6}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1571016191404
+  fields:
+    Front: |
+      APPM 1350 WebAssign 11 S2.3 08:
+      If a ball is given a push so that it has an initial velocity of $5 \mathrm{m} / \mathrm{s}$ down a certain inclined plane, then the distance it has rolled after $t$ seconds is $s=5 t+4 t^{2}$.
+      (a) Find the velocity after 3 s.
+      (b) How long does it take for the velocity to reach $61 \mathrm{m} / \mathrm{s} $?
+    Back: |
+      (a) 29 m/s
+      (b) 7 s
+    Annotations: ''
+  tags: []
+- id: 1571016270929
+  fields:
+    Front: |
+      APPM 1350 WebAssign 11 S2.3 09:
+      Find a cubic function $y=a x^{3}+b x^{2}+c x+d$ whose graph has horizontal tangents at the points $(-2,4)$ and $(2,-2)$.
+    Back: |
+      $$$$
+      y=\frac{3}{16} x^{3}-\frac{9}{4} x+1
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1571016328029
+  fields:
+    Front: |
+      APPM 1350 WebAssign 11 S2.3 XX:
+      Find the limit.
+      $$$$
+      \lim _{x \rightarrow 0} \frac{\sin 4 x}{\sin 7 x}
+      $$$$
+    Back: |
+      4/7
+    Annotations: ''
+  tags: []

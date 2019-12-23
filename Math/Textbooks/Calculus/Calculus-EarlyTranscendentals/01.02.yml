@@ -1,0 +1,264 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Calculus-EarlyTrancendentals
+  - CET-01-FunctionsAndModels
+  - CET-01.02-MathematicalModels
+  markdownTabLength: 2
+notes:
+- id: 1571534153754
+  fields:
+    Front: |
+      CET 01.02 01a: Classify the function as a power function, root function, polynomial (state its degree), rational function, algebraic function, trigonometric function, exponential function, or logarithmic function.
+      $f(x)=\log _{2} x$
+    Back: |
+      $f(x)=\log _{2} x$ is a logarithmic function.
+    Annotations: ''
+  tags: []
+- id: 1571534220112
+  fields:
+    Front: |
+      CET 01.02 01b: Classify the function as a power function, root function, polynomial (state its degree), rational function, algebraic function, trigonometric function, exponential function, or logarithmic function.
+      $g(x)=\sqrt[4]{x}$
+    Back: |
+      $g(x)=\sqrt[4]{x}$ is a root function with $n=4$
+    Annotations: ''
+  tags: []
+- id: 1571534257554
+  fields:
+    Front: |
+      CET 01.02 01c: Classify the function as a power function, root function, polynomial (state its degree), rational function, algebraic function, trigonometric function, exponential function, or logarithmic function.
+      $h(x)=\frac{2 x^{3}}{1-x^{2}}$
+    Back: |
+      $h(x)=\frac{2 x^{3}}{1-x^{2}}$ is a rational function because it is a ratio of polynomials.
+    Annotations: ''
+  tags: []
+- id: 1571534293030
+  fields:
+    Front: |
+      CET 01.02 01d: Classify the function as a power function, root function, polynomial (state its degree), rational function, algebraic function, trigonometric function, exponential function, or logarithmic function.
+      $u(t)=1-1.1 t+2.54 t^{2}$
+    Back: |
+      $u(t)=1-1.1 t+2.54 t^{2}$ is a polynomial of degree 2 (also called a quadratic function).
+    Annotations: ''
+  tags: []
+- id: 1571534324729
+  fields:
+    Front: |
+      CET 01.02 01e: Classify the function as a power function, root function, polynomial (state its degree), rational function, algebraic function, trigonometric function, exponential function, or logarithmic function.
+      $v(t)=5^{t}$
+    Back: |
+      $v(t)=5^{t}$ is an exponential function.
+    Annotations: ''
+  tags: []
+- id: 1571534363078
+  fields:
+    Front: |
+      CET 01.02 01f: Classify the function as a power function, root function, polynomial (state its degree), rational function, algebraic function, trigonometric function, exponential function, or logarithmic function.
+      $w(\theta)=\sin \theta \cos ^{2} \theta$
+    Back: |
+      $w(\theta)=\sin \theta \cos ^{2} \theta$ is a trigonometric function.
+    Annotations: ''
+  tags: []
+- id: 1571534397229
+  fields:
+    Front: |
+      CET 01.02 02a: Classify the function as a power function, root function, polynomial (state its degree), rational function, algebraic function, trigonometric function, exponential function, or logarithmic function.
+      $y=\pi^{x}$
+    Back: |
+      $y=\pi^{x}$ is an exponential function (notice that $x$ is the exponent).
+    Annotations: ''
+  tags: []
+- id: 1571534440979
+  fields:
+    Front: |
+      CET 01.02 02b: Classify the function as a power function, root function, polynomial (state its degree), rational function, algebraic function, trigonometric function, exponential function, or logarithmic function.
+      $y=x^{\pi}$
+    Back: |
+      $y=x^{\pi}$ is a power function (notice that $x$ is the base).
+    Annotations: ''
+  tags: []
+- id: 1571534476155
+  fields:
+    Front: |
+      CET 01.02 02c: Classify the function as a power function, root function, polynomial (state its degree), rational function, algebraic function, trigonometric function, exponential function, or logarithmic function.
+      $y=x^{2}\left(2-x^{3}\right)$
+    Back: |
+      $y=x^{2}\left(2-x^{3}\right)=2 x^{2}-x^{5}$ is a polynomial of degree 5.
+    Annotations: ''
+  tags: []
+- id: 1571534532080
+  fields:
+    Front: |
+      CET 01.02 02d: Classify the function as a power function, root function, polynomial (state its degree), rational function, algebraic function, trigonometric function, exponential function, or logarithmic function.
+      $y=\tan t-\cos t$
+    Back: |
+      $y=\tan t-\cos t$ is a trigonometric function.
+    Annotations: ''
+  tags: []
+- id: 1571534566930
+  fields:
+    Front: |
+      CET 01.02 02e: Classify the function as a power function, root function, polynomial (state its degree), rational function, algebraic function, trigonometric function, exponential function, or logarithmic function.
+      $y=\frac{s}{1+s}$
+    Back: |
+      $y=s /(1+s)$ is a rational function because it is a ratio of polynomials.
+    Annotations: ''
+  tags: []
+- id: 1571534621554
+  fields:
+    Front: |
+      CET 01.02 02f: Classify the function as a power function, root function, polynomial (state its degree), rational function, algebraic function, trigonometric function, exponential function, or logarithmic function.
+      $y=\frac{\sqrt{x^{3}-1}}{1+\sqrt[3]{x}}$
+    Back: |
+      $y=\sqrt{x^{3}-1} /(1+\sqrt[3]{x})$ is an algebraic function because it involves polynomials and roots of polynomials.
+    Annotations: ''
+  tags: []
+- id: 1571536094655
+  media:
+  - path: ${file_dir}/images/CET-01.02-03.1.jpg
+  fields:
+    Front: |
+      CET 01.02 03: Match each equation with its graph. Explain your choices. (Don't use a computer or graphing calculator.)
+      (a) $y=x^{2} \quad$ (b) $y=x^{5} \quad$ (c) $y=x^{8}$
+
+      ![](CET-01.02-03.1.jpg)
+    Back: |
+      We notice from the figure that $g$ and $h$ are even functions (symmetric with respect to the $y$ -axis) and that $f$ is an odd function (symmetric with respect to the origin). So (b) $\left[y=x^{5}\right]$ must be $f .$ Since $g$ is flatter than $h$ near the origin, we must have (c) $\left[y=x^{8}\right]$ matched with $g$ and (a) $\left[y=x^{2}\right]$ matched with $h .$
+    Annotations: ''
+  tags: []
+- id: 1571536375855
+  media:
+  - path: ${file_dir}/images/CET-01.02-04.1.jpg
+  fields:
+    Front: |
+      CET 01.02 04: Match each equation with its graph. Explain your choices. (Don't use a computer or graphing calculator.)
+      (a) $y=3 x \quad$ (b) $y=3^{x} \quad$ (c) $y=x^{3} \quad$ (d) $y=\sqrt[3]{x}$
+
+      ![](CET-01.02-04.1.jpg)
+    Back: |
+      (a) The graph of $y=3 x$ is a line (choice $G$)
+      (b) $y=3^{x}$ is an exponential function (choice $f$)
+      (c) $y=x^{3}$ is an odd polynomial function or power function (choice $F$)
+      (d) $y=\sqrt[3]{x}=x^{1 / 3}$ is a root function (choice $g$)
+    Annotations: ''
+  tags: []
+- id: 1571536533229
+  fields:
+    Front: |
+      CET 01.02 05: Find the domain of the function.
+      $f(x)=\frac{\cos x}{1-\sin x}$
+    Back: |
+      The denominator cannot equal $0,$ so $1-\sin x \neq 0 \Leftrightarrow \sin x \neq 1 \Leftrightarrow x \neq \frac{\pi}{2}+2 n \pi .$ Thus, the domain of $f(x)=\frac{\cos x}{1-\sin x}$ is $\left\{x | x \neq \frac{\pi}{2}+2 n \pi, n \text { an integer }\right\}.$
+    Annotations: ''
+  tags: []
+- id: 1571536587329
+  fields:
+    Front: |
+      CET 01.02 06: Find the domain of the function.
+      $g(x)=\frac{1}{1-\tan x}$
+    Back: |
+      The denominator cannot equal $0,$ so $1-\tan x \neq 1 \Leftrightarrow x \neq \frac{\pi}{4}+n \pi .$ The tangent function is not defined if $x \neq \frac{\pi}{2}+n \pi .$ Thus, the domain of $g(x)=\frac{1}{1-\tan x}$ is $\left\{x | x \neq \frac{\pi}{4}+n \pi, x \neq \frac{\pi}{2}+n \pi, n \text { an integer }\right\}.$
+    Annotations: ''
+  tags: []
+- id: 1571536735205
+  media:
+  - path: ${file_dir}/images/CET-01.02-07.1.jpg
+  - path: ${file_dir}/images/CET-01.02-07.2.jpg
+  fields:
+    Front: |
+      CET 01.02 07:
+      (a) Find an equation for the family of linear functions with slope 2 and sketch several members of the family.
+      (b) Find an equation for the family of linear functions such that $f(2)=1$ and sketch several members of the family.
+      (c) Which function belongs to both families?
+    Back: |
+      (a) An equation for the family of linear functions with slope 2 $\quad$ is $y=f(x)=2 x+b,$ where $b$ is the $y$ -intercept.
+
+      ![](CET-01.02-07.1.jpg)
+
+      (b) $f(2)=1$ means that the point $(2,1)$ is on the graph of $f .$ We can use the point-slope form of a line to obtain an equation for the family of linear functions through the point $(2,1) . \quad y-1=m(x-2),$ which is equivalent to $y=m x+(1-2 m)$ in slope-intercept form.
+
+      ![](CET-01.02-07.2.jpg)
+
+      (c) To belong to both families, an equation must have slope $m=2,$ so the equation in part $(b), y=m x+(1-2 m),$ becomes $y=2 x-3 .$ It is the only function that belongs to both families.
+    Annotations: ''
+  tags: []
+- id: 1571536838580
+  media:
+  - path: ${file_dir}/images/CET-01.02-08.1.jpg
+  fields:
+    Front: |
+      CET 01.02 08: What do all members of the family of linear functions $f(x)=1+m(x+3)$ have in common? Sketch several members of the family.
+    Back: |
+      All members of the family of linear functions $f(x)=1+m(x+3)$ have graphs that are lines passing through the point $(-3,1) .$
+
+      ![](CET-01.02-08.1.jpg)
+    Annotations: ''
+  tags: []
+- id: 1571536974380
+  media:
+  - path: ${file_dir}/images/CET-01.02-09.1.jpg
+  fields:
+    Front: |
+      CET 01.02 09: What do all members of the family of linear functions $f(x)=c-x$ have in common? Sketch several members of the family.
+    Back: |
+      All members of the family of linear functions $f(x)=c-x$ have graphs that are lines with slope $-1 .$ The $y$ -intercept is $c .$
+
+      ![](CET-01.02-09.1.jpg)
+    Annotations: ''
+  tags: []
+- id: 1571537357380
+  media:
+  - path: ${file_dir}/images/CET-01.02-10.1.jpg
+  fields:
+    Front: |
+      CET 01.02 10: Find expressions for the quadratic functions whose graphs are shown.
+
+      ![](CET-01.02-10.1.jpg)
+    Back: |
+      The vertex of the parabola on the left is $(3,0),$ so an equation is $y=a(x-3)^{2}+0 .$ Since the point $(4,2)$ is on the parabola, we'll substitute 4 for $x$ and 2 for $y$ to find $a$. $2=a(4-3)^{2} \Rightarrow a=2,$ so an equation is $f(x)=2(x-3)^{2}$.
+
+      The $y$ -intercept of the parabola on the right is $(0,1),$ so an equation is $y=a x^{2}+b x+1 .$ Since the points $(-2,2)$ and $(1,-2.5)$ are on the parabola, we'll substitute $-2$ for $x$ and 2 for $y$ as well as 1 for $x$ and $-2.5$ for $y$ to obtain two equations with the unknowns $a$ and $b$.
+
+      $$$$\begin{array}{lll}{(-2,2):} & {2=4 a-2 b+1 \Rightarrow 4 a-2 b=1} & {\qquad (1)} \\ {(1,-2.5):} & {-2.5=a+b+1 \Rightarrow a+b=-3.5} & {\qquad (2)} \end{array}$$$$
+
+      $2 \cdot(2)+(1)$ gives us $6 a=-6 \Rightarrow a=-1 .$ From $(2),-1+b=-3.5 \Rightarrow b=-2.5,$ so an equation is $g(x)=-x^{2}-2.5 x+1.$
+    Annotations: ''
+  tags: []
+- id: 1571538280855
+  fields:
+    Front: |
+      CET 01.02 11: Find an expression for a cubic function $f$ if $f(1)=6$ and $f(-1)=f(0)=f(2)=0.$
+    Back: |
+      Since $f(-1)=f(0)=f(2)=0, f$ has zeros of $-1,0,$ and $2,$ so an equation for $f$ is $f(x)=a[x-(-1)](x-0)(x-2),$ or $f(x)=a x(x+1)(x-2) .$ Because $f(1)=6,$ we'll substitute 1 for $x$ and 6 for $f(x).$ $6=a(1)(2)(-1) \Rightarrow-2 a=6 \Rightarrow a=-3,$ so an equation for $f$ is $f(x)=-3 x(x+1)(x-2).$
+    Annotations: ''
+  tags: []
+- id: 1571538398229
+  fields:
+    Front: |
+      CET 01.02 12: Recent studies indicate that the average surface temperature of the earth has been rising steadily. Some scientists have modeled the temperature by the linear function $T=0.02 t+8.50$, where $T$ is temperature in $^{\circ} \mathrm{C}$ and $t$ represents years since 1900.
+      (a) What do the slope and $T$ -intercept represent?
+      (b) Use the equation to predict the average global surface temperature in 2100.
+    Back: |
+      (a) For $T=0.02 t+8.50$, the slope is 0.02, which means that the average surface temperature of the world is increasing at a rate of $0.02^{\circ} \mathrm{C}$ per year. The $T$-intercept is 8.50, which represents the average surface temperature in $^{\circ} \mathrm{C}$ in the year 1900.
+
+      (b) $t=2100-1900=200 \Rightarrow T=0.02(200)+8.50=12.50^{\circ} \mathrm{C}$
+    Annotations: ''
+  tags: []
+- id: 1571538547829
+  fields:
+    Front: |
+      CET 01.02 13: If the recommended adult dosage for a drug is $D(\text { in mg })$ then to determine the appropriate dosage $c$ for a child of age $a,$ pharmacists use the equation $c=0.0417 D(a+1).$ Suppose the dosage for an adult is $200 \mathrm{mg}$.
+      (a) Find the slope of the graph of $c .$ What does it represent?
+      (b) What is the dosage for a newborn?
+    Back: |
+      (a) $D=200,$ so $c=0.0417 D(a+1)=0.0417(200)(a+1)=8.34 a+8.34$. The slope is $8.34,$ which represents the change in $\mathrm{mg}$ of the dosage for a child for each change of 1 year in age.
+
+      (b) For a newborn, $a=0,$ so $c=8.34 \mathrm{mg}$.
+    Annotations: ''
+  tags:
+  - Editing

@@ -1,0 +1,92 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1350
+  - APPM-1350-Exams
+  - APPM-1350-Exam2
+  - APPM-1350-HW07
+  - APPM-1350-Section03.01
+  - APPM-1350-Section03.02
+  - APPM-1350-Section03.03
+  - WrittenHomework
+  markdownTabLength: 2
+notes:
+- id: 1572040791905
+  fields:
+    Front: |
+      APPM 1350 HW-07 01:
+      The efficiency of a threaded fastener can be represented by
+      $$$E=\frac{\lambda-k \lambda^{2}}{k+\lambda}, \quad \lambda>0$$$
+      where $\lambda$ is the angle of pitch of the thread and $k$ is a positive constant. Find the critical number of $E,$ where the efficiency is maximized. Simplify your answer. (It is not necessary to confirm that there is a maximum value there.)
+    Back: |
+      $-k+\sqrt{k^{2}+1}$
+    Annotations: ''
+  tags: []
+- id: 1572040904104
+  fields:
+    Front: |
+      APPM 1350 HW-07 02:
+      Consider the family of functions $y=x-a \sqrt{x}, \quad x \geq 0,$ where $a$ is a positive constant.
+      (a) Show that $y$ has a critical number $c$ located $\frac{1}{4}$ of the way between the $x$ -intercepts.
+      (b) Show that there is a minimum value at $c$: i. using the first derivative test, ii. using the second derivative test.
+    Back: |
+      (a) $a^{2} / 4$
+      (b) To-do
+    Annotations: ''
+  tags: []
+- id: 1572041725254
+  fields:
+    Front: |
+      APPM 1350 HW-07 03:
+      The potential energy of a particle is $U=a\left(\frac{k^{2}}{x^{2}}-\frac{k}{x}\right), \quad x>0,$ where $a$ and $k$ are positive constants. Find the local maximum and minimum values of $U .$
+    Back: |
+      Local min $-a / 4$
+    Annotations: ''
+  tags: []
+- id: 1572041772079
+  fields:
+    Front: |
+      APPM 1350 HW-07 04:
+      Let $g(x)=3 x^{2} .$ If the Mean Value Theorem is applied to $g$ on the interval $[a, b],$ the value of $c$ in the conclusion of the theorem is related to the average of $a$ and $b .$ Verify that the hypotheses of the theorem are satisfied and find $c .$
+    Back: |
+      $c=(a+b) / 2$
+    Annotations: ''
+  tags: []
+- id: 1572044326455
+  fields:
+    Front: |
+      APPM 1350 HW-07 05:
+      Suppose $f$ and $g$ are differentiable functions on $[a, b]$ and that $f(a)=g(a)$ and $f(b)=g(b) .$
+      (a) Show that there is at least one value of $c$ between $a$ and $b$ where $f^{\prime}(c)=g^{\prime}(c) .$
+      (Hint: Apply Rolle's Theorem to $h(x)=f(x)-g(x) .)$
+      (b) Let $f(x)=\sqrt{x}$ and $g(x)=x^{2}$ on $[0,1]$. Find the value of $c$ that satisfies the result in part (a).
+    Back: |
+      (a) To-do
+      (b) $1 / 4^{2 / 3}$
+    Annotations: ''
+  tags: []
+- id: 1572044376154
+  fields:
+    Front: |
+      APPM 1350 HW-07 06:
+      Consider the function $y=x \sqrt{6-x}$
+      (a) Find the domain of the function.
+      (b) Find the $x-$ and $y$ -intercepts of the function.
+      (c) On what intervals is $y$ increasing? decreasing?
+      (d) Find the local maximum and minimum values of $y .$
+      (e) On what intervals is $y$ concave up? concave down?
+      (f) Find the inflection points of $y .$
+      (g) Sketch a graph of $y .$ Clearly label all intercepts, extrema and inflection points.
+    Back: |
+      (a) $(-\infty, 6]$
+      (b) $(0,0),(6,0)$
+      (c) increasing on $(-\infty, 4),$ decreasing on $(4,6)$
+      (d) local max $4 \sqrt{2}$
+      (e) concave down on $(-\infty, 6)$
+      (f) no inflection points
+    Annotations: ''
+  tags: []

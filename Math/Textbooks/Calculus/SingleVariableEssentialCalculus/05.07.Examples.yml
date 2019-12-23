@@ -1,0 +1,118 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - SingleVariableEssentialCalculus
+  - SVEC-05-InverseFunctions
+  - SVEC-05.07-HyperbolicFunctions
+  markdownTabLength: 2
+notes:
+- id: 1575408897605
+  fields:
+    Front: |
+      SVEC 05.07-01 Example:
+      Prove (a) $\cosh ^{2} x-\sinh ^{2} x=1$ and $(b) 1-\tanh ^{2} x=\operatorname{sech}^{2} x .$
+    Back: |
+      (a)
+      $$$\begin{aligned} \cosh ^{2} x-\sinh ^{2} x &=\left(\frac{e^{x}+e^{-x}}{2}\right)^{2}-\left(\frac{e^{x}-e^{-x}}{2}\right)^{2} \\ &=\frac{e^{2 x}+2+e^{-2 x}}{4}-\frac{e^{2 x}-2+e^{-2 x}}{4} \\ &=\frac{4}{4}=1 \end{aligned}$$$
+      (b) We start with the identity proved in part (a):
+      $$$
+      \cosh ^{2} x-\sinh ^{2} x=1
+      $$$ If we divide both sides by $\cosh^{2} x,$ we get
+      $$$
+      1-\frac{\sinh ^{2} x}{\cosh ^{2} x}=\frac{1}{\cosh ^{2} x}
+      $$$ or
+      $$$1-\tanh ^{2} x=\operatorname{sech}^{2} x$$$
+    Annotations: ''
+  tags: []
+- id: 1575409777229
+  fields:
+    Front: |
+      SVEC 05.07-02 Example:
+      Compute $\frac{d}{d x}(\cosh \sqrt{x}) .$
+    Back: |
+      Any of the hyperbolic differentiation rules can be combined with the Chain Rule. In this instance,
+      $$$
+      \frac{d}{d x}(\cosh \sqrt{x})=\sinh \sqrt{x} \cdot \frac{d}{d x} \sqrt{x}=\frac{\sinh \sqrt{x}}{2 \sqrt{x}}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1575411054004
+  fields:
+    Front: |
+      SVEC 05.07-03 Example:
+      Show that $\sinh ^{-1} x=\ln (x+\sqrt{x^{2}+1}) .$
+    Back: |
+      Let $y=\sinh ^{-1} x$. Then
+      $$$
+      x=\sinh y=\frac{e^{y}-e^{-y}}{2}
+      $$$ so
+      $$$
+      e^{y}-2 x-e^{-y}=0
+      $$$ or, multiplying by $e^{y},$
+      $$$
+      e^{2 y}-2 x e^{y}-1=0
+      $$$ This is really a quadratic equation in $e^{y}:$
+      $$$
+      \left(e^{y}\right)^{2}-2 x\left(e^{y}\right)-1=0
+      $$$ Solving by the quadratic formula, we get
+      $$$
+      e^{y}=\frac{2 x \pm \sqrt{4 x^{2}+4}}{2}=x \pm \sqrt{x^{2}+1}
+      $$$ Note that $\left.e^{y}>0, \text { but } x-\sqrt{x^{2}+1}<0 \text { (because } x<\sqrt{x^{2}+1}\right) .$ Thus the minus sign is inadmissible and we have
+      $$$
+      e^{y}=x+\sqrt{x^{2}+1}
+      $$$ Therefore
+      $$$
+      y=\ln \left(e^{y}\right)=\ln (x+\sqrt{x^{2}+1})
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1575411359580
+  fields:
+    Front: |
+      SVEC 05.07-04 Example:
+      Prove that $\frac{d}{d x}\left(\sinh ^{-1} x\right)=\frac{1}{\sqrt{1+x^{2}}} .$
+    Back: |
+      Let $y=\sinh ^{-1} x$. Then $\sinh y=x .$ If we differentiate this equation implicitly with respect to $x,$ we get
+      $$$
+      \cosh y \frac{d y}{d x}=1
+      $$$ Since $\cosh ^{2} y-\sinh ^{2} y=1$ and $\cosh y \geqslant 0,$ we have cosh $y=\sqrt{1+\sinh ^{2} y},$ so
+      $$$
+      \frac{d y}{d x}=\frac{1}{\cosh y}=\frac{1}{\sqrt{1+\sinh ^{2} y}}=\frac{1}{\sqrt{1+x^{2}}}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1575411412829
+  fields:
+    Front: |
+      SVEC 05.07-05 Example:
+      Find $\frac{d}{d x}\left[\tanh ^{-1}(\sin x)\right] .$
+    Back: |
+      Using the Chain Rule, we have
+      $$$
+      \begin{aligned} \frac{d}{d x}\left[\tanh ^{-1}(\sin x)\right] &=\frac{1}{1-(\sin x)^{2}} \frac{d}{d x}(\sin x) \\ &=\frac{1}{1-\sin ^{2} x} \cos x=\frac{\cos x}{\cos ^{2} x}=\sec x \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1575411510955
+  fields:
+    Front: |
+      SVEC 05.07-06 Example:
+      Evaluate $\int_{0}^{1} \frac{d x}{\sqrt{1+x^{2}}} .$
+    Back: |
+      We know that an antiderivative of $1 / \sqrt{1+x^{2}}$ is $\sinh ^{-1} x$. Therefore
+      $$$
+      \begin{aligned}
+        \int_{0}^{1} \frac{d x}{\sqrt{1+x^{2}}}
+        &\left.=\sinh ^{-1} x\right]_{0}^{1} \\
+        &=\sinh ^{-1} 1 \\
+        &=\ln (1+\sqrt{2})
+      \end{aligned}
+      $$$
+    Annotations: ''
+  tags:
+  - Editing

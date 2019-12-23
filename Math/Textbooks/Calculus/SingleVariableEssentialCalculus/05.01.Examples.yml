@@ -1,0 +1,104 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - SingleVariableEssentialCalculus
+  - SVEC-05-InverseFunctions
+  - SVEC-05.01-InverseFunctions
+  markdownTabLength: 2
+notes:
+- id: 1574095026469
+  media:
+  - path: ${file_dir}/images/SVEC-05.01.Ex-01.1.jpg
+  fields:
+    Front: |
+      SVEC 05.01 Example 01:
+      Is the function $f(x)=x^{3}$ one-to-one?
+    Back: |
+      Solution 1: If $x_{1} \neq x_{2},$ then $x_{1}^{3} \neq x_{2}^{3}$ (two different numbers can't have the same cube). Therefore, by Definition $1, f(x)=x^{3}$ is one-to-one.
+
+      Solution 2: From the figure below we see that no horizontal line intersects the graph of $f(x)=x^{3}$ more than once. Therefore, by the Horizontal Line Test, $f$ is one-to-one.
+      <p align="center">
+      ![](SVEC-05.01.Ex-01.1.jpg)
+      $g(x)=x^{2}$ is not one-to-one.
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1574100939019
+  media:
+  - path: ${file_dir}/images/SVEC-05.01.Ex-03.1.jpg
+  fields:
+    Front: |
+      SVEC 05.01 Example 03:
+      If $f(1)=5,$ $f(3)=7,$ and $f(8)=-10,$ find $f^{-1}(7),$ $f^{-1}(5),$ and $f^{-1}(-10) .$
+    Back: |
+      SOLUTION From the definition of $f^{-1}$ we have
+      $$$
+      \begin{aligned}
+        f^{-1}(7)=3 & \text { because } \quad f(3)=7 \\
+        f^{-1}(5)=1 & \text { because } \quad f(1)=5 \\
+        f^{-1}(-10)=8 & \text { because } \quad f(8)=-10
+      \end{aligned}
+      $$$
+      The diagram below makes it clear how $f^{-1}$ reverses the effect of $f$ in this case.
+      <p align="center">
+        ![](SVEC-05.01.Ex-03.1.jpg)
+        The inverse function reverses inputs and outputs.
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1574101369594
+  fields:
+    Front: |
+      SVEC 05.01 Example 04:
+      Find the inverse function of $f(x)=x^{3}+2 .$
+    Back: |
+      We first write
+      $$$
+      y=x^{3}+2
+      $$$
+      Then we solve this equation for $x:$
+      $$$
+      \begin{aligned} x^{3} &=y-2 \\ x &=\sqrt[3]{y-2} \end{aligned}
+      $$$
+      Finally, we interchange $x$ and $y:$
+      $$$
+      y=\sqrt[3]{x-2}
+      $$$
+      Therefore the inverse function is $f^{-1}(x)=\sqrt[3]{x-2}.$
+    Annotations: ''
+  tags: []
+- id: 1574101720294
+  media:
+  - path: ${file_dir}/images/SVEC-05.01.Ex-05.1.jpg
+  fields:
+    Front: |
+      SVEC 05.01 Example 05:
+      Sketch the graphs of $f(x)=\sqrt{-1-x}$ and its inverse function using the same coordinate axes.
+    Back: |
+      First we sketch the curve $y=\sqrt{-1-x}$ (the top half of the parabola $y^{2}=-1-x,$ or $x=-y^{2}-1$) and then we reflect about the line $y=x$ to get the graph of $f^{-1} .$ (See figure below.) As a check on our graph, notice that the expression for $f^{-1}$ is $f^{-1}(x)=-x^{2}-1, x \geqslant 0 .$ So the graph of $f^{-1}$ is the right half of the parabola $y=-x^{2}-1$ and this seems reasonable from the figure.
+      <p align="center">![](SVEC-05.01.Ex-05.1.jpg)</p>
+    Annotations: ''
+  tags: []
+- id: 1574103177419
+  fields:
+    Front: |
+      SVEC 05.01 Example 06:
+      If $f(x)=2 x+\cos x,$ find $\left(f^{-1}\right)^{\prime}(1) .$
+    Back: |
+      Notice that $f$ is one-to-one because
+      $$$
+      f^{\prime}(x)=2-\sin x>0
+      $$$
+      and so $f$ is increasing. To use the Inverse Differentiability Theorem we need to know $f^{-1}(1)$ and we can find it by inspection:
+      $$$
+      f(0)=1 \quad \Rightarrow \quad f^{-1}(1)=0
+      $$$
+      Therefore
+      $$$\left(f^{-1}\right)^{\prime}(1)=\frac{1}{f^{\prime}\left(f^{-1}(1)\right)}=\frac{1}{f^{\prime}(0)}=\frac{1}{2-\sin 0}=\frac{1}{2}$$$
+    Annotations: ''
+  tags: []

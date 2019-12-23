@@ -1,0 +1,102 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1350
+  - APPM-1350-WA24
+  - SingleVariableEssentialCalculus
+  - SVEC-03-ApplicationsOfDifferentiation
+  - SVEC-03.07-Antiderivatives
+  - WebAssign
+  - Exam3
+  markdownTabLength: 2
+notes:
+- id: 1572639784544
+  fields:
+    Front: |
+      APPM 1350 WA24-03 03.07:
+      Find $f .$
+      $$$$
+      \begin{array}{l}{f^{\prime}(x)=\sqrt{x}(3+10 x)} \\ {f(1)=9}\end{array}
+      $$$$
+    Back: |
+      $f(x)=2 \sqrt{x}\left(x+2 x^{2}\right)+3$
+    Annotations: ''
+  tags: []
+- id: 1572639860919
+  fields:
+    Front: |
+      APPM 1350 WA24-04 03.07:
+      Find $f$.
+      $$$$
+      f^{\prime}(t)=8 \cos t+\sec ^{2} t, \quad-\pi l 2<t<\pi / 2, \quad f(\pi / 3)=4
+      $$$$
+    Back: |
+      $f(t) = 8 \sin (t)+\tan (t)+4-5 \sqrt{3}$
+    Annotations: ''
+  tags: []
+- id: 1572639910843
+  fields:
+    Front: |
+      APPM 1350 WA24-05 03.07:
+      Find a function $f$ such that $f^{\prime}(x)=3 x^{3}$ and the line $24 x+y=0$ is tangent to the graph of $f.$
+    Back: |
+      $f(x) = \frac{3}{4} x^{4}+36$
+    Annotations: ''
+  tags: []
+- id: 1572640502820
+  media:
+  - path: ${file_dir}/images/APPM-1350-WA24-06.1.jpg
+  fields:
+    Front: |
+      APPM 1350 WA24-06 03.07:
+      The graph of a function $f$ is shown. Which graph is an antiderivative of $f ?$
+      <p/><p align="center">![](APPM-1350-WA24-06.1.jpg)</p>
+    Back: a.
+    Annotations: ''
+  tags: []
+- id: 1572641815995
+  media:
+  - path: ${file_dir}/images/APPM-1350-WA24-07.1.jpg
+  fields:
+    Front: |
+      APPM 1350 WA24-07 03.07:
+      For a fish swimming at a speed $v$ relative to the water, the energy expenditure per unit time is proportional to $v^{3}$. It is believed that migrating fish try to minimize the total energy required to swim a fixed distance. If the fish are swimming against a current $u\, (u<v),$ then the time required to swim a distance $L$ is $L/(v-u)$ and the total energy $E$ required to swim the distance is given by
+      $$$$E(v)=a v^{3} \cdot \frac{L}{v-u}$$$$
+      where $a$ is the proportionality constant.
+
+      (a) Determine the value of $v$ that minimizes $E .$ Note: This result has been verified experimentally.
+      (b) Sketch the graph of $E.$
+    Back: |
+      (a) $v = \frac{3}{2} u$
+      (b)
+      <p/><p align="center">![](APPM-1350-WA24-07.1.jpg)</p>
+    Annotations: ''
+  tags: []
+- id: 1572641959218
+  fields:
+    Front: |
+      APPM 1350 WA24-08 03.07:
+      Write the sum in sigma notation.
+      $$$$
+      6 \sqrt{3}+6 \sqrt{4}+6 \sqrt{5}+6 \sqrt{6}+6 \sqrt{7}
+      $$$$
+    Back: |
+      $$$$\sum_{i=3}^{7} 6 \sqrt{i}$$$$
+    Annotations: ''
+  tags: []
+- id: 1572642038769
+  fields:
+    Front: |
+      APPM 1350 WA24-09 03.07:
+      Write the sum in sigma notation.
+      $$$$
+      \frac{3}{5}+\frac{4}{6}+\frac{5}{7}+\frac{6}{8}+\cdots+\frac{23}{25}
+      $$$$
+    Back: |
+      $$$$\sum_{i=3}^{23} \frac{i}{i+2}$$$$
+    Annotations: ''
+  tags: []

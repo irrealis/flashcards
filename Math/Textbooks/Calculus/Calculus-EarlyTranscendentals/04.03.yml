@@ -1,0 +1,29 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Calculus-EarlyTrancendentals
+  - CET-04-ApplicationsOfDifferentiation
+  - CET-04.03-HowDerivativesAffectTheShapeOfAGraph
+  markdownTabLength: 2
+notes:
+- id: 0
+  fields:
+    Front: |
+      CET 04.03 Th.0a: XX
+    Back: |
+      XX
+    Annotations: ''
+  tags:
+  - Theory
+- id: 0
+  fields:
+    Front: |
+      CET 04.03 01: XX
+    Back: |
+      XX
+    Annotations: ''
+  tags: []

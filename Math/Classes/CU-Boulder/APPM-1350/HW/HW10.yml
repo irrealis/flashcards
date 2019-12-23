@@ -1,0 +1,141 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1350
+  - APPM-1350-Exams
+  - APPM-1350-Exam3
+  - APPM-1350-HW10
+  - APPM-1350-SectionAppendixB
+  - APPM-1350-Section04.01
+  - APPM-1350-Section04.02
+  - APPM-1350-Section04.03
+  - WrittenHomework
+  markdownTabLength: 2
+notes:
+- id: 1572046493032
+  media:
+  - path: ${file_dir}/images/HW-10-01.1.jpg
+  - path: ${file_dir}/images/HW-10-01.2.jpg
+  - path: ${file_dir}/images/HW-10-01.3.jpg
+  - path: ${file_dir}/images/HW-10-01.4.jpg
+  - path: ${file_dir}/images/HW-10-01.5.jpg
+  - path: ${file_dir}/images/HW-10-01.6.jpg
+  fields:
+    Front: |
+      APPM 1350 HW-10 01:
+      Suppose we estimate the area under the curve $y=g(x)$ using four approximating rectangles.
+      (a) Sketch the rectangles associated with (i) $L_{4},$ the left-endpoint rule, (ii) $M_{4},$ the midpoint rule, and (iii) the lower sum.
+      (b) Does the left-endpoint approximation $L_{4}$ produce an underestimate or overestimate? Explain.
+
+      ![](HW-10-01.1.jpg)
+      ![](HW-10-01.2.jpg)
+      ![](HW-10-01.3.jpg)
+    Back: |
+      (a **[my answer]**)
+      ![](HW-10-01.4.jpg)
+      ![](HW-10-01.5.jpg)
+      ![](HW-10-01.6.jpg)
+      (b) overestimate
+    Annotations: ''
+  tags: []
+- id: 1572046610154
+  fields:
+    Front: |
+      APPM 1350 HW-10 02:
+      Use geometry to evaluate the following integral. Assume that $a, b,$ and $c$ are positive constants with $a<b$. Include a graph of the region.
+      $$$
+      \int_{0}^{c}\left(a+\frac{b-a}{c} x\right) d x
+      $$$
+    Back: |
+      $$$\frac{1}{2} c(a+b)$$$
+    Annotations: ''
+  tags: []
+- id: 1572046642104
+  fields:
+    Front: |
+      APPM 1350 HW-10 03:
+      Express the sum
+      $$$
+      S=\left(1^{2}-3\right)+\left(2^{2}-5\right)+\left(3^{2}-7\right)+\left(4^{2}-9\right)+\cdots+\left(60^{2}-121\right)
+      $$$
+      using sigma notation and find $S$.
+    Back: |
+      $$$70090$$$
+    Annotations: ''
+  tags: []
+- id: 1572046674180
+  fields:
+    Front: |
+      APPM 1350 HW-10 04:
+      Let $f(x)=\sqrt{4+9 x^{2}}$ on $[1,6] .$ Find an expression for $R_{n},$ the right-endpoint rectangle approximation of the area under the curve with $n$ equal subintervals. Write your answer in sigma notation.  Do not evaluate the sum.
+    Back: |
+      $$$\sum_{i=1}^{n} \sqrt{4+9\left(1+\frac{5 i}{n}\right)^{2}} \cdot \frac{5}{n}$$$
+    Annotations: ''
+  tags: []
+- id: 1572046722579
+  fields:
+    Front: |
+      APPM 1350 HW-10 05:
+      Consider the limit of $\sum_{i=1}^{n}\left(\frac{1}{n}\right)\left(\left(\frac{i}{n}\right)^{3}+2\left(\frac{i}{n}\right)\right)$ as $n \rightarrow \infty .$
+      (a) Evaluate the limit.
+      (b) The limit represents the area under the graph of a function $f$ on $[a, b] .$ Find such a function $f$ and interval $[a, b] .$
+    Back: |
+      (a) $5 / 4$
+      (b) $f(x)=x^{3}+2 x$ on $[0,1]$
+    Annotations: ''
+  tags: []
+- id: 1572046877804
+  media:
+  - path: ${file_dir}/images/HW-10-06.1.jpg
+  fields:
+    Front: |
+      APPM 1350 HW-10 06:
+      The graph below shows the velocity of a hot air balloon that takes off from the ground and rises upward.
+      ![](HW-10-06.1.jpg)
+      (a) When was the acceleration positive? negative?
+      (b) At what time did the balloon reach maximum height?
+      (c) At what time was the upward acceleration greatest?
+      (d) At what time was the downward acceleration greatest?
+      (e) Did the balloon land on the ground? Explain.
+    Back: |
+      (a **[my answer]**) pos on $(0 \text{ min}, 40 \text{ min}) \cup (59 \text{ min}, 60 \text{ min}),$ neg on $(40 \text{ min}, 59 \text{ min})$
+      (b **[my answer]**) $42 \text{ min}$
+      (c **[my answer]**) $(59 \text{ min}, 60 \text{ min})$
+      (d **[my answer]**) $40 \text{ min}$
+      (e **[my answer]**) no
+    Annotations: ''
+  tags: []
+- id: 1572046945428
+  fields:
+    Front: |
+      APPM 1350 HW-10 07:
+      Suppose the velocity function (in $\mathrm{m} / \mathrm{s})$ for a particle moving along a line is
+      $$$
+      v(t)=-t^{2}+2 t+3,0 \leq t \leq 4.
+      $$$
+      (a) Use Comparison Property 8 in section 4.2 to find lower and upper estimates for the value of $\int_{0}^{4} v(t) d t .$ How are these estimates related to lower and upper sums?
+      (b) Calculate the displacement of the particle on $[0,4] .$
+      (c) Without using absolute value, set up integral(s) to find the total distance traveled by the particle on $[0,4] .$
+      (d) Now find the total distance traveled.
+    Back: |
+      (a) lower $-20,$ upper 16
+      (b) $20 / 3$
+      (c) $\int_{0}^{3}\left(-t^{2}+2 t+3\right) d t-\int_{3}^{4}\left(-t^{2}+2 t+3\right) d t$
+      (d) $34 / 3$
+    Annotations: ''
+  tags: []
+- id: 1572047059080
+  fields:
+    Front: |
+      APPM 1350 HW-10 08:
+      Mr. McCloskey is driving his truck along a straight road when he notices a small dark object $500 \text{ ft}$ ahead. He steps on the brakes, then recognizes that the object is a duck standing in the middle of the road. The truck records his speed every 2 seconds after he applies the brakes until he stops after 10 seconds.
+      $$$\begin{array}{c|cccccc}{\text { time } t( \text {sec) } } & {0} & {2} & {4} & {6} & {8} & {10} \\ \hline \text { speed (ftsec) } & {100} & {80} & {50} & {25} & {10} & {0}\end{array}$$$
+      Is it possible that Mr. McCloskey hit the duck? Find lower, midpoint, and upper estimates for the total distance traveled by the truck before coming to a stop. Assume that the speed of the truck decreased throughout the 10-second period but not necessarily at a steady rate.
+    Back: |
+      lower 330 ft, midpt 430 ft, upper $530 \mathrm{ft}$
+    Annotations: ''
+  tags: []

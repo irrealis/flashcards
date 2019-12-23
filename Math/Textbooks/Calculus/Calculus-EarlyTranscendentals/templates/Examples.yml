@@ -1,0 +1,14 @@
+  media:
+  - path: ${file_dir}/images/CET-XX.XX-XX.Xm.1.jpg
+      <p align="center">
+      ![](CET-XX.XX-XX.Xm.1.jpg)
+      </p>
+  tags: []
+- id: 0
+  fields:
+    Front: |
+      CET-XX.XX-XX Example:
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing

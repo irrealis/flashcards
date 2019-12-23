@@ -1,0 +1,1181 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Calculus-EarlyTrancendentals
+  - CET-01-FunctionsAndModels
+  - CET-01.01-FourWaysToRepresentAFunction
+  markdownTabLength: 2
+notes:
+- id: 1568148320996
+  fields:
+    Front: |
+      CET 01.01 Th.0a: Define a **function.**
+    Back: |
+      A **function** $f$ is a rule that assigns to each element $x$ in a set $D$ exactly one element, called $f(x)$, in a set $E$.
+    Annotations: ''
+  tags:
+  - Theory
+- id: 1568148475820
+  fields:
+    Front: |
+      CET 01.01 Th.0b: Define an **even function.**
+    Back: |
+      If a function $f$ satisfies $f(-x)=f(x)$ for every number $x$ in its domain, then $f$ is called an **even function.**
+    Annotations: ''
+  tags:
+  - Theory
+- id: 1568148475921
+  fields:
+    Front: |
+      CET 01.01 Th.0c: Define an **odd function.**
+    Back: |
+      If a function $f$ satisfies $f(-x)=-f(x)$ for every number $x$ in its domain, then $f$ is called an **odd function.**
+    Annotations: ''
+  tags:
+  - Theory
+- id: 1568148601054
+  fields:
+    Front: |
+      CET 01.01 01: If $f(x)=x+\sqrt{2-x}$ and $g(u)=u+\sqrt{2-u}$, is it true that $f=g$?
+    Back: |
+      The functions $f(x)=x+\sqrt{2-x}$ and $g(u)=u+\sqrt{2-u}$ give exactly the same output values for every input value, so $f$ and $g$ are equal.
+    Annotations: ''
+  tags: []
+- id: 1568148814720
+  fields:
+    Front: |
+      CET 01.01 02: If
+      $$$$
+      f(x)=\frac{x^{2}-x}{x-1} \quad \text { and } \quad g(x)=x
+      $$$$
+      is it true that $f=g$?
+    Back: |
+      $f(x)=\frac{x^{2}-x}{x-1}=\frac{x(x-1)}{x-1}=x$ for $x-1 \neq 0$, so $f$ and $g$ [where $g(x)=x$] are not equal because $f(1)$ is undefined and $g(1)=1$.
+    Annotations: ''
+  tags: []
+- id: 1568149088671
+  media:
+  - path: ${file_dir}/images/CET-01.01-03.1.jpg
+  fields:
+    Front: |
+      CET 01.01 03: The graph of a function $f$ is given.
+      (a) State the value of $f(1)$.
+      (b) Estimate the value of $f(-1)$.
+      (c) For what values of $x$ is $f(x)=1$?
+      (d) Estimate the value of $x$ such that $f(x)=0$.
+      (e) State the domain and range of $f$.
+      (f) On what interval is $f$ increasing?
+      ![](CET-01.01-03.1.jpg)
+    Back: |
+      (a) The point $(1,3)$ is on the graph of $f$, so $f(1)=3.$
+      (b) When $x=-1,$ $y$ is about $-0.2,$ so $f(-1) \approx-0.2$
+      (c) $f(x)=1$ is equivalent to $y=1 .$ When $y=1,$ we have $x=0$ and $x=3.$
+      (e) The domain of $f$ consists of all $x$-values on the graph of $f .$ For this function, the domain is $-2 \leq x \leq 4,$ or $[-2,4] .$
+      The range of $f$ consists of all $y$-values on the graph of $f.$ For this function, the range is $-1 \leq y \leq 3,$ or $[-1,3] .$
+      (f) As $x$ increases from $-2$ to $1,$ $y$ increases from $-1$ to $3 .$ Thus, $f$ is increasing on the interval $[-2,1].$
+    Annotations: ''
+  tags: []
+- id: 1568150741646
+  media:
+  - path: ${file_dir}/images/CET-01.01-04.1.jpg
+  fields:
+    Front: |
+      CET 01.01 04: The graphs of $f$ and $g$ are given.
+      ![](CET-01.01-04.1.jpg)
+      (a) State the values of $f(-4)$ and $g(3).$
+      (b) For what values of $x$ is $f(x)=g(x) ?$
+      (c) Estimate the solution of the equation $f(x)=-1 .$
+      (d) On what interval is $f$ decreasing?
+      (e) State the domain and range of $f.$
+      (f) State the domain and range of $g.$
+    Back: |
+      (a) The point $(-4,-2)$ is on the graph of $f,$ so $f(-4)=-2 .$ The point $(3,4)$ is on the graph of $g,$ so $g(3)=4 .$
+      (b) We are looking for the values of $x$ for which the $y$-values are equal. The $y$-values for $f$ and $g$ are equal at the points $(-2,1)$ and $(2,2),$ so the desired values of $x$ are $-2$ and $2.$
+      (c) $f(x)=-1$ is equivalent to $y=-1 .$ When $y=-1,$ we have $x=-3$ and $x=4.$
+      (d) As $x$ increases from 0 to $4,$ $y$ decreases from $3$ to $-1 .$ Thus, $f$ is decreasing on the interval $[0,4].$
+      (e) The domain of $f$ consists of all $x$-values on the graph of $f .$ For this function, the domain is $-4 \leq x \leq 4,$ or $[-4,4].$
+      The range of $f$ consists of all $y$-values on the graph of $f.$ For this function, the range is $-2 \leq y \leq 3,$ or $[-2,3].$
+      (f) The domain of $g$ is $[-4,3]$ and the range is $[0.5,4].$
+    Annotations: ''
+  tags: []
+- id: 1568151334096
+  media:
+  - path: ${file_dir}/images/CET-01.01-05.1.jpg
+  fields:
+    Front: |
+      CET 01.01 05: The figure below was recorded by an instrument operated by the California Department of Mines and Geology at the University Hospital of the University of Southern Califomia in Los Angeles. Use it to estimate the range of the vertical ground acceleration function at USC during the Northridge earthquake.
+      ![](CET-01.01-05.1.jpg)
+    Back: |
+      From Figure 1 in the text, the lowest point occurs at about $(t, a)=(12,-85) .$ The highest point occurs at about $(17,115) .$ Thus, the range of the vertical ground acceleration is $-85 \leq a \leq 115 .$ Written in interval notation, we get $[-85,115].$
+    Annotations: ''
+  tags: []
+- id: 1568151689170
+  media:
+  - path: ${file_dir}/images/CET-01.01-07.1.jpg
+  fields:
+    Front: |
+      CET 01.01 07: Determine whether the curve is the graph of a function of $x .$ If it is, state the domain and range of the function.
+      ![](CET-01.01-07.1.jpg)
+    Back: |
+      No, the curve is not the graph of a function because a vertical line intersects the curve more than once. Hence, the curve fails the Vertical Line Test.
+    Annotations: ''
+  tags: []
+- id: 1568151826695
+  media:
+  - path: ${file_dir}/images/CET-01.01-08.1.jpg
+  fields:
+    Front: |
+      CET 01.01 08: Determine whether the curve is the graph of a function of $x .$ If it is, state the domain and range of the function.
+      ![](CET-01.01-08.1.jpg)
+    Back: |
+      Yes, the curve is the graph of a function because it passes the Vertical Line Test. The domain is $[-2,2]$ and the range is $[-1,2] .$
+    Annotations: ''
+  tags: []
+- id: 1568151934920
+  media:
+  - path: ${file_dir}/images/CET-01.01-09.1.jpg
+  fields:
+    Front: |
+      CET 01.01 09: Determine whether the curve is the graph of a function of $x .$ If it is, state the domain and range of the function.
+      ![](CET-01.01-09.1.jpg)
+    Back: |
+      Yes, the curve is the graph of a function because it passes the Vertical Line Test. The domain is $[-3,2]$ and the range is $[-3,-2) \cup[-1,3] .$
+    Annotations: ''
+  tags: []
+- id: 1568152014596
+  media:
+  - path: ${file_dir}/images/CET-01.01-10.1.jpg
+  fields:
+    Front: |
+      CET 01.01 10: Determine whether the curve is the graph of a function of $x .$ If it is, state the domain and range of the function.
+      ![](CET-01.01-10.1.jpg)
+    Back: |
+      No, the curve is not the graph of a function since for $x=0, \pm 1,$ and $\pm 2,$ there are infinitely many points on the curve.
+    Annotations: ''
+  tags: []
+- id: 1568152256970
+  media:
+  - path: ${file_dir}/images/CET-01.01-11.1.jpg
+  fields:
+    Front: |
+      CET 01.01 11: Shown is a graph of the global average temperature $T$ during the 20th century. Estimate the following.
+      (a) The global average temperature in 1950
+      (b) The year when the average temperature was $14.2^{\circ} \mathrm{C}$
+      (c) The year when the temperature was smallest? Largest?
+      (d) The range of $T$
+      ![](CET-01.01-11.1.jpg)
+    Back: |
+      (a) When $t=1950,$ $T \approx 13.8^{\circ} \mathrm{C},$ so the global average temperature in 1950 was about $13.8^{\circ} \mathrm{C}.$
+      (b) When $T=14.2^{\circ} \mathrm{C},$ $t \approx 1990.$
+      (c) The global average temperature was smallest in 1910 (the year corresponding to the lowest point on the graph) and largest in 2005 (the year corresponding to the highest point on the graph).
+      (d) When $t=1910,$ $T \approx 13.5^{\circ} \mathrm{C},$ and when $t=2005,$ $T \approx 14.5^{\circ} \mathrm{C}.$ Thus, the range of $T$ is about $[13.5,14.5].$
+    Annotations: ''
+  tags: []
+- id: 1568152513221
+  media:
+  - path: ${file_dir}/images/CET-01.01-12.1.jpg
+  fields:
+    Front: |
+      CET 01.01 12: Trees grow faster and form wider rings in warm years and grow more slowly and form narrower rings in cooler years. The figure shows ring widths of a Siberian pine from 1500 to 2000.
+      (a) What is the range of the ring width function?
+      (b) What does the graph tend to say about the temperature of the earth? Does the graph reflect the volcanic eruptions of the mid-19th century?
+      ![](CET-01.01-12.1.jpg)
+    Back: |
+      (a) The ring width varies from near 0 $\mathrm{mm}$ to about $1.6 \mathrm{mm},$ so the range of the ring width function is approximately $[0,1.6] .$
+      (b) According to the graph, the earth gradually cooled from 1550 to 1700, warmed into the late 1700s, cooled again into the late 1800s, and has been steadily warming since then. In the mid-19th century, there was variation that could have been associated with volcanic eruptions.
+    Annotations: ''
+  tags: []
+- id: 1568152801996
+  media:
+  - path: ${file_dir}/images/CET-01.01-13.1.jpg
+  fields:
+    Front: |
+      CET 01.01 13: You put some ice cubes in a glass, fill the glass with cold water, and then let the glass sit on a table. Describe how the temperature of the water changes as time passes. Then sketch a rough graph of the temperature of the water as a function of the elapsed time.
+    Back: |
+      The water will cool down almost to freezing as the ice melts. Then, when the ice has melted, the water will slowly warm up to room temperature.
+      ![](CET-01.01-13.1.jpg)
+    Annotations: ''
+  tags: []
+- id: 1568153040321
+  media:
+  - path: ${file_dir}/images/CET-01.01-14.1.jpg
+  fields:
+    Front: |
+      CET 01.01 14: Three runners compete in a 100-meter race. The graph depicts the distance run as a function of time for each runner. Describe in words what the graph tells you about this race. Who won the race? Did each runner finish the race?
+      ![](CET-01.01-14.1.jpg)
+    Back: |
+      Runner A won the race, reaching the finish line at 100 meters in about 15 seconds, followed by runner B with a time of about 19 seconds, and then by runner C who finished in around 23 seconds. B initially led the race, followed by C, and then A. C then passed B to lead for a while. Then A passed first B, and then passed C to take the lead and finish first. Finally, B passed C to finish in second place. All three runners completed the race.
+    Annotations: ''
+  tags: []
+- id: 1568153277770
+  media:
+  - path: ${file_dir}/images/CET-01.01-15.1.jpg
+  fields:
+    Front: |
+      CET 01.01 15: The graph shows the power consumption for a day in September in San Francisco. $P$ is measured in megawatts; $t$ is measured in hours starting at midnight.
+      (a) What was the power consumption at 6 AM? At 6 PM?
+      (b) When was the power consumption the lowest? When was it the highest? Do these times seem reasonable?
+      ![](CET-01.01-15.1.jpg)
+    Back: |
+      (a) The power consumption at 6 AM is 500 MW, which is obtained by reading the value of power $P$ when $t=6$ from the graph. At 6 PM we read the value of $P$ when $t=18,$ obtaining approximately 730 MW.
+      (b) The minimum power consumption is determined by finding the time for the lowest point on the graph, $t=4,$ or 4 AM. The maximum power consumption corresponds to the highest point on the graph, which occurs just before $t=12,$ or right before noon. These times are reasonable, considering the power consumption schedules of most individuals and businesses.
+    Annotations: ''
+  tags: []
+- id: 1568154055720
+  media:
+  - path: ${file_dir}/images/CET-01.01-16.1.jpg
+  fields:
+    Front: |
+      CET 01.01 16: Sketch a rough graph of the number of hours of daylight as a function of the time of year.
+    Back: |
+      The summer solstice (the longest day of the year) is around June 21, and the winter solstice (the shortest day) is around December 22. (Exchange the dates for the southern hemisphere.)
+      ![](CET-01.01-16.1.jpg)
+    Annotations: ''
+  tags: []
+- id: 1568154127946
+  media:
+  - path: ${file_dir}/images/CET-01.01-17.1.jpg
+  fields:
+    Front: |
+      CET 01.01 17: Sketch a rough graph of the outdoor temperature as a function of time during a typical spring day.
+    Back: |
+      Of course, this graph depends strongly on the geographical location!
+      ![](CET-01.01-17.1.jpg)
+    Annotations: ''
+  tags: []
+- id: 1568154192345
+  media:
+  - path: ${file_dir}/images/CET-01.01-18.1.jpg
+  fields:
+    Front: |
+      CET 01.01 18: Sketch a rough graph of the market value of a new car as a function of time for a period of 20 years. Assume the car is well maintained.
+    Back: |
+      The value of the car decreases fairly rapidly initially, then somewhat less rapidly.
+      ![](CET-01.01-18.1.jpg)
+    Annotations: ''
+  tags: []
+- id: 1568154282120
+  media:
+  - path: ${file_dir}/images/CET-01.01-19.1.jpg
+  fields:
+    Front: |
+      CET 01.01 19: Sketch the graph of the amount of a particular brand of coffee sold by a store as a function of the price of the coffee.
+    Back: |
+      As the price increases, the amount sold decreases.
+      ![](CET-01.01-19.1.jpg)
+    Annotations: ''
+  tags: []
+- id: 1568154362196
+  media:
+  - path: ${file_dir}/images/CET-01.01-20.1.jpg
+  fields:
+    Front: |
+      CET 01.01 20: You place a frozen pie in an oven and bake it for an hour. Then you take it out and let it cool before eating it. Describe how the temperature of the pie changes as time passes. Then sketch a rough graph of the temperature of the pie as a function of time.
+    Back: |
+      The temperature of the pie would increase rapidly, level off to oven temperature, decrease rapidly, and then level off to room temperature.
+      ![](CET-01.01-20.1.jpg)
+    Annotations: ''
+  tags: []
+- id: 1568154440145
+  media:
+  - path: ${file_dir}/images/CET-01.01-21.1.jpg
+  fields:
+    Front: |
+      CET 01.01 21: A homeowner mows the lawn every Wednesday afternoon. Sketch a rough graph of the height of the grass as a function of time over the course of a four-week period.
+    Back: |
+      ![](CET-01.01-21.1.jpg)
+    Annotations: ''
+  tags: []
+- id: 1568154576495
+  media:
+  - path: ${file_dir}/images/CET-01.01-22.1.jpg
+  - path: ${file_dir}/images/CET-01.01-22.2.jpg
+  - path: ${file_dir}/images/CET-01.01-22.3.jpg
+  - path: ${file_dir}/images/CET-01.01-22.4.jpg
+  fields:
+    Front: |
+      CET 01.01 22: An airplane takes off from an airport and lands an hour later at another airport, 400 miles away. If $t$ represents the time in minutes since the plane has left the terminal building, let $x(t)$ be the horizontal distance traveled and $y(t)$ be the altitude of the plane.
+      (a) Sketch a possible graph of $x(t).$
+      (b) Sketch a possible graph of $y(t).$
+      (c) Sketch a possible graph of the ground speed.
+      (d) Sketch a possible graph of the vertical velocity.
+    Back: |
+      (a)
+      ![](CET-01.01-22.1.jpg)
+      (b)
+      ![](CET-01.01-22.2.jpg)
+      (c)
+      ![](CET-01.01-22.3.jpg)
+      (d)
+      ![](CET-01.01-22.4.jpg)
+    Annotations: ''
+  tags: []
+- id: 1568155060370
+  media:
+  - path: ${file_dir}/images/CET-01.01-23.1.jpg
+  fields:
+    Front: |
+      CET 01.01 23: Researchers measured the blood alcohol concentration (BAC) of eight adult male subjects after rapid consumption of 30 $\mathrm{mL}$ of ethanol (corresponding to two standard alcoholic drinks). The table shows the data they obtained by averaging the BAC (in $\mathrm{mg} / \mathrm{mL}$) of the eight men.
+      $$$$
+      \begin{array}{|c|c|c|c|c|c|c|c|c|}
+      \hline
+      t & {0} & {2} & {4} & {6} & {8} & {10} & {12} & {14} \\
+      \hline
+      T & {74} & {69} & {68} & {66} & {70} & {78} & {82} & {86} \\
+      \hline
+      \end{array}
+      $$$$
+      (a) Use the readings to sketch a rough graph of $T$ as a function of $t.$
+      (b) Use your graph to estimate the temperature at 9:00 AM.
+    Back: |
+      (a)
+      ![](CET-01.01-23.1.jpg)
+      (b) 9:00 AM corresponds to $t=9 .$ When $t=9,$ the temperature $T$ is about $74^{\circ} \mathrm{F}.$
+    Annotations: ''
+  tags: []
+- id: 1568155206821
+  media:
+  - path: ${file_dir}/images/CET-01.01-24.1.jpg
+  fields:
+    Front: |
+      CET 01.01 24: Researchers measured the blood alcohol concentration (BAC) of eight adult male subjects after rapid consumption of 30 $\mathrm{mL}$ of ethanol (corresponding to two standard alcoholic drinks).  The table shows the data they obtained by averaging the BAC (in $\mathrm{mg} / \mathrm{mL}$) of the eight men.
+      (a) Use the readings to sketch the graph of the BAC as a function of $t.$
+      (b) Use your graph to describe how the effect of alcohol varies with time.
+      $$$$
+      \begin{array}{|c|c|c|c|}
+      \hline
+      t \text { (hours)} & \text{BAC} & {t \text {(hours)}} & {\text {BAC}} \\
+      \hline
+      {0} & {0} & {1.75} & {0.22} \\
+      {0.2} & {0.25} & {1.0} & {0.18} \\
+      {0.5} & {0.41} & {2.25} & {0.15} \\
+      {0.75} & {0.40} & {2.5} & {0.12} \\
+      {1.0} & {0.33} & {3.0} & {0.07} \\
+      {1.25} & {0.29} & {3.5} & {0.03} \\
+      {1.5} & {0.24} & {4.0} & {0.01} \\
+      \hline
+      \end{array}
+      $$$$
+    Back: |
+      (a)
+      ![](CET-01.01-24.1.jpg)
+      (b) The blood alcohol concentration rises rapidly, then slowly decreases to near zero. Note that the BAC in this exercise is measured in $\mathrm{mg} / \mathrm{mL},$ not percent.
+    Annotations: ''
+  tags: []
+- id: 1568155751045
+  fields:
+    Front: |
+      CET 01.01 25: If $f(x)=3 x^{2}-x+2,$ find $f(2),$ $f(-2),$ $f(a),$ $f(-a),$ $f(a+1),$ $2 f(a),$ $f(2 a),$ $f\left(a^{2}\right),$ $[f(a)]^{2},$ and $f(a+h).$
+    Back: |
+      $f(x)=3 x^{2}-x+2.$
+      $f(2)=3(2)^{2}-2+2=12-2+2=12.$
+      $f(-2)=3(-2)^{2}-(-2)+2=12+2+2=16.$
+      $f(a)=3 a^{2}-a+2.$
+      $f(-a)=3(-a)^{2}-(-a)+2=3 a^{2}+a+2.$
+      $f(a+1)=3(a+1)^{2}-(a+1)+2=3\left(a^{2}+2 a+1\right)-a-1+2=3 a^{2}+6 a+3-a+1=3 a^{2}+5 a+4.$
+      $2 f(a)=2 \cdot f(a)=2\left(3 a^{2}-a+2\right)=6 a^{2}-2 a+4.$
+      $f(2 a)=3(2 a)^{2}-(2 a)+2=3\left(4 a^{2}\right)-2 a+2=12 a^{2}-2 a+2.$
+      $f\left(a^{2}\right)=3\left(a^{2}\right)^{2}-\left(a^{2}\right)+2=3\left(a^{4}\right)-a^{2}+2=3 a^{4}-a^{2}+2.$
+      $\begin{aligned} \left[ f(a) \right]^{2} &=\left[3 a^{2}-a+2\right]^{2}=\left(3 a^{2}-a+2\right)\left(3 a^{2}-a+2\right) \\ &=9 a^{4}-3 a^{3}+6 a^{2}-3 a^{3}+a^{2}-2 a+6 a^{2}-2 a+4=9 a^{4}-6 a^{3}+13 a^{2}-4 a+4. \end{aligned}$
+      $f(a+h)=3(a+h)^{2}-(a+h)+2=3\left(a^{2}+2 a h+h^{2}\right)-a-h+2=3 a^{2}+6 a h+3 h^{2}-a-h+2.$
+    Annotations: ''
+  tags: []
+- id: 1568156046020
+  fields:
+    Front: |
+      CET 01.01 26: A spherical balloon with radius $r$ inches has volume $V(r)=\frac{4}{3} \pi r^{3} .$ Find a function that represents the amount of air required to inflate the balloon from a radius of $r$ inches to a radius of $r+1$ inches.
+    Back: |
+      A spherical balloon with radius $r+1$ has volume $V(r+1)=\frac{4}{3} \pi(r+1)^{3}=\frac{4}{3} \pi\left(r^{3}+3 r^{2}+3 r+1\right)$ . We wish to find the amount of air needed to inflate the balloon from a radius of $r$ to $r+1 .$ Hence, we need to find the difference $V(r+1)-V(r)=\frac{4}{3} \pi\left(r^{3}+3 r^{2}+3 r+1\right)-\frac{4}{3} \pi r^{3}=\frac{4}{3} \pi\left(3 r^{2}+3 r+1\right).$
+    Annotations: ''
+  tags: []
+- id: 1568156194170
+  fields:
+    Front: |
+      CET 01.01 27: Evaluate the difference quotient for the given function. Simplify your answer.
+      $$$$
+      f(x)=4+3 x-x^{2}, \quad \frac{f(3+h)-f(3)}{h}
+      $$$$
+    Back: |
+      $f(x)=4+3 x-x^{2},$ so $f(3+h)=4+3(3+h)-(3+h)^{2}=4+9+3 h-\left(9+6 h+h^{2}\right)=4-3 h-h^{2},$ and $\frac{f(3+h)-f(3)}{h}=\frac{\left(4-3 h-h^{2}\right)-4}{h}=\frac{h(-3-h)}{h}=-3-h.$
+    Annotations: ''
+  tags: []
+- id: 1568156305371
+  fields:
+    Front: |
+      CET 01.01 28: Evaluate the difference quotient for the given function. Simplify your answer.
+      $$$$
+      f(x)=x^{3}, \quad \frac{f(a+h)-f(a)}{h}
+      $$$$
+    Back: |
+      $f(x)=x^{3},$ so $f(a+h)=(a+h)^{3}=a^{3}+3 a^{2} h+3 a h^{2}+h^{3},$ and $\frac{f(a+h)-f(a)}{h}=\frac{\left(a^{3}+3 a^{2} h+3 a h^{2}+h^{3}\right)-a^{3}}{h}=\frac{h\left(3 a^{2}+3 a h+h^{2}\right)}{h}=3 a^{2}+3 a h+h^{2}.$
+    Annotations: ''
+  tags: []
+- id: 1568156384371
+  fields:
+    Front: |
+      CET 01.01 29: Evaluate the difference quotient for the given function. Simplify your answer.
+      $$$$
+      f(x)=\frac{1}{x}, \quad \frac{f(x)-f(a)}{x-a}
+      $$$$
+    Back: |
+      $\frac{f(x)-f(a)}{x-a}=\frac{\frac{1}{x}-\frac{1}{a}}{x-a}=\frac{\frac{a-x}{x a}}{x-a}=\frac{a-x}{x a(x-a)}=\frac{-1(x-a)}{x a(x-a)}=-\frac{1}{a x}$
+    Annotations: ''
+  tags: []
+- id: 1568156585221
+  fields:
+    Front: |
+      CET 01.01 30: Evaluate the difference quotient for the given function. Simplify your answer.
+      $$$$
+      f(x)=\frac{x+3}{x+1}, \quad \frac{f(x)-f(1)}{x-1}
+      $$$$
+    Back: |
+      $$$$
+      \begin{aligned}
+      \frac{f(x)-f(1)}{x-1}
+      &=\frac{\frac{x+3}{x+1}-2}{x-1}=\frac{\frac{x+3-2(x+1)}{x+1}}{x-1}=\frac{x+3-2 x-2}{(x+1)(x-1)} \\
+      &=\frac{-x+1}{(x+1)(x-1)}=\frac{-(x-1)}{(x+1)(x-1)}=-\frac{1}{x+1} \end{aligned}
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568156713996
+  fields:
+    Front: |
+      CET 01.01 31: Find the domain of the function.
+      $$$$
+      f(x)=\frac{x+4}{x^{2}-9}
+      $$$$
+    Back: |
+      $f(x)=(x+4) /\left(x^{2}-9\right)$ is defined for all $x$ except when $0=x^{2}-9 \Leftrightarrow 0=(x+3)(x-3) \Leftrightarrow x=-3$ or $3,$ so the domain is $\{x \in \mathbb{R} | x \neq-3,3\}=(-\infty,-3) \cup(-3,3) \cup(3, \infty) .$
+    Annotations: ''
+  tags: []
+- id: 1568156822245
+  fields:
+    Front: |
+      CET 01.01 32: Find the domain of the function.
+      $$$$
+      f(x)=\frac{2 x^{3}-5}{x^{2}+x-6}
+      $$$$
+    Back: |
+      $f(x)=\left(2 x^{3}-5\right) /\left(x^{2}+x-6\right)$ is defined for all $x$ except when $0=x^{2}+x-6 \Leftrightarrow 0=(x+3)(x-2) \Leftrightarrow$ $x=-3$ or $2,$ so the domain is $\{x \in \mathbb{R} | x \neq-3,2\}=(-\infty,-3) \cup(-3,2) \cup(2, \infty).$
+    Annotations: ''
+  tags: []
+- id: 1568156904870
+  fields:
+    Front: |
+      CET 01.01 33: Find the domain of the function.
+      $$$$
+      f(t)=\sqrt[3]{2 t-1}
+      $$$$
+    Back: |
+      $f(t)=\sqrt[3]{2 t-1}$ is defined for all real numbers. In fact $\sqrt[3]{p(t)},$ where $p(t)$ is a polynomial, is defined for all real numbers.  Thus, the domain is $\mathbb{R},$ or $(-\infty, \infty).$
+    Annotations: ''
+  tags: []
+- id: 1568157061320
+  fields:
+    Front: |
+      CET 01.01 34: Find the domain of the function.
+      $$$$
+      g(t)=\sqrt{3-t}-\sqrt{2+t}
+      $$$$
+    Back: |
+      $g(t)=\sqrt{3-t}-\sqrt{2+t}$ is defined when $3-t \geq 0 \Leftrightarrow t \leq 3$ and $2+t \geq 0 \Leftrightarrow t \geq-2 .$ Thus, the domain is $-2 \leq t \leq 3,$ or $[-2,3] .$
+    Annotations: ''
+  tags: []
+- id: 1568157139221
+  fields:
+    Front: |
+      CET 01.01 35: Find the domain of the function.
+      $$$$
+      h(x)=\frac{1}{\sqrt[4]{x^{2}-5 x}}
+      $$$$
+    Back: |
+      $h(x)=1 / \sqrt[4]{x^{2}-5 x}$ is defined when $x^{2}-5 x>0 \quad \Leftrightarrow \quad x(x-5)>0 .$ Note that $x^{2}-5 x \neq 0$ since that would result in division by zero. The expression $x(x-5)$ is positive if $x<0$ or $x>5 .$ (See Appendix A for methods for solving inequalities.) Thus, the domain is $(-\infty, 0) \cup(5, \infty).$
+    Annotations: ''
+  tags: []
+- id: 1568157274846
+  fields:
+    Front: |
+      CET 01.01 36: Find the domain of the function.
+      $$$$
+      f(u)=\frac{u+1}{1+\frac{1}{u+1}}
+      $$$$
+    Back: |
+      $f(u)=\frac{u+1}{1+\frac{1}{u+1}}$ is defined when $u+1 \neq 0[u \neq-1]$ and $1+\frac{1}{u+1} \neq 0 .$ since $1+\frac{1}{u+1}=0 \Leftrightarrow$ $\frac{1}{u+1}=-1 \Leftrightarrow 1=-u-1 \Leftrightarrow u=-2,$ the domain is $\{u | u \neq-2, u \neq-1\}=(-\infty,-2) \cup(-2,-1) \cup(-1, \infty).$
+    Annotations: ''
+  tags: []
+- id: 1568157347570
+  fields:
+    Front: |
+      CET 01.01 37: Find the domain of the function.
+      $$$$
+      F(p)=\sqrt{2-\sqrt{p}}
+      $$$$
+    Back: |
+      $F(p)=\sqrt{2-\sqrt{p}}$ is defined when $p \geq 0$ and $2-\sqrt{p} \geq 0 .$ since $2-\sqrt{p} \geq 0 \Leftrightarrow 2 \geq \sqrt{p} \Leftrightarrow \sqrt{p} \leq 2 \Leftrightarrow$ $0 \leq p \leq 4,$ the domain is $[0,4].$
+    Annotations: ''
+  tags: []
+- id: 1568157503845
+  media:
+  - path: ${file_dir}/images/CET-01.01-38.1.jpg
+  fields:
+    Front: |
+      CET 01.01 38: Find the domain and range and sketch the graph of the function $h(x)=\sqrt{4-x^{2}}.$
+    Back: |
+      $h(x)=\sqrt{4-x^{2}} .$ Now $y=\sqrt{4-x^{2}} \Rightarrow y^{2}=4-x^{2} \Leftrightarrow x^{2}+y^{2}=4,$ so the graph is the top half of a circle of radius 2 with center at the origin. The domain is $\left\{x | 4-x^{2} \geq 0\right\}=\left\{x | 4 \geq x^{2}\right\}=\{x|2 \geq| x |\}=[-2,2] .$ From the graph, the range is $0 \leq y \leq 2,$ or $[0,2] .$
+      ![](CET-01.01-38.1.jpg)
+    Annotations: ''
+  tags: []
+- id: 1568158852347
+  media:
+  - path: ${file_dir}/images/CET-01.01-39.1.jpg
+  fields:
+    Front: |
+      CET 01.01 39: Find the domain and sketch the graph of the function.
+      $$$$
+      f(x)=1.6 x-2.4
+      $$$$
+    Back: |
+      The domain of $f(x)=1.6 x-2.4$ is the set of all real numbers, denoted by $\mathbb{R}$ or $(-\infty, \infty) .$ The graph of $f$ is a line with slope 1.6 and $y$ -intercept $-2.4 .$
+      ![](CET-01.01-39.1.jpg)
+    Annotations: ''
+  tags: []
+- id: 1568159008895
+  media:
+  - path: ${file_dir}/images/CET-01.01-40.1.jpg
+  fields:
+    Front: |
+      CET 01.01 40: Find the domain and sketch the graph of the function.
+      $$$$
+      g(t)=\frac{t^{2}-1}{t+1}
+      $$$$
+    Back: |
+      Note that $g(t)=\frac{t^{2}-1}{t+1}=\frac{(t+1)(t-1)}{t+1}=t-1$ for $t+1 \neq 0,$ i.e., $t \neq-1.$
+      The domain of $g$ is the set of all real numbers except $-1 .$ In interval notation, we have $(-\infty,-1) \cup(-1, \infty) .$ The graph of $g$ is a line with slope $1, y$ -intercept $-1,$ and a hole at $t=-1 .$
+      ![](CET-01.01-40.1.jpg)
+    Annotations: ''
+  tags: []
+- id: 1568159260170
+  media:
+  - path: ${file_dir}/images/CET-01.01-41.1.jpg
+  fields:
+    Front: |
+      CET 01.01 41: Evaluate $f(-3),$ $f(0),$ and $f(2)$ for the piecewise defined function. Then sketch the graph of the function.
+      $$$$
+      f(x)=
+      \left\{
+        \begin{array}{ll}
+          {x+2} & {\text { if } x<0} \\
+          {1-x} & {\text { if } x \geqslant 0}
+        \end{array}
+      \right.
+      $$$$
+    Back: |
+      $f(-3)=-3+2=-1, f(0)=1-0=1,$ and $f(2)=1-2=-1.$
+      ![](CET-01.01-41.1.jpg)
+    Annotations: ''
+  tags: []
+- id: 1568159413421
+  media:
+  - path: ${file_dir}/images/CET-01.01-42.1.jpg
+  fields:
+    Front: |
+      CET 01.01 42: Evaluate $f(-3),$ $f(0),$ and $f(2)$ for the piecewise defined function. Then sketch the graph of the function.
+      $$$$
+      f(x)=
+      \left\{
+        \begin{array}{ll}
+          {3-\frac{1}{2} x} & {\text { if } x<2} \\
+          {2 x-5} & {\text { if } x \geq 2}
+        \end{array}
+      \right.
+      $$$$
+    Back: |
+      $f(-3)=3-\frac{1}{2}(-3)=\frac{9}{2},$ $f(0)=3-\frac{1}{2}(0)=3,$ and $f(2)=2(2)-5=-1.$
+      ![](CET-01.01-42.1.jpg)
+    Annotations: ''
+  tags: []
+- id: 1568159577720
+  media:
+  - path: ${file_dir}/images/CET-01.01-43.1.jpg
+  fields:
+    Front: |
+      CET 01.01 43: Evaluate $f(-3),$ $f(0),$ and $f(2)$ for the piecewise defined function. Then sketch the graph of the function.
+      $$$$
+      f(x)=
+      \left\{
+        \begin{array}{ll}
+          {x+1} & {\text { if } x \leqslant-1} \\
+          {x^{2}} & {\text { if } x>-1}
+        \end{array}
+      \right.
+      $$$$
+    Back: |
+      $f(-3)=-3+1=-2, f(0)=0^{2}=0,$ and $f(2)=2^{2}=4.$
+      ![](CET-01.01-43.1.jpg)
+    Annotations: ''
+  tags: []
+- id: 1568159679270
+  media:
+  - path: ${file_dir}/images/CET-01.01-44.1.jpg
+  fields:
+    Front: |
+      CET 01.01 44: Evaluate $f(-3),$ $f(0),$ and $f(2)$ for the piecewise defined function. Then sketch the graph of the function.
+      $$$$
+      f(x)=
+      \left\{
+        \begin{array}{ll}
+          {-1} & {\text { if } x \leqslant 1} \\
+          {7-2 x} & {\text { if } x>1}
+        \end{array}
+      \right.
+      $$$$
+    Back: |
+      $f(-3)=-1, f(0)=-1,$ and $f(2)=7-2(2)=3.$
+      ![](CET-01.01-44.1.jpg)
+    Annotations: ''
+  tags: []
+- id: 1568159855445
+  media:
+  - path: ${file_dir}/images/CET-01.01-45.1.jpg
+  fields:
+    Front: |
+      CET 01.01 45: Sketch the graph of the function.
+      $$$$
+      f(x)=x+|x|
+      $$$$
+    Back: |
+      $|x|=\left\{\begin{array}{ll}{x} & {\text { if } x \geq 0} \\ {-x} & {\text { if } x<0}\end{array}\right.$
+      so $f(x)=x+|x|=\left\{\begin{array}{ll}{2 x} & {\text { if } x \geq 0} \\ {0} & {\text { if } x<0}\end{array}\right.$
+      Graph the line $y=2 x$ for $x \geq 0$ and graph $y=0$ (the $x$-axis) for $x<0.$
+      ![](CET-01.01-45.1.jpg)
+    Annotations: ''
+  tags: []
+- id: 1568159970396
+  media:
+  - path: ${file_dir}/images/CET-01.01-46.1.jpg
+  fields:
+    Front: |
+      CET 01.01 46: Sketch the graph of the function.
+      $$$$
+      f(x)=|x+2|
+      $$$$
+    Back: |
+      $$$$
+      \begin{aligned}
+        f(x)=|x+2|
+        &= \left\{
+          \begin{array}{ll}
+            {x+2} & {\text { if } x+2 \geq 0} \\
+            {-(x+2)} & {\text { if } x+2<0}
+          \end{array}
+        \right. \\
+        &= \left\{
+          \begin{array}{ll}
+            {-(x+2)} & {\text { if } x \geq-2} \\
+            {-x-2} & {\text { if } x<-2}
+          \end{array}
+        \right.
+      \end{aligned}
+      $$$$
+      ![](CET-01.01-46.1.jpg)
+    Annotations: ''
+  tags: []
+- id: 1568160352846
+  media:
+  - path: ${file_dir}/images/CET-01.01-47.1.jpg
+  fields:
+    Front: |
+      CET 01.01 47: Sketch the graph of the function.
+      $$$$
+      g(t)=|1-3 t|
+      $$$$
+    Back: |
+      $$$$
+      \begin{aligned}
+        g(t)=|1-3 t|
+        &=
+        \left\{\begin{array}{ll}{1-3 t} & {\text { if } 1-3 t \geq 0} \\ {-(1-3 t)} & {\text { if } 1-3 t<0}\end{array}\right.
+        \\
+        &=
+        \left\{\begin{array}{ll}{1-3 t} & {\text { if } t \leq \frac{1}{3}} \\ {3 t-1} & {\text { if } t>\frac{1}{3}}\end{array}\right.
+      \end{aligned}
+      $$$$
+      ![](CET-01.01-47.1.jpg)
+    Annotations: ''
+  tags: []
+- id: 1568161761170
+  media:
+  - path: ${file_dir}/images/CET-01.01-48.1.jpg
+  fields:
+    Front: |
+      CET 01.01 48: Sketch the graph of the function.
+      $$$$
+      h(t)=|t|+|t+1|
+      $$$$
+    Back: |
+      $|t|=\left\{\begin{array}{ll}{t} & {\text { if } t \geq 0} \\ {-t} & {\text { if } t<0}\end{array}\right.$
+      and
+      $|t+1|=\left\{\begin{array}{ll}{t+1} & {\text { if } t+1 \geq 0} \\ {-(t+1)} & {\text { if } t+1<0}\end{array}=\left\{\begin{array}{ll}{t+1} & {\text { if } t \geq-1} \\ {-t-1} & {\text { if } t<-1}\end{array}\right.\right.$
+      so
+      $h(t)=|t|+|t+1|=\left\{\begin{array}{ll}{t+(t+1)} & {\text { if } t \geq 0} \\ {-t+(t+1)} & {\text { if }-1 \leq t<0} \\ {-t+(-t-1)} & {\text { if } t<-1}\end{array}=\left\{\begin{array}{ll}{2 t+1} & {\text { if } t \geq 0} \\ {1} & {\text { if }-1 \leq t<0} \\ {-2 t-1} & {\text { if } t<-1}\end{array}\right.\right.$
+      ![](CET-01.01-48.1.jpg)
+    Annotations: ''
+  tags: []
+- id: 1568161936121
+  media:
+  - path: ${file_dir}/images/CET-01.01-49.1.jpg
+  fields:
+    Front: |
+      CET 01.01 49: Sketch the graph of the function.
+      $$$$
+      f(x)=\left\{\begin{array}{ll}{|x|} & {\text { if }|x| \leqslant 1} \\ {1} & {\text { if }|x|>1}\end{array}\right.
+      $$$$
+    Back: |
+      To graph $f(x)=\left\{\begin{array}{ll}{|x|} & {\text { if }|x| \leq 1} \\ {1} & {\text { if }|x|>1}\end{array}\right.,$
+      graph $y=|x|$ for $-1 \leq x \leq 1$ and graph $y=1$ for $x>1$ and for $x<-1.$
+
+      We could rewrite $f$ as $f(x)=\left\{\begin{array}{ll}{1} & {\text { if } x<-1} \\ {-x} & {\text { if }-1 \leq x<0} \\ {x} & {\text { if } 0 \leq x \leq 1} \\ {1} & {\text { if } x>1}\end{array}\right.$
+      ![](CET-01.01-49.1.jpg)
+    Annotations: ''
+  tags: []
+- id: 1568162309446
+  media:
+  - path: ${file_dir}/images/CET-01.01-50.1.jpg
+  fields:
+    Front: |
+      CET 01.01 50: Sketch the graph of the function.
+      $$$$
+      g(x)=\left| |x|-1 \right|
+      $$$$
+    Back: |
+      $$$$
+      \begin{aligned}
+        g(x)=\left| |x|-1 \right|
+        &=\left\{
+          \begin{array}{ll}
+            {|x|-1} & {\text { if }|x|-1 \geq 0} \\
+            {-(|x|-1)} & {\text { if }|x|-1<0}
+          \end{array}
+        \right.
+        \\
+        &=\left\{
+          \begin{array}{ll}
+            {|x|-1} & {\text { if }|x| \geq 1} \\
+            {-|x|+1} & {\text { if }|x|<1}
+          \end{array}
+        \right. \\
+        &=\left\{
+          \begin{array}{ll}
+            {x-1} & {\text { if }|x| \geq 1 \text { and } x \geq 0} \\
+            {-x-1} & {\text { if }|x| \geq 1 \text { and } x<0} \\
+            {-x+1} & {\text { if }|x|<1 \text { and } x \geq 0} \\
+            {-(-x)+1} & {\text { if }|x|<1 \text { and } x<0}
+          \end{array}
+        \right. \\
+        &=\left\{
+          \begin{array}{ll}
+            {x-1} & {\text { if } x \geq 1} \\
+            {-x-1} & {\text { if } x \leq-1} \\
+            {-x+1} & {\text { if } 0 \leq x<1} \\
+            {x+1} & {\text { if }-1<x<0}
+          \end{array}
+        \right.
+      \end{aligned}
+      $$$$
+      ![](CET-01.01-50.1.jpg)
+    Annotations: ''
+  tags: []
+- id: 1568162465171
+  fields:
+    Front: |
+      CET 01.01 51: Find an expression for the function whose graph is the given curve.
+      The line segment joining the points $(1,-3)$ and $(5,7)$
+    Back: |
+      Recall that the slope $m$ of a line between the two points $\left(x_{1}, y_{1}\right)$ and $\left(x_{2}, y_{2}\right)$ is $m=\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$ and an equation of the line connecting those two points is $y-y_{1}=m\left(x-x_{1}\right)$ . The slope of the line segment joining the points $(1,-3)$ and $(5,7)$ is $\frac{7-(-3)}{5-1}=\frac{5}{2},$ so an equation is $y-(-3)=\frac{5}{2}(x-1) .$ The function is $f(x)=\frac{5}{2} x-\frac{11}{2}, 1 \leq x \leq 5.$
+    Annotations: ''
+  tags: []
+- id: 1568162534820
+  fields:
+    Front: |
+      CET 01.01 52: Find an expression for the function whose graph is the given curve.
+      The line segment joining the points $(-5,10)$ and $(7,-10)$
+    Back: |
+      The slope of the line segment joining the points $(-5,10)$ and $(7,-10)$ is $\frac{-10-10}{7-(-5)}=-\frac{5}{3},$ so an equation is $y-10=-\frac{5}{3}[x-(-5)] .$ The function is $f(x)=-\frac{5}{3} x+\frac{5}{3},-5 \leq x \leq 7.$
+    Annotations: ''
+  tags: []
+- id: 1568162615971
+  fields:
+    Front: |
+      CET 01.01 53: Find an expression for the function whose graph is the given curve.
+      The bottom half of the parabola $x+(y-1)^{2}=0$
+    Back: |
+      We need to solve the given equation for $y.$
+      $x+(y-1)^{2}=0 \quad \Leftrightarrow \quad(y-1)^{2}=-x \Leftrightarrow y-1=\pm \sqrt{-x} \Leftrightarrow$ $y=1 \pm \sqrt{-x} .$ The expression with the positive radical represents the top half of the parabola, and the one with the negative radical represents the bottom half. Hence, we want $f(x)=1-\sqrt{-x} .$ Note that the domain is $x \leq 0.$
+    Annotations: ''
+  tags: []
+- id: 1568162752196
+  fields:
+    Front: |
+      CET 01.01 54: Find an expression for the function whose graph is the given curve.
+      The top half of the circle $x^{2}+(y-2)^{2}=4$
+    Back: |
+      $x^{2}+(y-2)^{2}=4 \Leftrightarrow(y-2)^{2}=4-x^{2} \Leftrightarrow y-2=\pm \sqrt{4-x^{2}} \Leftrightarrow y=2 \pm \sqrt{4-x^{2}}$ . The top half is given by the function $f(x)=2+\sqrt{4-x^{2}},-2 \leq x \leq 2.$
+    Annotations: ''
+  tags: []
+- id: 1568162996946
+  media:
+  - path: ${file_dir}/images/CET-01.01-55.1.jpg
+  fields:
+    Front: |
+      CET 01.01 55: Find an expression for the function whose graph is the given curve.
+      ![](CET-01.01-55.1.jpg)
+    Back: |
+      For $0 \leq x \leq 3,$ the graph is the line with slope $-1$ and $y$-intercept $3,$ that is, $y=-x+3 .$ For $3<x \leq 5,$ the graph is the line with slope 2 passing through $(3,0) ;$ that is, $y-0=2(x-3),$ or $y=2 x-6 .$ So the function is
+      $$$$
+      f(x)=\left\{\begin{array}{ll}{-x+3} & {\text { if } 0 \leq x \leq 3} \\ {2 x-6} & {\text { if } 3<x \leq 5}\end{array}\right.
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568163104720
+  media:
+  - path: ${file_dir}/images/CET-01.01-56.1.jpg
+  fields:
+    Front: |
+      CET 01.01 56: Find an expression for the function whose graph is the given curve.
+      ![](CET-01.01-56.1.jpg)
+    Back: |
+      For $-4 \leq x \leq-2,$ the graph is the line with slope $-\frac{3}{2}$ passing through $(-2,0) ;$ that is, $y-0=-\frac{3}{2}[x-(-2)],$ or $y=-\frac{3}{2} x-3 .$ For $-2<x<2,$ the graph is the top half of the circle with center $(0,0)$ and radius $2 .$ An equation of the circle is $x^{2}+y^{2}=4,$ so an equation of the top half is $y=\sqrt{4-x^{2}} .$ For $2 \leq x \leq 4$ , the graph is the line with slope $\frac{3}{2}$ passing through $(2,0) ;$ that is, $y-0=\frac{3}{2}(x-2),$ or $y=\frac{3}{2} x-3 .$ So the function is
+      $$$$
+      f(x)=\left\{\begin{array}{ll}{-\frac{3}{2} x-3} & {\text { if }-4 \leq x \leq-2} \\ {\sqrt{4-x^{2}}} & {\text { if }-2<x<2} \\ {\frac{3}{2} x-3} & {\text { if } \quad 2 \leq x \leq 4}\end{array}\right.
+      $$$$
+    Annotations: ''
+  tags: []
+- id: 1568163231195
+  fields:
+    Front: |
+      CET 01.01 57: Find a formula for the described function and state its domain.
+      A rectangle has perimeter $20 \mathrm{m} .$ Express the area of the rectangle as a function of the length of one of its sides.
+    Back: |
+      Let the length and width of the rectangle be $L$ and $W .$ Then the perimeter is $2 L+2 W=20$ and the area is $A=L W .$ Solving the first equation for $W$ in terms of $L$ gives $W=\frac{20-2 L}{2}=10-L .$ Thus, $A(L)=L(10-L)=10 L-L^{2} .$ Since lengths are positive, the domain of $A$ is $0<L<10 .$ If we further resrict $L$ to be larger than $W,$ then $5<L<10$ would be the domain.
+    Annotations: ''
+  tags: []
+- id: 1568163305746
+  fields:
+    Front: |
+      CET 01.01 58: Find a formula for the described function and state its domain.
+      A rectangle has area $16 \mathrm{m}^{2} .$ Express the perimeter of the rect- angle as a function of the length of one of its sides.
+    Back: |
+      Let the length and width of the rectangle be $L$ and $W .$ Then the area is $L W=16,$ so that $W=16 / L .$ The perimeter is $P=2 L+2 W,$ so $P(L)=2 L+2(16 / L)=2 L+32 / L,$ and the domain of $P$ is $L>0,$ since lengths must be positive quantities. If we further restrict $L$ to be larger than $W,$ then $L>4$ would be the domain.
+    Annotations: ''
+  tags: []
+- id: 1568163383146
+  fields:
+    Front: |
+      CET 01.01 59: Find a formula for the described function and state its domain.
+      Express the area of an equilateral triangle as a function of the length of a side.
+    Back: |
+      Let the length of a side of the equilateral triangle be $x.$ Then by the Pythagorean Theorem, the height $y$ of the triangle satisfies $y^{2}+\left(\frac{1}{2} x\right)^{2}=x^{2},$ so that $y^{2}=x^{2}-\frac{1}{4} x^{2}=\frac{3}{4} x^{2}$ and $y=\frac{\sqrt{3}}{2} x .$ Using the formula for the area $A$ of a triangle, $A=\frac{1}{2}(\text { base })(\text { height }),$ we obtain $A(x)=\frac{1}{2}(x)\left(\frac{\sqrt{3}}{2} x\right)=\frac{\sqrt{3}}{4} x^{2},$ with domain $x>0.$
+    Annotations: ''
+  tags: []
+- id: 1568163479746
+  fields:
+    Front: |
+      CET 01.01 60: Find a formula for the described function and state its domain.
+      A closed rectangular box with volume 8 $\mathrm{ft}^{3}$ has length twice the width. Express the height of the box as a function of the width.
+    Back: |
+      Let the length, width, and height of the closed rectangular box be denoted by $L,$ $W,$ and $H,$ respectively. The length is twice the width, so $L=2 W .$ The volume $V$ of the box is given by $V=L W H .$ Since $V=8,$ we have $8=(2 W) W H \Rightarrow$ $8=2 W^{2} H \Rightarrow H=\frac{8}{2 W^{2}}=\frac{4}{W^{2}},$ and so $H=f(W)=\frac{4}{W^{2}}.$
+    Annotations: ''
+  tags: []
+- id: 1568163615346
+  fields:
+    Front: |
+      CET 01.01 61: Find a formula for the described function and state its domain.
+      An open rectangular box with volume 2 $\mathrm{m}^{3}$ has a square base.  Express the surface area of the box as a function of the length of a side of the base.
+    Back: |
+      Let each side of the base of the box have length $x$ , and let the height of the box be $h.$ Since the volume is $2,$ we know that $2=h x^{2},$ so that $h=2 / x^{2},$ and the surface area is $S=x^{2}+4 x h .$ Thus, $S(x)=x^{2}+4 x\left(2 / x^{2}\right)=x^{2}+(8 / x),$ with domain $x>0.$
+    Annotations: ''
+  tags: []
+- id: 1568163799720
+  media:
+  - path: ${file_dir}/images/CET-01.01-62.1.jpg
+  fields:
+    Front: |
+      CET 01.01 62: A Norman window has the shape of a rectangle surmounted by a semicircle. If the perimeter of the window is 30 $\mathrm{ft},$ express the area $A$ of the window as a function of the width $x$ of the window.
+      ![](CET-01.01-62.1.jpg)
+    Back: |
+      The area of the window is $A=x h+\frac{1}{2} \pi\left(\frac{1}{2} x\right)^{2}=x h+\frac{\pi x^{2}}{8},$ where $h$ is the height of the rectangular portion of the window. The perimeter is $P=2 h+x+\frac{1}{2} \pi x=30 \Leftrightarrow 2 h=30-x-\frac{1}{2} \pi x \Leftrightarrow h=\frac{1}{4}(60-2 x-\pi x) .$ Thus,
+      $A(x)=x \frac{60-2 x-\pi x}{4}+\frac{\pi x^{2}}{8}=15 x-\frac{1}{2} x^{2}-\frac{\pi}{4} x^{2}+\frac{\pi}{8} x^{2}=15 x-\frac{4}{8} x^{2}-\frac{\pi}{8} x^{2}=15 x-x^{2}\left(\frac{\pi+4}{8}\right).$
+      Since the lengths $x$ and $h$ must be positive quantities, we have $x>0$ and $h>0 .$ For $h>0,$ we have $2 h>0 \Leftrightarrow$ $30-x-\frac{1}{2} \pi x>0 \Leftrightarrow 60>2 x+\pi x \Leftrightarrow x<\frac{60}{2+\pi} .$ Hence, the domain of $A$ is $0<x<\frac{60}{2+\pi}.$
+    Annotations: ''
+  tags: []
+- id: 1568164014621
+  media:
+  - path: ${file_dir}/images/CET-01.01-63.1.jpg
+  fields:
+    Front: |
+      CET 01.01 63: A box with an open top is to be constructed from a rectangular piece of cardboard with dimensions 12 in. by 20 in. by cutting out equal squares of side $x$ at each corner and then folding up the sides as in the figure. Express the volume $V$ of the box as a function of $x .$
+      ![](CET-01.01-63.1.jpg)
+    Back: |
+      The height of the box is $x$ and the length and width are $L=20-2 x, W=12-2 x.$ Then $V=L W x$ and so $V(x)=(20-2 x)(12-2 x)(x)=4(10-x)(6-x)(x)=4 x\left(60-16 x+x^{2}\right)=4 x^{3}-64 x^{2}+240 x.$ The sides $L,$ $W,$ and $x$ must be positive. Thus, $L>0 \Leftrightarrow 20-2 x>0 \Leftrightarrow x<10 ;$ $W>0 \Leftrightarrow 12-2 x>0 \Leftrightarrow x<6 ;$ and $x>0 .$ Combining these restrictions gives us the domain $0<x<6.$
+    Annotations: ''
+  tags: []
+- id: 1568164150770
+  useMarkdownMathExt: false
+  media:
+  - path: ${file_dir}/images/CET-01.01-64.1.jpg
+  fields:
+    Front: |
+      CET 01.01 64: A cell phone plan has a basic charge of \\(\\$ 35\\) a month. The plan includes 400 free minutes and charges 10 cents for each additional minute of usage. Write the monthly cost \\(C\\) as a function of the number \\(x\\) of minutes used and graph \\(C\\) as a function of \\(x\\) for \\(0 \leqslant x \leqslant 600.\\)
+    Back: |
+      We can summarize the monthly cost with a piecewise defined function.
+      \\[
+      C(x)=
+      \\left\\{
+        \\begin{array}{ll}
+          {35} & {\\text { if } 0 \\leq x \\leq 400} \\\\
+          {35+0.10(x-400)} & {\\text { if } x>400}
+        \\end{array}
+      \\right.
+      \\]
+      ![](CET-01.01-64.1.jpg)
+    Annotations: ''
+  tags: []
+- id: 1568165731271
+  useMarkdownMathExt: false
+  media:
+  - path: ${file_dir}/images/CET-01.01-65.1.jpg
+  fields:
+    Front: |
+      CET 01.01 65: In a certain state the maximum speed permitted on freeways is 65 \\(\mathrm{mi} / \mathrm{h}\\) and the minimum speed is 40 \\(\mathrm{mi} / \mathrm{h}.\\) The fine for violating these limits is \\(\\$ 15\\) for every mile per hour above the maximum speed or below the minimum speed. Express the amount of the fine \\(F\\) as a function of the driving speed \\(x\\) and graph \\(F(x)\\) for \\(0 \leqslant x \leqslant 100 .\\)
+    Back: |
+      We can summarize the amount of the fine with a piecewise defined function.
+      \\[
+      F(x)=
+      \\left\\{
+        \\begin{array}{ll}
+          {15(40-x)} & {\\text { if } 0 \\leq x<40} \\\\
+          {0} & {\\text { if } 40 \\leq x \\leq 65} \\\\
+          {15(x-65)} & {\\text { if } x>65}
+        \\end{array}
+        \\right.
+      \\]
+      ![](CET-01.01-65.1.jpg)
+    Annotations: ''
+  tags: []
+- id: 1568166266796
+  useMarkdownMathExt: false
+  media:
+  - path: ${file_dir}/images/CET-01.01-66.1.jpg
+  fields:
+    Front: |
+      CET 01.01 66: An electricity company charges its customers a base rate of \\(\\$ 10\\) a month, plus 6 cents per kilowatt-hour (kWh) for the first 1200 \\(\mathrm{kWh}\\) and 7 cents per \\(\mathrm{kWh}\\) for all usage over 1200 \\(\mathrm{kWh}.\\) Express the monthly cost \\(E\\) as a function of the amount \\(x\\) of electricity used. Then graph the function \\(E\\) for \\(0 \leqslant x \leqslant 2000.\\)
+    Back: |
+      For the first \\(1200 \mathrm{kWh},\\) \\(E(x)=10+0.06 x.\\) For usage over 1200 \\(\mathrm{kWh},\\) the cost is \\(E(x)=10+0.06(1200)+0.07(x-1200)=82+0.07(x-1200).\\)
+      Thus,
+      \\[
+      E(x)=
+      \\left\\{
+        \\begin{array}{ll}
+          {10+0.06 x} & {\\text { if } 0 \\leq x \\leq 1200} \\\\
+          {82+0.07(x-1200)} & {\\text { if } x>1200}
+        \\end{array}
+      \\right.
+      \\]
+      ![](CET-01.01-66.1.jpg)
+    Annotations: ''
+  tags: []
+- id: 1568166467245
+  useMarkdownMathExt: false
+  media:
+  - path: ${file_dir}/images/CET-01.01-67.1.jpg
+  - path: ${file_dir}/images/CET-01.01-67.2.jpg
+  fields:
+    Front: |
+      CET 01.01 67: In a certain country, income tax is assessed as follows. There is no tax on income up to $10,000. Any income over $10,000 is taxed at a rate of \\(10 \%,\\) up to an income of $20,000. Any income over $20,000 is taxed at 15%.
+      (a) Sketch the graph of the tax rate \\(R\\) as a function of the income \\(I .\\)
+      (b) How much tax is assessed on an income of $14,000? On $26,000?
+      (c) Sketch the graph of the total assessed tax \\(T\\) as a function of the income \\(I.\\)
+    Back: |
+      (a)
+      ![](CET-01.01-67.1.jpg)
+      (b) On \\(\\$ 14,000,\\) tax is assessed on \\(\\$ 4000,\\) and \\(10 \%(\\$ 4000)=\\$ 400 .\\) On \\(\\$ 26,000,\\) tax is assessed on \\(\\$ 16,000,\\) and \\(10 \% \text { ( } \\$ 10,000)+15 \%(\\$ 6000)=\\$ 1000+\\$ 900=\\$ 1900.\\)
+      (c) As in part (b), there is \\(\\$ 1000\\) tax assessed on \\(\\$ 20,000\\) of income, so the graph of \\(T\\) is a line segment from \\((10,000,0)\\) to \\((20,000,\,1000) .\\) The tax on \\(\\$ 30,000\\) is \\(\\$ 2500,\\) so the graph of \\(T\\) for \\(x>20,000\\) is the ray with initial point \\((20,000,\,1000)\\) that passes through \\((30,000,\,2500) .\\)
+      ![](CET-01.01-67.2.jpg)
+    Annotations: ''
+  tags: []
+- id: 1571523816096
+  media:
+  - path: ${file_dir}/images/CET-01.01-69.1.jpg
+  fields:
+    Front: |
+      CET 01.01 69: Graphs of $f$ and $g$ are shown. Decide whether each function is even, odd, or neither. Explain your reasoning.
+      ![](CET-01.01-69.1.jpg)
+    Back: |
+      $f$ is an odd function because its graph is symmetric about the origin. $g$ is an even function because its graph is symmetric with respect to the $y$-axis.
+    Annotations: ''
+- id: 1571523892879
+  media:
+  - path: ${file_dir}/images/CET-01.01-70.1.jpg
+  fields:
+    Front: |
+      CET 01.01 70: Graphs of $f$ and $g$ are shown. Decide whether each function is even, odd, or neither. Explain your reasoning.
+      ![](CET-01.01-70.1.jpg)
+    Back: |
+      $f$ is not an even function since it is not symmetric with respect to the $y$-axis. $f$ is not an odd function since it is not symmetric about the origin. Hence, $f$ is neither even nor odd. $g$ is an even function because its graph is symmetric with respect to the $y$-axis.
+    Annotations: ''
+- id: 1571524071680
+  fields:
+    Front: |
+      CET 01.01 71a: If the point $(5,3)$ is on the graph of an even function, what other point must also be on the graph?
+    Back: |
+      Because an even function is symmetric with respect to the $y$ -axis, and the point $(5,3)$ is on the graph of this even function, the point $(-5,3)$ must also be on its graph.
+    Annotations: ''
+  tags: []
+- id: 1571524125954
+  fields:
+    Front: |
+      CET 01.01 71b: If the point $(5,3)$ is on the graph of an odd function, what other point must also be on the graph?
+    Back: |
+      Because an odd function is symmetric with respect to the origin, and the point $(5,3)$ is on the graph of this odd function, the point $(-5,-3)$ must also be on its graph.
+    Annotations: ''
+  tags: []
+- id: 1571524393705
+  media:
+  - path: ${file_dir}/images/CET-01.01-72.1.jpg
+  - path: ${file_dir}/images/CET-01.01-72.2.jpg
+  fields:
+    Front: |
+      CET 01.01 72a: A function $f$ has domain $[-5,5]$ and a portion of its graph is shown.
+      Complete the graph of $f$ if it is known that $f$ is even.
+      ![](CET-01.01-72.1.jpg)
+    Back: |
+      If $f$ is even, we get the rest of the graph by reflecting about the $y$-axis.
+      ![](CET-01.01-72.2.jpg)
+    Annotations: ''
+  tags: []
+- id: 1571524994479
+  media:
+  - path: ${file_dir}/images/CET-01.01-72.1.jpg
+  - path: ${file_dir}/images/CET-01.01-72.3.jpg
+  fields:
+    Front: |
+      CET 01.01 72b: A function $f$ has domain $[-5,5]$ and a portion of its graph is shown.
+      Complete the graph of $f$ if it is known that $f$ is even.
+      ![](CET-01.01-72.1.jpg)
+    Back: |
+      If $f$ is odd, we get the rest of the graph by rotating $180^{\circ}$ about the origin.
+      ![](CET-01.01-72.3.jpg)
+    Annotations: ''
+  tags: []
+- id: 1571525255679
+  media:
+  - path: ${file_dir}/images/CET-01.01-73.1.jpg
+  fields:
+    Front: |
+      CET 01.01 73: Determine whether $f$ is even, odd, or neither. If you have a graphing calculator, use it to check your answer visually.
+      $$$$f(x)=\frac{x}{x^{2}+1}$$$$
+    Back: |
+      $$$$f(x)=\frac{x}{x^{2}+1}.$$$$
+      $$$$f(-x)=\frac{-x}{(-x)^{2}+1}=\frac{-x}{x^{2}+1}=-\frac{x}{x^{2}+1}=-f(x).$$$$
+      Since $f(-x)=-f(x)$, $f$ is an odd function.
+      ![](CET-01.01-73.1.jpg)
+    Annotations: ''
+  tags: []
+- id: 1571525397529
+  media:
+  - path: ${file_dir}/images/CET-01.01-74.1.jpg
+  fields:
+    Front: |
+      CET 01.01 74: Determine whether $f$ is even, odd, or neither. If you have a graphing calculator, use it to check your answer visually.
+      $$$$f(x)=\frac{x^{2}}{x^{4}+1}$$$$
+    Back: |
+      $$$$f(x)=\frac{x^{2}}{x^{4}+1}.$$$$
+      $$$$f(-x)=\frac{(-x)^{2}}{(-x)^{4}+1}=\frac{x^{2}}{x^{4}+1}=f(x).$$$$
+      Since $f(-x)=f(x)$, $f$ is an even function.
+      ![](CET-01.01-74.1.jpg)
+    Annotations: ''
+  tags: []
+- id: 1571525568880
+  media:
+  - path: ${file_dir}/images/CET-01.01-75.1.jpg
+  fields:
+    Front: |
+      CET 01.01 75: Determine whether $f$ is even, odd, or neither. If you have a graphing calculator, use it to check your answer visually.
+      $$$$f(x)=\frac{x}{x+1}$$$$
+    Back: |
+      $f(x)=\frac{x}{x+1},$ so $f(-x)=\frac{-x}{-x+1}=\frac{x}{x-1}.$
+      Since this is neither $f(x)$ nor $-f(x),$ the function $f$ is neither even nor odd.
+      ![](CET-01.01-75.1.jpg)
+    Annotations: ''
+  tags: []
+- id: 1571525656354
+  media:
+  - path: ${file_dir}/images/CET-01.01-76.1.jpg
+  fields:
+    Front: |
+      CET 01.01 76: Determine whether $f$ is even, odd, or neither. If you have a graphing calculator, use it to check your answer visually.
+      $$$$f(x)=x|x|$$$$
+    Back: |
+      $$$$f(x)=x|x|$$$$
+      $$$$\begin{aligned} f(-x) &=(-x)|-x|=(-x)|x|=-(x|x|) \\ &=-f(x) \end{aligned}$$$$
+      Since $f(-x)=-f(x), f$ is an odd function.
+      ![](CET-01.01-76.1.jpg)
+    Annotations: ''
+  tags: []
+- id: 1571525777355
+  media:
+  - path: ${file_dir}/images/CET-01.01-77.1.jpg
+  fields:
+    Front: |
+      CET 01.01 77: Determine whether $f$ is even, odd, or neither. If you have a graphing calculator, use it to check your answer visually.
+      $$$$f(x)=1+3 x^{2}-x^{4}$$$$
+    Back: |
+      $$$$f(x)=1+3 x^{2}-x^{4}.$$$$
+      $$$$f(-x)=1+3(-x)^{2}-(-x)^{4}=1+3 x^{2}-x^{4}=f(x).$$$$
+      Since $f(-x)=f(x), f$ is an even function.
+      ![](CET-01.01-77.1.jpg)
+    Annotations: ''
+  tags: []
+- id: 1571525947455
+  media:
+  - path: ${file_dir}/images/CET-01.01-78.1.jpg
+  fields:
+    Front: |
+      CET 01.01 78: Determine whether $f$ is even, odd, or neither. If you have a graphing calculator, use it to check your answer visually.
+      $$$$f(x)=1+3 x^{3}-x^{5}$$$$
+    Back: |
+      $$$$f(x)=1+3 x^{3}-x^{5}.$$$$
+      $$$$\begin{aligned} f(-x) &=1+3(-x)^{3}-(-x)^{5}=1+3\left(-x^{3}\right)-\left(-x^{5}\right) \\ &=1-3 x^{3}+x^{5} \end{aligned}$$$$
+      Since this is neither $f(x)$ nor $-f(x),$ the function $f$ is neither even nor odd.
+      ![](CET-01.01-78.1.jpg)
+    Annotations: ''
+  tags: []
+- id: 1571533548005
+  fields:
+    Front: |
+      CET 01.01 79: If $f$ and $g$ are both even functions, is $f+g$ even? If $f$ and $g$ are both odd functions, is $f+g$ odd? What if $f$ is even and $g$ is odd? Justify your answers.
+    Back: |
+      (i) If $f$ and $g$ are both even functions, then $f(-x)=f(x)$ and $g(-x)=g(x)$. Now $$$$(f+g)(-x)=f(-x)+g(-x)=f(x)+g(x)=(f+g)(x),$$$$ so $f+g$ is an even function.
+
+      (ii) If $f$ and $g$ are both odd functions, then $f(-x)=-f(x)$ and $g(-x)=-g(x)$. Now $$$$(f+g)(-x)=f(-x)+g(-x)=-f(x)+[-g(x)]=-[f(x)+g(x)]=-(f+g)(x),$$$$ so $f+g$ is an odd function.
+
+      (iii) If $f$ is an even function and $g$ is an odd function, then $$$$(f+g)=f(-x)+g(-x)=f(x)+[-g(x)]=f(x)-g(x),$$$$ which is not $(f+g)(x)$ nor $-(f+g)(x),$ so $f+g$ is neither even nor odd. (Exception: if $f$ is the zero function, then$f+g$ will be odd. If $g$ is the zero function, then $f+g$ will be even.)
+    Annotations: ''
+  tags: []
+- id: 1571533899280
+  fields:
+    Front: |
+      CET 01.01 80: If $f$ and $g$ are both even functions, is the product $f g$ even? If $f$ and $g$ are both odd functions, is $f g$ odd? What if $f$ is even and $g$ is odd? Justify your answers.
+    Back: |
+      (i) If $f$ and $g$ are both even functions, then $f(-x)=f(x)$ and $g(-x)=g(x).$ Now $$$$(f g)(-x)=f(-x) g(-x)=f(x) g(x)=(f g)(x),$$$$ so $f g$ is an even function.
+
+      (ii) If $f$ and $g$ are both odd functions, then $f(-x)=-f(x)$ and $g(-x)=-g(x) .$ Now $$$$(f g)(-x)=f(-x) g(-x)=[-f(x)][-g(x)]=f(x) g(x)=(f g)(x),$$$$ so $f g$ is an even function.
+
+      (iii) If $f$ is an even function and $g$ is an odd function, then $$$$(f g)(-x)=f(-x) g(-x)=f(x)[-g(x)]=-[f(x) g(x)]=-(f g)(x),$$$$ so $f g$ is an odd function.
+    Annotations: ''
+  tags:
+  - Editing

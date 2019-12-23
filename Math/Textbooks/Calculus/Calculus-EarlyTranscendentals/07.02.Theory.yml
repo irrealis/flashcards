@@ -1,0 +1,101 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theory
+  - Calculus-EarlyTrancendentals
+  - CET-07-TechniquesOfIntegration
+  - CET-07.02-TrigonometricIntegrals
+  markdownTabLength: 2
+notes:
+- id: 1576704847557
+  fields:
+    Front: |
+      CET-07.02-01 Theory:
+      Describe a **Strategy for Evaluating $\int \sin ^{m} x \cos ^{n} x d x$.**
+    Back: |
+      (a) If the power of cosine is odd $(n=2 k+1),$ save one cosine factor and use $\cos ^{2} x=1-\sin ^{2} x$ to express the remaining factors in terms of sine:
+      $$$
+      \begin{aligned}
+      \int \sin ^{m} x \cos ^{2 k+1} x d x &=\int \sin ^{m} x\left(\cos ^{2} x\right)^{k} \cos x d x \\
+      &=\int \sin ^{m} x\left(1-\sin ^{2} x\right)^{k} \cos x d x
+      \end{aligned}
+      $$$ Then substitute $u=\sin x$
+
+      (b) If the power of sine is odd $(m=2 k+1),$ save one sine factor and use $\sin ^{2} x=1-\cos ^{2} x$ to express the remaining factors in terms of cosine:
+      $$$
+      \begin{aligned}
+      \int \sin ^{2 k+1} x \cos ^{n} x d x &=\int\left(\sin ^{2} x\right)^{k} \cos ^{n} x \sin x d x \\
+      &=\int\left(1-\cos ^{2} x\right)^{k} \cos ^{n} x \sin x d x
+      \end{aligned}
+      $$$ Then substitute $u=\cos x .$ [Note that if the powers of both sine and cosine are odd, either (a) or (b) can be used.
+
+      (c) If the powers of both sine and cosine are even, use the half-angle identities
+      $$$
+      \sin ^{2} x=\frac{1}{2}(1-\cos 2 x) \quad \cos ^{2} x=\frac{1}{2}(1+\cos 2 x)
+      $$$ It is sometimes helpful to use the identity
+      $$$
+      \sin x \cos x=\frac{1}{2} \sin 2 x
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1576705213834
+  fields:
+    Front: |
+      CET-07.02-02 Theory:
+      Describe a **Strategy for Evaluating $\int \tan ^{m} x \sec ^{n} x d x$.**
+    Back: |
+      (a) If the power of secant is even $(n=2 k, k \geqslant 2),$ save a factor of $\sec ^{2} x$ and use sec $^{2} x=1+\tan ^{2} x$ to express the remaining factors in terms of $\tan x:$
+      $$$
+      \begin{aligned}
+      \int \tan ^{m} x \sec ^{2 k} x d x
+      &=\int \tan ^{m} x\left(\sec ^{2} x\right)^{k-1} \sec ^{2} x d x \\
+      &=\int \tan ^{m} x\left(1+\tan ^{2} x\right)^{k-1} \sec ^{2} x d x
+      \end{aligned}
+      $$$ Then substitute $u=\tan x.$
+
+      (b) If the power of tangent is odd $(m=2 k+1),$ save a factor of $\sec x \tan x$ and use $\tan ^{2} x=\sec ^{2} x-1$ to express the remaining factors in terms of
+      $\sec x$
+      $$$
+      \begin{aligned}
+      \int \tan ^{2 k+1} x \sec ^{n} x d x
+      &=\int\left(\tan ^{2} x\right)^{k} \sec ^{n-1} x \sec x \tan x d x \\
+      &=\int\left(\sec ^{2} x-1\right)^{k} \sec ^{n-1} x \sec x \tan x d x
+      \end{aligned}
+      $$$ Then substitute $u=\sec x.$
+    Annotations: ''
+  tags: []
+- id: 1576705878032
+  fields:
+    Front: |
+      CET-07.02-03 Theory:
+      Give $\int \sec x d x.$
+    Back: |
+      $$$
+      \int \sec x d x=\ln |\sec x+\tan x|+C
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1576708560583
+  fields:
+    Front: |
+      CET-07.02-04 Theory:
+      How might we evaluate the following integrals?
+      (a) $\int \sin m x \cos n x \, d x$
+      (b) $\int \sin m x \sin n x \, d x$
+      (c) $\int \cos m x \cos n x \, d x$
+    Back: |
+      **Strategy of Trigonometric Product Identities:**
+      To evaluate the integrals (a) $\int \sin m x \cos n x \, d x,$ (b) $\int \sin m x \sin n x \, d x,$ or (c) $\int \cos m x \cos n x  \, d x,$ use the corresponding identity:
+      $$$
+      \begin{array}{lrcl}
+        \text{(a)} & \sin A \cos B &=& \frac{1}{2}[\sin (A-B)+\sin (A+B)] \\
+        \text{(b)} & \sin A \sin B &=& \frac{1}{2}[\cos (A-B)-\cos (A+B)] \\
+        \text{(c)} & \cos A \cos B &=& \frac{1}{2}[\cos (A-B)+\cos (A+B)] \\
+      \end{array}
+      $$$
+    Annotations: ''
+  tags: []

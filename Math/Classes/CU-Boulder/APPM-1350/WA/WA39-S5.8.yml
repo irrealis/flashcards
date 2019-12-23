@@ -1,0 +1,124 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1350
+  - APPM-1350-WA39
+  - SingleVariableEssentialCalculus
+  - SVEC-05-InverseFunctions
+  - SVEC-05.08-IndeterminateFormsAndLHospitalsRule
+  - WebAssign
+  - Exam4
+  markdownTabLength: 2
+notes:
+- id: 1576614147809
+  fields:
+    Front: |
+      APPM 1350 WA39-01:
+      What happens if you try to use I'Hospital's Rule to find the limit?
+      $$$\lim _{x \rightarrow \infty} \frac{x}{\sqrt{x^{2}+6}}$$$
+    Back: |
+      Repeated applications of I'Hopital's Rule result in the original limit or the limit of the reciprocal of the function.
+
+      ##### Full solution:
+      $\lim _{x \rightarrow \infty} \frac{x}{\sqrt{x^{2}+6}} \stackrel{\mathrm{H}}{=} \lim _{x \rightarrow \infty} \frac{1}{\frac{1}{2}\left(x^{2}+6\right)^{-1 / 2}(2 x)}=\lim _{x \rightarrow \infty} \frac{\sqrt{x^{2}+6}}{x}.$ Repeated applications of I'Hopital's Rule result in the original limit or the limit of the reciprocal of the function. Another method is to try dividing the numerator and denominator by $x:$ $\lim _{x \rightarrow \infty} \frac{x}{\sqrt{x^{2}+6}}=\lim _{x \rightarrow \infty} \frac{x / x}{\sqrt{x^{2} / x^{2}+6 / x^{2}}}=\lim _{x \rightarrow \infty} \frac{1}{\sqrt{1+6 / x^{2}}}=\frac{1}{1}=1.$
+    Annotations: ''
+  tags: []
+- id: 1576614269813
+  fields:
+    Front: |
+      APPM 1350 WA39-02:
+      Find the limit. Use I'Hospital's Rule if appropriate. If there is a more elementary method, consider using it.
+      $$$\lim _{x \rightarrow \infty} x \tan (7 / x)$$$
+    Back: |
+      $$$7$$$
+
+      ##### Full solution:
+      This limit has the form $\infty \cdot 0 .$ $\lim _{x \rightarrow \infty} x \tan (7 / x)$ $=\lim _{x \rightarrow \infty} \frac{\tan (7 / x)}{1 / x}$ $=\lim _{x \rightarrow \infty} \frac{\sec ^{2}(7 / x)\left(-7 / x^{2}\right)}{-1 / x^{2}}$ $=\lim _{x \rightarrow \infty} 7 \sec ^{2}(7 / x)$ $=7$
+    Annotations: ''
+  tags: []
+- id: 1576614349283
+  fields:
+    Front: |
+      APPM 1350 WA39-03:
+      Find the limit. Use I'Hospital's Rule if appropriate. If there is a more elementary method, consider using it.
+      $$$\lim _{x \rightarrow 0}(1-6 x)^{1 / x}$$$
+    Back: |
+      $$$\frac{1}{e^{6}}$$$
+
+      ##### Full solution:
+      $y=(1-6 x)^{1 / x} \Rightarrow \ln y=\frac{1}{x} \ln (1-6 x),$ so $\lim _{x \rightarrow 0} \ln y=\lim _{x \rightarrow 0} \frac{\ln (1-6 x)}{x}$ $\stackrel{\mathrm{H}}{=} \lim _{x \rightarrow 0} \frac{-6 /(1-6 x)}{1}=-6$ $\Rightarrow \lim _{x \rightarrow 0}(1-6 x)^{1 / x}=\lim _{x \rightarrow 0} e^{\ln y}=e^{-6}.$
+    Annotations: ''
+  tags: []
+- id: 1576614497038
+  fields:
+    Front: |
+      APPM 1350 WA39-04:
+      Find the limit. Use I'Hospital's Rule if appropriate. If there is a more elementary method, consider using it.
+      $$$\lim _{x \rightarrow \infty}\left(e^{x}+x\right)^{4 / x}$$$
+    Back: |
+      $$$e^4$$$
+
+      ##### Full solution:
+      $y=\left(e^{x}+x\right)^{4 / x} \Rightarrow \ln y=\frac{4}{x} \ln \left(e^{x}+x\right),$ so $\lim _{x \rightarrow \infty} \lim \ln y=\lim _{x \rightarrow \infty} \frac{4 \ln \left(e^{x}+x\right)}{x}$ $\stackrel{\mathrm{H}}{=} 4 \lim _{x \rightarrow \infty} \frac{e^{x}+1}{e^{x}+x} \stackrel{\mathrm{H}}{=} 4 \lim _{x \rightarrow \infty} \frac{e^{x}}{e^{x}+1}$ $\stackrel{\mathrm{H}}{=} 4 \lim _{x \rightarrow \infty} \frac{e^{x}}{e^{x}}=4$ $\Rightarrow \lim _{x \rightarrow \infty}\left(e^{x}+x\right)^{4 / x}$ $=\lim _{x \rightarrow \infty} e^{\ln y}=e^{4}.$
+    Annotations: ''
+  tags: []
+- id: 1576614594139
+  fields:
+    Front: |
+      APPM 1350 WA39-05:
+      Use I'Hospital's Rule to find the exact value of the limit.
+      $$$\lim _{x \rightarrow \infty}\left(1+\frac{9}{x}\right)^{x}$$$
+    Back: |
+      $$$e^9$$$
+
+      ##### Full solution:
+      $y=\left(1+\frac{9}{x}\right)^{x} \Rightarrow \ln y=x \ln \left(1+\frac{9}{x}\right) \Rightarrow \lim _{x \rightarrow \infty} \ln y=\lim _{x \rightarrow \infty} \frac{\ln (1+9 / x)}{1 / x}$ $=\lim _{x \rightarrow \infty} \frac{\frac{1}{1+9 / x}\left(-\frac{9}{x^{2}}\right)}{-1 / x^{2}}$ $=9 \lim _{x \rightarrow \infty} \frac{1}{1+9 / x}=9(1)=9 \Rightarrow$ $\lim _{x \rightarrow \infty}\left(1+\frac{9}{x}\right)^{x}=\lim _{x \rightarrow \infty} e^{\ln y}=e^{9}$
+    Annotations: ''
+  tags: []
+- id: 1576614744183
+  fields:
+    Front: |
+      APPM 1350 WA39-06:
+      Use I'Hospital's Rule to find the exact value of the limit.
+      $$$
+      \lim _{x \rightarrow 0} \frac{8^{x}-7^{x}}{4^{x}-3^{x}}
+      $$$
+    Back: |
+      $$$\frac{\ln \frac{8}{7}}{\ln \frac{4}{3}}$$$
+
+      ##### Full solution:
+      The limit has the form $\frac{0}{0}.$ $\lim _{x \rightarrow 0} \frac{8^{x}-7^{x}}{4^{x}-3^{x}} \stackrel{\mathrm{H}}{=} \lim _{x \rightarrow 0} \frac{8^{x} \ln 8-7^{x} \ln 7}{4^{x} \ln 4-3^{x} \ln 3}=\frac{\ln 8-\ln 7}{\ln 4-\ln 3}=\frac{\ln \frac{8}{7}}{\ln \frac{4}{3}}[\approx 0.46]$
+    Annotations: ''
+  tags: []
+- id: 1576614902591
+  fields:
+    Front: |
+      APPM 1350 WA39-07:
+      Find the derivative.
+      $$$
+      G(x)=\frac{9-\cosh (x)}{9+\cosh (x)}
+      $$$
+    Back: |
+      $$$G^{\prime}(x)=\frac{-18 \sinh (x)}{(9+\cosh (x))^{2}}$$$
+
+      ##### Full solution:
+      $G(x)=\frac{9-\cosh (x)}{9+\cosh (x)} \Rightarrow$ $G^{\prime}(x)=\frac{(9+\cosh (x))(-\sinh (x))-(9-\cosh (x))(\sinh (x))}{(9+\cosh (x))^{2}}$ $=\frac{-9 \sinh (x)-\sinh (x) \cosh (x)-9 \sinh (x)+\sinh (x) \cosh (x)}{(9+\cosh (x))^{2}}$ $=\frac{-18 \sinh (x)}{(9+\cosh (x))^{2}}$
+    Annotations: ''
+  tags: []
+- id: 1576615039957
+  fields:
+    Front: |
+      APPM 1350 WA39-08:
+      A curve passes through the point $(0,5)$ and has the property that the slope of the curve at $P$ is twice the $y$ -coordinate of $P .$ What is the equation of the curve? (Use $x$ as the independent variable.)
+    Back: |
+      $$$y(x)=5 e^{2 x}$$$
+
+      ##### Full solution:
+      From the information given, we know that $\frac{d y}{d x}=2 y \Rightarrow y=C \varepsilon^{2 x}.$ To calculate $C$ we use the point $(0,5): 5=C e^{2(0)} \Rightarrow$ $C=5 .$ Thus, the equation of the curve is $y=5 e^{2 x}.$
+    Annotations: ''
+  tags:
+  - Editing

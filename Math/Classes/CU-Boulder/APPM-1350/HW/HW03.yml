@@ -1,0 +1,86 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1350
+  - APPM-1350-Exams
+  - APPM-1350-Exam1
+  - APPM-1350-HW03
+  - APPM-1350-Section01.05
+  - APPM-1350-Section01.06
+  - WrittenHomework
+  markdownTabLength: 2
+notes:
+- id: 1572036264505
+  media:
+  - path: ${file_dir}/images/HW-03-01.1.jpg
+  fields:
+    Front: |
+      APPM 1350 HW-03 01:
+      Sketch the graph of a single function $f$ that satisfies all of the following conditions:
+      $\lim _{x \rightarrow-\infty} f(x)=-2$
+      $\lim _{x \rightarrow 3^{-}} f(x)=-\infty$
+      $\lim _{x \rightarrow \infty} f(x)=0$
+      $\lim _{x \rightarrow 3^{+}} f(x)=2$
+      $\lim _{x \rightarrow-3} f(x)=\infty$
+      $f$ is right-continuous at 3
+    Back: |
+      Here is one possible solution.
+      ![](HW-03-01.1.jpg)
+    Annotations: ''
+  tags: []
+- id: 1572036494329
+  fields:
+    Front: |
+      APPM 1350 HW-03 02:
+      Let $g(x)=x^{3}-8 x+10 .$ Show that the following equations have solutions and state the intervals
+      where the solutions can be found.
+      (a) $g(x)=\pi$
+      (b) $g(x)=-\sqrt{3}$
+    Back: |
+      To-do
+    Annotations: ''
+  tags: []
+- id: 1572036494531
+  fields:
+    Front: |
+      APPM 1350 HW-03 03:
+      Let $h(x)=x+(x-a)^{2}(x-b)^{2}$ where $a$ and $b$ are constants. Show that $h$ equals the average of $a$ and $b$ for some value of $x .$
+    Back: |
+      To-do
+    Annotations: ''
+  tags: []
+- id: 1572036494715
+  fields:
+    Front: |
+      APPM 1350 HW-03 04:
+      Does the graph of $y=\frac{(1+x)\left(x-x^{2}\right)}{3 x^{3}+x}$ have horizontal or vertical asymptotes? Justify your answer using appropriate limits.
+    Back: |
+      The graph has no vertical asymptotes and a horizontal asymptote at $y=-\frac{1}{3}.$
+    Annotations: ''
+  tags: []
+- id: 1572036587454
+  fields:
+    Front: |
+      APPM 1350 HW-03 05:
+      Does the graph of $y=\sqrt{x^{2}+x+1}-\sqrt{x^{2}-x}$ have horizontal or vertical asymptotes? Justify your answer using appropriate limits.
+    Back: |
+      The graph has no vertical asymptotes and horizontal asymptotes at $y=1$ and $y=-1.$
+    Annotations: ''
+  tags: []
+- id: 1572036643055
+  fields:
+    Front: |
+      APPM 1350 HW-03 06:
+      Is it possible to find constants $a$ and $b$ so that the function
+      $$$
+      f(x)=\left\{\begin{array}{ll}{\frac{\sqrt{2} x\left(x^{2}-4\right)}{\left|x^{2}-4\right|},} & {x \neq \pm 2} \\ {a,} & {x=-2} \\ {b,} & {x=2}\end{array}\right.
+      $$$
+      is continuous? Use the definition of continuity to justify your answer.
+    Back: |
+      No, it is not possible.
+    Annotations: ''
+  tags: []

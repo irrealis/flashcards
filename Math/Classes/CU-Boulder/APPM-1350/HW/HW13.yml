@@ -1,0 +1,84 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1350
+  - APPM-1350-Exams
+  - APPM-1350-Exam4
+  - APPM-1350-HW13
+  - APPM-1350-Section05.04
+  - APPM-1350-Section05.05
+  - WrittenHomework
+  markdownTabLength: 2
+notes:
+- id: 1576100402832
+  fields:
+    Front: |
+      APPM 1350 HW-13-01:
+      Find $x^{\prime}(1)$ given $x=\pi^{y}+y^{\pi}$.
+    Back: |
+      $$$\pi \ln \pi+\pi$$$
+    Annotations: ''
+  tags: []
+- id: 1576100442633
+  fields:
+    Front: |
+      APPM 1350 HW-13-02:
+      Find equations for the horizontal tangents to $y=x^{1 / x}, x>0$.
+    Back: |
+      $$$y=e^{1 / e}$$$
+    Annotations: ''
+  tags: []
+- id: 1576100504683
+  fields:
+    Front: |
+      APPM 1350 HW-13-03:
+      Consider the function $y=\left(\log _{3} x\right) / x$
+      (a) Find the absolute maximum value of the function.
+      (b) Find the area of the region under the curve, $1 \leq x \leq 9$. Fully simplify your answer.
+    Back: |
+      (a)
+      $$$\frac{1}{(\ln 3) e}$$$
+      (b)
+      $$$2 \ln 3$$$
+    Annotations: ''
+  tags: []
+- id: 1576100572409
+  fields:
+    Front: |
+      APPM 1350 HW-13-04:
+      A dose of $2.5 \text{ mg}$ of a painkiller is administered to a patient. Suppose the rate at which the drug is eliminated from the body is proportional to the amount present. If the painkiller has a half-life of two hours, how long will it take for $90 \%$ of the drug to be eliminated?
+
+      Without a calculator, approximate your final answer to the nearest tenth using the approximations $\ln 2 \approx 0.7, \ln 3 \approx 1.1,$ and $\ln 5 \approx 1.6$.
+    Back: |
+      $$$6.6 \text{ hrs}$$$
+    Annotations: ''
+  tags: []
+- id: 1576100685583
+  fields:
+    Front: |
+      APPM 1350 HW-13-05:
+      A turnip is placed into a $200^{\circ}$ oven. After 30 minutes the turnip has a temperature of $120^{\circ}$ and is getting hotter at an instantaneous rate of $2^{\circ}/\text{min}$. What was the initial temperature of the turnip? Use a calculator or CAS for this.
+    Back: |
+      $$$30.6^{\circ}$$$
+    Annotations: ''
+  tags: []
+- id: 1576100850358
+  fields:
+    Front: |
+      APPM 1350 HW-13-06:
+      There was a flu outbreak in River City. The number of people who came down with the flu $t$ days
+      after the start of the outbreak was
+      $$$
+      P=\frac{10^{6}}{1+5000 e^{-t / 10}}.
+      $$$
+      (a) How many days did it take before 1000 people caught the flu?
+      (b) Eventually how many people came down with the flu?
+    Back: |
+      (a) $16$ days
+      (b) $1,000,000$ people
+    Annotations: ''
+  tags: []

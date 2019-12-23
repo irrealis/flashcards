@@ -1,0 +1,26 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theory
+  - SingleVariableEssentialCalculus
+  - SVEC-03-ApplicationsOfDifferentiation
+  - SVEC-03.06-NewtonsMethod
+  markdownTabLength: 2
+notes:
+- id: 1573078789244
+  fields:
+    Front: |
+      SVEC 03.06 Theory 01:
+      ##### newton's method
+      State the **next-approximation formula of Newton's Method.**
+    Back: |
+      In general, if the $n$ th approximation is $x_{n}$ and $f^{\prime}\left(x_{n}\right) \neq 0,$ then the next approximation is given by
+      $$$
+      x_{n+1}=x_{n}-\frac{f\left(x_{n}\right)}{f^{\prime}\left(x_{n}\right)}
+      $$$
+    Annotations: ''
+  tags: []

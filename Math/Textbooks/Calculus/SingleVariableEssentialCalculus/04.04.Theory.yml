@@ -1,0 +1,77 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theory
+  - SingleVariableEssentialCalculus
+  - SVEC-04-Integrals
+  - SVEC-04.04-TheFundamentalTheoremOfCalculus
+  markdownTabLength: 2
+notes:
+- id: 1572836384818
+  fields:
+    Front: |
+      SVEC 04.04 Theory 01:
+      ##### the fundamental theorem of calculus, part 1
+      State the **Fundamental Theorem of Calculus, Part 1.**
+    Back: |
+      If $f$ is continuous on $[a, b],$ then the function $g$ defined by
+      $$$
+      g(x)=\int_{a}^{x} f(t) d t \quad a \leqslant x \leqslant b
+      $$$ is an antiderivative of $f,$ that is, $g^{\prime}(x)=f(x)$ for $a<x<b.$
+    Annotations: ''
+  tags: []
+- id: 1572837683594
+  fields:
+    Front: |
+      SVEC 04.04 Theory 02:
+      ##### the fundamental theorem of calculus
+      State the **Fundamental Theorem of Calculus.**
+    Back: |
+      Suppose $f$ is continuous on [a,b].
+      1. If $g(x)=\int_{a}^{x} f(t) d t,$ then $g^{\prime}(x)=f(x).$
+      2. $\int_{a}^{b} f(x) d x=F(b)-F(a),$ where $F$ is any antiderivative of $f,$ that is, $F^{\prime}=f.$
+
+      We regard Part 1 as fundamental because it relates integration and differentiation. But the Evaluation Theorem from Section 4.3 also relates integrals and derivatives, so we rename it as Part 2 of the Fundamental Theorem.
+
+      Part 1 can be rewritten as
+      $$$
+      \frac{d}{d x} \int_{a}^{x} f(t) d t=f(x)
+      $$$ which says that if $f$ is integrated and the result is then differentiated, we arrive back at the original function $f .$
+
+      In Section 4.3 we reformulated Part 2 as the Net Change Theorem:
+      $$$
+      \int_{a}^{b} F^{\prime}(x) d x=F(b)-F(a)
+      $$$ This version says that if we take a function $F,$ first differentiate it, and then integrate the result, we arrive back at the original function $F,$ but in the form $F(b)-F(a) .$
+
+      Taken together, the two parts of the Fundamental Theorem of Calculus say that differentiation and integration are inverse processes. Each undoes what the other does.
+    Annotations: ''
+  tags: []
+- id: 1572837869568
+  fields:
+    Front: |
+      SVEC 04.04 Theory 03:
+      ##### the average value of a function
+      Define the **average value of a function $f.$**
+    Back: |
+      $$$f_{\mathrm{ave}}=\frac{1}{b-a} \int_{a}^{b} f(x) d x$$$
+    Annotations: ''
+  tags: []
+- id: 1572838123219
+  fields:
+    Front: |
+      SVEC 04.04 Theory 04:
+      ##### the average value of a function
+      State the **Mean Value Theorem for Integrals.**
+    Back: |
+      If $f$ is continuous on $[a, b],$ then there exists a number $c$ in $[a, b]$ such that
+      $$$
+      f(c)=f_{\text {use }}=\frac{1}{b-a} \int_{a}^{b} f(x) d x
+      $$$ that is,
+      $$$\int_{a}^{b} f(x) d x=f(c)(b-a)$$$
+    Annotations: 'Fix me:<div>191105-1638: I think this has a typo \(f_{\text{use}}\).</div>'
+  tags:
+  - ann:fix-me

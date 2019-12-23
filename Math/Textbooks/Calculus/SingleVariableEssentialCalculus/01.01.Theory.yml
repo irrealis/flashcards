@@ -1,0 +1,42 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theory
+  - SingleVariableEssentialCalculus
+  - SVEC-01-FunctionsAndLimits
+  - SVEC-01.01-FunctionsAndTheirRepresentations
+  markdownTabLength: 2
+notes:
+- id: 1573064019897
+  fields:
+    Front: |
+      SVEC 01.01 Theory 01:
+      ##### the vertical line test
+      What is the **vertical line test?**
+    Back: |
+      A curve in the $x y$ -plane is the graph of a function of $x$ if and only if no vertical line intersects the curve more than once.
+    Annotations: ''
+  tags: []
+- id: 1573064020048
+  fields:
+    Front: |
+      SVEC 01.01 Theory 02:
+      ##### increasing and decreasing functions
+      What is an **increasing function?** a **decreasing function?**
+    Back: |
+      A function $f$ is called increasing on an interval $I$ if
+
+      $$$$
+      f\left(x_{1}\right)<f\left(x_{2}\right) \quad \text { whenever } x_{1}<x_{2} \text { in } I
+      $$$$
+      It is called decreasing on $I$ if
+
+      $$$$
+      f\left(x_{1}\right)>f\left(x_{2}\right) \quad \text { whenever } x_{1}<x_{2} \text { in } I
+      $$$$
+    Annotations: ''
+  tags: []

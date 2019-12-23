@@ -1,0 +1,16 @@
+  media:
+  - path: ${file_dir}/images/APPM-1350-HW-XX-XX.1.jpg
+      <p align="center">
+      ![](APPM-1350-HW-XX-XX.1.jpg)
+      </p>
+  tags: []
+- id: 0
+  fields:
+    Front: |
+      APPM 1350 HW-XX-XX:
+      $$$$
+    Back: |
+      $$$$
+    Annotations: ''
+  tags:
+  - Editing

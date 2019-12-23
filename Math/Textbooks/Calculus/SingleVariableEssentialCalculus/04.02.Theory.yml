@@ -1,0 +1,200 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theory
+  - SingleVariableEssentialCalculus
+  - SVEC-04-Integrals
+  - SVEC-04.02-TheDefiniteIntegral
+  markdownTabLength: 2
+notes:
+- id: 1572916398393
+  fields:
+    Front: |
+      SVEC 04.02 Theory 01:
+      Define a **partition** of an interval $[a, b] .$
+    Back: |
+      We divide $[a, b]$ into $n$ smaller subintervals by choosing partition points $x_{0}, x_{1}, x_{2}, \ldots, x_{n}$ so that
+      $$$
+      a=x_{0}<x_{1}<x_{2}<\cdots<x_{n-1}<x_{n}=b
+      $$$ The resulting collection of subintervals
+      $$$
+      \left[x_{0}, x_{1}\right],\left[x_{1}, x_{2}\right], \quad\left[x_{2}, x_{3}\right], \quad \ldots, \quad\left[x_{n-1}, x_{n}\right]
+      $$$
+      is called a **partition** $P$ of $[a, b] .$
+    Annotations: ''
+  tags: []
+- id: 1572916662043
+  media:
+  - path: ${file_dir}/images/SVEC-04.02.Th-02.1.jpg
+  fields:
+    Front: |
+      SVEC 04.02 Theory 02:
+      Define **sample points** in the subintervals of a partition.
+    Back: |
+      We choose **sample points** $x_{1}^{*}, x_{2}^{*}, \ldots, x_{n}^{*}$ in the subintervals with $x_{i}^{*}$ in the $i$ th subinterval $\left[x_{i-1}, x_{i}\right]$ of a partition. These sample points could be left endpoints or right endpoints or any numbers between the endpoints. The following figure shows an example of a partition and sample points.
+      <p align="center">![](SVEC-04.02.Th-02.1.jpg)</p>
+    Annotations: ''
+  tags: []
+- id: 1572916813769
+  media:
+  - path: ${file_dir}/images/SVEC-04.02.Th-03.1.jpg
+  fields:
+    Front: |
+      SVEC 04.02 Theory 03:
+      Define **Riemann sum.**
+    Back: |
+      A **Riemann sum** associated with a partition $P$ and a function $f$ is constructed by evaluating $f$ at the sample points, multiplying by the lengths of the corresponding subintervals, and adding:
+      $$$
+      \sum_{i=1}^{n} f\left(x_{i}^{*}\right) \Delta x_{i}=f\left(x_{1}^{*}\right) \Delta x_{1}+f\left(x_{2}^{*}\right) \Delta x_{2}+\cdots+f\left(x_{n}^{*}\right) \Delta x_{n}
+      $$$ The geometric interpretation of a Riemann sum is shown in the following figure. Notice that if $f\left(x_{i}^{*}\right)$ is negative, then $f\left(x_{i}^{*}\right) \Delta x_{i}$ is negative and so we have to subtract the area of the corresponding rectangle.
+      <p align="center">![](SVEC-04.02.Th-03.1.jpg)</p>
+    Annotations: ''
+  tags: []
+- id: 1572916999018
+  fields:
+    Front: |
+      SVEC 04.02 Theory 04:
+      Define **definite integral.**
+    Back: |
+      If $f$ is a function defined on $[a, b],$ the definite integral of $f$ from $a$ to $b$ is the number
+      $$$
+      \int_{a}^{b} f(x) d x=\lim _{\max \Delta x_{i} \rightarrow 0} \sum_{i=1}^{n} f\left(x_{i}^{*}\right) \Delta x_{i}
+      $$$ provided that this limit exists. If it does exist, we say that $f$ is integrable on $[a, b] .$
+
+      The precise meaning of the limit that defines this integral is as follows:
+
+      $\int_{a}^{b} f(x) d x=I$ means that for every $\varepsilon>0$ there is a corresponding number $\delta>0$ such that
+      $$$
+      \left|I-\sum_{i=1}^{n} f\left(x_{i}^{*}\right) \Delta x_{i}\right|<\varepsilon
+      $$$ for all partitions $P$ of $[a, b]$ with $\max \Delta x_{i}<\delta$ and for all possible choices of $x_{i}^{*}$ in $\left[x_{i-1}, x_{i}\right].$
+
+      This means that a definite integral can be approximated to within any desired degree of accuracy by a Riemann sum.
+    Annotations: ''
+  tags: []
+- id: 1572917179468
+  fields:
+    Front: |
+      SVEC 04.02 Theory 05:
+      State the **continuity criterion for definite integrability.**
+    Back: |
+      If $f$ is continuous on $[a, b],$ or if $f$ has only a finite number of jump discontinutities, then $f$ is integrable on $[a, b] ;$ that is, the definite integral $\int_{a}^{b} f(x) d x$ exists.
+    Annotations: ''
+  tags: []
+- id: 1572917309244
+  fields:
+    Front: |
+      SVEC 04.02 Theory 06:
+      State the **simplified definite integral theorem.**
+    Back: |
+      If $f$ is integrable on $[a, b]$, then
+      $$$
+      \int_{a}^{b} f(x) d x=\lim _{n \rightarrow \infty} \sum_{i=1}^{n} f\left(x_{i}\right) \Delta x
+      $$$ where $\Delta x=\frac{b-a}{n}$ and $x_{i}=a+i \Delta x.$
+
+      In computing the value of an integral, this theorem is much simpler to use than the definition of the definite integral.
+    Annotations: ''
+  tags: []
+- id: 1572917972869
+  media:
+  - path: ${file_dir}/images/SVEC-04.02.Th-07.1.jpg
+  - path: ${file_dir}/images/SVEC-04.02.Th-07.2.jpg
+  fields:
+    Front: |
+      SVEC 04.02 Theory 07:
+      State the **net area** interpretation of a definite integral.
+    Back: |
+      A definite integral can be interpreted as a net area, that is, a difference of areas:
+      $$$
+      \int_{a}^{b} f(x) d x=A_{1}-A_{2}
+      $$$ where $A_{1}$ is the area of the region above the $x$ axis and below the graph of $f,$ and $A_{2}$ is the area of the region below the $x$ axis and above the graph of $f .$
+
+      If $f$ takes on both positive and negative values, as in the following figure, then the Riemann sum is the sum of the areas of the rectangles that lie above the $x$ axis and the negatives of the areas of the rectangles that lie below the $x$ axis (the areas of the dark blue rectangles minus the areas of the light blue rectangles).
+      <p align="center">
+      ![](SVEC-04.02.Th-07.1.jpg)
+      $\sum f\left(x_{i}^{*}\right) \Delta x$ is an approximation to the net area.
+      </p>
+
+      When we take the limit of such Riemann sums, we get the situation illustrated in the next fiture. The definite integral can then be interpreted as the net area described above.
+      <p align="center">
+      ![](SVEC-04.02.Th-07.2.jpg)
+      $\int_{a}^{b} f(x) d x$ is the net area.
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1572919643744
+  fields:
+    Front: |
+      SVEC 04.02 Theory 08:
+      ##### the midpoint rule
+      State the **Midpoint Rule.**
+    Back: |
+      $$$
+      \int_{a}^{b} f(x) d x \approx \sum_{i=1}^{n} f\left(\bar{x}_{i}\right) \Delta x=\Delta x\left[f\left(\bar{x}_{1}\right)+\cdots+f\left(\bar{x}_{n}\right)\right]
+      $$$ where
+      $$$\Delta x=\frac{b-a}{n}$$$ and
+      $$$
+      \bar{x}_{i}=\frac{1}{2}\left(x_{i-1}+x_{i}\right)= \text{ midpoint of } \left[x_{i-1}, x_{i}\right]
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1572920179569
+  fields:
+    Front: |
+      SVEC 04.02 Theory 09:
+      ##### properties of the definite integral
+      State the following four properties of the definite integral:
+
+      **Constant rule**
+      **Sum rule**
+      **Constant-multiple rule**
+      **Difference rule**
+      **Adjacent-interval rule**
+    Back: |
+      Supposing the following integrals exist,
+
+      **Constant rule:**
+      $\int_{a}^{b} c d x=c(b-a), \quad$ where $c$ is any constant
+
+      **Sum rule:**
+      $\int_{a}^{b}[f(x)+g(x)] d x=\int_{a}^{b} f(x) d x+\int_{a}^{b} g(x) d x$
+
+      **Constant-multiple rule:**
+      $\int_{a}^{b} c f(x) d x=c \int_{a}^{b} f(x) d x, \quad$ where $c$ is any constant
+
+      **Difference rule:**
+      $\int_{a}^{b}[f(x)-g(x)] d x=\int_{a}^{b} f(x) d x-\int_{a}^{b} g(x) d x$
+
+      **Adjacent-interval rule:**
+      $\int_{a}^{c} f(x) d x+\int_{c}^{b} f(x) d x=\int_{a}^{b} f(x) d x$
+    Annotations: ''
+  tags: []
+- id: 1572920786944
+  fields:
+    Front: |
+      SVEC 04.02 Theory 10:
+      ##### properties of the definite integral
+      State the following four comparison properties of the definite integral:
+
+      **Nonnegativity rule**
+      **Inequality rule**
+      **Upper/lower-bounds rule**
+    Back: |
+      Supposing the following integrals exist,
+
+      **Nonnegativity rule:**
+      If $f(x) \geqslant 0$ for $a \leqslant x \leqslant b,$ then $\int_{a}^{b} f(x) d x \geqslant 0.$
+
+      **Inequality rule:**
+      If $f(x) \geqslant g(x)$ for $a \leqslant x \leqslant b,$ then $\int_{a}^{b} f(x) d x \geqslant \int_{a}^{b} g(x) d x.$
+
+      **Upper/lower-bounds rule:**
+      If $m \leqslant f(x) \leqslant M$ for $a \leqslant x \leqslant b$, then
+      $$$
+      m(b-a) \leqslant \int_{a}^{b} f(x) d x \leqslant M(b-a)
+      $$$
+    Annotations: ''
+  tags: []

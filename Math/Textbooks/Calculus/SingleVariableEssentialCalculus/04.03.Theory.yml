@@ -1,0 +1,241 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theory
+  - SingleVariableEssentialCalculus
+  - SVEC-04-Integrals
+  - SVEC-04.03-EvaluatingDefiniteIntegrals
+  markdownTabLength: 2
+notes:
+- id: 1572810233984
+  fields:
+    Front: |
+      SVEC 04.03 Theory 01:
+      ##### evaluation theorem
+      State the **Evaluation Theorem.**
+    Back: |
+      If $f$ is continuous on the interval $[a, b],$ then
+      $$$
+      \int_{a}^{b} f(x) d x=F(b)-F(a)
+      $$$
+      where $F$ is any antiderivative of $f,$ that is, $F^{\prime}=f.$
+    Annotations: 'Trouble:<div>- 191103-1412: Forgot that \(f\) must be continuous.</div><div>-
+      191103-1415: Overgeneralized continuity. \(f\) need only be continuous on \([a,b]\).</div>'
+  tags:
+  - ann:trouble
+- id: 1572811569469
+  fields:
+    Front: |
+      SVEC 04.03 Theory 02:
+      ##### indefinite integrals
+      Evaluate $\int c f(x) d x.$
+    Back: |
+      $$$\int c f(x) d x=c \int f(x) d x$$$
+    Annotations: ''
+  tags: []
+- id: 1572811628819
+  fields:
+    Front: |
+      SVEC 04.03 Theory 03:
+      ##### indefinite integrals
+      Evaluate $\int k d x.$
+    Back: |
+      $$$\int k d x=k x+C$$$
+    Annotations: 'Trouble:<div>- 191103-1420: Knowledge fail. Wrote \(C\) instead
+      of \(kx + C\).</div>'
+  tags:
+  - ann:trouble
+- id: 1572811755294
+  fields:
+    Front: |
+      SVEC 04.03 Theory 04:
+      ##### indefinite integrals
+      Evaluate $\int[f(x)+g(x)] d x.$
+    Back: |
+      $$$\int[f(x)+g(x)] d x=\int f(x) d x+\int g(x) d x$$$
+    Annotations: ''
+  tags: []
+- id: 1572811817368
+  fields:
+    Front: |
+      SVEC 04.03 Theory 05:
+      ##### indefinite integrals
+      Evaluate $\int x^{n} d x.$
+    Back: |
+      $$$\int x^{n} d x=\frac{x^{n+1}}{n+1}+C \quad(n \neq-1)$$$
+    Annotations: 'Minor trouble:<div>- 191103-1422: Forgot condition that \(n \ne
+      -1\).</div>'
+  tags:
+  - ann:minor-trouble
+- id: 1572811913494
+  fields:
+    Front: |
+      SVEC 04.03 Theory 06:
+      ##### indefinite integrals
+      Evaluate $\int \sin x d x.$
+    Back: |
+      $$$\int \sin x d x=-\cos x+C$$$
+    Annotations: ''
+  tags: []
+- id: 1572811954419
+  fields:
+    Front: |
+      SVEC 04.03 Theory 07:
+      ##### indefinite integrals
+      Evaluate $\int \sec ^{2} x d x.$
+    Back: |
+      $$$\int \sec ^{2} x d x=\tan x+C$$$
+    Annotations: ''
+  tags: []
+- id: 1572811999069
+  fields:
+    Front: |
+      SVEC 04.03 Theory 08:
+      ##### indefinite integrals
+      Evaluate $\int \sec x \tan x d x.$
+    Back: |
+      $$$\int \sec x \tan x d x=\sec x+C$$$
+    Annotations: ''
+  tags: []
+- id: 1572812070943
+  fields:
+    Front: |
+      SVEC 04.03 Theory 09:
+      ##### indefinite integrals
+      Evaluate $\int \cos x d x.$
+    Back: |
+      $$$\int \cos x d x=\sin x+C$$$
+    Annotations: ''
+  tags: []
+- id: 1572812107319
+  fields:
+    Front: |
+      SVEC 04.03 Theory 10:
+      ##### indefinite integrals
+      Evaluate $\int \csc ^{2} x d x.$
+    Back: |
+      $$$\int \csc ^{2} x d x=-\cot x+C$$$
+    Annotations: ''
+  tags: []
+- id: 1572812168894
+  fields:
+    Front: |
+      SVEC 04.03 Theory 11:
+      ##### indefinite integrals
+      Evaluate $\int \csc x \cot x d x.$
+    Back: |
+      $$$\int \csc x \cot x d x=-\csc x+C$$$
+    Annotations: ''
+  tags: []
+- id: 1572812892494
+  fields:
+    Front: |
+      SVEC 04.03 Theory 12:
+      ##### net change theorem
+      State the **Net Change Theorem.**
+    Back: |
+      The integral of a rate of change is the net change:
+      $$$
+      \int_{a}^{b} F^{\prime}(x) d x=F(b)-F(a)
+      $$$
+    Annotations: 'Minor trouble:<div>- 191103-1433: Minor knowledge fail. Got the
+      formula right, but not the sentence.</div>'
+  tags:
+  - ann:minor-trouble
+- id: 1572813094819
+  fields:
+    Front: |
+      SVEC 04.03 Theory 13:
+      ##### net change theorem
+      If $V(t)$ is the volume of water in a reservoir at time $t$ then, in terms of the Net Change Theorem, state the change in the amount of water in the reservoir between time $t_{1}$ and time $t_{2}$.
+    Back: |
+      If $V(t)$ is the volume of water in a reservoir at time $t,$ then its derivative $V^{\prime}(t)$ is the rate at which water flows into the reservoir at time $t .$ So
+      $$$
+      \int_{t_{1}}^{t_{2}} V^{\prime}(t) d t=V\left(t_{2}\right)-V\left(t_{1}\right)
+      $$$ is the change in the amount of water in the reservoir between time $t_{1}$ and time $t_{2}$.
+    Annotations: 'Minor trouble:<div>- 191103-1442: Minor knowledge fail: should state
+      that the derivative \(V''\) is the rate of change of \(V\). Got formula right
+      though.</div>'
+  tags:
+  - ann:minor-trouble
+- id: 1572813346919
+  fields:
+    Front: |
+      SVEC 04.03 Theory 14:
+      ##### net change theorem
+      If $[\mathrm{C}](t)$ is the concentration of the product of a chemical reaction at time $t$ then, in terms of the Net Change Theorem, state the change in the concentration of $\mathrm{C}$ from time $t_{1}$ to time $t_{2} .$
+    Back: |
+      If $[\mathrm{C}](t)$ is the concentration of the product of a chemical reaction at time $t$ then the rate of reaction is the derivative $d[\mathrm{C}] / d t .$ So
+      $$$
+      \int_{t_{1}}^{t_{2}} \frac{d[\mathrm{C}]}{d t} d t=[\mathrm{C}]\left(t_{2}\right)-[\mathrm{C}]\left(t_{1}\right)
+      $$$ is the change in the concentration of $\mathrm{C}$ from time $t_{1}$ to time $t_{2} .$
+    Annotations: 'Minor trouble:<div>- 191103-1447: Minor knowledge fail: \(\frac{d}{dt}[C](t)\)
+      is customarily expressed as \(\frac{d[C]}{dt}\).</div><div><br></div><div>Trouble:</div><div>-
+      191103-1503: Knowledge fail: wrote \(C(t)\) instead of \([C](t)\).</div>'
+  tags:
+  - ann:minor-trouble
+  - ann:trouble
+- id: 1572813504369
+  fields:
+    Front: |
+      SVEC 04.03 Theory 15:
+      ##### net change theorem
+      If the rate of growth of a population is $d n / d t$ then, in terms of the Net Change Theorem, state the net change in population during the time period from $t_{t}$ to $t_{2}$.
+    Back: |
+      If the rate of growth of a population is $d n / d t$, then
+      $$$$
+      \int_{t_{1}}^{t_{2}} \frac{d n}{d t} d t=n\left(t_{2}\right)-n\left(t_{1}\right)
+      $$$$ is the net change in population during the time period from $t_{t}$ to $t_{2}$.
+      (The population increases when births happen and decreases when deaths occur. The net change takes into account both births and deaths.)
+    Annotations: ''
+  tags: []
+- id: 1572813608294
+  fields:
+    Front: |
+      SVEC 04.03 Theory 16:
+      ##### net change theorem
+      If an object moves along a straight line with position function $s(t)$ then, in terms of the Net Change Theorem, state the net change of position, or displacement, of the particle during the time period from $t_{1}$ to $t_{2} .$
+    Back: |
+      If an object moves along a straight line with position function $s(t),$ then its velocity is $v(t)=s^{\prime}(t),$ so
+      $$$
+      \int_{t_{1}}^{t_{2}} v(t) d t=s\left(t_{2}\right)-s\left(t_{1}\right)
+      $$$ is the net change of position, or _displacement,_ of the particle during the time period from $t_{1}$ to $t_{2} .$
+    Annotations: ''
+  tags: []
+- id: 1572813950144
+  media:
+  - path: ${file_dir}/images/SVEC-04.03.Th-17.1.jpg
+  fields:
+    Front: |
+      SVEC 04.03 Theory 17:
+      ##### net change theorem
+      If an object moves along a straight line with position function $s(t)$ then, in terms of the Net Change Theorem, state the distance traveled by the particle during the time period from $t_{1}$ to $t_{2} .$
+    Back: |
+      If we want to calculate the distance traveled during the time interval, we have to consider the intervals when $v(t) \geqslant 0$ (the particle moves to the right) and also the intervals when $v(t) \leqslant 0$ (the particle moves to the left). In both cases the distance is computed by integrating $|v(t)|,$ the speed.
+      $$$
+      \int_{t_{1}}^{t_{h}}|v(t)| d t=\text { total distance traveled }
+      $$$ The figure below shows how both displacement and distance traveled can be interpreted in terms of areas under a velocity curve.
+      <p align="center">![](SVEC-04.03.Th-17.1.jpg)</p>
+      displacement $=\int_{t_{1}}^{t_{2}} v(t) d t=A_{1}-A_{2}+A_{3}$
+      distance $=\int_{t_{1}}^{t_{2}}|v(t)| d t=A_{1}+A_{2}+A_{3}$
+    Annotations: 'Trouble:<div>- 191103-1512: Lack of familiarity: this is a special
+      edge case. I''ll just have to get used to it during problem sets.</div>'
+  tags:
+  - ann:trouble
+- id: 1572814100469
+  fields:
+    Front: |
+      SVEC 04.03 Theory 18:
+      ##### net change theorem
+      If an object moves along a straight line with position function $s(t)$ then, in terms of the Net Change Theorem, state the change in velocity of the particle during the time period from $t_{1}$ to $t_{2} .$
+    Back: |
+      The acceleration of the object is $a(t)=v^{\prime}(t),$ so
+      $$$
+      \int_{t_{1}}^{t_{0}} a(t) d t=v\left(t_{2}\right)-v\left(t_{1}\right)
+      $$$ is the change in velocity from time $t_{1}$ to time $t_{2}$.
+    Annotations: ''
+  tags: []

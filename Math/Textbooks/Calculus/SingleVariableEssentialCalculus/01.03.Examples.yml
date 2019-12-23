@@ -1,0 +1,191 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - SingleVariableEssentialCalculus
+  - SVEC-01-FunctionsAndLimits
+  - SVEC-01.03-TheLimitOfAFunction
+  markdownTabLength: 2
+notes:
+- id: 1572393259879
+  fields:
+    Front: |
+      SVEC 01.03 Example 02:
+      ##### intuitive definition of a limit
+      Guess the value of $\lim _{x \rightarrow 1} \frac{x-1}{x^{2}-1}.$
+    Back: |
+      Notice that the function $f(x)=(x-1) /\left(x^{2}-1\right)$ is not defined when $x=1,$ but that doesn't matter because the definition of $\lim _{x \rightarrow a} f(x)$ says that we consider values of $x$ that are close to $a$ but not equal to $a .$
+
+      The tables below give values of $f(x)$ (correct to six decimal places) for values of $x$ that approach 1 (but are not equal to 1 ).
+      $$$$\begin{array}{|c|c|}\hline x<1 & {f(x)} \\ \hline 0.5 & {0.666667} \\ {0.9} & {0.526667} \\ {0.99} & {0.526316} \\ {0.999} & {0.500250} \\ {0.9999} & {0.500025} \\ \hline\end{array}$$$$
+      $$$$\begin{array}{|c|c|}\hline x>1 & {f(x)} \\ \hline 1.5 & {0.400000} \\ {1.1} & {0.476190} \\ {1.01} & {0.497512} \\ {1.001} & {0.499750} \\ {1.0001} & {0.499975} \\ \hline\end{array}$$$$
+      On the basis of the values in the tables, we make the guess that
+      $$$$\lim _{x \rightarrow 1} \frac{x-1}{x^{2}-1}=0.5$$$$
+    Annotations: ''
+  tags: []
+- id: 1572393413829
+  fields:
+    Front: |
+      SVEC 01.03 Example 03:
+      ##### intuitive definition of a limit
+      Estimate the value of $\lim _{t \rightarrow 0} \frac{\sqrt{t^{2}+9}-3}{t^{2}}.$
+    Back: |
+      The table lists values of the function for several values of $t$ near $0 .$
+      $$$$\begin{array}{|c|c|}\hline & {\frac{\sqrt{t^{2}+9}-3}{t^{2}}} \\ \hline \pm 1.0 & {t^{2}} \\ {\pm 0.5} & {0.16228} \\ {\pm 0.5} & {0.16553} \\ {\pm 0.05} & {0.16662} \\ {\pm 0.01} & {0.16667} \\ \hline\end{array}$$$$
+      As $t$ approaches $0,$ the values of the function seem to approach $0.1666666 \ldots$ and so we guess that
+      $$$$\lim _{t \rightarrow 0} \frac{\sqrt{t^{2}+9}-3}{t^{2}}=\frac{1}{6}$$$$
+    Annotations: ''
+  tags: []
+- id: 1573064161194
+  media:
+  - path: ${file_dir}/images/SVEC-01.03.Ex-04.1.jpg
+  fields:
+    Front: |
+      SVEC 01.03 Example 04:
+      ##### intuitive definition of a limit
+      Guess the value of $\lim _{x \rightarrow 0} \frac{\sin x}{x}.$
+    Back: |
+      The function $f(x)=(\sin x) / x$ is not defined when $x=0 .$ Using a calculator (and remembering that, if $x \in \mathbb{R}, \sin x$ means the sine of the angle whose radian measure is $x$ ), we construct the table of values correct to eight decimal places. From the table and graph below,
+      $$$$\begin{array}{|c|c|}\hline x & {\frac{\sin x}{x}} \\ \hline \pm 1.0 & {x} \\ {\pm 1.0} & {0.84147098} \\ {\pm 0.5} & {0.95885108} \\ {\pm 0.4} & {0.97354586} \\ {\pm 0.3} & {0.97354665} \\ {\pm 0.05} & {0.99958339} \\ {\pm 0.01} & {0.99999583} \\ {\pm 0.005} & {0.99999583} \\ {\pm 0.001} & {0.99999983} \\ \hline\end{array}$$$$
+      <p/><p align="center">![](SVEC-01.03.Ex-04.1.jpg)</p>
+      we guess that
+      $$$$
+      \lim _{x \rightarrow 0} \frac{\sin x}{x}=1
+      $$$$
+      This guess is in fact correct, as will be proved in the next section using a geometric argument.
+    Annotations: ''
+  tags: []
+- id: 1572393944379
+  media:
+  - path: ${file_dir}/images/SVEC-01.03.Ex-05.1.jpg
+  fields:
+    Front: |
+      SVEC 01.03 Example 05:
+      ##### intuitive definition of a limit
+      Investigate $\lim _{x \rightarrow 0} \sin \frac{\pi}{x}.$
+    Back: |
+      Again the function $f(x)=\sin (\pi / x)$ is undefined at $0 .$ Evaluating the function for some small values of $x,$ we get
+      $$$$\begin{aligned} f(1) &=\sin \pi=0 & & f\left(\frac{1}{2}\right)=\sin 2 \pi=0 \\ f\left(\frac{1}{3}\right) &=\sin 3 \pi=0 & & f\left(\frac{1}{4}\right)=\sin 4 \pi=0 \\ f(0.1) &=\sin 10 \pi=0 & & f(0.01)=\sin 100 \pi=0 \end{aligned}$$$$
+      Similarly, $f(0.001)=f(0.0001)=0 .$ On the basis of this information we might be tempted to guess that
+      $$$$
+      \lim _{x \rightarrow 0} \frac{\pi}{x}=0
+      $$$$
+      but this time our guess is wrong. Note that although $f(1 / n)=\sin n \pi=0$ for any integer $n,$ it is also true that $f(x)=1$ for infinitely many values of $x$ that approach $0 .$ The graph of $f$ is given below.
+      <p/><p align="center">![](SVEC-01.03.Ex-05.1.jpg)</p>
+      The dashed lines near the $y$ -axis indicate that the values of $\sin (\pi / x)$ oscillate between 1 and $-1$ infinitely often as $x$ approaches $0 .$ (Use a graphing device to graph $f$ and zoom in toward the origin several times. What do you observe?)
+
+      Since the values of $f(x)$ do not approach a fixed number as $x$ approaches $0,$ $\lim _{x \rightarrow 0} \sin \frac{\pi}{x}$ does not exist.
+    Annotations: ''
+  tags: []
+- id: 1572394418732
+  media:
+  - path: ${file_dir}/images/SVEC-01.03.Ex-07.1.jpg
+  fields:
+    Front: |
+      SVEC 01.03 Example 07:
+      ##### one-sided limits
+      The graph of a function $g$ is shown below. Use it to state the values (if they exist) of the following:
+      (a) $\lim _{x \rightarrow 2^{-}} g(x)$
+      (b) $\lim _{x \rightarrow 2^{+}} g(x)$
+      (c) $\lim _{x \rightarrow 2} g(x)$
+      (d) $\lim _{x \rightarrow 5^{-}} g(x)$
+      (e) $\lim _{x \rightarrow 5^{+}} g(x)$
+      (f) $\lim _{x \rightarrow 5} g(x)$
+      <p/><p align="center">![](SVEC-01.03.Ex-07.1.jpg)</p>
+    Back: |
+      From the graph we see that the values of $g(x)$ approach 3 as $x$ approches 2 from the left, but they approach 1 as $x$ approaches 2 from the right. Therefore
+      $$$$
+      \begin{array}{ll}{\text { (a) } \lim _{x \rightarrow 2^{-}} g(x)=3} & {\text { and } \quad \text { (b) } \lim _{x \rightarrow 2^{+}} g(x)=1}\end{array}
+      $$$$
+
+      (c) since the left and right limits are different, we conclude that $\lim _{x \rightarrow 2} g(x)$ does not exist.
+
+      The graph also shows that
+      $$$$
+      \begin{array}{ll}{\text { (d) } \lim _{x \rightarrow 5^{-}} g(x)=2} & {\text { and } \quad \text { (e) } \lim _{x \rightarrow 5^{+}} g(x)=2}\end{array}
+      $$$$
+
+      (f) This time the left and right limits are the same and so we have
+      $$$$
+      \lim _{x \rightarrow 5} g(x)=2
+      $$$$
+      Despite this fact, notice that $g(5) \neq 2.$
+    Annotations: ''
+  tags: []
+- id: 1572394802847
+  media:
+  - path: ${file_dir}/images/SVEC-01.03.Ex-08.1.jpg
+  fields:
+    Front: |
+      SVEC 01.03 Example 08:
+      Find $\lim _{x \rightarrow 0} \frac{1}{x^{2}}$ if it exists.
+    Back: |
+      As $x$ becomes close to $0, x^{2}$ also becomes close to $0,$ and $1 / x^{2}$ becomes very large. (See the following table.)
+      $$$$
+      \begin{array}{|c|c|}
+        \hline x & {\frac{1}{x^{2}}} \\
+        \hline
+        {\pm 1} & {1} \\
+        {\pm 0.5} & {4} \\
+        {\pm 0.2} & {25} \\
+        {\pm 0.05} & {100} \\
+        {\pm 0.01} & {10,000} \\
+        {\pm 0.001} & {1,000,000} \\
+        \hline
+      \end{array}
+      $$$$
+      In fact, it appears from the graph of the function $f(x)=1 / x^{2}$ shown below that the values of $f(x)$ can be made arbitrarily large by taking $x$ close enough to $0 .$
+      <p/><p align="center">![](SVEC-01.03.Ex-08.1.jpg)</p>
+      Thus the values of $f(x)$ do not approach a number, so $\lim _{x \rightarrow 0}\left(1 / x^{2}\right)$ does not exist.
+    Annotations: ''
+  tags: []
+- id: 1572395154855
+  media:
+  - path: ${file_dir}/images/SVEC-01.03.Ex-09.1.jpg
+  fields:
+    Front: |
+      SVEC 01.03 Example 09:
+      ##### precise definition of a limit
+      Prove that $\lim _{x \rightarrow 3}(4 x-5)=7.$
+    Back: |
+      Let $\varepsilon$ be a given positive number. According to the precise definition of limit, with $a=3$ and $L=7,$ we need to find a number $\delta$ such that
+      $$$$
+      \begin{array}{llll}{} & {\text { if }} & {0<|x-3|<\delta} & {\text { then }} & {|(4 x-5)-7|<\varepsilon}\end{array}
+      $$$$
+      But $|(4 x-5)-7|=|4 x-12|=|4(x-3)|=4|x-3| .$ Therefore we want:
+      $$$$
+      \text { if } \quad 0<|x-3|<\delta \quad \text { then } \quad 4|x-3|<\varepsilon
+      $$$$
+      Note that $4|x-3|<\varepsilon \Longleftrightarrow|x-3|<\varepsilon / 4$ So let's choose $\delta=\varepsilon / 4 .$ We can then write the following:
+      $$$$
+      \text { if } \quad 0<|x-3|<\delta \quad \text { then } \quad 4|x-3|<\varepsilon \quad \text { so } \quad|(4 x-5)-7|<\varepsilon
+      $$$$
+      Therefore, by the definition of a limit,
+      $$$$
+      \lim _{x \rightarrow 3}(4 x-5)=7
+      $$$$
+      The figure below shows the geometry behind this example.
+      <p/><p align="center">![](SVEC-01.03.Ex-09.1.jpg)</p>
+    Annotations: ''
+  tags: []
+- id: 1572395504083
+  media:
+  - path: ${file_dir}/images/SVEC-01.03.Ex-10.1.jpg
+  fields:
+    Front: |
+      SVEC 01.03 Example 10:
+      ##### precise definition of a limit
+      Prove that $\lim _{x \rightarrow 0^{+}} \sqrt{x}=0.$
+    Back: |
+      Let $\varepsilon$ be a given positive number. We want to find a number $\delta$ such that
+      $$$$
+      \text { if } \quad 0<x<\delta \quad \text { then } \quad|\sqrt{x}-0|<\varepsilon \text { that is } \quad \sqrt{x}<\varepsilon
+      $$$$
+      But $\sqrt{x}<\varepsilon \Longleftrightarrow x<\varepsilon^{2} .$ So if we choose $\delta=\varepsilon^{2}$ and $0<x<\delta=\varepsilon^{2},$ then $\sqrt{x}<\varepsilon.$ (See figure below.) This shows that $\sqrt{x} \rightarrow 0$ as $x \rightarrow 0^{+} .$
+      <p/><p align="center">![](SVEC-01.03.Ex-10.1.jpg)</p>
+    Annotations: ''
+  tags: []

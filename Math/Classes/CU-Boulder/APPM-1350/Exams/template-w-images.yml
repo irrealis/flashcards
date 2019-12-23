@@ -1,0 +1,17 @@
+  tags: []
+- id: 0
+  media:
+  - path: ${file_dir}/images/APPM-1350-Exam-X-X.XX.1.jpg
+  fields:
+    Front: |
+      APPM 1350 Exam-X-X.XX:
+    Back: |
+      $ $
+      $$$$
+      <p align="center">
+      ![](APPM-1350-Exam-X-X.XX.1.jpg)
+      </p>
+    Annotations: ''
+  tags:
+  - Editing
+  - ToDo
