@@ -11,9 +11,10 @@ from markdown.extensions.fenced_code import FencedCodeExtension
 from markdown.extensions.footnotes import FootnoteExtension
 from markdown.extensions.nl2br import Nl2BrExtension
 from markdown.extensions.sane_lists import SaneListExtension
-from markdown.extensions.smart_strong import SmartEmphasisExtension
+#from markdown.extensions.smart_strong import SmartEmphasisExtension
 from markdown.extensions.smarty import SmartyExtension
 from markdown.extensions.tables import TableExtension
+
 from pweave.formatters.publish import PwebHTMLFormatter
 from pweave.formatters.markdownmath import MathExtension
 from pweave.mimetypes import MimeTypes
@@ -33,7 +34,7 @@ def parse_markdown(text, noclasses, style, line_nums, tab_len, mathext):
   extensions = []
   if mathext: extensions.append(MathExtension())
   extensions.extend([
-    SmartEmphasisExtension(), FencedCodeExtension(),
+    FencedCodeExtension(),
     FootnoteExtension(), AttrListExtension(), DefListExtension(),
     TableExtension(), AbbrExtension(), Nl2BrExtension(),
     CodeHiliteExtension(
