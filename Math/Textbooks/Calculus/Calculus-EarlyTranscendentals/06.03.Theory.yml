@@ -1,0 +1,66 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theory
+  - Calculus-EarlyTrancendentals
+  - CET-06-ApplicationsOfIntegration
+  - CET-06.03-VolumesByCylindricalShells
+  markdownTabLength: 2
+notes:
+- id: 1577643527054
+  media:
+  - path: ${file_dir}/images/CET-06.03-01.Th.1.jpg
+  fields:
+    Front: |
+      CET-06.03-01 Theory:
+      What is the **formula for the volume of a cylindrical shell?**
+    Back: |
+      If we let $\Delta r=r_{2}-r_{1}$ (the thickness of the shell) and $r=\frac{1}{2}\left(r_{2}+r_{1}\right)$ (the average radius of the shell), then the formula for the volume of a cylindrical shell is
+      $$$
+      V=2 \pi r h \Delta r
+      $$$ and it can be remembered as
+      $$$
+      V=[\text { circumference }][\text { height }][\text { thickness }]
+      $$$
+      <p align="center">
+      ![](CET-06.03-01.Th.1.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1577644375295
+  media:
+  - path: ${file_dir}/images/CET-06.03-02.Th.1.jpg
+  fields:
+    Front: |
+      CET-06.03-02 Theory:
+      Give the **Riemann approximation of volume using cylindrical shells.**
+    Back: |
+      We divide the interval $[a, b]$ into $n$ subintervals $\left[x_{i-1}, x_{i}\right]$ of equal width $\Delta x$ and let $\bar{x}_{i}$ be the midpoint of the $i$ th subinterval. If the rectangle with base $\left[x_{i-1}, x_{i}\right]$ and height $f\left(\bar{x}_{i}\right)$ is rotated about the $y$ -axis, then the result is a cylindrical shell with average radius $\bar{x}_{i}$ height $f\left(\bar{x}_{i}\right),$ and thickness $\Delta x$ (see following figure). So its volume is
+      $$$
+      V_{i}=\left(2 \pi \bar{x}_{i}\right)\left[f\left(\bar{x}_{i}\right)\right] \Delta x
+      $$$
+      <p align="center">
+      ![](CET-06.03-02.Th.1.jpg)
+      </p>
+      Therefore an approximation to the volume $V$ of $S$ is given by the sum of the volumes of these shells:
+      $$$
+      V \approx \sum_{i=1}^{n} V_{i}=\sum_{i=1}^{n} 2 \pi \bar{x}_{i} f\left(\bar{x}_{i}\right) \Delta x
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1577644533019
+  fields:
+    Front: |
+      CET-06.03-03 Theory:
+      Give the **formula for volume using cylindrical shells.**
+    Back: |
+      The volume of the solid obtained by rotating about the $y$ -axis the region under the curve $y=f(x),$ from $a$ to $b,$ is
+      $$$
+      V=\int_{a}^{b} 2 \pi x f(x) d x \quad \text { where } 0 \leqslant a<b
+      $$$
+    Annotations: ''
+  tags: []

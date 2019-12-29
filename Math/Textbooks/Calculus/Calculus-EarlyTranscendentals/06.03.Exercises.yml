@@ -1,0 +1,44 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-06-ApplicationsOfIntegration
+  - CET-06.03-VolumesByCylindricalShells
+  markdownTabLength: 2
+notes:
+- id: 1577645844522
+  media:
+  - path: ${file_dir}/images/CET-06.03-01.Xs.1.jpg
+  - path: ${file_dir}/images/CET-06.03-01.Xs.2.jpg
+  fields:
+    Front: |
+      CET-06.03-01 Exercise:
+      Let $S$ be the solid obtained by rotating the region shown in the figure about the $y$ -axis. Explain why it is awkward to use slicing to find the volume $V$ of $S .$ Sketch a typical approximating shell. What are its circumference and height? Use shells to find $V.$
+      <p align="center">
+      ![](CET-06.03-01.Xs.1.jpg)
+      </p>
+    Back: |
+      If we were to use the "washer" method, we would first have to locate the local maximum point $(a, b)$ of $y=x(x-1)^{2}$ using the methods of Chapter $4 .$ Then we would have to solve the equation $y=x(x-1)^{2}$ for $x$ in terms of $y$ to obtain the functions $x=g_{1}(y)$ and $x=g_{2}(y)$ shown in the first figure. This step would be difficult because it involves the cubic formula. Finally we would find the volume using
+      $$$
+      V=\pi \int_{0}^{b}\left\{\left[g_{1}(y)\right]^{2}-\left[g_{2}(y)\right]^{2}\right\} d y
+      $$$
+      <p align="center">
+      ![](CET-06.03-01.Xs.2.jpg)
+      </p>
+      Using shells, we find that a typical approximating shell has radius $x,$ so its circumference is $2 \pi x .$ Its height is $y,$ that is, $x(x-1)^{2} .$ So the total volume is
+      $$$
+      \begin{aligned}
+        V
+        &=\int_{0}^{1} 2 \pi x\left[x(x-1)^{2}\right] d x \\
+        &=2 \pi \int_{0}^{1}\left(x^{4}-2 x^{3}+x^{2}\right) d x \\
+        &=2 \pi\left[\frac{x^{5}}{5}-2 \frac{x^{4}}{4}+\frac{x^{3}}{3}\right]_{0}^{1} \\
+        &=\frac{\pi}{15}
+      \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []

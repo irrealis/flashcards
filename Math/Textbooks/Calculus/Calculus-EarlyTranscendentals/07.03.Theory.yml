@@ -1,0 +1,49 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theory
+  - Calculus-EarlyTrancendentals
+  - CET-07-TechniquesOfIntegration
+  - CET-07.03-TrigonometricSubstitution
+  markdownTabLength: 2
+notes:
+- id: 1577144141666
+  fields:
+    Front: |
+      CET-07.03-01 Theory:
+      ##### trigonometric integrals
+      Describe **inverse substitution.**
+    Back: |
+      To evaluate
+      $$$
+      \int f(x)\, dx
+      $$$ we write $x = g(u)$ for invertible $g,$ and then $dx = g^{\prime}(u) \, du,$ so
+      $$$
+      H(u) = \int f(x)\, dx = \int f(g(u)) g^{\prime}(u)\, du
+      $$$ We then reverse the substitution.
+    Annotations: ''
+  tags: []
+- id: 1577298298362
+  fields:
+    Front: |
+      CET-07.03-02 Theory:
+      ##### trigonometric integrals
+      What are the three **Trigonometric Inverse Substitutions?**
+    Back: |
+      $$
+      \begin{array}{|c|c|c|}
+        \hline
+        \text { Expression } & {\text { Substitution }} & {\text { Identity }} \\
+        \hline
+        {\sqrt{a^{2}-x^{2}}} & {x=a \sin \theta, \quad -\frac{\pi}{2} \leq \theta \leq \frac{\pi}{2}} & {1-\sin ^{2} \theta=\cos ^{2} \theta} \\
+        {\sqrt{a^{2}+x^{2}}} & {x=a \tan \theta, \quad -\frac{\pi}{2}<\theta<\frac{\pi}{2}} & {1 + \tan ^{2} \theta = \sec ^{2} \theta} \\
+        {\sqrt{x^{2}-a^{2}}} & {x=a \sec \theta, \quad 0 \leqslant \theta<\frac{\pi}{2} \text { or } \pi \leqslant \theta<\frac{3 \pi}{2}} & {\sec ^{2} \theta-1=\tan ^{2} \theta} \\
+        \hline
+      \end{array}
+      $$
+    Annotations: ''
+  tags: []

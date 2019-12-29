@@ -11,10 +11,11 @@ defaults:
   - CET-07.01-IntegrationByParts
   markdownTabLength: 2
 notes:
-- id: 1576618785240
+- id: 1577307539286
   fields:
     Front: |
       CET-07.01-01 Example:
+      ##### integration by parts
       Find $\int x \sin x d x.$
     Back: |
       **Solution 1:**
@@ -49,10 +50,11 @@ notes:
       $$$
     Annotations: ''
   tags: []
-- id: 1576620890983
+- id: 1577307539684
   fields:
     Front: |
       CET-07.01-02 Example:
+      ##### integration by parts
       Evaluate $\int \ln x d x.$
     Back: |
       Here we don't have much choice for $u$ and $d v .$ Let
@@ -71,10 +73,11 @@ notes:
       Integration by parts is effective in this example because the derivative of the function $f(x)=\ln x$ is simpler than $f.$
     Annotations: ''
   tags: []
-- id: 1576621627934
+- id: 1577307539904
   fields:
     Front: |
       CET-07.01-03 Example:
+      ##### integration by parts
       Find $\int t^{2} e^{t} d t.$
     Back: |
       Notice that $t^{2}$ becomes simpler when differentiated (whereas $e^{t}$ is unchanged when differentiated or integrated), so we choose
@@ -102,30 +105,53 @@ notes:
       $$$ where $C_{1}=-2 C.$
     Annotations: ''
   tags: []
-- id: 1576622464502
+- id: 1577307540155
   fields:
     Front: |
       CET-07.01-04 Example:
+      ##### integration by parts
       Evaluate $\int e^{x} \sin x d x.$
-    Back: |
-      Neither $e^{x}$ nor sin $x$ becomes simpler when differentiated, but we try choosing $u=e^{x}$ and $d v=\sin x d x$ anyway. Then $d u=e^{x} d x$ and $v=-\cos x,$ so integration by parts gives $$$\int e^{x} \sin x d x=-e^{x} \cos x+\int e^{x} \cos x d x$$$ The integral that we have obtained, $\int e^{x} \cos x d x,$ is no simpler than the original one, but at least it's no more difficult. Having had success in the preceding example integrating by parts twice, we persevere and integrate by parts again. This time we use $u=e^{x}$ and $d v=\cos x d x .$ Then $d u=e^{x} d x, v=\sin x,$ and
-      $$$\int e^{x} \cos x d x=e^{x} \sin x-\int e^{x} \sin x d x$$$ At first glance, it appears as if we have accomplished nothing because we have arrived
-      at $\int e^{x} \sin x d x,$ which is where we started. However, if we substitute this expression for $e^{x} \cos x d x$ into the previous result we get
+    Back: >
+      Neither $e^{x}$ nor sin $x$ becomes simpler when differentiated, but we try
+      choosing $u=e^{x}$ and $d v=\sin x d x$ anyway. Then $d u=e^{x} d x$ and $v=-\cos
+      x,$ so integration by parts gives $$$\int e^{x} \sin x d x=-e^{x} \cos x+\int
+      e^{x} \cos x d x$$$ The integral that we have obtained, $\int e^{x} \cos x d
+      x,$ is no simpler than the original one, but at least it's no more difficult.
+      Having had success in the preceding example integrating by parts twice, we persevere
+      and integrate by parts again. This time we use $u=e^{x}$ and $d v=\cos x d x
+      .$ Then $d u=e^{x} d x, v=\sin x,$ and
+
+      $$$\int e^{x} \cos x d x=e^{x} \sin x-\int e^{x} \sin x d x$$$ At first glance,
+      it appears as if we have accomplished nothing because we have arrived
+
+      at $\int e^{x} \sin x d x,$ which is where we started. However, if we substitute
+      this expression for $e^{x} \cos x d x$ into the previous result we get
+
       $$$
+
       \int e^{x} \sin x d x=-e^{x} \cos x+e^{x} \sin x-\int e^{x} \sin x d x
-      $$$ This can be regarded as an equation to be solved for the unknown integral. Adding $\int e^{x} \sin x d x$ to both sides, we obtain
+
+      $$$ This can be regarded as an equation to be solved for the unknown integral.
+      Adding $\int e^{x} \sin x d x$ to both sides, we obtain
+
       $$$
+
       2 \int e^{x} \sin x d x=-e^{x} \cos x+e^{x} \sin x
+
       $$$ Dividing by 2 and adding the constant of integration, we get
+
       $$$
+
       \int e^{x} \sin x d x=\frac{1}{2} e^{x}(\sin x-\cos x)+C
+
       $$$
     Annotations: ''
   tags: []
-- id: 1576623041203
+- id: 1577307540385
   fields:
     Front: |
       CET-07.01-05 Example:
+      ##### integration by parts
       Calculate $\int_{0}^{1} \tan ^{-1} x d x.$
     Back: |
       Let
@@ -154,10 +180,11 @@ notes:
       $$$
     Annotations: ''
   tags: []
-- id: 1576641303949
+- id: 1577307540629
   fields:
     Front: |
       CET-07.01-06 Example:
+      ##### integration by parts
       Prove the reduction formula
       $$$
       \int \sin ^{n} x d x=-\frac{1}{n} \cos x \sin ^{n-1} x+\frac{n-1}{n} \int \sin ^{n-2} x d x

@@ -11,10 +11,11 @@ defaults:
   - CET-07.02-TrigonometricIntegrals
   markdownTabLength: 2
 notes:
-- id: 1576704847557
+- id: 1577308003461
   fields:
     Front: |
       CET-07.02-01 Theory:
+      ##### trigonometric integrals
       Describe a **Strategy for Evaluating $\int \sin ^{m} x \cos ^{n} x d x$.**
     Back: |
       (a) If the power of cosine is odd $(n=2 k+1),$ save one cosine factor and use $\cos ^{2} x=1-\sin ^{2} x$ to express the remaining factors in terms of sine:
@@ -42,10 +43,11 @@ notes:
       $$$
     Annotations: ''
   tags: []
-- id: 1576705213834
+- id: 1577308003754
   fields:
     Front: |
       CET-07.02-02 Theory:
+      ##### trigonometric integrals
       Describe a **Strategy for Evaluating $\int \tan ^{m} x \sec ^{n} x d x$.**
     Back: |
       (a) If the power of secant is even $(n=2 k, k \geqslant 2),$ save a factor of $\sec ^{2} x$ and use sec $^{2} x=1+\tan ^{2} x$ to express the remaining factors in terms of $\tan x:$
@@ -68,10 +70,11 @@ notes:
       $$$ Then substitute $u=\sec x.$
     Annotations: ''
   tags: []
-- id: 1576705878032
+- id: 1577308003960
   fields:
     Front: |
       CET-07.02-03 Theory:
+      ##### trigonometric integrals
       Give $\int \sec x d x.$
     Back: |
       $$$
@@ -79,10 +82,11 @@ notes:
       $$$
     Annotations: ''
   tags: []
-- id: 1576708560583
+- id: 1577308004155
   fields:
     Front: |
       CET-07.02-04 Theory:
+      ##### trigonometric integrals
       How might we evaluate the following integrals?
       (a) $\int \sin m x \cos n x \, d x$
       (b) $\int \sin m x \sin n x \, d x$

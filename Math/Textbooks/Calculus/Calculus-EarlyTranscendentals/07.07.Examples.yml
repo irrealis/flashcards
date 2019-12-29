@@ -1,0 +1,225 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-07-TechniquesOfIntegration
+  - CET-07.07-ApproximateIntegration
+  markdownTabLength: 2
+notes:
+- id: 1577485648350
+  media:
+  - path: ${file_dir}/images/CET-07.07-01.Xm.1.jpg
+  - path: ${file_dir}/images/CET-07.07-01.Xm.2.jpg
+  fields:
+    Front: |
+      CET-07.07-01 Example:
+      ##### approximate integration
+      Use (a) the Trapezoidal Rule and (b) the Midpoint Rule with $n=5$ to approximate the integral $\int_{1}^{2}(1 / x) d x$
+    Back: |
+      (a) With $n=5, a=1,$ and $b=2,$ we have $\Delta x=(2-1) / 5=0.2,$ and so the Trapezoidal Rule gives
+      $$$
+      \begin{aligned}
+      \int_{1}^{2} \frac{1}{x} d x
+      &\approx T_{s}=\frac{0.2}{2}[f(1)+2 f(1.2)+2 f(1.4)+2 f(1.6)+2 f(1.8)+f(2)] \\
+      &=0.1\left(\frac{1}{1}+\frac{2}{1.2}+\frac{2}{1.4}+\frac{2}{1.6}+\frac{2}{1.8}+\frac{1}{2}\right) \\
+      &=0.695635
+      \end{aligned}
+      $$$ This approximation is illustrated below.
+      <p align="center">
+      ![](CET-07.07-01.Xm.1.jpg)
+      </p>
+
+      (b) The midpoints of the five subintervals are $1.1,1.3,1.5,1.7,$ and $1.9,$ so the Midpoint Rule gives
+      $$$
+      \begin{aligned}
+      \int_{1}^{2} \frac{1}{x} d x
+      &\approx \Delta x[f(1.1)+f(1.3)+f(1.5)+f(1.7)+f(1.9)] \\
+      &=\frac{1}{5}\left(\frac{1}{1.1}+\frac{1}{1.3}+\frac{1}{1.5}+\frac{1}{1.7}+\frac{1}{1.9}\right) \\
+      & \approx 0.691908
+      \end{aligned}
+      $$$ This approximation is illustrated below.
+      <p align="center">
+      ![](CET-07.07-01.Xm.2.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1577486595350
+  fields:
+    Front: |
+      CET-07.07-02 Example:
+      ##### approximate integration
+      How large should we take $n$ in order to guarantee that the Trapezoidal and Midpoint Rule approximations for $\int_{1}^{2}(1 / x) d x$ are accurate to within $0.0001 ?$
+    Back: |
+      If $f(x)=1 / x,$ then $f^{\prime}(x)=-1 / x^{2}$ and $f^{\prime \prime}(x)=2 / x^{3} .$ Because $1 \leqslant x \leqslant 2,$ we have $1 / x \leqslant 1,$ so
+      $$$
+      \left|f^{\prime \prime}(x)\right|=\left|\frac{2}{x^{3}}\right| \leqslant \frac{2}{1^{3}}=2
+      $$$ and we can take $K=2, a=1,$ and $b=2.$ Accuracy to within 0.0001 means that the size of the error should be less than 0.0001 . Therefore we choose $n$ so that
+      $$$
+      \frac{2(1)^{3}}{12 n^{2}}<0.0001
+      $$$ Solving the inequality for $n,$ we get
+      $$$
+      \begin{array}{l}
+      {n^{2}>\frac{2}{12(0.0001)}} \\
+      {\text { or } \quad n>\frac{1}{\sqrt{0.0006}} \approx 40.8}
+      \end{array}
+      $$$ Thus $n=41$ will ensure the desired accuracy. For the same accuracy with the Midpoint Rule we choose $n$ so that
+      $$$
+      \frac{2(1)^{3}}{24 n^{2}}<0.0001 \quad \text { and so } \quad n>\frac{1}{\sqrt{0.0012}} \approx 29
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1577486848904
+  media:
+  - path: ${file_dir}/images/CET-07.07-03.Xm.1.jpg
+  fields:
+    Front: |
+      CET-07.07-03 Example:
+      ##### approximate integration
+      (a) Use the Midpoint Rule with $n=10$ to approximate the integral $\int_{0}^{1} e^{x^{2}} d x$
+      (b) Give an upper bound for the error involved in this approximation.
+    Back: |
+      (a) Since $a=0, b=1,$ and $n=10,$ the Midpoint Rule gives
+      $$$
+      \begin{aligned}
+      \int_{0}^{1} e^{x^{2}} d x \approx & \Delta x[f(0.05)+f(0.15)+\cdots+f(0.85)+f(0.95)] \\
+      &=0.1\left[e^{0.0005}+e^{0.0025}+e^{0.0635}+e^{0.1255}+e^{0.205}+e^{0.025}\right.\\
+      &\left.\quad+e^{0.405}+e^{0.505}+e^{0.725}+e^{0.9055}\right] \\
+      &=1.460393
+      \end{aligned}
+      $$$ The figure below illustrates this approximation.
+      <p align="center">
+      ![](CET-07.07-03.Xm.1.jpg)
+      </p>
+
+      (b) Since $f(x)=e^{x^{2}},$ we have $f^{\prime}(x)=2 x e^{x^{2}}$ and $f^{\prime \prime}(x)=\left(2+4 x^{2}\right) e^{x^{2}} .$ Also, since $0 \leqslant x \leqslant 1,$ we have $x^{2} \leqslant 1$ and so
+      $$$
+      0 \leqslant f^{\prime \prime}(x)=\left(2+4 x^{2}\right) e^{x^{2}} \leqslant 6 e
+      $$$ Taking $K=6 e, a=0, b=1, \text { and } n=10 \text { in the error estimate ( } 3),$ we see that an upper bound for the error is
+      $$$
+      \frac{6 e(1)^{3}}{24(10)^{2}}=\frac{e}{400} \approx 0.007
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1577507488412
+  fields:
+    Front: |
+      CET-07.07-04 Example:
+      ##### simpson's rule
+      Use Simpson's Rule with $n=10$ to approximate $\int_{1}^{2}(1 / x) d x.$
+    Back: |
+      Putting $f(x)=1 / x, n=10,$ and $\Delta x=0.1$ in Simpson's Rule, we obtain
+      $$$
+      \begin{aligned}
+        \int_{1}^{2} \frac{1}{x} d x
+        &\approx S_{10} \\
+        &=\frac{\Delta x}{3}[f(1)+4 f(1.1)+2 f(1.2)+4 f(1.3)+\cdots+2 f(1.8)+4 f(1.9)+f(2)] \\
+        &=\frac{0.1}{3}\left(\frac{1}{1}+\frac{4}{1.1}+\frac{2}{1.2}+\frac{4}{1.3}+\frac{2}{1.4}+\frac{4}{1.5}+\frac{2}{1.6}+\frac{4}{1.7}+\frac{2}{1.8}+\frac{4}{1.9}+\frac{1}{2}\right) \\
+        &\approx 0.693150
+      \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1577556475829
+  media:
+  - path: ${file_dir}/images/CET-07.07-05.Xm.1.jpg
+  fields:
+    Front: |
+      CET-07.07-05 Example:
+      ##### simpson's rule
+      The figure below shows data traffic on the link from the United States to SWITCH, the Swiss academic and research network, on February $10,1998 . D(t)$ is the data throughput, measured in megabits per second (Mb/s). Use Simpson's Rule to estimate the total amount of data transmitted on the link from midnight to noon on that day.
+      <p align="center">
+      ![](CET-07.07-05.Xm.1.jpg)
+      </p>
+    Back: |
+      Because we want the units to be consistent and $D(t)$ is measured in megabits per second, we convert the units for $t$ from hours to seconds. If we let $A(t)$ be the amount of data (in megabits) transmitted by time $t,$ where $t$ is measured in seconds, then $A^{\prime}(t)=D(t) .$ So, by the Net Change Theorem (see Section $5.4$), the total amount of data transmitted by noon (when $t=12 \times 60^{2}=43,200$) is
+      $$$
+      A(43,200)=\int_{0}^{43.200} D(t) d t
+      $$$ We estimate the values of $D(t)$ at hourly intervals from the graph and compile them in the table.
+      $$$
+      \begin{array}{|c|c|c|c|c|c|}
+        \hline
+        t \text { (hours) } & {t( \text { seconds) } } & {D(t)} & {t \text { (hours) }} & {t(\text { seconds })} & {D(t)} \\
+        \hline
+        {0} & {0} & {3.2} & {7} & {25,200} & {1.3} \\
+        {1} & {3,600} & {2.7} & {8} & {28,800} & {2.8} \\
+        {2} & {7.200} & {1.9} & {9} & {32,400} & {5.7} \\
+        {3} & {10,800} & {1.7} & {10} & {36,000} & {7.1} \\
+        {4} & {14,400} & {1.3} & {11} & {39,200} & {7.7} \\
+        {5} & {18,000} & {1.0} & {12} & {43,200} & {7.9} \\
+        {6} & {21,600} & {1.1} & {} \\
+        \hline
+      \end{array}
+      $$$ Then we use Simpson's Rule with $n=12$ and $\Delta t=3600$ to estimate the integral:
+      $$$
+      \begin{aligned}
+        \int_{0}^{3200} A(t) d t
+        &\approx \frac{\Delta t}{3}[D(0)+4 D(3600)+2 D(7200)+\cdots+4 D(39,600)+D(43,200)] \\
+        &\approx \frac{3600}{3}[3.2+4(2.7)+2(1.9)+4(1.7)+2(1.3)+4(1.0)\\ &\quad+2(1.1)+4(1.3)+2(2.8)+4(5.7)+2(7.1)+4(7.7)+7.9] \\
+        &=143,880
+      \end{aligned}
+      $$$
+      Thus the total amount of data transmitted from midnight to noon is about $144,000$ megabits, or 144 gigabits.
+    Annotations: ''
+  tags: []
+- id: 1577557216303
+  fields:
+    Front: |
+      CET-07.07-06 Example:
+      ##### simpson's rule
+      How large should we take $n$ in order to guarantee that the Simpson's Rule approximation for $\int_{1}^{2}(1 / x) d x$ is accurate to within $0.0001 ?$
+    Back: |
+      If $f(x)=1 / x,$ then $f^{\prime \prime}(x)=24 / x^{5} .$ since $x \geqslant 1,$ we have $1 / x \leqslant 1$ and so
+      $$$
+      \left|f^{(4)}(x)\right|=\left|\frac{24}{x^{5}}\right| \leqslant 24
+      $$$ Therefore we can take $K=24$ in $(4) .$ Thus, for an error less than $0.0001 ,$ we should choose $n$ so that
+      $$$
+      \frac{24(1)^{5}}{180 n^{4}} < 0.0001
+      $$$ This gives
+      $$$
+      n^{4} > \frac{24}{180(0.0001)}
+      $$$ or
+      $$$
+      n>\frac{1}{\sqrt[4]{0.00075}} \approx 6.04
+      $$$ Therefore $n=8$ ($n$ must be even) gives the desired accuracy.
+    Annotations: ''
+  tags: []
+- id: 1577557475454
+  fields:
+    Front: |
+      CET-07.07-08 Example:
+      ##### simpson's rule
+      (a) Use Simpson's Rule with $n=10$ to approximate the integral $\int_{0}^{1} e^{x^{2}} d x.$
+      (b) Estimate the error involved in this approximation.
+    Back: |
+      (a) If $n=10,$ then $\Delta x=0.1$ and Simpson's Rule gives
+      $$$
+      \begin{aligned}
+        \int_{0}^{1} e^{x^{2}} d x
+        &=\frac{\Delta x}{3}[f(0)+4 f(0.1)+2 f(0.2)+\cdots+2 f(0.8)+4 f(0.9)+f(1)] \\
+        &=\frac{0.1}{3}\left[e^{0}+4 e^{0.01}+2 e^{0.04}+4 e^{0.09}+2 e^{0.16}+4 e^{0.25}+2 e^{0.36}\right.\\
+        &\left.\quad+4 e^{0.49}+2 e^{0.64}+4 e^{0.81}+e^{1}\right] \\
+        & \approx 1.462681
+      \end{aligned}
+      $$$
+
+      (b) The fourth derivative of $f(x)=e^{x^{2}}$ is
+      $$$
+      f^{(4)}(x)=\left(12+48 x^{2}+16 x^{4}\right) e^{x^{2}}
+      $$$ and so, since $0 \leqslant x \leqslant 1,$ we have
+      $$$
+      0 \leqslant f^{\prime \prime}(x) \leqslant(12+48+16) e^{1}=76 e
+      $$$ Therefore, putting $K=76 e, a=0, b=1,$ and $n=10$ in $(4),$ we see that the error is at most
+      $$$
+      \frac{76 e(1)^{5}}{180(10)^{4}} \approx 0.000115
+      $$$ Thus, correct to three decimal places, we have
+      $$$
+      \int_{0}^{1} e^{x^{2}} d x=1.463
+      $$$
+    Annotations: ''
+  tags:
+  - Editing

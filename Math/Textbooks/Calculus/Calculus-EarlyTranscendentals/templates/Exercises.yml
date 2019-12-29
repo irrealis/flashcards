@@ -8,13 +8,10 @@
   fields:
     Front: |
       CET-XX.XX-XX Exercise:
-      Evaluate the integral.
       $$$$
     Back: |
       $$$
       $$$
-      The symbols $\stackrel{s}{=}$ and $\stackrel{c}{=}$ indicate the use of the substitutions $\{u=\sin x, d u=\cos x d x\}$ and $\{u=\cos x, d u=-\sin x d x\},$ respectively.
     Annotations: ''
   tags:
   - Editing
-

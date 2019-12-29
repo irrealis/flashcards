@@ -1,0 +1,74 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theory
+  - Calculus-EarlyTrancendentals
+  - CET-06-ApplicationsOfIntegration
+  - CET-06.01-AreasBetweenCurves
+  markdownTabLength: 2
+notes:
+- id: 1577566576877
+  media:
+  - path: ${file_dir}/images/CET-06.01-01.Th.1.jpg
+  - path: ${file_dir}/images/CET-06.01-01.Th.2.jpg
+  - path: ${file_dir}/images/CET-06.01-01.Th.3.jpg
+  fields:
+    Front: |
+      CET-06.01-01 Theory:
+      Consider the region $S$ that lies between two curves $y=f(x)$ and $y=g(x)$ and between the vertical lines $x=a$ and $x=b,$ where $f$ and $g$ are continuous functions and $f(x) \geqslant g(x)$ for all $x$ in $[a, b]$. (See figure below.)
+      <p align="center">
+      ![](CET-06.01-01.Th.1.jpg)
+      $S=\{(x, y) | a \leqslant x \leqslant b, \, g(x) \leqslant y \leqslant f(x)\}$
+      </p>
+      Define the area $A$ of the region $S$ in terms of Reimann sums.
+    Back: |
+      We divide $S$ into $n$ strips of equal width and then we approximate the $i$ th strip by a rectangle with base $\Delta x$ and height $f\left(x_{i}^{*}\right)-g\left(x_{i}^{*}\right) .$ (See the following figures. If we like, we could take all of the sample points to be right endpoints, in which case $x_{i}^{*}=x_{i}$.)
+      <p align="center">
+      ![](CET-06.01-01.Th.2.jpg)
+      Typical rectangle.
+      </p>
+      <p align="center">
+      ![](CET-06.01-01.Th.3.jpg)
+      Approximating rectangles.
+      </p>
+      The Riemann sum
+      $$$
+      \sum_{i=1}^{n}\left[f\left(x_{i}^{*}\right)-g\left(x_{i}^{*}\right)\right] \Delta x
+      $$$ is therefore an approximation to what we intuitively think of as the area of $S$.
+
+      This approximation appears to become better and better as $n \rightarrow \infty .$ Therefore we define the area $A$ of the region $S$ as the limiting value of the sum of the areas of these approximating rectangles.
+      $$$
+      A=\lim _{n \rightarrow \infty} \sum_{i=1}^{n}\left[f\left(x_{i}^{*}\right)-g\left(x_{i}^{*}\right)\right] \Delta x
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1577566884883
+  fields:
+    Front: >
+      CET-06.01-02 Theory:
+
+      Give the **Area Formula,** in terms of integrals, for the area $A$ of the region
+      bounded by the curves $y=f(x), y=g(x),$ and the lines $x=a, x=b,$ where $f$
+      and $g$ are continuous and $f(x) \geqslant g(x)$ for all $x$ in $[a, b].$
+    Back: |
+      $$$
+      A=\int_{a}^{b}[f(x)-g(x)] d x
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1577569164877
+  fields:
+    Front: |
+      CET-06.01-03 Theory:
+      Give the **Area Formula,** in terms of integrals, for the area $A$ between the curves $y=f(x)$ and $y=g(x)$ and between $x=a$ and $x=b.$
+    Back: |
+      $$$
+      A=\int_{a}^{b}|f(x)-g(x)| d x
+      $$$
+    Annotations: ''
+  tags:
+  - Editing

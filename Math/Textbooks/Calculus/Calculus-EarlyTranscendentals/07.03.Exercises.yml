@@ -1,0 +1,39 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-07-TechniquesOfIntegration
+  - CET-07.03-TrigonometricSubstitution
+  markdownTabLength: 2
+notes:
+- id: 1577214869303
+  media:
+  - path: ${file_dir}/images/CET-07.03-01.Xs.1.jpg
+  fields:
+    Front: |
+      CET-07.03-01 Exercise:
+      Evaluate the integral using the indicated trigonometric substitution. Sketch and label the associated right triangle.
+      $$$
+      \int \frac{d x}{x^{2} \sqrt{4-x^{2}}} \quad x=2 \sin \theta
+      $$$
+    Back: |
+      Let $x=2 \sin \theta,$ where $-\pi / 2 \leq \theta \leq \pi / 2 .$ Then $d x=2 \cos \theta d \theta$ and $\sqrt{4-x^{2}}=\sqrt{4-4 \sin ^{2} \theta}=\sqrt{4 \cos ^{2} \theta}=2|\cos \theta|=2 \cos \theta.$ Thus,
+      $$$
+      \begin{align}
+      \int \frac{d x}{x^{2} \sqrt{4-x^{2}}}
+      &= \int \frac{2 \cos \theta}{4 \sin ^{2} \theta(2 \cos \theta)} d \theta \\
+      &= \frac{1}{4} \int \csc ^{2} \theta d \theta \\
+      &= -\frac{1}{4} \cot \theta+C \\
+      &= -\frac{\sqrt{4-x^{2}}}{4 x}+C
+      \end{align}
+      $$$
+      <p align="center">
+      ![](CET-07.03-01.Xs.1.jpg)
+      </p>
+    Annotations: ''
+  tags: []

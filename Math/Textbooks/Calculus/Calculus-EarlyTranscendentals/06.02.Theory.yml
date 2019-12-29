@@ -1,0 +1,53 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theory
+  - Calculus-EarlyTrancendentals
+  - CET-06-ApplicationsOfIntegration
+  - CET-06.02-Volumes
+  markdownTabLength: 2
+notes:
+- id: 1577572535932
+  fields:
+    Front: |
+      CET-06.02-01 Theory:
+      How is **Volume** defined?
+    Back: |
+      Let $S$ be a solid that lies between $x=a$ and $x=b .$ If the cross-sectional area of $S$ in the plane $P_{x}$, through $x$ and perpendicular to the $x$ -axis, is $A(x),$ where $A$ is a continuous function, then the **volume** of $S$ is
+      $$$
+      V=\lim _{n \rightarrow \infty} \sum_{i=1}^{n} A\left(x_{i}^{*}\right) \Delta x=\int_{a}^{b} A(x) d x
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1577574829294
+  media:
+  - path: ${file_dir}/images/CET-06.02-02.Th.1.jpg
+  fields:
+    Front: |
+      CET-06.02-02 Theory:
+      How do we calculate the volume of a solid of revolution?
+    Back: |
+      In general, we calculate the volume of a solid of revolution by using the basic defining formula
+      $$$
+      V=\int_{a}^{b} A(x) d x \quad \text { or } \quad V=\int_{c}^{d} A(y) d y
+      $$$ and we find the cross-sectional area $A(x)$ or $A(y)$ in one of the following ways:
+
+      (a) If the cross-section is a disk, we find the radius of the disk (in terms of $x$ or $y$ ) and use
+      $$$
+      A=\pi(\text { radius })^{2}
+      $$$
+
+      (b) If the cross-section is a washer, we find the inner radius $r_{\text {in}}$ and outer radius $r_{\text {out }}$ from a sketch (as in the figure below) and compute the area of the washer by subtracting the area of the inner disk from the area of the outer disk:
+      $$$
+      A=\pi(\text { outer radius })^{2}-\pi(\text { inner radius })^{2}
+      $$$
+      <p align="center">
+      ![](CET-06.02-02.Th.1.jpg)
+      </p>
+    Annotations: ''
+  tags:
+  - Editing

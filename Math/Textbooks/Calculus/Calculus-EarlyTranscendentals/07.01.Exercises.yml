@@ -11,7 +11,7 @@ defaults:
   - CET-07.01-IntegrationByParts
   markdownTabLength: 2
 notes:
-- id: 1576641770957
+- id: 1577307677261
   fields:
     Front: |
       CET-07.01-01 Exercise:
@@ -25,7 +25,7 @@ notes:
     Annotations: ''
   tags:
   - Editing
-- id: 1576642042958
+- id: 1577307677491
   fields:
     Front: |
       CET-07.01-02 Exercise:
@@ -45,7 +45,7 @@ notes:
       $$$
     Annotations: ''
   tags: []
-- id: 1576647100870
+- id: 1577307677709
   fields:
     Front: |
       CET-07.01-03 Exercise:
@@ -62,7 +62,7 @@ notes:
       $$$
     Annotations: ''
   tags: []
-- id: 1576647176603
+- id: 1577307678279
   fields:
     Front: |
       CET-07.01-04 Exercise:
@@ -79,7 +79,7 @@ notes:
       $$$
     Annotations: ''
   tags: []
-- id: 1576647238516
+- id: 1577307678471
   fields:
     Front: |
       CET-07.01-05 Exercise:
@@ -97,7 +97,7 @@ notes:
       $$$
     Annotations: ''
   tags: []
-- id: 1576647648856
+- id: 1577307678665
   fields:
     Front: |
       CET-07.01-06 Exercise:
@@ -115,30 +115,46 @@ notes:
       $$$
     Annotations: ''
   tags: []
-- id: 1576647788051
+- id: 1577307678882
   fields:
     Front: |
       CET-07.01-07 Exercise:
       Evaluate the integral.
       $$$\int\left(x^{2}+2 x\right) \cos x d x$$$
-    Back: |
-      First let $u=x^{2}+2 x, d v=\cos x d x \Rightarrow d u=(2 x+2) d x, v=\sin x .$ Then $I=\int\left(x^{2}+2 x\right) \cos x d x=\left(x^{2}+2 x\right) \sin x-\int(2 x+2) \sin x d x.$ Next let $U=2 x+2, d V=\sin x d x \Rightarrow d U=2 d x,$ $V=-\cos x,$ so $\int(2 x+2) \sin x d x$ $=-(2 x+2) \cos x-\int-2 \cos x d x$ $=-(2 x+2) \cos x+2 \sin x .$ Thus, $I=\left(x^{2}+2 x\right) \sin x+(2 x+2) \cos x-2 \sin x+C.$
+    Back: >
+      First let $u=x^{2}+2 x, d v=\cos x d x \Rightarrow d u=(2 x+2) d x, v=\sin x
+      .$ Then $I=\int\left(x^{2}+2 x\right) \cos x d x=\left(x^{2}+2 x\right) \sin
+      x-\int(2 x+2) \sin x d x.$ Next let $U=2 x+2, d V=\sin x d x \Rightarrow d U=2
+      d x,$ $V=-\cos x,$ so $\int(2 x+2) \sin x d x$ $=-(2 x+2) \cos x-\int-2 \cos
+      x d x$ $=-(2 x+2) \cos x+2 \sin x .$ Thus, $I=\left(x^{2}+2 x\right) \sin x+(2
+      x+2) \cos x-2 \sin x+C.$
     Annotations: ''
   tags: []
-- id: 1576647952591
+- id: 1577307679110
   fields:
     Front: |
       CET-07.01-08 Exercise:
       Evaluate the integral.
       $$$\int t^{2} \sin \beta t d t$$$
-    Back: |
-      First let $u=t^{2}, d v=\sin \beta t d t \quad \Rightarrow \quad d u=2 t d t, v=-\frac{1}{\beta} \cos \beta t . \quad$ Then
-      $I=\int t^{2} \sin \beta t d t=-\frac{1}{\beta} t^{2} \cos \beta t-\int-\frac{2}{\beta} t \cos \beta t d t .$ Next let $U=t, d V=\cos \beta t d t \Rightarrow d U=d t$
-      $V=\frac{1}{\beta} \sin \beta t,$ so $\int t \cos \beta t d t=\frac{1}{\beta} t \sin \beta t-\int \frac{1}{\beta} \sin \beta t d t=\frac{1}{\beta} t \sin \beta t+\frac{1}{\beta^{2}} \cos \beta t .$ Thus,
-      $I=-\frac{1}{\beta} t^{2} \cos \beta t+\frac{2}{\beta}\left(\frac{1}{\beta} t \sin \beta t+\frac{1}{\beta^{2}} \cos \beta t\right)+C$ $=-\frac{1}{\beta} t^{2} \cos \beta t+\frac{2}{\beta^{2}} t \sin \beta t+\frac{2}{\beta^{3}} \cos \beta t+C$
+    Back: >
+      First let $u=t^{2}, d v=\sin \beta t d t \quad \Rightarrow \quad d u=2 t d t,
+      v=-\frac{1}{\beta} \cos \beta t . \quad$ Then
+
+      $I=\int t^{2} \sin \beta t d t=-\frac{1}{\beta} t^{2} \cos \beta t-\int-\frac{2}{\beta}
+      t \cos \beta t d t .$ Next let $U=t, d V=\cos \beta t d t \Rightarrow d U=d
+      t$
+
+      $V=\frac{1}{\beta} \sin \beta t,$ so $\int t \cos \beta t d t=\frac{1}{\beta}
+      t \sin \beta t-\int \frac{1}{\beta} \sin \beta t d t=\frac{1}{\beta} t \sin
+      \beta t+\frac{1}{\beta^{2}} \cos \beta t .$ Thus,
+
+      $I=-\frac{1}{\beta} t^{2} \cos \beta t+\frac{2}{\beta}\left(\frac{1}{\beta}
+      t \sin \beta t+\frac{1}{\beta^{2}} \cos \beta t\right)+C$ $=-\frac{1}{\beta}
+      t^{2} \cos \beta t+\frac{2}{\beta^{2}} t \sin \beta t+\frac{2}{\beta^{3}} \cos
+      \beta t+C$
     Annotations: ''
   tags: []
-- id: 1576648292139
+- id: 1577307679332
   fields:
     Front: |
       CET-07.01-09 Exercise:
@@ -163,7 +179,7 @@ notes:
       $$$
     Annotations: ''
   tags: []
-- id: 1576648502600
+- id: 1577307679539
   fields:
     Front: |
       CET-07.01-10 Exercise:
@@ -181,7 +197,7 @@ notes:
       $$$ Note: We could start by using $\ln \sqrt{x}=\frac{1}{2} \ln x.$
     Annotations: ''
   tags: []
-- id: 1576648601596
+- id: 1577307679752
   fields:
     Front: |
       CET-07.01-11 Exercise:
@@ -199,7 +215,7 @@ notes:
       $$$
     Annotations: ''
   tags: []
-- id: 1576648787902
+- id: 1577307679954
   fields:
     Front: |
       CET-07.01-12 Exercise:
@@ -219,7 +235,7 @@ notes:
       $$$
     Annotations: ''
   tags: []
-- id: 1576648929332
+- id: 1577307680159
   fields:
     Front: |
       CET-07.01-13 Exercise:
@@ -239,7 +255,7 @@ notes:
       $$$
     Annotations: ''
   tags: []
-- id: 1576649046333
+- id: 1577307680393
   fields:
     Front: |
       CET-07.01-14 Exercise:
@@ -256,91 +272,152 @@ notes:
       $$$
     Annotations: ''
   tags: []
-- id: 1576649179283
+- id: 1577307680617
   fields:
     Front: |
       CET-07.01-15 Exercise:
       Evaluate the integral.
       $$$\int(\ln x)^{2} d x$$$
-    Back: |
-      First let $u=(\ln x)^{2}, d v=d x \quad \Rightarrow \quad d u=2 \ln x \cdot \frac{1}{x} d x, v=x .$ Then
-      $I=\int(\ln x)^{2} d x$ $=x(\ln x)^{2}-2 \int x \ln x \cdot \frac{1}{x} d x$ $=x(\ln x)^{2}-2 \int \ln x d x .$ Next let $U=\ln x, d V=d x \Rightarrow$ $d U=1 / x d x, V=x$ to get $\int \ln x d x$ $=x \ln x-\int x \cdot(1 / x) d x$ $=x \ln x-\int d x$ $=x \ln x-x+C_{1} .$ Thus, $I=x(\ln x)^{2}-2\left(x \ln x-x+C_{1}\right)$ $=x(\ln x)^{2}-2 x \ln x+2 x+C,$ where $C=-2 C_{1}.$
+    Back: >
+      First let $u=(\ln x)^{2}, d v=d x \quad \Rightarrow \quad d u=2 \ln x \cdot
+      \frac{1}{x} d x, v=x .$ Then
+
+      $I=\int(\ln x)^{2} d x$ $=x(\ln x)^{2}-2 \int x \ln x \cdot \frac{1}{x} d x$
+      $=x(\ln x)^{2}-2 \int \ln x d x .$ Next let $U=\ln x, d V=d x \Rightarrow$ $d
+      U=1 / x d x, V=x$ to get $\int \ln x d x$ $=x \ln x-\int x \cdot(1 / x) d x$
+      $=x \ln x-\int d x$ $=x \ln x-x+C_{1} .$ Thus, $I=x(\ln x)^{2}-2\left(x \ln
+      x-x+C_{1}\right)$ $=x(\ln x)^{2}-2 x \ln x+2 x+C,$ where $C=-2 C_{1}.$
     Annotations: ''
   tags: []
-- id: 1576649328033
+- id: 1577307680858
   fields:
     Front: |
       CET-07.01-16 Exercise:
       Evaluate the integral.
       $$$\int \frac{z}{10^{z}} d z$$$
-    Back: |
-      $\int \frac{z}{10^{z}} d z=\int z 10^{-z} d z .$ Let $u=z, d v=10^{-z} d z$ $\Rightarrow d u=d z, v=\frac{-10^{-z}}{\ln 10} .$ Then
-      $\int z 10^{-z} d z$ $=\frac{-z 10^{-z}}{\ln 10}-\int \frac{-10^{-z}}{\ln 10} d z$ $=\frac{-z}{10^{z} \ln 10}-\frac{10^{-z}}{(\ln 10)(\ln 10)}+C$ $=-\frac{z}{10^{z} \ln 10}-\frac{1}{10^{z}(\ln 10)^{2}}+C.$
+    Back: >
+      $\int \frac{z}{10^{z}} d z=\int z 10^{-z} d z .$ Let $u=z, d v=10^{-z} d z$
+      $\Rightarrow d u=d z, v=\frac{-10^{-z}}{\ln 10} .$ Then
+
+      $\int z 10^{-z} d z$ $=\frac{-z 10^{-z}}{\ln 10}-\int \frac{-10^{-z}}{\ln 10}
+      d z$ $=\frac{-z}{10^{z} \ln 10}-\frac{10^{-z}}{(\ln 10)(\ln 10)}+C$ $=-\frac{z}{10^{z}
+      \ln 10}-\frac{1}{10^{z}(\ln 10)^{2}}+C.$
     Annotations: ''
   tags: []
-- id: 1576649524658
+- id: 1577307681135
   fields:
     Front: |
       CET-07.01-17 Exercise:
       Evaluate the integral.
       $$$\int e^{2 \theta} \sin 3 \theta d \theta$$$
-    Back: |
-      First let $u=\sin 3 \theta, d v=e^{2 \theta} d \theta \Rightarrow d u=3 \cos 3 \theta d \theta, v=\frac{1}{2} e^{2 \theta} .$ Then
-      $I=\int e^{2 \theta} \sin 3 \theta d \theta=\frac{1}{2} e^{2 \theta} \sin 3 \theta-\frac{3}{2} \int e^{2 \theta} \cos 3 \theta d \theta .$ Next let $U=\cos 3 \theta, d V=e^{2 \theta} d \theta \Rightarrow d U=-3 \sin 3 \theta d \theta,$
-      $V=\frac{1}{2} e^{2 \theta}$ to get $\int e^{2 \theta} \cos 3 \theta d \theta=\frac{1}{2} e^{2 \theta} \cos 3 \theta+\frac{3}{2} \int e^{2 \theta} \sin 3 \theta d \theta .$ Substituting in the previous formula gives
-      $I=\frac{1}{2} e^{2 \theta} \sin 3 \theta-\frac{3}{4} e^{2 \theta} \cos 3 \theta-\frac{9}{4} \int e^{2 \theta} \sin 3 \theta d \theta$ $=\frac{1}{2} e^{2 \theta} \sin 3 \theta-\frac{3}{4} e^{2 \theta} \cos 3 \theta-\frac{9}{4} I \Rightarrow$
-      $\frac{13}{4} I=\frac{1}{2} e^{2 \theta} \sin 3 \theta-\frac{3}{4} e^{2 \theta} \cos 3 \theta+C_{1} .$ Hence, $I=\frac{1}{13} e^{2 \theta}(2 \sin 3 \theta-3 \cos 3 \theta)+C,$ where $C=\frac{4}{13} C_{1}.$
+    Back: >
+      First let $u=\sin 3 \theta, d v=e^{2 \theta} d \theta \Rightarrow d u=3 \cos
+      3 \theta d \theta, v=\frac{1}{2} e^{2 \theta} .$ Then
+
+      $I=\int e^{2 \theta} \sin 3 \theta d \theta=\frac{1}{2} e^{2 \theta} \sin 3
+      \theta-\frac{3}{2} \int e^{2 \theta} \cos 3 \theta d \theta .$ Next let $U=\cos
+      3 \theta, d V=e^{2 \theta} d \theta \Rightarrow d U=-3 \sin 3 \theta d \theta,$
+
+      $V=\frac{1}{2} e^{2 \theta}$ to get $\int e^{2 \theta} \cos 3 \theta d \theta=\frac{1}{2}
+      e^{2 \theta} \cos 3 \theta+\frac{3}{2} \int e^{2 \theta} \sin 3 \theta d \theta
+      .$ Substituting in the previous formula gives
+
+      $I=\frac{1}{2} e^{2 \theta} \sin 3 \theta-\frac{3}{4} e^{2 \theta} \cos 3 \theta-\frac{9}{4}
+      \int e^{2 \theta} \sin 3 \theta d \theta$ $=\frac{1}{2} e^{2 \theta} \sin 3
+      \theta-\frac{3}{4} e^{2 \theta} \cos 3 \theta-\frac{9}{4} I \Rightarrow$
+
+      $\frac{13}{4} I=\frac{1}{2} e^{2 \theta} \sin 3 \theta-\frac{3}{4} e^{2 \theta}
+      \cos 3 \theta+C_{1} .$ Hence, $I=\frac{1}{13} e^{2 \theta}(2 \sin 3 \theta-3
+      \cos 3 \theta)+C,$ where $C=\frac{4}{13} C_{1}.$
     Annotations: ''
   tags: []
-- id: 1576649809188
+- id: 1577307681388
   fields:
     Front: |
       CET-07.01-18 Exercise:
       Evaluate the integral.
       $$$\int e^{-\theta} \cos 2 \theta d \theta$$$
-    Back: |
-      First let $u=e^{-\theta}, d v=\cos 2 \theta d \theta$ $\Rightarrow d u=-e^{-\theta} d \theta, v=\frac{1}{2} \sin 2 \theta .$ Then
-      $I=\int e^{-\theta} \cos 2 \theta d \theta$ $=\frac{1}{2} e^{-\theta} \sin 2 \theta-\int \frac{1}{2} \sin 2 \theta\left(-e^{-\theta} d \theta\right)$ $=\frac{1}{2} e^{-\theta} \sin 2 \theta+\frac{1}{2} \int e^{-\theta} \sin 2 \theta d \theta.$ Next let $U=e^{-\theta}, d V=\sin 2 \theta d \theta \Rightarrow d U=-e^{-\theta} d \theta, V=-\frac{1}{2} \cos 2 \theta,$ so
-      $\int e^{-\theta} \sin 2 \theta d \theta$ $=-\frac{1}{2} e^{-\theta} \cos 2 \theta-\int\left(-\frac{1}{2}\right) \cos 2 \theta\left(-e^{-\theta} d \theta\right)$ $=-\frac{1}{2} e^{-\theta} \cos 2 \theta-\frac{1}{2} \int e^{-\theta} \cos 2 \theta d \theta.$ So $I=\frac{1}{2} e^{-\theta} \sin 2 \theta+\frac{1}{2}\left[\left(-\frac{1}{2} e^{-\theta} \cos 2 \theta\right)-\frac{1}{2} I\right]$ $=\frac{1}{2} e^{-\theta} \sin 2 \theta-\frac{1}{4} e^{-\theta} \cos 2 \theta-\frac{1}{4} I \Rightarrow$
-      $\frac{5}{4} I$ $=\frac{1}{2} e^{-\theta} \sin 2 \theta-\frac{1}{4} e^{-\theta} \cos 2 \theta+C_{1}$ $\Rightarrow I=\frac{4}{5}\left(\frac{1}{2} e^{-\theta} \sin 2 \theta-\frac{1}{4} e^{-\theta} \cos 2 \theta+C_{1}\right)$ $=\frac{2}{5} e^{-\theta} \sin 2 \theta-\frac{1}{5} e^{-\theta} \cos 2 \theta+C.$
+    Back: >
+      First let $u=e^{-\theta}, d v=\cos 2 \theta d \theta$ $\Rightarrow d u=-e^{-\theta}
+      d \theta, v=\frac{1}{2} \sin 2 \theta .$ Then
+
+      $I=\int e^{-\theta} \cos 2 \theta d \theta$ $=\frac{1}{2} e^{-\theta} \sin 2
+      \theta-\int \frac{1}{2} \sin 2 \theta\left(-e^{-\theta} d \theta\right)$ $=\frac{1}{2}
+      e^{-\theta} \sin 2 \theta+\frac{1}{2} \int e^{-\theta} \sin 2 \theta d \theta.$
+      Next let $U=e^{-\theta}, d V=\sin 2 \theta d \theta \Rightarrow d U=-e^{-\theta}
+      d \theta, V=-\frac{1}{2} \cos 2 \theta,$ so
+
+      $\int e^{-\theta} \sin 2 \theta d \theta$ $=-\frac{1}{2} e^{-\theta} \cos 2
+      \theta-\int\left(-\frac{1}{2}\right) \cos 2 \theta\left(-e^{-\theta} d \theta\right)$
+      $=-\frac{1}{2} e^{-\theta} \cos 2 \theta-\frac{1}{2} \int e^{-\theta} \cos 2
+      \theta d \theta.$ So $I=\frac{1}{2} e^{-\theta} \sin 2 \theta+\frac{1}{2}\left[\left(-\frac{1}{2}
+      e^{-\theta} \cos 2 \theta\right)-\frac{1}{2} I\right]$ $=\frac{1}{2} e^{-\theta}
+      \sin 2 \theta-\frac{1}{4} e^{-\theta} \cos 2 \theta-\frac{1}{4} I \Rightarrow$
+
+      $\frac{5}{4} I$ $=\frac{1}{2} e^{-\theta} \sin 2 \theta-\frac{1}{4} e^{-\theta}
+      \cos 2 \theta+C_{1}$ $\Rightarrow I=\frac{4}{5}\left(\frac{1}{2} e^{-\theta}
+      \sin 2 \theta-\frac{1}{4} e^{-\theta} \cos 2 \theta+C_{1}\right)$ $=\frac{2}{5}
+      e^{-\theta} \sin 2 \theta-\frac{1}{5} e^{-\theta} \cos 2 \theta+C.$
     Annotations: ''
   tags:
   - Editing
-- id: 1576649955458
+- id: 1577307681610
   fields:
     Front: |
       CET-07.01-19 Exercise:
       Evaluate the integral.
       $$$\int z^{3} e^{z} d z$$$
-    Back: |
-      First let $u=z^{3}, d v=e^{z} d z$ $\Rightarrow d u=3 z^{2} d z, v=e^{z} .$ Then $I_{1}=\int z^{3} e^{z} d z$ $=z^{3} e^{z}-3 \int z^{2} e^{z} d z .$ Next let $u_{1}=z^{2},$ $d v_{1}=e^{z} d z$ $\Rightarrow d u_{1}=2 z d z, v_{1}$ $=e^{z} \cdot$ Then $I_{2}=z^{2} e^{z}-2 \int z e^{z} d z .$ Finally, let $u_{2}=z, d v_{2}=e^{z} d z$ $\Rightarrow d u_{2}=d z,$ $v_{2}$ $=e^{z} \cdot$ Then $\int z e^{z} d z$ $=z e^{z}-\int e^{z} d z$ $=z e^{z}-e^{z}+C_{1} .$ Substituting in the expression for $I_{2},$ we get $I_{2}=z^{2} e^{z}-2\left(z e^{z}-e^{z}+C_{1}\right)$ $=z^{2} e^{z}-2 z e^{z}+2 e^{z}-2 C_{1} .$ Substituting the last expression for $I_{2}$ into $I_{1}$ gives $I_{1}=z^{3} e^{z}-3\left(z^{2} e^{z}-2 z e^{z}+2 e^{z}-2 C_{1}\right)$ $=z^{3} e^{z}-3 z^{2} e^{z}+6 z e^{z}-6 e^{z}+C,$ where $C=6 C_{1}.$
+    Back: >
+      First let $u=z^{3}, d v=e^{z} d z$ $\Rightarrow d u=3 z^{2} d z, v=e^{z} .$
+      Then $I_{1}=\int z^{3} e^{z} d z$ $=z^{3} e^{z}-3 \int z^{2} e^{z} d z .$ Next
+      let $u_{1}=z^{2},$ $d v_{1}=e^{z} d z$ $\Rightarrow d u_{1}=2 z d z, v_{1}$
+      $=e^{z} \cdot$ Then $I_{2}=z^{2} e^{z}-2 \int z e^{z} d z .$ Finally, let $u_{2}=z,
+      d v_{2}=e^{z} d z$ $\Rightarrow d u_{2}=d z,$ $v_{2}$ $=e^{z} \cdot$ Then $\int
+      z e^{z} d z$ $=z e^{z}-\int e^{z} d z$ $=z e^{z}-e^{z}+C_{1} .$ Substituting
+      in the expression for $I_{2},$ we get $I_{2}=z^{2} e^{z}-2\left(z e^{z}-e^{z}+C_{1}\right)$
+      $=z^{2} e^{z}-2 z e^{z}+2 e^{z}-2 C_{1} .$ Substituting the last expression
+      for $I_{2}$ into $I_{1}$ gives $I_{1}=z^{3} e^{z}-3\left(z^{2} e^{z}-2 z e^{z}+2
+      e^{z}-2 C_{1}\right)$ $=z^{3} e^{z}-3 z^{2} e^{z}+6 z e^{z}-6 e^{z}+C,$ where
+      $C=6 C_{1}.$
     Annotations: ''
   tags: []
-- id: 1576650334884
+- id: 1577307681833
   fields:
     Front: |
       CET-07.01-20 Exercise:
       Evaluate the integral.
       $$$\int x \tan ^{2} x d x$$$
-    Back: |
-      $\int x \tan ^{2} x d x$ $=\int x\left(\sec ^{2} x-1\right) d x$ $=\int x \sec ^{2} x d x-\int x d x .$ Let $u=x, d v=\sec ^{2} x d x$ $\Rightarrow d u=d x, v=\tan x.$
-      Then $\int x \sec ^{2} x d x$ $=x \tan x-\int \tan x d x$ $=x \tan x-\ln |\sec x|,$ and thus, $\int x \tan ^{2} x d x$ $=x \tan x-\ln |\sec x|-\frac{1}{2} x^{2}+C.$
+    Back: >
+      $\int x \tan ^{2} x d x$ $=\int x\left(\sec ^{2} x-1\right) d x$ $=\int x \sec
+      ^{2} x d x-\int x d x .$ Let $u=x, d v=\sec ^{2} x d x$ $\Rightarrow d u=d x,
+      v=\tan x.$
+
+      Then $\int x \sec ^{2} x d x$ $=x \tan x-\int \tan x d x$ $=x \tan x-\ln |\sec
+      x|,$ and thus, $\int x \tan ^{2} x d x$ $=x \tan x-\ln |\sec x|-\frac{1}{2}
+      x^{2}+C.$
     Annotations: ''
   tags: []
-- id: 1576650565858
+- id: 1577307682043
   fields:
     Front: |
       CET-07.01-21 Exercise:
       Evaluate the integral.
       $$$\int \frac{x e^{2 x}}{(1+2 x)^{2}} d x$$$
-    Back: |
-      Let $u=x e^{2 x}, d v=\frac{1}{(1+2 x)^{2}} d x $ $\Rightarrow d u=\left(x \cdot 2 e^{2 x}+e^{2 x} \cdot 1\right) d x$ $=e^{2 x}(2 x+1) d x, v=-\frac{1}{2(1+2 x)}$
+    Back: >
+      Let $u=x e^{2 x}, d v=\frac{1}{(1+2 x)^{2}} d x $ $\Rightarrow d u=\left(x \cdot
+      2 e^{2 x}+e^{2 x} \cdot 1\right) d x$ $=e^{2 x}(2 x+1) d x, v=-\frac{1}{2(1+2
+      x)}$
+
       Then
-      $\int \frac{x e^{2 x}}{(1+2 x)^{2}} d x$ $=-\frac{x e^{2 x}}{2(1+2 x)}+\frac{1}{2} \int \frac{e^{2 x}(2 x+1)}{1+2 x} d x$ $=-\frac{x e^{2 x}}{2(1+2 x)}+\frac{1}{2} \int e^{2 x} d x$ $=-\frac{x e^{2 x}}{2(1+2 x)}+\frac{1}{4} e^{2 x}+C.$
+
+      $\int \frac{x e^{2 x}}{(1+2 x)^{2}} d x$ $=-\frac{x e^{2 x}}{2(1+2 x)}+\frac{1}{2}
+      \int \frac{e^{2 x}(2 x+1)}{1+2 x} d x$ $=-\frac{x e^{2 x}}{2(1+2 x)}+\frac{1}{2}
+      \int e^{2 x} d x$ $=-\frac{x e^{2 x}}{2(1+2 x)}+\frac{1}{4} e^{2 x}+C.$
+
       The answer could be written as $\frac{e^{2 x}}{4(2 x+1)}+C.$
     Annotations: ''
   tags: []
-- id: 1576650880908
+- id: 1577307682279
   media:
   - path: ${file_dir}/images/CET-07.01-22.Xs.1.jpg
   fields:
@@ -348,16 +425,32 @@ notes:
       CET-07.01-22 Exercise:
       Evaluate the integral.
       $$$\int(\arcsin x)^{2} d x$$$
-    Back: |
-      First let $u=(\arcsin x)^{2}, d v=d x$ $\Rightarrow d u=2 \arcsin x \cdot \frac{1}{\sqrt{1-x^{2}}} d x, v=x .$ Then
-      $I=\int(\arcsin x)^{2} d x=x(\arcsin x)^{2}-2 \int \frac{x \arcsin x}{\sqrt{1-x^{2}}} d x .$ To simplify the last integral, let $t=\arcsin x[x=\sin t],$ so $d t=\frac{1}{\sqrt{1-x^{2}}} d x,$ and $\int \frac{x \arcsin x}{\sqrt{1-x^{2}}} d x=\int t \sin t d t .$ To evaluate just the last integral, now let $U=t, d V=\sin t d t \Rightarrow$ $d U=d t, V=-\cos t .$ Thus,
+    Back: >
+      First let $u=(\arcsin x)^{2}, d v=d x$ $\Rightarrow d u=2 \arcsin x \cdot \frac{1}{\sqrt{1-x^{2}}}
+      d x, v=x .$ Then
+
+      $I=\int(\arcsin x)^{2} d x=x(\arcsin x)^{2}-2 \int \frac{x \arcsin x}{\sqrt{1-x^{2}}}
+      d x .$ To simplify the last integral, let $t=\arcsin x[x=\sin t],$ so $d t=\frac{1}{\sqrt{1-x^{2}}}
+      d x,$ and $\int \frac{x \arcsin x}{\sqrt{1-x^{2}}} d x=\int t \sin t d t .$
+      To evaluate just the last integral, now let $U=t, d V=\sin t d t \Rightarrow$
+      $d U=d t, V=-\cos t .$ Thus,
+
       $$$
-      \begin{aligned} \int t \sin t d t &=-t \cos t+\int \cos t d t=-t \cos t+\sin t+C \\ &=-\arcsin x \cdot \frac{\sqrt{1-x^{2}}}{1}+x+C_{1} \quad[\text { refer to the figure }] \end{aligned}
+
+      \begin{aligned} \int t \sin t d t &=-t \cos t+\int \cos t d t=-t \cos t+\sin
+      t+C \\ &=-\arcsin x \cdot \frac{\sqrt{1-x^{2}}}{1}+x+C_{1} \quad[\text { refer
+      to the figure }] \end{aligned}
+
       $$$
+
       <p align="center">
+
       ![](CET-07.01-22.Xs.1.jpg)
+
       </p>
-      Returning to $I,$ we get $I=x(\arcsin x)^{2}+2 \sqrt{1-x^{2}} \arcsin x-2 x+C$ where $C=-2 C_{1}.$
+
+      Returning to $I,$ we get $I=x(\arcsin x)^{2}+2 \sqrt{1-x^{2}} \arcsin x-2 x+C$
+      where $C=-2 C_{1}.$
     Annotations: ''
   tags:
   - Editing

@@ -1,0 +1,54 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-07-TechniquesOfIntegration
+  - CET-07.07-ApproximateIntegration
+  markdownTabLength: 2
+notes:
+- id: 1577558195454
+  media:
+  - path: ${file_dir}/images/CET-07.07-01.Xs.1.jpg
+  - path: ${file_dir}/images/CET-07.07-01.Xs.2.jpg
+  fields:
+    Front: |
+      CET-07.07-01 Exercise:
+      Let $I=\int_{0}^{4} f(x) d x,$ where $f$ is the function whose graph is shown.
+      (a) Use the graph to find $L_{2}, R_{2},$ and $M_{2}$
+      (b) Are these underestimates or overestimates of $I ?$
+      (c) Use the graph to find $T_{2} .$ How does it compare with $I ?$
+      (d) For any value of $n,$ list the numbers $L_{n}, R_{n}, M_{n}, T_{n},$ and $I$ in increasing order.
+      <p align="center">
+      ![](CET-07.07-01.Xs.1.jpg)
+      </p>
+    Back: |
+      (a)
+      $$$
+      \begin{aligned}
+        &\Delta x=(b-a) / n=(4-0) / 2=2\\
+        &L_{2}=\sum_{i=1}^{2} f\left(x_{i-1}\right) \Delta x=f\left(x_{0}\right) \cdot 2+f\left(x_{1}\right) \cdot 2=2[f(0)+f(2)]=2(0.5+2.5)=6\\
+        &R_{2}=\sum_{i=1}^{2} f\left(x_{i}\right) \Delta x=f\left(x_{1}\right) \cdot 2+f\left(x_{2}\right) \cdot 2=2[f(2)+f(4)]=2(2.5+3.5)=12\\
+        &M_{2}=\sum_{i=1}^{2} f\left(\bar{x}_{i}\right) \Delta x=f\left(\bar{x}_{1}\right) \cdot 2+f\left(\bar{x}_{2}\right) \cdot 2=2[f(1)+f(3)] \approx 2(1.6+3.2)=9.6
+      \end{aligned}
+      $$$
+
+      (b)
+      <p align="center">
+      ![](CET-07.07-01.Xs.2.jpg)
+      </p>
+      $L_{2}$ is an underestimate, since the area under the small rectangles is less than the area under the curve, and $R_{2}$ is an overestimate, since the area under the large rectangles is greater than the area under the curve. It appears that $M_{2}$ is an overestimate, though it is fairly close to $I .$ See the solution to Exercise 47 for a proof of the fact that if $f$ is concave down on $[a, b],$ then the Midpoint Rule is an overestimate of $\int_{a}^{b} f(x) d x.$
+
+      (c)
+      $T_{2}=\left(\frac{1}{2} \Delta x\right)\left[f\left(x_{0}\right)+2 f\left(x_{1}\right)+f\left(x_{2}\right)\right]$ $=\frac{2}{2}[f(0)+2 f(2)+f(4)]$ $=0.5+2(2.5)+3.5$ $=9.$
+      This approximation is an underestimate, since the graph is concave down. Thus, $T_{2}=9<I .$ See the solution to Exercise 47 for a general proof of this conclusion.
+
+      (d)
+      For any $n,$ we will have $L_{n}<T_{n}<I<M_{n}<R_{n} .$
+    Annotations: ''
+  tags:
+  - Editing

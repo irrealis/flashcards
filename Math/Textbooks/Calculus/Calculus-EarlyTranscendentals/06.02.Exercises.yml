@@ -1,0 +1,46 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-06-ApplicationsOfIntegration
+  - CET-06.02-Volumes
+  markdownTabLength: 2
+notes:
+- id: 1577641640624
+  media:
+  - path: ${file_dir}/images/CET-06.02-01.Xs.1.jpg
+  - path: ${file_dir}/images/CET-06.02-01.Xs.2.jpg
+  fields:
+    Front: |
+      CET-06.02-01 Exercise:
+      Find the volume of the solid obtained by rotating the region bounded by the given curves about the specified line. Sketch the region, the solid, and a typical disk or washer.
+      $$$
+      y=x+1, y=0, x=0, x=2 ; \text{ about the $x$ -axis}
+      $$$
+    Back: |
+      A cross-section is a disk with radius $x+1,$ so its area is
+      $$$
+        A(x) =\pi(x+1)^{2}=\pi\left(x^{2}+2 x+1\right)
+      $$$ and its volume is
+      $$$
+      \begin{aligned}
+        V
+        &=\int_{0}^{2} A(x) d x=\int_{0}^{2} \pi\left(x^{2}+2 x+1\right) d x \\
+        &=\pi\left[\frac{1}{3} x^{3}+x^{2}+x\right]_{0}^{2} \\
+        &=\pi\left(\frac{8}{3}+4+2\right)=\frac{26 \pi}{3}
+      \end{aligned}
+      $$$
+      <p align="center">
+      ![](CET-06.02-01.Xs.1.jpg)
+      </p>
+      <p align="center">
+      ![](CET-06.02-01.Xs.2.jpg)
+      </p>
+    Annotations: ''
+  tags:
+  - Editing

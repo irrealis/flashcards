@@ -11,7 +11,7 @@ defaults:
   - CET-07.02-TrigonometricIntegrals
   markdownTabLength: 2
 notes:
-- id: 1576709668132
+- id: 1577308002264
   fields:
     Front: |
       CET-07.02-01 Exercise:
@@ -32,7 +32,7 @@ notes:
       The symbols $\stackrel{s}{=}$ and $\stackrel{c}{=}$ indicate the use of the substitutions $\{u=\sin x, d u=\cos x d x\}$ and $\{u=\cos x, d u=-\sin x d x\},$ respectively.
     Annotations: ''
   tags: []
-- id: 1576709894858
+- id: 1577308002530
   fields:
     Front: |
       CET-07.02-02 Exercise:
@@ -53,7 +53,7 @@ notes:
       The symbols $\stackrel{s}{=}$ and $\stackrel{c}{=}$ indicate the use of the substitutions $\{u=\sin x, d u=\cos x d x\}$ and $\{u=\cos x, d u=-\sin x d x\},$ respectively.
     Annotations: ''
   tags: []
-- id: 1576710038307
+- id: 1577125975366
   fields:
     Front: |
       CET-07.02-03 Exercise:
@@ -71,6 +71,26 @@ notes:
         &=\left[\frac{1}{8} u^{8}-\frac{1}{5} u^{10}+\frac{1}{12} u^{12}\right]_{0}^{1} \\
         &=\left(\frac{1}{8}-\frac{1}{5}+\frac{1}{12}\right)-0 \\
         &=\frac{15-24+10}{120}=\frac{1}{120}
+      \end{aligned}
+      $$$
+      The symbols $\stackrel{s}{=}$ and $\stackrel{c}{=}$ indicate the use of the substitutions $\{u=\sin x, d u=\cos x d x\}$ and $\{u=\cos x, d u=-\sin x d x\},$ respectively.
+    Annotations: ''
+  tags: []
+- id: 1577127305659
+  fields:
+    Front: |
+      CET-07.02-04 Exercise:
+      Evaluate the integral.
+      $$$\int_{0}^{\pi / 2} \sin ^{5} x d x$$$
+    Back: |
+      $$$
+      \begin{aligned}
+      \int_{0}^{\pi / 2} \sin ^{5} x d x
+      &=\int_{0}^{\pi / 2} \sin ^{4} x \sin x d x=\int_{0}^{\pi / 2}\left(1-\cos ^{2} x\right)^{2} \sin x d x \\
+      &\stackrel{c}{=} \int_{1}^{0}\left(1-u^{2}\right)^{2}(-d u) \\
+      &=\int_{0}^{1}\left(1-2 u^{2}+u^{4}\right) d u \\
+      &=\left[u-\frac{2}{3} u^{3}+\frac{1}{5} u^{5}\right]_{0}^{1} \\
+      &=\left(1-\frac{2}{3}+\frac{1}{5}\right)-0=\frac{15-10+3}{15}=\frac{8}{15}
       \end{aligned}
       $$$
       The symbols $\stackrel{s}{=}$ and $\stackrel{c}{=}$ indicate the use of the substitutions $\{u=\sin x, d u=\cos x d x\}$ and $\{u=\cos x, d u=-\sin x d x\},$ respectively.
