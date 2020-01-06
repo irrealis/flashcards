@@ -1,0 +1,209 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - SingleVariableEssentialCalculus
+  - SVEC-07-ApplicationsOfIntegration
+  - SVEC-07.07-DifferentialEquations
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1577916190233
+  media:
+  - path: ¢{file_dir}/images/SVEC-07.07-01.Xm.1.jpg
+  fields:
+    Front: |
+      SVEC-07.07-01 Example:
+      ##### separable equations
+      (a) Solve the differential equation $\dfrac{d y}{d x}=\dfrac{x^{2}}{y^{2}}.$
+      (b) Find the solution of this equation that satisfies the initial condition $y(0)=2.$
+    Back: |
+      (a) We write the equation in terms of differentials and integrate both sides:
+      $$
+      \begin{aligned}
+      y^{2} d y &=x^{2} d x \\
+      \int y^{2} d y &=\int x^{2} d x \\
+      \frac{1}{3} y^{3} &=\frac{1}{3} x^{3}+C
+      \end{aligned}
+      $$ where $C$ is an arbitrary constant. (We could have used a constant $C_{1}$ on the left side and another constant $C_{2}$ on the right side. But then we could combine these constants by writing $\left.C=C_{2}-C_{1} . .\right)$ Solving for $y,$ we get
+      $$
+      y=\sqrt[3]{x^{3}+3 C}
+      $$ We could leave the solution like this or we could write it in the form
+      $$
+      y=\sqrt[3]{x^{3}+K}
+      $$ where $K=3 C .$ (Since $C$ is an arbitrary constant, so is $K .$ )
+
+      (b) If we put $x=0$ in the general solution in part (a), we get $y(0)=\sqrt[3]{K} .$ To satisfy the initial condition $y(0)=2,$ we must have $\sqrt[3]{K}=2$ and so $K=8.$ Thus the solution of the initial-value problem is
+      $$
+      y=\sqrt[3]{x^{3}+8}
+      $$
+
+      The figure below shows graphs of several members of the family of solutions of this differential equation. The solution of the initial-value problem in part (b) is shown in blue.
+      <p align="center">
+      ![](SVEC-07.07-01.Xm.1.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1577916476682
+  media:
+  - path: ¢{file_dir}/images/SVEC-07.07-02.Xm.1.jpg
+  fields:
+    Front: |
+      SVEC-07.07-02 Example:
+      ##### separable equations
+      Solve the differential equation $\dfrac{d y}{d x}=\dfrac{6 x^{2}}{2 y+\cos y}.$
+    Back: |
+      Writing the equation in differential form and integrating both sides, we have
+      $$
+      \begin{aligned}
+      (2 y+\cos y) d y &= 6 x^{2} d x \\
+      \int(2 y+\cos y) d y &= \int 6 x^{2} d x \\
+      y^{2}+\sin y &= 2 x^{3}+C
+      \end{aligned}
+      $$ where $C$ is a constant. This gives the general solution implicitly. In this case it's impossible to solve the equation to express $y$ explicitly as a function of $x .$
+
+      Some computer algebra systems can plot curves defined by implicit equations. The figure below shows the graphs of several members of the family of solutions of this differential equation. As we look at the curves from left to right, the values of $C$ are $3,2,1,0,-1,-2,$ and $-3.$
+      <p align="center">
+      ![](SVEC-07.07-02.Xm.1.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1577916725376
+  media:
+  - path: ¢{file_dir}/images/SVEC-07.07-03.Xm.1.jpg
+  fields:
+    Front: |
+      SVEC-07.07-03 Example:
+      ##### separable equations
+      Solve the equation $y^{\prime}=x^{2} y.$
+    Back: |
+      First we rewrite the equation using Leibniz notation:
+      $$
+      \frac{d y}{d x}=x^{2} y
+      $$ If $y \neq 0,$ we can rewrite it in differential notation and integrate:
+      $$
+      \begin{aligned}
+      \frac{d y}{y} &=x^{2} d x \quad y \neq 0 \\
+      \int \frac{d y}{y} &=\int x^{2} d x \\
+      \ln |y| &=\frac{x^{3}}{3}+C
+      \end{aligned}
+      $$ This equation defines $y$ implicitly as a function of $x .$ But in this case we can solve explicitly for $y$ as follows:
+      $$
+      |y|=e^{\ln |y|}=e^{\left(x^{3} / 3\right)+C}=e^{C} e^{x / 3}
+      $$ so
+      $$
+      y=\pm e^{c} e^{x^{3} / 3}
+      $$ We can easily verify that the function $y=0$ is also a solution of the given differential equation. So we can write the general solution in the form
+      $$
+      y=A e^{x^{3} / 3}
+      $$ where $A$ is an arbitrary constant ($A=e^{C},$ or $A=-e^{C},$ or $A=0.$)
+
+      Several solutions of this differential equation are graphed below. The values of $A$ are the same as the $y$ -intercepts.
+      <p align="center">
+      ![](SVEC-07.07-03.Xm.1.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1577916891715
+  fields:
+    Front: |
+      SVEC-07.07-04 Example:
+      ##### separable equations
+      Solve the equation $\dfrac{d y}{d t}=k y.$
+    Back: |
+      This differential equation is was called the law of natural growth (or decay). Since it is a separable equation, we can solve it by the methods of this section as follows:
+      $$
+      \begin{aligned}
+      \int \frac{d y}{y} &=\int k d t \quad y \neq 0 \\
+      \ln |y| &=k t+C \\
+      |y| &=e^{k t+C}=e^{C} e^{k t} \\
+      y &=A e^{k t}
+      \end{aligned}
+      $$ where $A\left(=\pm e^{C} \text { or } 0\right)$ is an arbitrary constant.
+    Annotations: ''
+  tags: []
+- id: 1578331372965
+  media:
+  - path: ¢{file_dir}/images/SVEC-07.07-05.Xm.1.jpg
+  fields:
+    Front: |
+      SVEC-07.07-05 Example:
+      ##### mixing problems
+      A tank contains $20 \text{ kg}$ of salt dissolved in $5000 \text{ L}$ of water. Brine that contains $0.03 \text{ kg}$ of salt per liter of water enters the tank at a rate of $25 \text{ L} / \mathrm{min}$. The solution is kept thoroughly mixed and drains from the tank at the same rate. How much salt remains in the tank after half an hour?
+    Back: |
+      Let $y(t)$ be the amount of salt (in kilograms) after $t$ minutes. We are given that $y(0)=20$ and we want to find $y(30) .$ We do this by finding a differential equation satisfied by $y(t) .$ Note that $d y / d t$ is the rate of change of the amount of salt,
+      $$
+      \frac{d y}{d t}=(\text { rate in })-(\text { rate out })
+      $$ where (rate in ) is the rate at which salt enters the tank and (rate out) is the rate at which salt leaves the tank. We have
+      $$
+      \text { rate in }=\left(0.03 \frac{\mathrm{kg}}{\mathrm{L}}\right)\left(25 \frac{\mathrm{L}}{\min }\right)=0.75 \frac{\mathrm{kg}}{\min }
+      $$ The tank always contains $5000 \text{ L}$ of liquid, so the concentration at time $t$ is $y(t) / 5000$ (measured in kilograms per liter). since the brine flows out at a rate of
+      $25 \text{ L} / \mathrm{min},$ we have
+      $$
+      \text { rate out }=\left(\frac{y(t)}{5000} \frac{\mathrm{kg}}{\mathrm{L}}\right)\left(25 \frac{\mathrm{L}}{\min }\right)=\frac{y(t)}{200} \frac{\mathrm{kg}}{\min }
+      $$ Thus,
+      $$
+      \frac{d y}{d t}=0.75-\frac{y(t)}{200}=\frac{150-y(t)}{200}
+      $$ Solving this separable differential equation, we obtain
+      $$
+      \begin{array}{c}
+      {\int \frac{d y}{150-y}=\int \frac{d t}{200}} \\
+      {-\ln |150-y|=\frac{t}{200}+C}
+      \end{array}
+      $$ Since $y(0)=20,$ we have $-\ln 130=C,$ so
+      $$
+      -\ln |150-y|=\frac{t}{200}-\ln 130
+      $$ Therefore
+      $$
+      |150-y|=130 e^{-t / 200}
+      $$ Since $y(t)$ is continuous and $y(0)=20$ and the right side is never $0,$ we deduce that $150-y(t)$ is always positive. Thus $|150-y|=150-y$ and so
+      $$
+      y(t)=150-130 e^{-t / 200}
+      $$ The amount of salt after 30 min is
+      $$
+      y(30)=150-130 e^{-30 / 200} \approx 38.1 \text{ kg}
+      $$
+      The figure below shows the graph of the function $y(t)$. Notice that, as time goes by, the amount of salt approaches $150 \text{ kg}.$
+      <p align="center">
+      ![](SVEC-07.07-05.Xm.1.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1578337115066
+  media:
+  - path: ¢{file_dir}/images/SVEC-07.07-10.Xm.1.jpg
+  - path: ¢{file_dir}/images/SVEC-07.07-10.Xm.2.jpg
+  fields:
+    Front: |
+      SVEC-07.07-10 Example:
+      ##### direction field
+      (a) Sketch the direction field for the differential equation $y^{\prime}=x^{2}+y^{2}-1$
+
+      (b) Use part (a) to sketch the solution curve that passes through the origin.
+    Back: |
+      (a) We start by computing the slope at several points in the following chart:
+      $$
+      \begin{array}{|c|c|c|c|c|c|c|c|c|c|c|}
+        \hline
+        x & {-2} & {-1} & {0} & {1} & {2} & {-2} & {-1} & {0} & {1} & {2} & {\cdots} \\
+        \hline
+        y & {0} & {0} & {0} & {0} & {0} & {1} & {1} & {1} & {1} & {1} & {\cdots} \\
+        \hline
+        y^{\prime}=x^{2}+y^{2}-1 & {3} & {0} & {-1} & {0} & {3} & {4} & {1} & {0} & {1} & {4} & {\ldots} \\
+        \hline
+      \end{array}
+      $$ Now we draw short line segments with these slopes at these points. The result is the direction field shown below.
+      <p align="center">
+      ![](SVEC-07.07-10.Xm.1.jpg)
+      </p>
+
+      (b) We start at the origin and move to the right in the direction of the line segment (which has slope $-1$). We continue to draw the solution curve so that it moves parallel to the nearby line segments. The resulting solution curve is shown below. Returning to the origin, we draw the solution curve to the left as well.
+      <p align="center">
+      ![](SVEC-07.07-10.Xm.2.jpg)
+      </p>
+    Annotations: ''
+  tags: []
