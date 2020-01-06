@@ -1,0 +1,48 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Proofs
+  - Calculus-EarlyTrancendentals
+  - CET-11-InfiniteSequencesAndSeries
+  - CET-11.01-Sequences
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1578340221264
+  fields:
+    Front: |
+      CET-11.01-01 Proof:
+      Prove that $\lim _{n \rightarrow \infty} \frac{1}{n^{r}}=0$ if $r>0.$
+    Back: |
+      This follows from the fact that $\lim _{x \rightarrow \infty}\left(1 / x^{r}\right)=0$ when $r>0$.
+      $\square$
+    Annotations: ''
+  tags: []
+- id: 1578343668740
+  fields:
+    Front: |
+      CET-11.01-02 Proof:
+      Prove the **Monotonic Sequence Theorem.**
+    Back: |
+      Suppose $\left\{a_{n}\right\}$ is an increasing sequence. Since $\left\{a_{n}\right\}$ is bounded, the set $S=\left\{a_{n} | n \geqslant 1\right\}$ has an upper bound. By the Completeness Axiom it has a least upper bound $L .$ Given $\varepsilon>0, L-\varepsilon$ is not an upper bound for $S$ (since $L$ is the least upper bound). Therefore
+      $$
+      a_{N}>L-\varepsilon \quad \text{for some integer }N
+      $$ But the sequence is increasing so $a_{n} \geqslant a_{N}$ for every $n>N .$ Thus if $n>N,$ we have
+      $$
+      a_{n}>L-\varepsilon
+      $$ so
+      $$
+      0 \leqslant L-a_{n}<\varepsilon
+      $$ since $a_{n} \leqslant L .$ Thus
+      $$
+      \left|L-a_{n}\right|<\varepsilon \quad \text { whenever } n>N
+      $$ so $\lim _{n \rightarrow \infty} a_{n}=L$.
+
+      A similar proof (using the greatest lower bound) works if $\left\{a_{n}\right\}$ is decreasing.
+      $\square$
+    Annotations: ''
+  tags: []

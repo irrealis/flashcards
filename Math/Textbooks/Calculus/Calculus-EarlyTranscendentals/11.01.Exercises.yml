@@ -1,0 +1,26 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-11-InfiniteSequencesAndSeries
+  - CET-11.01-Sequences
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1578344973865
+  fields:
+    Front: |
+      CET-11.01-01 Exercise:
+      List the first five terms of the sequence:
+      $$
+      a_{n}=\frac{2^{n}}{2 n+1}
+      $$
+    Back: |
+      $a_{n}=\frac{2^{n}}{2 n+1},$ so the sequence is $\left\{\frac{2^{1}}{2(1)+1}, \frac{2^{2}}{2(2)+1}, \frac{2^{3}}{2(3)+1}, \frac{2^{4}}{2(4)+1}, \frac{2^{5}}{2(5)+1}, \cdots\right\}$ $=\left\{\frac{2}{3}, \frac{4}{5}, \frac{8}{7}, \frac{16}{9}, \frac{32}{11}, \ldots\right\}$.
+    Annotations: ''
+  tags: []

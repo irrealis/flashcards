@@ -1,0 +1,258 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-11-InfiniteSequencesAndSeries
+  - CET-11.01-Sequences
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1578339001108
+  fields:
+    Front: |
+      CET-11.01-02 Example:
+      Find a formula for the general term $a_{n}$ of the sequence
+      $$
+      \left\{\frac{3}{5},-\frac{4}{25}, \frac{5}{125},-\frac{6}{625}, \frac{7}{3125}, \ldots\right\}
+      $$ assuming that the pattern of the first few terms continues.
+    Back: |
+      We are given that
+      $$
+      a_{1}=\frac{3}{5} \quad a_{2}=-\frac{4}{25} \quad a_{3}=\frac{5}{125} \quad a_{4}=-\frac{6}{625} \quad a_{5}=\frac{7}{3125}
+      $$ Notice that the numerators of these fractions start with 3 and increase by 1 whenever we go to the next term. The second term has numerator $4,$ the third term has numerator $5 ;$ in general, the $n$ th term will have numerator $n+2 .$ The denominators are the powers of $5,$ so $a_{n}$ has denominator $5^{n} .$ The signs of the terms are alternately positive and negative, so we need to multiply by a power of $-1 .$ In Example $1(b)$ the factor $(-1)^{n}$ meant we started with a negative term. Here. Here we want to start with a positive term and so we use $(-1)^{n-1}$ or $(-1)^{n+1} .$ Therefore
+      $$
+      a_{n}=(-1)^{n-1} \frac{n+2}{5^{n}}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1578341100891
+  fields:
+    Front: |
+      CET-11.01-04 Example:
+      Find $\lim _{n \rightarrow \infty} \frac{n}{n+1}$.
+    Back: |
+      Divide numerator and denominator by the highest power of $n$ that occurs in the denominator and then use the Limit Laws.
+      $$
+      \begin{aligned}
+      \lim _{n \rightarrow \infty} \frac{n}{n+1} &=\lim _{n \rightarrow \infty} \frac{1}{1+\frac{1}{n}}=\frac{\lim _{n \rightarrow \infty} 1}{\lim _{n \rightarrow \infty} 1+\lim _{n \rightarrow \infty} \frac{1}{n}} \\
+      &=\frac{1}{1+0}=1
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1578341186760
+  fields:
+    Front: |
+      CET-11.01-05 Example:
+      Is the sequence $a_{n}=\frac{n}{\sqrt{10+n}}$ convergent or divergent?
+    Back: |
+      We divide numerator and denominator by $n$:
+      $$
+      \lim _{n \rightarrow \infty} \frac{n}{\sqrt{10+n}}=\lim _{n \rightarrow \infty} \frac{1}{\sqrt{\frac{10}{n^{2}}+\frac{1}{n}}}=\infty
+      $$ because the numerator is constant and the denominator approaches $0 .$ So $\left\{a_{n}\right\}$ is divergent.
+    Annotations: ''
+  tags: []
+- id: 1578341270014
+  fields:
+    Front: |
+      CET-11.01-06 Example:
+      Calculate $\lim _{n \rightarrow \infty} \frac{\ln n}{n}.$
+    Back: |
+      Notice that both numerator and denominator approach infinity as $n \rightarrow \infty$. We can't apply l' Hospital's Rule directly because it applies not to sequences but to functions of a real variable. However, we can apply l' Hospital's Rule to the related function $f(x)=(\ln x) / x$ and obtain
+      $$ \lim _{x \rightarrow \infty} \frac{\ln x}{x}=\lim _{x \rightarrow \infty} \frac{1 / x}{1}=0
+      $$ Therefore we have
+      $$
+      \lim _{n \rightarrow \infty} \frac{\ln n}{n}=0
+      $$
+    Annotations: ''
+  tags: []
+- id: 1578341448840
+  media:
+  - path: ¢{file_dir}/images/CET-11.01-07.Xm.1.jpg
+  fields:
+    Front: |
+      CET-11.01-07 Example:
+      Determine whether the sequence $a_{n}=(-1)^{n}$ is convergent or divergent.
+    Back: |
+      If we write out the terms of the sequence, we obtain
+      $$
+      \{-1,1,-1,1,-1,1,-1, \ldots\}
+      $$ The graph of this sequence is shown below.
+      <p align="center">
+      ![](CET-11.01-07.Xm.1.jpg)
+      </p>
+      The terms oscillate between 1 and $-1$ infinitely often, $a_{n}$ does not approach any number. Thus $\lim _{n \rightarrow \infty}(-1)^{n}$ does not exist; that is, the sequence $\left\{(-1)^{n}\right\}$ is divergent.
+    Annotations: ''
+  tags: []
+- id: 1578341647013
+  media:
+  - path: ¢{file_dir}/images/CET-11.01-08.Xm.1.jpg
+  fields:
+    Front: |
+      CET-11.01-08 Example:
+      Evaluate $\lim _{n \rightarrow \infty} \frac{(-1)^{n}}{n}$ if it exists.
+    Back: |
+      We first calculate the limit of the absolute value:
+      $$
+      \lim _{n \rightarrow \infty}\left|\frac{(-1)^{n}}{n}\right|=\lim _{n \rightarrow \infty} \frac{1}{n}=0
+      $$ Therefore,
+      $$
+      \lim _{n \rightarrow \infty} \frac{(-1)^{n}}{n}=0
+      $$
+      The graph of this sequence below supports our answer.
+      <p align="center">
+      ![](CET-11.01-08.Xm.1.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1578342067338
+  fields:
+    Front: |
+      CET-11.01-09 Example:
+      Find $\lim \sin (\pi / n).$
+    Back: |
+      Because the sine function is continuous at $0,$ we can write
+      $$
+      \lim _{n \rightarrow \infty} \sin (\pi / n)=\sin \left(\lim _{n \rightarrow \infty}(\pi / n)\right)=\sin 0=0
+      $$
+    Annotations: ''
+  tags: []
+- id: 1578342387640
+  media:
+  - path: ¢{file_dir}/images/CET-11.01-10.Xm.1.jpg
+  fields:
+    Front: |
+      CET-11.01-10 Example:
+      Discuss the convergence of the sequence $a_{n}=n ! / n^{n},$ where $n !=1 \cdot 2 \cdot 3 \cdot \cdots \cdot n.$
+    Back: |
+      Both numerator and denominator approach infinity as $n \rightarrow \infty$ but here we have no corresponding function for use with 1 'Hospital's Rule $(x ! \text { is not defined when } x$ is not an integer). Let's write out a few terms to get a feeling for what happens to $a_{n}$ as $n$ gets large:
+      $$
+      a_{1}=1 \quad a_{2}=\frac{1 \cdot 2}{2 \cdot 2} \quad a_{3}=\frac{1 \cdot 2 \cdot 3}{3 \cdot 3 \cdot 3} \\
+      a_{n}=\frac{1 \cdot 2 \cdot 3 \cdot \cdots \cdot n}{n \cdot n \cdot n \cdot \cdots \cdot n}
+      $$ It appears from these expressions and the graph below that the terms are decreasing and perhaps approach $0 .$
+      <p align="center">
+      ![](CET-11.01-10.Xm.1.jpg)
+      </p>
+      To confirm this, observe that
+      $$
+      a_{n}=\frac{1}{n}\left(\frac{2 \cdot 3 \cdot \cdots \cdot n}{n \cdot n \cdot \cdots \cdot n}\right)
+      $$ Notice that the expression in parentheses is at most 1 because the numerator is less than (or equal to) the denominator. So
+      $$
+      0<a_{n} \leqslant \frac{1}{n}
+      $$ We know that $1 / n \rightarrow 0$ as $n \rightarrow \infty .$ Therefore $a_{n} \rightarrow 0$ as $n \rightarrow \infty$ by the Squeeze Theorem.
+    Annotations: ''
+  tags: []
+- id: 1578342641092
+  media:
+  - path: ¢{file_dir}/images/CET-11.01-11.Xm.1.jpg
+  fields:
+    Front: |
+      CET-11.01-11 Example:
+      For what values of $r$ is the sequence $\left\{r^{n}\right\}$ convergent?
+    Back: |
+      We know that $\lim _{x \rightarrow \infty} a^{x}=\infty$ for $a>1$ and $\lim _{x \rightarrow \infty} a^{x}=0$ for $0<a<1 .$ Therefore, putting $a=r$, we have
+      $$
+      \lim _{n \rightarrow \infty} r^{n}=\left\{\begin{array}{ll}
+      {\infty} & {\text { if } r>1} \\
+      {0} & {\text { if } 0<r<1}
+      \end{array}\right.
+      $$ It is obvious that
+      $$
+      \lim _{n \rightarrow \infty} 1^{n}=1 \quad \text { and } \quad \lim _{n \rightarrow \infty} 0^{n}=0
+      $$ If $-1<r<0,$ then $0<|r|<1,$ so
+      $$
+      \lim _{n \rightarrow \infty}\left|r^{n}\right|=\lim _{n \rightarrow \infty}|r|^{n}=0
+      $$ and therefore $\lim _{n \rightarrow \infty} r^{n}=0$. If $r \leqslant-1,$ then $\left\{r^{n}\right\}$ diverges. The figure below shows the graphs for various values of $r .$
+      <p align="center">
+      ![](CET-11.01-11.Xm.1.jpg)
+      </p>
+      (The case $r=-1$ is shown below.)
+      <p align="center">
+      ![](CET-11.01-07.Xm.1.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1578343099906
+  fields:
+    Front: |
+      CET-11.01-12 Example:
+      Show that the sequence $\left\{\frac{3}{n+5}\right\}$ is decreasing.
+    Back: |
+      The sequence $\left\{\frac{3}{n+5}\right\}$ is decreasing because
+      $$
+      \frac{3}{n+5}>\frac{3}{(n+1)+5}=\frac{3}{n+6}
+      $$ and so $a_{n}>a_{n+1}$ for all $n \geqslant 1$.
+    Annotations: ''
+  tags: []
+- id: 1578343232564
+  fields:
+    Front: |
+      CET-11.01-13 Example:
+      Show that the sequence $a_{n}=\frac{n}{n^{2}+1}$ is decreasing.
+    Back: |
+      **Solution 1:**
+      We must show that $a_{n+1}<a_{n},$ that is,
+      $$
+      \frac{n+1}{(n+1)^{2}+1}<\frac{n}{n^{2}+1}
+      $$ This inequality is equivalent to the one we get by cross-multiplication:
+      $$
+      \begin{aligned}
+      \frac{n+1}{(n+1)^{2}+1}<\frac{n}{n^{2}+1} & \Longleftrightarrow(n+1)\left(n^{2}+1\right)<n\left[(n+1)^{2}+1\right] \\
+      & \Longleftrightarrow n^{3}+n^{2}+n+1<n^{3}+2 n^{2}+2 n \\
+      & \Longleftrightarrow 1<n^{2}+n
+      \end{aligned}
+      $$ Since $n \geqslant 1,$ we know that the inequality $n^{2}+n>1$ is true. Therefore $a_{n+1}<a_{n}$ and $\operatorname{so}\left\{a_{n}\right\}$ is decreasing.
+
+      **Solution 2:**
+      Consider the function $f(x)=\frac{x}{x^{2}+1}$
+      $$
+      f^{\prime}(x)=\frac{x^{2}+1-2 x^{2}}{\left(x^{2}+1\right)^{2}}=\frac{1-x^{2}}{\left(x^{2}+1\right)^{2}}<0 \quad \text { whenever } x^{2}>1
+      $$ Thus $f$ is decreasing on $(1, \infty)$ and so $f(n)>f(n+1) .$ Therefore $\left\{a_{n}\right\}$ is decreasing.
+    Annotations: ''
+  tags: []
+- id: 1578344080486
+  fields:
+    Front: |
+      CET-11.01-14 Example:
+      Investigate the sequence $\left\{a_{n}\right\}$ defined by the recurrence relation
+      $$
+      a_{1}=2 \quad a_{n+1}=\frac{1}{2}\left(a_{n}+6\right) \quad \text { for } n=1,2,3, \ldots
+      $$
+    Back: |
+      We begin by computing the first several terms:
+      $$
+      \begin{array}{rclrclrcl}
+      {a_{1}} &=& {2} & {a_{2}} &=& {\frac{1}{2}(2+6)=4} & {a_{3}} &=& {\frac{1}{2}(4+6)=5} \\
+      {a_{4}} &=& {\frac{1}{2}(5+6)=5.5} & {a_{5}} &=& {5.75} & {a_{6}} &=& {5.875} \\
+      {a_{7}} &=& {5.9375} & {a_{8}} &=& {5.96875} & {a_{9}} &=& {5.984375}
+      \end{array}
+      $$ These initial terms suggest that the sequence is increasing and the terms are approaching $6 .$ To confirm that the sequence is increasing, we use mathematical induction to show that $a_{n+1}>a_{n}$ for all $n \geqslant 1 .$ This is true for $n=1$ because $a_{2}=4>a_{1} .$ If we assume that it is true for $n=k,$ then we have
+      $$
+      \begin{array}{lrcl}
+      & {a_{k+1}} &>& {a_{k}} \\
+      {\text{so}} & {a_{k+1}+6} &>& {a_{k}+6} \\
+      {\text{and}} & {\frac{1}{2}\left(a_{k+1}+6\right)} &>& {\frac{1}{2}\left(a_{k}+6\right)} \\
+      {\text{Thus}} & {a_{k+2}} &>& {a_{k+1}}
+      \end{array}
+      $$ We have deduced that $a_{n+1}>a_{n}$ is true for $n=k+1 .$ Therefore the inequality is true for all $n$ by induction. Next we verify that $\left\{a_{n}\right\}$ is bounded by showing that $a_{n}<6$ for all $n .$ (since the sequence is increasing, we already know that it has a lownd: $a_{n} \geqslant a_{1}=2$ for all $n .$ ) We know that $a_{1}<6,$ so the assertion is true for $n=1 .$ Suppose it is true for $n=k .$ Then
+      $$
+      \begin{array}{lrcl}
+      & {a_{k}} &<& {6} \\
+      {\text{so}} & {a_{k}+6} &<& {12} \\
+      {\text{and}} & {\frac{1}{2}\left(a_{k}+6\right)} &<& {\frac{1}{2}(12)=6} \\
+      {\text{Thus}} & {a_{k+1}} &<& {6}
+      \end{array}
+      $$ This shows, by mathematical induction, that $a_{n}<6$ for all $n .$ since the sequence $\left\{a_{n}\right\}$ is increasing and bounded, the Monotone Sequence Theorem guarantees that it has a limit. The theorem doesn't tell us what the value of the limit is. But now that we know $L=\lim _{n \rightarrow \infty} a_{n}$ exists, we can use the given recurrence relation to write
+      $$
+      \lim _{n \rightarrow \infty} a_{n+1}=\lim _{n \rightarrow \infty} \frac{1}{2}\left(a_{n}+6\right)=\frac{1}{2}\left(\lim _{n \rightarrow \infty} a_{n}+6\right)=\frac{1}{2}(L+6)
+      $$ Since $a_{n} \rightarrow L,$ it follows that $a_{n+1} \rightarrow L$ too (as $n \rightarrow \infty, n+1 \rightarrow \infty$ also). So we have
+      $$
+      L=\frac{1}{2}(L+6)
+      $$ Solving this equation for $L,$ we get $L=6,$ as we predicted.
+    Annotations: ''
+  tags: []

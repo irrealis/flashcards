@@ -1,0 +1,231 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theory
+  - Calculus-EarlyTrancendentals
+  - CET-11-InfiniteSequencesAndSeries
+  - CET-11.01-Sequences
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1578338855514
+  fields:
+    Front: |
+      CET-11.01-01 Theory:
+      Define **sequence.** How is a sequence denoted?
+    Back: |
+      A sequence can be thought of as a list of numbers written in a definite order:
+      $$
+      a_{1}, a_{2}, a_{3}, a_{4}, \ldots, a_{n}, \ldots
+      $$ The number $a_{1}$ is called the first term, $a_{2}$ is the second term, and in general $a_{n}$ is the $n$ th term. We will deal exclusively with infinite sequences and so each term $a_{n}$ will have a successor $a_{n+1}$
+
+      Notice that for every positive integer $n$ there is a corresponding number $a_{n}$ and so a sequence can be defined as a function whose domain is the set of positive integers. But we usually write $a_{n}$ instead of the function notation $f(n)$ for the value of the function at the number $n$
+
+      **Notation:**
+      The sequence $\left\{a_{1}, a_{2}, a_{3}, \ldots\right\}$ is also denoted by
+      $$
+      \left\{a_{n}\right\} \quad \text { or } \quad\left\{a_{n}\right\}_{n=1}^{\infty}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1578339121941
+  fields:
+    Front: |
+      CET-11.01-02 Theory:
+      What is the **Fibonacci sequence?**
+    Back: |
+      The Fibonacci sequence $\left\{f_{n}\right\}$ is defined recursively by the conditions
+      $$
+      f_{1}=1 \quad f_{2}=1 \quad f_{n}=f_{n-1}+f_{n-2} \quad n \geqslant 3
+      $$ Each term is the sum of the two preceding terms. The first few terms are
+      $$
+      \{1,1,2,3,5,8,13,21, \ldots\}
+      $$ This sequence arose when the 13th-century Italian mathematician known as Fibonacci solved a problem concerning the breeding of rabbits.
+    Annotations: ''
+  tags: []
+- id: 1578339301041
+  fields:
+    Front: |
+      CET-11.01-03 Theory:
+      Give the intuitive definition of **limit of a sequence.**
+    Back: |
+      A sequence $\left\{a_{n}\right\}$ has the limit $L$ and we write
+      $$
+      \lim _{n \rightarrow \infty} a_{n}=L \quad \text{or} \quad a_{n} \rightarrow L \text{ as } n \rightarrow \infty
+      $$ if we can make the terms $a_{n}$ as close to $L$ as we like by taking $n$ sufficiently large.
+    Annotations: ''
+  tags: []
+- id: 1578339450840
+  fields:
+    Front: |
+      CET-11.01-04 Theory:
+      What does it mean for a sequence to be **convergent?** **divergent?**
+    Back: |
+      If $\lim _{n \rightarrow \infty} a_{n}$ exists, we say the sequence **converges** (or is **convergent**). Otherwise, we say the sequence **diverges** (or is **divergent**).
+    Annotations: ''
+  tags: []
+- id: 1578339534290
+  fields:
+    Front: |
+      CET-11.01-05 Theory:
+      Give the precise definition of **limit of a sequence.**
+    Back: |
+      A sequence $\left\{a_{n}\right\}$ has the limit $L$ and we write
+      $$
+      \lim _{n \rightarrow \infty} a_{n}=L \quad \text { or } \quad a_{n} \rightarrow L \text { as } n \rightarrow \infty
+      $$ if for every $\varepsilon>0$ there is a corresponding integer $N$ such that
+      $$
+      \text { if } \quad n>N \quad \text { then } \quad\left|a_{n}-L\right|<\varepsilon
+      $$
+    Annotations: ''
+  tags: []
+- id: 1578339940440
+  media:
+  - path: ¢{file_dir}/images/CET-11.01-06.Th.1.jpg
+  fields:
+    Front: |
+      CET-11.01-06 Theory:
+      What theorem relates limits of general functions to limits of sequences?
+    Back: |
+      If $\lim _{x \rightarrow \infty} f(x)=L$ and $f(n)=a_{n}$ when $n$ is an integer, then $\lim _{n \rightarrow \infty} a_{n}=L.$
+
+      This is illustrated in the figure below.
+      <p align="center">
+      ![](CET-11.01-06.Th.1.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1578340099689
+  fields:
+    Front: |
+      CET-11.01-07 Theory:
+      What is $\lim _{n \rightarrow \infty} \frac{1}{n^{r}}$ when $r>0?$
+    Back: |
+      $$
+      \lim _{n \rightarrow \infty} \frac{1}{n^{r}}=0 \quad \text { if } r>0
+      $$
+    Annotations: ''
+  tags: []
+- id: 1578340339840
+  fields:
+    Front: |
+      CET-11.01-08 Theory:
+      What does $\lim _{n \rightarrow \infty} a_{n}=\infty$ mean? Give the intuitive definition.
+    Back: |
+      $\lim _{n \rightarrow \infty} a_{n}=\infty$ means that $a_{n}$ becomes large as $n$ becomes large.
+    Annotations: ''
+  tags: []
+- id: 1578340409089
+  fields:
+    Front: |
+      CET-11.01-09 Theory:
+      What does $\lim _{n \rightarrow \infty} a_{n}=\infty$ mean? Give the precise definition.
+    Back: |
+      $\lim _{n \rightarrow \infty} a_{n}=\infty$ means that for every positive number $M$ there is an integer $N$ such that
+      $$
+      \text { if } \quad n>N \quad \text { then } \quad a_{n}>M
+      $$
+    Annotations: ''
+  tags: []
+- id: 1578340619365
+  fields:
+    Front: |
+      CET-11.01-10 Theory:
+      State the **Limit Laws for Sequences.**
+    Back: |
+      If $\left\{a_{n}\right\}$ and $\left\{b_{n}\right\}$ are convergent sequences and $c$ is a constant, then
+      $$
+      \begin{array}{l}
+      {\lim _{n \rightarrow \infty}\left(a_{n}+b_{n}\right)=\lim _{n \rightarrow \infty} a_{n}+\lim _{n \rightarrow \infty} b_{n}} \\
+      {\lim _{n \rightarrow \infty}\left(a_{n}-b_{n}\right)=\lim _{n \rightarrow \infty} a_{n}-\lim _{n \rightarrow \infty} b_{n}} \\
+      {\lim _{n \rightarrow \infty} c a_{n}=c \lim _{n \rightarrow \infty} a_{n}} \\
+      {\lim _{n \rightarrow \infty} c=c} \\
+      {\lim _{n \rightarrow \infty}\left(a_{n} b_{n}\right)=\lim _{n \rightarrow \infty} a_{n} \cdot \lim _{n \rightarrow \infty} b_{n}} \\
+      {\lim _{n \rightarrow \infty} \frac{a_{n}}{b_{n}}=\frac{\lim _{n \rightarrow \infty} a_{n}}{\lim _{n \rightarrow \infty} b_{n}} \quad \text{ if } \lim _{n \rightarrow \infty} b_{n} \neq 0} \\
+      {\lim _{n \rightarrow \infty} a_{n}^{p}=\left[\lim _{n \rightarrow \infty} a_{n}\right]^{p} \quad \text{ if } p>0 \text{ and } a_{n}>0}
+      \end{array}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1578340935365
+  fields:
+    Front: |
+      CET-11.01-11 Theory:
+      State the **Squeeze Theorem for Sequences.**
+    Back: |
+      If $a_{n} \leqslant b_{n} \leqslant c_{n}$ for $n \geqslant n_{0}$ and $\lim _{n \rightarrow \infty} a_{n}=\lim _{n \rightarrow \infty} c_{n}=L,$ then $\lim _{n \rightarrow \infty} b_{n}=L.$
+    Annotations: ''
+  tags: []
+- id: 1578341004114
+  fields:
+    Front: |
+      CET-11.01-12 Theory:
+      If $\lim _{n \rightarrow \infty}\left|a_{n}\right|=0,$ what is $\lim _{n \rightarrow \infty} a_{n}$?
+    Back: |
+      If $\lim _{n \rightarrow \infty}\left|a_{n}\right|=0,$ then $\lim _{n \rightarrow \infty} a_{n}=0.$
+    Annotations: ''
+  tags: []
+- id: 1578341960490
+  fields:
+    Front: |
+      CET-11.01-13 Theory:
+      State the **Continuous Limit Function Theorem for Sequences.** (My own term.)
+    Back: |
+      If $\lim _{n \rightarrow \infty} a_{n}=L$ and the function $f$ is continuous at $L,$ then
+      $$
+      \lim _{n \rightarrow \infty} f\left(a_{n}\right)=f(L)
+      $$ That is, if we apply a continuous function to the terms of a convergent sequence, the result is also convergent.
+    Annotations: ''
+  tags: []
+- id: 1578342895289
+  fields:
+    Front: |
+      CET-11.01-14 Theory:
+      When is the sequence $\left\{r^{n}\right\}$ convergent?
+    Back: |
+      The sequence $\left\{r^{n}\right\}$ is convergent if $-1<r \leqslant 1$ and divergent for all other values of $r$.
+      $$
+      \lim _{n \rightarrow \infty} r^{n}=\left\{\begin{array}{ll}
+      {0} & {\text { if }-1<r<1} \\
+      {1} & {\text { if } r=1}
+      \end{array}\right.
+      $$
+    Annotations: ''
+  tags: []
+- id: 1578343015942
+  fields:
+    Front: |
+      CET-11.01-15 Theory:
+      What does it mean for a sequence to be **increasing?** **decreasing?** **monotonic?**
+    Back: |
+      A sequence $\left\{a_{n}\right\}$ is called **increasing** if $a_{n}<a_{n+1}$ for all $n \geqslant 1$ that is, $a_{1}<a_{2}<a_{3}<\cdots .$ It is called **decreasing** if $a_{n}>a_{n+1}$ for all $n \geqslant 1.$ A sequence is **monotonic** if it is either increasing or decreasing.
+    Annotations: ''
+  tags: []
+- id: 1578343377315
+  fields:
+    Front: |
+      CET-11.01-16 Theory:
+      What does it mean for a sequence to be **bounded above?** **bounded below?** **bounded?**
+    Back: |
+      A sequence $\left\{a_{n}\right\}$ is **bounded above** if there is a number $M$ such that
+      $$
+      a_{n} \leqslant M \quad \text { for all } n \geqslant 1
+      $$ It is **bounded below** if there is a number $m$ such that
+      $$
+      m \leqslant a_{n} \quad \text{for all } n \geqslant 1
+      $$ If it is bounded above and below, then $\left\{a_{n}\right\}$ is a **bounded** sequence.
+    Annotations: ''
+  tags: []
+- id: 1578343516514
+  fields:
+    Front: |
+      CET-11.01-17 Theory:
+      State the **Monotonic Sequence Theorem.**
+    Back: |
+      Every bounded, monotonic sequence is convergent.
+    Annotations: ''
+  tags: []
