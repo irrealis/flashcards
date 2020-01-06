@@ -70,5 +70,4 @@ notes:
       A=\int_{a}^{b}|f(x)-g(x)| d x
       $$$
     Annotations: ''
-  tags:
-  - Editing
+  tags: []

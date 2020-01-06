@@ -26,5 +26,4 @@ notes:
       d x$ $=\left[\frac{3}{4} x^{4 / 3}-\ln |x|\right]_{1}^{8}$ $=(12-\ln 8)-\left(\frac{3}{4}-\ln
       1\right)$ $=\frac{45}{4}-\ln 8.$
     Annotations: ''
-  tags:
-  - Editing
+  tags: []
