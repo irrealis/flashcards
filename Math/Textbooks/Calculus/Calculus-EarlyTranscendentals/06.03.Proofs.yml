@@ -1,0 +1,42 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Proofs
+  - Calculus-EarlyTrancendentals
+  - CET-06-ApplicationsOfIntegration
+  - CET-06.03-VolumesByCylindricalShells
+  markdownTabLength: 2
+notes:
+- id: 1577643787621
+  media:
+  - path: ${file_dir}/images/CET-06.03-01.Th.1.jpg
+  fields:
+    Front: |
+      CET-06.03-01 Proof:
+      Derive the **formula for the volume of a cylindrical shell.**
+    Back: |
+      The figure below shows a cylindrical shell with inner radius $r_{1},$ outer radius $r_{2},$ and height $h .$
+      <p align="center">
+      ![](CET-06.03-01.Th.1.jpg)
+      </p>
+      Its volume $V$ is calculated by subtracting the volume $V_{1}$ of the inner cylinder from the volume $V_{2}$ of the outer cylinder:
+      $$$
+      \begin{aligned}
+      V &=V_{2}-V_{1} \\
+      &=\pi r_{2}^{2} h-\pi r_{1}^{2} h=\pi\left(r_{2}^{2}-r_{1}^{2}\right) h \\
+      &=\pi\left(r_{2}+r_{1}\right)\left(r_{2}-r_{1}\right) h \\
+      &=2 \pi \frac{r_{2}+r_{1}}{2} h\left(r_{2}-r_{1}\right)
+      \end{aligned}
+      $$$ If we let $\Delta r=r_{2}-r_{1}$ (the thickness of the shell) and $r=\frac{1}{2}\left(r_{2}+r_{1}\right)$ (the average radius of the shell), then this formula for the volume of a cylindrical shell becomes
+      $$$
+      V=2 \pi r h \Delta r
+      $$$ and it can be remembered as
+      $$$
+      V=[\text { circumference }][\text { height }][\text { thickness }]
+      $$$
+    Annotations: ''
+  tags: []

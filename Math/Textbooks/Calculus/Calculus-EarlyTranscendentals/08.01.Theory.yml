@@ -1,0 +1,126 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theory
+  - Calculus-EarlyTrancendentals
+  - CET-08-FurtherApplicationsOfIntegration
+  - CET-08.01-ArcLength
+  markdownTabLength: 2
+notes:
+- id: 1577650205267
+  media:
+  - path: ${file_dir}/images/CET-08.01-01.Th.1.jpg
+  fields:
+    Front: |
+      CET-08.01-01 Theory:
+      Define the **length $L$ of the curve $C$ with equation $y=f(x),$ $a \leqslant x \leqslant b.$**
+    Back: >
+      We obtain a polygonal approximation to $C$ by dividing the interval $[a, b]$
+      into $n$ subintervals with endpoints $x_{0}, x_{1}, \ldots, x_{n}$ and equal
+      width $\Delta x .$ If $y_{i}=f\left(x_{i}\right),$ then the point $P_{i}\left(x_{i},
+      y_{i}\right)$ lies on $C$ and the polygon with vertices $P_{0}, P_{1}, \ldots,
+      P_{n},$ illustrated below, is an approximation to $C .$
+
+      <p align="center">
+
+      ![](CET-08.01-01.Th.1.jpg)
+
+      </p>
+
+      The length $L$ of $C$ is approximately the length of this polygon and the approximation
+      gets better as we let $n$ increase. Therefore we define the length $L$ of the
+      curve $C$ with equation $y=f(x)$ $a \leqslant x \leqslant b,$ as the limit of
+      the lengths of these inscribed polygons (if the limit exists):
+
+      $$$
+
+      L=\lim _{n \rightarrow \infty} \sum_{i=1}^{n}\left|P_{i-1} P_{i}\right|=\lim
+      _{n \rightarrow \infty} \sum_{i=1}^{n} \sqrt{1+\left[f^{\prime}\left(x_{i}^{*}\right)\right]^{2}}
+      \Delta x
+
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1577650449775
+  fields:
+    Front: |
+      CET-08.01-02 Theory:
+      State the **Arc Length Formula.**
+    Back: |
+      If $f^{\prime}$ is continuous on $[a, b]$, then the length of the curve $y=f(x), a \leqslant x \leqslant b,$ is
+      $$$
+      L=\int_{a}^{b} \sqrt{1+\left[f^{\prime}(x)\right]^{2}} d x
+      $$$ If we use Leibniz notation for derivatives, we can write the arc length formula as follows:
+      $$$
+      L=\int_{a}^{b} \sqrt{1+\left(\frac{d y}{d x}\right)^{2}} d x
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1577651631270
+  fields:
+    Front: |
+      CET-08.01-03 Theory:
+      If a curve has the equation $x=g(y),$ $c \leqslant y \leqslant d,$ and $g^{\prime}(y)$ is continuous, state the corresponding **Arc Length Formula.**
+    Back: |
+      $$$
+      L=\int_{c}^{d} \sqrt{1+\left[g^{\prime}(y)\right]^{2}} d y=\int_{c}^{d} \sqrt{1+\left(\frac{d x}{d y}\right)^{2}} d y
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1577652308345
+  fields:
+    Front: |
+      CET-08.01-04 Theory:
+      State the **arc length function.**
+    Back: >
+      If a smooth curve $C$ has the equation $y=f(x),$ $a \leqslant x \leqslant b,$
+      let $s(x)$ be the distance along $C$ from the initial point $P_{0}(a, f(a))$
+      to the point $Q(x, f(x)) .$ Then $s$ is a function, called the are length function,
+      and
+
+      $$$
+
+      s(x) = \int_{a}^{x} \sqrt{1+\left[f^{\prime}(t)\right]^{2}} d t
+
+      $$$ (We have replaced the variable of integration by $t$ so that $x$ does not
+      have two meanings.)
+    Annotations: ''
+  tags: []
+- id: 1577652540520
+  fields:
+    Front: |
+      CET-08.01-05 Theory:
+      What is the rate of change of the arc length function?
+    Back: |
+      $$$
+      \frac{d s}{d x}=\sqrt{1+\left[f^{\prime}(x)\right]^{2}}=\sqrt{1+\left(\frac{d y}{d x}\right)^{2}}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1577652655296
+  fields:
+    Front: |
+      CET-08.01-06 Theory:
+      What is the minimum the rate of change of the arc length function? When is this minimum attained?
+    Back: |
+      The rate of change of $s$ with respect to $x$ is always at least 1 and is equal to 1 when $f^{\prime}(x),$ the slope of the curve, is $0 .$
+    Annotations: ''
+  tags: []
+- id: 1577652775746
+  fields:
+    Front: |
+      CET-08.01-07 Theory:
+      What is the differential of arc length?
+    Back: |
+      $$$
+      d s=\sqrt{1+\left(\frac{d y}{d x}\right)^{2}} d x
+      $$$ This equation is sometimes written in the symmetric form
+      $$$
+      (d s)^{2}=(d x)^{2}+(d y)^{2}
+      $$$
+    Annotations: ''
+  tags: []

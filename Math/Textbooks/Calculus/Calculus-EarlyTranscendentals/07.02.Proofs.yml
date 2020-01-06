@@ -11,10 +11,11 @@ defaults:
   - CET-07.02-TrigonometricIntegrals
   markdownTabLength: 2
 notes:
-- id: 1576705967708
+- id: 1577308003160
   fields:
     Front: |
       CET-07.02-01 Proof:
+      ##### trigonometric integrals
       Prove that $\int \sec x d x=\ln |\sec x+\tan x|+C.$
     Back: |
       We could verify by differentiating the right side, or as follows. First we multiply numerator and denominator by sec $x+\tan x$ :

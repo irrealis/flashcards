@@ -1,0 +1,40 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Proofs
+  - SingleVariableEssentialCalculus
+  - SVEC-07-ApplicationsOfIntegration
+  - SVEC-07.07-DifferentialEquations
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1577915716179
+  fields:
+    Front: |
+      SVEC-07.07-01 Proof:
+      ##### separable equations
+      Justify the general procedure used to solve a separable equation.
+    Back: |
+      We use the Chain Rule to justify this procedure: If $h$ and $g$ satisfy
+      $$
+      \int h(y) d y=\int g(x) d x
+      $$ then
+      $$
+      \frac{d}{d x}\left(\int h(y) d y\right)=\frac{d}{d x}\left(\int g(x) d x\right)
+      $$ so
+      $$
+      \frac{d}{d y}\left(\int h(y) d y\right) \frac{d y}{d x}=g(x)
+      $$ and
+      $$
+      h(y) \frac{d y}{d x}=g(x)
+      $$ which satisfies
+      $$
+      \frac{d y}{d x}=\frac{g(x)}{h(y)}
+      $$
+      $\square$
+    Annotations: ''
+  tags: []

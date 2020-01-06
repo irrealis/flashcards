@@ -1,0 +1,233 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-08-FurtherApplicationsOfIntegration
+  - CET-08.03-ApplicationsToPhysicsAndEngineering
+  markdownTabLength: 2
+notes:
+- id: 1577742163766
+  fields:
+    Front: |
+      CET-08.03-01 Example:
+      ##### hydrostatic pressure and force
+      What is the pressure at the bottom of a swimming pool $2 \text{ m}$ deep?
+    Back: |
+      Because the density of water is $\rho=1000 \text{ kg} / \mathrm{m}^{3},$ the pressure at the bottom of a swimming pool $2 \text{ m}$ deep is
+      $$$
+      \begin{aligned}
+      P=\rho g d &=1000 \text{ kg} / \mathrm{m}^{3} \times 9.8 \text{ m} / \mathrm{s}^{2} \times 2 \text{ m} \\
+      &=19,600 \text{ Pa}=19.6 \text{ kPa}
+      \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1577743434587
+  media:
+  - path: ${file_dir}/images/CET-08.03-02.Xm.1.jpg
+  - path: ${file_dir}/images/CET-08.03-02.Xm.2.jpg
+  - path: ${file_dir}/images/CET-08.03-02.Xm.3.jpg
+  fields:
+    Front: |
+      CET-08.03-02 Example:
+      ##### hydrostatic pressure and force
+      A dam has the shape of the trapezoid shown below.
+      <p align="center">
+      ![](CET-08.03-02.Xm.1.jpg)
+      </p>
+      The height is $20 \mathrm{m}$ and the width is $50 \text{ m}$ at the top and $30 \text{ m}$ at the bottom. Find the force on the dam due to hydrostatic pressure if the water level is $4 \text{ m}$ from the top of the dam.
+    Back: |
+      We choose a vertical $x$-axis with origin at the surface of the water and directed downward as shown below.
+      <p align="center">
+      ![](CET-08.03-02.Xm.2.jpg)
+      </p>
+      The depth of the water is $16 \text{ m},$ so we divide the interval $[0,16]$ into subintervals of equal length with endpoints $x_{i}$ and we choose $x_{i}^{*} \in\left[x_{i-1}, x_{i}\right] .$ The $i$ th horizontal strip of the dam is approximated by a rectangle with height $\Delta x$ and width $w_{i},$ where, from similar triangles in the following figure,
+      $$$
+      \frac{a}{16-x_{i}^{*}}=\frac{10}{20} \quad \text { or } \quad a=\frac{16-x_{i}^{*}}{2}=8-\frac{x_{i}^{*}}{2}
+      $$$
+      <p align="center">
+      ![](CET-08.03-02.Xm.3.jpg)
+      </p>
+      and so
+      $$$
+      w_{i}=2(15+a)=2\left(15+8-\frac{1}{2} x_{i}^{*}\right)=46-x_{i}^{*}
+      $$$ If $A_{i}$ is the area of the $i$ th strip, then
+      $$$
+      A_{i} \approx w_{i} \Delta x=\left(46-x_{i}^{*}\right) \Delta x
+      $$$ If $\Delta x$ is small, then the pressure $P_{i}$ on the $i$ th strip is almost constant and we write
+      $$$
+      P_{i} \approx 1000 g x_{i}^{*}
+      $$$ The hydrostatic force $F_{i}$ acting on the $i$ th strip is the product of the pressure and the area:
+      $$$
+      F_{i}=P_{i} A_{i} \approx 1000 g x_{i}^{*}\left(46-x_{i}^{*}\right) \Delta x
+      $$$ Adding these forces and taking the limit as $n \rightarrow \infty,$ we obtain the total hydrostatic force on the dam:
+      $$$
+      \begin{aligned}
+      F &=\lim _{n \rightarrow \infty} \sum_{i=1}^{n} 1000 g x_{i}^{*}\left(46-x_{i}^{*}\right) \Delta x=\int_{0}^{16} 1000 g x(46-x) d x \\
+      &=1000(9.8) \int_{0}^{16}\left(46 x-x^{2}\right) d x=9800\left[23 x^{2}-\frac{x^{3}}{3}\right]_{0}^{16} \\
+      & \approx 4.43 \times 10^{7} \text{ N}
+      \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1577743715838
+  media:
+  - path: ${file_dir}/images/CET-08.03-03.Xm.1.jpg
+  fields:
+    Front: |
+      CET-08.03-03 Example:
+      ##### hydrostatic pressure and force
+      Find the hydrostatic force on one end of a cylindrical drum with radius $3 \text{ ft}$ if the drum is submerged in water $10 \text{ ft}$ deep.
+    Back: |
+      In this example it is convenient to choose the axes as in the following figure so that the origin is placed at the center of the drum.
+      <p align="center">
+      ![](CET-08.03-03.Xm.1.jpg)
+      </p>
+      Then the circle has a simple equation, $x^{2}+y^{2}=9 .$ We divide the circular region into horizontal strips of equal width. From the equation of the circle, we see that the length of the $i$ th strip is $2 \sqrt{9-\left(y_{i}^{*}\right)^{2}}$ and so its area is
+      $$$
+      A_{i}=2 \sqrt{9-\left(y_{i}^{*}\right)^{2}} \Delta y
+      $$$
+      Because the weight density of water is $\delta=62.5 \text{ lb} / \mathrm{ft}^{3},$ the pressure on this strip is approximately
+      $$$
+      \delta d_{i}=62.5\left(7-y_{i}^{*}\right)
+      $$$
+      and so the force on the strip is approximately
+      $$$
+      \delta d_{i} A_{i}=62.5\left(7-y_{i}^{*}\right) 2 \sqrt{9-\left(y_{i}^{*}\right)^{2}} \Delta y
+      $$$ The total force is obtained by adding the forces on all the strips and taking the limit:
+      $$$
+      \begin{aligned}
+      F &=\lim _{n \rightarrow \infty} \sum_{i=1}^{n} 62.5\left(7-y_{i}^{*}\right) 2 \sqrt{9-\left(y_{i}^{*}\right)^{2}} \Delta y \\
+      &=125 \int_{-3}^{3}(7-y) \sqrt{9-y^{2}} d y \\
+      &=125 \cdot 7 \int_{-3}^{3} \sqrt{9-y^{2}} d y-125 \int_{-3}^{3} y \sqrt{9-y^{2}} d y
+      \end{aligned}
+      $$$ The second integral is 0 because the integrand is an odd function. The first integral can be evaluated using the trigonometric substitution $y=3 \sin \theta,$ but it's simpler to observe that it is the area of a semicircular disk with radius $3 .$ Thus
+      $$$
+      \begin{aligned}
+      F &=875 \int_{-3}^{3} \sqrt{9-y^{2}} d y=875 \cdot \frac{1}{2} \pi(3)^{2} \\
+      &=\frac{7875 \pi}{2} \approx 12,370 \text{ lb}
+      \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1577748436519
+  media:
+  - path: ${file_dir}/images/CET-08.03-04.Xm.1.jpg
+  fields:
+    Front: |
+      CET-08.03-04 Example:
+      ##### moments and centers of mass
+      Find the moments and center of mass of the system of objects that have masses $3,4,$ and 8 at the points $(-1,1),(2,-1),$ and $(3,2),$ respectively.
+    Back: |
+      $$$
+      \begin{aligned}
+      M_{y} &=3(-1)+4(2)+8(3)=29 \\
+      M_{x} &=3(1)+4(-1)+8(2)=15
+      \end{aligned}
+      $$$ Since $m=3+4+8=15,$
+      $$$
+      \overline{x}=\frac{M_{y}}{m}=\frac{29}{15} \quad \overline{y}=\frac{M_{x}}{m}=\frac{15}{15}=1
+      $$$ Thus the center of mass is $\left(1 \frac{14}{15}, 1\right).$ (See figure below.)
+      <p align="center">
+      ![](CET-08.03-04.Xm.1.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1577765263423
+  media:
+  - path: ${file_dir}/images/CET-08.03-05.Xm.1.jpg
+  fields:
+    Front: |
+      CET-08.03-05 Example:
+      ##### moments and centers of mass
+      Find the center of mass of a semicircular plate of radius $r .$
+    Back: |
+      We place the semicircle as shown below so that $f(x)=\sqrt{r^{2}-x^{2}}$ and $a=-r, b=r .$
+      <p align="center">
+      ![](CET-08.03-05.Xm.1.jpg)
+      </p>
+      By the symmetry principle, the center of mass must lie on the $y$ axis, so $\overline{x}=0 .$ The area of the semicircle is $A=\frac{1}{2} \pi r^{2},$ so
+      $$$
+      \begin{aligned}
+      \overline{y}
+      &=\frac{1}{A} \int_{-r}^{r} \frac{1}{2}[f(x)]^{2} d x \\
+      &=\frac{1}{\frac{1}{2} \pi r^{2}} \cdot \frac{1}{2} \int_{-r}^{r}(\sqrt{r^{2}-x^{2}})^{2} d x \\
+      &=\frac{2}{\pi r^{2}} \int_{0}^{r}\left(r^{2}-x^{2}\right) d x \quad\text{(since the integrand is even)} \\
+      &=\frac{2}{\pi r^{2}}\left[r^{2} x-\frac{x^{3}}{3}\right]_{0}^{r} \\
+      &=\frac{2}{\pi r^{2}} \frac{2 r^{3}}{3}=\frac{4 r}{3 \pi}
+      \end{aligned}
+      $$$ The center of mass is located at the point $(0,4 r /(3 \pi)).$
+    Annotations: ''
+  tags: []
+- id: 1577765476040
+  media:
+  - path: ${file_dir}/images/CET-08.03-06.Xm.1.jpg
+  fields:
+    Front: |
+      CET-08.03-06 Example:
+      ##### moments and centers of mass
+      Find the centroid of the region bounded by the curves $y=\cos x, y=0$ $x=0,$ and $x=\pi / 2.$
+    Back: |
+      The area of the region is
+      $$$
+      \left.A=\int_{0}^{\pi / 2} \cos x d x=\sin x\right]_{0}^{\pi / 2}=1
+      $$$ So
+      $$$
+      \begin{aligned}
+      \overline{x} &=\frac{1}{A} \int_{0}^{\pi / 2} x f(x) d x=\int_{0}^{\pi / 2} x \cos x d x \\
+      &=x \sin x]_{0}^{\pi / 2}-\int_{0}^{\pi / 2} \sin x d x \quad \text { (by integration by parts) } \\
+      &=\frac{\pi}{2}-1 \\
+      \overline{y} &=\frac{1}{A} \int_{0}^{\pi / 2} \frac{1}{2}[f(x)]^{2} d x=\frac{1}{2} \int_{0}^{\pi / 2} \cos ^{2} x d x \\
+      &=\frac{1}{4} \int_{0}^{\pi / 2}(1+\cos 2 x) d x=\frac{1}{4}\left[x+\frac{1}{2} \sin 2 x\right]_{0}^{\pi / 2}=\frac{\pi}{8}
+      \end{aligned}
+      $$$ The centroid is $\left(\frac{1}{2} \pi-1, \frac{1}{8} \pi\right)$ and is shown below.
+      <p align="center">
+      ![](CET-08.03-06.Xm.1.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1577817789556
+  media:
+  - path: ${file_dir}/images/CET-08.03-07.Xm.1.jpg
+  fields:
+    Front: |
+      CET-08.03-07 Example:
+      ##### moments and centers of mass
+      Find the centroid of the region bounded by the line $y=x$ and the parabola $y=x^{2}.$
+    Back: |
+      The region is sketched below.
+      <p align="center">
+      ![](CET-08.03-07.Xm.1.jpg)
+      </p>
+      We take $f(x)=x, g(x)=x^{2}, a=0$ and $b=1$ in Formulas $9 .$ First we note that the area of the region is
+      $$$
+      \left.A=\int_{0}^{1}\left(x-x^{2}\right) d x=\frac{x^{2}}{2}-\frac{x^{3}}{3}\right]_{0}^{1}=\frac{1}{6}
+      $$$ Therefore
+      $$$
+      \begin{aligned}
+      \overline{x} &=\frac{1}{A} \int_{0}^{1} x[f(x)-g(x)] d x=\frac{1}{6} \int_{0}^{1} x\left(x-x^{2}\right) d x \\
+      &=6 \int_{0}^{1}\left(x^{2}-x^{3}\right) d x=6\left[\frac{x^{3}}{3}-\frac{x^{4}}{4}\right]_{0}^{1}=\frac{1}{2} \\
+      \overline{y} &=\frac{1}{A} \int_{0}^{1} \frac{1}{2}\left\{[f(x)]^{2}-[g(x)]^{2}\right\} d x=\frac{1}{6} \int_{0}^{1} \frac{1}{2}\left(x^{2}-x^{4}\right) d x \\
+      &=3\left[\frac{x^{3}}{3}-\frac{x^{5}}{5}\right]_{0}^{1}=\frac{2}{5}
+      \end{aligned}
+      $$$ The centroid is $\left(\frac{1}{2}, \frac{2}{5}\right).$
+    Annotations: ''
+  tags: []
+- id: 1577826468733
+  fields:
+    Front: |
+      CET-08.03-08 Example:
+      ##### moments and centers of mass
+      A torus is formed by rotating a circle of radius $r$ about a line in the plane of the circle that is a distance $R(>r)$ from the center of the circle. Find the volume of the torus.
+    Back: |
+      The circle has area $A=\pi r^{2} .$ By the symmetry principle, its centroid is its center and so the distance traveled by the centroid during a rotation is $d=2 \pi R .$ Therefore, by the Theorem of Pappus, the volume of the torus is
+      $$$
+      V=A d=(2 \pi R)\left(\pi r^{2}\right)=2 \pi^{2} r^{2} R
+      $$$
+    Annotations: ''
+  tags: []

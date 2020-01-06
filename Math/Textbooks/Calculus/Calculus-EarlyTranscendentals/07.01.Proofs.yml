@@ -11,10 +11,11 @@ defaults:
   - CET-07.01-IntegrationByParts
   markdownTabLength: 2
 notes:
-- id: 1576618212307
+- id: 1577307683011
   fields:
     Front: |
       CET-07.01-01 Proof:
+      ##### integration by parts
       Derive the **formula for integration by parts.**
     Back: |
       The Product Rule states that if $f$ and $g$ are differentiable functions, then
@@ -29,5 +30,4 @@ notes:
       $$$ We can rearrange this equation as
       $$$\int f(x) g^{\prime}(x) d x=f(x) g(x)-\int g(x) f^{\prime}(x) d x$$$
     Annotations: ''
-  tags:
-  - Editing
+  tags: []

@@ -1,5 +1,5 @@
   media:
-  - path: ${file_dir}/images/SVEC-XX.XX-XX.Th.1.jpg
+  - path: ¢{file_dir}/images/SVEC-XX.XX-XX.Th.1.jpg
       <p align="center">
       ![](SVEC-XX.XX-XX.Th.1.jpg)
       </p>
@@ -7,7 +7,7 @@
 - id: 0
   fields:
     Front: |
-      SVEC XX.XX-XX Theory:
+      SVEC-XX.XX-XX Theory:
     Back: |
     Annotations: ''
   tags:

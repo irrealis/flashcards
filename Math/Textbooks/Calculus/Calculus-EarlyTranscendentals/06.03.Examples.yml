@@ -1,0 +1,99 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-06-ApplicationsOfIntegration
+  - CET-06.03-VolumesByCylindricalShells
+  markdownTabLength: 2
+notes:
+- id: 1577644775895
+  media:
+  - path: ${file_dir}/images/CET-06.03-01.Xm.1.jpg
+  fields:
+    Front: |
+      CET-06.03-01 Example:
+      Find the volume of the solid obtained by rotating about the $y$ -axis the region bounded by $y=2 x^{2}-x^{3}$ and $y=0$
+    Back: |
+      From the sketch below we see that a typical shell has radius $x,$ circumference $2 \pi x,$ and height $f(x)=2 x^{2}-x^{3} .$
+      <p align="center">
+      ![](CET-06.03-01.Xm.1.jpg)
+      </p>
+      So, by the shell method, the volume is
+      $$$
+      \begin{aligned}
+      V &=\int_{0}^{2} \underbrace{(2 \pi x)}_{\text {circumference }} \underbrace{\left(2 x^{2}-x^{3}\right)}_{\text {height }} \underbrace{d x}_{\text {thickness }} \\
+      &=2 \pi \int_{0}^{2}\left(2 x^{3}-x^{4}\right) d x=2 \pi\left[\frac{1}{2} x^{4}-\frac{1}{5} x^{5}\right]_{0}^{2} \\
+      &=2 \pi\left(8-\frac{32}{5}\right)=\frac{16}{5} \pi
+      \end{aligned}
+      $$$ It can be verified that the shell method gives the same answer as slicing.
+    Annotations: ''
+  tags: []
+- id: 1577644980018
+  media:
+  - path: ${file_dir}/images/CET-06.03-02.Xm.1.jpg
+  fields:
+    Front: |
+      CET-06.03-02 Example:
+      Find the volume of the solid obtained by rotating about the $y$ -axis the region between $y=x$ and $y=x^{2}$
+    Back: |
+      The region and a typical shell are shown below.
+      <p align="center">
+      ![](CET-06.03-02.Xm.1.jpg)
+      </p>
+      We see that the shell has radius $x,$ circumference $2 \pi x,$ and height $x-x^{2} .$ So the volume is
+      $$$
+      \begin{aligned}
+      V &=\int_{0}^{1}(2 \pi x)\left(x-x^{2}\right) d x=2 \pi \int_{0}^{1}\left(x^{2}-x^{3}\right) d x \\
+      &=2 \pi\left[\frac{x^{3}}{3}-\frac{x^{4}}{4}\right]_{0}^{1}=\frac{\pi}{6}
+      \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1577645222402
+  media:
+  - path: ${file_dir}/images/CET-06.03-03.Xm.1.jpg
+  fields:
+    Front: |
+      CET-06.03-03 Example:
+      Use cylindrical shells to find the volume of the solid obtained by rotating about the $x$ -axis the region under the curve $y=\sqrt{x}$ from 0 to 1
+    Back: |
+      This problem was solved using disks in Example 6.2.2. To use shells we relabel the curve $y=\sqrt{x}$ (in the figure in that example) as $x=y^{2}$ below.
+      <p align="center">
+      ![](CET-06.03-03.Xm.1.jpg)
+      </p>
+      For rotation about the $x$ -axis we see that a typical shell has radius $y,$ circumference $2 \pi y,$ and height $1-y^{2} .$ So the volume is
+      $$$
+      \begin{aligned}
+      V &=\int_{0}^{1}(2 \pi y)\left(1-y^{2}\right) d y=2 \pi \int_{0}^{1}\left(y-y^{3}\right) d y \\
+      &=2 \pi\left[\frac{y^{2}}{2}-\frac{y^{4}}{4}\right]_{0}^{1}=\frac{\pi}{2}
+      \end{aligned}
+      $$$ In this problem the disk method was simpler.
+    Annotations: ''
+  tags: []
+- id: 1577645416316
+  media:
+  - path: ${file_dir}/images/CET-06.03-04.Xm.1.jpg
+  fields:
+    Front: |
+      CET-06.03-04 Example:
+      Find the volume of the solid obtained by rotating the region bounded by $y=x-x^{2}$ and $y=0$ about the line $x=2$
+    Back: |
+      The figure below shows the region and a cylindrical shell formed by rotation about the line $x=2 .$
+      <p align="center">
+      ![](CET-06.03-04.Xm.1.jpg)
+      </p>
+      It has radius $2-x,$ circumference $2 \pi(2-x),$ and height $x-x^{2}.$ The volume of the given solid is
+      $$$
+      \begin{aligned}
+      V &=\int_{0}^{1} 2 \pi(2-x)\left(x-x^{2}\right) d x \\
+      &=2 \pi \int_{0}^{1}\left(x^{3}-3 x^{2}+2 x\right) d x \\
+      &=2 \pi\left[\frac{x^{4}}{4}-x^{3}+x^{2}\right]_{0}^{1}=\frac{\pi}{2}
+      \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []

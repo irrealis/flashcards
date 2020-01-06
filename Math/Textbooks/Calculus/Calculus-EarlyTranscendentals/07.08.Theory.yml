@@ -1,0 +1,89 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theory
+  - Calculus-EarlyTrancendentals
+  - CET-07-TechniquesOfIntegration
+  - CET-07.08-ImproperIntegrals
+  markdownTabLength: 2
+notes:
+- id: 1577558751555
+  fields:
+    Front: |
+      CET-07.08-01 Theory:
+      ##### type 1: infinite intervals
+      Define **Improper Integral of Type 1.**
+    Back: |
+      (a) If $\int_{a}^{t} f(x) d x$ exists for every number $t \geqslant a$, then
+      $$$
+      \int_{a}^{\infty} f(x) d x=\lim _{t \rightarrow \infty} \int_{a}^{t} f(x) d x
+      $$$ provided this limit exists (as a finite number).
+
+      (b) If $\int_{t}^{b} f(x) d x$ exists for every number $t \leqslant b,$ then
+      $$$
+      \int_{-\infty}^{b} f(x) d x=\lim _{t \rightarrow-\infty} \int_{t}^{b} f(x) d x
+      $$$ provided this limit exists (as a finite number).
+
+      The improper integrals $\int_{a}^{\infty} f(x) d x$ and $\int_{-\infty}^{b} f(x) d x$ are called **convergent** if the corresponding limit exists and **divergent** if the limit does not exist.
+
+      (c) If both $\int_{a}^{\infty} f(x) d x$ and $\int_{-\infty}^{a} f(x) d x$ are convergent, then we define
+      $$$
+      \int_{-\infty}^{\infty} f(x) d x=\int_{-\infty}^{a} f(x) d x+\int_{a}^{\infty} f(x) d x
+      $$$ In part (c) any real number $a$ can be used (see Exercise 76 ).
+    Annotations: ''
+  tags: []
+- id: 1577562361832
+  fields:
+    Front: |
+      CET-07.08-02 Theory:
+      ##### type 1: infinite intervals
+      Under what conditions is $\int_{1}^{\infty} \frac{1}{x^{p}} d x$ convergent? divergent?
+    Back: |
+      $\int_{1}^{\infty} \frac{1}{x^{p}} d x$ is convergent if $p>1$ and divergent if $p \leqslant 1.$
+    Annotations: ''
+  tags: []
+- id: 1577562589579
+  fields:
+    Front: |
+      CET-07.08-03 Theory:
+      ##### type 2: discontinuous integrands
+      Define **Improper Integral of Type 2.**
+    Back: |
+      (a) If $f$ is continuous on $[a, b)$ and is discontinuous at $b,$ then
+      $$$
+      \int_{a}^{b} f(x) d x=\lim _{t \rightarrow b^{-}} \int_{a}^{t} f(x) d x
+      $$$ if this limit exists (as a finite number).
+
+      (b) If $f$ is continuous on $(a, b]$ and is discontinuous at $a$, then
+      $$$
+      \int_{a}^{b} f(x) d x=\lim _{t \rightarrow a^{+}} \int_{t}^{b} f(x) d x
+      $$$ if this limit exists (as a finite number).
+
+      The improper integral $\int_{a}^{b} f(x) d x$ is called **convergent** if the corresponding limit exists and **divergent** if the limit does not exist.
+
+      (c) If $f$ has a discontinuity at $c,$ where $a<c<b,$ and both $\int_{a}^{c} f(x) d x$ and $\int_{c}^{b} f(x) d x$ are convergent, then we define
+      $$$
+      \int_{a}^{b} f(x) d x=\int_{a}^{c} f(x) d x+\int_{c}^{b} f(x) d x
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1577564060759
+  fields:
+    Front: |
+      CET-07.08-04 Theory:
+      ##### a comparison test for improper integrals
+      State the **Comparison Theorem.**
+    Back: |
+      Suppose that $f$ and $g$ are continuous functions with $f(x) \geqslant g(x) \geqslant 0$ for $x \geqslant a.$
+
+      (a) If $\int_{a}^{\infty} f(x) d x$ is convergent, then $\int_{a}^{\infty} g(x) d x$ is convergent.
+
+      (b) If $\int_{a}^{\infty} g(x) d x$ is divergent, then $\int_{a}^{\infty} f(x) d x$ is divergent.
+
+      Although we state this for Type 1 integrals, a similar theorem is true for Type 2 integrals.
+    Annotations: ''
+  tags: []

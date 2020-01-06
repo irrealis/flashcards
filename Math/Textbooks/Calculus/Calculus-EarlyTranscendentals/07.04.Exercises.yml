@@ -1,0 +1,28 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-07-TechniquesOfIntegration
+  - CET-07.04-IntegrationOfRationalFunctionsByPartialFractions
+  markdownTabLength: 2
+notes:
+- id: 1577476388800
+  fields:
+    Front: |
+      CET-07.04-01a Exercise:
+      ##### integration of rational functions by partial fractions
+      Write out the form of the partial fraction decomposition of the function. Do not determine the numerical values of the coefficients.
+      $$$
+      \frac{4+x}{(1+2 x)(3-x)}
+      $$$
+    Back: |
+      $$$
+      \frac{4+x}{(1+2 x)(3-x)}=\frac{A}{1+2 x}+\frac{B}{3-x}
+      $$$$
+    Annotations: ''
+  tags: []

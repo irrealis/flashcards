@@ -1,0 +1,120 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theory
+  - Calculus-EarlyTrancendentals
+  - CET-07-TechniquesOfIntegration
+  - CET-07.04-IntegrationOfRationalFunctionsByPartialFractions
+  markdownTabLength: 2
+notes:
+- id: 1577307369435
+  fields:
+    Front: |
+      CET-07.04-01 Theory:
+      ##### integration of rational functions by partial fractions
+      What is a **proper rational function?**
+    Back: |
+      Consider a rational function
+      $$$
+      f(x)=\frac{P(x)}{Q(x)}
+      $$$ where $P$ and $Q$ are polynomials. It's possible to express $f$ as a sum of simpler fractions provided that the degree of $P$ is less than the degree of $Q .$ Such a rational function is called **proper.**
+    Annotations: ''
+  tags: []
+- id: 1577469623925
+  fields:
+    Front: |
+      CET-07.04-02 Theory:
+      ##### integration of rational functions by partial fractions
+      What is an **improper rational function?**
+    Back: |
+      Consider a rational function
+      $$$
+      f(x)=\frac{P(x)}{Q(x)}
+      $$$ where $P$ and $Q$ are polynomials. If the degree of $P$ is greater than or equal to the degree of $Q ,$ then $f$ is called **improper.**
+    Annotations: ''
+  tags: []
+- id: 1577473033527
+  fields:
+    Front: |
+      CET-07.04-03 Theory:
+      ##### integration of rational functions by partial fractions
+      Describe the **method of partial fractions.**
+    Back: |
+      We can integrate any rational function (a ratio of polynomials) by expressing it as a sum of simpler fractions, called partial fractions, that we already know how to integrate. To illustrate the method, observe that by taking the fractions $2 /(x-1)$ and $1 /(x+2)$ to a common denominator we obtain
+      $$$
+      \frac{2}{x-1}-\frac{1}{x+2}=\frac{2(x+2)-(x-1)}{(x-1)(x+2)}=\frac{x+5}{x^{2}+x-2}
+      $$$
+      If we now reverse the procedure, we see how to integrate the function on the right side of this equation:
+      $$$
+      \begin{aligned}
+      \int \frac{x+5}{x^{2}+x-2} d x &=\int\left(\frac{2}{x-1}-\frac{1}{x+2}\right) d x \\
+      &=2 \ln |x-1|-\ln |x+2|+C
+      \end{aligned}
+      $$$ where $P$ and $Q$ are polynomials. It's possible to express $f$ as a sum of simpler fractions provided that $f$ is proper.
+
+      **Preliminary step:**
+      If $f$ is improper then we must take the preliminary step of dividing $Q$ into $P$ (by long division) until a remainder $R(x)$ is obtained such that $\operatorname{deg}(R)<\operatorname{deg}(Q) .$ The division statement is
+      $$$
+      f(x)=\frac{P(x)}{Q(x)}=S(x)+\frac{R(x)}{Q(x)}
+      $$$ where $S$ and $R$ are also polynomials. Sometimes this preliminary step is all that is required.
+
+      **Second step:**
+      In the case of an equation whose denominator is more complicated, the second step is to factor the denominator $Q(x)$ as far as possible. It can be shown that any polynomial $Q$ can be factored as a product of linear factors (of the form $a x+b$) and irreducible quadratic factors (of the form $a x^{2}+b x+c,$ where $b^{2}-4 a c<0$ ). For instance, if $Q(x)=x^{4}-16,$ we could factor it as
+      $$$
+      Q(x)=\left(x^{2}-4\right)\left(x^{2}+4\right)=(x-2)(x+2)\left(x^{2}+4\right)
+      $$$
+
+      **Third step:**
+      The third step is to express the proper rational function $R(x) / Q(x)$ as a sum of **partial fractions** of the form
+      $$$
+      \frac{A}{(a x+b)^{i}} \quad \text { or } \quad \frac{A x+B}{\left(a x^{2}+b x+c\right)^{j}}
+      $$$ A theorem in algebra guarantees that it is always possible to do this. We explain the details for the four cases that occur.
+
+      **Case I:** The denominator $Q(x)$ is a product of distinct linear factors.
+      This means that we can write
+      $$$
+      Q(x)=\left(a_{1} x+b_{1}\right)\left(a_{2} x+b_{2}\right) \cdots\left(a_{k} x+b_{k}\right)
+      $$$ where no factor is repeated (and no factor is a constant multiple of another). In this case the partial fraction theorem states that there exist constants $A_{1}, A_{2}, \ldots, A_{k}$ such that
+      $$$
+      2 x^{3}+3 x^{2}-2 x=x\left(2 x^{2}+3 x-2\right)=x(2 x-1)(x+2)
+      $$$
+
+      **Case II:** $Q(x)$ is a product of linear factors, some of which are repeated.
+      Suppose the first linear factor $\left(a_{1} x+b_{1}\right)$ is repeated $r$ times; that is, $\left(a_{1} x+b_{1}\right)^{r}$ occurs in the factorization of $Q(x)$. Then instead of the single term $A_{1} /\left(a_{1} x+b_{1}\right),$ we would use
+      $$$
+      \frac{A_{1}}{a_{1} x+b_{1}}+\frac{A_{2}}{\left(a_{1} x+b_{1}\right)^{2}}+\cdots+\frac{A_{r}}{\left(a_{1} x+b_{1}\right)^{r}}
+      $$$
+
+      **Case III:** $Q(x)$ contains irreducible quadratic factors, none of which is repeated.
+      If $Q(x)$ has the factor $a x^{2}+b x+c,$ where $b^{2}-4 a c<0$, then, in addition to the partial fractions the expression for $R(x) / Q(x)$ will have a term of the form
+      $$$
+      \frac{A x+B}{a x^{2}+b x+c}
+      $$$ Such a term can be integrated by completing the square (if necessary) and using the formula
+      $$$
+      \int \frac{d x}{x^{2}+a^{2}}=\frac{1}{a} \tan ^{-1}\left(\frac{x}{a}\right)+C
+      $$$ We complete the square in the denominator and then make a substitution that brings the integral into the form
+      $$$
+      \int \frac{C u+D}{u^{2}+a^{2}} d u=C \int \frac{u}{u^{2}+a^{2}} d u+D \int \frac{1}{u^{2}+a^{2}} d u
+      $$$ Then the first integral is a logarithm and the second is expressed in terms of $\tan ^{-1}$.
+
+      **Case IV:** $Q(x)$ contains a repeated irreducible quadratic factor.
+      If $Q(x)$ has the factor $\left(a x^{2}+b x+c\right)^{r},$ where $b^{2}-4 a c<0,$ then instead of the single partial fraction the sum occurs in the partial fraction decomposition of $R(x) / Q(x)$. Each of such terms can be integrated by using a substitution or by first completing the square if necessary.
+    Annotations: ''
+  tags: []
+- id: 1577475769080
+  fields:
+    Front: |
+      CET-07.04-04 Theory:
+      ##### integration of rational functions by partial fractions
+      Describe **Rationalizing Substitutions.**
+    Back: >
+      Some nonrational functions can be changed into rational functions by means of
+      appropriate substitutions. In particular, when an integrand contains an expression
+      of the form $\sqrt[n]{g(x)},$ then the substitution $u=\sqrt[n]{g(x)}$ may be
+      effective.
+    Annotations: ''
+  tags: []

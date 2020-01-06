@@ -1,0 +1,28 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - SingleVariableEssentialCalculus
+  - SVEC-07-ApplicationsOfIntegration
+  - SVEC-07.07-DifferentialEquations
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1578337492940
+  fields:
+    Front: |
+      SVEC-07.07-01 Exercise:
+      Solve the differential equation.
+      $$
+      \frac{d y}{d x}=x y^{2}
+      $$
+    Back: |
+      $$
+      y=\frac{2}{K-x^{2}}, y=0
+      $$
+    Annotations: ''
+  tags: []

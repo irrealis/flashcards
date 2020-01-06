@@ -11,10 +11,11 @@ defaults:
   - CET-07.02-TrigonometricIntegrals
   markdownTabLength: 2
 notes:
-- id: 1576698820363
+- id: 1577307999810
   fields:
     Front: |
       CET-07.02-01 Example:
+      ##### trigonometric integrals
       Evaluate $\int \cos ^{3} x d x.$
     Back: |
       Simply substituting $u=\cos x$ isn't helpful, since then $d u=-\sin x d x .$ In order to integrate powers of cosine, we would need an extra sin $x$ factor. Similarly, a power of sine would require an extra cos $x$ factor. Thus here we can separate one cosine factor and convert the remaining $\cos ^{2} x$ factor to an expression involving sine using the identity $\sin ^{2} x+\cos ^{2} x=1$
@@ -30,10 +31,11 @@ notes:
       $$$
     Annotations: ''
   tags: []
-- id: 1576704295758
+- id: 1577308000359
   fields:
     Front: |
       CET-07.02-02 Example:
+      ##### trigonometric integrals
       Find $\int \sin ^{5} x \cos ^{2} x d x.$
     Back: |
       We could convert $\cos ^{2} x$ to $1-\sin ^{2} x,$ but we would be left with an expression in terms of $\sin x$ with no extra cos $x$ factor. Instead, we separate a single sine factor and rewrite the remaining $\sin ^{4} x$ factor in terms of $\cos x$:
@@ -53,10 +55,11 @@ notes:
       $$$
     Annotations: ''
   tags: []
-- id: 1576704463733
+- id: 1577308000585
   fields:
     Front: |
       CET-07.02-03 Example:
+      ##### trigonometric integrals
       Evaluate $\int_{0}^{\pi} \sin ^{2} x d x.$
     Back: |
       If we write $\sin ^{2} x=1-\cos ^{2} x,$ the integral is no simpler to evaluate. Using the half-angle formula for $\sin ^{2} x$, however, we have
@@ -71,10 +74,11 @@ notes:
       $$$ Notice that we mentally made the substitution $u=2 x$ when integrating $\cos 2 x .$
     Annotations: ''
   tags: []
-- id: 1576704847308
+- id: 1577308000806
   fields:
     Front: |
       CET-07.02-04 Example:
+      ##### trigonometric integrals
       Find $\int \sin ^{4} x d x.$
     Back: |
       We could evaluate this integral using the reduction formula for $\int \sin ^{n} x d x,$ but a better method is to write $\sin ^{4} x=\left(\sin ^{2} x\right)^{2}$ and use a half-angle formula:
@@ -97,10 +101,11 @@ notes:
       $$$
     Annotations: ''
   tags: []
-- id: 1576704974858
+- id: 1577308001033
   fields:
     Front: |
       CET-07.02-05 Example:
+      ##### trigonometric integrals
       Evaluate $\int \tan ^{6} x \sec ^{4} x d x.$
     Back: |
       If we separate one $\sec^2 x$ factor, we can express the remaining $\sec ^{2} x$ factor in terms of tangent using the identity $\sec ^{2} x=1+\tan ^{2} x .$ We can then evaluate the integral by substituting $u=\tan x$ so that $d u=\sec ^{2} x d x :$
@@ -116,28 +121,47 @@ notes:
       $$$
     Annotations: ''
   tags: []
-- id: 1576705107132
+- id: 1577308001286
   fields:
     Front: |
       CET-07.02-06 Example:
+      ##### trigonometric integrals
       Find $\int \tan ^{5} \theta \sec ^{7} \theta d \theta$.
-    Back: |
-      If we separate a $\sec^2 \theta$ factor, as in the preceding example, we are left with a $\sec ^{5} \theta$ factor, which isn't easily converted to tangent. However, if we separate a $\sec \theta \tan \theta$ factor, we can convert the remaining power of tangent to an expression involving only secant using the identity $\tan ^{2} \theta=\sec ^{2} \theta-1 .$ We can then evaluate the integral by substituting $u=\sec \theta,$ so $d u=\sec \theta \tan \theta d \theta:$
+    Back: >
+      If we separate a $\sec^2 \theta$ factor, as in the preceding example, we are
+      left with a $\sec ^{5} \theta$ factor, which isn't easily converted to tangent.
+      However, if we separate a $\sec \theta \tan \theta$ factor, we can convert the
+      remaining power of tangent to an expression involving only secant using the
+      identity $\tan ^{2} \theta=\sec ^{2} \theta-1 .$ We can then evaluate the integral
+      by substituting $u=\sec \theta,$ so $d u=\sec \theta \tan \theta d \theta:$
+
       $$$
+
       \begin{aligned}
-      \int \tan ^{5} \theta \sec ^{7} \theta d \theta &=\int \tan ^{4} \theta \sec ^{6} \theta \sec \theta \tan \theta d \theta \\
-      &=\int\left(\sec ^{2} \theta-1\right)^{2} \sec ^{6} \theta \sec \theta \tan \theta d \theta \\
+
+      \int \tan ^{5} \theta \sec ^{7} \theta d \theta &=\int \tan ^{4} \theta \sec
+      ^{6} \theta \sec \theta \tan \theta d \theta \\
+
+      &=\int\left(\sec ^{2} \theta-1\right)^{2} \sec ^{6} \theta \sec \theta \tan
+      \theta d \theta \\
+
       &=\int\left(u^{2}-1\right)^{2} u^{6} d u \\
+
       &=\frac{u^{11}}{11}-2 \frac{u^{9}}{9}+\frac{u^{7}}{7}+C \\
-      &=\frac{1}{11} \sec ^{11} \theta-\frac{2}{9} \sec ^{9} \theta+\frac{1}{7} \sec ^{7} \theta+C
+
+      &=\frac{1}{11} \sec ^{11} \theta-\frac{2}{9} \sec ^{9} \theta+\frac{1}{7} \sec
+      ^{7} \theta+C
+
       \end{aligned}
+
       $$$
     Annotations: ''
   tags: []
-- id: 1576706062658
+- id: 1577308001512
   fields:
     Front: |
       CET-07.02-07 Example:
+      ##### trigonometric integrals
       Find $\int \tan ^{3} x d x.$
     Back: |
       Here only $\tan x$ occurs, so we use $\tan ^{2} x=\sec ^{2} x-1$ to rewrite a $\tan ^{2} x$ factor in terms of $\sec^2 x$.
@@ -152,10 +176,11 @@ notes:
       $$$ In the first integral we mentally substituted $u=\tan x$ so that $d u=\sec ^{2} x d x.$
     Annotations: ''
   tags: []
-- id: 1576708260382
+- id: 1577308001737
   fields:
     Front: |
       CET-07.02-08 Example:
+      ##### trigonometric integrals
       Find $\int \sec ^{3} x d x.$
     Back: |
       Here we integrate by parts with
@@ -178,10 +203,11 @@ notes:
       $$$
     Annotations: ''
   tags: []
-- id: 1576708873862
+- id: 1577308001973
   fields:
     Front: |
       CET-07.02-09 Example:
+      ##### trigonometric integrals
       Evaluate $\int \sin 4 x \cos 5 x d x.$
     Back: |
       This integral could be evaluated using integration by parts, but it's easier to use a trigonometric product identity as follows:

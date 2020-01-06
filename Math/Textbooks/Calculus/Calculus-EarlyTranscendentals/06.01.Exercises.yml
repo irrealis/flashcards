@@ -1,0 +1,29 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-06-ApplicationsOfIntegration
+  - CET-06.01-AreasBetweenCurves
+  markdownTabLength: 2
+notes:
+- id: 1577570276538
+  media:
+  - path: ${file_dir}/images/CET-06.01-01.Xs.1.jpg
+  fields:
+    Front: |
+      CET-06.01-01 Exercise:
+      Find the area of the shaded region.
+      <p align="center">
+      ![](CET-06.01-01.Xs.1.jpg)
+      </p>
+    Back: >
+      $A=\int_{x=1}^{x=8}\left(y_{T}-y_{B}\right) d x$ $=\int_{1}^{8}\left(\sqrt[3]{x}-\frac{1}{x}\right)
+      d x$ $=\left[\frac{3}{4} x^{4 / 3}-\ln |x|\right]_{1}^{8}$ $=(12-\ln 8)-\left(\frac{3}{4}-\ln
+      1\right)$ $=\frac{45}{4}-\ln 8.$
+    Annotations: ''
+  tags: []

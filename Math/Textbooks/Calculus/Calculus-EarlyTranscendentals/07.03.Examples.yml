@@ -1,0 +1,269 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-07-TechniquesOfIntegration
+  - CET-07.03-TrigonometricSubstitution
+  markdownTabLength: 2
+notes:
+- id: 1577144458967
+  media:
+  - path: ${file_dir}/images/CET-07.03-01.Xm.1.jpg
+  fields:
+    Front: |
+      CET-07.03-01 Example:
+      ##### trigonometric substitution
+      Evaluate $\int \frac{\sqrt{9-x^{2}}}{x^{2}} d x.$
+    Back: |
+      Let $x=3 \sin \theta,$ where $-\pi / 2 \leqslant \theta \leqslant \pi / 2 .$ Then $d x=3 \cos \theta d \theta$ and
+      $$$
+      \sqrt{9-x^{2}}=\sqrt{9-9 \sin ^{2} \theta}=\sqrt{9 \cos ^{2} \theta}=3|\cos \theta|=3 \cos \theta
+      $$$ (Note that $\cos \theta \geqslant 0 \text { because }-\pi / 2 \leqslant \theta \leqslant \pi / 2 .)$ Thus the Inverse Substitution Rule gives
+      $$$
+      \begin{aligned}
+      \int \frac{\sqrt{9-x^{2}}}{x^{2}} d x &=\int \frac{3 \cos \theta}{9 \sin ^{2} \theta} 3 \cos \theta d \theta \\
+      &=\int \frac{\cos ^{2} \theta}{\sin ^{2} \theta} d \theta=\int \cot ^{2} \theta d \theta \\
+      &=\int\left(\csc ^{2} \theta-1\right) d \theta \\
+      &=-\cot \theta-\theta+C$
+      \end{aligned}
+      $$$ Since this is an indefinite integral, we must return to the original variable $x .$ This can be done either by using trigonometric identities to express cot $\theta$ in terms of $\sin \theta=x / 3$ or by drawing a diagram, as in the figure below where $\theta$ is interpreted as an angle of a right triangle.
+      <p align="center">
+      ![](CET-07.03-01.Xm.1.jpg)
+      $\sin \theta = \frac{x}{3}$
+      </p>
+      Since $\sin \theta=x / 3,$ we label the opposite side and the hypotenuse as having lengths $x$ and $3 .$ Then the Pythagorean Theorem gives the length of the adjacent side as $\sqrt{9-x^{2}},$ so we can simply read the value of cot $\theta$ from the figure:
+      $$$
+      \cot \theta=\frac{\sqrt{9-x^{2}}}{x}
+      $$$ (Although $\theta>0$ in the diagram, this expression for $\cot \theta$ is valid even when $\theta<0$.) since $\sin \theta=x / 3,$ we have $\theta=\sin ^{-1}(x / 3)$ and $s 0$
+      $$$
+      \int \frac{\sqrt{9-x^{2}}}{x^{2}} d x=-\frac{\sqrt{9-x^{2}}}{x}-\sin ^{-1}\left(\frac{x}{3}\right)+C
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1577147056266
+  media:
+  - path: ${file_dir}/images/CET-07.03-02.Xm.1.jpg
+  fields:
+    Front: |
+      CET-07.03-02 Example:
+      ##### trigonometric substitution
+      Find the area enclosed by the ellipse
+      $$$
+      \frac{x^{2}}{a^{2}}+\frac{y^{2}}{b^{2}}=1
+      $$$
+    Back: |
+      Solving the equation of the ellipse for $y,$ we get
+      $$$
+      \frac{y^{2}}{b^{2}}=1-\frac{x^{2}}{a^{2}}=\frac{a^{2}-x^{2}}{a^{2}} \quad \text { or } \quad y=\pm \frac{b}{a} \sqrt{a^{2}-x^{2}}
+      $$$ Because the ellipse is symmetric with respect to both axes, the total area $A$ is four times the area in the first quadrant (see figure).
+      <p align="center">
+      ![](CET-07.03-02.Xm.1.jpg)
+      </p>
+      The part of the ellipse in the first quadrant is given by the function
+      $$$
+      y=\frac{b}{a} \sqrt{a^{2}-x^{2}} \quad 0 \leqslant x \leqslant a
+      $$$ and so
+      $$$
+      \frac{1}{4} A=\int_{0}^{a} \frac{b}{a} \sqrt{a^{2}-x^{2}} d x
+      $$$ To evaluate this integral we substitute $x=a \sin \theta .$ Then $d x=a \cos \theta d \theta .$ To change the limits of integration we note that when $x=0, \sin \theta=0,$ so $\theta=0 ;$ when $x=a$ $\sin \theta=1,$ so $\theta=\pi / 2 .$ Also
+      $$$
+      \sqrt{a^{2}-x^{2}}=\sqrt{a^{2}-a^{2} \sin ^{2} \theta}=\sqrt{a^{2} \cos ^{2} \theta}=a|\cos \theta|=a \cos \theta
+      $$$ since $0 \leqslant \theta \leqslant \pi / 2 .$ Therefore
+      $$$
+      \begin{aligned}
+      A &=4 \frac{b}{a} \int_{0}^{a} \sqrt{a^{2}-x^{2}} d x=4 \frac{b}{a} \int_{0}^{\pi / 2} a \cos \theta \cdot a \cos \theta d \theta \\
+      &=4 a b \int_{0}^{\pi / 2} \cos ^{2} \theta d \theta=4 a b \int_{0}^{\pi / 2} \frac{1}{2}(1+\cos 2 \theta) d \theta \\
+      &=2 a b\left[\theta+\frac{1}{2} \sin 2 \theta\right]_{0}^{\pi / 2}=2 a b\left(\frac{\pi}{2}+0-0\right)=\pi a b
+      \end{aligned}
+      $$$ We have shown that the area of an ellipse with semiaxes $a$ and $b$ is $\pi a b .$ In particular, taking $a=b=r,$ we have proved the famous formula that the area of a circle with radius $r$ is $\pi r^{2}$
+    Annotations: ''
+  tags: []
+- id: 1577148054167
+  media:
+  - path: ${file_dir}/images/CET-07.03-03.Xm.1.jpg
+  fields:
+    Front: |
+      CET-07.03-03 Example:
+      ##### trigonometric substitution
+      Find $\int \frac{1}{x^{2} \sqrt{x^{2}+4}} d x.$
+    Back: |
+      Let $x=2 \tan \theta,-\pi / 2<\theta<\pi / 2 .$ Then $d x=2 \sec ^{2} \theta d \theta$ and
+      $$$
+      \sqrt{x^{2}+4}=\sqrt{4\left(\tan ^{2} \theta+1\right)}=\sqrt{4 \sec ^{2} \theta}=2|\sec \theta|=2 \sec \theta
+      $$$ So we have
+      $$$
+      \int \frac{d x}{x^{2} \sqrt{x^{2}+4}}=\int \frac{2 \sec ^{2} \theta d \theta}{4 \tan ^{2} \theta \cdot 2 \sec \theta}=\frac{1}{4} \int \frac{\sec \theta}{\tan ^{2} \theta} d \theta
+      $$$ To evaluate this trigonometric integral we put everything in terms of $\sin \theta$ and $\cos \theta:$
+      $$$
+      \frac{\sec \theta}{\tan ^{2} \theta}=\frac{1}{\cos \theta} \cdot \frac{\cos ^{2} \theta}{\sin ^{2} \theta}=\frac{\cos \theta}{\sin ^{2} \theta}
+      $$$ Therefore, making the substitution $u=\sin \theta,$ we have
+      $$$
+      \begin{aligned}
+      \int \frac{d x}{x^{2} \sqrt{x^{2}+4}} &=\frac{1}{4} \int \frac{\cos \theta}{\sin ^{2} \theta} d \theta=\frac{1}{4} \int \frac{d u}{u^{2}} \\
+      &=\frac{1}{4}\left(-\frac{1}{u}\right)+C=-\frac{1}{4 \sin \theta}+C \\
+      &=-\frac{\csc \theta}{4}+C
+      \end{aligned}
+      $$$ We use the figure below to determine that csc $\theta=\sqrt{x^{2}+4} / x$ and $\mathrm{so}$
+      $$$
+      \int \frac{d x}{x^{2} \sqrt{x^{2}+4}}=-\frac{\sqrt{x^{2}+4}}{4 x}+C
+      $$$
+      <p align="center">
+      ![](CET-07.03-03.Xm.1.jpg)
+      $\tan \theta=\frac{x}{2}$
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1577212905256
+  fields:
+    Front: |
+      CET-07.03-04 Example:
+      ##### trigonometric substitution
+      Find $\int \frac{x}{\sqrt{x^{2}+4}} d x.$
+    Back: |
+      It would be possible to use the trigonometric substitution $x=2 \tan \theta$ here. But the direct substitution $u=x^{2}+4$ is simpler, because then $d u=2 x d x$ and
+      $$$
+      \int \frac{x}{\sqrt{x^{2}+4}} d x=\frac{1}{2} \int \frac{d u}{\sqrt{u}}=\sqrt{u}+C=\sqrt{x^{2}+4}+C
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1577213521554
+  media:
+  - path: ${file_dir}/images/CET-07.03-05.Xm.1.jpg
+  fields:
+    Front: |
+      CET-07.03-05 Example:
+      ##### trigonometric substitution
+      Evaluate $\int \frac{d x}{\sqrt{x^{2}-a^{2}}},$ where $a>0.$
+    Back: |
+      **Solution 1:**
+      We let $x=a \sec \theta,$ where $0<\theta<\pi / 2$ or $\pi<\theta<3 \pi / 2 .$ Then $d x=a \sec \theta \tan \theta \, d \theta$ and
+      $$$
+      \sqrt{x^{2}-a^{2}}=\sqrt{a^{2}\left(\sec ^{2} \theta-1\right)}=\sqrt{a^{2} \tan ^{2} \theta}=a|\tan \theta|=a \tan \theta
+      $$$ Therefore
+      $$$
+      \int \frac{d x}{\sqrt{x^{2}-a^{2}}}=\int \frac{a \sec \theta \tan \theta}{a \tan \theta} d \theta=\int \sec \theta d \theta=\ln |\sec \theta+\tan \theta|+C
+      $$$ The triangle in the figure below gives $\tan \theta=\sqrt{x^{2}-a^{2}} / a,$
+      <p align="center">
+      ![](CET-07.03-05.Xm.1.jpg)
+      $\sec \theta=\dfrac{x}{a}$
+      </p>
+      so we have
+      $$$
+      \begin{aligned}
+      \int \frac{d x}{\sqrt{x^{2}-a^{2}}} &=\ln \left|\frac{x}{a}+\frac{\sqrt{x^{2}-a^{2}}}{a}\right|+C \\
+      &=\ln |x+\sqrt{x^{2}-a^{2}}|-\ln a+C
+      \end{aligned}
+      $$$ Writing $C_{1}=C-\ln a,$ we have
+      $$$
+      \int \frac{d x}{\sqrt{x^{2}-a^{2}}}=\ln |x+\sqrt{x^{2}-a^{2}}|+C_{1}
+      $$$
+
+      **Solution 2:**
+      For $x>0$ the hyperbolic substitution $x=a$ cosh $t$ can also be used. Using the identity $\cosh ^{2} y-\sinh ^{2} y=1,$ we have
+      $$$
+      \sqrt{x^{2}-a^{2}}=\sqrt{a^{2}\left(\cosh ^{2} t-1\right)}=\sqrt{a^{2} \sinh ^{2} t}=a \sinh t
+      $$$ Since $d x=a \sinh t \, d t,$ we obtain
+      $$$
+      \int \frac{d x}{\sqrt{x^{2}-a^{2}}}=\int \frac{a \sinh t d t}{a \sinh t}=\int d t=t+C
+      $$$ Since cosh $t=x / a,$ we have $t=\cosh ^{-1}(x / a)$ and
+      $$$
+      \int \frac{d x}{\sqrt{x^{2}-a^{2}}}=\cosh ^{-1}\left(\frac{x}{a}\right)+C
+      $$$ Although solutions 1 and 2 look quite different, they are actually equivalent as can be seen by expressing $\cosh^{-1}$ in terms of logarithms.
+    Annotations: ''
+  tags: []
+- id: 1577214039654
+  fields:
+    Front: |
+      CET-07.03-06 Example:
+      ##### trigonometric substitution
+      Find $\int_{0}^{3 \sqrt{3} / 2} \frac{x^{3}}{\left(4 x^{2}+9\right)^{3 / 2}} d x.$
+    Back: >
+      First we note that $\left(4 x^{2}+9\right)^{3 / 2}=(\sqrt{4 x^{2}+9})^{3}$ so
+      trigonometric substitution is appropriate. Although $\sqrt{4 x^{2}+9}$ is not
+      quite one of the expressions in the table of trigonometric substitutions, it
+      becomes one of them if we make the preliminary substitution $u=2 x .$ When we
+      combine this with the tangent substitution, we have $x=\frac{3}{2} \tan \theta,$
+      which gives $d x=\frac{3}{2} \sec ^{2} \theta d \theta$ and
+
+      $$$
+
+      \sqrt{4 x^{2}+9}=\sqrt{9 \tan ^{2} \theta+9}=3 \sec \theta
+
+      $$$ When $x=0, \tan \theta=0,$ so $\theta=0 ;$ when $x=3 \sqrt{3} / 2, \tan
+      \theta=\sqrt{3},$ so $\theta=\pi / 3$
+
+      $$$
+
+      \begin{aligned}
+
+      \int_{0}^{3 \sqrt{3} / 2} \frac{x^{3}}{\left(4 x^{2}+9\right)^{3 / 2}} d x &=\int_{0}^{\pi
+      / 3} \frac{\frac{27}{8} \tan ^{3} \theta}{27 \sec ^{3} \theta} \frac{3}{2} \sec
+      ^{2} \theta d \theta \\
+
+      &=\frac{3}{16} \int_{0}^{\pi / 3} \frac{\tan ^{3} \theta}{\sec \theta} d \theta=\frac{3}{16}
+      \int_{0}^{\pi / 3} \frac{\sin ^{3} \theta}{\cos ^{2} \theta} d \theta \\
+
+      &=\frac{3}{16} \int_{0}^{\pi / 3} \frac{1-\cos ^{2} \theta}{\cos ^{2} \theta}
+      \sin \theta d \theta
+
+      \end{aligned}
+
+      $$$ Now we substitute $u=\cos \theta$ so that $d u=-\sin \theta d \theta .$
+      When $\theta=0, u=1 ;$ when $\theta=\pi / 3, u=\frac{1}{2} .$ Therefore
+
+      $$$
+
+      \begin{aligned}
+
+      \int_{0}^{3 \sqrt{3} / 2} \frac{x^{3}}{\left(4 x^{2}+9\right)^{3 / 2}} d x &=-\frac{3}{16}
+      \int_{1}^{1 / 2} \frac{1-u^{2}}{u^{2}} d u \\
+
+      &=\frac{3}{16} \int_{1}^{1 / 2}\left(1-u^{-2}\right) d u=\frac{3}{16}\left[u+\frac{1}{u}\right]_{1}^{1
+      / 2} \\
+
+      &=\frac{3}{16}\left[\left(\frac{1}{2}+2\right)-(1+1)\right]=\frac{3}{32}
+
+      \end{aligned}
+
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1577214279453
+  media:
+  - path: ${file_dir}/images/CET-07.03-07.Xm.1.jpg
+  fields:
+    Front: |
+      CET-07.03-07 Example:
+      ##### trigonometric substitution
+      Evaluate $\int \frac{x}{\sqrt{3-2 x-x^{2}}} d x$
+    Back: |
+      We can transform the integrand into a function for which trigonometric substitution is appropriate by first completing the square under the root sign:
+      $$$
+      \begin{aligned}
+      3-2 x-x^{2} &=3-\left(x^{2}+2 x\right)=3+1-\left(x^{2}+2 x+1\right) \\
+      &=4-(x+1)^{2}
+      \end{aligned}
+      $$$ This suggests that we make the substitution $u=x+1 .$ Then $d u=d x$ and $x=u-1,$ so
+      $$$
+      \int \frac{x}{\sqrt{3-2 x-x^{2}}} d x=\int \frac{u-1}{\sqrt{4-u^{2}}} d u
+      $$$ We now substitute $u=2 \sin \theta,$ giving $d u=2 \cos \theta d \theta$ and $\sqrt{4-u^{2}}=2 \cos \theta,$ so
+      $$$
+      \begin{aligned}
+      \int \frac{x}{\sqrt{3-2 x-x^{2}}} d x &=\int \frac{2 \sin \theta-1}{2 \cos \theta} 2 \cos \theta d \theta \\
+      &=\int(2 \sin \theta-1) d \theta \\
+      &= -2 \cos \theta-\theta+C \\
+      &=-\sqrt{4-u^{2}}-\sin ^{-1}\left(\frac{u}{2}\right)+C \\
+      &=-\sqrt{3-2 x-x^{2}}-\sin ^{-1}\left(\frac{x+1}{2}\right)+C
+      \end{aligned}
+      $$$
+      The figure below shows the graphs of the integrand in this example and its indefinite integral (with $C=0$ ). Which is which?
+      <p align="center">
+      ![](CET-07.03-07.Xm.1.jpg)
+      </p>
+    Annotations: ''
+  tags: []

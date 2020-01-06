@@ -1,0 +1,31 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Proofs
+  - Calculus-EarlyTrancendentals
+  - CET-07-TechniquesOfIntegration
+  - CET-07.07-ApproximateIntegration
+  markdownTabLength: 2
+notes:
+- id: 1577485272200
+  fields:
+    Front: |
+      CET-07.07-01 Proof:
+      Derive the **Trapezoidal Rule.**
+    Back: |
+      The Trapezoidal Rule results from averaging the left and right endpoint approximations:
+      $$$
+      \begin{aligned}
+      \int_{a}^{b} f(x) d x
+      &=\frac{1}{2}\left[\sum_{i=1}^{n} f\left(x_{i-1}\right) \Delta x+\sum_{i=1}^{n} f\left(x_{i}\right) \Delta x\right] \\
+      &=\frac{\Delta x}{2}\left[\sum_{i=1}^{n}\left(f\left(x_{i-1}\right)+f\left(x_{i}\right)\right)\right] \\
+      &=\frac{\Delta x}{2}\left[\left(f\left(x_{0}\right)+f\left(x_{1}\right)\right)+\left(f\left(x_{1}\right)+f\left(x_{2}\right)\right)+\cdots+\left(f\left(x_{n-1}\right)+f\left(x_{n}\right)\right)\right] \\
+      &=\frac{\Delta x}{2}\left[f\left(x_{0}\right)+2 f\left(x_{1}\right)+2 f\left(x_{2}\right)+\cdots+2 f\left(x_{n-1}\right)+f\left(x_{n}\right)\right]
+      \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []

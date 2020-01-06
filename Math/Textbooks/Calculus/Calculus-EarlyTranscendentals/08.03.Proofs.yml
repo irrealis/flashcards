@@ -1,0 +1,97 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Proofs
+  - Calculus-EarlyTrancendentals
+  - CET-08-FurtherApplicationsOfIntegration
+  - CET-08.03-ApplicationsToPhysicsAndEngineering
+  markdownTabLength: 2
+notes:
+- id: 1577763980615
+  media:
+  - path: ${file_dir}/images/CET-08.03-01.Pf.1.jpg
+  - path: ${file_dir}/images/CET-08.03-01.Pf.2.jpg
+  fields:
+    Front: |
+      CET-08.03-01 Proof:
+      Suppose that the region $\mathscr{R}$ of a lamina of uniform density $\rho$ is of the type shown below; that is, $\mathscr{R}$ lies between the lines $x=a$ and $x=b,$ above the $x$ axis, and beneath the graph of $f,$ where $f$ is a continuous function.
+      <p align="center">
+      ![](CET-08.03-01.Pf.1.jpg)
+      </p>
+      Derive the moments $M_y$ and $M_x$ of $\mathscr{R}$ about the $y$ and $x$ axes.
+    Back: |
+      We divide the interval $[a, b]$ into $n$ subintervals with endpoints $x_{0}$ $x_{1}, \ldots, x_{n}$ and equal width $\Delta x .$ We choose the sample point $x_{i}^{*}$ to be the midpoint $\overline{x}_{i}$ of the $i$ th subinterval, that is, $\overline{x}_{i}=\left(x_{i-1}+x_{i}\right) / 2 .$ This determines the polygonal approximation to $\mathscr{R}$ shown below.
+      <p align="center">
+      ![](CET-08.03-01.Pf.2.jpg)
+      </p>
+      The centroid of the $i$ th approximating rectangle $R_{i}$ is its center $C_{i}\left(\overline{x}_{i}, \frac{1}{2} f\left(\overline{x}_{i}\right)\right) .$ Its area is $f\left(\overline{x}_{i}\right) \Delta x,$ so its mass is
+      $$$
+      \rho f\left(\overline{x}_{i}\right) \Delta x
+      $$$ The moment of $R_{i}$ about the $y$ axis is the product of its mass and the distance from $C_{i}$ to the $y$ axis, which is $\overline{x}_{i} .$ Thus
+      $$$
+      M_{y}\left(R_{i}\right)=\left[\rho f\left(\overline{x}_{i}\right) \Delta x\right] \overline{x}_{i}=\rho \overline{x}_{i} f\left(\overline{x}_{i}\right) \Delta x
+      $$$ Adding these moments, we obtain the moment of the polygonal approximation to $\mathscr{R},$ and then by taking the limit as $n \rightarrow \infty$ we obtain the moment of $\mathscr{R}$ itself about the $y$ axis:
+      $$$
+      M_{y} = \lim _{n \rightarrow \infty} \sum_{i=1}^{n} \rho \overline{x}_{i} f\left(\overline{x}_{i}\right) \Delta x=\rho \int_{a}^{b} x f(x) d x 
+      $$$ In a similar fashion we compute the moment of $R_{i}$ about the $x$ axis as the product of its mass and the distance from $C_{i}$ to the $x$ axis (which is half the height of $R_{i}$):
+      $$$
+      M_{x}\left(R_{i}\right)=\left[\rho f\left(\overline{x}_{i}\right) \Delta x\right]_{2}^{1} f\left(\overline{x}_{i}\right)=\rho \cdot \frac{1}{2}\left[f\left(\overline{x}_{i}\right)\right]^{2} \Delta x
+      $$$ Again we add these moments and take the limit to obtain the moment of $\mathscr{R}$ about the $x$ axis:
+      $$$
+      M_{x} = \lim _{n \rightarrow \infty} \sum_{i=1}^{n} \rho \cdot \frac{1}{2}\left[f\left(\overline{x}_{i}\right)\right]^{2} \Delta x=\rho \int_{a}^{b} \frac{1}{2}[f(x)]^{2} d x
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1577764859716
+  fields:
+    Front: |
+      CET-08.03-02 Proof:
+      Suppose that the region $\mathscr{R}$ of a lamina of uniform density $\rho$ is of the type shown below; that is, $\mathscr{R}$ lies between the lines $x=a$ and $x=b,$ above the $x$ axis, and beneath the graph of $f,$ where $f$ is a continuous function.
+      <p align="center">
+      ![](CET-08.03-01.Pf.1.jpg)
+      </p>
+      Derive the center of mass $(\overline{x}, \overline{y})$ of the plate (or the centroid of $\mathscr{R}$).
+    Back: |
+      Just as for systems of particles, the center of mass of the plate is defined so that $m \overline{x}=M_{y}$ and $m \overline{y}=M_{x}$ where $m$ is the total mass of the plate and $M_y$ and $M_x$ are its moments about the $y$ and $x$ axes. But the mass of the plate is the product of its density and its area:
+      $$$
+      m=\rho A=\rho \int_{a}^{b} f(x) d x
+      $$$ and so
+      $$$
+      \begin{array}{l}
+      {\overline{x}=\frac{M_{y}}{m}=\frac{\rho \int_{a}^{b} x f(x) d x}{\rho \int_{a}^{b} f(x) d x}=\frac{\int_{a}^{b} x f(x) d x}{\int_{a}^{b} f(x) d x}} \\
+      {\overline{y}=\frac{M_{x}}{m}=\frac{\rho \int_{a}^{b} \frac{1}{2}[f(x)]^{2} d x}{\rho \int_{a}^{b} f(x) d x}=\frac{\int_{a}^{b} \frac{1}{2}[f(x)]^{2} d x}{\int_{a}^{b} f(x) d x}}
+      \end{array}
+      $$$ Notice the cancellations of $\rho$. The location of the center of mass is independent of the density. The center of mass of the plate is therefore located at the point $(\overline{x}, \overline{y}),$ where
+      $$$
+      \overline{x}=\frac{1}{A} \int_{a}^{b} x f(x) d x \quad \text{and} \quad \overline{y}=\frac{1}{A} \int_{a}^{b} \frac{1}{2}[f(x)]^{2} d x
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1577826311980
+  media:
+  - path: ${file_dir}/images/CET-08.03-03.Pf.1.jpg
+  fields:
+    Front: |
+      CET-08.03-03 Proof:
+      Prove the **Theorem of Pappus.**
+    Back: |
+      We give the proof for the special case in which the region lies between $y=f(x)$ and $y=g(x),$ as shown below, and the line $l$ is the $y$ axis.
+      <p align="center">
+      ![](CET-08.03-03.Pf.1.jpg)
+      </p>
+      Using the method of cylindrical shells, we have
+      $$$
+      \begin{aligned}
+      V &=\int_{a}^{b} 2 \pi x[f(x)-g(x)] d x \\
+      &=2 \pi \int_{a}^{b} x[f(x)-g(x)] d x \\
+      &=2 \pi(\overline{x} A) \quad \text { (by Formulas } 9) \\
+      &=(2 \pi \overline{x}) A=A d
+      \end{aligned}
+      $$$
+      where $d=2 \pi \overline{x}$ is the distance traveled by the centroid during one rotation about the $y$ axis.
+    Annotations: ''
+  tags: []

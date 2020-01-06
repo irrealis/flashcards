@@ -1,0 +1,185 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theory
+  - Calculus-EarlyTrancendentals
+  - CET-07-TechniquesOfIntegration
+  - CET-07.07-ApproximateIntegration
+  markdownTabLength: 2
+notes:
+- id: 1577482530050
+  media:
+  - path: ${file_dir}/images/CET-07.07-01.Th.1.jpg
+  fields:
+    Front: |
+      CET-07.07-01 Theory:
+      ##### approximate integration
+      Express the **left endpoint approximation.**
+    Back: >
+      Recall that the definite integral is defined as a limit of Riemann sums, so
+      any Riemann sum could be used as an approximation to the integral of $f$ from
+      $a$ to $b$: If we divide $[a, b]$ into $n$ subintervals of equal length $\Delta
+      x=(b-a) / n,$ then we have
+
+      $$$
+
+      \int_{a}^{b} f(x) d x=\sum_{i=1}^{n} f\left(x_{i}^{*}\right) \Delta x
+
+      $$$ where $x_{i}^{*}$ is any point in the $i\text{th}$ subinterval $\left[x_{i-1},
+      x_{i}\right] .$ If $x_{i}^{*}$ is chosen to be the left end. point of the interval,
+      then $x_{i}^{*}=x_{i-1}$ and we have
+
+      $$$
+
+      \int_{a}^{b} f(x) d x \approx L_{n}=\sum_{i=1}^{n} f\left(x_{i-1}\right) \Delta
+      x
+
+      $$$ This is called the **left endpoint approximation.** If $f(x) \geqslant 0,$
+      then the integral represents an area and $L_{n}$ represents an approximation
+      of this area by the rectangles shown below.
+
+      <p align="center">
+
+      ![](CET-07.07-01.Th.1.jpg)
+
+      Left endpoint approximation
+
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1577482860954
+  media:
+  - path: ${file_dir}/images/CET-07.07-02.Th.1.jpg
+  fields:
+    Front: |
+      CET-07.07-02 Theory:
+      ##### approximate integration
+      Express the **right endpoint approximation.**
+    Back: >
+      Recall that the definite integral is defined as a limit of Riemann sums, so
+      any Riemann sum could be used as an approximation to the integral of $f$ from
+      $a$ to $b$: If we divide $[a, b]$ into $n$ subintervals of equal length $\Delta
+      x=(b-a) / n,$ then we have
+
+      $$$
+
+      \int_{a}^{b} f(x) d x=\sum_{i=1}^{n} f\left(x_{i}^{*}\right) \Delta x
+
+      $$$ where $x_{i}^{*}$ is any point in the $i\text{th}$ subinterval $\left[x_{i-1},
+      x_{i}\right] .$ If we choose $x_{i}^{*}$ to be the right endpoint, then $x_{i}^{*}=x_{i}$
+      and we have
+
+      $$$
+
+      \int_{a}^{b} f(x) d x \approx R_{n}=\sum_{i=1}^{n} f\left(x_{i}\right) \Delta
+      x
+
+      $$$ This is called the **right endpoint approximation.** If $f(x) \geqslant
+      0,$ then the integral represents an area and $R_{n}$ represents an approximation
+      of this area by the rectangles shown below.
+
+      <p align="center">
+
+      ![](CET-07.07-02.Th.1.jpg)
+
+      Right endpoint approximation
+
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1577484215900
+  media:
+  - path: ${file_dir}/images/CET-07.07-03.Th.1.jpg
+  fields:
+    Front: |
+      CET-07.07-03 Theory:
+      ##### approximate integration
+      Express the **Midpoint Rule.**
+    Back: |
+      The Midpoint Rule, a.k.a. the **midpoint approximation,** is given by
+      $$$
+      \int_{a}^{b} f(x) d x \approx M_{n}=\Delta x\left[f\left(\bar{x}_{1}\right)+f\left(\bar{x}_{2}\right)+\cdots+f\left(\bar{x}_{n}\right)\right]
+      $$$ where
+      $$$
+      \Delta x=\frac{b-a}{n}
+      $$$ and
+      $$$
+      \bar{x}_{i}=\frac{1}{2}\left(x_{i-1}+x_{i}\right)= \text{midpoint of } \left[x_{i-1}, x_{i}\right]
+      $$$
+
+      The figure below shows the midpoint approximation $M_{n},$ which appears to be better than either $L_{n}$ or $R_{n}.$
+      <p align="center">
+      ![](CET-07.07-03.Th.1.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1577485050025
+  media:
+  - path: ${file_dir}/images/CET-07.07-04.Th.1.jpg
+  fields:
+    Front: |
+      CET-07.07-04 Theory:
+      ##### approximate integration
+      Express the **Trapezoidal Rule.**
+    Back: |
+      The Trapezoidal Rule, a.k.a. the **trapezoidal approximation,** is given by
+      $$$
+      \int_{a}^{b} f(x) d x=T_{n}=\frac{\Delta x}{2}\left[f\left(x_{0}\right)+2 f\left(x_{1}\right)+2 f\left(x_{2}\right)+\cdots+2 f\left(x_{n-1}\right)+f\left(x_{n}\right)\right]
+      $$$ where $\Delta x=(b-a) / n$ and $x_{i}=a+i \Delta x.$
+
+      The reason for the name Trapezoidal Rule can be seen from the fihgure below, which illustrates the case with $f(x) \geqslant 0$ and $n=4 .$
+      <p align="center">
+      ![](CET-07.07-04.Th.1.jpg)
+      </p>
+      The area of the trapezoid that lies above the $i$ th subinterval is
+      $$$
+      \Delta x\left(\frac{f\left(x_{i-1}\right)+f\left(x_{i}\right)}{2}\right)=\frac{\Delta x}{2}\left[f\left(x_{i-1}\right)+f\left(x_{i}\right)\right]
+      $$$ and if we add the areas of all these trapezoids, we get the right side of the Trapezoidal Rule.
+    Annotations: ''
+  tags: []
+- id: 1577485966652
+  fields:
+    Front: |
+      CET-07.07-05 Theory:
+      ##### approximate integration
+      What are the error bounds in the Trapezoidal and Midpoint Rules?
+    Back: |
+      Suppose $\left|f^{\prime \prime}(x)\right| \leqslant K$ for $a \leqslant x \leqslant b .$ If $E_{T}$ and $E_{u}$ are the errors in the Trapezoidal and Midpoint Rules, then
+      $$$
+      \left|E_{T}\right| \leqslant \frac{K(b-a)^{3}}{12 n^{2}} \quad \text { and } \quad\left|E_{4}\right| \leqslant \frac{K(b-a)^{3}}{24 n^{2}}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1577507139612
+  fields:
+    Front: |
+      CET-07.07-06 Theory:
+      ##### simpson's rule
+      Express **Simpson's Rule.**
+    Back: |
+      **Simpson's Rule** is given by
+      $$$
+      \begin{aligned}
+        \int_{a}^{b} f(x) d x \approx S_{n}=\frac{\Delta x}{3}\left[f\left(x_{0}\right)\right.&+4 f\left(x_{1}\right)+2 f\left(x_{2}\right)+4 f\left(x_{3}\right)+\cdots \\
+        &\left.+2 f\left(x_{n-2}\right)+4 f\left(x_{n-1}\right)+f\left(x_{n}\right)\right]
+      \end{aligned}
+      $$$ where $n$ is even and $\Delta x=(b-a) / n.$
+    Annotations: ''
+  tags: []
+- id: 1577556878154
+  fields:
+    Front: |
+      CET-07.07-07 Theory:
+      ##### simpson's rule
+      What are the **Error Bound for Simpson's Rule?**
+    Back: |
+      Suppose that $\left|f^{(4)}(x)\right| \leqslant K$ for $a \leqslant x \leqslant b .$ If $E_{s}$ is the error involved in using Simpson's Rule, then
+      $$$
+      \left|E_{s}\right| \leqslant \frac{K(b-a)^{5}}{180 n^{4}}
+      $$$
+    Annotations: ''
+  tags: []

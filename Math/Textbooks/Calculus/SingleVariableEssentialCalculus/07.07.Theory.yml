@@ -1,0 +1,200 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theory
+  - SingleVariableEssentialCalculus
+  - SVEC-07-ApplicationsOfIntegration
+  - SVEC-07.07-DifferentialEquations
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1577830395653
+  fields:
+    Front: |
+      SVEC-07.07-01 Theory:
+      ##### differential equations
+      Define **differential equation.**
+    Back: |
+      A **differential equation** is an equation that contains an unknown function and one or more of its derivatives. Here are some examples:
+      $$
+      y^{\prime}=x y \\
+      y^{\prime \prime}+2 y^{\prime}+y=0 \\
+      \frac{d^{3} y}{d x^{3}}+x \frac{d^{2} y}{d x^{2}}+\frac{d y}{d x}-2 y=e^{-x}
+      $$ In each of these differential equations $y$ is an unknown function of $x .$ The importance of differential equations lies in the fact that when a scientist or engineer formulates a physical law in mathematical terms, it frequently turns out to be a differential equation.
+    Annotations: ''
+  tags: []
+- id: 1577830710658
+  fields:
+    Front: |
+      SVEC-07.07-02 Theory:
+      ##### differential equations
+      Define **order** of a differential equation.
+    Back: |
+      The **order** of a differential equation is the order of the highest derivative that occurs in the equation. Thus the following differential quations are of order $1,$ $2,$ and $3,$ respectively.
+      $$
+      y^{\prime}=x y \\
+      y^{\prime \prime}+2 y^{\prime}+y=0 \\
+      \frac{d^{3} y}{d x^{3}}+x \frac{d^{2} y}{d x^{2}}+\frac{d y}{d x}-2 y=e^{-x}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1577830833845
+  fields:
+    Front: |
+      SVEC-07.07-03 Theory:
+      ##### differential equations
+      Define **solution** of a differential equation.
+    Back: |
+      A function $f$ is called a **solution** of a differential equation if the equation is satisfied when $y=f(x)$ and its derivatives are substituted into the equation. Thus $f$ is a solution of $y^{\prime}=x y$ if
+      $$
+      f^{\prime}(x)=x f(x)
+      $$ for all values of $x$ in some interval.
+    Annotations: ''
+  tags: []
+- id: 1577831475036
+  fields:
+    Front: |
+      SVEC-07.07-04 Theory:
+      ##### separable equations
+      Define **separable** equation.
+    Back: |
+      A **separable** equation is a first-order differential equation that can be written in the form
+      $$
+      \frac{d y}{d x}=g(x) f(y)
+      $$
+      The name separable comes from the fact that the expression on the right side can be "separated" into a function of $x$ and a function of $y .$ Equivalently, if $f(y) \neq 0,$ we could write
+      $$
+      \frac{d y}{d x}=\frac{g(x)}{h(y)}
+      $$ where $h(y)=1 / f(y).$
+    Annotations: ''
+  tags: []
+- id: 1577915467022
+  fields:
+    Front: |
+      SVEC-07.07-05 Theory:
+      ##### separable equations
+      What general procedure is used to solve a separable equation?
+    Back: |
+      A separable equation is a first-order differential equation that can be written in the form
+      $$
+      \frac{d y}{d x}=g(x) f(y)
+      $$ That is, the expression on the right side can be "separated" into a function of $x$ and a function of $y .$ Equivalently, if $f(y) \neq 0,$ we can write
+      $$
+      \frac{d y}{d x}=\frac{g(x)}{h(y)}
+      $$ where $h(y)=1 / f(y).$ To solve this equation we rewrite it in the differential form
+      $$
+      h(y) d y=g(x) d x
+      $$ so that all $y$s are on one side of the equation and all $x$s are on the other side. Then we integrate both sides of the equation:
+      $$
+      \int h(y) d y=\int g(x) d x
+      $$ This defines $y$ implicitly as a function of $x .$ In some cases we may be able to solve for $y$ in tems of $x.$
+    Annotations: ''
+  tags: []
+- id: 1577916018218
+  fields:
+    Front: |
+      SVEC-07.07-06 Theory:
+      ##### separable equations
+      What is an **initial-value problem?**
+    Back: |
+      When applying differential equations, we are usually not as interested in finding a family of solutions (the _general solution_) as we are in finding a solution that satisfies some additional requirement. In many physical problems we need to find the particular solution that satisfies a condition of the form $y\left(x_{0}\right)=y_{0} .$ This is called an **initial condition,** and the problem of finding a solution of the differential equation that satisfies the initial condition is called an **initial-value problem.**
+    Annotations: ''
+  tags: []
+- id: 1577917610991
+  media:
+  - path: ¢{file_dir}/images/SVEC-07.07-07.Th.1.jpg
+  fields:
+    Front: |
+      SVEC-07.07-07 Theory:
+      ##### logistic growth
+      What is the **logistic differential equation?** What does its graph look like? What is **carrying capacity?** In what context is this typically used?
+    Back: |
+      $$
+      \frac{d y}{d t}=k y(M-y)
+      $$ where $k$ is a constant. When modeling population growth in a restricted environment with limited food supply, the population cannot exceed a maximal size $M$ (called the **carrying capacity**) at which it consumes its entire food supply. If we make the assumption that the rate of growth of population is jointly proportional to the size of the population $(y)$ and the amount by which $y$ falls short of the maximal size $(M-y),$ then we have the above equation.
+
+      This **logistic differential equation** was used by the Dutch mathematical biologist Pierre-François Verhulst in the 1840s to model world population growth.
+
+      The graph of the logistic growth function is shown below.
+      <p align="center">
+      ![](SVEC-07.07-07.Th.1.jpg)
+      </p>
+      At first the graph is concave upward and the growth curve appears to be almost exponential, but then it is concave downward and approaches the limiting population $M$
+    Annotations: ''
+  tags: []
+- id: 1577918350491
+  media:
+  - path: ¢{file_dir}/images/SVEC-07.07-09.Th.1.jpg
+  fields:
+    Front: |
+      SVEC-07.07-08 Theory:
+      ##### logistic growth
+      How do we solve the **logistic differential equation?**
+    Back: |
+      The logistic equation is separable, so we write it in the form
+      $$
+      \int \frac{d y}{y(M-y)}=\int k d t
+      $$ Using partial fractions, we have
+      $$
+      \frac{1}{y(M-y)}=\frac{1}{M}\left[\frac{1}{y}+\frac{1}{M-y}\right]
+      $$ so
+      $$
+      \begin{aligned}
+      \frac{1}{M}\left[\int \frac{d y}{y}+\int \frac{d y}{M-y}\right] &=\int k d t=k t+C \\
+      \frac{1}{M}(\ln |y|-\ln |M-y|) &=k t+C
+      \end{aligned}
+      $$ But $|y|=y$ and $|M-y|=M-y,$ since $0<y<M,$ so we have
+      $$
+      \begin{aligned}
+      \ln \frac{y}{M-y} &=M(k t+C) \\
+      \frac{y}{M-y} &=A e^{k M t} \quad\left(A=e^{M C}\right)
+      \end{aligned}
+      $$ If the population at time $t=0$ is $y(0)=y_{0},$ then $A=y_{0} /\left(M-y_{0}\right),$ so
+      $$
+      \frac{y}{M-y}=\frac{y_{0}}{M-y_{0}} e^{k M t}
+      $$ If we solve this equation for $y,$ we get
+      $$
+      y=\frac{y_{0} M e^{k M t}}{M-y_{0}+y_{0} e^{k M t}}=\frac{y_{0} M}{y_{0}+\left(M-y_{0}\right) e^{-k M t}}
+      $$ Using the latter expression for $y,$ we see that
+      $$
+      \lim _{t \rightarrow \infty} y(t)=M
+      $$ which is to be expected.
+
+      The graph of the logistic growth function is shown below. At first the graph is concave upward and the growth curve appears to be almost exponential, but then it is concave downward and approaches the limiting population $M$
+      <p align="center">
+      ![](SVEC-07.07-09.Th.1.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1578326521664
+  fields:
+    Front: |
+      SVEC-07.07-09 Theory:
+      ##### mixing problems
+      What is a **mixing problem?**
+    Back: |
+      A typical **mixing problem** involves a tank of fixed capacity filled with a thoroughly mixed solution of some substance, such as salt. A solution of a given concentration enters the tank at a fixed rate and the mixture, thoroughly stirred, leaves at a fixed rate, which may differ from the entering rate. If $y(t)$ denotes the amount of substance in the tank at time $t,$ then $y^{\prime}(t)$ is the rate at which the substance is being added minus the rate at which it is being removed.
+
+      The mathematical description of this situation often leads to a first-order separable differential equation, and might be modeled as
+      $$
+      \frac{d y}{d t}=(\text { rate in })-(\text { rate out })
+      $$ We can use the same type of reasoning to model a variety of phenomena: chemical reactions, discharge of pollutants into a lake, injection of a drug into the bloodstream.
+    Annotations: ''
+  tags: []
+- id: 1578336704340
+  fields:
+    Front: |
+      SVEC-07.07-10 Theory:
+      ##### direction field
+      Define **direction field** (a.k.a. **slope field**).
+    Back: |
+      Suppose we are given a first-order differential equation of the form
+      $$
+      y^{\prime}=F(x, y)
+      $$ where $F(x, y)$ is some expression in $x$ and $y .$ [Recall that a separable equation is the special case in which $F(x, y)$ can be factored as a function of $x$ times a function of $y$.] Even if it is impossible to find a formula for the solution, we can still visualize the solution curves by means of a direction field. If a solution curve passes through a point $(x, y),$ then its slope at that point is $y^{\prime},$ which is equal to $F(x, y) .$ If we draw short line segments with slopes $F(x, y)$ at several points $(x, y),$ the result is called a **direction field** (or **slope field**). These line segments indicate the direction in which a solution curve is heading, so the direction field helps us visualize the general shape of these curves.
+    Annotations: ''
+  tags: []

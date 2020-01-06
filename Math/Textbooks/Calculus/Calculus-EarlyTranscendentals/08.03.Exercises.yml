@@ -1,0 +1,31 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-08-FurtherApplicationsOfIntegration
+  - CET-08.03-ApplicationsToPhysicsAndEngineering
+  markdownTabLength: 2
+notes:
+- id: 1577826585630
+  fields:
+    Front: |
+      CET-08.03-01 Exercise:
+      An aquarium $5 \text{ ft}$ long, $2 \text{ ft}$ wide, and $3 \text{ ft}$ deep is full of water. Find (a) the hydrostatic pressure on the bottom of the aquarium, (b) the hydrostatic force on the bottom, and (c) the hydrostatic force on one end of the aquarium.
+    Back: |
+      The weight density of water is $\delta=62.5 \mathrm{lb} / \mathrm{ft}^{3}$
+
+      (a) $P=\delta d \approx\left(62.5 \mathrm{lb} / \mathrm{ft}^{3}\right)(3 \mathrm{ft})=187.5 \mathrm{lb} / \mathrm{ft}^{2}$
+
+      (b) $F=P A \approx\left(187.5 \mathrm{lb} / \mathrm{ft}^{2}\right)(5 \mathrm{ft})(2 \mathrm{ft})=1875 \mathrm{lb} . \quad(A$ is the area of the bottom of the tank.)
+
+      (c) As in Example $1,$ the area of the $i$ th strip is $2(\Delta x)$ and the pressure is $\delta d=\delta x_{i} .$ Thus,
+      $$$
+      j=\int_{0}^{3} \delta x \cdot 2 d x \approx(62.5)(2) \int_{0}^{3} x d x=125\left[\frac{1}{2} x^{2}\right]_{0}^{3}=125\left(\frac{9}{2}\right)=562.5 \mathrm{lb}
+      $$$
+    Annotations: ''
+  tags: []

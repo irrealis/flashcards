@@ -1,6 +1,7 @@
 # Python cruft
 *.py?
 __pycache__
+.python-version
 
 # Vim cruft
 *.sw?

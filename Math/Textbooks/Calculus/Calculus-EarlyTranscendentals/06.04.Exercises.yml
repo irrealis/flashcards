@@ -1,0 +1,26 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-06-ApplicationsOfIntegration
+  - CET-06.04-Work
+  markdownTabLength: 2
+notes:
+- id: 1577726370248
+  fields:
+    Front: |
+      CET-06.04-01 Exercise:
+      A $360-\text{lb}$ gorilla climbs a tree to a height of $20 \text{ ft}$. Find the work done if the gorilla reaches that height in
+      (a) $10 \text{ seconds}$
+      (b) $5 \text{ seconds}$
+    Back: |
+      (a) The work done by the gorilla in lifting its weight of $360 \text{ pounds}$ to a height of $20 \text{ feet}$ is $W=F d=(360 \text{ lb})(20 \text{ ft})=7200 \text{ ft-lb}.$ 
+      (b) The amount of time it takes the gorilla to climb the tree doesn't change the amount of work done, so the work done is still $7200 \text{ft-lb}$.
+    Annotations: ''
+  tags:
+  - Editing

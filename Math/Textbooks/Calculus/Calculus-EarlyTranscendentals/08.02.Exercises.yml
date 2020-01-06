@@ -1,0 +1,37 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-08-FurtherApplicationsOfIntegration
+  - CET-08.02-AreaOfASurfaceOfRevolution
+  markdownTabLength: 2
+notes:
+- id: 1577664201021
+  fields:
+    Front: |
+      CET-08.02-01 Exercise:
+      (a) Set up an integral for the area of the surface obtained by rotating the curve about (i) the $x$ -axis and (ii) the $y$ -axis.
+      (b) Use the numerical integration capability of a calculator to evaluate the surface areas correct to four decimal places.
+      $$$
+      y=\tan x, 0 \leqslant x \leqslant \pi / 3
+      $$$
+    Back: >
+      (a.i) $y=\tan x \Rightarrow d y / d x$ $=\sec ^{2} x \Rightarrow d s$ $=\sqrt{1+(d
+      y / d x)^{2}} d x$ $=\sqrt{1+\sec ^{4} x} d x .$ An integral for the area of
+      the surface obtained by rotating the curve about the $x$-axis is $S=\int 2 \pi
+      y d s$ $=\int_{0}^{\pi / 3} 2 \pi \tan x \sqrt{1+\sec ^{4} x} d x.$
+
+      (a.ii) An integral for the area of the surface obtained by rotating the curve
+      about the $y$ -axis is $S=\int 2 \pi x d s$ $=\int_{0}^{\pi / 3} 2 \pi x \sqrt{1+\sec
+      ^{4} x} d x.$
+
+      (b.i) $10.5017$
+
+      (b.ii) $7.9353$
+    Annotations: ''
+  tags: []

@@ -1,0 +1,25 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-07-TechniquesOfIntegration
+  - CET-07.08-ImproperIntegrals
+  markdownTabLength: 2
+notes:
+- id: 1577565483904
+  fields:
+    Front: |
+      CET-07.08-01a Exercise:
+      Explain why the following integral is improper.
+      $$$
+      \int_{1}^{2} \frac{x}{x-1} d x
+      $$$
+    Back: |
+      Since $y=\frac{x}{x-1}$ has an infinite discontinuity at $x=1, \int_{1}^{2} \frac{x}{x-1} d x$ is a Type 2 improper integral.
+    Annotations: ''
+  tags: []

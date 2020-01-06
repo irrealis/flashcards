@@ -1,0 +1,247 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-06-ApplicationsOfIntegration
+  - CET-06.01-AreasBetweenCurves
+  markdownTabLength: 2
+notes:
+- id: 1577567211404
+  media:
+  - path: ${file_dir}/images/CET-06.01-01.Xm.1.jpg
+  fields:
+    Front: |
+      CET-06.01-01 Example:
+      Find the area of the region bounded above by $y=e^{x},$ bounded below by $y=x,$ and bounded on the sides by $x=0$ and $x=1$
+    Back: |
+      The region is shown in the figure below.
+      <p align="center">
+      ![](CET-06.01-01.Xm.1.jpg)
+      </p>
+      The upper boundary curve is $y=e^{x}$ and the lower boundary curve is $y=x .$ So we use the area formula with $f(x)=e^{x}$ $g(x)=x, a=0,$ and $b=1:$
+      $$$
+      \begin{aligned}
+      A &\left.=\int_{0}^{1}\left(e^{x}-x\right) d x=e^{x}-\frac{1}{2} x^{2}\right]_{0}^{1} \\
+      &=e-\frac{1}{2}-1=e-1.5
+      \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1577567416929
+  media:
+  - path: ${file_dir}/images/CET-06.01-02.Xm.1.jpg
+  fields:
+    Front: |
+      CET-06.01-02 Example:
+      Find the area of the region enclosed by the parabolas $y=x^{2}$ and $y=2 x-x^{2}$
+    Back: |
+      We first find the points of intersection of the parabolas by solving their equations simultaneously. This gives $x^{2}=2 x-x^{2},$ or $2 x^{2}-2 x=0 .$ Thus $2 x(x-1)=0,$ so $x=0$ or $1 .$ The points of intersection are $(0,0)$ and $(1,1)$ We see from the following figure that the top and bottom boundaries are
+      $$$
+      y_{T}=2 x-x^{2} \quad \text { and } \quad y_{B}=x^{2}
+      $$$
+      <p align="center">
+      ![](CET-06.01-02.Xm.1.jpg)
+      </p>
+      The area of a typical rectangle is
+      $$$
+      \left(y_{T}-y_{B}\right) \Delta x=\left(2 x-x^{2}-x^{2}\right) \Delta x
+      $$$ and the region lies between $x=0$ and $x=1 .$ So the total area is
+      $$$
+      \begin{aligned}
+      A &=\int_{0}^{1}\left(2 x-2 x^{2}\right) d x=2 \int_{0}^{1}\left(x-x^{2}\right) d x \\
+      &=2\left[\frac{x^{2}}{2}-\frac{x^{3}}{3}\right]_{0}^{1}=2\left(\frac{1}{2}-\frac{1}{3}\right)=\frac{1}{3}
+      \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1577567865844
+  media:
+  - path: ${file_dir}/images/CET-06.01-03.Xm.1.jpg
+  fields:
+    Front: |
+      CET-06.01-03 Example:
+      Find the approximate area of the region bounded by the curves $y=x / \sqrt{x^{2}+1}$ and $y=x^{4}-x.$
+    Back: |
+      If we were to try to find the exact intersection points, we would have to solve the equation
+      $$$
+      \frac{x}{\sqrt{x^{2}+1}}=x^{4}-x
+      $$$ This looks like a very difficult equation to solve exactly (in fact, it's impossible), so instead we use a graphing device to draw the graphs of the two curves in the figure below.
+      <p align="center">
+      ![](CET-06.01-03.Xm.1.jpg)
+      </p>
+      One intersection point is the origin. We zoom in toward the other point of intersection and find that $x \approx 1.18 .$ (If greater accuracy is required, we could use Newton's method or solve numerically on our graphing device.) So an approximation to the area between the curves is
+      $$$
+      A \approx \int_{0}^{1.18}\left[\frac{x}{\sqrt{x^{2}+1}}-\left(x^{4}-x\right)\right] d x
+      $$$ To integrate the first term we use the substitution $u=x^{2}+1 .$ Then $d u=2 x d x,$ and when $x=1.18,$ we have $u \approx 2.39 ;$ when $x=0, u=1 .$ So
+      $$$
+      \begin{aligned}
+      A & \approx \frac{1}{2} \int_{1}^{2.39} \frac{d u}{\sqrt{u}}-\int_{0}^{1.18}\left(x^{4}-x\right) d x \\
+      &=\sqrt{u}]_{1}^{2.39}-\left[\frac{x^{5}}{5}-\frac{x^{2}}{2}\right]_{0}^{1.18} \\
+      &=\sqrt{2.39}-1-\frac{(1.18)^{5}}{5}+\frac{(1.18)^{2}}{2} \\
+      & \approx 0.785
+      \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1577568329043
+  media:
+  - path: ${file_dir}/images/CET-06.01-04.Xm.1.jpg
+  fields:
+    Front: |
+      CET-06.01-04 Example:
+      The following figure shows velocity curves for two cars, A and B, that start side by side and move along the same road.
+      <p align="center">
+      ![](CET-06.01-04.Xm.1.jpg)
+      </p>
+      What does the area between the curves represent? Use the Midpoint Rule to estimate it.
+    Back: |
+      We know from Section 5.4 that the area under the velocity curve $A$ represents the distance traveled by car A during the first 16 seconds. Similarly, the area under curve $B$ is the distance traveled by car B during that time period. So the area between these curves, which is the difference of the areas under the curves, is the distance between the cars after 16 seconds. We read the velocities from the graph and convert them to feet per second $\left(1 \text{ mi} / \mathrm{h}=\frac{5280}{3600} \text{ ft} / \mathrm{s}\right).$
+      $$$
+      \begin{array}{|c|c|c|c|c|c|c|c|c|c|}
+      \hline
+      t & {0} & {2} & {4} & {6} & {8} & {10} & {12} & {14} & {16} \\
+      \hline
+      v_{A} & {0} & {34} & {54} & {67} & {76} & {84} & {89} & {92} & {95} \\
+      \hline
+      v_{B} & {0} & {21} & {34} & {44} & {51} & {56} & {60} & {63} & {65} \\
+      \hline
+      v_{A-v_{B}} & {0} & {13} & {20} & {23} & {25} & {28} & {29} & {29} & {30} \\
+      \hline
+      \end{array}
+      $$$ We use the Midpoint Rule with $n=4$ intervals, so that $\Delta t=4 .$ The midpoints of the intervals are $\bar{t}_{1}=2, \bar{t}_{2}=6, \bar{t}_{3}=10,$ and $\bar{t}_{4}=14 .$ We estimate the distance between the cars after 16 seconds as follows:
+      $$$
+      \begin{aligned}
+      \int_{0}^{16}\left(v_{A}-v_{B}\right) d t
+      &\approx \Delta t[13+23+28+29] \\
+      &=4(93)=372 \text{ ft}
+      \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1577568974995
+  media:
+  - path: ${file_dir}/images/CET-06.01-05.Xm.1.jpg
+  - path: ${file_dir}/images/CET-06.01-05.Xm.2.jpg
+  fields:
+    Front: >
+      CET-06.01-05 Example:
+
+      The figure below is an example of a pathogenesis curve for a measles infection.
+      It shows how the disease develops in an individual with no immunity after the
+      measles virus spreads to the bloodstream from the respiratory tract.
+
+      <p align="center">
+
+      ![](CET-06.01-05.Xm.1.jpg)
+
+      Measles pathogenesis curve
+
+      _Source:_ J. M. Heffernan et al., "An In-Host Model of Acute Infection: Measles
+      as a Case Study," _Theoretical Population Biology_ 73(2008): 134-47
+
+      </p>
+
+      The patient becomes infectious to others once the concentration of infected
+      cells becomes great enough, and he or she remains infectious until the immune
+      system manages to prevent further transmission. However, symptoms don't develop
+      until the "amount of infection" reaches a particular threshold. The amount of
+      infection needed to develop symptoms depends on both the concentration of infected
+      cells and time, and corresponds to the area under the pathogenesis curve until
+      symptoms appear. (See Exercise $5.1 .19 .)$
+
+
+      (a) The pathogenesis curve in the figure above has been modeled by $f(t)=-t(t-21)(t+1).$
+      If infectiousness begins on day $t_{1}=10$ and ends on day $t_{2}=18,$ what
+      are the corresponding concentration levels of infected cells?
+
+
+      (b) The level of infectiousness for an infected person is the area between $N=f(t)$
+      and the line through the points $P_{1}\left(t_{1}, f\left(t_{1}\right)\right)$
+      and $P_{2}\left(t_{2}, f\left(t_{2}\right)\right),$ measured in (cells/mL) \cdotdays.
+      (See figure below.) Compute the level of infectiousness for this particular
+      patient.
+
+      <p align="center">
+
+      ![](CET-06.01-05.Xm.2.jpg)
+
+      </p>
+    Back: |
+      (a) Infectiousness begins when the concentration reaches $f(10)=1210 \text{ cells} / \mathrm{mL}$ and ends when the concentration reduces to $f(18)=1026 \text{ cells} / \mathrm{mL}.$
+
+      (b) The line through $P_{1}$ and $P_{2}$ has slope $\frac{1026-1210}{18-10}=-\frac{184}{8}=-23$ and equation $N-1210=-23(t-10) \Longleftrightarrow N=-23 t+1440 .$ The area between $f$ and this line is
+      $$$
+      \begin{aligned}
+      \int_{10}^{18}[f(t)-(-23 t+1440)] d t &=\int_{10}^{18}\left(-t^{3}+20 t^{2}+21 t+23 t-1440\right) d t \\
+      &=\int_{10}^{18}\left(-t^{3}+20 t^{2}+44 t-1440\right) d t \\
+      &=\left[-\frac{t^{4}}{4}+20 \frac{t^{3}}{3}+44 \frac{t^{2}}{2}-1440 t\right]_{10}^{18} \\
+      &=-6156-\left(-8033 \frac{1}{3}\right) \approx 1877
+      \end{aligned}
+      $$$ Thus the level of infectiousness for this patient is about 1877 ($\text{cells} / \mathrm{mL} ) \cdot \text{days}.$
+    Annotations: ''
+  tags: []
+- id: 1577569498418
+  media:
+  - path: ${file_dir}/images/CET-06.01-06.Xm.1.jpg
+  fields:
+    Front: |
+      CET-06.01-06 Example:
+      Find the area of the region bounded by the curves $y=\sin x, y=\cos x$ $x=0,$ and $x=\pi / 2$
+    Back: |
+      The points of intersection occur when $\sin x=\cos x,$ that is, when $x=\pi / 4$ (since $0 \leqslant x \leqslant \pi / 2) .$ The region is sketched below.
+      <p align="center">
+      ![](CET-06.01-06.Xm.1.jpg)
+      </p>
+      Observe that $\cos x \geqslant \sin x$ when $0 \leqslant x \leqslant \pi / 4$ but $\sin x \geqslant \cos x$ when $\pi / 4 \leqslant x \leqslant \pi / 2 .$ Therefore the required area is
+      $$$
+      \begin{aligned}
+      A &=\int_{0}^{\pi / 2}|\cos x-\sin x| d x=A_{1}+A_{2} \\
+      &=\int_{0}^{\pi / 4}(\cos x-\sin x) d x+\int_{\pi / 4}^{\pi / 2}(\sin x-\cos x) d x \\
+      &=[\sin x+\cos x]_{0}^{\pi / 4}+[-\cos x-\sin x]_{\pi / 4}^{\pi / 2} \\
+      &=\left(\frac{1}{\sqrt{2}}+\frac{1}{\sqrt{2}}-0-1\right)+\left(-0-1+\frac{1}{\sqrt{2}}+\frac{1}{\sqrt{2}}\right) \\
+      &=2 \sqrt{2}-2
+      \end{aligned}
+      $$$ In this particular example we could have saved some work by noticing that the region is symmetric about $x=\pi / 4$ and so
+      $$$
+      A=2 A_{1}=2 \int_{0}^{\pi / 4}(\cos x-\sin x) d x
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1577569994892
+  media:
+  - path: ${file_dir}/images/CET-06.01-07.Xm.1.jpg
+  - path: ${file_dir}/images/CET-06.01-07.Xm.2.jpg
+  fields:
+    Front: |
+      CET-06.01-07 Example:
+      Find the area enclosed by the line $y=x-1$ and the parabola $y^{2}=2 x+6$
+    Back: |
+      By solving the two equations we find that the points of intersection are $(-1,-2)$ and $(5,4) .$ We solve the equation of the parabola for $x$ and notice from the following figure that the left and right boundary curves are
+      $$$
+      x_{L}=\frac{1}{2} y^{2}-3 \quad \text { and } \quad x_{R}=y+1
+      $$$
+      <p align="center">
+      ![](CET-06.01-07.Xm.1.jpg)
+      </p>
+      We must integrate between the appropriate $y$ -values, $y=-2$ and $y=4 .$ Thus
+      $$$
+      \begin{aligned}
+      A &=\int_{-2}^{4}\left(x_{R}-x_{L}\right) d y=\int_{-2}^{4}\left[(y+1)-\left(\frac{1}{2} y^{2}-3\right)\right] d y \\
+      &=\int_{-2}^{4}\left(-\frac{1}{2} y^{2}+y+4\right) d y \\
+      &=-\frac{1}{2}\left(\frac{y^{3}}{3}\right)+\frac{y^{2}}{2}+\left.4 y\right|_{-2} ^{4} \\
+      &=-\frac{1}{6}(64)+8+16-\left(\frac{4}{3}+2-8\right)=18
+      \end{aligned}
+      $$$
+      **NOTE:**
+      We could have found the area by integrating with respect to $x$ instead of $y,$ but the calculation is much more involved. Because the bottom boundary consists of two different curves, it would have meant splitting the region in two and computing the areas labeled $A_{1}$ and $A_{2}$ in the figure below.
+      <p align="center">
+      ![](CET-06.01-07.Xm.2.jpg)
+      </p>
+      The method we used above is much easier.
+    Annotations: ''
+  tags: []

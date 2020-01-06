@@ -1,0 +1,294 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-06-ApplicationsOfIntegration
+  - CET-06.02-Volumes
+  markdownTabLength: 2
+notes:
+- id: 1577572873668
+  media:
+  - path: ${file_dir}/images/CET-06.02-01.Xm.1.jpg
+  fields:
+    Front: |
+      CET-06.02-01 Example:
+      Show that the volume of a sphere of radius $r$ is $V=\frac{4}{3} \pi r^{3}$
+    Back: |
+      If we place the sphere so that its center is at the origin, then the plane $P_{x}$ intersects the sphere in a circle whose radius (from the Pythagorean Theorem) is $y=\sqrt{r^{2}-x^{2}} .$ (See figure below.)
+      <p align="center">
+      ![](CET-06.02-01.Xm.1.jpg)
+      </p>
+      So the cross-sectional area is
+      $$$
+      A(x)=\pi y^{2}=\pi\left(r^{2}-x^{2}\right)
+      $$$
+      Using the definition of volume with $a=-r$ and $b=r,$ we have
+      $$$
+      \begin{aligned}
+      V &=\int_{-r}^{r} A(x) d x=\int_{-r}^{r} \pi\left(r^{2}-x^{2}\right) d x \\
+      &=2 \pi \int_{0}^{r}\left(r^{2}-x^{2}\right) d x \quad \text{(The integrand is even.)} \\
+      &=2 \pi\left[r^{2} x-\frac{x^{3}}{3}\right]_{0}^{r}=2 \pi\left(r^{3}-\frac{r^{3}}{3}\right) \\
+      &=\frac{4}{3} \pi r^{3}
+      \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1577573291401
+  media:
+  - path: ${file_dir}/images/CET-06.02-02.Xm.1.jpg
+  - path: ${file_dir}/images/CET-06.02-02.Xm.2.jpg
+  fields:
+    Front: >
+      CET-06.02-02 Example:
+
+      Find the volume of the solid obtained by rotating about the $x$ -axis the region
+      under the curve $y=\sqrt{x}$ from 0 to $1 .$ Illustrate the definition of volume
+      by sketching a typical approximating cylinder.
+    Back: |
+      The region is shown below.
+      <p align="center">
+      ![](CET-06.02-02.Xm.1.jpg)
+      </p>
+      If we rotate about the $x$ -axis, we get the solid shown below.
+      <p align="center">
+      ![](CET-06.02-02.Xm.2.jpg)
+      </p>
+      When we slice through the point $x,$ we get a disk with radius $\sqrt{x} .$ The area of this cross-section is
+      $$$
+      A(x)=\pi(\sqrt{x})^{2}=\pi x
+      $$$ and the volume of the approximating cylinder (a disk with thickness $\Delta x$ ) is
+      $$$
+      A(x) \Delta x=\pi x \Delta x
+      $$$ The solid lies between $x=0$ and $x=1,$ so its volume is
+      $$$
+      \left.V=\int_{0}^{1} A(x) d x=\int_{0}^{1} \pi x d x=\pi \frac{x^{2}}{2}\right]_{0}^{1}=\frac{\pi}{2}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1577573526058
+  media:
+  - path: ${file_dir}/images/CET-06.02-03.Xm.1.jpg
+  - path: ${file_dir}/images/CET-06.02-03.Xm.2.jpg
+  fields:
+    Front: |
+      CET-06.02-03 Example:
+      Find the volume of the solid obtained by rotating the region bounded by $y=x^{3}, y=8,$ and $x=0$ about the $y$ -axis.
+    Back: |
+      The region is shown below, and the resulting solid is shown in the following figure.
+      <p align="center">
+      ![](CET-06.02-03.Xm.1.jpg)
+      </p>
+      <p align="center">
+      ![](CET-06.02-03.Xm.2.jpg)
+      </p>
+      Because the region is rotated about the $y$ -axis, it makes sense to slice the solid perpendicular to the $y$ -axis (obtaining circular cross-sections) and therefore to integrate with respect to $y .$ If we slice at height $y,$ we get a circular disk with radius $x,$ where $x=\sqrt[3]{y} .$ So the area of a cross-section through $y$ is
+      $$$
+      A(y)=\pi x^{2}=\pi(\sqrt[3]{y})^{2}=\pi y^{2 / 3}
+      $$$ and the volume of the approximating cylinder pictured in Figure $7(b)$ is
+      $$$
+      A(y) \Delta y=\pi y^{2 / 3} \Delta y
+      $$$ since the solid lies between $y=0$ and $y=8,$ its volume is
+      $$$
+      V=\int_{0}^{8} A(y) d y=\int_{0}^{8} \pi y^{2 / 3} d y=\pi\left[\frac{3}{5} y^{5 / 3}\right]_{0}^{8}=\frac{96 \pi}{5}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1577573728976
+  media:
+  - path: ${file_dir}/images/CET-06.02-04.Xm.1.jpg
+  - path: ${file_dir}/images/CET-06.02-04.Xm.2.jpg
+  - path: ${file_dir}/images/CET-06.02-04.Xm.3.jpg
+  fields:
+    Front: |
+      CET-06.02-04 Example:
+      The region $\mathscr{R}$ enclosed by the curves $y=x$ and $y=x^{2}$ is rotated about the $x$ -axis. Find the volume of the resulting solid.
+    Back: |
+      The curves $y=x$ and $y=x^{2}$ intersect at the points $(0,0)$ and $(1,1) .$ The region between them, the solid of rotation, and a cross-section perpendicular to the $x$ -axis are shown in the figures below.
+      <p align="center">
+      ![](CET-06.02-04.Xm.1.jpg)
+      </p>
+      <p align="center">
+      ![](CET-06.02-04.Xm.2.jpg)
+      </p>
+      <p align="center">
+      ![](CET-06.02-04.Xm.3.jpg)
+      </p>
+      A cross-section in the plane $P_{x}$ has the shape of a washer (an annular ring) with inner radius $x^{2}$ and outer radius $x,$ so we find the cross-sectional area by subtracting the area of the inner circle from the area of the outer circle:
+      $$$
+      A(x)=\pi x^{2}-\pi\left(x^{2}\right)^{2}=\pi\left(x^{2}-x^{4}\right)
+      $$$ Therefore we have
+      $$$
+      \begin{aligned}
+      V &=\int_{0}^{1} A(x) d x=\int_{0}^{1} \pi\left(x^{2}-x^{4}\right) d x \\
+      &=\pi\left[\frac{x^{3}}{3}-\frac{x^{5}}{5}\right]_{0}^{1}=\frac{2 \pi}{15}
+      \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1577574187812
+  media:
+  - path: ${file_dir}/images/CET-06.02-05.Xm.1.jpg
+  fields:
+    Front: |
+      CET-06.02-05 Example:
+      The region $\mathscr{R}$ enclosed by the curves $y=x$ and $y=x^{2}$ is rotated about the line $y = 2.$ Find the volume of the resulting solid.
+    Back: |
+      The solid and a cross-section are shown below.
+      <p align="center">
+      ![](CET-06.02-05.Xm.1.jpg)
+      </p>
+      Again the cross-section is a washer, but this time the inner radius is $2-x$ and the outer radius is $2-x^{2}.$ The cross-sectional area is
+      $$$
+      A(x)=\pi\left(2-x^{2}\right)^{2}-\pi(2-x)^{2}
+      $$$ and so the volume of $S$ is
+      $$$
+      \begin{aligned}
+      V &=\int_{0}^{1} A(x) d x \\
+      &=\pi \int_{0}^{1}\left[\left(2-x^{2}\right)^{2}-(2-x)^{2}\right] d x \\
+      &=\pi \int_{0}^{1}\left(x^{4}-5 x^{2}+4 x\right) d x \\
+      &=\pi\left[\frac{x^{5}}{5}-5 \frac{x^{3}}{3}+4 \frac{x^{2}}{2}\right]_{0}^{1} \\
+      &=\frac{8 \pi}{15}
+      \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1577575160068
+  media:
+  - path: ${file_dir}/images/CET-06.02-06.Xm.1.jpg
+  fields:
+    Front: |
+      CET-06.02-06 Example:
+      The region $\mathscr{R}$ enclosed by the curves $y=x$ and $y=x^{2}$ is rotated about the line $x = -1.$ Find the volume of the resulting solid.
+    Back: |
+      The figure below shows a horizontal cross-section. It is a washer with inner radius $1+y$ and outer radius $1+\sqrt{y},$ so the cross-sectional area is
+      $$$
+      \begin{aligned}
+      A(y) &=\pi(\text { outer radius })^{2}-\pi(\text { inner radius })^{2} \\
+      &=\pi(1+\sqrt{y})^{2}-\pi(1+y)^{2}
+      \end{aligned}
+      $$$ The volume is
+      $$$
+      \begin{aligned}
+        V
+        &=\int_{0}^{1} A(y) d y=\pi \int_{0}^{1}\left[(1+\sqrt{y})^{2}-(1+y)^{2}\right] d y \\
+        &=\pi \int_{0}^{1}\left(2 \sqrt{y}-y-y^{2}\right) d y=\pi\left[\frac{4 y^{3 / 2}}{3}-\frac{y^{2}}{2}-\frac{y^{3}}{3}\right]_{0}^{1}=\frac{\pi}{2}
+      \end{aligned}
+      $$$
+      <p align="center">
+      ![](CET-06.02-06.Xm.1.jpg)
+      </p>
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1577575513858
+  media:
+  - path: ${file_dir}/images/CET-06.02-07.Xm.1.jpg
+  - path: ${file_dir}/images/CET-06.02-07.Xm.2.jpg
+  - path: ${file_dir}/images/CET-06.02-07.Xm.3.jpg
+  - path: ${file_dir}/images/CET-06.02-07.Xm.4.jpg
+  fields:
+    Front: |
+      CET-06.02-07 Example:
+      The figure below shows a solid with a circular base of radius 1. Parallel crosssections perpendicular to the base are equilateral triangles. Find the volume of the solid.
+      <p align="center">
+      ![](CET-06.02-07.Xm.1.jpg)
+      </p>
+    Back: |
+      Let's take the circle to be $x^{2}+y^{2}=1 .$ The solid, its base, and a typical cross-section at a distance $x$ from the origin are shown below.
+      <p align="center">
+      ![](CET-06.02-07.Xm.2.jpg)
+      The solid
+      </p>
+      <p align="center">
+      ![](CET-06.02-07.Xm.3.jpg)
+      Its base
+      </p>
+      <p align="center">
+      ![](CET-06.02-07.Xm.4.jpg)
+      A cross-section
+      </p>
+      Since $B$ lies on the circle, we have $y=\sqrt{1-x^{2}}$ and so the base of the triangle $A B C$ s $|A B|=2 y=2 \sqrt{1-x^{2}} .$ since the triangle is equilateral, we see from the third figure above that its height is $\sqrt{3} y=\sqrt{3} \sqrt{1-x^{2}} .$ The cross-sectional area is therefore
+      $$$
+      A(x)=\frac{1}{2} \cdot 2 \sqrt{1-x^{2}} \cdot \sqrt{3} \sqrt{1-x^{2}}=\sqrt{3}\left(1-x^{2}\right)
+      $$$ and the volume of the solid is
+      $$$
+      \begin{aligned}
+      V &=\int_{-1}^{1} A(x) d x=\int_{-1}^{1} \sqrt{3}\left(1-x^{2}\right) d x \\
+      &=2 \int_{0}^{1} \sqrt{3}\left(1-x^{2}\right) d x=2 \sqrt{3}\left[x-\frac{x^{3}}{3}\right]_{0}^{1}=\frac{4 \sqrt{3}}{3}
+      \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1577576403019
+  media:
+  - path: ${file_dir}/images/CET-06.02-08.Xm.1.jpg
+  - path: ${file_dir}/images/CET-06.02-08.Xm.2.jpg
+  - path: ${file_dir}/images/CET-06.02-08.Xm.3.jpg
+  fields:
+    Front: |
+      CET-06.02-08 Example:
+      Find the volume of a pyramid whose base is a square with side $L$ and whose height is $h.$
+    Back: |
+      We place the origin $O$ at the vertex of the pyramid and the $x$ -axis along its central axis as shown below.
+      <p align="center">
+      ![](CET-06.02-08.Xm.1.jpg)
+      </p>
+      Any plane $P_{x}$ that passes through $x$ and is perpendicular to the $x$ -axis intersects the pyramid in a square with side of length $s,$ say. We can express $s$ in terms of $x$ by observing from the similar triangles in the following figure that
+      $$$
+      \frac{x}{h}=\frac{s / 2}{L / 2}=\frac{s}{L}
+      $$$ and so $s=L x / h .$ [Another method is to observe that the line $O P$ has slope $L /(2 h)$ and so its equation is $y=L x /(2 h) .]$
+      <p align="center">
+      ![](CET-06.02-08.Xm.2.jpg)
+      </p>
+      Therefore the cross-sectional area is
+      $$$
+      A(x)=s^{2}=\frac{L^{2}}{h^{2}} x^{2}
+      $$$ The pyramid lies between $x=0$ and $x=h,$ so its volume is
+      $$$
+      \left.V=\int_{0}^{h} A(x) d x=\int_{0}^{h} \frac{L^{2}}{h^{2}} x^{2} d x=\frac{L^{2}}{h^{2}} \frac{x^{3}}{3}\right]_{0}^{h}=\frac{L^{2} h}{3}
+      $$$
+
+      **NOTE:**
+      We didn't need to place the vertex of the pyramid at the origin. We did so merely to make the equations simple. If, instead, we had placed the center of the base at the origin and the vertex on the positive $y$ -axis, as in following figure, you can verify that we would have obtained the integral
+      $$$
+      V=\int_{0}^{h} \frac{L^{2}}{h^{2}}(h-y)^{2} d y=\frac{L^{2} h}{3}
+      $$$
+      <p align="center">
+      ![](CET-06.02-08.Xm.3.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1577576719393
+  media:
+  - path: ${file_dir}/images/CET-06.02-09.Xm.1.jpg
+  fields:
+    Front: >
+      CET-06.02-09 Example:
+
+      A wedge is cut out of a circular cylinder of radius 4 by two planes. One plane
+      is perpendicular to the axis of the cylinder. The other intersects the first
+      at an angle of $30^{\circ}$ along a diameter of the cylinder. Find the volume
+      of the wedge.
+    Back: |
+      If we place the $x$ -axis along the diameter where the planes meet, then the base of the solid is a semicircle with equation $y=\sqrt{16-x^{2}},-4 \leq x \leq 4 .$ A crosssection perpendicular to the $x$ -axis at a distance $x$ from the origin is a triangle $A B C,$ as shown in the following figure, whose base is $y=\sqrt{16-x^{2}}$ and whose height is $|B C|=y \tan 30^{\circ}=\sqrt{16-x^{2}} / \sqrt{3} .$ So the cross-sectional area is
+      $$$
+      A(x)=\frac{1}{2} \sqrt{16-x^{2}} \cdot \frac{1}{\sqrt{3}} \sqrt{16-x^{2}}=\frac{16-x^{2}}{2 \sqrt{3}}
+      $$$ and the volume is
+      $$$
+      \begin{aligned}
+      V
+      &=\int_{-4}^{4} A(x) d x=\int_{-4}^{4} \frac{16-x^{2}}{2 \sqrt{3}} d x \\
+      &=\frac{1}{\sqrt{3}} \int_{0}^{4}\left(16-x^{2}\right) d x=\frac{1}{\sqrt{3}}\left[16 x-\frac{x^{3}}{3}\right]_{0}^{4} \\
+      &=\frac{128}{3 \sqrt{3}}
+      \end{aligned}
+      $$$
+      <p align="center">
+      ![](CET-06.02-09.Xm.1.jpg)
+      </p>
+    Annotations: ''
+  tags: []
