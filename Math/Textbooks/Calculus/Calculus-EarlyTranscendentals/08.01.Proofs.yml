@@ -1,0 +1,47 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Proofs
+  - Calculus-EarlyTrancendentals
+  - CET-08-FurtherApplicationsOfIntegration
+  - CET-08.01-ArcLength
+  markdownTabLength: 2
+notes:
+- id: 1577650896436
+  fields:
+    Front: |
+      CET-08.01-01 Proof:
+      Prove the **Arc Length Formula.**
+    Back: |
+      Suppose $f^{\prime}$ is continuous on $[a, b]$. [Such a function $f$ is called smooth because a small change in $x$ produces a small change in $f^{\prime}(x)$.] If we let $\Delta y_{i}=y_{i}-y_{i-1},$ then
+      $$$
+      \left|P_{i-1} P_{i}\right|=\sqrt{\left(x_{i}-x_{i-1}\right)^{2}+\left(y_{i}-y_{i-1}\right)^{2}}=\sqrt{(\Delta x)^{2}+\left(\Delta y_{i}\right)^{2}}
+      $$$ By applying the Mean Value Theorem to $f$ on the interval $\left[x_{i-1}, x_{i}\right],$ we find that there is a number $x_{i}^{*}$ between $x_{i-1}$ and $x_{i}$ such that
+      $$$
+      f\left(x_{i}\right)-f\left(x_{i-1}\right)=f^{\prime}\left(x_{i}^{*}\right)\left(x_{i}-x_{i-1}\right)
+      $$$ That is,
+      $$$
+      \Delta y_{i}=f^{\prime}\left(x_{i}^{*}\right) \Delta x
+      $$$ Thus we have
+      $$$
+      \begin{aligned}
+      \left|P_{i-1} P_{i}\right|
+      &=\sqrt{(\Delta x)^{2}+\left(\Delta y_{i}\right)^{2}} \\
+      &=\sqrt{(\Delta x)^{2}+\left[f^{\prime}\left(x_{i}^{*}\right) \Delta x\right]^{2}} \\
+      &=\sqrt{1+\left[f^{\prime}\left(x_{i}^{*}\right)\right]^{2}} \sqrt{(\Delta x)^{2}} \\
+      &=\sqrt{1+\left[f^{\prime}\left(x_{i}^{*}\right)\right]^{2}} \Delta x \quad(\text { since } \Delta x>0)
+      \end{aligned}
+      $$$ Therefore,
+      $$$
+      L=\lim _{n \rightarrow \infty} \sum_{i=1}^{n}\left|P_{i-1} P_{i}\right|=\lim _{n \rightarrow \infty} \sum_{i=1}^{n} \sqrt{1+\left[f^{\prime}\left(x_{i}^{*}\right)\right]^{2}} \Delta x
+      $$$ We recognize this expression as being equal to
+      $$$
+      \int_{a}^{b} \sqrt{1+\left[f^{\prime}(x)\right]^{2}} d x
+      $$$ by the definition of a definite integral. We know that this integral exists because the function $g(x)=\sqrt{1+\left[f^{\prime}(x)\right]^{2}}$ is continuous.
+      $\square$
+    Annotations: ''
+  tags: []

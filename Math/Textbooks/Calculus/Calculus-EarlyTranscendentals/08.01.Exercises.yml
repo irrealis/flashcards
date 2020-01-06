@@ -1,0 +1,29 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-08-FurtherApplicationsOfIntegration
+  - CET-08.01-ArcLength
+  markdownTabLength: 2
+notes:
+- id: 1577653608994
+  fields:
+    Front: >
+      CET-08.01-01 Exercise:
+
+      Use the Leibniz-notation arc length formula to find the length of the curve
+      $y=2 x-5,-1 \leqslant x \leqslant 3 .$ Check your answer by noting that the
+      curve is a line segment and calculating its length by the distance formula.
+    Back: >
+      $y=2 x-5 \Rightarrow L=\int_{-1}^{3} \sqrt{1+(d y / d x)^{2}} d x$ $=\int_{-1}^{3}
+      \sqrt{1+(2)^{2}} d x$ $=\sqrt{5}[3-(-1)]$ $=4 \sqrt{5}.$ The arc length can
+      be calculated using the distance formula, since the curve is a line segment,
+      so $L=[\text { distance from }(-1,-7) \text { to }(3,1)]$ $=\sqrt{[3-(-1)]^{2}+[1-(-7)]^{2}}$
+      $=\sqrt{80}=4 \sqrt{5}.$
+    Annotations: ''
+  tags: []

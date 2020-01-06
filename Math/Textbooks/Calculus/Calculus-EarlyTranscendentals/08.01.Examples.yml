@@ -1,0 +1,143 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-08-FurtherApplicationsOfIntegration
+  - CET-08.01-ArcLength
+  markdownTabLength: 2
+notes:
+- id: 1577651312171
+  media:
+  - path: ${file_dir}/images/CET-08.01-01.Xm.1.jpg
+  fields:
+    Front: |
+      CET-08.01-01 Example:
+      Find the length of the arc of the semicubical parabola $y^{2}=x^{3}$ between the points $(1,1)$ and $(4,8).$ (See figure below.)
+      <p align="center">
+      ![](CET-08.01-01.Xm.1.jpg)
+      </p>
+    Back: |
+      For the top half of the curve we have
+      $$$
+      y=x^{3 / 2} \quad \frac{d y}{d x}=\frac{3}{2} x^{1 / 2}
+      $$$ and so the arc length formula gives
+      $$$
+      L=\int_{1}^{4} \sqrt{1+\left(\frac{d y}{d x}\right)^{2}} d x=\int_{1}^{4} \sqrt{1+\frac{9}{4} x} d x
+      $$$ If we substitute $u=1+\frac{9}{4} x,$ then $d u=\frac{9}{4} d x .$ When $x=1, u=\frac{13}{4} ;$ when $x=4, u=10.$ Therefore
+      $$$
+      \begin{aligned}
+      L
+      &=\frac{4}{9} \int_{13 / 4}^{10} \sqrt{u} d u \\
+      &=\frac{4}{9} \cdot \frac{2}{3} \left.u^{3 / 2}\right]_{13 / 4}^{10} \\
+      &=\frac{8}{27}\left[10^{3 / 2}-\left(\frac{13}{4}\right)^{3 / 2}\right] \\
+      &=\frac{1}{27}(80 \sqrt{10}-13 \sqrt{13})
+      \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1577651822303
+  fields:
+    Front: |
+      CET-08.01-02 Example:
+      Find the length of the arc of the parabola $y^{2}=x$ from $(0,0)$ to $(1,1).$
+    Back: >
+      Since $x=y^{2},$ we have $d x / d y=2 y,$ and Formula 4 gives
+
+      $$$
+
+      L=\int_{0}^{1} \sqrt{1+\left(\frac{d x}{d y}\right)^{2}} d y=\int_{0}^{1} \sqrt{1+4
+      y^{2}} d y
+
+      $$$ We make the trigonometric substitution $y=\frac{1}{2} \tan \theta,$ which
+      gives $d y=\frac{1}{2} \sec ^{2} \theta d \theta$ and $\sqrt{1+4 y^{2}}=\sqrt{1+\tan
+      ^{2} \theta}=\sec \theta .$ When $y=0, \tan \theta=0,$ so $\theta=0 ;$ when
+      $y=1,$ $\tan \theta=2,$ so $\theta=\tan ^{-1} 2=\alpha,$ say. Thus
+
+      $$$
+
+      \begin{aligned}
+
+      L &=\int_{0}^{\alpha} \sec \theta \cdot \frac{1}{2} \sec ^{2} \theta d \theta=\frac{1}{2}
+      \int_{0}^{\alpha} \sec ^{3} \theta d \theta \\
+
+      &=\left.\frac{1}{2} \cdot \frac{1}{2}[\sec \theta \tan \theta+\ln | \sec \theta+\tan
+      \theta]\right|_{0} ^{\alpha} \quad \text { (from Example 7.2.8)} \\
+
+      &=\frac{1}{4}(\sec \alpha \tan \alpha+\ln |\sec \alpha+\tan \alpha|)
+
+      \end{aligned}
+
+      $$$ (We could have instead used Formula 21 in the Table of Integrals.) Since
+      tan $\alpha=2,$ we have $\sec ^{2} \alpha=1+\tan ^{2} \alpha=5,$ so sec $\alpha=\sqrt{5}$
+      and
+
+      $$$
+
+      L=\frac{\sqrt{5}}{2}+\frac{\ln (\sqrt{5}+2)}{4}
+
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1577652064946
+  fields:
+    Front: |
+      CET-08.01-03 Example:
+      (a) Set up an integral for the length of the arc of the hyperbola $x y=1$ from the point $(1,1)$ to the point $\left(2, \frac{1}{2}\right).$
+      (b) Use Simpson's Rule with $n=10$ to estimate the arc length.
+    Back: |
+      (a) We have
+      $$$
+      y=\frac{1}{x} \quad \frac{d y}{d x}=-\frac{1}{x^{2}}
+      $$$ and so the arc length is
+      $$$
+      L=\int_{1}^{2} \sqrt{1+\left(\frac{d y}{d x}\right)^{2}} d x=\int_{1}^{2} \sqrt{1+\frac{1}{x^{4}}} d x=\int_{1}^{2} \frac{\sqrt{x^{4}+1}}{x^{2}} d x
+      $$$
+
+      (b) Using Simpson's Rule (see Section 7.7 ) with $a=1, b=2, n=10, \Delta x=0.1,$ and $f(x)=\sqrt{1+1 / x^{4}},$ we have
+      $$$
+      \begin{aligned}
+        L
+        &=\int_{1}^{2} \sqrt{1+\frac{1}{x^{4}}} d x \\
+        &\approx \frac{\Delta x}{3}[f(1)+4 f(1.1)+2 f(1.2)+4 f(1.3)+\cdots+2 f(1.8)+4 f(1.9)+f(2)] \\
+        &\approx 1.1321
+      \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1577652981714
+  fields:
+    Front: |
+      CET-08.01-04 Example:
+      Find the arc length function for the curve $y=x^{2}-\frac{1}{8} \ln x$ taking $P_{0}(1,1)$ as the starting point.
+    Back: |
+      If $f(x)=x^{2}-\frac{1}{8} \ln x,$ then
+      $$$
+      \begin{aligned}
+      f^{\prime}(x)
+      &= 2 x-\frac{1}{8 x} \\
+      1+\left[f^{\prime}(x)\right]^{2}
+      &= 1+\left(2 x-\frac{1}{8 x}\right)^{2} \\
+      &= 1+4 x^{2}-\frac{1}{2}+\frac{1}{64 x^{2}} \\
+      &= 4 x^{2}+\frac{1}{2}+\frac{1}{64 x^{2}} \\
+      &= \left(2 x+\frac{1}{8 x}\right)^{2} \\
+      \sqrt{1+\left[f^{\prime}(x)\right]^{2}}
+      &= 2 x+\frac{1}{8 x} \quad(\text { since } x>0)
+      \end{aligned}
+      $$$ Thus the arc length function is given by
+      $$$
+      \begin{aligned}
+      s(x) &=\int_{1}^{x} \sqrt{1+\left[f^{\prime}(t)\right]^{2}} d t \\
+      &\left.=\int_{1}^{x}\left(2 t+\frac{1}{8 t}\right) d t=t^{2}+\frac{1}{8} \ln t\right]_{1}^{x} \\
+      &=x^{2}+\frac{1}{8} \ln x-1
+      \end{aligned}
+      $$$ For instance, the arc length along the curve from $(1,1)$ to $(3, f(3))$ is
+      $$$
+      s(3)=3^{2}+\frac{1}{8} \ln 3-1=8+\frac{\ln 3}{8} \approx 8.1373
+      $$$
+    Annotations: ''
+  tags: []
