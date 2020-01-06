@@ -22,5 +22,4 @@ notes:
     Back: |
       Since $y=\frac{x}{x-1}$ has an infinite discontinuity at $x=1, \int_{1}^{2} \frac{x}{x-1} d x$ is a Type 2 improper integral.
     Annotations: ''
-  tags:
-  - Editing
+  tags: []

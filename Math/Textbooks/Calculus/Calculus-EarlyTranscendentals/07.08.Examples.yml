@@ -272,5 +272,4 @@ notes:
       \frac{1+e^{-x}}{x}>\frac{1}{x}
       $$$ and $\int_{1}^{\infty}(1 / x) d x$ is divergent.
     Annotations: ''
-  tags:
-  - Editing
+  tags: []
