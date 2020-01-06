@@ -1,0 +1,290 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theory
+  - Calculus-EarlyTrancendentals
+  - CET-08-FurtherApplicationsOfIntegration
+  - CET-08.03-ApplicationsToPhysicsAndEngineering
+  markdownTabLength: 2
+notes:
+- id: 1577734610773
+  fields:
+    Front: |
+      CET-08.03-01 Theory:
+      ##### hydrostatic pressure and force
+      Define **pressure.**
+    Back: |
+      Pressure $P$ is defined to be the force per unit area:
+      $$$
+      P=\frac{F}{A}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1577734611009
+  fields:
+    Front: |
+      CET-08.03-02 Theory:
+      ##### hydrostatic pressure and force
+      What are the units of pressure in the SI system?
+    Back: |
+      The SI unit for measuring pressure is a newton per square meter, which is called a pascal (abbreviation: $1 \text{ N} / \mathrm{m}^{2}=1 \mathrm{Pa}$ ). Since this is a small unit, the kilopascal $\text{(kPa)}$ is often used.
+    Annotations: ''
+  tags: []
+- id: 1577740312788
+  fields:
+    Front: |
+      CET-08.03-03 Theory:
+      ##### hydrostatic pressure and force
+      Describe **hydrostatic force.**
+    Back: |
+      In general, suppose that a thin horizontal plate with area $A$ square meters is submerged in a fluid of density $\rho$ kilograms per cubic meter at a depth $d$ meters below the surface of the fluid as in Figure $1 .$ The fluid directly above the plate (think of a column of liquid) has volume $V=A d,$ so its mass is $m=\rho V=\rho A d .$ The force exerted by the fluid on the plate is therefore
+      $$$
+      F=m g=\rho g A d
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1577740313056
+  fields:
+    Front: |
+      CET-08.03-04 Theory:
+      ##### hydrostatic pressure and force
+      Describe **hydrostatic pressure.**
+    Back: |
+      Hydrostatic pressure $P$ is defined to be hydrostatic force per unit area:
+      $$$
+      P=\frac{F}{A}=\rho g d
+      $$$ where $A$ is the area subject to hydrostatic force due to hydrostatic pressure of a fluid, $\rho$ is fluid density, $d$ is fluid depth, and $g$ is the acceleration due to gravity.
+    Annotations: ''
+  tags: []
+- id: 1577741724013
+  fields:
+    Front: |
+      CET-08.03-05 Theory:
+      ##### hydrostatic pressure and force
+      What is the mass density of water?
+    Back: |
+      $$$
+      \rho = 1000 \text{ kg}/\text{m}^3 = 1 \text{ kg}/\text{L} = 1 \text{g}/\text{mL}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1577741854003
+  fields:
+    Front: |
+      CET-08.03-06 Theory:
+      ##### hydrostatic pressure and force
+      What is **weight density?** When is it used?
+    Back: |
+      When using US Customary units, we write $P=\rho g d=\delta d,$ where $\delta=\rho g$ is the weight density (as opposed to $\rho,$ which is the mass density).
+    Annotations: ''
+  tags: []
+- id: 1577741958584
+  fields:
+    Front: |
+      CET-08.03-07 Theory:
+      ##### hydrostatic pressure and force
+      What is the weight density of water?
+    Back: |
+      The weight density of water is $\delta=62.5 \text{ lb} / \mathrm{ft}^{3}$
+    Annotations: ''
+  tags: []
+- id: 1577742527309
+  fields:
+    Front: |
+      CET-08.03-08 Theory:
+      ##### hydrostatic pressure and force
+      What is the relationship between pressure $P$ and weight-density $\delta$?
+    Back: |
+      The pressure in any direction at a depth $d$ in a fluid with mass density $\rho$ is given by
+      $$$
+      P=\rho g d=\delta d
+      $$$ where $g$ is acceleration due to gravity and $\delta = \rho g$ is the weight density of the fluid.
+    Annotations: ''
+  tags: []
+- id: 1577744266584
+  media:
+  - path: ${file_dir}/images/CET-08.03-09.Th.1.jpg
+  fields:
+    Front: |
+      CET-08.03-09 Theory:
+      ##### moments and centers of mass
+      Consider the situation illustrated below, where two masses $m_{1}$ and $m_{2}$ are attached to a rod of negligible mass on opposite sides of a fulcrum and at distances $d_{1}$ and $d_{2}$ from the fulcrum.
+      <p align="center">
+      ![](CET-08.03-09.Th.1.jpg)
+      </p>
+      Under what conditions will the rod balance?
+    Back: |
+      The rod will balance if
+      $$$
+      m_{1} d_{1}=m_{2} d_{2}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1577745181559
+  fields:
+    Front: |
+      CET-08.03-10 Theory:
+      ##### moments and centers of mass
+      Define the **moment of a point mass.**
+    Back: |
+      The moment of a point mass $m$ at position $x$ is the number
+      $$$
+      mx
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1577745181782
+  media:
+  - path: ${file_dir}/images/CET-08.03-11.Th.1.jpg
+  fields:
+    Front: |
+      CET-08.03-11 Theory:
+      ##### moments and centers of mass
+      Suppose that a balanced rod lies along the $x$axis with masses $m_{1}$ at $x_{1}$ and $m_{2}$ at $x_{2}$ as shown below.
+      <p align="center">
+      ![](CET-08.03-11.Th.1.jpg)
+      </p>
+      Where is the center of mass $\overline{x}?$
+    Back: |
+      Setting $d_{1}=\overline{x}-x_{1}$ and $d_{2}=x_{2}-\overline{x}$ gives
+      $$$
+      \begin{aligned}
+      m_{1}\left(\overline{x}-x_{1}\right)= m_1 d_1 &= m_2 d_2 = m_{2}\left(x_{2}-\overline{x}\right) \\
+      m_{1} \overline{x}+m_{2} \overline{x} &=m_{1} x_{1}+m_{2} x_{2} \\
+      \overline{x} &=\frac{m_{1} x_{1}+m_{2} x_{2}}{m_{1}+m_{2}}
+      \end{aligned}
+      $$$ This says that the center of mass $\overline{x}$ is obtained by adding the moments of the masses and dividing by the total mass $m=m_{1}+m_{2}.$
+    Annotations: ''
+  tags: []
+- id: 1577746133309
+  fields:
+    Front: |
+      CET-08.03-12 Theory:
+      ##### moments and centers of mass
+      Define **moment of a system about the origin.**
+    Back: |
+      In general, if we have a system of $n$ particles with masses $m_{1}, m_{2}, \ldots, m_{n}$ located at the points $x_{1}, x_{2}, \ldots, x_{n}$ on the $x$ axis, the sum of the individual moments
+      $$$
+      M=\sum_{i=1}^{n} m_{i} x_{i}
+      $$$ is called the moment of the system about the origin.
+    Annotations: ''
+  tags: []
+- id: 1577746156984
+  fields:
+    Front: |
+      CET-08.03-13 Theory:
+      ##### moments and centers of mass
+      In general, if we have a system of $n$ particles with masses $m_{1}, m_{2}, \ldots, m_{n}$ located at the points $x_{1}, x_{2}, \ldots, x_{n}$ on the $x$ axis, where is the center of mass $\overline{x}?$
+    Back: |
+      $$$
+      \overline{x}=\frac{\sum_{i=1}^{n} m_{i} x_{i}}{\sum_{i=1}^{n} m_{i}}=\frac{\sum_{i=1}^{n} m_{i} x_{i}}{m}
+      $$$ where $m=\Sigma m_{i}$ is the total mass of the system.  This could be rewritten as $m \overline{x}=M=\sum_{i=1}^{n} m_{i} x_{i} ,$ which says that if the total mass were considered as being concentrated at the center of mass $\overline{x},$ then its moment would be the same as the moment $M$ of the system.
+    Annotations: ''
+  tags: []
+- id: 1577761923565
+  media:
+  - path: ${file_dir}/images/CET-08.03-14.Th.1.jpg
+  fields:
+    Front: |
+      CET-08.03-14 Theory:
+      ##### moments and centers of mass
+      Define **moment of a system about the $y$ axis.** Similarly for **$x$ axis.**
+    Back: |
+      Consider a system of $n$ particles with masses $m_{1}, m_{2}, \ldots, m_{n}$ located at the points $\left(x_{1}, y_{1}\right),\left(x_{2}, y_{2}\right), \ldots,\left(x_{n}, y_{n}\right)$ in the $x y$ plane as shown below.
+      <p align="center">
+      ![](CET-08.03-14.Th.1.jpg)
+      </p>
+      By analogy with the one-dimensional case, we define the **moment of the system about the $y$ axis** to be
+      $$$
+      M_{y}=\sum_{i=1}^{n} m_{i} x_{i}
+      $$$ and the **moment of the system about the $x$ axis** to be
+      $$$
+      M_{x}=\sum_{i=1}^{n} m_{i} y_{i}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1577762627741
+  fields:
+    Front: |
+      CET-08.03-15 Theory:
+      ##### moments and centers of mass
+      In general, if we have a system of $n$ particles with masses $m_{1}, m_{2}, \ldots, m_{n}$ located at the points $\left(x_{1}, y_{1}\right),\left(x_{2}, y_{2}\right), \ldots,\left(x_{n}, y_{n}\right)$ in the $x y$ plane, where is the center of mass $(\overline{x}, \overline{y})?$
+    Back: |
+      As in the one-dimensional case, the coordinates $(\overline{x}, \overline{y})$ of the center of mass are given in terms of the moments $M_y$ and $M_x$ about the $y$ and $x$ axes by the formulas
+      $$$
+      \overline{x}=\frac{M_{y}}{m} \quad \overline{y}=\frac{M_{x}}{m}
+      $$$ where $m=\sum m_{i}$ is the total mass. Since $m \overline{x}=M_{y}$ and $m \overline{y}=M_{x},$ the center of mass $(\overline{x}, \overline{y})$ is the point where a single particle of mass $m$ would have the same moments as the system.
+    Annotations: ''
+  tags: []
+- id: 1577763529992
+  media:
+  - path: ${file_dir}/images/CET-08.03-16.Th.1.jpg
+  fields:
+    Front: |
+      CET-08.03-16 Theory:
+      ##### moments and centers of mass
+      Suppose that the region $\mathscr{R}$ of a lamina of uniform density $\rho$ is of the type shown below; that is, $\mathscr{R}$ lies between the lines $x=a$ and $x=b,$ above the $x$ axis, and beneath the graph of $f,$ where $f$ is a continuous function.
+      <p align="center">
+      ![](CET-08.03-16.Th.1.jpg)
+      </p>
+      What are the moments $M_y$ and $M_x$ of $\mathscr{R}$ about the $y$ and $x$ axes?
+    Back: |
+      $$$
+      \begin{aligned}
+        M_{y} &= \lim _{n \rightarrow \infty} \sum_{i=1}^{n} \rho \overline{x}_{i} f\left(\overline{x}_{i}\right) \Delta x=\rho \int_{a}^{b} x f(x) d x \\
+        M_{x} &= \lim _{n \rightarrow \infty} \sum_{i=1}^{n} \rho \cdot \frac{1}{2}\left[f\left(\overline{x}_{i}\right)\right]^{2} \Delta x=\rho \int_{a}^{b} \frac{1}{2}[f(x)]^{2} d x
+      \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1577764444866
+  fields:
+    Front: |
+      CET-08.03-17 Theory:
+      ##### moments and centers of mass
+      Suppose that the region $\mathscr{R}$ of a lamina of uniform density $\rho$ is of the type shown below; that is, $\mathscr{R}$ lies between the lines $x=a$ and $x=b,$ above the $x$ axis, and beneath the graph of $f,$ where $f$ is a continuous function.
+      <p align="center">
+      ![](CET-08.03-16.Th.1.jpg)
+      </p>
+      Where is the center of mass $(\overline{x}, \overline{y})$ of the plate (or the centroid of $\mathscr{R}$)?
+    Back: |
+      The center of mass of the plate (or the centroid of $\mathscr{R}$ ) is located at the point $(\overline{x}, \overline{y}),$ where
+      $$$
+      \overline{x}=\frac{1}{A} \int_{a}^{b} x f(x) d x \quad \text{and} \quad \overline{y}=\frac{1}{A} \int_{a}^{b} \frac{1}{2}[f(x)]^{2} d x
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1577817533929
+  media:
+  - path: ${file_dir}/images/CET-08.03-18.Th.1.jpg
+  fields:
+    Front: |
+      CET-08.03-18 Theory:
+      ##### moments and centers of mass
+      If the region $\mathscr{R}$ lies between two curves $y=f(x)$ and $y=g(x),$ where $f(x) \geqslant g(x)$ as illustrated below, then where is the centroid $(\overline{x}, \overline{y})$ of $\mathscr{R}$?
+      <p align="center">
+      ![](CET-08.03-18.Th.1.jpg)
+      </p>
+    Back: |
+      $$$
+      \begin{aligned}
+      \overline{x} &= \frac{1}{A} \int_{a}^{b} x[f(x)-g(x)] d x \\
+      \overline{y} &= \frac{1}{A} \int_{a}^{b} \tfrac{1}{2}\left\{[f(x)]^{2}-[g(x)]^{2}\right\} d x
+      \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1577826004780
+  fields:
+    Front: |
+      CET-08.03-19 Theory:
+      ##### moments and centers of mass
+      State the **Theorem of Pappus.**
+    Back: |
+      Let $\mathscr{R}$ be a plane region that lies entirely on one side of a line $l$ in the plane. If $\mathscr{R}$ is rotated about $l,$ then the volume of the resulting solid is the product of the area $A$ of $\mathscr{R}$ and the distance $d$ traveled by the centroid of $\mathscr{R}$.
+    Annotations: ''
+  tags: []
