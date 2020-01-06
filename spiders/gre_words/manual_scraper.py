@@ -13,14 +13,18 @@ import matplotlib as mp
 import numpy as np
 import pandas as pd
 from scipy import stats as st
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 
 
 
 import asyncio
 import datetime as dt
+import distutils.util
+from functools import reduce
+import itertools
 #import logging
 import time
+import traceback
 import types
 
 #alog = logging.getLogger("asyncio")
@@ -30,12 +34,16 @@ import types
 #alog.addHandler(ach)
 
 
+def strtobool(x):
+  if x is None: x = 'False'
+  return distutils.util.strtobool(x)
+
 def get_session(echo = True):
   db_url = 'sqlite:///gre_words.sqlite'
   engine = dbi.create_engine(db_url, echo = echo)
   ssn = dbi.Session(engine)
   dbi.Base.prepare(engine, reflect=True)
-  return ssn
+  return engine, ssn
 
 def get_webdriver():
   opts = se.webdriver.chrome.options.Options()
@@ -45,7 +53,8 @@ def get_webdriver():
   )
   opts.to_capabilities()
 
-  svc = se.webdriver.chrome.service.Service('/home/kaben/.local/bin/chromedriver-2.45.615279')
+  #svc = se.webdriver.chrome.service.Service('/home/kaben/.local/bin/chromedriver-2.45.615279')
+  svc = se.webdriver.chrome.service.Service('/home/kaben/.local/bin/chromedriver-75.0.3770.140')
   svc.start()
   drv = se.webdriver.Remote(svc.service_url, opts.to_capabilities())
   return svc, drv
@@ -129,6 +138,10 @@ def get_ds():
   return ds
 
 
+def get_today_ymd():
+  pass
+
+
 def get_kde(ds = None):
   if ds is None:
     ds = get_ds()
@@ -141,14 +154,76 @@ def get_hourly_schedule(start_dt = None, n = 4):
   if start_dt is None:
     start_dt = dt.datetime.now()
   s = [
-    (
+    [
       start_dt + dt.timedelta(seconds = i*60*60 + 50*60),
       start_dt + dt.timedelta(seconds = (i+1)*60*60)
-    )
+    ]
     for i in range(n)
   ]
   return s
   
+
+def join_hourly_schedules(i0, i1):
+  b0, s0 = list(zip(*i0))
+  b1, s1 = list(zip(*i1))
+  b0, b1, s0, s1 = list(b0), list(b1), list(s0), list(s1)
+  del s0[-1]
+  del b1[0]
+  return list(zip(b0+b1, s0+s1))
+
+
+def get_hourly_schedule_for_k_days(k, n = 18, start_dt = None):
+  #(
+  #  datetime.datetime(2018, 12, 21, 6, 50),
+  #  datetime.datetime(2018, 12, 21, 7, 50),
+  #  datetime.datetime(2018, 12, 21, 8, 50),
+  #  datetime.datetime(2018, 12, 21, 9, 50),
+
+  #  #datetime.datetime(2018, 12, 22, 6, 50),
+  #  datetime.datetime(2018, 12, 22, 7, 50),
+  #  datetime.datetime(2018, 12, 22, 8, 50),
+  #  datetime.datetime(2018, 12, 22, 9, 50),
+  #)
+  #(
+  #  datetime.datetime(2018, 12, 21, 7, 0),
+  #  datetime.datetime(2018, 12, 21, 8, 0),
+  #  datetime.datetime(2018, 12, 21, 9, 0),
+  #  #datetime.datetime(2018, 12, 21, 10, 0),
+
+  #  datetime.datetime(2018, 12, 22, 7, 0),
+  #  datetime.datetime(2018, 12, 22, 8, 0),
+  #  datetime.datetime(2018, 12, 22, 9, 0),
+  #  datetime.datetime(2018, 12, 22, 10, 0),
+  #)
+
+  if start_dt is None:
+    start_dt = dt.datetime.now()
+  
+  breaks = [
+    start_dt + dt.timedelta(seconds = i*60*60 + 50*60)
+    for i in range(n)
+  ]
+  for j in range(1, k):
+    breaks.extend([
+      start_dt + dt.timedelta(days = j, seconds = i*60*60 + 50*60)
+      for i in range(1,n)
+    ])
+
+  starts = []
+  for j in range(k-1):
+    starts.extend([
+      start_dt + dt.timedelta(days = j, seconds = (i+1)*60*60)
+      for i in range(n-1)
+    ])
+  starts.extend([
+    start_dt + dt.timedelta(days = k-1, seconds = (i+1)*60*60)
+    for i in range(n)
+  ])
+
+  schedule = list(zip(breaks, starts))
+
+  return schedule
+
 def get_rounded_hourly_schedule(n = 4):
   now = dt.datetime.now()
   hour = now.hour
@@ -168,10 +243,10 @@ def get_minute_schedule(start_dt = None, n = 4):
   if start_dt is None:
     start_dt = dt.datetime.now()
   s = [
-    (
+    [
       start_dt + dt.timedelta(seconds = i*60 + 50),
       start_dt + dt.timedelta(seconds = (i+1)*60)
-    )
+    ]
     for i in range(n)
   ]
   return s
@@ -194,7 +269,7 @@ def get_wakesleep(wake, period):
   sleep_dt = next_wake - now
   reversecheck = next_wake - wake
   print(" Next wake: {}; interperiod: {} sec".format(
-    next_wake.strftime('%H:%M:%S.%f'),
+    next_wake.strftime('%y%m%d-%H:%M:%S.%f'),
     period
   ))
   # It's possible the wake time is in the past, which we would have to fix.
@@ -202,7 +277,7 @@ def get_wakesleep(wake, period):
     next_wake = now
     sleep_dt = dt.timedelta(0)
     print(" Next wake is in past; adusted: {}".format(
-      next_wake.strftime('%H:%M:%S.%f')
+      next_wake.strftime('%y%m%d-%H:%M:%S.%f')
     ))
   return next_wake, sleep_dt
 
@@ -221,22 +296,22 @@ def runtask(task):
 
 # Method to perform simulated problems on Vocabulary.com.
 def work(task, schedule, break_sd = 154):
-  print("\nSchedule:")
-  print("{}".format(schedule))
-  print("\nBreak standard deviation: {}".format(break_sd))
+  #print("\nSchedule:")
+  #print("{}".format(schedule))
+  #print("\nBreak standard deviation: {}".format(break_sd))
   print("\nStarting work.")
 
   # This loops over simulated study periods, each 50 minutes long with 10-minute breaks in between.
   for break_t, start_t in schedule:
-    print('Starting new work session; next break at: {}, next start at: {}'.format(
-      break_t.strftime('%H:%M:%S'),
-      start_t.strftime('%H:%M:%S')
+    print('New work session; next break at: {}, next start at: {}'.format(
+      break_t.strftime('%y%m%d-%H:%M:%S'),
+      start_t.strftime('%y%m%d-%H:%M:%S')
     ))
 
     # This loops over simulated vocabulary problems within a study period.
     wake = now = dt.datetime.now()
     while now < break_t:
-      print("Awake; now: {}".format(now.strftime('%H:%M:%S.%f'))) 
+      print("Awake; now: {}".format(now.strftime('%y%m%d-%H:%M:%S.%f'))) 
       # Do stuff... then task decides when to start the subsequent task.
       intertask_period = runtask(task)
       if intertask_period is None:
@@ -250,9 +325,9 @@ def work(task, schedule, break_sd = 154):
     # This simulates the break between work periods.
     break_period = ((start_t - now).total_seconds() + break_sd*st.norm().rvs(1))[0]
     print("Break; now: {}, sleep {:.6f}s until about {}...".format(
-      now.strftime('%H:%M:%S.%f'),
+      now.strftime('%y%m%d-%H:%M:%S.%f'),
       break_period,
-      start_t.strftime('%H:%M:%S'),
+      start_t.strftime('%y%m%d-%H:%M:%S'),
     ))
     wake, sleep_dt = get_wakesleep(wake, break_period)
     time.sleep(sleep_dt.total_seconds())
@@ -269,14 +344,14 @@ async def work_async(task, schedule, break_sd = 154):
   # This loops over simulated study periods, each 50 minutes long with 10-minute breaks in between.
   for break_t, start_t in schedule:
     print('Starting new work session; next break at: {}, next start at: {}'.format(
-      break_t.strftime('%H:%M:%S'),
-      start_t.strftime('%H:%M:%S')
+      break_t.strftime('%y%m%d-%H:%M:%S'),
+      start_t.strftime('%y%m%d-%H:%M:%S')
     ))
 
     # This loops over simulated vocabulary problems within a study period.
     wake = now = dt.datetime.now()
     while now < break_t:
-      print("Awake; now: {}".format(now.strftime('%H:%M:%S.%f'))) 
+      print("Awake; now: {}".format(now.strftime('%y%m%d-%H:%M:%S.%f'))) 
       # Do stuff... then task decides when to start the subsequent task.
       intertask_period = runtask(task)
       if intertask_period is None:
@@ -290,9 +365,9 @@ async def work_async(task, schedule, break_sd = 154):
     # This simulates the break between work periods.
     break_period = ((start_t - now).total_seconds() + break_sd*st.norm().rvs(1))[0]
     print("Break; now: {}, sleep {:.6f}s until about {}...".format(
-      now.strftime('%H:%M:%S.%f'),
+      now.strftime('%y%m%d-%H:%M:%S.%f'),
       break_period,
-      start_t.strftime('%H:%M:%S'),
+      start_t.strftime('%y%m%d-%H:%M:%S'),
     ))
     wake, sleep_dt = get_wakesleep(wake, break_period)
     await asyncio.sleep(sleep_dt.total_seconds())
@@ -388,8 +463,8 @@ class Scraper(object):
     drv,
     study_kde,
     navigate_kde,
-    min_nav_sleep_mu = 12.30987/2,
-    min_nav_sleep_sd = 2.23487/2,
+    min_nav_sleep_mu = 12.30987/4,
+    min_nav_sleep_sd = 2.23487/4,
     min_sleep_mu = 12.30987,
     min_sleep_sd = 2.23487,
   ):
@@ -435,6 +510,9 @@ class Scraper(object):
     a = self.waitget_elem_by_linktext('My Lists')
     a.click()
     yield get_boundedsleep(self.nav_kde, self.mnsleep_mu, self.mnsleep_sd)
+    a = self.waitget_elem_by_linktext('Learning')
+    a.click()
+    yield get_boundedsleep(self.nav_kde, self.mnsleep_mu, self.mnsleep_sd)
   
   def get_listpage(self, partiallinktext):
     a = self.waitget_elem_by_partiallinktext(partiallinktext)
@@ -458,7 +536,8 @@ class Scraper(object):
         ))
         vocab_list.description = list_description
         self.ssn.commit()
-      if not vocab_list.is_task_complete:
+      #if not vocab_list.is_task_complete:
+      if not distutils.util.strtobool(vocab_list.is_task_complete):
         print('is_task_complete: {}'.format(vocab_list.is_task_complete))
 
 
@@ -486,7 +565,8 @@ class Scraper(object):
       if vocab_list.description != list_description:
         vocab_list.description = list_description
         self.ssn.commit()
-      if not vocab_list.is_task_complete:
+      #if not vocab_list.is_task_complete:
+      if not distutils.util.strtobool(vocab_list.is_task_complete):
         
         a.click()
         
@@ -568,22 +648,32 @@ class Scraper(object):
     word_text = sel.css('.dynamictext::text').extract_first()
     short_blurb = sel.css('p.short').extract_first()
     long_blurb = sel.css('p.long').extract_first()
-    print("\nword_text: {}".format(word_text))
-    print("\nshort_blurb: {}".format(short_blurb))
-    print("\nlong_blurb: {}".format(long_blurb))
     
+    print("\nword_text: {}".format(word_text))
+
     word = self.dbi.get_or_create(self.ssn, self.dbi.Word, word = word_text)
     word.short_blurb = short_blurb
     word.long_blurb = long_blurb
 
+    print("\ndefinition: {}".format(word.definition))
+    print("\nshort_blurb: {}".format(word.short_blurb))
+    print("\nlong_blurb: {}".format(word.long_blurb))
+
     for sense_div in sel.css('div.sense'):
       sense_def = sense_div.css('h3.definition::text').extract()[-1].strip()
       sense = self.dbi.get_or_create(self.ssn, self.dbi.Sense, sense = sense_def)
+      #word.sense_collection.append(sense)
       sense.word_collection.append(word)
-
       self.ssn.commit()
 
-      print("\n  sense: {}".format(sense_def))
+      # Check whether this is the word's primary sense.
+      if sense_div.css('.ord1'):
+        #word.primary_sense = sense
+        word.add_primary_sense(sense)
+        self.ssn.commit()
+        print("\n  primary sense: {}".format(sense_def))
+      else:
+        print("\n  sense: {}".format(sense_def))
 
       for instance in sense_div.css('dl.instances'):
         kind_text = instance.css('dt::text').extract_first()
@@ -598,7 +688,7 @@ class Scraper(object):
     word.is_task_complete = True
     self.ssn.commit()
 
-  def maybe_updatewords(self):
+  def maybe_update_primarysenses(self):
     yield from self.get_mainpage()
     yield from self.get_listspage()
 
@@ -630,21 +720,25 @@ class Scraper(object):
       entries = self.drv.find_elements_by_css_selector('.wordlist li')
       entries_ct = len(entries)
       #for entry in entries:
+      must_refresh_entries = False
       for j in range(entries_ct):
-        self.waitget_elem_by_css('.wordlist li')
-        entries = self.drv.find_elements_by_css_selector('.wordlist li')
-        entry = entries[j]
+        if must_refresh_entries:
+          self.waitget_elem_by_css('.wordlist li')
+          entries = self.drv.find_elements_by_css_selector('.wordlist li')
+          must_refresh_entries = False
         
+        entry = entries[j]
         entry_a = entry.find_element_by_css_selector('a.word')
         word_text = entry_a.text
         freq = entry.get_attribute('freq')
         print('maybe_updatewords: processing word "{}"...'.format(word_text))
         word = self.dbi.get_or_create(self.ssn, self.dbi.Word, word = word_text)
-        if word.is_task_complete:
+        vocab_list.word_collection.append(word)
+        #if word.is_task_complete:
+        if strtobool(word.is_task_complete):
           print("Word is already processed; skipping.")
         else:
           word.freq = freq
-          vocab_list.word_collection.append(word)
 
           period_for_word = get_boundedsleep(
             self.study_kde, self.msleep_mu, self.msleep_sd
@@ -666,6 +760,8 @@ class Scraper(object):
             subperiod_from_word,
           ))
 
+          must_refresh_entries = True
+          
           entry_a.click()
           yield subperiod_to_word
 
@@ -687,20 +783,133 @@ class Scraper(object):
       print('maybe_updatewords: back...')
       self.drv.back()
       yield get_boundedsleep(self.nav_kde, self.mnsleep_mu, self.mnsleep_sd)
+
+  def maybe_updatewords(self):
+    yield from self.get_mainpage()
+    yield from self.get_listspage()
+
+    link_elements = self.drv.find_elements_by_css_selector('table > tbody > tr > td > a')
+    # I can't use the original list of link elements for the iterations below,
+    # because I'm switching pages, which makes the list stale.
+    a_ct = len(link_elements)
+    # So instead I iterate over the length of the list,
+    print("entering loop...")
+    for i in range(a_ct):
+      # and on each iteration I refresh the list,
+      self.waitget_elem_by_css('table > tbody > tr > td > a')
+      link_elements = self.drv.find_elements_by_css_selector('table > tbody > tr > td > a')
+      # and then get the ith link.
+      a = link_elements[i]
+      list_description = a.text.split('\n')[0]
+      link = a.get_attribute('href')
+      list_id = link.split('/')[-1]
+      vocab_list = self.dbi.get_or_create(self.ssn, self.dbi.Vocab, id = list_id)
+      print('maybe_updatewords: examining list "{}"...'.format(vocab_list))
+      if vocab_list.description != list_description:
+        vocab_list.description = list_description
+        self.ssn.commit()
+      
+      if strtobool(vocab_list.is_task_complete):
+        print("List is already processed; skipping.")
+      else:
+        a.click()
+        yield get_boundedsleep(self.nav_kde, self.mnsleep_mu, self.mnsleep_sd)
+        
+        self.waitget_elem_by_css('.wordlist li')
+        entries = self.drv.find_elements_by_css_selector('.wordlist li')
+        entries_ct = len(entries)
+        #for entry in entries:
+        must_refresh_entries = False
+        for j in range(entries_ct):
+          if must_refresh_entries:
+            self.waitget_elem_by_css('.wordlist li')
+            entries = self.drv.find_elements_by_css_selector('.wordlist li')
+            must_refresh_entries = False
+          
+          entry = entries[j]
+          entry_a = entry.find_element_by_css_selector('a.word')
+          word_text = entry_a.text
+          print('maybe_updatewords: processing word "{}"...'.format(word_text))
+          word = self.dbi.get_or_create(self.ssn, self.dbi.Word, word = word_text)
+          vocab_list.word_collection.append(word)
+
+          try: word.freq = entry.get_attribute('freq')
+          except se.common.exceptions.NoSuchElementException: pass
+
+          try: word.definition = entry.find_element_by_css_selector('div.definition').text
+          except se.common.exceptions.NoSuchElementException: pass
+
+          try: word.example = entry.find_element_by_css_selector('div.example').text
+          except se.common.exceptions.NoSuchElementException: pass
+
+          self.ssn.commit()
+
+          #if word.is_task_complete:
+          if strtobool(word.is_task_complete):
+            print("Word is already processed; skipping.")
+          else:
+            period_for_word = get_boundedsleep(
+              self.study_kde, self.msleep_mu, self.msleep_sd
+            )
+            subperiod_to_word = get_boundedsleep(
+              self.nav_kde, self.mnsleep_mu, self.mnsleep_sd
+            )
+            subperiod_from_word = get_boundedsleep(
+              self.nav_kde, self.mnsleep_mu, self.mnsleep_sd
+            )
+            subperiod_for_word = period_for_word - (subperiod_to_word + subperiod_from_word)
+
+            print("period for this word: {}".format(
+              period_for_word
+            ))
+            print("subperiods for this word: {} + {} + {}".format(
+              subperiod_to_word,
+              subperiod_for_word,
+              subperiod_from_word,
+            ))
+
+            must_refresh_entries = True
+            
+            entry_a.click()
+            yield subperiod_to_word
+
+            self.waitget_elem_by_css('.dynamictext')
+            self.examine_word(self.drv.page_source)
+            yield subperiod_for_word
+
+            self.drv.back()
+            yield subperiod_from_word
+
+        print('maybe_updatewords: hooray, updated list!')
+        vocab_list.is_task_complete = True
+        self.ssn.commit()
+        print('maybe_updatewords: yielding...')
+
+        period = get_boundedsleep(self.study_kde, self.msleep_mu, self.msleep_sd)
+        yield period
+
+        print('maybe_updatewords: back...')
+        self.drv.back()
+        yield get_boundedsleep(self.nav_kde, self.mnsleep_mu, self.mnsleep_sd)
         
 
 
 def do_all_the_things():
-  ssn = get_session()
+  eng, ssn = get_session()
   svc, drv = get_webdriver()
   study_ds = get_ds()
-  nav_ds = study_ds/6
+  nav_ds = study_ds/15
   study_kde = get_kde(study_ds)
   nav_kde = get_kde(nav_ds)
   scraper = Scraper(ssn, dbi, drv, study_kde, nav_kde)
-  schedule = get_hourly_schedule(None, n = 2)
-  asyncio.ensure_future(work_async(scraper.maybe_updatelists(), schedule))
 
+  #schedule = list(itertools.chain.from_iterable(get_hourly_schedule(dt.datetime(2018, 12, 21, 6) + dt.timedelta(days = i), n = 18) for i in range(14)))
+  now = dt.datetime.now()
+  schedule = list(itertools.chain.from_iterable(get_hourly_schedule(dt.datetime(now.year, now.month, now.day, 6) + dt.timedelta(days = i), n = 18) for i in range(14)))
+
+  work(scraper.maybe_updatelists(), schedule)
+
+  #schedule = reduce(join_hourly_schedules, [get_hourly_schedule(dt.datetime(2018, 12, 21, 7) + dt.timedelta(days=k), n=18) for k in (0,1,2,5,6,7,8,9,10,11,12,13)])
 
 if __name__ == "__main__":
   do_all_the_things()

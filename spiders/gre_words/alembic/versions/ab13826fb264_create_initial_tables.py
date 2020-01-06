@@ -31,7 +31,8 @@ def upgrade():
     sa.Column('word', sa.Text),
     sa.Column('short_blurb', sa.Text),
     sa.Column('long_blurb', sa.Text),
-    sa.Column('frequency', sa.Float)
+    sa.Column('frequency', sa.Float),
+    sa.Column('primary_sense_id', sa.Integer, sa.ForeignKey('senses.id')),
   )
   
   # Vocabulary-Word join table, many-to-many.
@@ -57,10 +58,12 @@ def upgrade():
     synonym = 1
     antonym = 2
     type_of = 3
+  
   op.create_table('sense_relations',
     sa.Column('l_sense_id', sa.Integer, sa.ForeignKey('senses.id'), primary_key = True),
     sa.Column('r_sense_id', sa.Integer, sa.ForeignKey('senses.id'), primary_key = True),
     sa.Column('relation_kind', sa.Enum(SenseRelationKind)),
+    sa.Column('relation_kind_id', sa.Integer, primary_key = True, autoincrement = False),
   )
 
 

@@ -8,6 +8,10 @@ import enum
 metadata = MetaData()
 Base = automap_base()
 
+SYNONYM = 1
+ANTONYM = 2
+TYPE_OF = 3
+
 # I use this class mainly to simplify pretty-printing database entries.
 class Mixin(object):
   def __repr__(self):
@@ -36,12 +40,39 @@ class Word(Mixin, Base):
   '''
   __tablename__ = 'words'
 
+  #primary_sense = relationship('Sense', primaryjoin = "Word.primary_sense_id == Sense.id", foreign_keys = "Word.primary_sense_id")
+  sense_collection = relationship(
+    'Sense',
+    secondary = 'sense_words',
+    backref = 'word_collection'
+  )
+  primary_sense_collection = relationship(
+    'Sense',
+    secondary = 'sense_words',
+    backref = 'primary_word_collection',
+    #primaryjoin = 'and_(Word.id == SenseWord.word_id, Sense.id == SenseWord.sense_id)',
+    primaryjoin = 'and_(Word.id == SenseWord.word_id, Sense.id == SenseWord.sense_id, SenseWord.is_primary_sense == True)',
+    foreign_keys = '[Sense.id, Word.id, SenseWord.sense_id, SenseWord.word_id]',
+  )
+
   def __repr__(self):
     return self.pprint(
       id = self.id,
       word = self.word,
+      defn = self.definition,
     )
 
+  def add_primary_sense(self, sense):
+    if sense not in self.primary_sense_collection:
+      ssn = Session.object_session(self)
+      sw = get_or_create(
+        ssn,
+        SenseWord,
+        sense = sense,
+        word = self
+      )
+      sw.is_primary_sense = True
+      return sw
 
 # Helper functions to simplify using SQLALchemy to define sense-sense
 # relationship types. This gets tricky, because...
@@ -64,10 +95,10 @@ class Word(Mixin, Base):
 # are easier to model than a graph with both directed subgraphs and undirected
 # subgraphs. So I use some helper functions and methods to simplify things.
 
-def sense_relationship(foreign_key_col, relation_kind):
+def sense_relationship(foreign_key_col, relation_kind_id):
   '''
   foreign_key_col: either 'l_sense_id' or 'r_sense_id'
-  relation_kind: one of 'synonym', 'antonym', or 'type_of'
+  relation_kind_id: one of SYNONYM, ANTONYM, or TYPE_OF
 
   This defines a SQLAlchemy join query that finds a sense's right or left
   related senses, where the relation is of kind 'synonym', 'antonym', or
@@ -78,15 +109,15 @@ def sense_relationship(foreign_key_col, relation_kind):
     foreign_keys = '[SenseRelation.{foreign_key_col}]'.format(
       foreign_key_col = foreign_key_col,
     ),
-    primaryjoin = 'and_(Sense.id == SenseRelation.{foreign_key_col}, SenseRelation.relation_kind == "{relation_kind}")'.format(
+    primaryjoin = 'and_(Sense.id == SenseRelation.{foreign_key_col}, SenseRelation.relation_kind_id == "{relation_kind_id}")'.format(
       foreign_key_col = foreign_key_col,
-      relation_kind = relation_kind,
+      relation_kind_id = relation_kind_id,
     )
   )
 
-def right_sense_relationship(relation_kind):
+def right_sense_relationship(relation_kind_id):
   '''
-  relation_kind: one of 'synonym', 'antonym', or 'type_of'
+  relation_kind_id: one of SYNONYM, ANTONYM, or TYPE_OF
 
   This defines a SQLAlchemy join query that finds a sense's right related
   senses, where the relation is of kind 'synonym', 'antonym', or 'type_of'.
@@ -96,12 +127,12 @@ def right_sense_relationship(relation_kind):
   '''
   return sense_relationship(
     foreign_key_col = 'l_sense_id',
-    relation_kind = relation_kind,
+    relation_kind_id = relation_kind_id,
   )
 
-def left_sense_relationship(relation_kind):
+def left_sense_relationship(relation_kind_id):
   '''
-  relation_kind: one of 'synonym', 'antonym', or 'type_of'
+  relation_kind_id: one of SYNONYM, ANTONYM, or TYPE_OF
 
   This defines a SQLAlchemy join query that finds a sense's left related senses,
   where the relation is of kind 'synonym', 'antonym', or 'type_of'.
@@ -111,7 +142,7 @@ def left_sense_relationship(relation_kind):
   '''
   return sense_relationship(
     foreign_key_col = 'r_sense_id',
-    relation_kind = relation_kind,
+    relation_kind_id = relation_kind_id,
   )
 
 def lr(l, r):
@@ -138,12 +169,12 @@ class Sense(Mixin, Base):
   '''
   __tablename__ = 'senses'
 
-  left_synonyms = left_sense_relationship(relation_kind = 'synonym')
-  right_synonyms = right_sense_relationship(relation_kind = 'synonym')
-  left_antonyms = left_sense_relationship(relation_kind = 'antonym')
-  right_antonyms = right_sense_relationship(relation_kind = 'antonym')
-  left_types_of = left_sense_relationship(relation_kind = 'type_of')
-  right_types_of = right_sense_relationship(relation_kind = 'type_of')
+  left_synonyms = left_sense_relationship(relation_kind_id = SYNONYM)
+  right_synonyms = right_sense_relationship(relation_kind_id = SYNONYM)
+  left_antonyms = left_sense_relationship(relation_kind_id = ANTONYM)
+  right_antonyms = right_sense_relationship(relation_kind_id = ANTONYM)
+  left_types_of = left_sense_relationship(relation_kind_id = TYPE_OF)
+  right_types_of = right_sense_relationship(relation_kind_id = TYPE_OF)
 
   @property
   def synonyms(self):
@@ -187,7 +218,7 @@ class Sense(Mixin, Base):
       return SenseRelation(
         left = self,
         right = related_sense,
-        relation_kind = 'synonym',
+        relation_kind_id = SYNONYM,
       )
 
   def add_antonym(self, related_sense):
@@ -198,7 +229,7 @@ class Sense(Mixin, Base):
       return SenseRelation(
         left = self,
         right = related_sense,
-        relation_kind = 'antonym',
+        relation_kind_id = ANTONYM,
       )
 
   def add_type_of(self, related_sense):
@@ -209,7 +240,7 @@ class Sense(Mixin, Base):
       return SenseRelation(
         left = self,
         right = related_sense,
-        relation_kind = 'type_of',
+        relation_kind_id = TYPE_OF,
       )
 
   def add_type(self, related_sense):
@@ -220,8 +251,20 @@ class Sense(Mixin, Base):
       return SenseRelation(
         left = related_sense,
         right = self,
-        relation_kind = 'type_of',
+        relation_kind_id = TYPE_OF,
       )
+
+
+kind_id_2_kind = {
+  1 : 'synonym',
+  2 : 'antonym',
+  3 : 'type_of',
+}
+def get_kind(kind_id):
+  if kind_id in kind_id_2_kind:
+    return kind_id_2_kind[kind_id]
+  else:
+    return None
 
 
 class SenseRelation(Mixin, Base):
@@ -235,10 +278,26 @@ class SenseRelation(Mixin, Base):
   right = relationship(Sense, foreign_keys = "SenseRelation.r_sense_id", backref = 'left')
   def __repr__(self):
     return self.pprint(
-      kind = self.relation_kind,
+      #kind = self.relation_kind,
+      kind = get_kind(self.relation_kind_id),
       left = self.left,
       right = self.right,
     )
+
+
+class SenseWord(Mixin, Base):
+  '''
+  Object encapsulating the word-sense relationship.
+  '''
+  __tablename__ = 'sense_words'
+  sense = relationship(Sense, foreign_keys = "SenseWord.sense_id", backref = 'sense_word')
+  word = relationship(Word, foreign_keys = "SenseWord.word_id", backref = 'sense_word')
+  def __repr__(self):
+    return self.pprint(
+      sense = self.sense,
+      word = self.word,
+    )
+
 
 
 def get_or_create(session, model, **kwargs):
