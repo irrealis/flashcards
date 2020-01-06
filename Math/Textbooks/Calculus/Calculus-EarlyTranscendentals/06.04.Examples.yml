@@ -1,0 +1,134 @@
+jefaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-06-ApplicationsOfIntegration
+  - CET-06.04-Work
+  markdownTabLength: 2
+notes:
+- id: 1577723927349
+  fields:
+    Front: |
+      CET-06.04-01 Example:
+      (a) How much work is done in lifting a $1.2-\text{kg}$ book off the floor to put it on a desk that is $0.7 \text{ m}$ high? Use the fact that the acceleration due to gravity is $g=9.8 \text{ m} / \mathrm{s}^{2}.$
+      (b) How much work is done in lifting a $20-\text{lb}$ weight $6\text{ ft}$ off the ground?
+    Back: |
+      (a) The force exerted is equal and opposite to that exerted by gravity, so
+      $$$
+      F=m g=(1.2)(9.8)=11.76 \text{ N}
+      $$$ and then the work done is
+      $$$
+      W=F d=(11.76 \text{ N})(0.7 \text{ m}) \approx 8.2 \text{ J}
+      $$$
+
+      (b) Here the force is given as $F=20 \text{ lb},$ so the work done is
+      $$$
+      W=F d=(20 \text{ lb})(6 \text{ ft})=120 \text{ ft}-\mathrm{lb}
+      $$$ Notice that in part (b), unlike part (a), we did not have to multiply by $g$ because we were given the weight (which is a force) and not the mass of the object.
+    Annotations: ''
+  tags: []
+- id: 1577724769299
+  fields:
+    Front: |
+      CET-06.04-02 Example:
+      When a particle is located a distance $x$ feet from the origin, a force of $x^{2}+2 x$ pounds acts on it. How much work is done in moving it from $x=1$ to $x=3 ?$
+    Back: |
+      $$$
+      \left.W=\int_{1}^{3}\left(x^{2}+2 x\right) d x=\frac{x^{3}}{3}+x^{2}\right]_{1}^{3}=\frac{50}{3}
+      $$$ The work done is $16 \frac{2}{3} \text{ft-lb}.$
+    Annotations: ''
+  tags: []
+- id: 1577725288248
+  fields:
+    Front: |
+      CET-06.04-03 Example: 
+      A force of 40 N is required to hold a spring that has been stretched from its natural length of $10 \text{ cm}$ to a length of $15 \text{ cm} .$ How much work is done in stretching the spring from $15 \text{ cm}$ to $18 \text{ cm}?$
+    Back: |
+      According to Hooke's Law, the force required to hold the spring stretched $x$ meters beyond its natural length is $f(x)=k x .$ When the spring is stretched from $10 \text{ cm}$ to $15 \text{ cm},$ the amount stretched is $5 \text{ cm}=0.05 \text{ m} .$ This means that $f(0.05)=40,$ so
+      $$$
+      0.05 k=40 \quad k=\frac{40}{0.05}=800
+      $$$ Thus $f(x)=800 x$ and the work done in stretching the spring from $15 \text{ cm}$ to $18 \text{ cm}$ is
+      $$$
+      \begin{aligned}
+      W &\left.=\int_{0.05}^{0.08} 800 x d x=800 \frac{x^{2}}{2}\right]_{0.05}^{0.08} \\
+      &=400\left[(0.08)^{2}-(0.05)^{2}\right]=1.56 \text{ J}
+      \end{aligned}
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1577725577372
+  media:
+  - path: ${file_dir}/images/CET-06.04-04.Xm.1.jpg
+  fields:
+    Front: |
+      CET-06.04-04 Example:
+      A $200-$ lb cable is 100 ft long and hangs vertically from the top of a tall building. How much work is required to lift the cable to the top of the building?
+    Back: |
+      Here we don't have a formula for the force function, but we can use an argument similar to the one that led to the definition of work. Let's place the origin at the top of the building and the $x$-axis pointing downward as shown below.  
+      <p align="center"> 
+      ![](CET-06.04-04.Xm.1.jpg) 
+      </p> 
+      We divide the cable into small parts with length $\Delta x .$ If $x_{i}^{*}$ is a point in the ith such interval, then all points in the interval are lifted by approximately the same amount, namely $x_{i}^{*} .$ The cable weighs $2$ pounds per foot, so the weight of the ith part is 
+      $(2 \text{ lb} / \mathrm{ft})(\Delta x \text{ ft})=2 \Delta x \text{ lb}$. Thus the work done on the ith part, in foot-pounds, is 
+      $$$ 
+      \underbrace{(2 \Delta x)}_{\text {force }} \cdot \underbrace{x_{i}^{*}}_{\text {distance }}=2 x_{i}^{*} \Delta x 
+      $$$ We get the total work done by adding all these approximations and letting the number of parts become large (so $\Delta x \rightarrow 0$ ): 
+      $$$ 
+      \begin{aligned} 
+      W &=\lim _{n \rightarrow \infty} \sum_{i=1}^{n} 2 x_{i}^{*} \Delta x=\int_{0}^{100} 2 x d x \\ 
+      &\left.=x^{2}\right]_{0}^{100}=10,000 \text{ ft-lb} 
+      \end{aligned} 
+      $$$
+    Annotations: ''
+  tags: []
+- id: 1577726113097
+  media:
+  - path: ${file_dir}/images/CET-06.04-05.Xm.1.jpg
+  - path: ${file_dir}/images/CET-06.04-05.Xm.2.jpg
+  fields:
+    Front: |
+      CET-06.04-05 Example: 
+      A tank has the shape of an inverted circular cone with height $10 \text{ m}$ and base radius $4 \text{ m} .$ It is filled with water to a height of $8 \text{ m} .$ Find the work required to empty the tank by pumping all of the water to the top of the tank. (The density of water is $1000 \text{ kg} / \mathrm{m}^{3}.$)
+    Back: |
+      Let's measure depths from the top of the tank by introducing a vertical coordinate line as show below.
+      <p align="center">
+      ![](CET-06.04-05.Xm.1.jpg)
+      </p>
+      The water extends from a depth of $2 \text{ m}$ to a depth of $10 \text{ m}$ and so we divide the interval $[2,10]$ into $n$ subintervals with endpoints $x_{0}, x_{1}, \ldots, x_{n}$ and choose $x_{i}^{*}$ in the $i$ th subinterval. This divides the water into $n$ layers. The $i$ th layer is approximated by a circular cylinder with radius $r_{i}$ and height $\Delta x .$ We can compute $r_{i}$ from similar triangles, using the following figure:
+      $$$
+      \frac{r_{i}}{10-x_{i}^{*}}=\frac{4}{10} \quad r_{i}=\frac{2}{5}\left(10-x_{i}^{*}\right)
+      $$$
+      <p align="center">
+      ![](CET-06.04-05.Xm.2.jpg)
+      </p>
+      Thus an approximation to the volume of the $i$ th layer of water is
+      $$$
+      V_{i} \approx \pi r_{i}^{2} \Delta x=\frac{4 \pi}{25}\left(10-x_{i}^{*}\right)^{2} \Delta x
+      $$$ and so its mass is
+      $$$
+      \begin{aligned}
+      m_{i} &=\text { density } \times \text { volume } \\
+      & \approx 1000 \cdot \frac{4 \pi}{25}\left(10-x_{i}^{*}\right)^{2} \Delta x=160 \pi\left(10-x_{i}^{*}\right)^{2} \Delta x
+      \end{aligned}
+      $$$ The force required to raise this layer must overcome the force of gravity and so
+      $$$
+      \begin{aligned} F_{i} &=m_{i} g \approx(9.8) 160 \pi\left(10-x_{i}^{*}\right)^{2} \Delta x \\ &=1568 \pi\left(10-x_{i}^{*}\right)^{2} \Delta x \end{aligned}
+      $$$ Each particle in the layer must travel a distance upward of approximately $x_{i}^{*} .$ The work $W_{i}$ done to raise this layer to the top is approximately the product of the force $F_{i}$ and the distance $x_{i}^{*}:$
+      $$$
+      W_{i} \approx F_{i} x_{i}^{*} \approx 1568 \pi x_{i}^{*}\left(10-x_{i}^{*}\right)^{2} \Delta x
+      $$$ To find the total work done in emptying the entire tank, we add the contributions of each of the $n$ layers and then take the limit as $n \rightarrow \infty$ :
+      $$$
+      \begin{aligned}
+      W &=\lim _{n \rightarrow \infty} \sum_{i=1}^{n} 1568 \pi x_{i}^{*}\left(10-x_{i}^{*}\right)^{2} \Delta x=\int_{2}^{10} 1568 \pi x(10-x)^{2} d x \\
+      &=1568 \pi \int_{2}^{10}\left(100 x-20 x^{2}+x^{3}\right) d x=1568 \pi\left[50 x^{2}-\frac{20 x^{3}}{3}+\frac{x^{4}}{4}\right]_{2}^{10} \\
+      &=1568 \pi\left(\frac{2048}{3}\right) \approx 3.4 \times 10^{6} \text{ J}
+      \end{aligned}
+      $$$
+    Annotations: ''
+  tags:
+  - Editing
