@@ -30,5 +30,4 @@ notes:
       $$$ We can rearrange this equation as
       $$$\int f(x) g^{\prime}(x) d x=f(x) g(x)-\int g(x) f^{\prime}(x) d x$$$
     Annotations: ''
-  tags:
-  - Editing
+  tags: []

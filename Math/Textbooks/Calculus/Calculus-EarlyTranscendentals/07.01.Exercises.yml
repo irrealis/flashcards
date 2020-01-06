@@ -452,5 +452,4 @@ notes:
       Returning to $I,$ we get $I=x(\arcsin x)^{2}+2 \sqrt{1-x^{2}} \arcsin x-2 x+C$
       where $C=-2 C_{1}.$
     Annotations: ''
-  tags:
-  - Editing
+  tags: []

@@ -52,5 +52,4 @@ notes:
 
       If the integrand has several factors, then we try to choose among them a $u$ which appears as high as possible on the list. For example, in $\int x e^{2 x} d x$ the integrand is $x e^{2 x},$ which is the product of an algebraic function $(x)$ and an exponential function $\left(e^{2 x}\right) .$ Since Algebraic appears before Exponential, we choose $u=x .$ Sometimes the integration turns out to be similar regardless of the selection of $u$ and $d v,$ but it is advisable to refer to LIATE when in doubt.
     Annotations: ''
-  tags:
-  - Editing
+  tags: []
