@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 from anki_client import AnkiClient
-import markdown, pandas, pweave.themes, rtyaml
+import markdown, pandas, pweave.themes, ruamel.yaml
 
 from markdown.extensions.abbr import AbbrExtension
 from markdown.extensions.attr_list import AttrListExtension
@@ -32,7 +32,8 @@ log.propagate = False
 
 def parse_markdown(text, noclasses, style, line_nums, tab_len, mathext):
   extensions = []
-  if mathext: extensions.append(MathExtension())
+  if mathext:
+    extensions.append(MathExtension())
   extensions.extend([
     FencedCodeExtension(),
     FootnoteExtension(), AttrListExtension(), DefListExtension(),
@@ -63,7 +64,6 @@ htmltemplate["footer"]="""
   </div>
 </div>
 """
-
 
 class MyPwebMDtoHTMLFormatter(PwebHTMLFormatter):
   def __init__(self, *args, **kwargs):
@@ -272,6 +272,7 @@ class NoteSender(object):
       extraTags = rt_defs.get('extraTags', list()),
       fields = rt_defs.get('fields', dict()),
       media = rt_defs.get('media', list()),
+      stringTemplDelim = rt_defs.get('stringTemplDelim', self.opts.default_string_templ_delim),
     )
     return defaults
 
@@ -296,6 +297,7 @@ class NoteSender(object):
     note.setdefault('markdownTabLength', defaults['markdownTabLength'])
     note.setdefault('useMarkdownMathExt', defaults['useMarkdownMathExt'])
     note.setdefault('annotationsField', defaults['annotationsField'])
+    note.setdefault('stringTemplDelim', defaults['stringTemplDelim'])
 
     # Tags and fields require special handling.
     # For tags we need to:
@@ -343,6 +345,7 @@ class NoteSender(object):
     md_lineno,
     md_tablen,
     md_mathext,
+    string_templ_delim,
     note_field_num = None,
     **d
   ):
@@ -351,11 +354,17 @@ class NoteSender(object):
     if note_field_num is None: note_field_num = 0
     chunk_templ_vars['note_field_num'] = note_field_num
 
-    subbed_text = string.Template(text).safe_substitute(chunk_templ_vars)
+    class StringTemplate(string.Template):
+      delimiter = string_templ_delim
+
+    #subbed_text = string.Template(text).safe_substitute(chunk_templ_vars)
+    subbed_text = StringTemplate(text).safe_substitute(chunk_templ_vars)
     noclasses = md_sty != 'default'
     self.pweb.set_markdown_opts(md_sty, md_lineno, md_tablen, md_mathext)
     if str(use_md).lower() == 'pweave':
-      pweave_basename = string.Template("${note_id}-${note_uuid1}-${note_field_num}").safe_substitute(chunk_templ_vars)
+      #pweave_basename = string.Template("${note_id}-${note_uuid1}-${note_field_num}").safe_substitute(chunk_templ_vars)
+      pweave_basename_templ = string.Template("${string_templ_delim}{note_id}-${string_templ_delim}{note_uuid1}-${string_templ_delim}{note_field_num}").safe_substitute(dict(string_templ_delim = string_templ_delim))
+      pweave_basename = StringTemplate(pweave_basename_templ).safe_substitute(chunk_templ_vars)
       self.pweb.read(string = subbed_text, basename = pweave_basename, reader = 'markdown')
       self.pweb.run()
       self.pweb.format()
@@ -389,7 +398,10 @@ class NoteSender(object):
     )
 
     log.info('Processing "%s"...', filename)
-    with rtyaml.edit(filename, default = {}) as data:
+    fp = open(filename)
+    yaml = ruamel.yaml.YAML()
+    datas = list(yaml.load_all(fp))
+    for data in datas:
       query_results, defaults = self.query_notes(self.opts.query, data)
       if query_results.empty:
         log.warning("Query returned no results.")
@@ -420,6 +432,7 @@ class NoteSender(object):
         md_lineno = query_results.markdownLineNums[i]
         md_tablen = query_results.markdownTabLength[i]
         md_mathext = query_results.useMarkdownMathExt[i]
+        string_templ_delim = query_results.stringTemplDelim[i]
         tags = sorted(query_results.tags[i].replace(',','\n').split())
         fields = query_results.fields[i]
         media = query_results.media[i]
@@ -477,8 +490,10 @@ class NoteSender(object):
             md_lineno,
             md_tablen,
             md_mathext,
+            string_templ_delim,
             **note_templ_vars
           ) for (k, v) in fields.items() }
+
 
           # Create, obtaining returned ID
           anki_result = self.anki.addNote(
@@ -512,6 +527,9 @@ class NoteSender(object):
         if self.opts.annotations:
           pass
         else:
+          class StringTemplate(string.Template):
+            delimiter = string_templ_delim
+
           if annotations_field in fields:
             del fields[annotations_field]
           converted_fields = { k: self.format_text(
@@ -521,16 +539,21 @@ class NoteSender(object):
             md_lineno,
             md_tablen,
             md_mathext,
+            string_templ_delim,
             field_no,
             **note_templ_vars
           ) for (field_no, (k, v)) in enumerate(fields.items()) }
+
+
           for media_item in media:
             item_path = media_item['path']
-            item_path = string.Template(item_path).safe_substitute(
+            #item_path = string.Template(item_path).safe_substitute(
+            item_path = StringTemplate(item_path).safe_substitute(
               note_templ_vars
             )
             item_name = media_item.get('name', os.path.basename(item_path))
-            item_name = string.Template(item_name).safe_substitute(
+            #item_name = string.Template(item_name).safe_substitute(
+            item_name = StringTemplate(item_name).safe_substitute(
               note_templ_vars
             )
 
@@ -629,6 +652,9 @@ class NoteSender(object):
 
           note_info = self.anki.notesInfo([note_id])
 
+    log.info('Saving "%s"...', filename)
+    fp = open(filename, 'w')
+    yaml.dump_all(datas, fp)
 
 
   def loadsend_files(self, filenames):
@@ -665,6 +691,7 @@ def getdefaults():
     def_md_lineno = False,
     def_md_mathext = True,
     def_workdir = os.getcwd(),
+    def_string_templ_delim = '$',
   )
 
 def getopts(defs = None):
@@ -767,6 +794,12 @@ def getopts(defs = None):
     action = 'store_false',
   )
   parser.set_defaults(default_md_mathext = defs['def_md_mathext'])
+
+  parser.add_argument(
+    "--default-string-templ-delim",
+    help = "Default string template delimiter (default: {def_string_templ_delim})".format(**defs),
+    default = defs['def_string_templ_delim'],
+  )
 
   return parser.parse_args()
 
