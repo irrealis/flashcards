@@ -1,0 +1,56 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Proofs
+  - Calculus-EarlyTrancendentals
+  - CET-11-InfiniteSequencesAndSeries
+  - CET-11.02-Series
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1578349396241
+  fields:
+    Front: |
+      CET-11.02-01 Proof:
+      Given numbers $a \ne 0$ and $r \ne 1$, let $s_n$ denote the $n\text{th}$ partial sum of the geometric series $\sum_{n=1}^{\infty} a r^{n-1}.$ Show that
+      $$
+      s_{n}=\frac{a\left(1-r^{n}\right)}{1-r}
+      $$
+    Back: |
+      We have
+      $$
+      \begin{aligned}
+      s_{n} &=a+a r+a r^{2}+\cdots+a r^{n-1} \\
+      r s_{n} &=a r+a r^{2}+\cdots+a r^{n-1}+a r^{n}
+      \end{aligned}
+      $$ Subtracting these equations, we get
+      $$
+      s_{n}-r s_{n}=a-a r^{n}
+      $$ so
+      $$
+      s_{n}=\frac{a\left(1-r^{n}\right)}{1-r}
+      $$
+      $\square$
+    Annotations: ''
+  tags: []
+- id: 1578350231510
+  fields:
+    Front: |
+      CET-11.02-02 Proof:
+      Show that the sum of the geometric series $\sum_{n=1}^{\infty} a r^{n-1}$ ($a\ne 0$, $r\ne 1$) is $\frac{a}{1-r}.$
+    Back: |
+      Let $s_n$ denote the $n\text{th}$ partial sum of the geometric series $\sum_{n=1}^{\infty} a r^{n-1}.$ Then
+      $$
+      \lim _{n \rightarrow \infty} s_{n}=\lim _{n \rightarrow \infty} \frac{a\left(1-r^{n}\right)}{1-r}=\frac{a}{1-r}-\frac{a}{1-r} \lim _{n \rightarrow \infty} r^{n}
+      $$ We know that $r^{n} \rightarrow 0$ as $n \rightarrow \infty$ if and only if $-1<r<1,$ in which case the sum of the series is
+      $$ 
+      s = \lim _{n \rightarrow \infty} s_{n}=\frac{a}{1-r}
+      $$
+      $\square$
+    Annotations: ''
+  tags:
+  - Editing

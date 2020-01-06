@@ -1,0 +1,115 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theory
+  - Calculus-EarlyTrancendentals
+  - CET-11-InfiniteSequencesAndSeries
+  - CET-11.02-Series
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1578345597491
+  fields:
+    Front: |
+      CET-11.02-01 Theory:
+      Define **series.** How is it denoted?
+    Back: |
+      In general, if we try to add the terms of an infinite sequence $\left\{a_{n}\right\}_{n=1}^{\infty}$ we get an expression of the form
+      $$
+      a_{1}+a_{2}+a_{3}+\dots+a_{n}+\cdots
+      $$ which is called an **infinite series** (or just a **series**) and is denoted, for short, by the symbol
+      $$
+      \sum_{n=1}^{\infty} a_{n} \quad \text { or } \quad \sum a_{n}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1578346698414
+  fields:
+    Front: |
+      CET-11.02-02 Theory:
+      What are **partial sums?**
+    Back: |
+      Given a series $\sum_{n=1}^{\infty} a_{n}=a_{1}+a_{2}+a_{3}+\cdots,$ let $s_{n}$ denote its **$n\text{th}$ partial sum:**
+      $$
+      s_{n}=\sum_{i=1}^{n} a_{i}=a_{1}+a_{2}+\cdots+a_{n}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1578346698681
+  fields:
+    Front: |
+      CET-11.02-03 Theory:
+      When is the series $\sum a_{n}$ convergent? divergent?
+    Back: |
+      Given a series $\sum_{n=1}^{\infty} a_{n}=a_{1}+a_{2}+a_{3}+\cdots,$ let $s_{n}$ denote its $n\text{th}$ partial sum:
+      $$
+      s_{n}=\sum_{i=1}^{n} a_{i}=a_{1}+a_{2}+\cdots+a_{n}
+      $$ If the sequence $\left\{s_{n}\right\}$ is convergent and $\lim _{n \rightarrow \infty} s_{n}=s$ exists as a real number, then the series $\sum a_{n}$ is convergent.  If the sequence $\left\{s_{n}\right\}$ is divergent, then the series is divergent.
+    Annotations: ''
+  tags: []
+- id: 1578346698988
+  fields:
+    Front: |
+      CET-11.02-04 Theory:
+      Define the **sum of the series $\sum a_{n}$.** When does it exist?
+    Back: |
+      Given a series $\sum_{n=1}^{\infty} a_{n}=a_{1}+a_{2}+a_{3}+\cdots,$ let $s_{n}$ denote its $n\text{th}$ partial sum:
+      $$
+      s_{n}=\sum_{i=1}^{n} a_{i}=a_{1}+a_{2}+\cdots+a_{n}
+      $$ If the sequence $\left\{s_{n}\right\}$ is convergent and $\lim _{n \rightarrow \infty} s_{n}=s$ exists as a real number, then we write
+      $$
+      a_{1}+a_{2}+\cdots+a_{n}+\cdots=s \quad \text { or } \quad \sum_{n=1}^{\infty} a_{n}=s
+      $$ The number $s$ is called the **sum of the series.**
+    Annotations: ''
+  tags: []
+- id: 1578346923585
+  fields:
+    Front: |
+      CET-11.02-05 Theory:
+      Express $\sum a_{n} = \sum_{n=1}^{\infty} a_{n}$ as a limit.
+    Back: |
+      $$
+      \sum_{n=1}^{\infty} a_{n}=\lim _{n \rightarrow \infty} \sum_{i=1}^{n} a_{i}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1578349183891
+  fields:
+    Front: |
+      CET-11.02-06 Theory:
+      Define **geometric series** and **common ratio**.
+    Back: |
+      Given numbers $a \ne 0$ and $r$, the infinite series
+      $$
+      a+a r+a r^{2}+a r^{3}+\cdots+a r^{n-1}+\cdots=\sum_{n=1}^{\infty} a r^{n-1}
+      $$ is called a **geometric series.** Each term is obtained from the preceding one by multiplying it by the **common ratio $r.$**
+    Annotations: ''
+  tags: []
+- id: 1578349184124
+  fields:
+    Front: |
+      CET-11.02-07 Theory:
+      Given numbers $a \ne 0$ and $r \ne 1$, let $s_n$ denote the $n\text{th}$ partial sum of the geometric series $\sum_{n=1}^{\infty} a r^{n-1}.$ What is $s_n$ in simplified form?
+    Back: |
+      $$
+      s_{n}=\frac{a\left(1-r^{n}\right)}{1-r}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1578350202285
+  fields:
+    Front: |
+      CET-11.02-08 Theory:
+      When does the geometric series $\sum_{n=1}^{\infty} a r^{n-1}$ ($a\ne 0$, $r\ne 1$) converge? What is the sum of such a series?
+    Back: |
+      Let $s_n$ denote the $n\text{th}$ partial sum of the geometric series $\sum_{n=1}^{\infty} a r^{n-1}.$ Then $s_{n}$ converges if and only if $-1<r<1,$ in which case the sum of the series is
+      $$ 
+      s = \lim _{n \rightarrow \infty} s_{n}=\frac{a}{1-r}
+      $$
+    Annotations: ''
+  tags:
+  - Editing

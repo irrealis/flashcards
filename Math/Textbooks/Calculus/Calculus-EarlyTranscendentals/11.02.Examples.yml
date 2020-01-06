@@ -1,0 +1,30 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-11-InfiniteSequencesAndSeries
+  - CET-11.02-Series
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1578347065594
+  fields:
+    Front: |
+      CET-11.02-01 Example:
+      Suppose we know that the sum of the first $n$ terms of the series $\sum_{n=1}^{\infty} a_{n}$ is
+      $$
+      s_{n}=a_{1}+a_{2}+\cdots+a_{n}=\frac{2 n}{3 n+5}
+      $$ Calculate the sum of the series.
+    Back: |
+      The sum of the series is the limit of the sequence $\left\{s_{n}\right\}$:
+      $$
+      \sum_{n=1}^{\infty} a_{n}=\lim _{n \rightarrow \infty} s_{n}=\lim _{n \rightarrow \infty} \frac{2 n}{3 n+5}=\lim _{n \rightarrow \infty} \frac{2}{3+\frac{5}{n}}=\frac{2}{3}
+      $$
+    Annotations: ''
+  tags:
+  - Editing
