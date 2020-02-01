@@ -1,0 +1,13 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Physics
+  - Exercises
+  - EssentialUniversityPhysics
+  - EUP-01-DoingPhysics
+  - EUP-01.02-MeasurementsAndUnits
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:

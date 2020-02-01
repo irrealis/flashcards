@@ -1,0 +1,172 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Physics
+  - PHYS-1110
+  - PHYS-1110-Week01
+  - PHYS-1110-Lecture02
+  - ClickerQs
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1579191851034
+  media:
+  - path: ¢{file_dir}/images/CQ-01-01.1.jpg
+  - path: ¢{file_dir}/images/CQ-01-01.2.jpg
+  - path: ¢{file_dir}/images/CQ-01-01.3.jpg
+  - path: ¢{file_dir}/images/CQ-01-01.4.jpg
+  - path: ¢{file_dir}/images/CQ-01-01.5.jpg
+  fields:
+    Front: |
+      CQ-01-01 ClickerQ:
+      CT2-5: Discuss with your neighbors and click in now!
+      A train moves along a straight track and its position vs. time looks like:
+      <p align="center">
+      ![](CQ-01-01.1.jpg)
+      </p>
+      Which graph best depicts the train's velocity vs. time?
+      (A)
+      <p align="center">
+      ![](CQ-01-01.2.jpg)
+      </p>
+      (B)
+      <p align="center">
+      ![](CQ-01-01.3.jpg)
+      </p>
+      (C)
+      <p align="center">
+      ![](CQ-01-01.4.jpg)
+      </p>
+      (D)
+      <p align="center">
+      ![](CQ-01-01.5.jpg)
+      </p>
+    Back: |
+      D
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1579192383811
+  media:
+  - path: ¢{file_dir}/images/CQ-01-02.1.jpg
+  fields:
+    Front: |
+      CQ-01-02 ClickerQ:
+      CT2-1. A person starts in Boulder, drives to Denver, $50 \text{ km}$ away, in 1 hour, stays in Denver for 1 hour, then speeds back to Boulder in 30 minutes.
+      <p align="center">
+      ![](CQ-01-02.1.jpg)
+      </p>
+      What is the average speed of this round trip?
+      (a) Zero
+      (b) $67 \text{ km} / \mathrm{hr}$
+      (c) $40 \text{ km} / \mathrm{hr}$
+      (d) $75 \text{ km} / \mathrm{hr}$
+      (e) None of these.
+    Back: |
+      To do
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1579193060162
+  media:
+  - path: ¢{file_dir}/images/CQ-01-02.1.jpg
+  fields:
+    Front: |
+      CQ-01-03 ClickerQ:
+      CT2-1. A person starts in Boulder, drives to Denver, $50 \text{ km}$ away, in 1 hour, stays in Denver for 1 hour, then speeds back to Boulder in 30 minutes.
+      <p align="center">
+      ![](CQ-01-02.1.jpg)
+      </p>
+      What is the average velocity of this round trip?
+      (a) Zero
+      (b) $67 \text{ km} / \mathrm{hr}$
+      (c) $40 \text{ km} / \mathrm{hr}$
+      (d) $75 \text{ km} / \mathrm{hr}$
+      (e) None of these.
+    Back: |
+      To do
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1579193315737
+  media:
+  - path: ¢{file_dir}/images/CQ-01-04.1.jpg
+  fields:
+    Front: |
+      CQ-01-04 ClickerQ:
+      CT2-4. A train car moves along a long straight track. The graph shows the position as a function of time for the train.
+      <p align="center">
+      ![](CQ-01-04.1.jpg)
+      </p>
+      The graph shows that the train:
+      (a) speeds up all the time.
+      (b) slows down all the time.
+      (c) speeds up part of the time and slows down part of the time.
+      (d) moves at constant velocity.
+      (e) None of these statements is true.
+    Back: |
+      To do
+    Annotations: ''
+  tags:
+  - Editing
+  - ToDo
+- id: 1579193620562
+  media:
+  - path: ¢{file_dir}/images/CQ-01-05.1.jpg
+  fields:
+    Front: |
+      CQ-01-05 ClickerQ:
+      CT2-6. The graph show positions as a function of time for two trains running on parallel tracks:
+      <p align="center">
+      ![](CQ-01-05.1.jpg)
+      </p>
+      Which statement is true:
+      A) At time $\mathrm{t}_{\mathrm{C}},$ both trains have the same velocity.
+      B) Both trains speed up all the time.
+      C) Both trains have the same velocity at some time before $\mathrm{t}_{\mathrm{C}}.$ 
+      D) At some time, both trains have the same acceleration.
+      E) None of the above statements is true.
+    Back: |
+      To do
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1579193984736
+  media:
+  - path: ¢{file_dir}/images/CQ-01-06.1.jpg
+  - path: ¢{file_dir}/images/CQ-01-06.2.jpg
+  - path: ¢{file_dir}/images/CQ-01-06.3.jpg
+  - path: ¢{file_dir}/images/CQ-01-06.4.jpg
+  - path: ¢{file_dir}/images/CQ-01-06.5.jpg
+  fields:
+    Front: |
+      CQ-01-06 ClickerQ:
+      CT2-7. An object's velocity vs. time is:
+      <p align="center">
+      ![](CQ-01-06.1.jpg)
+      </p>
+      Which graph best represents the object's acceleration vs. time?
+      (a)
+      <p align="center">
+      ![](CQ-01-06.2.jpg)
+      </p>
+      (b)
+      <p align="center">
+      ![](CQ-01-06.3.jpg)
+      </p>
+      (c)
+      <p align="center">
+      ![](CQ-01-06.4.jpg)
+      </p>
+      (d)
+      <p align="center">
+      ![](CQ-01-06.5.jpg)
+      </p>
+    Back: |
+      To do
+    Annotations: ''
+  tags:
+  - Editing
+  - ToDo

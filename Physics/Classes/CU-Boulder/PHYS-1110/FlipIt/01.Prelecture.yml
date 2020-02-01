@@ -1,0 +1,62 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Physics
+  - PHYS-1110
+  - FlipIt
+  - Prelecture
+  - FIP-Part01-LinearDynamics
+  - FIP-Section01-1DKinematics
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1579124905436
+  media:
+  - path: ¢{file_dir}/images/FIP-01.01-01.Pl.1.jpg
+  fields:
+    Front: |
+      FIP-01.01-01 Prelecture: [Slide 6]
+      The graph represents the position as a function of time for an object in one-dimensional motion.
+      <p align="center">
+      ![](FIP-01.01-01.Pl.1.jpg)
+      </p>
+      Identify which statement below correctly identifies the times at which the velocity of the object is greater than zero.
+      (a) The velocity is greater than 0 at $t=0 \text{ s}$ s and $t=4 \text{ s}$.
+      (b) The velocity is greater than 0 at $t=2 \text{ s}$.
+      (c) The velocity is greater than 0 at $t=0 \text{ s}$ and $t=1 \text{ s}$.
+      (d) The velocity is greater than 0 at $t=3 \text{ s}$ and $t=4 \text{ s}$.
+      (e) The velocity is greater than 0 at $t=0,1,3,$ and $4 \text{ s}$.
+    Back: |
+      (d) The velocity is greater than 0 at $t=3 \text{ s}$ and $t=4 \text{ s}$.
+
+      The velocity of an object is defined to be the derivative of the position with respect to time:
+      $$
+      \overrightarrow{\mathbf{v}} \equiv \frac{d \overrightarrow{\mathbf{x}}}{d t}
+      $$ The velocity at time $t$ is just the slope of the position vs time curve at time $t .$ Therefore the **velocity** is **positive** at all times that the **slope** of the position curve is **positive.** In this case, the slope of the position vs time curve is positive for **all times $t>2 \text{ s}$.**
+    Annotations: ''
+  tags: []
+- id: 1579138326719
+  media:
+  - path: ¢{file_dir}/images/FIP-01.01-02.Pl.1.jpg
+  fields:
+    Front: |
+      FIP-01.01-02 Prelecture: [Slide 9]
+      The graph represents the velocity as a function of time for an object in onedimensional motion. Identify which statement below correctly describes the motion at $t=3 \text{ s}$.
+      <p align="center">
+      ![](FIP-01.01-02.Pl.1.jpg)
+      </p>
+      (a) The object is slowing down and the acceleration is negative.
+      (b) The object is speeding up and the acceleration is negative.
+      (c) The object is slowing down and the acceleration is positive.
+      (d) The object is speeding up and the acceleration is positive.
+    Back: |
+      (b) The object is speeding up and the acceleration is negative.
+
+      An object **speeds up** or **slows down** depending on whether the **magnitude** of its **velocity** is **increasing** or **decreasing.** In this case, at $t=3 \text{ s}$  the **velocity** is **decreasing** (becoming more negative), but the object is **speeding up** since the **magnitude** of the velocity is **increasing.**
+
+      The **acceleration** is defined as the **derivative** of the **velocity** with respect to **time.** Therefore, the **acceleration** at time $t$ is just equal to the **slope** of the **velocity vs time** curve at any time $t .$ In the case, the **slope** is a **constant;** it has a negative value at all times $\left(-2.5 \text{ m} / \text{s}^{2}\right) .$ Therefore, this object has a **negative acceleration at all times.**
+    Annotations: ''
+  tags:
+  - Editing

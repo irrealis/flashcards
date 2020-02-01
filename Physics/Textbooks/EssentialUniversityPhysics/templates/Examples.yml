@@ -1,0 +1,14 @@
+  media:
+  - path: ¢{file_dir}/images/EUP-XX.XX-XX.Xm.1.jpg
+      <p align="center">
+      ![](EUP-XX.XX-XX.Xm.1.jpg)
+      </p>
+  tags: []
+- id: 0
+  fields:
+    Front: |
+      EUP-XX.XX-XX Example:
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing

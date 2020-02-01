@@ -1,0 +1,13 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Physics
+  - Theory
+  - EssentialUniversityPhysics
+  - EUP-01-DoingPhysics
+  - EUP-01.03-WorkingWithNumbers
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:

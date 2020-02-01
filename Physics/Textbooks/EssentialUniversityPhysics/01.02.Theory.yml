@@ -1,0 +1,101 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Physics
+  - Theory
+  - EssentialUniversityPhysics
+  - EUP-01-DoingPhysics
+  - EUP-01.02-MeasurementsAndUnits
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1578962458144
+  fields:
+    Front: |
+      EUP-01.02-01 Theory:
+      What are the SI fundamental quantities?
+    Back: |
+      Time, length, and mass.
+    Annotations: ''
+  tags: []
+- id: 1578962797089
+  fields:
+    Front: |
+      EUP-01.02-02 Theory:
+      What are the SI physical base units? The supplementary nonphysical units?
+    Back: |
+      - Physical base units:
+        - Time: second
+        - Length: meter
+        - Mass: kilogram
+        - Current: ampere
+        - Temperature: kelvin
+        - Amount of substance: mole
+        - Luminosity: candela
+      - Supplementary nonphysical units:
+        - Plane angle: radian
+        - Solid angle: steradian
+    Annotations: ''
+  tags: []
+- id: 1578963236688
+  fields:
+    Front: |
+      EUP-01.02-03 Theory:
+      List the SI prefixes.
+    Back: |
+      $$
+      \begin{array}{|l|c|c|}
+      \hline
+      \text { Prefix } & {\text { Symbol }} & {\text { Power }} \\
+      \hline
+      \text { yotta } & {\mathrm{Y}} & {10^{24}} \\
+      {\text { zetta }} & {\mathrm{Z}} & {10^{21}} \\
+      {\text { exa }} & {\mathrm{E}} & {10^{18}} \\
+      {\text { peta }} & {\mathrm{P}} & {10^{15}} \\
+      {\text { tera }} & {\mathrm{T}} & {10^{12}} \\
+      {\text { giga }} & {\mathrm{G}} & {10^{9}} \\
+      {\text { mega }} & {\mathrm{M}} & {10^{6}} \\
+      {\text { kilo }} & {\mathrm{k}} & {10^{3}} \\
+      {\text { hecto }} & {\mathrm{h}} & {10^{2}} \\
+      {\text { deca }} & {\mathrm{da}} & {10^{1}} \\
+      {} & {} & {10^{0}} \\
+      {\text { deci }} & {\mathrm{d}} & {10^{-1}} \\
+      {\text { centi }} & {\mathrm{c}} & {10^{-2}} \\
+      {\text { milli }} & {\mathrm{m}} & {10^{-3}} \\
+      {\text { micro }} & {\mathrm{\mu}} & {10^{-6}} \\
+      {\text { nano }} & {\mathrm{n}} & {10^{-9}} \\
+      {\text { pico }} & {\mathrm{p}} & {10^{-12}} \\
+      {\text { femto }} & {\mathrm{f}} & {10^{-15}} \\
+      {\text { atto }} & {\mathrm{a}} & {10^{-18}} \\
+      {\text { zepto }} & {\mathrm{z}} & {10^{-21}} \\
+      {\text { yocto }} & {\mathrm{y}} & {10^{-24}} \\
+      \hline
+      \end{array}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1578964191713
+  fields:
+    Front: |
+      EUP-01.02-04 Theory:
+      How many meters in a mile?
+    Back: |
+      $$
+      1 \text{ mi}=1609 \text{ m}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1578964269764
+  fields:
+    Front: |
+      EUP-01.02-05 Theory:
+      How many meters in a foot?
+    Back: |
+      $$
+      1 \text{ ft}=0.3048 \text{ m}
+      $$
+    Annotations: ''
+  tags:
+  - Editing

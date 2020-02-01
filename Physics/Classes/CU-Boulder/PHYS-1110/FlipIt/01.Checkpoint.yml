@@ -1,0 +1,64 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Physics
+  - PHYS-1110
+  - FlipIt
+  - Checkpoint
+  - FIP-Part01-LinearDynamics
+  - FIP-Section01-1DKinematics
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1579140968891
+  media:
+  - path: ¢{file_dir}/images/FIP-01.01-01.Cp.1.jpg
+  - path: ¢{file_dir}/images/FIP-01.01-01.Cp.2.jpg
+  - path: ¢{file_dir}/images/FIP-01.01-01.Cp.3.jpg
+  fields:
+    Front: |
+      FIP-01.01-01 Checkpoint:
+      ##### $x(t), v(t), a(t)$ plots
+      <p align="center">
+      ![](FIP-01.01-01.Cp.1.jpg)
+      </p>
+      Which plot best represents the acceleration curve associated with the displacement and velocity curves shown above?
+      (a)
+      <p align="center">
+      ![](FIP-01.01-01.Cp.2.jpg)
+      $a(t) \equiv \frac{d v(t)}{d t}$
+      </p>
+      (b)
+      <p align="center">
+      ![](FIP-01.01-01.Cp.3.jpg)
+      $a(t) \equiv \frac{d v(t)}{d t}$
+      </p>
+    Back: |
+      To-do pending feedback (should be available after 10:00 AM on Friday, January 17).
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1579142215213
+  media:
+  - path: ¢{file_dir}/images/FIP-01.01-02.Cp.1.jpg
+  fields:
+    Front: |
+      FIP-01.01-02 Checkpoint:
+      ##### Rolling down a ramp
+      <p align="center">
+      ![](FIP-01.01-02.Cp.1.jpg)
+      </p>
+      At $t=0$ a ball, initially at rest, starts to roll down a ramp with constant acceleration. You notice it moves $1$ foot between $t=0$ seconds and $t=1$ second. How far does it move between $t=1$ second and $t=2$ seconds?
+      (a) $1$ foot
+      (b) $2$ feet
+      (c) $3$ feet
+      (d) $4$ feet
+      (e) $6$ feet
+    Back: |
+      To-do pending feedback (should be available after 10:00 AM on Friday, January 17).
+    Annotations: ''
+  tags:
+  - Editing
+  - ToDo

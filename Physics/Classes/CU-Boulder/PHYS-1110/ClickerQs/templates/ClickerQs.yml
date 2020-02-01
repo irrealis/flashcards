@@ -1,0 +1,14 @@
+  media:
+  - path: ¢{file_dir}/images/CQ-XX-XX.1.jpg
+      <p align="center">
+      ![](CQ-XX-XX.1.jpg)
+      </p>
+- id: 0
+  fields:
+    Front: |
+      CQ-XX-XX ClickerQ:
+    Back: |
+    Annotations: ''
+  tags:
+  - ToDo
+  - Editing

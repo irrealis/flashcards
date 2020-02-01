@@ -1,0 +1,37 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Physics
+  - Examples
+  - EssentialUniversityPhysics
+  - EUP-01-DoingPhysics
+  - EUP-01.03-WorkingWithNumbers
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1578965220721
+  fields:
+    Front: |
+      EUP-01.03-01 Example:
+      ##### Example 1.2 Scientific Notation: Tsunami Warnings
+      Earthquake-generated tsunamis are so devastating because the entire occean, from surface to bottom, participates in the wave motion. The speed of such waves is given by $v=\sqrt{g h},$ where $g=9.8 \text{ m} / \mathrm{s}^{2}$ is the gravitational acceleration and $h$ is the depth in meters. Determine a tsunami's speed in $3.0-\mathrm{km}$-deep water.
+    Back: |
+      That $3.0-\mathrm{km}$ depth is $3.0 \times 10^{3} \text{ m},$ so we have
+      $$
+      \begin{aligned}
+      v &=\sqrt{g h}=\left[\left(9.8 \text{ m} / \mathrm{s}^{2}\right)\left(3.0 \times 10^{3} \text{ m}\right)\right]^{1 / 2}=\left(29.4 \times 10^{3} \text{ m}^{2} / \mathrm{s}^{2}\right)^{1 / 2} \\
+      &=\left(2.94 \times 10^{4} \text{ m}^{2} / \mathrm{s}^{2}\right)^{1 / 2}=\sqrt{2.94} \times 10^{2} \text{ m} / \mathrm{s}=1.7 \times 10^{2} \text{ m} / \mathrm{s}
+      \end{aligned}
+      $$ where we wrote $29.4 \times 10^{3} \text{ m}^{2} / \mathrm{s}^{2}$ as $29.4 \times 10^{4} \text{ m}^{2} / \mathrm{s}^{2}$ in the second line in order to calculate the square root more easily. Converting the speed to $\mathrm{km} / \mathrm{h}$ gives
+      $$
+      \begin{aligned}
+        1.7 \times 10^{2} \text{ m} / \mathrm{s}
+        &=\left(\frac{1.7 \times 10^{2} \text{ m}}{\mathrm{s}}\right)\left(\frac{1 \text{ km}}{1.0 \times 10^{3} \text{ m}}\right)\left(\frac{3.6 \times 10^{3} \text{ s}}{\mathrm{h}}\right) \\
+        &=6.1 \times 10^{2} \text{ km} / \mathrm{h}
+      \end{aligned}
+      $$ This speed --- about $600 \text{ km} / \mathrm{h}$ --- shows why even distant coastlines have little time to prepare for the arrival of a tsunami.
+    Annotations: ''
+  tags:
+  - Editing
