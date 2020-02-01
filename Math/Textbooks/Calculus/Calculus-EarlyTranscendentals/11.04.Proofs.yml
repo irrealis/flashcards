@@ -1,0 +1,50 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Proofs
+  - Calculus-EarlyTrancendentals
+  - CET-11-InfiniteSequencesAndSeries
+  - CET-11.04-TheComparisonTests
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1578441306188
+  fields:
+    Front: |
+      CET-11.04-01 Proof:
+      Prove the **The Comparison Test.**
+    Back: |
+      (i) Let
+      $$
+      s_{n}=\sum_{i=1}^{n} a_{i} \quad t_{n}=\sum_{i=1}^{n} b_{i} \quad t=\sum_{n=1}^{\infty} b_{n}
+      $$
+      Since both series have positive terms, the sequences $\left\{s_{n}\right\}$ and $\left\{t_{n}\right\}$ are increasing $\left(s_{n+1}=s_{n}+a_{n+1} \geqslant s_{n}\right) .$ Also $t_{n} \rightarrow t,$ so $t_{n} \leqslant t$ for all $n .$ Since $a_{i} \leqslant b_{i},$ we have $s_{n} \leqslant t_{n}$.
+
+      Thus $s_{n} \leqslant t$ for all $n .$ This means that $\left\{s_{n}\right\}$ is increasing and bounded above and therefore converges by the Monotonic Sequence Theorem. Thus $\Sigma a_{n}$ converges.
+
+      (ii) If $\Sigma b_{n}$ is divergent, then $t_{n} \rightarrow \infty\left(\text { since }\left\{t_{n}\right\} \text { is increasing). But } a_{i} \geqslant b_{i} \text { so } s_{n} \geqslant t_{n}\right.$ Thus $s_{n} \rightarrow \infty .$ Therefore $\Sigma a_{n}$ diverges.
+
+      $\square$
+    Annotations: ''
+  tags: []
+- id: 1578442177834
+  fields:
+    Front: |
+      CET-11.04-02 Proof:
+      Prove **The Limit Comparison Test.**
+    Back: |
+      Let $m$ and $M$ be positive numbers such that $m<c<M .$ Because $a_{n} / b_{n}$ is close to $c$ for large $n,$ there is an integer $N$ such that
+      $$
+      m<\frac{a_{n}}{b}<M \quad \text { when } n>N
+      $$ and so
+      $$
+      m b_{n}<a_{n}<M b_{n} \quad \text { when } n>N
+      $$
+      If $\sum b_{n}$ converges, so does $\sum M b_{n} .$ Thus $\sum a_{n}$ converges by part (i) of the Comparison Test. If $\sum b_{n}$ diverges, so does $\sum m b_{n}$ and part (ii) of the Comparison Test shows that $\sum a_{n}$ diverges.
+      $\square$
+    Annotations: ''
+  tags: []

@@ -1,0 +1,24 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Proofs
+  - Calculus-EarlyTrancendentals
+  - CET-11-InfiniteSequencesAndSeries
+  - CET-11.08-PowerSeries
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1578505094376
+  fields:
+    Front: |
+      CET-11.08-01 Proof:
+      Prove the **Centered Power Series Convergence Theorem** (my own term).
+    Back: |
+      If we make the change of variable $u=x-a$, then the power series becomes $\Sigma c_{n} u^{n}$ and we can apply the preceding theorem to this series. In case (iii) we have convergence for $|u|<R$ and divergence for $|u|>R .$ Thus we have convergence for $|x-a|<R$ and divergence for $|x-a|>R$.
+      $\square$
+    Annotations: ''
+  tags: []

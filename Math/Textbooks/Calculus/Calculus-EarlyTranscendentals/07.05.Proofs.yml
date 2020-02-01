@@ -1,0 +1,254 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Proofs
+  - Calculus-EarlyTrancendentals
+  - CET-07-TechniquesOfIntegration
+  - CET-07.05-StrategyForIntegration
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1580495642207
+  fields:
+    Front: |
+      CET-07.05-01 Proof:
+      ##### integration formulae
+      Derive the following integral.
+      1. $\int x^{n} d x=\frac{x^{n+1}}{n+1} \quad(n \neq-1) + C$
+    Back: |
+      To do
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1580495642429
+  fields:
+    Front: |
+      CET-07.05-02 Proof:
+      ##### integration formulae
+      Derive the following integral.
+      2. $\int \frac{1}{x} d x=\ln |x| + C$
+    Back: |
+      To do
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1580495642641
+  fields:
+    Front: |
+      CET-07.05-03 Proof:
+      ##### integration formulae
+      Derive the following integral.
+      3. $\int e^{x} d x=e^{x} + C$
+    Back: |
+      To do
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1580495642852
+  fields:
+    Front: |
+      CET-07.05-04 Proof:
+      ##### integration formulae
+      Derive the following integral.
+      4. $\int b^{x} d x=\frac{b^{x}}{\ln b} + C$
+    Back: |
+      To do
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1580495643066
+  fields:
+    Front: |
+      CET-07.05-05 Proof:
+      ##### integration formulae
+      Derive the following integral.
+      5. $\int \sin x d x=-\cos x + C$
+    Back: |
+      To do
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1580495643310
+  fields:
+    Front: |
+      CET-07.05-06 Proof:
+      ##### integration formulae
+      Derive the following integral.
+      6. $\int \cos x d x=\sin x + C$
+    Back: |
+      To do
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1580495643527
+  fields:
+    Front: |
+      CET-07.05-07 Proof:
+      ##### integration formulae
+      Derive the following integral.
+      7. $\int \sec ^{2} x d x=\tan x + C$
+    Back: |
+      To do
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1580495643763
+  fields:
+    Front: |
+      CET-07.05-08 Proof:
+      ##### integration formulae
+      Derive the following integral.
+      8. $\int \csc ^{2} x d x=-\cot x + C$
+    Back: |
+      To do
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1580495644035
+  fields:
+    Front: |
+      CET-07.05-09 Proof:
+      ##### integration formulae
+      Derive the following integral.
+      9. $\int \sec x \tan x d x=\sec x + C$
+    Back: |
+      To do
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1580495644290
+  fields:
+    Front: |
+      CET-07.05-10 Proof:
+      ##### integration formulae
+      Derive the following integral.
+      10. $\int \csc x \cot x d x=-\csc x + C$
+    Back: |
+      To do
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1580495644533
+  fields:
+    Front: |
+      CET-07.05-11 Proof:
+      ##### integration formulae
+      Derive the following integral.
+      11. $\int \sec x d x=\ln |\sec x+\tan x| + C$
+    Back: |
+      To do
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1580495644781
+  fields:
+    Front: |
+      CET-07.05-12 Proof:
+      ##### integration formulae
+      Derive the following integral.
+      12. $\int \csc x d x=\ln |\csc x-\cot x| + C$
+    Back: |
+      To do
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1580495645013
+  fields:
+    Front: |
+      CET-07.05-13 Proof:
+      ##### integration formulae
+      Derive the following integral.
+      13. $\int \tan x d x=\ln |\sec x| + C$
+    Back: |
+      To do
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1580495645216
+  fields:
+    Front: |
+      CET-07.05-14 Proof:
+      ##### integration formulae
+      Derive the following integral.
+      14. $\int \cot x d x=\ln |\sin x| + C$
+    Back: |
+      To do
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1580495645457
+  fields:
+    Front: |
+      CET-07.05-15 Proof:
+      ##### integration formulae
+      Derive the following integral.
+      15. $\int \sinh x d x=\cosh x + C$
+    Back: |
+      To do
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1580495645676
+  fields:
+    Front: |
+      CET-07.05-16 Proof:
+      ##### integration formulae
+      Derive the following integral.
+      16. $\int \cosh x d x=\sinh x + C$
+    Back: |
+      To do
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1580495645867
+  fields:
+    Front: |
+      CET-07.05-17 Proof:
+      ##### integration formulae
+      Derive the following integral.
+      17. $\int \frac{d x}{x^{2}+a^{2}}=\frac{1}{a} \tan ^{-1}\left(\frac{x}{a}\right) + C$
+    Back: |
+      To do
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1580495646119
+  fields:
+    Front: |
+      CET-07.05-18 Proof:
+      ##### integration formulae
+      Derive the following integral.
+      18. $\int \frac{d x}{\sqrt{a^{2}-x^{2}}}=\sin ^{-1}\left(\frac{x}{a}\right), \quad a>0 + C$
+    Back: |
+      To do
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1580495646333
+  fields:
+    Front: |
+      CET-07.05-19 Proof:
+      ##### integration formulae
+      Derive the following integral.
+      19. $\int \frac{d x}{x^{2}-a^{2}}=\frac{1}{2 a} \ln \left|\frac{x-a}{x+a}\right| + C$
+    Back: |
+      To do
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1580495646563
+  fields:
+    Front: |
+      CET-07.05-20 Proof:
+      ##### integration formulae
+      Derive the following integral.
+      20. $\int \frac{d x}{\sqrt{x^{2} \pm a^{2}}}=\ln |x+\sqrt{x^{2} \pm a^{2}}| + C$
+    Back: |
+      To do
+    Annotations: ''
+  tags:
+  - ToDo

@@ -1,0 +1,102 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Proofs
+  - Calculus-EarlyTrancendentals
+  - CET-11-InfiniteSequencesAndSeries
+  - CET-11.10-TaylorAndMaclaurinSeries
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1578523830826
+  fields:
+    Front: |
+      CET-11.10-01 Proof:
+      Prove the **Power to Taylor Coefficients Theorem** (my own term).
+    Back: |
+      (Note: a correct proof uses induction.)
+
+      We start by supposing that $f$ is any function that can be represented by a power series
+      [CET-11.10 Eqn. 1]
+      $$
+      f(x)=c_{0}+c_{1}(x-a)+c_{2}(x-a)^{2}+c_{3}(x-a)^{3}+c_{4}(x-a)^{4}+\cdots
+      $$ with $|x-a|<R$.
+      Let's try to determine what the coefficients $c_{n}$ must be in terms of $f .$ To begin, notice that if we put $x=a$ in equation (1) then all terms after the first one are 0 and we get
+      $$
+      f(a)=c_{0}
+      $$
+      By the term-by-term differentiation and integration theorem we can differentiate the series in equation (1) term by term:
+      [CET-11.10 Eqn. 2]
+      $$
+      f^{\prime}(x)=c_{1}+2 c_{2}(x-a)+3 c_{3}(x-a)^{2}+4 c_{4}(x-a)^{3}+\cdots
+      $$ and substitution of $x=a$ in equation (2) gives
+      $$
+      f^{\prime}(a)=c_{1}
+      $$ Now we differentiate both sides of equation (2) and obtain
+      [CET-11.10 Eqn. 3]
+      $$
+      f^{\prime \prime}(x)=2 c_{2}+2 \cdot 3 c_{3}(x-a)+3 \cdot 4 c_{4}(x-a)^{2}+\cdots
+      $$ Again we put $x=a$ in equation (3). The result is
+      $$
+      f^{\prime \prime}(a)=2 c_{2}
+      $$ Let's apply the procedure one more time. Differentiation of the series in equation (3) gives
+      [CET-11.10 Eqn. 4]
+      $$
+      f^{\prime \prime \prime}(x)=2 \cdot 3 c_{3}+2 \cdot 3 \cdot 4 c_{4}(x-a)+3 \cdot 4 \cdot 5 c_{5}(x-a)^{2}+\cdots
+      $$ and substitution of $x=a$ in equation (4) gives
+      $$
+      f^{\prime \prime \prime}(a)=2 \cdot 3 c_{3}=3 ! c_{3}
+      $$ By now you can see the pattern. If we continue to differentiate and substitute $x=a$, we obtain
+      $$
+      f^{(n)}(a)=2 \cdot 3 \cdot 4 \cdot \cdots \cdot n c_{n}=n ! c_{n}
+      $$ Solving this equation for the $n$ th coefficient $c_{n},$ we get
+      $$
+      c_{n}=\frac{f^{(n)}(a)}{n !}
+      $$ This formula remains valid even for $n=0$ if we adopt the conventions that $0 !=1$ and $f^{(0)}=f .$ Thus we have proved the theorem.
+      $\square$
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1578524357776
+  fields:
+    Front: |
+      CET-11.10-02 Proof:
+      Prove the **Power to Taylor Series Theorem** (my own term).
+    Back: |
+      If $f$ has a power series representation (expansion) at $a,$ that is, if
+      $$
+      f(x)=\sum_{n=0}^{\infty} c_{n}(x-a)^{n} \quad|x-a|<R
+      $$ then by the Power to Taylor Coefficients Theorem, its coefficients are given by the formula
+      $$
+      c_{n}=\frac{f^{(n)}(a)}{n !}
+      $$ Substituting this formula for $c_{n}$ back into the series, we see that if $f$ has a power series expansion at $a$, then it must be of the desired form
+      $$
+      \begin{aligned}
+      f(x) &=\sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n !}(x-a)^{n} \\
+      &=f(a)+\frac{f^{\prime}(a)}{1 !}(x-a)+\frac{f^{\prime \prime}(a)}{2 !}(x-a)^{2}+\frac{f^{\prime \prime \prime}(a)}{3 !}(x-a)^{3}+\cdots
+      \end{aligned}
+      $$
+      $\square$
+    Annotations: ''
+  tags: []
+- id: 1578794093515
+  fields:
+    Front: |
+      CET-11.10-03 Proof: [CET-11.10 Eqn. 8]
+      Prove **Taylor's theorem.**
+    Back: |
+      If $f(x)=T_{n}(x)+R_{n}(x),$ where $T_{n}$ is the $n$ th-degree Taylor polynomial of $f$ at $a$ and
+      $$
+      \lim _{n \rightarrow \infty} R_{n}(x)=0
+      $$ for $|x-a|<R,$ then it follows that
+      $$
+      \lim _{n \rightarrow \infty} T_{n}(x)=\lim _{n \rightarrow \infty}\left[f(x)-R_{n}(x)\right]=f(x)-\lim _{n \rightarrow \infty} R_{n}(x)=f(x)
+      $$ That is, $f$ is equal to the sum of its Taylor series on the interval $|x-a|<R$.
+      $\square$
+    Annotations: ''
+  tags:
+  - Editing

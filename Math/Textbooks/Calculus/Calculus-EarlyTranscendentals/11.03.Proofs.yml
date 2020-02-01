@@ -1,0 +1,59 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Proofs
+  - Calculus-EarlyTrancendentals
+  - CET-11-InfiniteSequencesAndSeries
+  - CET-11.03-TheIntegralTestAndEstimatesOfSums
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1578440363910
+  media:
+  - path: ¢{file_dir}/images/CET-11.03-01.Pf.1.jpg
+  - path: ¢{file_dir}/images/CET-11.03-01.Pf.2.jpg
+  fields:
+    Front: |
+      CET-11.03-01 Proof:
+      ##### estimating the sum of a series
+    Back: |
+      For the general series $\sum a_{n},$ look at the figures below.
+      <p align="center">
+      ![](CET-11.03-01.Pf.1.jpg)
+      </p>
+      <p align="center">
+      ![](CET-11.03-01.Pf.2.jpg)
+      </p>
+      The area of the first shaded rectangle in the first figure is the value of $f$ at the right endpoint of $[1,2],$ that is, $f(2)=a_{2} .$ So, comparing the areas of the shaded rectangles with the area under $y=f(x)$ from 1 to $n,$ we see that
+      (a)
+      $$
+      a_{2}+a_{3}+\dots+a_{n} \leqslant \int_{1}^{n} f(x) d x
+      $$ (Notice that this inequality depends on the fact that $f$ is decreasing.) Likewise, the second figure shows that
+      (b)
+      $$
+      \int_{1}^{n} f(x) d x \leqslant a_{1}+a_{2}+\cdots+a_{n-1}
+      $$
+
+      (i) If $\int_{1}^{\infty} f(x) d x$ is convergent, then (a) gives
+      $$
+      \sum_{i=2}^{n} a_{i} \leqslant \int_{1}^{n} f(x) d x \leqslant \int_{1}^{\infty} f(x) d x
+      $$ since $f(x) \geqslant 0 .$ Therefore
+      $$
+      s_{n}=a_{1}+\sum_{i=2}^{n} a_{i} \leqslant a_{1}+\int_{1}^{\infty} f(x) d x=M, \text { say }
+      $$ Since $s_{n} \leqslant M$ for all $n,$ the sequence $\left\{s_{n}\right\}$ is bounded above. Also
+      $$
+      _{1}=s_{n}+a_{n+1} \geqslant s_{n}
+      $$ since $a_{n+1}=f(n+1) \geqslant 0 .$ Thus $\left\{s_{n}\right\}$ is an increasing bounded sequence and so it is convergent by the Monotonic Sequence Theorem. This means that $\sum a_{n}$ is convergent.
+
+      (ii) If $\int_{1}^{\infty} f(x) d x$ is divergent, then $\int_{1}^{n} f(x) d x \rightarrow \infty$ as $n \rightarrow \infty$ because $f(x) \geqslant 0 .$ But (b) gives
+      $$
+      \int_{1}^{n} f(x) d x \leqslant \sum_{i=1}^{n-1} a_{i}=s_{n-1}
+      $$ and so $s_{n-1} \rightarrow \infty .$ This implies that $s_{n} \rightarrow \infty$ and so $\sum a_{n}$ diverges.
+
+      $\square$
+    Annotations: ''
+  tags: []

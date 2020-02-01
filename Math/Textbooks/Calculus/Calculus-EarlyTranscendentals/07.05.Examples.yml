@@ -1,0 +1,84 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-07-TechniquesOfIntegration
+  - CET-07.05-StrategyForIntegration
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1580497499263
+  fields:
+    Front: |
+      CET-07.05-01 Example:
+      $$\int \frac{\tan ^{3} x}{\cos ^{3} x} d x$$
+    Back: |
+      In Step 1 we rewrite the integral:
+      $$
+      \int \frac{\tan ^{3} x}{\cos ^{3} x} d x=\int \tan ^{3} x \sec ^{3} x d x
+      $$ The integral is now of the form $\int \tan ^{m} x \sec ^{n} x d x$ with $m$ odd, so we can use the advice in Section 7.2. Alternatively, if in Step 1 we had written
+      $$
+      \int \frac{\tan ^{3} x}{\cos ^{3} x} d x=\int \frac{\sin ^{3} x}{\cos ^{3} x} \frac{1}{\cos ^{3} x} d x=\int \frac{\sin ^{3} x}{\cos ^{6} x} d x
+      $$ then we could have continued as follows with the substitution $u=\cos x$ :
+      $$
+      \begin{aligned}
+      \int \frac{\sin ^{3} x}{\cos ^{6} x} d x &=\int \frac{1-\cos ^{2} x}{\cos ^{6} x} \sin x d x=\int \frac{1-u^{2}}{u^{6}}(-d u) \\
+      &=\int \frac{u^{2}-1}{u^{6}} d u=\int\left(u^{-4}-u^{-6}\right) d u
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580497591132
+  fields:
+    Front: |
+      CET-07.05-02 Example:
+      $$\int e^{\sqrt{x}} d x$$
+    Back: |
+      According to (ii) in Step 3(d), we substitute $u=\sqrt{x} .$ Then $x=u^{2},$ so $d x=2 u d u$ and
+      $$
+      \int e^{\sqrt{x}} d x=2 \int u e^{u} d u
+      $$ The integrand is now a product of $u$ and the transcendental function $e^{u}$ so it can be integrated by parts.
+    Annotations: ''
+  tags: []
+- id: 1580497643657
+  fields:
+    Front: |
+      CET-07.05-03 Example:
+      $$\int \frac{x^{5}+1}{x^{3}-3 x^{2}-10 x} d x$$
+    Back: |
+      No algebraic simplification or substitution is obvious, so Steps 1 and 2 don't apply here. The integrand is a rational function so we apply the procedure of Section 7.4 remembering that the first step is to divide.
+    Annotations: ''
+  tags: []
+- id: 1580497746507
+  fields:
+    Front: |
+      CET-07.05-04 Example:
+      $$\int \frac{d x}{x \sqrt{\ln x}}$$
+    Back: |
+      Here Step 2 is all that is needed. We substitute $u=\ln x$ because its differential is $d u=d x / x,$ which occurs in the integral.
+    Annotations: ''
+  tags: []
+- id: 1580497894382
+  fields:
+    Front: |
+      CET-07.05-05 Example:
+      $$\int \sqrt{\frac{1-x}{1+x}} d x$$
+    Back: |
+      Although the rationalizing substitution
+      $$
+      u=\sqrt{\frac{1-x}{1+x}}
+      $$ works here [(ii) in Step 3(d)], it leads to a very complicated rational function. An easier method is to do some algebraic manipulation [either as Step 1 or as Step 4(c)]. Multiplying numerator and denominator by $\sqrt{1-x},$ we have
+      $$
+      \begin{aligned}
+      \int \sqrt{\frac{1-x}{1+x}} d x &=\int \frac{1-x}{\sqrt{1-x^{2}}} d x \\
+      &=\int \frac{1}{\sqrt{1-x^{2}}} d x-\int \frac{x}{\sqrt{1-x^{2}}} d x \\
+      &=\sin ^{-1} x+\sqrt{1-x^{2}}+C
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []

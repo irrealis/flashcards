@@ -1,0 +1,59 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Proofs
+  - Calculus-EarlyTrancendentals
+  - CET-11-InfiniteSequencesAndSeries
+  - CET-11.05-AlternatingSeries
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1578490764337
+  fields:
+    Front: |
+      CET-11.05-01 Proof:
+      Prove the **Alternating Series Test.**
+    Back: |
+      We first consider the even partial sums:
+      $$
+      \begin{array}{rl}
+      {s_{2}=b_{1}-b_{2} \geqslant 0} & {\text { since } b_{2} \leqslant b_{1}} \\
+      {s_{4}=s_{2}+\left(b_{3}-b_{4}\right) \geqslant s_{2}} & {\text { since } b_{4} \leqslant b_{3}} \\
+      {\text{In general} \quad s_{2 n}=s_{2 n-2}+\left(b_{2 n-1}-b_{2 n}\right) \geqslant s_{2 n-2}} & {\text { since } b_{2 n} \leqslant b_{2 n-1}}
+      \end{array}
+      $$ Thus
+      $$
+      0 \leqslant s_{2} \leqslant s_{4} \leqslant s_{6} \leqslant \cdots \leqslant s_{2 n} \leqslant \cdots
+      $$ Every term in parentheses is positive, so $s_{2 n} \leqslant b_{1}$ for all $n .$ Therefore the sequence $\left\{s_{2 n}\right\}$ of even partial sums is increasing and bounded above. It is therefore convergent by the Monotonic Sequence Theorem. Let's call its limit $s$, that is,
+      $$
+      \lim _{n \rightarrow \infty} s_{2 n}=s
+      $$ Now we compute the limit of the odd partial sums:
+      $$
+      \begin{aligned}
+      \lim _{n \rightarrow \infty} s_{2 n+1} &=\lim _{n \rightarrow \infty}\left(s_{2 n}+b_{2 n+1}\right) \\
+      &=\lim _{n \rightarrow \infty} s_{2 n}+\lim _{n \rightarrow \infty} b_{2 n+1} \\
+      &=s+0 \quad \text{by condition (ii)} \\
+      &=s
+      \end{aligned}
+      $$ since both the even and odd partial sums converge to $s,$ we have $\lim _{n \rightarrow \infty} s_{n}=s$, and so the series is convergent.
+      $\square$
+    Annotations: ''
+  tags: []
+- id: 1578494372201
+  fields:
+    Front: |
+      CET-11.05-02 Proof:
+      ##### estimating sums
+      Prove the **Alternating Series Estimation Theorem.**
+    Back: |
+      We know from the proof of the Alternating Series Test that $s$ lies between any two consecutive partial sums $s_{n}$ and $s_{n+1} .$ (There we showed that $s$ is larger than all the even partial sums. A similar argument shows that $s$ is smaller than all the odd sums.) It follows that
+      $$
+      \left|s-s_{n}\right| \leqslant\left|s_{n+1}-s_{n}\right|=b_{n+1}
+      $$
+      $\square$
+    Annotations: ''
+  tags: []

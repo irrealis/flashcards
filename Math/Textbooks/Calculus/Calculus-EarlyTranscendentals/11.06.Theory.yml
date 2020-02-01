@@ -1,0 +1,124 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theory
+  - Calculus-EarlyTrancendentals
+  - CET-11-InfiniteSequencesAndSeries
+  - CET-11.06-InfiniteSequencesAndSeries
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1578495568200
+  fields:
+    Front: |
+      CET-11.06-01 Theory:
+      Define **absolutely convergent.**
+    Back: |
+      A series $\sum a_{n}$ is called **absolutely convergent** if the series of absolute values $\sum\left|a_{n}\right|$ is convergent.
+    Annotations: ''
+  tags: []
+- id: 1578495925150
+  fields:
+    Front: |
+      CET-11.06-02 Theory:
+      Define **conditionally convergent.**
+    Back: |
+      A series $\sum a_{n}$ is called **conditionally convergent** if it is convergent but not absolutely convergent.
+    Annotations: ''
+  tags: []
+- id: 1578496004200
+  fields:
+    Front: |
+      CET-11.06-03 Theory:
+      Does absolute convergence imply convergence?
+    Back: |
+      **Theorem:** If a series $\sum a_{n}$ is absolutely convergent, then it is convergent.
+    Annotations: ''
+  tags: []
+- id: 1578496431025
+  fields:
+    Front: |
+      CET-11.06-04 Theory:
+      State **The Ratio Test.**
+    Back: |
+      (i) If $\lim _{n \rightarrow \infty}\left|\frac{a_{n+1}}{a_{n}}\right|=L<1,$ then the series $\sum_{n=1}^{\infty} a_{n}$ is absolutely convergent (and therefore convergent).
+
+      (ii) If $\lim _{n \rightarrow \infty}\left|\frac{a_{n+1}}{a_{n}}\right|=L>1$ or $\lim _{n \rightarrow \infty}\left|\frac{a_{n+1}}{a_{n}}\right|=\infty,$ then the series $\sum_{n=1}^{\infty} a_{n}$ is divergent.
+
+      (iii) If $\lim _{n \rightarrow \infty}\left|\frac{a_{n+1}}{a_{n}}\right|=1,$ the Ratio Test is inconclusive; that is, no conclusion can be drawn about the convergence or divergence of $\sum a_{n}$
+    Annotations: ''
+  tags: []
+- id: 1578496880677
+  fields:
+    Front: |
+      CET-11.06-05 Theory:
+      If $\lim _{n \rightarrow \infty}\left|a_{n+1} / a_{n}\right|=1,$ what information is given by the Ratio Test?
+    Back: |
+      Part (iii) of the Ratio Test says that if $\lim _{n \rightarrow \infty}\left|a_{n+1} / a_{n}\right|=1,$ the test gives no information. For instance, for the convergent series $\sum 1 / n^{2}$ we have
+      $$
+      \left|\frac{a_{n+1}}{a_{n}}\right|=\frac{\frac{1}{(n+1)^{2}}}{\frac{1}{n^{2}}}=\frac{n^{2}}{(n+1)^{2}}=\frac{1}{\left(1+\frac{1}{n}\right)^{2}} \rightarrow 1 \quad \text { as } n \rightarrow \infty
+      $$ whereas for the divergent series $\sum 1 / n$ we have
+      $$
+      \left|\frac{a_{n+1}}{a_{n}}\right|=\frac{\frac{1}{n+1}}{\frac{1}{n}}=\frac{n}{n+1}=\frac{1}{1+\frac{1}{n}} \rightarrow 1 \quad \text { as } n \rightarrow \infty
+      $$ Therefore, if $\lim _{n \rightarrow \infty}\left|a_{n+1} / a_{n}\right|=1,$ the series $\sum a_{n}$ might converge or it might diverge. In this case the Ratio Test fails and we must use some other test.
+    Annotations: ''
+  tags: []
+- id: 1578497000400
+  fields:
+    Front: |
+      CET-11.06-06 Theory
+      What information is given by the Ratio Test if the $n$th term of the series contains an exponential or a factorial?
+    Back: |
+      The Ratio Test is usually conclusive if the $n$th term of the series contains an exponential or a factorial.
+    Annotations: ''
+  tags: []
+- id: 1578497353617
+  fields:
+    Front: |
+      CET-11.06-07 Theory:
+      State **The Root Test.**
+    Back: |
+      (i) If $\lim _{n \rightarrow \infty} \sqrt[n]{\left|a_{n}\right|}=L<1,$ then the series $\sum_{n=1}^{\infty} a_{n}$ is absolutely convergent (and therefore convergent).
+
+      (ii) If $\lim _{n \rightarrow \infty} \sqrt[n]{\left|a_{n}\right|}=L>1$ or $\lim _{n \rightarrow \infty} \sqrt[n]{\left|a_{n}\right|}=\infty,$ then the series $\sum_{n=1}^{\infty} a_{n}$ is divergent.
+
+      (iii) If $\lim _{n \rightarrow \infty} \sqrt[n]{\left|a_{n}\right|}=1,$ the Root Test is inconclusive.
+    Annotations: ''
+  tags: []
+- id: 1578497860251
+  fields:
+    Front: |
+      CET-11.06-08 Theory:
+      ##### rearrangements
+      What is meant by a **rearrangement** of an infinite series?
+    Back: |
+      By a **rearrangement** of an infinite series $\sum a_{n}$ we mean a series obtained by simply changing the order of the terms. For instance, a rearrangement of $\sum a_{n}$ could start as follows:
+      $$
+      a_{1}+a_{2}+a_{5}+a_{3}+a_{4}+a_{15}+a_{6}+a_{7}+a_{20}+\cdots
+      $$
+    Annotations: ''
+  tags: []
+- id: 1578497987400
+  fields:
+    Front: |
+      CET-11.06-09 Theory:
+      ##### rearrangements
+      Does rearrangement of an absolutely convergent series change the sum?
+    Back: |
+      If $\sum a_{n}$ is an absolutely convergent series with sum $s$ then any rearrangement of $\sum a_{n}$ has the same sum $s$.
+    Annotations: ''
+  tags: []
+- id: 1578498110151
+  fields:
+    Front: |
+      CET-11.06-10 Theory:
+      ##### rearrangements
+      Does rearrangement  of a conditionally convergent series change the sum?
+    Back: |
+      Riemann proved that if $\sum a_{n}$ is a conditionally convergent series and $r$ is any real number whatsoever, then there is a rearrangement of $\sum a_{n}$ that has a sum equal to $r .$
+    Annotations: ''
+  tags: []

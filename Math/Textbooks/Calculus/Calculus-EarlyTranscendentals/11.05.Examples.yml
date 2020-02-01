@@ -1,0 +1,100 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-11-InfiniteSequencesAndSeries
+  - CET-11.05-AlternatingSeries
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1578491204987
+  media:
+  - path: ¢{file_dir}/images/CET-11.05-01.Xm.1.jpg
+  fields:
+    Front: |
+      CET-11.05-01 Example:
+      Is the following alternating harmonic series convergent?
+      $$
+      1-\frac{1}{2}+\frac{1}{3}-\frac{1}{4}+\cdots=\sum_{n=1}^{\infty} \frac{(-1)^{n-1}}{n}
+      $$
+    Back: |
+      The series satisfies
+      $$
+      \begin{array}{ll}
+      \text{(i) } & b_{n+1}<b_{n} \quad \text{because} \quad \frac{1}{n+1}<\frac{1}{n} \\
+      \text{(ii) } & \lim _{n \rightarrow \infty} b_{n}=\lim _{n \rightarrow \infty} \frac{1}{n}=0
+      \end{array}
+      $$ so the series is convergent by the Alternating Series Test.
+
+      The figure below illustrates this example by showing the graphs of the terms $a_{n}=(-1)^{n-1} / n$ and the partial sums $s_{n} .$ Notice how the values of $s_{n}$ zigzag across the limiting value, which appears to be about $0.7 .$ In fact, it can be proved that the exact sum of the series is $\ln 2 \approx 0.693.$
+      <p align="center">
+      ![](CET-11.05-01.Xm.1.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1578492734187
+  fields:
+    Front: |
+      CET-11.05-02 Example:
+      Is the series $\sum_{n=1}^{\infty} \frac{(-1)^{n} 3 n}{4 n-1}$ convergent?
+    Back: |
+      The series is alternating, but
+      $$
+      \lim _{n \rightarrow \infty} b_{n}=\lim _{n \rightarrow \infty} \frac{3 n}{4 n-1}=\lim _{n \rightarrow \infty} \frac{3}{4-\frac{1}{n}}=\frac{3}{4}
+      $$ so condition (ii) is not satisfied. Instead, we look at the limit of the $n$ th term of the series:
+      $$
+      \lim _{n \rightarrow \infty} a_{n}=\lim _{n \rightarrow \infty} \frac{(-1)^{n} 3 n}{4 n-1}
+      $$ This limit does not exist, so the series diverges by the Test for Divergence.
+    Annotations: ''
+  tags: []
+- id: 1578493459625
+  fields:
+    Front: |
+      CET-11.05-03 Example:
+      Test the series $\sum_{n=1}^{\infty}(-1)^{n+1} \frac{n^{2}}{n^{3}+1}$ for convergence or divergence.
+    Back: |
+      The given series is alternating so we try to verify conditions (i) and (ii) of the Alternating Series Test. Unlike the situation in Example $1,$ it is not obvious that the sequence given by $b_{n}=n^{2} /\left(n^{3}+1\right)$ is decreasing. However, if we consider the related function $f(x)=x^{2} /\left(x^{3}+1\right),$ we find that
+      $$
+      f^{\prime}(x)=\frac{x\left(2-x^{3}\right)}{\left(x^{3}+1\right)^{2}}
+      $$ Since we are considering only positive $x,$ we see that $f^{\prime}(x)<0$ if $2-x^{3}<0,$ that is, $x>\sqrt[3]{2} .$ Thus $f$ is decreasing on the interval $(\sqrt[3]{2}, \infty) .$ This means that $f(n+1)<f(n)$ and therefore $b_{n+1}<b_{n}$ when $n \geqslant 2 .$ (The inequality $b_{2}<b_{1}$ can be verified directly but all that really matters is that the sequence $\left\{b_{n}\right\}$ is eventually decreasing.) Condition (ii) is readily verified:
+      $$
+      \lim _{n \rightarrow \infty} b_{n}=\lim _{n \rightarrow \infty} \frac{n^{2}}{n^{3}+1}=\lim _{n \rightarrow \infty} \frac{\frac{1}{n}}{1+\frac{1}{n^{3}}}=0
+      $$ Thus the given series is convergent by the Alternating Series Test.
+    Annotations: ''
+  tags: []
+- id: 1578494593426
+  fields:
+    Front: |
+      CET-11.05-04 Example:
+      ##### estimating sums
+      Find the sum of the series $\sum_{n=0}^{\infty} \frac{(-1)^{n}}{n !}$ correct to three decimal places.
+    Back: |
+      We first observe that the series is convergent by the Alternating Series Test because
+      $$
+      \begin{array}{ll}
+      \text{(i)} & \frac{1}{(n+1) !}=\frac{1}{n !(n+1)}<\frac{1}{n !} \\
+      \text{(ii)} & 0<\frac{1}{n !}<\frac{1}{n} \rightarrow 0 \quad \text{so} \quad \frac{1}{n !} \rightarrow 0 \quad \text{as} \quad \rightarrow \infty
+      \end{array}
+      $$ To get a feel for how many terms we need to use in our approximation, let's write out the first few terms of the series:
+      $$
+      \begin{aligned}
+      s &=\frac{1}{0 !}-\frac{1}{1 !}+\frac{1}{2 !}-\frac{1}{3 !}+\frac{1}{4 !}-\frac{1}{5 !}+\frac{1}{6 !}-\frac{1}{7 !}+\cdots \\
+      &=1-1+\frac{1}{2}-\frac{1}{6}+\frac{1}{24}-\frac{1}{120}+\frac{1}{720}-\frac{1}{5040}+\cdots
+      \end{aligned}
+      $$ Notice that
+      $$
+      b_{7}=\frac{1}{5040}<\frac{1}{5000}=0.0002
+      $$ and
+      $$
+      s_{6}=1-1+\frac{1}{2}-\frac{1}{6}+\frac{1}{24}-\frac{1}{120}+\frac{1}{720} \approx 0.368056
+      $$ By the Alternating Series Estimation Theorem we know that
+      $$
+      \left|s-s_{6}\right| \leqslant b_{7}<0.0002
+      $$ This error of less than 0.0002 does not affect the third decimal place, so we have $s \approx 0.368$ correct to three decimal places.
+    Annotations: ''
+  tags: []

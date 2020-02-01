@@ -1,0 +1,118 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-11-InfiniteSequencesAndSeries
+  - CET-11.06-InfiniteSequencesAndSeries
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1578495699250
+  fields:
+    Front: |
+      CET-11.06-01 Example:
+      Is the series
+      $$
+      \sum_{n=1}^{\infty} \frac{(-1)^{n-1}}{n^{2}}=1-\frac{1}{2^{2}}+\frac{1}{3^{2}}-\frac{1}{4^{2}}+\cdots
+      $$ absolutely convergent?
+    Back: |
+      The series is absolutely convergent because
+      $$
+      \sum_{n=1}^{\infty}\left|\frac{(-1)^{n-1}}{n^{2}}\right|=\sum_{n=1}^{\infty} \frac{1}{n^{2}}=1+\frac{1}{2^{2}}+\frac{1}{3^{2}}+\frac{1}{4^{2}}+\cdots
+      $$ is a convergent $p$-series ($p=2$).
+    Annotations: ''
+  tags: []
+- id: 1578495823129
+  fields:
+    Front: |
+      CET-11.06-02 Example:
+      Is the alternating harmonic series
+      $$
+      \sum_{n=1}^{\infty} \frac{(-1)^{n-1}}{n}=1-\frac{1}{2}+\frac{1}{3}-\frac{1}{4}+\cdots
+      $$ absolutely convergent?
+    Back: |
+      We know that the alternating harmonic series is convergent (see Example $11.5.1$), but it is not absolutely convergent because the corresponding series of absolute values is
+      $$
+      \sum_{n=1}^{\infty}\left|\frac{(-1)^{n-1}}{n}\right|=\sum_{n=1}^{\infty} \frac{1}{n}=1+\frac{1}{2}+\frac{1}{3}+\frac{1}{4}+\cdots
+      $$ which is the harmonic series ($p$-series with $p=1$) and is therefore divergent.
+    Annotations: ''
+  tags: []
+- id: 1578496288151
+  media:
+  - path: ¢{file_dir}/images/CET-11.06-03.Xm.1.jpg
+  fields:
+    Front: |
+      CET-11.06-03 Example:
+      Determine whether the series
+      $$
+      \sum_{n=1}^{\infty} \frac{\cos n}{n^{2}}=\frac{\cos 1}{1^{2}}+\frac{\cos 2}{2^{2}}+\frac{\cos 3}{3^{2}}+\cdots
+      $$ is convergent or divergent.
+    Back: |
+      This series has both positive and negative terms, but it is not alternating. (The first term is positive, the next three are negative, and the following three are positive: the signs change irregularly.) We can apply the Comparison Test to the series of absolute values
+      $$
+      \sum_{n=1}^{\infty}\left|\frac{\cos n}{n^{2}}\right|=\sum_{n=1}^{\infty} \frac{|\cos n|}{n^{2}}
+      $$ Since $|\cos n| \leqslant 1$ for all $n,$ we have
+      $$
+      \frac{|\cos n|}{n^{2}} \leqslant \frac{1}{n^{2}}
+      $$ We know that $\sum 1 / n^{2}$ is convergent $(p \text { -series with } p=2)$ and therefore $\sum|\cos n| / n^{2}$ is convergent by the Comparison Test. Thus the given series $\sum(\cos n) / n^{2}$ is absolutely convergent and therefore convergent.
+
+      The figure below shows the graphs of the terms $a_{n}$ and partial sums $s_{n}$ of the series in this example. Notice that the series is not alternating but has positive and negative terms.
+      <p align="center">
+      ![](CET-11.06-03.Xm.1.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1578497053351
+  fields:
+    Front: |
+      CET-11.06-04 Example:
+      Test the series $\sum_{n=1}^{\infty}(-1)^{n} \frac{n^{3}}{3^{n}}$ for absolute convergence.
+    Back: |
+      We use the Ratio Test with $a_{n}=(-1)^{n} n^{3} / 3^{n}:$
+      $$
+      \begin{aligned}
+      \left|\frac{a_{n+1}}{a_{n}}\right| &=\left|\frac{\frac{(-1)^{n+1}(n+1)^{3}}{3^{n+1}}}{\frac{(-1)^{n+1}}{3^{n}}}\right|=\frac{(n+1)^{3}}{3^{n+1}} \cdot \frac{3^{n}}{n^{3}} \\
+      &=\frac{1}{3}\left(\frac{n+1}{n}\right)^{3}=\frac{1}{3}\left(1+\frac{1}{n}\right)^{3} \rightarrow \frac{1}{3}<1
+      \end{aligned}
+      $$ Thus, by the Ratio Test, the given series is absolutely convergent.
+    Annotations: ''
+  tags: []
+- id: 1578497209852
+  fields:
+    Front: |
+      CET-11.06-05 Example:
+      Test the convergence of the series $\sum_{n=1}^{\infty} \frac{n^{n}}{n !}$
+    Back: |
+      Since the terms $a_{n}=n^{n} / n !$ are positive, we don't need the absolute value signs.
+      $$
+      \begin{aligned}
+      \frac{a_{n+1}}{a_{n}} &=\frac{(n+1)^{n+1}}{(n+1) !} \cdot \frac{n !}{n^{n}}=\frac{(n+1)(n+1)^{n}}{(n+1) n !} \cdot \frac{n !}{n^{n}} \\
+      &=\left(\frac{n+1}{n}\right)^{n}=\left(1+\frac{1}{n}\right)^{n} \rightarrow e \quad \text { as } n \rightarrow \infty
+      \end{aligned}
+      $$ Since $e>1,$ the given series is divergent by the Ratio Test.
+
+      **Note:** Although the Ratio Test works in this example, an easier method is to use the Test for Divergence. Since
+      $$
+      a_{n}=\frac{n^{n}}{n !}=\frac{n \cdot n \cdot n \cdot \cdots \cdot n}{1 \cdot 2 \cdot 3 \cdot \cdots \cdot n} \geqslant n
+      $$ it follows that $a_{n}$ does not approach $0$ as $n \rightarrow \infty .$ Therefore the given series is divergent by the Test for Divergence.
+    Annotations: ''
+  tags: []
+- id: 1578497503351
+  fields:
+    Front: |
+      CET-11.06-06 Example:
+      Test the convergence of the series $\sum_{n=1}^{\infty}\left(\frac{2 n+3}{3 n+2}\right)^{n}$ using the Root Test.
+    Back: |
+      $$
+      \begin{aligned}
+      a_{n} &=\left(\frac{2 n+3}{3 n+2}\right)^{n} \\
+      \sqrt[n]{\left|a_{n}\right|} &=\frac{2 n+3}{3 n+2}=\frac{2+\frac{3}{n}}{3+\frac{2}{n}} \rightarrow \frac{2}{3}<1
+      \end{aligned}
+      $$ Thus the given series is absolutely convergent (and therefore convergent) by the Root Test.
+    Annotations: ''
+  tags: []

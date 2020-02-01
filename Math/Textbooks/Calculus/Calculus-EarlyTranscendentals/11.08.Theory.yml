@@ -1,0 +1,108 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theory
+  - Calculus-EarlyTrancendentals
+  - CET-11-InfiniteSequencesAndSeries
+  - CET-11.08-PowerSeries
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1578501600276
+  fields:
+    Front: |
+      CET-11.08-01 Theory:
+      What is **power series?**
+    Back: |
+      A **power series** is a series of the form
+      $$
+      \sum_{n=0}^{\infty} c_{n} x^{n}=c_{0}+c_{1} x+c_{2} x^{2}+c_{3} x^{3}+\cdots
+      $$ where $x$ is a variable and the $c_{n}^{\prime}$s are constants called the coefficients of the series.
+
+      For each fixed $x,$ the power series is a series of constants that we can test for convergence or divergence.
+    Annotations: ''
+  tags: []
+- id: 1578501673137
+  fields:
+    Front: |
+      CET-11.08-02 Theory:
+      What is the domain of the following function?
+      $$
+      f(x)=c_{0}+c_{1} x+c_{2} x^{2}+\cdots+c_{n} x^{n}+\cdots
+      $$
+    Back: |
+      A power series may converge for some values of $x$ and diverge for other values of $x .$ The sum of the series is a function
+      $$
+      f(x)=c_{0}+c_{1} x+c_{2} x^{2}+\cdots+c_{n} x^{n}+\cdots
+      $$ whose domain is the set of all $x$ for which the series converges.
+
+      Notice that $f$ resembles a polynomial. The only difference is that $f$ has infinitely many terms.
+    Annotations: ''
+  tags: []
+- id: 1578501955051
+  fields:
+    Front: |
+      CET-11.08-03 Theory:
+      What is a **power series in $(x-a)$** (or a **power series centered at $a$** or a **power series about $a $**)?
+    Back: |
+      A series of the form
+      $$
+      \sum_{n=0}^{\infty} c_{n}(x-a)^{n}=c_{0}+c_{1}(x-a)+c_{2}(x-a)^{2}+\cdots
+      $$ is called a **power series in $(x-a)$** or a **power series centered at $a$** or a **power series about $a .$**
+
+      Notice that in writing out the term corresponding to $n=0$ we have adopted the convention that $(x-a)^{0}=1$ even when $x=a .$
+
+      Notice also that when $x=a,$ all of the terms are $0$ for $n \geqslant 1$ and so the power series ( 3) always converges when $x=a.$
+    Annotations: ''
+  tags: []
+- id: 1578502816676
+  fields:
+    Front: |
+      CET-11.08-04 Theory:
+      State the **Centered Power Series Convergence Theorem** (my own term).
+    Back: |
+      For a given power series $\sum_{n=0}^{\infty} c_{n}(x-a)^{n},$ there are only three possibilities:
+      (i) The series converges only when $x=a$.
+      (ii) The series converges for all $x$.
+      (iii) There is a positive number $R$ such that the series converges if $|x-a|<R$ and diverges if $|x-a|>R$.
+    Annotations: ''
+  tags: []
+- id: 1578503111175
+  fields:
+    Front: |
+      CET-11.08-05 Theory:
+      Define **radius of convergence** and **interval of convergence**.
+    Back: |
+      The number $R$ in case (iii) of the Centered Power Series Convergence Theorem is called the **radius of convergence** of the power series. By convention, the radius of convergence is $R=0$ in case (i) and $R=\infty$ in case (ii). The **interval of convergence** of a power series is the interval that consists of all values of $x$ for which the series converges.
+    Annotations: ''
+  tags: []
+- id: 1578503414625
+  media:
+  - path: ¢{file_dir}/images/CET-11.08-06.Th.1.jpg
+  fields:
+    Front: |
+      CET-11.08-06 Theory:
+      For a given power series $\sum_{n=0}^{\infty} c_{n}(x-a)^{n},$ what are its radius and interval of convergence?
+    Back: |
+      In case (i) of the Centered Power Series Convergence Theorem, the interval consists of just a single point $a$. In case (ii) the interval is $(-\infty, \infty) .$ In case (iii) note that the inequality $|x-a|<R$ can be rewritten as $a-R<x<a+R .$ When $x$ is an endpoint of the interval, that is, $x=a \pm R,$ anything can happen - the series might converge at one or both endpoints or it might diverge at both endpoints. Thus in case (iii) there are four possibilities for the interval of convergence:
+      $$
+      (a-R, a+R) \quad(a-R, a+R] \quad[a-R, a+R) \quad[a-R, a+R]
+      $$ The situation is illustrated below.
+      <p align="center">
+      ![](CET-11.08-06.Th.1.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1578504201525
+  fields:
+    Front: |
+      CET-11.08-07 Theory:
+      How does one determine the radius of convergence $R$ of a centered power series?
+    Back: |
+      In general, the Ratio Test (or sometimes the Root) should be used to determine the radius of convergence $R .$ The Ratio and Root Tests always fail when $x$ is an endpoint of the interval of convergence, so the endpoints must be checked with some other test.
+    Annotations: ''
+  tags: []

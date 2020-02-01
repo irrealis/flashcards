@@ -1,0 +1,30 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-11-InfiniteSequencesAndSeries
+  - CET-11.06-InfiniteSequencesAndSeries
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1578499506500
+  fields:
+    Front: |
+      CET-11.06-01 Exercise:
+      What can you say about the series $\sum a_{n}$ in each of the following cases?
+      (a) $\lim _{n \rightarrow \infty}\left|\frac{a_{n+1}}{a_{n}}\right|=8$
+      (b) $\lim _{n \rightarrow \infty}\left|\frac{a_{n+1}}{a_{n}}\right|=0.8$
+      (c) $\lim _{n \rightarrow \infty}\left|\frac{a_{n+1}}{a_{n}}\right|=1$
+    Back: |
+      (a) since $\lim _{n \rightarrow \infty}\left|\frac{a_{n+1}}{a_{n}}\right|=8>1,$ part (b) of the Ratio Test tells us that the series $\sum a_{n}$ is divergent.
+
+      (b) Since $\lim _{n \rightarrow \infty}\left|\frac{a_{n+1}}{a_{n}}\right|=0.8<1,$ part $(\mathrm{a})$ of the Ratio Test tells us that the series $\sum a_{n}$ is absolutely convergent (and therefore convergent).
+
+      (c) Since $\lim _{n \rightarrow \infty}\left|\frac{a_{n+1}}{a_{n}}\right|=1,$ the Ratio Test fails and the series $\sum a_{n}$ might converge or it might diverge.
+    Annotations: ''
+  tags: []

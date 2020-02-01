@@ -1,0 +1,175 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-11-InfiniteSequencesAndSeries
+  - CET-11.09-RepresentationsOfFunctionsAsPowerSeries
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1578509708226
+  fields:
+    Front: |
+      CET-11.09-01 Example:
+      Express $1 /\left(1+x^{2}\right)$ as the sum of a power series and find the interval of convergence.
+    Back: |
+      We start with the geometric series:
+      $$
+      \frac{1}{1-x}=1+x+x^{2}+x^{3}+\cdots=\sum_{n=0}^{\infty} x^{n} \quad|x|<1
+      $$ Replacing $x$ by $-x^{2}$ in this equation we have
+      $$
+      \begin{aligned}
+      \frac{1}{1+x^{2}} &=\frac{1}{1-\left(-x^{2}\right)}=\sum_{n=0}^{\infty}\left(-x^{2}\right)^{n} \\
+      &=\sum_{n=0}^{\infty}(-1)^{n} x^{2 n}=1-x^{2}+x^{4}-x^{6}+x^{8}-\cdots
+      \end{aligned}
+      $$ Because this is a geometric series, it converges when $\left|-x^{2}\right|<1,$ that is, $x^{2}<1,$ or $|x|<1 .$ Therefore the interval of convergence is $(-1,1) .$ (Of course, we could have determined the radius of convergence by applying the Ratio Test, but that much work is unnecessary here.)
+    Annotations: ''
+  tags: []
+- id: 1578510582151
+  fields:
+    Front: |
+      CET-11.09-02 Example:
+      Find a power series representation for 1/( $x+2)$.
+    Back: |
+      In order to put this function in the form of a geometric series, we first factor a 2 from the denominator:
+      $$
+      \begin{aligned}
+      \frac{1}{2+x} &=\frac{1}{2\left(1+\frac{x}{2}\right)}=\frac{1}{2\left[1-\left(-\frac{x}{2}\right)\right]} \\
+      &=\frac{1}{2} \sum_{n=0}^{\infty}\left(-\frac{x}{2}\right)^{n}=\sum_{n=0}^{\infty} \frac{(-1)^{n}}{2^{n+1}} x^{n}
+      \end{aligned}
+      $$ This series converges when $|-x / 2|<1,$ that is $,|x|<2 .$ So the interval of convergence is $(-2,2)$.
+    Annotations: ''
+  tags: []
+- id: 1578510723750
+  fields:
+    Front: |
+      CET-11.09-03 Example:
+      Find a power series representation of $x^{3} /(x+2)$.
+    Back: |
+      Since this function is just $x^{3}$ times the function in Example $2,$ all we have to do is to multiply that series by $x^{3}$ :
+      $$
+      \begin{aligned}
+      \frac{x^{3}}{x+2} &=x^{3} \cdot \frac{1}{x+2}=x^{3} \sum_{n=0}^{\infty} \frac{(-1)^{n}}{2^{n+1}} x^{n}=\sum_{n=0}^{\infty} \frac{(-1)^{n}}{2^{n+1}} x^{n+3} \\
+      &=\frac{1}{2} x^{3}-\frac{1}{4} x^{4}+\frac{1}{8} x^{5}-\frac{1}{16} x^{6}+\cdots
+      \end{aligned}
+      $$ **Note:** It's legitimate to move $x^{3}$ across the sigma sign because it doesn't depend on $n .$
+
+      Another way of writing this series is as follows:
+      $$
+      \frac{x^{3}}{x+2}=\sum_{n=3}^{\infty} \frac{(-1)^{n-1}}{2^{n-2}} x^{n}
+      $$ As in Example $2,$ the interval of convergence is $(-2,2)$.
+    Annotations: ''
+  tags: []
+- id: 1578512178526
+  fields:
+    Front: |
+      CET-11.09-05 Example:
+      ##### differentiation and integration of power series
+      Express $1 /(1-x)^{2}$ as a power series by differentiating the geometric series
+      $$
+      \frac{1}{1-x}=1+x+x^{2}+x^{3}+\cdots=\sum_{n=0}^{\infty} x^{n} \quad|x|<1
+      $$ What is the radius of convergence?
+    Back: |
+      Differentiating each side of the equation, we get
+      $$
+      \frac{1}{(1-x)^{2}}=1+2 x+3 x^{2}+\cdots=\sum_{n=1}^{\infty} n x^{n-1}
+      $$ If we wish, we can replace $n$ by $n+1$ and write the answer as
+      $$
+      \frac{1}{(1-x)^{2}}=\sum_{n=0}^{\infty}(n+1) x^{n}
+      $$ According to the term-by-term differentiation and integration theorem, the radius of convergence of the differentiated series is the same as the radius of convergence of the original series, namely, $R=1$.
+    Annotations: ''
+  tags: []
+- id: 1578512466300
+  fields:
+    Front: |
+      CET-11.09-06 Example:
+      ##### differentiation and integration of power series
+      Find a power series representation for $\ln (1+x)$ and its radius of convergence.
+    Back: |
+      We notice that the derivative of this function is $1 /(1+x) .$ From
+      $$
+      \frac{1}{1-x}=1+x+x^{2}+x^{3}+\cdots=\sum_{n=0}^{\infty} x^{n} \quad|x|<1
+      $$ we have
+      $$
+      \frac{1}{1+x}=\frac{1}{1-(-x)}=1-x+x^{2}-x^{3}+\cdots \quad|x|<1
+      $$ Integrating both sides of this equation, we get
+      $$
+      \begin{aligned}
+      \ln (1+x) &=\int \frac{1}{1+x} d x=\int\left(1-x+x^{2}-x^{3}+\cdots\right) d x \\
+      &=x-\frac{x^{2}}{2}+\frac{x^{3}}{3}-\frac{x^{4}}{4}+\cdots+C \\
+      &=\sum_{n=1}^{\infty}(-1)^{n-1} \frac{x^{n}}{n}+C \quad|x|<1
+      \end{aligned}
+      $$ To determine the value of $C$ we put $x=0$ in this equation and obtain $\ln (1+0)=C$. Thus $C=0$ and
+      $$
+      \ln (1+x)=x-\frac{x^{2}}{2}+\frac{x^{3}}{3}-\frac{x^{4}}{4}+\cdots=\sum_{n=1}^{\infty}(-1)^{n-1} \frac{x^{n}}{n} \quad|x|<1
+      $$ The radius of convergence is the same as for the original series: $R=1$.
+    Annotations: ''
+  tags: []
+- id: 1578512590900
+  fields:
+    Front: |
+      CET-11.09-07 Example:
+      ##### differentiation and integration of power series
+      Find a power series representation for $f(x)=\tan ^{-1} x$.
+    Back: |
+      We observe that $f^{\prime}(x)=1 /\left(1+x^{2}\right)$ and find the required series by integrating the power series for $1 /\left(1+x^{2}\right)$ found in Example 1.
+      $$
+      \begin{aligned}
+      \tan ^{-1} x &=\int \frac{1}{1+x^{2}} d x=\int\left(1-x^{2}+x^{4}-x^{6}+\cdots\right) d x \\
+      &=C+x-\frac{x^{3}}{3}+\frac{x^{5}}{5}-\frac{x^{7}}{7}+\cdots
+      \end{aligned}
+      $$ To find $C$ we put $x=0$ and obtain $C=\tan ^{-1} 0=0 .$ Therefore
+      $\tan ^{-1} x=x-\frac{x^{3}}{3}+\frac{x^{5}}{5}-\frac{x^{7}}{7}+\cdots$
+      $$
+      =\sum_{n=0}^{\infty}(-1)^{n} \frac{x^{2 n+1}}{2 n+1}
+      $$ Since the radius of convergence of the series for $1 /\left(1+x^{2}\right)$ is 1 , the radius of convergence of this series for $\tan ^{-1} x$ is also 1.
+    Annotations: ''
+  tags: []
+- id: 1578512913000
+  fields:
+    Front: |
+      CET-11.09-08 Example:
+      ##### differentiation and integration of power series
+      (a) Evaluate $\int\left[1 /\left(1+x^{7}\right)\right] d x$ as a power series.
+      (b) Use part (a) to approximate $\int_{0}^{0.5}\left[1 /\left(1+x^{7}\right)\right] d x$ correct to within $10^{-7}$.
+    Back: |
+      (a) The first step is to express the integrand, $1 /\left(1+x^{7}\right),$ as the sum of a power series. We start with the geometric series
+      $$
+      \frac{1}{1-x}=1+x+x^{2}+x^{3}+\cdots=\sum_{n=0}^{\infty} x^{n} \quad|x|<1
+      $$ and replace $x$ by $-x^{7}$ :
+      $$
+      \begin{aligned}
+      \frac{1}{1+x^{7}} &=\frac{1}{1-\left(-x^{7}\right)}=\sum_{n=0}^{\infty}\left(-x^{7}\right)^{n} \\
+      &=\sum_{n=0}^{\infty}(-1)^{n} x^{7 n}=1-x^{7}+x^{14}-\cdots
+      \end{aligned}
+      $$ Now we integrate term by term:
+      $$
+      \begin{aligned}
+      \int \frac{1}{1+x^{7}} d x
+      &=\int \sum_{n=0}^{\infty}(-1)^{n} x^{7 n} d x \\
+      &=C+\sum_{n=0}^{\infty}(-1)^{n} \frac{x^{7 n+1}}{7 n+1} \\
+      &=C+x-\frac{x^{8}}{8}+\frac{x^{15}}{15}-\frac{x^{22}}{22}+\cdots
+      \end{aligned}
+      $$ This series converges for $\left|-x^{7}\right|<1,$ that is, for $|x|<1$.
+
+      (b) In applying the Fundamental Theorem of Calculus, it doesn't matter which antiderivative we use, so let's use the antiderivative from part (a) with $C=0$:
+      $$
+      \begin{aligned}
+      \int_{0}^{0.5} \frac{1}{1+x^{7}} d x
+      &=\left[x-\frac{x^{8}}{8}+\frac{x^{15}}{15}-\frac{x^{22}}{22}+\cdots\right]_{0}^{1 / 2} \\
+      &=\frac{1}{2}-\frac{1}{8 \cdot 2^{8}}+\frac{1}{15 \cdot 2^{15}}-\frac{1}{22 \cdot 2^{22}}+\dots+\frac{(-1)^{n}}{(7 n+1) 2^{7 n+1}}+\cdots
+      \end{aligned}
+      $$ This infinite series is the exact value of the definite integral, but since it is an alternating series, we can approximate the sum using the Alternating Series Estimation Theorem. If we stop adding after the term with $n=3,$ the error is smaller than the term with $n=4$:
+      $$
+      \frac{1}{29 \cdot 2^{29}} \approx 6.4 \times 10^{-11}
+      $$ So we have
+      $$
+      \int_{0}^{0.5} \frac{1}{1+x^{7}} d x \approx \frac{1}{2}-\frac{1}{8 \cdot 2^{8}}+\frac{1}{15 \cdot 2^{15}}-\frac{1}{22 \cdot 2^{22}} \approx 0.49951374
+      $$
+    Annotations: ''
+  tags: []

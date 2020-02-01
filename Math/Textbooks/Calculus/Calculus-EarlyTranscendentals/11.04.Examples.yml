@@ -1,0 +1,100 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-11-InfiniteSequencesAndSeries
+  - CET-11.04-TheComparisonTests
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1578441669106
+  fields:
+    Front: |
+      CET-11.04-01 Example:
+      Determine whether the series $\sum_{n=1}^{\infty} \frac{5}{2 n^{2}+4 n+3}$ converges or diverges.
+    Back: |
+      For large $n$ the dominant term in the denominator is $2 n^{2},$ so we compare the given series with the series $\sum 5 /\left(2 n^{2}\right) .$ Observe that
+      $$
+      \frac{5}{2 n^{2}+4 n+3}<\frac{5}{2 n^{2}}
+      $$ because the left side has a bigger denominator. (In the notation of the Comparison Test, $a_{n}$ is the left side and $b_{n}$ is the right side. We know that
+      $$
+      \sum_{n=1}^{\infty} \frac{5}{2 n^{2}}=\frac{5}{2} \sum_{n=1}^{\infty} \frac{1}{n^{2}}
+      $$ is convergent because it's a constant times a $p$ -series with $p=2>1 .$ Therefore
+      $$
+      \sum_{n=1}^{\infty} \frac{5}{2 n^{2}+4 n+3}
+      $$ is convergent by part (i) of the Comparison Test.
+    Annotations: ''
+  tags: []
+- id: 1578441951534
+  fields:
+    Front: |
+      CET-11.04-02 Example:
+      Use the Comparison Test to determine whether the series $\sum_{k=1}^{\infty} \frac{\ln k}{k}$ is convergent or divergent.
+    Back: |
+      We can test by comparing with the harmonic series. Observe that $\ln k>1$ for $k \geqslant 3$ and so
+      $$
+      \frac{\ln k}{k}>\frac{1}{k} \quad k \geqslant 3
+      $$ We know that $\sum 1 / k$ is divergent $(p \text { -series with } p=1) .$ Thus the given series is divergent by the Comparison Test.
+    Annotations: ''
+  tags: []
+- id: 1578442354508
+  fields:
+    Front: |
+      CET-11.04-03 Example:
+      Determine whether the series $\sum_{n=1}^{\infty} \frac{1}{2^{n}-1}$ is convergent or divergent.
+    Back: |
+      We use the Limit Comparison Test with
+      $$
+      a_{n}=\frac{1}{2^{n}-1} \quad b_{n}=\frac{1}{2^{n}}
+      $$ and obtain
+      $$
+      \lim _{n \rightarrow \infty} \frac{a_{n}}{b_{n}}=\lim _{n \rightarrow \infty} \frac{1 /\left(2^{n}-1\right)}{1 / 2^{n}}=\lim _{n \rightarrow \infty} \frac{2^{n}}{2^{n}-1}=\lim _{n \rightarrow \infty} \frac{1}{1-1 / 2^{n}}=1>0
+      $$ Since this limit exists and $\sum 1 / 2^{n}$ is a convergent geometric series, the given series converges by the Limit Comparison Test.
+    Annotations: ''
+  tags: []
+- id: 1578442500258
+  fields:
+    Front: |
+      CET-11.04-04 Example:
+      Determine whether the series $\sum_{n=1}^{\infty} \frac{2 n^{2}+3 n}{\sqrt{5+n^{5}}}$ converges or diverges.
+    Back: |
+      The dominant part of the numerator is $2 n^{2}$ and the dominant part of the denominator is $\sqrt{n^{5}}=n^{5 / 2} .$ This suggests taking
+      $$
+      \begin{aligned}
+      a_{n}=\frac{2 n^{2}+3 n}{\sqrt{5+n^{5}}} & b_{n}=\frac{2 n^{2}}{n^{5 / 2}}=\frac{2}{n^{1 / 2}} \\
+      \lim _{n \rightarrow \infty} \frac{a_{n}}{b_{n}}=& \lim _{n \rightarrow \infty} \frac{2 n^{2}+3 n}{\sqrt{5+n^{5}}} \cdot \frac{n^{1 / 2}}{2}=\lim _{n \rightarrow \infty} \frac{2 n^{5 / 2}+3 n^{3 / 2}}{2 \sqrt{5+n^{5}}} \\
+      =& \lim _{n \rightarrow \infty} \frac{2+\frac{3}{n}}{2 \sqrt{\frac{5}{n^{5}}+1}}=\frac{2+0}{2 \sqrt{0+1}}=1
+      \end{aligned}
+      $$ Since $\sum b_{n}=2 \sum 1 / n^{1 / 2}$ is divergent ($p$-series with $p=\frac{1}{2}<1$), the given series diverges by the Limit Comparison Test.
+    Annotations: ''
+  tags: []
+- id: 1578443281659
+  fields:
+    Front: |
+      CET-11.04-05 Example:
+      ##### estimating sums
+      Use the sum of the first 100 terms to approximate the sum of the series $\sum 1 /\left(n^{3}+1\right) .$ Estimate the error involved in this approximation.
+    Back: |
+      Since
+      $$
+      \frac{1}{n^{3}+1}<\frac{1}{n^{3}}
+      $$ the given series is convergent by the Comparison Test. The remainder $T_{n}$ for the comparison series $\sum 1 / n^{3}$ was estimated in Example 11.3 .5 using the Remainder Estimate for the Integral Test. There we found that
+      $$
+      T_{n} \leqslant \int_{n}^{\infty} \frac{1}{x^{3}} d x=\frac{1}{2 n^{2}}
+      $$ Therefore the remainder $R_{n}$ for the given series satisfies
+      $$
+      R_{n} \leqslant T_{n} \leqslant \frac{1}{2 n^{2}}
+      $$ With $n=100$ we have
+      $$
+      R_{100} \leqslant \frac{1}{2(100)^{2}}=0.00005
+      $$ Using a programmable calculator or a computer, we find that
+      $$
+      \sum_{n=1}^{\infty} \frac{1}{n^{3}+1} \approx \sum_{n=1}^{100} \frac{1}{n^{3}+1} \approx 0.6864538
+      $$ with error less than 0.00005.
+    Annotations: ''
+  tags: []

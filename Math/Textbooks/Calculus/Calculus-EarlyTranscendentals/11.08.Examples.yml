@@ -1,0 +1,148 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-11-InfiniteSequencesAndSeries
+  - CET-11.08-PowerSeries
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1578502110600
+  fields:
+    Front: |
+      CET-11.08-01 Example:
+      For what values of $x$ is the series $\sum_{n=0}^{n} n ! x^{n}$ convergent?
+    Back: |
+      We use the Ratio Test. If we let $a_{n}$, as usual, denote the $n$ th term of the series, then $a_{n}=n ! x^{n} .$ If $x \neq 0,$ we have
+      $$
+      \lim _{n \rightarrow \infty}\left|\frac{a_{n+1}}{a_{n}}\right|=\lim _{n \rightarrow \infty}\left|\frac{(n+1) ! x^{n+1}}{n ! x^{n}}\right|=\lim _{n \rightarrow \infty}(n+1)|x|=\infty
+      $$ By the Ratio Test, the series diverges when $x \neq 0 .$ Thus the given series converges only when $x=0.$
+    Annotations: ''
+  tags: []
+- id: 1578502333826
+  fields:
+    Front: |
+      CET-11.08-02 Example:
+      For what values of $x$ does the series $\sum_{n=1}^{\infty} \frac{(x-3)^{n}}{n}$ converge?
+    Back: |
+      Let $a_{n}=(x-3)^{n} / n .$ Then
+      $$
+      \begin{aligned}
+      \left|\frac{a_{n+1}}{a_{n}}\right| &=\left|\frac{(x-3)^{n+1}}{n+1} \cdot \frac{n}{(x-3)^{n}}\right| \\
+      &=\frac{1}{1+\frac{1}{n}}|x-3| \rightarrow|x-3| \quad \text { as } n \rightarrow \infty
+      \end{aligned}
+      $$ By the Ratio Test, the given series is absolutely convergent, and therefore convergent, when $|x-3|<1$ and divergent when $|x-3|>1 .$ Now
+      $$
+      |x-3|<1 \quad \Longleftrightarrow \quad-1<x-3<1 \quad \Longleftrightarrow \quad 2<x<4
+      $$
+      so the series converges when $2<x<4$ and diverges when $x<2$ or $x>4.$
+
+      The Ratio Test gives no information when $|x-3|=1$ so we must consider $x=2$ and $x=4$ separately. If we put $x=4$ in the series, it becomes $\Sigma 1 / n,$ the harmonic series, which is divergent. If $x=2,$ the series is $\Sigma(-1)^{n} / n,$ which converges by the Alternating Series Test. Thus the given power series converges for $2 \leqslant x<4.$
+    Annotations: ''
+  tags: []
+- id: 1578502468275
+  fields:
+    Front: |
+      CET-11.08-03.0 Example:
+      Find the domain of the Bessel function of order 0 defined by
+      $$
+      J_{0}(x)=\sum_{n=0}^{\infty} \frac{(-1)^{n} x^{2 n}}{2^{2 n}(n !)^{2}}
+      $$
+    Back: |
+      Let $a_{n}=(-1)^{n} x^{2 n}/\left[2^{2 n}(n !)^{2}\right] .$ Then
+      $$
+      \begin{aligned}
+      \left|\frac{a_{n+1}}{a_{n}}\right| &=\left|\frac{(-1)^{n+1} x^{2(n+1)}}{2^{2(n+1)}[(n+1) !]^{2}} \cdot \frac{2^{2 n}(n !)^{2}}{(-1)^{n} x^{2 n}}\right| \\
+      &=\frac{x^{2 n+2}}{2^{2 n+2}(n+1)^{2}(n !)^{2}} \cdot \frac{2^{2 n}(n !)^{2}}{x^{2 n}} \\
+      &=\frac{x^{2}}{4(n+1)^{2}} \rightarrow 0<1 \quad \text { for all } x
+      \end{aligned}
+      $$ Thus, by the Ratio Test, the given series converges for all values of $x .$ In other words, the domain of the Bessel function $J_{0}$ is $(-\infty, \infty)=\mathbb{R}$.
+    Annotations: ''
+  tags: []
+- id: 1578503636250
+  fields:
+    Front: |
+      CET-11.08-03.5 Example:
+      Determine the radius and interval of convergence for each of the following series.
+      $$
+      \begin{array}{|l|l|}
+      \hline
+      {} & {\text { Series }} \\
+      \hline
+      {\text {(i)}} & {\sum_{n=0}^{\infty} x^{n}} \\
+      {\text {(ii)}} & {\sum_{n=0}^{\infty} n ! x^{n}} \\
+      {\text {(ii)}} & {\sum_{n=1}^{\infty} \frac{(x-3)^{n}}{n}} \\
+      {\text {(iv)}} & {\sum_{n=0}^{\infty} \frac{(-1)^{n} x^{2 n}}{2^{2 n}(n !)^{2}}} \\
+      \hline
+      \end{array}
+      $$
+    Back: |
+      $$
+      \begin{array}{|l|l|c|c|}
+      \hline
+      {} & {\text { Series }} & {\text { Radius of convergence }} & {\text { Interval of convergence }} \\
+      \hline
+      {\text {(i)}} & {\sum_{n=0}^{\infty} x^{n}} & {R=1} & {(-1,1)} \\
+      {\text {(ii)}} & {\sum_{n=0}^{\infty} n ! x^{n}} & {R=0} & {\{0\}} \\
+      {\text {(ii)}} & {\sum_{n=1}^{\infty} \frac{(x-3)^{n}}{n}} & {R=1} & {[2,4)} \\
+      {\text {(iv)}} & {\sum_{n=0}^{\infty} \frac{(-1)^{n} x^{2 n}}{2^{2 n}(n !)^{2}}} & {R=\infty} & {(-\infty, \infty)} \\
+      \hline
+      \end{array}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1578504330526
+  fields:
+    Front: |
+      CET-11.08-04 Example:
+      Find the radius of convergence and interval of convergence of the series
+      $$
+      \sum_{n=0}^{\infty} \frac{(-3)^{n} x^{n}}{\sqrt{n+1}}
+      $$
+    Back: |
+      Let $a_{n}=(-3)^{n} x^{n} / \sqrt{n+1} .$ Then
+      $$
+      \begin{aligned}
+      \left|\frac{a_{n+1}}{a_{n}}\right| &=\left|\frac{(-3)^{n+1} x^{n+1}}{\sqrt{n+2}} \cdot \frac{\sqrt{n+1}}{(-3)^{n} x^{n}}\right|=|-3 x \sqrt{\frac{n+1}{n+2}}| \\
+      &=3 \sqrt{\frac{1+(1 / n)}{1+(2 / n)}}|x| \rightarrow 3|x| \quad \text { as } n \rightarrow \infty
+      \end{aligned}
+      $$ By the Ratio Test, the given series converges if $3|x|<1$ and diverges if $3|x|>1$ Thus it converges if $|x|<\frac{1}{3}$ and diverges if $|x|>\frac{1}{3} .$ This means that the radius of convergence is $R=\frac{1}{3}$ We know the series converges in the interval $\left(-\frac{1}{3}, \frac{1}{3}\right),$ but we must now test for convergence at the endpoints of this interval. If $x=-\frac{1}{3},$ the series becomes
+      $$
+      \sum_{n=0}^{\infty} \frac{(-3)^{n}\left(-\frac{1}{3}\right)^{n}}{\sqrt{n+1}}=\sum_{n=0}^{\infty} \frac{1}{\sqrt{n+1}}=\frac{1}{\sqrt{1}}+\frac{1}{\sqrt{2}}+\frac{1}{\sqrt{3}}+\frac{1}{\sqrt{4}}+\cdots
+      $$ which diverges. (Use the Integral Test or simply observe that it is a $p$ -series with $\left.p=\frac{1}{2}<1 .\right)$ If $x=\frac{1}{3},$ the series is
+      $$
+      \sum_{n=0}^{\infty} \frac{(-3)^{n}\left(\frac{1}{3}\right)^{n}}{\sqrt{n+1}}=\sum_{n=0}^{\infty} \frac{(-1)^{n}}{\sqrt{n+1}}
+      $$ which converges by the Alternating Series Test. Therefore the given power series converges when $-\frac{1}{3}<x \leqslant \frac{1}{3},$ so the interval of convergence is $\left(-\frac{1}{3}, \frac{1}{3}\right]$.
+    Annotations: ''
+  tags: []
+- id: 1578504512076
+  fields:
+    Front: |
+      CET-11.08-05 Example:
+      Find the radius of convergence and interval of convergence of the series
+      $$
+      \sum_{n=0}^{\infty} \frac{n(x+2)^{n}}{3^{n+1}}
+      $$
+    Back: |
+      If $a_{n}=n(x+2)^{n} / 3^{n+1},$ then
+      $$
+      \begin{aligned}
+      \left|\frac{a_{n+1}}{a_{n}}\right| &=\left|\frac{(n+1)(x+2)^{n+1}}{3^{n+2}} \cdot \frac{3^{n+1}}{n(x+2)^{n}}\right| \\
+      &=\left(1+\frac{1}{n}\right) \frac{|x+2|}{3} \rightarrow \frac{|x+2|}{3} \quad \text { as } n \rightarrow \infty
+      \end{aligned}
+      $$ Using the Ratio Test, we see that the series converges if $|x+2| / 3<1$ and it diverges if $|x+2| / 3>1 .$ So it converges if $|x+2|<3$ and diverges if $|x+2|>3 .$ Thus the radius of convergence is $R=3$.
+
+      The inequality $|x+2|<3$ can be written as $-5<x<1,$ so we test the series at the endpoints $-5$ and $1 .$ When $x=-5,$ the series is
+      $$
+      \sum_{n=0}^{\infty} \frac{n(-3)^{n}}{3^{n+1}}=\frac{1}{3} \sum_{n=0}^{\infty}(-1)^{n} n
+      $$ which diverges by the Test for Divergence $\left[(-1)^{n} n \text { doesn't converge to } 0\right] .$ When $x=1,$ the series is
+      $$
+      \sum_{n=0}^{\infty} \frac{n(3)^{n}}{3^{n+1}}=\frac{1}{3} \sum_{n=0}^{\infty} n
+      $$ which also diverges by the Test for Divergence. Thus the series converges only when $-5<x<1,$ so the interval of convergence is $(-5,1)$.
+    Annotations: ''
+  tags: []

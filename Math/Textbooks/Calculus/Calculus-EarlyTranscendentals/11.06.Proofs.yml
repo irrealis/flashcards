@@ -1,0 +1,74 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Proofs
+  - Calculus-EarlyTrancendentals
+  - CET-11-InfiniteSequencesAndSeries
+  - CET-11.06-InfiniteSequencesAndSeries
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1578496108651
+  fields:
+    Front: |
+      CET-11.06-01 Proof:
+      Prove that absolute convergence implies convergence.
+    Back: |
+      Observe that the inequality
+      $$
+      0 \leqslant a_{n}+\left|a_{n}\right| \leqslant 2\left|a_{n}\right|
+      $$ is true because $\left|a_{n}\right|$ is either $a_{n}$ or $-a_{n}$. If $\sum a_{n}$ is absolutely convergent, then $\sum\left|a_{n}\right|$ is convergent, so $\sum 2\left|a_{n}\right|$ is convergent. Therefore, by the Comparison Test, $\sum\left(a_{n}+\left|a_{n}\right|\right)$ is convergent. Then
+      $$
+      \sum a_{n}=\sum\left(a_{n}+\left|a_{n}\right|\right)-\sum\left|a_{n}\right|
+      $$ is the difference of two convergent series and is therefore convergent.
+      $\square$
+    Annotations: ''
+  tags: []
+- id: 1578496673827
+  fields:
+    Front: |
+      CET-11.06-02 Proof:
+      Prove **The Ratio Test.**
+    Back: |
+      (i) The idea is to compare the given series with a convergent geometric series. since $L<1,$ we can choose a number $r$ such that $L<r<1 .$ since
+      $$
+      \lim _{n \rightarrow \infty}\left|\frac{a_{n+1}}{a_{n}}\right|=L \quad \text { and } \quad L<r
+      $$ the ratio $\left|a_{n+1} / a_{n}\right|$ will eventually be less than $r ;$ that is, there exists an integer $N$ such that
+      $$
+      \left|\frac{a_{n+1}}{a_{n}}\right|<r \quad \text { whenever } n \geqslant N
+      $$ or, equivalently,
+      (4)
+      $$
+      \left|a_{n+1}\right|<\left|a_{n}\right| r \quad \text { whenever } n \geqslant N
+      $$ Putting $n$ successively equal to $N, N+1, N+2, \ldots$ in $(4),$ we obtain
+      $$
+      \begin{array}{l}
+      {\left|a_{N+1}\right|<\left|a_{N}\right| r} \\
+      {\left|a_{N+2}\right|<\left|a_{N+1}\right| r<\left|a_{N}\right| r^{2}} \\
+      {\left|a_{N+3}\right|<\left|a_{N+2}\right| r<\left|a_{N}\right| r^{3}}
+      \end{array}
+      $$ and, in general,
+      (5)
+      $$
+      \left|a_{N+k}\right|<\left|a_{N}\right| r^{k} \quad \text { for all } k \geqslant 1
+      $$ Now the series
+      $$
+      \sum_{k=1}^{\infty}\left|a_{N}\right| r^{k}=\left|a_{N}\right| r+\left|a_{N}\right| r^{2}+\left|a_{N}\right| r^{3}+\cdots
+      $$ is convergent because it is a geometric series with $0<r<1 .$ So the inequality (5) together with the Comparison Test, shows that the series
+      $$
+      \sum_{n=N+1}^{\infty}\left|a_{n}\right|=\sum_{k=1}^{\infty}\left|a_{N+k}\right|=\left|a_{N+1}\right|+\left|a_{N+2}\right|+\left|a_{N+3}\right|+\cdots
+      $$ is also convergent. It follows that the series $\sum_{n=1}^{\infty}\left|a_{n}\right|$ is convergent. (Recall that a finite number of terms doesn't affect convergence. .) Therefore $\sum a_{n}$ is absolutely convergent.
+
+      (ii) If $\left|a_{n+1} / a_{n}\right| \rightarrow L>1$ or $\left|a_{n+1} / a_{n}\right| \rightarrow \infty,$ then the ratio $\left|a_{n+1} / a_{n}\right|$ will eventually be greater than $1 ;$ that is, there exists an integer $N$ such that
+      $$
+      \left|\frac{a_{n+1}}{a_{n}}\right|>1 \quad \text { whenever } n \geqslant N
+      $$ This means that $\left|a_{n+1}\right|>\left|a_{n}\right|$ whenever $n \geqslant N$ and so
+      $$
+      \lim _{n \rightarrow \infty} a_{n} \neq 0
+      $$ Therefore $\sum a_{n}$ diverges by the Test for Divergence.
+    Annotations: ''
+  tags: []

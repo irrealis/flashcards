@@ -1,0 +1,54 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theory
+  - Calculus-EarlyTrancendentals
+  - CET-11-InfiniteSequencesAndSeries
+  - CET-11.09-RepresentationsOfFunctionsAsPowerSeries
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1578511145600
+  fields:
+    Front: |
+      CET-11.09-01 Theory:
+      ##### differentiation and integration of power series
+      State the **term-by-term differentiation and integration theorem** (my own term).
+    Back: |
+      If the power series $\sum c_{n}(x-a)^{n}$ has radius of convergence $R>0,$ then the function $f$ defined by
+      $$
+      f(x)=c_{0}+c_{1}(x-a)+c_{2}(x-a)^{2}+\cdots=\sum_{n=0}^{\infty} c_{n}(x-a)^{n}
+      $$ is differentiable (and therefore continuous) on the interval $(a-R, a+R)$ and
+      (i)
+      $$
+      f^{\prime}(x)=c_{1}+2 c_{2}(x-a)+3 c_{3}(x-a)^{2}+\cdots=\sum_{n=1}^{\infty} n c_{n}(x-a)^{n-1}
+      $$
+      (ii)
+      $$
+      \begin{aligned}
+      \int f(x) d x
+      &= C+c_{0}(x-a)+c_{1} \frac{(x-a)^{2}}{2}+c_{2} \frac{(x-a)^{3}}{3}+\cdots \\
+      &= C+\sum_{n=0}^{\infty} c_{n} \frac{(x-a)^{n+1}}{n+1}
+      \end{aligned}
+      $$ The radii of convergence of the power series in Equations (i) and (ii) are both $R .$
+      Equations (i) and (ii) can be rewritten in the form
+      (iii)
+      $$
+      \frac{d}{d x}\left[\sum_{n=0}^{\infty} c_{n}(x-a)^{n}\right]=\sum_{n=0}^{\infty} \frac{d}{d x}\left[c_{n}(x-a)^{n}\right]
+      $$
+      (iv)
+      $$
+      \int\left[\sum_{n=0}^{\infty} c_{n}(x-a)^{n}\right] d x=\sum_{n=0}^{\infty} \int c_{n}(x-a)^{n} d x
+      $$
+
+      **Note 1:**
+      Equations (iii) and (iv) assert that **for power series, the derivative of the infinite sum is the sum of the derivatives and the integral of the infinite sum is the sum of the integrals.** Except in the case of power series, this does not hold true in general.
+
+      **Note 2:**
+      Although this theorem says that **the radius of convergence remains the same** when a power series is differentiated or integrated, **while the interval of convergence of the original series may converge at an endpoint, the differentiated series may diverge.**
+    Annotations: ''
+  tags: []

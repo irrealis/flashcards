@@ -1,0 +1,125 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theory
+  - Calculus-EarlyTrancendentals
+  - CET-11-InfiniteSequencesAndSeries
+  - CET-11.03-TheIntegralTestAndEstimatesOfSums
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1578437046743
+  fields:
+    Front: |
+      CET-11.03-01 Theory:
+      State the **The Integral Test.**
+    Back: |
+      Suppose $f$ is a continuous, positive, decreasing function on
+      $[1, \infty)$ and let $a_{n}=f(n) .$ Then the series $\sum_{n=1}^{\infty} a_{n}$ is convergent if and only if the improper integral $\int_{1}^{\infty} f(x) d x$ is convergent. In other words:
+      (i) If $\int_{1}^{\infty} f(x) d x$ is convergent, then $\sum_{n=1}^{\infty} a_{n}$ is convergent.
+      (ii) If $\int_{1}^{\infty} f(x) d x$ is divergent, then $\sum_{n=1}^{\infty} a_{n}$ is divergent.
+    Annotations: ''
+  tags: []
+- id: 1578437271492
+  fields:
+    Front: |
+      CET-11.03-02 Theory:
+      When we use the Integral Test, is it necessary to start the series or the integral at $n=1 ?$
+    Back: |
+      When we use the Integral Test, it is not necessary to start the series or the integral at $n=1 .$ In testing the series
+      $$
+      \sum_{n=4}^{\infty} \frac{1}{(n-3)^{2}} \quad \text { we use } \quad \int_{4}^{\infty} \frac{1}{(x-3)^{2}} d x
+      $$
+    Annotations: ''
+  tags: []
+- id: 1578437271767
+  fields:
+    Front: |
+      CET-11.03-03 Theory:
+      When we use the Integral Test, is it necessary that $f$ be always decreasing?
+    Back: |
+      It is not necessary that $f$ be _always_ decreasing. What is important is that $f$ be _ultimately_ decreasing, that is, decreasing for $x$ larger than some number $N .$ Then $\sum_{n=N}^{\infty} a_{n}$ is convergent, so $\sum_{n=1}^{\infty} a_{n}$ is convergent.
+    Annotations: ''
+  tags: []
+- id: 1578438185685
+  fields:
+    Front: |
+      CET-11.03-04 Theory:
+      What is the **$p$-series?**
+    Back: |
+      The $p$-series is
+      $$
+      \sum_{n=1}^{\infty} \frac{1}{n^{p}}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1578438185911
+  fields:
+    Front: |
+      CET-11.03-05 Theory:
+      When is the $p$-series convergent? divergent?
+    Back: |
+      The $p$-series $\sum_{n=1}^{\infty} \frac{1}{n^{p}}$ is convergent if $p>1$ and divergent if $p \leqslant 1$.
+    Annotations: ''
+  tags: []
+- id: 1578438556584
+  fields:
+    Front: |
+      CET-11.03-06 Theory:
+      Is the following true in general?
+      $$
+      \sum_{n=1}^{\infty} a_{n} = \int_{1}^{\infty} f(x) d x
+      $$
+    Back: |
+      We should not infer from the Integral Test that the sum of the series is equal to the value of the integral. In fact,
+      $$
+      \sum_{n=1}^{\infty} \frac{1}{n^{2}}=\frac{\pi^{2}}{6} \quad \text { whereas } \quad \int_{1}^{\infty} \frac{1}{x^{2}} d x=1
+      $$ Therefore, in general,
+      $$
+      \sum_{n=1}^{\infty} a_{n} \neq \int_{1}^{\infty} f(x) d x
+      $$
+    Annotations: ''
+  tags: []
+- id: 1578438954810
+  fields:
+    Front: |
+      CET-11.03-07 Theory:
+      ##### estimating the sum of a series
+      In estimating the sum of a series $\sum a_n$, what is meant by **remainder?**
+    Back: |
+      The remainder $R_{n}$ is the error made when $s_{n},$ the sum of the first $n$ terms, is used as an approximation to the total sum:
+      $$
+      R_{n}=s-s_{n}=a_{n+1}+a_{n+2}+a_{n+3}+\cdots
+      $$
+    Annotations: ''
+  tags: []
+- id: 1578439042459
+  fields:
+    Front: |
+      CET-11.03-08 Theory:
+      ##### estimating the sum of a series
+      What is the **Remainder Estimate for the Integral Test?**
+    Back: |
+      Suppose $f(k)=a_{k},$ where $f$ is a continuous, positive, decreasing function for $x \geqslant n$ and $\sum a_{n}$ is convergent. If $R_{n}=s-s_{n},$ then
+      $$
+      \int_{n+1}^{\infty} f(x) d x \leqslant R_{n} \leqslant \int_{n}^{\infty} f(x) d x
+      $$
+    Annotations: ''
+  tags: []
+- id: 1578439536509
+  fields:
+    Front: |
+      CET-11.03-09 Theory:
+      ##### estimating the sum of a series
+      State the **Approximation for the Integral Test** (my own term) based on the Remainder Estimate for the Integral Test.
+    Back: |
+      Suppose $f(k)=a_{k},$ where $f$ is a continuous, positive, decreasing function for $x \geqslant n$ and $\sum a_{n}$ is convergent. If $R_{n}=s-s_{n},$ then
+      $$
+      s_{n}+\int_{n+1}^{\infty} f(x) d x \leqslant s \leqslant s_{n}+\int_{n}^{\infty} f(x) d x
+      $$ because $s_{n}+R_{n}=s .$ These inequalities give a lower bound and an upper bound for $s .$ They provide a more accurate approximation to the sum of the series than the partial sum $s_{n}$ does.
+    Annotations: ''
+  tags: []

@@ -1,0 +1,1077 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-02-LimitsAndDerivatives
+  - CET-02.02-TheLimitOfAFunction
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1579030904954
+  fields:
+    Front: |
+      CET-02.02-01 Exercise:
+      Explain in your own words what is meant by the equation
+      $$
+      \lim _{x \rightarrow 2} f(x)=5
+      $$ Is it possible for this statement to be true and yet $f(2)=3 ?$ Explain.
+    Back: |
+      As $x$ approaches $2,$ $f(x)$ approaches $5 .$ [Or, the values of $f(x)$ can be made to 5 as we like by taking $x$ sufficiently close to $2$ (but $x \neq 2$). Yes, the graph could have a hole at $(2,5)$ and be defined such that $f(2)=3$.
+    Annotations: ''
+  tags: []
+- id: 1579031044604
+  fields:
+    Front: |
+      CET-02.02-02 Exercise:
+      Explain what it means to say that
+      $$
+      \lim _{x \rightarrow 1^{-}} f(x)=3 \quad \text { and } \quad \lim _{x \rightarrow 1^{+}} f(x)=7
+      $$ In this situation is it possible that $\lim _{x \rightarrow 1} f(x)$ exists? Explain.
+    Back: |
+      As $x$ approaches 1 from the left, $f(x)$ approaches $3 ;$ and as $x$ approaches 1 from the right, $f(x)$ approaches $7 .$ No, the limit does not exist because the left- and right-hand limits are different.
+    Annotations: ''
+  tags: []
+- id: 1579031201129
+  fields:
+    Front: |
+      CET-02.02-03 Exercise:
+      Explain the meaning of each of the following.
+      (a) $\lim _{x \rightarrow-3} f(x)=\infty$
+      (b) $\lim _{x \rightarrow 4^{+}} f(x)=-\infty$
+    Back: |
+      (a) $\lim _{x \rightarrow-3} f(x)=\infty$ means that the values of $f(x)$ can be made arbitrarily large (as large as we please) by taking $x$ sufficiently close to $-3$ (but not equal to $-3$ ).
+
+      (b) $\lim _{x \rightarrow 4^{+}} f(x)=-\infty$ means that the values of $f(x)$ can be made arbitrarily large negative by taking $x$ sufficiently close to 4 through values larger than 4.
+    Annotations: ''
+  tags: []
+- id: 1579031390780
+  media:
+  - path: ¢{file_dir}/images/CET-02.02-04.Xs.1.jpg
+  fields:
+    Front: |
+      CET-02.02-04 Exercise:
+      Use the given graph of $f$ to state the value of each quantity, if it exists. If it does not exist, explain why.
+      (a) $\lim _{x \rightarrow 2^{-}} f(x)$
+      (b) $\lim _{x \rightarrow 2^{+}} f(x)$
+      (c) $\lim _{x \rightarrow 2} f(x)$
+      (d) $f(2)$
+      (e) $\lim _{x \rightarrow 4} f(x)$
+      (f) $f(4)$
+      <p align="center">
+      ![](CET-02.02-04.Xs.1.jpg)
+      </p>
+    Back: |
+      (a) As $x$ approaches 2 from the left, the values of $f(x)$ approach $3,$ so $\lim _{x \rightarrow 2^{-}} f(x)=3$.
+      (b) As $x$ approaches 2 from the right, the values of $f(x)$ approach $1,$ so $\lim _{x \rightarrow 2^{+}} f(x)=1$.
+      (c) $\lim _{x \rightarrow 2} f(x)$ does not exist since the left-hand limit does not equal the right-hand limit.
+      (d) When $x=2,$ $y=3,$ so $f(2)=3$.
+      (e) As $x$ approaches $4,$ the values of $f(x)$ approach $4,$ so $\lim _{x \rightarrow 4} f(x)=4$.
+      (f) There is no value of $f(x)$ when $x=4,$ so $f(4)$ does not exist.
+    Annotations: ''
+  tags: []
+- id: 1579031595005
+  media:
+  - path: ¢{file_dir}/images/CET-02.02-05.Xs.1.jpg
+  fields:
+    Front: |
+      CET-02.02-05 Exercise:
+      For the function $f$ whose graph is given, state the value of each quantity, if it exists. If it does not exist, explain why.
+      (a) $\lim _{x \rightarrow 1} f(x)$
+      (b) $\lim _{x \rightarrow 3^{-}} f(x)$
+      (c) $\lim _{x \rightarrow 3^{+}} f(x)$
+      (d) $\lim _{x \rightarrow 3} f(x)$
+      (e) $f(3)$
+      <p align="center">
+      ![](CET-02.02-05.Xs.1.jpg)
+      </p>
+    Back: |
+      (a) As $x$ approaches $1,$ the values of $f(x)$ approach $2,$ so $\lim _{x \rightarrow 1} f(x)=2$.
+      (b) As $x$ approaches 3 from the left, the values of $f(x)$ approach $1,$ so $\lim _{x \rightarrow 3^{-}} f(x)=1$.
+      (c) As $x$ approaches 3 from the right, the values of $f(x)$ approach $4,$ so $\lim _{x \rightarrow 3^{+}} f(x)=4$.
+      (d) $\lim _{x \rightarrow 3} f(x)$ does not exist since the left-hand limit does not equal the right-hand limit.
+      (e) When $x=3, y=3,$ so $f(3)=3$.
+    Annotations: ''
+  tags: []
+- id: 1579031812304
+  media:
+  - path: ¢{file_dir}/images/CET-02.02-06.Xs.1.jpg
+  fields:
+    Front: |
+      CET-02.02-06 Exercise:
+      For the function $h$ whose graph is given, state the value of each quantity, if it exists. If it does not exist, explain why.
+      (a) $\lim _{x \rightarrow-3^{-}} h(x)$
+      (b) $\lim _{x \rightarrow-3^{+}} h(x)$
+      (c) $\lim _{x \rightarrow-3} h(x)$
+      (d) $h(-3)$
+      (e) $\lim _{x \rightarrow 0^{-}} h(x)$
+      (f) $\lim _{x \rightarrow 0^{+}} h(x)$
+      (g) $\lim _{x \rightarrow 0} h(x)$
+      (h) $h(0)$
+      (i) $\lim _{x \rightarrow 2} h(x)$
+      (j) $h(2)$
+      (k) $\lim _{x \rightarrow 5^{+}} h(x)$
+      (1) $\lim _{x \rightarrow 5^{-}} h(x)$
+      <p align="center">
+      ![](CET-02.02-06.Xs.1.jpg)
+      </p>
+    Back: |
+      (a) $h(x)$ approaches 4 as $x$ approaches $-3$ from the left, so $\lim _{x \rightarrow-3^{-}} h(x)=4$.
+      (b) $h(x)$ approaches 4 as $x$ approaches $-3$ from the right, so $\lim _{x \rightarrow-3^{+}} h(x)=4$.
+      (c) $\lim _{x \rightarrow-3} h(x)=4$ because the limits in part (a) and part (b) are equal.
+      (d) $h(-3)$ is not defined, so it doesn't exist.
+      (e) $h(x)$ approaches 1 as $x$ approaches 0 from the left, so $\lim _{x \rightarrow 0^{-}} h(x)=1$.
+      (f) $h(x)$ approaches $-1$ as $x$ approaches 0 from the right, so $\lim _{x \rightarrow 0^{+}} h(x)=-1$.
+      (g) $\lim _{x \rightarrow 0} h(x)$ does not exist because the limits in part (e) and part (f) are not equal.
+      (h) $h(0)=1$ since the point $(0,1)$ is on the graph of $h$.
+      (i) since $\lim _{x \rightarrow 2^{-}} h(x)=2$ and $\lim _{x \rightarrow 2^{+}} h(x)=2,$ we have $\lim _{x \rightarrow 2} h(x)=2$.
+      (j) $h(2)$ is not defined, so it doesn't exist.
+      (k) $h(x)$ approaches 3 as $x$ approaches 5 from the right, so $\lim _{x \rightarrow 5^{+}} h(x)=3$.
+      (1) $h(x)$ does not approach any one number as $x$ approaches 5 from the left, so $\lim _{x \rightarrow 5^{-}} h(x)$ does not exist.
+    Annotations: ''
+  tags: []
+- id: 1579032061279
+  media:
+  - path: ¢{file_dir}/images/CET-02.02-07.Xs.1.jpg
+  fields:
+    Front: |
+      CET-02.02-07 Exercise:
+      For the function $g$ whose graph is given, state the value of each quantity, if it exists. If it does not exist, explain why.
+      (a) $\lim _{t \rightarrow 0^{-}} g(t)$
+      (b) $\lim _{t \rightarrow 0^{+}} g(t)$
+      (c) $\lim _{t \rightarrow 0} g(t)$
+      (d) $\lim _{t \rightarrow 2^{-}} g(t)$
+      (e) $\lim _{t \rightarrow 2^{+}} g(t)$
+      (f) $\lim _{t \rightarrow 2} g(t)$
+      (g) $g(2)$
+      (h) $\lim _{t \rightarrow 4} g(t)$
+      <p align="center">
+      ![](CET-02.02-07.Xs.1.jpg)
+      </p>
+    Back: |
+      (a) $\lim _{t \rightarrow 0^{-}} g(t)=-1$
+      (b) $\lim _{t \rightarrow 0^{+}} g(t)=-2$
+      (c) $\lim _{t \rightarrow 0} g(t)$ does not exist because the limits in part (a) and part (b) are not equal.
+      (d) $\lim _{t \rightarrow 2^{-}} g(t)=2$
+      (e) $\lim _{t \rightarrow 2^{+}} g(t)=0$
+      (f) $\lim _{t \rightarrow 2} g(t)$ does not exist because the limits in part (d) and part (e) are not equal.
+      (g) $g(2)=1$
+      (h) $\lim _{t \rightarrow 4} g(t)=3$
+    Annotations: ''
+  tags: []
+- id: 1579032224004
+  media:
+  - path: ¢{file_dir}/images/CET-02.02-08.Xs.1.jpg
+  fields:
+    Front: |
+      CET-02.02-08 Exercise:
+      For the function $A$ whose graph is shown, state the following.
+      (a) $\lim _{x \rightarrow-3} A(x)$
+      (b) $\lim _{x \rightarrow 2^{-}} A(x)$
+      (c) $\lim _{x \rightarrow 2^{+}} A(x)$
+      (d) $\lim _{x \rightarrow-1} A(x)$
+      (e) The equations of the vertical asymptotes
+      <p align="center">
+      ![](CET-02.02-08.Xs.1.jpg)
+      </p>
+    Back: |
+      (a) $\lim _{x \rightarrow-3} A(x)=\infty$
+      (b) $\lim _{x \rightarrow 2} A(x)$ does not exist.
+      (c) $\lim _{x \rightarrow 2^{-}} A(x)=-\infty$
+      (d) $\lim _{x \rightarrow 2^{+}} A(x)=\infty$
+      (e) $\lim _{x \rightarrow-1} A(x)=-\infty$
+      (f) The equations of the vertical asymptotes are $x=-3, x=-1$ and $x=2$.
+    Annotations: ''
+  tags: []
+- id: 1579032352679
+  media:
+  - path: ¢{file_dir}/images/CET-02.02-09.Xs.1.jpg
+  fields:
+    Front: |
+      CET-02.02-09 Exercise:
+      For the function $f$ whose graph is shown, state the following.
+      (a) $\lim _{x \rightarrow-7} f(x)$
+      (b) $\lim _{x \rightarrow-3} f(x)$
+      (c) $\lim _{x \rightarrow 0} f(x)$
+      (d) $\lim _{x \rightarrow 6^{-}} f(x)$
+      (e) $\lim _{x \rightarrow 6^{+}} f(x)$
+      (f) The equations of the vertical asymptotes.
+      <p align="center">
+      ![](CET-02.02-09.Xs.1.jpg)
+      </p>
+    Back: |
+      (a) $\lim _{x \rightarrow-7} f(x)=-\infty$
+      (b) $\lim _{x \rightarrow-3} f(x)=\infty$
+      (c) $\lim _{x \rightarrow 0} f(x)=\infty$
+      (d) $\lim _{x \rightarrow 6^{-}} f(x)=-\infty$
+      (e) $\lim _{x \rightarrow 6^{+}} f(x)=\infty$
+      (f) The equations of the vertical asymptotes are $x=-7, x=-3, x=0,$ and $x=6$.
+    Annotations: ''
+  tags: []
+- id: 1579032526303
+  media:
+  - path: ¢{file_dir}/images/CET-02.02-10.Xs.1.jpg
+  fields:
+    Front: |
+      CET-02.02-10 Exercise:
+      A patient receives a 150-mg injection of a drug every 4 hours. The graph shows the amount $f(t)$ of the drug in the bloodstream after $t$ hours. Find
+      $$
+      \lim _{t \rightarrow 12^{-}} f(t) \quad \text { and } \quad \lim _{t \rightarrow 12^{+}} f(t)
+      $$ and explain the significance of these one-sided limits.
+      <p align="center">
+      ![](CET-02.02-10.Xs.1.jpg)
+      </p>
+    Back: |
+      $\lim _{t \rightarrow 12^{-}} f(t)=150 \text{ mg}$ and $\lim _{t \rightarrow 12^{+}} f(t)=300 \text{ mg} .$ These limits show that there is an abrupt change in the amount of drug in the patient's bloodstream at $t=12 \text{ h} .$ The left-hand limit represents the amount of the drug just before the fourth injection. The right-hand limit represents the amount of the drug just after the fourth injection.
+    Annotations: ''
+  tags: []
+- id: 1579032713504
+  media:
+  - path: ¢{file_dir}/images/CET-02.02-11.Xs.1.jpg
+  fields:
+    Front: |
+      CET-02.02-11 Exercise:
+      Sketch the graph of the function and use it to determine the values of $a$ for which $\lim _{x \rightarrow a} f(x)$ exists.
+      $$
+      f(x)=\left\{\begin{array}{ll}
+      {1+x} & {\text { if } x<-1} \\
+      {x^{2}} & {\text { if }-1 \leqslant x<1} \\
+      {2-x} & {\text { if } x \geqslant 1}
+      \end{array}\right.
+      $$
+    Back: |
+      From the graph of
+      $$
+      f(x)=\left\{\begin{array}{ll}
+      {1+x} & {\text { if } x<-1} \\
+      {x^{2}} & {\text { if }-1 \leq x<1} \\
+      {2-x} & {\text { if } x \geq 1}
+      \end{array}\right.
+      $$ we see that $\lim _{x \rightarrow a} f(x)$ exists for all $a$ except $a=-1 .$
+      <p align="center">
+      ![](CET-02.02-11.Xs.1.jpg)
+      </p>
+      Notice that the right and left limits are different at $a=-1$.
+    Annotations: ''
+  tags: []
+- id: 1579032881329
+  media:
+  - path: ¢{file_dir}/images/CET-02.02-12.Xs.1.jpg
+  fields:
+    Front: |
+      CET-02.02-12 Exercise:
+      Sketch the graph of the function and use it to determine the values of $a$ for which $\lim _{x \rightarrow a} f(x)$ exists.
+      $$
+      f(x)=\left\{\begin{array}{ll}
+      {1+\sin x} & {\text { if } x<0} \\
+      {\cos x} & {\text { if } 0 \leqslant x \leqslant \pi} \\
+      {\sin x} & {\text { if } x>\pi}
+      \end{array}\right.
+      $$
+    Back: |
+      From the graph of
+      $$
+      f(x)=\left\{\begin{array}{ll}
+      {1+\sin x} & {\text { if } x<0} \\
+      {\cos x} & {\text { if } 0 \leq x \leq \pi} \\
+      {\sin x} & {\text { if } x>\pi}
+      \end{array}\right.
+      $$ we see that $\lim _{x \rightarrow a} f(x)$ exists for all $a$ except $a=\pi .$
+      <p align="center">
+      ![](CET-02.02-12.Xs.1.jpg)
+      </p>
+      Notice that the right and left limits are different at $a=\pi$.
+    Annotations: ''
+  tags: []
+- id: 1579033076229
+  media:
+  - path: ¢{file_dir}/images/CET-02.02-13.Xs.1.jpg
+  fields:
+    Front: |
+      CET-02.02-13 Exercise:
+      Use the graph of the function $f$ to state the value of each limit, if it exists. If it does not exist, explain why.
+      (a) $\lim _{x \rightarrow 0^{-}} f(x)$
+      (b) $\lim _{x \rightarrow 0^{+}} f(x)$
+      (c) $\lim _{x \rightarrow 0} f(x)$
+      $$
+      f(x)=\frac{1}{1+e^{1 / x}}
+      $$
+    Back: |
+      (a) $\lim _{x \rightarrow 0^{-}} f(x)=1$
+      (b) $\lim _{x \rightarrow 0^{+}} f(x)=0$
+      (c) $\lim _{x \rightarrow 0} f(x)$ does not exist because the limits in part (a) and part (b) are not equal.
+      <p align="center">
+      ![](CET-02.02-13.Xs.1.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1579033272604
+  media:
+  - path: ¢{file_dir}/images/CET-02.02-14.Xs.1.jpg
+  fields:
+    Front: |
+      CET-02.02-14 Exercise:
+      Use the graph of the function $f$ to state the value of each limit, if it exists. If it does not exist, explain why.
+      (a) $\lim _{x \rightarrow 0^{-}} f(x)$
+      (b) $\lim _{x \rightarrow 0^{+}} f(x)$
+      (c) $\lim _{x \rightarrow 0} f(x)$
+      $$
+      f(x)=\frac{x^{2}+x}{\sqrt{x^{3}+x^{2}}}
+      $$
+    Back: |
+      (a) $\lim _{x \rightarrow 0^{-}} f(x)=-1$
+      (b) $\lim _{x \rightarrow 0^{+}} f(x)=1$
+      (c) $\lim _{x \rightarrow 0} f(x)$ does not exist because the limits in part (a) and part (b) are not equal.
+      <p align="center">
+      ![](CET-02.02-14.Xs.1.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1579033497303
+  media:
+  - path: ¢{file_dir}/images/CET-02.02-15.Xs.1.jpg
+  fields:
+    Front: |
+      CET-02.02-15 Exercise:
+      Sketch the graph of an example of a function $f$ that satisfies all of the given conditions.
+      $$
+      \lim _{x \rightarrow 0^{-}} f(x)=-1, \quad \lim _{x \rightarrow 0^{+}} f(x)=2, \quad f(0)=1
+      $$
+    Back: |
+      $ $<p align="center">
+      ![](CET-02.02-15.Xs.1.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1579033661729
+  media:
+  - path: ¢{file_dir}/images/CET-02.02-16.Xs.1.jpg
+  fields:
+    Front: |
+      CET-02.02-16 Exercise:
+      Sketch the graph of an example of a function $f$ that satisfies all of the given conditions.
+      $\lim _{x \rightarrow 0} f(x)=1,$ $\lim _{x \rightarrow 3^{-}} f(x)=-2,$ $\lim _{x \rightarrow 3^{+}} f(x)=2,$ $f(0)=-1,$ $f(3)=1$
+    Back: |
+      $ $<p align="center">
+      ![](CET-02.02-16.Xs.1.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1579033957729
+  media:
+  - path: ¢{file_dir}/images/CET-02.02-17.Xs.1.jpg
+  fields:
+    Front: |
+      CET-02.02-17 Exercise:
+      Sketch the graph of an example of a function $f$ that satisfies all of the given conditions.
+      $\lim _{x \rightarrow 3^{+}} f(x)=4,$ $\lim _{x \rightarrow 3^{-}} f(x)=2,$ $\lim _{x \rightarrow-2} f(x)=2,$ $f(3)=3,$ $f(-2)=1$
+    Back: |
+      $ $<p align="center">
+      ![](CET-02.02-17.Xs.1.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1579034105204
+  media:
+  - path: ¢{file_dir}/images/CET-02.02-18.Xs.1.jpg
+  fields:
+    Front: |
+      CET-02.02-18 Exercise:
+      Sketch the graph of an example of a function $f$ that satisfies all of the given conditions.
+      $\lim _{x \rightarrow 0^{-}} f(x)=2,$ $\lim _{x \rightarrow 0^{+}} f(x)=0,$ $\lim _{x \rightarrow 4^{-}} f(x)=3,$ $\lim _{x \rightarrow 4^{+}} f(x)=0,$ $f(0)=2,$ $f(4)=1$
+    Back: |
+      $ $<p align="center">
+      ![](CET-02.02-18.Xs.1.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1579034775303
+  fields:
+    Front: |
+      CET-02.02-19 Exercise:
+      Guess the value of the limit (if it exists) by evaluating the function at the given numbers (correct to six decimal places).
+      $\lim _{x \rightarrow 3} \frac{x^{2}-3 x}{x^{2}-9}$,
+      $x=3.1,3.05,3.01,3.001,3.0001,$
+      $2.9,2.95,2.99,2.999,2.9999$
+    Back: |
+      For $f(x)=\frac{x^{2}-3 x}{x^{2}-9}$:
+
+      $\begin{array}{|c|c|}\hline x & {f(x)} \\ \hline 3.1 & {0.508197} \\ {3.05} & {0.504132} \\ {3.01} & {0.500832} \\ {3.001} & {0.500083} \\ {3.0001} & {0.500008} \\ \hline\end{array}$ $\begin{array}{|c|c|}\hline x & {f(x)} \\ \hline 2.9 & {0.491525} \\ {2.95} & {0.495798} \\ {2.99} & {0.499165} \\ {2.999} & {0.499917} \\ {2.9999} & {0.499992} \\ \hline\end{array}$
+
+      It appears that $\lim _{x \rightarrow 3} \frac{x^{2}-3 x}{x^{2}-9}=\frac{1}{2}$.
+    Annotations: ''
+  tags: []
+- id: 1579035149628
+  fields:
+    Front: |
+      CET-02.02-20 Exercise:
+      Guess the value of the limit (if it exists) by evaluating the function at the given numbers (correct to six decimal places).
+      $\lim _{x \rightarrow-3} \frac{x^{2}-3 x}{x^{2}-9}$,
+      $x=-2.5,-2.9,-2.95,-2.99,-2.999,-2.9999,$
+      $-3.5,-3.1,-3.05,-3.01,-3.001,-3.0001$
+    Back: |
+      For $f(x)=\frac{x^{2}-3 x}{x^{2}-9}$:
+
+      $\begin{array}{|c|r|}\hline x & {f(x)} \\ \hline-2.5 & {-5} \\ {-2.9} & {-29} \\ {-2.95} & {-59} \\ {-2.99} & {-299} \\ {-2.999} & {-2999} \\ {-2.9999} & {-29,999} \\ \hline\end{array}$ $\begin{array}{|r|r|}\hline x & {f(x)} \\ \hline-3.5 & {7} \\ {-3.1} & {31} \\ {-3.05} & {61} \\ {-3.01} & {301} \\ {-3.001} & {3001} \\ {-3.0001} & {30,001} \\ \hline\end{array}$
+
+      It appears that $\lim _{x \rightarrow-3^{+}} f(x)=-\infty$ and that $\lim _{x \rightarrow-3^{-}} f(x)=\infty,$ so $\lim _{x \rightarrow-3} \frac{x^{2}-3 x}{x^{2}-9}$ does not exist.
+    Annotations: ''
+  tags: []
+- id: 1579035349878
+  fields:
+    Front: |
+      CET-02.02-21 Exercise:
+      Guess the value of the limit (if it exists) by evaluating the function at the given numbers (correct to six decimal places).
+      $\lim _{t \rightarrow 0} \frac{e^{5 t}-1}{t},$ $t=\pm 0.5,$ $\pm 0.1,$ $\pm 0.01,$ $\pm 0.001,$ $\pm 0.0001$
+    Back: |
+      For $f(t)=\frac{e^{5 t}-1}{t}$:
+
+      $\begin{array}{|c|c|}\hline t & {f(t)} \\ \hline 0.5 & {22.364988} \\ {0.1} & {6.487213} \\ {0.01} & {5.127110} \\ {0.001} & {5.012521} \\ {0.0001} & {5.001250} \\ \hline\end{array}$ $\begin{array}{|r|r|}\hline t & {f(t)} \\ \hline-0.5 & {1.835830} \\ {-0.1} & {3.934693} \\ {-0.01} & {4.877058} \\ {-0.001} & {4.987521} \\ {-0.0001} & {4.998750} \\ \hline\end{array}$
+
+      It appears that $\lim _{t \rightarrow 0} \frac{e^{5 t}-1}{t}=5$.
+    Annotations: ''
+  tags: []
+- id: 1579035620653
+  fields:
+    Front: |
+      CET-02.02-22 Exercise:
+      Guess the value of the limit (if it exists) by evaluating the function at the given numbers (correct to six decimal places).
+      $\lim _{h \rightarrow 0} \frac{(2+h)^{5}-32}{h}$,
+      $h=\pm 0.5,$ $\pm 0.1,$ $\pm 0.01,$ $\pm 0.001,$ $\pm 0.0001$
+    Back: |
+      For $f(h)=\frac{(2+h)^{5}-32}{h}$:
+
+      $\begin{array}{|c|c|}\hline h & {f(h)} \\ \hline 0.5 & {131.312500} \\ {0.1} & {88.410100} \\ {0.01} & {80.804010} \\ {0.001} & {80.080040} \\ {0.0001} & {80.008000} \\ \hline\end{array}$ $\begin{array}{|r|r|}\hline h & {f(h)} \\ \hline-0.5 & {48.812500} \\ {-0.1} & {72.390100} \\ {-0.01} & {79.203990} \\ {-0.001} & {79.920040} \\ {-0.0001} & {79.992000} \\ \hline\end{array}$
+
+      It appears that $\lim _{h \rightarrow 0} \frac{(2+h)^{5}-32}{h}=80$.
+    Annotations: ''
+  tags: []
+- id: 1579035897878
+  media:
+  - path: ¢{file_dir}/images/CET-02.02-23.Xs.1.jpg
+  fields:
+    Front: |
+      CET-02.02-23 Exercise:
+      Use a table of values to estimate the value of the limit. If you have a graphing device, use it to confirm your result graphically.
+      $\lim _{x \rightarrow 4} \frac{\ln x-\ln 4}{x-4}$
+    Back: |
+      For $f(x)=\frac{\ln x-\ln 4}{x-4}$:
+
+      $\begin{array}{|c|c|}\hline x & {f(x)} \\ \hline 3.9 & {0.253178} \\ {3.99} & {0.250313} \\ {3.999} & {0.250031} \\ {3.9999} & {0.250003} \\ \hline\end{array}$ $\begin{array}{|l|l|}\hline x & {f(x)} \\ \hline 4.1 & {0.246926} \\ {4.01} & {0.249688} \\ {4.001} & {0.249969} \\ {4.0001} & {0.249997} \\ \hline\end{array}$
+
+      It appears that $\lim _{x \rightarrow 4} f(x)=0.25 .$ The graph confirms that result.
+      <p align="center">
+      ![](CET-02.02-23.Xs.1.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1579036061605
+  media:
+  - path: ¢{file_dir}/images/CET-02.02-24.Xs.1.jpg
+  fields:
+    Front: |
+      CET-02.02-24 Exercise:
+      Use a table of values to estimate the value of the limit. If you have a graphing device, use it to confirm your result graphically.
+      $\lim _{p \rightarrow-1} \frac{1+p^{9}}{1+p^{15}}$
+    Back: |
+      For $f(p)=\frac{1+p^{9}}{1+p^{15}}$:
+
+      $\begin{array}{|c|c|}\hline p & {f(p)} \\ \hline-1.1 & {0.427397} \\ {-1.01} & {0.582008} \\ {-1.001} & {0.598200} \\ {-1.0001} & {0.599820} \\ \hline\end{array}$ $\begin{array}{|c|c|}\hline p & {f(p)} \\ \hline-0.9 & {0.771405} \\ {-0.99} & {0.617992} \\ {-0.999} & {0.601800} \\ {-0.9999} & {0.600180} \\ \hline\end{array}$
+
+      It appears that $\lim _{p \rightarrow-1} f(p)=0.6 .$ The graph confirms that result.
+      <p align="center">
+      ![](CET-02.02-24.Xs.1.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1579036227128
+  media:
+  - path: ¢{file_dir}/images/CET-02.02-25.Xs.1.jpg
+  fields:
+    Front: |
+      CET-02.02-25 Exercise:
+      Use a table of values to estimate the value of the limit. If you have a graphing device, use it to confirm your result graphically.
+      $\lim _{\theta \rightarrow 0} \frac{\sin 3 \theta}{\tan 2 \theta}$
+    Back: |
+      For $f(\theta)=\frac{\sin 3 \theta}{\tan 2 \theta}$:
+
+      $\begin{array}{|l|l|}\hline \theta & {f(\theta)} \\ \hline \pm 0.1 & {1.457847} \\ {\pm 0.01} & {1.499575} \\ {\pm 0.001} & {1.499996} \\ {\pm 0.0001} & {1.500000} \\ \hline\end{array}$
+
+      It appears that $\lim _{\theta \rightarrow 0} \frac{\sin 3 \theta}{\tan 2 \theta}=1.5$. The graph confirms that result.
+      <p align="center">
+      ![](CET-02.02-25.Xs.1.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1579036398804
+  media:
+  - path: ¢{file_dir}/images/CET-02.02-26.Xs.1.jpg
+  fields:
+    Front: |
+      CET-02.02-26 Exercise:
+      Use a table of values to estimate the value of the limit. If you have a graphing device, use it to confirm your result graphically.
+      $\lim _{t \rightarrow 0} \frac{5^{t}-1}{t}$
+    Back: |
+      For $f(t)=\frac{5^{t}-1}{t}$:
+
+      $\begin{array}{|c|c|}\hline t & {f(t)} \\ \hline 0.1 & {1.746189} \\ {0.01} & {1.622459} \\ {0.001} & {1.610734} \\ {0.0001} & {1.609567} \\ \hline\end{array}$ $\begin{array}{|c|c|}\hline t & {f(t)} \\ \hline-0.1 & {1.486601} \\ {-0.01} & {1.596556} \\ {-0.001} & {1.608143} \\ {-0.0001} & {1.609308} \\ \hline\end{array}$
+
+      It appears that $\lim _{t \rightarrow 0} f(t) \approx 1.6094 .$ The graph confirms that result.
+      <p align="center">
+      ![](CET-02.02-26.Xs.1.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1579036604678
+  media:
+  - path: ¢{file_dir}/images/CET-02.02-27.Xs.1.jpg
+  fields:
+    Front: |
+      CET-02.02-27 Exercise:
+      Use a table of values to estimate the value of the limit. If you have a graphing device, use it to confirm your result graphically.
+      $\lim _{x \rightarrow 0^{+}} x^{x}$
+    Back: |
+      For $f(x)=x^{x}$:
+
+      $\begin{array}{|c|c|}\hline x & {f(x)} \\ \hline 0.1 & {0.794328} \\ {0.01} & {0.954993} \\ {0.001} & {0.993116} \\ {0.0001} & {0.999079} \\ \hline\end{array}$
+
+      It appears that $\lim _{x \rightarrow 0^{+}} f(x)=1$. The graph confirms that result.
+      <p align="center">
+      ![](CET-02.02-27.Xs.1.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1579036852879
+  media:
+  - path: ¢{file_dir}/images/CET-02.02-28.Xs.1.jpg
+  fields:
+    Front: |
+      CET-02.02-28 Exercise:
+      Use a table of values to estimate the value of the limit. If you have a graphing device, use it to confirm your result graphically.
+      $\lim _{x \rightarrow 0^{+}} x^{2} \ln x$
+    Back: |
+      For $f(x)=x^{2} \ln x$:
+
+      $\begin{array}{|c|c|}\hline x & {f(x)} \\ \hline 0.1 & {-0.023026} \\ {0.01} & {-0.000461} \\ {0.001} & {-0.000007} \\ {0.0001} & {-0.000000} \\ \hline\end{array}$
+
+      It appears that $\lim _{x \rightarrow 0^{+}} f(x)=0$. The graph confirms that result.
+      <p align="center">
+      ![](CET-02.02-28.Xs.1.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1579037196079
+  media:
+  - path: ¢{file_dir}/images/CET-02.02-29.Xs.1.jpg
+  - path: ¢{file_dir}/images/CET-02.02-29.Xs.2.jpg
+  fields:
+    Front: |
+      CET-02.02-29 Exercise:
+      (a) By graphing the function $f(x)=(\cos 2 x-\cos x) / x^{2}$ and zooming in toward the point where the graph crosses the $y$ -axis, estimate the value of $\lim _{x \rightarrow 0} f(x)$.
+      (b) Check your answer in part (a) by evaluating $f(x)$ for values of $x$ that approach $0 .$
+    Back: |
+      (a) From the graphs, it seems that $\lim _{x \rightarrow 0} \frac{\cos 2 x-\cos x}{x^{2}}=-1.5$.
+      <p align="center">
+      ![](CET-02.02-29.Xs.1.jpg)
+      ![](CET-02.02-29.Xs.2.jpg)
+      </p>
+      (b)
+      $\begin{array}{|l|l|}\hline x & {f(x)} \\ \hline \pm 0.1 & {-1.493759} \\ {\pm 0.01} & {-1.499938} \\ {\pm 0.001} & {-1.499999} \\ {\pm 0.0001} & {-1.500000} \\ \hline\end{array}$
+    Annotations: ''
+  tags: []
+- id: 1579037487933
+  media:
+  - path: ¢{file_dir}/images/CET-02.02-30.Xs.1.jpg
+  - path: ¢{file_dir}/images/CET-02.02-30.Xs.2.jpg
+  fields:
+    Front: |
+      CET-02.02-30 Exercise:
+      (a) Estimate the value of
+      $$
+      \lim _{x \rightarrow 0} \frac{\sin x}{\sin \pi x}
+      $$ by graphing the function $f(x)=(\sin x) /(\sin \pi x)$. State your answer correct to two decimal places.
+
+      (b) Check your answer in part (a) by evaluating $f(x)$ for values of $x$ that approach $0 .$
+    Back: |
+      (a) From the graphs, it seems that $\lim _{x \rightarrow 0} \frac{\sin x}{\sin \pi x}=0.32$.
+      <p align="center">
+      ![](CET-02.02-30.Xs.1.jpg)
+      ![](CET-02.02-30.Xs.2.jpg)
+      </p>
+      (b)
+      $\begin{array}{|c|c|}\hline x & {f(x)} \\ \hline \pm 0.1 & {0.323068} \\ {\pm 0.01} & {0.318357} \\ {\pm 0.001} & {0.318310} \\ {\pm 0.0001} & {0.318310} \\ \hline\end{array}$
+
+      Later we will be able to show that the exact value is $\frac{1}{\pi}$.
+    Annotations: ''
+  tags: []
+- id: 1579037607504
+  fields:
+    Front: |
+      CET-02.02-31 Exercise:
+      Determine the infinite limit.
+      $$
+      \lim _{x \rightarrow 5^{+}} \frac{x+1}{x-5}
+      $$
+    Back: |
+      $\lim _{x \rightarrow 5^{+}} \frac{x+1}{x-5}=\infty$ since the numerator is positive and the denominator approaches 0 from the positive side as $x \rightarrow 5^{+}$.
+    Annotations: ''
+  tags: []
+- id: 1579037886504
+  fields:
+    Front: |
+      CET-02.02-32 Exercise:
+      Determine the infinite limit.
+      $$
+      \lim _{x \rightarrow 5^{-}} \frac{x+1}{x-5}
+      $$
+    Back: |
+      $\lim _{x \rightarrow 5^{-}} \frac{x+1}{x-5}=-\infty$ since the numerator is positive and the denominator approaches 0 from the negative side as $x \rightarrow 5^{-}$.
+    Annotations: ''
+  tags: []
+- id: 1579038162178
+  fields:
+    Front: |
+      CET-02.02-33 Exercise:
+      Determine the infinite limit.
+      $$
+      \lim _{x \rightarrow 1} \frac{2-x}{(x-1)^{2}}
+      $$
+    Back: |
+      $\lim _{x \rightarrow 1} \frac{2-x}{(x-1)^{2}}=\infty$ since the numerator is positive and the denominator approaches 0 through positive values as $x \rightarrow 1$.
+    Annotations: ''
+  tags: []
+- id: 1579038186706
+  fields:
+    Front: |
+      CET-02.02-34 Exercise:
+      Determine the infinite limit.
+      $$
+      \lim _{x \rightarrow 3^{-}} \frac{\sqrt{x}}{(x-3)^{5}}
+      $$
+    Back: |
+      $\lim _{x \rightarrow 3^{-}} \frac{\sqrt{x}}{(x-3)^{5}}=-\infty$ since the numerator is positive and the denominator approaches 0 from the negative side as $x \rightarrow 3^{-}$.
+    Annotations: ''
+  tags: []
+- id: 1579038290579
+  fields:
+    Front: |
+      CET-02.02-35 Exercise:
+      Determine the infinite limit.
+      $$
+      \lim _{x \rightarrow 3^{+}} \ln \left(x^{2}-9\right)
+      $$
+    Back: |
+      Let $t=x^{2}-9 .$ Then as $x \rightarrow 3^{+}, t \rightarrow 0^{+},$ and $\lim _{x \rightarrow 3^{+}} \ln \left(x^{2}-9\right)=\lim _{t \rightarrow 0^{+}} \ln t=-\infty$.
+    Annotations: ''
+  tags: []
+- id: 1579038380179
+  fields:
+    Front: |
+      CET-02.02-36 Exercise:
+      Determine the infinite limit.
+      $$
+      \lim _{x \rightarrow 0^{+}} \ln (\sin x)
+      $$
+    Back: |
+      $\lim _{x \rightarrow 0^{+}} \ln (\sin x)=-\infty$ since $\sin x \rightarrow 0^{+}$ as $x \rightarrow 0^{+}$.
+    Annotations: ''
+  tags: []
+- id: 1579038524854
+  fields:
+    Front: |
+      CET-02.02-37 Exercise:
+      Determine the infinite limit.
+      $$
+      \lim _{x \rightarrow(\pi / 2)^{+}} \frac{1}{x} \sec x
+      $$
+    Back: |
+      $\lim _{x \rightarrow(\pi / 2)+} \frac{1}{x} \sec x=-\infty$ since $\frac{1}{x}$ is positive and $\sec x \rightarrow-\infty$ as $x \rightarrow(\pi / 2)^{+}$.
+    Annotations: ''
+  tags: []
+- id: 1579038633829
+  fields:
+    Front: |
+      CET-02.02-38 Exercise:
+      Determine the infinite limit.
+      $$
+      \lim _{x \rightarrow \pi^{-}} \cot x
+      $$
+    Back: |
+      $\lim _{x \rightarrow \pi^{-}} \cot x=\lim _{x \rightarrow \pi^{-}} \frac{\cos x}{\sin x}=-\infty$ since the numerator is negative and the denominator approaches 0 through positive values as $x \rightarrow \pi^{-}$.
+    Annotations: ''
+  tags: []
+- id: 1579038717528
+  fields:
+    Front: |
+      CET-02.02-39 Exercise:
+      Determine the infinite limit.
+      $$
+      \lim _{x \rightarrow 2 \pi^{-}} x \csc x
+      $$
+    Back: |
+      $\lim _{x \rightarrow 2 \pi^{-}} x \csc x=\lim _{x \rightarrow 2 \pi^{-}} \frac{x}{\sin x}=-\infty$ since the numerator is positive and the denominator approaches 0 through negative values as $x \rightarrow 2 \pi^{-}$.
+    Annotations: ''
+  tags: []
+- id: 1579038791155
+  fields:
+    Front: |
+      CET-02.02-40 Exercise:
+      Determine the infinite limit.
+      $$
+      \lim _{x \rightarrow 2^{-}} \frac{x^{2}-2 x}{x^{2}-4 x+4}
+      $$
+    Back: |
+      $\lim _{x \rightarrow 2^{-}} \frac{x^{2}-2 x}{x^{2}-4 x+4}=\lim _{x \rightarrow 2^{-}} \frac{x(x-2)}{(x-2)^{2}}=\lim _{x \rightarrow 2^{-}} \frac{x}{x-2}=-\infty$ since the numerator is positive and the denominator approaches 0 through negative values as $x \rightarrow 2^{-}$.
+    Annotations: ''
+  tags: []
+- id: 1579038891154
+  fields:
+    Front: |
+      CET-02.02-41 Exercise:
+      Determine the infinite limit.
+      $$
+      \lim _{x \rightarrow 2^{+}} \frac{x^{2}-2 x-8}{x^{2}-5 x+6}
+      $$
+    Back: |
+      $\lim _{x \rightarrow 2^{+}} \frac{x^{2}-2 x-8}{x^{2}-5 x+6}=\lim _{x \rightarrow 2^{+}} \frac{(x-4)(x+2)}{(x-3)(x-2)}=\infty$ since the numerator is negative and the denominator approaches 0 through negative values as $x \rightarrow 2^{+}$.
+    Annotations: ''
+  tags: []
+- id: 1579038962004
+  fields:
+    Front: |
+      CET-02.02-42 Exercise:
+      Determine the infinite limit.
+      $$
+      \lim _{x \rightarrow 0^{+}}\left(\frac{1}{x}-\ln x\right)
+      $$
+    Back: |
+      $\lim _{x \rightarrow 0^{+}}\left(\frac{1}{x}-\ln x\right)=\infty$ since $\frac{1}{x} \rightarrow \infty$ and $\ln x \rightarrow-\infty$ as $x \rightarrow 0^{+}$.
+    Annotations: ''
+  tags: []
+- id: 1579039029704
+  fields:
+    Front: |
+      CET-02.02-43 Exercise:
+      $$
+      \lim _{x \rightarrow 0}\left(\ln x^{2}-x^{-2}\right)
+      $$
+      Determine the infinite limit.
+    Back: |
+      $\lim _{x \rightarrow 0}\left(\ln x^{2}-x^{-2}\right)=-\infty$ since $\ln x^{2} \rightarrow-\infty$ and $x^{-2} \rightarrow \infty$ as $x \rightarrow 0$.
+    Annotations: ''
+  tags: []
+- id: 1579039266279
+  media:
+  - path: ¢{file_dir}/images/CET-02.02-44.Xs.1.jpg
+  fields:
+    Front: |
+      CET-02.02-44 Exercise:
+      (a) Find the vertical asymptotes of the function
+      $$
+      y=\frac{x^{2}+1}{3 x-2 x^{2}}
+      $$
+      (b) Confirm your answer to part (a) by graphing the function.
+    Back: |
+      (a) The denominator of $y=\frac{x^{2}+1}{3 x-2 x^{2}}=\frac{x^{2}+1}{x(3-2 x)}$ is equal to zero when $x=0$ and $x=\frac{3}{2}$ (and the numerator is not), so $x=0$ and $x=1.5$ are vertical asymptotes of the function.
+
+      (b)
+      <p align="center">
+      ![](CET-02.02-44.Xs.1.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1579039588780
+  media:
+  - path: ¢{file_dir}/images/CET-02.02-45.Xs.1.jpg
+  fields:
+    Front: |
+      CET-02.02-45 Exercise:
+      Determine $\lim _{x \rightarrow 1^{-}} \frac{1}{x^{3}-1}$ and $\lim _{x \rightarrow 1^{+}} \frac{1}{x^{3}-1}$
+      (a) by evaluating $f(x)=1 /\left(x^{3}-1\right)$ for values of $x$ that approach 1 from the left and from the right,
+      (b) by reasoning as in Example $9,$ and
+      (c) from a graph of $f$.
+    Back: |
+      (a) $f(x)=\frac{1}{x^{3}-1}$.
+      From these calculations, it seems that $\lim _{x \rightarrow 1^{-}} f(x)=-\infty$ and $\lim _{x \rightarrow 1^{+}} f(x)=\infty$.
+
+      $\begin{array}{|l|l|}\hline x & {f(x)} \\ \hline 0.5 & {-1.14} \\ {0.9} & {-3.69} \\ {0.99} & {-33.7} \\ {0.999} & {-333.7} \\ {0.9999} & {-333.7} \\ {0.99999} & {-33,333.7} \\ \hline\end{array}$ $\begin{array}{|l|l|}\hline x & {f(x)} \\ \hline 1.5 & {0.42} \\ {1.1} & {3.02} \\ {1.01} & {33.0} \\ {1.001} & {333.0} \\ {1.0001} & {3333.0} \\ {1.00001} & {33,333.3} \\ \hline\end{array}$
+
+      (b) If $x$ is slightly smaller than $1,$ then $x^{3}-1$ will be a negative number close to $0,$ and the reciprocal of $x^{3}-1,$ that is, $f(x)$ will be a negative number with large absolute value. So $\lim _{x \rightarrow 1^{-}} f(x)=-\infty$.
+
+      If $x$ is slightly larger than $1,$ then $x^{3}-1$ will be a small positive number, and its reciprocal, $f(x),$ will be a large positive number. So $\lim _{x \rightarrow 1^{+}} f(x)=\infty$.
+
+      (c) It appears from the graph of $f$ that
+      $$
+      \lim _{x \rightarrow 1^{-}} f(x)=-\infty \text { and } \lim _{x \rightarrow 1^{+}} f(x)=\infty
+      $$
+      <p align="center">
+      ![](CET-02.02-45.Xs.1.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1579040039779
+  media:
+  - path: ¢{file_dir}/images/CET-02.02-46.Xs.1.jpg
+  - path: ¢{file_dir}/images/CET-02.02-46.Xs.2.jpg
+  fields:
+    Front: |
+      CET-02.02-46 Exercise:
+      (a) By graphing the function $f(x)=(\tan 4 x) / x$ and zooming in toward the point where the graph crosses the $y$ -axis, estimate the value of $\lim _{x \rightarrow 0} f(x)$
+      (b) Check your answer in part (a) by evaluating $f(x)$ for values of $x$ that approach $0 .$
+    Back: |
+      (a) From the graphs, it seems that $\lim _{x \rightarrow 0} \frac{\tan 4 x}{x}=4$.
+      <p align="center">
+      ![](CET-02.02-46.Xs.1.jpg)
+      ![](CET-02.02-46.Xs.2.jpg)
+      </p>
+      (b)
+      $\begin{array}{|c|c|}\hline x & {f(x)} \\ \hline \pm 0.1 & {4.227932} \\ {\pm 0.01} & {4.002135} \\ {\pm 0.001} & {4.000021} \\ {\pm 0.0001} & {4.000000} \\ \hline\end{array}$
+    Annotations: ''
+  tags: []
+- id: 1579040296904
+  media:
+  - path: ¢{file_dir}/images/CET-02.02-47.Xs.1.jpg
+  fields:
+    Front: |
+      CET-02.02-47 Exercise:
+      (a) Estimate the value of the limit $\lim _{x \rightarrow 0}(1+x)^{1 / x}$ to five decimal places. Does this number look familiar?
+      (b) Illustrate part (a) by graphing the function
+      $$
+      y=(1+x)^{1 / x}
+      $$
+    Back: |
+      (a) Let $h(x)=(1+x)^{1 / x}$.
+      $$
+      \begin{array}{|r|l|}
+      \hline x & {h(x)} \\
+      \hline-0.001 & {2.71964} \\
+      {-0.0001} & {2.71842} \\
+      {-0.00001} & {2.71830} \\
+      {-0.000001} & {2.71828} \\
+      {0.00001} & {2.71827} \\
+      {0.0001} & {2.71815} \\
+      {0.001} & {2.71692} \\
+      \hline
+      \end{array}
+      $$
+      It appears that $\lim _{x \rightarrow 0}(1+x)^{1 / x} \approx 2.71828,$ which is approximately $e .$
+
+      (b)
+      <p align="center">
+      ![](CET-02.02-47.Xs.1.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1579040794954
+  media:
+  - path: ¢{file_dir}/images/CET-02.02-48.Xs.1.jpg
+  - path: ¢{file_dir}/images/CET-02.02-48.Xs.2.jpg
+  - path: ¢{file_dir}/images/CET-02.02-48.Xs.3.jpg
+  - path: ¢{file_dir}/images/CET-02.02-48.Xs.4.jpg
+  - path: ¢{file_dir}/images/CET-02.02-48.Xs.5.jpg
+  fields:
+    Front: |
+      CET-02.02-48 Exercise:
+      (a) Graph the function $f(x)=e^{x}+\ln |x-4|$ for $0 \leqslant x \leqslant 5 .$ Do you think the graph is an accurate representation of $f ?$
+      (b) How would you get a graph that represents $f$ better?
+    Back: |
+      (a)
+      <p align="center">
+      ![](CET-02.02-48.Xs.1.jpg)
+      ![](CET-02.02-48.Xs.2.jpg)
+      </p>
+      No, because the calculator-produced graph of $f(x)=e^{x}+\ln |x-4|$ looks like an exponential function, but the graph of $f$ has an infinite discontinuity at $x=4 .$ A second graph, obtained by increasing the numpoints option in Maple, begins to reveal the discontinuity at $x=4$.
+
+      (b) There isn't a single graph that shows all the features of $f .$ Several graphs are needed since $f$ looks like $\ln |x-4|$ for large negative values of $x$ and like $e^{x}$ for $x>5,$ but yet has the infinite discontiuity at $x=4$.
+      <p align="center">
+      ![](CET-02.02-48.Xs.3.jpg)
+      ![](CET-02.02-48.Xs.4.jpg)
+      </p>
+      A hand-drawn graph, though distorted, might be better at revealing the main features of this function.
+      <p align="center">
+      ![](CET-02.02-48.Xs.5.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1579041053280
+  fields:
+    Front: |
+      CET-02.02-49 Exercise:
+      (a) Evaluate the function $f(x)=x^{2}-\left(2^{x} / 1000\right)$ for $x=1,0.8,0.6,0.4,0.2,0.1,$ and $0.05,$ and guess the value of
+      $$
+      \lim _{x \rightarrow 0}\left(x^{2}-\frac{2^{x}}{1000}\right)
+      $$
+      (b) Evaluate $f(x)$ for $x=0.04,0.02,0.01,0.005,0.003$ and $0.001 .$ Guess again.
+    Back: |
+      For $f(x)=x^{2}-\left(2^{x} / 1000\right)$:
+
+      (a)
+      $$
+      \begin{array}{|c|c|}
+      \hline x & {f(x)} \\
+      \hline 1 & {0.998000} \\
+      {0.8} & {0.638259} \\
+      {0.6} & {0.358484} \\
+      {0.4} & {0.158680} \\
+      {0.2} & {0.038851} \\
+      {0.1} & {0.008928} \\
+      {0.05} & {0.001465} \\
+      \hline
+      \end{array}
+      $$ It appears that $\lim _{x \rightarrow 0} f(x)=0$.
+
+      (b)
+      $$
+      \begin{array}{|c|c|}
+      \hline x & {f(x)} \\
+      \hline 0.04 & {0.000572} \\
+      {0.02} & {-0.000614} \\
+      {0.01} & {-0.000907} \\
+      {0.005} & {-0.000978} \\
+      {0.003} & {-0.000993} \\
+      {0.001} & {-0.001000} \\
+      \hline
+      \end{array}
+      $$ It appears that $\lim _{x \rightarrow 0} f(x)=-0.001$.
+    Annotations: ''
+  tags: []
+- id: 1579041528930
+  media:
+  - path: ¢{file_dir}/images/CET-02.02-50.Xs.1.jpg
+  - path: ¢{file_dir}/images/CET-02.02-50.Xs.2.jpg
+  - path: ¢{file_dir}/images/CET-02.02-50.Xs.3.jpg
+  - path: ¢{file_dir}/images/CET-02.02-50.Xs.4.jpg
+  fields:
+    Front: |
+      CET-02.02-50 Exercise:
+      (a) Evaluate $h(x)=(\tan x-x) / x^{3}$ for $x=1,0.5,0.1$
+      $$
+      0.05,0.01, \text { and } 0.005
+      $$
+      (b) Guess the value of $\lim _{x \rightarrow 0} \frac{\tan x-x}{x^{3}}$
+
+      (c) Evaluate $h(x)$ for successively smaller values of $x$ until you finally reach a value of 0 for $h(x) .$ Are you still confident that your guess in part (b) is correct? Explain why you eventually obtained 0 values.
+
+      (d) Graph the function $h$ in the viewing rectangle $[-1,1]$ by $[0,1] .$ Then zoom in toward the point where the graph crosses the $y$ -axis to estimate the limit of $h(x)$ as $x$ approaches $0 .$ Continue to zoom in until you observe distortions in the graph of $h .$ Compare with the results of part (c).
+    Back: |
+      For $h(x)=\frac{\tan x-x}{x^{3}}$:
+
+      (a) $$\begin{array}{|c|c|}\hline x & {h(x)} \\ \hline 1.0 & {0.55740773} \\ {0.5} & {0.37041992} \\ {0.1} & {0.33467209} \\ {0.05} & {0.33366700} \\ {0.01} & {0.33334667} \\ {0.005} & {0.33333667} \\ \hline\end{array}$$
+
+      (b) It seems that $\lim _{x \rightarrow 0} h(x)=\frac{1}{3}$.
+
+      (c) $$\begin{array}{|c|c|}\hline x & {h(x)} \\ \hline 0.001 & {0.33333350} \\ {0.0005} & {0.33333344} \\ {0.0001} & {0.33333000} \\ {0.00005} & {0.33333600} \\ {0.00001} & {0.33300000} \\ {0.000001} & {0.000000000} \\ \hline\end{array}$$
+
+      Here the values will vary from one calculator to another. Every calculator will eventually give false values.
+
+      (d) As in part (c), when we take a small enough viewing rectangle we get incorrect output.
+      <p align="center">
+      ![](CET-02.02-50.Xs.1.jpg)
+      ![](CET-02.02-50.Xs.2.jpg)
+      ![](CET-02.02-50.Xs.3.jpg)
+      ![](CET-02.02-50.Xs.4.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1579041817928
+  media:
+  - path: ¢{file_dir}/images/CET-02.02-51.Xs.1.jpg
+  - path: ¢{file_dir}/images/CET-02.02-51.Xs.2.jpg
+  - path: ¢{file_dir}/images/CET-02.02-51.Xs.3.jpg
+  - path: ¢{file_dir}/images/CET-02.02-51.Xs.4.jpg
+  fields:
+    Front: |
+      CET-02.02-51 Exercise:
+      Graph the function $f(x)=\sin (\pi / x)$ in the viewing rectangle $[-1,1]$ by $[-1,1] .$ Then zoom in toward the origin several times. Comment on the behavior of this function.
+    Back: |
+      No matter how many times we zoom in toward the origin, the graphs of $f(x)=\sin (\pi / x)$ appear to consist of almost-vertical lines. This indicates more and more frequent oscillations as $x \rightarrow 0 .$
+      <p align="center">
+      ![](CET-02.02-51.Xs.1.jpg)
+      ![](CET-02.02-51.Xs.2.jpg)
+      ![](CET-02.02-51.Xs.3.jpg)
+      ![](CET-02.02-51.Xs.4.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1579042000104
+  fields:
+    Front: |
+      CET-02.02-52 Exercise:
+      Consider the function $f(x)=\tan \frac{1}{x}$
+      (a) Show that $f(x)=0$ for $x=\frac{1}{\pi}, \frac{1}{2 \pi}, \frac{1}{3 \pi}, \dots$
+      (b) Show that $f(x)=1$ for $x=\frac{4}{\pi}, \frac{4}{5 \pi}, \frac{4}{9 \pi}, \dots$
+      (c) What can you conclude about $\lim _{x \rightarrow 0^{+}} \tan \frac{1}{x} ?$
+    Back: |
+      (a) For any positive integer $n,$ if $x=\frac{1}{n \pi},$ then $f(x)=\tan \frac{1}{x}=\tan (n \pi)=0 .$ (Remember that the tangent function has period $\pi .$ )
+
+      (b) For any nonnegative number $n,$ if $x=\frac{4}{(4 n+1) \pi},$ then
+      $$
+      f(x)=\tan \frac{1}{x}=\tan \frac{(4 n+1) \pi}{4}=\tan \left(\frac{4 n \pi}{4}+\frac{\pi}{4}\right)=\tan \left(n \pi+\frac{\pi}{4}\right)=\tan \frac{\pi}{4}=1
+      $$
+      (c) From part (a), $f(x)=0$ infinitely often as $x \rightarrow 0 .$ From part (b), $f(x)=1$ infinitely often as $x \rightarrow 0 .$ Thus, $\lim _{x \rightarrow 0} \tan \frac{1}{x}$ does not exist since $f(x)$ does not get close to a fixed number as $x \rightarrow 0$.
+    Annotations: ''
+  tags: []
+- id: 1579042252005
+  media:
+  - path: ¢{file_dir}/images/CET-02.02-53.Xs.1.jpg
+  fields:
+    Front: |
+      CET-02.02-53 Exercise:
+      Use a graph to estimate the equations of all the vertical asymptotes of the curve
+      $$
+      y=\tan (2 \sin x) \quad-\pi \leqslant x \leqslant \pi
+      $$ Then find the exact equations of these asymptotes.
+    Back: |
+      $ $<p align="center">
+      ![](CET-02.02-53.Xs.1.jpg)
+      </p>
+      There appear to be vertical asymptotes of the curve $y=\tan (2 \sin x)$ at $x \approx \pm 0.90$ and $x \approx \pm 2.24 .$ To find the exact equations of these asymptotes, we note that the graph of the tangent function has vertical asymptotes at $x=\frac{\pi}{2}+\pi n .$ Thus, we must have $2 \sin x=\frac{\pi}{2}+\pi n,$ or equivalently, $\sin x=\frac{\pi}{4}+\frac{\pi}{2} n .$ Since $-1 \leq \sin x \leq 1,$ we must have $\sin x=\pm \frac{\pi}{4}$ and $\operatorname{so} x=\pm \sin ^{-1} \frac{\pi}{4}$ (corresponding to $x \approx \pm 0.90$ ). Just as $150^{\circ}$ is the reference angle for $30^{\circ}, \pi-\sin ^{-1} \frac{\pi}{4}$ is the reference angle for $\sin ^{-1} \frac{\pi}{4} .$ So $x=\pm\left(\pi-\sin ^{-1} \frac{\pi}{4}\right)$ are also equations of vertical asymptotes (corresponding to $x \approx \pm 2.24$.)
+    Annotations: ''
+  tags: []
+- id: 1579042364280
+  fields:
+    Front: |
+      CET-02.02-54 Exercise:
+      In the theory of relativity, the mass of a particle with velocity $v$ is
+      $$
+      m=\frac{m_{0}}{\sqrt{1-v^{2} / c^{2}}}
+      $$ where $m_{0}$ is the mass of the particle at rest and $c$ is the speed of light. What happens as $v \rightarrow c^{-} ?$
+    Back: |
+      $\lim _{v \rightarrow c^{-}} m=\lim _{v \rightarrow c^{-}} \frac{m_{0}}{\sqrt{1-v^{2} / c^{2}}} .$ As $v \rightarrow c^{-}, \sqrt{1-v^{2} / c^{2}} \rightarrow 0^{+},$ and $m \rightarrow \infty$.
+    Annotations: ''
+  tags: []
+- id: 1579042647780
+  media:
+  - path: ¢{file_dir}/images/CET-02.02-55.Xs.1.jpg
+  fields:
+    Front: |
+      CET-02.02-55 Exercise:
+      (a) Use numerical and graphical evidence to guess the value of the limit
+      $$
+      \lim _{x \rightarrow 1} \frac{x^{3}-1}{\sqrt{x}-1}
+      $$
+      (b) How close to 1 does $x$ have to be to ensure that the function in part (a) is within a distance 0.5 of its limit?
+    Back: |
+      (a) Let $y=\frac{x^{3}-1}{\sqrt{x}-1}$.  From the table and the graph, we guess that the limit of $y$ as $x$ approaches 1 is $6 .$
+      $$
+      \begin{array}{|c|c|}
+      \hline x & {y} \\
+      \hline 0.99 & {5.92531} \\
+      {0.999} & {5.99250} \\
+      {0.9999} & {5.99250} \\
+      {1.01} & {6.07531} \\
+      {1.001} & {6.00750} \\
+      {1.0001} & {6.00075} \\
+      \hline
+      \end{array}
+      $$
+      <p align="center">
+      ![](CET-02.02-55.Xs.1.jpg)
+      </p>
+      (b) We need to have $5.5<\frac{x^{3}-1}{\sqrt{x}-1}<6.5 .$ From the graph we obtain the approximate points of intersection $P(0.9314,5.5)$ and $Q(1.0649,6.5) .$ Now $1-0.9314=0.9314=0.0686$ and $1.0649-1=0.0649,$ so by requiring that $x$ be within 0.0649 of 1 we ensure that $y$ is within 0.5 of 6.
+    Annotations: ''
+  tags: []

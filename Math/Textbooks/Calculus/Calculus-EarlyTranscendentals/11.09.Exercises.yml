@@ -1,0 +1,23 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-11-InfiniteSequencesAndSeries
+  - CET-11.09-RepresentationsOfFunctionsAsPowerSeries
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1578513090726
+  fields:
+    Front: |
+      CET-11.09-01 Exercise:
+      If the radius of convergence of the power series $\sum_{n=0}^{\infty} c_{n} x^{n}$ is $10,$ what is the radius of convergence of the series $\sum_{n=1}^{\infty} n c_{n} x^{n-1} ?$ Why?
+    Back: |
+      If $f(x)=\sum_{n=0}^{\infty} c_{n} x^{n}$ has radius of convergence $10,$ then $f^{\prime}(x)=\sum_{n=1}^{\infty} n c_{n} x^{n-1}$ also has radius of convergence $10$ by the term-by-term differentiation and integration theorem.
+    Annotations: ''
+  tags: []

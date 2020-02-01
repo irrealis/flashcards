@@ -1,0 +1,26 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-11-InfiniteSequencesAndSeries
+  - CET-11.04-TheComparisonTests
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1578443378033
+  fields:
+    Front: |
+      CET-11.04-01 Exercise:
+      Determine whether the series converges or diverges.
+      $$
+      \sum_{n=1}^{\infty} \frac{1}{n^{3}+8}
+      $$
+    Back: |
+      $\frac{1}{n^{3}+8}<\frac{1}{n^{3}}$ for all $n \geq 1,$ so $\sum_{n=1}^{\infty} \frac{1}{n^{3}+8}$ converges by comparison with $\sum_{n=1}^{\infty} \frac{1}{n^{3}},$ which converges because it is a $p$-series with $p=3>1$.
+    Annotations: ''
+  tags: []

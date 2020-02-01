@@ -1,0 +1,1820 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-07-TechniquesOfIntegration
+  - CET-07.05-StrategyForIntegration
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1580500272882
+  fields:
+    Front: |
+      CET-07.05-01 Exercise:
+      Evaluate the integral.
+      $$
+      \int \frac{\cos x}{1-\sin x} d x
+      $$
+    Back: |
+      Let $u=1-\sin x .$ Then $d u= -\cos x \, d x \Rightarrow$
+      $$
+      \begin{aligned}
+      \int \frac{\cos x}{1-\sin x} d x
+      &=\int \frac{1}{u}(-d u) \\
+      &=-\ln |u|+C \\
+      &=-\ln |1-\sin x|+C \\
+      &=-\ln (1-\sin x)+C
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580500273119
+  fields:
+    Front: |
+      CET-07.05-02 Exercise:
+      Evaluate the integral.
+      $$\int_{0}^{1}(3 x+1)^{\sqrt{2}} d x$$
+    Back: |
+      Let $u=3 x+1 .$ Then $d u=3 d x \Rightarrow$
+      $$
+      \begin{aligned}
+      \int_{0}^{1}(3 x+1)^{\sqrt{2}} d x
+      &=\int_{1}^{4} u^{\sqrt{2}}\left(\frac{1}{3} d u\right) \\
+      &=\frac{1}{3}\left[\frac{1}{\sqrt{2}+1} u^{\sqrt{2}+1}\right]_{1}^{4} \\
+      &=\frac{1}{3(\sqrt{2}+1)}\left(4^{\sqrt{2}+1}-1\right)
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580500273319
+  fields:
+    Front: |
+      CET-07.05-03 Exercise:
+      Evaluate the integral.
+      $$\int_{1}^{4} \sqrt{y} \ln y d y$$
+    Back: |
+      Let $u=\ln y, d v=\sqrt{y} d y \Rightarrow d u=\frac{1}{y} d y, v=\frac{2}{3} y^{3 / 2} .$ Then
+      $$
+      \begin{aligned}
+      \int_{1}^{4} \sqrt{y} \ln y d y
+      &=\left[\frac{2}{3} y^{3 / 2} \ln y\right]_{1}^{4}-\int_{1}^{4} \frac{2}{3} y^{1 / 2} d y \\
+      &=\frac{2}{3} \cdot 8 \ln 4-0-\left[\frac{4}{9} y^{3 / 2}\right]_{1}^{4} \\
+      &=\frac{16}{3}(2 \ln 2)-\left(\frac{4}{9} \cdot 8-\frac{4}{9}\right) \\
+      &=\frac{32}{3} \ln 2-\frac{28}{9}
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580500273557
+  fields:
+    Front: |
+      CET-07.05-04 Exercise:
+      Evaluate the integral.
+      $$\int \frac{\sin ^{3} x}{\cos x} d x$$
+    Back: |
+      $$
+      \begin{aligned}
+      \int \frac{\sin ^{3} x}{\cos x} d x
+      &=\int \frac{\sin ^{2} x \sin x}{\cos x} d x \\
+      &=\int \frac{\left(1-\cos ^{2} x\right) \sin x}{\cos x} d x \\
+      &=\int \frac{1-u^{2}}{u}(-d u) \quad\left[\begin{array}{c}{u=\cos x} \\ {d u=-\sin x d x}\end{array}\right] \\
+      &=\int\left(u-\frac{1}{u}\right) d u \\
+      &=\frac{1}{2} u^{2}-\ln |u|+C \\
+      &=\frac{1}{2} \cos ^{2} x-\ln |\cos x|+C
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580500273762
+  fields:
+    Front: |
+      CET-07.05-05 Exercise:
+      Evaluate the integral.
+      $$\int \frac{t}{t^{4}+2} d t$$
+    Back: |
+      Let $u=t^{2} .$ Then $d u=2 t d t \Rightarrow$
+      $$
+      \begin{aligned}
+      \int \frac{t}{t^{4}+2} d t
+      &=\int \frac{1}{u^{2}+2}\left(\frac{1}{2} d u\right) \\
+      &=\frac{1}{2} \frac{1}{\sqrt{2}} \tan ^{-1}\left(\frac{u}{\sqrt{2}}\right)+C \quad [\text{by Formula 17}] \\
+      &=\frac{1}{2 \sqrt{2}} \tan ^{-1}\left(\frac{t^{2}}{\sqrt{2}}\right)+C
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580500274020
+  fields:
+    Front: |
+      CET-07.05-06 Exercise:
+      Evaluate the integral.
+      $$\int_{0}^{1} \frac{x}{(2 x+1)^{3}} d x$$
+    Back: |
+      Let $u=2 x+1 .$ Then $d u=2 d x \Rightarrow$
+      $$
+      \begin{aligned}
+      \int_{0}^{1} \frac{x}{(2 x+1)^{3}} d x 
+      &=\int_{1}^{3} \frac{(u-1) / 2}{u^{3}}\left(\frac{1}{2} d u\right) \\
+      &=\frac{1}{4} \int_{1}^{3}\left(\frac{1}{u^{2}}-\frac{1}{u^{3}}\right) d u \\
+      &=\frac{1}{4}\left[-\frac{1}{u}+\frac{1}{2 u^{2}}\right]_{1}^{3} \\
+      &=\frac{1}{4}\left[\left(-\frac{1}{3}+\frac{1}{18}\right)-\left(-1+\frac{1}{2}\right)\right] \\
+      &=\frac{1}{4}\left(\frac{2}{9}\right) \\
+      &=\frac{1}{18}
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580500274219
+  fields:
+    Front: |
+      CET-07.05-07 Exercise:
+      Evaluate the integral.
+      $$\int_{-1}^{1} \frac{e^{\arctan y}}{1+y^{2}} d y$$
+    Back: |
+      Let $u=\arctan y .$ Then $d u=\frac{d y}{1+y^{2}} \Rightarrow$ $\int_{-1}^{1} \frac{e^{\arctan y}}{1+y^{2}} d y$ $=\int_{-\pi / 4}^{\pi / 4} e^{u} d u$ $=\left[e^{u}\right]_{-\pi / 4}^{\pi / 4}$ $=e^{\pi / 4}-e^{-\pi / 4}$.
+    Annotations: ''
+  tags: []
+- id: 1580500274530
+  fields:
+    Front: |
+      CET-07.05-08 Exercise:
+      Evaluate the integral.
+      $$\int t \sin t \cos t d t$$
+    Back: |
+      $$
+      \begin{aligned} \int t \sin t \cos t d t
+      &=\int t \cdot \frac{1}{2}(2 \sin t \cos t) d t \\
+      &=\frac{1}{2} \int t \sin 2 t d t \\
+      &=\frac{1}{2}\left(-\frac{1}{2} t \cos 2 t-\int-\frac{1}{2} \cos 2 t d t\right)
+        \quad\left[
+        \begin{array}{cc}
+          {u=t,} & {d v=\sin 2 t d t} \\
+          {d u=d t,} & {v=-\frac{1}{2} \cos 2 t}
+        \end{array}
+        \right] \\
+      &=-\frac{1}{4} t \cos 2 t+\frac{1}{4} \int \cos 2 t d t \\
+      &=-\frac{1}{4} t \cos 2 t+\frac{1}{8} \sin 2 t+C
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580500274750
+  fields:
+    Front: |
+      CET-07.05-09 Exercise:
+      Evaluate the integral.
+      $$\int_{2}^{4} \frac{x+2}{x^{2}+3 x-4} d x$$
+    Back: |
+      $$
+      \begin{aligned}
+      \frac{x+2}{x^{2}+3 x-4} 
+      &=\frac{x+2}{(x+4)(x-1)} \\
+      &=\frac{A}{x+4}+\frac{B}{x-1}
+      \end{aligned}
+      $$ Multiply by $(x+4)(x-1)$ to get $x+2=A(x-1)+B(x+4)$.  Substituting 1 for $x$ gives $3=5 B \Leftrightarrow B=\frac{3}{5}$. Substituting $-4$ for $x$ gives $-2=-5 A \Leftrightarrow A=\frac{2}{5} .$ Thus,
+      $$
+      \begin{aligned}
+      \int_{2}^{4} \frac{x+2}{x^{2}+3 x-4} d x
+      &=\int_{2}^{4}\left(\frac{2 / 5}{x+4}+\frac{3 / 5}{x-1}\right) d x \\
+      &=\left[\frac{2}{5} \ln |x+4|+\frac{3}{5} \ln |x-1|\right]_{2}^{4} \\
+      &=\left(\frac{2}{5} \ln 8+\frac{3}{5} \ln 3\right)-\left(\frac{2}{5} \ln 6+0\right) \\
+      &=\frac{2}{5}(3 \ln 2)+\frac{3}{5} \ln 3-\frac{2}{5}(\ln 2+\ln 3) \\
+      &=\frac{4}{5} \ln 2+\frac{1}{5} \ln 3, \text { or } \frac{1}{5} \ln 48
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580500274967
+  fields:
+    Front: |
+      CET-07.05-10 Exercise:
+      Evaluate the integral.
+      $$\int \frac{\cos (1 / x)}{x^{3}} d x$$
+    Back: |
+      Let $u=\frac{1}{x}, d v=\frac{\cos (1 / x)}{x^{2}}$ $\Rightarrow d u=-\frac{1}{x^{2}} d x, v=-\sin \left(\frac{1}{x}\right) .$ Then
+      $$
+      \begin{aligned}
+      \int \frac{\cos (1 / x)}{x^{3}} d x
+      &=-\frac{1}{x} \sin \left(\frac{1}{x}\right)-\int \frac{1}{x^{2}} \sin \left(\frac{1}{x}\right) d x \\
+      &=-\frac{1}{x} \sin \left(\frac{1}{x}\right)-\cos \left(\frac{1}{x}\right)+C
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580502464257
+  media:
+  - path: ¢{file_dir}/images/CET-07.05-11.Xs.1.jpg
+  fields:
+    Front: |
+      CET-07.05-11 Exercise:
+      Evaluate the integral.
+      $$\int \frac{1}{x^{3} \sqrt{x^{2}-1}} d x$$
+    Back: |
+      Let $x=\sec \theta,$ where $0 \leq \theta \leq \frac{\pi}{2}$ or $\pi \leq \theta<\frac{3 \pi}{2} .$
+      <p align="center">
+      ![](CET-07.05-11.Xs.1.jpg)
+      </p>
+      Then $d x=\sec \theta \tan \theta d \theta$ and $\sqrt{x^{2}-1}=\sqrt{\sec ^{2} \theta-1}=\sqrt{\tan ^{2} \theta}=|\tan \theta|=\tan \theta$ for the relevant values of $\theta,$ so
+      $$
+      \begin{aligned}
+      \int \frac{1}{x^{3} \sqrt{x^{2}-1}} d x
+      &=\int \frac{\sec \theta \tan \theta}{\sec ^{3} \theta \tan \theta} d \theta \\
+      &=\int \cos ^{2} \theta d \theta \\
+      &=\int \frac{1}{2}(1+\cos 2 \theta) d \theta \\
+      &=\frac{1}{2} \theta+\frac{1}{4} \sin 2 \theta+C \\
+      &=\frac{1}{2} \theta+\frac{1}{2} \sin \theta \cos \theta+C \\
+      &=\frac{1}{2} \sec ^{-1} x+\frac{1}{2} \frac{\sqrt{x^{2}-1}}{x}+C \\
+      &=\frac{1}{2} \sec ^{-1} x+\frac{\sqrt{x^{2}-1}}{2 x^{2}}+C
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580502464505
+  fields:
+    Front: |
+      CET-07.05-12 Exercise:
+      Evaluate the integral.
+      $$\int \frac{2 x-3}{x^{3}+3 x} d x$$
+    Back: |
+      $$
+      \begin{aligned}
+      \frac{2 x-3}{x^{3}+3 x}
+      &=\frac{2 x-3}{x\left(x^{2}+3\right)} \\
+      &=\frac{A}{x}+\frac{B x+C}{x^{2}+3}
+      \end{aligned}
+      $$ Multiply by $x\left(x^{2}+3\right)$ to get $2 x-3=A\left(x^{2}+3\right)+(B x+C) x \Leftrightarrow$ $2 x-3=(A+B) x^{2}+C x+3 A .$ Equating coefficients gives us $C=2,3 A=-3 \Leftrightarrow A=-1,$ and $A+B=0,$ so $B=1 .$ Thus
+      $$
+      \begin{aligned}
+      \int \frac{2 x-3}{x^{3}+3 x} d x
+      &=\int\left(\frac{-1}{x}+\frac{x+2}{x^{2}+3}\right) d x \\
+      &=\int\left(-\frac{1}{x}+\frac{x}{x^{2}+3}+\frac{2}{x^{2}+3}\right) d x \\
+      &=-\ln |x|+\frac{1}{2} \ln \left(x^{2}+3\right)+\frac{2}{\sqrt{3}} \tan ^{-1}\left(\frac{x}{\sqrt{3}}\right)+C
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580502464765
+  fields:
+    Front: |
+      CET-07.05-13 Exercise:
+      Evaluate the integral.
+      $$\int \sin ^{5} t \cos ^{4} t d t$$
+    Back: |
+      $$
+      \begin{aligned}
+      \int \sin ^{5} t \cos ^{4} t d t
+      &=\int \sin ^{4} t \cos ^{4} t \sin t d t \\
+      &=\int\left(\sin ^{2} t\right)^{2} \cos ^{4} t \sin t d t \\
+      &=\int\left(1-\cos ^{2} t\right)^{2} \cos ^{4} t \sin t d t \\
+      &=\int\left(1-u^{2}\right)^{2} u^{4}(-d u) \quad[u=\cos t, d u=-\sin t d t] \\
+      &=\int\left(-u^{4}+2 u^{6}-u^{8}\right) d u \\
+      &=-\frac{1}{5} u^{5}+\frac{2}{7} u^{7}-\frac{1}{9} u^{9}+C \\
+      &=-\frac{1}{5} \cos ^{5} t+\frac{2}{7} \cos ^{7} t-\frac{1}{9} \cos ^{9} t+C
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580502464964
+  fields:
+    Front: |
+      CET-07.05-14 Exercise:
+      Evaluate the integral.
+      $$\int \ln \left(1+x^{2}\right) d x$$
+    Back: |
+      Let $u=\ln \left(1+x^{2}\right), d v=d x \Rightarrow d u=\frac{2 x}{1+x^{2}} d x, v=x .$ Then
+      $$
+      \begin{aligned}
+      \int \ln \left(1+x^{2}\right) d x
+      &=x \ln \left(1+x^{2}\right)-\int \frac{2 x^{2}}{1+x^{2}} d x \\
+      &=x \ln \left(1+x^{2}\right)-2 \int \frac{\left(x^{2}+1\right)-1}{1+x^{2}} d x \\
+      &=x \ln \left(1+x^{2}\right)-2 \int\left(1-\frac{1}{1+x^{2}}\right) d x \\
+      &=x \ln \left(1+x^{2}\right)-2 x+2 \tan ^{-1} x+C
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580502465169
+  fields:
+    Front: |
+      CET-07.05-15 Exercise:
+      Evaluate the integral.
+      $$\int x \sec x \tan x d x$$
+    Back: |
+      Let $u=x, d v=\sec x \tan x d x \Rightarrow d u=d x, v=\sec x .$ Then
+      $$
+      \begin{aligned}
+      \int x \sec x \tan x d x
+      &=x \sec x-\int \sec x d x \\
+      &=x \sec x-\ln |\sec x+\tan x|+C
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580502465387
+  fields:
+    Front: |
+      CET-07.05-16 Exercise:
+      Evaluate the integral.
+      $$\int_{0}^{\sqrt{2} / 2} \frac{x^{2}}{\sqrt{1-x^{2}}} d x$$
+    Back: |
+      $$
+      \begin{aligned}
+      \int_{0}^{\sqrt{2} / 2} \frac{x^{2}}{\sqrt{1-x^{2}}} d x
+      &=\int_{0}^{\pi / 4} \frac{\sin ^{2} \theta}{\cos \theta} \cos \theta d \theta
+        \quad\left[
+        \begin{array}{c}
+          {u=\sin \theta} \\
+          {d u=\cos \theta d \theta}
+        \end{array}
+        \right] \\
+      &=\int_{0}^{\pi / 4} \frac{1}{2}(1-\cos 2 \theta) d \theta \\
+      &=\frac{1}{2}\left[\theta-\frac{1}{2} \sin 2 \theta\right]_{0}^{\pi / 4} \\
+      &=\frac{1}{2}\left[\left(\frac{\pi}{4}-\frac{1}{2}\right)-(0-0)\right] \\
+      &=\frac{\pi}{8}-\frac{1}{4}
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580502465640
+  fields:
+    Front: |
+      CET-07.05-17 Exercise:
+      Evaluate the integral.
+      $$\int_{0}^{\pi} t \cos ^{2} t d t$$
+    Back: |
+      $$
+      \begin{aligned}
+      \int_{0}^{\pi} t \cos ^{2} t d t
+      &=\int_{0}^{\pi} t\left[\frac{1}{2}(1+\cos 2 t)\right] d t \\
+      &=\frac{1}{2} \int_{0}^{\pi} t d t+\frac{1}{2} \int_{0}^{\pi} t \cos 2 t d t \\
+      &=\frac{1}{2}\left[\frac{1}{2} t^{2}\right]_{0}^{\pi}+\frac{1}{2}\left[\frac{1}{2} t \sin 2 t\right]_{0}^{\pi}-\frac{1}{2} \int_{0}^{\pi} \frac{1}{2} \sin 2 t d t 
+        \quad\left[\begin{array}{cc}
+        {u=t,} & {d v=\cos 2 t d t} \\
+        {d u=d t,} & {v=\frac{1}{2} \sin 2 t}
+        \end{array}\right] \\
+      &=\frac{1}{4} \pi^{2}+0-\frac{1}{4}\left[-\frac{1}{2} \cos 2 t\right]_{0}^{\pi} \\
+      &=\frac{1}{4} \pi^{2}+\frac{1}{8}(1-1) \\
+      &=\frac{1}{4} \pi^{2}
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580502465865
+  fields:
+    Front: |
+      CET-07.05-18 Exercise:
+      Evaluate the integral.
+      $$\int_{1}^{4} \frac{e^{\sqrt{t}}}{\sqrt{t}} d t$$
+    Back: |
+      Let $u=\sqrt{t} .$ Then $d u=\frac{1}{2 \sqrt{t}} d t$ $\Rightarrow \int_{1}^{4} \frac{e^{\sqrt{t}}}{\sqrt{t}} d t$ $=\int_{1}^{2} e^{u}(2 d u)$ $=2\left[e^{u}\right]_{1}^{2}$ $=2\left(e^{2}-e\right)$.
+    Annotations: ''
+  tags: []
+- id: 1580502466122
+  fields:
+    Front: |
+      CET-07.05-19 Exercise:
+      Evaluate the integral.
+      $$\int e^{x+e^{x}} d x$$
+    Back: |
+      Let $u=e^{x} .$ Then $\int e^{x+e^{x}} d x$ $=\int e^{e^{x}} e^{x} d x$ $=\int e^{u} d u$ $=e^{u}+C$ $=e^{e^{x}}+C$.
+    Annotations: ''
+  tags: []
+- id: 1580502466367
+  fields:
+    Front: |
+      CET-07.05-20 Exercise:
+      Evaluate the integral.
+      $$\int e^{2} d x$$
+    Back: |
+      Since $e^{2}$ is a constant, $\int e^{2} d x=e^{2} x+C$.
+    Annotations: ''
+  tags: []
+- id: 1580502466570
+  fields:
+    Front: |
+      CET-07.05-21 Exercise:
+      Evaluate the integral.
+      $$\int \arctan \sqrt{x} d x$$
+    Back: |
+      Let $t=\sqrt{x},$ so that $t^{2}=x$ and $2 t d t=d x .$ Then $\int \arctan \sqrt{x} d x=\int \arctan t(2 t d t)=I .$ Now use parts with $u=\arctan t, d v=2 t d t$ $\Rightarrow d u=\frac{1}{1+t^{2}} d t, v=t^{2} .$ Thus
+      $$
+      \begin{aligned}
+      I
+      &=t^{2} \arctan t-\int \frac{t^{2}}{1+t^{2}} d t \\
+      &=t^{2} \arctan t-\int\left(1-\frac{1}{1+t^{2}}\right) d t \\
+      &=t^{2} \arctan t-t+\arctan t+C \\
+      &=x \arctan \sqrt{x}-\sqrt{x}+\arctan \sqrt{x}+C \quad [\text{or }(x+1) \arctan \sqrt{x}-\sqrt{x}+C]
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580502466820
+  fields:
+    Front: |
+      CET-07.05-22 Exercise:
+      Evaluate the integral.
+      $$\int \frac{\ln x}{x \sqrt{1+(\ln x)^{2}}} d x$$
+    Back: |
+      Let $u=1+(\ln x)^{2},$ so that $d u=\frac{2 \ln x}{x} d x .$ Then
+      $$
+      \begin{aligned}
+      \int \frac{\ln x}{x \sqrt{1+(\ln x)^{2}}} d x
+      &=\frac{1}{2} \int \frac{1}{\sqrt{u}} d u \\
+      &=\frac{1}{2}(2 \sqrt{u})+C \\
+      &=\sqrt{1+(\ln x)^{2}}+C
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580504687358
+  fields:
+    Front: |
+      CET-07.05-23 Exercise:
+      Evaluate the integral.
+      $$\int_{0}^{1}(1+\sqrt{x})^{8} d x$$
+    Back: |
+      Let $u=1+\sqrt{x} .$ Then $x=(u-1)^{2}, d x=2(u-1) d u \Rightarrow$
+      $\int_{0}^{1}(1+\sqrt{x})^{8} d x$ $=\int_{1}^{2} u^{8} \cdot 2(u-1) d u$ $=2 \int_{1}^{2}\left(u^{9}-u^{8}\right) d u$ $=\left[\frac{1}{5} u^{10}-2 \cdot \frac{1}{9} u^{9}\right]_{1}^{2}$ $=\frac{1024}{5}-\frac{1024}{9}-\frac{1}{5}+\frac{2}{9}$ $=\frac{4097}{9}$ $=\frac{4097}{45}$.
+    Annotations: ''
+  tags: []
+- id: 1580504687584
+  fields:
+    Front: |
+      CET-07.05-24 Exercise:
+      Evaluate the integral.
+      $$\int(1+\tan x)^{2} \sec x d x$$
+    Back: |
+      $$
+      \begin{aligned}
+      \int(1+\tan x)^{2} \sec x d x
+      &=\int\left(1+2 \tan x+\tan ^{2} x\right) \sec x d x \\
+      &=\int\left[\sec x+2 \sec x \tan x+\left(\sec ^{2} x-1\right) \sec x\right] d x \\
+      &=\int\left(2 \sec x \tan x+\sec ^{3} x\right) d x \\
+      &=2 \sec x+\frac{1}{2}(\sec x \tan x+\ln |\sec x+\tan x|+C)
+      \end{aligned}
+      $$
+      [by Example 7.2.8.]
+    Annotations: ''
+  tags: []
+- id: 1580504687823
+  fields:
+    Front: |
+      CET-07.05-25 Exercise:
+      Evaluate the integral.
+      $$\int_{0}^{1} \frac{1+12 t}{1+3 t} d t$$
+    Back: |
+      $$
+      \begin{aligned}
+      \int_{0}^{1} \frac{1+12 t}{1+3 t} d t
+      &=\int_{0}^{1} \frac{(12 t+4)-3}{3 t+1} d t \\
+      &=\int_{0}^{1}\left(4-\frac{3}{3 t+1}\right) d t \\
+      &=\left.[4 t-\ln | 3 t+1]\right|_{0} ^{1} \\
+      &=(4-\ln 4)-(0-0) \\
+      &=4-\ln 4
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580504688018
+  fields:
+    Front: |
+      CET-07.05-26 Exercise:
+      Evaluate the integral.
+      $$\int_{0}^{1} \frac{3 x^{2}+1}{x^{3}+x^{2}+x+1} d x$$
+    Back: |
+      $$
+      \begin{aligned}
+      \frac{3 x^{2}+1}{x^{3}+x^{2}+x+1}
+      &=\frac{3 x^{2}+1}{\left(x^{2}+1\right)(x+1)} \\
+      &=\frac{A}{x+1}+\frac{B x+C}{x^{2}+1}
+      \end{aligned}
+      $$ Multiply by $(x+1)\left(x^{2}+1\right)$ to get $3 x^{2}+1=A\left(x^{2}+1\right)+(B x+C)(x+1)$ $\Leftrightarrow 3 x^{2}+1=(A+B) x^{2}+(B+C) x+(A+C) .$ Substituting $-1$ for $x$ gives $4=2 A \Leftrightarrow A=2 .$ Equating coefficients of $x^{2}$ gives $3=A+B=2+B \Leftrightarrow B=1 .$ Equating coefficients of $x$ gives $0=B+C=1+C \Leftrightarrow C=-1 .$ Thus,
+      $$
+      \begin{aligned}
+      \int_{0}^{1} \frac{3 x^{2}+1}{x^{3}+x^{2}+x+1} d x
+      &=\int_{0}^{1}\left(\frac{2}{x+1}+\frac{x-1}{x^{2}+1}\right) d x \\
+      &=\int_{0}^{1}\left(\frac{2}{x+1}+\frac{x}{x^{2}+1}-\frac{1}{x^{2}+1}\right) d x \\
+      &=\left[2 \ln |x+1|+\frac{1}{2} \ln \left(x^{2}+1\right)-\tan ^{-1} x\right]_{0}^{1} \\
+      &=\left(2 \ln 2+\frac{1}{2} \ln 2-\frac{\pi}{4}\right)-(0+0-0) \\
+      &=\frac{5}{2} \ln 2-\frac{\pi}{4}
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580504688219
+  fields:
+    Front: |
+      CET-07.05-27 Exercise:
+      Evaluate the integral.
+      $$\int \frac{d x}{1+e^{x}}$$
+    Back: |
+      Let $u=1+e^{x},$ so that $d u=e^{x} d x$ $=(u-1) d x .$ Then $\int \frac{1}{1+e^{x}} d x$ $=\int \frac{1}{u} \cdot \frac{d u}{u-1}$ $=\int \frac{1}{u(u-1)} d u=I .$ Now $\frac{1}{u(u-1)}$ $=\frac{A}{u}+\frac{B}{u-1}$ $\Rightarrow 1=A(u-1)+B u .$ Set $u=1$ to get $1=B .$ Set $u=0$ to get $1=-A,$ so $A=-1$.
+
+      Thus, $I=\int\left(\frac{-1}{u}+\frac{1}{u-1}\right) d u$ $=-\ln |u|+\ln |u-1|+C$ $=-\ln \left(1+e^{x}\right)+\ln e^{x}+C$ $=x-\ln \left(1+e^{x}\right)+C$.
+
+      _Another method:_ Multiply numerator and denominator by $e^{-x}$ and let $u=e^{-x}+1 .$ This gives the answer in the form $-\ln \left(e^{-x}+1\right)+C$.
+    Annotations: ''
+  tags: []
+- id: 1580504688467
+  fields:
+    Front: |
+      CET-07.05-28 Exercise:
+      Evaluate the integral.
+      $$\int \sin \sqrt{a t} d t$$
+    Back: |
+      $$
+      \begin{aligned}
+      \int \sin \sqrt{a t} d t
+      &=\int \sin u \cdot \frac{2}{a} u d u \quad\left[u=\sqrt{a t}, u^{2}=a t, 2 u d u=a d t\right] \\
+      &=\frac{2}{a} \int u \sin u d u \\
+      &=\frac{2}{a}[-u \cos u+\sin u]+C \quad[\text { integration by parts }] \\
+      &=-\frac{2}{a} \sqrt{a t} \cos \sqrt{a t}+\frac{2}{a} \sin \sqrt{a t}+C \\
+      &=-2 \sqrt{\frac{t}{a}} \cos \sqrt{a t}+\frac{2}{a} \sin \sqrt{a t}+C
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580504688682
+  fields:
+    Front: |
+      CET-07.05-29 Exercise:
+      Evaluate the integral.
+      $$\int \ln (x+\sqrt{x^{2}-1}) d x$$
+    Back: |
+      Use integration by parts with $u=\ln (x+\sqrt{x^{2}-1}), d v=d x \Rightarrow$ $d u=\frac{1}{x+\sqrt{x^{2}-1}}\left(1+\frac{x}{\sqrt{x^{2}-1}}\right) d x$ $=\frac{1}{x+\sqrt{x^{2}-1}}\left(\frac{\sqrt{x^{2}-1}+x}{\sqrt{x^{2}-1}}\right) d x$ $=\frac{1}{\sqrt{x^{2}-1}} d x, v=x .$ Then $\int \ln (x+\sqrt{x^{2}-1}) d x$ $=x \ln (x+\sqrt{x^{2}-1})-\int \frac{x}{\sqrt{x^{2}-1}} d x$ $=x \ln (x+\sqrt{x^{2}-1})-\sqrt{x^{2}-1}+C$.
+    Annotations: ''
+  tags: []
+- id: 1580504688920
+  fields:
+    Front: |
+      CET-07.05-30 Exercise:
+      Evaluate the integral.
+      $$\int_{-1}^{2}\left|e^{x}-1\right| d x$$
+    Back: |
+      $$
+      \left|e^{x}-1\right|=\left\{\begin{array}{ll}
+      {e^{x}-1} & {\text { if } e^{x}-1 \geq 0} \\
+      {-\left(e^{x}-1\right)} & {\text { if } e^{x}-1<0}
+      \end{array}=\left\{\begin{array}{ll}
+      {e^{x}-1} & {\text { if } x \geq 0} \\
+      {1-e^{x}} & {\text { if } x<0}
+      \end{array}\right.\right.
+      $$ Thus,
+      $$
+      \begin{aligned}
+      \int_{-1}^{2}\left|e^{x}-1\right| d x
+      &=\int_{-1}^{0}\left(1-e^{x}\right) d x+\int_{0}^{2}\left(e^{x}-1\right) d x \\
+      &=\left[x-e^{x}\right]_{-1}^{0}+\left[e^{x}-x\right]_{0}^{2} \\
+      &=(0-1)-\left(-1-e^{-1}\right)+\left(e^{2}-2\right)-(1-0) \\
+      &=e^{2}+e^{-1}-3
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580504689140
+  fields:
+    Front: |
+      CET-07.05-31 Exercise:
+      Evaluate the integral.
+      $$\int \sqrt{\frac{1+x}{1-x}} d x$$
+    Back: |
+      As in Example 5,
+      $$
+      \begin{aligned}
+      \int \sqrt{\frac{1+x}{1-x}} d x
+      &=\int \frac{\sqrt{1+x}}{\sqrt{1-x}} \cdot \frac{\sqrt{1+x}}{\sqrt{1+x}} d x \\
+      &=\int \frac{1+x}{\sqrt{1-x^{2}}} d x \\
+      &=\int \frac{d x}{\sqrt{1-x^{2}}}+\int \frac{x d x}{\sqrt{1-x^{2}}} \\
+      &=\sin ^{-1} x-\sqrt{1-x^{2}}+C
+      \end{aligned}
+      $$
+      _Another method:_ Substitute $u=\sqrt{(1+x) /(1-x)}$.
+    Annotations: ''
+  tags: []
+- id: 1580504689401
+  fields:
+    Front: |
+      CET-07.05-32 Exercise:
+      Evaluate the integral.
+      $$\int_{1}^{3} \frac{e^{3 / x}}{x^{2}} d x$$
+    Back: |
+      $$
+      \begin{aligned}
+      \int_{1}^{3} \frac{e^{3 / x}}{x^{2}} d x
+      &=\int_{3}^{1} e^{u}\left(-\frac{1}{3} d u\right)
+        \quad\left[\begin{array}{c}
+        {u=3 / x} \\
+        {d u = -3 / x^{2} d x}
+        \end{array}\right] \\
+      &=-\frac{1}{3}\left[e^{u}\right]_{3}^{1} \\
+      &=-\frac{1}{3}\left(e-e^{3}\right) \\
+      &=\frac{1}{3}\left(e^{3}-e\right)
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580504689679
+  media:
+  - path: ¢{file_dir}/images/CET-07.05-33.Xs.1.jpg
+  fields:
+    Front: |
+      CET-07.05-33 Exercise:
+      Evaluate the integral.
+      $$\int \sqrt{3-2 x-x^{2}} d x$$
+    Back: |
+      $3-2 x-x^{2}=-\left(x^{2}+2 x+1\right)+4=4-(x+1)^{2} .$ Let $x+1=2 \sin \theta$ where $-\frac{\pi}{2} \leq \theta \leq \theta \leq \frac{\pi}{2} .$
+      <p align="center">
+      ![](CET-07.05-33.Xs.1.jpg)
+      </p>
+      Then $d x=2 \cos \theta d \theta$ and
+      $$
+      \begin{aligned}
+      \int \sqrt{3-2 x-x^{2}} d x
+      &=\int \sqrt{4-(x+1)^{2}} d x=\int \sqrt{4-4 \sin ^{2} \theta} 2 \cos \theta d \theta \\
+      &=4 \int \cos ^{2} \theta d \theta=2 \int(1+\cos 2 \theta) d \theta \\
+      &=2 \theta+\sin 2 \theta+C=2 \theta+2 \sin \theta \cos \theta+C \\
+      &=2 \sin ^{-1}\left(\frac{x+1}{2}\right)+2 \cdot \frac{x+1}{2} \cdot \frac{\sqrt{3-2 x-x^{2}}}{2}+C \\
+      &=2 \sin ^{-1}\left(\frac{x+1}{2}\right)+\frac{x+1}{2} \sqrt{3-2 x-x^{2}}+C
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580504689885
+  fields:
+    Front: |
+      CET-07.05-34 Exercise:
+      Evaluate the integral.
+      $$\int_{\pi / 4}^{\pi / 2} \frac{1+4 \cot x}{4-\cot x} d x$$
+    Back: |
+      $$
+      \begin{aligned}
+      \int_{\pi / 4}^{\pi / 2} \frac{1+4 \cot x}{4-\cot x} d x
+      &=\int_{\pi / 4}^{\pi / 2}\left[\frac{(1+4 \cos x / \sin x)}{(4-\cos x / \sin x)} \cdot \frac{\sin x}{\sin x}\right] d x \\
+      &=\int_{\pi / 4}^{\pi / 2} \frac{\sin x+4 \cos x}{4 \sin x-\cos x} d x \\
+      &=\int_{3 / \sqrt{2}}^{4} \frac{1}{u} d u
+        \quad\left[\begin{array}{c}
+        {u=4 \sin x-\cos x} \\
+        {d u=(4 \cos x+\sin x) d x}
+        \end{array}\right] \\
+      &=[\ln |u|]_{3 / \sqrt{2}}^{4} \\
+      &=\ln 4-\ln \frac{3}{\sqrt{2}} \\
+      &=\ln \frac{4}{3 / \sqrt{2}} \\
+      &=\ln \left(\frac{4}{3} \sqrt{2}\right)
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580504690092
+  fields:
+    Front: |
+      CET-07.05-35 Exercise:
+      Evaluate the integral.
+      $$\int_{-\pi / 2}^{\pi / 2} \frac{x}{1+\cos ^{2} x} d x$$
+    Back: |
+      The integrand is an odd function, so $\int_{-\pi / 2}^{\pi / 2} \frac{x}{1+\cos ^{2} x} d x=0$ [by 5.5.7(b)].
+    Annotations: ''
+  tags: []
+- id: 1580504690316
+  fields:
+    Front: |
+      CET-07.05-36 Exercise:
+      Evaluate the integral.
+      $$\int \frac{1+\sin x}{1+\cos x} d x$$
+    Back: |
+      $$
+      \begin{aligned}
+      \int \frac{1+\sin x}{1+\cos x} d x
+      &=\int \frac{(1+\sin x)(1-\cos x)}{(1+\cos x)(1-\cos x)} d x \\
+      &=\int \frac{1-\cos x+\sin x-\sin x \cos x}{\sin ^{2} x} d x \\
+      &=\int\left(\csc ^{2} x-\frac{\cos x}{\sin ^{2} x}+\csc x-\frac{\cos x}{\sin x}\right) d x \\
+      & \stackrel{s}{=}-\cot x+\frac{1}{\sin x}+\ln |\csc x-\cot x|-\ln |\sin x|+C \quad \text {[by Exercise 7.2.39]}
+      \end{aligned}
+      $$ The answer can be written as $\frac{1-\cos x}{\sin x}-\ln (1+\cos x)+C$.
+    Annotations: ''
+  tags: []
+- id: 1580504690586
+  fields:
+    Front: |
+      CET-07.05-37 Exercise:
+      Evaluate the integral.
+      $$\int_{0}^{\pi / 4} \tan ^{3} \theta \sec ^{2} \theta d \theta$$
+    Back: |
+      Let $u=\tan \theta .$ Then $d u=\sec ^{2} \theta d \theta$ $\Rightarrow \int_{0}^{\pi / 4} \tan ^{3} \theta \sec ^{2} \theta d \theta$ $=\int_{0}^{1} u^{3} d u$ $=\left[\frac{1}{4} u^{4}\right]_{0}^{1}$ $=\frac{1}{4}$.
+    Annotations: ''
+  tags: []
+- id: 1580504690796
+  fields:
+    Front: |
+      CET-07.05-38 Exercise:
+      Evaluate the integral.
+      $$\int_{\pi / 6}^{\pi / 3} \frac{\sin \theta \cot \theta}{\sec \theta} d \theta$$
+    Back: |
+      $$
+      \begin{aligned}
+      \int_{\pi / 6}^{\pi / 3} \frac{\sin \theta \cot \theta}{\sec \theta} d \theta
+      &=\int_{\pi / 6}^{\pi / 3} \cos ^{2} \theta d \theta \\
+      &=\frac{1}{2} \int_{\pi / 6}^{\pi / 3}(1+\cos 2 \theta) d \theta \\
+      &=\frac{1}{2}\left[\theta+\frac{1}{2} \sin 2 \theta\right]_{\pi / 6}^{\pi / 3} \\
+      &=\frac{1}{2}\left[\left(\frac{\pi}{3}+\frac{\sqrt{3}}{4}\right)-\left(\frac{\pi}{6}+\frac{\sqrt{3}}{4}\right)\right] \\
+      &=\frac{1}{2}\left(\frac{\pi}{6}\right) \\
+      &=\frac{\pi}{12}
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580504691058
+  fields:
+    Front: |
+      CET-07.05-39 Exercise:
+      Evaluate the integral.
+      $$\int \frac{\sec \theta \tan \theta}{\sec ^{2} \theta-\sec \theta} d \theta$$
+    Back: |
+      Let $u=\sec \theta,$ so that $d u=\sec \theta \tan \theta d \theta .$ Then $\int \frac{\sec \theta \tan \theta}{\sec ^{2} \theta-\sec \theta} d \theta=\int \frac{1}{u^{2}-u} d u=\int \frac{1}{u(u-1)} d u=I .$ Now $\frac{1}{u(u-1)}=\frac{A}{u}+\frac{B}{u-1} \Rightarrow 1=A(u-1)+B u .$ Set $u=1$ to get $1=B .$ Set $u=0$ to get $1=-A,$ so $A=-1$. Thus, $I=\int\left(\frac{-1}{u}+\frac{1}{u-1}\right) d u$ $=-\ln |u|+\ln |u-1|+C$ $=\ln |\sec \theta-1|-\ln |\sec \theta|+C$ [or $\ln |1-\cos \theta|+C$].
+    Annotations: ''
+  tags: []
+- id: 1580504691297
+  fields:
+    Front: |
+      CET-07.05-40 Exercise:
+      Evaluate the integral.
+      $$\int_{0}^{\pi} \sin 6 x \cos 3 x d x$$
+    Back: |
+      Using product formula $2(a)$ in Section $7.2, \sin 6 x \cos 3 x$ $=\frac{1}{2}[\sin (6 x-3 x)+\sin (6 x+3 x)]$ $=\frac{1}{2}(\sin 3 x+\sin 9 x) .$ Thus,
+      $$
+      \begin{aligned}
+      \int_{0}^{\pi} \sin 6 x \cos 3 x d x
+      &=\int_{0}^{\pi} \frac{1}{2}(\sin 3 x+\sin 9 x) d x \\
+      &=\frac{1}{2}\left[-\frac{1}{3} \cos 3 x-\frac{1}{9} \cos 9 x\right]_{0}^{\pi} \\
+      &=\frac{1}{2}\left[\left(\frac{1}{3}+\frac{1}{9}\right)-\left(-\frac{1}{3}-\frac{1}{9}\right)\right] \\
+      &=\frac{1}{2}\left(\frac{4}{9}+\frac{4}{9}\right) \\
+      &=\frac{4}{9}
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580504691557
+  fields:
+    Front: |
+      CET-07.05-41 Exercise:
+      Evaluate the integral.
+      $$\int \theta \tan ^{2} \theta d \theta$$
+    Back: |
+      Let $u=\theta, d v=\tan ^{2} \theta d \theta=\left(\sec ^{2} \theta-1\right) d \theta$ $\Rightarrow d u=d \theta$ and $v=\tan \theta-\theta .$ So
+      $$
+      \begin{aligned}
+      \int \theta \tan ^{2} \theta d \theta
+      &=\theta(\tan \theta-\theta)-\int(\tan \theta-\theta) d \theta \\
+      &=\theta \tan \theta-\theta^{2}-\ln |\sec \theta|+\frac{1}{2} \theta^{2}+C \\
+      &=\theta \tan \theta-\frac{1}{2} \theta^{2}-\ln |\sec \theta|+C
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580504691773
+  media:
+  - path: ¢{file_dir}/images/CET-07.05-42.Xs.1.jpg
+  fields:
+    Front: |
+      CET-07.05-42 Exercise:
+      Evaluate the integral.
+      $$\int \frac{\tan ^{-1} x}{x^{2}} d x$$
+    Back: |
+      Let $u=\tan ^{-1} x, d v=\frac{1}{x^{2}} d x \Rightarrow d u=\frac{1}{1+x^{2}} d x, v=-\frac{1}{x} .$ Then
+      $$
+      \begin{aligned}
+      I
+      &=\int \frac{\tan ^{-1} x}{x^{2}} d x \\
+      &=-\frac{1}{x} \tan ^{-1} x-\int\left(-\frac{1}{x\left(1+x^{2}\right)}\right) d x \\
+      &=-\frac{1}{x} \tan ^{-1} x+\int\left(\frac{A}{x}+\frac{B x+C}{1+x^{2}}\right) d x
+      \end{aligned}
+      $$ $\frac{1}{x\left(1+x^{2}\right)}=\frac{A}{x}+\frac{B x+C}{1+x^{2}}$ $\Rightarrow 1=A\left(1+x^{2}\right)+(B x+C) x$ $\Rightarrow 1=(A+B) x^{2}+C x+A,$ so $C=0, A=1$ and $A+B=0 \Rightarrow B=-1.$ Thus,
+      $$
+      \begin{aligned}
+      I
+      &=-\frac{1}{x} \tan ^{-1} x+\int\left(\frac{1}{x}-\frac{x}{1+x^{2}}\right) d x \\
+      &=-\frac{1}{x} \tan ^{-1} x+\ln |x|-\frac{1}{2} \ln \left|1+x^{2}\right|+C \\
+      &=-\frac{\tan ^{-1} x}{x}+\ln \left|\frac{x}{\sqrt{x^{2}+1}}\right|+C
+      \end{aligned}
+      $$
+
+      _Or:_ Let $x=\tan \theta,$ so that $d x=\sec ^{2} \theta d \theta .$
+      <p align="center">
+      ![](CET-07.05-42.Xs.1.jpg)
+      </p>
+      Then $\int \frac{\tan ^{-1} x}{x^{2}} d x$ $=\int \frac{\theta}{\tan ^{2} \theta} \sec ^{2} \theta d \theta$ $=\int \theta \csc ^{2} \theta d \theta=I .$ Now use parts with $u=\theta, d v=\csc ^{2} \theta d \theta \Rightarrow d u=d \theta, v=-\cot \theta .$ Thus,
+      $$
+      \begin{aligned}
+      I
+      &=-\theta \cot \theta-\int(-\cot \theta) d \theta \\
+      &=-\theta \cot \theta+\ln |\sin \theta|+C \\
+      &=-\tan ^{-1} x \cdot \frac{1}{x}+\ln \left|\frac{x}{\sqrt{x^{2}+1}}\right|+C \\
+      &=-\frac{\tan ^{-1} x}{x}+\ln \left|\frac{x}{\sqrt{x^{2}+1}}\right|+C
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580507912632
+  fields:
+    Front: |
+      CET-07.05-43 Exercise:
+      Evaluate the integral.
+      $$\int \frac{\sqrt{x}}{1+x^{3}} d x$$
+    Back: |
+      Let $u=\sqrt{x}$ so that $d u=\frac{1}{2 \sqrt{x}} d x .$ Then
+      $$
+      \begin{aligned}
+      \int \frac{\sqrt{x}}{1+x^{3}} d x
+      &=\int \frac{u}{1+u^{6}}(2 u d u) \\
+      &=2 \int \frac{u^{2}}{1+\left(u^{3}\right)^{2}} d u \\
+      &=2 \int \frac{1}{1+t^{2}}\left(\frac{1}{3} d t\right)
+        \quad \left[\begin{array}{c}
+        {t=u^{3}} \\
+        {d t=3 u^{2} d u}
+        \end{array}\right] \\
+      &=\frac{2}{3} \tan ^{-1} t+C \\
+      &=\frac{2}{3} \tan ^{-1} u^{3}+C \\
+      &=\frac{2}{3} \tan ^{-1}\left(x^{3 / 2}\right)+C
+      \end{aligned}
+      $$
+
+      _Another method:_ Let $u=x^{3 / 2}$ so that $u^{2}=x^{3}$ and $d u=\frac{3}{2} x^{1 / 2} d x \Rightarrow \sqrt{x} d x=\frac{2}{3} d u .$ Then
+      $$
+      \begin{aligned}
+      \int \frac{\sqrt{x}}{1+x^{3}} d x
+      &=\int \frac{\frac{2}{3}}{1+u^{2}} d u \\
+      &=\frac{2}{3} \tan ^{-1} u+C \\
+      &=\frac{2}{3} \tan ^{-1}\left(x^{3 / 2}\right)+C
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580507912853
+  fields:
+    Front: |
+      CET-07.05-44 Exercise:
+      Evaluate the integral.
+      $$\int \sqrt{1+e^{x}} d x$$
+    Back: |
+      Let $u=\sqrt{1+e^{x}} .$ Then $u^{2}=1+e^{x}, 2 u d u=e^{x} d x=\left(u^{2}-1\right) d x,$ and $d x=\frac{2 u}{u^{2}-1} d u,$ so
+      $$
+      \begin{aligned}
+      \int \sqrt{1+e^{x}} d x
+      &=\int u \cdot \frac{2 u}{u^{2}-1} d u \\
+      &=\int \frac{2 u^{2}}{u^{2}-1} d u \\
+      &=\int\left(2+\frac{2}{u^{2}-1}\right) d u \\
+      &=\int\left(2+\frac{1}{u-1}-\frac{1}{u+1}\right) d u \\
+      &=2 u+\ln |u-1|-\ln |u+1|+C \\
+      &=2 \sqrt{1+e^{x}}+\ln (\sqrt{1+e^{x}}-1)-\ln (\sqrt{1+e^{x}}+1)+C
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580507913140
+  fields:
+    Front: |
+      CET-07.05-45 Exercise:
+      Evaluate the integral.
+      $$\int x^{5} e^{-x^{3}} d x$$
+    Back: |
+      Let $t=x^{3} .$ Then $d t=3 x^{2} d x$ $\Rightarrow I=\int x^{5} e^{-x^{3}} d x$ $=\frac{1}{3} \int t e^{-t} d t .$ Now integrate by parts with $u=t, d v=e^{-t} d t$: $I=-\frac{1}{3} t e^{-t}+\frac{1}{3} \int e^{-t} d t$ $=-\frac{1}{3} t e^{-t}-\frac{1}{3} e^{-t}+C$ $=-\frac{1}{3} e^{-x^{3}}\left(x^{3}+1\right)+C$.
+    Annotations: ''
+  tags: []
+- id: 1580507913354
+  fields:
+    Front: |
+      CET-07.05-46 Exercise:
+      Evaluate the integral.
+      $$\int \frac{(x-1) e^{x}}{x^{2}} d x$$
+    Back: |
+      Use integration by parts with $u=(x-1) e^{x}, d v=\frac{1}{x^{2}} d x \Rightarrow d u=\left[(x-1) e^{x}+e^{x}\right] d x=x e^{x} d x, v=-\frac{1}{x} .$ Then
+      $$
+      \begin{aligned}
+      \int \frac{(x-1) e^{x}}{x^{2}} d x
+      &=(x-1) e^{x}\left(-\frac{1}{x}\right)-\int-e^{x} d x \\
+      &=-e^{x}+\frac{e^{x}}{x}+e^{x}+C \\
+      &=\frac{e^{x}}{x}+C
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580507913623
+  fields:
+    Front: |
+      CET-07.05-47 Exercise:
+      Evaluate the integral.
+      $$\int x^{3}(x-1)^{-4} d x$$
+    Back: |
+      Let $u=x-1,$ so that $d u=d x .$ Then
+      $$
+      \begin{aligned}
+      \int x^{3}(x-1)^{-4} d x
+      &=\int(u+1)^{3} u^{-4} d u \\
+      &=\int\left(u^{3}+3 u^{2}+3 u+1\right) u^{-4} d u \\
+      &=\int\left(u^{-1}+3 u^{-2}+3 u^{-3}+u^{-4}\right) d u \\
+      &=\ln |u|-3 u^{-1}-\frac{3}{2} u^{-2}-\frac{1}{3} u^{-3}+C \\
+      &=\ln |x-1|-3(x-1)^{-1}-\frac{3}{2}(x-1)^{-2}-\frac{1}{3}(x-1)^{-3}+C
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580507913882
+  fields:
+    Front: |
+      CET-07.05-48 Exercise:
+      Evaluate the integral.
+      $$\int_{0}^{1} x \sqrt{2-\sqrt{1-x^{2}}} d x$$
+    Back: |
+      Let $u=\sqrt{1-x^{2}},$ so $u^{2}=1-x^{2},$ and $2 u d u=-2 x d x .$ Then $\int_{0}^{1} x \sqrt{2-\sqrt{1-x^{2}}} d x=\int_{1}^{0} \sqrt{2-u}(-u d u)$.  Now let $v=\sqrt{2-u},$ so $v^{2}=2-u,$ and $2 v d v=-d u .$ Thus,
+      $$
+      \begin{aligned}
+      \int_{1}^{0} \sqrt{2-u}(-u d u)
+      &=\int_{1}^{\sqrt{2}} v\left(2-v^{2}\right)(2 v d v) \\
+      &=\int_{1}^{\sqrt{2}}\left(4 v^{2}-2 v^{4}\right) d v \\
+      &=\left[\frac{4}{3} v^{3}-\frac{2}{5} v^{5}\right]_{1}^{\sqrt{2}} \\
+      &=\left(\frac{8}{3} \sqrt{2}-\frac{8}{5} \sqrt{2}\right)-\left(\frac{4}{3}-\frac{2}{5}\right) \\
+      &=\frac{16}{15} \sqrt{2}-\frac{14}{15}
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580507914141
+  fields:
+    Front: |
+      CET-07.05-49 Exercise:
+      Evaluate the integral.
+      $$\int \frac{1}{x \sqrt{4 x+1}} d x$$
+    Back: |
+      Let $u=\sqrt{4 x+1} \Rightarrow u^{2}=4 x+1 \Rightarrow 2 u d u=4 d x \Rightarrow d x=\frac{1}{2} u d u .$ So
+      $$
+      \begin{aligned}
+      \int \frac{1}{x \sqrt{4 x+1}} d x
+      &=\int \frac{\frac{1}{2} u d u}{\frac{1}{4}\left(u^{2}-1\right) u} \\
+      &=2 \int \frac{d u}{u^{2}-1} \\
+      &=2\left(\frac{1}{2}\right) \ln \left|\frac{u-1}{u+1}\right|+C \quad \text { [by Formula 19]} \\
+      &=\ln \left|\frac{\sqrt{4 x+1}-1}{\sqrt{4 x+1}+1}\right|+C
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580507914366
+  fields:
+    Front: |
+      CET-07.05-50 Exercise:
+      Evaluate the integral.
+      $$\int \frac{1}{x^{2} \sqrt{4 x+1}} d x$$
+    Back: |
+      As in Exercise 49, let $u=\sqrt{4 x+1} .$ Then $\int \frac{d x}{x^{2} \sqrt{4 x+1}}$ $=\int \frac{\frac{1}{2} u d u}{\left[\frac{1}{4}\left(u^{2}-1\right)\right]^{2} u}$ $=8 \int \frac{d u}{\left(u^{2}-1\right)^{2}} .$ Now $\frac{1}{\left(u^{2}-1\right)^{2}}$ $=\frac{1}{(u+1)^{2}(u-1)^{2}}$ $=\frac{A}{u+1}+\frac{B}{(u+1)^{2}}+\frac{C}{u-1}+\frac{D}{(u-1)^{2}} \Rightarrow$ $1=A(u+1)(u-1)^{2}+B(u-1)^{2}+C(u-1)(u+1)^{2}+D(u+1)^{2} .$ $u=1 \Rightarrow D=\frac{1}{4},$ $u=-1 \Rightarrow B=\frac{1}{4}$. Equating coefficients of $u^{3}$ gives $A+C=0,$ and equating coefficients of 1 gives $1=A+B-C+D \Rightarrow$ $1=A+\frac{1}{4}-C+\frac{1}{4}$ $\Rightarrow \frac{1}{2}$ $=A-C .$ So $A=\frac{1}{4}$ and $C=-\frac{1}{4} .$ Therefore
+      $$
+      \begin{aligned}
+      \int \frac{d x}{x^{2} \sqrt{4 x+1}}
+      &=8 \int\left[\frac{1 / 4}{u+1}+\frac{1 / 4}{(u+1)^{2}}+\frac{-1 / 4}{u-1}+\frac{1 / 4}{(u-1)^{2}}\right] d u \\
+      &=\int\left[\frac{2}{u+1}+2(u+1)^{-2}-\frac{2}{u-1}+2(u-1)^{-2}\right] d u \\
+      &=2 \ln |u+1|-\frac{2}{u+1}-2 \ln |u-1|-\frac{2}{u-1}+C \\
+      &=2 \ln (\sqrt{4 x+1}+1)-\frac{2}{\sqrt{4 x+1}+1} \\
+      &-2 \ln |\sqrt{4 x+1}-1|-\frac{2}{\sqrt{4 x+1}-1}+C
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580507914643
+  media:
+  - path: ¢{file_dir}/images/CET-07.05-51.Xs.1.jpg
+  fields:
+    Front: |
+      CET-07.05-51 Exercise:
+      Evaluate the integral.
+      $$\int \frac{1}{x \sqrt{4 x^{2}+1}} d x$$
+    Back: |
+      Let $2 x=\tan \theta$ $\Rightarrow x=\frac{1}{2} \tan \theta, d x$ $=\frac{1}{2} \sec ^{2} \theta d \theta,$ $\sqrt{4 x^{2}+1}=\sec \theta,$ so
+      $$
+      \begin{aligned}
+      \int \frac{d x}{x \sqrt{4 x^{2}+1}}
+      &=\int \frac{\frac{1}{2} \sec ^{2} \theta d \theta}{\frac{1}{2} \tan \theta \sec \theta} \\
+      &=\int \frac{\sec \theta}{\tan \theta} d \theta \\
+      &=\int \csc \theta d \theta \\
+      &=-\ln |\csc \theta+\cot \theta|+C \quad[\text { or } \ln |\csc \theta-\cot \theta|+C] \\
+      &=-\ln \left|\frac{\sqrt{4 x^{2}+1}}{2 x}+\frac{1}{2 x}\right|+C
+        \quad\left[\text { or } \ln \left|\frac{\sqrt{4 x^{2}+1}}{2 x}-\frac{1}{2 x}\right|+C\right]
+      \end{aligned}
+      $$
+      <p align="center">
+      ![](CET-07.05-51.Xs.1.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1580507914881
+  fields:
+    Front: |
+      CET-07.05-52 Exercise:
+      Evaluate the integral.
+      $$\int \frac{d x}{x\left(x^{4}+1\right)}$$
+    Back: |
+      Let $u=x^{2} .$ Then $d u=2 x d x \Rightarrow$
+      $$
+      \begin{aligned}
+      \int \frac{d x}{x\left(x^{4}+1\right)}
+      &=\int \frac{x d x}{x^{2}\left(x^{4}+1\right)} \\
+      &=\frac{1}{2} \int \frac{d u}{u\left(u^{2}+1\right)} \\
+      &=\frac{1}{2} \int\left[\frac{1}{u}-\frac{u}{u^{2}+1}\right] d u \\
+      &=\frac{1}{2} \ln |u|-\frac{1}{4} \ln \left(u^{2}+1\right)+C \\
+      &=\frac{1}{2} \ln \left(x^{2}\right)-\frac{1}{4} \ln \left(x^{4}+1\right)+C \\
+      &=\frac{1}{4}\left[\ln \left(x^{4}\right)-\ln \left(x^{4}+1\right)\right]+C \\
+      &=\frac{1}{4} \ln \left(\frac{x^{4}}{x^{4}+1}\right)+C
+      \end{aligned}
+      $$
+
+      _Or:_ Write $I=\int \frac{x^{3} d x}{x^{4}\left(x^{4}+1\right)}$ and let $u=x^{4}$.
+    Annotations: ''
+  tags: []
+- id: 1580507915108
+  fields:
+    Front: |
+      CET-07.05-53 Exercise:
+      Evaluate the integral.
+      $$\int x^{2} \sinh m x d x$$
+    Back: |
+      $$
+      \begin{aligned}
+      \int x^{2} \sinh (m x) d x
+      &=\frac{1}{m} x^{2} \cosh (m x)-\frac{2}{m} \int x \cosh (m x) d x \\
+      &=\frac{1}{m} x^{2} \cosh (m x)-\frac{2}{m}\left(\frac{1}{m} x \sinh (m x)-\frac{1}{m} \int \sinh (m x) d x\right)
+        \quad\left[\begin{array}{cc}
+        {u=x^{2},} & {d v=\sinh (m x) d x,} \\
+        {d u=2 x d x,} & {v=\frac{1}{m} \cosh (m x)}
+        \end{array}\right] \\
+      &=\frac{1}{m} x^{2} \cosh (m x)-\frac{2}{m^{2}} x \sinh (m x)+\frac{2}{m^{3}} \cosh (m x)+C
+        \quad\left[\begin{array}{cc}
+        {U=x,} & {d V=\cosh (m x) d x,} \\
+        {d U=d x,} & {V=\frac{1}{m} \sinh (m x)}
+        \end{array}\right]
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580507915342
+  fields:
+    Front: |
+      CET-07.05-54 Exercise:
+      Evaluate the integral.
+      $$\int(x+\sin x)^{2} d x$$
+    Back: |
+      $$
+      \begin{aligned}
+      \int(x+\sin x)^{2} d x
+      &=\int\left(x^{2}+2 x \sin x+\sin ^{2} x\right) d x \\
+      &=\frac{1}{3} x^{3}+2(\sin x-x \cos x)+\frac{1}{2}(x-\sin x \cos x)+C \\
+      &=\frac{1}{3} x^{3}+\frac{1}{2} x+2 \sin x-\frac{1}{2} \sin x \cos x-2 x \cos x+C
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580507915605
+  fields:
+    Front: |
+      CET-07.05-55 Exercise:
+      Evaluate the integral.
+      $$\int \frac{d x}{x+x \sqrt{x}}$$
+    Back: |
+      Let $u=\sqrt{x},$ so that $x=u^{2}$ and $d x=2 u d u .$ Then $\int \frac{d x}{x+x \sqrt{x}}=\int \frac{2 u d u}{u^{2}+u^{2} \cdot u}$ $=\int \frac{2}{u(1+u)} d u=I$.
+
+      Now $\frac{2}{u(1+u)}=\frac{A}{u}+\frac{B}{1+u}$ $\Rightarrow 2=A(1+u)+B u .$ Set $u=-1$ to get $2=-B,$ so $B=-2 .$ Set $u=0$ to get $2=A$.
+
+      Thus, $I=\int\left(\frac{2}{u}-\frac{2}{1+u}\right) d u$ $=2 \ln |u|-2 \ln |1+u|+C$ $=2 \ln \sqrt{x}-2 \ln (1+\sqrt{x})+C$.
+    Annotations: ''
+  tags: []
+- id: 1580507915827
+  fields:
+    Front: |
+      CET-07.05-56 Exercise:
+      Evaluate the integral.
+      $$\int \frac{d x}{\sqrt{x}+x \sqrt{x}}$$
+    Back: |
+      Let $u=\sqrt{x},$ so that $x=u^{2}$ and $d x=2 u d u .$ Then
+      $$
+      \begin{aligned}
+      \int \frac{d x}{\sqrt{x}+x \sqrt{x}}
+      &=\int \frac{2 u d u}{u+u^{2} \cdot u} \\
+      &=\int \frac{2}{1+u^{2}} d u \\
+      &=2 \tan ^{-1} u+C \\
+      &=2 \tan ^{-1} \sqrt{x}+C
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580507916091
+  fields:
+    Front: |
+      CET-07.05-57 Exercise:
+      Evaluate the integral.
+      $$\int x \sqrt[3]{x+c} d x$$
+    Back: |
+      Let $u=\sqrt[3]{x+c} .$ Then $x=u^{3}-c \Rightarrow$
+      $$
+      \begin{aligned}
+      \int x \sqrt[3]{x+c} d x
+      &=\int\left(u^{3}-c\right) u \cdot 3 u^{2} d u \\
+      &=3 \int\left(u^{6}-c u^{3}\right) d u \\
+      &=\frac{3}{7} u^{7}-\frac{3}{4} c u^{4}+C \\
+      &=\frac{3}{7}(x+c)^{7 / 3}-\frac{3}{4}(x+c)^{4 / 3}+C
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580507916353
+  fields:
+    Front: |
+      CET-07.05-58 Exercise:
+      Evaluate the integral.
+      $$\int \frac{x \ln x}{\sqrt{x^{2}-1}} d x$$
+    Back: |
+      Let $t=\sqrt{x^{2}-1} .$ Then $d t=(x / \sqrt{x^{2}-1}) d x, x^{2}-1=t^{2}, x=\sqrt{t^{2}+1},$ so
+      $$
+      \begin{aligned}
+      I
+      &=\int \frac{x \ln x}{\sqrt{x^{2}-1}} d x \\
+      &=\int \ln \sqrt{t^{2}+1} d t \\
+      &=\frac{1}{2} \int \ln \left(t^{2}+1\right) d t
+      \end{aligned}
+      $$ Now use parts with $u=\ln \left(t^{2}+1\right), d v=d t:$
+      $$
+      \begin{aligned}
+      I
+      &=\frac{1}{2} t \ln \left(t^{2}+1\right)-\int \frac{t^{2}}{t^{2}+1} d t \\
+      &=\frac{1}{2} t \ln \left(t^{2}+1\right)-\int\left[1-\frac{1}{t^{2}+1}\right] d t \\
+      &=\frac{1}{2} t \ln \left(t^{2}+1\right)-t+\tan ^{-1} t+C \\
+      &=\sqrt{x^{2}-1} \ln x-\sqrt{x^{2}-1}+\tan ^{-1} \sqrt{x^{2}-1}+C
+      \end{aligned}
+      $$
+
+      _Another method:_ First integrate by parts with $u=\ln x, d v=(x / \sqrt{x^{2}-1}) d x$ and then use substitution ($x=\sec \theta$ or $u=\sqrt{x^{2}-1}$).
+    Annotations: ''
+  tags: []
+- id: 1580518440622
+  fields:
+    Front: |
+      CET-07.05-59 Exercise:
+      Evaluate the integral.
+      $$\int \frac{d x}{x^{4}-16}$$
+    Back: |
+      $$
+      \begin{aligned}
+      \frac{1}{x^{4}-16}
+      &=\frac{1}{\left(x^{2}-4\right)\left(x^{2}+4\right)} \\
+      &=\frac{1}{(x-2)(x+2)\left(x^{2}+4\right)} \\
+      &=\frac{A}{x-2}+\frac{B}{x+2}+\frac{C x+D}{x^{2}+4}
+      \end{aligned}
+      $$ Multiply by $(x-2)(x+2)\left(x^{2}+4\right)$ to get $1=A(x+2)\left(x^{2}+4\right)+B(x-2)\left(x^{2}+4\right)+(C x+D)(x-2)(x+2) .$ Substituting 2 for $x$ gives $1=32 A$ $\Leftrightarrow A$ $=\frac{1}{32} .$ Substituting $-2$ for $x$ gives $1=-32 B$ $\Leftrightarrow B$ $=-\frac{1}{32} .$ Equating coefficients of $x^{3}$ gives $0=A+B+C=\frac{1}{32}-\frac{1}{32}+C,$ so $C=0 .$ Equating constant terms gives $1=8 A-8 B-4 D$ $=\frac{1}{4}+\frac{1}{4}-4 D,$ so $\frac{1}{2}=-4 D$ $\Leftrightarrow D=-\frac{1}{8} .$ Thus
+      $$
+      \begin{aligned}
+      \int \frac{d x}{x^{4}-16}
+      &=\int\left(\frac{1 / 32}{x-2}-\frac{1 / 32}{x+2}-\frac{1 / 8}{x^{2}+4}\right) d x \\
+      &=\frac{1}{32} \ln |x-2|-\frac{1}{32} \ln |x+2|-\frac{1}{8} \cdot \frac{1}{2} \tan ^{-1}\left(\frac{x}{2}\right)+C \\
+      &=\frac{1}{32} \ln \left|\frac{x-2}{x+2}\right|-\frac{1}{16} \tan ^{-1}\left(\frac{x}{2}\right)+C
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580518440937
+  media:
+  - path: ¢{file_dir}/images/CET-07.05-60.Xs.1.jpg
+  fields:
+    Front: |
+      CET-07.05-60 Exercise:
+      Evaluate the integral.
+      $$\int \frac{d x}{x^{2} \sqrt{4 x^{2}-1}}$$
+    Back: |
+      Let $2 x=\sec \theta,$ so that $2 d x=\sec \theta \tan \theta d \theta .$
+      <p align="center">
+      ![](CET-07.05-60.Xs.1.jpg)
+      </p>
+      Then
+      $$
+      \begin{aligned}
+      \int \frac{d x}{x^{2} \sqrt{4 x^{2}-1}}
+      &=\int \frac{\frac{1}{2} \sec \theta \tan \theta d \theta}{\frac{1}{4} \sec ^{2} \theta \sqrt{\sec ^{2} \theta-1}} \\
+      &=\int \frac{2 \tan \theta d \theta}{\sec \theta \tan \theta} \\
+      &=2 \int \cos \theta d \theta \\
+      &=2 \sin \theta+C \\
+      &=2 \cdot \frac{\sqrt{4 x^{2}-1}}{2 x}+C \\
+      &=\frac{\sqrt{4 x^{2}-1}}{x}+C
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580518441161
+  fields:
+    Front: |
+      CET-07.05-61 Exercise:
+      Evaluate the integral.
+      $$\int \frac{d \theta}{1+\cos \theta}$$
+    Back: |
+      $$
+      \begin{aligned}
+      \int \frac{d \theta}{1+\cos \theta}
+      &=\int\left(\frac{1}{1+\cos \theta} \cdot \frac{1-\cos \theta}{1-\cos \theta}\right) d \theta \\
+      &=\int \frac{1-\cos \theta}{1-\cos ^{2} \theta} d \theta \\
+      &=\int \frac{1-\cos \theta}{\sin ^{2} \theta} d \theta \\
+      &=\int\left(\frac{1}{\sin ^{2} \theta}-\frac{\cos \theta}{\sin ^{2} \theta}\right) d \theta \\
+      &=\int\left(\csc ^{2} \theta-\cot \theta \csc \theta\right) d \theta \\
+      &=-\cot \theta+\csc \theta+C
+      \end{aligned}
+      $$
+
+      _Another method:_ Use the substitutions in Exercise 7.4.59.
+      $$
+      \begin{aligned}
+      \int \frac{d \theta}{1+\cos \theta}
+      &=\int \frac{2 /\left(1+t^{2}\right) d t}{1+\left(1-t^{2}\right) /\left(1+t^{2}\right)} \\
+      &=\int \frac{2 d t}{\left(1+t^{2}\right)+\left(1-t^{2}\right)} \\
+      &=\int d t=t+C=\tan \left(\frac{\theta}{2}\right)+C
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580518441383
+  fields:
+    Front: |
+      CET-07.05-62 Exercise:
+      Evaluate the integral.
+      $$\int \frac{d \theta}{1+\cos ^{2} \theta}$$
+    Back: |
+      $$
+      \begin{aligned}
+      \int \frac{d \theta}{1+\cos ^{2} \theta}
+      &=\int \frac{\left(1 / \cos ^{2} \theta\right) d \theta}{\left(1+\cos ^{2} \theta\right) / \cos ^{2} \theta} \\
+      &=\int \frac{\sec ^{2} \theta}{\sec ^{2} \theta+1} d \theta \\
+      &=\int \frac{\sec ^{2} \theta}{\tan ^{2} \theta+2} d \theta \\
+      &=\int \frac{1}{u^{2}+2} d u
+        \quad\left[\begin{array}{c}
+        {u=\tan \theta,} \\
+        {d u=\sec ^{2} \theta d \theta}
+        \end{array}\right] \\
+      &=\int \frac{1}{u^{2}+(\sqrt{2})^{2}} d u \\
+      &=\frac{1}{\sqrt{2}} \tan ^{-1}\left(\frac{u}{\sqrt{2}}\right)+C \\
+      &=\frac{1}{\sqrt{2}} \tan ^{-1}\left(\frac{\tan \theta}{\sqrt{2}}\right)+C
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580518441574
+  fields:
+    Front: |
+      CET-07.05-63 Exercise:
+      Evaluate the integral.
+      $$\int \sqrt{x} e^{\sqrt{x}} d x$$
+    Back: |
+      Let $y=\sqrt{x}$ so that $d y=\frac{1}{2 \sqrt{x}} d x$ $\Rightarrow d x=2 \sqrt{x} d y=2 y d y .$ Then
+      $$
+      \begin{aligned}
+      \int \sqrt{x} e^{\sqrt{x}} d x
+      &=\int y e^{y}(2 y d y) \\
+      &=\int 2 y^{2} e^{y} d y
+        \quad\left[\begin{array}{cc}
+        {u=2 y^{2},} & {d v=e^{y} d y,} \\
+        {d u=4 y d y,} & {v=e^{y}}
+        \end{array}\right] \\
+      &=2 y^{2} e^{y}-\int 4 y e^{y} d y
+        \quad\left[\begin{array}{cc}
+        {U=4 y,} & {d V=e^{y} d y,} \\
+        {d U=4 d y,} & {V=e^{y}}
+        \end{array}\right] \\
+      &=2 y^{2} e^{y}-\left(4 y e^{y}-\int 4 e^{y} d y\right) \\
+      &=2 y^{2} e^{y}-4 y e^{y}+4 e^{y}+C \\
+      &=2\left(y^{2}-2 y+2\right) e^{y}+C \\
+      &=2(x-2 \sqrt{x}+2) e^{\sqrt{x}}+C
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580518441783
+  fields:
+    Front: |
+      CET-07.05-64 Exercise:
+      Evaluate the integral.
+      $$\int \frac{1}{\sqrt{\sqrt{x}+1}} d x$$
+    Back: |
+      Let $u=\sqrt{x}+1,$ so that $x=(u-1)^{2}$ and $d x=2(u-1) d u .$ Then
+      $$
+      \begin{aligned}
+      \int \frac{1}{\sqrt{\sqrt{x}+1}} d x
+      &=\int \frac{2(u-1) d u}{\sqrt{u}} \\
+      &=\int\left(2 u^{1 / 2}-2 u^{-1 / 2}\right) d u \\
+      &=\frac{4}{3} \frac{4}{3} u^{3 / 2}-4 u^{1 / 2}+C \\
+      &=\frac{4}{3}(\sqrt{x}+1)^{3 / 2}-4 \sqrt{\sqrt{x}+1}+C
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580518441989
+  fields:
+    Front: |
+      CET-07.05-65 Exercise:
+      Evaluate the integral.
+      $$\int \frac{\sin 2 x}{1+\cos ^{4} x} d x$$
+    Back: |
+      Let $u=\cos ^{2} x,$ so that $d u=2 \cos x(-\sin x) d x .$ Then
+      $$
+      \begin{aligned}
+      \int \frac{\sin 2 x}{1+\cos ^{4} x} d x
+      &=\int \frac{2 \sin x \cos x}{1+\left(\cos ^{2} x\right)^{2}} d x \\
+      &=\int \frac{1}{1+u^{2}}(-d u) \\
+      &=-\tan ^{-1} u+C \\
+      &=-\tan ^{-1}\left(\cos ^{2} x\right)+C
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580518442269
+  fields:
+    Front: |
+      CET-07.05-66 Exercise:
+      Evaluate the integral.
+      $$\int_{\pi / 4}^{\pi / 3} \frac{\ln (\tan x)}{\sin x \cos x} d x$$
+    Back: |
+      Let $u=\tan x .$ Then
+      $$
+      \begin{aligned}
+      \int_{\pi / 4}^{\pi / 3} \frac{\ln (\tan x) d x}{\sin x \cos x}
+      &=\int_{\pi / 4}^{\pi / 3} \frac{\ln (\tan x)}{\tan x} \sec ^{2} x d x \\
+      &=\int_{1}^{\sqrt{3}} \frac{\ln u}{u} d u \\
+      &=\left[\frac{1}{2}(\ln u)^{2}\right]_{1}^{\sqrt{3}} \\
+      &=\frac{1}{2}(\ln \sqrt{3})^{2} \\
+      &=\frac{1}{8}(\ln 3)^{2}
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580518442490
+  fields:
+    Front: |
+      CET-07.05-67 Exercise:
+      Evaluate the integral.
+      $$\int \frac{1}{\sqrt{x+1}+\sqrt{x}} d x$$
+    Back: |
+      $$
+      \begin{aligned}
+      \int \frac{d x}{\sqrt{x+1}+\sqrt{x}}
+      &=\int\left(\frac{1}{\sqrt{x+1}+\sqrt{x}} \cdot \frac{\sqrt{x+1}-\sqrt{x \sqrt{x}}}{\sqrt{x+1}-\sqrt{x}}\right) d x \\
+      &=\int(\sqrt{x+1}-\sqrt{x}) d x \\
+      &=\frac{2}{3}\left[(x+1)^{3 / 2}-x^{3 / 2}\right]+C
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580518442677
+  fields:
+    Front: |
+      CET-07.05-68 Exercise:
+      Evaluate the integral.
+      $$\int \frac{x^{2}}{x^{6}+3 x^{3}+2} d x$$
+    Back: |
+      $$
+      \begin{aligned}
+      \int \frac{x^{2}}{x^{6}+3 x^{3}+2} d x
+      &=\int \frac{x^{2} d x}{\left(x^{3}+1\right)\left(x^{3}+2\right)} \\
+      &=\int \frac{\frac{1}{3} d u}{(u+1)(u+2)}
+        \quad\left[\begin{array}{c}
+        {u=x^{3},} \\
+        {d u=3 x^{2} d x}
+        \end{array}\right]
+      \end{aligned}
+      $$ Now $\frac{1}{(u+1)(u+2)}=\frac{A}{u+1}+\frac{B}{u+2}$ $\Rightarrow 1=A(u+2)+B(u+1) .$ Setting $u=-2$ gives $B=-1 .$ Setting $u=-1$ gives $A=1 .$ Thus,
+      $$
+      \begin{aligned}
+      \frac{1}{3} \int \frac{d u}{(u+1)(u+2)}
+      &=\frac{1}{3} \int\left(\frac{1}{u+1}-\frac{1}{u+2}\right) d u \\
+      &=\frac{1}{3} \ln |u+1|-\frac{1}{3} \ln |u+2|+C \\
+      &=\frac{1}{3} \ln \left|x^{3}+1\right|-\frac{1}{3} \ln \left|x^{3}+2\right|+C
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580518442916
+  fields:
+    Front: |
+      CET-07.05-69 Exercise:
+      Evaluate the integral.
+      $$\int_{1}^{\sqrt{3}} \frac{\sqrt{1+x^{2}}}{x^{2}} d x$$
+    Back: |
+      Let $x=\tan \theta,$ so that $d x=\sec ^{2} \theta d \theta, x=\sqrt{3}$ $\Rightarrow \theta=\frac{\pi}{3},$ and $x=1 \Rightarrow \theta=\frac{\pi}{4} .$ Then
+      $$
+      \begin{aligned}
+      \int_{1}^{\sqrt{3}} \frac{\sqrt{1+x^{2}}}{x^{2}} d x
+      &=\int_{\pi / 4}^{\pi / 3} \frac{\sec \theta}{\tan ^{2} \theta} \sec ^{2} \theta d \theta \\
+      &=\int_{\pi / 4}^{\pi / 3} \frac{\sec \theta\left(\tan ^{2} \theta+1\right)}{\tan ^{2} \theta} d \theta \\
+      &=\int_{\pi / 4}^{\pi / 3}\left(\frac{\sec \theta \tan ^{2} \theta}{\tan ^{2} \theta}+\frac{\sec \theta}{\tan ^{2} \theta}\right) d \theta \\
+      &=\int_{\pi / 4}^{\pi / 3}(\sec \theta+\csc \theta \cot \theta) d \theta \\
+      &=[\ln |\sec \theta+\tan \theta|-\csc \theta]_{\pi / 4}^{\pi / 3} \\
+      &=\left(\ln |2+\sqrt{3}|-\frac{2}{\sqrt{3}}\right)-(\ln |\sqrt{2}+1|-\sqrt{2}) \\
+      &=\sqrt{2}-\frac{2}{\sqrt{3}}+\ln (2+\sqrt{3})-\ln (1+\sqrt{2})
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580518443152
+  fields:
+    Front: |
+      CET-07.05-70 Exercise:
+      Evaluate the integral.
+      $$\int \frac{1}{1+2 e^{x}-e^{-x}} d x$$
+    Back: |
+      Let $u=e^{x} .$ Then $x=\ln u, d x=d u / u \Rightarrow$
+      $$
+      \begin{aligned}
+      \int \frac{d x}{1+2 e^{x}-e^{-x}}
+      &=\int \frac{d u / u}{1+2 u-1 / u} \\
+      &=\int \frac{d u}{2 u^{2}+u-1} \\
+      &=\int\left[\frac{2 / 3}{2 u-1}-\frac{1 / 3}{u+1}\right] d u \\
+      &=\frac{1}{3} \ln |2 u-1|-\frac{1}{3} \ln |u+1|+C \\
+      &=\frac{1}{3} \ln \left|\left(2 e^{x}-1\right) /\left(e^{x}+1\right)\right|+C
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580518443354
+  fields:
+    Front: |
+      CET-07.05-71 Exercise:
+      Evaluate the integral.
+      $$\int \frac{e^{2 x}}{1+e^{x}} d x$$
+    Back: |
+      Let $u=e^{x} .$ Then $x=\ln u, d x=d u / u \Rightarrow$
+      $$
+      \begin{aligned}
+      \int \frac{e^{2 x}}{1+e^{x}} d x
+      &=\int \frac{u^{2}}{1+u} \frac{d u}{u} \\
+      &=\int \frac{u}{1+u} d u \\
+      &=\int\left(1-\frac{1}{1+u}\right) d u \\
+      &=u-\ln |1+u|+C \\
+      &=e^{x}-\ln \left(1+e^{x}\right)+C
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580518443561
+  fields:
+    Front: |
+      CET-07.05-72 Exercise:
+      Evaluate the integral.
+      $$\int \frac{\ln (x+1)}{x^{2}} d x$$
+    Back: |
+      Use parts with $u=\ln (x+1), d v=d x / x^{2}:$
+      $$
+      \begin{aligned}
+      \int \frac{\ln (x+1)}{x^{2}} d x
+      &=-\frac{1}{x} \ln (x+1)+\int \frac{d x}{x(x+1)} \\
+      &=-\frac{1}{x} \ln (x+1)+\int\left[\frac{1}{x}-\frac{1}{x+1}\right] d x \\
+      &=-\frac{1}{x} \ln (x+1)+\ln |x|-\ln (x+1)+C \\
+      &=-\left(1+\frac{1}{x}\right) \ln (x+1)+\ln |x|+C
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580518443811
+  media:
+  - path: ¢{file_dir}/images/CET-07.05-73.Xs.1.jpg
+  fields:
+    Front: |
+      CET-07.05-73 Exercise:
+      Evaluate the integral.
+      $$\int \frac{x+\arcsin x}{\sqrt{1-x^{2}}} d x$$
+    Back: |
+      Let $\theta=\arcsin x,$ so that $d \theta=\frac{1}{\sqrt{1-x^{2}}} d x$ and $x=\sin \theta .$
+      <p align="center">
+      ![](CET-07.05-73.Xs.1.jpg)
+      </p>
+      Then
+      $$
+      \begin{aligned}
+      \int \frac{x+\arcsin x}{\sqrt{1-x^{2}}} d x
+      &=\int(\sin \theta+\theta) d \theta \\
+      &=-\cos \theta+\frac{1}{2} \theta^{2}+C \\
+      &=-\sqrt{1-x^{2}}+\frac{1}{2}(\arcsin x)^{2}+C
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580518444032
+  fields:
+    Front: |
+      CET-07.05-74 Exercise:
+      Evaluate the integral.
+      $$\int \frac{4^{x}+10^{x}}{2^{x}} d x$$
+    Back: |
+      $$
+      \begin{aligned}
+      \int \frac{4^{x}+10^{x}}{2^{x}} d x
+      &=\int\left(\frac{4^{x}}{2^{x}}+\frac{10^{x}}{2^{x}}\right) d x \\
+      &=\int\left(2^{x}+5^{x}\right) d x \\
+      &=\frac{2^{x}}{\ln 2}+\frac{5^{x}}{\ln 5}+C
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580518444253
+  fields:
+    Front: |
+      CET-07.05-75 Exercise:
+      Evaluate the integral.
+      $$\int \frac{d x}{x \ln x-x}$$
+    Back: |
+      $$
+      \begin{aligned}
+      \int \frac{d x}{x \ln x-x}
+      &=\int \frac{d x}{x(\ln x-1)} \\
+      &=\int \frac{d u}{u}
+        \quad\left[\begin{array}{c}
+        {u=\ln x-1} \\
+        {d u=(1 / x) d x}
+        \end{array}\right] \\
+      &=\ln |u|+C=\ln |\ln x-1|+C
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580518444507
+  fields:
+    Front: |
+      CET-07.05-76 Exercise:
+      Evaluate the integral.
+      $$\int \frac{x^{2}}{\sqrt{x^{2}+1}} d x$$
+    Back: |
+      $$
+      \begin{aligned}
+      \int \frac{x^{2}}{\sqrt{x^{2}+1}} d x
+      &=\int \frac{\tan ^{2} \theta}{\sec \theta} \sec ^{2} \theta d \theta
+        \quad\left[\begin{array}{c}
+        {x=\tan \theta} \\
+        {d x} & {=\sec ^{2} \theta d \theta}
+        \end{array}\right] \\
+      &=\int \tan ^{2} \theta \sec \theta d \theta \\
+      &=\int\left(\sec ^{2} \theta-1\right) \sec \theta d \theta \\
+      &=\int\left(\sec ^{3} \theta-\sec \theta\right) d \theta \\
+      &=\frac{1}{2}(\sec \theta \tan \theta+\ln |\sec \theta+\tan \theta|)-\ln |\sec \theta+\tan \theta|+C \quad\text{[by (1) and Example 7.2.8]}\\
+      &=\frac{1}{2}(\sec \theta \tan \theta-\ln |\sec \theta+\tan \theta|)+C \\
+      &=\frac{1}{2}[x \sqrt{x^{2}+1}-\ln (\sqrt{x^{2}+1}+x)]+C
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580518444720
+  fields:
+    Front: |
+      CET-07.05-77 Exercise:
+      Evaluate the integral.
+      $$\int \frac{x e^{x}}{\sqrt{1+e^{x}}} d x$$
+    Back: |
+      Let $y=\sqrt{1+e^{x}},$ so that $y^{2}=1+e^{x},$ $2 y d y=e^{x} d x,$ $e^{x}=y^{2}-1,$ and $x=\ln \left(y^{2}-1\right) .$ Then
+      $$
+      \begin{aligned}
+      \int \frac{x e^{x}}{\sqrt{1+e^{x}}} d x
+      &=\int \frac{\ln \left(y^{2}-1\right)}{y}(2 y d y) \\
+      &=2 \int[\ln (y+1)+\ln (y-1)] d y \\
+      &=2[(y+1) \ln (y+1)-(y+1)+(y-1) \ln (y-1)-(y-1)]+C \quad\text {[by Example 7.1.2]} \\
+      &=2[(y \ln (y+1)+\ln (y+1)-y-1+y \ln (y-1)-\ln (y-1)-y+1]+C\\
+      &=2[y \ln (y+1)+\ln (y-1))+\ln (y+1)-\ln (y-1)-2 y]+C \\
+      &=2\left[y \ln (y+1)+\ln \frac{y+1}{y-1}-2 y\right]+C \\
+      &=2\left[\sqrt{1+e^{x}} \ln \left(e^{x}\right)+\ln \frac{\sqrt{1+e^{x}}+1}{\sqrt{1+e^{x}}-1}-2 \sqrt{1+e^{x}}\right]+C \\
+      &=2 x \sqrt{1+e^{x}}+2 \ln \frac{\sqrt{1+e^{x}}+1}{\sqrt{1+e^{x}}-1}-4 \sqrt{1+e^{x}}+C \\
+      &=2(x-2) \sqrt{1+e^{x}}+2 \ln \frac{\sqrt{1+e^{x}}+1}{\sqrt{1+e^{x}}-1}+C
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580518444932
+  fields:
+    Front: |
+      CET-07.05-78 Exercise:
+      Evaluate the integral.
+      $$\int \frac{1+\sin x}{1-\sin x} d x$$
+    Back: |
+      $$
+      \begin{aligned}
+      \frac{1+\sin x}{1-\sin x}
+      &=\frac{1+\sin x}{1-\sin x} \cdot \frac{1+\sin x}{1+\sin x} \\
+      &=\frac{1+2 \sin x+\sin ^{2} x}{1-\sin ^{2} x} \\
+      &=\frac{1+2 \sin x+\sin ^{2} x}{\cos ^{2} x} \\
+      &=\frac{1}{\cos ^{2} x}+\frac{2 \sin x}{\cos ^{2} x}+\frac{\sin ^{2} x}{\cos ^{2} x} \\
+      &=\sec ^{2} x+2 \sec x \tan x+\tan ^{2} x \\
+      &=\sec ^{2} x+2 \sec x \tan x+\sec ^{2} x-1 \\
+      &=2 \sec ^{2} x+2 \sec x \tan x-1
+      \end{aligned}
+      $$ Thus,
+      $$
+      \begin{aligned}
+      \int \frac{1+\sin x}{1-\sin x} d x
+      &=\int\left(2 \sec ^{2} x+2 \sec x \tan x-1\right) d x \\
+      &=2 \tan x+2 \sec x-x+C
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580518445149
+  fields:
+    Front: |
+      CET-07.05-79 Exercise:
+      Evaluate the integral.
+      $$\int x \sin ^{2} x \cos x d x$$
+    Back: |
+      Let $u=x, d v=\sin ^{2} x \cos x d x$ $\Rightarrow d u=d x, v=\frac{1}{3} \sin ^{3} x .$ Then
+      $$
+      \begin{aligned}
+      \int x \sin ^{2} x \cos x d x
+      &=\frac{1}{3} x \sin ^{3} x-\int \frac{1}{3} \sin ^{3} x d x \\
+      &=\frac{1}{3} x \sin ^{3} x-\frac{1}{3} \int\left(1-\cos ^{2} x\right) \sin x d x \\
+      &=\frac{1}{3} x \sin ^{3} x+\frac{1}{3} \int\left(1-y^{2}\right) d y
+        \quad\left[\begin{array}{c}
+        {u=\cos x} \\
+        {d u=-\sin x d x}
+        \end{array}\right] \\
+      &=\frac{1}{3} x \sin ^{3} x+\frac{1}{3} y-\frac{1}{9} y^{3}+C \\
+      &=\frac{1}{3} x \sin ^{3} x+\frac{1}{3} \cos x-\frac{1}{9} \cos ^{3} x+C
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580518445381
+  fields:
+    Front: |
+      CET-07.05-80 Exercise:
+      Evaluate the integral.
+      $$\int \frac{\sec x \cos 2 x}{\sin x+\sec x} d x$$
+    Back: |
+      $$
+      \begin{aligned}
+      \int \frac{\sec x \cos 2 x}{\sin x+\sec x} d x
+      &=\int \frac{\sec x \cos 2 x}{\sin x+\sec x} \cdot \frac{2 \cos x}{2 \cos x} d x \\
+      &=\int \frac{2 \cos 2 x}{2 \sin x \cos x+2} d x \\
+      &=\int \frac{2 \cos 2 x}{\sin 2 x+2} d x \\
+      &=\int \frac{1}{u} d u
+        \quad\left[\begin{array}{c}
+        {u=\sin 2 x+2} \\
+        {d u=2 \cos 2 x d x}
+        \end{array}\right] \\
+      &=\ln |u|+C \\
+      &=\ln |\sin 2 x+2|+C \\
+      &=\ln (\sin 2 x+2)+C
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580518445600
+  fields:
+    Front: |
+      CET-07.05-81 Exercise:
+      Evaluate the integral.
+      $$\int \sqrt{1-\sin x} d x$$
+    Back: |
+      $$
+      \begin{aligned}
+      \int \sqrt{1-\sin x} d x
+      &=\int \sqrt{\frac{1-\sin x}{1} \cdot \frac{1+\sin x}{1+\sin x}} d x \\
+      &=\int \sqrt{\frac{1-\sin ^{2} x}{1+\sin x}} d x \\
+      &=\int \sqrt{\frac{\cos ^{2} x}{1+\sin x}} d x \\
+      &=\int \frac{\cos x d x}{\sqrt{1+\sin x}} \quad[\text { assume cos } x>0] \\
+      &=\int \frac{d u}{\sqrt{u}}
+        \quad\left[\begin{array}{c}
+        {u=1+\sin x} \\
+        {d u} & {=\cos x d x}
+        \end{array}\right] \\
+      &=2 \sqrt{u}+C \\
+      &=2 \sqrt{1+\sin x}+C
+      \end{aligned}
+      $$
+
+      _Another method:_ Let $u=\sin x$ so that $d u=\cos x d x$ $=\sqrt{1-\sin ^{2} x} d x$ $=\sqrt{1-u^{2}} d x .$ Then
+      $$
+      \begin{aligned}
+      \int \sqrt{1-\sin x} d x
+      &=\int \sqrt{1-u}\left(\frac{d u}{\sqrt{1-u^{2}}}\right) \\
+      &=\int \frac{1}{\sqrt{1+u}} d u \\
+      &=2 \sqrt{1+u}+C \\
+      &=2 \sqrt{1+\sin x}+C
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580518445832
+  fields:
+    Front: |
+      CET-07.05-82 Exercise:
+      Evaluate the integral.
+      $$\int \frac{\sin x \cos x}{\sin ^{4} x+\cos ^{4} x} d x$$
+    Back: |
+      $$
+      \begin{aligned}
+      \int \frac{\sin x \cos x}{\sin ^{4} x+\cos ^{4} x} d x
+      &=\int \frac{\sin x \cos x}{\left(\sin ^{2} x\right)^{2}+\left(\cos ^{2} x\right)^{2}} d x \\
+      &=\int \frac{\sin x \cos x}{\left(\sin ^{2} x\right)^{2}+\left(1-\sin ^{2} x\right)^{2}} d x \\
+      &=\int \frac{1}{u^{2}+(1-u)^{2}}\left(\frac{1}{2} d u\right)
+        \quad\left[\begin{array}{l}
+        {u=\sin ^{2} x} \\
+        {d u=2 \sin x \cos x d x}
+        \end{array}\right] \\
+      &=\int \frac{1}{4 u^{2}-4 u+2} d u \\
+      &=\int \frac{1}{\left(4 u^{2}-4 u+1\right)+1} d u\\
+      &=\int \frac{1}{(2 u-1)^{2}+1} d u \\
+      &=\frac{1}{2} \int \frac{1}{y^{2}+1} d y
+        \quad\left[\begin{array}{c}
+        {y=2 u-1} \\
+        {d y=2 d u}
+        \end{array}\right]\\
+      &=\frac{1}{2} \tan ^{-1} y+C \\
+      &=\frac{1}{2} \tan ^{-1}(2 u-1)+C \\
+      &=\frac{1}{2} \tan ^{-1}\left(2 \sin ^{2} x-1\right)+C
+      \end{aligned}
+      $$
+
+      _Another solution:_
+      $$
+      \begin{aligned}
+      \int \frac{\sin x \cos x}{\sin ^{4} x+\cos ^{4} x} d x
+      &=\int \frac{(\sin x \cos x) / \cos ^{4} x}{\left(\sin ^{4} x+\cos ^{4} x\right) / \cos ^{4} x} d x \\
+      &=\int \frac{\tan x \sec ^{2} x}{\tan ^{4} x+1} d x \\
+      &=\int \frac{1}{u^{2}+1}\left(\frac{1}{2} d u\right)
+        \quad\left[\begin{array}{c}
+        {u=\tan ^{2} x} \\
+        {d u=2 \tan x} & {\sec ^{2} x d x}
+        \end{array}\right] \\
+      &=\frac{1}{2} \tan ^{-1} u+C \\
+      &=\frac{1}{2} \tan ^{-1}\left(\tan ^{2} x\right)+C
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580522113498
+  fields:
+    Front: |
+      CET-07.05-83 Exercise:
+      The functions $y=e^{x^{2}}$ and $y=x^{2} e^{x^{2}}$ don't have elementary antiderivatives, but $y=\left(2 x^{2}+1\right) e^{x^{2}}$ does. Evaluate $\int\left(2 x^{2}+1\right) e^{x^{2}} d x$.
+    Back: |
+      The function $y=2 x e^{x^{2}}$ does have an elementary antiderivative, so we'll use this fact to help evaluate the integral.
+      $$
+      \begin{aligned}
+      \int\left(2 x^{2}+1\right) e^{x^{2}} d x
+      &=\int 2 x^{2} e^{x^{2}} d x+\int e^{x^{2}} d x \\
+      &=\int x\left(2 x e^{x^{2}}\right) d x+\int e^{x^{2}} d x \\
+      &=x e^{x^{2}}-\int e^{x^{2}} d x+\int e^{x^{2}} d x
+        \quad\left[\begin{array}{ll}
+        {u=x,} & {d v=2 x e^{x^{2}} d x} \\
+        {d u=d x} & {v=e^{x^{2}}}
+        \end{array}\right] \\
+      &=x e^{x^{2}}+C
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1580522361897
+  fields:
+    Front: |
+      CET-07.05-84 Exercise:
+      We know that $F(x)=\int_{0}^{x} e^{e^{t}} d t$ is a continuous function by FTC $1,$ though it is not an elementary function. The functions
+      $$
+      \int \frac{e^{x}}{x} d x \quad \text { and } \quad \int \frac{1}{\ln x} d x
+      $$
+      are not elementary either, but they can be expressed in terms of $F .$ Evaluate the following integrals in terms of $F$.
+      (a) $\int_{1}^{2} \frac{e^{x}}{x} d x$
+      (b) $\int_{2}^{3} \frac{1}{\ln x} d x$
+    Back: |
+      (a)
+      $$
+      \begin{aligned}
+      \int_{1}^{2} \frac{e^{x}}{x} d x
+      &=\int_{0}^{\ln 2} \frac{e^{e^{t}}}{e^{t}} e^{t} d t
+        \quad\left[\begin{array}{c}
+        {x=e^{t},} \\
+        {d x=e^{t} d t}
+        \end{array}\right] \\
+      &=\int_{0}^{\ln 2} e^{e^{t}} d t =F(\ln 2)
+      \end{aligned}
+      $$
+
+      (b)
+      $$
+      \begin{aligned}
+      \int_{2}^{3} \frac{1}{\ln x} d x
+      &=\int_{\ln 2}^{\ln 3} \frac{1}{u}\left(e^{u} d u\right)
+        \quad\left[\begin{array}{c}
+        {u=\ln x} \\
+        {d u}
+        \end{array}\right] \\
+      &=\int_{\ln \ln 2}^{\ln \ln 3} \frac{e^{v}}{e^{v}} e^{v} d v
+        \quad\left[\begin{array}{l}
+        {u=e^{v}} \\
+        {d u=e^{v} d v}
+        \end{array}\right] \\
+      &=\int_{\ln \ln 2}^{0} e^{e^{v}} d v+\int_{0}^{\ln \ln 3} e^{e^{v}} d v
+        \quad[\text { note that } \ln 2<0] \\
+      &=\int_{0}^{\ln \ln 3} e^{e^{v}} d v-\int_{0}^{\ln \ln 2} e^{e^{v}} d v \\
+      &=F(\ln \ln 3)-F(\ln \ln 2)
+      \end{aligned}
+      $$
+
+      _Another method:_ Substitute $x=e^{e^{t}}$ in the original integral.
+    Annotations: ''
+  tags: []

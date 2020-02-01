@@ -1,0 +1,26 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-11-InfiniteSequencesAndSeries
+  - CET-11.05-AlternatingSeries
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1578495132250
+  fields:
+    Front: |
+      CET-11.05-01 Exercise:
+      Test the following series for convergence or divergence.
+      $$
+      \frac{2}{3}-\frac{2}{5}+\frac{2}{7}-\frac{2}{9}+\frac{2}{11}-\cdots
+      $$
+    Back: |
+      $\frac{2}{3}-\frac{2}{5}+\frac{2}{7}-\frac{2}{9}+\frac{2}{11}-\cdots$ $=\sum_{n=1}^{\infty}(-1)^{n+1} \frac{2}{2 n+1} .$ Now $b_{n}$ $=\frac{2}{2 n+1}>0,$ $\left\{b_{n}\right\}$ is decreasing, and $\lim _{n \rightarrow \infty} b_{n}=0,$ so the series converges by the Alternating Series Test.
+    Annotations: ''
+  tags: []

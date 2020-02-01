@@ -1,0 +1,30 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-11-InfiniteSequencesAndSeries
+  - CET-11.10-TaylorAndMaclaurinSeries
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1578525494175
+  fields:
+    Front: |
+      CET-11.10-01 Example:
+      Find the Maclaurin series of the function $f(x)=e^{x}$ and its radius of convergence.
+    Back: |
+      If $f(x)=e^{x},$ then $f^{(n)}(x)=e^{x},$ so $f^{(n)}(0)=e^{0}=1$ for all $n .$ Therefore the Taylor series for $f$ at $0$ (that is, the Maclaurin series) is
+      $$
+      \sum_{n=0}^{\infty} \frac{f^{(n)}(0)}{n !} x^{n}=\sum_{n=0}^{\infty} \frac{x^{n}}{n !}=1+\frac{x}{1 !}+\frac{x^{2}}{2 !}+\frac{x^{3}}{3 !}+\cdots
+      $$ To find the radius of convergence we let $a_{n}=x^{n} / n !$. Then
+      $$
+      \left|\frac{a_{n+1}}{a_{n}}\right|=\left|\frac{x^{n+1}}{(n+1) !} \cdot \frac{n !}{x^{n}}\right|=\frac{|x|}{n+1} \rightarrow 0<1
+      $$ so, by the Ratio Test, the series converges for all $x$ and the radius of convergence is $R=\infty.$
+    Annotations: ''
+  tags:
+  - Editing

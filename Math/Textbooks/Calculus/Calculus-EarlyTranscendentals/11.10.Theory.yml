@@ -1,0 +1,99 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theory
+  - Calculus-EarlyTrancendentals
+  - CET-11-InfiniteSequencesAndSeries
+  - CET-11.10-TaylorAndMaclaurinSeries
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1578523255650
+  fields:
+    Front: |
+      CET-11.10-01 Theory: [CET-11.10 Eqn. 5]
+      State the **Power to Taylor Coefficients Theorem** (my own term). What are **Taylor coefficients?**
+    Back: |
+      If $f$ has a power series representation (expansion) at $a,$ that is, if
+      $$
+      f(x)=\sum_{n=0}^{\infty} c_{n}(x-a)^{n} \quad|x-a|<R
+      $$ then its coefficients are given by the formula
+      $$
+      c_{n}=\frac{f^{(n)}(a)}{n !}
+      $$ The numbers $c_{n}$ are called **Taylor coefficients.**
+    Annotations: ''
+  tags: []
+- id: 1578524119950
+  fields:
+    Front: |
+      CET-11.10-02 Theory: [CET-11.10 Eqn. 6]
+      State the **Power to Taylor Series Theorem** (my own term).  Define the **Taylor series of the function $f$ at $a$** (or **about $a$** or **centered at $a$**).
+    Back: |
+      If $f$ has a power series expansion at $a$, then it must be of the following form.
+      $$
+      \begin{aligned}
+      f(x) &=\sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n !}(x-a)^{n} \\
+      &=f(a)+\frac{f^{\prime}(a)}{1 !}(x-a)+\frac{f^{\prime \prime}(a)}{2 !}(x-a)^{2}+\frac{f^{\prime \prime \prime}(a)}{3 !}(x-a)^{3}+\cdots
+      \end{aligned}
+      $$ This series is called the **Taylor series of the function $f$ at $a$.**
+
+      This theorem can be restated as follows: if $f$ can be represented as a power series about $a$, then $f$ is equal to the sum of its Taylor series.
+
+      **Note:** there exist functions that are not equal to the sum of their Taylor series.
+    Annotations: ''
+  tags: []
+- id: 1578524655376
+  fields:
+    Front: |
+      CET-11.10-03 Theory: [CET-11.10 Eqn. 7]
+      Define the **Maclaurin series of the function $f$.**
+    Back: |
+      For the special case $a=0$ the Taylor series becomes
+      $$
+      f(x)=\sum_{n=0}^{\infty} \frac{f^{(n)}(0)}{n !} x^{n}=f(0)+\frac{f^{\prime}(0)}{1 !} x+\frac{f^{\prime \prime}(0)}{2 !} x^{2}+\cdots
+      $$ This case arises frequently enough that it is given the special name **Maclaurin series**.
+    Annotations: ''
+  tags: []
+- id: 1578794005513
+  fields:
+    Front: |
+      CET-11.10-04 Theory:
+      Define the **$n$th-degree Taylor polynomial of $f$ at $a$** and the corresponding **remainder.**
+    Back: |
+      The polynomial $T_{n}(x)=\sum_{i=0}^{n} \frac{f^{(i)}(a)}{i !}(x-a)^{i}$ and remainder $R_{n}(x) = f(x) - T_{n}(x)$ appearing in Taylor's theorem are the **$n$th-degree Taylor polynomial of $f$ at $a$** and the corresponding **remainder,** respectively.
+    Annotations: ''
+  tags: []
+- id: 1578794005793
+  fields:
+    Front: |
+      CET-11.10-05 Theory: [CET-11.10 Eqn. 8]
+      State **Taylor's theorem.**
+    Back: |
+      If $f(x)=T_{n}(x)+R_{n}(x),$ where $T_{n}$ is the $n$ th-degree Taylor polynomial of $f$ at $a$ and
+      $$
+      \lim _{n \rightarrow \infty} R_{n}(x)=0
+      $$ for $|x-a|<R,$ then $f$ is equal to the sum of its Taylor series on the interval $|x-a|<R$.
+    Annotations: ''
+  tags: []
+- id: 1578794006051
+  fields:
+    Front: |
+      CET-11.10-06 Theory:
+      State **Taylor's theorem.**
+    Back: |
+      If the function $f$ is $n$ times differentiable at $a$ then there is a function $R_{n}(x)$ such that
+      $$
+      T_{n}(x)=\sum_{i=0}^{n} \frac{f^{(i)}(a)}{i !}(x-a)^{i}
+      $$ where
+      $$
+      f(x) = T_{n}(x) + R_{n}(x)
+      $$ and
+      $$
+      \lim_{x \rightarrow a} R_n(x) = 0
+      $$
+    Annotations: ''
+  tags: []

@@ -1,0 +1,78 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theory
+  - Calculus-EarlyTrancendentals
+  - CET-02-LimitsAndDerivatives
+  - CET-02.02-TheLimitOfAFunction
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1579026590785
+  fields:
+    Front: |
+      CET-02.02-01 Theory:
+      Give the **Intuitive Definition of a Limit.**
+    Back: |
+      Suppose $f(x)$ is defined when $x$ is near the number $a .$ (This means that $f$ is defined on some open interval that contains $a$ except possibly at $a$ itself.) Then we write
+      $$
+      \lim _{x \rightarrow a} f(x)=L
+      $$ and say "the limit of $f(x),$ as $x$ approaches $a,$ equals $L$" if we can make the values of $f(x)$ arbitrarily close to $L$ (as close to $L$ as we like) by restricting $x$ to be sufficiently close to $a$ (on either side of $a$ ) but not equal to $a$.
+    Annotations: ''
+  tags: []
+- id: 1579028918279
+  fields:
+    Front: |
+      CET-02.02-02 Theory:
+      ##### one-sided limits
+      Give the **Intuitive Definition of One-Sided Limits.**
+    Back: |
+      We write
+      $$
+      \lim _{x \rightarrow a^{-}} f(x)=L
+      $$ and say "the left-hand limit of $f(x)$ as $x$ approaches $a$ [or the limit of $f(x)$ as $x$ approaches $a$ from the left] is equal to $L$" if we can make the values of $f(x)$ arbitrarily close to $L$ by taking $x$ to be sufficiently close to $a$ with $x$ less than $a$.
+
+      Similarly, if we require that $x$ be greater than $a$, we get "the right-hand limit of $f(x)$ as $x$ approaches $a$ is equal to $L$" and we write
+      $$
+      \lim _{x \rightarrow a^{+}} f(x)=L
+      $$
+    Annotations: ''
+  tags: []
+- id: 1579029854576
+  fields:
+    Front: |
+      CET-02.02-03 Theory:
+      ##### infinite limits
+      Give the **Intuitive Definition of an Infinite Limit.**
+    Back: |
+      Let $f$ be a function defined on both sides of $a,$ except possibly at $a$ itself. Then
+      $$
+      \lim _{x \rightarrow a} f(x)=\infty
+      $$ means that the values of $f(x)$ can be made arbitrarily large (as large as we please) by taking $x$ sufficiently close to $a,$ but not equal to $a$.
+
+      Similarly,
+      $$
+      \lim _{x \rightarrow a} f(x)=-\infty
+      $$ means that the values of $f(x)$ can be made arbitrarily large negative by taking $x$ sufficiently close to $a,$ but not equal to $a$.
+    Annotations: ''
+  tags: []
+- id: 1579030215403
+  fields:
+    Front: |
+      CET-02.02-04 Theory:
+      ##### infinite limits
+      Define **vertical asymptote.**
+    Back: |
+      The vertical line $x=a$ is called a vertical asymptote of the curve $y=f(x)$ if at least one of the following statements is true:
+      $$
+      \begin{array}{rclrclrcl}
+      \lim _{x \rightarrow a} f(x) &=& \infty & \lim _{x \rightarrow a^{-}} f(x) &=& \infty & \lim _{x \rightarrow a^{+}} f(x) &=& \infty \\
+      \lim _{x \rightarrow a} f(x) &=& -\infty & \lim _{x \rightarrow a^{-}} f(x) &=& -\infty & \lim _{x \rightarrow a^{+}} f(x) &=& -\infty \\
+      \end{array}
+      $$
+    Annotations: ''
+  tags: []

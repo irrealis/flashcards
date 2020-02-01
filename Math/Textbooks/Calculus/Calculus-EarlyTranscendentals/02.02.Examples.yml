@@ -1,0 +1,236 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-02-LimitsAndDerivatives
+  - CET-02.02-TheLimitOfAFunction
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1579026844728
+  fields:
+    Front: |
+      CET-02.02-01 Example:
+      Guess the value of $\lim _{x \rightarrow 1} \frac{x-1}{x^{2}-1}$.
+    Back: |
+      Notice that the function $f(x)=(x-1) /\left(x^{2}-1\right)$ is not defined when $x=1$ but that doesn't matter because the definition of $\lim _{x \rightarrow a} f(x)$ says that we consider values of $x$ that are close to $a$ but not equal to $a$. The tables below give values of $f(x)$ (correct to six decimal places) for values of $x$ that approach 1 (but are not equal to 1 ).
+      $$
+      \begin{array}{|c|c|}
+      \hline x<1 & {f(x)} \\
+      \hline 0.5 & {0.666667} \\
+      {0.9} & {0.526316} \\
+      {0.99} & {0.502513} \\
+      {0.999} & {0.500250} \\
+      {0.9999} & {0.500025} \\
+      \hline
+      \end{array}
+      $$ $$
+      \begin{array}{|c|c|}
+      \hline x>1 & {f(x)} \\
+      \hline 1.5 & {0.400000} \\
+      {1.1} & {0.476190} \\
+      {1.01} & {0.497512} \\
+      {1.001} & {0.499750} \\
+      {1.0001} & {0.499975} \\
+      \hline
+      \end{array}
+      $$ On the basis of the values in the tables, we make the guess that
+      $$
+      \lim _{x \rightarrow 1} \frac{x-1}{x^{2}-1}=0.5
+      $$
+    Annotations: ''
+  tags: []
+- id: 1579026996354
+  fields:
+    Front: |
+      CET-02.02-02 Example:
+      Estimate the value of $\lim _{t \rightarrow 0} \frac{\sqrt{t^{2}+9}-3}{t^{2}}$.
+    Back: |
+      The table lists values of the function for several values of $t$ near $0 .$
+      $$
+      \begin{array}{|c|c|}
+      \hline & {\frac{\sqrt{t^{2}+9}-3}{t^{2}}} \\
+      \hline \pm 1.0 & {0.162277 \ldots} \\
+      {\pm 0.5} & {0.165525 \ldots} \\
+      {\pm 0.1} & {0.166620 \ldots} \\
+      {\pm 0.05} & {0.166655 \ldots} \\
+      {\pm 0.01} & {0.166666 \cdots} \\
+      \hline\end{array}
+      $$ As $t$ approaches $0,$ the values of the function seem to approach $0.1666666 \ldots$ and so we guess that
+      $$
+      \lim _{t \rightarrow 0} \frac{\sqrt{t^{2}+9}-3}{t^{2}}=\frac{1}{6}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1579027594730
+  media:
+  - path: ¢{file_dir}/images/CET-02.02-03.Xm.1.jpg
+  fields:
+    Front: |
+      CET-02.02-03 Example:
+      Guess the value of $\lim _{x \rightarrow 0} \frac{\sin x}{x}$.
+    Back: |
+      The function $f(x)=(\sin x) / x$ is not defined when $x=0 .$ Using a calculator (and remembering that, if $x \in \mathbb{R}, \sin x$ means the sine of the angle whose radian measure is $x$ ), we construct a table of values correct to eight decimal places. From the table and graph below,
+      $$
+      \begin{array}{|c|c|}
+      \hline
+      x & {\frac{\sin x}{x}} \\
+      \hline
+      {\pm 1.0} & {0.84147098} \\
+      {\pm 0.5} & {0.95885108} \\
+      {\pm 0.4} & {0.97354586} \\
+      {\pm 0.3} & {0.98506736} \\
+      {\pm 0.2} & {0.99334665} \\
+      {\pm 0.1} & {0.99833417} \\
+      {\pm 0.05} & {0.99958339} \\
+      {\pm 0.01} & {0.99998333} \\
+      {\pm 0.005} & {0.99999583} \\
+      {\pm 0.001} & {0.99999983} \\
+      \hline
+      \end{array}
+      $$
+      <p align="center">
+      ![](CET-02.02-03.Xm.1.jpg)
+      </p>
+      we guess that
+      $$
+      \lim _{x \rightarrow 0} \frac{\sin x}{x}=1
+      $$ This guess is in fact correct, as will be proved in Chapter 3 using a geometric argument.
+    Annotations: ''
+  tags: []
+- id: 1579027870553
+  media:
+  - path: ¢{file_dir}/images/CET-02.02-04.Xm.1.jpg
+  fields:
+    Front: |
+      CET-02.02-04 Example:
+      Investigate $\lim _{x \rightarrow 0} \sin \frac{\pi}{x}$
+    Back: |
+      Again the function $f(x)=\sin (\pi / x)$ is undefined at $0 .$ Evaluating the function for some small values of $x,$ we get
+      $$
+      \begin{array}{rclcrcl}
+      f(1) &=& \sin \pi=0 & & f\left(\frac{1}{2}\right) &=& \sin 2 \pi=0 \\
+      f\left(\frac{1}{3}\right) &=& \sin 3 \pi=0 & & f\left(\frac{1}{4}\right) &=& \sin 4 \pi=0 \\
+      f(0.1) &=& \sin 10 \pi=0 & & f(0.01) &=& \sin 100 \pi=0
+      \end{array}
+      $$ Similarly, $f(0.001)=f(0.0001)=0 .$ On the basis of this information we might be tempted to guess that
+      $$
+      \lim _{x \rightarrow 0} \sin \frac{\pi}{x}=0
+      $$ but this time our guess is wrong. Note that although $f(1 / n)=\sin n \pi=0$ for any integer $n,$ it is also true that $f(x)=1$ for infinitely many values of $x$ (such as $2 / 5$ or $2 / 101)$ that approach $0 .$ You can see this from the graph of $f$ shown below.
+      <p align="center">
+      ![](CET-02.02-04.Xm.1.jpg)
+      </p>
+      The dashed lines near the $y$ -axis indicate that the values of $\sin (\pi / x)$ oscillate between 1 and $-1$ infinitely often as $x$ approaches $0 .$ (See Exercise 51.) Since the values of $f(x)$ do not approach a fixed number as $x$ approaches 0,
+      $$
+      \lim _{x \rightarrow 0} \sin \frac{\pi}{x}
+      \quad \text{does not exist.}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1579029380054
+  media:
+  - path: ¢{file_dir}/images/CET-02.02-07.Xm.1.jpg
+  fields:
+    Front: |
+      CET-02.02-07 Example:
+      ##### one-sided limits
+      The graph of a function $g$ is shown below.
+      <p align="center">
+      ![](CET-02.02-07.Xm.1.jpg)
+      </p>
+      Use it to state the values (if they exist) of the following:
+      (a) $\lim _{x \rightarrow 2^{-}} g(x)$
+      (b) $\lim _{x \rightarrow 2^{+}} g(x)$
+      (c) $\lim _{x \rightarrow 2} g(x)$
+      (d) $\lim _{x \rightarrow 5^{-}} g(x)$
+      (e) $\lim _{x \rightarrow 5^{+}} g(x)$
+      (f) $\lim _{x \rightarrow 5} g(x)$
+    Back: |
+      From the graph we see that the values of $g(x)$ approach 3 as $x$ approaches 2 from the left, but they approach 1 as $x$ approaches 2 from the right. Therefore
+      $$
+      \text { (a) } \lim _{x \rightarrow 2^{-}} g(x)=3 \quad \text { and } \quad \text{ (b) } \lim _{x \rightarrow 2^{+}} g(x)=1
+      $$
+      (c) since the left and right limits are different, we conclude that $\lim _{x \rightarrow 2} g(x)$ does not exist.
+      The graph also shows that
+      (d) $\lim _{x \rightarrow 5^{-}} g(x)=2 \quad$ and
+      (e) $\lim _{x \rightarrow 5^{+}} g(x)=2$
+      (f) This time the left and right limits are the same and so we have
+      $$
+      \lim _{x \rightarrow 5} g(x)=2
+      $$ Despite this fact, notice that $g(5) \neq 2$.
+    Annotations: ''
+  tags: []
+- id: 1579029731103
+  fields:
+    Front: |
+      CET-02.02-08 Example:
+      ##### infinite limits
+      Find $\lim _{x \rightarrow 0} \frac{1}{x^{2}}$ if it exists.
+    Back: |
+      As $x$ becomes close to $0, x^{2}$ also becomes close to $0,$ and $1 / x^{2}$ becomes very large. (See the table below.)
+      $$
+      \begin{array}{|c|c|}
+      \hline
+      x & {\frac{1}{x^{2}}} \\
+      \hline
+      \pm 1 & {1} \\
+      \pm 0.5 & {4} \\
+      \pm 0.2 & {25} \\
+      \pm 0.1 & {100} \\
+      \pm 0.05 & {400} \\
+      \pm 0.01 & {10000} \\
+      \pm 0.001 & {1000000} \\
+      \hline
+      \end{array}
+      $$ In fact, it appears from the graph of the function $f(x)=1 / x^{2}$ shown in Figure 11 that the values of $f(x)$ can be made arbitrarily large by taking $x$ close enough to $0 .$ Thus the values of $f(x)$ do not approach a number, so $\lim _{x \rightarrow 0}\left(1 / x^{2}\right)$ does not exist.
+    Annotations: ''
+  tags: []
+- id: 1579030435953
+  media:
+  - path: ¢{file_dir}/images/CET-02.02-09.Xm.1.jpg
+  fields:
+    Front: |
+      CET-02.02-09 Example:
+      ##### infinite limits
+      Find $\lim _{x \rightarrow 3^{+}} \frac{2 x}{x-3}$ and $\lim _{x \rightarrow 3^{-}} \frac{2 x}{x-3}$
+    Back: |
+      If $x$ is close to 3 but larger than $3,$ then the denominator $x-3$ is a small positive number and $2 x$ is close to $6 .$ So the quotient $2 x /(x-3)$ is a large positive number. [For instance, if $x=3.01 \text { then } 2 x /(x-3)=6.02 / 0.01=602 .]$ Thus, intuitively, we see that
+      $$
+      \lim _{x \rightarrow 3^{+}} \frac{2 x}{x-3}=\infty
+      $$ Likewise, if $x$ is close to 3 but smaller than $3,$ then $x-3$ is a small negative number but $2 x$ is still a positive number (close to 6 ). So $2 x /(x-3)$ is a numerically large negative number. Thus
+      $$
+      \lim _{x \rightarrow 3^{-}} \frac{2 x}{x-3}=-\infty
+      $$ The graph of the curve $y=2 x /(x-3)$ is given below.
+      <p align="center">
+      ![](CET-02.02-09.Xm.1.jpg)
+      </p>
+      The line $x=3$ is a vertical asymptote.
+    Annotations: ''
+  tags: []
+- id: 1579030600953
+  media:
+  - path: ¢{file_dir}/images/CET-02.02-10.Xm.1.jpg
+  fields:
+    Front: |
+      CET-02.02-10 Example:
+      ##### infinite limits
+      Find the vertical asymptotes of $f(x)=\tan x$
+    Back: |
+      Because
+      $$
+      \tan x=\frac{\sin x}{\cos x}
+      $$ there are potential vertical asymptotes where $\cos x=0 .$ In fact, since $\cos x \rightarrow 0^{+}$ as $\left.x \rightarrow(\pi / 2)^{-} \text {and } \cos x \rightarrow 0^{-} \text {as } x \rightarrow(\pi / 2)^{+}, \text {whereas } \sin x \text { is positive (near } 1\right)$ when $x$
+      is near $\pi / 2,$ we have
+      $$
+      \lim _{x \rightarrow(\pi / 2)^{-}} \tan x=\infty \quad \text { and } \quad \lim _{x \rightarrow(\pi / 2)^{+}} \tan x=-\infty
+      $$ This shows that the line $x=\pi / 2$ is a vertical asymptote. Similar reasoning shows that the lines $x=\pi / 2+n \pi,$ where $n$ is an integer, are all vertical asymptotes of $f(x)=\tan x .$ The graph below confirms this.
+      <p align="center">
+      ![](CET-02.02-10.Xm.1.jpg)
+      </p>
+    Annotations: ''
+  tags: []

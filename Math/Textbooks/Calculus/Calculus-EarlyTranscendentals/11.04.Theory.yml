@@ -1,0 +1,73 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theory
+  - Calculus-EarlyTrancendentals
+  - CET-11-InfiniteSequencesAndSeries
+  - CET-11.04-TheComparisonTests
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1578441142184
+  fields:
+    Front: |
+      CET-11.04-01 Theory:
+      State the **The Comparison Test.**
+    Back: |
+      Suppose that $\sum a_{n}$ and $\sum b_{n}$ are series with positive terms.
+      (i) If $\sum b_{n}$ is convergent and $a_{n} \leqslant b_{n}$ for all $n,$ then $\sum a_{n}$ is also convergent.
+      (ii) If $\sum b_{n}$ is divergent and $a_{n} \geqslant b_{n}$ for all $n,$ then $\sum a_{n}$ is also divergent.
+    Annotations: ''
+  tags: []
+- id: 1578441538660
+  fields:
+    Front: |
+      CET-11.04-02 Theory:
+      What are the **Standard Series for Use with the Comparison Test?**
+    Back: |
+      In using the Comparison Test we must, of course, have some known series $\sum b_{n}$ for the purpose of comparison. Most of the time we use one of these series:
+      (i) A $p$-series [$\sum 1 / n^{p}$ converges if $p>1$ and diverges if $p \leqslant 1$]
+      (ii) A geometric series [$\sum a r^{n-1}$ converges if $|r|<1$ and diverges if $|r| \geqslant 1$]
+    Annotations: ''
+  tags: []
+- id: 1578441815083
+  fields:
+    Front: |
+      CET-11.04-03 Theory:
+      Do we need to verify the Comparison Test for all $n$?
+    Back: |
+      Although the condition $a_{n} \leqslant b_{n}$ or $a_{n} \geqslant b_{n}$ in the Comparison Test is given for all $n,$ we need verify only that it holds for $n \geqslant N,$ where $N$ is some fixed integer, because the convergence of a series is not affected by a finite number of terms.
+    Annotations: ''
+  tags: []
+- id: 1578442047584
+  fields:
+    Front: |
+      CET-11.04-04 Theory:
+      State **The Limit Comparison Test.**
+    Back: |
+      Suppose that $\sum a_{n}$ and $\sum b_{n}$ are series with positive terms. If
+      $$
+      \lim _{n \rightarrow \infty} \frac{a_{n}}{b_{n}}=c
+      $$ where $c$ is a finite number and $c>0,$ then either both series converge or both diverge.
+    Annotations: ''
+  tags: []
+- id: 1578443088910
+  fields:
+    Front: |
+      CET-11.04-05 Theory:
+      ##### estimating sums
+      When using a comparison series to estimate the sum of a series, what is meant by **remainder?**
+    Back: |
+      If we have used the Comparison Test to show that a series $\sum a_{n}$ converges by comparison with a series $\sum b_{n},$ then we may be able to estimate the sum $\sum a_{n}$ by comparing remainders. As in the Remainder Estimate for the Integral Test, we consider the remainder
+      $$
+      R_{n}=s-s_{n}=a_{n+1}+a_{n+2}+\cdots
+      $$ For the comparison series $\sum b_{n}$ we consider the corresponding remainder
+      $$
+      T_{n}=t-t_{n}=b_{n+1}+b_{n+2}+\cdots
+      $$ Since $a_{n} \leqslant b_{n}$ for all $n,$ we have $R_{n} \leqslant T_{n} .$ If $\sum b_{n}$ is a $p$ -series, we can estimate its remain$\operatorname{der} T_{n}$ as in the Remainder Estimate for the Integral Test. If $\sum b_{n}$ is a geometric series, then $T_{n}$ is the sum of a geometric series and we can sum it exactly. In either case we know that $R_{n}$ is smaller than $T_{n}$.
+    Annotations: ''
+  tags: []

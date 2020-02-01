@@ -1,0 +1,276 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theory
+  - Calculus-EarlyTrancendentals
+  - CET-07-TechniquesOfIntegration
+  - CET-07.05-StrategyForIntegration
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1580494846208
+  fields:
+    Front: |
+      CET-07.05-01 Theory:
+      ##### integration formulae
+      State the following integral.
+      1. $\int x^{n} d x$
+    Back: |
+      1. $\int x^{n} d x=\frac{x^{n+1}}{n+1} \quad(n \neq-1) + C$
+    Annotations: ''
+  tags: []
+- id: 1580494846652
+  fields:
+    Front: |
+      CET-07.05-02 Theory:
+      ##### integration formulae
+      State the following integral.
+      2. $\int \frac{1}{x} d x$
+    Back: |
+      2. $\int \frac{1}{x} d x=\ln |x| + C$
+    Annotations: ''
+  tags: []
+- id: 1580494846866
+  fields:
+    Front: |
+      CET-07.05-03 Theory:
+      ##### integration formulae
+      State the following integral.
+      3. $\int e^{x} d x$
+    Back: |
+      3. $\int e^{x} d x=e^{x} + C$
+    Annotations: ''
+  tags: []
+- id: 1580494847051
+  fields:
+    Front: |
+      CET-07.05-04 Theory:
+      ##### integration formulae
+      State the following integral.
+      4. $\int b^{x} d x$
+    Back: |
+      4. $\int b^{x} d x=\frac{b^{x}}{\ln b} + C$
+    Annotations: ''
+  tags: []
+- id: 1580494847253
+  fields:
+    Front: |
+      CET-07.05-05 Theory:
+      ##### integration formulae
+      State the following integral.
+      5. $\int \sin x d x$
+    Back: |
+      5. $\int \sin x d x=-\cos x + C$
+    Annotations: ''
+  tags: []
+- id: 1580494847487
+  fields:
+    Front: |
+      CET-07.05-06 Theory:
+      ##### integration formulae
+      State the following integral.
+      6. $\int \cos x d x$
+    Back: |
+      6. $\int \cos x d x=\sin x + C$
+    Annotations: ''
+  tags: []
+- id: 1580494847685
+  fields:
+    Front: |
+      CET-07.05-07 Theory:
+      ##### integration formulae
+      State the following integral.
+      7. $\int \sec ^{2} x d x$
+    Back: |
+      7. $\int \sec ^{2} x d x=\tan x + C$
+    Annotations: ''
+  tags: []
+- id: 1580494847876
+  fields:
+    Front: |
+      CET-07.05-08 Theory:
+      ##### integration formulae
+      State the following integral.
+      8. $\int \csc ^{2} x d x$
+    Back: |
+      8. $\int \csc ^{2} x d x=-\cot x + C$
+    Annotations: ''
+  tags: []
+- id: 1580494848114
+  fields:
+    Front: |
+      CET-07.05-09 Theory:
+      ##### integration formulae
+      State the following integral.
+      9. $\int \sec x \tan x d x$
+    Back: |
+      9. $\int \sec x \tan x d x=\sec x + C$
+    Annotations: ''
+  tags: []
+- id: 1580494848365
+  fields:
+    Front: |
+      CET-07.05-10 Theory:
+      ##### integration formulae
+      State the following integral.
+      10. $\int \csc x \cot x d x$
+    Back: |
+      10. $\int \csc x \cot x d x=-\csc x + C$
+    Annotations: ''
+  tags: []
+- id: 1580494848561
+  fields:
+    Front: |
+      CET-07.05-11 Theory:
+      ##### integration formulae
+      State the following integral.
+      11. $\int \sec x d x$
+    Back: |
+      11. $\int \sec x d x=\ln |\sec x+\tan x| + C$
+    Annotations: ''
+  tags: []
+- id: 1580494848801
+  fields:
+    Front: |
+      CET-07.05-12 Theory:
+      ##### integration formulae
+      State the following integral.
+      12. $\int \csc x d x$
+    Back: |
+      12. $\int \csc x d x=\ln |\csc x-\cot x| + C$
+    Annotations: ''
+  tags: []
+- id: 1580494848986
+  fields:
+    Front: |
+      CET-07.05-13 Theory:
+      ##### integration formulae
+      State the following integral.
+      13. $\int \tan x d x$
+    Back: |
+      13. $\int \tan x d x=\ln |\sec x| + C$
+    Annotations: ''
+  tags: []
+- id: 1580494849233
+  fields:
+    Front: |
+      CET-07.05-14 Theory:
+      ##### integration formulae
+      State the following integral.
+      14. $\int \cot x d x$
+    Back: |
+      14. $\int \cot x d x=\ln |\sin x| + C$
+    Annotations: ''
+  tags: []
+- id: 1580494849471
+  fields:
+    Front: |
+      CET-07.05-15 Theory:
+      ##### integration formulae
+      State the following integral.
+      15. $\int \sinh x d x$
+    Back: |
+      15. $\int \sinh x d x=\cosh x + C$
+    Annotations: ''
+  tags: []
+- id: 1580494849657
+  fields:
+    Front: |
+      CET-07.05-16 Theory:
+      ##### integration formulae
+      State the following integral.
+      16. $\int \cosh x d x$
+    Back: |
+      16. $\int \cosh x d x=\sinh x + C$
+    Annotations: ''
+  tags: []
+- id: 1580494849853
+  fields:
+    Front: |
+      CET-07.05-17 Theory:
+      ##### integration formulae
+      State the following integral.
+      17. $\int \frac{d x}{x^{2}+a^{2}}$
+    Back: |
+      17. $\int \frac{d x}{x^{2}+a^{2}}=\frac{1}{a} \tan ^{-1}\left(\frac{x}{a}\right) + C$
+    Annotations: ''
+  tags: []
+- id: 1580494850182
+  fields:
+    Front: |
+      CET-07.05-18 Theory:
+      ##### integration formulae
+      State the following integral.
+      18. $\int \frac{d x}{\sqrt{a^{2}-x^{2}}}$
+    Back: |
+      18. $\int \frac{d x}{\sqrt{a^{2}-x^{2}}}=\sin ^{-1}\left(\frac{x}{a}\right), \quad a>0 + C$
+    Annotations: ''
+  tags: []
+- id: 1580494850430
+  fields:
+    Front: |
+      CET-07.05-19 Theory:
+      ##### integration formulae
+      State the following integral.
+      19. $\int \frac{d x}{x^{2}-a^{2}}$
+    Back: |
+      19. $\int \frac{d x}{x^{2}-a^{2}}=\frac{1}{2 a} \ln \left|\frac{x-a}{x+a}\right| + C$
+    Annotations: ''
+  tags: []
+- id: 1580494850632
+  fields:
+    Front: |
+      CET-07.05-20 Theory:
+      ##### integration formulae
+      State the following integral.
+      20. $\int \frac{d x}{\sqrt{x^{2} \pm a^{2}}}$
+    Back: |
+      20. $\int \frac{d x}{\sqrt{x^{2} \pm a^{2}}}=\ln |x+\sqrt{x^{2} \pm a^{2}}| + C$
+    Annotations: ''
+  tags: []
+- id: 1580496411156
+  fields:
+    Front: |
+      CET-07.05-21 Theory:
+      Summarize the steps of our integration strategy.
+    Back: |
+      1. Simplify the integrand if possible
+      2. Look for an obvious substitution
+      3. Classify the integrand according to its form
+      4. Try again
+    Annotations: ''
+  tags: []
+- id: 1580496972333
+  fields:
+    Front: |
+      CET-07.05-22 Theory:
+      ##### 3. Classifying the integrand according to form
+      What integrand forms should we look for, and how do we approach them?
+    Back: |
+      (a) **Trigonometric functions.** If $f(x)$ is a product of powers of $\sin x$ and $\cos x,$ of $\tan x$ and $\sec x,$ or of cot $x$ and $\csc x,$ then we use the substitutions recommended in Section 7.2.
+      (b) **Rational functions.** If $f$ is a rational function, we use the procedure of Section 7.4 involving partial fractions.
+      (c) **Integration by parts.** If $f(x)$ is a product of a power of $x$ (or a polynomial) and transcendental function (such as a trigonometric, exponential, or logarithmic function), then we try integration by parts, choosing $u$ and $d v$ according to the advice given in Section $7.1 .$ If you look at the functions in Exercises $7.1,$ you will see that most of them are the type just described.
+      (d) **Radicals.** Particular kinds of substitutions are recommended when certain radicals appear.
+      (i) If $\sqrt{\pm x^{2} \pm a^{2}}$ occurs, we use a trigonometric substitution according to the table in Section 7.3.
+      (ii) If $\sqrt[n]{a x+b}$ occurs, we use the rationalizing substitution $u=\sqrt[n]{a x+b} .$ More generally, this sometimes works for $\sqrt[n]{g(x)}$.
+    Annotations: ''
+  tags: []
+- id: 1580497262008
+  fields:
+    Front: |
+      CET-07.05-23 Theory:
+      ##### 4. Trying again
+      What should we consider in our next try at integration?
+    Back: |
+      If the first three steps have not produced the answer, remember that there are basically only two methods of integration: substitution and parts.
+      (a) **Try substitution.** Even if no substitution is obvious (Step 2 ), some inspiration or ingenuity (or even desperation) may suggest an appropriate substitution.
+      (b) **Try parts.** Although integration by parts is used most of the time on products of the form described in Step $3(\mathrm{c}),$ it is sometimes effective on single functions. Looking at Section $7.1,$ we see that it works on $\tan ^{-1} x, \sin ^{-1} x,$ and $\ln x,$ and these are all inverse functions.
+      (c) **Manipulate the integrand.** Algebraic manipulations (perhaps rationalizing the denominator or using trigonometric identities) may be useful in transforming the integral into an easier form. These manipulations may be more substantial than in Step 1 and may involve some ingenuity.
+      (d) **Relate the problem to previous problems.** When you have built up some experience in integration, you may be able to use a method on a given integral that is similar to a method you have already used on a previous integral. Or you may even be able to express the given integral in terms of a previous one.
+      (e) **Use several methods.** Sometimes two or three methods are required to evaluate an integral. The evaluation could involve several successive substitutions of different types, or it might combine integration by parts with one or more substitutions.
+    Annotations: ''
+  tags: []

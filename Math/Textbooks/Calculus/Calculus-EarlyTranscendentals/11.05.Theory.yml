@@ -1,0 +1,59 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theory
+  - Calculus-EarlyTrancendentals
+  - CET-11-InfiniteSequencesAndSeries
+  - CET-11.05-AlternatingSeries
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1578489919887
+  fields:
+    Front: |
+      CET-11.05-01 Theory:
+      State the **Alternating Series Test.**
+    Back: |
+      If the alternating series
+      $$
+      \sum_{n=1}^{\infty}(-1)^{n-1} b_{n}=b_{1}-b_{2}+b_{3}-b_{4}+b_{5}-b_{6}+\cdots \quad b_{n}>0
+      $$
+      satisfies
+      $$
+      \begin{array}{ll}
+      \text{(i) } & b_{n+1} \leqslant b_{n} \quad \text{for all $n$} \\
+      \text{(ii) } & \lim _{n \rightarrow \infty} b_{n}=0
+      \end{array}
+      $$ then the series is convergent.
+    Annotations: ''
+  tags: []
+- id: 1578494283850
+  fields:
+    Front: |
+      CET-11.05-02 Theory:
+      ##### estimating sums
+      State the **Alternating Series Estimation Theorem.**
+    Back: |
+      If $s=\Sigma(-1)^{n-1} b_{n},$ where $b_{n}>0,$ is the sum of an alternating series that satisfies
+      $$
+      \text{(i)} \quad b_{n+1} \leqslant b_{n} \quad \text{and} \quad \text{(ii)} \quad \lim _{n \rightarrow \infty} b_{n}=0
+      $$ then
+      $$
+      \left|R_{n}\right|=\left|s-s_{n}\right| \leqslant b_{n+1}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1578494960076
+  fields:
+    Front: |
+      CET-11.05-03 Theory:
+      ##### estimating sums
+      Is it true in general that the error (in using $s_{n}$ to approximate $s$ ) is smaller than the first neglected term?
+    Back: |
+      The rule that the error (in using $s_{n}$ to approximate $s$ ) is smaller than the first neglected term is, in general, valid only for alternating series that satisfy the conditions of the Alternating Series Estimation Theorem. The rule does not apply to other types of series.
+    Annotations: ''
+  tags: []

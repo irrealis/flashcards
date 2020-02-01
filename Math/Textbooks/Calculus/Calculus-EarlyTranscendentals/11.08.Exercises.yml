@@ -1,0 +1,26 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-11-InfiniteSequencesAndSeries
+  - CET-11.08-PowerSeries
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1578504783150
+  fields:
+    Front: |
+      CET-11.08-03 Exercise:
+      Find the radius of convergence and interval of convergence of the following series.
+      $$
+      \sum_{n=1}^{\infty}(-1)^{n} n x^{n}
+      $$
+    Back: |
+      If $a_{n}=(-1)^{n} n x^{n},$ then $\lim _{n \rightarrow \infty}\left|\frac{a_{n+1}}{a_{n}}\right|$ $=\lim _{n \rightarrow \infty}\left|\frac{(-1)^{n+1}(n+1) x^{n+1}}{(-1)^{n} n x^{n}}\right|$ $=\lim _{n \rightarrow \infty}\left|(-1) \frac{n+1}{n} x\right|$ $=\lim _{n \rightarrow \infty}\left[\left(1+\frac{1}{n}\right)|x|\right]$ $=|x| .$ By the Ratio Test, the series $\sum_{n=1}^{\infty}(-1)^{n} n x^{n}$ converges when $|x|<1,$ so the radius of convergence $R=1 .$ Now we'll check the endpoints, that is, $x=\pm 1 .$ Both series $\sum_{n=1}^{\infty}(-1)^{n} n(\pm 1)^{n}$ $=\sum_{n=1}^{\infty}(\mp 1)^{n} n$ diverge by the Test for Divergence since $\lim _{n \rightarrow \infty}\left|(\mp 1)^{n} n\right|$ $=\infty .$ Thus, the interval of convergence is $I=(-1,1)$.
+    Annotations: ''
+  tags: []
