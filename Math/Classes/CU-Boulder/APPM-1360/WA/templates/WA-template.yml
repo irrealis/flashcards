@@ -1,0 +1,22 @@
+  media:
+  - path: ${file_dir}/images/APPM-1360-WAXX-XX.1.jpg
+      <p/><p align="center">
+      ![](APPM-1360-WAXX-XX.1.jpg)
+      </p>
+- id: 0
+  fields:
+    Front: |
+      APPM 1360 WAXX-XX:
+      ##### Chapter 5 review
+      _topic: _
+
+
+    Back: |
+
+      ##### Full solution:
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+  - PartDone
+  - Editing

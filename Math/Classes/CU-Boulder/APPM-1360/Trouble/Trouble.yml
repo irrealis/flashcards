@@ -1,0 +1,11 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1360
+  - Trouble
+  markdownTabLength: 2
+notes:

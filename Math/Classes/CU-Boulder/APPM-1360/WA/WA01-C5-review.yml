@@ -1,0 +1,261 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1360
+  - APPM-1360-WA01
+  - SingleVariableEssentialCalculus
+  - SVEC-05-InverseFunctions
+  - WebAssign
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1579195396957
+  fields:
+    Front: |
+      APPM 1360 WA01-01:
+      ##### Chapter 5 review
+      _topic: graph reflections and translations (section 1.2, transformations of functions)_
+
+      Starting with the graph of $y=e^{x},$ write the equation of the graph that results from the following changes.
+      (a) shifting 8 units downward
+      (b) shifting 4 units to the right
+      (c) reflecting about the $x$ -axis
+      (d) reflecting about the $y$ -axis
+      (e) reflecting about the $x$ -axis and then about the $y$ -axis
+    Back: |
+      (a) $y = e^{x}-8$
+      (b) $y = e^{x-4}$
+      (c) $y = -e^{x}$
+      (d) $y = e^{-x}$
+      (e) $y = -e^{-x}$
+
+      ##### Full solution:
+      To do.
+    Annotations: ''
+  tags:
+  - PartDone
+  - ToDo
+- id: 1579195667961
+  fields:
+    Front: |
+      APPM 1360 WA01-02:
+      ##### Chapter 5 review
+      _topic: hyperbolic functions and identities (section 5.7)_
+
+      If $\tanh (x)=\frac{5}{13},$ find the values of the other hyperbolic functions at $x$.
+      $\sinh (x)=$
+      $\cosh (x)=$
+      $\operatorname{coth}(x)=$
+      $\operatorname{sech}(x)=$
+      $\operatorname{csch}(x)=$
+    Back: |
+      $\sinh (x)=5/12$
+      $\cosh (x)=13/12$
+      $\operatorname{coth}(x)=13/5$
+      $\operatorname{sech}(x)=12/13$
+      $\operatorname{csch}(x)=12/5$
+
+      ##### Full solution:
+      To do.
+    Annotations: ''
+  tags:
+  - PartDone
+  - ToDo
+- id: 1579195819240
+  fields:
+    Front: |
+      APPM 1360 WA01-03:
+      ##### Chapter 5 review
+      _topic: chain rule (section 2.5), natural logarithm and its derivative (section 5.2), exponential and natural logarithm as inverses (section 5.3)_
+
+      Differentiate $f$ and find the domain of $f .$ (Enter the domain in Interval notation.)
+      $$
+      f(x)=\frac{1}{3+\ln (x)}
+      $$
+      derivative: $f^{\prime}(x)=$
+      domain:
+    Back: |
+      derivative: $f^{\prime}(x)=-\frac{1}{x(3+\ln (x))^{2}}$
+      domain: $\left(0, e^{-3}\right) \cup\left(e^{-3}, \infty\right)$
+
+      ##### Full solution:
+      To do.
+    Annotations: ''
+  tags:
+  - PartDone
+  - ToDo
+- id: 1579196017513
+  fields:
+    Front: |
+      APPM 1360 WA01-04:
+      ##### Chapter 5 review
+      _topic: implicit differentiation and tangent lines (section 2.6), natural exponential function (section 5.3)_
+
+      Find an equation of the tangent line to the curve $x e^{y}+y e^{x}=5$ at the point $(0,5)$.
+    Back: |
+      $$
+      y=-\left(e^{5}+5\right) x+5
+      $$
+
+      ##### Full solution:
+      To do.
+    Annotations: ''
+  tags:
+  - PartDone
+  - ToDo
+- id: 1579196125561
+  fields:
+    Front: |
+      APPM 1360 WA01-05:
+      ##### Chapter 5 review
+      _topic: integration by substitution (section 4.5), integration of natural exponential function (section 5.3, integration)_
+
+      Evaluate the integral. (Use $C$ for the constant of integration.)
+      $$
+      \int \frac{3 e^{x}}{e^{x}+2} d x
+      $$
+    Back: |
+      $$
+      3 \ln \left(e^{x}+2\right)+C
+      $$
+
+      ##### Full solution:
+      To do.
+    Annotations: ''
+  tags:
+  - PartDone
+  - ToDo
+- id: 1579196679088
+  fields:
+    Front: |
+      APPM 1360 WA01-06:
+      ##### Chapter 5 review
+      _topic: chain rule (section 2.5), derivatives of hyperbolic functions (section 5.7)_
+
+      Find the derivative.
+      $$
+      f(x)=\tanh (\sqrt{x})
+      $$
+    Back: |
+      $$
+      f^{\prime}(x)= \frac{\operatorname{sech}(\sqrt{x})^{2}}{2 \sqrt{x}}
+      $$
+
+      ##### Full solution:
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+  - PartDone
+- id: 1579196853763
+  fields:
+    Front: |
+      APPM 1360 WA01-07:
+      ##### Chapter 5 review
+      _topic: integration by substitution (section 4.5), derivatives of inverse trigonometric functions (section 5.6)_
+
+      Evaluate the integral. (Use $C$ for the constant of integration.)
+      $$
+      \int \frac{t^{2}}{\sqrt{1-t^{6}}} d t
+      $$
+    Back: |
+      $$
+      \frac{1}{3} \arcsin \left(t^{3}\right)+C
+      $$
+
+      ##### Full solution:
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+  - PartDone
+- id: 1579196976665
+  fields:
+    Front: |
+      APPM 1360 WA01-08:
+      ##### Chapter 5 review
+      _topic: indeterminate forms and l'Hospital's Rule (section 5.8), derivative of general exponential function (section 5.4)_
+
+      Find the limit. Use I'Hospital's Rule where appropriate. If there is a more elementary method, consider using it.
+      $$
+      \lim _{x \rightarrow 0} \frac{x 2^{x}}{2^{x}-1}
+      $$
+    Back: |
+      $$
+      \frac{1}{\ln (2)}
+      $$
+
+      ##### Full solution:
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+  - PartDone
+- id: 1579197092659
+  fields:
+    Front: |
+      APPM 1360 WA01-09:
+      ##### Chapter 5 review
+      _topic: logarithmic differentiation (section 5.2)_
+
+      Find $y^{\prime}$ if $x^{y}=y^{x}$.
+    Back: |
+      $$
+      y^{\prime} = \frac{\ln (y)-\frac{y}{x}}{\ln (x)-\frac{x}{y}}
+      $$
+
+      ##### Full solution:
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+  - PartDone
+- id: 1579197171632
+  fields:
+    Front: |
+      APPM 1360 WA01-10:
+      ##### Chapter 5 review
+      _topic: derivatives of inverse trigonometric functions (section 5.6), evaluating definite integrals (section 4.3)_
+
+      Evaluate the integral.
+      $$
+      \int_{1 / \sqrt{3}}^{\sqrt{3}} \frac{7}{1+x^{2}} d x
+      $$
+    Back: |
+      $$
+      \frac{7}{6} \pi
+      $$
+
+      ##### Full solution:
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+  - PartDone
+- id: 1579197279204
+  fields:
+    Front: |
+      APPM 1360 WA01-11:
+      ##### Chapter 5 review
+      _topic: indeterminate powers and l'Hospital's Rule (section 5.8, indeterminate powers)_
+
+      Find the limit. Use l'Hospital's Rule if appropriate. If there is a more elementary method, consider using it.
+      $$
+      \lim _{x \rightarrow 0}(1-8 x)^{1 / x}
+      $$
+    Back: |
+      $$
+      e^{-8}
+      $$
+
+      ##### Full solution:
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+  - PartDone
+  - Editing
