@@ -1017,6 +1017,7 @@ notes:
     Back: |
       $f$ is an odd function because its graph is symmetric about the origin. $g$ is an even function because its graph is symmetric with respect to the $y$-axis.
     Annotations: ''
+  tags: []
 - id: 1571523892879
   media:
   - path: ${file_dir}/images/CET-01.01-70.1.jpg
@@ -1027,6 +1028,7 @@ notes:
     Back: |
       $f$ is not an even function since it is not symmetric with respect to the $y$-axis. $f$ is not an odd function since it is not symmetric about the origin. Hence, $f$ is neither even nor odd. $g$ is an even function because its graph is symmetric with respect to the $y$-axis.
     Annotations: ''
+  tags: []
 - id: 1571524071680
   fields:
     Front: |
@@ -1177,5 +1179,4 @@ notes:
 
       (iii) If $f$ is an even function and $g$ is an odd function, then $$$$(f g)(-x)=f(-x) g(-x)=f(x)[-g(x)]=-[f(x) g(x)]=-(f g)(x),$$$$ so $f g$ is an odd function.
     Annotations: ''
-  tags:
-  - Editing
+  tags: []

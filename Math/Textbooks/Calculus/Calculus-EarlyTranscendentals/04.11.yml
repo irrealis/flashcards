@@ -10,7 +10,7 @@ defaults:
   - CET-04.11-Review-Exercises
   markdownTabLength: 2
 notes:
-- id: 0
+- id: 1578500192267
   fields:
     Front: |
       CET 04.11 Th.0a: XX
@@ -19,7 +19,7 @@ notes:
     Annotations: ''
   tags:
   - Theory
-- id: 0
+- id: 1578500192698
   fields:
     Front: |
       CET 04.11 01: XX

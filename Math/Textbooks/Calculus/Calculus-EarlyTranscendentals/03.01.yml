@@ -10,7 +10,7 @@ defaults:
   - CET-03.01-DerivativesOfPolynomialsAndExponentialFunctions
   markdownTabLength: 2
 notes:
-- id: 0
+- id: 1578500176984
   fields:
     Front: |
       CET 03.01 Th.0a: XX
@@ -19,7 +19,7 @@ notes:
     Annotations: ''
   tags:
   - Theory
-- id: 0
+- id: 1578500177425
   fields:
     Front: |
       CET 03.01 01: XX

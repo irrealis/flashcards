@@ -10,7 +10,7 @@ defaults:
   - CET-02.04-ThePreciseDefinitionOfALimit
   markdownTabLength: 2
 notes:
-- id: 0
+- id: 1578500171998
   fields:
     Front: |
       CET 02.04 Th.0a: XX
@@ -19,7 +19,7 @@ notes:
     Annotations: ''
   tags:
   - Theory
-- id: 0
+- id: 1578500172457
   fields:
     Front: |
       CET 02.04 01: XX

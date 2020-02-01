@@ -52,5 +52,47 @@ notes:
       $$
       $\square$
     Annotations: ''
-  tags:
-  - Editing
+  tags: []
+- id: 1578434054534
+  fields:
+    Front: |
+      CET-11.02-03 Proof:
+      If the series $\sum_{n=1}^{\infty} a_{n}$ is convergent, prove that $\lim _{n \rightarrow \infty} a_{n}=0$.
+    Back: |
+      Let $s_{n}=a_{1}+a_{2}+\cdots+a_{n} .$ Then $a_{n}=s_{n}-s_{n-1} .$ Since $\sum a_{n}$ is convergent, the sequence $\left\{s_{n}\right\}$ is convergent. Let $\lim _{n \rightarrow \infty} s_{n}=s .$ Since $n-1 \rightarrow \infty$ as $n \rightarrow \infty$ we also have $\lim _{n \rightarrow \infty} s_{n-1}=s .$ Therefore
+      $$
+      \lim _{n \rightarrow \infty} a_{n}=\lim _{n \rightarrow \infty}\left(s_{n}-s_{n-1}\right)=\lim _{n \rightarrow \infty} s_{n}-\lim _{n \rightarrow \infty} s_{n-1}=s-s=0
+      $$
+      $\square$
+    Annotations: ''
+  tags: []
+- id: 1578435005310
+  fields:
+    Front: |
+      CET-11.02-04 Proof:
+      ##### series convergence properties
+      If $\sum a_{n}$ and $\sum b_{n}$ are convergent series, prove that
+      $$
+      \sum_{n=1}^{\infty}\left(a_{n}+b_{n}\right)=\sum_{n=1}^{\infty} a_{n}+\sum_{n=1}^{\infty} b_{n}
+      $$
+    Back: |
+      The properties of convergent series follow from the corresponding Limit Laws for Sequences. Let
+      $$
+      s_{n}=\sum_{i=1}^{n} a_{i} \quad s=\sum_{n=1}^{\infty} a_{n} \quad t_{n}=\sum_{i=1}^{n} b_{i} \quad t=\sum_{n=1}^{\infty} b_{n}
+      $$ The $n$ th partial sum for the series $\sum\left(a_{n}+b_{n}\right)$ is
+      $$
+      u_{n}=\sum_{i=1}^{n}\left(a_{i}+b_{i}\right)
+      $$ and, using Equation $5.2 .10,$ we have
+      $$
+      \begin{aligned}
+      \lim _{n \rightarrow \infty} u_{n} &=\lim _{n \rightarrow \infty} \sum_{i=1}^{n}\left(a_{i}+b_{i}\right)=\lim _{n \rightarrow \infty}\left(\sum_{i=1}^{n} a_{i}+\sum_{i=1}^{n} b_{i}\right) \\
+      &=\lim _{n \rightarrow \infty} \sum_{i=1}^{n} a_{i}+\lim _{n \rightarrow \infty} \sum_{i=1}^{n} b_{i} \\
+      &=\lim _{n \rightarrow \infty} s_{n}+\lim _{n \rightarrow \infty} t_{n}=s+t
+      \end{aligned}
+      $$ Therefore $\sum\left(a_{n}+b_{n}\right)$ is convergent and its sum is
+      $$
+      \sum_{n=1}^{\infty}\left(a_{n}+b_{n}\right)=s+t=\sum_{n=1}^{\infty} a_{n}+\sum_{n=1}^{\infty} b_{n}
+      $$
+      $\square$
+    Annotations: ''
+  tags: []

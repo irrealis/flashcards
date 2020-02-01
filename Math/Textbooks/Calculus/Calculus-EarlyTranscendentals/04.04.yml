@@ -10,7 +10,7 @@ defaults:
   - CET-04.04-IndeterminateFormsAndLHospitalsRule
   markdownTabLength: 2
 notes:
-- id: 0
+- id: 1578500187892
   fields:
     Front: |
       CET 04.04 Th.0a: XX
@@ -19,7 +19,7 @@ notes:
     Annotations: ''
   tags:
   - Theory
-- id: 0
+- id: 1578500188261
   fields:
     Front: |
       CET 04.04 01: XX

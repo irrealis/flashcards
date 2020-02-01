@@ -10,7 +10,7 @@ defaults:
   - CET-04.08-NewtonsMethod
   markdownTabLength: 2
 notes:
-- id: 0
+- id: 1578500190391
   fields:
     Front: |
       CET 04.08 Th.0a: XX
@@ -19,7 +19,7 @@ notes:
     Annotations: ''
   tags:
   - Theory
-- id: 0
+- id: 1578500190814
   fields:
     Front: |
       CET 04.08 01: XX

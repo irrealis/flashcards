@@ -5,13 +5,13 @@ defaults:
   - Textbooks
   - Math
   - Calculus
-  - Theorems
+  - Theory
   - Calculus-EarlyTrancendentals
   - CET-07-TechniquesOfIntegration
   - CET-07.01-IntegrationByParts
   markdownTabLength: 2
 notes:
-- id: 1577307683259
+- id: 1580335332744
   fields:
     Front: |
       CET-07.01-01 Theory:
@@ -21,7 +21,7 @@ notes:
       $$$\int f(x) g^{\prime}(x) d x=f(x) g(x)-\int g(x) f^{\prime}(x) d x$$$
     Annotations: ''
   tags: []
-- id: 1577307683584
+- id: 1580335332983
   fields:
     Front: |
       CET-07.01-02 Theory:
@@ -35,7 +35,7 @@ notes:
       $$$\int u d v=u v-\int v d u$$$
     Annotations: ''
   tags: []
-- id: 1577307683834
+- id: 1580335333223
   fields:
     Front: |
       CET-07.01-03 Theory:
@@ -51,5 +51,6 @@ notes:
       - Exponential
 
       If the integrand has several factors, then we try to choose among them a $u$ which appears as high as possible on the list. For example, in $\int x e^{2 x} d x$ the integrand is $x e^{2 x},$ which is the product of an algebraic function $(x)$ and an exponential function $\left(e^{2 x}\right) .$ Since Algebraic appears before Exponential, we choose $u=x .$ Sometimes the integration turns out to be similar regardless of the selection of $u$ and $d v,$ but it is advisable to refer to LIATE when in doubt.
-    Annotations: ''
-  tags: []
+    Annotations: 'Fix me:<div>- 191229-2237: typos.</div>'
+  tags:
+  - ann:fix-me

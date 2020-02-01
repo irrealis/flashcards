@@ -12,3 +12,12 @@ defaults:
   markdownTabLength: 2
   stringTemplDelim: ¢
 notes:
+- id: 1578435892909
+  fields:
+    Front: |
+      CET-11.02-03 Exercise:
+      Calculate the sum of the series $\sum_{n=1}^{\infty} a_{n}$ whose partial sums are $s_{n}=2-3(0.8)^{n}$.
+    Back: |
+      $\sum_{n=1}^{\infty} a_{n}$ $=\lim _{n \rightarrow \infty} s_{n}$ $=\lim _{n \rightarrow \infty}\left[2-3(0.8)^{n}\right]$ $=\lim _{n \rightarrow \infty} 2-3 \lim _{n \rightarrow \infty}(0.8)^{n}$ $=2-3(0)$ $=2$.
+    Annotations: ''
+  tags: []

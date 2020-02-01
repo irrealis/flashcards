@@ -111,5 +111,96 @@ notes:
       s = \lim _{n \rightarrow \infty} s_{n}=\frac{a}{1-r}
       $$
     Annotations: ''
-  tags:
-  - Editing
+  tags: []
+- id: 1578433537109
+  fields:
+    Front: |
+      CET-11.02-09 Theory:
+      Whatis the sum of the series $\sum_{n=0}^{\infty} x^{n},$ where $|x|<1$?
+    Back: |
+      $$
+      \sum_{n=0}^{\infty} x^{n}=\frac{1}{1-x}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1578433960484
+  fields:
+    Front: |
+      CET-11.02-10 Theory:
+      If the series $\sum_{n=1}^{\infty} a_{n}$ is convergent, then what is $\lim _{n \rightarrow \infty} a_{n}$?
+    Back: |
+      **Theorem:**
+      If the series $\sum_{n=1}^{\infty} a_{n}$ is convergent, then $\lim _{n \rightarrow \infty} a_{n}=0$.
+    Annotations: ''
+  tags: []
+- id: 1578434393508
+  fields:
+    Front: |
+      CET-11.02-11 Theory:
+      With any series $\sum a_{n}$, what are the two associated sequences?
+    Back: |
+      With any series $\sum a_{n}$ we associate two sequences: the sequence $\left\{s_{n}\right\}$ of its partial sums and the sequence $\left\{a_{n}\right\}$ of its terms.
+    Annotations: ''
+  tags: []
+- id: 1578434393699
+  fields:
+    Front: |
+      CET-11.02-12 Theory:
+      If $\lim _{n \rightarrow \infty} a_{n}=0,$ is $\sum a_{n}$ convergent?
+    Back: |
+      If $\lim _{n \rightarrow \infty} a_{n}=0,$ we cannot conclude that $\sum a_{n}$ is convergent. Observe that for the harmonic series $\sum 1 / n$ we have $a_{n}=1 / n \rightarrow 0$ as $n \rightarrow \infty,$ but $\sum 1 / n$ is divergent.
+    Annotations: ''
+  tags: []
+- id: 1578434523608
+  fields:
+    Front: |
+      CET-11.02-13 Theory:
+      State the **Test for Divergence.**
+
+    Back: |
+      If $\lim _{n \rightarrow \infty} a_{n}$ does not exist or if $\lim _{n \rightarrow \infty} a_{n} \neq 0,$ then the series $\sum_{n=1}^{\infty} a_{n}$ is divergent.
+    Annotations: ''
+  tags: []
+- id: 1578434725058
+  fields:
+    Front: |
+      CET-11.02-14 Theory:
+      ##### series convergence properties
+      State three **series convergence properties.**
+    Back: |
+      If $\sum a_{n}$ and $\sum b_{n}$ are convergent series, then so are the series $\sum c a_{n}$ (where $c$ is a constant), $\sum\left(a_{n}+b_{n}\right),$ and $\sum\left(a_{n}-b_{n}\right),$ and
+      (i) $\sum_{n=1}^{\infty} c a_{n}=c \sum_{n=1}^{\infty} a_{n}$
+      (ii) $\sum_{n=1}^{\infty}\left(a_{n}+b_{n}\right)=\sum_{n=1}^{\infty} a_{n}+\sum_{n=1}^{\infty} b_{n}$
+      (iii) $\sum_{n=1}^{\infty}\left(a_{n}-b_{n}\right)=\sum_{n=1}^{\infty} a_{n}-\sum_{n=1}^{\infty} b_{n}$
+    Annotations: ''
+  tags: []
+- id: 1578435447885
+  fields:
+    Front: |
+      CET-11.02-15 Theory:
+      If $\sum_{n=4}^{\infty} \frac{n}{n^{3}+1}$ is convergent, what about the entire series $\sum_{n=1}^{\infty} n /\left(n^{3}+1\right)$?
+    Back: |
+      A finite number of terms doesn't affect the convergence or divergence of a series. For instance, suppose that we were able to show that the series
+      $$
+      \sum_{n=4}^{\infty} \frac{n}{n^{3}+1}
+      $$ is convergent. Since
+      $$
+      \sum_{n=1}^{\infty} \frac{n}{n^{3}+1}=\frac{1}{2}+\frac{2}{9}+\frac{3}{28}+\sum_{n=4}^{\infty} \frac{n}{n^{3}+1}
+      $$ it follows that the entire series $\sum_{n=1}^{\infty} n /\left(n^{3}+1\right)$ is convergent.
+    Annotations: ''
+  tags: []
+- id: 1578435448129
+  fields:
+    Front: |
+      CET-11.02-16 Theory:
+      If the series $\sum_{n=N+1}^{\infty} a_{n}$ converges, what about the following full series?
+      $$
+      \sum_{n=1}^{\infty} a_{n}=\sum_{n=1}^{N} a_{n}+\sum_{n=N+1}^{\infty} a_{n}
+      $$
+    Back: |
+      If it is known that the series $\sum_{n=N+1}^{\infty} a_{n}$ converges, then the full series
+      $$
+      \sum_{n=1}^{\infty} a_{n}=\sum_{n=1}^{N} a_{n}+\sum_{n=N+1}^{\infty} a_{n}
+      $$ is also convergent.
+    Annotations: ''
+  tags: []

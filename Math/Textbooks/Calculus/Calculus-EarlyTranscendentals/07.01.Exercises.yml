@@ -11,7 +11,7 @@ defaults:
   - CET-07.01-IntegrationByParts
   markdownTabLength: 2
 notes:
-- id: 1577307677261
+- id: 1580335326069
   fields:
     Front: |
       CET-07.01-01 Exercise:
@@ -23,9 +23,8 @@ notes:
       \int x e^{2 x} d x=\frac{1}{2} x e^{2 x}-\int \frac{1}{2} e^{2 x} d x=\frac{1}{2} x e^{2 x}-\frac{1}{4} e^{2 x}+C.
       $$$
     Annotations: ''
-  tags:
-  - Editing
-- id: 1577307677491
+  tags: []
+- id: 1580335326296
   fields:
     Front: |
       CET-07.01-02 Exercise:
@@ -45,7 +44,7 @@ notes:
       $$$
     Annotations: ''
   tags: []
-- id: 1577307677709
+- id: 1580335326572
   fields:
     Front: |
       CET-07.01-03 Exercise:
@@ -62,7 +61,7 @@ notes:
       $$$
     Annotations: ''
   tags: []
-- id: 1577307678279
+- id: 1580335326796
   fields:
     Front: |
       CET-07.01-04 Exercise:
@@ -79,7 +78,7 @@ notes:
       $$$
     Annotations: ''
   tags: []
-- id: 1577307678471
+- id: 1580335327011
   fields:
     Front: |
       CET-07.01-05 Exercise:
@@ -97,7 +96,7 @@ notes:
       $$$
     Annotations: ''
   tags: []
-- id: 1577307678665
+- id: 1580335327316
   fields:
     Front: |
       CET-07.01-06 Exercise:
@@ -115,7 +114,7 @@ notes:
       $$$
     Annotations: ''
   tags: []
-- id: 1577307678882
+- id: 1580335327603
   fields:
     Front: |
       CET-07.01-07 Exercise:
@@ -130,7 +129,7 @@ notes:
       x+2) \cos x-2 \sin x+C.$
     Annotations: ''
   tags: []
-- id: 1577307679110
+- id: 1580335327894
   fields:
     Front: |
       CET-07.01-08 Exercise:
@@ -154,7 +153,7 @@ notes:
       \beta t+C$
     Annotations: ''
   tags: []
-- id: 1577307679332
+- id: 1580335328150
   fields:
     Front: |
       CET-07.01-09 Exercise:
@@ -179,7 +178,7 @@ notes:
       $$$
     Annotations: ''
   tags: []
-- id: 1577307679539
+- id: 1580335328420
   fields:
     Front: |
       CET-07.01-10 Exercise:
@@ -197,7 +196,7 @@ notes:
       $$$ Note: We could start by using $\ln \sqrt{x}=\frac{1}{2} \ln x.$
     Annotations: ''
   tags: []
-- id: 1577307679752
+- id: 1580335328708
   fields:
     Front: |
       CET-07.01-11 Exercise:
@@ -215,7 +214,7 @@ notes:
       $$$
     Annotations: ''
   tags: []
-- id: 1577307679954
+- id: 1580335328975
   fields:
     Front: |
       CET-07.01-12 Exercise:
@@ -235,7 +234,7 @@ notes:
       $$$
     Annotations: ''
   tags: []
-- id: 1577307680159
+- id: 1580335329224
   fields:
     Front: |
       CET-07.01-13 Exercise:
@@ -255,7 +254,7 @@ notes:
       $$$
     Annotations: ''
   tags: []
-- id: 1577307680393
+- id: 1580335329499
   fields:
     Front: |
       CET-07.01-14 Exercise:
@@ -272,7 +271,7 @@ notes:
       $$$
     Annotations: ''
   tags: []
-- id: 1577307680617
+- id: 1580335329774
   fields:
     Front: |
       CET-07.01-15 Exercise:
@@ -289,7 +288,7 @@ notes:
       x-x+C_{1}\right)$ $=x(\ln x)^{2}-2 x \ln x+2 x+C,$ where $C=-2 C_{1}.$
     Annotations: ''
   tags: []
-- id: 1577307680858
+- id: 1580335330050
   fields:
     Front: |
       CET-07.01-16 Exercise:
@@ -304,7 +303,7 @@ notes:
       \ln 10}-\frac{1}{10^{z}(\ln 10)^{2}}+C.$
     Annotations: ''
   tags: []
-- id: 1577307681135
+- id: 1580335330392
   fields:
     Front: |
       CET-07.01-17 Exercise:
@@ -331,7 +330,7 @@ notes:
       \cos 3 \theta)+C,$ where $C=\frac{4}{13} C_{1}.$
     Annotations: ''
   tags: []
-- id: 1577307681388
+- id: 1580335330753
   fields:
     Front: |
       CET-07.01-18 Exercise:
@@ -359,9 +358,8 @@ notes:
       \sin 2 \theta-\frac{1}{4} e^{-\theta} \cos 2 \theta+C_{1}\right)$ $=\frac{2}{5}
       e^{-\theta} \sin 2 \theta-\frac{1}{5} e^{-\theta} \cos 2 \theta+C.$
     Annotations: ''
-  tags:
-  - Editing
-- id: 1577307681610
+  tags: []
+- id: 1580335331073
   fields:
     Front: |
       CET-07.01-19 Exercise:
@@ -381,7 +379,7 @@ notes:
       $C=6 C_{1}.$
     Annotations: ''
   tags: []
-- id: 1577307681833
+- id: 1580335331383
   fields:
     Front: |
       CET-07.01-20 Exercise:
@@ -397,7 +395,7 @@ notes:
       x^{2}+C.$
     Annotations: ''
   tags: []
-- id: 1577307682043
+- id: 1580335331675
   fields:
     Front: |
       CET-07.01-21 Exercise:
@@ -417,7 +415,7 @@ notes:
       The answer could be written as $\frac{e^{2 x}}{4(2 x+1)}+C.$
     Annotations: ''
   tags: []
-- id: 1577307682279
+- id: 1580335332000
   media:
   - path: ${file_dir}/images/CET-07.01-22.Xs.1.jpg
   fields:

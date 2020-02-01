@@ -10,7 +10,7 @@ defaults:
   - CET-05.01-AreasAndDistances
   markdownTabLength: 2
 notes:
-- id: 0
+- id: 1578500193577
   fields:
     Front: |
       CET 05.01 Th.0a: XX
@@ -19,7 +19,7 @@ notes:
     Annotations: ''
   tags:
   - Theory
-- id: 0
+- id: 1578500193968
   fields:
     Front: |
       CET 05.01 01: XX

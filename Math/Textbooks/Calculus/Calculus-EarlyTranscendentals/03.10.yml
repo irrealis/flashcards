@@ -10,7 +10,7 @@ defaults:
   - CET-03.10-LinearApproximationsAndDifferentials
   markdownTabLength: 2
 notes:
-- id: 0
+- id: 1578500182737
   fields:
     Front: |
       CET 03.10 Th.0a: XX
@@ -19,7 +19,7 @@ notes:
     Annotations: ''
   tags:
   - Theory
-- id: 0
+- id: 1578500183164
   fields:
     Front: |
       CET 03.10 01: XX

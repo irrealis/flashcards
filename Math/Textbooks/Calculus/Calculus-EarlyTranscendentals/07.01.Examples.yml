@@ -11,7 +11,7 @@ defaults:
   - CET-07.01-IntegrationByParts
   markdownTabLength: 2
 notes:
-- id: 1577307539286
+- id: 1580335323645
   fields:
     Front: |
       CET-07.01-01 Example:
@@ -50,7 +50,7 @@ notes:
       $$$
     Annotations: ''
   tags: []
-- id: 1577307539684
+- id: 1580335324378
   fields:
     Front: |
       CET-07.01-02 Example:
@@ -71,9 +71,10 @@ notes:
       $$$
 
       Integration by parts is effective in this example because the derivative of the function $f(x)=\ln x$ is simpler than $f.$
-    Annotations: ''
-  tags: []
-- id: 1577307539904
+    Annotations: 'Fix me:<div>&nbsp;- 191228-1914: typo in solution last sentence.&nbsp;</div>'
+  tags:
+  - ann:fix-me
+- id: 1580335324719
   fields:
     Front: |
       CET-07.01-03 Example:
@@ -105,7 +106,7 @@ notes:
       $$$ where $C_{1}=-2 C.$
     Annotations: ''
   tags: []
-- id: 1577307540155
+- id: 1580335324999
   fields:
     Front: |
       CET-07.01-04 Example:
@@ -147,7 +148,7 @@ notes:
       $$$
     Annotations: ''
   tags: []
-- id: 1577307540385
+- id: 1580335325296
   fields:
     Front: |
       CET-07.01-05 Example:
@@ -180,7 +181,7 @@ notes:
       $$$
     Annotations: ''
   tags: []
-- id: 1577307540629
+- id: 1580335325620
   fields:
     Front: |
       CET-07.01-06 Example:
