@@ -402,6 +402,15 @@ class NoteSender(object):
     yaml = ruamel.yaml.YAML()
     datas = list(yaml.load_all(fp))
     for data in datas:
+
+      # Some sanity checks...
+      if not 'notes' in data:
+        log.warning("No notes in data.")
+        continue
+      elif not data['notes']:
+        log.warning("Data has emply notes list.")
+        continue
+
       query_results, defaults = self.query_notes(self.opts.query, data)
       if query_results.empty:
         log.warning("Query returned no results.")
@@ -563,37 +572,43 @@ class NoteSender(object):
             anki_result = self.anki.statMediaFile(item_name)
             must_send_new_media_item = False
             item_data = None
-            if anki_result.get("error", None):
-              log.info("Can't get remote media file status (probably missing)...")
-              must_send_new_media_item = True
-            else:
-              if not anki_result['result']:
-                log.info("... Media item is not present on remote...")
+
+            try:
+              if anki_result.get("error", None):
+                log.info("Can't get remote media file status (probably missing)...")
                 must_send_new_media_item = True
               else:
-                log.info("... Media item is already present on remote...")
-                log.info("... Reading local data...")
-                item_data = open(item_path, 'rb').read()
-                item_adler32 = zlib.adler32(item_data)
-                remote_adler32 = anki_result['result']['adler32']
-                log.info("    Remote checksum: {}".format(remote_adler32))
-                log.info("    Local checksum: {}".format(item_adler32))
-                if remote_adler32 == item_adler32:
-                  log.info("... Remote checksum matches that of local version...")
-                else:
-                  log.info("... Remote checksum is not the same as local...")
+                if not anki_result['result']:
+                  log.info("... Media item is not present on remote...")
                   must_send_new_media_item = True
-            if must_send_new_media_item:
-              if item_data is None:
-                log.info("... Reading local data...")
-                item_data = open(item_path, 'rb').read()
-              log.info("... Encoding {} bytes of local data...".format(len(item_data)))
-              item_base64 = base64.b64encode(item_data).decode("utf-8")
-              log.info("... Sending {} bytes of encoded data to remote...".format(len(item_base64)))
-              anki_result = self.anki.storeMediaFile(item_name, item_base64)
-              if anki_result.get("error", None):
-                log.warning("Can't store media file: %s", item_name)
-            log.info("... Done with media item.")
+                else:
+                  log.info("... Media item is already present on remote...")
+                  log.info("... Reading local data...")
+                  item_data = open(item_path, 'rb').read()
+                  item_adler32 = zlib.adler32(item_data)
+                  remote_adler32 = anki_result['result']['adler32']
+                  log.info("    Remote checksum: {}".format(remote_adler32))
+                  log.info("    Local checksum: {}".format(item_adler32))
+                  if remote_adler32 == item_adler32:
+                    log.info("... Remote checksum matches that of local version...")
+                  else:
+                    log.info("... Remote checksum is not the same as local...")
+                    must_send_new_media_item = True
+              if must_send_new_media_item:
+                if item_data is None:
+                  log.info("... Reading local data...")
+                  item_data = open(item_path, 'rb').read()
+                log.info("... Encoding {} bytes of local data...".format(len(item_data)))
+                item_base64 = base64.b64encode(item_data).decode("utf-8")
+                log.info("... Sending {} bytes of encoded data to remote...".format(len(item_base64)))
+                anki_result = self.anki.storeMediaFile(item_name, item_base64)
+                if anki_result.get("error", None):
+                  log.warning("Can't store media file: %s", item_name)
+            except FileNotFoundError as e:
+              log.warning('File not found: "%s"', e)
+              log.warning('*** Skipping missing media item: %s', item_name)
+            finally:
+              log.info("... Done with media item.")
 
 
 
