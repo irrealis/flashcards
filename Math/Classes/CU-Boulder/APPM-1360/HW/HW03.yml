@@ -1,0 +1,107 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1360
+  - APPM-1360-HW03
+  - APPM-1360-Section06.03
+  - APPM-1360-Section06.05
+  - APPM-1360-Section06.06
+  - WrittenHomework
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1581715143393
+  fields:
+    Front: |
+      APPM-1360-HW-03-01:
+      $$
+      \int_{-1}^{1}-t \ln |t| d t
+      $$
+    Back: |
+      $$
+      0
+      $$
+    Annotations: ''
+  tags: []
+- id: 1581715143892
+  fields:
+    Front: |
+      APPM-1360-HW-03-02:
+      $$
+      \int \frac{9 x^{3}-3 x+1}{x^{3}-x^{2}} d x
+      $$
+    Back: |
+      $$
+      9 x+2 \ln |x|+1 / x+7 \ln |x-1|+C
+      $$
+    Annotations: ''
+  tags: []
+- id: 1581715144116
+  fields:
+    Front: |
+      APPM-1360-HW-03-03:
+      $$
+      \int_{-\infty}^{2} \frac{2}{4+u^{2}} d u
+      $$
+    Back: |
+      $$
+      3 \pi / 4
+      $$
+    Annotations: ''
+  tags: []
+- id: 1581715144328
+  fields:
+    Front: |
+      APPM-1360-HW-03-04:
+      $$
+      \int \frac{8 x^{2}+8 x+2}{\left(1+4 x^{2}\right)^{2}} d x
+      $$
+    Back: |
+      $$
+      \tan ^{-1}(2 x)-\frac{1}{4 x^{2}+1}+C
+      $$
+    Annotations: ''
+  tags: []
+- id: 1581715144523
+  fields:
+    Front: |
+      APPM-1360-HW-03-05:
+      (a) Estimate the value of $\int_{0}^{\pi} 2 \sin ^{2} x d x$ using the trapezoidal rule with six subintervals (without the aid of a calculator).
+      (b) Now find the exact value of the integral.
+    Back: |
+      (a) $\pi$
+      (b) $\pi$
+    Annotations: ''
+  tags: []
+- id: 1581715144774
+  fields:
+    Front: |
+      APPM-1360-HW-03-06:
+      Estimate the minimum number of subintervals needed to approximate $\int_{0}^{3} \frac{d x}{\sqrt{1+x}}$ with an error of less than $1 / 10^{4}$ using the trapezoidal rule.
+    Back: |
+      $$
+      130
+      $$
+    Annotations: ''
+  tags: []
+- id: 1581715144998
+  fields:
+    Front: |
+      APPM-1360-HW-03-07:
+      A rumor is spread in a town. For $0<c<1$ and $k>0,$ the time $t$ at which $p$ of the population has heard the rumor is
+      $$
+      t(p)=\int_{c}^{p} \frac{k}{x(1-x)} d x
+      $$
+      (a) Evaluate the integral to find a formula for $t(p) .$ Write your answer in the form of a single log expression.
+      (b) At time $t=0,$ one percent of the population has heard the rumor. Find the value of $c$.
+      (c) At time $t=1$ half the population has heard the rumor. Find the value of $k$.
+    Back: |
+      (a) $k \ln \left|\frac{p(1-c)}{c(1-p)}\right|$
+      (b) $0.01$
+      (c) $1 / \ln (99)$
+    Annotations: ''
+  tags: []

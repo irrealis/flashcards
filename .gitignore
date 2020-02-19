@@ -2,6 +2,7 @@
 *.py?
 __pycache__
 .python-version
+*.ipynb
 
 # Vim cruft
 *.sw?

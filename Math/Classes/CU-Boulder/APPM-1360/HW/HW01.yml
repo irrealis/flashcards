@@ -1,0 +1,113 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1360
+  - APPM-1360-HW01
+  - APPM-1360-Section05
+  - APPM-1360-Section06.01
+  - WrittenHomework
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1581713559492
+  fields:
+    Front: |
+      APPM-1360-HW-01-01:
+      Find the value of $\cos \left(\tan ^{-1}(-\sqrt{3})\right)+\csc \left(\sec ^{-1} 2\right)$.
+    Back: |
+      $$
+      \frac{4+\sqrt{3}}{2 \sqrt{3}}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1581713560022
+  fields:
+    Front: |
+      APPM-1360-HW-01-02:
+      Find the value of $\sec (\arctan (\sin (\arctan (1 / x)))$.
+    Back: |
+      $$
+      \sqrt{\frac{x^{2}+2}{x^{2}+1}}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1581713560280
+  fields:
+    Front: |
+      APPM-1360-HW-01-03:
+      $$
+      \lim _{x \rightarrow \infty} x \tan ^{-1}(2 / x)
+      $$
+    Back: |
+      $$
+      2
+      $$
+    Annotations: ''
+  tags: []
+- id: 1581713560518
+  fields:
+    Front: |
+      APPM-1360-HW-01-04:
+      Let $y=\ln (\sinh x)-\frac{1}{2} \cosh ^{2} x .$ Find $y^{\prime}$ and $y^{\prime}(\ln 2)$.
+    Back: |
+      $$
+      y^{\prime}(\ln 2)=35 / 48
+      $$
+    Annotations: ''
+  tags: []
+- id: 1581713560723
+  fields:
+    Front: |
+      APPM-1360-HW-01-05:
+      $$
+      \int \tanh (u / 7) d u
+      $$
+    Back: |
+      $$
+      7 \ln \left|e^{u / 7}+e^{-u / 7}\right|+C
+      $$
+    Annotations: ''
+  tags: []
+- id: 1581713560969
+  fields:
+    Front: |
+      APPM-1360-HW-01-06:
+      $$
+      \int_{1}^{e} v^{3} \ln v d v
+      $$
+    Back: |
+      $$
+      \frac{3 e^{4}+1}{16}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1581713561204
+  fields:
+    Front: |
+      APPM-1360-HW-01-07:
+      $$
+      \int_{0}^{\ln \sqrt{3}} \frac{e^{t}}{1+e^{2 t}} d t
+      $$
+    Back: |
+      $$
+      \pi / 12
+      $$
+    Annotations: ''
+  tags: []
+- id: 1581713561396
+  fields:
+    Front: |
+      APPM-1360-HW-01-08:
+      $$
+      \int_{0}^{1 / \sqrt{2}} 2 r \sin ^{-1}\left(r^{2}\right) d r
+      $$
+    Back: |
+      $$
+      \frac{\pi+6 \sqrt{3}-12}{12}
+      $$
+    Annotations: ''
+  tags: []

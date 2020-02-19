@@ -10,31 +10,32 @@ defaults:
   - CET-06-ApplicationsOfIntegration
   - CET-06.02-Volumes
   markdownTabLength: 2
+  stringTemplDelim: ¢
 notes:
 - id: 1577641640624
   media:
-  - path: ${file_dir}/images/CET-06.02-01.Xs.1.jpg
-  - path: ${file_dir}/images/CET-06.02-01.Xs.2.jpg
+  - path: ¢{file_dir}/images/CET-06.02-01.Xs.1.jpg
+  - path: ¢{file_dir}/images/CET-06.02-01.Xs.2.jpg
   fields:
     Front: |
       CET-06.02-01 Exercise:
       Find the volume of the solid obtained by rotating the region bounded by the given curves about the specified line. Sketch the region, the solid, and a typical disk or washer.
-      $$$
+      $$
       y=x+1, y=0, x=0, x=2 ; \text{ about the $x$ -axis}
-      $$$
+      $$
     Back: |
       A cross-section is a disk with radius $x+1,$ so its area is
-      $$$
+      $$
         A(x) =\pi(x+1)^{2}=\pi\left(x^{2}+2 x+1\right)
-      $$$ and its volume is
-      $$$
+      $$ and its volume is
+      $$
       \begin{aligned}
         V
         &=\int_{0}^{2} A(x) d x=\int_{0}^{2} \pi\left(x^{2}+2 x+1\right) d x \\
         &=\pi\left[\frac{1}{3} x^{3}+x^{2}+x\right]_{0}^{2} \\
         &=\pi\left(\frac{8}{3}+4+2\right)=\frac{26 \pi}{3}
       \end{aligned}
-      $$$
+      $$
       <p align="center">
       ![](CET-06.02-01.Xs.1.jpg)
       </p>
@@ -43,3 +44,447 @@ notes:
       </p>
     Annotations: ''
   tags: []
+- id: 1581703263892
+  media:
+  - path: ¢{file_dir}/images/CET-06.02-02.Xs.1.jpg
+  - path: ¢{file_dir}/images/CET-06.02-02.Xs.2.jpg
+  fields:
+    Front: |
+      CET-06.02-02 Exercise:
+      Find the volume of the solid obtained by rotating the region bounded by the given curves about the specified line. Sketch the region, the solid, and a typical disk or washer.
+      $$
+      y=1 / x, y=0, x=1, x=4 ; \text{ about the $x$ -axis}
+      $$
+    Back: |
+      A cross-section is a disk with radius $\frac{1}{x},$ so its area is $A(x)=\pi\left(\frac{1}{x}\right)^{2}=\pi x^{-2}$.
+      $$
+      \begin{aligned}
+      V
+      &=\int_{1}^{4} A(x) d x=\int_{1}^{4} \pi x^{-2} d x \\
+      &=\pi\left[-x^{-1}\right]_{1}^{4}=\pi\left(-\frac{1}{4}+1\right) \\
+      &=\frac{3 \pi}{4}
+      \end{aligned}
+      $$
+      <p align="center">
+      ![](CET-06.02-02.Xs.1.jpg)
+      </p>
+      <p align="center">
+      ![](CET-06.02-02.Xs.2.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1581703265217
+  media:
+  - path: ¢{file_dir}/images/CET-06.02-03.Xs.1.jpg
+  - path: ¢{file_dir}/images/CET-06.02-03.Xs.2.jpg
+  fields:
+    Front: |
+      CET-06.02-03 Exercise:
+      Find the volume of the solid obtained by rotating the region bounded by the given curves about the specified line. Sketch the region, the solid, and a typical disk or washer.
+      $$
+      y=\sqrt{x-1}, y=0, x=5 ; \text{ about the $x$ -axis}
+      $$
+    Back: |
+      A cross-section is a disk with radius $\sqrt{x-1},$ so its area is $A(x)=\pi(\sqrt{x-1})^{2}=\pi(x-1)$.
+      $$
+      V=\int_{1}^{5} A(x) d x=\int_{1}^{5} \pi(x-1) d x=\pi\left[\frac{1}{2} x^{2}-x\right]_{1}^{5}=\pi\left[\left(\frac{25}{2}-5\right)-\left(\frac{1}{2}-1\right)\right]=8 \pi
+      $$
+      <p align="center">
+      ![](CET-06.02-03.Xs.1.jpg)
+      </p>
+      <p align="center">
+      ![](CET-06.02-03.Xs.2.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1581703265517
+  media:
+  - path: ¢{file_dir}/images/CET-06.02-04.Xs.1.jpg
+  - path: ¢{file_dir}/images/CET-06.02-04.Xs.2.jpg
+  fields:
+    Front: |
+      CET-06.02-04 Exercise:
+      Find the volume of the solid obtained by rotating the region bounded by the given curves about the specified line. Sketch the region, the solid, and a typical disk or washer.
+      $$
+      y=e^{x}, y=0, x=-1, x=1 ; \text{ about the $x$ -axis}
+      $$
+    Back: |
+      A cross-section is a disk with radius $e^{x},$ so its area is $A(x)=\pi\left(e^{x}\right)^{2}=\pi e^{2 x}$.
+      $$
+      \begin{aligned}
+      V &=\int_{-1}^{1} A(x) d x=\int_{-1}^{1} \pi e^{2 x} d x \\
+      &=\pi\left[\frac{1}{2} e^{2 x}\right]_{-1}^{1}=\frac{\pi}{2}\left(e^{2}-e^{-2}\right)
+      \end{aligned}
+      $$
+      <p align="center">
+      ![](CET-06.02-04.Xs.1.jpg)
+      </p>
+      <p align="center">
+      ![](CET-06.02-04.Xs.2.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1581703265833
+  media:
+  - path: ¢{file_dir}/images/CET-06.02-05.Xs.1.jpg
+  - path: ¢{file_dir}/images/CET-06.02-05.Xs.2.jpg
+  fields:
+    Front: |
+      CET-06.02-05 Exercise:
+      Find the volume of the solid obtained by rotating the region bounded by the given curves about the specified line. Sketch the region, the solid, and a typical disk or washer.
+      $$
+      x=2 \sqrt{y}, x=0, y=9 ; \text{ about the $y$ -axis}
+      $$
+    Back: |
+      A cross-section is a disk with radius $2 \sqrt{y},$ so its area is $A(y)=\pi(2 \sqrt{y})^{2}$.
+      $$
+      \begin{aligned}
+      V &=\int_{0}^{9} A(y) d y=\int_{0}^{9} \pi(2 \sqrt{y})^{2} d y=4 \pi \int_{0}^{9} y d y \\
+      &=4 \pi\left[\frac{1}{2} y^{2}\right]_{0}^{9}=2 \pi(81)=162 \pi
+      \end{aligned}
+      $$
+      <p align="center">
+      ![](CET-06.02-05.Xs.1.jpg)
+      </p>
+      <p align="center">
+      ![](CET-06.02-05.Xs.2.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1581703266100
+  media:
+  - path: ¢{file_dir}/images/CET-06.02-06.Xs.1.jpg
+  - path: ¢{file_dir}/images/CET-06.02-06.Xs.2.jpg
+  fields:
+    Front: |
+      CET-06.02-06 Exercise:
+      Find the volume of the solid obtained by rotating the region bounded by the given curves about the specified line. Sketch the region, the solid, and a typical disk or washer.
+      $$
+      2 x=y^{2}, x=0, y=4 ; \text{ about the $y$ -axis}
+      $$
+    Back: |
+      A cross-section is a disk with radius $\frac{1}{2} y^{2},$ so its area is $A(y)=\pi\left(\frac{1}{2} y^{2}\right)^{2}=\frac{1}{4} \pi y^{4}$.
+      $$
+      \begin{aligned}
+      V &=\int_{0}^{4} A(y) d y=\int_{0}^{4} \pi\left(\frac{1}{4} y^{4}\right) d y \\
+      &=\frac{\pi}{4}\left[\frac{1}{5} y^{5}\right]_{0}^{4}=\frac{\pi}{20}\left(4^{5}\right) \\
+      &=\frac{256 \pi}{5}
+      \end{aligned}
+      $$
+      <p align="center">
+      ![](CET-06.02-06.Xs.1.jpg)
+      </p>
+      <p align="center">
+      ![](CET-06.02-06.Xs.2.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1581703266370
+  media:
+  - path: ¢{file_dir}/images/CET-06.02-07.Xs.1.jpg
+  - path: ¢{file_dir}/images/CET-06.02-07.Xs.2.jpg
+  fields:
+    Front: |
+      CET-06.02-07 Exercise:
+      Find the volume of the solid obtained by rotating the region bounded by the given curves about the specified line. Sketch the region, the solid, and a typical disk or washer.
+      $$
+      y=x^{3}, y=x, x \geqslant 0 ; \text{ about the $x$ -axis}
+      $$
+    Back: |
+      A cross-section is a washer (annulus) with inner radius $x^{3}$ and outer radius $x,$ so its area is $A(x)=\pi(x)^{2}-\pi\left(x^{3}\right)^{2}=\pi\left(x^{2}-x^{6}\right)$.
+      $$
+      \begin{aligned}
+      V &=\int_{0}^{1} A(x) d x=\int_{0}^{1} \pi\left(x^{2}-x^{6}\right) d x \\
+      &=\pi\left[\frac{1}{3} x^{3}-\frac{1}{7} x^{7}\right]_{0}^{1}=\pi\left(\frac{1}{3}-\frac{1}{7}\right)=\frac{4}{21} \pi
+      \end{aligned}
+      $$
+      <p align="center">
+      ![](CET-06.02-07.Xs.1.jpg)
+      </p>
+      <p align="center">
+      ![](CET-06.02-07.Xs.2.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1581703266693
+  media:
+  - path: ¢{file_dir}/images/CET-06.02-08.Xs.1.jpg
+  - path: ¢{file_dir}/images/CET-06.02-08.Xs.2.jpg
+  fields:
+    Front: |
+      CET-06.02-08 Exercise:
+      Find the volume of the solid obtained by rotating the region bounded by the given curves about the specified line. Sketch the region, the solid, and a typical disk or washer.
+      $$
+      y=6-x^{2}, y=2 ; \text{ about the $x$ -axis}
+      $$
+    Back: |
+      A cross-section is a washer (annulus) with inner radius $2$ and outer radius $6-x^{2},$ so its area is $A(x)=\pi\left[\left(6-x^{2}\right)^{2}-2^{2}\right]=\pi\left(x^{4}-12 x^{2}+32\right)$.
+      $$
+      \begin{aligned}
+      V &=\int_{-2}^{2} A(x) d x=2 \int_{0}^{2} \pi\left(x^{4}-12 x^{2}+32\right) d x \\
+      &=2 \pi\left[\frac{1}{5} x^{5}-4 x^{3}+32 x\right]_{0}^{2} \\
+      &=2 \pi\left(\frac{32}{5}-32+64\right)=2 \pi\left(\frac{192}{5}\right)=\frac{384 \pi}{5}
+      \end{aligned}
+      $$
+      <p align="center">
+      ![](CET-06.02-08.Xs.1.jpg)
+      </p>
+      <p align="center">
+      ![](CET-06.02-08.Xs.2.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1581703267018
+  media:
+  - path: ¢{file_dir}/images/CET-06.02-09.Xs.1.jpg
+  - path: ¢{file_dir}/images/CET-06.02-09.Xs.2.jpg
+  fields:
+    Front: |
+      CET-06.02-09 Exercise:
+      Find the volume of the solid obtained by rotating the region bounded by the given curves about the specified line. Sketch the region, the solid, and a typical disk or washer.
+      $$
+      y^{2}=x, x=2 y ; \text{ about the $y$ -axis}
+      $$
+    Back: |
+      A cross-section is a washer with inner radius $y^{2}$ and outer radius $2 y,$ so its area is $A(y)=\pi(2 y)^{2}-\pi\left(y^{2}\right)^{2}=\pi\left(4 y^{2}-y^{4}\right)$.
+      $$
+      \begin{aligned}
+      V &=\int_{0}^{2} A(y) d y=\pi \int_{0}^{2}\left(4 y^{2}-y^{4}\right) d y \\
+      &=\pi\left[\frac{4}{3} y^{3}-\frac{1}{5} y^{5}\right]_{0}^{2}=\pi\left(\frac{32}{3}-\frac{32}{5}\right)=\frac{64}{15} \pi
+      \end{aligned}
+      $$
+      <p align="center">
+      ![](CET-06.02-09.Xs.1.jpg)
+      </p>
+      <p align="center">
+      ![](CET-06.02-09.Xs.2.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1581703267276
+  media:
+  - path: ¢{file_dir}/images/CET-06.02-10.Xs.1.jpg
+  - path: ¢{file_dir}/images/CET-06.02-10.Xs.2.jpg
+  fields:
+    Front: |
+      CET-06.02-10 Exercise:
+      Find the volume of the solid obtained by rotating the region bounded by the given curves about the specified line. Sketch the region, the solid, and a typical disk or washer.
+      $$
+      x=2-y^{2}, x=y^{4} ; \text{ about the $y$ -axis}
+      $$
+    Back: |
+      A cross-section is a washer with inner radius $y^{4}$ and outer radius $2-y^{2},$ so its area is $A(y)=\pi\left(2-y^{2}\right)^{2}-\pi\left(y^{4}\right)^{2}=\pi\left(4-4 y^{2}+y^{4}-y^{8}\right)$.
+      $$
+      \begin{aligned}
+      V &=\int_{-1}^{1} A(y) d y=2 \int_{0}^{1} \pi\left(4-4 y^{2}+y^{4}-y^{8}\right) d y \\
+      &=2 \pi\left[4 y-\frac{4}{3} y^{3}+\frac{1}{5} y^{5}-\frac{1}{9} y^{8}\right]_{0}^{1} \\
+      &=2 \pi\left(4-\frac{4}{3}+\frac{1}{5}-\frac{1}{9}\right)=2 \pi\left(\frac{124}{45}\right)=\frac{248 \pi}{45}
+      \end{aligned}
+      $$
+      <p align="center">
+      ![](CET-06.02-10.Xs.1.jpg)
+      </p>
+      <p align="center">
+      ![](CET-06.02-10.Xs.2.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1581703267566
+  media:
+  - path: ¢{file_dir}/images/CET-06.02-11.Xs.1.jpg
+  - path: ¢{file_dir}/images/CET-06.02-11.Xs.2.jpg
+  fields:
+    Front: |
+      CET-06.02-11 Exercise:
+      Find the volume of the solid obtained by rotating the region bounded by the given curves about the specified line. Sketch the region, the solid, and a typical disk or washer.
+      $$
+      y=x^{2}, x=y^{2} ; \text{ about $y=1$}
+      $$
+    Back: |
+      A cross-section is a washer with inner radius $1-\sqrt{x}$ and outer radius $1-x^{2},$ so its area is
+      $$
+      \begin{aligned}
+      A(x) &=\pi\left[\left(1-x^{2}\right)^{2}-(1-\sqrt{x})^{2}\right] \\
+      &=\pi\left[\left(1-2 x^{2}+x^{4}\right)-(1-2 \sqrt{x}+x)\right] \\
+      &=\pi\left(x^{4}-2 x^{2}+2 \sqrt{x}-x\right)
+      \end{aligned}
+      $$
+      $$
+      \begin{aligned}
+      V &=\int_{0}^{1} A(x) d x=\int_{0}^{1} \pi\left(x^{4}-2 x^{2}+2 x^{1 / 2}-x\right) d x \\
+      &=\pi\left[\frac{1}{5} x^{5}-\frac{2}{3} x^{3}+\frac{4}{3} x^{3 / 2}-\frac{1}{2} x^{2}\right]_{0}^{1} \\
+      &=\pi\left(\frac{1}{5}-\frac{2}{3}+\frac{4}{3}-\frac{1}{2}\right)=\frac{11}{30} \pi
+      \end{aligned}
+      $$
+      <p align="center">
+      ![](CET-06.02-11.Xs.1.jpg)
+      </p>
+      <p align="center">
+      ![](CET-06.02-11.Xs.2.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1581703267854
+  media:
+  - path: ¢{file_dir}/images/CET-06.02-12.Xs.1.jpg
+  - path: ¢{file_dir}/images/CET-06.02-12.Xs.2.jpg
+  fields:
+    Front: |
+      CET-06.02-12 Exercise:
+      Find the volume of the solid obtained by rotating the region bounded by the given curves about the specified line. Sketch the region, the solid, and a typical disk or washer.
+      $$
+      y=x^{3}, y=1, x=2 ; \text{ about $y=-3$}
+      $$
+    Back: |
+      A cross-section is a washer with inner radius $1-(-3)=4$ and outer radius $x^{3}-(-3)=x^{3}+3,$ so its area is
+      $$
+      A(x)=\pi\left(x^{3}+3\right)^{2}-\pi(4)^{2}=\pi\left(x^{6}+6 x^{3}-7\right)
+      $$
+      $$
+      \begin{aligned}
+      V &=\int_{1}^{2} A(x) d x=\int_{1}^{2} \pi\left(x^{6}+6 x^{3}-7\right) d x \\
+      &=\pi\left[\frac{1}{7} x^{7}+\frac{3}{2} x^{4}-7 x\right]_{1}^{2} \\
+      &=\pi\left[\left(\frac{128}{7}+24-14\right)-\left(\frac{1}{7}+\frac{3}{2}-7\right)\right]=\frac{471 \pi}{14}
+      \end{aligned}
+      $$
+      <p align="center">
+      ![](CET-06.02-12.Xs.1.jpg)
+      </p>
+      <p align="center">
+      ![](CET-06.02-12.Xs.2.jpg)
+      </p>
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1581703268186
+  media:
+  - path: ¢{file_dir}/images/CET-06.02-13.Xs.1.jpg
+  - path: ¢{file_dir}/images/CET-06.02-13.Xs.2.jpg
+  fields:
+    Front: |
+      CET-06.02-13 Exercise:
+      Find the volume of the solid obtained by rotating the region bounded by the given curves about the specified line. Sketch the region, the solid, and a typical disk or washer.
+      $$
+      y=1+\sec x, y=3 ; \text{ about $y=1$}
+      $$
+    Back: |
+      $ $
+      <p align="center">
+      ![](CET-06.02-13.Xs.1.jpg)
+      </p>
+      <p align="center">
+      ![](CET-06.02-13.Xs.2.jpg)
+      </p>
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1581703268487
+  media:
+  - path: ¢{file_dir}/images/CET-06.02-14.Xs.1.jpg
+  - path: ¢{file_dir}/images/CET-06.02-14.Xs.2.jpg
+  fields:
+    Front: |
+      CET-06.02-14 Exercise:
+      Find the volume of the solid obtained by rotating the region bounded by the given curves about the specified line. Sketch the region, the solid, and a typical disk or washer.
+      $$
+      y=\sin x, y=\cos x, 0 \leqslant x \leqslant \pi / 4 ; \text{ about $y=-1$}
+      $$
+    Back: |
+      $ $
+      <p align="center">
+      ![](CET-06.02-14.Xs.1.jpg)
+      </p>
+      <p align="center">
+      ![](CET-06.02-14.Xs.2.jpg)
+      </p>
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1581703268838
+  media:
+  - path: ¢{file_dir}/images/CET-06.02-15.Xs.1.jpg
+  - path: ¢{file_dir}/images/CET-06.02-15.Xs.2.jpg
+  fields:
+    Front: |
+      CET-06.02-15 Exercise:
+      Find the volume of the solid obtained by rotating the region bounded by the given curves about the specified line. Sketch the region, the solid, and a typical disk or washer.
+      $$
+      y=x^{3}, y=0, x=1 ; \text{ about $x=2$}
+      $$
+    Back: |
+      $ $
+      <p align="center">
+      ![](CET-06.02-15.Xs.1.jpg)
+      </p>
+      <p align="center">
+      ![](CET-06.02-15.Xs.2.jpg)
+      </p>
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1581703269198
+  media:
+  - path: ¢{file_dir}/images/CET-06.02-16.Xs.1.jpg
+  - path: ¢{file_dir}/images/CET-06.02-16.Xs.2.jpg
+  fields:
+    Front: |
+      CET-06.02-16 Exercise:
+      Find the volume of the solid obtained by rotating the region bounded by the given curves about the specified line. Sketch the region, the solid, and a typical disk or washer.
+      $$
+      x y=1, y=0, x=1, x=2 ; \text{ about $x=-1$}
+      $$
+    Back: |
+      $ $
+      <p align="center">
+      ![](CET-06.02-16.Xs.1.jpg)
+      </p>
+      <p align="center">
+      ![](CET-06.02-16.Xs.2.jpg)
+      </p>
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1581703269496
+  media:
+  - path: ¢{file_dir}/images/CET-06.02-17.Xs.1.jpg
+  - path: ¢{file_dir}/images/CET-06.02-17.Xs.2.jpg
+  fields:
+    Front: |
+      CET-06.02-17 Exercise:
+      Find the volume of the solid obtained by rotating the region bounded by the given curves about the specified line. Sketch the region, the solid, and a typical disk or washer.
+      $$
+      x=y^{2}, x=1-y^{2} ; \text{ about $x=3$}
+      $$
+    Back: |
+      $ $
+      <p align="center">
+      ![](CET-06.02-17.Xs.1.jpg)
+      </p>
+      <p align="center">
+      ![](CET-06.02-17.Xs.2.jpg)
+      </p>
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1581703269821
+  media:
+  - path: ¢{file_dir}/images/CET-06.02-18.Xs.1.jpg
+  - path: ¢{file_dir}/images/CET-06.02-18.Xs.2.jpg
+  fields:
+    Front: |
+      CET-06.02-18 Exercise:
+      Find the volume of the solid obtained by rotating the region bounded by the given curves about the specified line. Sketch the region, the solid, and a typical disk or washer.
+      $$
+      y=x, y=0, x=2, x=4 ; \text{ about $x=1$}
+      $$
+    Back: |
+      $ $
+      <p align="center">
+      ![](CET-06.02-18.Xs.1.jpg)
+      </p>
+      <p align="center">
+      ![](CET-06.02-18.Xs.2.jpg)
+      </p>
+    Annotations: ''
+  tags:
+  - Editing

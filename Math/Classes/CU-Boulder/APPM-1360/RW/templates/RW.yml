@@ -1,13 +1,13 @@
   media:
-  - path: ¢{file_dir}/images/APPM-1360-HW-XX-XX.1.jpg
+  - path: ¢{file_dir}/images/APPM-1360-RW-XX-XX.1.jpg
       <p align="center">
-      ![](APPM-1360-HW-XX-XX.1.jpg)
+      ![](APPM-1360-RW-XX-XX.1.jpg)
       </p>
   tags: []
 - id: 0
   fields:
     Front: |
-      APPM-1360-HW-XX-XX:
+      APPM-1360-RW-XX-XX:
     Back: |
     Annotations: ''
   tags:

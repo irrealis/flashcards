@@ -1,0 +1,162 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1360
+  - APPM-1360-RW01
+  - RecitationWorksheet
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1581717765616
+  media:
+  - path: ¢{file_dir}/images/APPM-1360-RW-01-01.1.jpg
+  - path: ¢{file_dir}/images/APPM-1360-RW-01-01.2.jpg
+  - path: ¢{file_dir}/images/APPM-1360-RW-01-01.3.jpg
+  - path: ¢{file_dir}/images/APPM-1360-RW-01-01.4.jpg
+  fields:
+    Front: |
+      APPM-1360-RW-01-01:
+      Sketch the graphs of the following functions:
+      (a) $y=\ln x$
+      (b) $y=\ln (|x|)$
+      (c) $e^{x}$
+      (d) $y=1 / e^{x}$
+    Back: |
+      (a) $y=\ln x$
+      <p align="center">
+      ![](APPM-1360-RW-01-01.1.jpg)
+      </p>
+      (b) $y=\ln (|x|)$
+      <p align="center">
+      ![](APPM-1360-RW-01-01.2.jpg)
+      </p>
+      (c) $e^{x}$
+      <p align="center">
+      ![](APPM-1360-RW-01-01.3.jpg)
+      </p>
+      (d) $y=1 / e^{x}$
+      <p align="center">
+      ![](APPM-1360-RW-01-01.4.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1581717771193
+  fields:
+    Front: |
+      APPM-1360-RW-01-02:
+      Solve for $y$: $4^{-y}=3^{y+2}$
+    Back: |
+      $$
+      \begin{aligned}
+      4^{-y} &=3^{y+2} \\
+      e^{-y \ln 4} &=e^{(y+2) \ln 3} \\
+      -y \ln 4 &=(y+2) \ln 3 \\
+      -y \ln (12) &=2 \ln 3 \\
+      y &=\frac{-2 \ln 3}{\ln (12)}
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1581717771422
+  fields:
+    Front: |
+      APPM-1360-RW-01-03:
+      (a) Find the value of $\lim _{x \rightarrow 0} \arctan \left(\frac{1}{x}\right)$.
+      (b) Use the Squeeze Theorem to find the value of $\lim _{x \rightarrow 0}|x| \arctan \left(\frac{1}{x}\right)$.
+      (c) Does $\lim _{x \rightarrow \infty} \frac{\arctan \left(1 / x^{2}\right)}{\arctan (1 / x)}$ exist? Justify your answer.
+    Back: |
+      (a) The limit does not exist, since the limit from the left hand side is $-\frac{\pi}{2}$ and the limit from the right hand side is $\frac{\pi}{2}$.
+      (b)
+      $$
+      \begin{aligned}
+      -\frac{\pi}{2} <\arctan \left(\frac{1}{x}\right)&<\frac{\pi}{2} \\
+      -|x| \frac{\pi}{2}<|x| \arctan \left(\frac{1}{x}\right) &<|x| \frac{\pi}{2}
+      \end{aligned}
+      $$
+      (c) Yes,
+      $$
+      \lim _{x \rightarrow \infty} \frac{\arctan \left(1 / x^{2}\right)}{\arctan (1 / x)} \stackrel{\mathrm{L}^{\prime} \mathrm{H}}{=} \lim _{x \rightarrow \infty} \frac{\frac{1}{1+\frac{1}{x^{4}}}\left(\frac{-2}{x^{3}}\right)}{\frac{1}{1+\frac{1}{x^{2}}}\left(\frac{-1}{x^{2}}\right)}=\lim _{x \rightarrow \infty} \frac{2 x^{3}+2 x}{x^{4}+1} \stackrel{\mathrm{DOP}}{=} 0
+      $$
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1581717771653
+  fields:
+    Front: |
+      APPM-1360-RW-01-04:
+      Evaluate $\int_{0}^{\ln 2} \tanh (2 x) d x$ and simplify your answer.
+    Back: |
+    Annotations: ''
+  tags: []
+- id: 1581717771848
+  fields:
+    Front: |
+      APPM-1360-RW-01-05:
+      Evaluate $\lim _{x \rightarrow \infty}\left(1+\frac{3}{x}\right)^{x}$.
+    Back: |
+    Annotations: ''
+  tags: []
+- id: 1581717772035
+  fields:
+    Front: |
+      APPM-1360-RW-01-06:
+      Find the absolute maximum and minimum values of $y=x \ln (2 x)-x$ on $[1 /(2 e), e / 2]$.
+    Back: |
+    Annotations: ''
+  tags: []
+- id: 1581717772251
+  fields:
+    Front: |
+      APPM-1360-RW-01-07:
+      1. Let $f(x)=\arctan x$ and $g(x)=\frac{\pi}{2} \tanh x$
+      (a) Find $f^{\prime}(0)$ and $g^{\prime}(0)$
+      (b) Do $f$ and $g$ have asymptotes?
+      (c) Sketch the graphs of $f$ and $g$
+    Back: |
+    Annotations: ''
+  tags: []
+- id: 1581717772497
+  fields:
+    Front: |
+      APPM-1360-RW-01-08:
+      2. Solve for $y$
+      (a) $\ln (y-1)=x+\ln y$
+      (b) $\ln (10 \ln y)=\ln (5 x)$
+    Back: |
+    Annotations: ''
+  tags: []
+- id: 1581717772745
+  fields:
+    Front: |
+      APPM-1360-RW-01-09:
+      3. Differentiate following functions.
+      (a) $y=\ln (\cosh v)-\frac{1}{2} \tanh ^{2} v$
+      (b) $y=\left(1+x^{2}\right) e^{\tan ^{-} 1 x}$
+      (c) $y=2(\ln x)^{x / 2}$
+    Back: |
+    Annotations: ''
+  tags: []
+- id: 1581717772964
+  fields:
+    Front: |
+      APPM-1360-RW-01-10:
+      4. Evaluate the following limits.
+      (a) $\lim _{x \rightarrow 0} \frac{2^{-\sin x}-1}{e^{x}-1}$
+      (b) $\lim _{y \rightarrow 0^{+}} e^{-1 / y} \ln y$
+    Back: |
+    Annotations: ''
+  tags: []
+- id: 1581717773196
+  fields:
+    Front: |
+      APPM-1360-RW-01-11:
+      5. Evaluate the following integrals.
+      (a) $\int e^{y} \csc \left(e^{y}+1\right) \cot \left(e^{y}+1\right) d y$
+      (b) $\int x 3^{x^{2}} d x$
+    Back: |
+    Annotations: ''
+  tags: []

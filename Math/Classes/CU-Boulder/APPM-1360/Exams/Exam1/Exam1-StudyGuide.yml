@@ -1,0 +1,237 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1360
+  - APPM-1360-Exams
+  - APPM-1360-Exam1
+  - APPM-1360-Exam1-StudyGuide
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1581188244613
+  fields:
+    Front: |
+      APPM-1360-Exam1-SG-01:
+      State the **IBP formula (Integration By Parts).**
+    Back: |
+      $$
+      \int u d v=u v-\int v d u
+      $$
+    Annotations: ''
+  tags: []
+- id: 1581188998357
+  fields:
+    Front: |
+      APPM-1360-Exam1-SG-02:
+      Give the following integral's evaluation.
+      $$
+      \int \tan x d x
+      $$
+    Back: |
+      $$
+      \int \tan x d x=\ln |\sec x|+C
+      $$
+    Annotations: ''
+  tags: []
+- id: 1581188998555
+  fields:
+    Front: |
+      APPM-1360-Exam1-SG-03:
+      Give the following integral's evaluation.
+      $$
+      \int \cot x d x
+      $$
+    Back: |
+      $$
+      \int \cot x d x=\ln |\sin x|+C
+      $$
+    Annotations: ''
+  tags: []
+- id: 1581188998759
+  fields:
+    Front: |
+      APPM-1360-Exam1-SG-04:
+      Give the following integral's evaluation.
+      $$
+      \int \sec x d x
+      $$
+    Back: |
+      $$
+      \int \sec x d x=\ln |\sec x+\tan x|+C
+      $$
+    Annotations: ''
+  tags: []
+- id: 1581188998949
+  fields:
+    Front: |
+      APPM-1360-Exam1-SG-05:
+      Give the following integral's evaluation.
+      $$
+      \int \csc x d x
+      $$
+    Back: |
+      $$
+      \int \csc x d x=\ln |\csc x-\cot x|+C
+      $$
+    Annotations: ''
+  tags: []
+- id: 1581188999139
+  fields:
+    Front: |
+      APPM-1360-Exam1-SG-06:
+      Give the following integral's evaluation.
+      $$
+      \int \sin ^{2} x d x 
+      $$
+    Back: |
+      $$
+      \int \sin ^{2} x d x =\frac{1}{2} x-\frac{1}{4} \sin 2 x+C
+      $$
+    Annotations: ''
+  tags: []
+- id: 1581188999343
+  fields:
+    Front: |
+      APPM-1360-Exam1-SG-07:
+      Give the following integral's evaluation.
+      $$
+      \int \cos ^{2} x d x 
+      $$
+    Back: |
+      $$
+      \int \cos ^{2} x d x =\frac{1}{2} x+\frac{1}{4} \sin 2 x+C
+      $$
+    Annotations: ''
+  tags: []
+- id: 1581188999603
+  fields:
+    Front: |
+      APPM-1360-Exam1-SG-08:
+      Give the following integral's evaluation.
+      $$
+      \int \frac{d x}{x^{2}+a^{2}}
+      $$
+    Back: |
+      $$
+      \int \frac{d x}{x^{2}+a^{2}}=\frac{1}{a} \tan ^{-1}\left(\frac{x}{a}\right)+C
+      $$
+    Annotations: ''
+  tags: []
+- id: 1581188999797
+  fields:
+    Front: |
+      APPM-1360-Exam1-SG-09:
+      Give the following integral's evaluation.
+      $$
+      \int \frac{d x}{\sqrt{a^{2}-x^{2}}}
+      $$
+    Back: |
+      $$
+      \int \frac{d x}{\sqrt{a^{2}-x^{2}}}=\sin ^{-1}\left(\frac{x}{a}\right)+C
+      $$
+    Annotations: ''
+  tags: []
+- id: 1581189366187
+  fields:
+    Front: |
+      APPM-1360-Exam1-SG-10:
+      Give the following integrand's substitution.
+      $$
+      \sqrt{a^{2}-x^{2}}
+      $$
+    Back: |
+      $$
+      \sqrt{a^{2}-x^{2}}: \quad x=a \sin \theta
+      $$
+    Annotations: ''
+  tags: []
+- id: 1581189366371
+  fields:
+    Front: |
+      APPM-1360-Exam1-SG-11:
+      Give the following integrand's substitution.
+      $$
+      \sqrt{a^{2}+x^{2}}
+      $$
+    Back: |
+      $$
+      \sqrt{a^{2}+x^{2}}: \quad x=a \tan \theta
+      $$
+    Annotations: ''
+  tags: []
+- id: 1581189366995
+  fields:
+    Front: |
+      APPM-1360-Exam1-SG-12:
+      Give the following integrand's substitution.
+      $$
+      \sqrt{x^{2}-a^{2}}
+      $$
+    Back: |
+      $$
+      \sqrt{x^{2}-a^{2}}: \quad x=a \sec \theta
+      $$
+    Annotations: ''
+  tags: []
+- id: 1581189681788
+  fields:
+    Front: |
+      APPM-1360-Exam1-SG-13:
+      State the **Trapezoidal Rule.**
+    Back: |
+      $$
+      \int_{a}^{b} f(x) d x \approx T_{n}=\frac{\Delta x}{2}\left[f\left(x_{0}\right)+2 f\left(x_{1}\right)+\cdots+2 f\left(x_{n-1}\right)+f\left(x_{n}\right)\right]
+      $$ where $\Delta x=(b-a) / n$ and $x_{i}=a+i \Delta x.$
+    Annotations: ''
+  tags: []
+- id: 1581189866313
+  fields:
+    Front: |
+      APPM-1360-Exam1-SG-14:
+      State the error bounds for the Trapezoidal Rule.
+    Back: |
+      $$
+      \left|E_{T}\right| \leq \frac{K(b-a)^{3}}{12 n^{2}}
+      $$ where $\left|f^{\prime \prime}\right| \leq K.$
+    Annotations: ''
+  tags: []
+- id: 1581189866519
+  fields:
+    Front: |
+      APPM-1360-Exam1-SG-15:
+      State the error bounds for the Midpoint Rule.
+    Back: |
+      $$
+      \left|E_{M}\right| \leq \frac{K(b-a)^{3}}{24 n^{2}}
+      $$ where $\left|f^{\prime \prime}\right| \leq K.$
+    Annotations: ''
+  tags: []
+- id: 1581190034987
+  fields:
+    Front: |
+      APPM-1360-Exam1-SG-16:
+      Give the formula for **Volume by Slicing.**
+    Back: |
+      $$
+      V=\int_{a}^{b} A(x) d x
+      $$
+    Annotations: ''
+  tags: []
+- id: 1581190035199
+  fields:
+    Front: |
+      APPM-1360-Exam1-SG-17:
+      Give the formula for the **Disk/Washer Method.**
+    Back: |
+      $$
+      \begin{aligned}
+      V &=\int_{a}^{b} \pi r^{2} d x \quad \text { or } \quad V=\int_{a}^{b} \pi\left(R^{2}-r^{2}\right) d x \\
+      V &=\int_{a}^{b} \pi r^{2} d y \quad \text { or } \quad V=\int_{a}^{b} \pi\left(R^{2}-r^{2}\right) d y
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []

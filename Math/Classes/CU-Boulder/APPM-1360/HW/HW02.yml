@@ -1,0 +1,103 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1360
+  - APPM-1360-HW02
+  - APPM-1360-Section06.02
+  - APPM-1360-Section06.03
+  - WrittenHomework
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1581714050611
+  fields:
+    Front: |
+      APPM-1360-HW-02-01:
+      $$
+      \int(\sec \theta+\cot \theta)^{2} d \theta
+      $$
+    Back: |
+      $$
+      \tan \theta-2 \ln |\csc \theta+\cot \theta|-\cot \theta-\theta+C
+      $$
+    Annotations: ''
+  tags: []
+- id: 1581714051066
+  fields:
+    Front: |
+      APPM-1360-HW-02-02:
+      $$
+      \int \frac{\tan t}{2 \sec t+1} d t
+      $$
+    Back: |
+      $$
+      -\ln |2+\cos t|+C
+      $$
+    Annotations: ''
+  tags: []
+- id: 1581714051341
+  fields:
+    Front: |
+      APPM-1360-HW-02-03:
+      $$
+      \int \frac{d x}{\sqrt{2 x-x^{2}}}
+      $$
+    Back: |
+      $$
+      \sin ^{-1}(x-1)+C
+      $$
+    Annotations: ''
+  tags: []
+- id: 1581714051589
+  fields:
+    Front: |
+      APPM-1360-HW-02-04:
+      $$
+      \int_{1}^{e^{\pi / 3}} \frac{d t}{t \cos (\ln t)}
+      $$
+    Back: |
+      $$
+      \ln (2+\sqrt{3})
+      $$
+    Annotations: ''
+  tags: []
+- id: 1581714051793
+  fields:
+    Front: |
+      APPM-1360-HW-02-05:
+      $$
+      \int \frac{2 d y}{y^{3} \sqrt{y^{2}-1}}, y>1
+      $$
+    Back: |
+      $$
+      \sec ^{-1} y+\frac{\sqrt{y^{2}-1}}{y^{2}}+C
+      $$
+    Annotations: ''
+  tags: []
+- id: 1581714052010
+  fields:
+    Front: |
+      APPM-1360-HW-02-06:
+      $$
+      \int_{1 / 2}^{1} \frac{x+4}{x^{2}+x} d x
+      $$
+    Back: |
+      $$
+      \ln (27 / 4)
+      $$
+    Annotations: ''
+  tags: []
+- id: 1581714052208
+  fields:
+    Front: |
+      APPM-1360-HW-02-07:
+      Derive the formula $\int x^{n} \cos (k x) d x=\frac{1}{k} x^{n} \sin (k x)-\frac{n}{k} \int x^{n-1} \sin (k x) d x$.
+    Back: |
+      To do
+    Annotations: ''
+  tags:
+  - ToDo

@@ -10,6 +10,7 @@ defaults:
   - CET-08-FurtherApplicationsOfIntegration
   - CET-08.03-ApplicationsToPhysicsAndEngineering
   markdownTabLength: 2
+  stringTemplDelim: ¢
 notes:
 - id: 1577826585630
   fields:
@@ -17,15 +18,279 @@ notes:
       CET-08.03-01 Exercise:
       An aquarium $5 \text{ ft}$ long, $2 \text{ ft}$ wide, and $3 \text{ ft}$ deep is full of water. Find (a) the hydrostatic pressure on the bottom of the aquarium, (b) the hydrostatic force on the bottom, and (c) the hydrostatic force on one end of the aquarium.
     Back: |
-      The weight density of water is $\delta=62.5 \mathrm{lb} / \mathrm{ft}^{3}$
+      The weight density of water is $\delta=62.5 \text{ lb} / \mathrm{ft}^{3}$
+      (a) $P=\delta d \approx\left(62.5 \text{ lb} / \mathrm{ft}^{3}\right)(3 \text{ ft})=187.5 \text{ lb} / \mathrm{ft}^{2}$
+      (b) $F=P A \approx\left(187.5 \text{ lb} / \mathrm{ft}^{2}\right)(5 \text{ ft})(2 \text{ ft})=1875 \text{ lb} .$ ($A$ is the area of the bottom of the tank.)
+      (c) As in Example $1,$ the area of the $i$ th strip is $2(\Delta x)$ and the pressure is $\delta d=\delta x_{i} .$ Thus, $F=\int_{0}^{3} \delta x \cdot 2 d x $ $\approx(62.5)(2) \int_{0}^{3} x d x$ $=125\left[\frac{1}{2} x^{2}\right]_{0}^{3}$ $=125\left(\frac{9}{2}\right)$ $=562.5 \text{ lb}.$
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1582139458599
+  fields:
+    Front: |
+      CET-08.03-02 Exercise:
+      A tank is $8 \text{ m}$ long, $4 \text{ m}$ wide, $2 \text{ m}$ high, and contains kerosene with density $820 \text{ kg} / \mathrm{m}^{3}$ to a depth of $1.5 \text{ m} .$ Find (a) the hydrostatic pressure on the bottom of the tank, (b) the hydrostatic force on the bottom, and (c) the hydrostatic force on one end of the tank.
+    Back: |
+      (a) $P=\rho g d$ $=\left(820 \text{ kg} / \mathrm{m}^{3}\right)\left(9.8 \text{ m} / \mathrm{s}^{2}\right)(1.5 \text{ m})$ $=12,054 \text{ Pa} \approx 12 \text{ kPa}$.
+      (b) $F=P A=(12,054 \text{ Pa})(8 \text{ m})(4 \text{ m}) \approx 3.86 \times 10^{5} \text{ N} \quad(A$ is the area at the bottom of the tank.)
+      (c) The area of the $i$ th strip is $4(\Delta x)$ and the pressure is $\rho g d=\rho g x_{i} .$ Thus, $F=\int_{0}^{1.5} \rho g x \cdot 4 d x$ $=(820)(9.8) \cdot 4 \int_{0}^{1.5} x d x$ $=32,144\left[\frac{1}{2} x^{2}\right]_{0}^{3 / 2}$ $=16,072\left(\frac{9}{4}\right) \approx 3.62 \times 10^{4} \text{ N}$.
+    Annotations: ''
+  tags: []
+- id: 1582140626576
+  media:
+  - path: ¢{file_dir}/images/CET-08.03-03.Xs.1.jpg
+  - path: ¢{file_dir}/images/CET-08.03-03.Xs.2.jpg
+  fields:
+    Front: |
+      CET-08.03-03 Exercise:
+      A vertical plate is submerged (or partially submerged) in water and has the indicated shape. Explain how to approximate the hydrostatic force against one side of the plate by a Riemann sum. Then express the force as an integral and evaluate it.
+      <p align="center">
+      ![](CET-08.03-03.Xs.1.jpg)
+      </p>
+    Back: |
+      [Below, $n$ is the number of subintervals of length $\Delta x$ and $x_{i}^{*}$ is a sample point in the ith subinterval $\left[x_{i-1}, x_{i}\right]$.]
 
-      (a) $P=\delta d \approx\left(62.5 \mathrm{lb} / \mathrm{ft}^{3}\right)(3 \mathrm{ft})=187.5 \mathrm{lb} / \mathrm{ft}^{2}$
+      Set up a vertical $x$ -axis as shown, with $x=0$ at the water's surface and $x$ increasing in the downward direction.
+      <p align="center">
+      ![](CET-08.03-03.Xs.2.jpg)
+      </p>
+      Then the area of the $i$ th rectangular strip is $2 \Delta x$ and the pressure on the strip is $\delta x_{i}^{*}$ (where $\delta \approx 62.5 \text{ lb} / \mathrm{ft}^{3}$). Thus, the hydrostatic force on the strip is $\delta x_{i}^{*} \cdot 2 \Delta x$ and the total hydrostatic force $\approx \sum_{i=1}^{n} \delta x_{i}^{*} \cdot 2 \Delta x .$ The total force
+      $$
+      \begin{aligned}
+      F
+      &=\lim _{n \rightarrow \infty} \sum_{i=1}^{n} \delta x_{i}^{*} .2 \Delta x \\
+      &=\int_{3}^{11} \delta x \cdot 2 d x \\
+      &=2 \delta \int_{3}^{11} x d x \\
+      &=2 \delta\left[\frac{1}{2} x^{2}\right]_{3}^{11} \\
+      &=\delta(121-9)=112 \delta \approx 7000 \text{ lb}
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1582140628126
+  media:
+  - path: ¢{file_dir}/images/CET-08.03-04.Xs.1.jpg
+  - path: ¢{file_dir}/images/CET-08.03-04.Xs.2.jpg
+  fields:
+    Front: |
+      CET-08.03-04 Exercise:
+      A vertical plate is submerged (or partially submerged) in water and has the indicated shape. Explain how to approximate the hydrostatic force against one side of the plate by a Riemann sum. Then express the force as an integral and evaluate it.
+      <p align="center">
+      ![](CET-08.03-04.Xs.1.jpg)
+      </p>
+    Back: |
+      [Below, $n$ is the number of subintervals of length $\Delta x$ and $x_{i}^{*}$ is a sample point in the ith subinterval $\left[x_{i-1}, x_{i}\right]$.]
 
-      (b) $F=P A \approx\left(187.5 \mathrm{lb} / \mathrm{ft}^{2}\right)(5 \mathrm{ft})(2 \mathrm{ft})=1875 \mathrm{lb} . \quad(A$ is the area of the bottom of the tank.)
+      Set up a vertical axis as shown.
+      <p align="center">
+      ![](CET-08.03-04.Xs.2.jpg)
+      </p>
+      Then the area of the $i$ th rectangular strip is $2\left(x_{i}^{*}-2\right) \Delta x.$ [By similar triangles, $\frac{w_{i}}{x_{i}^{*}-2}=\frac{10}{5},$ so $w_{i}=2\left(x_{i}^{*}-2\right).$] The pressure on the strip is $\delta x_{i}^{*},$ so the hydrostatic force on the strip is $\delta x_{i}^{*} \cdot 2\left(x_{i}^{*}-2\right) \Delta x$ and the total hydrostatic force on the plate $\approx \sum_{i=1}^{n} \delta x_{i}^{*} \cdot 2\left(x_{i}^{*}-2\right) \Delta x .$ The total force
+      $$
+      \begin{aligned}
+      F
+      &=\lim _{n \rightarrow \infty} \sum_{i=1}^{n} \delta x_{i}^{*} \cdot 2\left(x_{i}^{*}-2\right) \Delta x \\
+      &=\int_{2}^{7} \delta x \cdot 2(x-2) d x \\
+      &=2 \delta \int_{2}^{7}\left(x^{2}-2 x\right) d x \\
+      &=2 \delta\left[\frac{1}{3} x^{3}-x^{2}\right]_{2}^{7} \\
+      &=2 \delta\left[\left(\frac{343}{3}-49\right)-\left(\frac{8}{3}-4\right)\right] \\
+      &=2 \delta\left(\frac{200}{3}\right) \\
+      &=\frac{400}{3} \delta  \\
+      &\approx \frac{400}{3}(62.5)=8333 . \overline{3} \text{ lb}
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1582140629855
+  media:
+  - path: ¢{file_dir}/images/CET-08.03-05.Xs.1.jpg
+  - path: ¢{file_dir}/images/CET-08.03-05.Xs.2.jpg
+  fields:
+    Front: |
+      CET-08.03-05 Exercise:
+      A vertical plate is submerged (or partially submerged) in water and has the indicated shape. Explain how to approximate the hydrostatic force against one side of the plate by a Riemann sum. Then express the force as an integral and evaluate it.
+      <p align="center">
+      ![](CET-08.03-05.Xs.1.jpg)
+      </p>
+    Back: |
+      [Below, $n$ is the number of subintervals of length $\Delta x$ and $x_{i}^{*}$ is a sample point in the ith subinterval $\left[x_{i-1}, x_{i}\right]$.]
 
-      (c) As in Example $1,$ the area of the $i$ th strip is $2(\Delta x)$ and the pressure is $\delta d=\delta x_{i} .$ Thus,
-      $$$
-      j=\int_{0}^{3} \delta x \cdot 2 d x \approx(62.5)(2) \int_{0}^{3} x d x=125\left[\frac{1}{2} x^{2}\right]_{0}^{3}=125\left(\frac{9}{2}\right)=562.5 \mathrm{lb}
-      $$$
+      Set up a coordinate system as shown.
+      <p align="center">
+      ![](CET-08.03-05.Xs.2.jpg)
+      </p>
+      Then the area of the $i$ th rectangular strip is $2 \sqrt{8^{2}-\left(y_{i}^{*}\right)^{2}} \Delta y .$ The pressure on the strip is $\delta d_{i}=\rho g\left(12-y_{i}^{*}\right),$ so the hydrostatic force on the strip is $\rho g\left(12-y_{i}^{*}\right) 2 \sqrt{64-\left(y_{i}^{*}\right)^{2}} \Delta y$ and the total hydrostatic force on the plate $\approx \sum_{i=1}^{n} \rho g\left(12-y_{i}^{*}\right) 2 \sqrt{64-\left(y_{i}^{*}\right)^{2}} \Delta y$. The total force
+      $$
+      \begin{aligned}
+      F
+      &=\lim _{n \rightarrow \infty} \sum_{i=1}^{n} \rho g\left(12-y_{i}^{*}\right) 2 \sqrt{64-\left(y_{i}^{*}\right)^{2}} \Delta y \\
+      &=\int_{-8}^{8} \rho g(12-y) 2 \sqrt{64-y^{2}} d y \\
+      &=2 \rho g \cdot 12 \int_{-8}^{8} \sqrt{64-y^{2}} d y-2 \rho g \int_{-8}^{8} y \sqrt{64-y^{2}} d y
+      \end{aligned}
+      $$
+      The second integral is 0 because the integrand is an odd function. The first integral is the area of a semicircular disk with radius $8 .$ Thus, $F=24 \rho g\left(\frac{1}{2} \pi(8)^{2}\right)$ $=768 \pi \rho g $ $\approx 768 \pi(1000)(9.8) $ $\approx 2.36 \times 10^{7} \text{ N}$
+    Annotations: ''
+  tags: []
+- id: 1582140632151
+  media:
+  - path: ¢{file_dir}/images/CET-08.03-06.Xs.1.jpg
+  - path: ¢{file_dir}/images/CET-08.03-06.Xs.2.jpg
+  fields:
+    Front: |
+      CET-08.03-06 Exercise:
+      A vertical plate is submerged (or partially submerged) in water and has the indicated shape. Explain how to approximate the hydrostatic force against one side of the plate by a Riemann sum. Then express the force as an integral and evaluate it.
+      <p align="center">
+      ![](CET-08.03-06.Xs.1.jpg)
+      </p>
+    Back: |
+      [Below, $n$ is the number of subintervals of length $\Delta x$ and $x_{i}^{*}$ is a sample point in the ith subinterval $\left[x_{i-1}, x_{i}\right]$.]
+
+      Set up a coordinate system as shown.
+      <p align="center">
+      ![](CET-08.03-06.Xs.2.jpg)
+      </p>
+      Then the area of the $i$ th rectangular strip is $2 \sqrt{6^{2}-\left(y_{i}^{*}\right)^{2}} \Delta y .$ The pressure on the strip is $\delta d_{i}=\rho g\left(4-y_{i}^{*}\right),$ so the hydrostatic force on the strip is $\rho g\left(4-y_{i}^{*}\right) 2 \sqrt{36-\left(y_{i}^{*}\right)^{2}} \Delta y$ and the hydrostatic force on the plate $\approx \sum_{i=1}^{n} \rho g\left(4-y_{i}^{*}\right) 2 \sqrt{36-\left(y_{i}^{*}\right)^{2}} \Delta y .$ The total force $F=\lim _{n \rightarrow \infty} \sum_{i=1}^{n} \rho g\left(4-y_{i}^{*}\right) 2 \sqrt{36-\left(y_{i}^{*}\right)^{2}} \Delta y$ $=\int_{0}^{4} \rho g(4-y) 2 \sqrt{36-y^{2}} d y$ $=8 \rho g I_{1}-2 \rho g I_{2}$.
+      $$
+      \begin{aligned}
+      I_{1}
+      &=\int_{0}^{4} \sqrt{36-y^{2}} d y \\
+      &=\int_{0}^{\alpha} \sqrt{36-36 \sin ^{2} \theta}(6 \cos \theta d \theta)
+      \quad\left[\begin{array}{c}
+        {y=6 \sin \theta} \\
+        {d y=6 \cos \theta d \theta} \\
+        {\alpha=\sin ^{-1}(2 / 3)}
+      \end{array}\right] \\
+      &=\int_{0}^{\alpha} 36 \cos ^{2} \theta d \theta \\
+      &=\int_{0}^{\alpha} 36 \cdot \frac{1}{2}(1+\cos 2 \theta) d \theta \\
+      &=18\left[\theta+\frac{1}{2} \sin 2 \theta\right]_{0}^{\alpha} \\
+      &=18\left(\alpha+\frac{1}{2} \sin 2 \alpha\right) \\
+      &=18(\alpha+\sin \alpha \cos \alpha). \\
+      I_{2}
+      &=\int_{0}^{4} y \sqrt{36-y^{2}} d y \\
+      &=\int_{36}^{20} \sqrt{u}\left(-\frac{1}{2} d u\right)
+      \quad\left[\begin{array}{c}
+        {u=36-y^{2}} \\
+        {d u =-2 y d y}
+      \end{array}\right] \\
+      &=-\frac{1}{2}\left[\frac{2}{3} u^{3 / 2}\right]_{36}^{20} \\
+      &=-\frac{1}{3}\left(20^{3 / 2}-216\right) \\
+      &=72-\frac{40}{3} \sqrt{5}
+      \end{aligned}
+      $$ Thus,
+      $$
+      \begin{aligned}
+      F
+      &=8 \rho g \cdot 18(\alpha+\sin \alpha \cos \alpha)-2 \rho g\left(72-\frac{40}{3} \sqrt{5}\right) \\
+      &=144 \rho g\left(\sin ^{-1} \frac{2}{3}+\frac{2}{3} \frac{\sqrt{5}}{3}\right)-2 \rho g\left(72-\frac{40}{3} \sqrt{5}\right) \\
+      &=\rho g\left(144 \sin ^{-1} \frac{2}{3}+\frac{176}{3} \sqrt{5}-144\right) \\
+      &\approx 9.04 \times 10^{5} \text{ N} \quad[\rho=1000, \, g \approx 9.8]
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1582140634501
+  media:
+  - path: ¢{file_dir}/images/CET-08.03-07.Xs.1.jpg
+  - path: ¢{file_dir}/images/CET-08.03-07.Xs.2.jpg
+  fields:
+    Front: |
+      CET-08.03-07 Exercise:
+      A vertical plate is submerged (or partially submerged) in water and has the indicated shape. Explain how to approximate the hydrostatic force against one side of the plate by a Riemann sum. Then express the force as an integral and evaluate it.
+      <p align="center">
+      ![](CET-08.03-07.Xs.1.jpg)
+      </p>
+    Back: |
+      [Below, $n$ is the number of subintervals of length $\Delta x$ and $x_{i}^{*}$ is a sample point in the ith subinterval $\left[x_{i-1}, x_{i}\right]$.]
+
+      Set up a vertical $x$ -axis as shown.
+      <p align="center">
+      ![](CET-08.03-07.Xs.2.jpg)
+      </p>
+      Then the area of the $i$ th rectangular strip is $\left(2-\frac{2}{\sqrt{3}} x_{i}^{*}\right) \Delta x .$ [By similar triangles, $\frac{w_{i}}{2}=\frac{\sqrt{3}-x_{i}^{*}}{\sqrt{3}},$ so $w_{i}=2-\frac{2}{\sqrt{3}} x_{i}^{*}$.] The pressure on the strip is $\rho g x_{i}^{*},$ so the hydrostatic force on the strip is $\rho g x_{i}^{*}\left(2-\frac{2}{\sqrt{3}} x_{i}^{*}\right) \Delta x$ and the hydrostatic force on the plate $\approx \sum_{i=1}^{n} \rho g x_{i}^{*}\left(2-\frac{2}{\sqrt{3}} x_{i}^{*}\right) \Delta x.$ The total force
+      $$
+      \begin{aligned}
+      F
+      &=\lim _{n \rightarrow \infty} \sum_{i=1}^{n} \rho g x_{i}^{*}\left(2-\frac{2}{\sqrt{3}} x_{i}^{*}\right) \Delta x \\
+      &=\int_{0}^{\sqrt{3}} \rho g x\left(2-\frac{2}{\sqrt{3}} x\right) d x \\
+      &=\rho g \int_{0}^{\sqrt{3}}\left(2 x-\frac{2}{\sqrt{3}} x^{2}\right) d x \\
+      &=\rho g\left[x^{2}-\frac{2}{3 \sqrt{3}} x^{3}\right]_{0}^{\sqrt{3}} \\
+      &=\rho g[(3-2)-0] \\
+      &=\rho g \approx 1000 \cdot 9.8 \\
+      &=9.8 \times 10^{3} \text{ N}
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1582140636175
+  media:
+  - path: ¢{file_dir}/images/CET-08.03-08.Xs.1.jpg
+  - path: ¢{file_dir}/images/CET-08.03-08.Xs.2.jpg
+  fields:
+    Front: |
+      CET-08.03-08 Exercise:
+      A vertical plate is submerged (or partially submerged) in water and has the indicated shape. Explain how to approximate the hydrostatic force against one side of the plate by a Riemann sum. Then express the force as an integral and evaluate it.
+      <p align="center">
+      ![](CET-08.03-08.Xs.1.jpg)
+      </p>
+    Back: |
+      [Below, $n$ is the number of subintervals of length $\Delta x$ and $x_{i}^{*}$ is a sample point in the ith subinterval $\left[x_{i-1}, x_{i}\right]$.]
+      <p align="center">
+      ![](CET-08.03-08.Xs.2.jpg)
+      </p>
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1582140637751
+  media:
+  - path: ¢{file_dir}/images/CET-08.03-09.Xs.1.jpg
+  - path: ¢{file_dir}/images/CET-08.03-09.Xs.2.jpg
+  fields:
+    Front: |
+      CET-08.03-09 Exercise:
+      A vertical plate is submerged (or partially submerged) in water and has the indicated shape. Explain how to approximate the hydrostatic force against one side of the plate by a Riemann sum. Then express the force as an integral and evaluate it.
+      <p align="center">
+      ![](CET-08.03-09.Xs.1.jpg)
+      </p>
+    Back: |
+      [Below, $n$ is the number of subintervals of length $\Delta x$ and $x_{i}^{*}$ is a sample point in the ith subinterval $\left[x_{i-1}, x_{i}\right]$.]
+      <p align="center">
+      ![](CET-08.03-09.Xs.2.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1582140639425
+  media:
+  - path: ¢{file_dir}/images/CET-08.03-10.Xs.1.jpg
+  - path: ¢{file_dir}/images/CET-08.03-10.Xs.2.jpg
+  fields:
+    Front: |
+      CET-08.03-10 Exercise:
+      A vertical plate is submerged (or partially submerged) in water and has the indicated shape. Explain how to approximate the hydrostatic force against one side of the plate by a Riemann sum. Then express the force as an integral and evaluate it.
+      <p align="center">
+      ![](CET-08.03-10.Xs.1.jpg)
+      </p>
+    Back: |
+      [Below, $n$ is the number of subintervals of length $\Delta x$ and $x_{i}^{*}$ is a sample point in the ith subinterval $\left[x_{i-1}, x_{i}\right]$.]
+      <p align="center">
+      ![](CET-08.03-10.Xs.2.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1582140641600
+  media:
+  - path: ¢{file_dir}/images/CET-08.03-11.Xs.1.jpg
+  - path: ¢{file_dir}/images/CET-08.03-11.Xs.2.jpg
+  fields:
+    Front: |
+      CET-08.03-11 Exercise:
+      A vertical plate is submerged (or partially submerged) in water and has the indicated shape. Explain how to approximate the hydrostatic force against one side of the plate by a Riemann sum. Then express the force as an integral and evaluate it.
+      <p align="center">
+      ![](CET-08.03-11.Xs.1.jpg)
+      </p>
+    Back: |
+      [Below, $n$ is the number of subintervals of length $\Delta x$ and $x_{i}^{*}$ is a sample point in the ith subinterval $\left[x_{i-1}, x_{i}\right]$.]
+      <p align="center">
+      ![](CET-08.03-11.Xs.2.jpg)
+      </p>
     Annotations: ''
   tags: []

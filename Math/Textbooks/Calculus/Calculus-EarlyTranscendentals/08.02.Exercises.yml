@@ -10,6 +10,7 @@ defaults:
   - CET-08-FurtherApplicationsOfIntegration
   - CET-08.02-AreaOfASurfaceOfRevolution
   markdownTabLength: 2
+  stringTemplDelim: ¢
 notes:
 - id: 1577664201021
   fields:
@@ -17,9 +18,9 @@ notes:
       CET-08.02-01 Exercise:
       (a) Set up an integral for the area of the surface obtained by rotating the curve about (i) the $x$ -axis and (ii) the $y$ -axis.
       (b) Use the numerical integration capability of a calculator to evaluate the surface areas correct to four decimal places.
-      $$$
-      y=\tan x, 0 \leqslant x \leqslant \pi / 3
-      $$$
+      $$
+      y=\tan x, \quad 0 \leqslant x \leqslant \pi / 3
+      $$
     Back: >
       (a.i) $y=\tan x \Rightarrow d y / d x$ $=\sec ^{2} x \Rightarrow d s$ $=\sqrt{1+(d
       y / d x)^{2}} d x$ $=\sqrt{1+\sec ^{4} x} d x .$ An integral for the area of
@@ -33,5 +34,635 @@ notes:
       (b.i) $10.5017$
 
       (b.ii) $7.9353$
+    Annotations: ''
+  tags: []
+- id: 1582130333331
+  fields:
+    Front: |
+      CET-08.02-02 Exercise:
+      (a) Set up an integral for the area of the surface obtained by rotating the curve about (i) the $x$ -axis and (ii) the $y$ -axis.
+      (b) Use the numerical integration capability of a calculator to evaluate the surface areas correct to four decimal places.
+      $$
+      y=x^{-2}, \quad 1 \leqslant x \leqslant 2
+      $$
+    Back: |
+      (a.i) $y=x^{-2} \Rightarrow d y / d x=-2 x^{-3}$ $\Rightarrow d s=\sqrt{1+(d y / d x)^{2}} d x$ $=\sqrt{1+4 x^{-6}} d x$
+      $S=\int 2 \pi y d s$ $=\int_{1}^{2} 2 \pi x^{-2} \sqrt{1+4 x^{-6}} d x$
+      (a.ii) $S=\int 2 \pi x d s$ $=\int_{1}^{2} 2 \pi x \sqrt{1+4 x^{-6}} d x$
+      (b.i) $4.4566$
+      (b.ii) $11.7299$
+    Annotations: ''
+  tags: []
+- id: 1582130333624
+  fields:
+    Front: |
+      CET-08.02-03 Exercise:
+      (a) Set up an integral for the area of the surface obtained by rotating the curve about (i) the $x$ -axis and (ii) the $y$ -axis.
+      (b) Use the numerical integration capability of a calculator to evaluate the surface areas correct to four decimal places.
+      $$
+      y=e^{-x^{2}}, \quad-1 \leq x \leq 1
+      $$
+    Back: |
+      (a.i) $y=e^{-x^{2}}$ $\Rightarrow d y / d x=e^{-x^{2}} \cdot(-2 x)$ $\Rightarrow d s=\sqrt{1+(d y / d x)^{2}} d x$ $=\sqrt{1+4 x^{2} e^{-2 x^{2}}} d x$
+      $S=\int 2 \pi y d s$ $=\int_{-1}^{1} 2 \pi e^{-x^{2}} \sqrt{1+4 x^{2} e^{-2 x^{2}}} d x$
+      (a.ii) $S=\int 2 \pi x d s$ $=\int_{0}^{1} 2 \pi x \sqrt{1+4 x^{2} e^{-2 x^{2}}} d x$ [symmetric about the $y$ axis]
+      (b.i) $11.0753$
+      (b.ii) $3.9603$
+    Annotations: ''
+  tags: []
+- id: 1582130333851
+  fields:
+    Front: |
+      CET-08.02-04 Exercise:
+      (a) Set up an integral for the area of the surface obtained by rotating the curve about (i) the $x$ -axis and (ii) the $y$ -axis.
+      (b) Use the numerical integration capability of a calculator to evaluate the surface areas correct to four decimal places.
+      $$
+      x=\ln (2 y+1), \quad 0 \leq y \leq 1
+      $$
+    Back: |
+      (a.i) $x=\ln (2 y+1)$ $\Rightarrow d x / d y=\frac{2}{2 y+1}$ $\Rightarrow d s=\sqrt{1+(d x / d y)^{2}} d y$ $=\sqrt{1+4 /(2 y+1)^{2}} d y$
+      $S=\int 2 \pi y d s$ $=\int_{0}^{1} 2 \pi y \sqrt{1+4 /(2 y+1)^{2}} d y$
+      (a.ii) $S=\int 2 \pi x d s$ $=\int_{0}^{1} 2 \pi \ln (2 y+1) \sqrt{1+4 /(2 y+1)^{2}} d y$
+      (b.i) $4.2583$
+      (ii) $5.6053$
+    Annotations: ''
+  tags: []
+- id: 1582130334078
+  fields:
+    Front: |
+      CET-08.02-05 Exercise:
+      (a) Set up an integral for the area of the surface obtained by rotating the curve about (i) the $x$ -axis and (ii) the $y$ -axis.
+      (b) Use the numerical integration capability of a calculator to evaluate the surface areas correct to four decimal places.
+      $$
+      x=y+y^{3}, \quad 0 \leqslant y \leqslant 1
+      $$
+    Back: |
+      (a.i) $x=y+y^{3}$ $\Rightarrow d x / d y=1+3 y^{2}$ $\Rightarrow d s=\sqrt{1+(d x / d y)^{2}} d y$ $=\sqrt{1+\left(1+3 y^{2}\right)^{2}} d y$
+      $S=\int 2 \pi y d s$ $=\int_{0}^{1} 2 \pi y \sqrt{1+\left(1+3 y^{2}\right)^{2}} d y$
+      (a.ii) $S=\int 2 \pi x d s$ $=\int_{0}^{1} 2 \pi\left(y+y^{3}\right) \sqrt{1+\left(1+3 y^{2}\right)^{2}} d y$
+      (b.i) $8.5302$
+      (b.ii) $13.5134$
+    Annotations: ''
+  tags: []
+- id: 1582130334282
+  fields:
+    Front: |
+      CET-08.02-06 Exercise:
+      (a) Set up an integral for the area of the surface obtained by rotating the curve about (i) the $x$ -axis and (ii) the $y$ -axis.
+      (b) Use the numerical integration capability of a calculator to evaluate the surface areas correct to four decimal places.
+      $$
+      y=\tan ^{-1} x, \quad 0 \leq x \leq 2
+      $$
+    Back: |
+      (a.i) $y=\tan ^{-1} x$ $\Rightarrow d y / d x=1 /\left(1+x^{2}\right)$ $\Rightarrow d s=\sqrt{1+(d y / d x)^{2}} d x$ $=\sqrt{1+1 /\left(1+x^{2}\right)^{2}} d x$
+      $S=\int 2 \pi y d s$ $=\int_{0}^{2} 2 \pi \tan ^{-1} x \sqrt{1+1 /\left(1+x^{2}\right)^{2}} d x$
+      (ii) $S=\int 2 \pi x d s=\int_{0}^{2} 2 \pi x \sqrt{1+1 /\left(1+x^{2}\right)^{2}} d x$
+      (b.i) $9.7956$
+      (ii) $13.7209$
+    Annotations: ''
+  tags: []
+- id: 1582131456956
+  fields:
+    Front: |
+      CET-08.02-07 Exercise:
+      Find the exact area of the surface obtained by rotating the curve about the $x$ -axis.
+      $y=x^{3}, \quad 0 \leqslant x \leqslant 2$
+    Back: |
+      $y=x^{3} \Rightarrow y^{\prime}=3 x^{2}$, so
+      $$
+      \begin{aligned}
+      S
+      &=\int_{0}^{2} 2 \pi y \sqrt{1+\left(y^{\prime}\right)^{2}} d x \\
+      &=2 \pi \int_{0}^{2} x^{3} \sqrt{1+9 x^{4}} d x \\
+      &=\frac{2 \pi}{36} \int_{1}^{145} \sqrt{u} d u \quad\left[u=1+9 x^{4}, d u=36 x^{3} d x\right] \\
+      &=\frac{\pi}{18}\left[\frac{2}{3} u^{3 / 2}\right]_{1}^{145} \\
+      &=\frac{\pi}{27}(145 \sqrt{145}-1)
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1582131457239
+  fields:
+    Front: |
+      CET-08.02-08 Exercise:
+      Find the exact area of the surface obtained by rotating the curve about the $x$ -axis.
+      $y=\sqrt{5-x}, \quad 3 \leqslant x \leqslant 5$
+    Back: |
+      $y=\sqrt{5-x} \Rightarrow y^{\prime}=\frac{1}{2}(5-x)^{-1 / 2}(-1)=-1 /(2 \sqrt{5-x})$, so
+      $$
+      \begin{aligned}
+      S
+      &=\int_{3}^{5} 2 \pi y \sqrt{1+\left(y^{\prime}\right)^{2}} d x \\
+      &=\int_{3}^{5} 2 \pi \sqrt{5-x} \sqrt{1+\frac{1}{4(5-x)}} d x \\
+      &=2 \pi \int_{3}^{5} \sqrt{5-x+\frac{1}{4}} d x \\
+      &=2 \pi \int_{3}^{5} \sqrt{\frac{21}{4}-x} d x \\
+      &=2 \pi \int_{9 / 4}^{1 / 4} \sqrt{u}(-d u) \quad\left[\begin{array}{c}
+      {u=\frac{21}{4}-x} \\
+      {d u=-d x}
+      \end{array}\right] \\
+      &=2 \pi \int_{1 / 4}^{9 / 4} u^{1 / 2} d u \\
+      &=2 \pi\left[\frac{2}{3} u^{3 / 2}\right]_{1 / 4}^{9 / 4} \\
+      &=\frac{4 \pi}{3}\left(\frac{27}{8}-\frac{1}{8}\right) \\
+      &=\frac{13 \pi}{3}
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1582131457544
+  fields:
+    Front: |
+      CET-08.02-09 Exercise:
+      Find the exact area of the surface obtained by rotating the curve about the $x$ -axis.
+      $y^{2}=x+1, \quad 0 \leqslant x \leqslant 3$
+    Back: |
+      $y^{2}=x+1 \Rightarrow y=\sqrt{x+1}$ for $0 \leq x \leq 3$ and $1 \leq y \leq 2)$ $\Rightarrow y^{\prime}=1 /(2 \sqrt{x+1})$, so
+      $$
+      \begin{aligned}
+      S
+      &=\int_{0}^{3} 2 \pi y \sqrt{1+\left(y^{\prime}\right)^{2}} d x \\
+      &=2 \pi \int_{0}^{3} \sqrt{x+1} \sqrt{1+\frac{1}{4(x+1)}} d x \\
+      &=2 \pi \int_{0}^{3} \sqrt{x+1+\frac{1}{4}} d x \\
+      &=2 \pi \int_{0}^{3} \sqrt{x+\frac{5}{4}} d x \\
+      &=2 \pi \int_{5 / 4}^{17 / 4} \sqrt{u} d u \quad\left[\begin{array}{l}
+      {u=x+\frac{5}{4}} \\
+      {d u = d x}
+      \end{array}\right] \\
+      &=2 \pi\left[\frac{2}{3} u^{3 / 2}\right]_{5 / 4}^{17 / 4} \\
+      &=2 \pi \cdot \frac{2}{3}\left(\frac{17^{3 / 2}}{8}-\frac{5^{3 / 2}}{8}\right) \\
+      &=\frac{\pi}{6}(17 \sqrt{17}-5 \sqrt{5})
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1582131457743
+  fields:
+    Front: |
+      CET-08.02-10 Exercise:
+      Find the exact area of the surface obtained by rotating the curve about the $x$ -axis.
+      $y=\sqrt{1+e^{x}}, \quad  0 \leqslant x \leqslant 1$
+    Back: |
+      $y=\sqrt{1+e^{x}}$ $\Rightarrow y^{\prime}=\frac{1}{2}\left(1+e^{x}\right)^{-1 / 2}\left(e^{x}\right)$ $=\frac{e^{x}}{2 \sqrt{1+e^{x}}}$ $\Rightarrow \sqrt{1+\left(y^{\prime}\right)^{2}}=\sqrt{1+\frac{e^{2 x}}{4\left(1+e^{x}\right)}}$ $=\sqrt{\frac{4+4 e^{x}+e^{2 x}}{4\left(1+e^{x}\right)}}$ $=\sqrt{\frac{\left(e^{x}+2\right)^{2}}{4\left(1+e^{x}\right)}}$ $=\frac{e^{x}+2}{2 \sqrt{1+e^{x}}}$, so
+      $$
+      \begin{aligned}
+      S
+      &=\int_{0}^{1} 2 \pi y \sqrt{1+\left(y^{\prime}\right)^{2}} d x \\
+      &=2 \pi \int_{0}^{1} \sqrt{1+e^{x}} \frac{e^{x}+2}{2 \sqrt{1+e^{x}}} d x \\
+      &=\pi \int_{0}^{1}\left(e^{x}+2\right) d x \\
+      &=\pi\left[e^{x}+2 x\right]_{0}^{1} \\
+      &=\pi[(e+2)-(1+0)] \\
+      &=\pi(e+1)
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1582131457968
+  fields:
+    Front: |
+      CET-08.02-11 Exercise:
+      Find the exact area of the surface obtained by rotating the curve about the $x$ -axis.
+      $y=\cos \left(\frac{1}{2} x\right), \quad  0 \leqslant x \leqslant \pi$
+    Back: |
+      $y=\cos \left(\frac{1}{2} x\right) \Rightarrow y^{\prime}=-\frac{1}{2} \sin \left(\frac{1}{2} x\right)$, so
+      $$
+      \begin{aligned}
+      S
+      &=\int_{0}^{\pi} 2 \pi y \sqrt{1+\left(y^{\prime}\right)^{2}} d x \\
+      &=2 \pi \int_{0}^{\pi} \cos \left(\frac{1}{2} x\right) \sqrt{1+\frac{1}{4} \sin ^{2}\left(\frac{1}{2} x\right)} d x \\
+      &=2 \pi \int_{0}^{1} \sqrt{1+\frac{1}{4} u^{2}}(2 d u) \quad\left[\begin{array}{l}
+      {u=\sin \left(\frac{1}{2} x\right)} \\
+      {d u =\frac{1}{2} \cos \left(\frac{1}{2} x\right) d x}
+      \end{array}\right]\\
+      &=2 \pi \int_{0}^{1} \sqrt{4+u^{2}} d u \\
+      &\stackrel{21}{=} 2 \pi\left[\frac{u}{2} \sqrt{4+u^{2}}+2 \ln (u+\sqrt{4+u^{2}})\right]_{0}^{1} \\
+      &=2 \pi\left[\left(\frac{1}{2} \sqrt{5}+2 \ln (1+\sqrt{5})\right)-(0+2 \ln 2)\right] \\
+      &=\pi \sqrt{5}+4 \pi \ln \left(\frac{1+\sqrt{5}}{2}\right)
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1582131458172
+  fields:
+    Front: |
+      CET-08.02-12 Exercise:
+      Find the exact area of the surface obtained by rotating the curve about the $x$ -axis.
+      $y=\frac{x^{3}}{6}+\frac{1}{2 x}, \quad  \frac{1}{2} \leq x \leq 1$
+    Back: |
+      $y=\frac{x^{3}}{6}+\frac{1}{2 x}$ $\Rightarrow \frac{d y}{d x}=\frac{x^{2}}{2}-\frac{1}{2 x^{2}}$ $\Rightarrow \sqrt{1+\left(\frac{d y}{d x}\right)^{2}}=\sqrt{\frac{x^{4}}{4}+\frac{1}{2}+\frac{1}{4 x^{4}}}$ $=\sqrt{\left(\frac{x^{2}}{2}+\frac{1}{2 x^{2}}\right)^{2}}$ $=\frac{x^{2}}{2}+\frac{1}{2 x^{2}}$ $\Rightarrow$
+      $$
+      \begin{aligned}
+      S
+      &=\int_{1 / 2}^{1} 2 \pi\left(\frac{x^{3}}{6}+\frac{1}{2 x}\right)\left(\frac{x^{2}}{2}+\frac{1}{2 x^{2}}\right) d x \\
+      &=2 \pi \int_{1 / 2}^{1}\left(\frac{x^{5}}{12}+\frac{x}{12}+\frac{x}{4}+\frac{1}{4 x^{3}}\right) d x \\
+      &=2 \pi \int_{1 / 2}^{1}\left(\frac{x^{5}}{12}+\frac{x}{3}+\frac{x^{-3}}{4}\right) d x \\
+      &=2 \pi\left[\frac{x^{6}}{72}+\frac{x^{2}}{6}-\frac{x^{-2}}{8}\right]_{1 / 2}^{1} \\
+      &=2 \pi\left[\left(\frac{1}{72}+\frac{1}{6}-\frac{1}{8}\right)-\left(\frac{1}{64 \cdot 72}+\frac{1}{24}-\frac{1}{2}\right)\right] \\
+      &=2 \pi\left(\frac{263}{512}\right) \\
+      &=\frac{263}{256} \pi
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1582131458432
+  fields:
+    Front: |
+      CET-08.02-13 Exercise:
+      Find the exact area of the surface obtained by rotating the curve about the $x$ -axis.
+      $x=\frac{1}{3}\left(y^{2}+2\right)^{3 / 2}, \quad  1 \leqslant y \leqslant 2$
+    Back: |
+      $x=\frac{1}{3}\left(y^{2}+2\right)^{3 / 2}$ $\Rightarrow d x / d y=\frac{1}{2}\left(y^{2}+2\right)^{1 / 2}(2 y)$ $=y \sqrt{y^{2}+2} \Rightarrow 1+(d x / d y)^{2}$ $=1+y^{2}\left(y^{2}+2\right)$ $=\left(y^{2}+1\right)^{2}$.
+      So $S=2 \pi \int_{1}^{2} y\left(y^{2}+1\right) d y$ $=2 \pi\left[\frac{1}{4} y^{4}+\frac{1}{2} y^{2}\right]_{1}^{2}$ $=2 \pi\left(4+2-\frac{1}{4}-\frac{1}{2}\right)$ $=\frac{21 \pi}{2}$.
+    Annotations: ''
+  tags: []
+- id: 1582131458681
+  fields:
+    Front: |
+      CET-08.02-14 Exercise:
+      Find the exact area of the surface obtained by rotating the curve about the $x$ -axis.
+      $x=1+2 y^{2}, \quad  1 \leqslant y \leqslant 2$
+    Back: |
+      $x=1+2 y^{2}$ $\Rightarrow 1+(d x / d y)^{2}=1+(4 y)^{2}$ $=1+16 y^{2}$.
+      So $S=2 \pi \int_{1}^{2} y \sqrt{1+16 y^{2}} d y$ $=\frac{\pi}{16} \int_{1}^{2}\left(16 y^{2}+1\right)^{1 / 2} 32 y d y$ $=\frac{\pi}{16}\left[\frac{2}{3}\left(16 y^{2}+1\right)^{3 / 2}\right]_{1}^{2}$ $=\frac{\pi}{24}(65 \sqrt{65}-17 \sqrt{17})$.
+    Annotations: ''
+  tags: []
+- id: 1582132984282
+  fields:
+    Front: |
+      CET-08.02-15 Exercise:
+      The given curve is rotated about the $y$ -axis. Find the area of the resulting surface.
+      $$
+      y=\frac{1}{3} x^{3 / 2}, \quad  0 \leqslant x \leqslant 12
+      $$
+    Back: |
+      $y=\frac{1}{3} x^{3 / 2}$ $\Rightarrow y^{\prime}=\frac{1}{2} x^{1 / 2}$ $\Rightarrow 1+\left(y^{\prime}\right)^{2}=1+\frac{1}{4} x .$ So
+      $$
+      \begin{aligned}
+      S
+      &=\int_{0}^{12} 2 \pi x \sqrt{1+\left(y^{\prime}\right)^{2}} d x \\
+      &=2 \pi \int_{0}^{12} x \sqrt{1+\frac{1}{4} x} d x \\
+      &=2 \pi \int_{0}^{12} x \frac{1}{2} \sqrt{4+x} d x \\
+      &=\pi \int_{4}^{16}(u-4) \sqrt{u} d u \quad\left[\begin{array}{c}
+      {u=x+4} \\
+      {d u = dx}
+      \end{array}\right] \\
+      &=\pi \int_{4}^{16}\left(u^{3 / 2}-4 u^{1 / 2}\right) d u \\
+      &=\pi\left[\frac{2}{5} u^{5 / 2}-\frac{8}{3} u^{3 / 2}\right]_{4}^{16} \\
+      &=\pi\left[\left(\frac{2}{5} \cdot 1024-\frac{8}{3} \cdot 64\right)-\left(\frac{2}{5} \cdot 32-\frac{8}{3} \cdot 8\right)\right] \\
+      &=\pi\left(\frac{2}{5} \cdot 992-\frac{8}{3} \cdot 56\right) \\
+      &=\pi\left(\frac{5952-2240}{15}\right) \\
+      &=\frac{3712 \pi}{15}
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1582132984535
+  fields:
+    Front: |
+      CET-08.02-16 Exercise:
+      The given curve is rotated about the $y$ -axis. Find the area of the resulting surface.
+      $$
+      x^{2 / 3}+y^{2 / 3}=1, \quad 0 \leq y \leq 1
+      $$
+    Back: |
+      $x^{2 / 3}+y^{2 / 3}=1,0 \leq y \leq 1 .$ The curve is symmetric about the $y$ -axis from $x=-1$ to $x=1,$ so we'll use the portion of the curve from $x=0$ to $x=1 .$ $y^{2 / 3}=1-x^{2 / 3}$ $\Rightarrow y=\left(1-x^{2 / 3}\right)^{3 / 2}$ $\Rightarrow y^{\prime}=\frac{3}{2}\left(1-x^{2 / 3}\right)^{1 / 2}\left(-\frac{2}{3} x^{-1 / 3}\right)$ $=-\frac{\sqrt{1-x^{2 / 3}}}{x^{1 / 3}} $ $\Rightarrow 1+\left(y^{\prime}\right)^{2}=1+\frac{1-x^{2 / 3}}{x^{2 / 3}}$ $=\frac{x^{2 / 3}+1-x^{2 / 3}}{x^{2 / 3}}=x^{-2 / 3} .$ So
+      $S=\int_{0}^{1} 2 \pi x \sqrt{1+\left(y^{\prime}\right)^{2}} d x$ $=2 \pi \int_{0}^{1} x\left(x^{-1 / 3}\right) d x$ $=2 \pi \int_{0}^{1} x^{2 / 3} d x$ $=2 \pi\left[\frac{3}{5} x^{5 / 3}\right]_{0}^{1}$ $=2 \pi\left(\frac{3}{5}\right)$ $=\frac{6 \pi}{5}$.
+    Annotations: ''
+  tags: []
+- id: 1582132984747
+  fields:
+    Front: |
+      CET-08.02-17 Exercise:
+      The given curve is rotated about the $y$ -axis. Find the area of the resulting surface.
+      $$
+      x=\sqrt{a^{2}-y^{2}}, \quad  0 \leqslant y \leqslant a / 2
+      $$
+    Back: |
+      $x=\sqrt{a^{2}-y^{2}} $ $\Rightarrow d x / d y=\frac{1}{2}\left(a^{2}-y^{2}\right)^{-1 / 2}(-2 y)$ $=-y / \sqrt{a^{2}-y^{2}} $ $\Rightarrow 1+\left(\frac{d x}{d y}\right)^{2}=1+\frac{y^{2}}{a^{2}-y^{2}}$ $=\frac{a^{2}-y^{2}}{a^{2}-y^{2}}+\frac{y^{2}}{a^{2}-y^{2}}$ $=\frac{a^{2}}{a^{2}-y^{2}}$ $ \Rightarrow$
+      $S=\int_{0}^{a / 2} 2 \pi \sqrt{a^{2}-y^{2}} \frac{a}{\sqrt{a^{2}-y^{2}}} d y$ $=2 \pi \int_{0}^{a / 2} a d y$ $=2 \pi a[y]_{0}^{a / 2}$ $=2 \pi a\left(\frac{a}{2}-0\right)$ $=\pi a^{2}$.
+
+      Note that this is $\frac{1}{4}$ the surface area of a sphere of radius $a$, and the length of the interval $y=0$ to $y=a / 2$ is $\frac{1}{4}$ the length of the interval $y=-a$ to $y=a$.
+    Annotations: ''
+  tags: []
+- id: 1582132984951
+  fields:
+    Front: |
+      CET-08.02-18 Exercise:
+      The given curve is rotated about the $y$ -axis. Find the area of the resulting surface.
+      $$
+      y=\frac{1}{4} x^{2}-\frac{1}{2} \ln x, \quad  1 \leqslant x \leqslant 2
+      $$
+    Back: |
+      $y=\frac{1}{4} x^{2}-\frac{1}{2} \ln x $ $\Rightarrow \frac{d y}{d x}=\frac{x}{2}-\frac{1}{2 x} $ $\Rightarrow 1+\left(\frac{d y}{d x}\right)^{2}=1+\frac{x^{2}}{4}-\frac{1}{2}+\frac{1}{4 x^{2}}$ $=\frac{x^{2}}{4}+\frac{1}{2}+\frac{1}{4 x^{2}}$ $=\left(\frac{x}{2}+\frac{1}{2 x}\right)^{2}$, so
+      $$
+      \begin{aligned}
+      S
+      &=\int_{1}^{2} 2 \pi x \sqrt{\left(\frac{x}{2}+\frac{1}{2 x}\right)^{2}} d x \\
+      &=2 \pi \int_{1}^{2} x\left(\frac{x}{2}+\frac{1}{2 x}\right) d x \\
+      &=\pi \int_{1}^{2}\left(x^{2}+1\right) d x \\
+      &=\pi\left[\frac{1}{3} x^{3}+x\right]_{1}^{2} \\
+      &=\pi\left[\left(\frac{8}{3}+2\right)-\left(\frac{1}{3}+1\right)\right] \\
+      &=\frac{10}{3} \pi
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1582135276876
+  fields:
+    Front: |
+      CET-08.02-19 Exercise:
+      Use Simpson's Rule with $n=10$ to approximate the area of the surface obtained by rotating the curve about the $x$ -axis. Compare your answer with the value of the integral produced by a calculator.
+      $y=\frac{1}{5} x^{5}, \quad 0 \leqslant x \leqslant 5$
+    Back: |
+      $$
+      \approx 1,230,507
+      $$
+      The value of the integral produced by a calculator is approximately $1,227,192$.
+    Annotations: ''
+  tags: []
+- id: 1582135277127
+  fields:
+    Front: |
+      CET-08.02-20 Exercise:
+      Use Simpson's Rule with $n=10$ to approximate the area of the surface obtained by rotating the curve about the $x$ -axis. Compare your answer with the value of the integral produced by a calculator.
+      $y=x+x^{2}, \quad 0 \leqslant x \leqslant 1$
+    Back: |
+      $$
+      \approx 13.649368
+      $$
+      The value of the integral produced by a calculator is 13.649370 (to six decimal places).
+    Annotations: ''
+  tags: []
+- id: 1582135277404
+  fields:
+    Front: |
+      CET-08.02-21 Exercise:
+      Use Simpson's Rule with $n=10$ to approximate the area of the surface obtained by rotating the curve about the $x$ -axis. Compare your answer with the value of the integral produced by a calculator.
+      $y=x e^{x}, \quad 0 \leqslant x \leqslant 1$
+    Back: |
+      $$
+      \approx 24.145807
+      $$
+      The value of the integral produced by a calculator is 24.144251 (to six decimal places).
+    Annotations: ''
+  tags: []
+- id: 1582135277691
+  fields:
+    Front: |
+      CET-08.02-22 Exercise:
+      Use Simpson's Rule with $n=10$ to approximate the area of the surface obtained by rotating the curve about the $x$ -axis. Compare your answer with the value of the integral produced by a calculator.
+      $y=x \ln x, \quad 1 \leqslant x \leqslant 2$
+    Back: |
+      $$
+      \approx 7.248933
+      $$
+      The value of the integral produced by a calculator is 7.248934 (to six decimal places).
+    Annotations: ''
+  tags: []
+- id: 1582135779432
+  fields:
+    Front: |
+      CET-08.02-23 Exercise:
+      Use either a CAS or a table of integrals to find the exact area of the surface obtained by rotating the given curve about the $x$ -axis.
+      $y=1 / x, \quad 1 \leqslant x \leqslant 2$
+    Back: |
+      $\frac{\pi}{4}[4 \ln (\sqrt{17}+4)-4 \ln (\sqrt{2}+1)-\sqrt{17}+4 \sqrt{2}]$
+    Annotations: ''
+  tags: []
+- id: 1582135779674
+  fields:
+    Front: |
+      CET-08.02-24 Exercise:
+      Use either a CAS or a table of integrals to find the exact area of the surface obtained by rotating the given curve about the $x$ -axis.
+      $y=\sqrt{x^{2}+1}, \quad 0 \leqslant x \leqslant 3$
+    Back: |
+      $3 \sqrt{19} \pi+\frac{\pi}{\sqrt{2}} \ln (3 \sqrt{2}+\sqrt{19})$
+    Annotations: ''
+  tags: []
+- id: 1582135975188
+  fields:
+    Front: |
+      CET-08.02-25 Exercise:
+      Use a CAS to find the exact area of the surface obtained by rotating the curve about the $y$ -axis. If your CAS has trouble evaluating the integral, express the surface area as an integral in the other variable.
+      $y=x^{3}, 0 \leqslant y \leqslant 1$
+    Back: |
+      $\frac{\pi}{3}\left[\frac{3}{2} \sqrt{10}+\frac{1}{2} \ln (3+\sqrt{10})\right]=\frac{\pi}{6}[3 \sqrt{10}+\ln (3+\sqrt{10})]$
+    Annotations: ''
+  tags: []
+- id: 1582135975478
+  fields:
+    Front: |
+      CET-08.02-26 Exercise:
+      Use a CAS to find the exact area of the surface obtained by rotating the curve about the $y$ -axis. If your CAS has trouble evaluating the integral, express the surface area as an integral in the other variable.
+      $y=\ln (x+1), 0 \leqslant x \leqslant 1$
+    Back: |
+      $2 \pi\left[\frac{1}{2} \ln (2+\sqrt{5})+\ln \left(\frac{1+\sqrt{5}}{2}\right)+\frac{\sqrt{2}}{2}-\frac{3}{2} \ln (1+\sqrt{2})\right]$
+    Annotations: ''
+  tags: []
+- id: 1582136336404
+  media:
+  - path: ¢{file_dir}/images/CET-08.02-27.Xs.1.jpg
+  fields:
+    Front: |
+      CET-08.02-27 Exercise:
+      If the region $\mathscr{R}=\{(x, y) | x \geqslant 1,0 \leq y \leq 1 / x\}$ is rotated about the $x$ -axis, the volume of the resulting solid is finite (see Exercise $7.8 .63) .$ Show that the surface area is infinite. (The surface is shown in the figure and is known as Gabriel's horn.)
+      <p align="center">
+      ![](CET-08.02-27.Xs.1.jpg)
+      </p>
+    Back: |
+      $S=2 \pi \int_{1}^{\infty} y \sqrt{1+\left(\frac{d y}{d x}\right)^{2}} d x$ $=2 \pi \int_{1}^{\infty} \frac{1}{x} \sqrt{1+\frac{1}{x^{4}}} d x$ $=2 \pi \int_{1}^{\infty} \frac{\sqrt{x^{4}+1}}{x^{3}} d x .$ Rather than trying to evaluate this integral, note that $\sqrt{x^{4}+1}>\sqrt{x^{4}}=x^{2}$ for $x>0 .$ Thus, if the area is finite, $S=2 \pi \int_{1}^{\infty} \frac{\sqrt{x^{4}+1}}{x^{3}} d x>2 \pi \int_{1}^{\infty} \frac{x^{2}}{x^{3}} d x$ $=2 \pi \int_{1}^{\infty} \frac{1}{x} d x .$ But we know that this integral diverges, so the area $S$ is infinite.
+    Annotations: ''
+  tags: []
+- id: 1582136429019
+  fields:
+    Front: |
+      CET-08.02-28 Exercise:
+      If the infinite curve $y=e^{-x}, x \geqslant 0,$ is rotated about the $x$ -axis, find the area of the resulting surface.
+    Back: |
+      $$
+      \pi[\sqrt{2}-\ln (\sqrt{2}-1)]
+      $$
+    Annotations: ''
+  tags: []
+- id: 1582136560129
+  fields:
+    Front: |
+      CET-08.02-29 Exercise:
+      (a) If $a>0,$ find the area of the surface generated by rotating the loop of the curve $3 a y^{2}=x(a-x)^{2}$ about the $x$ -axis.
+      (b) Find the surface area if the loop is rotated about the $y-$ axis.
+    Back: |
+      (a)
+      $$
+      \frac{\pi a^{2}}{3}
+      $$
+      (b)
+      $$
+      \frac{56 \pi \sqrt{3} a^{2}}{45}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1582136646502
+  fields:
+    Front: |
+      CET-08.02-30 Exercise:
+      A group of engineers is building a parabolic satellite dish whose shape will be formed by rotating the curve $y=a x^{2}$ about the $y$ -axis. If the dish is to have a 10 -ft diameter and a maximum depth of $2 \mathrm{ft}$, find the value of $a$ and the surface area of the dish.
+    Back: |
+      $$
+      90.01 \text{ ft}^{2}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1582136781926
+  fields:
+    Front: |
+      CET-08.02-31 Exercise:
+      (a) The ellipse
+      $$
+      \frac{x^{2}}{a^{2}}+\frac{y^{2}}{b^{2}}=1 \quad a>b
+      $$
+      is rotated about the $x$ -axis to form a surface called an ellipsoid, or prolate spheroid. Find the surface area of this ellipsoid.
+
+      (b) If the ellipse in part (a) is rotated about its minor axis (the $y$ -axis), the resulting ellipsoid is called an oblate spheroid. Find the surface area of this ellipsoid.
+    Back: |
+      (a)
+      $$
+      2 \pi\left[b^{2}+\frac{a^{2} b \sin ^{-1} \frac{\sqrt{a^{2}-b^{2}}}{a}}{\sqrt{a^{2}-b^{2}}}\right]
+      $$
+      (b)
+      $$
+      2 \pi a^{2}+\frac{2 \pi a b^{2}}{\sqrt{a^{2}-b^{2}}} \ln \frac{\sqrt{a^{2}-b^{2}}+a}{b}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1582137316357
+  media:
+  - path: ¢{file_dir}/images/CET-08.02-32.Xs.1.jpg
+  fields:
+    Front: |
+      CET-08.02-32 Exercise:
+      [Parts (a) and (b) below come from exercise 6.2.63.]
+      (a) Set up an integral for the volume of a solid torus (the donut-shaped solid shown in the figure) with radii $r$ and $R$
+      (b) By interpreting the integral as an area, find the volume of the torus.
+      (c) Find the surface area of the torus.
+      <p align="center">
+      ![](CET-08.02-32.Xs.1.jpg)
+      </p>
+    Back: |
+      (a)
+      $$
+      8 \pi R \int_{0}^{r} \sqrt{r^{2}-y^{2}} d y
+      $$
+      (b)
+      $$
+      2 \pi^{2} r^{2} R
+      $$
+      (c)
+      $$
+      4 \pi^{2} R r
+      $$
+    Annotations: ''
+  tags: []
+- id: 1582137531971
+  fields:
+    Front: |
+      CET-08.02-33 Exercise:
+      (Exercise 34 included below.)
+      If the curve $y=f(x), a \leqslant x \leqslant b,$ is rotated about the horizontal line $y=c,$ where $f(x) \leqslant c,$ find a formula for the area of the resulting surface.
+
+      CET-08.02-34 Exercise:
+      Use the result of Exercise 33 to set up an integral to find the area of the surface generated by rotating the curve $y=\sqrt{x}$ $0 \leqslant x \leqslant 4,$ about the line $y=4 .$ Then use a CAS to evaluate the integral.
+    Back: |
+      $$
+      \int_{a}^{b} 2 \pi[c-f(x)] \sqrt{1+\left[f^{\prime}(x)\right]^{2}} d x
+      $$
+
+      $$
+      S=\int_{0}^{4} 2 \pi(4-\sqrt{x}) \sqrt{1+1 /(4 x)} d x
+      $$
+
+      $$
+      S=2 \pi \ln (\sqrt{17}+4)+\frac{\pi}{6}(31 \sqrt{17}+1) \approx 80.6095
+      $$
+    Annotations: ''
+  tags: []
+- id: 1582137954865
+  fields:
+    Front: |
+      CET-08.02-35 Exercise:
+      Find the area of the surface obtained by rotating the circle $x^{2}+y^{2}=r^{2}$ about the line $y=r$.
+    Back: |
+      $$
+      4 \pi^{2} r^{2}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1582138254074
+  media:
+  - path: ¢{file_dir}/images/CET-08.02-36.Xs.1.jpg
+  fields:
+    Front: |
+      CET-08.02-36 Exercise:
+      (a) Show that the surface area of a zone of a sphere that lies between two parallel planes is $S=2 \pi R h,$ where $R$ is the radius of the sphere and $h$ is the distance between the planes. (Notice that $S$ depends only on the distance between the planes and not on their location, provided that both planes intersect the sphere.
+      (b) Show that the surface area of a zone of a cylinder with radius $R$ and height $h$ is the same as the surface area of the zone of a sphere in part (a).
+    Back: |
+      (a) Rotate $y=\sqrt{R^{2}-x^{2}}$ with $a \leq x \leq a+h$ about the $x$ -axis to generate a zone of a sphere. $y=\sqrt{R^{2}-x^{2}} \Rightarrow$ $y^{\prime}=\frac{1}{2}\left(R^{2}-x^{2}\right)^{-1 / 2}(-2 x) \Rightarrow d s=\sqrt{1+\left(\frac{-x}{\sqrt{R^{2}-x^{2}}}\right)^{2}} d x .$ The surface area is
+      $$
+      \begin{aligned}
+      S
+      &=\int_{a}^{a+h} 2 \pi y d s \\
+      &=2 \pi \int_{a}^{a+h} \sqrt{R^{2}-x^{2}} \sqrt{1+\frac{x^{2}}{R^{2}-x^{2}}} d x \\
+      &=2 \pi \int_{a}^{a+h} \sqrt{R^{2}-x^{2}+x^{2}} d x \\
+      &=2 \pi R[x]_{a}^{a+h} \\
+      &=2 \pi R(a+h-a) \\
+      &=2 \pi R h
+      \end{aligned}
+      $$
+      <p align="center">
+      ![](CET-08.02-36.Xs.1.jpg)
+      </p>
+      (b) Rotate $y=R$ with $0 \leq x \leq h$ about the $x$ -axis to generate a zone of a cylinder. $y=R $ $\Rightarrow y^{\prime}=0 $ $\Rightarrow$ $d s=\sqrt{1+0^{2}} d x$ $=d x .$ The surface area is
+      $$
+      \begin{aligned}
+      S
+      &=\int_{0}^{h} 2 \pi y d s \\
+      &=2 \pi \int_{0}^{h} R d x \\
+      &=2 \pi R[x]_{0}^{h} \\
+      &=2 \pi R h
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1582138874000
+  fields:
+    Front: |
+      CET-08.02-37 Exercise:
+      Show that if we rotate the curve $y=e^{x / 2}+e^{-x / 2}$ about the $x$ -axis, the area of the resulting surface is the same value as the enclosed volume for any interval $a \leqslant x \leqslant b$
+    Back: |
+      $y=e^{x / 2}+e^{-x / 2} $ $\Rightarrow y^{\prime}=\frac{1}{2} e^{x / 2}-\frac{1}{2} e^{-x / 2} $ $\Rightarrow 1+\left(y^{\prime}\right)^{2}=1+\left(\frac{1}{2} e^{x / 2}-\frac{1}{2} e^{-x / 2}\right)^{2}$ $=1+\frac{1}{4} e^{x}-\frac{1}{2}+\frac{1}{4} e^{-x}$ $=\frac{1}{4} e^{x}+\frac{1}{2}+\frac{1}{4} e^{-x}$ $=\left(\frac{1}{2} e^{x / 2}+\frac{1}{2} e^{-x / 2}\right)^{2}.$ If we rotate the curve about the $x$ -axis on the interval $a \leq x \leq b,$ the resulting surface area is $S=\int_{a}^{b} 2 \pi y \sqrt{1+\left(y^{\prime}\right)^{2}} d x$ $=2 \pi \int_{a}^{b}\left(e^{x / 2}+e^{-x / 2}\right)\left(\frac{1}{2} e^{x / 2}+\frac{1}{2} e^{-x / 2}\right) d x$ $=\pi \int_{a}^{b}\left(e^{x / 2}+e^{-x / 2}\right)^{2} d x,$ which is the same as the volume obtained by rotating the curve $y$ about the $x$ -axis on the interval $a \leq x \leq b,$ namely, $V=\pi \int_{a}^{b} y^{2} d x$.
+    Annotations: ''
+  tags: []
+- id: 1582138874318
+  fields:
+    Front: |
+      CET-08.02-38 Exercise:
+      Let $L$ be the length of the curve $y=f(x), a \leqslant x \leqslant b$ where $f$ is positive and has a continuous derivative. Let $S_{f}$ be the surface area generated by rotating the curve about the $x$ -axis. If $c$ is a positive constant, define $g(x)=f(x)+c$ and let $S_{g}$ be the corresponding surface area generated by the curve $y=g(x), a \leqslant x \leqslant b .$ Express $S_{g}$ in terms of $S_{f}$ and $L$.
+    Back: |
+      Since $g(x)=f(x)+c,$ we have $g^{\prime}(x)=f^{\prime}(x) .$ Thus,
+      $$
+      \begin{aligned}
+      S_{g} &=\int_{a}^{b} 2 \pi g(x) \sqrt{1+\left[g^{\prime}(x)\right]^{2}} d x=\int_{a}^{b} 2 \pi[f(x)+c] \sqrt{1+\left[f^{\prime}(x)\right]^{2}} d x \\
+      &=\int_{a}^{b} 2 \pi f(x) \sqrt{1+\left[f^{\prime}(x)\right]^{2}} d x+2 \pi c \int_{a}^{b} \sqrt{1+\left[f^{\prime}(x)\right]^{2}} d x=S_{f}+2 \pi c L
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1582138874700
+  fields:
+    Front: |
+      CET-08.02-39 Exercise:
+      Formula 4 is valid only when $f(x) \geqslant 0 .$ Show that when $f(x)$ is not necessarily positive, the formula for surface area becomes
+      $$
+      S=\int_{a}^{b} 2 \pi|f(x)| \sqrt{1+\left[f^{\prime}(x)\right]^{2}} d x
+      $$
+    Back: |
+      In the derivation of $(4),$ we computed a typical contribution to the surface area to be $2 \pi \frac{y_{i-1}+y_{i}}{2}\left|P_{i-1} P_{i}\right|$, the area of a frustum of a cone. When $f(x)$ is not necessarily positive, the approximations $y_{i}=f\left(x_{i}\right) \approx f\left(x_{i}^{*}\right)$ and $y_{i-1}=f\left(x_{i-1}\right) $ $\approx f\left(x_{i}^{*}\right) $ $\approx f\left(x_{i}^{*}\right)$ must be replaced by $y_{i}=\left|f\left(x_{i}^{*}\right)\right|$ and $y_{i-1}=\left|f\left(x_{i-1}\right)\right| \approx\left|f\left(x_{i}^{*}\right)\right| .$ Thus, $2 \pi \frac{y_{i-1}+y_{i}}{2}\left|P_{i-1} P_{i}\right| \approx 2 \pi\left|f\left(x_{i}^{*}\right)\right| \sqrt{1+\left[f^{\prime}\left(x_{i}^{*}\right)\right]^{2}} \Delta x .$ Continuing with the rest of the derivation as before, we obtain $S=\int_{a}^{b} 2 \pi|f(x)| \sqrt{1+\left[f^{\prime}(x)\right]^{2}} d x$.
     Annotations: ''
   tags: []
