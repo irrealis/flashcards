@@ -1,0 +1,113 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1360
+  - APPM-1360-WA27
+  - SingleVariableEssentialCalculus
+  - SVEC-08-Series
+  - SVEC-08.05-PowerSeries
+  - WebAssign
+  - ToDo
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1586546694100
+  fields:
+    Front: |
+      APPM 1360 WA27-01:
+      #### c8: Series
+      ##### s8.5: Power Series, day 2
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586546694295
+  fields:
+    Front: |
+      APPM 1360 WA27-02:
+      #### c8: Series
+      ##### s8.5: Power Series, day 2
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586546694451
+  fields:
+    Front: |
+      APPM 1360 WA27-03:
+      #### c8: Series
+      ##### s8.5: Power Series, day 2
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586546694631
+  fields:
+    Front: |
+      APPM 1360 WA27-04:
+      #### c8: Series
+      ##### s8.5: Power Series, day 2
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586546694862
+  fields:
+    Front: |
+      APPM 1360 WA27-05:
+      #### c8: Series
+      ##### s8.5: Power Series, day 2
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586546695047
+  fields:
+    Front: |
+      APPM 1360 WA27-06:
+      #### c8: Series
+      ##### s8.5: Power Series, day 2
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586546695245
+  fields:
+    Front: |
+      APPM 1360 WA27-07:
+      #### c8: Series
+      ##### s8.5: Power Series, day 2
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586546695429
+  fields:
+    Front: |
+      APPM 1360 WA27-08:
+      #### c8: Series
+      ##### s8.5: Power Series, day 2
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing

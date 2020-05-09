@@ -7,7 +7,10 @@
 - id: 0
   fields:
     Front: |
-      APPM-1360-RW-XX-XX:
+      APPM-1360-RW12-XX:
+      #### c8: Series
+      ##### s8.7: Taylor and Maclaurin Series
+      Temporary: work and check against recitation solutions sheet.
     Back: |
     Annotations: ''
   tags:

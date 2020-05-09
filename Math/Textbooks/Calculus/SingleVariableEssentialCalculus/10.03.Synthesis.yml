@@ -1,0 +1,226 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Synthesis
+  - SingleVariableEssentialCalculus
+  - SVEC-10-VectorsAndTheGeometryOfSpace
+  - SVEC-10.03-TheDotProduct
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 0
+  skip: true
+  fields:
+    Front: |
+      SVEC-10.03-00 Synthesis Notes:
+      Def: **dot product**
+      Thm: **Properties of the Dot Product**
+      Thm: _unnamed_ **expression of dot product in terms of cosine**
+      Thm: _unnamed_ **expression of cosine in terms of dot product**
+      Thm: _unnamed_ **relationship between orthogonality and dot product**
+      Def: **vector projection of $\mathbf{b}$ onto $\mathbf{a}$**
+      Def: **scalar projection of $\mathbf{b}$ onto $\mathbf{a}$**
+      Thm: _unnamed_ formula for **scalar projection of $\mathbf{b}$ onto $\mathbf{a}$**
+      Thm: _unnamed_ formula for **vector projection of $\mathbf{b}$ onto $\mathbf{a}$**
+      Explore: relationships between the expression of dot product in terms of cosine, the scalar project, and the vector projection. Which can be derived from which?
+      ###### Projections
+    Back: |
+    Annotations: ''
+  tags: []
+- id: 1588968474660
+  fields:
+    Front: |
+      SVEC-10.03-01 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      List the dot-product definitions and theorems.
+    Back: |
+      Def: **dot product**
+      Thm: **Properties of the Dot Product**
+      Thm: **expression of dot product in terms of cosine**
+      Thm: **expression of cosine in terms of dot product**
+      Thm: _unnamed_ **relationship between orthogonality and dot product**
+      Def: **vector projection of $\mathbf{b}$ onto $\mathbf{a}$**
+      Def: **scalar projection of $\mathbf{b}$ onto $\mathbf{a}$**
+      Thm: formula for **scalar projection of $\mathbf{b}$ onto $\mathbf{a}$**
+      Thm: formula for **vector projection of $\mathbf{b}$ onto $\mathbf{a}$**
+    Annotations: ''
+  tags:
+  - Definitions
+  - Theorems
+- id: 1588880857585
+  fields:
+    Front: |
+      SVEC-10.03-02 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Define **dot product**. What are two of its other common names?
+    Back: |
+      If $\mathbf{a}=\left\langle a_{1}, a_{2}, a_{3}\right\rangle$ and $\mathbf{b}=\left\langle b_{1}, b_{2}, b_{3}\right\rangle,$ then the **dot product** of $\mathbf{a}$ and $\mathbf{b}$ is the number $\mathbf{a} \cdot \mathbf{b}$ given by
+      $$
+      \mathbf{a} \cdot \mathbf{b}=a_{1} b_{1}+a_{2} b_{2}+a_{3} b_{3}
+      $$
+      Thus to find the dot product of a and $\mathbf{b}$ we multiply corresponding components and add. The result is not a vector. It is a real number, that is, a scalar. For this reason, the dot product is sometimes called the **scalar product** (or **inner product**).
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1588880971034
+  fields:
+    Front: |
+      SVEC-10.03-03 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      State the **Properties of the Dot Product**.
+    Back: |
+      If $\mathbf{a}, \mathbf{b},$ and $\mathbf{c}$ are vectors in $V_{3}$ and $c$ is a scalar, then
+      1. $\mathbf{a} \cdot \mathbf{a}=|\mathbf{a}|^{2}$
+      2. $\mathbf{a} \cdot \mathbf{b}=\mathbf{b} \cdot \mathbf{a}$
+      3. $\mathbf{a} \cdot(\mathbf{b}+\mathbf{c})=\mathbf{a} \cdot \mathbf{b}+\mathbf{a} \cdot \mathbf{c}$
+      4. $(c \mathbf{a}) \cdot \mathbf{b}=c(\mathbf{a} \cdot \mathbf{b})=\mathbf{a} \cdot(c \mathbf{b})$
+      5. $\boldsymbol{0} \cdot \mathbf{a}=0$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1588881060935
+  fields:
+    Front: |
+      SVEC-10.03-04 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Give the _unnamed_ **expression of dot product in terms of cosine**. What are its hypotheses?
+    Back: |
+      If $\theta$ is the angle between the vectors $\mathbf{a}$ and $\mathbf{b}$, then
+      $$
+      \mathbf{a} \cdot \mathbf{b}=|\mathbf{a}||\mathbf{b}| \cos \theta
+      $$
+
+      Hypotheses:
+
+      - $\theta$ is the angle between the vectors $\mathbf{a}$ and $\mathbf{b}.$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1588881121110
+  fields:
+    Front: |
+      SVEC-10.03-05 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Give the _unnamed_ **expression of cosine in terms of dot product**. What are its hyptotheses?
+    Back: |
+      If $\theta$ is the angle between the nonzero vectors $\mathbf{a}$ and $\mathbf{b}$, then
+      $$
+      \cos \theta=\frac{\mathbf{a} \cdot \mathbf{b}}{|\mathbf{a}||\mathbf{b}|}
+      $$
+
+      Hypotheses:
+
+      - $\theta$ is the angle between the vectors $\mathbf{a}$ and $\mathbf{b}.$
+      - $\mathbf{a}$ and $\mathbf{b}$ are nonzero.
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1588881374284
+  fields:
+    Front: |
+      SVEC-10.03-06 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      State the _unnamed_ **relationship between orthogonality and dot product**.
+    Back: |
+      Two vectors $\mathbf{a}$ and $\mathbf{b}$ are orthogonal if and only if $\mathbf{a} \cdot \mathbf{b}=0.$
+
+      Observations:
+
+      - $\mathbf{0}$ is orthogonal to every vector, including itself. This idea is excluded from the text's definition, which requires that orthogonal vectors be nonzero. _**Does this exclusion serve any purpose than to discard the degenerate case?**_
+        - I shouldn't be surprised if I encounter theorems that fail in this degenerate case.
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1588881857234
+  media:
+  - path: ¢{file_dir}/images/SVEC-10.03-06.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-10.03-07 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      ###### Projections
+      Define **vector projection of $\mathbf{b}$ onto $\mathbf{a}$**.
+    Back: |
+      The figure below shows representations $\overrightarrow{P Q}$ and $\overrightarrow{P R}$ of two vectors $\mathbf{a}$ and $\mathbf{b}$ with the same initial point $P .$ If $S$ is the foot of the perpendicular from $R$ to the line containing $\overrightarrow{P Q}$, then the vector with representation $\overrightarrow{P S}$ is called the **vector projection** of $\mathbf{b}$ onto $\mathbf{a}$ and is denoted by $\operatorname{proj}_{\mathbf{a}} \mathbf{b}.$ (You can think of it as a shadow of $\mathbf{b}$).
+      <p align="center">
+      ![](SVEC-10.03-06.Sy.1.jpg)
+      _Vector projections_
+      </p>
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1588882217234
+  media:
+  - path: ¢{file_dir}/images/SVEC-10.03-07.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-10.03-08 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      ###### Projections
+      Define **scalar projection of $\mathbf{b}$ onto $\mathbf{a}$**.
+    Back: |
+      The scalar projection of $\mathbf{b}$ onto $\mathbf{a}$ (also called the component of $\mathbf{b}$ along $\mathbf{a}$) is defined to be the signed magnitude of the vector projection, which is the number $|\mathbf{b}| \cos \theta,$ where $\theta$ is the angle between $\mathbf{a}$ and $\mathbf{b} .$ (See figure below.)
+      <p align="center">
+      ![](SVEC-10.03-07.Sy.1.jpg)
+      _Scalar projection_
+      </p>
+      This is denoted by $\operatorname{comp}_{\mathbf{a}} \mathbf{b} .$ Observe that it is negative if $\pi / 2<\theta \leqslant \pi.$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1588882454384
+  fields:
+    Front: |
+      SVEC-10.03-09 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      ###### Projections
+      State the _unnamed_ formula for **scalar projection of $\mathbf{b}$ onto $\mathbf{a}$**.
+    Back: |
+      $$
+      \operatorname{comp}_{\mathbf{a}} \mathbf{b}=\frac{\mathbf{a} \cdot \mathbf{b}}{|\mathbf{a}|}
+      $$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1588882519234
+  fields:
+    Front: |
+      SVEC-10.03-10 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      ###### Projections
+      State the _unnamed_ formula for **vector projection of $\mathbf{b}$ onto $\mathbf{a}$**.
+    Back: |
+      $$
+      \operatorname{proj}_{\mathbf{a}} \mathbf{b}=\left(\frac{\mathbf{a} \cdot \mathbf{b}}{|\mathbf{a}|}\right) \frac{\mathbf{a}}{|\mathbf{a}|}=\frac{\mathbf{a} \cdot \mathbf{b}}{|\mathbf{a}|^{2}} \mathbf{a}
+      $$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1588882692609
+  fields:
+    Front: |
+      SVEC-10.03-11 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      ###### Projections
+      Explore the relationships between the expression of dot product in terms of cosine, the scalar project, and the vector projection. Which can be derived from which?
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - Theorem
+  - Editing

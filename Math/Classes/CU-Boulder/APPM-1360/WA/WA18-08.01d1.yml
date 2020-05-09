@@ -1,0 +1,172 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1360
+  - APPM-1360-WA18
+  - SingleVariableEssentialCalculus
+  - SVEC-08-Series
+  - SVEC-08.01-Sequences
+  - WebAssign
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1586548146475
+  fields:
+    Front: |
+      APPM 1360 WA18-01:
+      #### c8: Series
+      ##### s8.1: Sequences, day 1
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586548146665
+  fields:
+    Front: |
+      APPM 1360 WA18-02:
+      #### c8: Series
+      ##### s8.1: Sequences, day 1
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586548146831
+  fields:
+    Front: |
+      APPM 1360 WA18-03:
+      #### c8: Series
+      ##### s8.1: Sequences, day 1
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586548147000
+  fields:
+    Front: |
+      APPM 1360 WA18-04:
+      #### c8: Series
+      ##### s8.1: Sequences, day 1
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586548147175
+  fields:
+    Front: |
+      APPM 1360 WA18-05:
+      #### c8: Series
+      ##### s8.1: Sequences, day 1
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586548147348
+  fields:
+    Front: |
+      APPM 1360 WA18-06:
+      #### c8: Series
+      ##### s8.1: Sequences, day 1
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586548147536
+  fields:
+    Front: |
+      APPM 1360 WA18-07:
+      #### c8: Series
+      ##### s8.1: Sequences, day 1
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586548147715
+  fields:
+    Front: |
+      APPM 1360 WA18-08:
+      #### c8: Series
+      ##### s8.1: Sequences, day 1
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586548147898
+  fields:
+    Front: |
+      APPM 1360 WA18-09:
+      #### c8: Series
+      ##### s8.1: Sequences, day 1
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586548148070
+  fields:
+    Front: |
+      APPM 1360 WA18-10:
+      #### c8: Series
+      ##### s8.1: Sequences, day 1
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586548148248
+  fields:
+    Front: |
+      APPM 1360 WA18-11:
+      #### c8: Series
+      ##### s8.1: Sequences, day 1
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586548148417
+  fields:
+    Front: |
+      APPM 1360 WA18-12:
+      #### c8: Series
+      ##### s8.1: Sequences, day 1
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586548148617
+  fields:
+    Front: |
+      APPM 1360 WA18-13:
+      #### c8: Series
+      ##### s8.1: Sequences, day 1
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing

@@ -1,0 +1,225 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Synthesis
+  - SingleVariableEssentialCalculus
+  - SVEC-10-VectorsAndTheGeometryOfSpace
+  - SVEC-10.06-CylindersAndQuadricSurfaces
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1588979834185
+  fields:
+    Front: |
+      SVEC-10.06-01 Synthesis:
+      List the cylinders-and-quadrics definitions and theorems.
+    Back: |
+      Def: **traces**
+      ###### Cylinders
+      Def: **cylinder** and **rulings**
+      Def: **parabolic cylinder**
+      ###### Quadric Surfaces
+      Def: **quadric surface**
+      Def: **ellipsoid**
+      Def: **elliptic paraboloid**
+      Def: **hyperbolic paraboloid**
+      Def: **cone**
+      Def: **hyperboloid of one sheet**
+      Def: **hyperboloid of two sheet**
+    Annotations: ''
+  tags:
+  - Definitions
+  - Theorems
+- id: 1588979952059
+  fields:
+    Front: |
+      SVEC-10.06-02 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Define **traces**, and give a common alternate name.
+    Back: |
+      In order to sketch the graph of a surface, it is useful to determine the curves of intersection of the surface with planes parallel to the coordinate planes. These curves are called **traces** (or **cross-sections**) of the surface.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1588980108234
+  fields:
+    Front: |
+      SVEC-10.06-03 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      ###### Cylinders
+      Define **cylinder** and **rulings**.
+    Back: |
+      A **cylinder** is a surface that consists of all lines (called **rulings**) that are parallel to a given line and pass through a given plane curve.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1588980310739
+  media:
+  - path: ¢{file_dir}/images/SVEC-10.06-04.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-10.06-04 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      ###### Cylinders
+      Define **parabolic cylinder**.
+    Back: |
+      The graph of a surface made up of infinitely many shifted copies of the same parabola is called a **paraboloid cylinder**.
+      <p align="center">
+      ![](SVEC-10.06-04.Sy.1.jpg)
+      _The surface $z = x^{2}$ is a parabolic cylinder._
+      </p>
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1588980481810
+  fields:
+    Front: |
+      SVEC-10.06-05 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      ###### Quadric Surfaces
+      Define **quadric surface**.
+    Back: |
+      A **quadric surface** is the graph of a second-degree equation in three variables $x, y$ and $z .$ The most general such equation is
+      $$
+      A x^{2}+B y^{2}+C z^{2}+D x y+E y z+F x z+G x+H y+I z+J=0
+      $$ where $A, B, C, \ldots, J$ are constants, but by translation and rotation it can be brought into one of the two standard forms
+      $$
+      A x^{2}+B y^{2}+C z^{2}+J=0 \quad \text { or } \quad A x^{2}+B y^{2}+I z=0
+      $$ Quadric surfaces are the counterparts in three dimensions of the conic sections in the plane. (See SVEC-9.5 for a review of conic sections.)
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1588980783310
+  media:
+  - path: ¢{file_dir}/images/SVEC-10.06-06.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-10.06-06 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      ###### Quadric Surfaces
+      Define **ellipsoid**.
+    Back: |
+      An **ellipsoid** is a quadric surface all of whose traces are ellipses and whose quadric is of the form
+      $$
+      \frac{x^{2}}{a^{2}}+\frac{y^{2}}{b^{2}}+\frac{z^{2}}{c^{2}}=1.
+      $$ If $a=b=c,$ the ellipsoid is a sphere.
+      <p align="center">
+      ![](SVEC-10.06-06.Sy.1.jpg)
+      </p>
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1588980983859
+  media:
+  - path: ¢{file_dir}/images/SVEC-10.06-07.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-10.06-07 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      ###### Quadric Surfaces
+      Define **elliptic paraboloid**.
+    Back: |
+      An **elliptic paraboloid** is a quadric surface whose horizontal traces are ellipses, whose vertical traces are parabolas, and whose quadric is of the form
+      $$
+      \frac{z}{c}=\frac{x^{2}}{a^{2}}+\frac{y^{2}}{b^{2}}.
+      $$ The variable raised to the first power indicates the axis of the paraboloid.
+      <p align="center">
+      ![](SVEC-10.06-07.Sy.1.jpg)
+      </p>
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1588981128360
+  media:
+  - path: ¢{file_dir}/images/SVEC-10.06-08.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-10.06-08 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      ###### Quadric Surfaces
+      Define **hyperbolic paraboloid**.
+    Back: |
+      A **hyperbolic paraboloid** is a quadric surface whose horizontal traces are hyperbolas, whose vertical traces are parabolas, and whose quadric is of the form
+      $$
+      \frac{z}{c}=\frac{x^{2}}{a^{2}}-\frac{y^{2}}{b^{2}}.
+      $$ The case where $c<0$ is illustrated.
+      <p align="center">
+      ![](SVEC-10.06-08.Sy.1.jpg)
+      </p>
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1588981361135
+  media:
+  - path: ¢{file_dir}/images/SVEC-10.06-09.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-10.06-09 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      ###### Quadric Surfaces
+      Define **cone**.
+    Back: |
+      A **cone** is a quadric surface whose horizontal traces are hyperbolas and whose vertical traces in the planes $x=k$ and $y=k$ are hyperbolas if $k \neq 0$ but are pairs of lines if $k=0.$ Its quadric is of the form
+      $$
+      \frac{z^{2}}{c^{2}}=\frac{x^{2}}{a^{2}}+\frac{y^{2}}{b^{2}}.
+      $$
+      <p align="center">
+      ![](SVEC-10.06-09.Sy.1.jpg)
+      </p>
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1588981515510
+  media:
+  - path: ¢{file_dir}/images/SVEC-10.06-10.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-10.06-10 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      ###### Quadric Surfaces
+      Define **hyperboloid of one sheet**.
+    Back: |
+      A **hyperboloid of one sheet** is a quadric surface whose horizontal traces are ellipses, whose vertical traces are hyperbolas, and whose quadric is of the form
+      $$
+      \frac{x^{2}}{a^{2}}+\frac{y^{2}}{b^{2}}-\frac{z^{2}}{c^{2}}=1/
+      $$ The axis of symmetry corresponds to the variable whose coefficient is negative.
+      <p align="center">
+      ![](SVEC-10.06-10.Sy.1.jpg)
+      </p>
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1588981673885
+  media:
+  - path: ¢{file_dir}/images/SVEC-10.06-11.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-10.06-11 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      ###### Quadric Surfaces
+      Define **hyperboloid of two sheets**.
+    Back: |
+      A **hyperboloid of two sheets** is a quadric surface whose horizontal traces in $z=k$ are ellipses if $k>c$ or $k<-c$, whose vertical traces are hyperbolas, and whose quadric is of the form
+      $$
+      -\frac{x^{2}}{a^{2}}-\frac{y^{2}}{b^{2}}+\frac{z^{2}}{c^{2}}=1
+      $$ The two minus signs indicate two sheets.
+      <p align="center">
+      ![](SVEC-10.06-11.Sy.1.jpg)
+      </p>
+    Annotations: ''
+  tags:
+  - Definition

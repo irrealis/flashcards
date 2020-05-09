@@ -1,0 +1,386 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Synthesis
+  - SingleVariableEssentialCalculus
+  - SVEC-08-Series
+  - SVEC-08.02-Series
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 0
+  skip: true
+  fields:
+    Front: |
+      SVEC-08.02-00 Synthesis Notes:
+
+      Summary of definitions:
+
+      1. **Infinite Series (or just Series)**
+      2. **Partial Sum**
+      3. **Convergent/Divergent/Sum**
+      4. **Associated Sequences:**
+        - **Partial-Sum Sequence**
+        - **Term Sequence**
+      5. **Namned series:**
+        - **Geometric Series**
+        - **Harmonic Series**
+        - **Telescoping Series**
+
+      Summary of theorems:
+
+      1. **Geometric Series Test**
+      2. **Telescoping Series Test**
+      3. **Divergence Test**
+      4. **Limit Laws for Series:**
+        - Constant Multiple
+        - Sum
+        - Difference
+    Back: |
+    Annotations: ''
+  tags: []
+- id: 1584573283091
+  fields:
+    Front: |
+      SVEC-08.02-01 Synthesis:
+      ##### Basic Series Theory:
+      List the basic series definitions.
+    Back: |
+      1. **Infinite series (or just series)**
+      2. **Partial sum**
+      3. **Convergent/divergent/sum**
+      4. **Associated sequences:**
+        - **Partial-sum sequence**
+        - **Term sequence**
+      5. **Namned series:**
+        - **Geometric Series**
+        - **Harmonic Series**
+        - **Telescoping Series**
+    Annotations: "Fix me:<div>- 200328-2044: Remove #2, it's covered in #4.</div>"
+  tags:
+  - Definitions
+  - ann:fix-me
+- id: 1584573469191
+  fields:
+    Front: |
+      SVEC-08.02-02 Synthesis:
+      ##### Basic Series Theory:
+      List the basic series theorems.
+    Back: |
+      1. **Geometric Series Test**
+      2. **Harmonic Series Divergence**
+      3. **Telescoping Series Test**
+      4. **Test for Divergence**
+      5. **Limit Laws for Series:**
+        - Constant Multiple
+        - Sum
+        - Difference
+    Annotations: ''
+  tags:
+  - Theorems
+---
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Synthesis
+  - Definition
+  - SingleVariableEssentialCalculus
+  - SVEC-08-Series
+  - SVEC-08.02-Series
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1584573554315
+  fields:
+    Front: |
+      SVEC-08.02-03 Synthesis:
+      ##### Basic Series Theory:
+      Define **series.** How is it denoted?
+    Back: |
+      In general, if we try to add the terms of an infinite sequence $\left\{a_{n}\right\}_{n=1}^{\infty}$ we get an expression of the form
+      $$
+      a_{1}+a_{2}+a_{3}+\dots+a_{n}+\cdots
+      $$ which is called an **infinite series** (or just a **series**) and is denoted, for short, by the symbol
+      $$
+      \sum_{n=1}^{\infty} a_{n} \quad \text { or } \quad \sum a_{n}
+      $$
+    Annotations: 'Thoughts:<div>- 200326-1328: this represents an operation (that
+      is, trying to add the terms) rather than a number, because the sum may not exist
+      as a finite number. See <i>sum of a series</i>&nbsp;for details.</div>'
+  tags:
+  - ann:thoughts
+- id: 1584573644466
+  fields:
+    Front: |
+      SVEC-08.02-04 Synthesis:
+      ##### Basic Series Theory:
+      Define **partial sum.**
+    Back: |
+      Given a series $\sum_{n=1}^{\infty} a_{n}=a_{1}+a_{2}+a_{3}+\cdots,$ let $s_{n}$ denote its **$n\text{th}$ partial sum:**
+      $$
+      s_{n}=\sum_{i=1}^{n} a_{i}=a_{1}+a_{2}+\cdots+a_{n}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1584574083915
+  fields:
+    Front: |
+      SVEC-08.02-05 Synthesis:
+      ##### Basic Series Theory:
+      Define **convergent,** **divergent,** and **sum.**
+    Back: |
+      Given a series $\sum_{n=1}^{\infty} a_{n}=a_{1}+a_{2}+a_{3}+\cdots,$ let $s_{n}$ denote its $n$th partial sum:
+      $$
+      s_{n}=\sum_{i=1}^{n} a_{i}=a_{1}+a_{2}+\cdots+a_{n}
+      $$ If the sequence $\left\{s_{n}\right\}$ is convergent and $\lim _{n \rightarrow \infty} s_{n}=s$ exists as a real number, then the series $\sum a_{n}$ is called **convergent** and we write
+      $$
+      a_{1}+a_{2}+\cdots+a_{n}+\cdots=s \quad \text{or} \quad \sum_{n=1}^{\infty} a_{n}=s
+      $$ The number $s$ is called the **sum** of the series. If the sequence $\left\{s_{n}\right\}$ is divergent, then the series is called **divergent.**
+    Annotations: ''
+  tags: []
+---
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Synthesis
+  - Theorem
+  - SingleVariableEssentialCalculus
+  - SVEC-08-Series
+  - SVEC-08.02-Series
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1585245407292
+  fields:
+    Front: |
+      SVEC-08.02-06 Synthesis:
+      ##### Basic Series Theory:
+      What are the **associated sequences** of any given series $\sum a_{n}$?
+    Back: |
+      The **term sequence** $\{a_{n}\}$ and the **partial-sum sequence** $\{s_{n}\}$ where $s_{n} = \sum_{i=1}^{n} a_{i}$ (or $i=0$ if indexing from zero instead of one).
+    Annotations: ''
+  tags: []
+- id: 1584574345616
+  fields:
+    Front: |
+      SVEC-08.02-07 Synthesis:
+      ##### Basic Series Theory:
+      What is a **geometric series? common ratio?**
+    Back: |
+      Given numbers $a \ne 0$ and $r$, the infinite series
+      $$
+      a+a r+a r^{2}+a r^{3}+\cdots+a r^{n-1}+\cdots=\sum_{n=1}^{\infty} a r^{n-1}
+      $$ is called a **geometric series.** Each term is obtained from the preceding one by multiplying it by the **common ratio $r.$**
+    Annotations: 'Fix me:<div>- 200326-1336: add <b>scaling factor</b>&nbsp;definition
+      and question.</div><div><br></div><div>Thoughts:</div><div>- 200326-1402: when
+      \(a=0\) the series is still a valid geometric series, but this case is degenerate
+      in that the series converges to zero for all common ratios \(r\).</div>'
+  tags:
+  - ann:fix-me
+  - ann:thoughts
+- id: 1584574581365
+  fields:
+    Front: |
+      SVEC-08.02-08 Synthesis:
+      ##### Basic Series Theory:
+      What is an **harmonic series?**
+    Back: |
+      **The Harmonic Series** is
+      $$
+      \sum_{n=1}^{\infty} \frac{1}{n}=1+\frac{1}{2}+\frac{1}{3}+\frac{1}{4}+\cdots
+      $$ More generally, an **harmonic series** is the sum of an harmonic sequence. It takes the form
+      $$
+      \sum \frac{1}{a + nd} = \frac{1}{a} + \frac{1}{a+d} + \frac{1}{a+2 d} + \frac{1}{a+3 d} + \cdots
+      $$ 
+    Annotations: ''
+  tags: []
+- id: 1584651775340
+  fields:
+    Front: |
+      SVEC-08.02-09 Synthesis:
+      ##### Basic Series Theory:
+      What is a **telescoping sum? series?**
+    Back: |
+      **Telescoping sums** are finite sums in which pairs of consecutive terms cancel each other, leaving only the initial and final terms. Let $a_{n}$ be a sequence of numbers. Then,
+      $$
+      \sum_{i=1}^{n}\left(a_{i}-a_{i+1}\right)=a_{1}-a_{n+1}
+      $$ and, if $a_{n} \rightarrow 0$ then
+      $$
+      \sum_{n=1}^{\infty}\left(a_{n}-a_{n+1}\right)=a_{1}.
+      $$ A **telescoping series** is a series whose partial sums eventually only have a fixed number of terms after cancellation. The cancellation technique, with part of each term cancelling with part of the next term, is known as the **method of differences**.
+
+      For example, the partial sum
+      $$
+      s_{n}=\sum_{i=1}^{n} \frac{1}{i(i+1)}=\frac{1}{1 \cdot 2}+\frac{1}{2 \cdot 3}+\frac{1}{3 \cdot 4}+\cdots+\frac{1}{n(n+1)}
+      $$ can be simplified using the partial fraction decomposition
+      $$
+      \frac{1}{i(i+1)}=\frac{1}{i}-\frac{1}{i+1}.
+      $$ Thus we have $$
+      \begin{aligned}
+      s_{n}
+      &=\sum_{i=1}^{n} \frac{1}{i(i+1)}=\sum_{i=1}^{n}\left(\frac{1}{i}-\frac{1}{i+1}\right) \\
+      &=\left(1-\frac{1}{2}\right)+\left(\frac{1}{2}-\frac{1}{3}\right)+\left(\frac{1}{3}-\frac{1}{4}\right)+\cdots+\left(\frac{1}{n}-\frac{1}{n+1}\right) \\
+      &=1-\frac{1}{n+1} \end{aligned}
+      $$ and so the partial sum is **telescoping** and
+      $$
+      \lim _{n \rightarrow \infty} s_{n}=\lim _{n \rightarrow \infty}\left(1-\frac{1}{n+1}\right)=1-0=1.
+      $$ Therefore the given series is telescoping and convergent, and
+      $$
+      \sum_{n=1}^{\infty} \frac{1}{n(n+1)}=1.
+      $$
+    Annotations: "Fix me:<div>- 200326-1512: <b>Wrong:&nbsp;</b>change to match instructor's\
+      \ definition.</div><div>- 200328-2033: need to redo this card per SVEC-08.02-12\
+      \ Synthesis.</div><div><br></div><div>Questions:</div><div>- 200326-1520: would\
+      \ the instructor consider \\(\\sum a_n = \\sum \\left(\\frac{1}{n} - \\frac{1}{n\
+      \ + 3/2}\\right) = \\sum \\frac{3}{2n^2 + 3n}\\) to be telescoping? The terms\
+      \ don't cancel, but the summand is written as a difference, and the series converges\
+      \ by the Limit Comparison Test against the convergent p-series \\(\\frac{1}{n^2}\\\
+      ).</div>"
+  tags:
+  - ann:fix-me
+  - ann:questions
+- id: 1584575031215
+  fields:
+    Front: |
+      SVEC-08.02-10 Synthesis:
+      ##### Basic Series Theory:
+      State the **Geometric Series Test.** List its hypotheses and conclusions.
+    Back: |
+      The geometric series
+      $$
+      \sum_{n=1}^{\infty} a r^{n-1}=a+a r+a r^{2}+\cdots
+      $$ is convergent if $|r|<1$ and its sum is
+      $$
+      \sum_{n=1}^{\infty} a r^{n-1}=\frac{a}{1-r} \quad|r|<1
+      $$ If $|r| \geqslant 1,$ the geometric series is divergent.
+
+      Hypotheses and conclusions:
+
+      - Series terms take the form $ar^{n}$ for constant $r$
+      - $$
+        \sum_{n=1}^{\infty} ar^{n} \left\{ \begin{aligned}
+        \text{converges if}\quad &|r| < 1 \\
+        \text{diverges if}\quad &|r| \geqslant 1 \\
+        \end{aligned}
+        \right.
+        $$
+    Annotations: '<div>Trouble:</div><div>- 200328-2054: focus/memory <b>GOTCHA:</b>&nbsp;conflated
+      Geometric Series Test with Geometric Sequence Convergence Theorem.</div><div><br></div>Thoughts:<div>-
+      200326-1346: The textbook definition is a little bit fuzzy: the series always
+      converges when \(a = 0\); otherwise the sum is \(\infty\) if \(r \geqslant 1\)
+      and DNE if \(r \leqslant -1\); and if \(r = 0\) then the sum depends on convention
+      used to define \(0^0\) (in some techniques this number is treated as \(1\) in
+      which case the sum is \(a\), and in others as \(0\) in which case the sum is
+      \(0\)).</div><div>- 200328-2051: Could state without scaling factor, which clears
+      up these issues.</div>'
+  tags:
+  - ann:thoughts
+  - ann:trouble
+- id: 1584575200491
+  fields:
+    Front: |
+      SVEC-08.02-11 Synthesis:
+      ##### Basic Series Theory:
+      State the **Harmonic Series Divergence Theorem.**
+    Back: |
+      The harmonic series
+      $$
+      \sum_{n=1}^{\infty} \frac{1}{n}=1+\frac{1}{2}+\frac{1}{3}+\frac{1}{4}+\cdots
+      $$ is divergent.
+    Annotations: 'Thoughts:<div>- 200326-1408: It can also be shown that any harmonic
+      series \(\sum \frac{1}{a+nd}\) diverges (\(a,d\) constant with \(d \ne 0\)).
+      (The Limit Comparison Test would work for this.)</div>'
+  tags:
+  - ann:thoughts
+- id: 1584652990541
+  fields:
+    Front: |
+      SVEC-08.02-12 Synthesis:
+      ##### Basic Series Theory:
+      State the **Telescoping Series Test.** List its hypotheses and conclusions.
+    Back: |
+      If the partial sums
+      $$
+      s_{n} = \sum_{i=1}^{n} a_{i}
+      $$ telescope ($s_{n}=\sum_{i=1}^{n}b_{i} - b_{i+1}$ $=b_{1} - b_{n+1}$) then $\sum a_{n}$ converges iff $\left\{ b_{n} \right\}$ converges.
+
+      Hypotheses:
+
+      - The partials sums telescope: $s_{n}$ $=\sum_{i=1}^{n} a_{i}$ $=\sum_{i=1}^{n}b_{i} - b_{i+1}$ $=b_{1} - b_{n+1}$.
+
+      Conclusions:
+
+      - $\sum a_{n}$ converges iff $\left\{ b_{n} \right\}$ converges.
+
+      Riffs:
+
+      - Every series is telescoping: let $s_n = \sum_{i=1}^n a_n$, let $b_1$ be any number, and define $b_{n+1} = b_1 - s_n$. Then $s_n = b_1 - b_{n+1}$.
+    Annotations: "Fix me:<div>- 200326-1446: <b>Wrong:&nbsp;</b>this should be rewritten\
+      \ to match the instructor's definition: \\(a_n = b_n - c_n\\).</div><div>- 200328-1940:\
+      \ change the convergence/divergence criteria to \\(\\lim_{n \\to \\infty}a_n\\\
+      ).</div><div><br></div><div>Thoughts:</div><div>- 200326-1446: the instructor's\
+      \ definition allows for such cases as \\(\\sum \\frac{2}{n(n+2)} = \\sum \\\
+      left(\\frac{1}{n} - \\frac{1}{n+2}\\right)\\), which converges to \\(\\frac{3}{2}\\\
+      ).</div><div><br></div><div>Questions:</div><div>- 200326-1446: verify: does\
+      \ the instructor consider \\(\\sum \\frac{2}{n(n+2)} = \\sum \\left(\\frac{1}{n}\
+      \ - \\frac{1}{n+2}\\right)\\) to be telescoping?</div><div>&nbsp; - 200328-1939:\
+      \ <b>Answer:</b>&nbsp;from instructor: it is not telescoping (not in this form,\
+      \ anyway) because the terms don't cancel.</div><div><br></div><div><br></div>"
+  tags:
+  - ann:answers
+  - ann:fix-me
+  - ann:questions
+  - ann:thoughts
+- id: 1584575457215
+  fields:
+    Front: |
+      SVEC-08.02-13 Synthesis:
+      ##### Basic Series Theory:
+      State the **Divergence Test.** List its hypotheses and conclusions.
+    Back: |
+      If $\lim a_{n}$ does not exist or if $\lim a_{n} \neq 0$, then the series $\sum_{n=1}^{\infty} a_{n}$ is divergent.
+
+      Hypotheses:
+
+      - $\lim a_{n}$ does not exist or $\lim a_{n} \neq 0$
+
+      Conclusions:
+
+      - $\sum a_{n} $ diverges
+    Annotations: 'Questions:<div>- 200326-1416: if \(\lim_{n \to \infty} a_{n}\) DNE,
+      is it true that \(\lim_{n \to \infty} a_{n} \ne 0\)? It seems like this is just
+      a matter of definition, but that the textbook distinguishes between the two
+      cases suggests the difference is or will be important. Is this just because
+      we want to distinguish DNE from \(\lim_{n \to \infty} a_{n} = \infty\)?</div>'
+  tags:
+  - ann:questions
+  - ann:thoughts
+- id: 1584575750091
+  fields:
+    Front: |
+      SVEC-08.02-14 Synthesis:
+      ##### Series Theory:
+      State the **Limit Laws for Series.** List their hypotheses.
+    Back: |
+      If $\sum a_{n}$ and $\sum b_{n}$ are convergent series, then so are the series $\sum c a_{n}$ (where $c$ is constant), $\sum \left(a_{n} + b_{n}\right),$ and $\sum \left(a_{n} - b_{n}\right),$ and
+      (i) $\sum_{n=1}^{\infty} c a_{n}=c \sum_{n=1}^{\infty} a_{n}$
+      (ii) $\sum_{n=1}^{\infty}\left(a_{n}+b_{n}\right)=\sum_{n=1}^{\infty} a_{n}+\sum_{n=1}^{\infty} b_{n}$
+      (iii) $\sum_{n=1}^{\infty}\left(a_{n}-b_{n}\right)=\sum_{n=1}^{\infty} a_{n}-\sum_{n=1}^{\infty} b_{n}$
+
+      Hypotheses:
+
+      - $\sum a_{n}$ and $\sum b_{n}$ are convergent series
+    Annotations: ''
+  tags: []

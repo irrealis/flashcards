@@ -1,0 +1,98 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-12-VectorsAndTheGeometryOfSpace
+  - CET-12.01-Three-DimensionalCoordinateSystems
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1588877869285
+  fields:
+    Front: |
+      CET-12.01-01 Example:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877869491
+  fields:
+    Front: |
+      CET-12.01-02 Example:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877869670
+  fields:
+    Front: |
+      CET-12.01-03 Example:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877869870
+  fields:
+    Front: |
+      CET-12.01-04 Example:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877870055
+  fields:
+    Front: |
+      CET-12.01-05 Example:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877870237
+  fields:
+    Front: |
+      CET-12.01-06 Example:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877870437
+  fields:
+    Front: |
+      CET-12.01-07 Example:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

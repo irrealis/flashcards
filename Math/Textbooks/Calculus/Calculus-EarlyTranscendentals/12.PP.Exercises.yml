@@ -1,0 +1,110 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-12-VectorsAndTheGeometryOfSpace
+  - CET-12.PP-ProblemsPlus
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1588983357834
+  fields:
+    Front: |
+      CET-12.PP-1 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Problems Plus
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588983358026
+  fields:
+    Front: |
+      CET-12.PP-2 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Problems Plus
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588983358209
+  fields:
+    Front: |
+      CET-12.PP-3 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Problems Plus
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588983358386
+  fields:
+    Front: |
+      CET-12.PP-4 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Problems Plus
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588983358579
+  fields:
+    Front: |
+      CET-12.PP-5 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Problems Plus
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588983358795
+  fields:
+    Front: |
+      CET-12.PP-6 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Problems Plus
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588983358977
+  fields:
+    Front: |
+      CET-12.PP-7 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Problems Plus
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588983359161
+  fields:
+    Front: |
+      CET-12.PP-8 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Problems Plus
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

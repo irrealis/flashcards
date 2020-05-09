@@ -10,6 +10,7 @@ defaults:
   - CET-08-FurtherApplicationsOfIntegration
   - CET-08.02-AreaOfASurfaceOfRevolution
   markdownTabLength: 2
+  stringTemplDelim: ¢
 notes:
 - id: 1577658108845
   fields:
@@ -17,9 +18,9 @@ notes:
       CET-08.02-01 Theory:
       Give the band area $A$ of a cylinder of height $h$ and radius $r.$
     Back: |
-      $$$
+      $$
       A = 2 \pi r h
-      $$$
+      $$
     Annotations: ''
   tags: []
 - id: 1577658284219
@@ -28,9 +29,9 @@ notes:
       CET-08.02-02 Theory:
       Give the band area $A$ of a cone of radius $r$ and slant height $l$.
     Back: |
-      $$$
+      $$
       A = \pi r l
-      $$$
+      $$
     Annotations: ''
   tags: []
 - id: 1577659233271
@@ -39,12 +40,12 @@ notes:
       CET-08.02-03 Theory:
       Give the area $A$ of a cone band with slant height $l$ and upper and lower radii $r_1$ and $r_2$.
     Back: |
-      $$$
+      $$
       A = \pi (r_1 l + r_2 l) = \pi (r_1 + r_2) l
-      $$$ or
-      $$$
+      $$ or
+      $$
       A = 2 \pi r l \quad\text{where}\quad r = \tfrac{1}{2}(r_1 + r_2)
-      $$$
+      $$
     Annotations: ''
   tags: []
 - id: 1577660076492
@@ -53,41 +54,38 @@ notes:
       CET-08.02-04 Theory:
       Give the Riemann approximation to the area of the complete surface of revolution.
     Back: |
-      $$$
+      $$
       \sum_{i=1}^{n} 2 \pi f\left(x_{i}^{*}\right) \sqrt{1+\left[f^{\prime}\left(x_{i}^{*}\right)\right]^{2}} \Delta x
-      $$$
+      $$
     Annotations: ''
   tags: []
 - id: 1577661069946
   media:
-  - path: ${file_dir}/images/CET-08.02-05.Th.1.jpg
-  - path: ${file_dir}/images/CET-08.02-05.Th.2.jpg
+  - path: ¢{file_dir}/images/CET-08.02-05.Th.1.jpg
+  - path: ¢{file_dir}/images/CET-08.02-05.Th.2.jpg
   fields:
-    Front: >
+    Front: |
       CET-08.02-05 Theory:
-
-      Define the surface area of the surface obtained by rotating the curve $y=f(x),$
-      $a \leqslant x \leqslant b,$ about the $x$-axis, in the case where $f$ is positive
-      and has a continuous derivative.
+      Define the surface area of the surface obtained by rotating the curve $y=f(x),$ $a \leqslant x \leqslant b,$ about the $x$-axis, in the case where $f$ is positive and has a continuous derivative.
     Back: |
-      $$$
+      $$
       S=\int_{a}^{b} 2 \pi f(x) \sqrt{1+\left[f^{\prime}(x)\right]^{2}} d x
-      $$$ With the Leibniz notation for derivatives, this formula becomes
-      $$$
+      $$ With the Leibniz notation for derivatives, this formula becomes
+      $$
+      S=\int_{a}^{b} 2 \pi y \sqrt{1+\left(\frac{d y}{d x}\right)^{2}} d x
+      $$ If the curve is described as $x=g(y), c \leqslant y \leqslant d,$ [_possible clarification:_ I think this means to say it's the _same curve,_ i.e. $g = f^{-1}, g(c) = a, g(d) = b$] then the formula for surface area becomes
+      $$
       S=\int_{c}^{d} 2 \pi y \sqrt{1+\left(\frac{d x}{d y}\right)^{2}} d y
-      $$$ If the curve is described as $x=g(y), c \leqslant y \leqslant d,$ then the formula for surface area becomes
-      $$$
-      S=\int_{c}^{d} 2 \pi x \sqrt{1+\left(\frac{d x}{d y}\right)^{2}} d y
-      $$$ These can be summarized symbolically as
-      $$$
+      $$ These can be summarized symbolically as
+      $$
       S=\int 2 \pi y d s
-      $$$ or, for rotation about the $y$-axis,
-      $$$
+      $$ or, for rotation about the $y$-axis,
+      $$
       S=\int 2 \pi x d s
-      $$$ using the differential notation for arc length
-      $$$
+      $$ using the differential notation for arc length
+      $$
       d s=\sqrt{1+\left(\frac{d y}{d x}\right)^{2}} d x \quad\text{or}\quad d s=\sqrt{1+\left(\frac{d x}{d y}\right)^{2}} d y
-      $$$ These formulas can be remembered by thinking of $2 \pi y$ or $2 \pi x$ as the circumference of a circle traced out by the point $(x, y)$ on the curve as it is rotated about the $x$ -axis or $y$ -axis, respectively (see below).
+      $$ These formulas can be remembered by thinking of $2 \pi y$ or $2 \pi x$ as the circumference of a circle traced out by the point $(x, y)$ on the curve as it is rotated about the $x$ -axis or $y$ -axis, respectively (see below).
       <p align="center">
       ![](CET-08.02-05.Th.1.jpg)
       Rotation about $x$ -axis: $S=\int 2 \pi y d s$
@@ -97,4 +95,5 @@ notes:
       Rotation about $y$ -axis: $S=\int 2 \pi x d s$
       </p>
     Annotations: ''
-  tags: []
+  tags:
+  - Editing

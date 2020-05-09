@@ -1,0 +1,111 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1360
+  - APPM-1360-RW10
+  - RecitationWorksheet
+  - APPM-1360-Section08.03
+  - APPM-1360-Section08.04
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1586551795051
+  fields:
+    Front: |
+      APPM-1360-RW10-01:
+      #### c8: Series
+      ##### s8.3: The Integral and Comparison Tests
+      ##### s8.4: Other Convergence Tests
+      Temporary: work and check against recitation solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586551795231
+  fields:
+    Front: |
+      APPM-1360-RW10-02:
+      #### c8: Series
+      ##### s8.3: The Integral and Comparison Tests
+      ##### s8.4: Other Convergence Tests
+      Temporary: work and check against recitation solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586551795413
+  fields:
+    Front: |
+      APPM-1360-RW10-03:
+      #### c8: Series
+      ##### s8.3: The Integral and Comparison Tests
+      ##### s8.4: Other Convergence Tests
+      Temporary: work and check against recitation solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586551795618
+  fields:
+    Front: |
+      APPM-1360-RW10-04:
+      #### c8: Series
+      ##### s8.3: The Integral and Comparison Tests
+      ##### s8.4: Other Convergence Tests
+      Temporary: work and check against recitation solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586551795781
+  fields:
+    Front: |
+      APPM-1360-RW10-05:
+      #### c8: Series
+      ##### s8.3: The Integral and Comparison Tests
+      ##### s8.4: Other Convergence Tests
+      Temporary: work and check against recitation solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586551795964
+  fields:
+    Front: |
+      APPM-1360-RW10-06:
+      #### c8: Series
+      ##### s8.3: The Integral and Comparison Tests
+      ##### s8.4: Other Convergence Tests
+      Temporary: work and check against recitation solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586551796130
+  fields:
+    Front: |
+      APPM-1360-RW10-07:
+      #### c8: Series
+      ##### s8.3: The Integral and Comparison Tests
+      ##### s8.4: Other Convergence Tests
+      Temporary: work and check against recitation solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586551796314
+  fields:
+    Front: |
+      APPM-1360-RW10-08:
+      #### c8: Series
+      ##### s8.3: The Integral and Comparison Tests
+      ##### s8.4: Other Convergence Tests
+      Temporary: work and check against recitation solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing

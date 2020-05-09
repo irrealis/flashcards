@@ -1,0 +1,15 @@
+  media:
+  - path: ¢{file_dir}/images/APPM-1360-HO-XX-XX.1.jpg
+      <p align="center">
+      ![](APPM-1360-HO-XX-XX.1.jpg)
+      </p>
+  tags: []
+- id: 0
+  fields:
+    Front: |
+      APPM-1360-HO-XX-XX:
+      ##### 8.3d1: Convergence Tests for Positive Series
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing

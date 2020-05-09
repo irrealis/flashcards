@@ -10,23 +10,31 @@ defaults:
   - CET-07-TechniquesOfIntegration
   - CET-07.03-TrigonometricSubstitution
   markdownTabLength: 2
+  stringTemplDelim: ¢
 notes:
 - id: 1577144141666
   fields:
     Front: |
       CET-07.03-01 Theory:
       ##### trigonometric integrals
-      Describe **inverse substitution.**
+      Describe **inverse substitution.** State its critical hypotheses.
     Back: |
       To evaluate
-      $$$
+      $$
       \int f(x)\, dx
-      $$$ we write $x = g(u)$ for invertible $g,$ and then $dx = g^{\prime}(u) \, du,$ so
-      $$$
+      $$ we write $x = g(u)$ for invertible $g,$ and then $dx = g^{\prime}(u) \, du,$ so
+      $$
       H(u) = \int f(x)\, dx = \int f(g(u)) g^{\prime}(u)\, du
-      $$$ We then reverse the substitution.
-    Annotations: ''
-  tags: []
+      $$ We then reverse the substitution.
+
+      Critical hypotheses:
+
+      - $x = g(u)$ must be invertible in order to reverse the substitution. (The domain can be constrained to ensure this is true.)
+    Annotations: "Trouble:<div>- 200124-1430: knowledge/memory: just couldn't remember\
+      \ the definition/procedure.</div>"
+  tags:
+  - Editing
+  - ann:trouble
 - id: 1577298298362
   fields:
     Front: |

@@ -1,0 +1,417 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-11-InfiniteSequencesAndSeries
+  - CET-11.07-StrategyForTestingSeries
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1585381833216
+  fields:
+    Front: |
+      CET-11.07-01 Exercise:
+      Test the series for convergence or divergence.
+      $$\sum_{n=1}^{\infty} \frac{n^{2}-1}{n^{3}+1}$$
+    Back: |
+      Use the limit Comparison Test with $a_{n}=\frac{n^{2}-1}{n^{3}+1}$ and $b_{n}=\frac{1}{n}:$
+      $\lim _{n \rightarrow \infty} \frac{a_{n}}{b_{n}}$ $=\lim _{n \rightarrow \infty} \frac{\left(n^{2}-1\right) n}{n^{3}+1}$ $=\lim _{n \rightarrow \infty} \frac{n^{3}-n}{n^{3}+1}$ $=\lim _{n \rightarrow \infty} \frac{1-1 / n^{2}}{1+1 / n^{3}}$ $=1>0 .$ Since $\sum_{n=1}^{\infty} \frac{1}{n}$ is the divergent harmonic series, the series $\sum_{n=1}^{\infty} \frac{n^{2}-1}{n^{3}+1}$ also diverges.
+    Annotations: ''
+  tags: []
+- id: 1585381833389
+  fields:
+    Front: |
+      CET-11.07-02 Exercise:
+      Test the series for convergence or divergence.
+      $$\sum_{n=1}^{\infty} \frac{n-1}{n^{3}+1}$$
+    Back: |
+      $\frac{n-1}{n^{3}+1}$ $<\frac{n}{n^{3}+1}$ $<\frac{n}{n^{3}}$ $=\frac{1}{n^{2}}$ for $n \geq 1,$ so $\sum_{n=1}^{\infty} \frac{n-1}{n^{3}+1}$ converges by comparison with $\sum_{n=1}^{\infty} \frac{1}{n^{2}},$ which converges because it is a $p$-series with $p=2>1$.
+    Annotations: ''
+  tags: []
+- id: 1585381833542
+  fields:
+    Front: |
+      CET-11.07-03 Exercise:
+      Test the series for convergence or divergence.
+      $$\sum_{n=1}^{\infty}(-1)^{n} \frac{n^{2}-1}{n^{3}+1}$$
+    Back: |
+      $\sum_{n=1}^{\infty}(-1)^{n} \frac{n^{2}-1}{n^{3}+1}=\sum_{n=1}^{\infty}(-1)^{n} b_{n .}$ Now $b_{n}=\frac{n^{2}-1}{n^{3}+1}>0$ for $n \geq 2,\left\{b_{n}\right\}$ is decreasing for $n \geq 2,$ and $\lim _{n \rightarrow \infty} b_{n}=0,$ so the series $\sum_{n=1}^{\infty}(-1)^{n} \frac{n^{2}-1}{n^{3}+1}$ converges by the Alternating Series Test. By Exercise 1, $\sum_{n=1}^{\infty} \frac{n^{2}-1}{n^{3}+1}$ diverges, so the series $\sum_{n=1}^{\infty}(-1)^{n} \frac{n^{2}-1}{n^{3}+1}$ is conditionally convergent.
+    Annotations: ''
+  tags: []
+- id: 1585381833704
+  fields:
+    Front: |
+      CET-11.07-04 Exercise:
+      Test the series for convergence or divergence.
+      $$\sum_{n=1}^{\infty}(-1)^{n} \frac{n^{2}-1}{n^{2}+1}$$
+    Back: |
+      $\lim _{n \rightarrow \infty}\left|a_{n}\right|$ $=\lim _{n \rightarrow \infty}\left|(-1)^{n} \frac{n^{2}-1}{n^{2}+1}\right|$ $=\lim _{n \rightarrow \infty} \frac{1-1 / n^{2}}{1+1 / n^{2}}$ $=1 \neq 0,$ so the series $\sum_{n=1}^{\infty}(-1)^{n} \frac{n^{2}-1}{n^{2}+1}$ diverges by the Test for Divergence. [Note that $\lim _{n \rightarrow \infty}(-1)^{n} \frac{n^{2}-1}{n^{2}+1}$ does not exist.]
+    Annotations: ''
+  tags: []
+- id: 1585381833903
+  fields:
+    Front: |
+      CET-11.07-05 Exercise:
+      Test the series for convergence or divergence.
+      $$\sum_{n=1}^{\infty} \frac{e^{n}}{n^{2}}$$
+    Back: |
+      $\lim _{x \rightarrow \infty} \frac{e^{x}}{x^{2}}$ $\stackrel{\mathrm{H}}{=} \lim _{x \rightarrow \infty} \frac{e^{x}}{2 x}$ $\stackrel{\mathrm{H}}{=} \lim _{x \rightarrow \infty} \frac{e^{x}}{2}$ $=\infty,$ so $\lim _{n \rightarrow \infty} \frac{e^{n}}{n^{2}}$ $=\infty .$ Thus, the series $\sum_{n=1}^{\infty} \frac{e^{n}}{n^{2}}$ diverges by the Test for Divergence.
+    Annotations: ''
+  tags: []
+- id: 1585381834086
+  fields:
+    Front: |
+      CET-11.07-06 Exercise:
+      Test the series for convergence or divergence.
+      $$\sum_{n=1}^{\infty} \frac{n^{2 n}}{(1+n)^{3 n}}$$
+    Back: |
+      $\lim _{n \rightarrow \infty} \sqrt[n]{\left|a_{n}\right|}$ $=\lim _{n \rightarrow \infty} \sqrt[n]{\frac{n^{2 n}}{(1+n)^{3 n}}}$ $=\lim _{n \rightarrow \infty} \frac{n^{2}}{(1+n)^{3}}$ $=\lim _{n \rightarrow \infty} \frac{1 / n}{(1 / n+1)^{3}}$ $=\frac{0}{1}$ $=0$ $<1,$ so the series $\sum_{n=1}^{\infty} \frac{n^{2 n}}{(1+n)^{3 n}}$ converges by the Root Test.
+    Annotations: ''
+  tags: []
+- id: 1585381834255
+  fields:
+    Front: |
+      CET-11.07-07 Exercise:
+      Test the series for convergence or divergence.
+      $$\sum_{n=2}^{\infty} \frac{1}{n \sqrt{\ln n}}$$
+    Back: |
+      Let $f(x)=\frac{1}{x \sqrt{\ln x}} .$ Then $f$ is positive, continuous, and decreasing on $[2, \infty),$ so we can apply the Integral Test. Since $\int \frac{1}{x \sqrt{\ln x}} d x \,\left[\begin{array}{c}u=\ln x, \\ d u=d x / x\end{array}\right]$ $=\int u^{-1 / 2} d u$ $=2 u^{1 / 2}+C$ $=2 \sqrt{\ln x}+C,$ we find
+      $\int_{2}^{\infty} \frac{d x}{x \sqrt{\ln x}}$ $=\lim _{t \rightarrow \infty} \int_{2}^{t} \frac{d x}{x \sqrt{\ln x}}$ $=\lim _{t \rightarrow \infty}[2 \sqrt{\ln x}]_{2}^{t}$ $=\lim _{t \rightarrow \infty}(2 \sqrt{\ln t}-2 \sqrt{\ln 2})$ $=\infty .$ Since the integral diverges, the given series $\sum_{n=2}^{\infty} \frac{1}{n \sqrt{\ln n}}$ diverges.
+    Annotations: ''
+  tags: []
+- id: 1585381834421
+  fields:
+    Front: |
+      CET-11.07-08 Exercise:
+      Test the series for convergence or divergence.
+      $$\sum_{n=1}^{\infty}(-1)^{n-1} \frac{n^{4}}{4^{n}}$$
+    Back: |
+      $\lim _{n \rightarrow \infty}\left|\frac{a_{n+1}}{a_{n}}\right|$ $=\lim _{n \rightarrow \infty}\left|\frac{(n+1)^{4}}{4^{n+1}} \cdot \frac{4^{n}}{n^{4}}\right|$ $=\lim _{n \rightarrow \infty} \frac{(n+1)^{4}}{4 n^{4}}$ $=\frac{1}{4} \lim _{n \rightarrow \infty}\left(1+\frac{1}{n}\right)^{4}$ $=\frac{1}{4}(1)$ $=\frac{1}{4}<1,$ so the series $\sum_{n=1}^{\infty}(-1)^{n-1} \frac{n^{4}}{4^{n}}$ is absolutely convergent (and therefore convergent) by the Ratio Test.
+    Annotations: ''
+  tags: []
+- id: 1585381834625
+  fields:
+    Front: |
+      CET-11.07-09 Exercise:
+      Test the series for convergence or divergence.
+      $$\sum_{n=0}^{\infty}(-1)^{n} \frac{\pi^{2 n}}{(2 n) !}$$
+    Back: |
+      $\lim _{n \rightarrow \infty}\left|\frac{a_{n+1}}{a_{n}}\right|$ $=\lim _{n \rightarrow \infty}\left|\frac{\pi^{2 n+2}}{(2 n+2) !} \cdot \frac{(2 n) !}{\pi^{2 n}}\right|$ $=\lim _{n \rightarrow \infty} \frac{\pi^{2}}{(2 n+2)(2 n+1)}$ $=0$ $<1,$ so the series $\sum_{n=0}^{\infty}(-1)^{n} \frac{\pi^{2 n}}{(2 n) !}$ is absolutely convergent (and therefore convergent) by the Ratio Test.
+    Annotations: ''
+  tags: []
+- id: 1585381834791
+  fields:
+    Front: |
+      CET-11.07-10 Exercise:
+      Test the series for convergence or divergence.
+      $$\sum_{n=1}^{\infty} n^{2} e^{-n^{3}}$$
+    Back: |
+      Let $f(x)$ $=x^{2} e^{-x^{3}} .$ Then $f$ is continuous and positive on $[1, \infty),$ and $f^{\prime}(x)$ $=\frac{x\left(2-3 x^{3}\right)}{e^{x^{3}}}<0$ for $x \geq 1,$ so $f$ is decreasing on $[1, \infty)$ as well, and we can apply the Integral Test. $\int_{1}^{\infty} x^{2} e^{-x^{3}} d x$ $=\lim _{t \rightarrow \infty}\left[-\frac{1}{3} e^{-x^{3}}\right]_{1}^{t}$ $=\frac{1}{3 e},$ so the integral converges, and hence, the series converges.
+    Annotations: ''
+  tags: []
+- id: 1585381834986
+  fields:
+    Front: |
+      CET-11.07-11 Exercise:
+      Test the series for convergence or divergence.
+      $$\sum_{n=1}^{\infty}\left(\frac{1}{n^{3}}+\frac{1}{3^{n}}\right)$$
+    Back: |
+      $\sum_{n=1}^{\infty}\left(\frac{1}{n^{3}}+\frac{1}{3^{n}}\right)$ $=\sum_{n=1}^{\infty} \frac{1}{n^{3}}+\sum_{n=1}^{\infty}\left(\frac{1}{3}\right)^{n} .$ The first series converges since it is a $p$ -series with $p=3>1$ and the second series converges since it is geometric with $|r|=\frac{1}{3}<1 .$ The sum of two convergent series is convergent.
+    Annotations: ''
+  tags: []
+- id: 1585381835153
+  fields:
+    Front: |
+      CET-11.07-12 Exercise:
+      Test the series for convergence or divergence.
+      $$\sum_{k=1}^{\infty} \frac{1}{k \sqrt{k^{2}+1}}$$
+    Back: |
+      $\frac{1}{k \sqrt{k^{2}+1}}<\frac{1}{k \sqrt{k^{2}}}$ $=\frac{1}{k^{2}},$ so $\sum_{k=1}^{\infty} \frac{1}{k \sqrt{k^{2}+1}}$ converges by comparison with the convergent $p$ -series $\sum_{k=1}^{\infty} \frac{1}{k^{2}}$ $(p=2>1).$
+    Annotations: ''
+  tags: []
+- id: 1585381835355
+  fields:
+    Front: |
+      CET-11.07-13 Exercise:
+      Test the series for convergence or divergence.
+      $$\sum_{n=1}^{\infty} \frac{3^{n} n^{2}}{n !}$$
+    Back: |
+      $\lim _{n \rightarrow \infty}\left|\frac{a_{n+1}}{a_{n}}\right|$ $=\lim _{n \rightarrow \infty}\left|\frac{3^{n+1}(n+1)^{2}}{(n+1) !} \cdot \frac{n !}{3^{n} n^{2}}\right|$ $=\lim _{n \rightarrow \infty} \frac{3(n+1)^{2}}{(n+1) n^{2}}$ $=3 \lim _{n \rightarrow \infty} \frac{n+1}{n^{2}}$ $=0$ $<1,$ so the series $\sum_{n=1}^{\infty} \frac{3^{n} n^{2}}{n !}$ converges by the Ratio Test.
+    Annotations: ''
+  tags: []
+- id: 1585381835543
+  fields:
+    Front: |
+      CET-11.07-14 Exercise:
+      Test the series for convergence or divergence.
+      $$\sum_{n=1}^{\infty} \frac{\sin 2 n}{1+2^{n}}$$
+    Back: |
+      $\left|\frac{\sin 2 n}{1+2^{n}}\right| \leq \frac{1}{1+2^{n}}<\frac{1}{2^{n}}$ $=\left(\frac{1}{2}\right)^{n},$ so the series $\sum_{n=1}^{\infty}\left|\frac{\sin 2 n}{1+2^{n}}\right|$ converges by comparison with the geometric series $\sum_{n=1}^{\infty}\left(\frac{1}{2}\right)^{n}$ with $|r|$ $=\frac{1}{2}<1 .$ Thus, the series $\sum_{n=1}^{\infty} \frac{\sin 2 n}{1+2^{n}}$ converges absolutely, implying convergence.
+    Annotations: ''
+  tags: []
+- id: 1585381835717
+  fields:
+    Front: |
+      CET-11.07-15 Exercise:
+      Test the series for convergence or divergence.
+      $$\sum_{k=1}^{\infty} \frac{2^{k-1} 3^{k+1}}{k^{k}}$$
+    Back: |
+      $a_{k}$ $=\frac{2^{k-1} 3^{k+1}}{k^{k}}$ $=\frac{2^{k} 2^{-1} 3^{k} 3^{1}}{k^{k}}$ $=\frac{3}{2}\left(\frac{2 \cdot 3}{k}\right)^{k} .$ By the Root Test $\lim _{k \rightarrow \infty} \sqrt[k]{\left(\frac{6}{k}\right)^{k}}$ $=\lim _{k \rightarrow \infty} \frac{6}{k}$ $=0<1,$ so the series $\sum_{k=1}^{\infty}\left(\frac{6}{k}\right)^{k}$ converges. It follows from Theorem $8(\mathrm{i})$ in Section 11.2 that the given series, $\sum_{k=1}^{\infty} \frac{2^{k-1} 3^{k+1}}{k^{k}}$ $=\sum_{k=1}^{\infty} \frac{3}{2}\left(\frac{6}{k}\right)^{k}$ also converges.
+    Annotations: ''
+  tags: []
+- id: 1585381835921
+  fields:
+    Front: |
+      CET-11.07-16 Exercise:
+      Test the series for convergence or divergence.
+      $$\sum_{n=1}^{\infty} \frac{\sqrt{n^{4}+1}}{n^{3}+n}$$
+    Back: |
+      Use the Limit Comparison Test with $a_{n}$ $=\frac{\sqrt{n^{4}+1}}{n^{3}+n}$ and $b_{n}$ $=\frac{1}{n}$ $\lim _{n \rightarrow \infty} \frac{a_{n}}{b_{n}}$ $=\lim _{n \rightarrow \infty} \frac{n \sqrt{n^{4}+1}}{n\left(n^{2}+1\right)}$ $=\lim _{n \rightarrow \infty} \frac{\sqrt{n^{4}+1} / n^{2}}{\left(n^{2}+1\right) / n^{2}}$ $=\lim _{n \rightarrow \infty} \frac{\sqrt{1+1 / n^{4}}}{1+1 / n^{2}}$ $=1>0 .$ since $\sum_{n=1}^{\infty} \frac{1}{n}$ is the divergent harmonic series, the series $\sum_{n=1}^{\infty} \frac{\sqrt{n^{4}+1}}{n^{3}+n}$ also diverges.
+    Annotations: ''
+  tags: []
+- id: 1585381836093
+  fields:
+    Front: |
+      CET-11.07-17 Exercise:
+      Test the series for convergence or divergence.
+      $$\sum_{n=1}^{\infty} \frac{1 \cdot 3 \cdot 5 \cdot \cdots \cdot(2 n-1)}{2 \cdot 5 \cdot 8 \cdot \cdots \cdot(3 n-1)}$$
+    Back: |
+      $$
+      \begin{aligned}
+      &\lim _{n \rightarrow \infty}\left|\frac{a_{n+1}}{a_{n}}\right| \\
+      &=\lim _{n \rightarrow \infty}\left|\frac{1 \cdot 3 \cdot 5 \cdots \cdots \cdot(2 n-1)(2 n+1)}{2 \cdot 5 \cdot 8 \cdots \cdots(3 n-1)(3 n+2)} \cdot \frac{2 \cdot 5 \cdot 8 \cdots \cdots(3 n-1)}{1 \cdot 3 \cdot 5 \cdots \cdots(2 n-1)}\right| \\
+      &=\lim _{n \rightarrow \infty} \frac{2 n+1}{3 n+2} \\
+      &=\lim _{n \rightarrow \infty} \frac{2+1 / n}{3+2 / n}=\frac{2}{3}<1,
+      \end{aligned}
+      $$ so the series $\sum_{n=1}^{\infty} \frac{1 \cdot 3 \cdot 5 \cdots \cdots(2 n-1)}{2 \cdot 5 \cdot 8 \cdots \cdots(3 n-1)}$ converges by the Ratio Test.
+    Annotations: ''
+  tags: []
+- id: 1585381836270
+  fields:
+    Front: |
+      CET-11.07-18 Exercise:
+      Test the series for convergence or divergence.
+      $$\sum_{n=2}^{\infty} \frac{(-1)^{n-1}}{\sqrt{n}-1}$$
+    Back: |
+      $b_{n}$ $=\frac{1}{\sqrt{n}-1}$ for $n \geq 2 .$ $\left\{b_{n}\right\}$ is a decreasing sequence of positive numbers and $\lim _{n \rightarrow \infty} b_{n}$ $=0,$ so $\sum_{n=2}^{\infty} \frac{(-1)^{n-1}}{\sqrt{n}-1}$ converges by the Alternating Series Test.
+    Annotations: ''
+  tags: []
+- id: 1585381836437
+  fields:
+    Front: |
+      CET-11.07-19 Exercise:
+      Test the series for convergence or divergence.
+      $$\sum_{n=1}^{\infty}(-1)^{n} \frac{\ln n}{\sqrt{n}}$$
+    Back: |
+      Let $f(x)$ $=\frac{\ln x}{\sqrt{x}} .$ Then $f^{\prime}(x)$ $=\frac{2-\ln x}{2 x^{3 / 2}}<0$ when $\ln x>2$ or $x>e^{2},$ so $\frac{\ln n}{\sqrt{n}}$ is decreasing for $n>e^{2}.$ By l'Hospital's Rule, $\lim _{n \rightarrow \infty} \frac{\ln n}{\sqrt{n}}$ $=\lim _{n \rightarrow \infty} \frac{1 / n}{1 /(2 \sqrt{n})}$ $=\lim _{n \rightarrow \infty} \frac{2}{\sqrt{n}}$ $=0,$ so the series $\sum_{n=1}^{\infty}(-1)^{n} \frac{\ln n}{\sqrt{n}}$ converges by the Alternating Series Test.
+    Annotations: ''
+  tags: []
+- id: 1585381836591
+  fields:
+    Front: |
+      CET-11.07-20 Exercise:
+      Test the series for convergence or divergence.
+      $$\sum_{k=1}^{\infty} \frac{\sqrt[3]{k}-1}{k(\sqrt{k}+1)}$$
+    Back: |
+      $a_{k}$ $=\frac{\sqrt[3]{k}-1}{k(\sqrt{k}+1)}<\frac{\sqrt[3]{k}}{k(\sqrt{k}+1)}<\frac{\sqrt[3]{k}}{k \sqrt{k}}$ $=\frac{k^{1 / 3}}{k^{3 / 2}}$ $=\frac{1}{k^{7 / 6}},$ so the series $\sum_{k=1}^{\infty} \frac{\sqrt[3]{k}-1}{k(\sqrt{k}+1)}$ converges by comparison with the convergent $p$ -series $\sum_{k=1}^{\infty} \frac{1}{k^{7 / 6}}$ $\left(p=\frac{7}{6}>1\right).$
+    Annotations: ''
+  tags: []
+- id: 1585381836770
+  fields:
+    Front: |
+      CET-11.07-21 Exercise:
+      Test the series for convergence or divergence.
+      $$\sum_{n=1}^{\infty}(-1)^{n} \cos \left(1 / n^{2}\right)$$
+    Back: |
+      $\lim _{n \rightarrow \infty}\left|a_{n}\right|$ $=\lim _{n \rightarrow \infty}\left|(-1)^{n} \cos \left(1 / n^{2}\right)\right|$ $=\lim _{n \rightarrow \infty}\left|\cos \left(1 / n^{2}\right)\right|$ $=\cos 0$ $=1,$ so the series $\sum_{n=1}^{\infty}(-1)^{n} \cos \left(1 / n^{2}\right)$ diverges by the Test for Divergence.
+    Annotations: ''
+  tags: []
+- id: 1585381836937
+  fields:
+    Front: |
+      CET-11.07-22 Exercise:
+      Test the series for convergence or divergence.
+      $$\sum_{k=1}^{\infty} \frac{1}{2+\sin k}$$
+    Back: |
+      $\lim _{k \rightarrow \infty}\left|a_{k}\right|$ $=\lim _{k \rightarrow \infty}\left|\frac{1}{2+\sin k}\right|$ $=\lim _{k \rightarrow \infty} \frac{1}{2+\sin k},$ which does not exist (the terms vary between $\frac{1}{3}$ and 1 ). Thus, the series $\sum_{k=1}^{\infty} \frac{1}{2+\sin k}$ diverges by the Test for Divergence.
+    Annotations: ''
+  tags: []
+- id: 1585381837092
+  fields:
+    Front: |
+      CET-11.07-23 Exercise:
+      Test the series for convergence or divergence.
+      $$\sum_{n=1}^{\infty} \tan (1 / n)$$
+    Back: |
+      Using the limit Comparison Test with $a_{n}$ $=\tan \left(\frac{1}{n}\right)$ and $b_{n}$ $=\frac{1}{n},$ we have $\lim _{n \rightarrow \infty} \frac{a_{n}}{b_{n}}$ $=\lim _{n \rightarrow \infty} \frac{\tan (1 / n)}{1 / n}$ $=\lim _{x \rightarrow \infty} \frac{\tan (1 / x)}{1 / x}$ $\stackrel{\mathrm{H}}{=} \lim _{x \rightarrow \infty} \frac{\sec ^{2}(1 / x) \cdot\left(-1 / x^{2}\right)}{-1 / x^{2}}$ $=\lim _{x \rightarrow \infty} \sec ^{2}(1 / x)$ $=1^{2}$ $=1>0 .$ Since $\sum_{n=1}^{\infty} b_{n}$ is the divergent harmonic series, $\sum_{i=1}^{\infty} a_{n}$ is also divergent.
+    Annotations: ''
+  tags: []
+- id: 1585381837270
+  fields:
+    Front: |
+      CET-11.07-24 Exercise:
+      Test the series for convergence or divergence.
+      $$\sum_{n=1}^{\infty} n \sin (1 / n)$$
+    Back: |
+      $\lim _{n \rightarrow \infty} a_{n}$ $=\lim _{n \rightarrow \infty}\left(n \sin \frac{1}{n}\right)$ $=\lim _{n \rightarrow \infty} \frac{\sin (1 / n)}{1 / n}$ $=\lim _{x \rightarrow 0^{+}} \frac{\sin x}{x}$ $=1 \neq 0,$ so the series $\sum_{n=1}^{\infty} n \sin (1 / n)$ diverges by the Test for Divergence.
+    Annotations: ''
+  tags: []
+- id: 1585381837453
+  fields:
+    Front: |
+      CET-11.07-25 Exercise:
+      Test the series for convergence or divergence.
+      $$\sum_{n=1}^{\infty} \frac{n !}{e^{n^{2}}}$$
+    Back: |
+      Use the Ratio Test. $\lim _{n \rightarrow \infty}\left|\frac{a_{n+1}}{a_{n}}\right|$ $=\lim _{n \rightarrow \infty}\left|\frac{(n+1) !}{e^{(n+1)^{2}}} \cdot \frac{e^{n^{2}}}{n !}\right|$ $=\lim _{n \rightarrow \infty} \frac{(n+1) n ! \cdot e^{n^{2}}}{e^{n^{2}+2 n+1} n !}$ $=\lim _{n \rightarrow \infty} \frac{n+1}{e^{2 n+1}}$ $=0<1,$ so $\sum_{n=1}^{\infty} \frac{n !}{e^{n^{2}}}$ converges.
+    Annotations: ''
+  tags: []
+- id: 1585381837615
+  fields:
+    Front: |
+      CET-11.07-26 Exercise:
+      Test the series for convergence or divergence.
+      $$\sum_{n=1}^{\infty} \frac{n^{2}+1}{5^{n}}$$
+    Back: |
+      $\lim _{n \rightarrow \infty}\left|\frac{a_{n+1}}{a_{n}}\right|$ $=\lim _{n \rightarrow \infty} \frac{a_{n+1}}{a_{n}}$ $=\lim _{n \rightarrow \infty}\left(\frac{n^{2}+2 n+2}{5^{n+1}} \cdot \frac{5^{n}}{n^{2}+1}\right)$ $=\lim _{n \rightarrow \infty}\left(\frac{1+2 / n+2 / n^{2}}{1+1 / n^{2}} \cdot \frac{1}{5}\right)$ $=\frac{1}{5}<1,$ so $\sum_{n=1}^{\infty} \frac{n^{2}+1}{5^{n}}$ converges by the Ratio Test.
+    Annotations: ''
+  tags: []
+- id: 1585381837787
+  fields:
+    Front: |
+      CET-11.07-27 Exercise:
+      Test the series for convergence or divergence.
+      $$\sum_{k=1}^{\infty} \frac{k \ln k}{(k+1)^{3}}$$
+    Back: |
+      $\int_{2}^{\infty} \frac{\ln x}{x^{2}} d x$ $=\lim _{t \rightarrow \infty}\left[-\frac{\ln x}{x}-\frac{1}{x}\right]_{1}^{t}$ [using integration by parts] $\stackrel{\mathrm{H}}{=} 1 .$ So $\sum_{n=1}^{\infty} \frac{\ln n}{n^{2}}$ converges by the Integral Test, and since $\frac{k \ln k}{(k+1)^{3}}<\frac{k \ln k}{k^{3}}$ $=\frac{\ln k}{k^{2}},$ the given series $\sum_{k=1}^{\infty} \frac{k \ln k}{(k+1)^{3}}$ converges by the Comparison Test.
+    Annotations: ''
+  tags: []
+- id: 1585381837970
+  fields:
+    Front: |
+      CET-11.07-28 Exercise:
+      Test the series for convergence or divergence.
+      $$\sum_{n=1}^{\infty} \frac{e^{1 / n}}{n^{2}}$$
+    Back: |
+      Since $\left\{\frac{1}{n}\right\}$ is a decreasing sequence, $e^{1 / n}$ $\leq e^{1 / 1}$ $=e$ for all $n \geq 1,$ and $\sum_{n=1}^{\infty} \frac{e}{n^{2}}$ converges $(p=2>1),$ so $\sum_{n=1}^{\infty} \frac{e^{1 / n}}{n^{2}}$ converges by the Comparison Test. (Or use the Integral Test.)
+    Annotations: ''
+  tags: []
+- id: 1585381838138
+  fields:
+    Front: |
+      CET-11.07-29 Exercise:
+      Test the series for convergence or divergence.
+      $$\sum_{n=1}^{\infty} \frac{(-1)^{n}}{\cosh n}$$
+    Back: |
+      $\sum_{n=1}^{\infty} a_{n}$ $=\sum_{n=1}^{\infty}(-1)^{n} \frac{1}{\cosh n}$ $=\sum_{n=1}^{\infty}(-1)^{n} b_{n} .$ Now $b_{n}$ $=\frac{1}{\cosh n}>0,$ $\left\{b_{n}\right\}$ is decreasing, and $\lim _{n \rightarrow \infty} b_{n}=0,$ so the series converges by the Alternating Series Test.
+
+      Or: Write $\frac{1}{\cosh n}$ $=\frac{2}{e^{n}+e^{-n}}<\frac{2}{e^{n}}$ and $\sum_{n=1}^{\infty} \frac{1}{e^{n}}$ is a convergent geometric series, $\operatorname{so} \sum_{n=1}^{\infty} \frac{1}{\cosh n}$ is convergent by the Comparison Test. So $\sum_{n=1}^{\infty}(-1)^{n} \frac{1}{\cosh n}$ is absolutely convergent and therefore convergent.
+    Annotations: ''
+  tags: []
+- id: 1585381838306
+  fields:
+    Front: |
+      CET-11.07-30 Exercise:
+      Test the series for convergence or divergence.
+      $$\sum_{j=1}^{\infty}(-1)^{j} \frac{\sqrt{j}}{j+5}$$
+    Back: |
+      Let $f(x)$ $=\frac{\sqrt{x}}{x+5} .$ Then $f(x)$ is continuous and positive on $[1, \infty),$ and since $f^{\prime}(x)$ $=\frac{5-x}{2 \sqrt{x}(x+5)^{2}}<0$ for $x>5, f(x)$ is eventually decreasing, so we can use the Alternating Series Test. $\lim _{n \rightarrow \infty} \frac{\sqrt{n}}{n+5}$ $=\lim _{n \rightarrow \infty} \frac{1}{n^{1 / 2}+5 n^{-1 / 2}}$ $=0,$ so the series $\sum_{j=1}^{\infty}(-1)^{j} \frac{\sqrt{j}}{j+5}$ converges.
+    Annotations: ''
+  tags: []
+- id: 1585381838471
+  fields:
+    Front: |
+      CET-11.07-31 Exercise:
+      Test the series for convergence or divergence.
+      $$\sum_{k=1}^{\infty} \frac{5^{k}}{3^{k}+4^{k}}$$
+    Back: |
+      $\lim _{k \rightarrow \infty} a_{k}$ $=\lim _{k \rightarrow \infty} \frac{5^{k}}{3^{k}+4^{k}}$ [divide by $4^{k}$] $=\lim _{k \rightarrow \infty} \frac{(5 / 4)^{k}}{(3 / 4)^{k}+1}$ $=\infty$ since $\lim _{k \rightarrow \infty}\left(\frac{3}{4}\right)^{k}$ $=0$ and $\lim _{k \rightarrow \infty}\left(\frac{5}{4}\right)^{k}$ $=\infty$ Thus, $\sum_{k=1}^{\infty} \frac{5^{k}}{3^{k}+4^{k}}$ diverges by the Test for Divergence.
+    Annotations: ''
+  tags: []
+- id: 1585381838664
+  fields:
+    Front: |
+      CET-11.07-32 Exercise:
+      Test the series for convergence or divergence.
+      $$\sum_{n=1}^{\infty} \frac{(n !)^{n}}{n^{4 n}}$$
+    Back: |
+      $$
+      \begin{aligned}
+      \lim _{n \rightarrow \infty} \sqrt[n]{\left|a_{n}\right|}
+      &=\lim _{n \rightarrow \infty} \sqrt[n]{\left|\frac{(n !)^{n}}{n^{4 n}}\right|} \\
+      &=\lim _{n \rightarrow \infty} \frac{n !}{n^{4}} \\
+      &=\lim _{n \rightarrow \infty}\left[\frac{n}{n} \cdot \frac{n-1}{n} \cdot \frac{n-2}{n} \cdot \frac{n-3}{n} \cdot(n-4) !\right] \\
+      &=\lim _{n \rightarrow \infty}\left[\left(1-\frac{1}{n}\right)\left(1-\frac{2}{n}\right)\left(1-\frac{3}{n}\right)(n-4) !\right] \\
+      &=\infty
+      \end{aligned}
+      $$ so the series $\sum_{n=1}^{\infty} \frac{(n !)^{n}}{n^{4 n}}$ diverges by the Root Test.
+    Annotations: ''
+  tags: []
+- id: 1585381838854
+  fields:
+    Front: |
+      CET-11.07-33 Exercise:
+      Test the series for convergence or divergence.
+      $$\sum_{n=1}^{\infty}\left(\frac{n}{n+1}\right)^{n^{2}}$$
+    Back: |
+      $\lim _{n \rightarrow \infty} \sqrt[n]{\left|a_{n}\right|}$ $=\lim _{n \rightarrow \infty}\left(\frac{n}{n+1}\right)^{n^{2} / n}$ $=\lim _{n \rightarrow \infty} \frac{1}{[(n+1) / n]^{n}}$ $=\frac{1}{\lim _{n \rightarrow \infty}(1+1 / n)^{n}}$ $=\frac{1}{e}$ $<1,$ so the series $\sum_{n=1}^{\infty}\left(\frac{n}{n+1}\right)^{n^{2}}$ converges by the Root Test.
+    Annotations: ''
+  tags: []
+- id: 1585381839055
+  fields:
+    Front: |
+      CET-11.07-34 Exercise:
+      Test the series for convergence or divergence.
+      $$\sum_{n=1}^{\infty} \frac{1}{n+n \cos ^{2} n}$$
+    Back: |
+      $0$ $\leq n \cos ^{2} n$ $\leq n,$ so $\frac{1}{n+n \cos ^{2} n}$ $\geq \frac{1}{n+n}$ $=\frac{1}{2 n} .$ Thus, $\sum_{n=1}^{\infty} \frac{1}{n+n \cos ^{2} n}$ diverges by comparison with $\sum_{n=1}^{\infty} \frac{1}{2 n},$ which is a constant multiple of the (divergent) harmonic series.
+    Annotations: ''
+  tags: []
+- id: 1585381839221
+  fields:
+    Front: |
+      CET-11.07-35 Exercise:
+      Test the series for convergence or divergence.
+      $$\sum_{n=1}^{\infty} \frac{1}{n^{1+1 / n}}$$
+    Back: |
+      $a_{n}$ $=\frac{1}{n^{1+1 / n}}$ $=\frac{1}{n \cdot n^{1 / n}},$ so let $b_{n}$ $=\frac{1}{n}$ and use the limit Comparison Test. $\lim _{n \rightarrow \infty} \frac{a_{n}}{b_{n}}$ $=\lim _{n \rightarrow \infty} \frac{1}{n^{1 / n}}$ $=1$ $>0$ [see Exercise 4.4.63], so the series $\sum_{n=1}^{\infty} \frac{1}{n^{1+1 / n}}$ diverges by comparison with the divergent harmonic series.
+    Annotations: ''
+  tags: []
+- id: 1585381839391
+  fields:
+    Front: |
+      CET-11.07-36 Exercise:
+      Test the series for convergence or divergence.
+      $$\sum_{n=2}^{\infty} \frac{1}{(\ln n)^{\ln n}}$$
+    Back: |
+      Note that $(\ln n)^{\ln n}$ $=\left(e^{\ln \ln n}\right)^{\ln n}$ $=\left(e^{\ln n}\right)^{\ln \ln n}$ $=n^{\ln \ln n}$ and $\ln \ln n \rightarrow \infty$ as $n \rightarrow \infty,$ so $\ln \ln n$ $>2$ for sufficiently large $n .$ For these $n$ we have $(\ln n)^{\ln n}$ $>n^{2},$ so $\frac{1}{(\ln n)^{\ln n}}$ $<\frac{1}{n^{2}} .$ Since $\sum_{n=2}^{\infty} \frac{1}{n^{2}}$ converges $[p=2>1],$ so does $\sum_{n=2}^{\infty} \frac{1}{(\ln n)^{\ln n}}$ by the Comparison Test.
+    Annotations: ''
+  tags: []
+- id: 1585381839551
+  fields:
+    Front: |
+      CET-11.07-37 Exercise:
+      Test the series for convergence or divergence.
+      $$\sum_{n=1}^{\infty}(\sqrt[n]{2}-1)^{n}$$
+    Back: |
+      $\lim _{n \rightarrow \infty} \sqrt[n]{\left|a_{n}\right|}$ $=\lim _{n \rightarrow \infty}\left(2^{1 / n}-1\right)$ $=1-1$ $=0$ $<1,$ so the series $\sum_{n=1}^{\infty}(\sqrt[n]{2}-1)^{n}$ converges by the Root Test.
+    Annotations: ''
+  tags: []
+- id: 1585381839736
+  fields:
+    Front: |
+      CET-11.07-38 Exercise:
+      Test the series for convergence or divergence.
+      $$\sum_{n=1}^{\infty}(\sqrt[n]{2}-1)$$
+    Back: |
+      Use the limit Comparison Test with $a_{n}$ $=\sqrt[n]{2}-1$ and $b_{n}$ $=1 / n .$ Then $\lim _{n \rightarrow \infty} \frac{a_{n}}{b_{n}}$ $=\lim _{n \rightarrow \infty} \frac{2^{1 / n}-1}{1 / n}$ $=\lim _{x \rightarrow \infty} \frac{2^{1 / x}-1}{1 / x}$ $\stackrel{\underline{\mathrm{H}}}{=} \lim _{x \rightarrow \infty} \frac{2^{1 / x} \cdot \ln 2 \cdot\left(-1 / x^{2}\right)}{-1 / x^{2}}$ $=\lim _{x \rightarrow \infty}\left(2^{1 / x} \cdot \ln 2\right)$ $=1 \cdot \ln 2$ $=\ln 2$ $>0.$ So since $\sum_{n=1}^{\infty} b_{n}$ diverges (harmonic series), so does $\sum_{n=1}^{\infty}(\sqrt[n]{2}-1).$
+
+      Alternate solution: $\sqrt[n]{2}-1$ $=\frac{1}{2^{(n-1) / n}+2^{(n-2) / n}+2^{(n-3) / n}+\cdots+2^{1 / n}+1}$ [rationalize the numerator] $\geq \frac{1}{2 n},$ and since $\sum_{n=1}^{\infty} \frac{1}{2 n}$ $=\frac{1}{2} \sum_{n=1}^{\infty} \frac{1}{n}$ diverges (harmonic series), so does $\sum_{n=1}^{\infty}(\sqrt[n]{2}-1)$ by the Comparison Test.
+    Annotations: ''
+  tags:
+  - Editing

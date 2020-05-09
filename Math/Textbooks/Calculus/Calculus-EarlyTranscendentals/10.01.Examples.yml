@@ -1,0 +1,141 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-10-ParametricEquationsAndPolarCoordinates
+  - CET-10.01-CurvesDefinedByParametricEquations
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1586195273793
+  media:
+  - path: ¢{file_dir}/images/CET-10.01-01.Xm.1.jpg
+  fields:
+    Front: |
+      CET-10.01-01 Example:
+      Sketch and identify the curve defined by the parametric equations
+      $$
+      x=t^{2}-2 t \quad y=t+1
+      $$
+    Back: |
+      Each value of $t$ gives a point on the curve, as shown in the table. For instance, if $t=0,$ then $x=0, y=1$ and so the corresponding point is $(0,1) .$ In the figure below we plot the points $(x, y)$ determined by several values of the parameter and we join them to produce a curve.
+      $$
+      \begin{array}{|r|r|r|}
+      \hline t & x & y \\
+      \hline-2 & 8 & -1 \\
+      -1 & 3 & 0 \\
+      0 & 0 & 1 \\
+      1 & -1 & 2 \\
+      2 & 0 & 3 \\
+      3 & 3 & 4 \\
+      4 & 8 & 5 \\
+      \hline
+      \end{array}
+      $$
+      <p align="center">
+      ![](CET-10.01-01.Xm.1.jpg)
+      </p>
+      A particle whose position is given by the parametric equations moves along the curve in the direction of the arrows as $t$ increases. Notice that the consecutive points marked on the curve appear at equal time intervals but not at equal distances. That is because the particle slows down and then speeds up as $t$ increases.
+
+      It appears from the figure that the curve traced out by the particle may be a parabola. This can be confirmed by eliminating the parameter $t$ as follows. We obtain $t=y-1$ from the second equation and substitute into the first equation. This gives
+      $$
+      x=t^{2}-2 t=(y-1)^{2}-2(y-1)=y^{2}-4 y+3
+      $$ and so the curve represented by the given parametric equations is the parabola $x=y^{2}-4 y+3.$
+    Annotations: ''
+  tags: []
+- id: 1586195673065
+  media:
+  - path: ¢{file_dir}/images/CET-10.01-02.Xm.1.jpg
+  fields:
+    Front: |
+      CET-10.01-02 Example:
+      What curve is represented by the following parametric equations?
+      $$
+      x=\cos t \quad y=\sin t \quad 0 \leqslant t \leqslant 2 \pi
+      $$
+    Back: |
+      If we plot points, it appears that the curve is a circle. We can confirm this impression by eliminating $t .$ Observe that
+      $$
+      x^{2}+y^{2}=\cos ^{2} t+\sin ^{2} t=1
+      $$ Thus the point $(x, y)$ moves on the unit circle $x^{2}+y^{2}=1 .$ Notice that in this example the parameter $t$ can be interpreted as the angle (in radians) shown below.
+      <p align="center">
+      ![](CET-10.01-02.Xm.1.jpg)
+      </p>
+      As $t$ increases from $0$ to $2 \pi$, the point $(x, y)=(\cos t, \sin t)$ moves once around the circle in the counterclockwise direction starting from the point $(1,0).$
+    Annotations: ''
+  tags: []
+- id: 1586196657391
+  media:
+  - path: ¢{file_dir}/images/CET-10.01-03.Xm.1.jpg
+  fields:
+    Front: |
+      CET-10.01-03 Example:
+      What curve is represented by the given parametric equations?
+      $$
+      x=\sin 2 t \quad y=\cos 2 t \quad 0 \leqslant t \leqslant 2 \pi
+      $$
+    Back: |
+      Again we have
+      $$
+      x^{2}+y^{2}=\sin ^{2} 2 t+\cos ^{2} 2 t=1
+      $$ so the parametric equations again represent the unit circle $x^{2}+y^{2}=1 .$ But as $t$ increases from 0 to $2 \pi$, the point $(x, y)=(\sin 2 t, \cos 2 t)$ starts at (0,1) and moves twice around the circle in the clockwise direction as indicated below.
+      <p align="center">
+      ![](CET-10.01-03.Xm.1.jpg)
+      </p>
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586196885041
+  media:
+  - path: ¢{file_dir}/images/CET-10.01-04.Xm.1.jpg
+  fields:
+    Front: |
+      CET-10.01-04 Example:
+      Find parametric equations for the circle with center $(h, k)$ and radius $r.$
+    Back: |
+      If we take the equations of the unit circle in Example 2 and multiply the expressions for $x$ and $y$ by $r,$ we get $x=r \cos t, y=r \sin t .$ You can verify that these equations represent a circle with radius $r$ and center the origin traced counterclockwise. We now shift $h$ units in the $x$ -direction and $k$ units in the $y$ -direction and obtain parametric equations of the circle (figure below) with center $(h, k)$ and radius $r:$
+      $$
+      x=h+r \cos t \quad y=k+r \sin t \quad 0 \leqslant t \leqslant 2 \pi
+      $$
+      <p align="center">
+      ![](CET-10.01-04.Xm.1.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1586197118641
+  media:
+  - path: ¢{file_dir}/images/CET-10.01-05.Xm.1.jpg
+  fields:
+    Front: |
+      CET-10.01-05 Example:
+      Sketch the curve with parametric equations $x=\sin t, y=\sin ^{2} t.$
+    Back: |
+      Observe that $y=(\sin t)^{2}=x^{2}$ and so the point $(x, y)$ moves on the parabola $y=x^{2} .$ But note also that, since $-1 \leqslant \sin t \leqslant 1,$ we have $-1 \leqslant x \leqslant 1,$ so the parametric equations represent only the part of the parabola for which $-1 \leqslant x \leqslant 1 .$ since sin $t$ is periodic, the point $(x, y)=\left(\sin t, \sin ^{2} t\right)$ moves back and forth infinitely often along the parabola from (-1,1) to (1,1) . (See figure below.)
+      <p align="center">
+      ![](CET-10.01-05.Xm.1.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1586197288266
+  media:
+  - path: ¢{file_dir}/images/CET-10.01-06.Xm.1.jpg
+  fields:
+    Front: |
+      CET-10.01-06 Example:
+      Use a graphing device to graph the curve $x=y^{4}-3 y^{2}.$
+    Back: |
+      If we let the parameter be $t=y,$ then we have the equations
+      $$
+      x=t^{4}-3 t^{2} \quad y=t
+      $$ Using these parametric equations to graph the curve, we obtain the following figure.
+      <p align="center">
+      ![](CET-10.01-06.Xm.1.jpg)
+      </p>
+      It would be possible to solve the given equation $\left(x=y^{4}-3 y^{2}\right)$ for $y$ as four functions of $x$ and graph them individually, but the parametric equations provide a much easier method.
+    Annotations: ''
+  tags: []

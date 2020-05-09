@@ -11,11 +11,29 @@ defaults:
   - CET-08.03-ApplicationsToPhysicsAndEngineering
   markdownTabLength: 2
   stringTemplDelim: ¢
+notes: []
+---
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-08-FurtherApplicationsOfIntegration
+  - CET-08.03-ApplicationsToPhysicsAndEngineering
+  - SVEC-07-ApplicationsOfIntegration
+  - SVEC-07.06-ApplicationsToPhysicsAndEngineering
+  markdownTabLength: 2
+  stringTemplDelim: ¢
 notes:
 - id: 1577826585630
   fields:
     Front: |
       CET-08.03-01 Exercise:
+      SVEC-07.06-25 through 29 Exercise:
       An aquarium $5 \text{ ft}$ long, $2 \text{ ft}$ wide, and $3 \text{ ft}$ deep is full of water. Find (a) the hydrostatic pressure on the bottom of the aquarium, (b) the hydrostatic force on the bottom, and (c) the hydrostatic force on one end of the aquarium.
     Back: |
       The weight density of water is $\delta=62.5 \text{ lb} / \mathrm{ft}^{3}$
@@ -23,12 +41,12 @@ notes:
       (b) $F=P A \approx\left(187.5 \text{ lb} / \mathrm{ft}^{2}\right)(5 \text{ ft})(2 \text{ ft})=1875 \text{ lb} .$ ($A$ is the area of the bottom of the tank.)
       (c) As in Example $1,$ the area of the $i$ th strip is $2(\Delta x)$ and the pressure is $\delta d=\delta x_{i} .$ Thus, $F=\int_{0}^{3} \delta x \cdot 2 d x $ $\approx(62.5)(2) \int_{0}^{3} x d x$ $=125\left[\frac{1}{2} x^{2}\right]_{0}^{3}$ $=125\left(\frac{9}{2}\right)$ $=562.5 \text{ lb}.$
     Annotations: ''
-  tags:
-  - Editing
+  tags: []
 - id: 1582139458599
   fields:
     Front: |
       CET-08.03-02 Exercise:
+      SVEC-07.06-25 through 29 Exercise:
       A tank is $8 \text{ m}$ long, $4 \text{ m}$ wide, $2 \text{ m}$ high, and contains kerosene with density $820 \text{ kg} / \mathrm{m}^{3}$ to a depth of $1.5 \text{ m} .$ Find (a) the hydrostatic pressure on the bottom of the tank, (b) the hydrostatic force on the bottom, and (c) the hydrostatic force on one end of the tank.
     Back: |
       (a) $P=\rho g d$ $=\left(820 \text{ kg} / \mathrm{m}^{3}\right)\left(9.8 \text{ m} / \mathrm{s}^{2}\right)(1.5 \text{ m})$ $=12,054 \text{ Pa} \approx 12 \text{ kPa}$.
@@ -43,6 +61,7 @@ notes:
   fields:
     Front: |
       CET-08.03-03 Exercise:
+      SVEC-07.06-25 through 29 Exercise:
       A vertical plate is submerged (or partially submerged) in water and has the indicated shape. Explain how to approximate the hydrostatic force against one side of the plate by a Riemann sum. Then express the force as an integral and evaluate it.
       <p align="center">
       ![](CET-08.03-03.Xs.1.jpg)
@@ -74,6 +93,7 @@ notes:
   fields:
     Front: |
       CET-08.03-04 Exercise:
+      SVEC-07.06-25 through 29 Exercise:
       A vertical plate is submerged (or partially submerged) in water and has the indicated shape. Explain how to approximate the hydrostatic force against one side of the plate by a Riemann sum. Then express the force as an integral and evaluate it.
       <p align="center">
       ![](CET-08.03-04.Xs.1.jpg)
@@ -108,6 +128,7 @@ notes:
   fields:
     Front: |
       CET-08.03-05 Exercise:
+      SVEC-07.06-25 through 29 Exercise:
       A vertical plate is submerged (or partially submerged) in water and has the indicated shape. Explain how to approximate the hydrostatic force against one side of the plate by a Riemann sum. Then express the force as an integral and evaluate it.
       <p align="center">
       ![](CET-08.03-05.Xs.1.jpg)
@@ -138,6 +159,7 @@ notes:
   fields:
     Front: |
       CET-08.03-06 Exercise:
+      SVEC-07.06-25 through 29 Exercise:
       A vertical plate is submerged (or partially submerged) in water and has the indicated shape. Explain how to approximate the hydrostatic force against one side of the plate by a Riemann sum. Then express the force as an integral and evaluate it.
       <p align="center">
       ![](CET-08.03-06.Xs.1.jpg)
@@ -195,6 +217,7 @@ notes:
   fields:
     Front: |
       CET-08.03-07 Exercise:
+      SVEC-07.06-29 Exercise:
       A vertical plate is submerged (or partially submerged) in water and has the indicated shape. Explain how to approximate the hydrostatic force against one side of the plate by a Riemann sum. Then express the force as an integral and evaluate it.
       <p align="center">
       ![](CET-08.03-07.Xs.1.jpg)
@@ -228,18 +251,33 @@ notes:
   fields:
     Front: |
       CET-08.03-08 Exercise:
+      SVEC-07.06-25 through 29 Exercise:
       A vertical plate is submerged (or partially submerged) in water and has the indicated shape. Explain how to approximate the hydrostatic force against one side of the plate by a Riemann sum. Then express the force as an integral and evaluate it.
       <p align="center">
       ![](CET-08.03-08.Xs.1.jpg)
       </p>
     Back: |
       [Below, $n$ is the number of subintervals of length $\Delta x$ and $x_{i}^{*}$ is a sample point in the ith subinterval $\left[x_{i-1}, x_{i}\right]$.]
+
+      Set up a vertical $x$ -axis as shown.
       <p align="center">
       ![](CET-08.03-08.Xs.2.jpg)
       </p>
+      Then the area of the $i$ th rectangular strip is $3 x_{i}^{*} \Delta x.$ [By similar triangles, $\frac{w_{i}}{x_{i}^{*}}=\frac{6}{2},$ so $w_{i}=3 x_{i}^{*}$.] The pressure on the strip is $\rho g\left(x_{i}^{*}+4\right),$ so the hydrostatic force on the strip is $\rho g\left(x_{i}^{*}+4\right) 3 x_{i}^{*} \Delta x$ and the hydrostatic force on the plate $\approx \sum_{i=1}^{n} \rho g\left(x_{i}^{*}+4\right) 3 x_{i}^{*} \Delta x .$ The total force
+      $$
+      \begin{aligned}
+      F
+      &=\lim _{n \rightarrow \infty} \sum_{i=1}^{n} \rho g\left(x_{i}^{*}+4\right) 3 x_{i}^{*} \Delta x \\
+      &=\int_{0}^{2} \rho g(x+4) 3 x d x \\
+      &=3 \rho g \int_{0}^{2}\left(x^{2}+4 x\right) d x \\
+      &=3 \rho g\left[\frac{1}{3} x^{3}+2 x^{2}\right]_{0}^{2} \\
+      &=3 \rho g\left(\frac{8}{3}+8\right) \\
+      &=32 \rho g \\
+      &=313,600 \text{ N} \quad[\rho=1000, g \approx 9.8]
+      \end{aligned}
+      $$
     Annotations: ''
-  tags:
-  - Editing
+  tags: []
 - id: 1582140637751
   media:
   - path: ¢{file_dir}/images/CET-08.03-09.Xs.1.jpg
@@ -247,15 +285,30 @@ notes:
   fields:
     Front: |
       CET-08.03-09 Exercise:
+      SVEC-07.06-25 through 29 Exercise:
       A vertical plate is submerged (or partially submerged) in water and has the indicated shape. Explain how to approximate the hydrostatic force against one side of the plate by a Riemann sum. Then express the force as an integral and evaluate it.
       <p align="center">
       ![](CET-08.03-09.Xs.1.jpg)
       </p>
     Back: |
       [Below, $n$ is the number of subintervals of length $\Delta x$ and $x_{i}^{*}$ is a sample point in the ith subinterval $\left[x_{i-1}, x_{i}\right]$.]
+
+      Set up a vertical $x$ -axis as shown.
       <p align="center">
       ![](CET-08.03-09.Xs.2.jpg)
       </p>
+      Then the area of the $i$ th rectangular strip is $w_{i} \Delta x=\left(4+2 \cdot \frac{2}{3} x_{i}^{*}\right) \Delta x .$ The pressure on the strip is $\delta\left(x_{i}^{*}-1\right),$ so the hydrostatic force on the strip is $\delta\left(x_{i}^{*}-1\right)\left(4+\frac{4}{3} x_{i}^{*}\right) \Delta x$ and the hydrostatic force on the plate $\approx \sum_{i=1}^{n} \delta\left(x_{i}^{*}-1\right)\left(4+\frac{4}{3} x_{i}^{*}\right) \Delta x .$ The total force
+      $$
+      \begin{aligned}
+      F
+      &=\lim _{n \rightarrow \infty} \sum_{i=1}^{n} \delta\left(x_{i}^{*}-1\right)\left(4+\frac{4}{3} x_{i}^{*}\right) \Delta x \\
+      &=\int_{1}^{3} \delta(x-1)\left(4+\frac{4}{3} x\right) d x \\
+      &=\delta \int_{1}^{3}\left(\frac{4}{3} x^{2}+\frac{8}{3} x-4\right) d x \\
+      &=\delta\left[\frac{4}{9} x^{3}+\frac{4}{3} x^{2}-4 x\right]_{1}^{3} \\
+      &=\delta\left[(12+12-12)-\left(\frac{4}{9}+\frac{4}{3}-4\right)\right] \\
+      &=\delta\left(\frac{128}{9}\right) \approx 889 \text{ lb} \quad[\delta \approx 62.5]
+      \end{aligned}
+      $$
     Annotations: ''
   tags: []
 - id: 1582140639425
@@ -265,15 +318,41 @@ notes:
   fields:
     Front: |
       CET-08.03-10 Exercise:
+      SVEC-07.06-25 through 29 Exercise:
       A vertical plate is submerged (or partially submerged) in water and has the indicated shape. Explain how to approximate the hydrostatic force against one side of the plate by a Riemann sum. Then express the force as an integral and evaluate it.
       <p align="center">
       ![](CET-08.03-10.Xs.1.jpg)
       </p>
     Back: |
       [Below, $n$ is the number of subintervals of length $\Delta x$ and $x_{i}^{*}$ is a sample point in the ith subinterval $\left[x_{i-1}, x_{i}\right]$.]
+
+      Set up coordinate axes as shown in the figure.
       <p align="center">
       ![](CET-08.03-10.Xs.2.jpg)
       </p>
+      For the top half, the length of the $i$ th strip is $2\left(a / \sqrt{2}-y_{i}^{*}\right)$ and its area is $2\left(a / \sqrt{2}-y_{i}^{*}\right) \Delta y$ The pressure on this strip is approximately $\delta d_{i}=\delta\left(a / \sqrt{2}-y_{i}^{*}\right)$ and so the force on the strip is approximately $2 \delta\left(a / \sqrt{2}-y_{i}^{*}\right)^{2} \Delta y .$ The total force
+      $$
+      \begin{aligned}
+      F_{1}
+      &=\lim _{n \rightarrow \infty} \sum_{i=1}^{n} 2 \delta\left(\frac{a}{\sqrt{2}}-y_{i}^{*}\right)^{2} \Delta y \\
+      &=2 \delta \int_{0}^{a / \sqrt{2}}\left(\frac{a}{\sqrt{2}}-y\right)^{2} d y \\
+      &=2 \delta\left[-\frac{1}{3}\left(\frac{a}{\sqrt{2}}-y\right)^{3}\right]_{0}^{a / \sqrt{2}} \\
+      &=-\frac{2}{3} \delta\left[0-\left(\frac{a}{\sqrt{2}}\right)^{3}\right] \\
+      &=\frac{2 \delta}{3} \frac{a^{3}}{2 \sqrt{2}} \\
+      &=\frac{\sqrt{2} a^{3} \delta}{6}
+      \end{aligned}
+      $$ For the bottom half, the length is $2\left(a / \sqrt{2}+y_{i}^{*}\right)$ and the total force is
+      $$
+      \begin{aligned}
+      F_{2}
+      &=\lim _{n \rightarrow \infty} \sum_{i=1}^{n} 2 \delta\left(\frac{a}{\sqrt{2}}+y_{i}^{*}\right)\left(\frac{a}{\sqrt{2}}-y_{i}^{*}\right) \Delta y \\
+      &=2 \delta \int_{-a / \sqrt{2}}^{0}\left(\frac{a^{2}}{2}-y^{2}\right) d y \\
+      &=2 \delta\left[\frac{1}{2} a^{2} y-\frac{1}{3} y^{3}\right]_{-a / \sqrt{2}}^{0} \\
+      &=2 \delta\left[0-\left(-\frac{\sqrt{2} a^{3}}{4}+\frac{\sqrt{2} a^{3}}{12}\right)\right] \\
+      &=2 \delta\left(\frac{\sqrt{2} a^{3}}{6}\right) \\
+      &=\frac{2 \sqrt{2} a^{3} \delta}{6} \quad\left[F_{2}=2 F_{1}\right]
+      \end{aligned}
+      $$ Thus, the total force $F=F_{1}+F_{2}=\frac{3 \sqrt{2} a^{3} \delta}{6}=\frac{\sqrt{2} a^{3} \delta}{2}$.
     Annotations: ''
   tags: []
 - id: 1582140641600
@@ -283,14 +362,634 @@ notes:
   fields:
     Front: |
       CET-08.03-11 Exercise:
+      SVEC-07.06-25 through 29 Exercise:
       A vertical plate is submerged (or partially submerged) in water and has the indicated shape. Explain how to approximate the hydrostatic force against one side of the plate by a Riemann sum. Then express the force as an integral and evaluate it.
       <p align="center">
       ![](CET-08.03-11.Xs.1.jpg)
       </p>
     Back: |
       [Below, $n$ is the number of subintervals of length $\Delta x$ and $x_{i}^{*}$ is a sample point in the ith subinterval $\left[x_{i-1}, x_{i}\right]$.]
+
+      Set up a vertical $x$ -axis as shown.
       <p align="center">
       ![](CET-08.03-11.Xs.2.jpg)
+      </p>
+      Then the area of the $i$ th rectangular strip is $\frac{a}{h}\left(2 h-x_{i}^{*}\right) \Delta x.$ [By similar triangles, $\frac{w_{i}}{2 h-x_{i}^{*}}=\frac{2 a}{2 h},$ so $w_{i}=\frac{a}{h}\left(2 h-x_{i}^{*}\right)$.] The pressure on the strip is $\delta x_{i}^{*},$ so the hydrostatic force on the plate $\approx \sum_{i=1}^{n} \delta x_{i}^{*} \frac{a}{h}\left(2 h-x_{i}^{*}\right) \Delta x .$ The total force
+      $$
+      \begin{aligned}
+      F
+      &=\lim _{n \rightarrow \infty} \sum_{i=1}^{n} \delta x_{i}^{*} \frac{a}{h}\left(2 h-x_{i}^{*}\right) \Delta x \\
+      &=\delta \frac{a}{h} \int_{0}^{h} x(2 h-x) d x \\
+      &=\frac{a \delta}{h} \int_{0}^{h}\left(2 h x-x^{2}\right) d x \\
+      &=\frac{a \delta}{h}\left[h x^{2}-\frac{1}{3} x^{3}\right]_{0}^{h} \\
+      &=\frac{a \delta}{h}\left(h^{3}-\frac{1}{3} h^{3}\right) \\
+      &=\frac{a \delta}{h}\left(\frac{2 h^{3}}{3}\right) \\
+      &=\frac{2}{3} \delta a h^{2}
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1582231393775
+  fields:
+    Front: |
+      CET-08.03-12 Exercise:
+      SVEC-07.06-30 Exercise:
+      A milk truck carries milk with density $64.6 \text{ lb} / \mathrm{ft}^{3}$ in a horizontal cylindrical tank with diameter $6 \text{ ft}$.
+      (a) Find the force exerted by the milk on one end of the tank when the tank is full.
+      (b) What if the tank is half full?
+    Back: |
+      (a)
+      $$
+      (1744.2) \pi \approx 5480 \text{ lb}
+      $$
+      (b)
+      $$
+      1162.8 \text{ lb}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1582231545221
+  fields:
+    Front: |
+      CET-08.03-13 Exercise:
+      SVEC-07.06-31 Exercise:
+      A trough is filled with a liquid of density $840 \text{ kg} / \mathrm{m}^{3} .$ The ends of the trough are equilateral triangles with sides $8 \text{ m}$ long and vertex at the bottom. Find the hydrostatic force on one end of the trough.
+    Back: |
+      $$
+      64 \rho g \approx 64(840)(9.8) \approx 5.27 \times 10^{5} \text{ N}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1582231710407
+  fields:
+    Front: |
+      CET-08.03-16 Exercise:
+      SVEC-07.06-32 Exercise:
+      A dam is inclined at an angle of $30^{\circ}$ from the vertical and has the shape of an isosceles trapezoid $100 \text{ ft}$ wide at the top and $50 \text{ ft}$ wide at the bottom and with a slant height of $70 \text{ ft}$. Find the hydrostatic force on the dam when it is full of water.
+    Back: |
+      $$
+      \frac{200(62.5)}{3 \sqrt{3}} \cdot \frac{12,825}{4} \approx 7.71 \times 10^{6} \text{ lb}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1582231897080
+  fields:
+    Front: |
+      CET-08.03-17 Exercise:
+      SVEC-07.06-33 Exercise:
+      A swimming pool is $20 \text{ ft}$ wide and $40 \text{ ft}$ long and its bottom is an inclined plane, the shallow end having a depth of $3 \text{ ft}$ and the deep end, $9 \text{ ft}$. If the pool is full of water, find the hydrostatic force on (a) the shallow end, (b) the deep end, (c) one of the sides, and (d) the bottom of the pool.
+    Back: |
+      (a)
+      $$
+      5625 \text{ lb} \approx 5.63 \times 10^{3} \text{ lb}
+      $$
+      (b)
+      $$
+      50,625 \text{ lb} \approx 5.06 \times 10^{4} \text{ lb}
+      $$
+      (c)
+      $$
+      48,750 \text{ lb} \approx 4.88 \times 10^{4} \text{ lb}
+      $$
+      (d)
+      $$
+      \frac{1}{3} \cdot 10 \sqrt{409} \delta(81-9) \approx 303,356 \text{ lb} \approx 3.03 \times 10^{5} \text{ lb}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1582232065104
+  media:
+  - path: ¢{file_dir}/images/CET-08.03-14.Xs.1.jpg
+  fields:
+    Front: |
+      CET-08.03-14 Exercise:
+      SVEC-07.06-34 Exercise:
+      A vertical dam has a semicircular gate as shown in the figure. Find the hydrostatic force against the gate.
+      <p align="center">
+      ![](CET-08.03-14.Xs.1.jpg)
+      </p>
+    Back: |
+      $$
+      (1000)(9.8)\left(20 \pi-\frac{16}{3}\right) \approx 5.63 \times 10^{5} \text{ N}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1582232282328
+  fields:
+    Front: |
+      CET-08.03-19 Exercise:
+      SVEC-07.06-35 Exercise:
+      A metal plate was found submerged vertically in seawater, which has density $64 \text{ lb} / \mathrm{ft}^{3}$. Measurements of the width of the plate were taken at the indicated depths. Use Simpson's Rule to estimate the force of the water against the plate.
+    Back: |
+      $$
+      \frac{25.6}{3}(486.04) \approx 4148 \text{ lb}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1582232563429
+  media:
+  - path: ¢{file_dir}/images/CET-08.03-22.Xs.1.jpg
+  fields:
+    Front: |
+      CET-08.03-22 Exercise:
+      SVEC-07.06-36 Exercise:
+      <p align="center">
+      ![](CET-08.03-22.Xs.1.jpg)
+      </p>
+      Point-masses $m_{i}$ are located on the $x$ -axis as shown. Find the moment $M$ of the system about the origin and the center of mass $\bar{x}$.
+    Back: |
+      The moment $M$ is $m_{1} x_{1}+m_{2} x_{2}+m_{3} x_{3}=12(-3)+15(2)+20(8)=154 .$ The mass $m$ is $m_{1}+m_{2}+m_{3}=12+15+20=47 .$ The center of mass is $\bar{x}=M / m=\frac{154}{47}$.
+    Annotations: ''
+  tags: []
+- id: 1582232721504
+  fields:
+    Front: |
+      CET-08.03-23 Exercise:
+      SVEC-07.06-37 Exercise:
+      The masses $m_{i}$ are located at the points $P_{i} .$ Find the moments $M_{x}$ and $M_{y}$ and the center of mass of the system.
+      $m_{1}=4, m_{2}=2, m_{3}=4$;
+      $P_{1}(2,-3), P_{2}(-3,1), P_{3}(3,5)$
+    Back: |
+      The mass is $m=\sum_{i=1}^{3} m_{i}=4+2+4=10 .$ The moment about the $x$ -axis is $M_{x}=\sum_{i=1}^{3} m_{i} y_{i}=4(-3)+2(1)+4(5)=10$.
+      The moment about the $y$ -axis is $M_{y}=\sum_{i=1}^{3} m_{i} x_{i}=4(2)+2(-3)+4(3)=14 .$
+      The center of mass is $(\bar{x}, \bar{y})=\left(\frac{M_{y}}{m}, \frac{M_{x}}{m}\right)=\left(\frac{14}{10}, \frac{10}{10}\right)=(1.4,1)$.
+    Annotations: ''
+  tags: []
+- id: 1582232841529
+  fields:
+    Front: |
+      CET-08.03-24 Exercise:
+      SVEC-07.06-38 Exercise:
+      The masses $m_{i}$ are located at the points $P_{i} .$ Find the moments $M_{x}$ and $M_{y}$ and the center of mass of the system.
+      $m_{1}=5, m_{2}=4, m_{3}=3, m_{4}=6$;
+      $P_{1}(-4,2), P_{2}(0,5), P_{3}(3,2), P_{4}(1,-2)$
+    Back: |
+      The mass is $m=\sum_{i=1}^{4} m_{i}=5+4+3+6=18$.
+      The moment about the $x$ -axis is $M_{x}=\sum_{i=1}^{4} m_{i} y_{i}=5(2)+4(5)+3(2)+6(-2)=24$.
+      The moment about the $y$ -axis is $M_{y}=\sum_{i=1}^{4} m_{i} x_{i}=5(-4)+4(0)+3(3)+6(1)=-5$.
+      The center of mass is $(\bar{x}, \bar{y})=\left(\frac{M_{y}}{m}, \frac{M_{x}}{m}\right)=\left(\frac{-5}{18}, \frac{24}{18}\right)=\left(-\frac{5}{18}, \frac{4}{3}\right)$.
+    Annotations: ''
+  tags: []
+- id: 1582233180229
+  fields:
+    Front: |
+      CET-08.03-25 Exercise:
+      SVEC-07.06-39 Exercise:
+      Sketch the region bounded by the curves, and visually estimate the location of the centroid. Then find the exact coordinates of the centroid.
+      $$
+      y=2 x, \quad y=0, \quad x=1
+      $$
+    Back: |
+      $$
+      (\bar{x}, \bar{y})=\left(\frac{2}{3}, \frac{2}{3}\right)
+      $$
+    Annotations: ''
+  tags: []
+- id: 1582233180408
+  fields:
+    Front: |
+      CET-08.03-26 Exercise:
+      SVEC-07.06-40 Exercise:
+      Sketch the region bounded by the curves, and visually estimate the location of the centroid. Then find the exact coordinates of the centroid.
+      $$
+      y=\sqrt{x}, \quad y=0, \quad x=4
+      $$
+    Back: |
+      $$
+      (\bar{x}, \bar{y})=(2.4,0.75)
+      $$
+    Annotations: ''
+  tags: []
+- id: 1582233180583
+  fields:
+    Front: |
+      CET-08.03-27 Exercise:
+      SVEC-07.06-41 Exercise:
+      Sketch the region bounded by the curves, and visually estimate the location of the centroid. Then find the exact coordinates of the centroid.
+      $$
+      y=e^{x}, \quad y=0, \quad x=0, \quad x=1
+      $$
+    Back: |
+      $$
+      (\bar{x}, \bar{y})=\left(\frac{1}{e-1}, \frac{e+1}{4}\right) \approx(0.58,0.93)
+      $$
+    Annotations: ''
+  tags: []
+- id: 1582233180774
+  fields:
+    Front: |
+      CET-08.03-28 Exercise:
+      SVEC-07.06-42 Exercise:
+      Sketch the region bounded by the curves, and visually estimate the location of the centroid. Then find the exact coordinates of the centroid.
+      $$
+      y=\sin x, \quad y=0, \quad 0 \leqslant x \leqslant \pi
+      $$
+    Back: |
+      $$
+      (\bar{x}, \bar{y})=\left(\frac{\pi}{2}, \frac{\pi}{8}\right)
+      $$
+    Annotations: ''
+  tags: []
+- id: 1582233641954
+  fields:
+    Front: |
+      CET-08.03-29 Exercise:
+      SVEC-07.06-43 Exercise:
+      Find the centroid of the region bounded by the given curves.
+      $$
+      y=x^{2}, \quad x=y^{2}
+      $$
+    Back: |
+      $$
+      (\bar{x}, \bar{y})=\left(\frac{9}{20}, \frac{9}{20}\right)
+      $$
+    Annotations: ''
+  tags: []
+- id: 1582233642140
+  fields:
+    Front: |
+      CET-08.03-30 Exercise:
+      SVEC-07.06-44 Exercise:
+      Find the centroid of the region bounded by the given curves.
+      $$
+      y=2-x^{2}, \quad y=x
+      $$
+    Back: |
+      $$
+      (\bar{x}, \bar{y})=\left(-\frac{1}{2}, \frac{2}{5}\right)
+      $$
+    Annotations: ''
+  tags: []
+- id: 1582233642303
+  fields:
+    Front: |
+      CET-08.03-31 Exercise:
+      SVEC-07.06-45 Exercise:
+      Find the centroid of the region bounded by the given curves.
+      $$
+      y=\sin x, \quad y=\cos x, \quad x=0, \quad x=\pi / 4
+      $$
+    Back: |
+      $$
+      (\bar{x}, \bar{y})=\left(\frac{\pi \sqrt{2}-4}{4(\sqrt{2}-1)}, \frac{1}{4(\sqrt{2}-1)}\right) \approx(0.27,0.60)
+      $$
+    Annotations: ''
+  tags: []
+- id: 1582233642507
+  fields:
+    Front: |
+      CET-08.03-32 Exercise:
+      SVEC-07.06-46 Exercise:
+      Find the centroid of the region bounded by the given curves.
+      $$
+      y=x^{3}, \quad x+y=2, \quad y=0
+      $$
+    Back: |
+      $$
+      (\bar{x}, \bar{y})=\left(\frac{52}{45}, \frac{20}{63}\right)
+      $$
+    Annotations: ''
+  tags: []
+- id: 1582234576451
+  media:
+  - path: ¢{file_dir}/images/CET-08.03-34.Xs.1.jpg
+  fields:
+    Front: |
+      CET-08.03-34 Exercise:
+      SVEC-07.06-47 to 48 Exercise:
+      Calculate the moments $M_{x}$ and $M_{y}$ and the center of mass of a lamina with the given density and shape.
+      $\rho=4$
+      <p align="center">
+      ![](CET-08.03-34.Xs.1.jpg)
+      </p>
+    Back: |
+      An equation of the line is $y=-\frac{3}{2} x+3 . A=\frac{1}{2}(2)(3)=3,$ so $m=\rho A=4(3)=12$.
+      $$
+      \begin{aligned}
+      M_{x}
+      &=\rho \int_{0}^{2} \frac{1}{2}\left(-\frac{3}{2} x+3\right)^{2} d x \\
+      &=\frac{1}{2} \rho \int_{0}^{2}\left(\frac{9}{4} x^{2}-9 x+9\right) d x \\
+      &=\frac{1}{2}(4)\left[\frac{3}{4} x^{3}-\frac{9}{2} x^{2}+9 x\right]_{0}^{2} \\
+      &=2(6-18+18)=12. \\
+      M_{y}
+      &=\rho \int_{0}^{2} x\left(-\frac{3}{2} x+3\right) d x \\
+      &=\rho \int_{0}^{2}\left(-\frac{3}{2} x^{2}+3 x\right) d x \\
+      &=4\left[-\frac{1}{2} x^{3}+\frac{3}{2} x^{2}\right]_{0}^{2} \\
+      &=4(-4+6)=8.
+      \end{aligned}
+      $$
+      $\bar{x}=\frac{M_{y}}{m}=\frac{8}{3}$ and $\bar{y}=\frac{M_{x}}{m}=\frac{12}{12}=1 .$ Thus, the center of mass is $(\bar{x}, \bar{y})=\left(\frac{2}{3}, 1\right) .$ Since $\rho$ is constant, the center of mass is also the centroid.
+    Annotations: ''
+  tags: []
+- id: 1582234577429
+  media:
+  - path: ¢{file_dir}/images/CET-08.03-35.Xs.1.jpg
+  fields:
+    Front: |
+      CET-08.03-35 Exercise:
+      SVEC-07.06-47 to 48 Exercise:
+      Calculate the moments $M_{x}$ and $M_{y}$ and the center of mass of a lamina with the given density and shape.
+      $\rho=6$
+      <p align="center">
+      ![](CET-08.03-35.Xs.1.jpg)
+      </p>
+    Back: |
+      The quarter-circle has equation $y=\sqrt{4^{2}-x^{2}}$ for $0 \leq x \leq 4$ and the line has equation $y=-2$.
+      $A=\frac{1}{4} \pi(4)^{2}+2(4)=4 \pi+8=4(\pi+2),$ so $m=\rho A=6 \cdot 4(\pi+2)=24(\pi+2)$.
+      $$
+      \begin{aligned}
+      M_{x}
+      &=\rho \int_{0}^{4} \frac{1}{2}\left[(\sqrt{16-x^{2}})^{2}-(-2)^{2}\right] d x \\
+      &=\frac{1}{2} \rho \int_{0}^{4}\left(16-x^{2}-4\right) d x \\
+      &=\frac{1}{2}(6)\left[12 x-\frac{1}{3} x^{3}\right]_{0}^{4} \\
+      &=3\left(48-\frac{64}{3}\right)=80. \\
+      M_{y}
+      &=\rho \int_{0}^{4} x[\sqrt{16-x^{2}}-(-2)] d x \\
+      &=\rho \int_{0}^{4} x \sqrt{16-x^{2}} d x+\rho \int_{0}^{4} 2 x d x \\
+      &=6\left[-\frac{1}{3}\left(16-x^{2}\right)^{3 / 2}\right]_{0}^{4}+6\left[x^{2}\right]_{0}^{4} \\
+      &=6\left(0+\frac{64}{3}\right)+6(16)=224.
+      \end{aligned}
+      $$
+      $\bar{x}=\frac{M_{y}}{m}$ $=\frac{224}{24(\pi+2)}$ $=\frac{28}{3(\pi+2)}$ and $\bar{y}=\frac{M_{x}}{m}$ $=\frac{80}{24(\pi+2)}$ $=\frac{10}{3(\pi+2)}$.
+      Thus, the center of mass is $\left(\frac{28}{3(\pi+2)}, \frac{10}{3(\pi+2)}\right) \approx(1.82,0.65)$.
+    Annotations: ''
+  tags: []
+- id: 1582235606480
+  media:
+  - path: ¢{file_dir}/images/CET-08.03-39.Xs.1.jpg
+  - path: ¢{file_dir}/images/CET-08.03-39.Xs.2.jpg
+  fields:
+    Front: |
+      CET-08.03-39 Exercise:
+      SVEC-07.06-49 Exercise:
+      Prove that the centroid of any triangle is located at the point of intersection of the medians. [Hints: Place the axes so that the vertices are $(a, 0),(0, b),$ and $(c, 0) .$ Recall that a median is a line segment from a vertex to the midpoint of the opposite side. Recall also that the medians intersect at a point two-thirds of the way from each vertex (along the median) to the opposite side.]
+    Back: |
+      Choose $x-$ and $y$ -axes so that the base (one side of the triangle) lies along the $x$ -axis with the other vertex along the positive $y$ -axis as shown.
+      <p align="center">
+      ![](CET-08.03-39.Xs.1.jpg)
+      </p>
+      From geometry, we know the medians intersect at a point $\frac{2}{3}$ of the way from each vertex (along the median) to the opposite side. The median from $B$ goes to the midpoint $\left(\frac{1}{2}(a+c), 0\right)$ of side $A C,$ so the point of intersection of the medians is $\left(\frac{2}{3} \cdot \frac{1}{2}(a+c), \frac{1}{3} b\right)=\left(\frac{1}{3}(a+c), \frac{1}{3} b\right)$.
+
+      This can also be verified by finding the equations of two medians, and solving them simultaneously to find their point of intersection. Now let us compute the location of the centroid of the triangle. The area is $A=\frac{1}{2}(c-a) b$.
+      $$
+      \begin{aligned}
+      \bar{x}
+      &=\frac{1}{A}\left[\int_{a}^{0} x \cdot \frac{b}{a}(a-x) d x+\int_{0}^{c} x \cdot \frac{b}{c}(c-x) d x\right] \\
+      &=\frac{1}{A}\left[\frac{b}{a} \int_{a}^{0}\left(a x-x^{2}\right) d x+\frac{b}{c} \int_{0}^{c}\left(c x-x^{2}\right) d x\right] \\
+      &=\frac{b}{A a}\left[\frac{1}{2} a x^{2}-\frac{1}{3} x^{3}\right]_{a}^{0}+\frac{b}{A c}\left[\frac{1}{2} c x^{2}-\frac{1}{3} x^{3}\right]_{0}^{c} \\
+      &=\frac{b}{A a}\left[-\frac{1}{2} a^{3}+\frac{1}{3} a^{3}\right]+\frac{b}{A c}\left[\frac{1}{2} c^{3}-\frac{1}{3} c^{3}\right] \\
+      &=\frac{2}{a(c-a)} \cdot \frac{-a^{3}}{6}+\frac{2}{c(c-a)} \cdot \frac{c^{3}}{6} \\
+      &=\frac{1}{3(c-a)}\left(c^{2}-a^{2}\right) \\
+      &=\frac{a+c}{3}. \\
+      \bar{y}
+      &=\frac{1}{A}\left[\int_{a}^{0} \frac{1}{2}\left(\frac{b}{a}(a-x)\right)^{2} d x+\int_{0}^{c} \frac{1}{2}\left(\frac{b}{c}(c-x)\right)^{2} d x\right] \\
+      &=\frac{1}{A}\left[\frac{b^{2}}{2 a^{2}} \int_{a}^{0}\left(a^{2}-2 a x+x^{2}\right) d x+\frac{b^{2}}{2 c^{2}} \int_{0}^{c}\left(c^{2}-2 c x+x^{2}\right) d x\right] \\
+      &=\frac{1}{A}\left[\frac{b^{2}}{2 a^{2}}\left[a^{2} x-a x^{2}+\frac{1}{3} x^{3}\right]_{a}^{0}+\frac{b^{2}}{2 c^{2}}\left[c^{2} x-c x^{2}+\frac{1}{3} x^{3}\right]_{0}^{c}\right] \\
+      &=\frac{1}{A}\left[\frac{b^{2}}{2 a^{2}}\left(-a^{3}+a^{3}-\frac{1}{3} a^{3}\right)+\frac{b^{2}}{2 c^{2}}\left(c^{3}-c^{3}+\frac{1}{3} c^{3}\right)\right] \\
+      &=\frac{1}{A}\left[\frac{b^{2}}{6}(-a+c)\right] \\
+      &=\frac{2}{(c-a) b} \cdot \frac{(c-a) b^{2}}{6} \\
+      &=\frac{b}{3}.
+      \end{aligned}
+      $$ Thus, the centroid is $(\bar{x}, \bar{y})=\left(\frac{a+c}{3}, \frac{b}{3}\right),$ as claimed.
+
+      _Remarks:_ Actually the computation of $\bar{y}$ is all that is needed. By considering each side of the triangle in turn to be the base, we see that the centroid is $\frac{1}{3}$ of the way from each side to the opposite vertex and must therefore be the intersection of the medians.
+
+      The computation of $\bar{y}$ in this problem (and many others) can be simplified by using horizontal rather than vertical approximating rectangles.
+      <p align="center">
+      ![](CET-08.03-39.Xs.1.jpg)
+      </p>
+      If the length of a thin rectangle at coordinate $y$ is $\ell(y),$ then its area is $\ell(y) \Delta y,$ its mass is $\rho \ell(y) \Delta y,$ and its moment about the $x$ -axis is $\Delta M_{x}=\rho y \ell(y) \Delta y .$ Thus,
+      $$
+      \begin{aligned}
+      M_{x}
+      &=\int \rho y \ell(y) d y \quad \text { and } \quad \bar{y} \\
+      &=\frac{\int \rho y \ell(y) d y}{\rho A} \\
+      &=\frac{1}{A} \int y \ell(y) d y
+      \end{aligned}
+      $$ In this problem, $\ell(y)=\frac{c-a}{b}(b-y)$ by similar triangles, so
+      $$
+      \begin{aligned}
+      \bar{y}
+      &=\frac{1}{A} \int_{0}^{b} \frac{c-a}{b} y(b-y) d y \\
+      &=\frac{2}{b^{2}} \int_{0}^{b}\left(b y-y^{2}\right) d y \\
+      &=\frac{2}{b^{2}}\left[\frac{1}{2} b y^{2}-\frac{1}{3} y^{3}\right]_{0}^{b} \\
+      &=\frac{2}{b^{2}} \cdot \frac{b^{3}}{6} \\
+      &=\frac{b}{3}
+      \end{aligned}
+      $$ Notice that only one integral is needed when this method is used.
+    Annotations: ''
+  tags: []
+- id: 1582236059579
+  media:
+  - path: ¢{file_dir}/images/CET-08.03-40.Xs.1.jpg
+  fields:
+    Front: |
+      CET-08.03-40 Exercise:
+      SVEC-07.06-50 Exercise:
+      Find the centroid of the region shown, not by integration, but by locating the centroids of the rectangles and triangles (from Exercise CET-8.3-39/SVEC-7.6-49) and using additivity of moments.
+      <p align="center">
+      ![](CET-08.03-40.Xs.1.jpg)
+      </p>
+    Back: |
+      $$
+      (\bar{x}, \bar{y})=\left(\frac{1}{12}, \frac{5}{6}\right)
+      $$
+    Annotations: ''
+  tags: []
+- id: 1582236060580
+  media:
+  - path: ¢{file_dir}/images/CET-08.03-41.Xs.1.jpg
+  fields:
+    Front: |
+      CET-08.03-41 Exercise:
+      SVEC-07.06-51 Exercise:
+      Find the centroid of the region shown, not by integration, but by locating the centroids of the rectangles and triangles (from Exercise CET-8.3-39/SVEC-7.6-49) and using additivity of moments.
+      <p align="center">
+      ![](CET-08.03-41.Xs.1.jpg)
+      </p>
+    Back: |
+      $$
+      (\bar{x}, \bar{y})=\left(0, \frac{1}{12}\right)
+      $$
+    Annotations: ''
+  tags: []
+- id: 1582236711254
+  fields:
+    Front: |
+      CET-08.03-44 Exercise:
+      SVEC-07.06-52 Exercise:
+      Use the Theorem of Pappus to find the volume of the given solid:
+      A sphere of radius $r$ (Use Example CET-8.3-8/SVEC-7.6-4.)
+    Back: |
+      A sphere can be generated by rotating a semicircle about its diameter. The center of mass travels a distance $2 \pi \bar{y}=2 \pi\left(\frac{4 r}{3 \pi}\right)[\text { from Example } 4]=\frac{8 r}{3},$ so by the Theorem of Pappus, the volume of the sphere is
+      $$
+      \begin{aligned}
+      V
+      &=A d=\frac{\pi r^{2}}{2} \cdot \frac{8 r}{3} \\
+      &=\frac{4}{3} \pi r^{3}
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1582236711505
+  media:
+  - path: ¢{file_dir}/images/CET-08.03-45.Xs.1.jpg
+  fields:
+    Front: |
+      CET-08.03-45 Exercise:
+      SVEC-07.06-53 Exercise:
+      Use the Theorem of Pappus to find the volume of the given solid:
+      A cone with height $h$ and base radius $r$
+    Back: |
+      A cone of height $h$ and radius $r$ can be generated by rotating a right triangle about one of its legs as shown.
+      <p align="center">
+      ![](CET-08.03-45.Xs.1.jpg)
+      </p>
+      By Exercise CET-8.3-39/SVEC-7.6.49, $\bar{x}=\frac{1}{3} r,$ so by the Theorem of Pappus, the volume of the cone is
+      $$
+      \begin{aligned}
+      V
+      &=A d \\
+      &=\left(\frac{1}{2} \cdot \text { base } \cdot \text { height }\right) \cdot(2 \pi \bar{x}) \\
+      &=\frac{1}{2} r h \cdot 2 \pi\left(\frac{1}{3} r\right) \\
+      &=\frac{1}{3} \pi r^{2} h
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1582236712204
+  media:
+  - path: ¢{file_dir}/images/CET-08.03-46.Xs.1.jpg
+  fields:
+    Front: |
+      CET-08.03-46 Exercise:
+      SVEC-07.06-54 Exercise:
+      Use the Theorem of Pappus to find the volume of the given solid:
+      The solid obtained by rotating the triangle with vertices $(2,3),(2,5),$ and $(5,4)$ about the $x$ -axis
+    Back: |
+      From the symmetry in the figure, $\bar{y}=4 .$
+      <p align="center">
+      ![](CET-08.03-46.Xs.1.jpg)
+      </p>
+      So the distance traveled by the centroid when rotating the triangle about the $x$ -axis is $d=2 \pi \cdot 4=8 \pi .$ The area of the triangle is $A=\frac{1}{2} b h=\frac{1}{2}(2)(3)=3 .$ By the Theorem of Pappus, the volume of the resulting solid is $A d=3(8 \pi)=24 \pi$.
+    Annotations: ''
+  tags: []
+- id: 1582237475479
+  media:
+  - path: ¢{file_dir}/images/CET-08.03-51.Xs.1.jpg
+  fields:
+    Front: |
+      CET-08.03-51 Exercise:
+      SVEC-07.06-55 Exercise:
+      Prove Formulas CET-08.03-9/SVEC-7.6-13.
+    Back: |
+      Suppose the region lies between two curves $y=f(x)$ and $y=g(x)$ where $f(x) \geq g(x),$ as illustrated below.
+      <p align="center">
+      ![](CET-08.03-51.Xs.1.jpg)
+      </p>
+      Choose points $x_{i}$ with $a=x_{0}<x_{1}<\cdots<x_{n}=b$ and choose $x_{i}^{*}$ to be the midpoint of the $i$ th subinterval; that is, $x_{i}^{*}=\bar{x}_{i}=\frac{1}{2}\left(x_{i-1}+x_{i}\right) .$ Then the centroid of the $i$th approximating rectangle $R_{i}$ is its center $C_{i}=\left(\bar{x}_{i}, \frac{1}{2}\left[f\left(\bar{x}_{i}\right)+g\left(\bar{x}_{i}\right)\right]\right)$.
+
+      Its area is $\left[f\left(\bar{x}_{i}\right)-g\left(\bar{x}_{i}\right)\right] \Delta x,$ so its mass is $\rho\left[f\left(\bar{x}_{i}\right)-g\left(\bar{x}_{i}\right)\right] \Delta x .$ Thus,
+      $$
+      \begin{aligned}
+      M_{y}\left(R_{i}\right)
+      &=\rho\left[f\left(\bar{x}_{i}\right)-g\left(\bar{x}_{i}\right)\right] \Delta x \cdot \bar{x}_{i} \\
+      &=\rho \bar{x}_{i}\left[f\left(\bar{x}_{i}\right)-g\left(\bar{x}_{i}\right)\right] \Delta x
+      \end{aligned}
+      $$
+      and
+      $$
+      \begin{aligned}
+      M_{x}\left(R_{i}\right)
+      &=\rho\left[f\left(\bar{x}_{i}\right)-g\left(\bar{x}_{i}\right)\right] \Delta x \cdot \frac{1}{2}\left[f\left(\bar{x}_{i}\right)+g\left(\bar{x}_{i}\right)\right] \\
+      &=\rho \cdot \frac{1}{2}\left[f\left(\bar{x}_{i}\right)^{2}-g\left(\bar{x}_{i}\right)^{2}\right] \Delta x.
+      \end{aligned}
+      $$ Summing over $i$ and taking the limit as $n \rightarrow \infty,$ we get
+      $$
+      \begin{aligned}
+      M_{y}
+      &=\lim _{n \rightarrow \infty} \sum_{i} \rho \bar{x}_{i}\left[f\left(\bar{x}_{i}\right)-g\left(\bar{x}_{i}\right)\right] \Delta x \\
+      &=\rho \int_{a}^{b} x[f(x)-g(x)] d x
+      \end{aligned}
+      $$ and
+      $$
+      \begin{aligned}
+      M_{x}
+      &=\lim _{n \rightarrow \infty} \sum_{i} \rho \cdot \frac{1}{2}\left[f\left(\bar{x}_{i}\right)^{2}-g\left(\bar{x}_{i}\right)^{2}\right] \Delta x \\
+      &=\rho \int_{a}^{b} \frac{1}{2}\left[f(x)^{2}-g(x)^{2}\right] d x.
+      \end{aligned}
+      $$ Thus,
+      $$
+      \begin{aligned}
+      \bar{x}
+      &=\frac{M_{y}}{m}=\frac{M_{y}}{\rho A} \\
+      &=\frac{1}{A} \int_{a}^{b} x[f(x)-g(x)] d x
+      \end{aligned}
+      $$ and
+      $$
+      \begin{aligned}
+      \bar{y}
+      &=\frac{M_{x}}{m}=\frac{M_{x}}{\rho A} \\
+      &=\frac{1}{A} \int_{a}^{b} \frac{1}{2}\left[f(x)^{2}-g(x)^{2}\right] d x.
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1582238101130
+  media:
+  - path: ¢{file_dir}/images/CET-08.03-50.Xs.1.jpg
+  - path: ¢{file_dir}/images/CET-08.03-50.Xs.2.jpg
+  fields:
+    Front: |
+      CET-08.03-50 Exercise:
+      SVEC-07.06-56 Exercise:
+      Let $\mathscr{R}$ be the region that lies between the curves
+      $$
+      y=x^{m} \quad y=x^{n} \quad 0 \leqslant x \leqslant 1
+      $$ where $m$ and $n$ are integers with $0 \leqslant n<m$
+      (a) Sketch the region $\Re$
+      (b) Find the coordinates of the centroid of $\mathscr{R}$.
+      (c) Try to find values of $m$ and $n$ such that the centroid lies outside $\mathscr{R}$
+    Back: |
+      (a) Let $0 \leq x \leq 1 .$ If $n<m,$ then $x^{n}>x^{m} ;$ that is, raising $x$ to a larger power produces a smaller number.
+      (b)
+      Using Formulas CET-8.3-9/SVEC-7.6-13 and the fact that the area of $\mathscr{R}$ is
+      $$
+      \begin{aligned}
+      A
+      &=\int_{0}^{1}\left(x^{n}-x^{m}\right) d x \\
+      &=\frac{1}{n+1}-\frac{1}{m+1} \\
+      &=\frac{m-n}{(n+1)(m+1)}
+      \end{aligned}
+      $$ we get
+      $$
+      \begin{aligned}
+      \bar{x}
+      &=\frac{(n+1)(m+1)}{m-n} \int_{0}^{1} x\left[x^{n}-x^{m}\right] d x \\
+      &=\frac{(n+1)(m+1)}{m-n} \int_{0}^{1}\left(x^{n+1}-x^{m+1}\right) d x \\
+      &=\frac{(n+1)(m+1)}{m-n}\left[\frac{1}{n+2}-\frac{1}{m+2}\right] \\
+      &=\frac{(n+1)(m+1)}{(n+2)(m+2)}
+      \end{aligned}
+      $$ and
+      $$
+      \begin{aligned}
+      \bar{y}
+      &=\frac{(n+1)(m+1)}{m-n} \int_{0}^{1} \frac{1}{2}\left[\left(x^{n}\right)^{2}-\left(x^{m}\right)^{2}\right] d x \\
+      &=\frac{(n+1)(m+1)}{2(m-n)} \int_{0}^{1}\left(x^{2 n}-x^{2 m}\right) d x \\
+      &=\frac{(n+1)(m+1)}{2(m-n)}\left[\frac{1}{2 n+1}-\frac{1}{2 m+1}\right] \\
+      &=\frac{(n+1)(m+1)}{(2 n+1)(2 m+1)}
+      \end{aligned}
+      $$
+      <p align="center">
+      ![](CET-08.03-50.Xs.1.jpg)
+      </p>
+      (c) If we take $n=3$ and $m=4,$ then
+      $$
+      (\bar{x}, \bar{y})=\left(\frac{4 \cdot 5}{5 \cdot 6}, \frac{4 \cdot 5}{7 \cdot 9}\right)=\left(\frac{2}{3}, \frac{20}{63}\right)
+      $$
+      which lies outside $\mathscr{R}$ since $\left(\frac{2}{3}\right)^{3}=\frac{8}{27}<\frac{20}{63} .$ This is the simplest of many possibilities.
+      <p align="center">
+      ![](CET-08.03-50.Xs.2.jpg)
       </p>
     Annotations: ''
   tags: []

@@ -1,0 +1,124 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1360
+  - APPM-1360-RW12
+  - RecitationWorksheet
+  - APPM-1360-Section08.07
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1586552371000
+  fields:
+    Front: |
+      APPM-1360-RW12-01.a:
+      #### c8: Series
+      ##### s8.7: Taylor and Maclaurin Series
+      Temporary: work and check against recitation solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586552371177
+  fields:
+    Front: |
+      APPM-1360-RW12-01.b:
+      #### c8: Series
+      ##### s8.7: Taylor and Maclaurin Series
+      Temporary: work and check against recitation solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586552371352
+  fields:
+    Front: |
+      APPM-1360-RW12-02.a:
+      #### c8: Series
+      ##### s8.7: Taylor and Maclaurin Series
+      Temporary: work and check against recitation solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586552371551
+  fields:
+    Front: |
+      APPM-1360-RW12-02.b:
+      #### c8: Series
+      ##### s8.7: Taylor and Maclaurin Series
+      Temporary: work and check against recitation solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586552371754
+  fields:
+    Front: |
+      APPM-1360-RW12-03:
+      #### c8: Series
+      ##### s8.7: Taylor and Maclaurin Series
+      Temporary: work and check against recitation solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586552371935
+  fields:
+    Front: |
+      APPM-1360-RW12-04:
+      #### c8: Series
+      ##### s8.7: Taylor and Maclaurin Series
+      Temporary: work and check against recitation solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586552372118
+  fields:
+    Front: |
+      APPM-1360-RW12-05:
+      #### c8: Series
+      ##### s8.7: Taylor and Maclaurin Series
+      Temporary: work and check against recitation solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586552372318
+  fields:
+    Front: |
+      APPM-1360-RW12-06:
+      #### c8: Series
+      ##### s8.7: Taylor and Maclaurin Series
+      Temporary: work and check against recitation solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586552372502
+  fields:
+    Front: |
+      APPM-1360-RW12-07:
+      #### c8: Series
+      ##### s8.7: Taylor and Maclaurin Series
+      Temporary: work and check against recitation solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586552372701
+  fields:
+    Front: |
+      APPM-1360-RW12-08:
+      #### c8: Series
+      ##### s8.7: Taylor and Maclaurin Series
+      Temporary: work and check against recitation solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing

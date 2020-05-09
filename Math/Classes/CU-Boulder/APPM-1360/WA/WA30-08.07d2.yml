@@ -1,0 +1,113 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1360
+  - APPM-1360-WA30
+  - SingleVariableEssentialCalculus
+  - SVEC-08-Series
+  - SVEC-08.07-TaylorAndMaclaurinSeries
+  - WebAssign
+  - ToDo
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1586545088826
+  fields:
+    Front: |
+      APPM 1360 WA30-01:
+      #### c8: Series
+      ##### s8.7: Taylor and Maclaurin Series, day 2
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586545089054
+  fields:
+    Front: |
+      APPM 1360 WA30-02:
+      #### c8: Series
+      ##### s8.7: Taylor and Maclaurin Series, day 2
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586545089223
+  fields:
+    Front: |
+      APPM 1360 WA30-03:
+      #### c8: Series
+      ##### s8.7: Taylor and Maclaurin Series, day 2
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586545089387
+  fields:
+    Front: |
+      APPM 1360 WA30-04:
+      #### c8: Series
+      ##### s8.7: Taylor and Maclaurin Series, day 2
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586545089579
+  fields:
+    Front: |
+      APPM 1360 WA30-05:
+      #### c8: Series
+      ##### s8.7: Taylor and Maclaurin Series, day 2
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586545089757
+  fields:
+    Front: |
+      APPM 1360 WA30-06:
+      #### c8: Series
+      ##### s8.7: Taylor and Maclaurin Series, day 2
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586545089925
+  fields:
+    Front: |
+      APPM 1360 WA30-07:
+      #### c8: Series
+      ##### s8.7: Taylor and Maclaurin Series, day 2
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586545090120
+  fields:
+    Front: |
+      APPM 1360 WA30-08:
+      #### c8: Series
+      ##### s8.7: Taylor and Maclaurin Series, day 2
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing

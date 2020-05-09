@@ -10,6 +10,7 @@ defaults:
   - CET-06-ApplicationsOfIntegration
   - CET-06.04-Work
   markdownTabLength: 2
+  stringTemplDelim: ¢
 notes:
 - id: 1577672143945
   fields:
@@ -18,9 +19,9 @@ notes:
       State **Newton's Second Law of Motion** for an object moving along a straight line with position function $s(t).$
     Back: |
       In general, if an object moves along a straight line with position function $s(t),$ then the force $F$ on the object (in the same direction) is given by Newton's Second Law of Motion as the product of its mass $m$ and its acceleration $a$:
-      $$$
+      $$
       F=m a=m \frac{d^{2} s}{d t^{2}}
-      $$$
+      $$
     Annotations: ''
   tags: []
 - id: 1577723322878
@@ -39,9 +40,9 @@ notes:
       Define **work** in the case of constant acceleration.
     Back: |
       In the case of constant acceleration, the force $F$ is also constant and the work done is defined to be the product of the force $F$ and the distance $d$ that the object moves:
-      $$$
+      $$
       W=F d \quad \text{work $=$ force $\times$ distance}
-      $$$
+      $$
     Annotations: ''
   tags: []
 - id: 1577723663654
@@ -60,30 +61,30 @@ notes:
       How is **work** defined when force is variable?
     Back: |
       Let's suppose that an object moves along the $x$ -axis in the positive direction, from $x=a$ to $x=b,$ and at each point $x$ between $a$ and $b$ a force $f(x)$ acts on the object, where $f$ is a continuous function. We divide the interval $[a, b]$ into $n$ subintervals with endpoints $x_{0}, x_{1}, \ldots, x_{n}$ and equal width $\Delta x .$ We choose a sample point $x_{i}^{*}$ in the ith subinterval $\left[x_{i-1}, x_{i}\right] .$ Then the force at that point is $f\left(x_{i}^{*}\right) .$ If $n$ is large, then $\Delta x$ is small, and since $f$ is continuous, the values of $f$ don't change very much over the interval $\left[x_{i-1}, x_{i}\right] .$ In other words, $f$ is almost constant on the interval and so the work $W_{i}$ that is done in moving the particle from $x_{i-1}$ to $x_{i}$ is approximately given by:
-      $$$
+      $$
       W_{i} \approx f\left(x_{i}^{*}\right) \Delta x
-      $$$ Thus we can approximate the total work by
-      $$$
+      $$ Thus we can approximate the total work by
+      $$
       W \approx \sum_{i=1}^{n} f\left(x_{i}^{*}\right) \Delta x
-      $$$ We define the **work done in moving the object from $a$ to $b$** as the limit of this quantity as $n \rightarrow \infty$. Since the right side is a Riemann sum, we recognize its limit as being a definite integral and so
-      $$$
+      $$ We define the **work done in moving the object from $a$ to $b$** as the limit of this quantity as $n \rightarrow \infty$. Since the right side is a Riemann sum, we recognize its limit as being a definite integral and so
+      $$
       W=\lim _{n \rightarrow \infty} sum_{i=1}^{n} f\left(x_{i}^{*}\right) \Delta x=\int_{a}^{b} f(x) d x
-      $$$
+      $$
     Annotations: ''
   tags: []
 - id: 1577725271448
   media:
-  - path: ${file_dir}/images/CET-06.04-06.Th.1.jpg
-  - path: ${file_dir}/images/CET-06.04-06.Th.2.jpg
+  - path: ¢{file_dir}/images/CET-06.04-06.Th.1.jpg
+  - path: ¢{file_dir}/images/CET-06.04-06.Th.2.jpg
   fields:
     Front: |
       CET-06.04-06 Theory:
       State **Hooke's Law.**
     Back: |
       Hooke's Law states that the force required to maintain a spring stretched $x$ units beyond its natural length is proportional to $x:$
-      $$$
+      $$
       f(x)=k x
-      $$$ where $k$ is a positive constant called the spring constant (see figure below).
+      $$ where $k$ is a positive constant called the spring constant (see figure below).
       <p align="center">
       ![](CET-06.04-06.Th.1.jpg)
       Natural position of spring

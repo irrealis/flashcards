@@ -1,0 +1,113 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1360
+  - APPM-1360-WA33
+  - SingleVariableEssentialCalculus
+  - SVEC-09-ParametricEquationsAndPolarCoordinates
+  - SVEC-09.01-ParametricCurves
+  - WebAssign
+  - ToDo
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1586548818425
+  fields:
+    Front: |
+      APPM 1360 WA33-01:
+      #### c9: Parametric Equations and Polar Coordinates
+      ##### s9.1: Parametric Curves
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586548818675
+  fields:
+    Front: |
+      APPM 1360 WA33-02:
+      #### c9: Parametric Equations and Polar Coordinates
+      ##### s9.1: Parametric Curves
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586548818874
+  fields:
+    Front: |
+      APPM 1360 WA33-03:
+      #### c9: Parametric Equations and Polar Coordinates
+      ##### s9.1: Parametric Curves
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586548819056
+  fields:
+    Front: |
+      APPM 1360 WA33-04:
+      #### c9: Parametric Equations and Polar Coordinates
+      ##### s9.1: Parametric Curves
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586548819239
+  fields:
+    Front: |
+      APPM 1360 WA33-05:
+      #### c9: Parametric Equations and Polar Coordinates
+      ##### s9.1: Parametric Curves
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586548819404
+  fields:
+    Front: |
+      APPM 1360 WA33-06:
+      #### c9: Parametric Equations and Polar Coordinates
+      ##### s9.1: Parametric Curves
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586548819590
+  fields:
+    Front: |
+      APPM 1360 WA33-07:
+      #### c9: Parametric Equations and Polar Coordinates
+      ##### s9.1: Parametric Curves
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586548819780
+  fields:
+    Front: |
+      APPM 1360 WA33-08:
+      #### c9: Parametric Equations and Polar Coordinates
+      ##### s9.1: Parametric Curves
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing

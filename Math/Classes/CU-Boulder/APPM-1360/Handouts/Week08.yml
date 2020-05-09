@@ -1,0 +1,465 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1360
+  - APPM-1360-HO-W08
+  - APPM-1360-HO-W08-DefsAndThms
+  - APPM-1360-Section08.02-d1
+  - WrittenHomework
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1583781265718
+  fields:
+    Front: |
+      APPM-1360-HO-W08-01:
+      ##### 8.2d1: Introduction to Series and Series Convergence
+      A *series* is the (?) of all terms in a (?).
+    Back: |
+      A series is the sum (addition) of all terms in a sequence $\left\{a_{n}\right\}$.
+    Annotations: ''
+  tags: []
+- id: 1583781409545
+  fields:
+    Front: |
+      APPM-1360-HO-W08-02:
+      ##### 8.2d1: Introduction to Series and Series Convergence
+      Series are denoted (?).
+    Back: |
+      Series are denoted with the Greek letter $\Sigma$ (S for "sum") as follows: $S_{n}=\sum_{i=1}^{n} a_{i}$.
+    Annotations: ''
+  tags: []
+- id: 1583781554371
+  fields:
+    Front: |
+      APPM-1360-HO-W08-03:
+      ##### 8.2d1: Introduction to Series and Series Convergence
+      If the sequence $\left\{a_{n}\right\}$ is (?) then the sum of the sequence elements is called $(?)$ and is denoted (?).
+    Back: |
+      If the sequence $\left\{a_{n}\right\}$ is an infinite sequence then the sum of the sequence elements is called an infinite series and is denoted $S=\sum_{n=1}^{\infty} a_{n}$.
+    Annotations: ''
+  tags: []
+- id: 1583781627870
+  fields:
+    Front: |
+      APPM-1360-HO-W08-04:
+      ##### 8.2d1: Introduction to Series and Series Convergence
+      (As with sequences) We say that the number (?) is the (?).
+    Back: |
+      (As with sequences) We say that the number $a_{n}$ is the $n$th term of the series.
+    Annotations: ''
+  tags: []
+- id: 1583781853485
+  fields:
+    Front: |
+      APPM-1360-HO-W08-05:
+      ##### 8.2d1: Introduction to Series and Series Convergence
+      The *$n$th partial sum* of a (?) is the (?) and is denoted (?).
+    Back: |
+      The *$n$th partial sum* of a series is the sum of the first $n$ terms in the series and is denoted $S_{n}$.
+    Annotations: ''
+  tags: []
+- id: 1583781944848
+  fields:
+    Front: |
+      APPM-1360-HO-W08-06:
+      ##### 8.2d1: Introduction to Series and Series Convergence
+      The *sequence* of partial sums (?) is defined as
+      $$
+      \begin{aligned}
+      S_{1} &=(?), \quad S_{2}=(?) \\
+      S_{3} &=(?), \quad S_{4}=(?) \\
+      & \vdots \\
+      S_{n} &=(?)=(?)
+      \end{aligned}
+      $$
+    Back: |
+      The *sequence* of partial sums $\left\{S_{n}\right\}$ is defined as
+      $$
+      \begin{aligned}
+      S_{1} &=a_{1}, \quad S_{2}=a_{1}+a_{2} \\
+      S_{3} &=a_{1}+a_{2}+a_{3}, \quad S_{4}=a_{1}+a_{2}+a_{3}+a_{4} \\
+      & \vdots \\
+      S_{n} &=a_{1}+a_{2}+a_{3}+a_{4}+\ldots+a_{n}=\sum_{i=1}^{n} a_{i}
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1583782254409
+  fields:
+    Front: |
+      APPM-1360-HO-W08-07:
+      ##### 8.2d1: Introduction to Series and Series Convergence
+      The full (infinite) sum is related to the partial sum in the following way:
+      $$
+      S=(?)=(?)=(?)
+      $$
+    Back: |
+      The full (infinite) sum is related to the partial sum in the following way:
+      $$
+      S=\lim _{n \rightarrow \infty} S_{n}=\lim_{n \rightarrow \infty} \sum_{i=1}^{n} a_{i}=\sum_{n=1}^{\infty} a_{n}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1583782469870
+  fields:
+    Front: |
+      APPM-1360-HO-W08-08:
+      ##### 8.2d1: Introduction to Series and Series Convergence
+      **Theorem:** If the (?) then (?) and the $\lim _{n \rightarrow \infty} S_{n}$ is (*equals*) (?).
+    Back: |
+      **Theorem:** If the sequence of partial sums converges (the limit exists/is finite) then the series converges also and the $\lim _{n \rightarrow \infty} S_{n}$ is (*equals*) the sum of the series.
+    Annotations: ''
+  tags: []
+- id: 1583782557596
+  fields:
+    Front: |
+      APPM-1360-HO-W08-09:
+      ##### 8.2d1: Introduction to Series and Series Convergence
+      **Theorem:** (The Test for Divergence) If (?) then the series $\sum_{n=1}^{\infty} a_{n}$ (?).
+
+      **KEY:** This theorem says (?) about the behavior of a series if $\lim _{n \rightarrow \infty} a_{n}=0 .$ If $\lim _{n \rightarrow \infty} a_{n}=0$ then the test is *inconclusive*. That is why it is called test for divergence, not the test for convergence.
+    Back: |
+      **Theorem:** (The Test for Divergence) If $\lim _{n \rightarrow \infty} a_{n} \neq 0$ then the series $\sum_{n=1}^{\infty} a_{n}$ diverges.
+
+      **KEY:** This theorem says NOTHING about the behavior of a series if $\lim _{n \rightarrow \infty} a_{n}=0 .$ If $\lim _{n \rightarrow \infty} a_{n}=0$ then the test is *inconclusive*. That is why it is called test for divergence, not the test for convergence.
+    Annotations: ''
+  tags: []
+- id: 1583782774346
+  fields:
+    Front: |
+      APPM-1360-HO-W08-10:
+      ##### 8.2d1: Introduction to Series and Series Convergence
+      A series is a (?) if each term is generated from the previous term by (?). It can be written in sigma notation:
+      $$
+      a+a r+a r^{2}+a r^{3}+\cdots+a r^{n-1}+\cdots=\sum_{n=1}^{\infty} a r^{n-1}
+      $$
+    Back: |
+      A series is a geometric series if each term is generated from the previous term by multiplication of a constant value (i.e. it comes from adding up the terms in a geometric sequence). It can be written in sigma notation:
+      $$
+      a+a r+a r^{2}+a r^{3}+\cdots+a r^{n-1}+\cdots=\sum_{n=1}^{\infty} a r^{n-1}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1583782960170
+  fields:
+    Front: |
+      APPM-1360-HO-W08-11:
+      ##### 8.2d1: Introduction to Series and Series Convergence
+      **Theorem:** A geometric series is (?) if (?) and its sum is (?). If (?), the geometric series is (?) and cannot be summed.
+    Back: |
+      **Theorem:** A geometric series is convergent if $-1<r<1$ (i.e. $|r|<1$) and its sum is $\sum_{n=1}^{\infty} a_{1} r^{n-1}=\frac{a_{1}}{1-r}$. If $r \leq-1$ or $r \geq 1$ (i.e. $|r| \geq 1$), the geometric series is divergent and cannot be summed.
+    Annotations: ''
+  tags: []
+- id: 1583783439200
+  fields:
+    Front: |
+      APPM-1360-HO-W08-12:
+      ##### 8.2d1: Introduction to Series and Series Convergence
+      Recall:
+
+      **Theorem:** If the (?) then (?) and the $\lim _{n \rightarrow \infty} S_{n}$ is (*equals*) (?).
+
+      So if a series is *not* (?) and if the Test for Divergence is (?), then we might want to try to find (?) so that we can use this theorem.
+    Back: |
+      **Theorem:** If the sequence of partial sums converges (the limit exists/is finite) then the series converges also and the $\lim _{n \rightarrow \infty} S_{n}$ is (*equals*) the sum of the series.
+
+      So if a series is *not* geometric and if the Test for Divergence is inconclusive, then we might want to try to find a function expression for the partial sum so that we can use this theorem.
+    Annotations: ''
+  tags: []
+---
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1360
+  - APPM-1360-HO-W08
+  - APPM-1360-HO-W08-DefsAndThms
+  - APPM-1360-Section08.02-d2
+  - WrittenHomework
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1583783439381
+  fields:
+    Front: |
+      APPM-1360-HO-W08-13:
+      ##### 8.2d2: Telescoping Series
+      If the summand $a_{n}$ has a specific form called a (?) then it is surprisingly easy to find $S_{n}$.
+
+      **KEY:** If the summand can be written as a (?), the series will *telescope* (most of the terms cancel out).
+    Back: |
+      If the summand $a_{n}$ has a specific form called a "telescoping form" then it is surprisingly easy to find $S_{n}$.
+
+      **KEY:** If the summand can be written as a difference of two terms, the series will *telescope* (most of the terms cancel out).
+    Annotations: ''
+  tags: []
+- id: 1583783753945
+  fields:
+    Front: |
+      APPM-1360-HO-W08-14:
+      ##### 8.2d2: Telescoping Series
+      **Motivating Example:** Use the $n$ th partial sum to determine if $S=\sum_{n=1}^{\infty} \frac{1}{n(n+1)}$ converges or diverges. If it converges, find its sum.
+    Back: |
+      First note: we can rewrite the "summand" (terms $a_{n}$ that are being added up) using a partial fraction decomposition
+      $$
+      \frac{1}{n(n+1)}=\frac{1}{n}-\frac{1}{n+1}
+      $$
+      Then we have $S=\sum_{n=1}^{\infty}\left(\frac{1}{n}-\frac{1}{n+1}\right)$.
+
+      Write down the first few partial sums until you see a pattern of what cancels out and what is left behind. This gives us the $n$ th partial sum formula for the series:
+      $$
+      \begin{aligned}
+      S_{n} &=\left(1-\frac{1}{2}\right)+\left(\frac{1}{2}-\frac{1}{3}\right)+\left(\frac{1}{3}-\frac{1}{4}\right)+\cdots+\left(\frac{1}{n-1}-\frac{1}{n}\right)+\left(\frac{1}{n}-\frac{1}{n+1}\right) \\
+      &=1-\frac{1}{n+1}
+      \end{aligned}
+      $$
+
+      Now that we have a function ($n$th term formula) for $S_{n}$, we can find $\lim _{n \rightarrow \infty} S_{n}$. **This limit will tell us if the sequence $\left\{S_{n}\right\}$ converges or diverges and, therefore, if the series converges or diverges:**
+      $$
+      \lim _{n \rightarrow \infty} S_{n}=\lim _{n \rightarrow \infty}\left(1-\frac{1}{n}\right)=1
+      $$ (the limit exists and is a finite number). since the sequence of partial sums converges, the series also converges and they both converge to the value 1.
+    Annotations: ''
+  tags: []
+- id: 1583785632945
+  fields:
+    Front: |
+      APPM-1360-HO-W08-15:
+      ##### 8.2d2: More Convergence Properties for Series
+      **Theorem:** If $\sum a_{n}$ and $\sum b_{n}$ are (?), then the following series are also convergent:
+      $$
+      (?) \quad (?) \quad (?)
+      $$ Moreover, the following series are equal in value: 
+      $$
+      \begin{aligned}
+      &(?) \\
+      &(?) \\
+      &(?)
+      \end{aligned}
+      $$
+      **Important Note: This is only true for (?)!**
+    Back: |
+      **Theorem:** If $\sum a_{n}$ and $\sum b_{n}$ are both convergent, then the following series are also convergent:
+      $$
+      \sum\left(a_{n}+b_{n}\right) \quad \sum\left(a_{n}-b_{n}\right) \quad \sum c a_{n} \quad (c \text { constant })
+      $$ Moreover, the following series are equal in value: 
+      $$
+      \begin{aligned}
+      &\sum a_{n}+\sum b_{n}=\sum\left(a_{n}+b_{n}\right) \\
+      &\sum a_{n}-\sum b_{n}=\sum\left(a_{n}-b_{n}\right) \\
+      &\sum c a_{n}=c \sum a_{n}(c \text { constant })
+      \end{aligned}
+      $$
+      **Important Note: This is only true for convergent series!**
+    Annotations: ''
+  tags: []
+- id: 1583785758096
+  fields:
+    Front: |
+      APPM-1360-HO-W08-16:
+      ##### 8.2d2: More Convergence Properties for Series
+      **Theorem:** If $\sum a_{n}$ is (?) and $\sum b_{n}$ is (?), then $\sum\left(a_{n}+b_{n}\right)$ is (?).
+    Back: |
+      **Theorem:** If $\sum a_{n}$ is convergent and $\sum b_{n}$ is divergent, then $\sum\left(a_{n}+b_{n}\right)$ is divergent.
+
+      **Note:** If $\sum a_{n}$ and $\sum b_{n}$ are both divergent series, then $\sum\left(a_{n}+b_{n}\right)$ is inconclusive.
+    Annotations: ''
+  tags: []
+- id: 1583785825671
+  fields:
+    Front: |
+      APPM-1360-HO-W08-17:
+      ##### 8.2d2: More Convergence Properties for Series
+      **Theorem:** If $\sum b_{n}$ is (?) and if $c \neq 0,$ then $\sum c b_{n}$ is (?).
+    Back: |
+      **Theorem:** If $\sum b_{n}$ is divergent and if $c \neq 0,$ then $\sum c b_{n}$ is divergent.
+    Annotations: ''
+  tags: []
+---
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1360
+  - APPM-1360-HO-W08
+  - APPM-1360-HO-W08-DefsAndThms
+  - APPM-1360-Section08.03-d1
+  - WrittenHomework
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1583787013471
+  media:
+  - path: ¢{file_dir}/images/APPM-1360-HO-W08-18.1.jpg
+  fields:
+    Front: |
+      APPM-1360-HO-W08-18:
+      ##### 8.3d1: Convergence Tests for Positive Series
+      **The Integral Test**
+      **Idea:** This test is motivated by geometry and uses the relationship between (?).
+      (i) Recall: Sometimes, we can find a function $f(x)$ so that (?) $\left(n \in \mathbb{Z}^{+}\right)$.
+      (ii) Plot $f(x)$ on $(0, \infty)$. If $a_{n}$ is positive for every $n,$ then $f(x)$ is positive for every $x$.
+      (iii) Represent the partial sums of the series as (?). (Construct the boxes with (e.g.) the right-endpoint rule and use boxes with width 1): _The partial sums approximate the area under the curve:_
+      $$
+      \begin{aligned}
+      S_{1} &=(?) \\
+      S_{2} &=(?) \\
+      S_{3} &=(?) \\
+      S_{4} &=(?) \\
+      \end{aligned}
+      $$ <p align="center">
+      ![](APPM-1360-HO-W08-18.1.jpg)
+      </p>
+      (iv) Calculate the full area under the curve using an (?) and compare the result to the approximate area under the curve (the partial sums).
+      If the integral (?), the partial sums (?).
+      If the integral (?), the partial sums (?).
+      (v) _Recall_ The behavior of the partial sums is the (?) as the behavior of the series.
+    Back: |
+      **The Integral Test**
+      **Idea:** This test is motivated by geometry and uses the relationship between integrals and sums.
+      (i) Recall: Sometimes, we can find a function $f(x)$ so that $f(n)=a_{n}\left(n \in \mathbb{Z}^{+}\right)$.
+      (ii) Plot $f(x)$ on $(0, \infty)$. If $a_{n}$ is positive for every $n,$ then $f(x)$ is positive for every $x$.
+      (iii) Represent the partial sums of the series as the areas of rectangles (boxes) under the curve. (Construct the boxes with (e.g.) the right-endpoint rule and use boxes with width 1): _The partial sums approximate the area under the curve:_
+      $$
+      \begin{aligned}
+      S_{1} &=a_{1} \\
+      S_{2} &=a_{1}+a_{2} \\
+      S_{3} &=a_{1}+a_{2}+a_{3} \\
+      S_{4} &=a_{1}+a_{2}+a_{3}+a_{4}
+      \end{aligned}
+      $$ <p align="center">
+      ![](APPM-1360-HO-W08-18.1.jpg)
+      </p>
+      (iv) Calculate the full area under the curve using an integral and compare the result to the approximate area under the curve (the partial sums).
+      If the integral converges, the partial sums converge.
+      If the integral diverges, the partial sums diverge.
+      (v) _Recall_ The behavior of the partial sums is the same as the behavior of the series.
+    Annotations: ''
+  tags: []
+- id: 1583788287295
+  media:
+  - path: ¢{file_dir}/images/APPM-1360-HO-W08-19.1.jpg
+  fields:
+    Front: |
+      APPM-1360-HO-W08-19:
+      ##### 8.3d1: Convergence Tests for Positive Series
+      **Example 1(a):** Consider the infinite series $\sum_{n=1}^{\infty} \frac{1}{n^{2}}=1+\frac{1}{4}+\frac{1}{9}+\frac{1}{16}+\ldots$
+
+      Plot the partial sum as right-endpoint approximations (here the partial sums are an *under* approximation for this area):
+      $$
+      \sum_{n=1}^{\infty} \frac{1}{n^{2}}=(?)
+      $$ <p align="center">
+      ![](APPM-1360-HO-W08-19.1.jpg)
+      </p>
+      The area contained in the rectangles (partial sums) is trapped by the area under the curve.
+      *Since the area under the curve is (?), the area in the boxes (partial sums) (?).*
+      This is a geometric way of showing $\lim _{n \rightarrow \infty} S_{n}=S$ (exists, is finite).
+      Since the integral converges, the sequence of partial sums (?).
+      Since the sequence of partial sums converges, (?).
+    Back: |
+      **Example 1(a):** Consider the infinite series $\sum_{n=1}^{\infty} \frac{1}{n^{2}}=1+\frac{1}{4}+\frac{1}{9}+\frac{1}{16}+\ldots$
+
+      Plot the partial sum as right-endpoint approximations (here the partial sums are an *under* approximation for this area):
+      $$
+      \sum_{n=1}^{\infty} \frac{1}{n^{2}}=1+\underbrace{\frac{1}{4}+\frac{1}{9}+\frac{1}{16}+\ldots+\frac{1}{i^{2}}+\ldots}_{<\int_{1}^{\infty} \frac{1}{x^{2}} d x}<1+\int_{1}^{\infty} \frac{1}{x^{2}} d x=2
+      $$ <p align="center">
+      ![](APPM-1360-HO-W08-19.1.jpg)
+      </p>
+      The area contained in the rectangles (partial sums) is trapped by the area under the curve.
+      *Since the area under the curve is finite, the area in the boxes (partial sums) is also finite.*
+      This is a geometric way of showing $\lim _{n \rightarrow \infty} S_{n}=S$ (exists, is finite).
+      Since the integral converges, the sequence of partial sums also converges.
+      Since the sequence of partial sums converges, the series must also converge.
+    Annotations: ''
+  tags: []
+- id: 1583788643571
+  media:
+  - path: ¢{file_dir}/images/APPM-1360-HO-W08-20.1.jpg
+  fields:
+    Front: |
+      APPM-1360-HO-W08-20:
+      ##### 8.3d1: Convergence Tests for Positive Series
+      **Example 1(b):** Consider the infinite series $\sum_{n=1}^{\infty} \frac{1}{n}=1+\frac{1}{2}+\frac{1}{3}+\frac{1}{4}+\ldots+\frac{1}{i}+\ldots$
+      As before, plot the partial sums as right-endpoint approximations (again, the partial sums are an *under* approximation for this area):
+      $$
+      \sum_{n=1}^{\infty} \frac{1}{n}=(?)
+      $$ <p align="center">
+      ![](APPM-1360-HO-W08-20.1.jpg)
+      </p>
+      The area contained in the rectangles (partial sums) is trapped by the area under the curve.
+      However, *since the area under the curve is (?) this comparison is (?)!*
+      We need to try to find a different comparison!
+    Back: |
+      **Example 1(b):** Consider the infinite series $\sum_{n=1}^{\infty} \frac{1}{n}=1+\frac{1}{2}+\frac{1}{3}+\frac{1}{4}+\ldots+\frac{1}{i}+\ldots$
+      As before, plot the partial sums as right-endpoint approximations (again, the partial sums are an *under* approximation for this area):
+      $$
+      \sum_{n=1}^{\infty} \frac{1}{n}=1+\underbrace{\frac{1}{2}+\frac{1}{3}+\frac{1}{4}+\ldots+\frac{1}{i}+\ldots}_{<\int_{1}^{\infty} \frac{1}{x} d x}<1+\int_{1}^{\infty} \frac{1}{x} d x=\infty
+      $$ <p align="center">
+      ![](APPM-1360-HO-W08-20.1.jpg)
+      </p>
+      The area contained in the rectangles (partial sums) is trapped by the area under the curve.
+      However, *since the area under the curve is infinite this comparison is meaningless (tells us nothing!)!*
+      We need to try to find a different comparison!
+    Annotations: ''
+  tags: []
+- id: 1583790603170
+  media:
+  - path: ¢{file_dir}/images/APPM-1360-HO-W08-21.1.jpg
+  fields:
+    Front: |
+      APPM-1360-HO-W08-21:
+      ##### 8.3d1: Convergence Tests for Positive Series
+      **Example 1(c):** To get a useful comparison, plot the partial sums as left-endpoint approximations (here the partial sums are an over approximation for this area):
+      $$
+      \sum_{n=1}^{\infty} \frac{1}{n}=(?)
+      $$ <p align="center">
+      ![](APPM-1360-HO-W08-21.1.jpg)
+      </p>
+      The area contained in the rectangles (partial sums) traps all of the area under the curve.
+      *Since the area under the curve is (?), the area in the boxes (partial sums) is (?).* This is a geometric way of showing (?).
+    Back: |
+      **Example 1(c):** To get a useful comparison, plot the partial sums as left-endpoint approximations (here the partial sums are an over approximation for this area):
+      $$
+      \sum_{n=1}^{\infty} \frac{1}{n}=\underbrace{1+\frac{1}{2}+\frac{1}{3}+\frac{1}{4}+\ldots+\frac{1}{i}+\ldots}_{>\int_{1}^{\infty} \frac{1}{x} d x}>\int_{1}^{\infty} \frac{1}{x} d x=\infty
+      $$ <p align="center">
+      ![](APPM-1360-HO-W08-21.1.jpg)
+      </p>
+      The area contained in the rectangles (partial sums) traps all of the area under the curve.
+      *Since the area under the curve is infinite, the area in the boxes (partial sums) is also infinite.* This is a geometric way of showing $\lim _{n \rightarrow \infty} S_{n}=\infty$ (the partial sums diverge).
+    Annotations: ''
+  tags: []
+- id: 1583790940624
+  fields:
+    Front: |
+      APPM-1360-HO-W08-22:
+      ##### 8.3d1: Convergence Tests for Positive Series
+      **Theorem (The Integral Test):** Suppose $f(x)$ is a (?), (?), (?) function on $[1, \infty)$ and $a_{n}=f(n) .$ Then the series (?) if and only if the improper integral (?).
+
+      **KEY:** The integral test only determines if the series converges or diverges. It does not say where the series converges to!
+    Back: |
+      **Theorem: (The Integral Test):** Suppose $f(x)$ is a continuous, positive, decreasing function on $[1, \infty)$ and $a_{n}=f(n) .$ Then the series $\sum_{n=1}^{\infty} a_{n}$ converges if and only if the improper integral $\int_{1}^{\infty} f(x) d x$ also converges.
+
+      **KEY:** The integral test only determines if the series converges or diverges. It does not say where the series converges to!
+    Annotations: ''
+  tags: []
+- id: 1583791126046
+  fields:
+    Front: |
+      APPM-1360-HO-W08-23:
+      ##### 8.3d1: Convergence Tests for Positive Series
+      **Theorem (P-Series Test):** The series (?) converges if (?) and diverges if (?). (Note that $p$ is a constant value).
+    Back: |
+      **Theorem (P-Series Test):** The series $\sum_{n=1}^{\infty} \frac{1}{n^{p}}$ converges if $p>1$ and diverges if $p \leq 1 .$ (Note that $p$ is a constant value).
+    Annotations: ''
+  tags:
+  - Editing

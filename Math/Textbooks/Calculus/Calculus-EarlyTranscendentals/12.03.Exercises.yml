@@ -1,0 +1,794 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-12-VectorsAndTheGeometryOfSpace
+  - CET-12.03-TheDotProduct
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1588904947510
+  fields:
+    Front: |
+      CET-12.03-01 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904947709
+  fields:
+    Front: |
+      CET-12.03-02 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904947893
+  fields:
+    Front: |
+      CET-12.03-03 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904948061
+  fields:
+    Front: |
+      CET-12.03-04 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904948259
+  fields:
+    Front: |
+      CET-12.03-05 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904948444
+  fields:
+    Front: |
+      CET-12.03-06 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904948615
+  fields:
+    Front: |
+      CET-12.03-07 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904948801
+  fields:
+    Front: |
+      CET-12.03-08 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904948976
+  fields:
+    Front: |
+      CET-12.03-09 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904949179
+  fields:
+    Front: |
+      CET-12.03-10 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904949376
+  fields:
+    Front: |
+      CET-12.03-11 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904949595
+  fields:
+    Front: |
+      CET-12.03-12 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904949776
+  fields:
+    Front: |
+      CET-12.03-13 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904949961
+  fields:
+    Front: |
+      CET-12.03-14 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904950144
+  fields:
+    Front: |
+      CET-12.03-15 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904950343
+  fields:
+    Front: |
+      CET-12.03-16 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904950526
+  fields:
+    Front: |
+      CET-12.03-17 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904950726
+  fields:
+    Front: |
+      CET-12.03-18 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904950916
+  fields:
+    Front: |
+      CET-12.03-19 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904951093
+  fields:
+    Front: |
+      CET-12.03-20 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904951279
+  fields:
+    Front: |
+      CET-12.03-21 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904951461
+  fields:
+    Front: |
+      CET-12.03-22 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904951664
+  fields:
+    Front: |
+      CET-12.03-23 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904951860
+  fields:
+    Front: |
+      CET-12.03-24 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904952027
+  fields:
+    Front: |
+      CET-12.03-25 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904952244
+  fields:
+    Front: |
+      CET-12.03-26 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904952414
+  fields:
+    Front: |
+      CET-12.03-27 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904952610
+  fields:
+    Front: |
+      CET-12.03-28 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904952794
+  fields:
+    Front: |
+      CET-12.03-29 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904952985
+  fields:
+    Front: |
+      CET-12.03-30 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904953178
+  fields:
+    Front: |
+      CET-12.03-31 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904953344
+  fields:
+    Front: |
+      CET-12.03-32 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904953515
+  fields:
+    Front: |
+      CET-12.03-33 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904953693
+  fields:
+    Front: |
+      CET-12.03-34 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904953864
+  fields:
+    Front: |
+      CET-12.03-35 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904954036
+  fields:
+    Front: |
+      CET-12.03-36 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904954210
+  fields:
+    Front: |
+      CET-12.03-37 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904954395
+  fields:
+    Front: |
+      CET-12.03-38 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904954584
+  fields:
+    Front: |
+      CET-12.03-39 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904954761
+  fields:
+    Front: |
+      CET-12.03-40 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904954948
+  fields:
+    Front: |
+      CET-12.03-41 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904955115
+  fields:
+    Front: |
+      CET-12.03-42 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904955295
+  fields:
+    Front: |
+      CET-12.03-43 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904955477
+  fields:
+    Front: |
+      CET-12.03-44 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904955660
+  fields:
+    Front: |
+      CET-12.03-45 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904955817
+  fields:
+    Front: |
+      CET-12.03-46 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904955993
+  fields:
+    Front: |
+      CET-12.03-47 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904956166
+  fields:
+    Front: |
+      CET-12.03-48 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904956343
+  fields:
+    Front: |
+      CET-12.03-49 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904956519
+  fields:
+    Front: |
+      CET-12.03-50 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904956693
+  fields:
+    Front: |
+      CET-12.03-51 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904956878
+  fields:
+    Front: |
+      CET-12.03-52 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904957067
+  fields:
+    Front: |
+      CET-12.03-53 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904957244
+  fields:
+    Front: |
+      CET-12.03-54 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904957434
+  fields:
+    Front: |
+      CET-12.03-55 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904957611
+  fields:
+    Front: |
+      CET-12.03-56 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904957795
+  fields:
+    Front: |
+      CET-12.03-57 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904957965
+  fields:
+    Front: |
+      CET-12.03-58 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904958160
+  fields:
+    Front: |
+      CET-12.03-59 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904958360
+  fields:
+    Front: |
+      CET-12.03-60 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904958560
+  fields:
+    Front: |
+      CET-12.03-61 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904958726
+  fields:
+    Front: |
+      CET-12.03-62 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904958893
+  fields:
+    Front: |
+      CET-12.03-63 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904959085
+  fields:
+    Front: |
+      CET-12.03-64 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904959260
+  fields:
+    Front: |
+      CET-12.03-65 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

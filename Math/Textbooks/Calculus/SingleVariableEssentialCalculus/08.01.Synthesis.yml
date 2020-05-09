@@ -1,0 +1,503 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Synthesis
+  - SingleVariableEssentialCalculus
+  - SVEC-08-Series
+  - SVEC-08.01-Sequences
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 0
+  skip: true
+  fields:
+    Front: |
+      SVEC-08.01-00 Synthesis Notes:
+
+      - Definitions:
+        - Sequence limits
+          - $\lim _{n \rightarrow \infty} a_{n}=L$
+          - $\lim _{n \rightarrow \infty} a_{n}=\infty$
+        - Convergence
+        - Divergence
+        - Arithmetic sequence
+        - Harmonic sequence
+        - Geometric sequence
+        - Fibonacci sequence
+        - Increasing sequence
+        - Decreasing sequence
+        - Monotonic sequence
+        - Bounded above
+        - Bounded below
+        - Bounded
+      - Summary of Theorems:
+        - _Unnamed **Function-Sequence Limit Relationship**:_
+        - **Squeeze Theorem for Sequences:**
+        - _Unnamed **Absolute Limit Relationship**:_
+        - **Continuity and Convergence Theorem:** If $\lim _{n \rightarrow \infty} a_{n}=L$ and the function $f$ is continuous at $L,$ then
+        - **Geometric Sequence Convergence:** The sequence $\left\{r^{n}\right\}$ is convergent if $-1<r \leqslant 1$ and divergent for all other values of $r .$
+        - **Monotonic Sequence Theorem:** Every bounded, monotonic sequence is convergent.
+      - Theorems:
+        - _Unnamed **Function-Sequence Limit Relationship**:_
+          If $\lim _{x \rightarrow \infty} f(x)=L$ and $f(n)=a_{n}$ when $n$ is an integer, then $\lim _{n \rightarrow \infty} a_{n}=L.$
+          - **Specific hypotheses:**
+            - $\lim _{x \rightarrow \infty} f(x)=L$ and $f(n)=a_{n}$ when $n$ is an integer
+          - This theorem allows l'Hopital's Rule.
+        - **Limit Laws for Sequences:**
+          If $\left\{a_{n}\right\}$ and $\left\{b_{n}\right\}$ are convergent sequences and $c$ is a constant, then
+          $$
+          \begin{array}{l}
+          \lim _{n \rightarrow \infty}\left(a_{n}+b_{n}\right)=\lim _{n \rightarrow \infty} a_{n}+\lim _{n \rightarrow \infty} b_{n} \\
+          \lim _{n \rightarrow \infty}\left(a_{n}-b_{n}\right)=\lim _{n \rightarrow \infty} a_{n}-\lim _{n \rightarrow \infty} b_{n} \\
+          \lim _{n \rightarrow \infty} c a_{n}=c \lim _{n \rightarrow \infty} a_{n} \\
+          \lim _{n \rightarrow \infty}c=c \\
+          \lim _{n \rightarrow \infty}\left(a_{n} b_{n}\right)=\lim _{n \rightarrow \infty} a_{n} \cdot \lim _{n \rightarrow \infty} b_{n} \\
+          \lim _{n \rightarrow \infty} \frac{a_{n}}{b_{n}}=\frac{\lim _{n \rightarrow \infty} a_{n}}{\lim _{n \rightarrow \infty} b_{n}} \text { if } \lim _{n \rightarrow \infty} b_{n} \neq 0 \\
+          \lim _{n \rightarrow \infty} a_{n}^{p}=\left[\lim _{n \rightarrow \infty} a_{n}\right]^{p} \text { if } p>0 \text { and } a_{n}>0
+          \end{array}
+          $$
+          - **Specific hypotheses:**
+            - $\left\{a_{n}\right\}$ and $\left\{b_{n}\right\}$ are convergent sequences
+            - $c$ is a constant
+            - $\lim _{n \rightarrow \infty} \frac{a_{n}}{b_{n}}:$ $b_n, \lim _{n \rightarrow \infty} b_{n} \ne 0$
+            - $\lim _{n \rightarrow \infty} a_{n}^{p}:$ $p, a_{n} >0$
+        - **Squeeze Theorem for Sequences:**
+          If $a_{n} \leqslant b_{n} \leqslant c_{n}$ for $n \geqslant n_{0}$ and $\lim _{n \rightarrow \infty} a_{n}=\lim _{n \rightarrow \infty} c_{n}=L,$ then $\lim _{n \rightarrow \infty} b_{n}=L$
+        - _Unnamed **Absolute Limit Relationship**:_
+          If $\lim _{n \rightarrow \infty}\left|a_{n}\right|=0,$ then $\lim _{n \rightarrow \infty} a_{n}=0.$
+        - **Continuity and Convergence Theorem:** If $\lim _{n \rightarrow \infty} a_{n}=L$ and the function $f$ is continuous at $L,$ then
+          $$
+          \lim _{n \rightarrow \infty} f\left(a_{n}\right)=f(L)
+          $$
+          - **Specific hypotheses:**
+            - $\lim _{n \rightarrow \infty} a_{n}=L$
+            - $f$ continuous at $L$
+        - **Geometric Sequence Convergence:** The sequence $\left\{r^{n}\right\}$ is convergent if $-1<r \leqslant 1$ and divergent for all other values of $r .$
+          $$
+          \lim _{n \rightarrow \infty} r^{n}=\left\{\begin{array}{ll}0 & \text { if }-1<r<1 \\ 1 & \text { if } r=1\end{array}\right.
+          $$
+        - **Monotonic Sequence Theorem:** Every bounded, monotonic sequence is convergent.
+          - **Specific hypotheses:**
+            - Bounded
+            - Monotonic
+    Back: |
+    Annotations: ''
+  tags: []
+- id: 1584493470841
+  fields:
+    Front: |
+      SVEC-08.01-01 Synthesis:
+      ##### Sequence Theory:
+      List the sequence definitions.
+    Back: |
+      1. **Sequence:**
+      2. **Limits:**
+        - $\lim _{n \rightarrow \infty} a_{n}=L$
+        - $\lim _{n \rightarrow \infty} a_{n}=\infty$
+      3. **Convergent/divergent**
+      4. **Increasing/decreasing/monotonic**
+      5. **Bounded above/below; bounded**
+      6. **Named sequences:**
+        - Arithmetic
+        - Harmonic
+        - Geometric
+        - Fibonacci
+    Annotations: ''
+  tags:
+  - Definitions
+- id: 1584497679565
+  fields:
+    Front: |
+      SVEC-08.01-02 Synthesis:
+      ##### Sequence Theory:
+      List the sequence theorems.
+    Back: |
+      1. _Unnamed_ (**Function-Sequence Limit Relationship**)
+      2. **Limit Laws for Sequences:**
+        - Sum
+        - Difference
+        - Constant Multiple
+        - Constant
+        - Product
+        - Quotient
+        - Power
+      3. **Squeeze Theorem for Sequences**
+      4. _Unnamed_ (**Absolute Limit Relationship**)
+      5. **Continuity and Convergence Theorem**
+      6. **Geometric Sequence Convergence**
+      7. **_(Strictly)_ Monotonic Sequence Theorem**
+    Annotations: 'Thoughts:<div>- 200328-1842: might place CCT before LLs, as they
+      follow from CCT.</div>'
+  tags:
+  - Theorems
+  - ann:thoughts
+---
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Synthesis
+  - Definition
+  - SingleVariableEssentialCalculus
+  - SVEC-08-Series
+  - SVEC-08.01-Sequences
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1584498826916
+  fields:
+    Front: |
+      SVEC-08.01-03 Synthesis:
+      ##### Sequence Theory:
+      Define **sequence.** How is a sequence denoted?
+    Back: |
+      A sequence can be thought of as a list of numbers written in a definite order:
+      $$
+      a_{1}, a_{2}, a_{3}, a_{4}, \ldots, a_{n}, \ldots
+      $$ The number $a_{1}$ is called the first term, $a_{2}$ is the second term, and in general $a_{n}$ is the $n$ th term. We will deal exclusively with infinite sequences and so each term $a_{n}$ will have a successor $a_{n+1}$
+
+      Notice that for every positive integer $n$ there is a corresponding number $a_{n}$ and so a sequence can be defined as a function whose domain is the set of positive integers. But we usually write $a_{n}$ instead of the function notation $f(n)$ for the value of the function at the number $n$.
+
+      **Notation:**
+      The sequence $\left\{a_{1}, a_{2}, a_{3}, \ldots\right\}$ is also denoted by
+      $$
+      \left\{a_{n}\right\} \quad \text { or } \quad\left\{a_{n}\right\}_{n=1}^{\infty}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1584567069517
+  fields:
+    Front: |
+      SVEC-08.01-04 Synthesis:
+      ##### Sequence Theory:
+      Give the precise definition of **limit of a sequence.**
+    Back: |
+      A sequence $\left\{a_{n}\right\}$ has the limit $L$ and we write
+      $$
+      \lim _{n \rightarrow \infty} a_{n}=L \quad \text { or } \quad a_{n} \rightarrow L \text { as } n \rightarrow \infty
+      $$ if for every $\varepsilon>0$ there is a corresponding integer $N$ such that
+      $$
+      \text { if } \quad n>N \quad \text { then } \quad\left|a_{n}-L\right|<\varepsilon
+      $$
+    Annotations: ''
+  tags: []
+- id: 1584567262691
+  fields:
+    Front: |
+      SVEC-08.01-05 Synthesis:
+      ##### Sequence Theory:
+      Define $\lim _{n \rightarrow \infty} a_{n}=\infty.$
+    Back: |
+      $\lim _{n \rightarrow \infty} a_{n}=\infty$ means that for every positive number $M$ there is a positive integer $N$ such that
+      $$
+      \text { if } n>N \quad \text { then } \quad a_{n}>M
+      $$
+    Annotations: ''
+  tags: []
+- id: 1584567466965
+  fields:
+    Front: |
+      SVEC-08.01-06 Synthesis:
+      ##### Sequence Theory:
+      Define **convergent** and **divergent.**
+    Back: |
+      If $\lim _{n \rightarrow \infty} a_{n}$ exists, we say the sequence **converges** (or is **convergent**). Otherwise, we say the sequence **diverges** (or is **divergent**).
+    Annotations: ''
+  tags: []
+- id: 1584567898041
+  fields:
+    Front: |
+      SVEC-08.01-07 Synthesis:
+      ##### Sequence Theory:
+      Define **increasing,** **decreasing,** and **monotonic.**
+    Back: |
+      A sequence $\left\{a_{n}\right\}$ is called **increasing** if $a_{n}<a_{n+1}$ for all $n \geqslant 1,$ that is, $a_{1}<a_{2}<a_{3}<\cdots.$ It is called **decreasing** if $a_{n}>a_{n+1}$ for all $n \geqslant 1 .$ A sequence is **monotonic** if it is either increasing or decreasing.
+
+      **Note:** This is a simplified definition of monotonic, whose standard definition is _nondecreasing_ or _nonincreasing._
+
+      **Standard definition:** A sequence $\left\{a_{n}\right\}$ is called **monotically increasing** if $a_{n} \leqslant a_{n+1}$ for all $n \geqslant 1,$ that is, $a_{1} \leqslant a_{2} \leqslant a_{3}<\cdots.$ It is called **monotonically decreasing** if $a_{n} \geqslant a_{n+1}$ for all $n \geqslant 1 .$ A sequence is **monotonic** if it is monotonically increasing or monotonically decreasing.
+
+      Under the standard definition, any constant sequence $\{c\}$ is both monotonically increasing and monotonically decreasing. This can be confusing for new students, which is perhaps why the simplified definition is used in the Stewart textbook.
+
+      The textbook's simplified version is known by the standard term **strictly monotonic.**
+    Annotations: ''
+  tags: []
+- id: 1584568173616
+  fields:
+    Front: |
+      SVEC-08.01-08 Synthesis:
+      ##### Sequence Theory:
+      Define **bounded above,** **bounded below,** and **bounded.**
+    Back: |
+      A sequence $\left\{a_{n}\right\}$ is **bounded above** if there is a number $M$ such that
+      $$
+      a_{n} \leqslant M \quad \text { for all } n \geqslant 1
+      $$ It is **bounded below** if there is a number $m$ such that
+      $$
+      m \leqslant a_{n} \quad \text { for all } n \geqslant 1
+      $$ If it is bounded above and below, then $\left\{a_{n}\right\}$ is a **bounded** sequence.
+    Annotations: ''
+  tags: []
+- id: 1584569202141
+  fields:
+    Front: |
+      SVEC-08.01-09 Synthesis:
+      ##### Sequence Theory:
+      What is an **arithmetic sequence?**
+    Back: |
+      In mathematics, an arithmetic sequence is a sequence of numbers such that the difference between the consecutive terms is constant.
+
+      If the initial term of an arithmetic progression is $a_{1}$ and the common difference of successive members is $d$, then the $n$th term of the sequence $a_{n}$ is given by:
+      $$
+      a_{n}=a_{1}+(n-1) d,
+      $$ and in general
+      $$
+      a_{n}=a_{m}+(n-m) d.
+      $$
+    Annotations: ''
+  tags: []
+- id: 1584569798991
+  fields:
+    Front: |
+      SVEC-08.01-10 Synthesis:
+      ##### Sequence Theory:
+      What is an **harmonic sequence?**
+    Back: |
+      A **harmonic sequence** is formed by taking the reciprocals of an arithmetic sequence. It takes the form
+      $$
+      \frac{1}{a}, \frac{1}{a+d}, \frac{1}{a+2 d}, \frac{1}{a+3 d}, \cdots
+      $$ Examples:
+
+      - $1,\frac{1}{2},\frac{1}{3},\frac{1}{4},\frac{1}{5},\frac{1}{6}$
+      - $12,6,4,3, \frac{12}{5}, 2, \dots, \frac{12}{n}, \dots$
+      - $30,-30,-10,-6,-\frac{30}{7}, \dots, \frac{10}{1-\frac{2 n}{3}}$
+      - $10,30,-30,-10,-6,-\frac{30}{7}, \dots, \frac{10}{1-\frac{2(n-1)}{3}}$
+    Annotations: ''
+  tags: []
+- id: 1584570094441
+  fields:
+    Front: |
+      SVEC-08.01-11 Synthesis:
+      ##### Sequence Theory:
+      What is a **geometric sequence? common ratio?**
+    Back: |
+      A **geometric sequence** is a sequence of numbers where each term after the first is found by multiplying the previous one by a fixed, non-zero number called the common ratio.
+
+      The general form of a geometric sequence is
+      $$
+      a, a r, a r^{2}, a r^{3}, a r^{4}, \ldots
+      $$ where $r \neq 0$ is the **common ratio** and $a$ is a **scale factor** equal to the sequence's start value.
+    Annotations: ''
+  tags: []
+- id: 1584570139866
+  fields:
+    Front: |
+      SVEC-08.01-12 Synthesis:
+      ##### Sequence Theory:
+      What is the **Fibonacci sequence?**
+    Back: |
+      The **Fibonacci sequence** $\left\{f_{n}\right\}$ is defined recursively by the conditions
+      $$
+      f_{1}=1 \quad f_{2}=1 \quad f_{n}=f_{n-1}+f_{n-2} \quad n \geqslant 3
+      $$ Each term is the sum of the two preceding terms. The first few terms are
+      $$
+      \{1,1,2,3,5,8,13,21, \ldots\}
+      $$ This sequence arose as a simple model when the 13th-century Italian mathematician known as Fibonacci solved a problem concerning the breeding of rabbits.
+    Annotations: ''
+  tags: []
+---
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Synthesis
+  - Theorem
+  - SingleVariableEssentialCalculus
+  - SVEC-08-Series
+  - SVEC-08.01-Sequences
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1584570401090
+  fields:
+    Front: |
+      SVEC-08.01-13 Synthesis:
+      ##### Sequence Theory:
+      State the _Unnamed_ **Function-Sequence Limit Relationship.** List its hypotheses and conclusions.
+    Back: |
+      If $\lim _{x \rightarrow \infty} f(x)=L$ and $f(n)=a_{n}$ when $n$ is an integer, then $\lim _{n \rightarrow \infty} a_{n}=L.$
+
+      Hypotheses:
+
+      - $\lim _{x \rightarrow \infty} f(x)=L$
+      - $f(n)=a_{n}$ when $n$ is an integer
+
+      Conclusions:
+
+      - $\lim _{n \rightarrow \infty} a_{n}=L$
+    Annotations: ''
+  tags: []
+- id: 1584570401366
+  fields:
+    Front: |
+      SVEC-08.01-14 Synthesis:
+      ##### Sequence Theory:
+      State the **Limit Laws for Sequences.** List their hypotheses and conclusions.
+    Back: |
+      If $\left\{a_{n}\right\}$ and $\left\{b_{n}\right\}$ are convergent sequences and $c$ is a constant, then
+      $$
+      \begin{array}{l}
+      \lim _{n \rightarrow \infty}\left(a_{n}+b_{n}\right)=\lim _{n \rightarrow \infty} a_{n}+\lim _{n \rightarrow \infty} b_{n} \\
+      \lim _{n \rightarrow \infty}\left(a_{n}-b_{n}\right)=\lim _{n \rightarrow \infty} a_{n}-\lim _{n \rightarrow \infty} b_{n} \\
+      \lim _{n \rightarrow \infty} c a_{n}=c \lim _{n \rightarrow \infty} a_{n} \\
+      \lim _{n \rightarrow \infty}c=c \\
+      \lim _{n \rightarrow \infty}\left(a_{n} b_{n}\right)=\lim _{n \rightarrow \infty} a_{n} \cdot \lim _{n \rightarrow \infty} b_{n} \\
+      \lim _{n \rightarrow \infty} \frac{a_{n}}{b_{n}}=\frac{\lim _{n \rightarrow \infty} a_{n}}{\lim _{n \rightarrow \infty} b_{n}} \text { if } \lim _{n \rightarrow \infty} b_{n} \neq 0 \\
+      \lim _{n \rightarrow \infty} a_{n}^{p}=\left[\lim _{n \rightarrow \infty} a_{n}\right]^{p} \text { if } p>0 \text { and } a_{n}>0
+      \end{array}
+      $$
+
+      Hypotheses:
+
+      - $\left\{a_{n}\right\}$ and $\left\{b_{n}\right\}$ are convergent sequences
+      - $c$ is a constant
+      - $\lim _{n \rightarrow \infty} \frac{a_{n}}{b_{n}}:$ $b_n, \lim _{n \rightarrow \infty} b_{n} \ne 0$
+      - $\lim _{n \rightarrow \infty} a_{n}^{p}:$ $p, a_{n} >0$
+
+      Conclusions:
+
+      - The limit of term sums equals the sum of sequence limits.
+      - The limit of term differences equals the difference of sequence limits.
+      - The limit of constant multiples of terms equals the constant multiple of the sequence limit.
+      - The limit of a constant sequence equals the constant.
+      - The limit of term products equals the product of sequence limits.
+      - The limit of term quotients equals the quotient of sequence limits.
+      - The limit of term powers equals the power of the sequence limit.
+    Annotations: ''
+  tags: []
+- id: 1584570896641
+  fields:
+    Front: |
+      SVEC-08.01-15 Synthesis:
+      ##### Sequence Theory:
+       State the **Squeeze Theorem for Sequences.** List its hypotheses and conclusions.
+    Back: |
+      If $a_{n} \leqslant b_{n} \leqslant c_{n}$ for $n \geqslant n_{0}$ and $\lim _{n \rightarrow \infty} a_{n}=\lim _{n \rightarrow \infty} c_{n}=L,$ then $\lim _{n \rightarrow \infty} b_{n}=L.$
+
+      Hypotheses:
+
+      - $a_{n} \leqslant b_{n} \leqslant c_{n}$ for $n \geqslant n_{0}$ 
+      - $\lim _{n \rightarrow \infty} a_{n}=\lim _{n \rightarrow \infty} c_{n}=L$
+
+      Conclusion:
+
+      - $\lim _{n \rightarrow \infty} b_{n}=L$
+    Annotations: 'Questions:<div>- 200328-1835: can we use \(n_0\) in exams?</div>'
+  tags:
+  - ann:thoughts
+- id: 1584571104015
+  fields:
+    Front: |
+      SVEC-08.01-16 Synthesis:
+      ##### Sequence Theory:
+      State the _Unnamed **Absolute Limit Relationship for Sequences.**_ List its hypotheses and conclusions.
+    Back: |
+      If $\lim _{n \rightarrow \infty}\left|a_{n}\right|=0,$ then $\lim _{n \rightarrow \infty} a_{n}=0.$
+
+      Hypotheses:
+
+      - $\lim _{n \rightarrow \infty}\left|a_{n}\right|=0$
+
+      Conclusions:
+
+      - $\lim _{n \rightarrow \infty} a_{n}=0$
+    Annotations: ''
+  tags: []
+- id: 1584571203816
+  fields:
+    Front: |
+      SVEC-08.01-17 Synthesis:
+      ##### Sequence Theory:
+      State the **Continuity and Convergence Theorem.** List its hypotheses and conclusions.
+    Back: |
+      If $\lim _{n \rightarrow \infty} a_{n}=L$ and the function $f$ is continuous at $L,$ then
+      $$
+      \lim _{n \rightarrow \infty} f\left(a_{n}\right)=f(L)
+      $$
+
+      Hypotheses:
+
+      - $\lim _{n \rightarrow \infty} a_{n}=L$
+      - $f$ continuous at $L$
+
+      Conclusions:
+
+      - $\lim _{n \rightarrow \infty} f\left(a_{n}\right)=f(L)$
+    Annotations: ''
+  tags: []
+- id: 1584571331715
+  fields:
+    Front: |
+      SVEC-08.01-18 Synthesis:
+      ##### Sequence Theory:
+      State the **Geometric Sequence Convergence Theorem.** List its hypotheses.
+    Back: |
+      The sequence $\left\{r^{n}\right\}$ is convergent if $-1<r \leqslant 1$ and divergent for all other values of $r .$
+      $$
+      \lim_{n \to \infty} r^n = \left\{ \begin{aligned}
+      \text{DNE} &\quad\text{if } r \leqslant -1 \\
+      0 &\quad\text{if } -1 < r < 1 \\
+      1 &\quad\text{if } r = 1 \\
+      \infty &\quad\text{if } r > 1
+      \end{aligned}
+      \right.
+      $$
+
+      Hypotheses and conclusions:
+
+      - Sequence terms take the form $r^n$ for constant $r$
+      - $$
+        \lim_{n \to \infty} r^n = \left\{ \begin{aligned}
+        \text{DNE} &\quad\text{if } r \leqslant -1 \\
+        0 &\quad\text{if } -1 < r < 1 \\
+        1 &\quad\text{if } r = 1 \\
+        \infty &\quad\text{if } r > 1
+        \end{aligned}
+        \right.
+        $$
+    Annotations: "Trouble:<div>- 200328-1854: habit: I keep adding a scaling factor,\
+      \ but shouldn't.</div><div><br></div><div>Thoughts:</div><div>- 200328-1854:\
+      \ use of a scaling factor \\(a\\) muddies the theorem: if \\(a&lt;0\\) then\
+      \ signs change; if \\(a = 0\\) then the sequence always converges to zero.</div>"
+  tags:
+  - ann:thoughts
+  - ann:trouble
+- id: 1584571557291
+  fields:
+    Front: |
+      SVEC-08.01-19 Synthesis:
+      ##### Sequence Theory:
+      State the **_(Strictly)_ Monotonic Sequence Theorem.** List its hypotheses and conclusions.
+    Back: |
+      Every bounded, (strictly) monotonic sequence is convergent.
+
+      Hypotheses:
+
+      - The sequence is bounded
+      - The sequence is (strictly) monotonic
+
+      Conclusions:
+
+      - The sequence converges
+    Annotations: ''
+  tags: []

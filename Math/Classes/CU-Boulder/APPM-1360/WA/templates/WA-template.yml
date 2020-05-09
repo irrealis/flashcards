@@ -1,22 +1,18 @@
   media:
-  - path: ${file_dir}/images/APPM-1360-WAXX-XX.1.jpg
+  - path: ¢{file_dir}/images/APPM-1360-WAXX-XX.1.jpg
       <p/><p align="center">
       ![](APPM-1360-WAXX-XX.1.jpg)
       </p>
+  tags: []
 - id: 0
   fields:
     Front: |
-      APPM 1360 WAXX-XX:
-      ##### Chapter 5 review
-      _topic: _
-
-
+      APPM 1360 WA33-XX:
+      #### c9: Parametric Equations and Polar Coordinates
+      ##### s9.1: Parametric Curves
+      Temporary: work and check in WebAssign.
     Back: |
-
       ##### Full solution:
-      To do.
     Annotations: ''
   tags:
-  - ToDo
-  - PartDone
   - Editing

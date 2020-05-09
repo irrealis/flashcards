@@ -1,0 +1,638 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-12-VectorsAndTheGeometryOfSpace
+  - CET-12.02-Vectors
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1588877685334
+  fields:
+    Front: |
+      CET-12.02-01 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877685526
+  fields:
+    Front: |
+      CET-12.02-02 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877685746
+  fields:
+    Front: |
+      CET-12.02-03 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877685913
+  fields:
+    Front: |
+      CET-12.02-04 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877686081
+  fields:
+    Front: |
+      CET-12.02-05 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877686264
+  fields:
+    Front: |
+      CET-12.02-06 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877686479
+  fields:
+    Front: |
+      CET-12.02-07 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877686646
+  fields:
+    Front: |
+      CET-12.02-08 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877686830
+  fields:
+    Front: |
+      CET-12.02-09 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877687034
+  fields:
+    Front: |
+      CET-12.02-10 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877687214
+  fields:
+    Front: |
+      CET-12.02-11 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877687396
+  fields:
+    Front: |
+      CET-12.02-12 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877687596
+  fields:
+    Front: |
+      CET-12.02-13 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877687779
+  fields:
+    Front: |
+      CET-12.02-14 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877687963
+  fields:
+    Front: |
+      CET-12.02-15 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877688134
+  fields:
+    Front: |
+      CET-12.02-16 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877688330
+  fields:
+    Front: |
+      CET-12.02-17 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877688529
+  fields:
+    Front: |
+      CET-12.02-18 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877688714
+  fields:
+    Front: |
+      CET-12.02-19 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877688884
+  fields:
+    Front: |
+      CET-12.02-20 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877689079
+  fields:
+    Front: |
+      CET-12.02-21 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877689263
+  fields:
+    Front: |
+      CET-12.02-22 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877689466
+  fields:
+    Front: |
+      CET-12.02-23 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877689648
+  fields:
+    Front: |
+      CET-12.02-24 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877689813
+  fields:
+    Front: |
+      CET-12.02-25 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877690013
+  fields:
+    Front: |
+      CET-12.02-26 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877690196
+  fields:
+    Front: |
+      CET-12.02-27 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877690383
+  fields:
+    Front: |
+      CET-12.02-28 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877690564
+  fields:
+    Front: |
+      CET-12.02-29 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877690747
+  fields:
+    Front: |
+      CET-12.02-30 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877690930
+  fields:
+    Front: |
+      CET-12.02-31 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877691125
+  fields:
+    Front: |
+      CET-12.02-32 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877691331
+  fields:
+    Front: |
+      CET-12.02-33 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877691531
+  fields:
+    Front: |
+      CET-12.02-34 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877691730
+  fields:
+    Front: |
+      CET-12.02-35 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877691930
+  fields:
+    Front: |
+      CET-12.02-36 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877692104
+  fields:
+    Front: |
+      CET-12.02-37 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877692288
+  fields:
+    Front: |
+      CET-12.02-38 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877692468
+  fields:
+    Front: |
+      CET-12.02-39 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877692638
+  fields:
+    Front: |
+      CET-12.02-40 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877692813
+  fields:
+    Front: |
+      CET-12.02-41 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877693015
+  fields:
+    Front: |
+      CET-12.02-42 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877693196
+  fields:
+    Front: |
+      CET-12.02-43 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877693381
+  fields:
+    Front: |
+      CET-12.02-44 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877693564
+  fields:
+    Front: |
+      CET-12.02-45 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877693780
+  fields:
+    Front: |
+      CET-12.02-46 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877693956
+  fields:
+    Front: |
+      CET-12.02-47 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877694131
+  fields:
+    Front: |
+      CET-12.02-48 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877694330
+  fields:
+    Front: |
+      CET-12.02-49 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877694514
+  fields:
+    Front: |
+      CET-12.02-50 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877694731
+  fields:
+    Front: |
+      CET-12.02-51 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877694930
+  fields:
+    Front: |
+      CET-12.02-52 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

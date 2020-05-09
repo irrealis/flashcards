@@ -1,0 +1,360 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1360
+  - APPM-1360-WA22
+  - SingleVariableEssentialCalculus
+  - SVEC-08-Series
+  - SVEC-08.03-TheIntegralAndComparisonTests
+  - WebAssign
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1583795364070
+  fields:
+    Front: |
+      APPM 1360 WA22-01:
+      #### c8: Series
+      ##### s8.3: The Integral And Comparison Tests, day 1
+      Use the Integral Test to determine whether the series is convergent or divergent.
+      $$
+      \sum_{n=1}^{\infty} \frac{n}{n^{2}+1}
+      $$ Evaluate the following integral.
+      $$
+      \int_{1}^{\infty} \frac{x}{x^{2}+1} d x
+      $$
+    Back: |
+      $\infty$. Since the integral is not finite, the series is divergent.
+
+      ##### Full solution:
+      The function $f(x)=\frac{x}{x^{2}+1}$ is continuous, positive, and decreasing on $[1, \infty),$ so the Integral Test applies.
+
+      $\int_{1}^{\infty} \frac{x}{x^{2}+1} d x$ $=\lim _{t \rightarrow \infty} \int_{1}^{t} \frac{x}{x^{2}+1} d x$ $=\lim _{t \rightarrow \infty}\left[\frac{1}{2} \ln \left(x^{2}+1\right)\right]_{1}^{t}$ $=\frac{1}{2} \lim _{t \rightarrow \infty}\left[\ln \left(t^{2}+1\right)-\ln 2\right]=\infty .$ since this improper integral is divergent, the series $\sum_{n=1}^{\infty} \frac{n}{n^{2}+1}$ is also divergent by the Integral Test.
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1583795646095
+  fields:
+    Front: |
+      APPM 1360 WA22-02:
+      #### c8: Series
+      ##### s8.3: The Integral And Comparison Tests, day 1
+      Use the Integral Test to determine whether the series is convergent or divergent.
+      $$
+      \sum_{n=1}^{\infty} n^{6} e^{-n^{7}}
+      $$ Evaluate the following integral.
+      $$
+      \int_{1}^{\infty} x^{6} e^{-x^{7}} d x
+      $$
+    Back: |
+      $\frac{1}{7 e}$. Since the integral is finite, the series is convergent.
+
+      ##### Full solution:
+      The function $f(x)=x^{6} e^{-x^{7}}$ is continuous, positive, and decreasing ( $*$ ) on $[1, \infty),$ so the Integral Test applies.
+      $$
+      \begin{aligned}
+      \int_{1}^{\infty} x^{6} e^{-x^{7}} d x
+      &=\lim _{t \rightarrow \infty} \int_{1}^{t} x^{6} e^{-x^{7}} d x \\
+      &=\lim _{t \rightarrow \infty}\left[-\frac{1}{7} e^{-x^{7}}\right]_{1}^{t} \\
+      &=-\frac{1}{7} \lim _{t \rightarrow \infty}\left(e^{-t^{7}}-e^{-1}\right) \\
+      &=-\frac{1}{7}\left(0-\frac{1}{e}\right)=\frac{1}{7 e}
+      \end{aligned}
+      $$ Since this improper integral is convergent, the series $\sum_{n=1}^{\infty} n^{6} e^{-n^{7}}$ is also convergent by the Integral Test.
+
+      ($*$): $f^{\prime}(x)=x^{6} e^{-x^{7}}\left(-7 x^{6}\right)+e^{-x^{7}}\left(6 x^{5}\right)$ $=x^{5} e^{-x^{7}}\left(-7 x^{7}+6\right)$ $=\frac{x^{5}\left(6-7 x^{7}\right)}{e^{x^{7}}}<0$ for $x>1$.
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1583795792320
+  fields:
+    Front: |
+      APPM 1360 WA22-03:
+      #### c8: Series
+      ##### s8.3: The Integral And Comparison Tests, day 1
+      Determine whether the series is convergent or divergent.
+      $$
+      1+\frac{1}{16}+\frac{1}{81}+\frac{1}{256}+\frac{1}{625}+\cdots
+      $$
+    Back: |
+      The series is a convergent $p$-series with $p=4$.
+
+      ##### Full solution:
+      $1+\frac{1}{16}+\frac{1}{81}+\frac{1}{256}+\frac{1}{625}+\cdots=\sum_{n=1}^{\infty} \frac{1}{n^{4}} .$ This is a $p$ -series with $p=4>1$, so it converges.
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1583795916446
+  fields:
+    Front: |
+      APPM 1360 WA22-04:
+      #### c8: Series
+      ##### s8.3: The Integral And Comparison Tests, day 1
+      Determine whether the series is convergent or divergent.
+      $$
+      1+\frac{1}{2 \sqrt{2}}+\frac{1}{3 \sqrt{3}}+\frac{1}{4 \sqrt{4}}+\frac{1}{5 \sqrt{5}} \cdots
+      $$
+    Back: |
+      The series is a convergent $p$-series with $p=\frac{3}{2}$.
+
+      ##### Full solution:
+      $1+\frac{1}{2 \sqrt{2}}+\frac{1}{3 \sqrt{3}}+\frac{1}{4 \sqrt{4}}+\frac{1}{5 \sqrt{5}}+\cdots=\sum_{n=1}^{\infty} \frac{1}{n \sqrt{n}}$ $=\sum_{n=1}^{\infty} \frac{1}{n^{3 / 2}} .$ This is a $p$-series with $p=\frac{3}{2}>1,$ so it converges.
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1583796153021
+  fields:
+    Front: |
+      APPM 1360 WA22-05:
+      #### c8: Series
+      ##### s8.3: The Integral And Comparison Tests, day 1
+      Consider the following series.
+      $$
+      \sum_{n=1}^{\infty} \frac{\sqrt{n}+9}{n^{2}}
+      $$ The series is equivalent to the sum of two $p$-series. Find the value of $p$ for each series. Determine whether the series is convergent or divergent.
+    Back: |
+      $p_1 = 3/2$, $p_2 = 2$, convergent.
+
+      ##### Full solution:
+      $\sum_{n=1}^{\infty} \frac{\sqrt{n}+9}{n^{2}}=\sum_{n=1}^{\infty}\left(\frac{\sqrt{n}}{n^{2}}+\frac{9}{n^{2}}\right)$ $=\sum_{n=1}^{\infty} \frac{1}{n^{3 / 2}}+\sum_{n=1}^{\infty} \frac{9}{n^{2}}$. $\sum_{n=1}^{\infty} \frac{1}{n^{3 / 2}}$ is a convergent $p$-series with $p=\frac{3}{2}>1 . \sum_{n=1}^{\infty} \frac{9}{n^{2}}=9 \sum_{n=1}^{\infty} \frac{1}{n^{2}}$ is a constant multiple of a convergent $p$-series with $p=2>1,$ so it converges. The sum of two convergent series is convergent, so the original series is convergent.
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1583796525546
+  fields:
+    Front: |
+      APPM 1360 WA22-06:
+      #### c8: Series
+      ##### s8.3: The Integral And Comparison Tests, day 1
+      Determine whether the series is convergent or divergent.
+      $$
+      \sum_{n=2}^{\infty} \frac{6}{n \ln (n)}
+      $$
+    Back: |
+      Divergent.
+
+      ##### Full solution:
+      $f(x)=\frac{6}{(x) \ln (x)}$ is continuous and positive on $[2, \infty),$ and also decreasing since $f^{\prime}(x)=-6 \frac{1+\ln (x)}{(x)^{2}(\ln (x))^{2}}<0$ for $x>2,$ so we can use the Integral Test.
+      $$
+      \begin{aligned}
+      \int_{2}^{\infty} \frac{6}{(x) \ln (x)} d x &=6 \lim _{t \rightarrow \infty}[\ln (\ln (x))]_{2}^{t} \\
+      &=6 \lim _{t \rightarrow \infty}[\ln (\ln (t))-\ln (\ln (2))]=\infty
+      \end{aligned}
+      $$ so the series $\sum_{n=2}^{\infty} \frac{6}{(n) \ln (n)}$ diverges.
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1583796615696
+  fields:
+    Front: |
+      APPM 1360 WA22-07:
+      #### c8: Series
+      ##### s8.3: The Integral And Comparison Tests, day 1
+      Consider the following function.
+      $$
+      f(x)=\frac{8 \cos (\pi x)}{\sqrt{x}}
+      $$ What conclusions can be made about the series $\sum_{n=1}^{\infty} \frac{8 \cos (\pi n)}{\sqrt{n}}$ and the Integral Test?
+    Back: |
+      The Integral Test cannot be used to determine whether the series is convergent since the function is not positive and not decreasing on $(1, \infty)$.
+
+      ##### Full solution:
+      The function $f(x)=\frac{8 \cos (\pi x)}{\sqrt{x}}$ is neither positive nor decreasing on $[1, \infty),$ so the hypotheses of the Integral Test are not satisfied for the series $\sum_{n=1}^{\infty} \frac{8 \cos (\pi n)}{\sqrt{n}}$.
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1583796908346
+  fields:
+    Front: |
+      APPM 1360 WA22-08:
+      #### c8: Series
+      ##### s8.3: The Integral And Comparison Tests, day 1
+      Find the values of $p$ for which the series is convergent.
+      $$
+      \sum_{n=2}^{\infty} \frac{1}{n(\ln (n))^{p}}
+      $$
+    Back: |
+      $$
+      p > 1
+      $$
+
+      ##### Full solution:
+      We have already shown$^{\dagger}$ that when $p=1$ the series $\sum_{n=2}^{\infty} \frac{1}{n(\ln (n))^{p}}$ diverges, so assume that $p \neq 1 . f(x)=\frac{1}{x(\ln (x))^{p}}$ is continuous and positive on $[2, \infty),$ and
+      $$
+      f^{\prime}(x)=-\frac{p+\ln (x)}{x^{2}(\ln (x))^{p+1}}<0 \text { if } x>e^{-p},
+      $$ so that $f$ is eventually decreasing and we can use the Integral Test.
+      $$
+      \begin{aligned}
+      \int_{2}^{\infty} \frac{1}{x(\ln (x))^{p}} d x &=\lim _{t \rightarrow \infty}\left[\frac{(\ln (x))^{1-p}}{1-p}\right]_{2}^{t}[\text { for } p \neq 1] \\
+      &=\lim _{t \rightarrow \infty}\left[\frac{(\ln (t))^{1-p}}{1-p}-\frac{(\ln (2))^{1-p}}{1-p}\right]
+      \end{aligned}
+      $$ This limit exists whenever $1-p<0 \Leftrightarrow p>1,$ so the series converges for $p>1$.
+
+      $\dagger$: $f(x)=\frac{1}{x \ln x}$ is continuous and positive on $[2, \infty),$ and also decreasing since $f^{\prime}(x)=-\frac{1+\ln x}{x^{2}(\ln x)^{2}}<0$ for $x>2,$ so we can use the Integral Test. $\int_{2}^{\infty} \frac{1}{x \ln x} d x=\lim _{t \rightarrow \infty}[\ln (\ln x)]_{2}^{t}$ $=\lim _{t \rightarrow \infty}[\ln (\ln t)-\ln (\ln 2)]$ $=\infty,$ so the series $\sum_{n=2}^{\infty} \frac{1}{n \ln n}$ diverges.
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1583797157996
+  fields:
+    Front: |
+      APPM 1360 WA22-09:
+      #### c8: Series
+      ##### s8.3: The Integral And Comparison Tests, day 1
+      Euler found the sum of the $p$ -series with $p=4$
+      $$
+      \zeta(4)=\sum_{n=1}^{\infty} \frac{1}{n^{4}}=\frac{\pi^{4}}{90}
+      $$
+      Use Euler's result to find the sum of the series.
+      (a) $\sum_{n=1}^{\infty}\left(\frac{4}{n}\right)^{4}$
+      (b) $\sum_{k=4}^{\infty} \frac{1}{(k-1)^{4}}$
+    Back: |
+      (a) $\frac{128}{45} \pi^{4}$
+      (b) $\frac{\pi^{4}}{90}-\frac{17}{16}$
+
+      ##### Full solution:
+      (a) $\sum_{n=1}^{\infty}\left(\frac{4}{n}\right)^{4}=\sum_{n=1}^{\infty} \frac{256}{n^{4}}$ $=256 \sum_{n=1}^{\infty} \frac{1}{n^{4}}$ $=256\left(\frac{\pi^{4}}{90}\right)$ $=\frac{128 \pi^{4}}{45}$
+      (b) $\sum_{k=4}^{\infty} \frac{1}{(k-1)^{4}}=\frac{1}{3^{4}}+\frac{1}{4^{4}}+\frac{1}{5^{4}}+\cdots$ $=\sum_{k=3}^{\infty} \frac{1}{k^{4}}$ $=\frac{\pi^{4}}{90}-\left(\frac{1}{1^{4}}+\frac{1}{2^{4}}\right)\left[\text { subtract } a_{1} \text { and } a_{2}\right]$ $=\frac{\pi^{4}}{90}-\frac{17}{16}$
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1583797292846
+  fields:
+    Front: |
+      APPM 1360 WA22-10:
+      #### c8: Series
+      ##### s8.3: The Integral And Comparison Tests, day 1
+      Determine whether the series is convergent or divergent.
+      $$
+      \frac{1}{3}+\frac{1}{7}+\frac{1}{11}+\frac{1}{15}+\frac{1}{19}+\cdots
+      $$
+    Back: |
+      Divergent.
+
+      ##### Full solution:
+      $\frac{1}{3}+\frac{1}{7}+\frac{1}{11}+\frac{1}{15}+\frac{1}{19}+\cdots=\sum_{n=1}^{\infty} \frac{1}{4 n-1} .$ The function $f(x)=\frac{1}{4 x-1}$ is continuous, positive, and decreasing on $[1, \infty),$ so the Integral Test applies.
+      $$
+      \begin{aligned}
+      \int_{1}^{\infty} \frac{1}{4 x-1} d x &=\lim _{t \rightarrow \infty} \int_{1}^{t} \frac{1}{4 x-1} d x=\lim _{t \rightarrow \infty}\left[\frac{1}{4} \ln |4 x-1|\right]_{1}^{t} \\
+      &=\frac{1}{4} \lim _{t \rightarrow \infty}(\ln (4 t-1)-\ln 3)=\infty
+      \end{aligned}
+      $$
+      so the series $\sum_{n=1}^{\infty} \frac{1}{4 n-1}$ diverges.
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1583798149546
+  fields:
+    Front: |
+      APPM 1360 WA22-11:
+      #### c8: Series
+      ##### s8.3: The Integral And Comparison Tests, day 1
+      Determine whether the series is convergent or divergent.
+      $$
+      \sum_{n=1}^{\infty} \frac{\ln (n)}{n^{3}}
+      $$
+    Back: |
+      Convergent.
+
+      ##### Full solution:
+      $\sum_{n=1}^{\infty} \frac{\ln n}{n^{3}}=\sum_{n=2}^{\infty} \frac{\ln n}{n^{3}} \operatorname{since} \frac{\ln 1}{1}=0 .$ The function $f(x)=\frac{\ln x}{x^{3}}$ is continuous and positive on $[2, \infty)$. $f^{\prime}(x)=\frac{x^{3}(1 / x)-(\ln x)\left(3 x^{2}\right)}{\left(x^{3}\right)^{2}}$ $=\frac{x^{2}-3 x^{2} \ln x}{x^{6}}$ $=\frac{1-3 \ln x}{x^{4}}<0$ $\Leftrightarrow 1-3 \ln x<0$ $\Leftrightarrow \ln x>\frac{1}{3}$ $\Leftrightarrow x>e^{1 / 3} \approx 1.4,$ so $f$ is decreasing on $[2, \infty)$ and the Integral Test applies.
+      $$
+      \begin{aligned}
+      \int_{2}^{\infty} \frac{\ln x}{x^{3}} d x
+      &=\lim _{t \rightarrow \infty} \int_{2}^{t} \frac{\ln x}{x^{3}}
+      dx &\stackrel{(\star)}{=}\lim _{t \rightarrow \infty}\left[-\frac{\ln x}{2 x^{2}}-\frac{1}{4 x^{2}}\right]_{2}^{t} \\
+      &=\lim _{t \rightarrow \infty}\left[-\frac{1}{4 t^{2}}(2 \ln t+1)+\frac{\ln 2}{8}+\frac{1}{16}\right] \stackrel{(\star \star)}{=} \frac{\ln 2}{8}+\frac{1}{16},
+      \end{aligned}
+      $$ so the series $\sum_{n=2}^{\infty} \frac{\ln n}{n^{3}}$ converges.
+
+      $(\star)$: $u=\ln x, d v=x^{-3} d x $ $ \Rightarrow d u=\frac{1}{x} d x, v=-\frac{1}{2} x^{-2},$ so
+      $$
+      \begin{aligned} \int \frac{\ln x}{x^{3}} d x
+      &=-\frac{1}{2} x^{-2} \ln x-\int-\frac{1}{2} x^{-2} \frac{1}{x} d x \\
+      &=-\frac{1}{2} x^{-2} \ln x+\frac{1}{2} \int x^{-3} d x \\
+      &=-\frac{1}{2} x^{-2} \ln x-\frac{1}{4} x^{-2}+C
+      \end{aligned}
+      $$
+      $(\star \star)$: $\lim _{t \rightarrow \infty}\left(-\frac{2 \ln t+1}{4 t^{2}}\right) \stackrel{\mathrm{H}}{=}-\lim _{t \rightarrow \infty} \frac{2 / t}{8 t}$ $=-\frac{1}{4} \lim _{t \rightarrow \infty} \frac{1}{t^{2}}=0$.
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1583798352446
+  fields:
+    Front: |
+      APPM 1360 WA22-12:
+      #### c8: Series
+      ##### s8.3: The Integral And Comparison Tests, day 1
+      Determine whether the series is convergent or divergent.
+      $$
+      \sum_{n=1}^{\infty} \frac{e^{1 / n^{9}}}{n^{10}}
+      $$
+    Back: |
+      Convergent.
+
+      ##### Full solution:
+      The function $f(x)=\frac{e^{1 / x^{9}}}{x^{10}}$ is continuous, positive, and decreasing on $[1, \infty)$ so the Integral Test applies. [$g(x)=e^{1 / x^{9}}$ is decreasing and dividing by $x^{10}$ doesn't change that fact.]
+      $$
+      \begin{aligned}
+      \int_{1}^{\infty} f(x) d x
+      &=\lim _{t \rightarrow \infty} \int_{1}^{t} \frac{e^{1 / x^{9}}}{x^{10}} d x \\
+      &=\lim _{t \rightarrow \infty}\left[-\frac{1}{9} e^{1 / x^{9}}\right]_{1}^{t} \\
+      &=-\frac{1}{9} \lim _{t \rightarrow \infty}\left(e^{1 / t^{9}}-e\right) \\
+      &=-\frac{1}{9}(1-e)=\frac{1}{9}(e-1)
+      \end{aligned}
+      $$ so the series $\sum_{n=1}^{\infty} \frac{e^{1 / n^{9}}}{n^{10}}$ converges.
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1583798494996
+  fields:
+    Front: |
+      APPM 1360 WA22-13:
+      #### c8: Series
+      ##### s8.3: The Integral And Comparison Tests, day 1
+      Determine whether the series is convergent or divergent.
+      $$
+      \sum_{n=1}^{\infty} \frac{2-5 \sqrt{n}}{n^{3}}
+      $$
+    Back: |
+      Convergent.
+
+      ##### Full solution:
+      $\sum_{n=1}^{\infty} \frac{2-5 \sqrt{n}}{n^{3}}=2 \sum_{n=1}^{\infty} \frac{1}{n^{3}}-5 \sum_{n=1}^{\infty} \frac{1}{n^{5 / 2}},$ since $\sum_{n=1}^{\infty} \frac{1}{n^{3}}$ and $\sum_{n=1}^{\infty} \frac{1}{n^{5 / 2}}$ both converge. Thus, $\sum_{n=1}^{\infty} \frac{2-5 \sqrt{n}}{n^{3}}$ converges.
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1583799139496
+  fields:
+    Front: |
+      APPM 1360 WA22-14:
+      #### c8: Series
+      ##### s8.3: The Integral And Comparison Tests, day 1
+      The differential equation below models the temperature of an $95^{\circ} \mathrm{C}$ cup of coffee in a $21^{\circ} \mathrm{C}$ room, where it is known that the coffee cools at a rate of $1^{\circ} \mathrm{C}$ per minute when its temperature is $71^{\circ} \mathrm{C}$. Solve the differential equation to find an expression for the temperature of the coffee at time $t$. (Let $y$ be the temperature of the cup of coffee in $^{\circ} \mathrm{C}$, and let t be the time in minutes, with $t=0$ corresponding to the time when the temperature was $95^{\circ} \mathrm{C}$.)
+      $$
+      \frac{d y}{d t}=-\frac{1}{50}(y-21)
+      $$
+    Back: |
+      $$
+      y=74 e^{-t / 50}+21
+      $$
+
+      ##### Full solution:
+      $$
+      \begin{array}{lrcl}
+      {}&{\frac{d y}{d t}}&{=}&{-\frac{1}{50}(y-21)} \\
+      {\Leftrightarrow}&{\int \frac{d y}{y-21}}&{=}&{\int\left(-\frac{1}{50}\right) d t} \\
+      {\Leftrightarrow}&{\ln |y-21|}&{=}&{-\frac{1}{50} t+C} \\
+      {\Leftrightarrow}&{y-21}&{=}&{K e^{-t / 50}} \\
+      {\Leftrightarrow}&{y(t)}&{=}&{K e^{-t / 50}+21.} \\
+      {}&{}&{}&{} \\
+      {}&{y(0)}&{=}&{95} \\
+      {\Leftrightarrow}&{95}&{=}&{K+21} \\
+      {\Leftrightarrow}&{K}&{=}&{74} \\
+      {\Leftrightarrow}&{y(t)}&{=}&{74 e^{-t / 50}+21.}
+      \end{array}
+      $$
+    Annotations: ''
+  tags:
+  - Editing

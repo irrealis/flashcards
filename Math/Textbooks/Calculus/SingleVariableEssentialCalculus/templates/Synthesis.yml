@@ -1,0 +1,52 @@
+- id: 0
+  skip: true
+  fields:
+    Front: |
+      SVEC-XX.XX-XX Synthesis Notes:
+      #### Summary of definitions:
+      #### Summary of theorems:
+    Back: |
+    Annotations: ''
+  tags: []
+
+  media:
+  - path: ¢{file_dir}/images/SVEC-XX.XX-XX.Sy.1.jpg
+      <p align="center">
+      ![](SVEC-XX.XX-XX.Sy.1.jpg)
+      </p>
+- id: 0
+  fields:
+    Front: |
+      SVEC-XX.XX-XX Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      ###### Quadric Surfaces
+      Define .
+    Back: |
+      XXX
+    Annotations: ''
+  tags:
+  - Definition
+  - Editing
+
+  media:
+  - path: ¢{file_dir}/images/SVEC-XX.XX-XX.Sy.1.jpg
+      <p align="center">
+      ![](SVEC-XX.XX-XX.Sy.1.jpg)
+      </p>
+- id: 0
+  fields:
+    Front: |
+      SVEC-XX.XX-XX Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      ###### Quadric Surfaces
+      State the . List its hypotheses.
+    Back: |
+      Hypotheses:
+
+      - 
+    Annotations: ''
+  tags:
+  - Theorem
+  - Editing

@@ -1,0 +1,327 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Synthesis
+  - SingleVariableEssentialCalculus
+  - SVEC-09-ParametricEquationsAndPolarCoordinates
+  - SVEC-09.03-PolarCoordinates
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 0
+  skip: true
+  fields:
+    Front: |
+      SVEC-09.03-00 Synthesis Notes:
+      #### Summary of definitions:
+      **polar coordinate system**
+      **pole**
+      **polar axis**
+      **polar coordinates**
+      **graph of a polar equation**
+      **cardioid**
+      **rose**
+      #### Summary of theorems:
+      _unnamed_ **connection between polar and Cartesian coordinates**
+      _unnamed_ **procedure to find $r$ and $\theta$ when $x$ and $y$ are known**
+      _unnamed_ **properties of $r = \sin(n\theta)$**
+      _unnamed_ **polar functions of the form $r = a + b \sin(\theta)$**
+      **formula for polar tangents** and _unnamed_ **procedure to find tangent to a polar curve $r = f(\theta)$**
+      #### Summary of proofs:
+    Back: |
+    Annotations: ''
+  tags: []
+- id: 1587780060175
+  fields:
+    Front: |
+      SVEC-09.03-01 Synthesis:
+      #### Polar Coordinates
+      List the polar-coordinate definitions.
+    Back: |
+      1. **pole**
+      2. **polar axis**
+      3. **polar coordinates**
+      4. **polar coordinate system**
+      5. **graph of a polar equation**
+      6. **cardioid**
+      7. **rose**
+    Annotations: ''
+  tags:
+  - Definitions
+- id: 1587781771800
+  fields:
+    Front: |
+      SVEC-09.03-02 Synthesis:
+      #### Polar Coordinates
+      List the polar-coordinate theorems.
+    Back: |
+      1. _unnamed_ **connection between polar and Cartesian coordinates**
+      2. _unnamed_ **procedure to find $r$ and $\theta$ when $x$ and $y$ are known**
+      3. _unnamed_ **properties of $r = \sin(n\theta)$**
+      4. _unnamed_ **polar functions of the form $r = a + b \sin(\theta)$**
+      5. **formula for polar tangents** and _unnamed_ **procedure to find tangent to a polar curve $r = f(\theta)$**
+    Annotations: ''
+  tags:
+  - Theorems
+---
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Synthesis
+  - Definition
+  - SingleVariableEssentialCalculus
+  - SVEC-09-ParametricEquationsAndPolarCoordinates
+  - SVEC-09.03-PolarCoordinates
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1587782352151
+  media:
+  - path: ¢{file_dir}/images/SVEC-09.03-03.Sy.1.jpg
+  - path: ¢{file_dir}/images/SVEC-09.03-03.Sy.2.jpg
+  fields:
+    Front: |
+      SVEC-09.03-03 Synthesis:
+      #### Polar Coordinates
+      Define **pole**, **polar axis**, **polar coordinates**, **polar coordinate system**.
+    Back: |
+      A coordinate system represents a point in the plane by an ordered pair of numbers called coordinates. Usually we use Cartesian coordinates, which are directed distances from two perpendicular axes. Here we describe a coordinate system introduced by Newton, called the **polar coordinate system**, which is more convenient for many purposes.
+
+      We choose a point in the plane that is called the **pole** (or origin) and is labeled $O$. Then we draw a ray (half-line) starting at $O$ called the **polar axis**. This axis is usually drawn horizontally to the right and corresponds to the positive $x$ -axis in Cartesian coordinates.
+
+      If $P$ is any other point in the plane, let $r$ be the distance from $O$ to $P$ and let $\theta$ be the angle (usually measured in radians) between the polar axis and the line $O P$ as in the figure below.
+      <p align="center">
+      ![](SVEC-09.03-03.Sy.1.jpg)
+      </p>
+      Then the point $P$ is represented by the ordered pair $(r, \theta)$ and $r, \theta$ are called polar coordinates of $P .$ We use the convention that an angle is positive if measured in the counterclockwise direction from the polar axis and negative in the clockwise direction. If $P=O,$ then $r=0$ and we agree that $(0, \theta)$ represents the pole for any value of $\theta.$
+
+      We extend the meaning of polar coordinates $(r, \theta)$ to the case in which $r$ is negative by agreeing that, as in the following figure, the points $(-r, \theta)$ and $(r, \theta)$ lie on the same line through $O$ and at the same distance $|r|$ from $O,$ but on opposite sides of $O$.
+      <p align="center">
+      ![](SVEC-09.03-03.Sy.2.jpg)
+      </p>
+      If $r>0$ the point $(r, \theta)$ lies in the same quadrant as $\theta ;$ if $r<0,$ it lies in the quadrant on the opposite side of the pole. Notice that $(-r, \theta)$ represents the same point as $(r, \theta+\pi).$
+    Annotations: ''
+  tags: []
+- id: 1587782472800
+  fields:
+    Front: |
+      SVEC-09.03-04 Synthesis:
+      #### Polar Coordinates
+      Define **graph of a polar equation**.
+    Back: |
+      The **graph of a polar equation** $r=f(\theta),$ or more generally $F(r, \theta)=0,$ consists of all points $P$ that have at least one polar representation $(r, \theta)$ whose coordinates satisfy the equation.
+    Annotations: ''
+  tags: []
+- id: 1587782764350
+  media:
+  - path: ¢{file_dir}/images/SVEC-09.03-05.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-09.03-05 Synthesis:
+      #### Polar Coordinates
+      Define **cardioid**.
+    Back: |
+      The graph of the curve $r=1+\sin \theta$ is called a **cardioid** because it's shaped like a heart:
+      <p align="center">
+      ![](SVEC-09.03-05.Sy.1.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1587783070225
+  media:
+  - path: ¢{file_dir}/images/SVEC-09.03-06.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-09.03-06 Synthesis:
+      #### Polar Coordinates
+      Define **rose**.
+    Back: |
+      The graph of $r = \sin(n\theta)$ or $r = \cos(n\theta)$ is called a **rose**. The number of petals is determined by $n:$
+      <p align="center">
+      ![](SVEC-09.03-06.Sy.1.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+---
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Synthesis
+  - Theorem
+  - SingleVariableEssentialCalculus
+  - SVEC-09-ParametricEquationsAndPolarCoordinates
+  - SVEC-09.03-PolarCoordinates
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1587783374050
+  media:
+  - path: ¢{file_dir}/images/SVEC-09.03-07.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-09.03-07 Synthesis:
+      #### Polar Coordinates
+      State the _unnamed_ **connection between polar and Cartesian coordinates**. List its hypotheses and conclusions.
+    Back: |
+      The connection between polar and Cartesian coordinates can be seen from the following figure in which the pole corresponds to the origin and the polar axis coincides with the positive $x$-axis.
+      <p align="center">
+      ![](SVEC-09.03-07.Sy.1.jpg)
+      </p>
+      If the point $P$ has Cartesian coordinates $(x, y)$ and polar coordinates $(r, \theta)$ then, from the figure, we have
+      $$
+      \cos \theta=\frac{x}{r}, \quad \sin \theta=\frac{y}{r}
+      $$ and so
+      $$x=r \cos \theta, \quad y=r \sin \theta, \quad r^2 = x^2 + y^2$$
+
+      Hypotheses:
+
+      - The point $P$ has Cartesian coordinates $(x, y)$ and polar coordinates $(r, \theta).$
+
+      Conclusions:
+
+      - $x=r \cos \theta,$ $y=r \sin \theta$
+      - $\cos \theta = x/r$, $\sin \theta = y/r$
+      - $r^2 = x^2 + y^2$
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1587783506000
+  fields:
+    Front: |
+      SVEC-09.03-08 Synthesis:
+      #### Polar Coordinates
+      State the _unnamed_ **procedure to find $r$ and $\theta$ when $x$ and $y$ are known**. List its hypotheses and conclusions.
+    Back: |
+      To find $r$ and $\theta$ when $x$ and $y$ are known, we use the equations
+      $$
+      \begin{array}{c}
+      r^{2}=x^{2}+y^{2} \\
+      \cos \theta = x/r, \quad \sin \theta = y/r \\
+      \tan \theta=\frac{y}{x}
+      \end{array}
+      $$
+
+      Hypotheses:
+
+      - The point $P$ has Cartesian coordinates $(x, y)$ and polar coordinates $(r, \theta).$
+      - $x$ and $y$ are known.
+
+      Conclusions:
+      $$
+      \begin{array}{c}
+      r^{2}=x^{2}+y^{2} \\
+      \cos \theta = x/r, \quad \sin \theta = y/r \\
+      \tan \theta=\frac{y}{x}
+      \end{array}
+      $$
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1587783786550
+  fields:
+    Front: |
+      SVEC-09.03-09 Synthesis:
+      #### Polar Coordinates
+      State the _unnamed_ **properties of $r = \sin(n\theta)$**. List their hypotheses and conclusions.
+    Back: |
+      Increasing the frequency of oscillation of $r = \sin(n\theta)$ increases the number of "rose petals."
+
+      We can predict the number of loops in a polar curve $r=\sin (n \theta)$ as follows:
+
+      - If $n$ is even then there are $2 n$ loops.
+      - If $n$ is odd then there are $n$ loops.
+
+      Hypotheses:
+
+      - $r = \sin(n\theta),$ $n \in \mathbb{Z}^{+}.$
+
+      Conclusions:
+
+      - If $n$ is even then the rose-petal graph has $2 n$ loops.
+      - If $n$ is odd then the rose-petal graph has $n$ loops.
+    Annotations: ''
+  tags: []
+- id: 1587785061950
+  media:
+  - path: ¢{file_dir}/images/SVEC-09.03-10.Sy.1.jpg
+  - path: ¢{file_dir}/images/SVEC-09.03-10.Sy.2.jpg
+  - path: ¢{file_dir}/images/SVEC-09.03-10.Sy.3.jpg
+  - path: ¢{file_dir}/images/SVEC-09.03-10.Sy.4.jpg
+  - path: ¢{file_dir}/images/SVEC-09.03-10.Sy.5.jpg
+  - path: ¢{file_dir}/images/SVEC-09.03-10.Sy.6.jpg
+  fields:
+    Front: |
+      SVEC-09.03-10 Synthesis:
+      #### Polar Coordinates
+      Describe the _unnamed_ **polar functions of the form $r = a + b \sin(\theta)$**.
+    Back: |
+      Cases:
+
+      - $a=b:$ There is exactly one intercept $r=0 .$ All other radii are positive $r>0$ so no points are reflected through the pole.
+        <p align="center">
+        ![](SVEC-09.03-10.Sy.1.jpg)
+        </p>
+        This leads to a dimple:
+        <p align="center">
+        ![](SVEC-09.03-10.Sy.2.jpg)
+        </p>
+      - $a>b:$ There are $n o$ intercepts. All radii are positive so no points are reflected through the pole.
+        <p align="center">
+        ![](SVEC-09.03-10.Sy.3.jpg)
+        </p>
+        This leads to a flat bottom.
+        <p align="center">
+        ![](SVEC-09.03-10.Sy.4.jpg)
+        </p>
+      - $a<b:$ There are several intercepts $r=0 .$ Some radii are negative and these points are reflected through the pole.
+        <p align="center">
+        ![](SVEC-09.03-10.Sy.5.jpg)
+        </p>
+        This leads to an inner loop.
+        <p align="center">
+        ![](SVEC-09.03-10.Sy.6.jpg)
+        </p>
+    Annotations: ''
+  tags: []
+- id: 1587789226401
+  fields:
+    Front: |
+      SVEC-09.03-11 Synthesis:
+      #### Polar Coordinates
+      Give the **formula for polar tangents**. State the _unnamed_ **procedure to find tangent to a polar curve $r = f(\theta)$**. List its hypotheses and conclusions.
+    Back: |
+      To find a tangent line to a polar curve $r=f(\theta)$ we regard $\theta$ as a parameter and write its parametric equations as
+      $$
+      x=r \cos \theta=f(\theta) \cos \theta, \quad y=r \sin \theta=f(\theta) \sin \theta
+      $$ Then, using the method for finding slopes of parametric curves and the Product Rule, we have
+      $$
+      \frac{d y}{d x}=\frac{\frac{d y}{d \theta}}{\frac{d x}{d \theta}}=\frac{\frac{d r}{d \theta} \sin \theta+r \cos \theta}{\frac{d r}{d \theta} \cos \theta-r \sin \theta}
+      $$ We locate horizontal tangents by finding the points where $d y / d \theta=0$ (if $d x / d \theta = 0$ then we can try l'Hopital.) Likewise, we locate vertical tangents at the points where $d x / d \theta=0$ (Again, if $d y / d \theta = 0$ the we try l'Hopital).
+
+      Hypotheses:
+
+      - $x = r\cos(\theta)$ and $y = \sin(\theta)$ are differentiable.
+
+      Conclusions:
+
+      - Polar tangent formula:
+        $$
+        \frac{d y}{d x}=\frac{\frac{d y}{d \theta}}{\frac{d x}{d \theta}}=\frac{\frac{d r}{d \theta} \sin \theta+r \cos \theta}{\frac{d r}{d \theta} \cos \theta-r \sin \theta}
+        $$
+      - We locate horizontal tangents by finding the points where $d y / d \theta=0$ (if $d x / d \theta = 0$ then we can try l'Hopital).
+      - We locate vertical tangents at the points where $d x / d \theta=0$ (again, if $d y / d \theta = 0$ then we can try l'Hopital).
+    Annotations: ''
+  tags:
+  - Editing

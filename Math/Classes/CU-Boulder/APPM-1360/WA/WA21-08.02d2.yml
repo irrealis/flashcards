@@ -1,0 +1,286 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1360
+  - APPM-1360-WA21
+  - SingleVariableEssentialCalculus
+  - SVEC-08-Series
+  - SVEC-08.02-Series
+  - WebAssign
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1583799692995
+  fields:
+    Front: |
+      APPM 1360 WA21-01:
+      #### c8: Series
+      ##### s8.2: Series, day 2
+      Determine whether the series is convergent or divergent by expressing $s_{n}$ as a telescoping sum. If it is convergent, find its sum.
+      $$
+      \sum_{n=2}^{\infty} \frac{6}{n^{2}-1}
+      $$
+    Back: |
+      Convergent. $\frac{9}{2}$.
+
+      ##### Full solution:
+      Using partial fractions, the partial sums of the series $\sum_{n=2}^{\infty} \frac{6}{n^{2}-1}$ are
+      $$
+      \begin{aligned}
+      s_{n} &=\sum_{i=2}^{n} \frac{6}{(i-1)(i+1)}=\sum_{i=2}^{n}\left(\frac{3}{i-1}-\frac{3}{i+1}\right) \\
+      &=(3-1)+\left(\frac{3}{2}-\frac{3}{4}\right)+\left(1-\frac{3}{5}\right)+ \\
+      &\cdots \\
+      &+\left(\frac{3}{n-2}-\frac{3}{n}\right)+\left(\frac{3}{n-1}-\frac{3}{n+1}\right)
+      \end{aligned}
+      $$ This sum is a telescoping series and $s_{n}=3+\frac{3}{2}-\frac{3}{n}-\frac{3}{n+1}$ Thus, $\sum_{n=2}^{\infty} \frac{6}{n^{2}-1}=\lim _{n \rightarrow \infty} s_{n}$ $=\lim _{n \rightarrow \infty}\left(3+\frac{3}{2}-\frac{3}{n}-\frac{3}{n+1}\right)=\frac{9}{2}$.
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1583799876995
+  fields:
+    Front: |
+      APPM 1360 WA21-02:
+      #### c8: Series
+      ##### s8.2: Series, day 2
+      Calculate the sum of the series $\sum_{n=1}^{\infty} a_{n}$ whose partial sums are given.
+      $$
+      s_{n}=9-6(0.8)^{n}
+      $$
+    Back: |
+      $$9$$
+
+      ##### Full solution:
+      $\sum_{n=1}^{\infty} a_{n}=\lim _{n \rightarrow \infty} s_{n}$ $=\lim _{n \rightarrow \infty}\left[9-6(0.8)^{n}\right]$ $=\lim _{n \rightarrow \infty} 9-6 \lim _{n \rightarrow \infty}(0.8)^{n}$ $=9-6(0)=9$
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1583799985495
+  fields:
+    Front: |
+      APPM 1360 WA21-03:
+      #### c8: Series
+      ##### s8.2: Series, day 2
+      If $\sum a_{n}$ and $\sum b_{n}$ are both divergent, is $\sum\left(a_{n}+b_{n}\right)$ necessarily divergent?
+    Back: |
+      No.
+
+      ##### Full solution:
+      No. For example, take $\sum a_{n}=\sum n$ and $\sum b_{n}=\sum(-n),$ which both diverge, yet $\sum\left(a_{n}+b_{n}\right)=\sum 0,$ which converges with sum $0$.
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1583800348546
+  fields:
+    Front: |
+      APPM 1360 WA21-04:
+      #### c8: Series
+      ##### s8.2: Series, day 2
+      Consider the series $\sum_{n=1}^{\infty} \frac{n}{(n+1) !}$
+      (a) Find the partial sums $s_{1}, s_{2}, s_{3},$ and $s_{4}$. Do you recognize the denominators?
+      (b) Use the pattern to guess a formula for $s_{n}$.
+      (c) Show that the given infinite series is convergent, and find its sum.
+      $$
+      \sum_{n=1}^{\infty} \frac{n}{(n+1) !}
+      $$
+    Back: |
+      (a)
+      $$
+      \begin{aligned}
+      s_1 &= 1/2 \\
+      s_2 &= 5/6 \\
+      s_3 &= 23/24 \\
+      s_4 &= 119/120 \\
+      \end{aligned}
+      $$
+      (b)
+      $$
+      \frac{(n+1) !-1}{(n+1) !}
+      $$
+      (c)
+      $$1$$
+
+      ##### Full solution:
+      (a) For $\sum_{n=1}^{\infty} \frac{n}{(n+1) !},$ $s_{1}=\frac{1}{1 \cdot 2}=\frac{1}{2},$ $s_{2}=\frac{1}{2}+\frac{2}{1 \cdot 2 \cdot 3}=\frac{5}{6},$ $s_{3}=\frac{5}{6}+\frac{3}{1 \cdot 2 \cdot 3 \cdot 4}=\frac{23}{24},$ $s_{4}=\frac{23}{24}+\frac{4}{1 \cdot 2 \cdot 3 \cdot 4 \cdot 5}=\frac{119}{120}.$ The denominators are $(n+1) !,$ so a guess would be $s_{n}=\frac{(n+1) !-1}{(n+1) !}.$
+
+      (b) For $n=1, s_{1}=\frac{1}{2}=\frac{2 !-1}{2 !},$ so the formula holds for $n=1 .$ Assume $s_{k}=\frac{(k+1) !-1}{(k+1) !} .$ Then
+      $$
+      \begin{aligned}
+      s_{k+1} &=\frac{(k+1) !-1}{(k+1) !}+\frac{k+1}{(k+2) !}=\frac{(k+1) !-1}{(k+1) !}+\frac{k+1}{(k+1) !(k+2)} \\
+      &=\frac{(k+2) !-(k+2)+k+1}{(k+2) !}=\frac{(k+2) !-1}{(k+2) !}
+      \end{aligned}
+      $$ Thus, the formula is true for $n=k+1 .$ So by induction, the guess is correct.
+
+      (c) $\lim _{n \rightarrow \infty} s_{n}=\lim _{n \rightarrow \infty} \frac{(n+1) !-1}{(n+1) !}$ $=\lim _{n \rightarrow \infty}\left[1-\frac{1}{(n+1) !}\right]=1$ and so $\sum_{n=1}^{\infty} \frac{n}{(n+1) !}=1.$
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1583800454070
+  fields:
+    Front: |
+      APPM 1360 WA21-05:
+      #### c8: Series
+      ##### s8.2: Series, day 2
+      Express the number as a ratio of integers.
+      $$
+      0 . \overline{28}=0.28282828 \dots
+      $$
+    Back: |
+      $$
+      \frac{28}{99}
+      $$
+
+      ##### Full solution:
+      $0 . \overline{28}=0.28282828 \ldots$ is a geometric series with $a=\frac{28}{100}$ and $r=\frac{1}{100} .$ It converges to $a=\frac{a}{1-r}=\frac{28 / 100}{1-1 / 100}=\frac{28}{99}.$
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1583800615045
+  fields:
+    Front: |
+      APPM 1360 WA21-06:
+      #### c8: Series
+      ##### s8.2: Series, day 2
+      Determine whether the series is convergent or divergent by expressing $s_{n}$ as a telescoping sum. If it is convergent, find its sum.
+      $$
+      \sum_{n=1}^{\infty} 6 \ln \left(\frac{n}{n+1}\right)
+      $$
+    Back: |
+      Diverges.
+
+      ##### Full solution:
+      For the series $\sum_{n=1}^{\infty} 6 \ln \left(\frac{n}{n+1}\right)$,
+      $s_{n}=(6 \ln (1)-6 \ln (2))+(6 \ln (2)-6 \ln (3))+(6 \ln (3)-6 \ln (4))+\cdots+$
+      $[6 \ln (n)-6 \ln (n+1)]=6 \ln (1)-6 \ln (n+1)=-6 \ln (n+1)$
+      [telescoping series]
+      Thus, $\lim _{n \rightarrow \infty} s_{n}=-\infty,$ so the series is divergent.
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1583800742845
+  fields:
+    Front: |
+      APPM 1360 WA21-07:
+      #### c8: Series
+      ##### s8.2: Series, day 2
+      Find the value of $c$ such that
+      $$
+      \sum_{n=0}^{\infty} e^{n c}=9
+      $$
+    Back: |
+      $$
+      c = \ln \left(\frac{8}{9}\right)
+      $$
+
+      ##### Full solution:
+      $\sum_{n=0}^{\infty} e^{n c}=\sum_{n=0}^{\infty}\left(e^{c}\right)^{n}$ is a geometric series with $a=\left(e^{c}\right)^{0}=1$ and $r=e^{c} .$ If $e^{c}<1,$ it has sum $\frac{1}{1-e^{c}},$ so $\frac{1}{1-e^{c}}=9$ $\Rightarrow \frac{1}{9}=1-e^{c}$ $\Rightarrow e^{c}=\frac{8}{9}$
+      $\Rightarrow c=\ln \frac{8}{9}$.
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1583800981020
+  fields:
+    Front: |
+      APPM 1360 WA21-08:
+      #### c8: Series
+      ##### s8.2: Series, day 2
+      Find the values of $x$ for which the series converges.
+      $$
+      \sum_{n=1}^{\infty}(x+8)^{n}
+      $$ Find the sum of the series for those values of $x .$
+    Back: |
+      $$
+      (-9,-7)
+      $$
+      $$
+      -\frac{x+8}{x+7}
+      $$
+
+      ##### Full solution:
+      $\sum_{i=1}^{\infty}(x+8)^{n}$ is a geometric series with $r=x+8,$ so the series converges $\Leftrightarrow |r|<1$ $\Leftrightarrow |x+8|<1 $ $\Leftrightarrow -1<x+8<1$ $\Leftrightarrow -9<x<-7 .$ In that case, the sum of the series is $\frac{a}{1-r}=\frac{x+8}{1-(x+8)}$ $=-\frac{x+8}{x+7}$.
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1583801198671
+  fields:
+    Front: |
+      APPM 1360 WA21-09:
+      #### c8: Series
+      ##### s8.2: Series, day 2
+      If the $n$ th partial sum of a series $\sum_{n=1}^{\infty} a_{n}$ is
+      $$
+      s_{n}=\frac{n-7}{n+7}
+      $$ find $a_{n}$ and $\sum_{n=1}^{\infty} a_{n}$.
+    Back: |
+      $$
+      \begin{aligned}
+      a_1 &=-\frac{3}{4} \\
+      a_n &=\frac{14}{(n+7)(n+6)} \quad (\text { for } n \neq 1) \\
+      \sum_{n=1}^{\infty} a_{n} &= 1
+      \end{aligned}
+      $$
+
+      ##### Full solution:
+      For $n=1, a_{1}=-3 / 4$ since $s_{1}=-3 / 4 .$ For $n>1$
+      $$
+      a_{n}=s_{n}-s_{n-1}=\frac{n-7}{n+7}-\frac{(n-1)-7}{(n-1)+7}=\frac{14}{(n+6)(n+7)}
+      $$ Also, $\sum_{n=1}^{\infty} a_{n}=\lim _{n \rightarrow \infty} s_{n}=\lim _{n \rightarrow \infty} \frac{1-7 / n}{1+7 / n}=1$.
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1583801655370
+  fields:
+    Front: |
+      APPM 1360 WA21-10:
+      #### c8: Series
+      ##### s8.2: Series, day 2
+      A doctor prescribes a $100\text{-mg}$ antibiotic tablet to be taken every eight hours. Just before each tablet is taken, $20 \%$ of the drug remains in the body.
+      (a) How much of the drug is in the body just after the second tablet is taken? After the third tablet?
+      (b) If $Q_{n}$ is the quantity of the antibiotic in the body just after the $n$th tablet is taken, find an equation that expresses $Q_{n+1}$ in terms of $Q_{n}$.
+      (c) What quantity of the antibiotic remains in the body in the long run?
+    Back: |
+      (a) Second tablet: $120\text{ mg},$ third tablet: $124\text{ mg}.$
+      (b)
+      $$
+      Q_{n+1}= 0.2 Q_{n}+100
+      $$
+      (c) $125 \text{ mg}.$
+
+      ##### Full solution:
+      (a) The quantity of the drug in the body after the first tablet is $100 \text{ mg}$. After the second tablet, there is $100 \text{ mg}$ plus $20 \%$ of the first $100\mathrm{-mg}$ tablet. that is, $[100+100(0.20)]=120 \text{ mg}$. After the third tablet, the quantity is $[100+120(0.20)]=124 \text{ mg}$.
+
+      (b) After the $n$ th $+1$ tablet, there is 100 mg plus $20 \%$ of the $n$ th tablet, so that $Q_{n+1}=100+(0.20) Q_{n}$.
+
+      (c) From $a_{n}=r^{n} a+c\left(\frac{1-r^{n}}{1-r}\right),$ the solution to $Q_{n+1}=100+(0.20) Q_{n},$ $Q_{n}=0 \text{ mg}$ is
+      $$
+      \begin{aligned}
+      Q_{n}
+      &=(0.20)^{n}(0)+100\left(\frac{1-0.20^{n}}{1-0.20}\right) \\
+      &=\frac{100}{0.80}\left(1-0.20^{n}\right) \\
+      &=125\left(1-0.20^{n}\right).
+      \end{aligned}
+      $$ In the long run, we have $\lim _{n \rightarrow \infty} Q_{n}=\lim _{n \rightarrow \infty} 125\left(1-0.20^{n}\right)$ $=125\left(\lim _{n \rightarrow \infty} 1-\lim _{n \rightarrow \infty} 0.20^{n}\right)$ $=125(1-0)=125 \text{ mg}.$
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1583802103446
+  fields:
+    Front: |
+      APPM 1360 WA21-11:
+      #### c8: Series
+      ##### s8.2: Series, day 2
+      Determine whether the sequence is increasing, decreasing, or not monotonic.
+      $$
+      a_{n}=6 n e^{-5 n}
+      $$ Is the sequence bounded?
+    Back: |
+      Decreasing, bounded.
+
+      ##### Full solution:
+      $a_{n}=6 n e^{-5 n}$ defines a positive decreasing sequence since the function $f(x)=6 x e^{-5 x}$ is decreasing for $x>\frac{1}{5}.$ [$f^{\prime}(x)=6 e^{-5 x}-30 x e^{-5 x}$ $=6 e^{-5 x}(1-5 x)<0$ for $x>\frac{1}{5}.$] The sequence is bounded above by $a_{1}=\frac{6}{e^{5}}$ and below by $0 .$
+    Annotations: ''
+  tags:
+  - Editing

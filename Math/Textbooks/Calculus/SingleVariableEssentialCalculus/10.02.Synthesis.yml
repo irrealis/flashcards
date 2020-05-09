@@ -1,0 +1,480 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Synthesis
+  - SingleVariableEssentialCalculus
+  - SVEC-10-VectorsAndTheGeometryOfSpace
+  - SVEC-10.02-Vectors
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 0
+  skip: true
+  fields:
+    Front: |
+      SVEC-10.02-00 Synthesis Notes:
+      Definition: **vector**
+      Definition: **displacement vector**, **initial point**, **terminal point**, **equivalent**
+      Definition: **zero vector**
+      ###### Combining Vectors
+      Definition: **Definition of Vector Addition**, **sum**, **Triangle Law**, **Parallelogram Law**
+      Definition: **Triangle Law**, **Parallelogram Law**
+      Definition: **scalar**, **Definition of Scalar Multiplication**, **scalar multiple**, **parallel**, **negative**,
+      Definition: **difference**
+      ###### Components
+      Definition: **components**
+      Definition: **algebraic vector**, **geometric vector**, **position vector**, **representations**, **vector representation $\overrightarrow{A B}$**
+      Definition: **magnitude**, **length**
+      Theorem: _unnamed_ formulae for the **length of an algebraic vector**
+      Theorem: _unnamed_ formulae for **algebraic vector addition, subtraction,** and **scalar multiplication**
+      Theorem: **Properties of Vectors**
+      Definition: **standard basis vectors**
+      Theorem: _unnamed_ **expression of vectors in terms of standard basis vectors**
+      Definition: **unit vector**
+      Theorem: _unnamed_ **method for constructing a unit vector**
+      ###### Applications
+      Definition: **resultant force**
+    Back: |
+    Annotations: ''
+  tags: []
+- id: 1588784959360
+  fields:
+    Front: |
+      SVEC-10.02-01 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      List the vector definitions and theorems.
+    Back: |
+      Def: **vector**
+      Def: **displacement vector**, **initial point**, **terminal point**, **equivalent**
+      Def: **zero vector**
+      ###### Combining Vectors
+      Def: **Definition of Vector Addition**, **sum**, **Triangle Law**, **Parallelogram Law**
+      Def: **Triangle Law**, **Parallelogram Law**
+      Def: **scalar**, **Definition of Scalar Multiplication**, **scalar multiple**, **parallel**, **negative**,
+      Def: **difference**
+      ###### Components
+      Def: **components**
+      Def: **algebraic vector**, **geometric vector**, **position vector**, **representations**, **vector representation $\overrightarrow{A B}$**
+      Def: **magnitude**, **length**
+      Thm: _unnamed_ formulae for the **length of an algebraic vector**
+      Thm: _unnamed_ formulae for **algebraic vector addition, subtraction,** and **scalar multiplication**
+      Thm: **Properties of Vectors**
+      Def: **standard basis vectors**
+      Thm: _unnamed_ **expression of vectors in terms of standard basis vectors**
+      Def: **unit vector**
+      Thm: _unnamed_ **method for constructing a unit vector**
+      ###### Applications
+      Def: **resultant force**
+    Annotations: ''
+  tags:
+  - Definitions
+  - Theorems
+- id: 1588785113072
+  fields:
+    Front: |
+      SVEC-10.02-02 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      List the vector theorems.
+    Back: |
+      ###### Components
+      _unnamed_ formulae for the **length of an algebraic vector**
+      _unnamed_ formulae for **algebraic vector addition, subtraction,** and **scalar multiplication**
+      **Properties of Vectors**
+      _unnamed_ **expression of vectors in terms of standard basis vectors**
+      _unnamed_ **method for constructing a unit vector**
+    Annotations: ''
+  tags:
+  - Theorems
+- id: 1588785310834
+  fields:
+    Front: |
+      SVEC-10.02-03 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Define **vector**. How is a vector denoted?
+    Back: |
+      The term **vector** is used by scientists to indicate a quantity (such as displacement or velocity or force $)$ that has both magnitude and direction. A vector is often represented by an arrow or a directed line segment. The length of the arrow represents the magnitude of the vector and the arrow points in the direction of the vector. We denote a vector by printing a letter in boldface (v) or by putting an arrow above the letter ( $\vec{v}$ ).
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1588785706334
+  media:
+  - path: ¢{file_dir}/images/SVEC-10.02-04.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-10.02-04 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Define **displacement vector**, **initial point**, **terminal point**, **equivalent**.
+    Back: |
+      Suppose a particle moves along a line segment from point $A$ to point $B .$ The corresponding **displacement vector $\mathbf{v}$**, shown below, has **initial point $A$** (the tail) and **terminal point $B$** (the tip) and we indicate this by writing $\mathbf{v}=\overrightarrow{A B}.$
+      <p align="center">
+      ![](SVEC-10.02-04.Sy.1.jpg)
+      _Equivalent vectors_
+      </p>
+      Notice that the vector $\mathbf{u}=\overrightarrow{C D}$ has the same length and the same direction as $\mathbf{v}$ even though it is in a different position. We say that $\mathbf{u}$ and $\mathbf{v}$ are **equivalent** (or equal) and we write $\mathbf{u}=\mathbf{v} .$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1588785869589
+  fields:
+    Front: |
+      SVEC-10.02-05 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Define **zero vector**.
+    Back: |
+      The **zero vector**, denoted by $\mathbf{0},$ has length $0 .$ It is the only vector with no specific direction.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1588786204909
+  fields:
+    Front: |
+      SVEC-10.02-06 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      ###### Combining Vectors
+      Give the **Definition of Vector Addition**, and define **sum**.
+    Back: |
+      **Definition of Vector Addition**:
+      If $\mathbf{u}$ and $\mathbf{v}$ are vectors positioned so the initial point of $\mathbf{v}$ is at the terminal point of $\mathbf{u},$ then the **sum** $\mathbf{u}+\mathbf{v}$ is the vector from the initial point of $\mathbf{u}$ to the terminal point of $\mathbf{v}.$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1588786508885
+  media:
+  - path: ¢{file_dir}/images/SVEC-10.02-07.Sy.1.jpg
+  - path: ¢{file_dir}/images/SVEC-10.02-07.Sy.2.jpg
+  fields:
+    Front: |
+      SVEC-10.02-07 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      ###### Combining Vectors
+      Describe the **Triangle Law** and **Parallelogram Law**.
+    Back: |
+      The definition of vector addition is illustrated below.
+      <p align="center">
+      ![](SVEC-10.02-07.Sy.1.jpg)
+      _The Triangle Law_
+      </p>
+      You can see why this definition is sometimes called the **Triangle Law**. In the next figure we start with the same vectors $\mathbf{u}$ and $\mathbf{v}$ as shown above, and draw another copy of $\mathbf{v}$ with the same initial point as u.
+      <p align="center">
+      ![](SVEC-10.02-07.Sy.2.jpg)
+      _The Parallelogram Law_
+      </p>
+      Completing the parallelogram, we see that $\mathbf{u}+\mathbf{v}=\mathbf{v}+\mathbf{u} .$ This also gives another way to construct the sum: If we place u and $\mathbf{v}$ so they start at the same point, then $\mathbf{u}+\mathbf{v}$ lies along the diagonal of the parallelo$\operatorname{gram}$ with $\mathbf{u}$ and $\mathbf{v}$ as sides. (This is called the **Parallelogram Law**.)
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1588786854585
+  media:
+  - path: ¢{file_dir}/images/SVEC-10.02-08.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-10.02-08 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      ###### Combining Vectors
+      Define **scalar**. Give the **Definition of Scalar Multiplication**, and define **scalar multiple**, **parallel**, and **negative**.
+    Back: |
+      It is possible to multiply a vector by a real number $c .$ (In this context we call the real number $c$ a **scalar** to distinguish it from a vector.) For instance, we want $2 \mathbf{v}$ to be the same vector as $\mathbf{v}+\mathbf{v},$ which has the same direction as $\mathbf{v}$ but is twice as long. In general, we multiply a vector by a scalar as follows.
+
+      **Definition of Scalar Multiplication**:
+      If $c$ is a scalar and $\mathbf{v}$ is a vector then the **scalar multiple $c \mathbf{v}$** is the vector whose length is $|c|$ times the length of $\mathbf{v}$ and whose direction is the same as $\mathbf{v}$ if $c>0$ and is opposite to $\mathbf{v}$ if $c<0 .$ If $c=0$ or $\mathbf{v}=\mathbf{0},$ then $c \mathbf{v}=\mathbf{0}.$
+
+      This definition is illustrated below.
+      <p align="center">
+      ![](SVEC-10.02-08.Sy.1.jpg)
+      </p>
+      We see that real numbers work like scaling factors here; that's why we call them scalars. Notice that two nonzero vectors are **parallel** if they are scalar multiples of one another. In particular, the vector $-\mathbf{v}=(-1) \mathbf{v}$ has the same length as $\mathbf{v}$ but points in the opposite direction. We call it the **negative** of $\mathbf{v}.$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1588787427260
+  media:
+  - path: ¢{file_dir}/images/SVEC-10.02-09.Sy.1.jpg
+  - path: ¢{file_dir}/images/SVEC-10.02-09.Sy.2.jpg
+  fields:
+    Front: |
+      SVEC-10.02-09 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      ###### Combining Vectors
+      Define **difference**, and illustrate using the **Parallelogram Law**, as well as the **Triangle Law*.
+    Back: |
+      By the difference $\mathbf{u}-\mathbf{v}$ of two vectors we mean
+      $$
+      \mathbf{u}-\mathbf{v}=\mathbf{u}+(-\mathbf{v})
+      $$ So we can construct $\mathbf{u}-\mathbf{v}$ by first drawing the negative of $\mathbf{v},-\mathbf{v},$ and then adding it to u by the Parallelogram Law as shown below.
+      <p align="center">
+      ![](SVEC-10.02-09.Sy.1.jpg)
+      </p>
+      Alternatively, since $\mathbf{v}+(\mathbf{u}-\mathbf{v})=\mathbf{u}$ the vector $\mathbf{u}-\mathbf{v},$ when added to $\mathbf{v},$ gives u. So we could construct $\mathbf{u}-\mathbf{v}$ as shown below by means of the Triangle Law.
+      <p align="center">
+      ![](SVEC-10.02-09.Sy.2.jpg)
+      </p>
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1588787972509
+  media:
+  - path: ¢{file_dir}/images/SVEC-10.02-10.Sy.1.jpg
+  - path: ¢{file_dir}/images/SVEC-10.02-10.Sy.2.jpg
+  fields:
+    Front: |
+      SVEC-10.02-10 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      ###### Components
+      Define **components**.
+    Back: |
+      If we place the initial point of a vector $\mathbf{a}$ at the origin of a rectangular coordinate system, then the terminal point of a has coordinates of the form $\left(a_{1}, a_{2}\right)$ or $\left(a_{1}, a_{2}, a_{3}\right),$ depending on whether our coordinate system is two- or three-dimensional (see below).
+      <p align="center">
+      ![](SVEC-10.02-10.Sy.1.jpg)
+      $\mathbf{a}=\left\langle a_{1}, a_{2}\right\rangle$
+      </p>
+      <p align="center">
+      ![](SVEC-10.02-10.Sy.1.jpg)
+      $\mathbf{a}=\left\langle a_{1}, a_{2}, a_{3}\right\rangle$
+      </p>
+      These coordinates are called the **components of $\mathbf{a}$** and we write
+      $$
+      \mathbf{a}=\left\langle a_{1}, a_{2}\right\rangle \quad \text { or } \quad \mathbf{a}=\left\langle a_{1}, a_{2}, a_{3}\right\rangle
+      $$
+
+      Questions:
+
+      - _**What notation distinguishes between the distinct ideas of position vectors and displacement vectors?**_
+        - **$\overrightarrow{A B}$ describes a displacement vector.**
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1588788049184
+  fields:
+    Front: |
+      SVEC-10.02-11 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      ###### Components
+      How do we distinguish between vectors and points?
+    Back: |
+      We use the notation $\left\langle a_{1}, a_{2}\right\rangle$ for the ordered pair that refers to a vector so as not to confuse it with the ordered pair $\left(a_{1}, a_{2}\right)$ that refers to a point in the plane.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1588788318660
+  media:
+  - path: ¢{file_dir}/images/SVEC-10.02-12.Sy.1.jpg
+  - path: ¢{file_dir}/images/SVEC-10.02-12.Sy.2.jpg
+  fields:
+    Front: |
+      SVEC-10.02-12 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      ###### Components
+      Define **algebraic vector**, **geometric vector**, **position vector**, **representations**, **vector with representation $\overrightarrow{A B}$**.
+    Back: |
+      The vectors shown below are all equivalent to the vector $\overrightarrow{O P}=\langle 3,2\rangle$ whose terminal point is $P(3,2) .$
+      <p align="center">
+      ![](SVEC-10.02-12.Sy.1.jpg)
+      _Representations of the vector $\mathbf{a}=\langle 3,2\rangle$_
+      </p>
+      What they have in common is that the terminal point is reached from the initial point by a displacement of three units to the right and two upward. We can think of all these **geometric vectors** as representations of the **algebraic vector $\mathbf{a}=\langle 3,2\rangle .$** The particular representation $\overrightarrow{O P}$ from the origin to the point $P(3,2)$ is called the **position vector of the point $P.$**
+      In three dimensions, the vector $\mathbf{a}=\overrightarrow{O P}=\left\langle a_{1}, a_{2}, a_{3}\right\rangle$ is the position vector of the point $P\left(a_{1}, a_{2}, a_{3}\right) .$ (See below.)
+      <p align="center">
+      ![](SVEC-10.02-12.Sy.2.jpg)
+      _Representations of $\mathbf{a}=\left\langle a_{1}, a_{2}, a_{3}\right\rangle$_
+      </p>
+      Let's consider any other representation $\overrightarrow{A B}$ of $\mathbf{a},$ where the initial point is $A\left(x_{1}, y_{1}, z_{1}\right)$ and the terminal point is $B\left(x_{2}, y_{2}, z_{2}\right) .$ Then we must have $x_{1}+a_{1}=x_{2}, y_{1}+a_{2}=y_{2},$ and $z_{1}+a_{3}=z_{2}$ and so $a_{1}=x_{2}-x_{1}$, $a_{2}=y_{2}-y_{1},$ and $a_{3}=z_{2}-z_{1} .$ Thus we have the following result.
+
+      Given the points $A\left(x_{1}, y_{1}, z_{1}\right)$ and $B\left(x_{2}, y_{2}, z_{2}\right),$ the **vector $\mathbf{a}$ with representation $\overrightarrow{A B}$** is
+      $$
+      \mathbf{a}=\left\langle x_{2}-x_{1}, y_{2}-y_{1}, z_{2}-z_{1}\right\rangle
+      $$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1588789267310
+  fields:
+    Front: |
+      SVEC-10.02-13 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      ###### Components
+      Define **magnitude**, **length**.
+    Back: |
+      The **magnitude** or **length** of the vector $\mathbf{v}$ is the length of any of its representations and is denoted by the symbol $|\mathbf{v}|$ or $\|\mathbf{v}\|.$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1588789267534
+  fields:
+    Front: |
+      SVEC-10.02-14 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      ###### Components
+      State the _unnamed_ formulae for the **length of an algebraic vector**.
+    Back: |
+      The length of the two-dimensional vector $\mathbf{a}=\left\langle a_{1}, a_{2}\right\rangle$ is
+      $$
+      |\mathbf{a}|=\sqrt{a_{1}^{2}+a_{2}^{2}}
+      $$ The length of the three-dimensional vector $\mathbf{a}=\left\langle a_{1}, a_{2}, a_{3}\right\rangle$ is
+      $$
+      |\mathbf{a}|=\sqrt{a_{1}^{2}+a_{2}^{2}+a_{3}^{2}}
+      $$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1588789572309
+  fields:
+    Front: |
+      SVEC-10.02-15 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      ###### Components
+      State the _unnamed_ formulae for **algebraic vector addition, subtraction,** and **scalar multiplication**.
+    Back: |
+      If $\mathbf{a}=\left\langle a_{1}, a_{2}\right\rangle$ and $\mathbf{b}=\left\langle b_{1}, b_{2}\right\rangle,$ then
+      $$
+      \begin{array}{c}
+      \mathbf{a}+\mathbf{b}=\left\langle a_{1}+b_{1}, a_{2}+b_{2}\right\rangle \\
+      \mathbf{a}-\mathbf{b}=\left\langle a_{1}-b_{1}, a_{2}-b_{2}\right\rangle \\
+      c \mathbf{a}=\left\langle c a_{1}, c a_{2}\right\rangle
+      \end{array}
+      $$ Similarly, for three-dimensional vectors,
+      $$
+      \begin{aligned}
+      \left\langle a_{1}, a_{2}, a_{3}\right\rangle+\left\langle b_{1}, b_{2}, b_{3}\right\rangle &=\left\langle a_{1}+b_{1}, a_{2}+b_{2}, a_{3}+b_{3}\right\rangle \\
+      \left\langle a_{1}, a_{2}, a_{3}\right\rangle-\left\langle b_{1}, b_{2}, b_{3}\right\rangle &=\left\langle a_{1}-b_{1}, a_{2}-b_{2}, a_{3}-b_{3}\right\rangle \\
+      c\left\langle a_{1}, a_{2}, a_{3}\right\rangle &=\left\langle c a_{1}, c a_{2}, c a_{3}\right\rangle
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1588789726310
+  fields:
+    Front: |
+      SVEC-10.02-16 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      ###### Components
+      State the **Properties of Vectors**.
+    Back: |
+      **Properties of Vectors**:
+      If a, b, and c are vectors in $V_{n}$ and $c$ and $d$ are scalars, then
+      1. $\mathbf{a}+\mathbf{b}=\mathbf{b}+\mathbf{a}$
+      2. $\mathbf{a}+(\mathbf{b}+\mathbf{c})=(\mathbf{a}+\mathbf{b})+\mathbf{c}$
+      3. $\mathbf{a}+\mathbf{0}=\mathbf{a}$
+      4. $\mathbf{a}+(-\mathbf{a})=\mathbf{0}$
+      5. $c(\mathbf{a}+\mathbf{b})=c \mathbf{a}+c \mathbf{b}$
+      6. $(c+d) \mathbf{a}=c \mathbf{a}+d \mathbf{a}$
+      7. $(c d) \mathbf{a}=c(d \mathbf{a})$
+      8. $1 \mathbf{a}=\mathbf{a}$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1588790092735
+  media:
+  - path: ¢{file_dir}/images/SVEC-10.02-17.Sy.1.jpg
+  - path: ¢{file_dir}/images/SVEC-10.02-17.Sy.2.jpg
+  fields:
+    Front: |
+      SVEC-10.02-17 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      ###### Components
+      Define **standard basis vectors**.
+    Back: |
+      Three vectors in $V_{3}$ play a special role. Let
+      $$
+      \mathbf{i}=\langle 1,0,0\rangle \quad \mathbf{j}=\langle 0,1,0\rangle \quad \mathbf{k}=\langle 0,0,1\rangle
+      $$ These vectors $\mathbf{i}, \mathbf{j},$ and $\mathbf{k}$ are called the standard basis vectors. They have length 1 and point in the directions of the positive $x-, y-$ and $z$ -axes. Similarly, in two dimensions we define $\mathbf{i}=\langle 1,0\rangle \text { and } \mathbf{j}=\langle 0,1\rangle .$ (See below.)
+      <p align="center">
+      ![](SVEC-10.02-17.Sy.1.jpg)
+      _Standard basis vectors in $V_{2}$_
+      </p>
+      <p align="center">
+      ![](SVEC-10.02-17.Sy.2.jpg)
+      _Standard basis vectors in $V_{3}$_
+      </p>
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1588790374536
+  fields:
+    Front: |
+      SVEC-10.02-18 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      ###### Components
+      State the _unnamed_ **expression of vectors in terms of standard basis vectors**.
+    Back: |
+      If $\mathbf{a}=\left\langle a_{1}, a_{2}, a_{3}\right\rangle,$ then we can write
+      $$
+      \begin{aligned}
+      \mathbf{a}
+      &=\left\langle a_{1}, a_{2}, a_{3}\right\rangle=\left\langle a_{1}, 0,0\right\rangle+\left\langle 0, a_{2}, 0\right\rangle+\left\langle 0,0, a_{3}\right\rangle \\
+      &=a_{1}\langle 1,0,0\rangle+a_{2}\langle 0,1,0\rangle+a_{3}\langle 0,0,1\rangle \\
+      &=a_{1} \mathbf{i}+a_{2} \mathbf{j}+a_{3} \mathbf{k}
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1588790637935
+  fields:
+    Front: |
+      SVEC-10.02-19 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      ###### Components
+      Define **unit vector**.
+    Back: |
+      A unit vector is a vector whose length is $1 .$ For instance, $\mathbf{i}, \mathbf{j},$ and $\mathbf{k}$ are all unit vectors.
+    Annotations: ''
+  tags:
+  - Definition
+  - Editing
+- id: 1588790638155
+  fields:
+    Front: |
+      SVEC-10.02-20 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      ###### Components
+      State the _unnamed_ **method for constructing a unit vector**. List its hypotheses.
+    Back: |
+      In general, if $\mathbf{a} \neq \mathbf{0},$ then the unit vector that has the same direction as $\mathbf{a}$ is
+      $$
+      \mathbf{u}=\frac{1}{|\mathbf{a}|} \mathbf{a}=\frac{\mathbf{a}}{|\mathbf{a}|}
+      $$
+      Hypotheses:
+
+      - $\mathbf{a} \neq \mathbf{0}.$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1588790766185
+  fields:
+    Front: |
+      SVEC-10.02-21 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      ###### Applications
+      Define **resultant force**.
+    Back: |
+      A force is represented by a vector because it has both a magnitude (measured in pounds or newtons and a direction. If several forces are acting on an object, the **resultant force** experienced by the object is the vector sum of these forces.
+    Annotations: ''
+  tags:
+  - Definition
+  - Editing

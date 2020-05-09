@@ -1,0 +1,152 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1360
+  - APPM-1360-WA31
+  - SingleVariableEssentialCalculus
+  - SVEC-08-Series
+  - SVEC-08.07-TaylorAndMaclaurinSeries
+  - WebAssign
+  - ToDo
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1586544976650
+  fields:
+    Front: |
+      APPM 1360 WA31-01:
+      #### c8: Series
+      ##### s8.7: Taylor and Maclaurin Series, day 3
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: "Trouble:<div>- 200411-2118: arithmetic: tried to factor out non-common\
+      \ terms -- non-common because the summands had demoninators of \\(n!\\) and\
+      \ \\((n+1)!\\) respectively. Tempting to try to isolate \\(n!\\) as \\((n+1)!\
+      \ = (n+1)n!\\), but some kind of cancellation would be required, as terms involving\
+      \ \\(n\\) can't move outside of the summation.</div>"
+  tags:
+  - Editing
+  - ann:trouble
+- id: 1586544976833
+  fields:
+    Front: |
+      APPM 1360 WA31-02:
+      #### c8: Series
+      ##### s8.7: Taylor and Maclaurin Series, day 3
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: 'Trouble:<div>- 200411-2136: memory: conflated Maclaurin series for
+      \(\sin\) and \(\cos\).</div>'
+  tags:
+  - Editing
+  - ann:trouble
+- id: 1586544977017
+  fields:
+    Front: |
+      APPM 1360 WA31-03:
+      #### c8: Series
+      ##### s8.7: Taylor and Maclaurin Series, day 3
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586544977217
+  fields:
+    Front: |
+      APPM 1360 WA31-04:
+      #### c8: Series
+      ##### s8.7: Taylor and Maclaurin Series, day 3
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: 'Trouble:<div>- 200411-2337: arithmetic/focus: \(1! \ne 2\).</div>'
+  tags:
+  - Editing
+  - ann:trouble
+- id: 1586544977400
+  fields:
+    Front: |
+      APPM 1360 WA31-05:
+      #### c8: Series
+      ##### s8.7: Taylor and Maclaurin Series, day 3
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586544977585
+  fields:
+    Front: |
+      APPM 1360 WA31-06:
+      #### c8: Series
+      ##### s8.7: Taylor and Maclaurin Series, day 3
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586544977767
+  fields:
+    Front: |
+      APPM 1360 WA31-07:
+      #### c8: Series
+      ##### s8.7: Taylor and Maclaurin Series, day 3
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: "Minor trouble:<div>- 200412-1314: it's clear from the rubric's answer\
+      \ that the problem is intended to be solved using the geometric series rather\
+      \ than the binomial series.</div><div>&nbsp; &nbsp; - 200412-1444: wrong; the\
+      \ rubric's solution uses the binomial series.</div><div><br></div><div>Trouble:</div><div>-\
+      \ 200412-1555: instructions: duh, it says in the instructions to use the binomial\
+      \ series.</div>"
+  tags:
+  - Editing
+  - ann:minor-trouble
+  - ann:trouble
+- id: 1586544977950
+  fields:
+    Front: |
+      APPM 1360 WA31-08:
+      #### c8: Series
+      ##### s8.7: Taylor and Maclaurin Series, day 3
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586544978116
+  fields:
+    Front: |
+      APPM 1360 WA31-09:
+      #### c8: Series
+      ##### s8.7: Taylor and Maclaurin Series, day 3
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586544978283
+  fields:
+    Front: |
+      APPM 1360 WA31-10:
+      #### c8: Series
+      ##### s8.7: Taylor and Maclaurin Series, day 3
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing

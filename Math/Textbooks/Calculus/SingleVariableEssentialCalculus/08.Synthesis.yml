@@ -1,0 +1,314 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Synthesis
+  - SingleVariableEssentialCalculus
+  - SVEC-08-Series
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 0
+  skip: true
+  fields:
+    Front: |
+      SVEC-08-00 Synthesis Notes:
+      #### Summary of series-convergence tests:
+
+      1. **Divergence Test**
+      2. **Geometric Series Test**
+      3. **$p$-Series Test**
+      4. **Telescoping Series Test**
+      5. **Integral Test**
+      6. **Direct Comparison Test**
+      7. **Limit Comparison Test**
+      8. **Alternating Series Test**
+      9. **Ratio Test**
+      10. **Root Test**
+
+      I need to include the hypotheses for each test, but I want to do this in terms of the circumstances under which the test can be applied.
+    Back: |
+    Annotations: ''
+  tags: []
+- id: 1585083223016
+  fields:
+    Front: |
+      SVEC-08-01 Synthesis:
+      #### Series Convergence Tests:
+      List the Series Convergence Tests.
+    Back: |
+      1. **Divergence Test**
+      2. **Geometric Series Test**
+      3. **$p$-Series Test**
+      4. **Telescoping Series Test**
+      5. **Integral Test**
+      6. **Direct Comparison Test**
+      7. **Limit Comparison Test**
+      8. **Alternating Series Test**
+      9. **Ratio Test**
+      10. **Root Test**
+    Annotations: ''
+  tags: []
+- id: 1585086759566
+  fields:
+    Front: |
+      SVEC-08-02 Synthesis:
+      #### Series Convergence Tests:
+      State the **Divergence Test.** List its conditions for application, convergence, divergence, and inconclusive results. When should it be considered?
+    Back: |
+      **Application:**
+      Any series $\sum a_n.$
+
+      **Convergence:**
+      NA.
+
+      **Divergence:**
+      $\lim a_{n} \neq 0,$ or $\lim a_{n}$ does not exist.
+
+      **Inconclusive:**
+      $\lim a_{n} = 0.$
+
+      **When:**
+      Consider for any series.
+    Annotations: ''
+  tags: []
+- id: 1585087432606
+  fields:
+    Front: |
+      SVEC-08-03 Synthesis:
+      #### Series Convergence Tests:
+      State the **Geometric Series Test.** List its conditions for application, convergence, divergence, and inconclusive results. When should it be considered?
+    Back: |
+      **Application:**
+      $a_{n} = a_{1} \cdot r^{n}$ where $r$ is constant.
+
+      **Convergence:**
+      $|r| < 1.$
+
+      **Divergence:**
+      $|r| \geqslant 1.$
+
+      **Inconclusive:**
+      NA.
+
+      **When:**
+      Consider when a geometric series occurs.
+    Annotations: ''
+  tags: []
+- id: 1585088520315
+  fields:
+    Front: |
+      SVEC-08-04 Synthesis:
+      #### Series Convergence Tests:
+      State the **$p$-Series Test.** List its conditions for application, convergence, divergence, and inconclusive results. When should it be considered?
+    Back: |
+      **Application:**
+      $a_{n}=\frac{1}{n^{p}}$ where $p$ is constant.
+
+      **Convergence:**
+      $p > 1.$
+
+      **Divergence:**
+      $p \leqslant 1.$
+
+      **Inconclusive:**
+      NA.
+
+      **When:**
+      Consider when a $p$-series occurs.
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1585087910741
+  fields:
+    Front: |
+      SVEC-08-05 Synthesis:
+      #### Series Convergence Tests:
+      State the **Telescoping Series Test.** List its conditions for application, convergence, divergence, and inconclusive results. When should it be considered?
+    Back: |
+      **Application:**
+      $a_{n} = b_n - c_n,$ where $c_n = b_{n+1},$
+      so $\lim _{n \rightarrow \infty} s_{n}= a_1 - \lim _{n \rightarrow \infty} c_{n}.$
+
+      **Convergence:**
+      $\lim _{n \rightarrow \infty} s_{n}$ exists and is finite.
+
+      **Divergence:**
+      $\lim _{n \rightarrow \infty} s_{n} = \pm\infty$ or DNE.
+
+      **Inconclusive:**
+      NA.
+
+      **When:**
+      Consider when PFD might permit additive cancellation.
+    Annotations: ''
+  tags: []
+- id: 1585089571441
+  fields:
+    Front: |
+      SVEC-08-06 Synthesis:
+      #### Series Convergence Tests:
+      State the **Integral Test.** List its conditions for application, convergence, divergence, and inconclusive results. When should it be considered?
+    Back: |
+      **Application:**
+
+      - $a_{n} = f(n)$ for $n \geqslant n_{0},$
+        $n_0 \in \mathbb{Z}^{+}$ and often $n_0 = 1.$
+      - $f$ is defined $[n_0, \infty).$
+      - $f$ is continuous.
+      - $f$ is positive.
+      - $f$ is ultimately decreasing.
+
+      **Convergence:**
+      $\int_{n_0}^{\infty} f(x) d x$ converges.
+
+      **Divergence:**
+      $\int_{n_0}^{\infty} f(x) d x$ diverges.
+
+      **Inconclusive:**
+      NA.
+
+      **When:**
+      Consider when $f$ is continuous, positive, ultimately decreasing, and looks integrable.
+    Annotations: ''
+  tags: []
+- id: 1585089808465
+  fields:
+    Front: |
+      SVEC-08-07 Synthesis:
+      #### Series Convergence Tests:
+      State the **Direct Comparison Test.** List its conditions for application, convergence, divergence, and inconclusive results. When should it be considered?
+    Back: |
+      **Application:**
+
+      - $a_{n}$ and $b_{n}$ are positive.
+        - But can sometimes be used to test for absolute convergence via $|a_n|$.
+      - $a_{n} \leq b_{n}.$
+
+      **Convergence:**
+      $\sum b_{n}$ converges.
+
+      **Divergence:**
+      $\sum a_{n}$ diverges.
+
+      **Inconclusive:**
+      $\sum a_{n}$ converges or $\sum b_{n}$ diverges.
+
+      **Consider when:**
+
+      - $\sum a_n$ is similar to geometric or $p$ series.
+      - In particular, if $a_n$ is rational or algebraic wrt $n$ then compare with $p$ series.
+      - The problem suggests dominance argument.
+    Annotations: 'Trouble:<div>- 200415-0200-ish: memory: conflated with LCT.</div><div>-
+      200415-0223: memory: remember, usable with \(|a_n|\) to test for absolute convergence.</div>'
+  tags:
+  - Editing
+  - ann:trouble
+- id: 1585090303341
+  fields:
+    Front: |
+      SVEC-08-08 Synthesis:
+      #### Series Convergence Tests:
+      State the **Limit Comparison Test.** List its conditions for application, convergence, divergence, and inconclusive results. When should it be considered?
+    Back: |
+      **Application:**
+
+      - $a_{n}$ and $b_{n}$ are positive.
+      - $0 < \lim _{n \rightarrow \infty} \frac{a_{n}}{b_{n}} < \infty.$
+
+      **Convergence:**
+      $\sum b_{n}$ converges.
+
+      (Note: this also holds under relaxed coditions that $0 \leqslant \lim _{n \rightarrow \infty} \frac{a_{n}}{b_{n}} < \infty$ and $\sum b_{n}$ converges.)
+
+      **Divergence:**
+      $\sum b_{n}$ diverges.
+
+      (Note: this also holds under relaxed conditions $0 < \lim _{n \rightarrow \infty} \frac{a_{n}}{b_{n}}$ and $\sum b_{n}$ diverges.)
+
+      **Inconclusive:**
+      $\lim _{n \rightarrow \infty} \frac{a_{n}}{b_{n}}$ DNE, is infinite, or is negative.
+
+      **When:**
+
+      - Direct Comparison Test fails, but nevertheless...
+      - $\sum a_n$ is similar to geometric or $p$ series.
+      - In particular, if $a_n$ is rational or algebraic wrt $n$ then compare with $p$ series.
+      - The problem suggests dominance argument.
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1585091126941
+  fields:
+    Front: |
+      SVEC-08-09 Synthesis:
+      #### Series Convergence Tests:
+      State the **Alternating Series Test.** List its conditions for application, convergence, divergence, and inconclusive results. When should it be considered?
+    Back: |
+      **Application:**
+      $\sum a_n$ is alternating: $\sum a_n = \pm\sum (-1)^n \left|a_n\right|.$
+
+      **Convergence:**
+
+      - $\{\left|a_n\right|\}$ is nonincreasing: $\left|a_{n+1}\right| \leqslant \left|a_{n}\right|$ for all $n.$
+      - $\{\left|a_n\right|\}$ converges to zero: $\lim_{n \rightarrow \infty} \left|a_{n}\right| = 0.$
+
+      **Divergence:**
+      NA
+
+      **Inconclusive:**
+      $\{\left|a_n\right|\}$ is increasing, or does not converge to zero.
+
+      **When:**
+      Consider when terms alternate signs.
+    Annotations: ''
+  tags: []
+- id: 1585091287116
+  fields:
+    Front: |
+      SVEC-08-10 Synthesis:
+      #### Series Convergence Tests:
+      State the **Ratio Test.** List its conditions for application, convergence, divergence, and inconclusive results. When should it be considered?
+    Back: |
+      **Application:**
+      $\lim _{n \rightarrow \infty}\left|\frac{a_{n+1}}{a_{n}}\right|$ exists.
+
+      **_Absolute_ Convergence:**
+      $\lim _{n \rightarrow \infty}\left|\frac{a_{n+1}}{a_{n}}\right| < 1.$
+
+      **Divergence:**
+      $\lim _{n \rightarrow \infty}\left|\frac{a_{n+1}}{a_{n}}\right| > 1.$
+
+      **Inconclusive:**
+      $\lim _{n \rightarrow \infty}\left|\frac{a_{n+1}}{a_{n}}\right| = 1.$
+
+      **When:**
+      Consider when factorials or other products occur, including constants raised to the $n$th power.
+    Annotations: ''
+  tags: []
+- id: 1585091402015
+  fields:
+    Front: |
+      SVEC-08-11 Synthesis:
+      #### Series Convergence Tests:
+      State the **Root Test.** List its conditions for application, convergence, divergence, and inconclusive results. When should it be considered?
+    Back: |
+      **Application:**
+      $\lim _{n \rightarrow \infty} \sqrt[n]{\left|a_{n}\right|}$ exists.
+
+      **_Absolute_ Convergence:**
+      $\lim _{n \rightarrow \infty} \sqrt[n]{\left|a_{n}\right|} < 1.$
+
+      **Divergence:**
+      $\lim _{n \rightarrow \infty} \sqrt[n]{\left|a_{n}\right|} > 1.$
+
+      **Inconclusive:**
+      $\lim _{n \rightarrow \infty} \sqrt[n]{\left|a_{n}\right|} = 1.$
+
+      **When:**
+      Consider when an $n$th power occurs.
+    Annotations: ''
+  tags: []

@@ -1,0 +1,159 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1360
+  - APPM-1360-RW11
+  - RecitationWorksheet
+  - APPM-1360-Section08.05
+  - APPM-1360-Section08.06
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1586552002300
+  fields:
+    Front: |
+      APPM-1360-RW11-01.a:
+      #### c8: Series
+      ##### s8.5: Power Series
+      ##### s8.6: Representing Functions as Power Series
+      Temporary: work and check against recitation solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586552002488
+  fields:
+    Front: |
+      APPM-1360-RW11-01.b:
+      #### c8: Series
+      ##### s8.5: Power Series
+      ##### s8.6: Representing Functions as Power Series
+      Temporary: work and check against recitation solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586552002706
+  fields:
+    Front: |
+      APPM-1360-RW11-01.c:
+      #### c8: Series
+      ##### s8.5: Power Series
+      ##### s8.6: Representing Functions as Power Series
+      Temporary: work and check against recitation solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586552002904
+  fields:
+    Front: |
+      APPM-1360-RW11-01.d:
+      #### c8: Series
+      ##### s8.5: Power Series
+      ##### s8.6: Representing Functions as Power Series
+      Temporary: work and check against recitation solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586552003107
+  fields:
+    Front: |
+      APPM-1360-RW11-01.e:
+      #### c8: Series
+      ##### s8.5: Power Series
+      ##### s8.6: Representing Functions as Power Series
+      Temporary: work and check against recitation solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586552003278
+  fields:
+    Front: |
+      APPM-1360-RW11-02.a:
+      #### c8: Series
+      ##### s8.5: Power Series
+      ##### s8.6: Representing Functions as Power Series
+      Temporary: work and check against recitation solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586552003455
+  fields:
+    Front: |
+      APPM-1360-RW11-02.b:
+      #### c8: Series
+      ##### s8.5: Power Series
+      ##### s8.6: Representing Functions as Power Series
+      Temporary: work and check against recitation solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586552003639
+  fields:
+    Front: |
+      APPM-1360-RW11-03.a:
+      #### c8: Series
+      ##### s8.5: Power Series
+      ##### s8.6: Representing Functions as Power Series
+      Temporary: work and check against recitation solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586552003822
+  fields:
+    Front: |
+      APPM-1360-RW11-03.b:
+      #### c8: Series
+      ##### s8.5: Power Series
+      ##### s8.6: Representing Functions as Power Series
+      Temporary: work and check against recitation solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586552004021
+  fields:
+    Front: |
+      APPM-1360-RW11-03.c:
+      #### c8: Series
+      ##### s8.5: Power Series
+      ##### s8.6: Representing Functions as Power Series
+      Temporary: work and check against recitation solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586552004191
+  fields:
+    Front: |
+      APPM-1360-RW11-03.d:
+      #### c8: Series
+      ##### s8.5: Power Series
+      ##### s8.6: Representing Functions as Power Series
+      Temporary: work and check against recitation solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586552004372
+  fields:
+    Front: |
+      APPM-1360-RW11-04:
+      #### c8: Series
+      ##### s8.5: Power Series
+      ##### s8.6: Representing Functions as Power Series
+      Temporary: work and check against recitation solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing

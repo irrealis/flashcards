@@ -1,0 +1,234 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Synthesis
+  - SingleVariableEssentialCalculus
+  - SVEC-10-VectorsAndTheGeometryOfSpace
+  - SVEC-10.01-ThreeDimensionalCoordinateSystems
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 0
+  skip: true
+  fields:
+    Front: |
+      SVEC-10.01-00 Synthesis Notes:
+      #### Summary of definitions:
+      **coordinate axes**
+      **right-hand rule**
+      **coordinate planes**, **octants**, **first octant**
+      **coordinates**
+      **projection**
+      **three-dimensional rectangular coordinate system**
+      **surface**
+      #### Summary of theorems:
+      **Distance Formula in Three Dimensions**
+      **Equation of a Sphere**
+    Back: |
+    Annotations: ''
+  tags: []
+- id: 1588779185009
+  fields:
+    Front: |
+      SVEC-10.01-01 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      List the 3D-coordinate-system definitions.
+    Back: |
+      **coordinate axes**
+      **right-hand rule**
+      **coordinate planes**, **octants**, **first octant**
+      **coordinates**
+      **projection**
+      **three-dimensional rectangular coordinate system**
+      **surface**
+    Annotations: ''
+  tags:
+  - Definitions
+- id: 1588779284861
+  fields:
+    Front: |
+      SVEC-10.01-02 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      List the 3D-coordinate-system Theorems.
+    Back: |
+      **Distance Formula in Three Dimensions**
+      **Equation of a Sphere**
+    Annotations: ''
+  tags:
+  - Theorems
+---
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Synthesis
+  - Definition
+  - SingleVariableEssentialCalculus
+  - SVEC-10-VectorsAndTheGeometryOfSpace
+  - SVEC-10.01-ThreeDimensionalCoordinateSystems
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1588780350310
+  fields:
+    Front: |
+      SVEC-10.01-03 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Define **coordinate axes**.
+    Back: |
+      In order to represent points in space, we first choose a fixed point $O$ (the origin) and three directed lines through $O$ that are perpendicular to each other, called the **coordinate axes** and labeled the $x$-axis, $y$-axis, and $z$-axis.
+    Annotations: ''
+  tags: []
+- id: 1588780987985
+  media:
+  - path: ¢{file_dir}/images/SVEC-10.01-04.Sy.1.jpg
+  - path: ¢{file_dir}/images/SVEC-10.01-04.Sy.2.jpg
+  fields:
+    Front: |
+      SVEC-10.01-04 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Define **right-hand rule**.
+    Back: |
+      Usually we think of the $x$- and $y$-axes as being horizontal and the $z$-axis as being vertical, and we draw the orientation of the axes as shown below.
+      <p align="center">
+      ![](SVEC-10.01-04.Sy.1.jpg)
+      _Coordinate axes_
+      </p>
+      The direction of the $z$-axis is determined by the **right-hand rule** as illustrated in the following figure: If you curl the fingers of your right hand around the $z$-axis in the direction of a $90^{\circ}$ counterclockwise rotation from the positive $x$-axis to the positive $y$-axis, then your thumb points in the positive direction of the $z$-axis.
+      <p align="center">
+      ![](SVEC-10.01-04.Sy.2.jpg)
+      _Right-hand rule_
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1588781406034
+  media:
+  - path: ¢{file_dir}/images/SVEC-10.01-05.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-10.01-05 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Define **coordinate planes**, **octants**, **first octant**.
+    Back: |
+      The three coordinate axes determine the three **coordinate planes** illustrated below.
+      <p align="center">
+      ![](SVEC-10.01-05.Sy.1.jpg)
+      _Coordinate planes_
+      </p>
+      The **$x y$-plane** is the plane that contains the $x$- and $y$-axes; the **$y z$-plane** contains the $y$- and $z$-axes; the **$x z$-plane** contains the $x$- and $z$-axes. These three coordinate planes divide space into eight parts, called **octants**. The **first octant**, in the foreground, is determined by the positive axes.
+    Annotations: ''
+  tags: []
+- id: 1588781721310
+  media:
+  - path: ¢{file_dir}/images/SVEC-10.01-06.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-10.01-06 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Define **coordinates**.
+    Back: |
+      If $P$ is any point in space, let $a$ be the (directed) distance from the $y z$-plane to $P,$ let $b$ be the distance from the $x z$-plane to $P,$ and let $c$ be the distance from the $x y$-plane to $P .$ We represent the point $P$ by the ordered triple $(a, b, c)$ of real numbers and we call $a, b,$ and $c$ the **coordinates** of $P;$ $a$ is the **$x$-coordinate**, $b$ is the **$y$-coordinate**, and $c$ is the **$z$-coordinate**. Thus to locate the point $(a, b, c)$ we can start at the origin $O$ and move $a$ units along the $x$-axis, then $b$ units parallel to the $y$-axis, and then $c$ units parallel to the $z$-axis as shown below.
+      <p align="center">
+      ![](SVEC-10.01-06.Sy.1.jpg)
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1588782000435
+  media:
+  - path: ¢{file_dir}/images/SVEC-10.01-07.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-10.01-07 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Define **projection**.
+    Back: |
+      The point $P(a, b, c)$ determines a rectangular box as shown below.
+      <p align="center">
+      ![](SVEC-10.01-07.Sy.1.jpg)
+      </p>
+      If we drop a perpendicular from $P$ to the $x y$-plane, we get a point $Q$ with coordinates $(a, b, 0)$ called the **projection of $P$ on the $x y$-plane**. Similarly, $R(0, b, c)$ and $S(a, 0, c)$ are the projections of $P$ on the $y z$-plane and $x z$-plane, respectively.
+    Annotations: ''
+  tags: []
+- id: 1588782211034
+  fields:
+    Front: |
+      SVEC-10.01-08 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Define **three-dimensional rectangular coordinate system**.
+    Back: |
+      The Cartesian product $\mathbb{R} \times \mathbb{R} \times \mathbb{R}=\{(x, y, z) | x, y, z \in \mathbb{R}\}$ is the set of all ordered triples of real numbers and is denoted by $\mathbb{R}^{3}$. We have given a one-to-one correspondence between points $P$ in space and ordered triples $(a, b, c)$ in $\mathbb{R}^{3}$. It is called a **three-dimensional rectangular coordinate system**. Notice that, in terms of coordinates, the first octant can be described as the set of points whose coordinates are all positive.
+    Annotations: ''
+  tags: []
+- id: 1588782339309
+  fields:
+    Front: |
+      SVEC-10.01-09 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Define **surface**.
+    Back: |
+      In two-dimensional analytic geometry, the graph of an equation involving $x$ and $y$ is a _curve_ in $\mathbb{R}^{2}$. In three-dimensional analytic geometry, an equation in $x, y,$ and $z$ represents a **surface** in $\mathbb{R}^{3}.$
+    Annotations: ''
+  tags: []
+---
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Synthesis
+  - Theorem
+  - SingleVariableEssentialCalculus
+  - SVEC-10-VectorsAndTheGeometryOfSpace
+  - SVEC-10.01-ThreeDimensionalCoordinateSystems
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1588782562234
+  fields:
+    Front: |
+      SVEC-10.01-10 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      State the **Distance Formula in Three Dimensions**.
+    Back: |
+      The distance $|P_{1} P_{2}|$ between the points $P_{1}\left(x_{1}, y_{1}, z_{1}\right)$ and $P_{2}\left(x_{2}, y_{2}, z_{2}\right)$ is
+      $$
+      \left|P_{1} P_{2}\right|=\sqrt{\left(x_{2}-x_{1}\right)^{2}+\left(y_{2}-y_{1}\right)^{2}+\left(z_{2}-z_{1}\right)^{2}}
+      $$ 
+    Annotations: ''
+  tags: []
+- id: 1588782637160
+  fields:
+    Front: |
+      SVEC-10.01-11 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      State the **Equation of a Sphere**.
+    Back: |
+      An equation of a sphere with center $C(h, k, l)$ and radius $r$ is
+      $$
+      (x-h)^{2}+(y-k)^{2}+(z-l)^{2}=r^{2}
+      $$ In particular, if the center is the origin $O$, then an equation of the sphere is
+      $$
+      x^{2}+y^{2}+z^{2}=r^{2}
+      $$
+    Annotations: ''
+  tags: []

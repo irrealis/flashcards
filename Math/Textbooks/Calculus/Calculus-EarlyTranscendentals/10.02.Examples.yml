@@ -1,0 +1,92 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-10-ParametricEquationsAndPolarCoordinates
+  - CET-10.02-CalculusWithParametricCurves
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1588111745651
+  fields:
+    Front: |
+      CET-10.02-01 Example:
+      #### Parametric Equations and Polar Coordinates
+      ##### Calculus with Parametric Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - Editing
+  - ToDo
+- id: 1588111745825
+  fields:
+    Front: |
+      CET-10.02-02 Example:
+      #### Parametric Equations and Polar Coordinates
+      ##### Calculus with Parametric Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - Editing
+  - ToDo
+- id: 1588111745975
+  fields:
+    Front: |
+      CET-10.02-03 Example:
+      #### Parametric Equations and Polar Coordinates
+      ##### Calculus with Parametric Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - Editing
+  - ToDo
+- id: 1588111746127
+  fields:
+    Front: |
+      CET-10.02-04 Example:
+      #### Parametric Equations and Polar Coordinates
+      ##### Calculus with Parametric Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - Editing
+  - ToDo
+- id: 1588111746275
+  fields:
+    Front: |
+      CET-10.02-05 Example:
+      #### Parametric Equations and Polar Coordinates
+      ##### Calculus with Parametric Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - Editing
+  - ToDo
+- id: 1588111746425
+  fields:
+    Front: |
+      CET-10.02-06 Example:
+      #### Parametric Equations and Polar Coordinates
+      ##### Calculus with Parametric Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - Editing
+  - ToDo

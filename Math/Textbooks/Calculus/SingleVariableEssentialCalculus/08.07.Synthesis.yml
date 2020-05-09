@@ -1,0 +1,604 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Synthesis
+  - SingleVariableEssentialCalculus
+  - SVEC-08-Series
+  - SVEC-08.07-TaylorAndMaclaurinSeries
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 0
+  skip: true
+  fields:
+    Front: |
+      SVEC-08.07-00 Synthesis Notes:
+      #### Summary of definitions:
+
+      1. **Taylor series of the function $f$ at $a$**
+      2. **Maclaurin series of the function $f$**
+      3. **$n$th-degree Taylor polynomial of $f$ at $a$**
+      4. **remainder of a Taylor series**
+      5. **Lagrange's form of the remainder term**
+      6. **binomial series,** **binomial coefficients**
+      7. **Important Maclaurin Series and Their Radii of Convergence**
+        - ...
+
+      #### Summary of theorems:
+
+      1. _Unnamed_ (**power-series expansion coefficients theorem**)
+      2. _Unnamed_ (**Taylor-series sum-remainder relationship**)
+      3. **Taylor Remainder Theorem**
+      4. **Taylor's Inequality**
+      5. Give $\frac{1}{1-x}$ as its Taylor series sum. Give its radius of convergence.
+      6. Give $e^{x}$ as its Taylor series sum. Give its radius of convergence.
+      7. Give $e$ as a series sum.
+      8. Give $\sin x$ as its Taylor series sum. Give its radius of convergence.
+      9. Give $\cos x$ as its Taylor series sum. Give its radius of convergence.
+      10. Give $\tan ^{-1} x$ as its Taylor series sum. Give its radius of convergence.
+      11. Give $\ln (1+x)$ as its Taylor series sum. Give its radius of convergence.
+      12. Give $(1+x)^{k}$ as its Taylor series sum. Give its radius of convergence.
+      4. _Unnamed_ (**power-factorial ratio limit**)
+      5. _Unnamed_ (**$e^x$ equals its Taylor series sum**)
+      6. _Unnamed_ (**$e$ as series sum**)
+      7. _Unnamed_ (**$\sin x$ as Maclaurin series sum**)
+      8. _Unnamed_ (**$\cos x$ as Maclaurin series sum**)
+      12. **The Binomial Series Theorem**
+      13. **Multiplication of Power Series**
+      14. **Division of Power Series**
+    Back: |
+    Annotations: ''
+  tags: []
+- id: 1585684259092
+  fields:
+    Front: |
+      SVEC-08.07-01 Synthesis:
+      #### Taylor and Maclaurin Series
+      List the Taylor and Maclaurin Series definitions.
+    Back: |
+      1. **Taylor Coefficients**, **Taylor series of the function $f$ at $a$**, **Maclaurin series of the function $f$**
+      2. **$n$th-degree Taylor polynomial of $f$ at $a$**, **remainder of a Taylor series**, **Lagrange's form of the remainder term**
+      3. **binomial series,** **binomial coefficients**
+      4. **Important Maclaurin Series and Their Radii of Convergence**
+        - ...
+    Annotations: ''
+  tags:
+  - Definitions
+- id: 1585684358892
+  fields:
+    Front: |
+      SVEC-08.07-02 Synthesis:
+      #### Taylor and Maclaurin Series
+      List the Taylor and Maclaurin Series theorems.
+    Back: |
+      1. _Unnamed_ **Taylor coefficients theorem**
+      2. _Unnamed_ **analytic-function remainder theorem**
+      3. **Taylor Remainder Theorem**
+      4. **Taylor's Inequality**
+      5. _Unnamed_ **power-factorial ratio limit**
+      6. **Important functions equaling their Maclaurin series sums**
+      7. **$e$ as series sum**
+      8. _Unnamed_ **power-series multiplication/division methods**
+    Annotations: ''
+  tags:
+  - Theorems
+---
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Synthesis
+  - Definitions
+  - SingleVariableEssentialCalculus
+  - SVEC-08-Series
+  - SVEC-08.07-TaylorAndMaclaurinSeries
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1585685090916
+  fields:
+    Front: |
+      SVEC-08.07-03 Synthesis:
+      #### Taylor and Maclaurin Series
+      Define **Taylor Coefficients**, **Taylor series of the function $f$ at $a$**, and **Maclaurin series of the function $f$**.
+    Back: |
+      Taylor coefficients are the numbers
+      $$
+      c_{n}=\frac{f^{(n)}(a)}{n !}
+      $$ appearing in the (unnamed) Taylor coefficients theorem.
+
+      If $f$ has a power-series expansion at $a$ then the Taylor series of the function $f$ at $a$ is
+      $$
+      \begin{aligned}
+      f(x)
+      &=\sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n !}(x-a)^{n} \\
+      &=f(a)+\frac{f^{\prime}(a)}{1 !}(x-a)+\frac{f^{\prime \prime}(a)}{2 !}(x-a)^{2}+\frac{f^{\prime \prime \prime}(a)}{3 !}(x-a)^{3}+\cdots
+      \end{aligned}
+      $$
+
+      For the special case $a=0$ the Taylor series becomes
+      $$
+      f(x)=\sum_{n=0}^{\infty} \frac{f^{(n)}(0)}{n !} x^{n}=f(0)+\frac{f^{\prime}(0)}{1 !} x+\frac{f^{\prime \prime}(0)}{2 !} x^{2}+\cdots
+      $$ and is given the special name Maclaurin series.
+    Annotations: ''
+  tags: []
+- id: 1585686069090
+  fields:
+    Front: |
+      SVEC-08.07-04 Synthesis:
+      #### Taylor and Maclaurin Series
+      Define **$n$th-degree Taylor polynomial of $f$ at $a$**.
+    Back: |
+      The $n$th partial sum of a Taylor series 
+      $$
+      \begin{aligned}
+      T_{n}(x) &=\sum_{i=0}^{n} \frac{f^{(i)}(a)}{i !}(x-a)^{i} \\
+      &=f(a)+\frac{f^{\prime}(a)}{1 !}(x-a)+\frac{f^{\prime \prime}(a)}{2 !}(x-a)^{2}+\cdots+\frac{f^{(n)}(a)}{n !}(x-a)^{n}
+      \end{aligned}
+      $$ is a polynomial of degree $n$ called the $n$th-degree Taylor polynomial of $f$ at $a.$
+    Annotations: ''
+  tags: []
+- id: 1585867937815
+  fields:
+    Front: |
+      SVEC-08.07-05 Synthesis:
+      #### Taylor and Maclaurin Series
+      Define the **$n$-th degree remainder of a Taylor series**.
+    Back: |
+      In general, $f(x)$ is the sum of its Taylor series if
+      $$
+      f(x)=\lim _{n \rightarrow \infty} T_{n}(x)
+      $$ If we let
+      $$
+      R_{n}(x)=f(x)-T_{n}(x) \quad \text { so that } \quad f(x)=T_{n}(x)+R_{n}(x)
+      $$ then $R_{n}(x)$ is called the remainder of the Taylor series.
+    Annotations: ''
+  tags: []
+- id: 1585868281715
+  fields:
+    Front: |
+      SVEC-08.07-06 Synthesis:
+      #### Taylor and Maclaurin Series
+      Define **Lagrange's form of the remainder term**.
+    Back: |
+      The remainder term
+      $$
+      R_{n}(x)=\frac{f^{(n+1)}(z)}{(n+1) !}(x-a)^{n+1}
+      $$ appearing in the Taylor Remainder Theorem is known as Lagrange's form of the remainder term, and is very similar to the terms in the Taylor series except that $f^{(n+1)}$ is evaluated at $z$ instead of at $a$. All we can say about the number $z$ is that it lies somewhere between $x$ and $a .$
+    Annotations: ''
+  tags: []
+- id: 1585868777191
+  fields:
+    Front: |
+      SVEC-08.07-07 Synthesis:
+      #### Taylor and Maclaurin Series
+      Define **binomial series** and **binomial coefficients**.
+    Back: |
+      The Maclaurin series of $f(x)=(1+x)^{k}$ is
+      $$
+      \sum_{n=0}^{\infty} \frac{f^{(n)}(0)}{n !} x^{n}=\sum_{n=0}^{\infty} \frac{k(k-1) \cdots(k-n+1)}{n !} x^{n}
+      $$ This series is called the binomial series. Notice that if $k$ is a nonnegative integer, then the terms are eventually 0 and so the series is finite. For other values of $k$ none of the terms is 0 and so we can use the Ratio Test to determine radius of convergence $|x|<1$.
+
+      The traditional notation for the coefficients in the binomial series is
+      $$
+      {k \choose n} =\frac{k(k-1)(k-2) \cdots(k-n+1)}{n !}
+      $$ and these numbers are called the binomial coefficients.
+    Annotations: "Thoughts:<div>- 200406-1625: need to recognize alternate form of\
+      \ binomial coefficient. I'm used to:</div><div>\\[ {k \\choose n} = \\frac{k!}{n!(k-n)!}\
+      \ \\]</div>"
+  tags:
+  - ann:thoughts
+- id: 1585869030591
+  fields:
+    Front: |
+      SVEC-08.07-08 Synthesis:
+      #### Taylor and Maclaurin Series
+      What **important Maclaurin series** are listed in Section 8.7?
+    Back: |
+      $\frac{1}{1-x}$
+      $e^{x}$
+      $\sin x$
+      $\cos x$
+      $\tan ^{-1} x$
+      $\ln (1+x)$
+      $(1+x)^{k}$
+    Annotations: ''
+  tags: []
+---
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Synthesis
+  - Theorems
+  - SingleVariableEssentialCalculus
+  - SVEC-08-Series
+  - SVEC-08.07-TaylorAndMaclaurinSeries
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1585870348566
+  fields:
+    Front: |
+      SVEC-08.07-09 Synthesis:
+      #### Taylor and Maclaurin Series
+      State the _unnamed_ **Taylor coefficients theorem**. List its hypotheses and conclusions.
+    Back: |
+      If $f$ has a power series representation (expansion) at $a$, that is, if
+      $$
+      f(x)=\sum_{n=0}^{\infty} c_{n}(x-a)^{n} \quad|x-a|<R
+      $$ then its coefficients are given by the formula
+      $$
+      c_{n}=\frac{f^{(n)}(a)}{n !}
+      $$
+
+      Hypotheses:
+
+      - $f$ has a power series representation (expansion) at $a:$
+        $$
+        f(x)=\sum_{n=0}^{\infty} c_{n}(x-a)^{n}
+        $$
+      - $|x-a|<R$ where $R$ is the radius of convergence.
+
+      Conclusions: its coefficients are given by
+      $$
+      c_{n}=\frac{f^{(n)}(a)}{n !}
+      $$
+    Annotations: 'Fix me:<div>- 200407-1910: \(R\) here is not necessarily the radius
+      of convergence \(R_\text{c}\), although it does constrain \(R_\text{c}\):</div><div>\[
+      R \le R_\text{c} \]</div>'
+  tags:
+  - ann:fix-me
+- id: 1585870348761
+  fields:
+    Front: |
+      SVEC-08.07-10 Synthesis:
+      #### Taylor and Maclaurin Series
+      State the _unnamed_ **analytic-function remainder theorem**. List its hypotheses and conclusions.
+    Back: |
+      If $f(x)=T_{n}(x)+R_{n}(x),$ where $T_{n}$ is the $n$ th-degree Taylor polynomial of $f$ at $a$ and
+      $$
+      \lim _{n \rightarrow \infty} R_{n}(x)=0
+      $$ for $|x-a|<R,$ then $f$ is equal to the sum of its Taylor series on the interval $|x-a|<R.$
+
+      Hypotheses:
+
+      - $f(x)=T_{n}(x)+R_{n}(x),$ where $T_{n}$ is the $n$ th-degree Taylor polynomial of $f$ at $a.$
+      - $\lim _{n \rightarrow \infty} R_{n}(x)=0$ for $|x-a|<R.$
+
+      Conclusions:
+
+      - $f$ is equal to the sum of its Taylor series on the interval $|x-a|<R.$
+    Annotations: ''
+  tags: []
+- id: 1585870348956
+  fields:
+    Front: |
+      SVEC-08.07-11 Synthesis:
+      #### Taylor and Maclaurin Series
+      State the **Taylor Remainder Theorem**. List its hypotheses and conclusions.
+    Back: |
+      If $f$ has $n+1$ derivatives in an interval $I$ that contains the number $a$, then for $x$ in $I$ there is a number $z$ strictly between $x$ and $a$ such that the remainder term in the Taylor series can be expressed as
+      $$
+      R_{n}(x)=\frac{f^{(n+1)}(z)}{(n+1) !}(x-a)^{n+1}
+      $$
+
+      Hypotheses:
+
+      - $f$ has $n+1$ derivatives in an interval $I$ that contains the number $a$
+
+      Conclusions:
+
+      - For each $x$ in $I$ there is a number $z$ strictly between $x$ and $a$ such that the remainder term in the Taylor series can be expressed as
+      $$
+      R_{n}(x)=\frac{f^{(n+1)}(z)}{(n+1) !}(x-a)^{n+1}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1585870348956
+  fields:
+    Front: |
+      SVEC-08.07-12 Synthesis:
+      #### Taylor and Maclaurin Series
+      State **Taylor's Inequality**. List its hypotheses and conclusions.
+    Back: |
+      If $f$ is a function that satisfies the Taylor Remainder Theorem, then the remainder satisfies
+      $$
+      \left|R_{n}\right| \leq\left|\frac{K(x-a)^{n+1}}{(n+1) !}\right|
+      $$ where $K=\max _{x \in I}\left|f^{(n+1)}(x)\right|.$
+
+      Hypotheses:
+
+      - $f$ satisfies the Taylor Remainder Theorem.
+
+      Conclusions:
+
+      - $R_n$ satisfies
+      $$
+      \left|R_{n}\right| \leq\left|\frac{K(x-a)^{n+1}}{(n+1) !}\right|
+      $$ where $K=\max _{x \in I}\left|f^{(n+1)}(x)\right|.$
+
+      Notes:
+
+      - $\left|\frac{K(x-a)^{n+1}}{(n+1) !}\right|$ is an upper bound, but not necessarily the least upper bound. It is often an overestimate.
+
+    Annotations: ''
+  tags: []
+- id: 1585870349158
+  fields:
+    Front: |
+      SVEC-08.07-13 Synthesis:
+      #### Taylor and Maclaurin Series
+      State the _unnamed_ **power-factorial ratio limit**.
+    Back: |
+      $\lim _{n \rightarrow \infty} \frac{x^{n}}{n !}=0$ for every real number $x.$
+    Annotations: ''
+  tags: []
+- id: 1585870349358
+  fields:
+    Front: |
+      SVEC-08.07-14 Synthesis:
+      #### Taylor and Maclaurin Series
+      Give $\frac{1}{1-x}$ as its Taylor series sum. Give its radius of convergence.
+    Back: |
+      $$
+      \begin{aligned}
+      \frac{1}{1-x}
+      &=\sum_{n=0}^{\infty} x^{n} \\
+      &=1+x+x^{2}+x^{3}+\cdots, \\
+      R&=1
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1585870349556
+  fields:
+    Front: |
+      SVEC-08.07-15 Synthesis:
+      #### Taylor and Maclaurin Series
+      Give $e^{x}$ as its Taylor series sum. Give its radius of convergence.
+    Back: |
+      $$
+      \begin{aligned}
+      e^{x}
+      &=\sum_{n=0}^{\infty} \frac{x^{n}}{n !} \\
+      &=1+\frac{x}{1 !}+\frac{x^{2}}{2 !}+\frac{x^{3}}{3 !}+\cdots, \\
+      R&=\infty
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1585870349740
+  fields:
+    Front: |
+      SVEC-08.07-16 Synthesis:
+      #### Taylor and Maclaurin Series
+      Give $e$ as a series sum.
+    Back: |
+      $$
+      e=\sum_{n=0}^{\infty} \frac{1}{n !}=1+\frac{1}{1 !}+\frac{1}{2 !}+\frac{1}{3 !}+\cdots
+      $$
+    Annotations: ''
+  tags: []
+- id: 1585870349923
+  fields:
+    Front: |
+      SVEC-08.07-17 Synthesis:
+      #### Taylor and Maclaurin Series
+      Give $\sin x$ as its Taylor series sum. Give its radius of convergence.
+    Back: |
+      $$
+      \begin{aligned}
+      \sin x
+      &=\sum_{n=0}^{\infty}(-1)^{n} \frac{x^{2 n+1}}{(2 n+1) !} \\
+      &=x-\frac{x^{3}}{3 !}+\frac{x^{5}}{5 !}-\frac{x^{7}}{7 !}+\cdots, \\
+      R&=\infty
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1585873002915
+  fields:
+    Front: |
+      SVEC-08.07-18 Synthesis:
+      #### Taylor and Maclaurin Series
+      Give $\cos x$ as its Taylor series sum. Give its radius of convergence.
+    Back: |
+      $$
+      \begin{aligned}
+      \cos x
+      &=\sum_{n=0}^{\infty}(-1)^{n} \frac{x^{2 n}}{(2 n) !} \\
+      &=1-\frac{x^{2}}{2 !}+\frac{x^{4}}{4 !}-\frac{x^{6}}{6 !}+\cdots, \\
+      R&=\infty
+      \end{aligned}
+      $$
+    Annotations: 'Memorize:<div>- 200407-2204: had to derive radius of convergence
+      as well as expanded sum.</div>'
+  tags:
+  - ann:memorize
+- id: 1585873003089
+  fields:
+    Front: |
+      SVEC-08.07-19 Synthesis:
+      #### Taylor and Maclaurin Series
+      Give $\tan ^{-1} x$ as its Taylor series sum. Give its radius of convergence.
+    Back: |
+      $$
+      \begin{aligned}
+      \tan ^{-1} x
+      &=\sum_{n=0}^{\infty}(-1)^{n} \frac{x^{2 n+1}}{2 n+1} \\
+      &=x-\frac{x^{3}}{3}+\frac{x^{5}}{5}-\frac{x^{7}}{7}+\cdots, \\
+      R&=1
+      \end{aligned}
+      $$
+    Annotations: 'Memorize:<div>- 200407-2207: had to derive radius of convergence,
+      as well as expanded sum.</div>'
+  tags:
+  - ann:memorize
+- id: 1585873003264
+  fields:
+    Front: |
+      SVEC-08.07-20 Synthesis:
+      #### Taylor and Maclaurin Series
+      Give $\ln (1+x)$ as its Taylor series sum. Give its radius of convergence.
+    Back: |
+      $$
+      \begin{aligned}
+      \ln (1+x)
+      &=\sum_{n=1}^{\infty}(-1)^{n-1} \frac{x^{n}}{n} \\
+      &=x-\frac{x^{2}}{2}+\frac{x^{3}}{3}-\frac{x^{4}}{4}+\cdots, \\
+      R&=1
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1585873003440
+  fields:
+    Front: |
+      SVEC-08.07-21 Synthesis:
+      #### Taylor and Maclaurin Series
+      Give $(1+x)^{k}$ as its Taylor series sum. Give its radius of convergence.
+    Back: |
+      $$
+      \begin{aligned}
+      (1+x)^{k}
+      &=\sum_{n=0}^{\infty}\left(\begin{array}{l}k \\ n\end{array}\right) x^{n} \\
+      &=1+k x+\frac{k(k-1)}{2 !} x^{2}+\frac{k(k-1)(k-2)}{3 !} x^{3}+\cdots, \\
+      R&=1
+      \end{aligned}
+      $$
+    Annotations: 'Memorize:<div>- 200407-2217: had to derive radius of convergence,
+      as well as expanded sum.</div>'
+  tags:
+  - ann:memorize
+- id: 1585870350107
+  fields:
+    Front: |
+      SVEC-08.07-22 Synthesis:
+      #### Taylor and Maclaurin Series
+      State **The Binomial Series Theorem**. List its hypotheses and conclusions.
+    Back: |
+      If $k$ is any real number and $|x|<1$, then
+      $$
+      \begin{aligned}
+      (1+x)^{k}
+      &=\sum_{n=0}^{\infty}\left(\begin{array}{l}k \\ n\end{array}\right) x^{n} \\
+      &=1+k x+\frac{k(k-1)}{2 !} x^{2}+\frac{k(k-1)(k-2)}{3 !} x^{3}+\cdots
+      \end{aligned}
+      $$
+
+      Hypotheses:
+
+      - $k$ is any real number.
+      - $|x| < 1.$
+
+      Conclusions:
+      $$
+      \begin{aligned}
+      (1+x)^{k}
+      &=\sum_{n=0}^{\infty}\left(\begin{array}{l}k \\ n\end{array}\right) x^{n} \\
+      &=1+k x+\frac{k(k-1)}{2 !} x^{2}+\frac{k(k-1)(k-2)}{3 !} x^{3}+\cdots
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1585870350299
+  fields:
+    Front: |
+      SVEC-08.07-23 Synthesis:
+      #### Taylor and Maclaurin Series
+      State the _unnamed_ **power-series multiplication method**. List its hypotheses and conclusions.
+    Back: |
+      If $f(x)=\sum a_{n} (x-a)^{n}$ and $g(x)=\sum b_{n} (x-a)^{n}$ converge for $|x-a|<R_a$ and $|x-a|<R_b,$ respectively, and the series are multiplied as if they were polynomials, then the resulting series represents $f(x) g(x)$ and converges for $|x-a|<\min(R_a, R_b):$
+      $$
+      \begin{aligned}
+      f(x) g(x)
+      &=\left(\sum_{n=0}^{\infty} a_{n}(x-a)^{n}\right)\left(\sum_{n=0}^{\infty} b_{n}(x-a)^{n}\right) \\
+      &=\sum_{i=0}^{\infty} \sum_{j=0}^{\infty} a_{i} b_{j}(x-a)^{i+j} \\
+      &=\sum_{n=0}^{\infty}\left(\sum_{i=0}^{n} a_{i} b_{n-i}\right)(x-a)^{n}
+      \end{aligned}
+      $$ This last form provides a method for determining the first few terms of the product:
+      $$
+      \begin{aligned}
+      f(x) g(x)
+      &=\left(\sum_{n=0}^{\infty} a_{n}(x-a)^{n}\right)\left(\sum_{n=0}^{\infty} b_{n}(x-a)^{n}\right) \\
+      &=\sum_{n=0}^{\infty} c_{n} (x-a)^{n}
+      \end{aligned}
+      $$ where
+      $$
+      c_n=\sum_{i=0}^{n} a_{i} b_{n-i}
+      $$
+
+      Hypotheses:
+
+      - $f(x)=\sum a_{n} (x - a)^{n}$ converges for $|x-a|<R_a.$
+      - $g(x)=\sum b_{n} (x - a)^{n}$ converges for $|x-a|<R_b.$
+      - The series are multiplied as if they were polynomials:
+        $$
+        f(x) g(x) =\left(\sum_{n=0}^{\infty} a_{n}(x-a)^{n}\right)\left(\sum_{n=0}^{\infty} b_{n}(x-a)^{n}\right)
+        $$
+
+      Conclusions:
+
+      - $$
+        \begin{aligned}
+        f(x) g(x)
+        &=\left(\sum_{n=0}^{\infty} a_{n}(x-a)^{n}\right)\left(\sum_{n=0}^{\infty} b_{n}(x-a)^{n}\right) \\
+        &=\sum_{n=0}^{\infty} c_{n} (x-a)^{n}
+        \end{aligned}
+        $$ where
+        $$
+        c_n=\sum_{i=0}^{n} a_{i} b_{n-i}.
+        $$
+      - The resulting series converges for $|x-a|<\min(R_a, R_b).$
+
+      (See https://en.wikipedia.org/wiki/Power_series)
+    Annotations: Fix me:<div>- 200407-1914:</div><div>&nbsp; - Use the multiplication
+      procedure at&nbsp;https://en.wikipedia.org/wiki/Power_series and the long-division
+      procedure from the textbook.</div><div>&nbsp; - Should probably split this flashcard
+      into two, one for multiplication, one for division.</div>
+  tags:
+  - ann:fix-me
+- id: 1586309684675
+  media:
+  - path: ¢{file_dir}/images/SVEC-08.07-24.Sy.1.jpg
+  - path: ¢{file_dir}/images/SVEC-08.07-24.Sy.2.jpg
+  fields:
+    Front: |
+      SVEC-08.07-24 Synthesis:
+      #### Taylor and Maclaurin Series
+      State the _unnamed_ **power-series division method**. List its hypotheses and conclusions.
+    Back: |
+      division If both $f(x)=\sum c_{n} x^{n}$ and $g(x)=\sum b_{n} x^{n}$ converge for $|x|<R$ and $f$ is divided by $g$ as though they were polynomials, we require $b_{0} \neq 0 $ and use a procedure like long division. The resulting series converges for sufficiently small $|x|.$
+
+      For example:
+      <p align="center">
+      ![](SVEC-08.07-24.Sy.1.jpg)
+      </p>
+      <p align="center">
+      ![](SVEC-08.07-24.Sy.2.jpg)
+      </p>
+      Thus $\tan x=x+\frac{1}{3} x^{3}+\frac{2}{15} x^{5}+\cdots$
+
+      Hypotheses:
+
+      - Both $f(x)=\sum c_{n} x^{n}$ and $g(x)=\sum b_{n} x^{n}$ converge for $|x|<R.$
+      - The series divided as if they were polynomials using a procedure like long division.
+      - $b_{0} \neq 0.$
+
+      Conclusions:
+
+      - For division the resulting series converges for sufficiently small $|x|.$
+    Annotations: ''
+  tags:
+  - Editing

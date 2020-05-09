@@ -1,0 +1,110 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-12-VectorsAndTheGeometryOfSpace
+  - CET-12.06-CylindersAndQuadricSurfaces
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1588981989260
+  fields:
+    Front: |
+      CET-12.06-1 Example:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588981989461
+  fields:
+    Front: |
+      CET-12.06-2 Example:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588981989627
+  fields:
+    Front: |
+      CET-12.06-3 Example:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588981989817
+  fields:
+    Front: |
+      CET-12.06-4 Example:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588981989994
+  fields:
+    Front: |
+      CET-12.06-5 Example:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588981990194
+  fields:
+    Front: |
+      CET-12.06-6 Example:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588981990394
+  fields:
+    Front: |
+      CET-12.06-7 Example:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588981990562
+  fields:
+    Front: |
+      CET-12.06-8 Example:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

@@ -1,0 +1,590 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-12-VectorsAndTheGeometryOfSpace
+  - CET-12.01-Three-DimensionalCoordinateSystems
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1588877804359
+  fields:
+    Front: |
+      CET-12.01-01 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877804559
+  fields:
+    Front: |
+      CET-12.01-02 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877804734
+  fields:
+    Front: |
+      CET-12.01-03 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877804901
+  fields:
+    Front: |
+      CET-12.01-04 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877805101
+  fields:
+    Front: |
+      CET-12.01-05 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877805309
+  fields:
+    Front: |
+      CET-12.01-06 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877805484
+  fields:
+    Front: |
+      CET-12.01-07 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877805639
+  fields:
+    Front: |
+      CET-12.01-08 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877805834
+  fields:
+    Front: |
+      CET-12.01-09 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877806003
+  fields:
+    Front: |
+      CET-12.01-10 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877806167
+  fields:
+    Front: |
+      CET-12.01-11 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877806334
+  fields:
+    Front: |
+      CET-12.01-12 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877806501
+  fields:
+    Front: |
+      CET-12.01-13 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877806684
+  fields:
+    Front: |
+      CET-12.01-14 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877806884
+  fields:
+    Front: |
+      CET-12.01-15 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877807069
+  fields:
+    Front: |
+      CET-12.01-16 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877807234
+  fields:
+    Front: |
+      CET-12.01-17 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877807426
+  fields:
+    Front: |
+      CET-12.01-18 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877807653
+  fields:
+    Front: |
+      CET-12.01-19 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877807836
+  fields:
+    Front: |
+      CET-12.01-20 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877808017
+  fields:
+    Front: |
+      CET-12.01-21 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877808184
+  fields:
+    Front: |
+      CET-12.01-22 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877808368
+  fields:
+    Front: |
+      CET-12.01-23 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877808559
+  fields:
+    Front: |
+      CET-12.01-24 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877808736
+  fields:
+    Front: |
+      CET-12.01-25 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877808917
+  fields:
+    Front: |
+      CET-12.01-26 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877809089
+  fields:
+    Front: |
+      CET-12.01-27 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877809284
+  fields:
+    Front: |
+      CET-12.01-28 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877809484
+  fields:
+    Front: |
+      CET-12.01-29 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877809684
+  fields:
+    Front: |
+      CET-12.01-30 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877809884
+  fields:
+    Front: |
+      CET-12.01-31 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877810072
+  fields:
+    Front: |
+      CET-12.01-32 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877810259
+  fields:
+    Front: |
+      CET-12.01-33 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877810452
+  fields:
+    Front: |
+      CET-12.01-34 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877810652
+  fields:
+    Front: |
+      CET-12.01-35 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877810851
+  fields:
+    Front: |
+      CET-12.01-36 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877811051
+  fields:
+    Front: |
+      CET-12.01-37 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877811236
+  fields:
+    Front: |
+      CET-12.01-38 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877811434
+  fields:
+    Front: |
+      CET-12.01-39 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877811619
+  fields:
+    Front: |
+      CET-12.01-40 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877811801
+  fields:
+    Front: |
+      CET-12.01-41 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877811989
+  fields:
+    Front: |
+      CET-12.01-42 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877812167
+  fields:
+    Front: |
+      CET-12.01-43 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877812348
+  fields:
+    Front: |
+      CET-12.01-44 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877812517
+  fields:
+    Front: |
+      CET-12.01-45 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877812706
+  fields:
+    Front: |
+      CET-12.01-46 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877812885
+  fields:
+    Front: |
+      CET-12.01-47 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877813085
+  fields:
+    Front: |
+      CET-12.01-48 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Three-Dimensional Coordinate Systems
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

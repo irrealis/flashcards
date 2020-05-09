@@ -1,0 +1,98 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-12-VectorsAndTheGeometryOfSpace
+  - CET-12.02-Vectors
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1588877748709
+  fields:
+    Front: |
+      CET-12.02-01 Example:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877748886
+  fields:
+    Front: |
+      CET-12.02-02 Example:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877749048
+  fields:
+    Front: |
+      CET-12.02-03 Example:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877749216
+  fields:
+    Front: |
+      CET-12.02-04 Example:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877749415
+  fields:
+    Front: |
+      CET-12.02-05 Example:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877749582
+  fields:
+    Front: |
+      CET-12.02-06 Example:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588877749765
+  fields:
+    Front: |
+      CET-12.02-07 Example:
+      #### Vectors and the Geometry of Space
+      ##### Vectors
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

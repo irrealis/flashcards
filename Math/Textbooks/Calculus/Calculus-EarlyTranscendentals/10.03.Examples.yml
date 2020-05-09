@@ -1,0 +1,157 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-10-ParametricEquationsAndPolarCoordinates
+  - CET-10.03-PolarCoordinates
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1588112103975
+  fields:
+    Front: |
+      CET-10.03-01 Example:
+      #### Parametric Equations and Polar Coordinates
+      ##### Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - Editing
+  - ToDo
+- id: 1588112104137
+  fields:
+    Front: |
+      CET-10.03-02 Example:
+      #### Parametric Equations and Polar Coordinates
+      ##### Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - Editing
+  - ToDo
+- id: 1588112104298
+  fields:
+    Front: |
+      CET-10.03-03 Example:
+      #### Parametric Equations and Polar Coordinates
+      ##### Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - Editing
+  - ToDo
+- id: 1588112104489
+  fields:
+    Front: |
+      CET-10.03-04 Example:
+      #### Parametric Equations and Polar Coordinates
+      ##### Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - Editing
+  - ToDo
+- id: 1588112104671
+  fields:
+    Front: |
+      CET-10.03-05 Example:
+      #### Parametric Equations and Polar Coordinates
+      ##### Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - Editing
+  - ToDo
+- id: 1588112104837
+  fields:
+    Front: |
+      CET-10.03-06 Example:
+      #### Parametric Equations and Polar Coordinates
+      ##### Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - Editing
+  - ToDo
+- id: 1588112105008
+  fields:
+    Front: |
+      CET-10.03-07 Example:
+      #### Parametric Equations and Polar Coordinates
+      ##### Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - Editing
+  - ToDo
+- id: 1588112105199
+  fields:
+    Front: |
+      CET-10.03-08 Example:
+      #### Parametric Equations and Polar Coordinates
+      ##### Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - Editing
+  - ToDo
+- id: 1588112105404
+  fields:
+    Front: |
+      CET-10.03-09 Example:
+      #### Parametric Equations and Polar Coordinates
+      ##### Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - Editing
+  - ToDo
+- id: 1588112105588
+  fields:
+    Front: |
+      CET-10.03-10 Example:
+      #### Parametric Equations and Polar Coordinates
+      ##### Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - Editing
+  - ToDo
+- id: 1588112105771
+  fields:
+    Front: |
+      CET-10.03-11 Example:
+      #### Parametric Equations and Polar Coordinates
+      ##### Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - Editing
+  - ToDo

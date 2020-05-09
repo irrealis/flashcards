@@ -1,0 +1,662 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-12-VectorsAndTheGeometryOfSpace
+  - CET-12.04-TheCrossProduct
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1588905565684
+  fields:
+    Front: |
+      CET-12.04-01 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905565883
+  fields:
+    Front: |
+      CET-12.04-02 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905566049
+  fields:
+    Front: |
+      CET-12.04-03 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905566216
+  fields:
+    Front: |
+      CET-12.04-04 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905566388
+  fields:
+    Front: |
+      CET-12.04-05 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905566582
+  fields:
+    Front: |
+      CET-12.04-06 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905566749
+  fields:
+    Front: |
+      CET-12.04-07 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905566958
+  fields:
+    Front: |
+      CET-12.04-08 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905567159
+  fields:
+    Front: |
+      CET-12.04-09 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905567367
+  fields:
+    Front: |
+      CET-12.04-10 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905567534
+  fields:
+    Front: |
+      CET-12.04-11 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905567703
+  fields:
+    Front: |
+      CET-12.04-12 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905567882
+  fields:
+    Front: |
+      CET-12.04-13 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905568085
+  fields:
+    Front: |
+      CET-12.04-14 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905568282
+  fields:
+    Front: |
+      CET-12.04-15 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905568450
+  fields:
+    Front: |
+      CET-12.04-16 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905568667
+  fields:
+    Front: |
+      CET-12.04-17 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905568834
+  fields:
+    Front: |
+      CET-12.04-18 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905569053
+  fields:
+    Front: |
+      CET-12.04-19 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905569234
+  fields:
+    Front: |
+      CET-12.04-20 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905569432
+  fields:
+    Front: |
+      CET-12.04-21 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905569651
+  fields:
+    Front: |
+      CET-12.04-22 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905569833
+  fields:
+    Front: |
+      CET-12.04-23 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905570032
+  fields:
+    Front: |
+      CET-12.04-24 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905570216
+  fields:
+    Front: |
+      CET-12.04-25 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905570401
+  fields:
+    Front: |
+      CET-12.04-26 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905570567
+  fields:
+    Front: |
+      CET-12.04-27 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905570740
+  fields:
+    Front: |
+      CET-12.04-28 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905570949
+  fields:
+    Front: |
+      CET-12.04-29 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905571134
+  fields:
+    Front: |
+      CET-12.04-30 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905571317
+  fields:
+    Front: |
+      CET-12.04-31 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905571495
+  fields:
+    Front: |
+      CET-12.04-32 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905571667
+  fields:
+    Front: |
+      CET-12.04-33 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905571837
+  fields:
+    Front: |
+      CET-12.04-34 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905572034
+  fields:
+    Front: |
+      CET-12.04-35 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905572205
+  fields:
+    Front: |
+      CET-12.04-36 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905572384
+  fields:
+    Front: |
+      CET-12.04-37 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905572566
+  fields:
+    Front: |
+      CET-12.04-38 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905572750
+  fields:
+    Front: |
+      CET-12.04-39 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905572935
+  fields:
+    Front: |
+      CET-12.04-40 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905573133
+  fields:
+    Front: |
+      CET-12.04-41 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905573312
+  fields:
+    Front: |
+      CET-12.04-42 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905573499
+  fields:
+    Front: |
+      CET-12.04-43 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905573687
+  fields:
+    Front: |
+      CET-12.04-44 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905573899
+  fields:
+    Front: |
+      CET-12.04-45 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905574084
+  fields:
+    Front: |
+      CET-12.04-46 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905574268
+  fields:
+    Front: |
+      CET-12.04-47 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905574434
+  fields:
+    Front: |
+      CET-12.04-48 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905574616
+  fields:
+    Front: |
+      CET-12.04-49 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905574816
+  fields:
+    Front: |
+      CET-12.04-50 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905574999
+  fields:
+    Front: |
+      CET-12.04-51 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905575167
+  fields:
+    Front: |
+      CET-12.04-52 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905575351
+  fields:
+    Front: |
+      CET-12.04-53 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905575549
+  fields:
+    Front: |
+      CET-12.04-54 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

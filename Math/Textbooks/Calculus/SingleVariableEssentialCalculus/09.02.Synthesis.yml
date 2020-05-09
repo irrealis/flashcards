@@ -1,0 +1,198 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Synthesis
+  - SingleVariableEssentialCalculus
+  - SVEC-09-ParametricEquationsAndPolarCoordinates
+  - SVEC-09.02-CalculusWithParametricCurves
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 0
+  skip: true
+  fields:
+    Front: |
+      SVEC-09.02-00 Synthesis Notes:
+      #### Summary of theorems:
+      _Unnamed_ **derivative formula**
+      _Unnamed_ **next derivative formula**
+      _Unnamed_ **area formula**
+      _Unnamed_ **arc length formula**
+
+      #### Summary of proofs:
+      _Unnamed_ **derivative formula**
+      _Unnamed_ **next derivative formula**
+      _Unnamed_ **area formula**
+      _Unnamed_ **arc length formula**
+    Back: |
+    Annotations: ''
+  tags: []
+- id: 1587507548017
+  fields:
+    Front: |
+      SVEC-09.02-01 Synthesis:
+      #### Calculus with Parametric Curves
+      List the parametric-curve calculus theorems.
+    Back: |
+      1. _Unnamed_ **derivative formula**
+      2. _Unnamed_ **next derivative formula**
+      3. _Unnamed_ **area formula**
+      4. _Unnamed_ **arc length formula**
+    Annotations: ''
+  tags:
+  - Theorems
+---
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Synthesis
+  - Theorem
+  - SingleVariableEssentialCalculus
+  - SVEC-09-ParametricEquationsAndPolarCoordinates
+  - SVEC-09.02-CalculusWithParametricCurves
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1587507939500
+  fields:
+    Front: |
+      SVEC-09.02-02 Synthesis:
+      #### Calculus with Parametric Curves
+      State the _unnamed_ **derivative formula**. List its hypotheses and conclusions.
+    Back: |
+      Hypotheses:
+
+      - $x = f(t)$ and $y = g(t)$ are differentiable functions.
+
+      Conclusions:
+
+      - Where $f^{\prime}(t) = dx/dt \ne 0$,
+        $$
+        \frac{dy}{dx} = \frac{dy/dt}{dx/dt} = \frac{g^{\prime}(t)}{f^{\prime}(t)}
+        $$
+
+      Riffs:
+
+      - Restated, where $x^{\prime}(t) \ne 0$,
+        $$
+        \frac{dy}{dx} = \frac{y^{\prime}(t)}{x^{\prime}(t)}
+        $$
+    Annotations: "Minor trouble:<div>- 200430-1226: memory: forgot hypothesis \\(x,y\\\
+      ) both differentiable; but that's implicit.</div>"
+  tags:
+  - Editing
+  - ann:minor-trouble
+- id: 1587508580200
+  fields:
+    Front: |
+      SVEC-09.02-03 Synthesis:
+      #### Calculus with Parametric Curves
+      State the _unnamed_ **next derivative formula**. List its hypotheses and conclusions.
+    Back: |
+      Hypotheses:
+
+      - $x = f(t)$ and $g^{\prime}(t)$ are differentiable functions.
+      - $dy/dx$ is a differentiable function of $x.$
+
+      Conclusions:
+
+      - Where $f^{\prime}(t) = dx/dt \ne 0$,
+        $$
+        \frac{d^{2}y}{dx^{2}} = \frac{\frac{d}{dt}\left(\frac{dy}{dx}\right)}{\frac{dx}{dt}} = \frac{\frac{d}{dt}\left(\frac{dy/dt}{dx/dt}\right)}{\frac{dx}{dt}}
+        $$
+
+      Riffs:
+
+      - Similarly,
+        $$
+        \frac{d^{n+1}y}{dx^{n+1}} = \frac{\frac{d}{dt}\left(\frac{d^{n}y}{dx^{n}}\right)}{\frac{dx}{dt}}
+        $$
+
+    Annotations: ''
+  tags: []
+- id: 1587778586251
+  fields:
+    Front: |
+      SVEC-09.02-04 Synthesis:
+      #### Calculus with Parametric Curves
+      State the _unnamed_ **area formula**. List its hypotheses and conclusions.
+    Back: |
+      We know that the area under a curve $y=F(x)$ from $a$ to $b$ is $A=\int_{a}^{b} F(x) d x,$ where $F(x) \geqslant 0 .$ If the curve is given by parametric equations $x=f(t), y=g(t)$ and is traversed once as $t$ increases from $\alpha$ to $\beta$, then we can adapt the earlier formula by using the Substitution Rule for Definite Integrals as follows:
+      $$
+      A=\int_{a}^{b} y d x=\int_{\alpha}^{\beta} g(t) f^{\prime}(t) d t
+      $$ or $\int_{\beta}^{\alpha} g(t) f^{\prime}(t) d t$ if $(f(\beta), g(\beta))$ is the leftmost endpoint.
+
+      Hypotheses:
+
+      - Curve is given by parametric equations $x=f(t), y=g(t).$
+      - Curve is traversed once as $t$ increases from $\alpha$ to $\beta.$
+
+      Conclusions:
+
+      - If $(f(\alpha), g(\alpha))$ is the leftmost endpoint then
+        $$
+        A=\int_{a}^{b} y d x=\int_{\alpha}^{\beta} g(t) f^{\prime}(t) d t
+        $$
+      - If $(f(\beta), g(\beta))$ is the leftmost endpoint then
+        $$
+        A=\int_{a}^{b} y d x=\int_{\beta}^{\alpha} g(t) f^{\prime}(t) d t
+        $$
+    Annotations: 'Memory:<div>- 200428-1948: remember inherited hypothesis that \(y(t)\)
+      must be nonnegative.</div><div>- 200430-1213: remember hypothesis that curve
+      traversed exactly once.</div><div><br></div><div>Fix me:</div><div>- 200428-1948:
+      add inherited hypothesis that \(y(t)\) must be nonnegative.</div><div><br></div>'
+  tags:
+  - ann:fix-me
+  - ann:memorize
+- id: 1587778878100
+  fields:
+    Front: |
+      SVEC-09.02-05 Synthesis:
+      #### Calculus with Parametric Curves
+      State the _unnamed_ **arc length formula**. List its hypotheses and conclusions.
+    Back: |
+      If a curve $C$ is described by the parametric equations $x=f(t)$ $y=g(t), \alpha \leqslant t \leqslant \beta,$ where $f^{\prime}$ and $g^{\prime}$ are continuous on $[\alpha, \beta]$ and $C$ is traversed exactly once as $t$ increases from $\alpha$ to $\beta$, then the length of $C$ is
+      $$
+      L=\int_{\alpha}^{\beta} \sqrt{\left(\frac{d x}{d t}\right)^{2}+\left(\frac{d y}{d t}\right)^{2}} d t
+      $$
+
+      Hypotheses:
+
+      - Curve $C$ is described by the parametric equations $x=f(t)$ $y=g(t), \alpha \leqslant t \leqslant \beta.$
+      - $f^{\prime}$ and $g^{\prime}$ are continuous on $[\alpha, \beta].$
+      - $C$ is traversed exactly once as $t$ increases from $\alpha$ to $\beta.$
+
+      Conclusions:
+
+      - The length of $C$ is
+        $$
+        L=\int_{\alpha}^{\beta} \sqrt{\left(\frac{d x}{d t}\right)^{2}+\left(\frac{d y}{d t}\right)^{2}} d t
+        $$
+      - Note: in contrast to the area formula, whether $f(\alpha)$ is leftmost is irrelevant.
+    Annotations: ''
+  tags: []
+---
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Synthesis
+  - Proof
+  - SingleVariableEssentialCalculus
+  - SVEC-09-ParametricEquationsAndPolarCoordinates
+  - SVEC-09.02-CalculusWithParametricCurves
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+  skip: true
+notes: []

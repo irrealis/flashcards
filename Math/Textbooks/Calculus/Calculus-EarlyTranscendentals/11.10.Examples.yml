@@ -26,5 +26,282 @@ notes:
       \left|\frac{a_{n+1}}{a_{n}}\right|=\left|\frac{x^{n+1}}{(n+1) !} \cdot \frac{n !}{x^{n}}\right|=\frac{|x|}{n+1} \rightarrow 0<1
       $$ so, by the Ratio Test, the series converges for all $x$ and the radius of convergence is $R=\infty.$
     Annotations: ''
+  tags: []
+- id: 1586128648866
+  fields:
+    Front: |
+      CET-11.10-02 Example:
+      Prove that $e^{x}$ is equal to the sum of its Maclaurin series.
+    Back: |
+      If $f(x)=e^{x},$ then $f^{(n+1)}(x)=e^{x}$ for all $n .$ If $d$ is any positive number and $|x| \leqslant d,$ then $\left|f^{(n+1)}(x)\right|=e^{x} \leqslant e^{d} .$ So Taylor's Inequality, with $a=0$ and $M=e^{d}$ says that
+      $$
+      \left|R_{n}(x)\right| \leqslant \frac{e^{d}}{(n+1) !}|x|^{n+1} \quad \text { for }|x| \leqslant d
+      $$ Notice that the same constant $M=e^{d}$ works for every value of $n .$ But, from Equation $10,$ we have
+      $$
+      \lim _{n \rightarrow \infty} \frac{e^{d}}{(n+1) !}|x|^{n+1}=e^{d} \lim _{n \rightarrow \infty} \frac{|x|^{n+1}}{(n+1) !}=0
+      $$ It follows from the Squeeze Theorem that $\lim _{n \rightarrow \infty}\left|R_{n}(x)\right|=0$ and therefore $\lim _{n \rightarrow \infty} R_{n}(x)=0$ for all values of $x .$ By Theorem $8, e^{x}$ is equal to the sum of its Maclaurin series, that is,
+      $$e^{x}=\sum_{n=0}^{\infty} \frac{x^{n}}{n !} \quad \text { for all } x.$$
+    Annotations: ''
+  tags: []
+- id: 1586128789690
+  fields:
+    Front: |
+      CET-11.10-03 Example:
+      Find the Taylor series for $f(x)=e^{x}$ at $a=2$.
+    Back: |
+      We have $f^{(n)}(2)=e^{2}$ and so, putting $a=2$ in the definition of a Taylor series, we get
+      $$
+      \sum_{n=0}^{\infty} \frac{f^{(n)}(2)}{n !}(x-2)^{n}=\sum_{n=0}^{\infty} \frac{e^{2}}{n !}(x-2)^{n}
+      $$ Again it can be verified, as in Example $1,$ that the radius of convergence is $R=\infty .$ As in Example 2 we can verify that $\lim _{n \rightarrow \infty} R_{n}(x)=0,$ so
+      $$e^{x}=\sum_{n=0}^{\infty} \frac{e^{2}}{n !}(x-2)^{n} \quad \text { for all } x.$$
+    Annotations: ''
+  tags: []
+- id: 1586129131541
+  fields:
+    Front: |
+      CET-11.10-04 Example:
+      Find the Maclaurin series for sin $x$ and prove that it represents sin $x$ for all $x.$
+    Back: |
+      We arrange our computation in two columns as follows:
+      $$
+      \begin{array}{rclrcl}
+      {f(x)} & {=} & {\sin x} & {f(0)} & {=} & {0} \\
+      {f^{\prime}(x)} & {=} & {\cos x} & {f^{\prime}(0)} & {=} & {1} \\
+      {f^{\prime \prime}(x)} & {=} & {-\sin x} & {f^{\prime \prime}(0)} & {=} & {0} \\
+      {f^{\prime \prime \prime}(x)} & {=} & {-\cos x} & {f^{\prime \prime \prime}(0)} & {=} & {-1} \\
+      {f^{(4)}(x)} & {=} & {\sin x} & {f^{(4)}(0)} & {=} & {0}
+      \end{array}
+      $$ Since the derivatives repeat in a cycle of four, we can write the Maclaurin series as follows:
+      $$
+      \begin{aligned}
+      f(0) &+\frac{f^{\prime}(0)}{1 !} x+\frac{f^{\prime \prime}(0)}{2 !} x^{2}+\frac{f^{\prime \prime \prime}(0)}{3 !} x^{3}+\cdots \\
+      &=x-\frac{x^{3}}{3 !}+\frac{x^{5}}{5 !}-\frac{x^{7}}{7 !}+\cdots=\sum_{n=0}^{\infty}(-1)^{n} \frac{x^{2 n+1}}{(2 n+1) !}
+      \end{aligned}
+      $$ Since $f^{(n+1)}(x)$ is $\pm \sin x$ or $\pm \cos x,$ we know that $\left|f^{(n+1)}(x)\right| \leqslant 1$ for all $x .$ So we can take $M=1$ in Taylor's Inequality:
+      $$
+      \left|R_{n}(x)\right| \leqslant \frac{M}{(n+1) !}\left|x^{n+1}\right|=\frac{|x|^{n+1}}{(n+1) !}
+      $$ By Equation 10 the right side of this inequality approaches 0 as $n \rightarrow \infty,$ so $\left|R_{n}(x)\right| \rightarrow 0$ by the Squeeze Theorem. It follows that $R_{n}(x) \rightarrow 0$ as $n \rightarrow \infty,$ so $\sin x$ is equal to the sum of its Maclaurin series by Theorem 8.
+    Annotations: ''
+  tags: []
+- id: 1586129274741
+  fields:
+    Front: |
+      CET-11.10-05 Example:
+      Find the Maclaurin series for $\cos x.$
+    Back: |
+      We could proceed directly as in Example 4, but it's easier to differentiate the Maclaurin series for sin $x$ given by Equation 15:
+      $$
+      \begin{aligned}
+      \cos x
+      &=\frac{d}{d x}(\sin x) \\
+      &=\frac{d}{d x}\left(x-\frac{x^{3}}{3 !}+\frac{x^{5}}{5 !}-\frac{x^{7}}{7 !}+\cdots\right) \\
+      &=1-\frac{3 x^{2}}{3 !}+\frac{5 x^{4}}{5 !}-\frac{7 x^{6}}{7 !}+\cdots \\
+      &=1-\frac{x^{2}}{2 !}+\frac{x^{4}}{4 !}-\frac{x^{6}}{6 !}+\cdots
+      \end{aligned}
+      $$ Since the Maclaurin series for sin $x$ converges for all $x,$ Theorem 11.9.2 tells us that the differentiated series for cos $x$ also converges for all $x .$ Thus
+      $$
+      \begin{aligned}
+      \cos x &=1-\frac{x^{2}}{2 !}+\frac{x^{4}}{4 !}-\frac{x^{6}}{6 !}+\cdots \\
+      &=\sum_{n=0}^{\infty}(-1)^{n} \frac{x^{2 n}}{(2 n) !} \quad \text { for all } x.
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1586129433416
+  fields:
+    Front: |
+      CET-11.10-06 Example:
+      Find the Maclaurin series for the function $f(x)=x \cos x.$
+    Back: |
+      Instead of computing derivatives and substituting in Equation 7 , it's easier to multiply the series for cos $x$ by $x:$
+      $$
+      \begin{aligned}
+      x \cos x
+      &=x \sum_{n=0}^{\infty}(-1)^{n} \frac{x^{2 n}}{(2 n) !} \\
+      &=\sum_{n=0}^{\infty}(-1)^{n} \frac{x^{2 n+1}}{(2 n) !}
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1586129573216
+  fields:
+    Front: |
+      CET-11.10-07 Example:
+      Represent $f(x)=\sin x$ as the sum of its Taylor series centered at $\pi / 3.$
+    Back: |
+      Arranging our work in columns, we have
+      $$
+      \begin{array}{rlrl}
+      f(x) & =\sin x & f\left(\frac{\pi}{3}\right) & =\frac{\sqrt{3}}{2} \\
+      f^{\prime}(x) & =\cos x & f^{\prime}\left(\frac{\pi}{3}\right) & =\frac{1}{2} \\
+      f^{\prime \prime}(x) & =-\sin x & f^{\prime \prime}\left(\frac{\pi}{3}\right) & =-\frac{\sqrt{3}}{2} \\
+      f^{\prime \prime \prime}(x) & =-\cos x & f^{\prime \prime \prime}\left(\frac{\pi}{3}\right) & =-\frac{1}{2}
+      \end{array}
+      $$ and this pattern repeats indefinitely. Therefore the Taylor series at $\pi / 3$ is
+      $$
+      \begin{aligned}
+      f\left(\frac{\pi}{3}\right)+& \frac{f^{\prime}\left(\frac{\pi}{3}\right)}{1 !}\left(x-\frac{\pi}{3}\right)+\frac{f^{\prime \prime}\left(\frac{\pi}{3}\right)}{2 !}\left(x-\frac{\pi}{3}\right)^{2}+\frac{f^{\prime \prime \prime}\left(\frac{\pi}{3}\right)}{3 !}\left(x-\frac{\pi}{3}\right)^{3}+\cdots \\
+      &=\frac{\sqrt{3}}{2}+\frac{1}{2 \cdot 1 !}\left(x-\frac{\pi}{3}\right)-\frac{\sqrt{3}}{2 \cdot 2 !}\left(x-\frac{\pi}{3}\right)^{2}-\frac{1}{2 \cdot 3 !}\left(x-\frac{\pi}{3}\right)^{3}+\cdots
+      \end{aligned}
+      $$ The proof that this series represents $\sin x$ for all $x$ is very similar to that in Example 4 [Just replace $x$ by $x-\pi / 3$ in ( 14 ).] We can write the series in sigma notation if we separate the terms that contain $\sqrt{3}:$
+      $$
+      \sin x=\sum_{n=0}^{\infty} \frac{(-1)^{n} \sqrt{3}}{2(2 n) !}\left(x-\frac{\pi}{3}\right)^{2 n}+\sum_{n=0}^{\infty} \frac{(-1)^{n}}{2(2 n+1) !}\left(x-\frac{\pi}{3}\right)^{2 n+1}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1586129825266
+  fields:
+    Front: |
+      CET-11.10-08 Example:
+      Find the Maclaurin series for $f(x)=(1+x)^{k},$ where $k$ is any real number.
+    Back: |
+      Arranging our work in columns, we have
+      $$
+      \begin{array}{rlrl}
+      f(x) & =(1+x)^{k} & f(0) & =1 \\
+      f^{\prime}(x) & =k(1+x)^{k-1} & f^{\prime}(0) & =k \\
+      f^{\prime \prime}(x) & =k(k-1)(1+x)^{k-2} & f^{\prime \prime}(0) & =k(k-1) \\
+      f^{\prime \prime \prime}(x) & =k(k-1)(k-2)(1+x)^{k-3} & f^{\prime \prime \prime}(0) & =k(k-1)(k-2) \\
+      \vdots & & \vdots & \\
+      f^{(n)}(x) & =k(k-1) \cdots(k-n+1)(1+x)^{k-n} & f^{(n)}(0) & =k(k-1) \cdots(k-n+1)
+      \end{array}
+      $$ Therefore the Maclaurin series of $f(x)=(1+x)^{k}$ is
+      $$
+      \sum_{n=0}^{\infty} \frac{f^{(n)}(0)}{n !} x^{n}=\sum_{n=0}^{\infty} \frac{k(k-1) \cdots(k-n+1)}{n !} x^{n}
+      $$ This series is called the binomial series. Notice that if $k$ is a nonnegative integer, then the terms are eventually 0 and so the series is finite. For other values of $k$ none of the terms is 0 and so we can try the Ratio Test. If the $n$ th term is $a_{n},$ then
+      $$
+      \begin{aligned}
+      \left|\frac{a_{n+1}}{a_{n}}\right|
+      &=\left|\frac{k(k-1) \cdots(k-n+1)(k-n) x^{n+1}}{(n+1) !} \cdot \frac{n !}{k(k-1) \cdots(k-n+1) x^{n}}\right| \\
+      &=\frac{|k-n|}{n+1}|x| \\
+      &=\frac{\left|1-\frac{k}{n}\right|}{1+\frac{1}{n}}|x| \rightarrow|x| \quad \text { as } n \rightarrow \infty
+      \end{aligned}
+      $$ Thus, by the Ratio Test, the binomial series converges if $|x|<1$ and diverges if $|x|>1.$
+    Annotations: ''
+  tags: []
+- id: 1586130177041
+  fields:
+    Front: |
+      CET-11.10-09 Example:
+      Find the Maclaurin series for the function $f(x)=\frac{1}{\sqrt{4-x}}$ and its radius of convergence.
+    Back: |
+      We rewrite $f(x)$ in a form where we can use the binomial series:
+      $$
+      \frac{1}{\sqrt{4-x}}=\frac{1}{\sqrt{4\left(1-\frac{x}{4}\right)}}=\frac{1}{2 \sqrt{1-\frac{x}{4}}}=\frac{1}{2}\left(1-\frac{x}{4}\right)^{-1 / 2}
+      $$ Using the binomial series with $k=-\frac{1}{2}$ and with $x$ replaced by $-x / 4,$ we have
+      $$
+      \begin{aligned}
+      \frac{1}{\sqrt{4-x}}
+      &=\frac{1}{2}\left(1-\frac{x}{4}\right)^{-1 / 2} \\
+      &=\frac{1}{2} \sum_{n=0}^{\infty}\left(
+        \begin{array}{c} -\frac{1}{2} \\
+        n
+        \end{array}
+      \right)\left(-\frac{x}{4}\right)^{n} \\
+      &= \frac{1}{2}\left[1+\left(-\frac{1}{2}\right)\left(-\frac{x}{4}\right)+\frac{\left(-\frac{1}{2}\right)\left(-\frac{3}{2}\right)}{2 !}\left(-\frac{x}{4}\right)^{2}+\frac{\left(-\frac{1}{2}\right)\left(-\frac{3}{2}\right)\left(-\frac{5}{2}\right)}{3 !}\left(-\frac{x}{4}\right)^{3}\right.\\
+      &{\phantom{=}}\left.+\cdots+\frac{\left(-\frac{1}{2}\right)\left(-\frac{3}{2}\right)\left(-\frac{5}{2}\right) \cdots\left(-\frac{1}{2}-n+1\right)}{n !}\left(-\frac{x}{4}\right)^{n}+\cdots\right] \\
+      &= \frac{1}{2}\left[1+\frac{1}{8} x+\frac{1 \cdot 3}{2 ! 8^{2}} x^{2}+\frac{1 \cdot 3 \cdot 5}{3 ! 8^{3}} x^{3}+\cdots+\frac{1 \cdot 3 \cdot 5 \cdots(2 n-1)}{n ! 8^{n}} x^{n}+\cdots\right]
+      \end{aligned}
+      $$ We know from (17) that this series converges when $|-x / 4|<1,$ that is, $|x|<4,$ so the radius of convergence is $R=4.$
+    Annotations: 'Trouble:<div>- 200408-0309: rush/arithmetic: off-by-one error: wrote
+      \(2n+1\) instead of \(2n-1\). Try to avoid by working through the algebra: \(-\tfrac{1}{2}
+      - n + 1\) \(=-n+\tfrac{1}{2}\) \(=\frac{-2n+1}{2}\) \(=-\tfrac{1}{2}(2n-1)\).</div>'
+  tags:
+  - ann:trouble
+- id: 1586130317916
+  fields:
+    Front: |
+      CET-11.10-10 Example:
+      Find the sum of the series $\frac{1}{1 \cdot 2}-\frac{1}{2 \cdot 2^{2}}+\frac{1}{3 \cdot 2^{3}}-\frac{1}{4 \cdot 2^{4}}+\cdots.$
+    Back: |
+      With sigma notation we can write the given series as
+      $$
+      \sum_{n=1}^{\infty}(-1)^{n-1} \frac{1}{n \cdot 2^{n}}=\sum_{n=1}^{\infty}(-1)^{n-1} \frac{\left(\frac{1}{2}\right)^{n}}{n}
+      $$ Then from Table 1 we see that this series matches the entry for $\ln (1+x)$ with $x=\frac{1}{2} .$ So
+      $$
+      \sum_{n=1}^{\infty}(-1)^{n-1} \frac{1}{n \cdot 2^{n}}=\ln \left(1+\frac{1}{2}\right)=\ln \frac{3}{2}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1586130462841
+  fields:
+    Front: |
+      CET-11.10-11 Example:
+      (a) Evaluate $\int e^{-x^{2}} d x$ as an infinite series.
+      (b) Evaluate $\int_{0}^{1} e^{-x^{2}} d x$ correct to within an error of $0.001.$
+    Back: |
+      (a) First we find the Maclaurin series for $f(x)=e^{-x^{2}} .$ Although it's possible to use the direct method, let's find it simply by replacing $x$ with $-x^{2}$ in the series for $e^{x}$ given in Table $1 .$ Thus, for all values of $x$
+      $$
+      e^{-x^{2}}=\sum_{n=0}^{\infty} \frac{\left(-x^{2}\right)^{n}}{n !}=\sum_{n=0}^{\infty}(-1)^{n} \frac{x^{2 n}}{n !}=1-\frac{x^{2}}{1 !}+\frac{x^{4}}{2 !}-\frac{x^{6}}{3 !}+\cdots
+      $$ Now we integrate term by term:
+      $$
+      \begin{aligned}
+      \int e^{-x^{2}} d x &=\int\left(1-\frac{x^{2}}{1 !}+\frac{x^{4}}{2 !}-\frac{x^{6}}{3 !}+\cdots+(-1)^{n} \frac{x^{2 n}}{n !}+\cdots\right) d x \\
+      &=C+x-\frac{x^{3}}{3 \cdot 1 !}+\frac{x^{5}}{5 \cdot 2 !}-\frac{x^{7}}{7 \cdot 3 !}+\cdots+(-1)^{n} \frac{x^{2 n+1}}{(2 n+1) n !}+\cdots
+      \end{aligned}
+      $$ This series converges for all $x$ because the original series for $e^{-x^{2}}$ converges for all $x.$
+
+      (b) The Fundamental Theorem of Calculus gives
+      $$
+      \begin{aligned}
+      \int_{0}^{1} e^{-x^{2}} d x &=\left[x-\frac{x^{3}}{3 \cdot 1 !}+\frac{x^{5}}{5 \cdot 2 !}-\frac{x^{7}}{7 \cdot 3 !}+\frac{x^{9}}{9 \cdot 4 !}-\cdots\right]_{0}^{1} \\
+      &=1-\frac{1}{3}+\frac{1}{10}-\frac{1}{42}+\frac{1}{216}-\cdots \\
+      & \approx 1-\frac{1}{3}+\frac{1}{10}-\frac{1}{42}+\frac{1}{216} \approx 0.7475
+      \end{aligned}
+      $$ The Alternating Series Estimation Theorem shows that the error involved in this approximation is less than
+      $$
+      \frac{1}{11 \cdot 5 !}=\frac{1}{1320}<0.001
+      $$
+    Annotations: 'Trouble:<div>- 200408-0333: memory/focus: computed four terms, which
+      is \(T_3\) rather than the intended \(T_4\), which requires five terms.</div>'
+  tags:
+  - ann:trouble
+- id: 1586130539641
+  fields:
+    Front: |
+      CET-11.10-12 Example:
+      Evaluate $\lim _{x \rightarrow 0} \frac{e^{x}-1-x}{x^{2}}.$
+    Back: |
+      Using the Maclaurin series for $e^{x},$ we have
+      $$
+      \begin{aligned}
+      \lim _{x \rightarrow 0} \frac{e^{x}-1-x}{x^{2}} &=\lim _{x \rightarrow 0} \frac{\left(1+\frac{x}{1 !}+\frac{x^{2}}{2 !}+\frac{x^{3}}{3 !}+\ldots\right)-1-x}{x^{2}} \\
+      &=\lim _{x \rightarrow 0} \frac{\frac{x^{2}}{2 !}+\frac{x^{3}}{3 !}+\frac{x^{4}}{4 !}+\cdots}{x^{2}} \\
+      &=\lim _{x \rightarrow 0}\left(\frac{1}{2}+\frac{x}{3 !}+\frac{x^{2}}{4 !}+\frac{x^{3}}{5 !}+\cdots\right)=\frac{1}{2}
+      \end{aligned}
+      $$ because power series are continuous functions.
+    Annotations: ''
+  tags: []
+- id: 1586131312541
+  media:
+  - path: ¢{file_dir}/images/CET-11.10-13.Xs.1.jpg
+  - path: ¢{file_dir}/images/CET-11.10-13.Xs.2.jpg
+  fields:
+    Front: |
+      CET-11.10-13 Example:
+      Find the first three nonzero terms in the Maclaurin series for (a) $e^{x} \sin x$ and (b) $\tan x.$
+    Back: |
+      (a) Using the Maclaurin series for $e^{x}$ and $\sin x$ in Table $1,$ we have
+      $$
+      e^{x} \sin x=\left(1+\frac{x}{1 !}+\frac{x^{2}}{2 !}+\frac{x^{3}}{3 !}+\cdots\right)\left(x-\frac{x^{3}}{3 !}+\cdots\right)
+      $$ We multiply these expressions, collecting like terms just as for polynomials:
+      <p align="center">
+      ![](CET-11.10-13.Xs.1.jpg)
+      </p>
+      Thus
+      $$
+      e^{x} \sin x=x+x^{2}+\frac{1}{3} x^{3}+\cdots
+      $$
+
+      (b) Using the Maclaurin series in Table $1,$ we have
+      $$
+      \tan x=\frac{\sin x}{\cos x}=\frac{x-\frac{x^{3}}{3 !}+\frac{x^{5}}{5 !}-\cdots}{1-\frac{x^{2}}{2 !}+\frac{x^{4}}{4 !}-\cdots}
+      $$ We use a procedure like long division:
+      <p align="center">
+      ![](CET-11.10-13.Xs.2.jpg)
+      </p>
+      Thus
+      $$\tan x=x+\frac{1}{3} x^{3}+\frac{2}{15} x^{5}+\cdots$$
+    Annotations: ''
   tags:
   - Editing

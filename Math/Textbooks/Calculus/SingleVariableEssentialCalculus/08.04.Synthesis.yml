@@ -1,0 +1,279 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Synthesis
+  - SingleVariableEssentialCalculus
+  - SVEC-08-Series
+  - SVEC-08.04-OtherConvergenceTests
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 0
+  skip: true
+  fields:
+    Front: |
+      SVEC-08.04-00 Synthesis Notes:
+      #### Summary of definitions:
+
+      1. **alternating series**
+      2. **absolutely convergent**
+      3. **conditionally convergent**
+
+      #### Summary of theorems:
+
+      1. **Alternating Series Test**
+      2. **Alternating Series Estimation Theorem**
+      3. _Unnamed **Absolute-Convergence and Convergence Relationship**_
+      4. **Ratio Test**
+      5. **Root Test**
+
+      #### Summary of series-convergence tests:
+
+      1. **Divergence Test**
+      2. **Geometric Series Test**
+      3. **Telescoping Series Test**
+      4. **Integral Test**
+      5. **$p$-Series Test**
+      6. **Direct Comparison Test**
+      7. **Limit Comparison Test**
+      8. **Alternating Series Test**
+      9. **Ratio Test**
+      10. **Root Test**
+
+    Back: |
+    Annotations: ''
+  tags: []
+- id: 1585083041315
+  fields:
+    Front: |
+      SVEC-08.04-01 Synthesis:
+      ##### Other Convergence Tests
+      List definitions from the section "Other Convergence Tests."
+    Back: |
+      1. **Alternating series**
+      2. **Absolutely convergent**
+      3. **Conditionally convergent**
+    Annotations: ''
+  tags:
+  - Definitions
+- id: 1585083118065
+  fields:
+    Front: |
+      SVEC-08.04-02 Synthesis:
+      ##### Other Convergence Tests
+      List theorems from the section "Other Convergence Tests."
+    Back: |
+      1. **Alternating Series Test**
+      2. **Alternating Series Estimation Theorem**
+      3. _Unnamed_ (**Absolute-Convergence and Convergence Relationship**_
+      4. **Ratio Test**
+      5. **Root Test**
+    Annotations: ''
+  tags:
+  - Theorems
+---
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Synthesis
+  - Definition
+  - SingleVariableEssentialCalculus
+  - SVEC-08-Series
+  - SVEC-08.04-OtherConvergenceTests
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1585083386116
+  fields:
+    Front: |
+      SVEC-08.04-03 Synthesis:
+      ##### Other Convergence Tests
+      Define **alternating series.** Give an example of an alternating series.
+    Back: |
+      An **alternating series** is a series whose terms are alternately positive and negative.
+
+      ##### Example:
+      $$
+      \begin{aligned}
+      1-\frac{1}{2}+\frac{1}{3}-\frac{1}{4}+\frac{1}{5}-\frac{1}{6}+\cdots &=\sum_{n=1}^{\infty}(-1)^{n-1} \frac{1}{n} \\
+      -\frac{1}{2}+\frac{2}{3}-\frac{3}{4}+\frac{4}{5}-\frac{5}{6}+\frac{6}{7}-\cdots &=\sum_{n=1}^{\infty}(-1)^{n} \frac{n}{n+1}
+      \end{aligned}
+      $$ We see from these examples that the $n$ th term of an alternating series is of the form
+      $$
+      a_{n}=(-1)^{n-1} b_{n} \quad \text { or } \quad a_{n}=(-1)^{n} b_{n}
+      $$ where $b_{n}$ is a positive number. (In fact, $b_{n}=\left|a_{n}\right| .$ )
+    Annotations: ''
+  tags: []
+- id: 1585083558791
+  fields:
+    Front: |
+      SVEC-08.04-04 Synthesis:
+      ##### Other Convergence Tests
+      Define **absolutely convergent.** Give an example of absolute convergence.
+    Back: |
+      A series $\sum a_{n}$ is called **absolutely convergent** if the series of absolute values $\sum \left|a_{n}\right|$ is convergent.
+
+      ##### Example:
+      The series
+      $$
+      \sum_{n=1}^{\infty} \frac{(-1)^{n-1}}{n^{2}}=1-\frac{1}{2^{2}}+\frac{1}{3^{2}}-\frac{1}{4^{2}}+\cdots
+      $$ is absolutely convergent because
+      $$
+      \sum_{n=1}^{\infty}\left|\frac{(-1)^{n-1}}{n^{2}}\right|=\sum_{n=1}^{\infty} \frac{1}{n^{2}}=1+\frac{1}{2^{2}}+\frac{1}{3^{2}}+\frac{1}{4^{2}}+\cdots
+      $$ is a convergent $p$ -series $(p=2)$
+    Annotations: ''
+  tags: []
+- id: 1585083703941
+  fields:
+    Front: |
+      SVEC-08.04-05 Synthesis:
+      ##### Other Convergence Tests
+      Define **conditionally convergent.** Give an example of conditional convergence.
+    Back: |
+      A series $\sum a_{n}$ is called conditionally convergent if it is convergent but not absolutely convergent.
+
+      ##### Example:
+      The alternating harmonic series
+      $$
+      \sum_{n=1}^{\infty} \frac{(-1)^{n-1}}{n}=1-\frac{1}{2}+\frac{1}{3}-\frac{1}{4}+\cdots
+      $$ is convergent, but it is not absolutely convergent because the corresponding series of absolute values is
+      $$
+      \sum_{n=1}^{\infty}\left|\frac{(-1)^{n-1}}{n}\right|=\sum_{n=1}^{\infty} \frac{1}{n}=1+\frac{1}{2}+\frac{1}{3}+\frac{1}{4}+\cdots
+      $$ which is the harmonic series ( $p$ -series with $p=1$ ) and is therefore divergent.
+    Annotations: ''
+  tags: []
+---
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Synthesis
+  - Theorem
+  - SingleVariableEssentialCalculus
+  - SVEC-08-Series
+  - SVEC-08.04-OtherConvergenceTests
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1585083997441
+  fields:
+    Front: |
+      SVEC-08.04-06 Synthesis:
+      ##### Other Convergence Tests
+      State the **Alternating Series Test.** List its hypotheses and conclusions.
+    Back: |
+      If the alternating series
+      $$
+      \sum_{n=1}^{\infty}(-1)^{n-1} b_{n}=b_{1}-b_{2}+b_{3}-b_{4}+b_{5}-b_{6}+\cdots \quad b_{n}>0
+      $$ satisfies
+
+      (i) $b_{n+1} \leqslant b_{n}$ for all $n$
+      (ii) $\lim _{n \rightarrow \infty} b_{n}=0$
+
+      then the series is convergent.
+
+      Hypotheses:
+
+      - $\sum a_n$ is alternating: $\sum a_n = \pm\sum (-1)^n \left|a_n\right|$
+      - $\{\left|a_n\right|\}$ is decreasing: $\left|a_{n+1}\right| \leqslant \left|a_{n}\right|$ for all $n$
+      - $\{\left|a_n\right|\}$ converges to zero: $\lim_{n \rightarrow \infty} \left|a_{n}\right| = 0$
+
+      Conclusions:
+
+      - $\sum a_n$ is convergent
+    Annotations: 'Questions:<div>- 200326-1800: is it enough that \(\{\left|a_n\right|\}\)
+      be <i>ultimately</i>&nbsp;decreasing?</div>'
+  tags:
+  - ann:questions
+- id: 1585084940791
+  fields:
+    Front: |
+      SVEC-08.04-07 Synthesis:
+      ##### Other Convergence Tests
+      State the **Alternating Series Estimation Theorem.** List its hypotheses and conclusions.
+    Back: |
+      If $s=\sum(-1)^{n-1} b_{n}$ is the sum of an alternating series that satisfies
+
+      (i) $0 \leqslant b_{n+1} \leqslant b_{n} \quad$ and
+      (ii) $\lim b_{n}=0$
+
+      then the remainder $\left|R_{n}\right|=\left|s-s_{n}\right| \leqslant b_{n+1},$ $s_n$ the $n$th partial sum.
+
+      Hypotheses:
+
+      - $\sum a_n$ passes the Alternating Series Test.
+
+      Conclusions:
+
+      - The remainder $\left|R_{n}\right|=\left|s-s_{n}\right| \leqslant \left|b_{n+1}\right|,$ $s_n$ the $n$th partial sum.
+    Annotations: 'Fix me:<div>- 200326-1816: fix nomenclature for consistency (so
+      in the conclusion use \(\left|a_{n+1}\right|\)).</div>'
+  tags:
+  - ann:fix-me
+- id: 1585085355866
+  fields:
+    Front: |
+      SVEC-08.04-08 Synthesis:
+      ##### Other Convergence Tests
+      State the _Unnamed **Absolute-Convergence and Convergence Relationship.**_ List its hypotheses and conclusions.
+    Back: |
+      If a series $\sum a_{n}$ is absolutely convergent, then it is convergent.
+
+      Hypotheses:
+
+      - $\sum a_{n}$ is absolutely convergent.
+
+      Conclusions:
+
+      - $\sum a_{n}$ is convergent.
+    Annotations: ''
+  tags: []
+- id: 1585085834266
+  fields:
+    Front: |
+      SVEC-08.04-09 Synthesis:
+      ##### Other Convergence Tests
+      State the **Ratio Test.** List is hypotheses and conclusions.
+    Back: |
+      (i) If $\lim _{n \rightarrow \infty}\left|\frac{a_{n+1}}{a_{n}}\right|=L<1,$ then the series $\sum_{n=1}^{\infty} a_{n}$ is absolutely convergent (and therefore convergent).
+      (ii) If $\lim _{n \rightarrow \infty}\left|\frac{a_{n+1}}{a_{n}}\right|=L>1$ or $\lim _{n \rightarrow \infty}\left|\frac{a_{n+1}}{a_{n}}\right|=\infty,$ then the series $\sum_{n=1}^{\infty} a_{n}$ is divergent.
+      (iii) If $\lim _{n \rightarrow \infty}\left|\frac{a_{n+1}}{a_{n}}\right|=1,$ the Ratio Test is inconclusive; that is, no conclusion can be drawn about the convergence or divergence of $\sum a_{n}.$
+
+      Hypotheses and conclusions:
+
+      - $\lim _{n \rightarrow \infty}\left|\frac{a_{n+1}}{a_{n}}\right| < 1:$ $\sum a_n$ converges absolutely.
+      - $\lim _{n \rightarrow \infty}\left|\frac{a_{n+1}}{a_{n}}\right| > 1:$ $\sum a_n$ diverges.
+      - $\lim _{n \rightarrow \infty}\left|\frac{a_{n+1}}{a_{n}}\right| = 1:$ no conclusion.
+
+    Annotations: ''
+  tags: []
+- id: 1585086147140
+  fields:
+    Front: |
+      SVEC-08.04-10 Synthesis:
+      ##### Other Convergence Tests
+      State the **Root Test.** List is hypotheses and conclusions.
+    Back: |
+      (i) If $\lim _{n \rightarrow \infty} \sqrt[n]{\left|a_{n}\right|}=L<1,$ then the series $\sum_{n=1}^{\infty} a_{n}$ is absolutely convergent (and therefore convergent).
+      (ii) If $\lim _{n \rightarrow \infty} \sqrt[n]{\left|a_{n}\right|}=L>1$ or $\lim _{n \rightarrow \infty} \sqrt[n]{\left|a_{n}\right|}=\infty,$ then the series $\sum_{n=1}^{\infty} a_{n}$ is divergent.
+      (iii) If $\lim _{n \rightarrow \infty} \sqrt[n]{\left|a_{n}\right|}=1,$ the Root Test is inconclusive.
+
+      Hypotheses and conclusions:
+
+      - $\lim _{n \rightarrow \infty} \sqrt[n]{\left|a_{n}\right|} < 1:$ $\sum a_n$ converges absolutely.
+      - $\lim _{n \rightarrow \infty} \sqrt[n]{\left|a_{n}\right|} > 1:$ $\sum a_n$ diverges.
+      - $\lim _{n \rightarrow \infty} \sqrt[n]{\left|a_{n}\right|} = 1:$ the Ratio Test is inconclusive.
+    Annotations: ''
+  tags:
+  - Editing

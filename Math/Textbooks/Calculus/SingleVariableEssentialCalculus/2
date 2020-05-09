@@ -1,0 +1,15 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Synthesis
+  - SingleVariableEssentialCalculus
+  - SVEC-09-ParametricEquationsAndPolarCoordinates
+  - SVEC-09.03-PolarCoordinates
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+

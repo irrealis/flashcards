@@ -1,0 +1,12 @@
+- id: 0
+  fields:
+    Front: |
+      ${textbook_abbrev}-${chapter_num}.${section_num}-${problem_num} ${problem_type}:
+      #### ${chapter_title}
+      ##### ${section_title}
+      Temporary: work out of ${textbook_abbrev} textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

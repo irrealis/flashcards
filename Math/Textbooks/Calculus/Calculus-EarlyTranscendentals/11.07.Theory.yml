@@ -1,0 +1,418 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theory
+  - Calculus-EarlyTrancendentals
+  - CET-11-InfiniteSequencesAndSeries
+  - CET-11.07-StrategyForTestingSeries
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 0
+  skip: true
+  fields:
+    Front: |
+      CET-11.07-00 Theory Notes:
+
+      Book's ordering of tests:
+
+      1. $p$-Series Test (PST)
+      2. Geometric Series Test (GST)
+      3. Direct Comparison Test (DCT)
+      4. Limit Comparison Test (LCT)
+      5. Divergence Test (DT)
+      6. Alternating Series Test (AST)
+      7. Ratio Test (Ratio T)
+      8. Root Test (Root T)
+      9. Integral Test (IT)
+      10. Telescoping Series Test (TST)
+
+      Book's strategy:
+
+      1. $p$-series?
+        - $p$-Series Test.
+      2. Geometric series?
+        - GST.
+      3. Similar to $p$-series or geometric series?
+        - Try DCT, then LCT.
+        - Is $a_n$ rational or algebraic?
+          - Compare with $p$-series.
+        - Does $\sum a_n$ contain negative terms?
+          - Test for absolute convergence.
+      4. At a glance, does $lim_{n \to \infty} a_n \ne 0$?
+        - Try DT.
+      5. Do terms alternate sign?
+        - Try AST.
+      6. $a_n$ contains factorials or exponents?
+        - Try Ratio Test.
+      7. $a_n$ of form $(b_n)^n$?
+        - Try Root Test.
+      8. $a_n = f(n)$ easily integrated?
+        - Try Integral Test.
+
+      Synthesis 1:
+
+      - $\lim_{n \to \infty} a_n \ne 0$ at a glance? DT. 
+      - Geometric series? GST.
+      - $p$-series? PST.
+      - Rational, algebraic, or sim. to $p$-series or geometric series? Try DCT or LCT.
+      - Can rewrite as $\pm \sum b_{n} - b_{n+1}$? Try TST.
+      - Terms alternate signs? Try AST.
+      - Abs. convergence: test $\sum \left| a_n \right|$.
+      - Involves factorials or exponents? Try Ratio T.
+      - $a_n = (b_n)^n$? Root T.
+      - $a_n = f(n)$ easily integrated? IT.
+      - $\left|a_n\right| = f(n)$ easily integrated? IT.
+
+      Synthesis 2:
+
+      - DT: $\lim_{n \to \infty} a_n \ne 0$ at a glance.
+      - GST: geometric series.
+      - PST: $p$-series.
+      - DCT, LCT: rational, algebraic, or sim. to $p$-series or geometric series.
+      - TST: can rewrite as $\pm \sum b_{n} - b_{n+1}$ (try PFD).
+      - AST: terms alternate signs.
+      - AC: $\sum \left| a_n \right|$ converges.
+      - Ratio T: contains factorials or exponentials.
+      - Root T: $a_n = (b_n)^n$.
+      - IT: $a_n = f(n)$ or $\left|a_n\right| = f(n)$ easily integrated.
+
+      Synthesis 3:
+
+      1. DT: $\lim_{n \to \infty} a_n \ne 0$ at a glance.
+      2. GST: geometric series.
+      3. PST: $p$-series.
+      4. DCT, LCT: rational, algebraic, or sim. to $p$-series or geometric series.
+      5. TST: can rewrite as $\pm \sum b_{n} - b_{n+1}$ (try PFD).
+      6. AST: terms alternate signs.
+      7. AC: Repeat above with $\sum \left| a_n \right|$.
+      8. Ratio T: contains factorials or exponentials.
+      9. Root T: $a_n = (b_n)^n$.
+      10. IT: $a_n = f(n)$ or $\left|a_n\right| = f(n)$ easily integrated.
+
+      Mnemonics:
+
+      - D G P D L T A A Ratio Root I
+
+      - Divergence
+      - Geometric
+      - P
+      - Direct
+      - Limit
+      - Telescope
+      - Alternate
+      - Absolute
+      - Ratio
+      - Root
+      - Integral
+
+    Back: |
+    Annotations: ''
+  tags: []
+- id: 1585354286566
+  fields:
+    Front: |
+      CET-11.07-01 Theory:
+      List the steps of your series convergence test strategy.
+    Back: |
+      1. DT: $\lim_{n \to \infty} a_n \ne 0$ at a glance.
+      2. GST: geometric series.
+      3. PST: $p$-series.
+      4. DCT, LCT: rational, algebraic, or sim. to $p$-series or geometric series.
+      5. TST: can rewrite as $\pm \sum b_{n} - b_{n+1}$ (try PFD).
+      6. AST: terms alternate signs.
+      7. AC: Repeat above with $\sum \left| a_n \right|$.
+      8. Ratio T: contains factorials or exponentials.
+      9. Root T: $a_n = (b_n)^n$.
+      10. IT: $a_n = f(n)$ or $\left|a_n\right| = f(n)$ easily integrated.
+    Annotations: ''
+  tags: []
+- id: 1585378843092
+  fields:
+    Front: |
+      CET-11.07-02 Theory:
+      What is your series-convergence test mnemonic?
+    Back: |
+      DGPD LTAA Ratio Root I
+    Annotations: ''
+  tags: []
+- id: 1585354286835
+  fields:
+    Front: |
+      CET-11.07-03 Theory:
+      State the **Divergence Test (DT).** List its conditions for application, convergence, divergence, and inconclusive results. When should it be considered?
+    Back: |
+      **Application:**
+      Any series $\sum a_n.$
+
+      **Convergence:**
+      NA.
+
+      **Divergence:**
+      $\lim a_{n} \neq 0,$ or $\lim a_{n}$ does not exist.
+
+      **Inconclusive:**
+      $\lim a_{n} = 0.$
+
+      **When:**
+      Consider at-a-glance for any series.
+    Annotations: ''
+  tags: []
+- id: 1585354287020
+  fields:
+    Front: |
+      CET-11.07-04 Theory:
+      State the **Geometric Series Test (GST).** List its conditions for application, convergence, divergence, and inconclusive results. When should it be considered?
+    Back: |
+      **Application:**
+      $a_{n} = a_{1} \cdot r^{n}$ where $r$ is constant.
+
+      **Convergence:**
+      $|r| < 1.$
+
+      **Divergence:**
+      $|r| \geqslant 1.$
+
+      **Inconclusive:**
+      NA.
+
+      **When:**
+      Geometric series.
+    Annotations: ''
+  tags: []
+- id: 1585354287205
+  fields:
+    Front: |
+      CET-11.07-05 Theory:
+      State the **$p$-Series Test (PST).** List its conditions for application, convergence, divergence, and inconclusive results. When should it be considered?
+    Back: |
+      **Application:**
+      $a_{n}=\frac{1}{n^{p}}$ where $p$ is constant.
+
+      **Convergence:**
+      $p > 1.$
+
+      **Divergence:**
+      $p \leqslant 1.$
+
+      **Inconclusive:**
+      NA.
+
+      **When:**
+      $p$-series.
+    Annotations: ''
+  tags: []
+- id: 1585354287441
+  fields:
+    Front: |
+      CET-11.07-06 Theory:
+      State the **Direct Comparison Test (DCT).** List its conditions for application, convergence, divergence, and inconclusive results. When should it be considered?
+    Back: |
+      **Application:**
+
+      - $a_{n}$ and $b_{n}$ are positive.
+      - $a_{n} \leq b_{n}.$
+
+      **Convergence:**
+      $\sum b_{n}$ converges.
+
+      **Divergence:**
+      $\sum a_{n}$ diverges.
+
+      **Inconclusive:**
+      $\sum a_{n}$ converges or $\sum b_{n}$ diverges.
+
+      **When:**
+
+      - Problem suggests dominance-of-powers
+      - $a_n$ is rational, algebraic, or sim. to $p$-series or geometric series.
+    Annotations: ''
+  tags: []
+- id: 1585354287641
+  fields:
+    Front: |
+      CET-11.07-07 Theory:
+      State the **Limit Comparison Test (LCT).** List its conditions for application, convergence, divergence, and inconclusive results. When should it be considered?
+    Back: |
+      **Application:**
+
+      - $a_{n}$ and $b_{n}$ are positive.
+      - $0 < \lim _{n \rightarrow \infty} \frac{a_{n}}{b_{n}} < \infty.$
+
+      **Convergence:**
+      $\sum b_{n}$ converges.
+
+      (Note: this also holds under relaxed coditions that $0 \leqslant \lim _{n \rightarrow \infty} \frac{a_{n}}{b_{n}} < \infty$ and $\sum b_{n}$ converges.)
+
+      **Divergence:**
+      $\sum b_{n}$ diverges.
+
+      (Note: this also holds under relaxed conditions $0 < \lim _{n \rightarrow \infty} \frac{a_{n}}{b_{n}}$ and $\sum b_{n}$ diverges.)
+
+      **Inconclusive:**
+      $\lim _{n \rightarrow \infty} \frac{a_{n}}{b_{n}}$ DNE, is infinite, or is negative.
+
+      **When:**
+
+      - Problem suggests dominance-of-powers
+      - $a_n$ is rational, algebraic, or sim. to $p$-series or geometric series.
+      - DCT fails.
+    Annotations: ''
+  tags: []
+- id: 1585354287866
+  fields:
+    Front: |
+      CET-11.07-08 Theory:
+      State the **Telescoping Series Test (TST).** List its conditions for application, convergence, divergence, and inconclusive results. When should it be considered?
+    Back: |
+      **Application:**
+      $a_{n} = \pm (b_n - b_{n-1}),$ so $\lim _{n \rightarrow \infty} s_{n}= \pm(b_1 - \lim _{n \rightarrow \infty} b_{n}).$
+
+      **Convergence:**
+      $\lim _{n \rightarrow \infty} b_{n}$ exists and is finite.
+
+      **Divergence:**
+      $\lim _{n \rightarrow \infty} b_{n} = \pm\infty$ or DNE.
+
+      **Inconclusive:**
+      NA.
+
+      **When:**
+      Consider when PFD might permit additive cancellation.
+    Annotations: ''
+  tags: []
+- id: 1585354288069
+  fields:
+    Front: |
+      CET-11.07-09 Theory:
+      State the **Alternating Series Test (AST).** List its conditions for application, convergence, divergence, and inconclusive results. When should it be considered?
+    Back: |
+      **Application:**
+      $\sum a_n$ is alternating: $\sum a_n = \pm\sum (-1)^n \left|a_n\right|.$
+
+      **Convergence:**
+
+      - $\{\left|a_n\right|\}$ is nonincreasing: $\left|a_{n+1}\right| \leqslant \left|a_{n}\right|$ for all $n.$
+      - $\{\left|a_n\right|\}$ converges to zero: $\lim_{n \rightarrow \infty} \left|a_{n}\right| = 0.$
+
+      **Divergence:**
+      NA
+
+      **Inconclusive:**
+      $\{\left|a_n\right|\}$ is increasing, or does not converge to zero.
+
+      **When:**
+      Terms alternate signs.
+    Annotations: ''
+  tags: []
+- id: 1585354288285
+  fields:
+    Front: |
+      CET-11.07-10 Theory:
+      State the **Ratio Test (Ratio-T).** List its conditions for application, convergence, divergence, and inconclusive results. When should it be considered?
+    Back: |
+      **Application:**
+      $\lim _{n \rightarrow \infty}\left|\frac{a_{n+1}}{a_{n}}\right|$ exists.
+
+      **_Absolute_ Convergence:**
+      $\lim _{n \rightarrow \infty}\left|\frac{a_{n+1}}{a_{n}}\right| < 1.$
+
+      **Divergence:**
+      $\lim _{n \rightarrow \infty}\left|\frac{a_{n+1}}{a_{n}}\right| > 1.$
+
+      **Inconclusive:**
+      $\lim _{n \rightarrow \infty}\left|\frac{a_{n+1}}{a_{n}}\right| = 1.$
+
+      **When:**
+      $a_n$ contains factorials or exponentials.
+    Annotations: ''
+  tags: []
+- id: 1585354288490
+  fields:
+    Front: |
+      CET-11.07-11 Theory:
+      State the **Root Test (Root-T).** List its conditions for application, convergence, divergence, and inconclusive results. When should it be considered?
+    Back: |
+      **Application:**
+      $\lim _{n \rightarrow \infty} \sqrt[n]{\left|a_{n}\right|}$ exists.
+
+      **_Absolute_ Convergence:**
+      $\lim _{n \rightarrow \infty} \sqrt[n]{\left|a_{n}\right|} < 1.$
+
+      **Divergence:**
+      $\lim _{n \rightarrow \infty} \sqrt[n]{\left|a_{n}\right|} > 1.$
+
+      **Inconclusive:**
+      $\lim _{n \rightarrow \infty} \sqrt[n]{\left|a_{n}\right|} = 1.$
+
+      **When:**
+      $a_n$ can be written as $(b_n)^n$.
+    Annotations: ''
+  tags: []
+- id: 1585354288716
+  fields:
+    Front: |
+      CET-11.07-12 Theory:
+      State the **Integral Test (IT).** List its conditions for application, convergence, divergence, and inconclusive results. When should it be considered?
+    Back: |
+      **Application:**
+
+      - $a_{n} = f(n)$ for $n \geqslant n_{0},$
+        $n_0 \in \mathbb{Z}^{+}$ and often $n_0 = 1.$
+      - $f$ is defined $[n_0, \infty).$
+      - $f$ is continuous.
+      - $f$ is positive.
+      - $f$ is ultimately decreasing.
+
+      **Convergence:**
+      $\int_{n_0}^{\infty} f(x) d x$ converges.
+
+      **Divergence:**
+      $\int_{n_0}^{\infty} f(x) d x$ diverges.
+
+      **Inconclusive:**
+      NA.
+
+      **When:**
+      $a_n = f(n)$ or $\left|a_n\right| = f(n)$ is continuous, positive, ultimately decreasing, and easily integrated.
+    Annotations: ''
+  tags: []
+- id: 1585354288945
+  fields:
+    Front: |
+      CET-11.07-13 Theory:
+      Pair the following series forms with possible convergence tests to try:
+      - $\lim_{n \to \infty} a_n \ne 0$ at a glance.
+      - $a_n$ is a geometric series.
+      - $a_n$ is a $p$-series.
+      - $a_n$ is rational, algebraic, or sim. to $p$-series or geometric series.
+      - Can rewrite $a_n$ as $\pm \sum b_{n} - b_{n+1}$ (try PFD).
+      - Terms of $a_n$ alternate signs.
+      - $a_n$ contains factorials or exponentials.
+      - $a_n = (b_n)^n$.
+      - $a_n = f(n)$ or $\left|a_n\right| = f(n)$ is easily integrated.
+    Back: |
+      - $\lim_{n \to \infty} a_n \ne 0$ at a glance.
+        DT
+      - $a_n$ is a geometric series.
+        GST
+      - $a_n$ is a $p$-series.
+        PST
+      - $a_n$ is rational, algebraic, or sim. to $p$-series or geometric series.
+        DCT, LCT
+      - Can rewrite $a_n$ as $\pm \sum b_{n} - b_{n+1}$ (try PFD).
+        TST
+      - Terms of $a_n$ alternate signs.
+        AST
+      - $a_n$ contains factorials or exponentials.
+        Ratio T
+      - $a_n = (b_n)^n$.
+        Root T
+      - $a_n = f(n)$ or $\left|a_n\right| = f(n)$ is easily integrated.
+        IT
+    Annotations: ''
+  tags: []

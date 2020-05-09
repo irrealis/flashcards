@@ -1,0 +1,254 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1360
+  - APPM-1360-WA10
+  - SingleVariableEssentialCalculus
+  - SVEC-07-ApplicationsOfIntegration
+  - SVEC-07.01-AreasBetweenCurves
+  - SVEC-07.02-Volumes
+  - WebAssign
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1583465186795
+  media:
+  - path: ¢{file_dir}/images/APPM-1360-WA10-01.1.jpg
+  fields:
+    Front: |
+      APPM 1360 WA10-01:
+      #### c7: Applications of Integration
+      ##### s7.1: Areas between Curves
+      Sketch the region enclosed by the given curves. Decide whether to integrate with respect to $x$ or $y$. Draw a typical approximating rectangle. Find the area of the region.
+      $$
+      y=\sin (x), \quad y=5 x, \quad x=\pi / 2,\; x
+      $$
+    Back: |
+      $ $
+      <p/><p align="center">
+      ![](APPM-1360-WA10-01.1.jpg)
+      </p>
+      $$
+      \frac{15 \pi^{2}}{8}-1
+      $$
+
+      ##### Full solution:
+      $$
+      \begin{aligned}
+      A
+      &=\int_{\pi / 2}^{\pi}(5 x-\sin (x)) d x \\
+      &=\left[\frac{5 x^{2}}{2}+\cos (x)\right]_{\pi / 2}^{\pi} \\
+      &=\left(\frac{5 \pi^{2}}{2}-1\right)-\left(\frac{5 \pi^{2}}{8}+0\right) \\
+      &=\frac{15 \pi^{2}}{8}-1
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1583545186020
+  media:
+  - path: ¢{file_dir}/images/APPM-1360-WA10-02.1.jpg
+  fields:
+    Front: |
+      APPM 1360 WA10-02:
+      #### c7: Applications of Integration
+      ##### s7.1: Areas between Curves
+      Sketch the region enclosed by the given curves. Decide whether to integrate with respect to $x$ or $y$. Draw a typical approximating rectangle and label height and width. Find the area of the region.
+      $$
+      y=2 x+4, \quad y=13-x^{2}, \quad x=-1, \quad x=2
+      $$
+    Back: |
+      $ $
+      <p/><p align="center">
+      ![](APPM-1360-WA10-02.1.jpg)
+      </p>
+      $$
+      21
+      $$
+
+      ##### Full solution:
+      $$
+      \begin{aligned}
+      A
+      &=\int_{-1}^{2}\left[\left(13-x^{2}\right)-(2 x+4)\right] d x \\
+      &=\int_{-1}^{2}\left(9-2 x-x^{2}\right) d x \\
+      &=\left[9 x-\frac{2 x^{2}}{2}-\frac{x^{3}}{3}\right]_{-1}^{2} \\
+      &=\left(18-4-\frac{8}{3}\right)-\left(-9-1+\frac{1}{3}\right) \\
+      &=27-3-3=21
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1583545684446
+  media:
+  - path: ¢{file_dir}/images/APPM-1360-WA10-03.1.jpg
+  fields:
+    Front: |
+      APPM 1360 WA10-03:
+      #### c7: Applications of Integration
+      ##### s7.1: Areas between Curves
+      Sketch the region enclosed by the given curves. Decide whether to integrate with respect to $x$ or $y$. Draw a typical approximating rectangle. Find the area of the region.
+      $$
+      x=7-7 y^{2}, \quad x=7 y^{2}-7
+      $$
+    Back: |
+      $ $
+      <p/><p align="center">
+      ![](APPM-1360-WA10-03.1.jpg)
+      </p>
+      $$
+      \frac{56}{3}
+      $$
+
+      ##### Full solution:
+      The curves intersect when $7-7 y^{2}=7 y^{2}-7$ $\Leftrightarrow 14=14 y^{2}$ $\Leftrightarrow y^{2}=1$ $\Leftrightarrow y=\pm 1$.
+      $$
+      \begin{aligned}
+      A
+      &=\int_{-1}^{1}\left[\left(7-7 y^{2}\right)-\left(7 y^{2}-7\right)\right] d y \\
+      &=\int_{-1}^{1} 2\left(7-7 y^{2}\right) d y \\
+      &=2 \cdot 2 \int_{0}^{1}\left(7-7 y^{2}\right) d y \\
+      &=\left.4\left(7 y-\frac{7}{3} y^{3}\right)\right|_{0} ^{1} \\
+      &=4\left(7-\frac{7}{3}\right)=\frac{56}{3}
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1583794060871
+  media:
+  - path: ¢{file_dir}/images/APPM-1360-WA10-04.1.jpg
+  fields:
+    Front: |
+      APPM 1360 WA10-04:
+      #### c7: Applications of Integration
+      ##### s7.1: Areas between Curves
+      Sketch the region enclosed by the given curves. Find its area.
+      $$
+      x=4 y^{2}, \quad x=4+3 y^{2}
+      $$
+    Back: |
+      $ $
+      <p/><p align="center">
+      ![](APPM-1360-WA10-04.1.jpg)
+      </p>
+      $$
+      \frac{32}{3}
+      $$
+
+      ##### Full solution:
+      $$
+      \begin{array}{l}
+      4 y^{2}=4+3 y^{2} \Leftrightarrow y^{2}=4 \Leftrightarrow y=\pm 2, \text { so } \\
+      A=\int_{-2}^{2}\left[\left(4+3 y^{2}\right)-4 y^{2}\right] d y \\
+      \quad=2 \int_{0}^{2}\left(4-y^{2}\right) d y \quad[\text { by symmetry }] \\
+      \quad=2\left[4 y-\frac{1}{3} y^{3}\right]_{0}^{2}=16-\frac{16}{3}=\frac{32}{3}
+      \end{array}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1583794289546
+  media:
+  - path: ¢{file_dir}/images/APPM-1360-WA10-05.1.jpg
+  fields:
+    Front: |
+      APPM 1360 WA10-05:
+      #### c7: Applications of Integration
+      ##### s7.1: Areas between Curves
+      Evaluate the integral and interpret it as the area of a region.
+      $$
+      \int_{0}^{\pi / 2}|2 \sin (x)-2 \cos (2 x)| d x
+      $$
+    Back: |
+      $$
+      3\sqrt{3} - 2
+      $$
+      <p/><p align="center">
+      ![](APPM-1360-WA10-05.1.jpg)
+      </p>
+
+      ##### Full solution:
+      The curves intersect when
+      $$
+      \begin{aligned}
+      \sin (x)=\cos (2 x) \text { (on }[0, \pi / 2]) & \Leftrightarrow \sin (x)=\left(1-2 \sin ^{2}(x)\right) \\
+      & \Leftrightarrow 2 \sin ^{2}(x)+\sin (x)-1=0 \\
+      & \Leftrightarrow(2 \sin (x)-1)(\sin (x)+1)=0 \\
+      & \Rightarrow \sin (x)=\frac{1}{2} \\
+      & \Rightarrow x=\frac{\pi}{6}
+      \end{aligned}
+      $$
+      $$
+      \begin{aligned}
+      A &=\int_{0}^{\pi / 2}|2 \sin (x)-2 \cos (2 x)| d x \\
+      &=2 \int_{0}^{\pi / 6}(\cos (2 x)-\sin (x)) d x+2 \int_{\pi / 6}^{\pi / 2}(\sin (x)-\cos (2 x)) d x \\
+      &=2\left[\frac{1}{2} \sin (2 x)+\cos (x)\right]_{0}^{\pi / 6}+2\left[-\cos (x)-\frac{1}{2} \sin (2 x)\right]_{\pi / 6}^{\pi / 2} \\
+      &=\left(\frac{1}{2} \sqrt{3}+\sqrt{3}\right)-(0+2)+(0-0)-\left(-\sqrt{3}-\frac{1}{2} \sqrt{3}\right) \\
+      &=3 \sqrt{3}-2
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1583794474596
+  media:
+  - path: ¢{file_dir}/images/APPM-1360-WA10-06.1.jpg
+  fields:
+    Front: |
+      APPM 1360 WA10-06:
+      #### c7: Applications of Integration
+      ##### s7.1: Areas between Curves
+      A cross-section of an airplane wing is shown. Measurements of the thickness of the wing, in centimeters, at 24-centimeter intervals are $5.8,20.5,27.2,$ $29.0,27.8,27.4,23.4,20.2,15.9,8.9,$ and $2.6 .$ Use the Midpoint Rule with $n=5$ to estimate the area of the wing's cross-section if $a=240 .$ ( Assume the thickness of the edges is nonzero.)
+      <p/><p align="center">
+      ![](APPM-1360-WA10-06.1.jpg)
+      </p>
+    Back: |
+      $$
+      5088 \text{ cm}^2
+      $$
+
+      ##### Full solution:
+      Let $h(x)$ denote the height of the wing at $x \mathrm{cm}$ from the left end.
+      $$
+      \begin{aligned}
+      A \approx M_{5} &=\frac{240-0}{5}[h(24)+h(72)+h(120)+h(168)+h(216)] \\
+      &=48(20.5+29.0+27.4+20.2+8.9)=48(106)=5088 \mathrm{cm}^{2}
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1583795044946
+  media:
+  - path: ¢{file_dir}/images/APPM-1360-WA10-07.1.jpg
+  fields:
+    Front: |
+      APPM 1360 WA10-07:
+      #### c7: Applications of Integration
+      ##### s7.1: Areas between Curves
+      Estimate $\int_{0}^{1} 13 \cos \left(x^{2}\right) d x$ using the Trapezoidal Rule and the midpoint Rule, each with $n=4$. (Round your answers to six decimal places.)
+
+      From a graph of the integrand, decide whether your answers are underestimates or overestimates.
+
+      What can you conclude about the true value of the integral? (Round your answers to six decimal places.)
+    Back: |
+      (a) the Trapezoidal Rule: $11.644866$ 
+      (b) the Midpoint Rule: $11.815788$
+      (c) $T_{4}$ is an underestimate.  $M_{4}$ is an overestimate.
+      (d)
+      $$
+      11.644866 < \int_{0}^{1} 13 \cos \left(x^{2}\right) d x < 11.815788
+      $$
+
+      ##### Full solution:
+      $f(x)=13 \cos \left(x^{2}\right), \Delta x=\frac{1-0}{4}$
+      (a) $T_{4}=\frac{1}{4 \cdot 2}\left[f(0)+2 f\left(\frac{1}{4}\right)+2 f\left(\frac{2}{4}\right)+2 f\left(\frac{3}{4}\right)+f(1)\right] \approx 11.644866$
+      (b) $M_{4}=\frac{1}{4}\left[f\left(\frac{1}{8}\right)+f\left(\frac{3}{8}\right)+f\left(\frac{5}{8}\right)+f\left(\frac{7}{8}\right)\right] \approx 11.815788$
+      (c) The graph shows that $f$ is concave down on $[0,1] .$ So $T_{4}$ is an underestimate and $M_{4}$ is overestimate.
+      <p/><p align="center">
+      ![](APPM-1360-WA10-07.1.jpg)
+      </p>
+      (d) We can conclude that $11.644866<\int_{0}^{1} 13 \cos \left(x^{2}\right) d x<11.815788$.
+    Annotations: ''
+  tags:
+  - Editing

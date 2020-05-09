@@ -7,7 +7,13 @@
 - id: 0
   fields:
     Front: |
-      APPM-1360-HW-XX-XX:
+      APPM-1360-HW-12-XX:
+      #### c8: Series
+      ##### s8.7: Taylor and Maclaurin Series, day 3
+      ##### s8.8: Applications of Taylor Polynomials
+      #### c9: Parametric Equations and Polar Coordinates
+      ##### s9.1: Parametric Curves
+      Temporary: work and check against homework solutions sheet.
     Back: |
     Annotations: ''
   tags:

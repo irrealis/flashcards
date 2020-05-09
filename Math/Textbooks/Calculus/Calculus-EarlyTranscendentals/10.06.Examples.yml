@@ -1,0 +1,79 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-10-ParametricEquationsAndPolarCoordinates
+  - CET-10.06-ConicSectionsInPolarCoordinates
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1588112624950
+  fields:
+    Front: |
+      CET-10.06-01 Example:
+      #### Parametric Equations and Polar Coordinates
+      ##### Conic Sections in Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - Editing
+  - ToDo
+- id: 1588112625130
+  fields:
+    Front: |
+      CET-10.06-02 Example:
+      #### Parametric Equations and Polar Coordinates
+      ##### Conic Sections in Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - Editing
+  - ToDo
+- id: 1588112625290
+  fields:
+    Front: |
+      CET-10.06-03 Example:
+      #### Parametric Equations and Polar Coordinates
+      ##### Conic Sections in Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - Editing
+  - ToDo
+- id: 1588112625458
+  fields:
+    Front: |
+      CET-10.06-04 Example:
+      #### Parametric Equations and Polar Coordinates
+      ##### Conic Sections in Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - Editing
+  - ToDo
+- id: 1588112625641
+  fields:
+    Front: |
+      CET-10.06-05 Example:
+      #### Parametric Equations and Polar Coordinates
+      ##### Conic Sections in Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - Editing
+  - ToDo

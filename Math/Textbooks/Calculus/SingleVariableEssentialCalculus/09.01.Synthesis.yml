@@ -1,0 +1,105 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Synthesis
+  - SingleVariableEssentialCalculus
+  - SVEC-09-ParametricEquationsAndPolarCoordinates
+  - SVEC-09.01-ParametricCurves
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 0
+  skip: true
+  fields:
+    Front: |
+      SVEC-09.01-00 Synthesis Notes:
+      #### Summary of definitions:
+      **parametric equations**; **parameter**; **parametric curve;** **path**
+      **initial point**; **terminal point**
+      **cycloid**
+
+      #### Summary of theorems:
+    Back: |
+    Annotations: ''
+  tags: []
+- id: 1586192959641
+  fields:
+    Front: |
+      SVEC-09.01-01 Synthesis:
+      #### Parametric Curves
+      List the parametric-curve definitions.
+    Back: |
+      1. **parametric equations**; **parameter**; **parametric curve**
+      2. **initial point**; **terminal point**
+      3. **cycloid**
+    Annotations: ''
+  tags:
+  - Definitions
+  - Editing
+---
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Synthesis
+  - Definition
+  - SingleVariableEssentialCalculus
+  - SVEC-09-ParametricEquationsAndPolarCoordinates
+  - SVEC-09.01-ParametricCurves
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1586193156716
+  fields:
+    Front: |
+      SVEC-09.01-02 Synthesis:
+      #### Parametric Curves
+      Define the following: **parametric equations**; **parameter**; **parametric curve**; **path**.
+    Back: |
+      Suppose that $x$ and $y$ are both given as functions of a third variable $t$ (called a **parameter**) by the equations
+      $$
+      x=f(t) \quad y=g(t)
+      $$ (called **parametric equations**). Each value of $t$ determines a point $(x, y),$ which we can plot in a coordinate plane. As $t$ varies, the point $(x, y)=(f(t), g(t))$ varies and traces out a curve $C$, which we call a **parametric curve**.
+
+      The term **path** is often used as a shorthand for parametric curve.
+    Annotations: ''
+  tags: []
+- id: 1586193268666
+  fields:
+    Front: |
+      SVEC-09.01-03 Synthesis:
+      #### Parametric Curves
+      Define the following: **initial point**; **terminal point**.
+    Back: |
+      In general, the curve with parametric equations
+      $$
+      x=f(t) \quad y=g(t) \quad a \leqslant t \leqslant b
+      $$ has **initial point** $(f(a), g(a))$ and **terminal point** $(f(b), g(b)).$
+    Annotations: ''
+  tags: []
+- id: 1586193784816
+  media:
+  - path: ¢{file_dir}/images/SVEC-09.01-04.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-09.01-04 Synthesis:
+      #### Parametric Curves
+      Define **cycloid**. What are its parametric equations?
+    Back: |
+      The curve traced out by a point $P$ on the circumference of a circle as the circle rolls along a straight line is called a **cycloid** (see figure).
+      <p align="center">
+      ![](SVEC-09.01-04.Sy.1.jpg)
+      </p>
+      If the circle has radius $r$ and rolls along the $x$-axis and if one position of $P$ is the origin, the parametric equations for the cycloid are
+      $$
+      x=r(\theta-\sin \theta) \quad y=r(1-\cos \theta) \quad \theta \in \mathbb{R}
+      $$
+    Annotations: ''
+  tags: []

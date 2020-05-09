@@ -1,0 +1,348 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Synthesis
+  - SingleVariableEssentialCalculus
+  - SVEC-10-VectorsAndTheGeometryOfSpace
+  - SVEC-10.04-TheCrossProduct
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 0
+  skip: true
+  fields:
+    Front: |
+      SVEC-10.04-00 Synthesis Notes:
+      Def: **cross product**. What its other common name? When is it defined?
+      Def: **determinant of order 2**, **determinant of order 3**
+      Thm: **definition of cross product using determinants**
+      Thm: _unnamed_ **cross product orthogonality** theorem
+      Def: **right-hand rule for cross products**
+      Thm: **expression of cross product in terms of sine**
+      Thm: _unnamed_ **relationship between parallelism and cross product**
+      Thm: _unnamed_ **relationship between cross product and parallelogram area**
+      Thm: **Properties of the Cross Product**
+      Def: **scalar triple product**
+      Thm: _unnamed_ **relationship between scalar triple product and parallelepiped volume**
+      Thm: _unnamed_ **relationship between scalar triple product, parallelepiped volume, and coplanarity**
+      Def: **vector triple product**
+      Def: **torque**
+    Back: |
+    Annotations: ''
+  tags: []
+- id: 1588968641760
+  fields:
+    Front: |
+      SVEC-10.04-01 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      List the cross-product definitions and theorems.
+    Back: |
+      Def: **cross product**
+      Def: **determinant of order 2**, **determinant of order 3**
+      Thm: **definition of cross product using determinants**
+      Thm: _unnamed_ **cross product orthogonality** theorem
+      Def: **right-hand rule for cross products**
+      Thm: **expression of cross product in terms of sine**
+      Thm: _unnamed_ **relationship between parallelism and cross product**
+      Thm: _unnamed_ **relationship between cross product and parallelogram area**
+      Thm: **Properties of the Cross Product**
+      Def: **scalar triple product**
+      Thm: _unnamed_ **relationship between scalar triple product and parallelepiped volume**
+      Thm: _unnamed_ **relationship between scalar triple product, parallelepiped volume, and coplanarity**
+      Def: **vector triple product**
+      Def: **torque**
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1588884729510
+  fields:
+    Front: |
+      SVEC-10.04-02 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Define **cross product**. What its other common name? When is it defined?
+    Back: |
+      If $\mathbf{a}=\left\langle a_{1}, a_{2}, a_{3}\right\rangle$ and $\mathbf{b}=\left\langle b_{1}, b_{2}, b_{3}\right\rangle,$ then the cross product of $\mathbf{a}$ and $\mathbf{b}$ is the vector
+      $$
+      \mathbf{a} \times \mathbf{b}=\left\langle a_{2} b_{3}-a_{3} b_{2}, a_{3} b_{1}-a_{1} b_{3}, a_{1} b_{2}-a_{2} b_{1}\right\rangle
+      $$
+      The **cross product** $\mathbf{a} \times \mathbf{b}$ of two vectors $\mathbf{a}$ and $\mathbf{b},$ unlike the dot product, is a vector. For this reason it is also called the **vector product**. Note that $\mathbf{a} \times \mathbf{b}$ is defined only when $\mathbf{a}$ and $\mathbf{b}$ are three-dimensional vectors.
+
+      This may seem like a strange way of defining a product. The reason for this form is that the cross product defined in this way has many useful properties, as we will soon see.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1588885031735
+  fields:
+    Front: |
+      SVEC-10.04-03 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Define **determinant of order 2** and **determinant of order 3**.
+    Back: |
+      A **determinant of order 2** is defined by
+      $$
+      \left|\begin{array}{ll}
+      a & b \\
+      c & d
+      \end{array}\right|=a d-b c
+      $$ A **determinant of order 3** can be defined in terms of second-order determinants as follows:
+      $$
+      \left|\begin{array}{lll}
+      a_{1} & a_{2} & a_{3} \\
+      b_{1} & b_{2} & b_{3} \\
+      c_{1} & c_{2} & c_{3}
+      \end{array}\right|=a_{1}\left|\begin{array}{cc}
+      b_{2} & b_{3} \\
+      c_{2} & c_{3}
+      \end{array}\right|-a_{2}\left|\begin{array}{cc}
+      b_{1} & b_{3} \\
+      c_{1} & c_{3}
+      \end{array}\right|+a_{3}\left|\begin{array}{cc}
+      b_{1} & b_{2} \\
+      c_{1} & c_{2}
+      \end{array}\right|
+      $$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1588885454240
+  fields:
+    Front: |
+      SVEC-10.04-04 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      State the _unnamed_ **definition of cross product using determinants**. List its hypotheses.
+    Back: |
+      Using second-order determinants and the standard basis vectors $\mathbf{i}, \mathbf{j},$ and $\mathbf{k},$ we see that the cross product of $\mathbf{a}=a_{1} \mathbf{i}+a_{2} \mathbf{j}+a_{3} \mathbf{k}$ and $\mathbf{b}=b_{1} \mathbf{i}+b_{2} \mathbf{j}+b_{3} \mathbf{k}$ is
+      $$
+      \mathbf{a} \times \mathbf{b}=\left|\begin{array}{ll}
+      a_{2} & a_{3} \\
+      b_{2} & b_{3}
+      \end{array}\right| \mathbf{i}-\left|\begin{array}{ll}
+      a_{1} & a_{3} \\
+      b_{1} & b_{3}
+      \end{array}\right| \mathbf{j}+\left|\begin{array}{ll}
+      a_{1} & a_{2} \\
+      b_{1} & b_{2}
+      \end{array}\right| \mathbf{k}
+      $$ We often write
+      $$
+      \mathbf{a} \times \mathbf{b}=\left|\begin{array}{lll}
+      \mathbf{i} & \mathbf{j} & \mathbf{k} \\
+      a_{1} & a_{2} & a_{3} \\
+      b_{1} & b_{2} & b_{3}
+      \end{array}\right|
+      $$ Although the first row of this symbolic determinant consists of vectors, the mnemonic formula is probably the easiest way of remembering and computing cross products.
+
+      Hypotheses:
+
+      - $\mathbf{a}$ and $\mathbf{b}$ are three-dimensional vectors.
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1588886442234
+  fields:
+    Front: |
+      SVEC-10.04-05 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      State the _unnamed_ **theorem of cross product orthogonality**.
+    Back: |
+      The vector $\mathbf{a} \times \mathbf{b}$ is orthogonal to both $\mathbf{a}$ and $\mathbf{b}.$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1588886442417
+  media:
+  - path: ¢{file_dir}/images/SVEC-10.04-05.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-10.04-06 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      State the **right-hand rule for cross products**. What are its hypotheses?
+    Back: |
+      If $\mathbf{a}$ and $\mathbf{b}$ are represented by directed line segments with the same initial point (as shown below), then the cross product $\mathbf{a} \times \mathbf{b}$ points in a direction perpendicular to the plane through $\mathbf{a}$ and $\mathbf{b}.$
+      <p align="center">
+      ![](SVEC-10.04-05.Sy.1.jpg)
+      </p>
+      It turns out that the direction of $\mathbf{a} \times \mathbf{b}$ is given by the **right-hand rule**: If the fingers of your right hand curl in the direction of a rotation (through an angle less than $180^{\circ}$) from $\mathbf{a}$ to $\mathbf{b},$ then your thumb points in the direction of $\mathbf{a} \times \mathbf{b}.$
+      Hypotheses:
+
+      - The angle from $\mathbf{a}$ to $\mathbf{b}$ is less than $180^{\circ}.$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1588886443509
+  fields:
+    Front: |
+      SVEC-10.04-07 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      State the _unnamed_ **expression of cross product in terms of sine**. List its hypotheses.
+    Back: |
+      If $\theta$ is the angle between $\mathbf{a}$ and $\mathbf{b}$ (so $0 \leqslant \theta \leqslant \pi$), then
+      $$
+      |\mathbf{a} \times \mathbf{b}|=|\mathbf{a}||\mathbf{b}| \sin \theta
+      $$
+      Hypotheses:
+
+      - $0 \leqslant \theta \leqslant \pi.$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1588886623234
+  fields:
+    Front: |
+      SVEC-10.04-08 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      State the _unnamed_ **relationship between parallelism and cross product**.
+    Back: |
+      Two nonzero vectors $\mathbf{a}$ and $\mathbf{b}$ are parallel if and only if
+      $$
+      \mathbf{a} \times \mathbf{b}=\mathbf{0}
+      $$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1588887167210
+  media:
+  - path: ¢{file_dir}/images/SVEC-10.04-08.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-10.04-09 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      State the _unnamed_ **relationship between cross product and parallelogram area**.
+    Back: |
+      The length of the cross product $\mathbf{a} \times \mathbf{b}$ is equal to the area of the parallelogram determined by $\mathbf{a}$ and $\mathbf{b}.$
+
+      This geometric interpretation can be seen by looking at the following figure.
+      <p align="center">
+      ![](SVEC-10.04-08.Sy.1.jpg)
+      </p>
+      If $\mathbf{a}$ and $\mathbf{b}$ are represented by directed line segments with the same initial point, then they determine a parallelogram with base $|\mathbf{a}|$, altitude $|\mathbf{b}| \sin \theta,$ and area
+      $$
+      A=|\mathbf{a}|(|\mathbf{b}| \sin \theta)=|\mathbf{a} \times \mathbf{b}|
+      $$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1588887935659
+  fields:
+    Front: |
+      SVEC-10.04-10 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      State the **Properties of the Cross Product**.
+    Back: |
+      If $\mathbf{a}, \mathbf{b},$ and $\mathbf{c}$ are vectors and $c$ is a scalar, then
+      1. $\mathbf{a} \times \mathbf{b}=-\mathbf{b} \times \mathbf{a}$
+      2. $(c \mathbf{a}) \times \mathbf{b}=c(\mathbf{a} \times \mathbf{b})=\mathbf{a} \times(c \mathbf{b})$
+      3. $\mathbf{a} \times(\mathbf{b}+\mathbf{c})=\mathbf{a} \times \mathbf{b}+\mathbf{a} \times \mathbf{c}$
+      4. $(\mathbf{a}+\mathbf{b}) \times \mathbf{c}=\mathbf{a} \times \mathbf{c}+\mathbf{b} \times \mathbf{c}$
+      5. $\mathbf{a} \cdot(\mathbf{b} \times \mathbf{c})=(\mathbf{a} \times \mathbf{b}) \cdot \mathbf{c}$
+      6. $\mathbf{a} \times(\mathbf{b} \times \mathbf{c})=(\mathbf{a} \cdot \mathbf{c}) \mathbf{b}-(\mathbf{a} \cdot \mathbf{b}) \mathbf{c}$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1588888087059
+  fields:
+    Front: |
+      SVEC-10.04-11 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Define **scalar triple product**.
+    Back: |
+      The product $\mathbf{a} \cdot(\mathbf{b} \times \mathbf{c})$ is called the scalar triple product of the vectors $\mathbf{a}, \mathbf{b},$ and $\mathbf{c} .$ Notice that we can write the scalar triple product as a determinant:
+      $$
+      \mathbf{a} \cdot(\mathbf{b} \times \mathbf{c})=\left|\begin{array}{lll}
+      a_{1} & a_{2} & a_{3} \\
+      b_{1} & b_{2} & b_{3} \\
+      c_{1} & c_{2} & c_{3}
+      \end{array}\right|
+      $$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1588888337559
+  media:
+  - path: ¢{file_dir}/images/SVEC-10.04-11.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-10.04-12 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      State the _unnamed_ **relationship between scalar triple product and parallelepiped volume**.
+    Back: |
+      The volume of the parallelepiped determined by the vectors $\mathbf{a},$ $\mathbf{b},$ and $\mathbf{c}$ is the magnitude of their scalar triple product:
+      $$
+      V=|\mathbf{a} \cdot(\mathbf{b} \times \mathbf{c})|
+      $$
+      The geometric significance of the scalar triple product can be seen by considering the parallelepiped determined by the vectors $\mathbf{a},$ $\mathbf{b},$ and $\mathbf{c}.$ (See below.)
+      <p align="center">
+      ![](SVEC-10.04-11.Sy.1.jpg)
+      </p>
+      The area of the base parallelogram is $A=|\mathbf{b} \times \mathbf{c}| .$ If $\theta$ is the angle between $\mathbf{a}$ and $\mathbf{b} \times \mathbf{c}$, then the height $h$ of the parallelepiped is $h=|\mathbf{a}||\cos \theta| .$ (We must use $|\cos \theta|$ instead of $\cos \theta \text { in case } \theta>\pi / 2 .)$ Therefore the volume of the parallelepiped is
+      $$
+      V=A h=|\mathbf{b} \times \mathbf{c}||\mathbf{a}||\cos \theta|=|\mathbf{a} \cdot(\mathbf{b} \times \mathbf{c})|
+      $$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1588888567984
+  fields:
+    Front: |
+      SVEC-10.04-13 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      State the _unnamed_ **relationship between scalar triple product, parallelepiped volume, and coplanarity**.
+    Back: |
+      If we use the formula $V=A h=|\mathbf{b} \times \mathbf{c}||\mathbf{a}||\cos \theta|=|\mathbf{a} \cdot(\mathbf{b} \times \mathbf{c})|$ and discover that the volume of the parallelepiped determined by $\mathbf{a},$ $\mathbf{b},$ and $\mathbf{c}$ is 0, then the vectors must lie in the same plane; that is, they are **coplanar**.
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1588888693935
+  fields:
+    Front: |
+      SVEC-10.04-14 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Define **vector triple product**.
+    Back: |
+      The product $\mathbf{a} \times(\mathbf{b} \times \mathbf{c})$ is called the **vector triple product** of $\mathbf{a}, \mathbf{b},$ and $\mathbf{c} .$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1588888887784
+  media:
+  - path: ¢{file_dir}/images/SVEC-10.04-14.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-10.04-15 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Define **torque**. What is its magnitude?
+    Back: |
+      The idea of a cross product occurs often in physics. In particular, we consider a force $\mathbf{F}$ acting on a rigid body at a point given by a position vector $\mathbf{r}$. (For instance, if we tighten a bolt by applying a force to a wrench as in the following figure, we produce a turning effect.)
+      <p align="center">
+      ![](SVEC-10.04-14.Sy.1.jpg)
+      </p>
+      The **torque** $\tau$ (relative to the origin) is defined to be the cross product of the position and force vectors
+      $$
+      \boldsymbol{\tau}=\mathbf{r} \times \mathbf{F}
+      $$ and measures the tendency of the body to rotate about the origin. The direction of the torque vector indicates the axis of rotation. The magnitude of the torque vector is
+      $$
+      |\boldsymbol{\tau}|=|\mathbf{r} \times \mathbf{F}|=|\mathbf{r}||\mathbf{F}| \sin \theta
+      $$
+    Annotations: ''
+  tags:
+  - Definition
+  - Editing

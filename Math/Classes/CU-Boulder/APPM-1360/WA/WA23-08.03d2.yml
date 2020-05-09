@@ -1,0 +1,161 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1360
+  - APPM-1360-WA23
+  - SingleVariableEssentialCalculus
+  - SVEC-08-Series
+  - SVEC-08.03-TheIntegralAndComparisonTests
+  - WebAssign
+  - ToDo
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1586547529750
+  fields:
+    Front: |
+      APPM 1360 WA23-01:
+      #### c8: Series
+      ##### s8.3: The Integral and Comparison Tests, day 2
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586547529942
+  fields:
+    Front: |
+      APPM 1360 WA23-02:
+      #### c8: Series
+      ##### s8.3: The Integral and Comparison Tests, day 2
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586547530109
+  fields:
+    Front: |
+      APPM 1360 WA23-03:
+      #### c8: Series
+      ##### s8.3: The Integral and Comparison Tests, day 2
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586547530294
+  fields:
+    Front: |
+      APPM 1360 WA23-04:
+      #### c8: Series
+      ##### s8.3: The Integral and Comparison Tests, day 2
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586547530476
+  fields:
+    Front: |
+      APPM 1360 WA23-05:
+      #### c8: Series
+      ##### s8.3: The Integral and Comparison Tests, day 2
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586547530643
+  fields:
+    Front: |
+      APPM 1360 WA23-06:
+      #### c8: Series
+      ##### s8.3: The Integral and Comparison Tests, day 2
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586547530809
+  fields:
+    Front: |
+      APPM 1360 WA23-07:
+      #### c8: Series
+      ##### s8.3: The Integral and Comparison Tests, day 2
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586547530981
+  fields:
+    Front: |
+      APPM 1360 WA23-08:
+      #### c8: Series
+      ##### s8.3: The Integral and Comparison Tests, day 2
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586547531175
+  fields:
+    Front: |
+      APPM 1360 WA23-09:
+      #### c8: Series
+      ##### s8.3: The Integral and Comparison Tests, day 2
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586547531359
+  fields:
+    Front: |
+      APPM 1360 WA23-10:
+      #### c8: Series
+      ##### s8.3: The Integral and Comparison Tests, day 2
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586547531542
+  fields:
+    Front: |
+      APPM 1360 WA23-11:
+      #### c8: Series
+      ##### s8.3: The Integral and Comparison Tests, day 2
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586547531709
+  fields:
+    Front: |
+      APPM 1360 WA23-12:
+      #### c8: Series
+      ##### s8.3: The Integral and Comparison Tests, day 2
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing

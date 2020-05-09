@@ -1,0 +1,137 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1360
+  - APPM-1360-WA25
+  - SingleVariableEssentialCalculus
+  - SVEC-08-Series
+  - SVEC-08.04-OtherConvergenceTests
+  - WebAssign
+  - ToDo
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1586547018750
+  fields:
+    Front: |
+      APPM 1360 WA25-01:
+      #### c8: Series
+      ##### s8.4: Other Convergence Tests, day 2
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586547018942
+  fields:
+    Front: |
+      APPM 1360 WA25-02:
+      #### c8: Series
+      ##### s8.4: Other Convergence Tests, day 2
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586547019123
+  fields:
+    Front: |
+      APPM 1360 WA25-03:
+      #### c8: Series
+      ##### s8.4: Other Convergence Tests, day 2
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586547019307
+  fields:
+    Front: |
+      APPM 1360 WA25-04:
+      #### c8: Series
+      ##### s8.4: Other Convergence Tests, day 2
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586547019478
+  fields:
+    Front: |
+      APPM 1360 WA25-05:
+      #### c8: Series
+      ##### s8.4: Other Convergence Tests, day 2
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586547019675
+  fields:
+    Front: |
+      APPM 1360 WA25-06:
+      #### c8: Series
+      ##### s8.4: Other Convergence Tests, day 2
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586547019857
+  fields:
+    Front: |
+      APPM 1360 WA25-07:
+      #### c8: Series
+      ##### s8.4: Other Convergence Tests, day 2
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586547020025
+  fields:
+    Front: |
+      APPM 1360 WA25-08:
+      #### c8: Series
+      ##### s8.4: Other Convergence Tests, day 2
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586547020207
+  fields:
+    Front: |
+      APPM 1360 WA25-09:
+      #### c8: Series
+      ##### s8.4: Other Convergence Tests, day 2
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586547020390
+  fields:
+    Front: |
+      APPM 1360 WA25-10:
+      #### c8: Series
+      ##### s8.4: Other Convergence Tests, day 2
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing

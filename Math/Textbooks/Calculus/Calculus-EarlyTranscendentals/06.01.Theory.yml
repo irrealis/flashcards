@@ -10,12 +10,13 @@ defaults:
   - CET-06-ApplicationsOfIntegration
   - CET-06.01-AreasBetweenCurves
   markdownTabLength: 2
+  stringTemplDelim: ¢
 notes:
 - id: 1577566576877
   media:
-  - path: ${file_dir}/images/CET-06.01-01.Th.1.jpg
-  - path: ${file_dir}/images/CET-06.01-01.Th.2.jpg
-  - path: ${file_dir}/images/CET-06.01-01.Th.3.jpg
+  - path: ¢{file_dir}/images/CET-06.01-01.Th.1.jpg
+  - path: ¢{file_dir}/images/CET-06.01-01.Th.2.jpg
+  - path: ¢{file_dir}/images/CET-06.01-01.Th.3.jpg
   fields:
     Front: |
       CET-06.01-01 Theory:
@@ -36,38 +37,45 @@ notes:
       Approximating rectangles.
       </p>
       The Riemann sum
-      $$$
+      $$
       \sum_{i=1}^{n}\left[f\left(x_{i}^{*}\right)-g\left(x_{i}^{*}\right)\right] \Delta x
-      $$$ is therefore an approximation to what we intuitively think of as the area of $S$.
+      $$ is therefore an approximation to what we intuitively think of as the area of $S$.
 
       This approximation appears to become better and better as $n \rightarrow \infty .$ Therefore we define the area $A$ of the region $S$ as the limiting value of the sum of the areas of these approximating rectangles.
-      $$$
+      $$
       A=\lim _{n \rightarrow \infty} \sum_{i=1}^{n}\left[f\left(x_{i}^{*}\right)-g\left(x_{i}^{*}\right)\right] \Delta x
-      $$$
+      $$
     Annotations: ''
   tags: []
 - id: 1577566884883
   fields:
-    Front: >
+    Front: |
       CET-06.01-02 Theory:
-
-      Give the **Area Formula,** in terms of integrals, for the area $A$ of the region
-      bounded by the curves $y=f(x), y=g(x),$ and the lines $x=a, x=b,$ where $f$
-      and $g$ are continuous and $f(x) \geqslant g(x)$ for all $x$ in $[a, b].$
+      Give the **Area Formula,** in terms of integrals, for the area $A$ of the region bounded by the curves $y=f(x), y=g(x),$ and the lines $x=a, x=b.$ What are its critical hypotheses?
     Back: |
-      $$$
+      $$
       A=\int_{a}^{b}[f(x)-g(x)] d x
-      $$$
+      $$
+      Critical hypotheses:
+
+      - $f$ and $g$ are continuous on $[a, b].$
+      - $f(x) \geqslant g(x)$ on $[a, b].$
     Annotations: ''
-  tags: []
+  tags:
+  - Editing
 - id: 1577569164877
   fields:
     Front: |
       CET-06.01-03 Theory:
-      Give the **Area Formula,** in terms of integrals, for the area $A$ between the curves $y=f(x)$ and $y=g(x)$ and between $x=a$ and $x=b.$
+      Give the **Area Formula,** in terms of integrals, for the area $A$ between the curves $y=f(x)$ and $y=g(x)$ and between $x=a$ and $x=b.$ What are its critical hypotheses?
     Back: |
-      $$$
+      $$
       A=\int_{a}^{b}|f(x)-g(x)| d x
-      $$$
-    Annotations: ''
-  tags: []
+      $$
+      Critical hypotheses:
+
+      - $f$ and $g$ are continuous on $[a, b].$
+    Annotations: "Memorize:<div>- 200206-1400: couldn't recall.</div>"
+  tags:
+  - Editing
+  - ann:memorize

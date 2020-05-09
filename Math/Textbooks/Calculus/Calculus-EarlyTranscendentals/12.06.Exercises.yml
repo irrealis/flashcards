@@ -1,0 +1,650 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-12-VectorsAndTheGeometryOfSpace
+  - CET-12.06-CylindersAndQuadricSurfaces
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1588982034134
+  fields:
+    Front: |
+      CET-12.06-01 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588982034328
+  fields:
+    Front: |
+      CET-12.06-02 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588982034513
+  fields:
+    Front: |
+      CET-12.06-03 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588982034713
+  fields:
+    Front: |
+      CET-12.06-04 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588982034897
+  fields:
+    Front: |
+      CET-12.06-05 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588982035067
+  fields:
+    Front: |
+      CET-12.06-06 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588982035245
+  fields:
+    Front: |
+      CET-12.06-07 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588982035450
+  fields:
+    Front: |
+      CET-12.06-08 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588982035629
+  fields:
+    Front: |
+      CET-12.06-09 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588982035817
+  fields:
+    Front: |
+      CET-12.06-10 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588982036012
+  fields:
+    Front: |
+      CET-12.06-11 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588982036196
+  fields:
+    Front: |
+      CET-12.06-12 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588982036380
+  fields:
+    Front: |
+      CET-12.06-13 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588982036586
+  fields:
+    Front: |
+      CET-12.06-14 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588982036797
+  fields:
+    Front: |
+      CET-12.06-15 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588982036985
+  fields:
+    Front: |
+      CET-12.06-16 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588982037205
+  fields:
+    Front: |
+      CET-12.06-17 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588982037396
+  fields:
+    Front: |
+      CET-12.06-18 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588982037597
+  fields:
+    Front: |
+      CET-12.06-19 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588982037798
+  fields:
+    Front: |
+      CET-12.06-20 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588982037980
+  fields:
+    Front: |
+      CET-12.06-21 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588982038204
+  fields:
+    Front: |
+      CET-12.06-22 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588982038379
+  fields:
+    Front: |
+      CET-12.06-23 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588982038588
+  fields:
+    Front: |
+      CET-12.06-24 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588982038784
+  fields:
+    Front: |
+      CET-12.06-25 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588982039004
+  fields:
+    Front: |
+      CET-12.06-26 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588982039182
+  fields:
+    Front: |
+      CET-12.06-27 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588982039397
+  fields:
+    Front: |
+      CET-12.06-28 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588982039581
+  fields:
+    Front: |
+      CET-12.06-29 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588982039763
+  fields:
+    Front: |
+      CET-12.06-30 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588982039986
+  fields:
+    Front: |
+      CET-12.06-31 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588982040162
+  fields:
+    Front: |
+      CET-12.06-32 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588982040346
+  fields:
+    Front: |
+      CET-12.06-33 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588982040532
+  fields:
+    Front: |
+      CET-12.06-34 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588982040713
+  fields:
+    Front: |
+      CET-12.06-35 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588982040945
+  fields:
+    Front: |
+      CET-12.06-36 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588982041130
+  fields:
+    Front: |
+      CET-12.06-37 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588982041314
+  fields:
+    Front: |
+      CET-12.06-38 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588982041484
+  fields:
+    Front: |
+      CET-12.06-39 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588982041668
+  fields:
+    Front: |
+      CET-12.06-40 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588982041897
+  fields:
+    Front: |
+      CET-12.06-41 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588982042096
+  fields:
+    Front: |
+      CET-12.06-42 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588982042317
+  fields:
+    Front: |
+      CET-12.06-43 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588982042497
+  fields:
+    Front: |
+      CET-12.06-44 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588982042679
+  fields:
+    Front: |
+      CET-12.06-45 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588982042898
+  fields:
+    Front: |
+      CET-12.06-46 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588982043080
+  fields:
+    Front: |
+      CET-12.06-47 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588982043263
+  fields:
+    Front: |
+      CET-12.06-48 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588982043448
+  fields:
+    Front: |
+      CET-12.06-49 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588982043663
+  fields:
+    Front: |
+      CET-12.06-50 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588982043858
+  fields:
+    Front: |
+      CET-12.06-51 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588982044046
+  fields:
+    Front: |
+      CET-12.06-52 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588982044239
+  fields:
+    Front: |
+      CET-12.06-53 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Cylinders and Quadric Surfaces
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

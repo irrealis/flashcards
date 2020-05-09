@@ -1,0 +1,51 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1360
+  - APPM-1360-HW09
+  - APPM-1360-Section08.03
+  - APPM-1360-Section08.04
+  - WrittenHomework
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1586549872400
+  fields:
+    Front: |
+      APPM-1360-HW-09-01:
+      #### c8: Series
+      ##### s8.3: The Integral and Comparison Tests, day 2
+      ##### s8.4: Other Convergence Tests, day 1
+      Temporary: work and check against homework solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586549872577
+  fields:
+    Front: |
+      APPM-1360-HW-09-02:
+      #### c8: Series
+      ##### s8.3: The Integral and Comparison Tests, day 2
+      ##### s8.4: Other Convergence Tests, day 1
+      Temporary: work and check against homework solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586549872748
+  fields:
+    Front: |
+      APPM-1360-HW-09-03:
+      #### c8: Series
+      ##### s8.3: The Integral and Comparison Tests, day 2
+      ##### s8.4: Other Convergence Tests, day 1
+      Temporary: work and check against homework solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing

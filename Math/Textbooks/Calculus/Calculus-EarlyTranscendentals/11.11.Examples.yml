@@ -1,0 +1,162 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-11-InfiniteSequencesAndSeries
+  - CET-11.11-ApplicationsOfTaylorPolynomials
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1586143981191
+  fields:
+    Front: |
+      CET-11.11-01 Example:
+      (a) Approximate the function $f(x)=\sqrt[3]{x}$ by a Taylor polynomial of degree $2$ at $a=8.$
+      (b) How accurate is this approximation when $7 \leqslant x \leqslant 9 ?$
+    Back: |
+      (a)
+      $$
+      \begin{array}{rclrcl}
+      {f(x)} & = & {\sqrt[3]{x}=x^{1 / 3}} & {f(8)} & = & 2 \\
+      {f^{\prime}(x)} & = & {\frac{1}{3} x^{-2 / 3}} & {f^{\prime}(8)} & = & {\frac{1}{12}} \\
+      {f^{\prime \prime}(x)} & = & {-\frac{2}{9} x^{-5 / 3}} & {f^{\prime \prime}(8)} & = & {\frac{1}{144}} \\
+      {f^{\prime \prime \prime}(x)} & = & {\frac{10}{27} x^{-8 / 3}} & {} & {} & {}
+      \end{array}
+      $$ Thus the second-degree Taylor polynomial is
+      $$
+      \begin{aligned}
+      T_{2}(x) &=f(8)+\frac{f^{\prime}(8)}{1 !}(x-8)+\frac{f^{\prime \prime}(8)}{2 !}(x-8)^{2} \\
+      &=2+\frac{1}{12}(x-8)-\frac{1}{288}(x-8)^{2}
+      \end{aligned}
+      $$ The desired approximation is
+      $$
+      \sqrt[3]{x} \approx T_{2}(x)=2+\frac{1}{12}(x-8)-\frac{1}{288}(x-8)^{2}
+      $$
+
+      (b) The Taylor series is not alternating when $x<8,$ so we can't use the Alternating Series Estimation Theorem in this example. But we can use Taylor's Inequality with $n=2$ and $a=8$
+      $$
+      \left|R_{2}(x)\right| \leqslant \frac{M}{3 !}|x-8|^{3}
+      $$ where $\left|f^{\prime \prime \prime}(x)\right| \leqslant M .$ Because $x \geqslant 7,$ we have $x^{8 / 3} \geqslant 7^{8 / 3}$ and so
+      $$
+      f^{\prime \prime \prime}(x)=\frac{10}{27} \cdot \frac{1}{x^{8 / 3}} \leqslant \frac{10}{27} \cdot \frac{1}{7^{8 / 3}}<0.0021
+      $$ Therefore we can take $M=0.0021 .$ Also $7 \leqslant x \leqslant 9,$ so $-1 \leqslant x-8 \leqslant 1$ and $|x-8| \leqslant 1 .$ Then Taylor's Inequality gives
+      $$
+      \left|R_{2}(x)\right| \leqslant \frac{0.0021}{3 !} \cdot 1^{3}=\frac{0.0021}{6}<0.0004
+      $$ Thus, if $7 \leqslant x \leqslant 9,$ the approximation in part (a) is accurate to within $0.0004.$
+    Annotations: "Trouble:<div>- 200409-1651: many reasoning mistakes indicate procedure\
+      \ not understood.</div><div>- 200409-1926: arithmetic/transcription: dropped\
+      \ a factor of \\(3!\\) in denominator of \\(R_2.\\)</div><div><br></div><div>Fix\
+      \ me:</div><div>- 200412-2022: disparity wrt solutions: SVEC uses Taylor's Formula,\
+      \ and CET and APPM 1360 each use a different version of Taylor's Inequality.\
+      \ I'm sticking with the version taught in APPM 1360. Need to update this card\
+      \ to match.</div>"
+  tags:
+  - ann:fix-me
+  - ann:trouble
+- id: 1586181077591
+  fields:
+    Front: |
+      CET-11.11-02 Example:
+      (a) What is the maximum error possible in using the approximation
+      $$
+      \sin x \approx x-\frac{x^{3}}{3 !}+\frac{x^{5}}{5 !}
+      $$ when $-0.3 \leqslant x \leqslant 0.3 ?$ Use this approximation to find $\sin 12^{\circ}$ correct to six decimal places.
+      (b) For what values of $x$ is this approximation accurate to within $0.00005 ?$
+    Back: |
+      (a) Notice that the Maclaurin series
+      $$
+      \sin x=x-\frac{x^{3}}{3 !}+\frac{x^{5}}{5 !}-\frac{x^{7}}{7 !}+\cdots
+      $$ is alternating for all nonzero values of $x,$ and the successive terms decrease in size because $|x|<1,$ so we can use the Alternating Series Estimation Theorem. The error in approximating sin $x$ by the first three terms of its Maclaurin series is at most
+      $$
+      \left|\frac{x^{7}}{7 !}\right|=\frac{|x|^{7}}{5040}
+      $$ If $-0.3 \leqslant x \leqslant 0.3,$ then $|x| \leqslant 0.3,$ so the error is smaller than
+      $$
+      \frac{(0.3)^{7}}{5040} \approx 4.3 \times 10^{-8}
+      $$ To find $\sin 12^{\circ}$ we first convert to radian measure:
+      $$
+      \begin{aligned}
+      \sin 12^{\circ}
+      &=\sin \left(\frac{12 \pi}{180}\right) \\
+      &=\sin \left(\frac{\pi}{15}\right) \\
+      & \approx \frac{\pi}{15}-\left(\frac{\pi}{15}\right)^{3} \frac{1}{3 !}+\left(\frac{\pi}{15}\right)^{5} \frac{1}{5 !} \\
+      & \approx 0.20791169
+      \end{aligned}
+      $$ Thus, correct to six decimal places, $\sin 12^{\circ} \approx 0.207912$
+
+      (b) The error will be smaller than 0.00005 if
+      $$
+      \frac{|x|^{7}}{5040}<0.00005
+      $$ Solving this inequality for $x,$ we get
+      $$
+      |x|^{7}<0.252 \quad \text { or } \quad|x|<(0.252)^{1 / 7} \approx 0.821
+      $$
+      So the given approximation is accurate to within 0.00005 when $|x|<0.82.$
+    Annotations: 'Trouble:<div>- 200412-2101: arithmetic/focus: \(0.00005 = \frac{5}{100000}
+      \ne \frac{5}{10000}.\)</div>'
+  tags:
+  - ann:trouble
+- id: 1586181529366
+  fields:
+    Front: |
+      CET-11.11-03 Example:
+      In Einstein's theory of special relativity the mass of an object moving with velocity $v$ is
+      $$
+      m=\frac{m_{0}}{\sqrt{1-v^{2} / c^{2}}}
+      $$ where $m_{0}$ is the mass of the object when at rest and $c$ is the speed of light. The kinetic energy of the object is the difference between its total energy and its energy at rest:
+      $$
+      K=m c^{2}-m_{0} c^{2}
+      $$
+
+      (a) Show that when $v$ is very small compared with $c,$ this expression for $K$ agrees with classical Newtonian physics: $K=\frac{1}{2} m_{0} v^{2}.$
+      (b) Use Taylor's Inequality to estimate the difference in these expressions for $K$ when $|v| \leqslant 100 \text{ m} / \mathrm{s}.$
+    Back: |
+      (a) Using the expressions given for $K$ and $m,$ we get
+      $$
+      \begin{aligned}
+      K
+      &=m c^{2}-m_{0} c^{2} \\
+      &=\frac{m_{0} c^{2}}{\sqrt{1-v^{2} / c^{2}}}-m_{0} c^{2} \\
+      &=m_{0} c^{2}\left[\left(1-\frac{v^{2}}{c^{2}}\right)^{-1 / 2}-1\right]
+      \end{aligned}
+      $$ With $x=-v^{2} / c^{2},$ the Maclaurin series for $(1+x)^{-1 / 2}$ is most easily computed as a binomial series with $k=-\frac{1}{2}$. (Notice that $|x|<1$ because $v<c .$ ) Therefore we have
+      $$
+      \begin{aligned}
+      (1+x)^{-1 / 2} &=1-\frac{1}{2} x+\frac{\left(-\frac{1}{2}\right)\left(-\frac{3}{2}\right)}{2 !} x^{2}+\frac{\left(-\frac{1}{2}\right)\left(-\frac{3}{2}\right)\left(-\frac{5}{2}\right)}{3 !} x^{3}+\cdots \\
+      &=1-\frac{1}{2} x+\frac{3}{8} x^{2}-\frac{5}{16} x^{3}+\cdots
+      \end{aligned}
+      $$ and
+      $$
+      \begin{aligned}
+      K &=m_{0} c^{2}\left[\left(1+\frac{1}{2} \frac{v^{2}}{c^{2}}+\frac{3}{8} \frac{v^{4}}{c^{4}}+\frac{5}{16} \frac{v^{6}}{c^{6}}+\cdots\right)-1\right] \\
+      &=m_{0} c^{2}\left(\frac{1}{2} \frac{v^{2}}{c^{2}}+\frac{3}{8} \frac{v^{4}}{c^{4}}+\frac{5}{16} \frac{v^{6}}{c^{6}}+\cdots\right)
+      \end{aligned}\
+      $$ If $v$ is much smaller than $c,$ then all terms after the first are very small when compared with the first term. If we omit them, we get
+      $$
+      K \approx m_{0} c^{2}\left(\frac{1}{2} \frac{v^{2}}{c^{2}}\right)=\frac{1}{2} m_{0} v^{2}
+      $$
+
+      (b) If $x=-v^{2} / c^{2}, f(x)=m_{0} c^{2}\left[(1+x)^{-1 / 2}-1\right],$ and $M$ is a number such that $\left|f^{\prime \prime}(x)\right| \leqslant M,$ then we can use Taylor's Inequality to write
+      $$
+      \left|R_{1}(x)\right| \leqslant \frac{M}{2 !} x^{2}
+      $$ We have $f^{\prime \prime}(x)=\frac{3}{4} m_{0} c^{2}(1+x)^{-5 / 2}$ and we are given that $|v| \leqslant 100 \mathrm{m} / \mathrm{s},$ so
+      $$
+      \begin{aligned}
+      \left|f^{\prime \prime}(x)\right|
+      &=\frac{3 m_{0} c^{2}}{4\left(1-v^{2} / c^{2}\right)^{5 / 2}} \\
+      &\leqslant \frac{3 m_{0} c^{2}}{4\left(1-100^{2} / c^{2}\right)^{5 / 2}} \quad(=M)
+      \end{aligned}
+      $$ Thus, with $c=3 \times 10^{8} \mathrm{m} / \mathrm{s}$
+      $$
+      \begin{aligned}
+      \left|R_{1}(x)\right|
+      &\leqslant \frac{1}{2} \cdot \frac{3 m_{0} c^{2}}{4\left(1-100^{2} / c^{2}\right)^{5 / 2}} \cdot \frac{100^{4}}{c^{4}} \\
+      &<\left(4.17 \times 10^{-10}\right) m_{0}
+      \end{aligned}
+      $$ So when $|v| \leqslant 100 \mathrm{m} / \mathrm{s}$, the magnitude of the error in using the Newtonian expression for kinetic energy is at most $\left(4.2 \times 10^{-10}\right) m_{0}.$
+    Annotations: ''
+  tags: []

@@ -1,0 +1,47 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Synthesis
+  - SingleVariableEssentialCalculus
+  - SVEC-08-Series
+  - SVEC-08.08-ApplicationsOfTaylorPolynomials
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 0
+  skip: true
+  fields:
+    Front: |
+      SVEC-08.08-00 Synthesis Notes:
+      #### Summary of definitions:
+      #### Summary of theorems:
+
+      - What are three methods for estimating the size of the error of a Taylor approximation?
+    Back: |
+    Annotations: ''
+  tags: []
+- id: 1586143569767
+  fields:
+    Front: |
+      SVEC-08.08-01 Synthesis:
+      #### Applications of Taylor Polynomials
+      What are three methods for estimating the size of the error of a Taylor approximation?
+    Back: |
+      When using a Taylor polynomial $T_{n}$ to approximate a function $f,$ we have to ask the questions: How good an approximation is it? How large should we take $n$ to be in order to achieve a desired accuracy? To answer these questions we need to look at the absolute value of the remainder:
+      $$
+      \left|R_{n}(x)\right|=\left|f(x)-T_{n}(x)\right|
+      $$ There are three possible methods for estimating the size of the error:
+      1. If a graphing device is available, we can use it to graph $\left|R_{n}(x)\right|$ and thereby estimate the error.
+      2. If the series happens to be an alternating series, we can use the Alternating Series Estimation Theorem.
+      3. In all cases we can use Taylor's Formula, which says that
+      $$
+      R_{n}(x)=\frac{f^{(n+1)}(z)}{(n+1) !}(x-a)^{n+1}
+      $$ where $z$ is a number that lies between $x$ and $a.$
+    Annotations: ''
+  tags:
+  - Theorems
+  - Editing

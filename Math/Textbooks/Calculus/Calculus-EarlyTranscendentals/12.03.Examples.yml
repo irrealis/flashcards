@@ -1,0 +1,110 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-12-VectorsAndTheGeometryOfSpace
+  - CET-12.03-TheDotProduct
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1588904888735
+  fields:
+    Front: |
+      CET-12.03-01 Example:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904888940
+  fields:
+    Front: |
+      CET-12.03-02 Example:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904889124
+  fields:
+    Front: |
+      CET-12.03-03 Example:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904889325
+  fields:
+    Front: |
+      CET-12.03-04 Example:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904889507
+  fields:
+    Front: |
+      CET-12.03-05 Example:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904889707
+  fields:
+    Front: |
+      CET-12.03-06 Example:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904889864
+  fields:
+    Front: |
+      CET-12.03-07 Example:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588904890062
+  fields:
+    Front: |
+      CET-12.03-08 Example:
+      #### Vectors and the Geometry of Space
+      ##### The Dot Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

@@ -1,0 +1,168 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1360
+  - APPM-1360-RW08
+  - RecitationWorksheet
+  - APPM-1360-Section08.01
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1586551013226
+  fields:
+    Front: |
+      APPM-1360-RW08-01.a:
+      #### c8: Series
+      ##### s8.1: Sequences
+      Temporary: work and check against recitation solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586551013402
+  fields:
+    Front: |
+      APPM-1360-RW08-01.b:
+      #### c8: Series
+      ##### s8.1: Sequences
+      Temporary: work and check against recitation solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586551013587
+  fields:
+    Front: |
+      APPM-1360-RW08-01.c:
+      #### c8: Series
+      ##### s8.1: Sequences
+      Temporary: work and check against recitation solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586551013753
+  fields:
+    Front: |
+      APPM-1360-RW08-01.d:
+      #### c8: Series
+      ##### s8.1: Sequences
+      Temporary: work and check against recitation solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586551013935
+  fields:
+    Front: |
+      APPM-1360-RW08-02.a:
+      #### c8: Series
+      ##### s8.1: Sequences
+      Temporary: work and check against recitation solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586551014102
+  fields:
+    Front: |
+      APPM-1360-RW08-02.b:
+      #### c8: Series
+      ##### s8.1: Sequences
+      Temporary: work and check against recitation solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586551014304
+  fields:
+    Front: |
+      APPM-1360-RW08-03.a:
+      #### c8: Series
+      ##### s8.1: Sequences
+      Temporary: work and check against recitation solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586551014471
+  fields:
+    Front: |
+      APPM-1360-RW08-03.b:
+      #### c8: Series
+      ##### s8.1: Sequences
+      Temporary: work and check against recitation solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586551014685
+  fields:
+    Front: |
+      APPM-1360-RW08-04.a:
+      #### c8: Series
+      ##### s8.1: Sequences
+      Temporary: work and check against recitation solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586551014869
+  fields:
+    Front: |
+      APPM-1360-RW08-04.b:
+      #### c8: Series
+      ##### s8.1: Sequences
+      Temporary: work and check against recitation solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586551015052
+  fields:
+    Front: |
+      APPM-1360-RW08-05.a:
+      #### c8: Series
+      ##### s8.1: Sequences
+      Temporary: work and check against recitation solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586551015235
+  fields:
+    Front: |
+      APPM-1360-RW08-05.b:
+      #### c8: Series
+      ##### s8.1: Sequences
+      Temporary: work and check against recitation solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586551015425
+  fields:
+    Front: |
+      APPM-1360-RW08-06.a:
+      #### c8: Series
+      ##### s8.1: Sequences
+      Temporary: work and check against recitation solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586551015628
+  fields:
+    Front: |
+      APPM-1360-RW08-06.b:
+      #### c8: Series
+      ##### s8.1: Sequences
+      Temporary: work and check against recitation solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing

@@ -1,0 +1,356 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Synthesis
+  - SingleVariableEssentialCalculus
+  - SVEC-10-VectorsAndTheGeometryOfSpace
+  - SVEC-10.05-EquationsOfLinesAndPlanes
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 0
+  skip: true
+  fields:
+    Front: |
+      SVEC-10.05-00 Synthesis Notes:
+      Thm: **vector equation of a line**, **direction**, and **parameter**
+      Thm: **parametric equations of a line**
+      Def: **direction numbers**
+      Thm: **symmetric equations** theorem
+      Thm: **vector equation of a line segment**
+      Def: **skew lines**
+      ###### Planes
+      Def: **normal vector**
+      Thm: **vector equation of a plane** in two versions
+      Thm: **scalar equation of a plane**
+      Def: **linear equation in $x, y,$ and $z$**
+      Thm: **linear equation of a plane**
+      Thm: _unnamed_ **plane parallelism** theorem
+      Thm: **formula for the distance from a point to a plane**
+    Back: |
+    Annotations: ''
+  tags: []
+- id: 1588968768488
+  fields:
+    Front: |
+      SVEC-10.05-01 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      List the lines-and-planes definitions and theorems.
+    Back: |
+      Thm: **vector equation of a line**, **direction**, and **parameter**
+      Thm: **parametric equations of a line**
+      Def: **direction numbers**
+      Thm: **symmetric equations** theorem
+      Thm: **vector equation of a line segment**
+      Def: **skew lines**
+      ###### Planes
+      Def: **normal vector**
+      Thm: **vector equation of a plane** in two versions
+      Thm: **scalar equation of a plane**
+      Def: **linear equation in $x, y,$ and $z$**
+      Thm: **linear equation of a plane**
+      Thm: _unnamed_ **plane parallelism** theorem
+      Thm: **formula for the distance from a point to a plane**
+    Annotations: ''
+  tags:
+  - Definitions
+  - Theorems
+  - Editing
+- id: 1588967939014
+  media:
+  - path: ¢{file_dir}/images/SVEC-10.05-01.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-10.05-02 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      State the **vector equation of a line**, and define **direction** and **parameter**.
+    Back: |
+      The **vector equation of a line** is expressed as
+      $$
+      \mathbf{r}=\mathbf{r}_{0}+t \mathbf{v}
+      $$ where $\mathbf{r}_{0}$ is an arbitrary point on a line $L,$ $\mathbf{v}$ describes the line's **direction**, and the **parameter** $t$ gives the position vector $\mathbf{r}$ of a point on $L.$
+
+      A line $L$ in three-dimensional space is determined when we know a point $P_{0}\left(x_{0}, y_{0}, z_{0}\right)$ on $L$ and the direction of $L .$ In three dimensions the direction of a line is conveniently described by a vector, so we let $\mathbf{v}$ be a vector parallel to $L$. Let $P(x, y, z)$ be an arbitrary point on $L$ and let $\mathbf{r}_{0}$ and $\mathbf{r}$ be the position vectors of $P_{0}$ and $P$ (that is, they have representations $\overrightarrow{O P_{0}}$ and $\overrightarrow{O P}$ ). If $\mathbf{a}$ is the vector with representation $\overrightarrow{P_{0} P}$ as shown below, then the Triangle Law for vector addition gives $\mathbf{r}=\mathbf{r}_{0}+$ $\mathbf{a}.$
+      <p align="center">
+      ![](SVEC-10.05-01.Sy.1.jpg)
+      </p>
+      But, since $\mathbf{a}$ and $\mathbf{v}$ are parallel vectors, there is a scalar $t$ such that $\mathbf{a}=t \mathbf{v} .$ Thus
+      $$
+      \mathbf{r}=\mathbf{r}_{0}+t \mathbf{v}
+      $$ which is a vector equation of $L.$
+
+      Observations:
+
+      - The direction vector is not unique. If $\mathbf{u}$ is any scalar multiple of $\mathbf{v}$ then
+        $$
+        \mathbf{r}=\mathbf{r}_{0}+t \mathbf{u}
+        $$ also describes $L.$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1588969577560
+  fields:
+    Front: |
+      SVEC-10.05-03 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      State the **parametric equations of a line**.
+    Back: |
+      The equations
+      $$
+      x=x_{0}+a t \quad y=y_{0}+b t \quad z=z_{0}+c t
+      $$ are called **parametric equations of the line $L$ through the point $P_{0}\left(x_{0}, y_{0}, z_{0}\right)$ and parallel to the vector $\mathbf{v}=\langle a, b, c\rangle.$** Each value of the parameter $t$ gives a point $(x, y, z)$ on $L.$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1588970031985
+  fields:
+    Front: |
+      SVEC-10.05-04 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Define **direction numbers**.
+    Back: |
+      In general, if a vector $\mathbf{v}=\langle a, b, c\rangle$ is used to describe the direction of a line $L$ then the numbers $a, b,$ and $c$ are called **direction numbers of $L .$**
+
+      Observations:
+
+      - The direction numbers of $L$ are not unique. Since any vector parallel to $\mathbf{v}$ could also be used, we see that any three numbers proportional to $a, b,$ and $c$ could also be used as a set of direction numbers for $L$
+      - If one of $a, b,$ or $c$ is $0,$ then the direction vector $\mathbf{v} = \langle a, b, c \rangle$ coincides with a plane containing two axes. If two are zero then $\mathbf{v}$ coincides with an axis.
+      - At least one of $a, b,$ or $c$ must be nonzero; otherwise $v = \mathbf{0}$ and any parametric equation
+      $$
+      x=x_{0}+a t \quad y=y_{0}+b t \quad z=z_{0}+c t
+      $$ describes just the point $(x_{0}, y_{0}, z_{0}).$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1588970849160
+  fields:
+    Front: |
+      SVEC-10.05-05 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Define **symmetric equations**. State the _unnamed_ **symmetric equations** theorem. What are its hypotheses?
+    Back: |
+      Given a line $L$ with parametric equations
+      $$
+      x=x_{0}+a t \quad y=y_{0}+b t \quad z=z_{0}+c t,
+      $$ if none of $a, b,$ or $c$ is $0,$ we can solve each of these equations for $t,$ equate the results, and obtain
+      $$
+      \frac{x-x_{0}}{a}=\frac{y-y_{0}}{b}=\frac{z-z_{0}}{c}.
+      $$ These equations are called **symmetric equations of $L .$**
+
+      Notice that the numbers $a$ $b,$ and $c$ that appear in the denominators are direction numbers of $L$ that is, components of a vector parallel to $L$. If one of $a, b,$ or $c$ is $0,$ we can still eliminate $t .$ For instance, if $a=0,$ we could write the equations of $L$ as
+      $$
+      x=x_{0} \quad \frac{y-y_{0}}{b}=\frac{z-z_{0}}{c}
+      $$ This means that $L$ lies in the vertical plane $x=x_{0}.$
+
+      Hypotheses:
+
+      - None of $a, b,$ or $c$ is $0.$
+
+      Caveats:
+
+      - If one of $a, b,$ or $c$ is $0,$ we can still eliminate $t .$
+    Annotations: ''
+  tags:
+  - Definition
+  - Theorem
+- id: 1588972306736
+  fields:
+    Front: |
+      SVEC-10.05-06 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      State the **vector equation of a line segment**. List its hypotheses.
+    Back: |
+      The line segment from $\mathbf{r}_{0}$ to $\mathbf{r}_{1}$ is given by the vector equation
+      $$
+      \mathbf{r}(t)=(1-t) \mathbf{r}_{0}+t \mathbf{r}_{1} \quad 0 \leqslant t \leqslant 1
+      $$
+
+      Hypotheses:
+
+      - $\mathbf{r}_{0} \ne \mathbf{r}_{1};$ otherwise the vector equation is degenerate and describes a point instead of a line segment.
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1588972473759
+  fields:
+    Front: |
+      SVEC-10.05-07 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Define **skew lines**.
+    Back: |
+      **skew lines** are sets of lines that do not intersect and are not parallel (and therefore do not lie in the same plane).
+
+      Observations:
+
+      - I'd say the defining characteristic of skew lines is that they are non-coplanar.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1588972752760
+  fields:
+    Front: |
+      SVEC-10.05-08 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      ###### Planes
+      Define **normal vector**.
+    Back: |
+      A plane in space is determined by a point $P_{0}\left(x_{0}, y_{0}, z_{0}\right)$ in the plane and a vector $\mathbf{n}$ that is orthogonal to the plane. This orthogonal vector $\mathbf{n}$ is called a **normal vector**.
+
+      Observations:
+
+      - The idea of a normal vector extends to $n>0$ dimensions. Any vector $\mathbf{v}$ in $\mathbb{R}^3$ is normal to a plane containing the origin, and any line in this plane is orthogonal to $\mathbf{v}.$
+      - In $n$ dimensions, any subspace $U$ of $V$ has a null that can be considered orthogonal to $V^m$. I think the key characteristic of this idea is that subspaces $T$ and $U$ are orthogonal if any vector in $T$ is orthogonal to any vector in $U$.
+      - This relates to a question noted in _SVEC-10.03-06 Synthesis_: The idea that $\mathbf{0}$ is perpendicular to itself is excluded from the text's definition, which requires that orthogonal vectors be nonzero. _**Does this exclusion serve any purpose than to discard the degenerate case?**_
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1588975612935
+  media:
+  - path: ¢{file_dir}/images/SVEC-10.05-09.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-10.05-09 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      ###### Planes
+      State the **vector equation of a plane** in two versions. List its hypotheses.
+    Back: |
+      If $\mathbf{n} \ne \mathbf{0}$ and $\mathbf{r} \ne \mathbf{r}_{0}$ then either of the equations
+      $$
+      \mathbf{n} \cdot\left(\mathbf{r}-\mathbf{r}_{0}\right)=0
+      $$ or
+      $$
+      \mathbf{n} \cdot \mathbf{r}=\mathbf{n} \cdot \mathbf{r}_{0}
+      $$ determine a plane $\mathcal{P}$ containing terminal points $P$ and $P_{0}$ of $\mathbf{r}$ and $\mathbf{r}_{0}$, respectively, and displacement vector $\overrightarrow{P_{0} P} = \mathbf{r} - \mathbf{r}_{0}$ orthogonal to $\mathbf{n}.$ (See below.)
+      <p align="center">
+      ![](SVEC-10.05-09.Sy.1.jpg)
+      </p>
+      Hypotheses:
+
+      - $\mathbf{n} \ne \mathbf{0}$
+      - $\mathbf{r} \ne \mathbf{r}_{0}$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1588977298236
+  fields:
+    Front: |
+      SVEC-10.05-10 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      ###### Planes
+      State the **scalar equation of a plane**. List its hypotheses.
+    Back: |
+      If $\mathcal{P}$ is the plane through $P_{0}\left(x_{0}, y_{0}, z_{0}\right)$ with normal vector $\mathbf{n}=\langle a, b, c\rangle$ then the **scalar equation**
+      $$
+      a\left(x-x_{0}\right)+b\left(y-y_{0}\right)+c\left(z-z_{0}\right)=0
+      $$ uniquely determines $\mathcal{P}.$
+
+      To obtain this scalar equation from the vector equation
+      $$
+      \mathbf{n} \cdot\left(\mathbf{r}-\mathbf{r}_{0}\right)=0
+      $$ with $\mathbf{r}=\langle x, y, z\rangle$ and $\mathbf{r}_{0}=\left\langle x_{0}, y_{0}, z_{0}\right\rangle,$ we rewrite the vector equation as
+      $$
+      \langle a, b, c\rangle \cdot\left\langle x-x_{0}, y-y_{0}, z-z_{0}\right\rangle=0,
+      $$ which is equivalent to the scalar equation.
+
+      Hypotheses:
+
+      - $\mathbf{n} \ne \mathbf{0}$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1588977646435
+  fields:
+    Front: |
+      SVEC-10.05-11 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      ###### Planes
+      Define **linear equation in $x, y,$ and $z$**.
+    Back: |
+      An equation of the form
+      $$
+      a x+b y+c z+d=0
+      $$ is called a **linear equation in $x, y,$ and $z$**.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1588977998960
+  fields:
+    Front: |
+      SVEC-10.05-12 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      ###### Planes
+      State the **linear equation of a plane**. List its hypotheses.
+    Back: |
+      By collection the terms of the scalar equation of the plane through $P_{0}\left(x_{0}, y_{0}, z_{0}\right)$ with normal vector $\mathbf{n}=\langle a, b, c\rangle,$ we rewrite the scalar equation to obtain the **linear equation of the plane**
+      $$
+      a x+b y+c z+d=0
+      $$ where $d=-\left(a x_{0}+b y_{0}+c z_{0}\right).$
+
+      Conversely, if $a, b,$ and $c$ are not all $0,$ then the linear equation represents a plane with normal vector $\langle a, b, c\rangle .$
+
+      Hypotheses:
+
+      - $\mathbf{n} \ne \mathbf{0}$
+
+      Explore:
+
+      - _**How do we obtain the scalar equation from the linear equation?**_
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1588978451759
+  media:
+  - path: ¢{file_dir}/images/SVEC-10.05-13.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-10.05-13 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      ###### Planes
+      State the _unnamed_ **plane parallelism** theorem.
+    Back: |
+      Two planes are parallel if their normal vectors are parallel. If two planes are not parallel, then they intersect in a straight line and the angle between the two planes is defined as the acute angle between their normal vectors (see angle $\theta$ in the figure below).
+      <p align="center">
+      ![](SVEC-10.05-13.Sy.1.jpg)
+      </p>
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1588978677885
+  media:
+  - path: ¢{file_dir}/images/SVEC-10.05-14.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-10.05-14 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      ###### Planes
+      State the **formula for the distance from a point to a plane**.
+    Back: |
+      The distance $D$ from a point $P_{1}\left(x_{1}, y_{1}, z_{1}\right)$ to the plane $a x+b y+c z+d=0$ is given by
+      $$
+      D=\frac{\left|a x_{1}+b y_{1}+c z_{1}+d\right|}{\sqrt{a^{2}+b^{2}+c^{2}}}
+      $$
+      <p align="center">
+      ![](SVEC-10.05-14.Sy.1.jpg)
+      </p>
+    Annotations: ''
+  tags:
+  - Theorem
+  - Editing

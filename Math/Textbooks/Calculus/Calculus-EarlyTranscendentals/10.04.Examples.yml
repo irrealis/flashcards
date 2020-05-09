@@ -1,0 +1,66 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-10-ParametricEquationsAndPolarCoordinates
+  - CET-10.04-AreasAndLengthsInPolarCoordinates
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1588112251775
+  fields:
+    Front: |
+      CET-10.04-01 Example:
+      #### Parametric Equations and Polar Coordinates
+      ##### Areas and Lengths in Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - Editing
+  - ToDo
+- id: 1588112251959
+  fields:
+    Front: |
+      CET-10.04-02 Example:
+      #### Parametric Equations and Polar Coordinates
+      ##### Areas and Lengths in Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - Editing
+  - ToDo
+- id: 1588112252144
+  fields:
+    Front: |
+      CET-10.04-03 Example:
+      #### Parametric Equations and Polar Coordinates
+      ##### Areas and Lengths in Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - Editing
+  - ToDo
+- id: 1588112252301
+  fields:
+    Front: |
+      CET-10.04-04 Example:
+      #### Parametric Equations and Polar Coordinates
+      ##### Areas and Lengths in Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - Editing
+  - ToDo

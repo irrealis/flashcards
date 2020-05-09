@@ -1,0 +1,1010 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-12-VectorsAndTheGeometryOfSpace
+  - CET-12.05-EquationsOfLinesAndPlanes
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1588979192335
+  fields:
+    Front: |
+      CET-12.05-01 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979192514
+  fields:
+    Front: |
+      CET-12.05-02 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979192722
+  fields:
+    Front: |
+      CET-12.05-03 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979192941
+  fields:
+    Front: |
+      CET-12.05-04 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979193138
+  fields:
+    Front: |
+      CET-12.05-05 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979193310
+  fields:
+    Front: |
+      CET-12.05-06 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979193512
+  fields:
+    Front: |
+      CET-12.05-07 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979193690
+  fields:
+    Front: |
+      CET-12.05-08 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979193860
+  fields:
+    Front: |
+      CET-12.05-09 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979194038
+  fields:
+    Front: |
+      CET-12.05-10 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979194222
+  fields:
+    Front: |
+      CET-12.05-11 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979194422
+  fields:
+    Front: |
+      CET-12.05-12 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979194590
+  fields:
+    Front: |
+      CET-12.05-13 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979194773
+  fields:
+    Front: |
+      CET-12.05-14 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979194973
+  fields:
+    Front: |
+      CET-12.05-15 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979195173
+  fields:
+    Front: |
+      CET-12.05-16 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979195372
+  fields:
+    Front: |
+      CET-12.05-17 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979195567
+  fields:
+    Front: |
+      CET-12.05-18 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979195750
+  fields:
+    Front: |
+      CET-12.05-19 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979195926
+  fields:
+    Front: |
+      CET-12.05-20 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979196122
+  fields:
+    Front: |
+      CET-12.05-21 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979196314
+  fields:
+    Front: |
+      CET-12.05-22 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979196524
+  fields:
+    Front: |
+      CET-12.05-23 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979196705
+  fields:
+    Front: |
+      CET-12.05-24 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979196924
+  fields:
+    Front: |
+      CET-12.05-25 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979197133
+  fields:
+    Front: |
+      CET-12.05-26 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979197312
+  fields:
+    Front: |
+      CET-12.05-27 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979197522
+  fields:
+    Front: |
+      CET-12.05-28 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979197722
+  fields:
+    Front: |
+      CET-12.05-29 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979197923
+  fields:
+    Front: |
+      CET-12.05-30 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979198122
+  fields:
+    Front: |
+      CET-12.05-31 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979198340
+  fields:
+    Front: |
+      CET-12.05-32 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979198543
+  fields:
+    Front: |
+      CET-12.05-33 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979198711
+  fields:
+    Front: |
+      CET-12.05-34 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979198905
+  fields:
+    Front: |
+      CET-12.05-35 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979199078
+  fields:
+    Front: |
+      CET-12.05-36 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979199260
+  fields:
+    Front: |
+      CET-12.05-37 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979199439
+  fields:
+    Front: |
+      CET-12.05-38 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979199623
+  fields:
+    Front: |
+      CET-12.05-39 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979199789
+  fields:
+    Front: |
+      CET-12.05-40 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979199990
+  fields:
+    Front: |
+      CET-12.05-41 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979200173
+  fields:
+    Front: |
+      CET-12.05-42 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979200372
+  fields:
+    Front: |
+      CET-12.05-43 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979200607
+  fields:
+    Front: |
+      CET-12.05-44 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979200820
+  fields:
+    Front: |
+      CET-12.05-45 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979201023
+  fields:
+    Front: |
+      CET-12.05-46 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979201191
+  fields:
+    Front: |
+      CET-12.05-47 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979201433
+  fields:
+    Front: |
+      CET-12.05-48 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979201609
+  fields:
+    Front: |
+      CET-12.05-49 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979201789
+  fields:
+    Front: |
+      CET-12.05-50 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979201990
+  fields:
+    Front: |
+      CET-12.05-51 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979202172
+  fields:
+    Front: |
+      CET-12.05-52 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979202340
+  fields:
+    Front: |
+      CET-12.05-53 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979202533
+  fields:
+    Front: |
+      CET-12.05-54 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979202773
+  fields:
+    Front: |
+      CET-12.05-55 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979202956
+  fields:
+    Front: |
+      CET-12.05-56 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979203164
+  fields:
+    Front: |
+      CET-12.05-57 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979203357
+  fields:
+    Front: |
+      CET-12.05-58 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979203540
+  fields:
+    Front: |
+      CET-12.05-59 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979203774
+  fields:
+    Front: |
+      CET-12.05-60 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979203973
+  fields:
+    Front: |
+      CET-12.05-61 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979204172
+  fields:
+    Front: |
+      CET-12.05-62 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979204357
+  fields:
+    Front: |
+      CET-12.05-63 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979204558
+  fields:
+    Front: |
+      CET-12.05-64 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979204772
+  fields:
+    Front: |
+      CET-12.05-65 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979204973
+  fields:
+    Front: |
+      CET-12.05-66 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979205181
+  fields:
+    Front: |
+      CET-12.05-67 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979205361
+  fields:
+    Front: |
+      CET-12.05-68 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979205555
+  fields:
+    Front: |
+      CET-12.05-69 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979205741
+  fields:
+    Front: |
+      CET-12.05-70 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979205922
+  fields:
+    Front: |
+      CET-12.05-71 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979206090
+  fields:
+    Front: |
+      CET-12.05-72 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979206273
+  fields:
+    Front: |
+      CET-12.05-73 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979206473
+  fields:
+    Front: |
+      CET-12.05-74 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979206672
+  fields:
+    Front: |
+      CET-12.05-75 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979206889
+  fields:
+    Front: |
+      CET-12.05-76 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979207073
+  fields:
+    Front: |
+      CET-12.05-77 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979207240
+  fields:
+    Front: |
+      CET-12.05-78 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979207432
+  fields:
+    Front: |
+      CET-12.05-79 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979207607
+  fields:
+    Front: |
+      CET-12.05-80 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979207779
+  fields:
+    Front: |
+      CET-12.05-81 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979207961
+  fields:
+    Front: |
+      CET-12.05-82 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979208139
+  fields:
+    Front: |
+      CET-12.05-83 Exercise:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

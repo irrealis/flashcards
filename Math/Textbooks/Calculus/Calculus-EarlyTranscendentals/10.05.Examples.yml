@@ -1,0 +1,105 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-10-ParametricEquationsAndPolarCoordinates
+  - CET-10.05-ConicSections
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1588112436401
+  fields:
+    Front: |
+      CET-10.05-01 Example:
+      #### Parametric Equations and Polar Coordinates
+      ##### Conic Sections
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - Editing
+  - ToDo
+- id: 1588112436583
+  fields:
+    Front: |
+      CET-10.05-02 Example:
+      #### Parametric Equations and Polar Coordinates
+      ##### Conic Sections
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - Editing
+  - ToDo
+- id: 1588112436768
+  fields:
+    Front: |
+      CET-10.05-03 Example:
+      #### Parametric Equations and Polar Coordinates
+      ##### Conic Sections
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - Editing
+  - ToDo
+- id: 1588112436958
+  fields:
+    Front: |
+      CET-10.05-04 Example:
+      #### Parametric Equations and Polar Coordinates
+      ##### Conic Sections
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - Editing
+  - ToDo
+- id: 1588112437126
+  fields:
+    Front: |
+      CET-10.05-05 Example:
+      #### Parametric Equations and Polar Coordinates
+      ##### Conic Sections
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - Editing
+  - ToDo
+- id: 1588112437325
+  fields:
+    Front: |
+      CET-10.05-06 Example:
+      #### Parametric Equations and Polar Coordinates
+      ##### Conic Sections
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - Editing
+  - ToDo
+- id: 1588112437525
+  fields:
+    Front: |
+      CET-10.05-07 Example:
+      #### Parametric Equations and Polar Coordinates
+      ##### Conic Sections
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - Editing
+  - ToDo

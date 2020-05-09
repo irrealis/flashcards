@@ -1,0 +1,197 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Synthesis
+  - SingleVariableEssentialCalculus
+  - SVEC-08-Series
+  - SVEC-08.03-TheIntegralAndComparisonTests
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 0
+  skip: true
+  fields:
+    Front: |
+      SVEC-08.03-00 Synthesis Notes:
+      #### Summary of definitions:
+
+      - **$p$-series**
+
+      #### Summary of theorems:
+
+      - **Integral Test**
+      - **$p$-Series Test**
+      - **Direct Comparison Test**
+      - **Limit Comparison Test**
+    Back: |
+    Annotations: ''
+  tags: []
+- id: 1584661606891
+  fields:
+    Front: |
+      SVEC-08.03-01 Synthesis:
+      ##### Integral and Comparison Tests:
+      List the integral- and comparison-test definitions.
+    Back: |
+      1. **$p$-series**
+    Annotations: ''
+  tags:
+  - Definitions
+- id: 1584661720566
+  fields:
+    Front: |
+      SVEC-08.03-02 Synthesis:
+      ##### Integral and Comparison Tests:
+      List the integral- and comparison-test theorems.
+    Back: |
+      1. **Integral Test**
+      2. **$p$-Series Test**
+      3. **Direct Comparison Test**
+      4. **Limit Comparison Test**
+    Annotations: ''
+  tags:
+  - Theorems
+---
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Synthesis
+  - Definition
+  - SingleVariableEssentialCalculus
+  - SVEC-08-Series
+  - SVEC-08.03-TheIntegralAndComparisonTests
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1584661927116
+  fields:
+    Front: |
+      SVEC-08.03-03 Synthesis:
+      ##### Integral and Comparison Tests
+      Define **$p$-series.**
+    Back: |
+      A generalization of the harmonic series is the **$p$-series**, defined as
+      $$
+      \sum_{n=1}^{\infty} \frac{1}{n^{p}}
+      $$ for any real number $p .$ When $p=1,$ the $p$-series is the harmonic series, which diverges.
+    Annotations: ''
+  tags: []
+---
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Synthesis
+  - Theorem
+  - SingleVariableEssentialCalculus
+  - SVEC-08-Series
+  - SVEC-08.03-TheIntegralAndComparisonTests
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1584662742741
+  fields:
+    Front: |
+      SVEC-08.03-04 Synthesis:
+      ##### Integral and Comparison Tests
+      State the **Integral Test.** List its hypotheses and conclusions.
+    Back: |
+      Suppose $f$ is a continuous, positive, decreasing function on $[n_0, \infty)$ (where $n_0 \in \mathbb{Z}^{+}$, and often $n_0 = 1$) and let $a_{n}=f(n) .$ Then the series $\sum_{n=1}^{\infty} a_{n}$ is convergent if and only if the improper integral $\int_{1}^{\infty} f(x) d x$ is convergent. In other words:
+      (i) If $\int_{1}^{\infty} f(x) d x$ is convergent, then $\sum_{n=1}^{\infty} a_{n}$ is convergent.
+      (ii) If $\int_{1}^{\infty} f(x) d x$ is divergent, then $\sum_{n=1}^{\infty} a_{n}$ is divergent.
+
+      Hypotheses:
+
+      - $f$ is continuous.
+      - $f$ is positive.
+      - $f$ is decreasing.
+        - (Actually $f$ need only be ultimately decreasing.)
+      - $f$ is defined $[0, \infty).$
+        - (Actually $f$ need only be defined on $[n_0, \infty),$ $n_0 \in \mathbb{Z}^{+}$ and often $n_0 = 1.$)
+      - $a_{n} = f(n).$
+        - (Actually $f(n) = a_{n}$ for $n \geqslant n_{0}.$)
+
+      Conclusions:
+
+      - $\sum_{n=1}^{\infty} a_{n}$ converges iff $\int_{1}^{\infty} f(x) dx$ converges.
+        - (Actually, $\sum_{n=n_0}^{\infty} a_{n}$ converges iff $\int_{n_0}^{\infty} f(x) dx$ converges.)
+    Annotations: ''
+  tags: []
+- id: 1584663101991
+  fields:
+    Front: |
+      SVEC-08.03-05 Synthesis:
+      ##### Integral and Comparison Tests
+      State the **$p$-Series Test.** List its hypotheses and conclusions.
+    Back: |
+      The $p$-series $\sum_{n=1}^{\infty} \frac{1}{n^{p}}$ is convergent if $p>1$ and divergent if $p \leqslant 1.$
+
+      Hypotheses:
+
+      - $\sum_{n=1}^{\infty} a_{n} = \sum_{n=1}^{\infty} \frac{1}{n^{p}}$ for some real number $p.$
+
+      Conclusions:
+
+      - $\sum_{n=1}^{\infty} \frac{1}{n^{p}}$ converges iff $p > 1.$
+    Annotations: ''
+  tags: []
+- id: 1584663623015
+  fields:
+    Front: |
+      SVEC-08.03-06 Synthesis:
+      ##### Integral and Comparison Tests
+      State the **Direct Comparison Test.** List its hypotheses and conclusions. What series are most often used for comparison?
+    Back: |
+      Suppose that $\sum a_{n}$ and $\sum b_{n}$ are series with positive terms.
+      (i) If $\sum b_{n}$ is convergent and $a_{n} \leqslant b_{n}$ for all $n,$ then $\sum a_{n}$ is also convergent.
+      (ii) If $\sum a_{n}$ is divergent and $a_{n} \leqslant b_{n}$ for all $n,$ then $\sum b_{n}$ is also divergent.
+
+      Most of the time we use one of these series:
+
+      - a $p$-series
+      - a geometric series
+
+      Hypotheses:
+
+      - $a_n$ and $b_n$ are positive.
+      - $a_n \leqslant b_n$.
+
+      Conclusions:
+
+      - If $\sum b_n$ is convergent then $\sum a_n$ is convergent.
+        - Contrapositively, if $\sum a_n$ is divergent then $\sum b_n$ is divergent.
+    Annotations: ''
+  tags: []
+- id: 1584663997541
+  fields:
+    Front: |
+      SVEC-08.03-07 Synthesis:
+      ##### Integral and Comparison Tests
+      State the **Limit Comparison Test.** List its hypotheses and conclusions.
+    Back: |
+      Suppose that $\sum a_{n}$ and $\sum b_{n}$ are series with positive terms. If
+      $$
+      \lim _{n \rightarrow \infty} \frac{a_{n}}{b_{n}}=c
+      $$ where $c$ is a finite number and $c>0,$ then either both series converge or both diverge.
+
+      Hypotheses:
+
+      - $a_n$ and $b_n$ are positive.
+      - $0 < \lim _{n \rightarrow \infty} \frac{a_{n}}{b_{n}} < \infty.$
+
+      Conclusions:
+
+      - $\sum a_{n}$ converges iff $\sum b_{n}$ converges.
+    Annotations: ''
+  tags: []

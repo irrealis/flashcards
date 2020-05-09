@@ -1,0 +1,100 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1360
+  - APPM-1360-HW07
+  - APPM-1360-Section07.06
+  - APPM-1360-Section07.07
+  - APPM-1360-Section08.01
+  - WrittenHomework
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1586549631126
+  fields:
+    Front: |
+      APPM-1360-HW-07-01:
+      #### c7: Applications of Integration
+      ##### s7.6: Applications to Physics and Engineering, day 2:
+      ##### s7.7: Differential Equations
+      #### c8: Series
+      ##### s8.1: Sequences
+      Temporary: work and check against homework solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586549631319
+  fields:
+    Front: |
+      APPM-1360-HW-07-02:
+      #### c7: Applications of Integration
+      ##### s7.6: Applications to Physics and Engineering, day 2:
+      ##### s7.7: Differential Equations
+      #### c8: Series
+      ##### s8.1: Sequences
+      Temporary: work and check against homework solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586549631519
+  fields:
+    Front: |
+      APPM-1360-HW-07-03:
+      #### c7: Applications of Integration
+      ##### s7.6: Applications to Physics and Engineering, day 2:
+      ##### s7.7: Differential Equations
+      #### c8: Series
+      ##### s8.1: Sequences
+      Temporary: work and check against homework solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586549631703
+  fields:
+    Front: |
+      APPM-1360-HW-07-04:
+      #### c7: Applications of Integration
+      ##### s7.6: Applications to Physics and Engineering, day 2:
+      ##### s7.7: Differential Equations
+      #### c8: Series
+      ##### s8.1: Sequences
+      Temporary: work and check against homework solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586549631886
+  fields:
+    Front: |
+      APPM-1360-HW-07-05:
+      #### c7: Applications of Integration
+      ##### s7.6: Applications to Physics and Engineering, day 2:
+      ##### s7.7: Differential Equations
+      #### c8: Series
+      ##### s8.1: Sequences
+      Temporary: work and check against homework solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586549632072
+  fields:
+    Front: |
+      APPM-1360-HW-07-06:
+      #### c7: Applications of Integration
+      ##### s7.6: Applications to Physics and Engineering, day 2:
+      ##### s7.7: Differential Equations
+      #### c8: Series
+      ##### s8.1: Sequences
+      Temporary: work and check against homework solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing

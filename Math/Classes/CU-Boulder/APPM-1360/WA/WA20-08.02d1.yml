@@ -1,0 +1,180 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1360
+  - APPM-1360-WA20
+  - SingleVariableEssentialCalculus
+  - SVEC-08-Series
+  - SVEC-08.02-Series
+  - WebAssign
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1583802668570
+  fields:
+    Front: |
+      APPM 1360 WA20-01:
+      #### c8: Series
+      ##### s8.2: Series, day 1
+      (a) What is the difference between a sequence and a series?
+
+      (b) What is a convergent series? What is a divergent series?
+    Back: |
+      (a) A sequence is an ordered list of numbers whereas a series is the sum of a list of numbers.
+
+      (b) A series is convergent if the sequence of partial sums is a convergent sequence. A series is divergent if it is not convergent.
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1583802793770
+  fields:
+    Front: |
+      APPM 1360 WA20-02:
+      #### c8: Series
+      ##### s8.2: Series, day 1
+      Let $a_{n}=\frac{6 n}{2 n+1}$
+      (a) Determine whether $\left\{a_{n}\right\}$ is convergent.
+      (b) Determine whether $\sum_{n=1}^{\infty} a_{n}$ is convergent.
+    Back: |
+      (a) Convergent.
+      (b) Divergent.
+
+      ##### Full solution:
+      (a) $\lim _{n \rightarrow \infty} a_{n}=\lim _{n \rightarrow \infty} \frac{6 n}{2 n+1}=3,$ so the sequence $\left\{a_{n}\right\}$ is convergent.
+
+      (b) Since $\lim _{n \rightarrow \infty} a_{n}=3 \neq 0,$ the series $\sum_{n=1}^{\infty} a_{n}$ is divergent by the Test for Divergence.
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1583802909546
+  fields:
+    Front: |
+      APPM 1360 WA20-03:
+      #### c8: Series
+      ##### s8.2: Series, day 1
+      Determine whether the geometric series is convergent or divergent.
+      $$
+      6+5+\frac{25}{6}+\frac{125}{36}+\cdots
+      $$ If it is convergent, find its sum.
+    Back: |
+      Convergent, $36.$
+
+      ##### Full solution:
+      $6+5+\frac{25}{6}+\frac{125}{36}+\cdots$ is a geometric series with ratio $\frac{5}{6}$. since $|r|=\frac{5}{6}<1$, the series converges to $\frac{a}{1-r}=\frac{6}{1-5 / 6}=36.$
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1583803044045
+  fields:
+    Front: |
+      APPM 1360 WA20-04:
+      #### c8: Series
+      ##### s8.2: Series, day 1
+      Determine whether the geometric series is convergent or divergent.
+      $$
+      \sum_{n=1}^{\infty} \frac{9}{\pi^{n}}
+      $$ If it is convergent, find its sum.
+    Back: |
+      Convergent, $\frac{9}{\pi-1}$.
+
+      ##### Full solution:
+      $\sum_{n=1}^{\infty} \frac{9}{\pi^{n}}=9 \sum_{n=1}^{\infty}\left(\frac{1}{\pi}\right)^{n} .$ The latter series is geometric with $a=\frac{1}{\pi}$ and ratio $r=\frac{1}{\pi}.$ Since $|r|=\frac{1}{\pi}<1,$ it converges to $\frac{1 / \pi}{1-1 / \pi}=\frac{1}{\pi-1}$. Thus, the
+      given series converges to $9\left(\frac{1}{\pi-1}\right)=\frac{9}{\pi-1}$.
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1583803167895
+  fields:
+    Front: |
+      APPM 1360 WA20-05:
+      #### c8: Series
+      ##### s8.2: Series, day 1
+      Determine whether the series is convergent or divergent.
+      $$
+      \frac{1}{4}+\frac{3}{16}+\frac{1}{64}+\frac{3}{256}+\frac{1}{1024}+\frac{3}{4096}+\cdots
+      $$ If it is convergent, find its sum.
+    Back: |
+      Convergent, $\frac{7}{15}$.
+
+      ##### Full solution:
+      $\frac{1}{4}+\frac{3}{16}+\frac{1}{64}+\frac{3}{256}+\frac{1}{1024}+\frac{3}{4096}+\cdots$ $=\left(\frac{1}{4}+\frac{1}{64}+\frac{1}{1024}+\cdots\right)+\left(\frac{3}{16}+\frac{3}{256}+\frac{3}{4096}+\cdots\right),$ which are both convergent geometric series with sums $\frac{1 / 4}{1-1 / 16}=\frac{4}{15}$ and $\frac{3 / 16}{1-1 / 16}=\frac{1}{5},$ so the original series converges and its sum is $\frac{4}{15}+\frac{1}{5}=\frac{7}{15}$.
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1583803410371
+  fields:
+    Front: |
+      APPM 1360 WA20-06:
+      #### c8: Series
+      ##### s8.2: Series, day 1
+      Consider the following series.
+      $$
+      \sum_{n=1}^{\infty} 6^{n+1} 7^{-n}
+      $$
+      Determine whether the geometric series is convergent or divergent. Justify your answer. If it is convergent, find the sum.
+    Back: |
+      Converges; the series is a constant multiple of a geometric series; $36$.
+
+      ##### Full solution:
+      $\sum_{n=1}^{\infty} 6^{n+1} 7^{-n}=\sum_{n=1}^{\infty} \frac{6^{n} \cdot 6^{1}}{7^{n}}=6 \sum_{n=1}^{\infty}\left(\frac{6}{7}\right)^{n} .$ The latter series is geometric with $a=\frac{6}{7}$ and ratio $r=\frac{6}{7}$. Since $|r|=\frac{6}{7}<1,$ it converges to $\frac{67}{1-6 / 7}=6 .$ Thus, the given series converges to $6(6)=36$.
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1583803520271
+  fields:
+    Front: |
+      APPM 1360 WA20-07:
+      #### c8: Series
+      ##### s8.2: Series, day 1
+      Determine whether the series is convergent or divergent.
+      $$
+      \sum_{n=1}^{\infty} \frac{1}{2+e^{-n}}
+      $$ If it is convergent, find its sum.
+    Back: |
+      Divergent.
+
+      ##### Full solution:
+      $\sum_{n=1}^{\infty} \frac{1}{2+e^{-n}}$ diverges by the Test for Divergence since $\lim _{n \rightarrow \infty} \frac{1}{2+e^{-n}}=\frac{1}{2+0}=\frac{1}{2} \neq 0$.
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1583803612045
+  fields:
+    Front: |
+      APPM 1360 WA20-08:
+      #### c8: Series
+      ##### s8.2: Series, day 1
+      Determine whether the series is convergent or divergent.
+      $$
+      \sum_{n=1}^{\infty} \ln \left(\frac{n^{2}+1}{3 n^{2}+1}\right)
+      $$ If it is convergent, find its sum.
+    Back: |
+      Divergent.
+
+      ##### Full solution:
+      $\sum_{n=1}^{\infty} \ln \left(\frac{n^{2}+1}{3 n^{2}+1}\right)$ diverges by the Test for Divergence since $\lim _{n \rightarrow \infty} a_{n}$ $=\lim _{n \rightarrow \infty} \ln \left(\frac{n^{2}+1}{3 n^{2}+1}\right)$ $=\ln \left(\lim _{n \rightarrow \infty} \frac{n^{2}+1}{3 n^{2}+1}\right)$ $=\ln \frac{1}{3} \neq 0$.
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1583803698546
+  fields:
+    Front: |
+      APPM 1360 WA20-09:
+      #### c8: Series
+      ##### s8.2: Series, day 1
+      Determine whether the series is convergent or divergent.
+      $$
+      \sum_{n=1}^{\infty} \arctan (3 n)
+      $$ If it is convergent, find its sum.
+    Back: |
+      Divergent.
+
+      ##### Full solution:
+      $\sum_{n=1}^{\infty} \arctan 3 n$ diverges by the Test for Divergence since $\lim _{n \rightarrow \infty} a_{n}$ $=\lim _{n \rightarrow \infty} \arctan 3 n$ $=\frac{\pi}{2} \neq 0$.
+    Annotations: ''
+  tags:
+  - Editing

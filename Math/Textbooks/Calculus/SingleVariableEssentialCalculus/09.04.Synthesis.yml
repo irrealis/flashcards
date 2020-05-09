@@ -1,0 +1,107 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Synthesis
+  - SingleVariableEssentialCalculus
+  - SVEC-09-ParametricEquationsAndPolarCoordinates
+  - SVEC-09.04-AreasAndLengthsInPolarCoordinates
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 0
+  skip: true
+  fields:
+    Front: |
+      SVEC-09.04-00 Synthesis Notes:
+      #### Summary of theorems:
+      _unnamed_ **circle sector area formula**
+      _unnamed_ **area formula**
+      _unnamed_ **curve length formula**
+    Back: |
+    Annotations: ''
+  tags: []
+- id: 1587793420850
+  fields:
+    Front: |
+      SVEC-09.04-01 Synthesis:
+      #### Areas and Lengths in Polar Coordinates
+      List the polar integration theorems.
+    Back: |
+      1. _unnamed_ **circle sector area formula**
+      2. _unnamed_ **area formula**
+      3. _unnamed_ **curve length formula**
+    Annotations: ''
+  tags: []
+---
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Synthesis
+  - Theorem
+  - SingleVariableEssentialCalculus
+  - SVEC-09-ParametricEquationsAndPolarCoordinates
+  - SVEC-09.04-AreasAndLengthsInPolarCoordinates
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1587793607551
+  fields:
+    Front: |
+      SVEC-09.04-02 Synthesis:
+      #### Areas and Lengths in Polar Coordinates
+      State the _unnamed_ **circle sector area formula**.
+    Back: |
+      $$
+      A=\frac{1}{2} r^{2} \theta
+      $$ where $r$ is the radius and $\theta$ is the radian measure of the central angle. This follows from the fact that the area of a sector is proportional to its central angle: $A=(\theta / 2 \pi) \pi r^{2}=\frac{1}{2} r^{2} \theta.$
+    Annotations: ''
+  tags: []
+- id: 1587793900600
+  fields:
+    Front: |
+      SVEC-09.04-03 Synthesis:
+      #### Areas and Lengths in Polar Coordinates
+      State the _unnamed_ **area formula**.
+    Back: |
+      $$
+      A=\int_{a}^{b} \frac{1}{2}[f(\theta)]^{2} d \theta
+      $$ This is often written as
+      $$
+      A=\int_{a}^{b} \frac{1}{2} r^{2} d \theta
+      $$ with the understanding that $r=f(\theta).$
+
+      When we apply these formulae it is helpful to think of the area as being swept out by a rotating ray through $O$ that starts with angle $a$ and ends with angle $b.$
+    Annotations: ''
+  tags: []
+- id: 1587794322376
+  fields:
+    Front: |
+      SVEC-09.04-04 Synthesis:
+      #### Areas and Lengths in Polar Coordinates
+      State the _unnamed_ **curve length formula**. List its hypotheses and conclusions.
+    Back: |
+      The length of a curve with polar equation $r=f(\theta), a \leqslant \theta \leqslant b,$ is
+      $$
+      L=\int_{a}^{b} \sqrt{r^{2}+\left(\frac{d r}{d \theta}\right)^{2}} d \theta
+      $$
+
+      Hypotheses:
+
+      -  The curve $C$ is represented by $r=f(\theta),$ $a \leqslant \theta \leqslant b.$
+      - $f^{\prime}$ is continuous.
+
+      Conclusions:
+
+      - $$
+        L=\int_{a}^{b} \sqrt{r^{2}+\left(\frac{d r}{d \theta}\right)^{2}} d \theta
+        $$
+    Annotations: ''
+  tags: []

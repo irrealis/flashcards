@@ -10,6 +10,7 @@ defaults:
   - CET-07-TechniquesOfIntegration
   - CET-07.01-IntegrationByParts
   markdownTabLength: 2
+  stringTemplDelim: ¢
 notes:
 - id: 1580335332744
   fields:
@@ -18,23 +19,26 @@ notes:
       ##### integration by parts
       Give the **formula for integration by parts.**
     Back: |
-      $$$\int f(x) g^{\prime}(x) d x=f(x) g(x)-\int g(x) f^{\prime}(x) d x$$$
+      $$
+      \int f(x) g^{\prime}(x) d x=f(x) g(x)-\int g(x) f^{\prime}(x) d x
+      $$
     Annotations: ''
-  tags: []
+  tags:
+  - Editing
 - id: 1580335332983
   fields:
     Front: |
       CET-07.01-02 Theory:
       ##### integration by parts
       Give the **formula for integration by parts** in terms of differentials.
-    Back: >
-      Let $u=f(x)$ and $v=g(x) .$ Then the differentials are $d u=f^{\prime}(x) d
-      x$ and $d v=g^{\prime}(x) d x,$ so, by the Substitution Rule, the formula for
-      integration by parts becomes
-
-      $$$\int u d v=u v-\int v d u$$$
+    Back: |
+      Let $u=f(x)$ and $v=g(x) .$ Then the differentials are $d u=f^{\prime}(x) dx$ and $d v=g^{\prime}(x) d x,$ so, by the Substitution Rule, the formula for integration by parts becomes
+      $$
+      \int u d v=u v-\int v d u
+      $$
     Annotations: ''
-  tags: []
+  tags:
+  - Editing
 - id: 1580335333223
   fields:
     Front: |

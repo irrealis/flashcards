@@ -1,0 +1,26 @@
+- id: 0
+  skip: true
+  fields:
+    Front: |
+      CET-XX.XX-XX Synthesis Notes:
+      ##### Summary of definitions:
+      ##### Summary of theorems:
+    Back: |
+    Annotations: ''
+  tags: []
+
+  media:
+  - path: ¢{file_dir}/images/CET-XX.XX-XX.Sy.1.jpg
+      <p align="center">
+      ![](CET-XX.XX-XX.Sy.1.jpg)
+      </p>
+  tags: []
+- id: 0
+  fields:
+    Front: |
+      CET-XX.XX-XX Synthesis:
+      ##### Conic Sections
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing

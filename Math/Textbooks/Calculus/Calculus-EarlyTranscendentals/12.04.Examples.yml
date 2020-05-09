@@ -1,0 +1,86 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-12-VectorsAndTheGeometryOfSpace
+  - CET-12.04-TheCrossProduct
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1588905511785
+  fields:
+    Front: |
+      CET-12.04-1 Example:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905511980
+  fields:
+    Front: |
+      CET-12.04-2 Example:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905512135
+  fields:
+    Front: |
+      CET-12.04-3 Example:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905512314
+  fields:
+    Front: |
+      CET-12.04-4 Example:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905512498
+  fields:
+    Front: |
+      CET-12.04-5 Example:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588905512687
+  fields:
+    Front: |
+      CET-12.04-6 Example:
+      #### Vectors and the Geometry of Space
+      ##### The Cross Product
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

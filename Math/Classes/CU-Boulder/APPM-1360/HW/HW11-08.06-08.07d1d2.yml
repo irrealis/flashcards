@@ -1,0 +1,111 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1360
+  - APPM-1360-HW11
+  - APPM-1360-Section08.06
+  - APPM-1360-Section08.07
+  - WrittenHomework
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1586550276775
+  fields:
+    Front: |
+      APPM-1360-HW-11-01:
+      #### c8: Series
+      ##### s8.6: Representing Functions as Power Series
+      ##### s8.7: Taylor and Maclaurin Series, days 1 & 2
+      Temporary: work and check against homework solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586550276975
+  fields:
+    Front: |
+      APPM-1360-HW-11-02:
+      #### c8: Series
+      ##### s8.6: Representing Functions as Power Series
+      ##### s8.7: Taylor and Maclaurin Series, days 1 & 2
+      Temporary: work and check against homework solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586550277143
+  fields:
+    Front: |
+      APPM-1360-HW-11-03:
+      #### c8: Series
+      ##### s8.6: Representing Functions as Power Series
+      ##### s8.7: Taylor and Maclaurin Series, days 1 & 2
+      Temporary: work and check against homework solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586550277326
+  fields:
+    Front: |
+      APPM-1360-HW-11-04:
+      #### c8: Series
+      ##### s8.6: Representing Functions as Power Series
+      ##### s8.7: Taylor and Maclaurin Series, days 1 & 2
+      Temporary: work and check against homework solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586550277526
+  fields:
+    Front: |
+      APPM-1360-HW-11-05:
+      #### c8: Series
+      ##### s8.6: Representing Functions as Power Series
+      ##### s8.7: Taylor and Maclaurin Series, days 1 & 2
+      Temporary: work and check against homework solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586550277700
+  fields:
+    Front: |
+      APPM-1360-HW-11-06:
+      #### c8: Series
+      ##### s8.6: Representing Functions as Power Series
+      ##### s8.7: Taylor and Maclaurin Series, days 1 & 2
+      Temporary: work and check against homework solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586550277878
+  fields:
+    Front: |
+      APPM-1360-HW-11-07:
+      #### c8: Series
+      ##### s8.6: Representing Functions as Power Series
+      ##### s8.7: Taylor and Maclaurin Series, days 1 & 2
+      Temporary: work and check against homework solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586550278051
+  fields:
+    Front: |
+      APPM-1360-HW-11-08:
+      #### c8: Series
+      ##### s8.6: Representing Functions as Power Series
+      ##### s8.7: Taylor and Maclaurin Series, days 1 & 2
+      Temporary: work and check against homework solutions sheet.
+    Back: |
+    Annotations: ''
+  tags:
+  - Editing

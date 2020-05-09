@@ -7,8 +7,13 @@
 - id: 0
   fields:
     Front: |
-      CET-XX.XX-XX Example:
+      CET-10.06-XX Example:
+      #### Parametric Equations and Polar Coordinates
+      ##### Conic Sections in Polar Coordinates
+      Temporary: work out of CET textbook.
     Back: |
+      To do.
     Annotations: ''
   tags:
   - Editing
+  - ToDo

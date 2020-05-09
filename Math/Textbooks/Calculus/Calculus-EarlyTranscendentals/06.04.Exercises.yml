@@ -10,6 +10,7 @@ defaults:
   - CET-06-ApplicationsOfIntegration
   - CET-06.04-Work
   markdownTabLength: 2
+  stringTemplDelim: ¢
 notes:
 - id: 1577726370248
   fields:
@@ -21,5 +22,508 @@ notes:
     Back: |
       (a) The work done by the gorilla in lifting its weight of $360 \text{ pounds}$ to a height of $20 \text{ feet}$ is $W=F d=(360 \text{ lb})(20 \text{ ft})=7200 \text{ ft-lb}.$ 
       (b) The amount of time it takes the gorilla to climb the tree doesn't change the amount of work done, so the work done is still $7200 \text{ft-lb}$.
+    Annotations: ''
+  tags: []
+---
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-06-ApplicationsOfIntegration
+  - CET-06.04-Work
+  - SVEC-07-ApplicationsOfIntegration
+  - SVEC-07.06-ApplicationsToPhysicsAndEngineering
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1582220491079
+  fields:
+    Front: |
+      CET-06.04-03 Exercise:
+      SVEC-07.06-01 Exercise:
+      A variable force of $5 x^{-2}$ pounds moves an object along a straight line when it is $x$ feet from the origin. Calculate the work done in moving the object from $x=1$ ft to $x=10$ ft.
+    Back: |
+      $$
+      \begin{aligned}
+      W
+      &=\int_{a}^{b} f(x) d x \\
+      &=\int_{1}^{10} 5 x^{-2} d x \\
+      &=5\left[-x^{-1}\right]_{1}^{10} \\
+      &=5\left(-\frac{1}{10}+1\right) \\
+      &=4.5 \text{ ft}-1 \mathrm{b}
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1582220945559
+  fields:
+    Front: |
+      CET-06.04-04 Exercise:
+      SVEC-07.06-02 Exercise:
+      When a particle is located a distance $x$ meters from the origin, a force of $\cos (\pi x / 3)$ newtons acts on it. How much work is done in moving the particle from $x=1$ to $x=2 ?$ Interpret your answer by considering the work done from $x=1$ to $x=1.5$ and from $x=1.5$ to $x=2$.
+    Back: |
+      $$
+      \begin{aligned}
+      W
+      &=\int_{1}^{2} \cos \left(\frac{1}{3} \pi x\right) d x \\
+      &=\frac{3}{\pi}\left[\sin \left(\frac{1}{3} \pi x\right)\right]_{1}^{2} \\
+      &=\frac{3}{\pi}\left(\frac{\sqrt{3}}{2}-\frac{\sqrt{3}}{2}\right) \\
+      &=0 \text{ N} \cdot \mathrm{m} \\
+      &=0 \text{ J}
+      \end{aligned}
+      $$ _Interpretation:_ From $x=1$ to $x=\frac{3}{2},$ the force does work equal to $\int_{1}^{3 / 2} \cos \left(\frac{1}{3} \pi x\right) d x=\frac{3}{\pi}\left(1-\frac{\sqrt{3}}{2}\right) \text{ J}$ in accelerating the particle and increasing its kinetic energy. From $x=\frac{3}{2}$ to $x=2,$ the force opposes the motion of the particle, decreasing its kinetic energy. This is negative work, equal in magnitude but opposite in sign to the work done from $x=1$ to $x=\frac{3}{2}$.
+    Annotations: ''
+  tags: []
+- id: 1582221171354
+  media:
+  - path: ¢{file_dir}/images/CET-06.04-05.Xs.1.jpg
+  fields:
+    Front: |
+      CET-06.04-05 Exercise:
+      SVEC-07.06-03 Exercise:
+      Shown is the graph of a force function (in newtons) that increases to its maximum value and then remains constant. How much work is done by the force in moving an object a distance of $8 \mathrm{m} ?$
+      <p align="center">
+      ![](CET-06.04-05.Xs.1.jpg)
+      </p>
+    Back: |
+      The force function is given by $F(x)$ (in newtons) and the work (in joules) is the area under the curve, given by
+      $$
+      \begin{aligned}
+      \int_{0}^{8} F(x) d x
+      &=\int_{0}^{4} F(x) d x+\int_{4}^{8} F(x) d x \\
+      &=\frac{1}{2}(4)(30)+(4)(30) \\
+      &=180 \text{ J}
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1582221447154
+  fields:
+    Front: |
+      CET-06.04-06 Exercise:
+      SVEC-07.06-04 Exercise:
+      The table shows values of a force function $f(x),$ where $x$ is measured in meters and $f(x)$ in newtons. Use the Midpoint Rule to estimate the work done by the force in moving an object from $x=4$ to $x=20$.
+      $$
+      \begin{array}{|c|c|c|c|c|c|c|c|c|c|}
+      \hline x & {4} & {6} & {8} & {10} & {12} & {14} & {16} & {18} & {20} \\
+      \hline f(x) & {5} & {5.8} & {7.0} & {8.8} & {9.6} & {8.2} & {6.7} & {5.2} & {4.1} \\
+      \hline
+      \end{array}
+      $$
+    Back: |
+      $$
+      \begin{aligned}
+      W
+      &=\int_{4}^{20} f(x) d x \approx M_{4} \\
+      &=\Delta x[f(6)+f(10)+f(14)+f(18)] \\
+      &=\frac{20-4}{4}[5.8+8.8+8.2+5.2] \\
+      &=4(28)=112 \text{ J}
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1582221653404
+  fields:
+    Front: |
+      CET-06.04-07 Exercise:
+      SVEC-07.06-05 Exercise:
+      A force of 10 lb is required to hold a spring stretched 4 in. beyond its natural length. How much work is done in stretching it from its natural length to 6 in. beyond its natural length?
+    Back: |
+      According to Hooke's Law, the force required to maintain a spring stretched $x$ units beyond its natural length (or compressed $x$ units less than its natural length) is proportional to $x,$ that is, $f(x)=k x .$ Here, the amount stretched is 4 in. $=\frac{1}{3} \text{ ft}$ and the force is 10 lb. Thus, $10=k\left(\frac{1}{3}\right) \Rightarrow k=30 \text{ lb} / \mathrm{ft},$ and $f(x)=30 x .$ The work done in stretching the spring from its natural length to 6 in. $=\frac{1}{2} \text{ ft}$ beyond its natural length is
+      $$
+      \begin{aligned}
+      W
+      &=\int_{0}^{1 / 2} 30 x d x \\
+      &=\left[15 x^{2}\right]_{0}^{1 / 2} \\
+      &=\frac{15}{4} \text{ ft-lb}
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1582222039829
+  fields:
+    Front: |
+      CET-06.04-08 Exercise:
+      SVEC-07.06-06 Exercise:
+      A spring has a natural length of $40 \text{ cm} .$ If a 60 -N force is required to keep the spring compressed $10 \text{ cm},$ how much work is done during this compression? How much work is required to compress the spring to a length of $25 \text{ cm} ?$
+    Back: |
+      According to Hooke's Law, the force required to maintain a spring stretched $x$ units beyond its natural length (or compressed $x$ units less than its natural length) is proportional to $x,$ that is, $f(x)=k x .$ Here, the amount compressed is $40-30=10 \text{ cm}=0.1 \text{ m}$ and the force is $60 \text{ N}$. Thus, $60=k(0.1) \Rightarrow k=600 \text{ N} / \mathrm{m},$ and $f(x)=600 x .$ The work required to compress the spring $0.1 \text{ m}$ is
+      $$
+      \begin{aligned}
+      W
+      &=\int_{0}^{0.1} 600 x d x \\
+      &=\left[300 x^{2}\right]_{0}^{0.1} \\
+      &=300(0.01) \\
+      &=3 \text{ N}-\mathrm{m} \text{ (or }\mathrm{J}\text{)}
+      \end{aligned}
+      $$ The work required to compress the spring $40-25=15 \text{ cm}=0.15 \text{ m}$ is
+      $$
+      \begin{aligned}
+      W
+      &=\int_{0}^{0.15} 600 x d x \\
+      &=\left[300 x^{2}\right]_{0}^{0.15} \\
+      &=300(0.0225) \\
+      &=6.75 \text{ J}
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1582222256380
+  fields:
+    Front: |
+      CET-06.04-09 Exercise:
+      SVEC-07.06-07 Exercise:
+      Suppose that $2 \text{ J}$ of work is needed to stretch a spring from its natural length of $30 \text{ cm}$ to a length of $42 \text{ cm} .$
+      (a) How much work is needed to stretch the spring from $35 \text{ cm}$ to $40 \text{ cm} ?$
+      (b) How far beyond its natural length will a force of $30 \text{ N}$ keep the spring stretched?
+    Back: |
+      (a) If $\int_{0}^{0.12} k x d x=2 \text{ J},$ then $2=\left[\frac{1}{2} k x^{2}\right]_{0}^{0.12}=\frac{1}{2} k(0.0144)=0.0072 k$ and $k=\frac{2}{0.0072}=277.78 \text{ N} / \mathrm{m}$. Thus, the work needed to stretch the spring from $35 \text{ cm}$ to $40 \text{ cm}$ is
+      $$
+      \begin{aligned}
+      \int_{0.05}^{0.10} \frac{2500}{9} x d x
+      &=\left[\frac{1250}{9} x^{2}\right]_{1 / 20}^{1 / 10} \\
+      &=\frac{1250}{9}\left(\frac{1}{100}-\frac{1}{400}\right) \\
+      &=\frac{25}{24} \approx 1.04 \text{ J}
+      \end{aligned}
+      $$
+      (b) $f(x)=k x,$ so $30=\frac{2500}{9} x$ and $x=\frac{270}{2500} \text{ m}=10.8 \text{ cm}$.
+    Annotations: ''
+  tags: []
+- id: 1582222794055
+  fields:
+    Front: |
+      CET-06.04-12 Exercise:
+      SVEC-07.06-08 Exercise:
+      If $6 \text{ J}$ of work is needed to stretch a spring from $10 \text{ cm}$ to $12 \text{ cm}$ and another $10 \text{ J}$ is needed to stretch it from $12 \text{ cm}$ to $14 \text{ cm},$ what is the natural length of the spring?
+    Back: |
+      Let $L$ be the natural length of the spring in meters. Then
+      $$
+      \begin{aligned}
+      6
+      &=\int_{0.10-L}^{0.12-L} k x d x \\
+      &=\left[\frac{1}{2} k x^{2}\right]_{0.10-L}^{0.12-L} \\
+      &=\frac{1}{2} k\left[(0.12-L)^{2}-(0.10-L)^{2}\right]
+      \end{aligned}
+      $$ and
+      $$
+      \begin{aligned}
+      10
+      &=\int_{0.12-L}^{0.14-L} k x d x \\
+      &=\left[\frac{1}{2} k x^{2}\right]_{0.12-L}^{0.14-L} \\
+      &=\frac{1}{2} k\left[(0.14-L)^{2}-(0.12-L)^{2}\right]
+      \end{aligned}
+      $$ Simplifying gives us $12=k(0.0044-0.04 L)$ and $20=k(0.0052-0.04 L) .$ Subtracting the first equation from the second gives $8=0.0008 k,$ so $k=10,000 .$ Now the second equation becomes $20=52-400 L,$ so $L=\frac{32}{400} \text{ m}=8 \text{ cm}$.
+    Annotations: ''
+  tags: []
+- id: 1582223240905
+  fields:
+    Front: |
+      CET-06.04-13 Exercise:
+      SVEC-07.06-09 Exercise:
+      Show how to approximate the required work by a Riemann sum. Then express the work as an integral and evaluate it.  A heavy rope, 50 ft long, weighs $0.5 \text{ lb} / \mathrm{ft}$ and hangs over the edge of a building 120 ft high.
+      (a) How much work is done in pulling the rope to the top of the building?
+      (b) How much work is done in pulling half the rope to the top of the building?
+    Back: |
+      (a) The portion of the rope from $x$ ft to $(x+\Delta x)$ ft below the top of the building weighs $\frac{1}{2} \Delta x$ lb and must be lifted $x_{i}^{*}$ ft so its contribution to the total work is $\frac{1}{2} x_{i}^{*} \Delta x$ fl-b. The total work is
+      $$
+      \begin{aligned}
+      W
+      &=\lim _{n \rightarrow \infty} \sum_{i=1}^{n} \frac{1}{2} x_{i}^{*} \Delta x \\
+      &=\int_{0}^{50} \frac{1}{2} x d x \\
+      &=\left[\frac{1}{4} x^{2}\right]_{0}^{50} \\
+      &=\frac{2500}{4} \\
+      &=625 \text{ ft}-\mathrm{lb}
+      \end{aligned}
+      $$ Notice that the exact height of the building does not matter (as long as it is more than $50 \text{ ft}$ ).
+      (b) When half the rope is pulled to the top of the building, the work to lift the top half of the rope is
+      $$
+      \begin{aligned}
+      W_{1}
+      &=\int_{0}^{25} \frac{1}{2} x d x \\
+      &=\left[\frac{1}{4} x^{2}\right]_{0}^{25} \\
+      &=\frac{625}{4} \text{ ft}-\mathrm{lb}
+      \end{aligned}
+      $$ The bottom half of the rope is lifted 25 lifted 25 ftand the work needed to accomplish that is
+      $$
+      \begin{aligned}
+      W_{2}
+      &=\int_{25}^{50} \frac{1}{2} \cdot 25 d x \\
+      &=\frac{25}{2}[x]_{25}^{50} \\
+      &=\frac{625}{2} \text{ ft}-\mathrm{lb}
+      \end{aligned}
+      $$ The total work done in pulling half the rope to the top of the building is
+      $$
+      \begin{aligned}
+      W
+      &=W_{1}+W_{2} \\
+      &=\frac{625}{2}+\frac{625}{4} \\
+      &=\frac{3}{4} \cdot 625 \\
+      &=\frac{1875}{4} \text{ ft}-\mathrm{lb}
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1582223894954
+  fields:
+    Front: |
+      CET-06.04-16 Exercise:
+      SVEC-07.06-10 Exercise:
+      Show how to approximate the required work by a Riemann sum. Then express the work as an integral and evaluate it.
+      A chain lying on the ground is $10 \text{ m}$ long and its mass is $80 \text{ kg} .$ How much work is required to raise one end of the chain to a height of $6 \text{ m} ?$
+    Back: |
+      Assumptions:
+      1. After lifting, the chain is L-shaped, with $4 \text{ m}$ of the chain lying along the ground.
+      2. The chain slides effortlessly and without friction along the ground while its end is lifted.
+      3. The weight density of the chain is constant throughout its length and therefore equals $(8 \text{ kg} / \mathrm{m})\left(9.8 \text{ m} / \mathrm{s}^{2}\right)=78.4 \text{ N} / \mathrm{m}$.
+      The part of the chain $x \text{ m}$ from the lifted end is raised $6-x \text{ m}$ if $0 \leq x \leq 6 \text{ m},$ and it is lifted $0 \text{ m}$ if $x>6 \text{ m}$.
+      Thus, the work needed is
+      $$
+      \begin{aligned}
+      W
+      &=\lim _{n \rightarrow \infty} \sum_{i=1}^{n}\left(6-x_{i}^{*}\right) \cdot 78.4 \Delta x \\
+      &=\int_{0}^{6}(6-x) 78.4 d x \\
+      &=78.4\left[6 x-\frac{1}{2} x^{2}\right]_{0}^{6} \\
+      &=(78.4)(18) \\
+      &=1411.2 \text{ J}
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1582224209205
+  fields:
+    Front: |
+      CET-06.04-15 Exercise:
+      SVEC-07.06-11 Exercise:
+      Show how to approximate the required work by a Riemann sum. Then express the work as an integral and evaluate it.
+      A cable that weighs $2 \text{ lb} / \mathrm{ft}$ is used to lift $800 \text{ lb}$ of coal up a mine shaft $500 \text{ ft}$ deep. Find the work done.
+    Back: |
+      The work needed to lift the cable is
+      $$
+      \begin{aligned}
+      &\lim _{n \rightarrow \infty} \sum_{i=1}^{n} 2 x_{i}^{*} \Delta x \\
+      &=\int_{0}^{500} 2 x d x \\
+      &=\left[x^{2}\right]_{0}^{500} \\
+      &=250,000 \text{ ft}-\mathrm{lb}
+      \end{aligned}
+      $$ The work needed to lift the coal is $800 \text{ lb}\cdot 500 \text{ ft}=400,000 \text{ ft}-\mathrm{lb}$. Thus, the total work required is $250,000+400,000=650,000 \text{ ft}-\mathrm{lb}$.
+    Annotations: ''
+  tags: []
+- id: 1582224940554
+  fields:
+    Front: |
+      CET-06.04-18 Exercise:
+      SVEC-07.06-12 Exercise:
+      Show how to approximate the required work by a Riemann sum. Then express the work as an integral and evaluate it.
+      A bucket that weighs $4 \text{ lb}$ and a rope of negligible weight are used to draw water from a well that is $80 \text{ ft}$ deep. The bucket is filled with $40 \text{ lb}$ of water and is pulled up at a rate of $2 \text{ ft} / \mathrm{s}$, but water leaks out of a hole in the bucket at a rate of $0.2 \text{ lb} / \mathrm{s}$. Find the work done in pulling the bucket to the top of the well.
+    Back: |
+      The work needed to lift the bucket itself is $4 \text{ lb}\cdot 80 \text{ ft}=320 \text{ ft}-\mathrm{lb}$. At time $t$ (in seconds) the bucket is $x_{i}^{*}=2 t$ ft above its original $80 \text{ ft}$ depth, but it now holds only $(40-0.2 t)$ lb of water. In terms of distance, the bucket holds $\left[40-0.2\left(\frac{1}{2} x_{i}^{*}\right)\right] \text{lb}$ of water when it is $x_{i}^{*}$ ft above its original $80 \text{ ft}$ depth. Moving this amount of water a distance $\Delta x$ requires $\left(40-\frac{1}{10} x_{i}^{*}\right) \Delta x \text{ ft}-\mathrm{lb}$ of work. Thus, the work needed to lift the water is
+      $$
+      \begin{aligned}
+      W
+      &=\lim _{n \rightarrow \infty} \sum_{i=1}^{n}\left(40-\frac{1}{10} x_{i}^{*}\right) \Delta x \\
+      &=\int_{0}^{80}\left(40-\frac{1}{10} x\right) d x \\
+      &=\left[40 x-\frac{1}{20} x^{2}\right]_{0}^{80} \\
+      &=(3200-320) \text{ ft}-\mathrm{lb}
+      \end{aligned}
+      $$
+      Adding the work of lifting the bucket gives a total of $3200 \text{ ft}-\mathrm{lb}$ of work.
+    Annotations: ''
+  tags: []
+- id: 1582225174279
+  fields:
+    Front: |
+      CET-06.04-17 Exercise:
+      SVEC-07.06-13 Exercise:
+      Show how to approximate the required work by a Riemann sum. Then express the work as an integral and evaluate it.
+      A leaky $10-\text{kg}$ bucket is lifted from the ground to a height of $12 \text{ m}$ at a constant speed with a rope that weighs $0.8 \text{ kg} / \mathrm{m}$. Initially the bucket contains $36 \text{ kg}$ of water, but the water leaks at a constant rate and finishes draining just as the bucket reaches the $12-\mathrm{m}$ level. How much work is done?
+    Back: |
+      $$
+      3857 \text{ J}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1582225325229
+  fields:
+    Front: |
+      CET-06.04-19 Exercise:
+      SVEC-07.06-14 Exercise:
+      Show how to approximate the required work by a Riemann sum. Then express the work as an integral and evaluate it.
+      A $10-\mathrm{ft}$ chain weighs $25 \text{ lb}$ and hangs from a ceiling. Find the work done in lifting the lower end of the chain to the ceiling so that it's level with the upper end.
+    Back: |
+      $$
+      62.5 \text{ ft}-\mathrm{lb}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1582225434429
+  fields:
+    Front: |
+      CET-06.04-21 Exercise:
+      SVEC-07.06-15 Exercise:
+      Show how to approximate the required work by a Riemann sum. Then express the work as an integral and evaluate it.
+      An aquarium $2 \text{ m}$ long, $1 \text{ m}$ wide, and $1 \text{ m}$ deep is full of water. Find the work needed to pump half of the water out of the aquarium. (Use the fact that the density of water is $1000 \text{ kg} / \mathrm{m}^{3}$.)
+    Back: |
+      $$
+      2450 \text{ J}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1582225583930
+  fields:
+    Front: |
+      CET-06.04-20 Exercise:
+      SVEC-07.06-16 Exercise:
+      Show how to approximate the required work by a Riemann sum. Then express the work as an integral and evaluate it.
+      A circular swimming pool has a diameter of $24 \text{ ft}$, the sides are $5 \text{ ft}$ high, and the depth of the water is $4 \text{ ft}$. How much work is required to pump all of the water out over the side? (Use the fact that water weighs $62.5 \text{ lb} / \mathrm{ft}^{3}$.)
+    Back: |
+      $$
+      108,000 \pi \text{ ft}-\mathrm{lb}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1582225988954
+  media:
+  - path: ¢{file_dir}/images/CET-06.04-23.Xs.1.jpg
+  fields:
+    Front: |
+      CET-06.04-23 Exercise:
+      CET-06.04-27 Exercise:
+      SVEC-07.06-17 Exercise:
+      The tank shown is full of water.
+      <p align="center">
+      ![](CET-06.04-23.Xs.1.jpg)
+      </p>
+      (a) Find the work required to pump the water out of the spout.
+      (b) Suppose that the pump breaks down after $4.7 \times 10^{5} \text{ J}$ of work has been done. What is the depth of the water remaining in the tank?
+    Back: |
+      (a)
+      $$
+      1058.4 \times 10^{3} \approx 1.06 \times 10^{6} \text{ J}
+      $$
+      (b)
+      About $2.0 \text{ m}$.
+    Annotations: ''
+  tags: []
+- id: 1582226270454
+  media:
+  - path: ¢{file_dir}/images/CET-06.04-24.Xs.1.jpg
+  fields:
+    Front: |
+      CET-06.04-24 Exercise:
+      CET-06.04-28 Exercise:
+      SVEC-07.06-18 Exercise:
+      <p align="center">
+      ![](CET-06.04-24.Xs.1.jpg)
+      </p>
+      (a) The tank shown is full of water. Given that the water weighs $62.5 \text{ lb} / \mathrm{ft}^{3},$ find the work required to pump the water out of the spout.
+      (b) What if the tank is half full of oil that has a density of $900 \text{ kg} / \mathrm{m}^{3} ?$
+    Back: |
+      (a)
+      $$
+      1,411,200 \pi \approx 4.43 \times 10^{6} \text{ J}
+      $$
+      (b)
+      $$
+      813,645 \pi \approx 2.56 \times 10^{6} \text{ J}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1582226768753
+  media:
+  - path: ¢{file_dir}/images/CET-06.04-29.Xs.1.jpg
+  fields:
+    Front: |
+      CET-06.04-29 Exercise:
+      SVEC-07.06-19 Exercise:
+      When gas expands in a cylinder with radius $r,$ the pressure at any given time is a function of the volume: $P=P(V)$ The force exerted by the gas on the piston (see the figure) is the product of the pressure and the area: $F=\pi r^{2} P .$ Show that the work done by the gas when the volume expands from volume $V_{1}$ to volume $V_{2}$ is
+      $$
+      W=\int_{V_{1}}^{V_{2}} P d V
+      $$
+      <p align="center">
+      ![](CET-06.04-29.Xs.1.jpg)
+      </p>
+    Back: |
+      $V=\pi r^{2} x,$ so $V$ is a function of $x$ and $P$ can also be regarded as a function of $x .$ If $V_{1}=\pi r^{2} x_{1}$ and $V_{2}=\pi r^{2} x_{2},$ then
+      $$
+      \begin{aligned}
+      W
+      &=\int_{x_{1}}^{x_{2}} F(x) d x \\
+      &=\int_{x_{1}}^{x_{2}} \pi r^{2} P(V(x)) d x \\
+      &=\int_{x_{1}}^{x_{2}} P(V(x)) d V(x) \quad \left[\text { Let } V(x)=\pi r^{2} x, \text { so } d V(x)=\pi r^{2} d x .\right] \\
+      &=\int_{V_{1}}^{V_{2}} P(V) d V \quad \text{by the Substitution Rule.}
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1582227104979
+  fields:
+    Front: |
+      CET-06.04-30 Exercise:
+      SVEC-07.06-20 Exercise:
+      In a steam engine the pressure $P$ and volume $V$ of steam satisfy the equation $P V^{1.4}=k,$ where $k$ is a constant. (This is true for adiabatic expansion, that is, expansion in which there is no heat transfer between the cylinder and its surroundings.) Use Exercise CET-06.05-29 to calculate the work done by the engine during a cycle when the steam starts at a pressure of $160 \text{ lb} / \mathrm{in}^{2}$ and a volume of $100 \text{ in}^{3}$ and expands to a volume of $800 \text{in}^{3}$
+    Back: |
+      $160 \text{ lb} / \mathrm{in}^{2}=160 \cdot 144 \text{ lb} / \mathrm{t}^{2},$ $100 \text{ in}^{3}=\frac{100}{1728} \text{ ft}^{3},$ and $800 \text{ in}^{3}=\frac{800}{1728} \text{ ft}^{3}$.
+      $k=P V^{1.4}=(160 \cdot 144)\left(\frac{100}{1728}\right)^{1.4}=23,040\left(\frac{25}{432}\right)^{1.4} \approx 426.5 .$ Therefore, $P \approx 426.5 V^{-1.4}$ and
+      $$
+      \begin{aligned}
+      W
+      &=\int_{100 / 17728}^{800 / 1728} 426.5 V^{-1.4} d V \\
+      &=426.5\left[\frac{1}{0.4} V^{-0.4}\right]_{25 / 432}^{25 / 54} \\
+      &=(426.5)(2.5)\left[\left(\frac{432}{25}\right)^{0.4}-\left(\frac{54}{25}\right)^{0.4}\right] \\
+      &\approx 1.88 \times 10^{3} \text{ ft}\mathrm{lb}
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1582228242854
+  fields:
+    Front: |
+      CET-06.04-33 Exercise:
+      SVEC-07.06-21 Exercise:
+      (a) Newton's Law of Gravitation states that two bodies with masses $m_{1}$ and $m_{2}$ attract each other with a force
+      $$
+      F=G \frac{m_{1} m_{2}}{r^{2}}
+      $$ where $r$ is the distance between the bodies and $G$ is the gravitational constant. If one of the bodies is fixed, find the work needed to move the other from $r=a$ to $r=b$
+      (b) Compute the work required to launch a $1000\mathrm{-kg}$ satellite vertically to a height of $1000 \text{ km} .$ You may assume that the earth's mass is $5.98 \times 10^{24} \text{ kg}$ and is concentrated at its center. Take the radius of the earth to be $6.37 \times 10^{6} \text{ m}$ and $G=6.67 \times 10^{-11} \text{ N} \cdot \mathrm{m}^{2} / \mathrm{kg}^{2}$.
+    Back: |
+      (a)
+      $$
+      \begin{aligned}
+      W
+      &=\int_{a}^{b} F(r) d r \\
+      &=\int_{a}^{b} G \frac{m_{1} m_{2}}{r^{2}} d r \\
+      &=G m_{1} m_{2}\left[\frac{-1}{r}\right]_{a}^{b} \\
+      &=G m_{1} m_{2}\left(\frac{1}{a}-\frac{1}{b}\right)
+      \end{aligned}
+      $$
+      (b)
+      $$
+      \begin{aligned}
+      W
+      &=\left(6.67 \times 10^{-11}\right)\left(5.98 \times 10^{24}\right)(1000) \times\left(\frac{1}{6.37 \times 10^{6}}-\frac{1}{7.37 \times 10^{6}}\right)  \\
+      &\approx 8.50 \times 10^{9} \mathrm{J}
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1582230675979
+  fields:
+    Front: |
+      CET-06.04-34 Exercise:
+      SVEC-07.06-24 Exercise:
+      The Great Pyramid of King Khufu was built of limestone in Egypt over a 20-year time period from 2580 BC to 2560 BC. Its base is a square with side length $756 \text{ ft}$ and its height when built was $481 \text{ ft}$. (It was the tallest manmade structure in the world for more than 3800 years. The density of the limestone is about $150 \text{ lb} / \mathrm{ft}^{3} .$
+      (a) Estimate the total work done in building the pyramid.
+      (b) If each laborer worked 10 hours a day for 20 years, for 340 days a year, and did $200 \text{ ft}\mathrm{-lb}/\mathrm{h}$ of work in lifting the limestone blocks into place, about how many laborers were needed to construct the pyramid?
+    Back: |
+      (a)
+      $$
+      50 \cdot 378^{2} \cdot 481^{2} \approx 1.653 \times 10^{12} \text{ ft}-\mathrm{lb}
+      $$
+      (b) About $121,536$ laborers.
     Annotations: ''
   tags: []

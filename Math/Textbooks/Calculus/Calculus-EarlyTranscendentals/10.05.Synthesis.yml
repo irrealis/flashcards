@@ -1,0 +1,230 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Synthesis
+  - Calculus-EarlyTrancendentals
+  - CET-10-ParametricEquationsAndPolarCoordinates
+  - CET-10.05-ConicSections
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 0
+  skip: true
+  fields:
+    Front: |
+      CET-10.05-00 Synthesis Notes:
+      ##### Summary of definitions:
+      **parabola**, **focus**, **vertex**, **axis**, **directrix**
+      **ellipse**, **foci**, **vertices**, **co-vertices**, **major axis**, **minor axis**, **center**
+      **hyperbola**, **foci**, **vertices**, **axis**, **center**, **branches**, **asymptotes**
+      ##### Summary of theorems:
+      **equation of parabola with vertex $(h, k)$ and focus $(h, k + p)$** and **equation of its directrix**; **equations with vertex $(h, k)$ and focus $(h + p, k)$**
+      **equation of ellipse centered at $(h, k)$ with vertices $(\pm a + h, k)$** and **equations of its foci**; **equations centered at $(h, k)$ with vertices $(h, \pm a + k)$**
+      **equation of hyperbola centered at $(h, k)$ with vertices $(\pm a + h, k)$** and **equations of its foci and asymptotes**; **equation centered at $(h, k)$ with vertices $(h, \pm a + k)$**
+    Back: |
+    Annotations: ''
+  tags: []
+- id: 1588179210901
+  fields:
+    Front: |
+      CET-10.05-01 Synthesis:
+      ##### Conic Sections
+      List the conic-section definitions.
+    Back: |
+      1. **parabola**, **focus**, **vertex**, **axis**, **directrix**
+      2. **ellipse**, **foci**, **vertices**, **co-vertices**, **major axis**, **minor axis**, **center**
+      3. **hyperbola**, **foci**, **vertices**, **axis**, **center**, **branches**, **asymptotes**
+    Annotations: ''
+  tags: []
+- id: 1588179211175
+  fields:
+    Front: |
+      CET-10.05-02 Synthesis:
+      ##### Conic Sections
+      List the conic-section theorems.
+    Back: |
+      1. **equation of parabola with vertex $(h, k)$ and focus $(h, k + p)$** and **equation of its directrix**; **equations with vertex $(h, k)$ and focus $(h + p, k)$**
+      2. **equation of ellipse centered at $(h, k)$ with vertices $(\pm a + h, k)$** and **equations of its foci**; **equations centered at $(h, k)$ with vertices $(h, \pm a + k)$**
+      3. **equation of hyperbola centered at $(h, k)$ with vertices $(\pm a + h, k)$** and **equations of its foci and asymptotes**; **equation centered at $(h, k)$ with vertices $(h, \pm a + k)$**
+    Annotations: ''
+  tags: []
+---
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Synthesis
+  - Definition
+  - Calculus-EarlyTrancendentals
+  - CET-10-ParametricEquationsAndPolarCoordinates
+  - CET-10.05-ConicSections
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1588179528275
+  media:
+  - path: ¢{file_dir}/images/CET-10.05-03.Sy.1.jpg
+  - path: ¢{file_dir}/images/CET-10.05-03.Sy.2.jpg
+  fields:
+    Front: |
+      CET-10.05-03 Synthesis:
+      ##### Conic Sections
+      Define **parabola**, **focus**, **vertex**, **axis**, **directrix**.
+    Back: |
+      A **parabola** is the set of points in a plane that are equidistant from a fixed point $F$ (called the **focus**) and a fixed line (called the **directrix**). This definition is illustrated below.
+      <p align="center">
+      ![](CET-10.05-03.Sy.1.jpg)
+      </p>
+      Notice that the point halfway between the focus and the directrix lies on the parabola; it is called the **vertex**. The line through the focus perpendicular to the directrix is called the **axis** of the parabola.
+
+      The standard equation for a parabola centered around a vertical line with vertex $(h, k)$ and focus $(h, k+p)$ is
+      $$
+      (x-h)^{2}=4 p(y-k)
+      $$
+      <p align="center">
+      ![](CET-10.05-03.Sy.2.jpg)
+      $y=\frac{1}{8}(x-2)^{2}+2$
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1588179529975
+  media:
+  - path: ¢{file_dir}/images/CET-10.05-04.Sy.1.jpg
+  - path: ¢{file_dir}/images/CET-10.05-04.Sy.2.jpg
+  - path: ¢{file_dir}/images/CET-10.05-04.Sy.3.jpg
+  fields:
+    Front: |
+      CET-10.05-04 Synthesis:
+      ##### Conic Sections
+      Define **ellipse**, **foci**, **vertices**, **co-vertices**, **major axis**, **minor axis**, **center**.
+    Back: |
+      An **ellipse** is the set of points in a plane the sum of whose distances from two fixed points $F_{1}$ and $F_{2}$ is a constant (see figure below). These two fixed points are called the **foci** (plural of focus).
+      <p align="center">
+      ![](CET-10.05-04.Sy.1.jpg)
+      </p>
+      The point midway between the foci is called the **center** (the origin in the following figure). The line containing both foci (points $(\pm c, 0$) in the figure) intersects the ellipse at two points called **vertices** (points $(\pm a, 0)$ in the figure). The line segment joining these vertices is called the **major axis**. The line through the center that is perpendicular to the major axis intersects the ellipse at two points called **co-vertices** (points $(0, \pm b)$ in the figure). The line segment joining these co-vectors is called the **minor axis**.
+      <p align="center">
+      ![](CET-10.05-04.Sy.2.jpg)
+      </p>
+      The standard equation for an ellipse centered at $(h, k)$ with vertices $(\pm a+h, k)$ is described by the equation
+      $$
+      \frac{(x-h)^{2}}{a^{2}}+\frac{(y-k)^{2}}{b^{2}}=1
+      $$ $(a \geq b>0) .$ The foci exist at $(\pm c+h, k)$ where $c^{2}=a^{2}-b^{2}.$
+      <p align="center">
+      ![](CET-10.05-04.Sy.3.jpg)
+      $\frac{(x-2)^{2}}{4}+\frac{(y-2)^{2}}{1}=1$
+      </p>
+    Annotations: ''
+  tags: []
+- id: 1588179530154
+  media:
+  - path: ¢{file_dir}/images/CET-10.05-05.Sy.1.jpg
+  - path: ¢{file_dir}/images/CET-10.05-05.Sy.2.jpg
+  - path: ¢{file_dir}/images/CET-10.05-05.Sy.3.jpg
+  fields:
+    Front: |
+      CET-10.05-05 Synthesis:
+      ##### Conic Sections
+      Define **hyperbola**, **foci**, **vertices**, **axis**, **center**, **branches**, **asymptotes**.
+    Back: |
+      A **hyperbola** is the set of all points in a plane the difference of whose distances from two fixed points $F_{1}$ and $F_{2}$ (the **foci**) is a constant. This definition is illustrated below.
+      <p align="center">
+      ![](CET-10.05-05.Sy.1.jpg)
+      $P$ is on the hyperbola when $\left|P F_{1}\right|-\left|P F_{2}\right|=\pm 2 a.$
+      </p>
+      Notice that the definition of a hyperbola is similar to that of an ellipse; the only change is that the sum of distances has become a difference of distances.  The point midway between the foci is called the **center** (the origin in the following figure). The line containing both foci (points $(\pm c, 0$) in the figure) is called the **axis** and intersects the hyperbola at two points called **vertices** (points $(\pm a, 0)$ in the figure). The two distinct pieces of the hyperbola are called the **branches** (red in the figure).  When we draw a hyperbola it is useful to first draw its **asymptotes**, which are the dashed lines $y=(b / a) x$ and $y=-(b / a) x$ shown below. Both branches of the hyperbola approach the asymptotes; that is, they come arbitrarily close to the asymptotes.
+      <p align="center">
+      ![](CET-10.05-05.Sy.2.jpg)
+      $$
+      \frac{x^{2}}{a^{2}}-\frac{y^{2}}{b^{2}}=1
+      $$
+      </p>
+      The standard equation for a hyperbola centered at $(h, k)$ with vertices $(\pm a+h, k)$ is described by the equation
+      $$
+      \frac{(x-h)^{2}}{a^{2}}-\frac{(y-k)^{2}}{b^{2}}=1
+      $$ $(a \geq b>0).$ The foci exist at $(\pm c+h, k)$ where $c^{2}=a^{2}+b^{2}.$ The axis corresponds to the variable with positive sign in the above expression. The asymptotes are the lines $y-k = \pm(b/a)(x-h).$
+      <p align="center">
+      ![](CET-10.05-05.Sy.3.jpg)
+      $$
+      \frac{(x-2)^{2}}{4}-\frac{(y-2)^{2}}{1}=1
+      $$
+      </p>
+    Annotations: ''
+  tags: []
+---
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Synthesis
+  - Theorem
+  - Calculus-EarlyTrancendentals
+  - CET-10-ParametricEquationsAndPolarCoordinates
+  - CET-10.05-ConicSections
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1588185091376
+  fields:
+    Front: |
+      CET-10.05-06 Synthesis:
+      ##### Conic Sections
+      State the **equation of parabola with vertex $(h, k)$ and focus $(h, k + p)$**, the **equation of its directrix**, and the same **equations with vertex $(h, k)$ and focus $(h + p, k)$**.
+    Back: |
+      The standard equation for a parabola centered around a vertical line with vertex $(h, k)$ and focus $(h, k+p)$ is
+      $$
+      (x-h)^{2}=4 p(y-k)
+      $$ Its directrix is $y - k = -p$.
+
+      The standard equation for a parabola centered around a horizontal line with vertex $(h, k)$ and focus $(h+p, k)$ is
+      $$
+      (y-k)^{2}=4 p(x-h)
+      $$ Its directrix is $x - h = -p$.
+    Annotations: ''
+  tags: []
+- id: 1588185397026
+  fields:
+    Front: |
+      CET-10.05-07 Synthesis:
+      ##### Conic Sections
+      State the **equation of ellipse centered at $(h, k)$ with vertices $(\pm a + h, k)$**, the **equations of its foci** and the same **equations centered at $(h, k)$ with vertices $(h, \pm a + k)$**.
+    Back: |
+      The standard equation for an ellipse centered at $(h, k)$ with vertices $(\pm a+h, k)$ on a horizontal line is described by the equation
+      $$
+      \frac{(x-h)^{2}}{a^{2}}+\frac{(y-k)^{2}}{b^{2}}=1
+      $$ $(a \geq b>0) .$ The foci exist at $(\pm c+h, k)$ where $c^{2}=a^{2}-b^{2}.$
+
+      The standard equation for an ellipse centered at $(h, k)$ with vertices $(h, \pm a + k)$ on a vertical line is described by the equation
+      $$
+      \frac{(x-h)^{2}}{b^{2}}+\frac{(y-k)^{2}}{a^{2}}=1
+      $$ $(a \geq b>0) .$ The foci exist at $(h, \pm c + k)$ where $c^{2}=a^{2}-b^{2}.$
+    Annotations: ''
+  tags: []
+- id: 1588185632751
+  fields:
+    Front: |
+      CET-10.05-08 Synthesis:
+      ##### Conic Sections
+      State the **equation of hyperbola centered at $(h, k)$ with vertices $(\pm a + h, k)$**, the **equations of its foci and asymptotes**, and the same **equation centered at $(h, k)$ with vertices $(h, \pm a + k)$**.
+    Back: |
+      The standard equation for a hyperbola centered at $(h, k)$ with vertices $(\pm a+h, k)$ on a horizontal line is described by the equation
+      $$
+      \frac{(x-h)^{2}}{a^{2}}-\frac{(y-k)^{2}}{b^{2}}=1
+      $$ $(a \geq b>0).$ The foci exist at $(\pm c+h, k)$ where $c^{2}=a^{2}+b^{2}.$ The asymptotes are the lines $y-k = \pm(b/a)(x-h).$
+
+      The standard equation for a hyperbola centered at $(h, k)$ with vertices $(h, \pm a + k)$ on a vertical line is described by the equation
+      $$
+      \frac{(y-k)^{2}}{a^{2}}-\frac{(x-h)^{2}}{b^{2}}=1
+      $$ $(a \geq b>0).$ The foci exist at $(h, \pm c + k)$ where $c^{2}=a^{2}+b^{2}.$ The asymptotes are the lines $x-h = \pm(b/a)(y-k).$
+    Annotations: ''
+  tags: []

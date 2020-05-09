@@ -1,0 +1,134 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-12-VectorsAndTheGeometryOfSpace
+  - CET-12.05-EquationsOfLinesAndPlanes
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1588979045209
+  fields:
+    Front: |
+      CET-12.05-01 Example:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979045400
+  fields:
+    Front: |
+      CET-12.05-02 Example:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979045567
+  fields:
+    Front: |
+      CET-12.05-03 Example:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979045730
+  fields:
+    Front: |
+      CET-12.05-04 Example:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979045938
+  fields:
+    Front: |
+      CET-12.05-05 Example:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979046118
+  fields:
+    Front: |
+      CET-12.05-06 Example:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979046301
+  fields:
+    Front: |
+      CET-12.05-07 Example:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979046500
+  fields:
+    Front: |
+      CET-12.05-08 Example:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979046689
+  fields:
+    Front: |
+      CET-12.05-09 Example:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588979046883
+  fields:
+    Front: |
+      CET-12.05-10 Example:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

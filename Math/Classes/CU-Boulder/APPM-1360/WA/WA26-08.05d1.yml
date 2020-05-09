@@ -1,0 +1,89 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1360
+  - APPM-1360-WA26
+  - SingleVariableEssentialCalculus
+  - SVEC-08-Series
+  - SVEC-08.05-PowerSeries
+  - WebAssign
+  - ToDo
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1586546873676
+  fields:
+    Front: |
+      APPM 1360 WA26-01:
+      #### c8: Series
+      ##### s8.5: Power Series, day 1
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586546873885
+  fields:
+    Front: |
+      APPM 1360 WA26-02:
+      #### c8: Series
+      ##### s8.5: Power Series, day 1
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586546874052
+  fields:
+    Front: |
+      APPM 1360 WA26-03:
+      #### c8: Series
+      ##### s8.5: Power Series, day 1
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586546874219
+  fields:
+    Front: |
+      APPM 1360 WA26-04:
+      #### c8: Series
+      ##### s8.5: Power Series, day 1
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586546874402
+  fields:
+    Front: |
+      APPM 1360 WA26-05:
+      #### c8: Series
+      ##### s8.5: Power Series, day 1
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586546874569
+  fields:
+    Front: |
+      APPM 1360 WA26-06:
+      #### c8: Series
+      ##### s8.5: Power Series, day 1
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing

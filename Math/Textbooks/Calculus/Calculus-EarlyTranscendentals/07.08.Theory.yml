@@ -10,32 +10,44 @@ defaults:
   - CET-07-TechniquesOfIntegration
   - CET-07.08-ImproperIntegrals
   markdownTabLength: 2
+  stringTemplDelim: ¢
 notes:
 - id: 1577558751555
   fields:
     Front: |
       CET-07.08-01 Theory:
       ##### type 1: infinite intervals
-      Define **Improper Integral of Type 1.**
+      Define **Improper Integral of Type 1.** State its hypotheses.
     Back: |
-      (a) If $\int_{a}^{t} f(x) d x$ exists for every number $t \geqslant a$, then
-      $$$
+      (a) If $\int_{a}^{t} f(x) dx$ exists for every number $t \geqslant a$, then
+      $$
       \int_{a}^{\infty} f(x) d x=\lim _{t \rightarrow \infty} \int_{a}^{t} f(x) d x
-      $$$ provided this limit exists (as a finite number).
+      $$ provided this limit exists (as a finite number).
 
-      (b) If $\int_{t}^{b} f(x) d x$ exists for every number $t \leqslant b,$ then
-      $$$
+      Hypotheses:
+
+      - $\int_{a}^{t} f(x) d x$ exists for every number $t \geqslant a.$
+      - $\lim_{t \rightarrow \infty} \int_{a}^{t} f(x) dx$ exists and is finite.
+
+      (b) If $\int_{t}^{b} f(x) dx$ exists for every number $t \leqslant b,$ then
+      $$
       \int_{-\infty}^{b} f(x) d x=\lim _{t \rightarrow-\infty} \int_{t}^{b} f(x) d x
-      $$$ provided this limit exists (as a finite number).
+      $$ provided this limit exists (as a finite number).
 
-      The improper integrals $\int_{a}^{\infty} f(x) d x$ and $\int_{-\infty}^{b} f(x) d x$ are called **convergent** if the corresponding limit exists and **divergent** if the limit does not exist.
+      Hypotheses:
+
+      - $\int_{t}^{b} f(x) dx$ exists for every number $t \leqslant b.$
+      - $\lim_{t \rightarrow -\infty} \int_{t}^{b} f(x) dx$ exists and is finite.
+
+      The improper integrals $\int_{a}^{\infty} f(x) dx$ and $\int_{-\infty}^{b} f(x) d x$ are called **convergent** if the corresponding limit exists and **divergent** if the limit does not exist.
 
       (c) If both $\int_{a}^{\infty} f(x) d x$ and $\int_{-\infty}^{a} f(x) d x$ are convergent, then we define
-      $$$
-      \int_{-\infty}^{\infty} f(x) d x=\int_{-\infty}^{a} f(x) d x+\int_{a}^{\infty} f(x) d x
-      $$$ In part (c) any real number $a$ can be used (see Exercise 76 ).
+      $$
+      \int_{-\infty}^{\infty} f(x) d x=\int_{-\infty}^{a} f(x) d x+\int_{a}^{\infty} f(x) dx
+      $$ In part (c) any real number $a$ can be used (see Exercise 76 ).
     Annotations: ''
-  tags: []
+  tags:
+  - Editing
 - id: 1577562361832
   fields:
     Front: |
@@ -54,21 +66,21 @@ notes:
       Define **Improper Integral of Type 2.**
     Back: |
       (a) If $f$ is continuous on $[a, b)$ and is discontinuous at $b,$ then
-      $$$
+      $$
       \int_{a}^{b} f(x) d x=\lim _{t \rightarrow b^{-}} \int_{a}^{t} f(x) d x
-      $$$ if this limit exists (as a finite number).
+      $$ if this limit exists (as a finite number).
 
       (b) If $f$ is continuous on $(a, b]$ and is discontinuous at $a$, then
-      $$$
+      $$
       \int_{a}^{b} f(x) d x=\lim _{t \rightarrow a^{+}} \int_{t}^{b} f(x) d x
-      $$$ if this limit exists (as a finite number).
+      $$ if this limit exists (as a finite number).
 
       The improper integral $\int_{a}^{b} f(x) d x$ is called **convergent** if the corresponding limit exists and **divergent** if the limit does not exist.
 
       (c) If $f$ has a discontinuity at $c,$ where $a<c<b,$ and both $\int_{a}^{c} f(x) d x$ and $\int_{c}^{b} f(x) d x$ are convergent, then we define
-      $$$
+      $$
       \int_{a}^{b} f(x) d x=\int_{a}^{c} f(x) d x+\int_{c}^{b} f(x) d x
-      $$$
+      $$
     Annotations: ''
   tags: []
 - id: 1577564060759
@@ -76,7 +88,7 @@ notes:
     Front: |
       CET-07.08-04 Theory:
       ##### a comparison test for improper integrals
-      State the **Comparison Theorem.**
+      State the **Comparison Theorem.** What are its critical hypotheses?
     Back: |
       Suppose that $f$ and $g$ are continuous functions with $f(x) \geqslant g(x) \geqslant 0$ for $x \geqslant a.$
 
@@ -85,5 +97,19 @@ notes:
       (b) If $\int_{a}^{\infty} g(x) d x$ is divergent, then $\int_{a}^{\infty} f(x) d x$ is divergent.
 
       Although we state this for Type 1 integrals, a similar theorem is true for Type 2 integrals.
-    Annotations: ''
-  tags: []
+
+      Critical hypotheses:
+
+      - $f(x)$ and $g(x)$ are continuous on $[a, \infty].$
+      - $0 \leqslant f(x) \leqslant g(x)$ on $[a, \infty].$
+    Annotations: "Trouble:<div>- 200204-1220: memory: got the gist of this theorem,\
+      \ but couldn't remember how it was stated in the book.</div><div><br></div><div>Minor\
+      \ trouble:</div><div>- 200212-1442: memory: I specified nonnegative \\(a\\),\
+      \ but this isn't required in the theorem.</div><div><br></div><div>Memorize:</div><div><div>-\
+      \ 200204-1220: memory: got the gist of this theorem, but couldn't remember how\
+      \ it was stated in the book.</div><br></div>"
+  tags:
+  - Editing
+  - ann:memorize
+  - ann:minor-trouble
+  - ann:trouble

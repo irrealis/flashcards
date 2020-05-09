@@ -1,0 +1,131 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Synthesis
+  - SingleVariableEssentialCalculus
+  - SVEC-08-Series
+  - SVEC-08.06-RepresentingFunctionsAsPowerSeries
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 0
+  skip: true
+  fields:
+    Front: |
+      SVEC-08.06-00 Synthesis Notes:
+      #### Summary of definitions:
+
+      1. **term-by-term differentiation and integration**
+
+      #### Summary of theorems:
+
+      1. _Unnamed_ (**term-by-term differentiation and integration theorem**)
+    Back: |
+    Annotations: ''
+  tags: []
+- id: 1585680654541
+  fields:
+    Front: |
+      SVEC-08.06-01 Synthesis:
+      #### Power Series Representation
+      List the power-series representation definitions.
+    Back: |
+      1. **term-by-term differentiation and integration**
+    Annotations: ''
+  tags:
+  - Definitions
+  - Editing
+- id: 1585680654697
+  fields:
+    Front: |
+      SVEC-08.06-02 Synthesis:
+      #### Power Series Representation
+      List the power-series representation theorems.
+    Back: |
+      1. **Term-By-Term Differentiation and Integration Theorem**
+    Annotations: ''
+  tags:
+  - Theorems
+  - Editing
+---
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Synthesis
+  - Definition
+  - SingleVariableEssentialCalculus
+  - SVEC-08-Series
+  - SVEC-08.06-RepresentingFunctionsAsPowerSeries
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1585680654892
+  fields:
+    Front: |
+      SVEC-08.06-03 Synthesis:
+      #### Power Series Representation
+      Define **term-by-term differentiation and integration**.
+    Back: |
+      We can differentiate or integrate each individual term in a series, just as we would for a polynomial. This is called term-by-term differentiation and integration.
+    Annotations: ''
+  tags:
+  - Definitions
+  - Editing
+---
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Synthesis
+  - Theorem
+  - SingleVariableEssentialCalculus
+  - SVEC-08-Series
+  - SVEC-08.06-RepresentingFunctionsAsPowerSeries
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1585680655092
+  fields:
+    Front: |
+      SVEC-08.06-04 Synthesis:
+      #### Power Series Representation
+      State the **Term-By-Term Differentiation and Integration Theorem**. List its hypotheses and conclusions.
+    Back: |
+      If the power series $\sum c_{n}(x-a)^{n}$ has radius of convergence $R>0,$ then the function $f$ defined by
+      $$
+      \begin{aligned}
+      f(x)
+      &=c_{0}+c_{1}(x-a)+c_{2}(x-a)^{2}+\cdots \\
+      &=\sum_{n=0}^{\infty} c_{n}(x-a)^{n}
+      \end{aligned}
+      $$ is differentiable (and therefore continuous) on the interval $(a-R, a+R)$ and
+      (i) $f^{\prime}(x)$ $=c_{1}+2 c_{2}(x-a)+3 c_{3}(x-a)^{2}+\cdots$ $=\sum_{n=1}^{\infty} n c_{n}(x-a)^{n-1}$
+      (ii) $\int f(x) d x$ $=C+c_{0}(x-a)+c_{1} \frac{(x-a)^{2}}{2}+c_{2} \frac{(x-a)^{3}}{3}+\cdots$ $=C+\sum_{n=0}^{\infty} c_{n} \frac{(x-a)^{n+1}}{n+1}$
+
+      The radii of convergence of the power series in these equations are both $R$.
+
+      Hypotheses:
+
+      The power series $f(x) = \sum c_{n}(x-a)^{n}$ has radius of convergence $R>0.$
+
+      Conclusions:
+
+      - $f(x)$ is differentiable on $(a-R, a+R).$
+      - (Differentiable implies $f(x)$ is continuous on $(a-R, a+R).$)
+      - $f^{\prime}(x)$ $=c_{1}+2 c_{2}(x-a)+3 c_{3}(x-a)^{2}+\cdots$ $=\sum_{n=1}^{\infty} n c_{n}(x-a)^{n-1}.$
+      - $\int f(x) d x$ $=C+c_{0}(x-a)+c_{1} \frac{(x-a)^{2}}{2}+c_{2} \frac{(x-a)^{3}}{3}+\cdots$ $=C+\sum_{n=0}^{\infty} c_{n} \frac{(x-a)^{n+1}}{n+1}.$
+      - The radii of convergence of $f^{\prime}(x)$ and $\int f(x) d x$ are both $R$.
+    Annotations: ''
+  tags:
+  - Editing

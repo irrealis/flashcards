@@ -1,0 +1,85 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1360
+  - APPM-1360-WA32
+  - SingleVariableEssentialCalculus
+  - SVEC-08-Series
+  - SVEC-08.08-ApplicationsOfTaylorPolynomials
+  - WebAssign
+  - ToDo
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1586544635125
+  fields:
+    Front: |
+      APPM 1360 WA32-01:
+      #### c8: Series
+      ##### s8.8: Applications of Taylor Polynomials
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: ''
+  tags:
+  - Editing
+- id: 1586544635321
+  fields:
+    Front: |
+      APPM 1360 WA32-02:
+      #### c8: Series
+      ##### s8.8: Applications of Taylor Polynomials
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: 'Trouble:<div>- 200413-1244: transcription: bad transcription of
+      function at start of problem, writing \(+\) as \(-\).</div>'
+  tags:
+  - Editing
+  - ann:trouble
+- id: 1586544635490
+  fields:
+    Front: |
+      APPM 1360 WA32-03:
+      #### c8: Series
+      ##### s8.8: Applications of Taylor Polynomials
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: 'Hard:<div>- 200413-1341: correct answer, but some difficulty correctly
+      performing all required steps.</div>'
+  tags:
+  - Editing
+  - ann:hard
+- id: 1586544635656
+  fields:
+    Front: |
+      APPM 1360 WA32-04:
+      #### c8: Series
+      ##### s8.8: Applications of Taylor Polynomials
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: 'Hard:<div>- 200413-1452: correct answer, but work was very slow
+      to avoid errors.</div>'
+  tags:
+  - Editing
+  - ann:hard
+- id: 1586544635826
+  fields:
+    Front: |
+      APPM 1360 WA32-05:
+      #### c8: Series
+      ##### s8.8: Applications of Taylor Polynomials
+      Temporary: work and check in WebAssign.
+    Back: |
+      ##### Full solution:
+    Annotations: 'Hard:<div>- 200413-1654: this requires some coding, and there are
+      lots of opportunities for mistakes.</div>'
+  tags:
+  - Editing
+  - ann:hard

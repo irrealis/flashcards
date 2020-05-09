@@ -10,16 +10,59 @@ defaults:
   - CET-07-TechniquesOfIntegration
   - CET-07.08-ImproperIntegrals
   markdownTabLength: 2
+  stringTemplDelim: ¢
 notes:
 - id: 1577565483904
   fields:
     Front: |
       CET-07.08-01a Exercise:
       Explain why the following integral is improper.
-      $$$
+      $$
       \int_{1}^{2} \frac{x}{x-1} d x
-      $$$
+      $$
     Back: |
       Since $y=\frac{x}{x-1}$ has an infinite discontinuity at $x=1, \int_{1}^{2} \frac{x}{x-1} d x$ is a Type 2 improper integral.
+    Annotations: ''
+  tags: []
+---
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-07-TechniquesOfIntegration
+  - CET-07.08-ImproperIntegrals
+  - SVEC-07-ApplicationsOfIntegration
+  - SVEC-07.06-ApplicationsToPhysicsAndEngineering
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1582230109154
+  fields:
+    Front: |
+      CET-07.08-64 Exercise:
+      SVEC-07.06-22 Exercise:
+      Use an improper integral and information from Exercise SVEC-7.6-21 or CET-6.4-33 to find the work needed to propel a $1000\mathrm{-kg}$ satellite out of the earth's gravitational field.
+    Back: |
+      $$
+      \frac{6.67 \times 10^{-11} \cdot 5.98 \times 10^{24} \cdot 10^{3}}{6.37 \times 10^{6}}
+      \approx 6.26 \times 10^{10} \text{ J}
+      $$
+    Annotations: ''
+  tags: []
+- id: 1582230339854
+  fields:
+    Front: |
+      CET-07.08-65 Exercise:
+      SVEC-07.06-23 Exercise:
+      Find the escape velocity $v_{0}$ that is needed to propel a rocket of mass $m$ out of the gravitational field of a planet with mass $M$ and radius $R .$ Use Newton's Law of Gravitation (see Exercise CET-6.4-33) and the fact that the initial kinetic energy of $\frac{1}{2} m v_{0}^{2}$ supplies the needed work.
+    Back: |
+      $$
+      v_{0}=\sqrt{\frac{2 G M}{R}}
+      $$
     Annotations: ''
   tags: []

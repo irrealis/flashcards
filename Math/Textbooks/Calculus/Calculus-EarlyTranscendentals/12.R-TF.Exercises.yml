@@ -1,0 +1,278 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-12-VectorsAndTheGeometryOfSpace
+  - CET-12.R-TF-Review
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1588983074710
+  fields:
+    Front: |
+      CET-12.R-TF-01 True-False:
+      #### Vectors and the Geometry of Space
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588983074928
+  fields:
+    Front: |
+      CET-12.R-TF-02 True-False:
+      #### Vectors and the Geometry of Space
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588983075099
+  fields:
+    Front: |
+      CET-12.R-TF-03 True-False:
+      #### Vectors and the Geometry of Space
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588983075277
+  fields:
+    Front: |
+      CET-12.R-TF-04 True-False:
+      #### Vectors and the Geometry of Space
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588983075482
+  fields:
+    Front: |
+      CET-12.R-TF-05 True-False:
+      #### Vectors and the Geometry of Space
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588983075682
+  fields:
+    Front: |
+      CET-12.R-TF-06 True-False:
+      #### Vectors and the Geometry of Space
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588983075866
+  fields:
+    Front: |
+      CET-12.R-TF-07 True-False:
+      #### Vectors and the Geometry of Space
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588983076049
+  fields:
+    Front: |
+      CET-12.R-TF-08 True-False:
+      #### Vectors and the Geometry of Space
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588983076236
+  fields:
+    Front: |
+      CET-12.R-TF-09 True-False:
+      #### Vectors and the Geometry of Space
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588983076432
+  fields:
+    Front: |
+      CET-12.R-TF-10 True-False:
+      #### Vectors and the Geometry of Space
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588983076617
+  fields:
+    Front: |
+      CET-12.R-TF-11 True-False:
+      #### Vectors and the Geometry of Space
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588983076809
+  fields:
+    Front: |
+      CET-12.R-TF-12 True-False:
+      #### Vectors and the Geometry of Space
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588983077016
+  fields:
+    Front: |
+      CET-12.R-TF-13 True-False:
+      #### Vectors and the Geometry of Space
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588983077187
+  fields:
+    Front: |
+      CET-12.R-TF-14 True-False:
+      #### Vectors and the Geometry of Space
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588983077384
+  fields:
+    Front: |
+      CET-12.R-TF-15 True-False:
+      #### Vectors and the Geometry of Space
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588983077583
+  fields:
+    Front: |
+      CET-12.R-TF-16 True-False:
+      #### Vectors and the Geometry of Space
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588983077766
+  fields:
+    Front: |
+      CET-12.R-TF-17 True-False:
+      #### Vectors and the Geometry of Space
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588983077942
+  fields:
+    Front: |
+      CET-12.R-TF-18 True-False:
+      #### Vectors and the Geometry of Space
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588983078117
+  fields:
+    Front: |
+      CET-12.R-TF-19 True-False:
+      #### Vectors and the Geometry of Space
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588983078316
+  fields:
+    Front: |
+      CET-12.R-TF-20 True-False:
+      #### Vectors and the Geometry of Space
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588983078501
+  fields:
+    Front: |
+      CET-12.R-TF-21 True-False:
+      #### Vectors and the Geometry of Space
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1588983078683
+  fields:
+    Front: |
+      CET-12.R-TF-22 True-False:
+      #### Vectors and the Geometry of Space
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

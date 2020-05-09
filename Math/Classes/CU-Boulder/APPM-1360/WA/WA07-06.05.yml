@@ -1,0 +1,16 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - CU-Boulder
+  - APPM-1360
+  - APPM-1360-WA07
+  - SingleVariableEssentialCalculus
+  - SVEC-06-TechniquesOfIntegration
+  - SVEC-06.05-ApproximateIntegration
+  - WebAssign
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes: []
