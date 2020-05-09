@@ -1,0 +1,830 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-13-VectorFunctions
+  - CET-13.03-ArcLengthAndCurvature
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589052145544
+  fields:
+    Front: |
+      CET-13.03-01 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052145769
+  fields:
+    Front: |
+      CET-13.03-02 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052145944
+  fields:
+    Front: |
+      CET-13.03-03 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052146170
+  fields:
+    Front: |
+      CET-13.03-04 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052146354
+  fields:
+    Front: |
+      CET-13.03-05 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052146537
+  fields:
+    Front: |
+      CET-13.03-06 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052146725
+  fields:
+    Front: |
+      CET-13.03-07 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052146902
+  fields:
+    Front: |
+      CET-13.03-08 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052147069
+  fields:
+    Front: |
+      CET-13.03-09 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052147241
+  fields:
+    Front: |
+      CET-13.03-10 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052147438
+  fields:
+    Front: |
+      CET-13.03-11 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052147622
+  fields:
+    Front: |
+      CET-13.03-12 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052147793
+  fields:
+    Front: |
+      CET-13.03-13 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052147986
+  fields:
+    Front: |
+      CET-13.03-14 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052148171
+  fields:
+    Front: |
+      CET-13.03-15 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052148354
+  fields:
+    Front: |
+      CET-13.03-16 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052148537
+  fields:
+    Front: |
+      CET-13.03-17 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052148720
+  fields:
+    Front: |
+      CET-13.03-18 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052148894
+  fields:
+    Front: |
+      CET-13.03-19 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052149086
+  fields:
+    Front: |
+      CET-13.03-20 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052149263
+  fields:
+    Front: |
+      CET-13.03-21 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052149452
+  fields:
+    Front: |
+      CET-13.03-22 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052149637
+  fields:
+    Front: |
+      CET-13.03-23 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052149825
+  fields:
+    Front: |
+      CET-13.03-24 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052150003
+  fields:
+    Front: |
+      CET-13.03-25 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052150192
+  fields:
+    Front: |
+      CET-13.03-26 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052150386
+  fields:
+    Front: |
+      CET-13.03-27 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052150602
+  fields:
+    Front: |
+      CET-13.03-28 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052150791
+  fields:
+    Front: |
+      CET-13.03-29 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052150986
+  fields:
+    Front: |
+      CET-13.03-30 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052151170
+  fields:
+    Front: |
+      CET-13.03-31 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052151344
+  fields:
+    Front: |
+      CET-13.03-32 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052151552
+  fields:
+    Front: |
+      CET-13.03-33 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052151740
+  fields:
+    Front: |
+      CET-13.03-34 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052151919
+  fields:
+    Front: |
+      CET-13.03-35 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052152094
+  fields:
+    Front: |
+      CET-13.03-36 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052152287
+  fields:
+    Front: |
+      CET-13.03-37 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052152494
+  fields:
+    Front: |
+      CET-13.03-38 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052152703
+  fields:
+    Front: |
+      CET-13.03-39 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052152887
+  fields:
+    Front: |
+      CET-13.03-40 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052153070
+  fields:
+    Front: |
+      CET-13.03-41 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052153261
+  fields:
+    Front: |
+      CET-13.03-42 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052153454
+  fields:
+    Front: |
+      CET-13.03-43 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052153652
+  fields:
+    Front: |
+      CET-13.03-44 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052153837
+  fields:
+    Front: |
+      CET-13.03-45 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052154021
+  fields:
+    Front: |
+      CET-13.03-46 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052154192
+  fields:
+    Front: |
+      CET-13.03-47 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052154393
+  fields:
+    Front: |
+      CET-13.03-48 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052154586
+  fields:
+    Front: |
+      CET-13.03-49 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052154764
+  fields:
+    Front: |
+      CET-13.03-50 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052154960
+  fields:
+    Front: |
+      CET-13.03-51 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052155137
+  fields:
+    Front: |
+      CET-13.03-52 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052155362
+  fields:
+    Front: |
+      CET-13.03-53 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052155553
+  fields:
+    Front: |
+      CET-13.03-54 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052155743
+  fields:
+    Front: |
+      CET-13.03-55 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052155919
+  fields:
+    Front: |
+      CET-13.03-56 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052156111
+  fields:
+    Front: |
+      CET-13.03-57 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052156299
+  fields:
+    Front: |
+      CET-13.03-58 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052156504
+  fields:
+    Front: |
+      CET-13.03-59 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052156669
+  fields:
+    Front: |
+      CET-13.03-60 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052156843
+  fields:
+    Front: |
+      CET-13.03-61 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052157022
+  fields:
+    Front: |
+      CET-13.03-62 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052157193
+  fields:
+    Front: |
+      CET-13.03-63 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052157375
+  fields:
+    Front: |
+      CET-13.03-64 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052157576
+  fields:
+    Front: |
+      CET-13.03-65 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052157745
+  fields:
+    Front: |
+      CET-13.03-66 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052157943
+  fields:
+    Front: |
+      CET-13.03-67 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052158136
+  fields:
+    Front: |
+      CET-13.03-68 Exercise:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

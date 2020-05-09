@@ -1,0 +1,710 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-13-VectorFunctions
+  - CET-13.02-DerivativesAndIntegralsOfVectorFunctions
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589051984693
+  fields:
+    Front: |
+      CET-13.02-01 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051984914
+  fields:
+    Front: |
+      CET-13.02-02 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051985135
+  fields:
+    Front: |
+      CET-13.02-03 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051985313
+  fields:
+    Front: |
+      CET-13.02-04 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051985513
+  fields:
+    Front: |
+      CET-13.02-05 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051985697
+  fields:
+    Front: |
+      CET-13.02-06 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051985868
+  fields:
+    Front: |
+      CET-13.02-07 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051986065
+  fields:
+    Front: |
+      CET-13.02-08 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051986242
+  fields:
+    Front: |
+      CET-13.02-09 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051986432
+  fields:
+    Front: |
+      CET-13.02-10 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051986601
+  fields:
+    Front: |
+      CET-13.02-11 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051986781
+  fields:
+    Front: |
+      CET-13.02-12 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051986997
+  fields:
+    Front: |
+      CET-13.02-13 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051987169
+  fields:
+    Front: |
+      CET-13.02-14 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051987347
+  fields:
+    Front: |
+      CET-13.02-15 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051987520
+  fields:
+    Front: |
+      CET-13.02-16 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051987698
+  fields:
+    Front: |
+      CET-13.02-17 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051987867
+  fields:
+    Front: |
+      CET-13.02-18 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051988047
+  fields:
+    Front: |
+      CET-13.02-19 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051988289
+  fields:
+    Front: |
+      CET-13.02-20 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051988499
+  fields:
+    Front: |
+      CET-13.02-21 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051988668
+  fields:
+    Front: |
+      CET-13.02-22 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051988880
+  fields:
+    Front: |
+      CET-13.02-23 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051989064
+  fields:
+    Front: |
+      CET-13.02-24 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051989248
+  fields:
+    Front: |
+      CET-13.02-25 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051989433
+  fields:
+    Front: |
+      CET-13.02-26 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051989615
+  fields:
+    Front: |
+      CET-13.02-27 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051989802
+  fields:
+    Front: |
+      CET-13.02-28 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051989981
+  fields:
+    Front: |
+      CET-13.02-29 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051990165
+  fields:
+    Front: |
+      CET-13.02-30 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051990381
+  fields:
+    Front: |
+      CET-13.02-31 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051990598
+  fields:
+    Front: |
+      CET-13.02-32 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051990797
+  fields:
+    Front: |
+      CET-13.02-33 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051990967
+  fields:
+    Front: |
+      CET-13.02-34 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051991190
+  fields:
+    Front: |
+      CET-13.02-35 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051991369
+  fields:
+    Front: |
+      CET-13.02-36 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051991580
+  fields:
+    Front: |
+      CET-13.02-37 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051991763
+  fields:
+    Front: |
+      CET-13.02-38 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051991948
+  fields:
+    Front: |
+      CET-13.02-39 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051992118
+  fields:
+    Front: |
+      CET-13.02-40 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051992330
+  fields:
+    Front: |
+      CET-13.02-41 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051992515
+  fields:
+    Front: |
+      CET-13.02-42 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051992698
+  fields:
+    Front: |
+      CET-13.02-43 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051992897
+  fields:
+    Front: |
+      CET-13.02-44 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051993083
+  fields:
+    Front: |
+      CET-13.02-45 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051993247
+  fields:
+    Front: |
+      CET-13.02-46 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051993418
+  fields:
+    Front: |
+      CET-13.02-47 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051993613
+  fields:
+    Front: |
+      CET-13.02-48 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051993813
+  fields:
+    Front: |
+      CET-13.02-49 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051993997
+  fields:
+    Front: |
+      CET-13.02-50 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051994181
+  fields:
+    Front: |
+      CET-13.02-51 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051994347
+  fields:
+    Front: |
+      CET-13.02-52 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051994518
+  fields:
+    Front: |
+      CET-13.02-53 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051994697
+  fields:
+    Front: |
+      CET-13.02-54 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051994899
+  fields:
+    Front: |
+      CET-13.02-55 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051995097
+  fields:
+    Front: |
+      CET-13.02-56 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051995270
+  fields:
+    Front: |
+      CET-13.02-57 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051995465
+  fields:
+    Front: |
+      CET-13.02-58 Exercise:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

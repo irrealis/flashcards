@@ -1,0 +1,98 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-13-VectorFunctions
+  - CET-13.01-VectorFunctionsAndSpaceCurves
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589051710767
+  fields:
+    Front: |
+      CET-13.01-1 Example:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051710967
+  fields:
+    Front: |
+      CET-13.01-2 Example:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051711140
+  fields:
+    Front: |
+      CET-13.01-3 Example:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051711313
+  fields:
+    Front: |
+      CET-13.01-4 Example:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051711511
+  fields:
+    Front: |
+      CET-13.01-5 Example:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051711685
+  fields:
+    Front: |
+      CET-13.01-6 Example:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051711859
+  fields:
+    Front: |
+      CET-13.01-7 Example:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

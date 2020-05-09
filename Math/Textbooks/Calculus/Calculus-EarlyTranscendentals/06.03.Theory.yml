@@ -10,10 +10,11 @@ defaults:
   - CET-06-ApplicationsOfIntegration
   - CET-06.03-VolumesByCylindricalShells
   markdownTabLength: 2
+  stringTemplDelim: ¢
 notes:
 - id: 1577643527054
   media:
-  - path: ${file_dir}/images/CET-06.03-01.Th.1.jpg
+  - path: ¢{file_dir}/images/CET-06.03-01.Th.1.jpg
   fields:
     Front: |
       CET-06.03-01 Theory:
@@ -33,7 +34,7 @@ notes:
   tags: []
 - id: 1577644375295
   media:
-  - path: ${file_dir}/images/CET-06.03-02.Th.1.jpg
+  - path: ¢{file_dir}/images/CET-06.03-02.Th.1.jpg
   fields:
     Front: |
       CET-06.03-02 Theory:

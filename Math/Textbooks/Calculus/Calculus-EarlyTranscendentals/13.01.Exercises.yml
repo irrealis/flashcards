@@ -1,0 +1,662 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-13-VectorFunctions
+  - CET-13.01-VectorFunctionsAndSpaceCurves
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589051712146
+  fields:
+    Front: |
+      CET-13.01-01 Exercise:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051712318
+  fields:
+    Front: |
+      CET-13.01-02 Exercise:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051712491
+  fields:
+    Front: |
+      CET-13.01-03 Exercise:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051712666
+  fields:
+    Front: |
+      CET-13.01-04 Exercise:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051712838
+  fields:
+    Front: |
+      CET-13.01-05 Exercise:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051713012
+  fields:
+    Front: |
+      CET-13.01-06 Exercise:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051713186
+  fields:
+    Front: |
+      CET-13.01-07 Exercise:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051713361
+  fields:
+    Front: |
+      CET-13.01-08 Exercise:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051713537
+  fields:
+    Front: |
+      CET-13.01-09 Exercise:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051713713
+  fields:
+    Front: |
+      CET-13.01-10 Exercise:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051713886
+  fields:
+    Front: |
+      CET-13.01-11 Exercise:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051714065
+  fields:
+    Front: |
+      CET-13.01-12 Exercise:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051714245
+  fields:
+    Front: |
+      CET-13.01-13 Exercise:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051714417
+  fields:
+    Front: |
+      CET-13.01-14 Exercise:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051714590
+  fields:
+    Front: |
+      CET-13.01-15 Exercise:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051714766
+  fields:
+    Front: |
+      CET-13.01-16 Exercise:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051714941
+  fields:
+    Front: |
+      CET-13.01-17 Exercise:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051715117
+  fields:
+    Front: |
+      CET-13.01-18 Exercise:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051715292
+  fields:
+    Front: |
+      CET-13.01-19 Exercise:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051715467
+  fields:
+    Front: |
+      CET-13.01-20 Exercise:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051715642
+  fields:
+    Front: |
+      CET-13.01-21 Exercise:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051715816
+  fields:
+    Front: |
+      CET-13.01-22 Exercise:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051715991
+  fields:
+    Front: |
+      CET-13.01-23 Exercise:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051716164
+  fields:
+    Front: |
+      CET-13.01-24 Exercise:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051716365
+  fields:
+    Front: |
+      CET-13.01-25 Exercise:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051716541
+  fields:
+    Front: |
+      CET-13.01-26 Exercise:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051716716
+  fields:
+    Front: |
+      CET-13.01-27 Exercise:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051716893
+  fields:
+    Front: |
+      CET-13.01-28 Exercise:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051717066
+  fields:
+    Front: |
+      CET-13.01-29 Exercise:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051717262
+  fields:
+    Front: |
+      CET-13.01-30 Exercise:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051717435
+  fields:
+    Front: |
+      CET-13.01-31 Exercise:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051717608
+  fields:
+    Front: |
+      CET-13.01-32 Exercise:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051717786
+  fields:
+    Front: |
+      CET-13.01-33 Exercise:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051717982
+  fields:
+    Front: |
+      CET-13.01-34 Exercise:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051718149
+  fields:
+    Front: |
+      CET-13.01-35 Exercise:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051718342
+  fields:
+    Front: |
+      CET-13.01-36 Exercise:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051718514
+  fields:
+    Front: |
+      CET-13.01-37 Exercise:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051718698
+  fields:
+    Front: |
+      CET-13.01-38 Exercise:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051718892
+  fields:
+    Front: |
+      CET-13.01-39 Exercise:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051719067
+  fields:
+    Front: |
+      CET-13.01-40 Exercise:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051719243
+  fields:
+    Front: |
+      CET-13.01-41 Exercise:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051719417
+  fields:
+    Front: |
+      CET-13.01-42 Exercise:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051719591
+  fields:
+    Front: |
+      CET-13.01-43 Exercise:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051719764
+  fields:
+    Front: |
+      CET-13.01-44 Exercise:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051719943
+  fields:
+    Front: |
+      CET-13.01-45 Exercise:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051720116
+  fields:
+    Front: |
+      CET-13.01-46 Exercise:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051720293
+  fields:
+    Front: |
+      CET-13.01-47 Exercise:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051720473
+  fields:
+    Front: |
+      CET-13.01-48 Exercise:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051720643
+  fields:
+    Front: |
+      CET-13.01-49 Exercise:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051720838
+  fields:
+    Front: |
+      CET-13.01-50 Exercise:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051721023
+  fields:
+    Front: |
+      CET-13.01-51 Exercise:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051721216
+  fields:
+    Front: |
+      CET-13.01-52 Exercise:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051721392
+  fields:
+    Front: |
+      CET-13.01-53 Exercise:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051721593
+  fields:
+    Front: |
+      CET-13.01-54 Exercise:
+      #### Vector Functions
+      ##### Vector Functions and Space Curves
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

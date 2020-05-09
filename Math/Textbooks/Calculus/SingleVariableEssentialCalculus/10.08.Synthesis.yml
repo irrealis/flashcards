@@ -1,0 +1,378 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Synthesis
+  - SingleVariableEssentialCalculus
+  - SVEC-10-VectorsAndTheGeometryOfSpace
+  - SVEC-10.08-ArcLengthAndCurvature
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589045882042
+  fields:
+    Front: |
+      SVEC-10.08-01 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Arc Length and Curvature
+      List the arc-length and curvature definitions and theorems.
+    Back: |
+      ###### Length of a Curve
+      Thm: **arc length formula** and its compact form
+      Def: **parameterization**
+      Thm: _unnamed_ **parameterization independence theorem**
+      ###### The Arc Length Function
+      Def: **arc length function**
+      Thm: **derivative of an arc length function**
+      Thm: **procedure to parameterize a curve with respect to arc length**
+      ###### Curvature
+      Def: **smooth**
+      Def: **curvature**
+      Thm: **curvature formula in terms of parameter**
+      Thm: **curvature formula in terms of cross-product**
+      Thm: **curvature of a plane curve**
+      ###### The Normal and Binormal Vectors
+      Def: **principal unit normal vector** (or **unit normal**), and **binormal vector**
+      Def: **normal plane** and **osculating plane**
+      Def: **osculating circle** and **circle of curvature**
+      Thm: **summarized formulas for unit tangent, unit normal and binormal vectors, and curvature**
+    Annotations: ''
+  tags:
+  - Definitions
+  - Theorems
+- id: 1589046346618
+  fields:
+    Front: |
+      SVEC-10.08-02 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Arc Length and Curvature
+      ###### Length of a Curve
+      State the **arc length formula** and its compact form. List its hypotheses.
+    Back: |
+      Suppose that a curve has the vector equation $\mathbf{r}(t)=\langle f(t), g(t), h(t)\rangle, a \leqslant t \leqslant b,$ or equivalently, the parametric equations $x=f(t), y=g(t), z=h(t),$ where $f^{\prime}, g^{\prime},$ and $h^{\prime}$ are continuous. If the curve is traversed exactly once as $t$ increases from $a$ to $b$, then it can be shown that its length is
+      $$
+      \begin{aligned}
+      L &=\int_{a}^{b} \sqrt{\left[f^{\prime}(t)\right]^{2}+\left[g^{\prime}(t)\right]^{2}+\left[h^{\prime}(t)\right]^{2}} d t \\
+      &=\int_{a}^{b} \sqrt{\left(\frac{d x}{d t}\right)^{2}+\left(\frac{d y}{d t}\right)^{2}+\left(\frac{d z}{d t}\right)^{2}} d t
+      \end{aligned}
+      $$ This can be put into the more compact form
+      $$
+      L=\int_{a}^{b}\left|\mathbf{r}^{\prime}(t)\right| d t
+      $$ because
+      $$
+      \left|\mathbf{r}^{\prime}(t)\right|=\left|f^{\prime}(t) \mathbf{i}+g^{\prime}(t) \mathbf{j}+h^{\prime}(t) \mathbf{k}\right|=\sqrt{\left[f^{\prime}(t)\right]^{2}+\left[g^{\prime}(t)\right]^{2}+\left[h^{\prime}(t)\right]^{2}}
+      $$
+
+      Hypotheses:
+
+      - $\mathbf{r}$ is continuous (it describes a space curve $C$) on $[a,b].$
+      - $C$ is traversed exactly once by $\mathbf{r}$ as $t$ increases from $a$ to $b.$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589046717843
+  fields:
+    Front: |
+      SVEC-10.08-03 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Arc Length and Curvature
+      ###### Length of a Curve
+      Define **parameterization**.
+    Back: |
+      A single curve $C$ can be represented by more than one vector function. For instance, the twisted cubic
+      $$
+      \mathbf{r}_{1}(t)=\left\langle t, t^{2}, t^{3}\right\rangle \quad 1 \leqslant t \leqslant 2
+      $$ could also be represented by the function
+      $$
+      \mathbf{r}_{2}(u)=\left\langle e^{u}, e^{2 u}, e^{3 u}\right\rangle \quad 0 \leqslant u \leqslant \ln 2
+      $$ where the connection between the parameters $t$ and $u$ is given by $t=e^{u} .$ We say that these equations are **parametrizations** of the curve $C .$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589046718085
+  fields:
+    Front: |
+      SVEC-10.08-04 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Arc Length and Curvature
+      ###### Length of a Curve
+      State the _unnamed_ **parameterization independence theorem**.
+    Back: |
+      The length of a curve $C$ is independent of its parameterization. That is, if both $\mathbf{r}_{1}(t)$ and $\mathbf{r}_{2}(u)$ represent $C,$ then if we were to use either parameterization to compute the length of $C,$ we would get the same answer.
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589047229092
+  media:
+  - path: ¢{file_dir}/images/SVEC-10.08-05.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-10.08-05 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Arc Length and Curvature
+      ###### The Arc Length Function
+      Define the **arc length function**. List its hypotheses.
+    Back: |
+      Suppose that $C$ is a curve given by a vector function
+      $$
+      \mathbf{r}(t)=f(t) \mathbf{i}+g(t) \mathbf{j}+h(t) \mathbf{k} \quad a \leqslant t \leqslant b
+      $$ where $\mathbf{r}^{\prime}$ is continuous and $C$ is traversed exactly once as $t$ increases from $a$ to $b$. We define its **arc length function** $s$ by
+      $$
+      \begin{aligned}
+      s(t)
+      &=\int_{a}^{t}\left|\mathbf{r}^{\prime}(u)\right| d u \\
+      &=\int_{a}^{t} \sqrt{\left(\frac{d x}{d u}\right)^{2}+\left(\frac{d y}{d u}\right)^{2}+\left(\frac{d z}{d u}\right)^{2}} d u
+      \end{aligned}
+      $$ Thus $s(t)$ is the length of the part of $C$ between $\mathbf{r}(a)$ and $\mathbf{r}(t)$. (See below.)
+      <p align="center">
+      ![](SVEC-10.08-05.Sy.1.jpg)
+      </p>
+      Hypotheses:
+
+      - $\mathbf{r}^{\prime}$ is continuous on $[a,b].$
+      - $C$ is traversed exactly once as $t$ increases from $a$ to $b.$
+
+      Thoughts:
+
+      - _**Why is the second hypothesis not: $C$ is traversed no more than once as $t$ increases from $a$ to $b.$**_ Probably because we are speaking of the length of the entire curve.
+      - If we were concerned with traversed distance instead of curve length, we wouldn't need the second hypothesis at all.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589047942792
+  fields:
+    Front: |
+      SVEC-10.08-06 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Arc Length and Curvature
+      ###### The Arc Length Function
+      State the **derivative of an arc length function**. List its hypotheses.
+    Back: |
+      Suppose $s(t)$ is the length of the part of $C$ between $\mathbf{r}(a)$ and $\mathbf{r}(t):$
+      $$
+      s(t)=\int_{a}^{t}\left|\mathbf{r}^{\prime}(u)\right| d u.
+      $$ We can differentiate both sides of the equation using Part 1 of the Fundamental Theorem of Calculus to obtain the **derivative of arc length**:
+      $$
+      \frac{d s}{d t}=\left|\mathbf{r}^{\prime}(t)\right|
+      $$
+
+      Hypotheses:
+
+      - $\mathbf{r}^{\prime}$ is continuous on $[a,b].$
+      - $C$ is traversed exactly once as $t$ increases from $a$ to $b.$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589048618617
+  fields:
+    Front: |
+      SVEC-10.08-07 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Arc Length and Curvature
+      ###### The Arc Length Function
+      State the **procedure to parameterize a curve with respect to arc length**. List its hypotheses.
+    Back: |
+      It is often useful to **parametrize a curve with respect to arc length** because arc length arises naturally from the shape of the curve and does not depend on a particular coordinate system.
+
+      If a curve $\mathbf{r}(t)$ is already given in terms of a parameter $t,$ and $s(t)$ is the arc length function, then we may be able to solve for $t$ as a function of $s: t=t(s).$
+
+      Then the curve can be reparametrized in terms of $s$ by substituting for $t: \mathbf{r}=\mathbf{r}(t(s)).$
+
+      Thus if $s=3$ for instance, $\mathbf{r}(t(3))$ is the position vector of the point 3 units of length along the curve from its starting point.
+
+      Hypotheses:
+
+      - $s(t)$ is invertible.
+      - We can solve the arc length function $s(t)$ for $t$ as a function of $s$. (More specifically, we can determine $t = s^{-1}$.)
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589048897343
+  fields:
+    Front: |
+      SVEC-10.08-08 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Arc Length and Curvature
+      ###### Curvature
+      Define **smooth**. List its hypotheses.
+    Back: |
+      A parametrization $\mathbf{r}(t)$ is called **smooth** on an interval $I$ if $\mathbf{r}^{\prime}$ is continuous and $\mathbf{r}^{\prime}(t) \neq 0$ on $I .$
+
+      A curve is called **smooth** if it has a smooth parametrization. A smooth curve has no sharp corners or cusps; when the tangent vector turns, it does so continuously.
+
+      Hypotheses:
+
+      - $\mathbf{r}^{\prime}$ is continuous on interval $I.$
+      - $\mathbf{r}^{\prime}(t) \neq 0$ on $I.$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589049187168
+  media:
+  - path: ¢{file_dir}/images/SVEC-10.08-09.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-10.08-09 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Arc Length and Curvature
+      ###### Curvature
+      Define **curvature**. List its hypotheses.
+    Back: |
+      The **curvature** of a curve is
+      $$
+      \kappa=\left|\frac{d \mathbf{T}}{d s}\right|
+      $$ where $\mathbf{T}$ is the unit tangent vector.
+
+      If $C$ is a smooth curve defined by the vector function $\mathbf{r},$ recall that the unit tangent vector $\mathbf{T}(t)$ is given by
+      $$
+      \mathbf{T}(t)=\frac{\mathbf{r}^{\prime}(t)}{\left|\mathbf{r}^{\prime}(t)\right|}
+      $$ and indicates the direction of the curve. From the figure below you can see that $\mathbf{T}(t)$ changes direction very slowly when $C$ is fairly straight, but it changes direction more quickly when $C$ bends or twists more sharply.
+      <p align="center">
+      ![](SVEC-10.08-09.Sy.1.jpg)
+      _Unit tangent vectors at equally spaced points on $C$_
+      </p>
+      The curvature of $C$ at a given point is a measure of how quickly the curve changes direction at that point. Specifically, we define it to be the magnitude of the rate of change of the unit tangent vector with respect to arc length. (We use arc length so that the curvature will be independent of the parametrization.)
+
+      Hypotheses:
+
+      - $C$ is a smooth curve.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589049638618
+  fields:
+    Front: |
+      SVEC-10.08-10 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Arc Length and Curvature
+      ###### Curvature
+      State the **curvature formula in terms of parameter**. List its hypotheses.
+    Back: |
+      The curvature of a curve defined by $\mathbf{r}$ with unit tangent $\mathbf{T}$ is given by
+      $$
+      \kappa(t)=\frac{\left|\mathbf{T}^{\prime}(t)\right|}{\left|\mathbf{r}^{\prime}(t)\right|}
+      $$
+      The curvature of a curve is easier to compute if it is expressed in terms of the parameter $t$ instead of $s,$ so we use the Chain Rule to write
+      $$
+      \frac{d \mathbf{T}}{d t}=\frac{d \mathbf{T}}{d s} \frac{d s}{d t} \quad \text { and } \quad \kappa=\left|\frac{d \mathbf{T}}{d s}\right|=\left|\frac{d \mathbf{T} / d t}{d s / d t}\right|
+      $$ But $d s / d t=\left|\mathbf{r}^{\prime}(t)\right|,$ so the formula follows.
+
+      Hypotheses:
+
+      - $C$ is a smooth curve.
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589049913467
+  fields:
+    Front: |
+      SVEC-10.08-11 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Arc Length and Curvature
+      ###### Curvature
+      State the **curvature formula in terms of cross-product**. List its hypotheses.
+    Back: |
+      The curvature of the curve given by the vector function $\mathbf{r}$ is
+      $$
+      \kappa(t)=\frac{\left|\mathbf{r}^{\prime}(t) \times \mathbf{r}^{\prime \prime}(t)\right|}{\left|\mathbf{r}^{\prime}(t)\right|^{3}}
+      $$
+      This formula is often convenient.
+
+      Hypotheses:
+
+      - $C$ is a smooth curve.
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589050138918
+  fields:
+    Front: |
+      SVEC-10.08-12 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Arc Length and Curvature
+      ###### Curvature
+      State the **curvature of a plane curve**. List its hypotheses.
+    Back: |
+      For the special case of a smooth plane curve with equation $y=f(x),$
+      $$
+      \kappa(x)=\frac{\left|f^{\prime \prime}(x)\right|}{\left[1+\left(f^{\prime}(x)\right)^{2}\right]^{3 / 2}}.
+      $$
+      We choose $x$ as the parameter and write $\mathbf{r}(x)=x \mathbf{i}+f(x) \mathbf{j} .$ Then $\mathbf{r}^{\prime}(x)=\mathbf{i}+f^{\prime}(x) \mathbf{j}$ and $\mathbf{r}^{\prime \prime}(x)=f^{\prime \prime}(x) \mathbf{j}.$ Since $\mathbf{i} \times \mathbf{j}=\mathbf{k}$ and $\mathbf{j} \times \mathbf{j}=\mathbf{0},$ we have $\mathbf{r}^{\prime}(x) \times \mathbf{r}^{\prime \prime}(x)=f^{\prime \prime}(x) \mathbf{k} .$ We also have $\left|\mathbf{r}^{\prime}(x)\right|=\sqrt{1+\left[f^{\prime}(x)\right]^{2}}$ and so the result follows from the curvature formula in terms of the cross-product.
+
+      Hypotheses:
+
+      - The curve is smooth.
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589050732543
+  media:
+  - path: ¢{file_dir}/images/SVEC-10.08-13.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-10.08-13 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Arc Length and Curvature
+      ###### The Normal and Binormal Vectors
+      Define **principal unit normal vector** (or **unit normal**), and **binormal vector**. List their hypotheses.
+    Back: |
+      At a given point on a smooth space curve $\mathbf{r}(t),$ there are many vectors that are orthogonal to the unit tangent vector $\mathbf{T}(t)$. We single out one by observing that, because $|\mathbf{T}(t)|=1$ for all $t,$ we have $\mathbf{T}(t) \cdot \mathbf{T}^{\prime}(t)=0$ by Example 11 in Section $10.7,$ so $\mathbf{T}^{\prime}(t)$ is orthogonal to $\mathbf{T}(t)$. Note that $\mathbf{T}^{\prime}(t)$ is itself not a unit vector. But at any point where $\kappa \neq 0$ we can define the **principal unit normal vector** $\mathbf{N}(t)$ (or simply **unit normal**)
+      as
+      $$
+      \mathbf{N}(t)=\frac{\mathbf{T}^{\prime}(t)}{\left|\mathbf{T}^{\prime}(t)\right|}
+      $$ The vector $\mathbf{B}(t)=\mathbf{T}(t) \times \mathbf{N}(t)$ is called the **binormal vector**. It is perpendicular to both $\mathbf{T}$ and $\mathbf{N}$ and is also a unit vector. (See below.)
+      <p align="center">
+      ![](SVEC-10.08-13.Sy.1.jpg)
+      _We can think of the normal vector as indicating the direction in which the curve is turning at each point._
+      </p>
+      Hypotheses:
+
+      - $\mathbf{r}$ is smooth at $t.$
+      - The curvature $\kappa \neq 0$ at $t.$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589051171768
+  fields:
+    Front: |
+      SVEC-10.08-14 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Arc Length and Curvature
+      ###### The Normal and Binormal Vectors
+      Define **normal plane** and **osculating plane**. List their hypotheses.
+    Back: |
+      The plane determined by the normal and binormal vectors $\mathbf{N}$ and $\mathbf{B}$ at a point $P$ on a curve $C$ is called the **normal plane** of $C$ at $P .$ It consists of all lines that are orthogonal to the tangent vector T. The plane determined by the vectors $\mathbf{T}$ and $\mathbf{N}$ is called the **osculating plane** of $C$ at $P .$ The name comes from the Latin osculum, meaning "kiss." It is the plane that comes closest to containing the part of the curve near $P$. (For a plane curve, the osculating plane is simply the plane that contains the curve.)
+
+      Hypotheses:
+
+      - Normal and binormal vectors $\mathbf{N}$ and $\mathbf{B}$ exist at $P,$ which is to say that the curve is smooth and the curvature is nonzero.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589051345843
+  fields:
+    Front: |
+      SVEC-10.08-15 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Arc Length and Curvature
+      ###### The Normal and Binormal Vectors
+      Summarize the **formulas for unit tangent, unit normal and binormal vectors, and curvature**.
+    Back: |
+      $$
+      \mathbf{T}(t)=\frac{\mathbf{r}^{\prime}(t)}{\left|\mathbf{r}^{\prime}(t)\right|}
+      $$
+      $$
+      \mathbf{N}(t)=\frac{\mathbf{T}^{\prime}(t)}{\left|\mathbf{T}^{\prime}(t)\right|}
+      $$
+      $$
+      \mathbf{B}(t)=\mathbf{T}(t) \times \mathbf{N}(t)
+      $$
+      $$
+      \kappa=\left|\frac{d \mathbf{T}}{d s}\right|=\frac{\left|\mathbf{T}^{\prime}(t)\right|}{\left|\mathbf{r}^{\prime}(t)\right|}=\frac{\left|\mathbf{r}^{\prime}(t) \times \mathbf{r}^{\prime \prime}(t)\right|}{\left|\mathbf{r}^{\prime}(t)\right|^{3}}
+      $$
+    Annotations: ''
+  tags:
+  - Theorem

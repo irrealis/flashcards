@@ -1,0 +1,110 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-13-VectorFunctions
+  - CET-13.03-ArcLengthAndCurvature
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589052143843
+  fields:
+    Front: |
+      CET-13.03-1 Example:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052144061
+  fields:
+    Front: |
+      CET-13.03-2 Example:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052144252
+  fields:
+    Front: |
+      CET-13.03-3 Example:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052144435
+  fields:
+    Front: |
+      CET-13.03-4 Example:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052144635
+  fields:
+    Front: |
+      CET-13.03-5 Example:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052144836
+  fields:
+    Front: |
+      CET-13.03-6 Example:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052145021
+  fields:
+    Front: |
+      CET-13.03-7 Example:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589052145254
+  fields:
+    Front: |
+      CET-13.03-8 Example:
+      #### Vector Functions
+      ##### Arc Length and Curvature
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

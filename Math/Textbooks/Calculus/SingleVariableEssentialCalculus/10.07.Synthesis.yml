@@ -1,0 +1,406 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Synthesis
+  - SingleVariableEssentialCalculus
+  - SVEC-10-VectorsAndTheGeometryOfSpace
+  - SVEC-10.07-VectorFunctionsAndSpaceCurves
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589036977843
+  fields:
+    Front: |
+      SVEC-10.07-01 Synthesis:
+      List the vector-function and space-curve definitions and theorems.
+      Def: **vector function**
+      Def: **component functions**
+      ###### Limits and Continuity
+      Def: **limit of a vector function**
+      Def: **continuity of a vector function**
+      Thm: _unnamed_ **continuity relationship between vector functions and component functions**
+      ###### Space curves
+      Def: **space curve**, **parametric equations of $C$**, and **parameter**
+      Thm: _unnamed_ **relationship between space curves and continuous vector functions**
+      Def: **helix**
+      ###### Using Computers to Draw Space Curves
+      Def: **toroidal spiral**
+      Def: **trefoil knot**
+      Def: **twisted cubic**
+      ###### Derivatives
+      Def: **derivative of a vector function**
+      Def: **secant vector**, **tangent vector**, **tangent line**, and **unit tangent vector**
+      Thm: _unnamed_ **differentiability relationship between vector functions and component functions**
+        - _**Q: Are the differentiable vector functions whose component functions are not differentiable?**_
+      ###### Differentiation Rules
+      Thm: **vector-function differentiation rules**
+      ###### Integrals
+      Def: **definite integral of a vector function**
+      Thm: **The Fundamental Theorem of Calculus**
+    Back: |
+    Annotations: ''
+  tags:
+  - Definitions
+  - Theorems
+- id: 1589037074517
+  fields:
+    Front: |
+      SVEC-10.07-02 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Vector Functions and Space Curves
+      Define **vector function**.
+    Back: |
+      A **vector-valued function**, or **vector function**, is a function whose domain is a set of real numbers and whose range is a set of vectors.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589037285742
+  fields:
+    Front: |
+      SVEC-10.07-03 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Vector Functions and Space Curves
+      Define **component functions**.
+    Back: |
+      If $f(t), g(t),$ and $h(t)$ are the components of the vector $\mathbf{r}(t),$ then $f, g,$ and $h$ are scalar-valued functions called the **component functions of $\mathbf{r}$** and we can write
+      $$
+      \mathbf{r}(t)=\langle f(t), g(t), h(t)\rangle=f(t) \mathbf{i}+g(t) \mathbf{j}+h(t) \mathbf{k}
+      $$ We use the letter $t$ to denote the independent variable because it represents time in most applications of vector functions.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589037475518
+  fields:
+    Front: |
+      SVEC-10.07-04 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Vector Functions and Space Curves
+      ###### Limits and Continuity
+      Define **limit of a vector function**.
+    Back: |
+      The limit of a vector function $\mathbf{r}$ is defined by taking the limits of its component functions as follows.
+
+      If $\mathbf{r}(t)=\langle f(t), g(t), h(t)\rangle,$ then
+      $$
+      \lim _{t \rightarrow a} \mathbf{r}(t)=\left\langle\lim _{t \rightarrow a} f(t), \lim _{t \rightarrow a} g(t), \lim _{t \rightarrow a} h(t)\right\rangle
+      $$ provided the limits of the component functions exist.
+
+      If $\lim _{t \rightarrow a} \mathbf{r}(t)=\mathbf{L},$ this definition is equivalent to saying that the length and direction of the vector $\mathbf{r}(t)$ approach the length and direction of the vector $\mathbf{L}.$
+
+      Equivalently, $\lim _{t \rightarrow a} \mathbf{r}(t)=\mathbf{L}$ if and only if for every $\varepsilon>0$ there is a number $\delta>0$ such that if $0<|t-a|<\delta$ then $|\mathbf{r}(t)-\mathbf{L}|<\varepsilon.$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589037812905
+  fields:
+    Front: |
+      SVEC-10.07-05 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Vector Functions and Space Curves
+      ###### Limits and Continuity
+      Define **continuity of a vector function**.
+    Back: |
+      A vector function $\mathbf{r}$ is continuous at $a$ if
+      $$
+      \lim _{t \rightarrow a} \mathbf{r}(t)=\mathbf{r}(a).
+      $$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589037893192
+  fields:
+    Front: |
+      SVEC-10.07-06 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Vector Functions and Space Curves
+      ###### Limits and Continuity
+      State the _unnamed_ **continuity relationship between vector functions and component functions**.
+    Back: |
+      In view of our limit definition, we see that $\mathbf{r}$ is continuous at $a$ if and only if its component functions $f, g,$ and $h$ are continuous at $a.$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589038345492
+  fields:
+    Front: |
+      SVEC-10.07-07 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Vector Functions and Space Curves
+      ###### Space curves
+      Define **space curve**, **parametric equations of $C$**, and **parameter**.
+    Back: |
+      There is a close connection between continuous vector functions and space curves. Suppose that $f,$ $g,$ and $h$ are continuous real-valued functions on an interval $I .$ Then the set $C$ of all points $(x, y, z)$ in space, where
+      $$
+      x=f(t) \quad y=g(t) \quad z=h(t)
+      $$ and $t$ varies throughout the interval $I$, is called a **space curve**. The equations above are called **parametric equations of $C$** and $t$ is called a **parameter**.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589039806293
+  media:
+  - path: ¢{file_dir}/images/SVEC-10.07-08.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-10.07-08 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Vector Functions and Space Curves
+      ###### Space curves
+      State the _unnamed_ **relationship between space curves and continuous vector functions**. List its hypotheses and conclusions.
+    Back: |
+      Any continuous vector function $\mathbf{r}$ defines a space curve $C$ that is traced out by the tip of the moving vector $\mathbf{r}(t),$ as shown below.
+      <p align="center">
+      ![](SVEC-10.07-08.Sy.1.jpg)
+      _$C$ is traced out by the tip of a moving position vector $\mathbf{r}(t).$_
+      </p>
+      Hypotheses:
+
+      - The vector function $\mathbf{r}$ is continuous.
+
+      Conclusions:
+
+      - $\mathbf{r}$ defines a space curve.
+      - The space curve is traced out by the tip of the moving vector $\mathbf{r}(t).$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589040417367
+  media:
+  - path: ¢{file_dir}/images/SVEC-10.07-09.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-10.07-09 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Vector Functions and Space Curves
+      ###### Space curves
+      Define **helix**.
+    Back: |
+      The curve whose vector equation is
+      $$
+      \mathbf{r}(t)=\cos t \mathbf{i}+\sin t \mathbf{j}+t \mathbf{k}
+      $$ is called a **helix**, shown below.
+      <p align="center">
+      ![](SVEC-10.07-09.Sy.1.jpg)
+      </p>
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589040879793
+  media:
+  - path: ¢{file_dir}/images/SVEC-10.07-10.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-10.07-10 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Vector Functions and Space Curves
+      ###### Using Computers to Draw Space Curves
+      Define **toroidal spiral**.
+    Back: |
+      The following shows a computer-generated graph of the curve with parametric equations
+      $$
+      x=(4+\sin 20 t) \cos t \quad y=(4+\sin 20 t) \sin t \quad z=\cos 20 t
+      $$
+      <p align="center">
+      ![](SVEC-10.07-10.Sy.1.jpg)
+      _A toroidal spiral_
+      </p>
+      It's called a **toroidal spiral** because it lies on a torus.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589040883868
+  media:
+  - path: ¢{file_dir}/images/SVEC-10.07-11.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-10.07-11 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Vector Functions and Space Curves
+      ###### Using Computers to Draw Space Curves
+      Define **trefoil knot**.
+    Back: |
+      The equations
+      $$
+      x=(2+\cos 1.5 t) \cos t \quad y=(2+\cos 1.5 t) \sin t \quad z=\sin 1.5 t
+      $$ are graphed below, and describe a **trefoil knot**.
+      <p align="center">
+      ![](SVEC-10.07-11.Sy.1.jpg)
+      _A trefoil knot_
+      </p>
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589041283392
+  media:
+  - path: ¢{file_dir}/images/SVEC-10.07-12.Sy.1.jpg
+  - path: ¢{file_dir}/images/SVEC-10.07-12.Sy.2.jpg
+  - path: ¢{file_dir}/images/SVEC-10.07-12.Sy.3.jpg
+  fields:
+    Front: |
+      SVEC-10.07-12 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Vector Functions and Space Curves
+      ###### Using Computers to Draw Space Curves
+      Define **twisted cubic**.
+    Back: |
+      The curve with vector equation $\mathbf{r}(t)=\left\langle t, t^{2}, t^{3}\right\rangle$ is called a **twisted cubic**.
+
+      Its graph is shown below, but it's hard to see the true nature of the curve from that graph alone.
+      <p align="center">
+      ![](SVEC-10.07-12.Sy.1.jpg)
+      </p>
+      Most three-dimensional computer graphing programs allow the user to enclose a curve or surface in a box instead of displaying the coordinate axes. When we look at the same curve in a box in the figure below, we have a much clearer picture of the curve.
+      <p align="center">
+      ![](SVEC-10.07-12.Sy.2.jpg)
+      </p>
+      We can see that it climbs from a lower corner of the box to the upper corner nearest us, and it twists as it climbs. We get an even better idea of the curve when we view it from different vantage points. The next graph shows the result of rotating the box to give another viewpoint.
+      <p align="center">
+      ![](SVEC-10.07-12.Sy.3.jpg)
+      </p>
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589042276143
+  fields:
+    Front: |
+      SVEC-10.07-13 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Vector Functions and Space Curves
+      ###### Derivatives
+      Define the **derivative of a vector function**. What are its hypotheses?
+    Back: |
+      The derivative $\mathbf{r}^{\prime}$ of a vector function $\mathbf{r}$ is defined in much the same way as for real-valued functions:
+      $$
+      \frac{d \mathbf{r}}{d t}=\mathbf{r}^{\prime}(t)=\lim _{h \rightarrow 0} \frac{\mathbf{r}(t+h)-\mathbf{r}(t)}{h}
+      $$ if this limit exists.
+
+      Hypotheses:
+
+      - The limit $\lim _{h \rightarrow 0} \frac{\mathbf{r}(t+h)-\mathbf{r}(t)}{h}$ exists.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589042276442
+  media:
+  - path: ¢{file_dir}/images/SVEC-10.07-14.Sy.1.jpg
+  - path: ¢{file_dir}/images/SVEC-10.07-14.Sy.2.jpg
+  fields:
+    Front: |
+      SVEC-10.07-14 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Vector Functions and Space Curves
+      ###### Derivatives
+      Define **secant vector**, **tangent vector**, **tangent line**, and **unit tangent vector**. What are the relevant hypotheses?
+    Back: |
+      The geometric significance of vector-function derivative is shown in the following figures.
+      <p align="center">
+      ![](SVEC-10.07-14.Sy.1.jpg)
+      _The secant vector_
+      </p>
+      <p align="center">
+      ![](SVEC-10.07-14.Sy.2.jpg)
+      _The tangent vector_
+      </p>
+      If the points $P$ and $Q$ have position vectors $\mathbf{r}(t)$ and $\mathbf{r}(t+h),$ then $\overrightarrow{P Q}$ represents the vector $\mathbf{r}(t+h)-\mathbf{r}(t),$ which can therefore be regarded as a **secant vector**. If $h>0,$ the scalar multiple $(1 / h)(\mathbf{r}(t+h)-\mathbf{r}(t))$ has the same direction as $\mathbf{r}(t+h)-\mathbf{r}(t).$ As $h \rightarrow 0,$ it appears that this vector approaches a vector that lies on the tangent line. For this reason, the vector $\mathbf{r}^{\prime}(t)$ is called the **tangent vector** to the curve defined by $\mathbf{r}$ at the point $P$, provided that $\mathbf{r}^{\prime}(t)$ exists and $\mathbf{r}^{\prime}(t) \neq 0 .$ The **tangent line** to $C$ at $P$ is defined to be the line through $P$ parallel to the tangent vector $\mathbf{r}^{\prime}(t) .$ We will also have occasion to consider the **unit tangent vector**, which is
+      $$
+      \mathbf{T}(t)=\frac{\mathbf{r}^{\prime}(t)}{\left|\mathbf{r}^{\prime}(t)\right|}
+      $$
+
+      Hypotheses:
+
+      - For the tangent vector, tangent line, and unit tangent vector to be defined:
+        - $\mathbf{r}^{\prime}(t)$ exists.
+        - $\mathbf{r}^{\prime}(t) \neq 0 .$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589042496343
+  fields:
+    Front: |
+      SVEC-10.07-15 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Vector Functions and Space Curves
+      ###### Derivatives
+      State the _unnamed_ **differentiability relationship between vector functions and component functions**. List its hypotheses.
+    Back: |
+      If $\mathbf{r}(t)=\langle f(t), g(t), h(t)\rangle=f(t) \mathbf{i}+g(t) \mathbf{j}+h(t) \mathbf{k},$ where $f,$ $g,$ and $h$ are differentiable functions, then
+      $$
+      \mathbf{r}^{\prime}(t)=\left\langle f^{\prime}(t), g^{\prime}(t), h^{\prime}(t)\right\rangle=f^{\prime}(t) \mathbf{i}+g^{\prime}(t) \mathbf{j}+h^{\prime}(t) \mathbf{k}
+      $$
+      Hypotheses:
+
+      - $f,$ $g,$ and $h$ are differentiable functions.
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589042776668
+  fields:
+    Front: |
+      SVEC-10.07-16 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Vector Functions and Space Curves
+      ###### Differentiation Rules
+      State the **vector-function differentiation rules** and hypotheses.
+    Back: |
+      Suppose $\mathbf{u}$ and $\mathbf{v}$ are differentiable vector functions, $c$ is a scalar, and $f$ is a real-valued function. Then
+      1. $\frac{d}{d t}[\mathbf{u}(t)+\mathbf{v}(t)]=\mathbf{u}^{\prime}(t)+\mathbf{v}^{\prime}(t)$
+      2. $\frac{d}{d t}[c \mathbf{u}(t)]=c \mathbf{u}^{\prime}(t)$
+      3. $\frac{d}{d t}[f(t) \mathbf{u}(t)]=f^{\prime}(t) \mathbf{u}(t)+f(t) \mathbf{u}^{\prime}(t)$
+      4. $\frac{d}{d t}[\mathbf{u}(t) \cdot \mathbf{v}(t)]=\mathbf{u}^{\prime}(t) \cdot \mathbf{v}(t)+\mathbf{u}(t) \cdot \mathbf{v}^{\prime}(t)$
+      5. $\frac{d}{d t}[\mathbf{u}(t) \times \mathbf{v}(t)]=\mathbf{u}^{\prime}(t) \times \mathbf{v}(t)+\mathbf{u}(t) \times \mathbf{v}^{\prime}(t)$
+      6. $\frac{d}{d t}[\mathbf{u}(f(t))]=f^{\prime}(t) \mathbf{u}^{\prime}(f(t)) \quad$ (Chain Rule)
+
+      Hypotheses:
+
+      - $\mathbf{u}$ and $\mathbf{v}$ are differentiable.
+      - $c$ is scalar.
+      - $f$ is real-valued (more generally, scalar-valued).
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589043216592
+  fields:
+    Front: |
+      SVEC-10.07-17 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Vector Functions and Space Curves
+      ###### Integrals
+      Define the **definite integral of a vector function**.
+    Back: |
+      The definite integral of a continuous vector function $\mathbf{r}(t)$ can be defined in much the same way as for real-valued functions except that the integral is a vector. Then we can express the integral of $\mathbf{r}$ in terms of the integrals of its component functions $f, g$ and $h$ as follows. (We use the notation of Chapter 4.)
+      $$
+      \begin{aligned}
+      \int_{a}^{b} \mathbf{r}(t) d t &=\lim _{n \rightarrow \infty} \sum_{i=1}^{n} \mathbf{r}\left(t_{i}^{*}\right) \Delta t \\
+      &=\lim _{n \rightarrow \infty}\left[\left(\sum_{i=1}^{n} f\left(t_{i}^{*}\right) \Delta t\right) \mathbf{i}+\left(\sum_{i=1}^{n} g\left(t_{i}^{*}\right) \Delta t\right) \mathbf{j}+\left(\sum_{i=1}^{n} h\left(t_{i}^{*}\right) \Delta t\right) \mathbf{k}\right]
+      \end{aligned}
+      $$ and so
+      $$
+      \int_{a}^{b} \mathbf{r}(t) d t=\left(\int_{a}^{b} f(t) d t\right) \mathbf{i}+\left(\int_{a}^{b} g(t) d t\right) \mathbf{j}+\left(\int_{a}^{b} h(t) d t\right) \mathbf{k}
+      $$ This means that we can evaluate an integral of a vector function by integrating each component function.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589043658568
+  fields:
+    Front: |
+      SVEC-10.07-18 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Vector Functions and Space Curves
+      ###### Integrals
+      State the **The Fundamental Theorem of Calculus** for vector functions. List its hypotheses.
+    Back: |
+      Suppose $\mathbf{r}$ is continuous on $[a,b].$
+      1. If $\mathbf{s}(t)=\int_{a}^{t} \mathbf{r}(u) d u,$ then $\mathbf{s}^{\prime}(t)=\mathbf{r}(t).$
+      2. $\int_{a}^{b} \mathbf{r}(t) d t=\mathbf{R}(b)-\mathbf{R}(a),$ where $\mathbf{R}$ is any antiderivative of $\mathbf{r},$ that is, $\mathbf{R}^{\prime}=\mathbf{r}.$
+      We use the notation $\int \mathbf{r}(t) d t$ for indefinite integrals (antiderivatives).
+
+      Hypotheses:
+
+      - $\mathbf{r}$ is continuous on $[a,b].$
+      - $\mathbf{R}$ is any antiderivative of $\mathbf{r}.$
+    Annotations: ''
+  tags:
+  - Theorem

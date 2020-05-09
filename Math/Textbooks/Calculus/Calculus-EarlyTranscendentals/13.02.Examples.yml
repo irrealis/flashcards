@@ -1,0 +1,74 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-13-VectorFunctions
+  - CET-13.02-DerivativesAndIntegralsOfVectorFunctions
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589051983645
+  fields:
+    Front: |
+      CET-13.02-1 Example:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051983819
+  fields:
+    Front: |
+      CET-13.02-2 Example:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051983996
+  fields:
+    Front: |
+      CET-13.02-3 Example:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051984184
+  fields:
+    Front: |
+      CET-13.02-4 Example:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589051984380
+  fields:
+    Front: |
+      CET-13.02-5 Example:
+      #### Vector Functions
+      ##### Derivatives and Integrals of Vector Functions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

@@ -19,8 +19,8 @@
     Front: |
       SVEC-XX.XX-XX Synthesis:
       #### Vectors and the Geometry of Space
-      ##### Cylinders and Quadric Surfaces
-      ###### Quadric Surfaces
+      ##### Arc Length and Curvature
+      ###### The Normal and Binormal Vectors
       Define .
     Back: |
       XXX
@@ -39,8 +39,8 @@
     Front: |
       SVEC-XX.XX-XX Synthesis:
       #### Vectors and the Geometry of Space
-      ##### Cylinders and Quadric Surfaces
-      ###### Quadric Surfaces
+      ##### Arc Length and Curvature
+      ###### The Normal and Binormal Vectors
       State the . List its hypotheses.
     Back: |
       Hypotheses:
