@@ -1,0 +1,986 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-14-PartialDerivatives
+  - CET-14.01-FunctionsOfSeveralVariables
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589134330142
+  fields:
+    Front: |
+      CET-14.01-01 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134330346
+  fields:
+    Front: |
+      CET-14.01-02 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134330546
+  fields:
+    Front: |
+      CET-14.01-03 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134330717
+  fields:
+    Front: |
+      CET-14.01-04 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134330897
+  fields:
+    Front: |
+      CET-14.01-05 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134331129
+  fields:
+    Front: |
+      CET-14.01-06 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134331318
+  fields:
+    Front: |
+      CET-14.01-07 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134331530
+  fields:
+    Front: |
+      CET-14.01-08 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134331700
+  fields:
+    Front: |
+      CET-14.01-09 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134331873
+  fields:
+    Front: |
+      CET-14.01-10 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134332050
+  fields:
+    Front: |
+      CET-14.01-11 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134332262
+  fields:
+    Front: |
+      CET-14.01-12 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134332489
+  fields:
+    Front: |
+      CET-14.01-13 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134332697
+  fields:
+    Front: |
+      CET-14.01-14 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134332881
+  fields:
+    Front: |
+      CET-14.01-15 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134333063
+  fields:
+    Front: |
+      CET-14.01-16 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134333246
+  fields:
+    Front: |
+      CET-14.01-17 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134333435
+  fields:
+    Front: |
+      CET-14.01-18 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134333662
+  fields:
+    Front: |
+      CET-14.01-19 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134333879
+  fields:
+    Front: |
+      CET-14.01-20 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134334079
+  fields:
+    Front: |
+      CET-14.01-21 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134334266
+  fields:
+    Front: |
+      CET-14.01-22 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134334446
+  fields:
+    Front: |
+      CET-14.01-23 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134334646
+  fields:
+    Front: |
+      CET-14.01-24 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134334836
+  fields:
+    Front: |
+      CET-14.01-25 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134335072
+  fields:
+    Front: |
+      CET-14.01-26 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134335279
+  fields:
+    Front: |
+      CET-14.01-27 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134335463
+  fields:
+    Front: |
+      CET-14.01-28 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134335647
+  fields:
+    Front: |
+      CET-14.01-29 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134335846
+  fields:
+    Front: |
+      CET-14.01-30 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134336029
+  fields:
+    Front: |
+      CET-14.01-31 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134336219
+  fields:
+    Front: |
+      CET-14.01-32 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134336392
+  fields:
+    Front: |
+      CET-14.01-33 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134336568
+  fields:
+    Front: |
+      CET-14.01-34 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134336812
+  fields:
+    Front: |
+      CET-14.01-35 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134337012
+  fields:
+    Front: |
+      CET-14.01-36 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134337199
+  fields:
+    Front: |
+      CET-14.01-37 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134337397
+  fields:
+    Front: |
+      CET-14.01-38 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134337612
+  fields:
+    Front: |
+      CET-14.01-39 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134337805
+  fields:
+    Front: |
+      CET-14.01-40 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134337997
+  fields:
+    Front: |
+      CET-14.01-41 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134338211
+  fields:
+    Front: |
+      CET-14.01-42 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134338412
+  fields:
+    Front: |
+      CET-14.01-43 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134338596
+  fields:
+    Front: |
+      CET-14.01-44 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134338783
+  fields:
+    Front: |
+      CET-14.01-45 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134338964
+  fields:
+    Front: |
+      CET-14.01-46 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134339146
+  fields:
+    Front: |
+      CET-14.01-47 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134339318
+  fields:
+    Front: |
+      CET-14.01-48 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134339529
+  fields:
+    Front: |
+      CET-14.01-49 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134339713
+  fields:
+    Front: |
+      CET-14.01-50 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134339948
+  fields:
+    Front: |
+      CET-14.01-51 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134340162
+  fields:
+    Front: |
+      CET-14.01-52 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134340379
+  fields:
+    Front: |
+      CET-14.01-53 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134340580
+  fields:
+    Front: |
+      CET-14.01-54 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134340805
+  fields:
+    Front: |
+      CET-14.01-55 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134341000
+  fields:
+    Front: |
+      CET-14.01-56 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134341180
+  fields:
+    Front: |
+      CET-14.01-57 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134341364
+  fields:
+    Front: |
+      CET-14.01-58 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134341569
+  fields:
+    Front: |
+      CET-14.01-59 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134341772
+  fields:
+    Front: |
+      CET-14.01-60 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134341980
+  fields:
+    Front: |
+      CET-14.01-61 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134342172
+  fields:
+    Front: |
+      CET-14.01-62 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134342380
+  fields:
+    Front: |
+      CET-14.01-63 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134342580
+  fields:
+    Front: |
+      CET-14.01-64 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134342764
+  fields:
+    Front: |
+      CET-14.01-65 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134342986
+  fields:
+    Front: |
+      CET-14.01-66 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134343185
+  fields:
+    Front: |
+      CET-14.01-67 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134343363
+  fields:
+    Front: |
+      CET-14.01-68 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134343542
+  fields:
+    Front: |
+      CET-14.01-69 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134343734
+  fields:
+    Front: |
+      CET-14.01-70 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134343939
+  fields:
+    Front: |
+      CET-14.01-71 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134344129
+  fields:
+    Front: |
+      CET-14.01-72 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134344338
+  fields:
+    Front: |
+      CET-14.01-73 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134344518
+  fields:
+    Front: |
+      CET-14.01-74 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134344721
+  fields:
+    Front: |
+      CET-14.01-75 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134344937
+  fields:
+    Front: |
+      CET-14.01-76 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134345129
+  fields:
+    Front: |
+      CET-14.01-77 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134345329
+  fields:
+    Front: |
+      CET-14.01-78 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134345548
+  fields:
+    Front: |
+      CET-14.01-79 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134345748
+  fields:
+    Front: |
+      CET-14.01-80 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589134345979
+  fields:
+    Front: |
+      CET-14.01-81 Exercise:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

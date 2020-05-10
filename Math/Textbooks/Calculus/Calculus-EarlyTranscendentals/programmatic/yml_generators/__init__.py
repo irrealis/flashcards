@@ -3,9 +3,12 @@ import math, os, string
 def pascal_case(text):
   return ''.join(x for x in text.title() if not x.isspace())
   
-def generate_yml(variables, problem_count):
+def generate_yml(variables, problems):
 
-  problem_num_format_str = "{{i:0{n}}}".format(n = math.ceil(math.log10(problem_count + 1)))
+  if type(problems) is int:
+    problems = range(1, problems + 1)
+
+  problem_num_format_str = "{{i:0{n}}}".format(n = math.ceil(math.log10(max(problems)+1)))
   header_fnam = variables['header_file']
   note_fnam = variables['note_file']
   output_fnam = variables['output_file']
@@ -34,6 +37,6 @@ def generate_yml(variables, problem_count):
     note_template = string.Template(''.join(note_file.readlines()))
   with open(output_fnam, 'w') as output_file:
     output_file.write(header_template.substitute(variables))
-    for i in range(1, problem_count + 1):
+    for i in problems:
       output_file.write(note_template.substitute(variables, problem_num = problem_num_format_str.format(i = i)))
     

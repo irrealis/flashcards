@@ -1,0 +1,156 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Synthesis
+  - SingleVariableEssentialCalculus
+  - SVEC-11-PartialDerivatives
+  - SVEC-11.01-FunctionsOfSeveralVariables
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589132320643
+  fields:
+    Front: |
+      SVEC-11.01-01 Synthesis:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      List the multivariable-function definitions.
+    Back: |
+      Def: **function of two variables**, **domain**, **range**, **independent variables**, and **dependent variable**
+      Def: **graph of a function of two variables**
+      Def: **linear function** and **equation of its graph**
+      ###### Level Curves
+      Def: **level curves**
+      ###### Functions of Three or More Variables
+      Def: **function of three variables**
+      Def: **level surfaces**
+      Def: **function of $n$ variables**
+      Def: **three ways to look at $f$ on $\mathbb{R}^{n}$**
+    Annotations: ''
+  tags:
+  - Definitions
+- id: 1589132592918
+  media:
+  - path: ¢{file_dir}/images/SVEC-11.01-02.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-11.01-02 Synthesis:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Define **function of two variables**, **domain**, **range**, **independent variables**, and **dependent variable**.
+    Back: |
+      A **function $f$ of two variables** is a rule that assigns to each ordered pair of real numbers $(x, y)$ in a set $D$ a unique real number denoted by $f(x, y) .$ The set $D$ is the **domain** of $f$ and its **range** is the set of values that $f$ takes on, that is, $\{f(x, y) |(x, y) \in D\}.$
+
+      We often write $z=f(x, y)$ to make explicit the value taken on by $f$ at the general point $(x, y)$. The variables $x$ and $y$ are **independent variables** and $z$ is the **dependent variable**. [Compare this with the notation $y=f(x)$ for functions of a single variable.]
+
+      A function of two variables is just a function whose domain is a subset of $\mathbb{R}^{2}$ and whose range is a subset of $\mathbb{R}$. One way of visualizing such a function is by means of an arrow diagram (see following figure), where the domain $D$ is represented as a subset of the $x y$-plane and the range is a set of numbers on a real line, shown as a $z$-axis.
+      <p align="center">
+      ![](SVEC-11.01-02.Sy.1.jpg)
+      </p>
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589132700818
+  fields:
+    Front: |
+      SVEC-11.01-03 Synthesis:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Define **graph of a function of two variables**.
+    Back: |
+      If $f$ is a function of two variables with domain $D,$ then the **graph** of $f$ is the set of all points $(x, y, z)$ in $\mathbb{R}^{3}$ such that $z=f(x, y)$ and $(x, y)$ is in $D.$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589132946818
+  fields:
+    Front: |
+      SVEC-11.01-04 Synthesis:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Define **linear function** and **equation of its graph**.
+    Back: |
+      A function of the form
+      $$
+      f(x, y)=a x+b y+c
+      $$ is called a **linear function**. The graph of such a function has the equation
+      $$
+      z=a x+b y+c \quad \text{or} \quad a x+b y-z+c=0,
+      $$ so it is a plane.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589133121467
+  fields:
+    Front: |
+      SVEC-11.01-05 Synthesis:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      ###### Level Curves
+      Define **level curves**.
+    Back: |
+      The **level curves** of a function $f$ of two variables are the curves with equations $f(x, y)=k,$ where $k$ is a constant (in the range of $f$).
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589133238842
+  fields:
+    Front: |
+      SVEC-11.01-06 Synthesis:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      ###### Functions of Three or More Variables
+      Define **function of three variables**.
+    Back: |
+      A **function of three variables**, $f,$ is a rule that assigns to each ordered triple $(x, y, z)$ in a domain $D \subset \mathbb{R}^{3}$ a unique real number denoted by $f(x, y, z).$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589133389093
+  fields:
+    Front: |
+      SVEC-11.01-07 Synthesis:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      ###### Functions of Three or More Variables
+      Define **level surfaces**.
+    Back: |
+      It's very difficult to visualize a function $f$ of three variables by its graph, since that would lie in a four-dimensional space. However, we do gain some insight into $f$ by examining its **level surfaces,** which are the surfaces with equations $f(x, y, z)=k$ where $k$ is a constant. If the point $(x, y, z)$ moves along a level surface, the value of $f(x, y, z)$ remains fixed.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589133858818
+  fields:
+    Front: |
+      SVEC-11.01-08 Synthesis:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      ###### Functions of Three or More Variables
+      Define **function of $n$ variables**.
+    Back: |
+      Functions of any number of variables can be considered. A **function of $n$ variables** is a rule that assigns a number $z=f\left(x_{1}, x_{2}, \ldots, x_{n}\right)$ to an $n$-tuple $\left(x_{1}, x_{2}, \ldots, x_{n}\right)$ of real numbers. We denote by $\mathbb{R}^{n}$ the set of all such $n$-tuples.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589133986293
+  fields:
+    Front: |
+      SVEC-11.01-09 Synthesis:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      ###### Functions of Three or More Variables
+      State **three ways to look at $f$ on $\mathbb{R}^{n}$**.
+    Back: |
+      In view of the one-to-one correspondence between points $\left(x_{1}, x_{2}, \ldots, x_{n}\right)$ in $\mathbb{R}^{n}$ and their position vectors $\mathbf{x}=\left\langle x_{1}, x_{2}, \ldots, x_{n}\right\rangle$ in $V_{n},$ we have three ways of looking at a function $f$ defined on a subset of $\mathbb{R}^{n}:$
+      1. As a function of $n$ real variables $x_{1}, x_{2}, \ldots, x_{n}$
+      2. As a function of a single point variable $\left(x_{1}, x_{2}, \ldots, x_{n}\right)$
+      3. As a function of a single vector variable $\mathbf{x}=\left\langle x_{1}, x_{2}, \ldots, x_{n}\right\rangle$
+      We will see that all three points of view are useful.
+    Annotations: ''
+  tags:
+  - Definition
+  - Editing

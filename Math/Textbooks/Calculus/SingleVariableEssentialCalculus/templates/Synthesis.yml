@@ -18,9 +18,9 @@
   fields:
     Front: |
       SVEC-XX.XX-XX Synthesis:
-      #### Vectors and the Geometry of Space
-      ##### Motion in Space: Velocity and Acceleration
-      ###### Tangential and Normal Components of Acceleration
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      ###### Level Curves
       Define .
     Back: |
       XXX
@@ -38,9 +38,9 @@
   fields:
     Front: |
       SVEC-XX.XX-XX Synthesis:
-      #### Vectors and the Geometry of Space
-      ##### Motion in Space: Velocity and Acceleration
-      ###### Tangential and Normal Components of Acceleration
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      ###### Level Curves
       State the . List its hypotheses.
     Back: |
       Hypotheses:
