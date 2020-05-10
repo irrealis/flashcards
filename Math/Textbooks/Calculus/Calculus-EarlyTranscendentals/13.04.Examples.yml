@@ -1,0 +1,98 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-13-VectorFunctions
+  - CET-13.04-MotionInSpace-VelocityAndAcceleration
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589129803618
+  fields:
+    Front: |
+      CET-13.04-1 Example:
+      #### Vector Functions
+      ##### Motion in Space: Velocity and Acceleration
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589129803848
+  fields:
+    Front: |
+      CET-13.04-2 Example:
+      #### Vector Functions
+      ##### Motion in Space: Velocity and Acceleration
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589129804049
+  fields:
+    Front: |
+      CET-13.04-3 Example:
+      #### Vector Functions
+      ##### Motion in Space: Velocity and Acceleration
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589129804233
+  fields:
+    Front: |
+      CET-13.04-4 Example:
+      #### Vector Functions
+      ##### Motion in Space: Velocity and Acceleration
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589129804421
+  fields:
+    Front: |
+      CET-13.04-5 Example:
+      #### Vector Functions
+      ##### Motion in Space: Velocity and Acceleration
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589129804633
+  fields:
+    Front: |
+      CET-13.04-6 Example:
+      #### Vector Functions
+      ##### Motion in Space: Velocity and Acceleration
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589129804850
+  fields:
+    Front: |
+      CET-13.04-7 Example:
+      #### Vector Functions
+      ##### Motion in Space: Velocity and Acceleration
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

@@ -1,0 +1,368 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Synthesis
+  - SingleVariableEssentialCalculus
+  - SVEC-10-VectorsAndTheGeometryOfSpace
+  - SVEC-10.09-MotionInSpace-VelocityAndAcceleration
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589123148645
+  fields:
+    Front: |
+      SVEC-10.09-01 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Motion in Space: Velocity and Acceleration
+      List the motion-in-space definitions and theorems.
+    Back: |
+      Def: **velocity vector**
+      Def: **speed**
+      Def: **acceleration**
+      Thm: **formula to recover velocity given acceleration**
+      Thm: **formula to recover position given velocity**
+      Def: **Newton's Second Law of Motion**
+      ###### Circular Motion
+      Def: **radius vector**
+      Thm: **position and force vectors of mass on a circular path with constant angular speed**
+      Def: **centripetal force**
+      ###### Projectile Motion
+      Thm: **position vector and parametric equations of projectile motion**
+      ###### Tangential and Normal Components of Acceleration
+      Thm: **velocity equation in terms of the unit tangent**
+      Thm: **acceleration equation in terms of unit tangent and normal**
+      Thm: **tangential and normal acceleration components in terms of $\mathbf{r}$**
+      ###### Kepler's Laws of Planetary Motion
+      Def: **Kepler's Laws**
+      Def: **Newton's Law of Gravitation**
+    Annotations: ''
+  tags:
+  - Definitions
+  - Theorems
+- id: 1589123504143
+  media:
+  - path: ¢{file_dir}/images/SVEC-10.09-02.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-10.09-02 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Motion in Space: Velocity and Acceleration
+      Define **velocity vector**.
+    Back: |
+      The **velocity vector** $\mathbf{v}(t)$ at time $t$ is
+      $$
+      \mathbf{v}(t)=\lim _{h \rightarrow 0} \frac{\mathbf{r}(t+h)-\mathbf{r}(t)}{h}=\mathbf{r}^{\prime}(t)
+      $$ Thus the velocity vector is also the tangent vector and points in the direction of the tangent line.
+
+      To visualize the velocity vector, suppose a particle moves through space so that its position vector at time $t$ is $\mathbf{r}(t).$ Notice from the following figure that, for small values of $h,$ the vector
+      $$
+      \frac{\mathbf{r}(t+h)-\mathbf{r}(t)}{h}
+      $$ approximates the direction of the particle moving along the curve $\mathbf{r}(t) .$
+      <p align="center">
+      ![](SVEC-10.09-02.Sy.1.jpg)
+      </p>
+      Its magnitude measures the size of the displacement vector per unit time. The vector gives the average velocity over a time interval of length $h$ and its limit is the velocity vector $\mathbf{v}(t)$ at time $t.$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589123728417
+  fields:
+    Front: |
+      SVEC-10.09-03 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Motion in Space: Velocity and Acceleration
+      Define **speed**.
+    Back: |
+      The **speed** of a particle at time $t$ is the magnitude of its velocity vector, that is, $|\mathbf{v}(t)| .$ This is appropriate because
+      $$
+      \begin{aligned}
+      |\mathbf{v}(t)|
+      &=\left|\mathbf{r}^{\prime}(t)\right|=\frac{d s}{d t} \\
+      &=\text{rate of change of distance with respect to time}
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589123899917
+  fields:
+    Front: |
+      SVEC-10.09-04 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Motion in Space: Velocity and Acceleration
+      Define **acceleration**.
+    Back: |
+      As in the case of one-dimensional motion, the **acceleration** of a particle is defined as the derivative of its velocity:
+      $$
+      \mathbf{a}(t)=\mathbf{v}^{\prime}(t)=\mathbf{r}^{\prime \prime}(t)
+      $$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589124189143
+  fields:
+    Front: |
+      SVEC-10.09-05 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Motion in Space: Velocity and Acceleration
+      State the **formula to recover velocity given acceleration**. List its hypotheses.
+    Back: |
+      In general, vector integrals allow us to recover velocity when acceleration is known:
+      $$
+      \mathbf{v}(t)=\mathbf{v}\left(t_{0}\right)+\int_{t_{0}}^{t} \mathbf{a}(u) d u
+      $$
+      Hypotheses:
+
+      - Acceleration $\mathbf{a}(t)$ is continuous.
+      - Initial velocity $\mathbf{v}\left(t_{0}\right)$ is known.
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589124326718
+  fields:
+    Front: |
+      SVEC-10.09-06 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Motion in Space: Velocity and Acceleration
+      State the **formula to recover position given velocity**. List its hypotheses.
+    Back: |
+      In general, vector integrals allow us to recover position when velocity is known:
+      $$
+      \mathbf{r}(t)=\mathbf{r}\left(t_{0}\right)+\int_{t_{0}}^{t} \mathbf{v}(u) d u
+      $$
+      Hypotheses:
+
+      - Velocity $\mathbf{v}(t)$ is continuous.
+      - Initial position $\mathbf{r}\left(t_{0}\right)$ is known.
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589124443669
+  fields:
+    Front: |
+      SVEC-10.09-07 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Motion in Space: Velocity and Acceleration
+      State **Newton's Second Law of Motion**.
+    Back: |
+      If the force that acts on a particle is known, then the acceleration can be found from **Newton's Second Law of Motion**. The vector version of this law states that if, at any time $t,$ a force $\mathbf{F}(t)$ acts on an object of mass $m$ producing an acceleration $\mathbf{a}(t),$ then
+      $$
+      \mathbf{F}(t)=m \mathbf{a}(t)
+      $$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589125350718
+  fields:
+    Front: |
+      SVEC-10.09-08 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Motion in Space: Velocity and Acceleration
+      ###### Circular Motion
+      Define **radius vector**.
+    Back: |
+      The position vector $\mathbf{r}(t)=a \cos \omega t \mathbf{i}+a \sin \omega t \mathbf{j}$ of a circular path is called a **radius vector**.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589125350968
+  media:
+  - path: ¢{file_dir}/images/SVEC-10.09-09.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-10.09-09 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Motion in Space: Velocity and Acceleration
+      ###### Circular Motion
+      State the **position and force vectors of mass on a circular path with constant angular speed**. List its hypotheses.
+    Back: |
+      An object with mass $m$ that moves in a circular path with constant angular speed $\omega$ has position/radius vector $\mathbf{r}(t)=a \cos \omega t \mathbf{i}+a \sin \omega t \mathbf{j} .$ Its velocity and acceleration vectors are
+      $$
+      \begin{array}{l}
+      \mathbf{v}(t)=\mathbf{r}^{\prime}(t)=-a \omega \sin \omega t \mathbf{i}+a \omega \cos \omega t \mathbf{j} \\
+      \mathbf{a}(t)=\mathbf{v}^{\prime}(t)=-a \omega^{2} \cos \omega t \mathbf{i}-a \omega^{2} \sin \omega t \mathbf{j}
+      \end{array}
+      $$ Therefore Newton's Second Law gives the force as
+      $$
+      \mathbf{F}(t)=m \mathbf{a}(t)=-m \omega^{2}(a \cos \omega t \mathbf{i}+a \sin \omega t \mathbf{j})
+      $$ Notice that $\mathbf{F}(t)=-m \omega^{2} \mathbf{r}(t) .$ This shows that the force acts in the direction opposite to the radius vector $\mathbf{r}(t)$ and therefore points toward the origin (see figure below). Such a force is called a _centripetal_ (center-seeking) force.
+      <p align="center">
+      ![](SVEC-10.09-09.Sy.1.jpg)
+      _The angular speed of the object moving with position $P$ is $\omega=d \theta / d t,$ given angle $\theta.$_
+      </p>
+      Hypotheses:
+
+      - An object with mass $m$ that moves in a circular path.
+      - Its angular speed $\omega$ is constant.
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589125527168
+  fields:
+    Front: |
+      SVEC-10.09-10 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Motion in Space: Velocity and Acceleration
+      ###### Projectile Motion
+      Define **centripetal force**.
+    Back: |
+      The force vector $\mathbf{F}(t)=-m \omega^{2} \mathbf{r}(t)$ on a mass on a circular path with constant angular speed is called a **centripetal (center-seeking) force** because it acts in the direction opposite to the position/radius vector $\mathbf{r}(t)=a \cos \omega t \mathbf{i}+a \sin \omega t \mathbf{j}$ of the mass.
+      <p align="center">
+      ![](SVEC-10.09-09.Sy.1.jpg)
+      _The force vector $\mathbf{F}(t)$ on the mass moving with position $P$ acts in the direction opposite the position/radius vector $\mathbf{r}(t).$_
+      </p>
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589126572868
+  media:
+  - path: ¢{file_dir}/images/SVEC-10.09-11.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-10.09-11 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Motion in Space: Velocity and Acceleration
+      ###### Projectile Motion
+      State the **position vector and parametric equations of projectile motion**. List their hypotheses.
+    Back: |
+      Suppose a projectile is fired with angle of elevation $\alpha$ and initial velocity $\mathbf{v}_{0}$ (See figure below.)
+      <p align="center">
+      ![](SVEC-10.09-11.Sy.1.jpg)
+      </p>
+      Assuming that air resistance is negligible and the only external force is due to gravity, the position vector function $\mathbf{r}(t)$ of the projectile is
+      $$
+      \mathbf{r}(t)=-\frac{1}{2} g t^{2} \mathbf{j}+t \mathbf{v}_{0}
+      $$ reflecting downward acceleration due to gravity, where $g=|\mathbf{a}|$ $\approx 9.8 \mathrm{m} / \mathrm{s}^{2}.$ If we write $\left|\mathbf{v}_{0}\right|=v_{0}$ (the initial speed of the projectile), then
+      $$
+      \mathbf{v}_{0}=v_{0} \cos \alpha \mathbf{i}+v_{0} \sin \alpha \mathbf{j}
+      $$ and the position vector becomes
+      $$
+      \mathbf{r}(t)=\left(v_{0} \cos \alpha\right) t \mathbf{i}+\left[\left(v_{0} \sin \alpha\right) t-\frac{1}{2} g t^{2}\right] \mathbf{j}.
+      $$ The parametric equations of the trajectory are therefore
+      $$
+      x=\left(v_{0} \cos \alpha\right) t \quad y=\left(v_{0} \sin \alpha\right) t-\frac{1}{2} g t^{2}.
+      $$
+      Hypotheses:
+
+      - The projectile is fired with angle of elevation $\alpha$ and initial velocity $\mathbf{v}_{0}.$
+      - Air resistance is negligible.
+      - The only external force is due to gravity.
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589127126043
+  fields:
+    Front: |
+      SVEC-10.09-12 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Motion in Space: Velocity and Acceleration
+      ###### Tangential and Normal Components of Acceleration
+      State the **velocity equation in terms of the unit tangent**.
+    Back: |
+      If we write $v=|\mathbf{v}|$ for the speed of a particle, then
+      $$
+      \mathbf{T}(t)=\frac{\mathbf{r}^{\prime}(t)}{\left|\mathbf{r}^{\prime}(t)\right|}=\frac{\mathbf{v}(t)}{|\mathbf{v}(t)|}=\frac{\mathbf{v}}{v}
+      $$ and so
+      $$
+      \mathbf{v}=v \mathbf{T}.
+      $$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589127420393
+  media:
+  - path: ¢{file_dir}/images/SVEC-10.09-13.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-10.09-13 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Motion in Space: Velocity and Acceleration
+      ###### Tangential and Normal Components of Acceleration
+      State the **acceleration equation in terms of unit tangent and normal**. List its hypotheses.
+    Back: |
+      If we differentiate (with respect to $t$) both sides of the velocity equation in terms of the unit tangent, we get
+      $$
+      \mathbf{a}=\mathbf{v}^{\prime}=v^{\prime} \mathbf{T}+v \mathbf{T}^{\prime}.
+      $$ If we use the expression for the curvature, then we have
+      $$
+      \kappa=\frac{\left|\mathbf{T}^{\prime}\right|}{\left|\mathbf{r}^{\prime}\right|}=\frac{\left|\mathbf{T}^{\prime}\right|}{v} \quad \text { so } \quad\left|\mathbf{T}^{\prime}\right|=\kappa v.
+      $$ The unit normal vector is defined as $\mathbf{N}=\mathbf{T}^{\prime} /\left|\mathbf{T}^{\prime}\right|,$ so
+      $$
+      \mathbf{T}^{\prime}=\left|\mathbf{T}^{\prime}\right| \mathbf{N}=\kappa v \mathbf{N}
+      $$ and therefore
+      $$
+      \mathbf{a}=v^{\prime} \mathbf{T}+\kappa v^{2} \mathbf{N}.
+      $$ Writing $a_{T}$ and $a_{N}$ for the tangential and normal components of acceleration, we have
+      $$
+      \mathbf{a}=a_{T} \mathbf{T}+a_{N} \mathbf{N}
+      $$ where $a_{T}=v^{\prime}$ and $a_{N}=\kappa v^{2}.$ This resolution is illustrated below.
+      <p align="center">
+      ![](SVEC-10.09-13.Sy.1.jpg)
+      </p>
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589128808517
+  fields:
+    Front: |
+      SVEC-10.09-14 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Motion in Space: Velocity and Acceleration
+      ###### Tangential and Normal Components of Acceleration
+      State the **tangential and normal acceleration components in terms of $\mathbf{r}$**.
+    Back: |
+      Although we have expressions for the tangential and normal components of acceleration, it's desirable to have expressions that depend only on $\mathbf{r}, \mathbf{r}^{\prime},$ and $\mathbf{r}^{\prime \prime} .$ To this end we take the dot product of $\mathbf{v}=v \mathbf{T}$ with $\mathbf{a}:$
+      $$
+      \begin{aligned}
+      \mathbf{v} \cdot \mathbf{a} &=v \mathbf{T} \cdot\left(v^{\prime} \mathbf{T}+\kappa v^{2} \mathbf{N}\right) \\
+      &=v v^{\prime} \mathbf{T} \cdot \mathbf{T}+\kappa v^{3} \mathbf{T} \cdot \mathbf{N} \\
+      &=v v^{\prime}
+      \end{aligned}
+      $$ (since $\mathbf{T} \cdot \mathbf{T}=1$ and $\mathbf{T} \cdot \mathbf{N}=0$). Therefore
+      $$
+      a_{T}=v^{\prime}=\frac{\mathbf{v} \cdot \mathbf{a}}{v}=\frac{\mathbf{r}^{\prime}(t) \cdot \mathbf{r}^{\prime \prime}(t)}{\left|\mathbf{r}^{\prime}(t)\right|}.
+      $$ Using the formula for curvature, we have
+      $$
+      a_{N}=\kappa v^{2}=\frac{\left|\mathbf{r}^{\prime}(t) \times \mathbf{r}^{\prime \prime}(t)\right|}{\left|\mathbf{r}^{\prime}(t)\right|^{3}}\left|\mathbf{r}^{\prime}(t)\right|^{2}=\frac{\left|\mathbf{r}^{\prime}(t) \times \mathbf{r}^{\prime \prime}(t)\right|}{\left|\mathbf{r}^{\prime}(t)\right|}.
+      $$ Summarized,
+      $$
+      a_{T} =\frac{\mathbf{r}^{\prime}(t) \cdot \mathbf{r}^{\prime \prime}(t)}{\left|\mathbf{r}^{\prime}(t)\right|} \quad \text{and} \quad a_{N} =\frac{\left|\mathbf{r}^{\prime}(t) \times \mathbf{r}^{\prime \prime}(t)\right|}{\left|\mathbf{r}^{\prime}(t)\right|}
+      $$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589129019893
+  fields:
+    Front: |
+      SVEC-10.09-15 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Motion in Space: Velocity and Acceleration
+      ###### Kepler's Laws of Planetary Motion
+      State **Kepler's Laws**.
+    Back: |
+      1. A planet revolves around the sun in an elliptical orbit with the sun at one focus.
+      2. The line joining the sun to a planet sweeps out equal areas in equal times.
+      3. The square of the period of revolution of a planet is proportional to the cube of the length of the major axis of its orbit.
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589129217392
+  fields:
+    Front: |
+      SVEC-10.09-16 Synthesis:
+      #### Vectors and the Geometry of Space
+      ##### Motion in Space: Velocity and Acceleration
+      ###### Kepler's Laws of Planetary Motion
+      State **Newton's Law of Gravitation**.
+    Back: |
+      Since the gravitational force of the sun on a planet is so much larger than the forces exerted by other celestial bodies, we can safely ignore all bodies in the universe except the sun and one planet revolving about it. We use a coordinate system with the sun at the origin and we let $\mathbf{r}=\mathbf{r}(t)$ be the position vector of the planet. (Equally well, $\mathbf{r}$ could be the position vector of the moon or a satellite moving around the earth or a comet moving around a star.)
+      $$
+      \text{Law of Gravitation:} \quad \mathbf{F}=-\frac{G M m}{r^{3}} \mathbf{r}=-\frac{G M m}{r^{2}} \mathbf{u}
+      $$ where $\mathbf{F}$ is the gravitational force on the planet, $m$ and $M$ are the masses of the planet and the sun, $G$ is the gravitational constant, $r=|\mathbf{r}|,$ and $\mathbf{u}=(1 / r) \mathbf{r}$ is the unit vector in the direction of $\mathbf{r}.$
+    Annotations: ''
+  tags:
+  - Theorem

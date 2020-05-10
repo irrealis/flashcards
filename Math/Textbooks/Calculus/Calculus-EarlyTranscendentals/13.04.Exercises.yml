@@ -1,0 +1,566 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-13-VectorFunctions
+  - CET-13.04-MotionInSpace-VelocityAndAcceleration
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589129805167
+  fields:
+    Front: |
+      CET-13.04-01 Exercise:
+      #### Vector Functions
+      ##### Motion in Space: Velocity and Acceleration
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589129805366
+  fields:
+    Front: |
+      CET-13.04-02 Exercise:
+      #### Vector Functions
+      ##### Motion in Space: Velocity and Acceleration
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589129805553
+  fields:
+    Front: |
+      CET-13.04-03 Exercise:
+      #### Vector Functions
+      ##### Motion in Space: Velocity and Acceleration
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589129805720
+  fields:
+    Front: |
+      CET-13.04-04 Exercise:
+      #### Vector Functions
+      ##### Motion in Space: Velocity and Acceleration
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589129805900
+  fields:
+    Front: |
+      CET-13.04-05 Exercise:
+      #### Vector Functions
+      ##### Motion in Space: Velocity and Acceleration
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589129806070
+  fields:
+    Front: |
+      CET-13.04-06 Exercise:
+      #### Vector Functions
+      ##### Motion in Space: Velocity and Acceleration
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589129806249
+  fields:
+    Front: |
+      CET-13.04-07 Exercise:
+      #### Vector Functions
+      ##### Motion in Space: Velocity and Acceleration
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589129806422
+  fields:
+    Front: |
+      CET-13.04-08 Exercise:
+      #### Vector Functions
+      ##### Motion in Space: Velocity and Acceleration
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589129806615
+  fields:
+    Front: |
+      CET-13.04-09 Exercise:
+      #### Vector Functions
+      ##### Motion in Space: Velocity and Acceleration
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589129806801
+  fields:
+    Front: |
+      CET-13.04-10 Exercise:
+      #### Vector Functions
+      ##### Motion in Space: Velocity and Acceleration
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589129807000
+  fields:
+    Front: |
+      CET-13.04-11 Exercise:
+      #### Vector Functions
+      ##### Motion in Space: Velocity and Acceleration
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589129807170
+  fields:
+    Front: |
+      CET-13.04-12 Exercise:
+      #### Vector Functions
+      ##### Motion in Space: Velocity and Acceleration
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589129807372
+  fields:
+    Front: |
+      CET-13.04-13 Exercise:
+      #### Vector Functions
+      ##### Motion in Space: Velocity and Acceleration
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589129807567
+  fields:
+    Front: |
+      CET-13.04-14 Exercise:
+      #### Vector Functions
+      ##### Motion in Space: Velocity and Acceleration
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589129807748
+  fields:
+    Front: |
+      CET-13.04-15 Exercise:
+      #### Vector Functions
+      ##### Motion in Space: Velocity and Acceleration
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589129807938
+  fields:
+    Front: |
+      CET-13.04-16 Exercise:
+      #### Vector Functions
+      ##### Motion in Space: Velocity and Acceleration
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589129808117
+  fields:
+    Front: |
+      CET-13.04-17 Exercise:
+      #### Vector Functions
+      ##### Motion in Space: Velocity and Acceleration
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589129808315
+  fields:
+    Front: |
+      CET-13.04-18 Exercise:
+      #### Vector Functions
+      ##### Motion in Space: Velocity and Acceleration
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589129808500
+  fields:
+    Front: |
+      CET-13.04-19 Exercise:
+      #### Vector Functions
+      ##### Motion in Space: Velocity and Acceleration
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589129808723
+  fields:
+    Front: |
+      CET-13.04-20 Exercise:
+      #### Vector Functions
+      ##### Motion in Space: Velocity and Acceleration
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589129808899
+  fields:
+    Front: |
+      CET-13.04-21 Exercise:
+      #### Vector Functions
+      ##### Motion in Space: Velocity and Acceleration
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589129809115
+  fields:
+    Front: |
+      CET-13.04-22 Exercise:
+      #### Vector Functions
+      ##### Motion in Space: Velocity and Acceleration
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589129809302
+  fields:
+    Front: |
+      CET-13.04-23 Exercise:
+      #### Vector Functions
+      ##### Motion in Space: Velocity and Acceleration
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589129809532
+  fields:
+    Front: |
+      CET-13.04-24 Exercise:
+      #### Vector Functions
+      ##### Motion in Space: Velocity and Acceleration
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589129809732
+  fields:
+    Front: |
+      CET-13.04-25 Exercise:
+      #### Vector Functions
+      ##### Motion in Space: Velocity and Acceleration
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589129809932
+  fields:
+    Front: |
+      CET-13.04-26 Exercise:
+      #### Vector Functions
+      ##### Motion in Space: Velocity and Acceleration
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589129810133
+  fields:
+    Front: |
+      CET-13.04-27 Exercise:
+      #### Vector Functions
+      ##### Motion in Space: Velocity and Acceleration
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589129810317
+  fields:
+    Front: |
+      CET-13.04-28 Exercise:
+      #### Vector Functions
+      ##### Motion in Space: Velocity and Acceleration
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589129810534
+  fields:
+    Front: |
+      CET-13.04-29 Exercise:
+      #### Vector Functions
+      ##### Motion in Space: Velocity and Acceleration
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589129810716
+  fields:
+    Front: |
+      CET-13.04-30 Exercise:
+      #### Vector Functions
+      ##### Motion in Space: Velocity and Acceleration
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589129810923
+  fields:
+    Front: |
+      CET-13.04-31 Exercise:
+      #### Vector Functions
+      ##### Motion in Space: Velocity and Acceleration
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589129811099
+  fields:
+    Front: |
+      CET-13.04-32 Exercise:
+      #### Vector Functions
+      ##### Motion in Space: Velocity and Acceleration
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589129811317
+  fields:
+    Front: |
+      CET-13.04-33 Exercise:
+      #### Vector Functions
+      ##### Motion in Space: Velocity and Acceleration
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589129811523
+  fields:
+    Front: |
+      CET-13.04-34 Exercise:
+      #### Vector Functions
+      ##### Motion in Space: Velocity and Acceleration
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589129811715
+  fields:
+    Front: |
+      CET-13.04-35 Exercise:
+      #### Vector Functions
+      ##### Motion in Space: Velocity and Acceleration
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589129811922
+  fields:
+    Front: |
+      CET-13.04-36 Exercise:
+      #### Vector Functions
+      ##### Motion in Space: Velocity and Acceleration
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589129812118
+  fields:
+    Front: |
+      CET-13.04-37 Exercise:
+      #### Vector Functions
+      ##### Motion in Space: Velocity and Acceleration
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589129812332
+  fields:
+    Front: |
+      CET-13.04-38 Exercise:
+      #### Vector Functions
+      ##### Motion in Space: Velocity and Acceleration
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589129812532
+  fields:
+    Front: |
+      CET-13.04-39 Exercise:
+      #### Vector Functions
+      ##### Motion in Space: Velocity and Acceleration
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589129812716
+  fields:
+    Front: |
+      CET-13.04-40 Exercise:
+      #### Vector Functions
+      ##### Motion in Space: Velocity and Acceleration
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589129812916
+  fields:
+    Front: |
+      CET-13.04-41 Exercise:
+      #### Vector Functions
+      ##### Motion in Space: Velocity and Acceleration
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589129813115
+  fields:
+    Front: |
+      CET-13.04-42 Exercise:
+      #### Vector Functions
+      ##### Motion in Space: Velocity and Acceleration
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589129813299
+  fields:
+    Front: |
+      CET-13.04-43 Exercise:
+      #### Vector Functions
+      ##### Motion in Space: Velocity and Acceleration
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589129813484
+  fields:
+    Front: |
+      CET-13.04-44 Exercise:
+      #### Vector Functions
+      ##### Motion in Space: Velocity and Acceleration
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589129813688
+  fields:
+    Front: |
+      CET-13.04-45 Exercise:
+      #### Vector Functions
+      ##### Motion in Space: Velocity and Acceleration
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589129813882
+  fields:
+    Front: |
+      CET-13.04-46 Exercise:
+      #### Vector Functions
+      ##### Motion in Space: Velocity and Acceleration
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
