@@ -14,7 +14,7 @@ variables = dict(
   #section_tag = ""
 
   problem_type = "Exercise",
-  problem_abbrev = "Xm",
+  problem_abbrev = "Xs",
 
   deck_name = "Staging",
   model_name = "PWeave",

@@ -1,0 +1,302 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-13-VectorFunctions
+  - CET-13.R-Ex-Review
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589231827668
+  fields:
+    Front: |
+      CET-13.R-Ex-01 Exercise:
+      #### Vector Functions
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589231827844
+  fields:
+    Front: |
+      CET-13.R-Ex-02 Exercise:
+      #### Vector Functions
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589231828040
+  fields:
+    Front: |
+      CET-13.R-Ex-03 Exercise:
+      #### Vector Functions
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589231828214
+  fields:
+    Front: |
+      CET-13.R-Ex-04 Exercise:
+      #### Vector Functions
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589231828389
+  fields:
+    Front: |
+      CET-13.R-Ex-05 Exercise:
+      #### Vector Functions
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589231828563
+  fields:
+    Front: |
+      CET-13.R-Ex-06 Exercise:
+      #### Vector Functions
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589231828736
+  fields:
+    Front: |
+      CET-13.R-Ex-07 Exercise:
+      #### Vector Functions
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589231828910
+  fields:
+    Front: |
+      CET-13.R-Ex-08 Exercise:
+      #### Vector Functions
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589231829084
+  fields:
+    Front: |
+      CET-13.R-Ex-09 Exercise:
+      #### Vector Functions
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589231829258
+  fields:
+    Front: |
+      CET-13.R-Ex-10 Exercise:
+      #### Vector Functions
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589231829434
+  fields:
+    Front: |
+      CET-13.R-Ex-11 Exercise:
+      #### Vector Functions
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589231829599
+  fields:
+    Front: |
+      CET-13.R-Ex-12 Exercise:
+      #### Vector Functions
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589231829770
+  fields:
+    Front: |
+      CET-13.R-Ex-13 Exercise:
+      #### Vector Functions
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589231829943
+  fields:
+    Front: |
+      CET-13.R-Ex-14 Exercise:
+      #### Vector Functions
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589231830117
+  fields:
+    Front: |
+      CET-13.R-Ex-15 Exercise:
+      #### Vector Functions
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589231830291
+  fields:
+    Front: |
+      CET-13.R-Ex-16 Exercise:
+      #### Vector Functions
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589231830467
+  fields:
+    Front: |
+      CET-13.R-Ex-17 Exercise:
+      #### Vector Functions
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589231830643
+  fields:
+    Front: |
+      CET-13.R-Ex-18 Exercise:
+      #### Vector Functions
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589231830818
+  fields:
+    Front: |
+      CET-13.R-Ex-19 Exercise:
+      #### Vector Functions
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589231830993
+  fields:
+    Front: |
+      CET-13.R-Ex-20 Exercise:
+      #### Vector Functions
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589231831168
+  fields:
+    Front: |
+      CET-13.R-Ex-21 Exercise:
+      #### Vector Functions
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589231831341
+  fields:
+    Front: |
+      CET-13.R-Ex-22 Exercise:
+      #### Vector Functions
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589231831516
+  fields:
+    Front: |
+      CET-13.R-Ex-23 Exercise:
+      #### Vector Functions
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589231831692
+  fields:
+    Front: |
+      CET-13.R-Ex-24 Exercise:
+      #### Vector Functions
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

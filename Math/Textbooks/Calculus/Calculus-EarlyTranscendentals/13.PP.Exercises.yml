@@ -5,107 +5,118 @@ defaults:
   - Textbooks
   - Math
   - Calculus
-  - Examples
+  - Exercises
   - Calculus-EarlyTrancendentals
   - CET-13-VectorFunctions
-  - CET-13.04-MotionInSpace-VelocityAndAcceleration
+  - CET-13.PP-ProblemsPlus
   markdownTabLength: 2
   stringTemplDelim: ¢
 notes:
-- id: 1589129803618
+- id: 1589232191468
   fields:
     Front: |
-      CET-13.04-1 Example:
+      CET-13.PP-1 Exercise:
       #### Vector Functions
-      ##### Motion in Space: Velocity and Acceleration
+      ##### Problems Plus
       Temporary: work out of CET textbook.
     Back: |
       To do.
     Annotations: ''
   tags:
   - ToDo
-- id: 1589129803848
+- id: 1589232191669
   fields:
     Front: |
-      CET-13.04-2 Example:
+      CET-13.PP-2 Exercise:
       #### Vector Functions
-      ##### Motion in Space: Velocity and Acceleration
+      ##### Problems Plus
       Temporary: work out of CET textbook.
     Back: |
       To do.
     Annotations: ''
   tags:
   - ToDo
-- id: 1589129804049
+- id: 1589232191863
   fields:
     Front: |
-      CET-13.04-3 Example:
+      CET-13.PP-3 Exercise:
       #### Vector Functions
-      ##### Motion in Space: Velocity and Acceleration
+      ##### Problems Plus
       Temporary: work out of CET textbook.
     Back: |
       To do.
     Annotations: ''
   tags:
   - ToDo
-- id: 1589129804233
+- id: 1589232192077
   fields:
     Front: |
-      CET-13.04-4 Example:
+      CET-13.PP-4 Exercise:
       #### Vector Functions
-      ##### Motion in Space: Velocity and Acceleration
+      ##### Problems Plus
       Temporary: work out of CET textbook.
     Back: |
       To do.
     Annotations: ''
   tags:
   - ToDo
-- id: 1589129804421
+- id: 1589232192256
   fields:
     Front: |
-      CET-13.04-5 Example:
+      CET-13.PP-5 Exercise:
       #### Vector Functions
-      ##### Motion in Space: Velocity and Acceleration
+      ##### Problems Plus
       Temporary: work out of CET textbook.
     Back: |
       To do.
     Annotations: ''
   tags:
   - ToDo
-- id: 1589129804633
+- id: 1589232192436
   fields:
     Front: |
-      CET-13.04-6 Example:
+      CET-13.PP-6 Exercise:
       #### Vector Functions
-      ##### Motion in Space: Velocity and Acceleration
+      ##### Problems Plus
       Temporary: work out of CET textbook.
     Back: |
       To do.
     Annotations: ''
   tags:
   - ToDo
-- id: 1589129804850
+- id: 1589232192602
   fields:
     Front: |
-      CET-13.04-7 Example:
+      CET-13.PP-7 Exercise:
       #### Vector Functions
-      ##### Motion in Space: Velocity and Acceleration
+      ##### Problems Plus
       Temporary: work out of CET textbook.
     Back: |
       To do.
     Annotations: ''
   tags:
   - ToDo
-- id: 1589230990542
+- id: 1589232192788
   fields:
     Front: |
-      CET-13.04-8 Example: Kepler's First Law:
+      CET-13.PP-8 Exercise:
       #### Vector Functions
-      ##### Kepler's Laws of Planetary Motion
-      Temporary: work out of CET textbook. Replicate the proof of Kepler's First Law.
+      ##### Problems Plus
+      Temporary: work out of CET textbook.
     Back: |
       To do.
     Annotations: ''
   tags:
-  - Editing
+  - ToDo
+- id: 1589232192953
+  fields:
+    Front: |
+      CET-13.PP-9 Exercise:
+      #### Vector Functions
+      ##### Problems Plus
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
   - ToDo

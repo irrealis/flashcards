@@ -1,0 +1,62 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-13-VectorFunctions
+  - CET-13.AP-KeplersLaws
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589231347967
+  fields:
+    Front: |
+      CET-13.AP-1 Applied Project:
+      #### Vector Functions
+      ##### Applied Project: Kepler's Laws
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589231348143
+  fields:
+    Front: |
+      CET-13.AP-2 Applied Project:
+      #### Vector Functions
+      ##### Applied Project: Kepler's Laws
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589231348317
+  fields:
+    Front: |
+      CET-13.AP-3 Applied Project:
+      #### Vector Functions
+      ##### Applied Project: Kepler's Laws
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589231348492
+  fields:
+    Front: |
+      CET-13.AP-4 Applied Project:
+      #### Vector Functions
+      ##### Applied Project: Kepler's Laws
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

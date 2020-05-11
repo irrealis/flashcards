@@ -5,16 +5,15 @@ variables = dict(
   textbook_abbrev = "CET",
   textbook_tag = "Calculus-EarlyTrancendentals",
 
-  chapter_num = "12",
-  chapter_title = "Vectors and the Geometry of Space",
-  #chapter_tag = "CET-12-VectorsAndTheGeometryOfSpace",
+  chapter_num = "13",
+  chapter_title = "Vector Functions",
 
-  section_num = "PP",
-  section_title = "Problems Plus",
-  #section_tag = ""
+  section_num = "AP",
+  section_title = "Applied Project: Kepler's Laws",
+  section_tag = "CET-13.AP-KeplersLaws",
 
-  problem_type = "Exercise",
-  problem_abbrev = "Xs",
+  problem_type = "Applied Project",
+  problem_abbrev = "AP",
 
   deck_name = "Staging",
   model_name = "PWeave",
@@ -23,7 +22,7 @@ variables = dict(
 
   header_file = "programmatic/Exercises_header.yml",
   note_file = "programmatic/Exercise_note.yml",
-  output_file = "12.PP.Exercises.yml",
+  output_file = "13.AP.Exercises.yml",
 )
 
-generate_yml(variables, 8)
+generate_yml(variables, 4)
