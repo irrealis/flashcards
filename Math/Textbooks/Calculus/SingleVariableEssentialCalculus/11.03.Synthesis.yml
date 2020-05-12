@@ -1,0 +1,242 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Synthesis
+  - SingleVariableEssentialCalculus
+  - SVEC-11-PartialDerivatives
+  - SVEC-11.03-PartialDerivatives
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589238552168
+  fields:
+    Front: |
+      SVEC-11.03-01 Synthesis:
+      #### Partial Derivatives
+      ##### Partial Derivatives
+      List the partial-derivatives definitions and theorems.
+    Back: |
+      Def: **partial derivatives of $z = f(x,y)$**
+      Thm: **Rules for Finding Partial Derivatives of $z = f(x,y)$**
+      ###### Interpretations of Partial Derivatives
+      Thm: **two interpretations of partial derivatives**
+      ###### Functions of More Than Two Variables
+      Def: **partial derivatives of $u=f\left(x_{1}, x_{2}, \ldots, x_{n}\right)$**
+      ###### Higher Derivatives
+      Def: **second partial derivatives**
+      Thm: **Clairaut's Theorem**
+      ###### Partial Differential Equations
+      Def: **partial differential equation**
+      Def: **Laplace's equation** and **harmonic functions**
+      Def: **wave equation**
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589239176742
+  fields:
+    Front: |
+      SVEC-11.03-02 Synthesis:
+      #### Partial Derivatives
+      ##### Partial Derivatives
+      Define **partial derivatives of $z = f(x,y)$**. How is it denoted?
+    Back: |
+      In general, if $f$ is a function of two variables $x$ and $y,$ suppose we let only $x$ vary while keeping $y$ fixed, say $y=b,$ where $b$ is a constant. Then we are really considering a function of a single variable $x,$ namely, $g(x)=f(x, b) .$ If $g$ has a derivative at $a$, then we call it the **partial derivative of $f$ with respect to $x$ at $(a, b)$** and denote it by $f_{x}(a, b)$. Thus
+      $$
+      \begin{aligned}
+      f_{x}(a, b)
+      &=g^{\prime}(a) \quad \text { where } \quad g(x)=f(x, b) \\
+      &=\lim _{h \rightarrow 0} \frac{g(a+h)-g(a)}{h} \\
+      &=\lim _{h \rightarrow 0} \frac{f(a+h, b)-f(a, b)}{h}.
+      \end{aligned}
+      $$ Similarly, the **partial derivative of $f$ with respect to $y$ at $(a, b),$** denoted by $f_{y}(a, b),$ is obtained by keeping $x$ fixed $(x=a)$ and finding the ordinary derivative at $b$ of the func$\operatorname{tion} G(y)=f(a, y):$
+      $$
+      f_{y}(a, b)=\lim _{h \rightarrow 0} \frac{f(a, b+h)-f(a, b)}{h}.
+      $$ If we now let the point $(a, b)$ vary, f_{x}$ and $f_{y}$ become functions of two variables.
+
+      If $f$ is a function of two variables, its **partial derivatives** are the functions $f_{x}$ and $f_{y}$ defined by
+      $$
+      \begin{aligned}
+      f_{x}(x, y)
+      &=\lim _{h \rightarrow 0} \frac{f(x+h, y)-f(x, y)}{h} \\
+      f_{y}(x, y)
+      &=\lim _{h \rightarrow 0} \frac{f(x, y+h)-f(x, y)}{h}
+      \end{aligned}
+      $$
+
+      ###### Notations for Partial Derivatives
+      If $z=f(x, y),$ we write
+      $$
+      \begin{array}{l}
+      f_{x}(x, y)=f_{x}=\frac{\partial f}{\partial x}=\frac{\partial}{\partial x} f(x, y)=\frac{\partial z}{\partial x}=f_{1}=D_{1} f=D_{x} f \\
+      f_{y}(x, y)=f_{y}=\frac{\partial f}{\partial y}=\frac{\partial}{\partial y} f(x, y)=\frac{\partial z}{\partial y}=f_{2}=D_{2} f=D_{y} f
+      \end{array}
+      $$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589239294018
+  fields:
+    Front: |
+      SVEC-11.03-03 Synthesis:
+      #### Partial Derivatives
+      ##### Partial Derivatives
+      State the **Rules for Finding Partial Derivatives of $z = f(x,y)$**.
+    Back: |
+      1. To find $f_{x},$ regard $y$ as a constant and differentiate $f(x, y)$ with respect to $x.$
+      2. To find $f_{y},$ regard $x$ as a constant and differentiate $f(x, y)$ with respect to $y.$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589239715743
+  media:
+  - path: ¢{file_dir}/images/SVEC-11.03-04.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-11.03-04 Synthesis:
+      #### Partial Derivatives
+      ##### Partial Derivatives
+      ###### Interpretations of Partial Derivatives
+      State **two interpretations of partial derivatives**.
+    Back: |
+      ###### Geometric
+      To give a geometric interpretation of partial derivatives, we recall that the equation $z=f(x, y)$ represents a surface $S$ (the graph of $f$). If $f(a, b)=c,$ then the point $P(a, b, c)$ lies on $S .$ By fixing $y=b,$ we are restricting our attention to the curve $C_{1}$ in which the vertical plane $y=b$ intersects $S$. (In other words, $C_{1}$ is the trace of $S$ in the plane $y=b$.) Likewise, the vertical plane $x=a$ intersects $S$ in a curve $C_{2}$. Both of the curves $C_{1}$ and $C_{2}$ pass through the point $P .$ (See figure below.)
+      <p align="center">
+      ![](SVEC-11.03-04.Sy.1.jpg)
+      _The partial derivatives of $f$ at $(a, b)$ are the slopes of the tangents to $C_{1}$ and $C_{2}.$_
+      </p>
+      Note that the curve $C_{1}$ is the graph of the function $g(x)=f(x, b),$ so the slope of its tangent $T_{1}$ at $P$ is $g^{\prime}(a)=f_{x}(a, b) .$ The curve $C_{2}$ is the graph of the function $G(y)=f(a, y)$ so the slope of its tangent $T_{2}$ at $P$ is $G^{\prime}(b)=f_{y}(a, b)$
+
+      Thus the partial derivatives $f_{x}(a, b)$ and $f_{y}(a, b)$ can be interpreted geometrically as the **slopes of the tangent lines** at $P(a, b, c)$ to the traces $C_{1}$ and $C_{2}$ of $S$ in the planes $y=b$ and $x=a.$
+
+      ###### Rates of Change
+      Partial derivatives can also be interpreted as **rates of change**. If $z=f(x, y),$ then $\partial z / \partial x$ represents the rate of change of $z$ with respect to $x$ when $y$ is fixed. Similarly, $\partial z / \partial y$ represents the rate of change of $z$ with respect to $y$ when $x$ is fixed.
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589240183293
+  fields:
+    Front: |
+      SVEC-11.03-05 Synthesis:
+      #### Partial Derivatives
+      ##### Partial Derivatives
+      ###### Functions of More Than Two Variables
+      Define **partial derivatives of $u=f\left(x_{1}, x_{2}, \ldots, x_{n}\right)$**.
+    Back: |
+      If $f$ is a function of three variables $x, y,$ and $z,$ then its **partial derivative with respect to $x$** is defined as
+      $$
+      f_{x}(x, y, z)=\lim _{h \rightarrow 0} \frac{f(x+h, y, z)-f(x, y, z)}{h}
+      $$ and it is found by regarding $y$ and $z$ as constants and differentiating $f(x, y, z)$ with respect to $x .$ If $w=f(x, y, z),$ then $f_{x}=\partial w / \partial x$ can be interpreted as the rate of change of $w$ with respect to $x$ when $y$ and $z$ are held fixed. But we can't interpret it geometrically because the graph of $f$ lies in four-dimensional space.
+
+      In general, if $u$ is a function of $n$ variables, $u=f\left(x_{1}, x_{2}, \ldots, x_{n}\right),$ its **partial derivative with respect to the $i$th variable $x_{i}$** is
+      $$
+      \frac{\partial u}{\partial x_{i}}=\lim _{h \rightarrow 0} \frac{f\left(x_{1}, \ldots, x_{i-1}, x_{i}+h, x_{i+1}, \ldots, x_{n}\right)-f\left(x_{1}, \ldots, x_{i}, \ldots, x_{n}\right)}{h}
+      $$ and we also write
+      $$
+      \frac{\partial u}{\partial x_{i}}=\frac{\partial f}{\partial x_{i}}=f_{x_{i}}=f_{i}=D_{i} f
+      $$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589240484743
+  fields:
+    Front: |
+      SVEC-11.03-06 Synthesis:
+      #### Partial Derivatives
+      ##### Partial Derivatives
+      ###### Higher Derivatives
+      Define **second partial derivatives**. What is the order of operations?
+    Back: |
+      If $f$ is a function of two variables, then its partial derivatives $f_{x}$ and $f_{y}$ are also functions of two variables, so we can consider their partial derivatives $\left(f_{x}\right)_{x},\left(f_{x}\right)_{y},\left(f_{y}\right)_{x},$ and $\left(f_{y}\right)_{y}$ which are called the **second partial derivatives** of $f$. If $z=f(x, y)$, we use the following notation:
+      $$
+      \begin{array}{l}
+      \left(f_{x}\right)_{x}=f_{x x}=f_{11}=\frac{\partial}{\partial x}\left(\frac{\partial f}{\partial x}\right)=\frac{\partial^{2} f}{\partial x^{2}}=\frac{\partial^{2} z}{\partial x^{2}} \\
+      \left(f_{x}\right)_{y}=f_{x y}=f_{12}=\frac{\partial}{\partial y}\left(\frac{\partial f}{\partial x}\right)=\frac{\partial^{2} f}{\partial y \partial x}=\frac{\partial^{2} z}{\partial y \partial x} \\
+      \left(f_{y}\right)_{x}=f_{y x}=f_{21}=\frac{\partial}{\partial x}\left(\frac{\partial f}{\partial y}\right)=\frac{\partial^{2} f}{\partial x \partial y}=\frac{\partial^{2} z}{\partial x \partial y} \\
+      \left(f_{y}\right)_{y}=f_{y y}=f_{22}=\frac{\partial}{\partial y}\left(\frac{\partial f}{\partial y}\right)=\frac{\partial^{2} f}{\partial y^{2}}=\frac{\partial^{2} z}{\partial y^{2}}
+      \end{array}
+      $$ Thus the notation $f_{x y}$ (or $\partial^{2} f / \partial y \partial x$) means that we first differentiate with respect to $x$ and then with respect to $y,$ whereas in computing $f_{y x}$ the order is reversed.
+
+      Partial derivatives of higher order can also be defined. For instance
+      $$
+      f_{x y y}=\left(f_{x y}\right)_{y}=\frac{\partial}{\partial y}\left(\frac{\partial^{2} f}{\partial y \partial x}\right)=\frac{\partial^{3} f}{\partial y^{2} \partial x}.
+      $$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589241098542
+  fields:
+    Front: |
+      SVEC-11.03-07 Synthesis:
+      #### Partial Derivatives
+      ##### Partial Derivatives
+      ###### Higher Derivatives
+      State **Clairaut's Theorem**. List its hypotheses.
+    Back: |
+      Suppose $f$ is defined on a disk $D$ that contains the point $(a, b)$. If the functions $f_{x y}$ and $f_{y x}$ are both continuous on $D$, then
+      $$
+      f_{x y}(a, b)=f_{y x}(a, b).
+      $$
+
+      Thus it turns out that the mixed partial derivatives $f_{x y}$ and $f_{y x}$ are equal for most functions that one meets in practice. Using Clairaut's Theorem it can be shown that $f_{x y y}=f_{y x y}=f_{y y x}$ if these functions are continuous.
+
+      Hypotheses:
+
+      - $f$ is defined on a disk $D$ that contains the point $(a, b).$
+      - $f_{x y}$ and $f_{y x}$ are both continuous on $D.$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589241369842
+  fields:
+    Front: |
+      SVEC-11.03-08 Synthesis:
+      #### Partial Derivatives
+      ##### Partial Derivatives
+      ###### Partial Differential Equations
+      Define **partial differential equation**.
+    Back: |
+      Partial derivatives occur in **partial differential equations** (containing an unknown function of multiple variables and some of its partial derivatives) that express certain physical laws.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589241456768
+  fields:
+    Front: |
+      SVEC-11.03-09 Synthesis:
+      #### Partial Derivatives
+      ##### Partial Derivatives
+      ###### Partial Differential Equations
+      Define **Laplace's equation** and **harmonic functions**.
+    Back: |
+      The partial differential equation
+      $$
+      \frac{\partial^{2} u}{\partial x^{2}}+\frac{\partial^{2} u}{\partial y^{2}}=0
+      $$ is called **Laplace's equation** after Pierre Laplace (1749-1827). Solutions of this equation are called **harmonic functions**; they play a role in problems of heat conduction, fluid flow, and electric potential.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589241592593
+  media:
+  - path: ¢{file_dir}/images/SVEC-11.03-10.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-11.03-10 Synthesis:
+      #### Partial Derivatives
+      ##### Partial Derivatives
+      ###### Partial Differential Equations
+      Define **wave equation**.
+    Back: |
+      The **wave equation**
+      $$
+      \frac{\partial^{2} u}{\partial t^{2}}=a^{2} \frac{\partial^{2} u}{\partial x^{2}}
+      $$ describes the motion of a waveform, which could be an ocean wave, a sound wave, a light wave, or a wave traveling along a vibrating string. For instance, if $u(x, t)$ represents the displacement of a vibrating violin string at time $t$ and at a distance $x$ from one end of the string (as in the following figure), then $u(x, t)$ satisfies the wave equation. Here the constant $a$ depends on the density of the string and on the tension in the string.
+      <p align="center">
+      ![](SVEC-11.03-10.Sy.1.jpg)
+      </p>
+    Annotations: ''
+  tags:
+  - Definition

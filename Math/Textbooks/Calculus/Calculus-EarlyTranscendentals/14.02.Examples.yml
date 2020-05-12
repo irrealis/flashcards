@@ -1,0 +1,122 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-14-PartialDerivatives
+  - CET-14.02-LimitsAndContinuity
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589237470193
+  fields:
+    Front: |
+      CET-14.02-1 Example:
+      #### Partial Derivatives
+      ##### Limits and Continuity
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589237470409
+  fields:
+    Front: |
+      CET-14.02-2 Example:
+      #### Partial Derivatives
+      ##### Limits and Continuity
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589237470608
+  fields:
+    Front: |
+      CET-14.02-3 Example:
+      #### Partial Derivatives
+      ##### Limits and Continuity
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589237470817
+  fields:
+    Front: |
+      CET-14.02-4 Example:
+      #### Partial Derivatives
+      ##### Limits and Continuity
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589237470992
+  fields:
+    Front: |
+      CET-14.02-5 Example:
+      #### Partial Derivatives
+      ##### Limits and Continuity
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589237471179
+  fields:
+    Front: |
+      CET-14.02-6 Example:
+      #### Partial Derivatives
+      ##### Limits and Continuity
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589237471401
+  fields:
+    Front: |
+      CET-14.02-7 Example:
+      #### Partial Derivatives
+      ##### Limits and Continuity
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589237471617
+  fields:
+    Front: |
+      CET-14.02-8 Example:
+      #### Partial Derivatives
+      ##### Limits and Continuity
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589237471808
+  fields:
+    Front: |
+      CET-14.02-9 Example:
+      #### Partial Derivatives
+      ##### Limits and Continuity
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

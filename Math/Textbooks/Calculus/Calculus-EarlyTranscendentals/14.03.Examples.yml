@@ -1,0 +1,134 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-14-PartialDerivatives
+  - CET-14.03-PartialDerivatives
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589242215293
+  fields:
+    Front: |
+      CET-14.03-01 Example:
+      #### Partial Derivatives
+      ##### Partial Derivatives
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589242215531
+  fields:
+    Front: |
+      CET-14.03-02 Example:
+      #### Partial Derivatives
+      ##### Partial Derivatives
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589242215731
+  fields:
+    Front: |
+      CET-14.03-03 Example:
+      #### Partial Derivatives
+      ##### Partial Derivatives
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589242215931
+  fields:
+    Front: |
+      CET-14.03-04 Example:
+      #### Partial Derivatives
+      ##### Partial Derivatives
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589242216119
+  fields:
+    Front: |
+      CET-14.03-05 Example:
+      #### Partial Derivatives
+      ##### Partial Derivatives
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589242216307
+  fields:
+    Front: |
+      CET-14.03-06 Example:
+      #### Partial Derivatives
+      ##### Partial Derivatives
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589242216498
+  fields:
+    Front: |
+      CET-14.03-07 Example:
+      #### Partial Derivatives
+      ##### Partial Derivatives
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589242216681
+  fields:
+    Front: |
+      CET-14.03-08 Example:
+      #### Partial Derivatives
+      ##### Partial Derivatives
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589242216881
+  fields:
+    Front: |
+      CET-14.03-09 Example:
+      #### Partial Derivatives
+      ##### Partial Derivatives
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589242217073
+  fields:
+    Front: |
+      CET-14.03-10 Example:
+      #### Partial Derivatives
+      ##### Partial Derivatives
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

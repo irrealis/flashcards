@@ -1,0 +1,566 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-14-PartialDerivatives
+  - CET-14.02-LimitsAndContinuity
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589237472119
+  fields:
+    Front: |
+      CET-14.02-01 Exercise:
+      #### Partial Derivatives
+      ##### Limits and Continuity
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589237472318
+  fields:
+    Front: |
+      CET-14.02-02 Exercise:
+      #### Partial Derivatives
+      ##### Limits and Continuity
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589237472510
+  fields:
+    Front: |
+      CET-14.02-03 Exercise:
+      #### Partial Derivatives
+      ##### Limits and Continuity
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589237472742
+  fields:
+    Front: |
+      CET-14.02-04 Exercise:
+      #### Partial Derivatives
+      ##### Limits and Continuity
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589237472926
+  fields:
+    Front: |
+      CET-14.02-05 Exercise:
+      #### Partial Derivatives
+      ##### Limits and Continuity
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589237473109
+  fields:
+    Front: |
+      CET-14.02-06 Exercise:
+      #### Partial Derivatives
+      ##### Limits and Continuity
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589237473292
+  fields:
+    Front: |
+      CET-14.02-07 Exercise:
+      #### Partial Derivatives
+      ##### Limits and Continuity
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589237473481
+  fields:
+    Front: |
+      CET-14.02-08 Exercise:
+      #### Partial Derivatives
+      ##### Limits and Continuity
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589237473674
+  fields:
+    Front: |
+      CET-14.02-09 Exercise:
+      #### Partial Derivatives
+      ##### Limits and Continuity
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589237473860
+  fields:
+    Front: |
+      CET-14.02-10 Exercise:
+      #### Partial Derivatives
+      ##### Limits and Continuity
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589237474042
+  fields:
+    Front: |
+      CET-14.02-11 Exercise:
+      #### Partial Derivatives
+      ##### Limits and Continuity
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589237474218
+  fields:
+    Front: |
+      CET-14.02-12 Exercise:
+      #### Partial Derivatives
+      ##### Limits and Continuity
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589237474396
+  fields:
+    Front: |
+      CET-14.02-13 Exercise:
+      #### Partial Derivatives
+      ##### Limits and Continuity
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589237474608
+  fields:
+    Front: |
+      CET-14.02-14 Exercise:
+      #### Partial Derivatives
+      ##### Limits and Continuity
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589237474826
+  fields:
+    Front: |
+      CET-14.02-15 Exercise:
+      #### Partial Derivatives
+      ##### Limits and Continuity
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589237475009
+  fields:
+    Front: |
+      CET-14.02-16 Exercise:
+      #### Partial Derivatives
+      ##### Limits and Continuity
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589237475258
+  fields:
+    Front: |
+      CET-14.02-17 Exercise:
+      #### Partial Derivatives
+      ##### Limits and Continuity
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589237475458
+  fields:
+    Front: |
+      CET-14.02-18 Exercise:
+      #### Partial Derivatives
+      ##### Limits and Continuity
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589237475646
+  fields:
+    Front: |
+      CET-14.02-19 Exercise:
+      #### Partial Derivatives
+      ##### Limits and Continuity
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589237475850
+  fields:
+    Front: |
+      CET-14.02-20 Exercise:
+      #### Partial Derivatives
+      ##### Limits and Continuity
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589237476074
+  fields:
+    Front: |
+      CET-14.02-21 Exercise:
+      #### Partial Derivatives
+      ##### Limits and Continuity
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589237476249
+  fields:
+    Front: |
+      CET-14.02-22 Exercise:
+      #### Partial Derivatives
+      ##### Limits and Continuity
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589237476442
+  fields:
+    Front: |
+      CET-14.02-23 Exercise:
+      #### Partial Derivatives
+      ##### Limits and Continuity
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589237476626
+  fields:
+    Front: |
+      CET-14.02-24 Exercise:
+      #### Partial Derivatives
+      ##### Limits and Continuity
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589237476849
+  fields:
+    Front: |
+      CET-14.02-25 Exercise:
+      #### Partial Derivatives
+      ##### Limits and Continuity
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589237477074
+  fields:
+    Front: |
+      CET-14.02-26 Exercise:
+      #### Partial Derivatives
+      ##### Limits and Continuity
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589237477246
+  fields:
+    Front: |
+      CET-14.02-27 Exercise:
+      #### Partial Derivatives
+      ##### Limits and Continuity
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589237477447
+  fields:
+    Front: |
+      CET-14.02-28 Exercise:
+      #### Partial Derivatives
+      ##### Limits and Continuity
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589237477625
+  fields:
+    Front: |
+      CET-14.02-29 Exercise:
+      #### Partial Derivatives
+      ##### Limits and Continuity
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589237477796
+  fields:
+    Front: |
+      CET-14.02-30 Exercise:
+      #### Partial Derivatives
+      ##### Limits and Continuity
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589237477996
+  fields:
+    Front: |
+      CET-14.02-31 Exercise:
+      #### Partial Derivatives
+      ##### Limits and Continuity
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589237478226
+  fields:
+    Front: |
+      CET-14.02-32 Exercise:
+      #### Partial Derivatives
+      ##### Limits and Continuity
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589237478398
+  fields:
+    Front: |
+      CET-14.02-33 Exercise:
+      #### Partial Derivatives
+      ##### Limits and Continuity
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589237478608
+  fields:
+    Front: |
+      CET-14.02-34 Exercise:
+      #### Partial Derivatives
+      ##### Limits and Continuity
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589237478826
+  fields:
+    Front: |
+      CET-14.02-35 Exercise:
+      #### Partial Derivatives
+      ##### Limits and Continuity
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589237479026
+  fields:
+    Front: |
+      CET-14.02-36 Exercise:
+      #### Partial Derivatives
+      ##### Limits and Continuity
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589237479208
+  fields:
+    Front: |
+      CET-14.02-37 Exercise:
+      #### Partial Derivatives
+      ##### Limits and Continuity
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589237479385
+  fields:
+    Front: |
+      CET-14.02-38 Exercise:
+      #### Partial Derivatives
+      ##### Limits and Continuity
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589237479575
+  fields:
+    Front: |
+      CET-14.02-39 Exercise:
+      #### Partial Derivatives
+      ##### Limits and Continuity
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589237479767
+  fields:
+    Front: |
+      CET-14.02-40 Exercise:
+      #### Partial Derivatives
+      ##### Limits and Continuity
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589237479985
+  fields:
+    Front: |
+      CET-14.02-41 Exercise:
+      #### Partial Derivatives
+      ##### Limits and Continuity
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589237480158
+  fields:
+    Front: |
+      CET-14.02-42 Exercise:
+      #### Partial Derivatives
+      ##### Limits and Continuity
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589237480337
+  fields:
+    Front: |
+      CET-14.02-43 Exercise:
+      #### Partial Derivatives
+      ##### Limits and Continuity
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589237480525
+  fields:
+    Front: |
+      CET-14.02-44 Exercise:
+      #### Partial Derivatives
+      ##### Limits and Continuity
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589237480697
+  fields:
+    Front: |
+      CET-14.02-45 Exercise:
+      #### Partial Derivatives
+      ##### Limits and Continuity
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589237480886
+  fields:
+    Front: |
+      CET-14.02-46 Exercise:
+      #### Partial Derivatives
+      ##### Limits and Continuity
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
