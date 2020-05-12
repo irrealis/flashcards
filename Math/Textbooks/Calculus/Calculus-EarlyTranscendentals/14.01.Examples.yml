@@ -24,6 +24,30 @@ notes:
     Annotations: ''
   tags:
   - ToDo
+- id: 1589310278693
+  fields:
+    Front: |
+      CET-14.01-02 Example:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589310278887
+  fields:
+    Front: |
+      CET-14.01-03 Example:
+      #### Partial Derivatives
+      ##### Functions of Several Variables
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
 - id: 1589134327779
   fields:
     Front: |

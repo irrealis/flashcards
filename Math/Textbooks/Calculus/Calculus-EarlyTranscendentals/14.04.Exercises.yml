@@ -1,0 +1,566 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-14-PartialDerivatives
+  - CET-14.04-TangentPlanesAndLinearApproximations
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589323475917
+  fields:
+    Front: |
+      CET-14.04-01 Exercise:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589323476122
+  fields:
+    Front: |
+      CET-14.04-02 Exercise:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589323476330
+  fields:
+    Front: |
+      CET-14.04-03 Exercise:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589323476514
+  fields:
+    Front: |
+      CET-14.04-04 Exercise:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589323476725
+  fields:
+    Front: |
+      CET-14.04-05 Exercise:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589323476916
+  fields:
+    Front: |
+      CET-14.04-06 Exercise:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589323477115
+  fields:
+    Front: |
+      CET-14.04-07 Exercise:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589323477321
+  fields:
+    Front: |
+      CET-14.04-08 Exercise:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589323477513
+  fields:
+    Front: |
+      CET-14.04-09 Exercise:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589323477697
+  fields:
+    Front: |
+      CET-14.04-10 Exercise:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589323477870
+  fields:
+    Front: |
+      CET-14.04-11 Exercise:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589323478097
+  fields:
+    Front: |
+      CET-14.04-12 Exercise:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589323478280
+  fields:
+    Front: |
+      CET-14.04-13 Exercise:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589323478464
+  fields:
+    Front: |
+      CET-14.04-14 Exercise:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589323478665
+  fields:
+    Front: |
+      CET-14.04-15 Exercise:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589323478842
+  fields:
+    Front: |
+      CET-14.04-16 Exercise:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589323479066
+  fields:
+    Front: |
+      CET-14.04-17 Exercise:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589323479280
+  fields:
+    Front: |
+      CET-14.04-18 Exercise:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589323479465
+  fields:
+    Front: |
+      CET-14.04-19 Exercise:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589323479642
+  fields:
+    Front: |
+      CET-14.04-20 Exercise:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589323479847
+  fields:
+    Front: |
+      CET-14.04-21 Exercise:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589323480047
+  fields:
+    Front: |
+      CET-14.04-22 Exercise:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589323480230
+  fields:
+    Front: |
+      CET-14.04-23 Exercise:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589323480419
+  fields:
+    Front: |
+      CET-14.04-24 Exercise:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589323480619
+  fields:
+    Front: |
+      CET-14.04-25 Exercise:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589323480822
+  fields:
+    Front: |
+      CET-14.04-26 Exercise:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589323481009
+  fields:
+    Front: |
+      CET-14.04-27 Exercise:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589323481198
+  fields:
+    Front: |
+      CET-14.04-28 Exercise:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589323481397
+  fields:
+    Front: |
+      CET-14.04-29 Exercise:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589323481597
+  fields:
+    Front: |
+      CET-14.04-30 Exercise:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589323481847
+  fields:
+    Front: |
+      CET-14.04-31 Exercise:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589323482030
+  fields:
+    Front: |
+      CET-14.04-32 Exercise:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589323482215
+  fields:
+    Front: |
+      CET-14.04-33 Exercise:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589323482410
+  fields:
+    Front: |
+      CET-14.04-34 Exercise:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589323482603
+  fields:
+    Front: |
+      CET-14.04-35 Exercise:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589323482843
+  fields:
+    Front: |
+      CET-14.04-36 Exercise:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589323483030
+  fields:
+    Front: |
+      CET-14.04-37 Exercise:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589323483214
+  fields:
+    Front: |
+      CET-14.04-38 Exercise:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589323483431
+  fields:
+    Front: |
+      CET-14.04-39 Exercise:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589323483630
+  fields:
+    Front: |
+      CET-14.04-40 Exercise:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589323483865
+  fields:
+    Front: |
+      CET-14.04-41 Exercise:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589323484097
+  fields:
+    Front: |
+      CET-14.04-42 Exercise:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589323484296
+  fields:
+    Front: |
+      CET-14.04-43 Exercise:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589323484481
+  fields:
+    Front: |
+      CET-14.04-44 Exercise:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589323484672
+  fields:
+    Front: |
+      CET-14.04-45 Exercise:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589323484868
+  fields:
+    Front: |
+      CET-14.04-46 Exercise:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

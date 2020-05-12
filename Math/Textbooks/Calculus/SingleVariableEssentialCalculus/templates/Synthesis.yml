@@ -19,11 +19,13 @@
     Front: |
       SVEC-XX.XX-XX Synthesis:
       #### Partial Derivatives
-      ##### Partial Derivatives
-      ###### Partial Differential Equations
-      Define .
+      ##### Tangent Planes and Linear Approximations
+      ###### Functions of Three or More Variables
+      Define . List its hypotheses.
     Back: |
-      XXX
+      Hypotheses:
+
+      - 
     Annotations: ''
   tags:
   - Definition
@@ -39,8 +41,8 @@
     Front: |
       SVEC-XX.XX-XX Synthesis:
       #### Partial Derivatives
-      ##### Partial Derivatives
-      ###### Partial Differential Equations
+      ##### Tangent Planes and Linear Approximations
+      ###### Functions of Three or More Variables
       State the . List its hypotheses.
     Back: |
       Hypotheses:

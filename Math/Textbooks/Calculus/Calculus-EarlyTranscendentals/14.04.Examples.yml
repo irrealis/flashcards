@@ -1,0 +1,86 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-14-PartialDerivatives
+  - CET-14.04-TangentPlanesAndLinearApproximations
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589323474593
+  fields:
+    Front: |
+      CET-14.04-1 Example:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589323474817
+  fields:
+    Front: |
+      CET-14.04-2 Example:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589323474998
+  fields:
+    Front: |
+      CET-14.04-3 Example:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589323475168
+  fields:
+    Front: |
+      CET-14.04-4 Example:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589323475381
+  fields:
+    Front: |
+      CET-14.04-5 Example:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589323475598
+  fields:
+    Front: |
+      CET-14.04-6 Example:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

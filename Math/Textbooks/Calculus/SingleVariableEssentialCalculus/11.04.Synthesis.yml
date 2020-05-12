@@ -1,0 +1,287 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Synthesis
+  - SingleVariableEssentialCalculus
+  - SVEC-11-PartialDerivatives
+  - SVEC-11.04-TangentPlanesAndLinearApproximations
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589314315517
+  fields:
+    Front: |
+      SVEC-11.04-01 Synthesis:
+      List the tangent-plane and linear-approximation definitions and theorems.
+    Back: |
+      ###### Tangent Planes
+      Def: **tangent plane**
+      Thm: _unnamed_ **equation of a tangent plane**
+      ###### Linear Approximations
+      Def: **linearization**, **linear approximation**, **tangent plane approximation**
+      Def: **increment**
+      Def: **differentiable**
+      Thm: _unnamed_ **relationship between partials and differentiability**
+      ###### Differentials
+      Def: **differentials** and **total differential**
+      Thm: _unnamed_ **expression of linear approximation in differential notation**
+      Thm: **geometric interpretation of the increment and total differential**
+      ###### Functions of Three or More Variables
+      Def: **linear approximation**, **linearization**, **increment**, **differentiability**, and **differential** of a function of three or more variables
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589314496843
+  media:
+  - path: ¢{file_dir}/images/SVEC-11.04-02.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-11.04-02 Synthesis:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      ###### Tangent Planes
+      Define **tangent plane**.
+    Back: |
+      Suppose a surface $S$ has equation $z=f(x, y),$ where $f$ has continuous first partial derivatives, and let $P\left(x_{0}, y_{0}, z_{0}\right)$ be a point on $S .$ As in the preceding section, let $C_{1}$ and $C_{2}$ be the curves obtained by intersecting the vertical planes $y=y_{0}$ and $x=x_{0}$ with the surface $S .$ Then the point $P$ lies on both $C_{1}$ and $C_{2}$. Let $T_{1}$ and $T_{2}$ be the tangent lines to the curves $C_{1}$ and $C_{2}$ at the point $P .$ Then the **tangent plane** to the surface $S$ at the point $P$ is defined to be the plane that contains both tangent lines $T_{1}$ and $T_{2}$. (See figure below.)
+      <p align="center">
+      ![](SVEC-11.04-02.Sy.1.jpg)
+      _The tangent plane contains the tangent lines $T_{1}$ and $T_{2}.$_
+      </p>
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589314728818
+  fields:
+    Front: |
+      SVEC-11.04-03 Synthesis:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      ###### Tangent Planes
+      State the _unnamed_ **equation of a tangent plane**. List its hypotheses.
+    Back: |
+      Suppose $f(x,y)$ has continuous partial derivatives. An equation of the tangent plane to the surface $z=f(x, y)$ at the point $P\left(x_{0}, y_{0}, z_{0}\right)$ is
+      $$
+      z-z_{0}=f_{x}\left(x_{0}, y_{0}\right)\left(x-x_{0}\right)+f_{y}\left(x_{0}, y_{0}\right)\left(y-y_{0}\right)
+      $$
+      Hypotheses:
+
+      - $f(x,y)$ has continuous partial derivatives.
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589315356968
+  fields:
+    Front: |
+      SVEC-11.04-04 Synthesis:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      ###### Linear Approximations
+      Define **linearization**, **linear approximation**, **tangent plane approximation**. List the relevant hypotheses.
+    Back: |
+      An equation of the tangent plane to the graph of function $f$ of two variables at the point $(a, b, f(a, b))$ is
+      $$
+      z=f(a, b)+f_{x}(a, b)(x-a)+f_{y}(a, b)(y-b)
+      $$ if $f_{x}$ and $f_{y}$ are continuous. The linear function whose graph is this tangent plane, namely
+      $$
+      L(x, y)=f(a, b)+f_{x}(a, b)(x-a)+f_{y}(a, b)(y-b)
+      $$ is called the **linearization** of $f$ at $(a, b),$ and the approximation
+      $$
+      f(x, y) \approx f(a, b)+f_{x}(a, b)(x-a)+f_{y}(a, b)(y-b)
+      $$ is called the **linear approximation** or the **tangent plane approximation** of $f$ at $(a, b).$
+
+      Hypotheses:
+
+      - $f_{x}$ and $f_{y}$ are continuous.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589318573043
+  fields:
+    Front: |
+      SVEC-11.04-05 Synthesis:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      ###### Linear Approximations
+      Define **increment**.
+    Back: |
+      Consider a function of two variables, $z=f(x, y),$ and suppose $x$ changes from $a$ to $a+\Delta x$ and $y$ changes from $b$ to $b+\Delta y .$ Then the corresponding **increment** of $z$ is
+      $$
+      \Delta z=f(a+\Delta x, b+\Delta y)-f(a, b)
+      $$ Thus the increment $\Delta z$ represents the change in the value of $f$ when $(x, y)$ changes from $(a, b)$ to $(a+\Delta x, b+\Delta y) .$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589318573290
+  fields:
+    Front: |
+      SVEC-11.04-06 Synthesis:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      ###### Linear Approximations
+      Define **differentiable**. List its hypotheses.
+    Back: |
+      If $z=f(x, y),$ then $f$ is **differentiable** at $(a, b)$ if $\Delta z$ can be expressed in the form
+      $$
+      \Delta z=f_{x}(a, b) \Delta x+f_{y}(a, b) \Delta y+\varepsilon_{1} \Delta x+\varepsilon_{2} \Delta y
+      $$ where $\varepsilon_{1}$ and $\varepsilon_{2} \rightarrow 0$ as $(\Delta x, \Delta y) \rightarrow(0,0).$
+
+      This says that a differentiable function is one for which the linear approximation is a good approximation when $(x, y)$ is near $(a, b).$ In other words, the tangent plane approximates the graph of $f$ well near the point of tangency.
+
+      Hypotheses:
+
+      - $\Delta z$ can be expressed in the form
+        $$
+        \Delta z=f_{x}(a, b) \Delta x+f_{y}(a, b) \Delta y+\varepsilon_{1} \Delta x+\varepsilon_{2} \Delta y
+        $$ where $\varepsilon_{1}$ and $\varepsilon_{2} \rightarrow 0$ as $(\Delta x, \Delta y) \rightarrow(0,0).$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589318573541
+  fields:
+    Front: |
+      SVEC-11.04-07 Synthesis:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      ###### Linear Approximations
+      State the _unnamed_ **relationship between partials and differentiability**. List its hypotheses.
+    Back: |
+      If the partial derivatives $f_{x}$ and $f_{y}$ exist near $(a, b)$ and are continuous at $(a, b),$ then $f$ is differentiable at $(a, b).$
+
+      Hypotheses:
+
+      - $f_{x}$ and $f_{y}$ exist near $(a, b).$
+      - $f_{x}$ and $f_{y}$ are continuous at $(a, b).$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589319100268
+  fields:
+    Front: |
+      SVEC-11.04-08 Synthesis:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      ###### Differentials
+      Define **differentials** and **total differential**. What are alternate notations for the total differential? List the relevant hypotheses.
+    Back: |
+      For a differentiable function of two variables, $z=f(x, y),$ we define the differentials $d x$ and $d y$ to be independent variables; that is, they can be given any values. Then the differential $d z,$ also called the total differential, is defined by
+      $$
+      d z=f_{x}(x, y) d x+f_{y}(x, y) d y=\frac{\partial z}{\partial x} d x+\frac{\partial z}{\partial y} d y.
+      $$ Sometimes the notation $d f$ is used in place of $d z.$
+
+      Hypotheses:
+
+      - $f$ is differentiable at $(x,y).
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589319846643
+  fields:
+    Front: |
+      SVEC-11.04-09 Synthesis:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      ###### Differentials
+      State the _unnamed_ **expression of linear approximation in differential notation**. List its hypotheses.
+    Back: |
+      If we take $d x=\Delta x=x-a$ and $d y=\Delta y=y-b,$ then the differential of $z = f(x,y)$ at $(a,b)$ is
+      $$
+      \begin{aligned}
+      d z
+      &=f_{x}(a, b)dx + f_{y}(a, b)dy \\
+      &=f_{x}(a, b)(x-a)+f_{y}(a, b)(y-b)
+      \end{aligned}
+      $$ In the notation of differentials, the linear approximation of $f(x,y)$ at $(a,b)$ can then be written as
+      $$
+      \begin{aligned}
+      f(x, y)
+      &\approx f(a, b)+d z \\
+      &= f(a, b) + f_{x}(a, b)dx +f_{y}(a, b)dy \\
+      &= f(a, b) + f_{x}(a, b)(x-a)+f_{y}(a, b)(y-b)
+      \end{aligned}
+      $$
+      Hypotheses:
+
+      - $f$ is differentiable at $(a,b)$.
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589319846898
+  media:
+  - path: ¢{file_dir}/images/SVEC-11.04-10.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-11.04-10 Synthesis:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      ###### Differentials
+      Give the **geometric interpretation of the increment and total differential**.
+    Back: |
+      The following figure shows the geometric interpretation of the differential $d z$ and the increment $\Delta z: d z$ represents the change in height of the tangent plane, whereas $\Delta z$ represents the change in height of the surface $z=f(x, y)$ when $(x, y)$ changes from $(a, b)$ to $(a+\Delta x, b+\Delta y).$
+      <p align="center">
+      ![](SVEC-11.04-10.Sy.1.jpg)
+      </p>
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589320974742
+  fields:
+    Front: |
+      SVEC-11.04-11 Synthesis:
+      #### Partial Derivatives
+      ##### Tangent Planes and Linear Approximations
+      ###### Functions of Three or More Variables
+      Define **linear approximation**, **linearization**, **increment**, **differentiability**, and **differential** of a function of three or more variables. List their hypotheses.
+    Back: |
+      As for functions of two variables, linear approximations, differentiability, and differentials can be defined for functions of more than two variables.
+
+      If $w = f(x_1, \ldots, x_n)$, then $f$ is **differentiable** at $(a_1,\ldots,a_n)$ if the **increment**
+      $$
+      \Delta w = f(a_1 + \Delta x_1, \ldots, a_n + \Delta x_n) - f(a_1, \ldots, a_n)
+      $$ can be expressed in the form
+      $$
+      \begin{aligned}
+      \Delta w
+      &= f_1(a_1, \ldots, a_n) \Delta x_1 + \cdots + f_n(a_1, \ldots, a_n) \Delta x_n \\
+      &+ \varepsilon_1 \Delta x_1 + \cdots + \varepsilon_n \Delta x_n
+      \end{aligned}
+      $$ where $\varepsilon_1, \ldots, \varepsilon_n \rightarrow 0$ as $(\Delta x_1, \ldots, \Delta x_n) \rightarrow \mathbf(0).$
+
+      If the partial derivatives $f_1,\ldots,f_n$ exist and are continuous near $(a_1,\ldots,a_n),$ then $f$ is differentiable at $(a_1,\ldots,a_n).$
+
+      For such functions the **linear approximation** is
+      $$
+      \begin{aligned}
+      f(x_1, \ldots, x_n) 
+      &\approx f(a_1, \ldots, a_n) \\
+      &+ f_1(a_1, \ldots, a_n)(x_1 - a_1) + \cdots + f_n(a_1, \ldots, a_n)(x_n - a_n)
+      \end{aligned}
+      $$ and the **linearization** $L(x_1, \ldots, x_n)$ is the right side of this expression.
+
+      The **total differential** $dw$ is defined in terms of the differentials $dx_1, \ldots, dx_n$ of the independent variables by
+      $$
+      \begin{aligned}
+      dw
+      &= f_1(a_1,\ldots,a_n)dx_1 + \cdots + f_n(a_1,\ldots,a_n)dx_n \\
+      &= \frac{\partial w}{\partial x_1}dx_1 + \cdots + \frac{\partial w}{\partial x_n}dx_n,
+      \end{aligned}
+      $$ and by writing $dx_i = (x_i - a_i),$ the linear approximation can be written in terms of differentials:
+      $$
+      \begin{aligned}
+      f(x_1,\ldots,x_n)
+      &\approx f(a_1,\ldots,a_n) + dw \\
+      &= f(a_1,\ldots,a_n) + \frac{\partial w}{\partial x_1}dx_1 + \cdots + \frac{\partial w}{\partial x_n}dx_n \\
+      &= f(a_1, \ldots, a_n) \\
+      &+ f_1(a_1, \ldots, a_n)(x_1 - a_1) + \cdots + f_n(a_1, \ldots, a_n)(x_n - a_n)
+      \end{aligned}
+      $$
+      Hypotheses:
+
+      - The partial derivatives $f_1,\ldots,f_n$ exist near $(a_1,\ldots,a_n).$
+      - The partial derivatives $f_1,\ldots,f_n$ are continuous near $(a_1,\ldots,a_n).$
+    Annotations: ''
+  tags:
+  - Definition
