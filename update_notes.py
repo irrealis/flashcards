@@ -258,21 +258,21 @@ class NoteSender(object):
 
 
   def extract_defaults(self, data):
-    rt_defs = data.get('defaults', dict())
+    defs = data.get('defaults', dict())
     defaults = dict(
-      skip = rt_defs.get('skip', False),
-      deckName = rt_defs.get('deckName', self.opts.default_deckname),
-      modelName = rt_defs.get('modelName', self.opts.default_modelname),
-      useMarkdown = rt_defs.get('useMarkdown', self.opts.default_md_proc),
-      markdownStyle = rt_defs.get('markdownStyle', self.opts.default_md_style),
-      markdownLineNums = rt_defs.get('markdownLineNums', self.opts.default_md_lineno),
-      markdownTabLength = rt_defs.get('markdownTabLength', self.opts.default_md_tablen),
-      useMarkdownMathExt = rt_defs.get('useMarkdownMathExt', self.opts.default_md_mathext),
-      annotationsField = rt_defs.get('annotationsField', self.opts.default_annfield),
-      extraTags = rt_defs.get('extraTags', list()),
-      fields = rt_defs.get('fields', dict()),
-      media = rt_defs.get('media', list()),
-      stringTemplDelim = rt_defs.get('stringTemplDelim', self.opts.default_string_templ_delim),
+      skip = defs.get('skip', False),
+      deckName = defs.get('deckName', self.opts.default_deckname),
+      modelName = defs.get('modelName', self.opts.default_modelname),
+      useMarkdown = defs.get('useMarkdown', self.opts.default_md_proc),
+      markdownStyle = defs.get('markdownStyle', self.opts.default_md_style),
+      markdownLineNums = defs.get('markdownLineNums', self.opts.default_md_lineno),
+      markdownTabLength = defs.get('markdownTabLength', self.opts.default_md_tablen),
+      useMarkdownMathExt = defs.get('useMarkdownMathExt', self.opts.default_md_mathext),
+      annotationsField = defs.get('annotationsField', self.opts.default_annfield),
+      extraTags = defs.get('extraTags', list()),
+      fields = defs.get('fields', dict()),
+      media = defs.get('media', list()),
+      stringTemplDelim = defs.get('stringTemplDelim', self.opts.default_string_templ_delim),
     )
     return defaults
 
@@ -451,13 +451,18 @@ class NoteSender(object):
           log.info("*** ID: {}".format(note_id))
           log.info("--- Should skip: {}".format(skip))
           log.info("--- Note tags:")
-          log.info(rtyaml.dump(tags))
+          #log.info(yaml.dump(tags))
+          log.info(tags)
           log.info("--- Note annotations:")
-          log.info(rtyaml.dump(query_results.annotations[i]))
+          #log.info(yaml.dump(query_results.annotations[i]))
+          log.info(query_results.annotations[i])
           log.info("--- Note fields:")
-          log.info(rtyaml.dump(fields))
-          log.info("--- Raw fields:")
+          #log.info(yaml.dump(fields))
+          #log.info(fields)
+          #log.info("--- Raw fields:")
           log.info(fields)
+          log.info("--- Note media:")
+          log.info(media)
           log.info("")
           continue
 
@@ -714,7 +719,53 @@ def getopts(defs = None):
   if defs is None: defs = getdefaults()
 
   parser = argparse.ArgumentParser(
-    description = "Update Anki flashcards parsed from YAML."
+    formatter_class = argparse.RawDescriptionHelpFormatter,
+    description = "Update Anki flashcards parsed from YAML.",
+    epilog = """
+    The following fields can be queried:
+
+    - id
+    - fields
+    - tags
+    - rtnote
+    - skip
+    - deckName
+    - modelName
+    - useMarkdown
+    - markdownStyle
+    - markdownLineNums
+    - markdownTabLength
+    - useMarkdownMathExt
+    - annotationsField
+    - stringTemplDelim
+    - media
+    - annotations
+
+    Here's how to query annotations:
+    ```
+    ./update_notes.py demo.yml --query 'annotations != ""' --question
+    ./update_notes.py demo.yml --query 'annotations.str.contains("stuffs")' --question
+    ```
+ 
+    Here's how to query tags:
+    ```
+    ./update_notes.py demo.yml --query 'tags.str.contains(",Editing,")' --question
+    ```
+ 
+    Here's how to query IDs:
+    ```
+    ./update_notes.py demo.yml --query 'id == 0' --question
+    ```
+ 
+    Here's a complex query:
+    ```
+    ./update_notes.py demo.yml --query 'tags.str.contains(",Editing,") or (id == 0) or (annotations != "")' --question
+    ```
+
+    Coding details can be found in
+    kaben@ares:~/Dropbox/Apps/Editorial/Notes_GitHub/181129-0807-mst_math-studies_anki-hacks.md
+    and also in adjacent files.
+    """
   )
   parser.add_argument(
     "-d", "--debug",
