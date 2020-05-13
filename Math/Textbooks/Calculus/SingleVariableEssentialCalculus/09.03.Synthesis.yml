@@ -5,7 +5,7 @@ defaults:
   - Textbooks
   - Math
   - Calculus
-  - Synthesis
+  - Theory
   - SingleVariableEssentialCalculus
   - SVEC-09-ParametricEquationsAndPolarCoordinates
   - SVEC-09.03-PolarCoordinates
@@ -16,7 +16,7 @@ notes:
   skip: true
   fields:
     Front: |
-      SVEC-09.03-00 Synthesis Notes:
+      SVEC-09.03-00 Theory Notes:
       #### Summary of definitions:
       **polar coordinate system**
       **pole**
@@ -38,7 +38,7 @@ notes:
 - id: 1587780060175
   fields:
     Front: |
-      SVEC-09.03-01 Synthesis:
+      SVEC-09.03-01 Theory:
       #### Polar Coordinates
       List the polar-coordinate definitions.
     Back: |
@@ -55,7 +55,7 @@ notes:
 - id: 1587781771800
   fields:
     Front: |
-      SVEC-09.03-02 Synthesis:
+      SVEC-09.03-02 Theory:
       #### Polar Coordinates
       List the polar-coordinate theorems.
     Back: |
@@ -75,7 +75,7 @@ defaults:
   - Textbooks
   - Math
   - Calculus
-  - Synthesis
+  - Theory
   - Definition
   - SingleVariableEssentialCalculus
   - SVEC-09-ParametricEquationsAndPolarCoordinates
@@ -89,7 +89,7 @@ notes:
   - path: ¢{file_dir}/images/SVEC-09.03-03.Sy.2.jpg
   fields:
     Front: |
-      SVEC-09.03-03 Synthesis:
+      SVEC-09.03-03 Theory:
       #### Polar Coordinates
       Define **pole**, **polar axis**, **polar coordinates**, **polar coordinate system**.
     Back: |
@@ -113,7 +113,7 @@ notes:
 - id: 1587782472800
   fields:
     Front: |
-      SVEC-09.03-04 Synthesis:
+      SVEC-09.03-04 Theory:
       #### Polar Coordinates
       Define **graph of a polar equation**.
     Back: |
@@ -125,7 +125,7 @@ notes:
   - path: ¢{file_dir}/images/SVEC-09.03-05.Sy.1.jpg
   fields:
     Front: |
-      SVEC-09.03-05 Synthesis:
+      SVEC-09.03-05 Theory:
       #### Polar Coordinates
       Define **cardioid**.
     Back: |
@@ -140,7 +140,7 @@ notes:
   - path: ¢{file_dir}/images/SVEC-09.03-06.Sy.1.jpg
   fields:
     Front: |
-      SVEC-09.03-06 Synthesis:
+      SVEC-09.03-06 Theory:
       #### Polar Coordinates
       Define **rose**.
     Back: |
@@ -158,7 +158,7 @@ defaults:
   - Textbooks
   - Math
   - Calculus
-  - Synthesis
+  - Theory
   - Theorem
   - SingleVariableEssentialCalculus
   - SVEC-09-ParametricEquationsAndPolarCoordinates
@@ -171,7 +171,7 @@ notes:
   - path: ¢{file_dir}/images/SVEC-09.03-07.Sy.1.jpg
   fields:
     Front: |
-      SVEC-09.03-07 Synthesis:
+      SVEC-09.03-07 Theory:
       #### Polar Coordinates
       State the _unnamed_ **connection between polar and Cartesian coordinates**. List its hypotheses and conclusions.
     Back: |
@@ -200,7 +200,7 @@ notes:
 - id: 1587783506000
   fields:
     Front: |
-      SVEC-09.03-08 Synthesis:
+      SVEC-09.03-08 Theory:
       #### Polar Coordinates
       State the _unnamed_ **procedure to find $r$ and $\theta$ when $x$ and $y$ are known**. List its hypotheses and conclusions.
     Back: |
@@ -232,7 +232,7 @@ notes:
 - id: 1587783786550
   fields:
     Front: |
-      SVEC-09.03-09 Synthesis:
+      SVEC-09.03-09 Theory:
       #### Polar Coordinates
       State the _unnamed_ **properties of $r = \sin(n\theta)$**. List their hypotheses and conclusions.
     Back: |
@@ -263,7 +263,7 @@ notes:
   - path: ¢{file_dir}/images/SVEC-09.03-10.Sy.6.jpg
   fields:
     Front: |
-      SVEC-09.03-10 Synthesis:
+      SVEC-09.03-10 Theory:
       #### Polar Coordinates
       Describe the _unnamed_ **polar functions of the form $r = a + b \sin(\theta)$**.
     Back: |
@@ -298,7 +298,7 @@ notes:
 - id: 1587789226401
   fields:
     Front: |
-      SVEC-09.03-11 Synthesis:
+      SVEC-09.03-11 Theory:
       #### Polar Coordinates
       Give the **formula for polar tangents**. State the _unnamed_ **procedure to find tangent to a polar curve $r = f(\theta)$**. List its hypotheses and conclusions.
     Back: |

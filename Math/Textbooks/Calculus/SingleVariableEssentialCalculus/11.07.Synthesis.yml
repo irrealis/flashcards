@@ -5,7 +5,7 @@ defaults:
   - Textbooks
   - Math
   - Calculus
-  - Synthesis
+  - Theory
   - SingleVariableEssentialCalculus
   - SVEC-11-PartialDerivatives
   - SVEC-11.07-MaximumAndMinimumValues
@@ -15,7 +15,7 @@ notes:
 - id: 1589406794071
   fields:
     Front: |
-      SVEC-11.07.01 Synthesis:
+      SVEC-11.07.01 Theory:
       #### Partial Derivatives
       ##### Maximum and Minimum Values
       List the extrema definitions and theorems.
@@ -39,7 +39,7 @@ notes:
 - id: 1589406794322
   fields:
     Front: |
-      SVEC-11.07.02 Synthesis:
+      SVEC-11.07.02 Theory:
       #### Partial Derivatives
       ##### Maximum and Minimum Values
       Define **local/absolute minima/maxima**, **local/absolute minimum/maximum value**, **extrema**.
@@ -57,7 +57,7 @@ notes:
 - id: 1589407172897
   fields:
     Front: |
-      SVEC-11.07.03 Synthesis:
+      SVEC-11.07.03 Theory:
       #### Partial Derivatives
       ##### Maximum and Minimum Values
       State the _unnamed_ **values of partials at local extrema** and their geometric interpretation. List their hypotheses.
@@ -83,7 +83,7 @@ notes:
 - id: 1589407615747
   fields:
     Front: |
-      SVEC-11.07.04 Synthesis:
+      SVEC-11.07.04 Theory:
       #### Partial Derivatives
       ##### Maximum and Minimum Values
       Define **critical point**, and give an alternate name. List its hypotheses.
@@ -99,7 +99,7 @@ notes:
 - id: 1589408144347
   fields:
     Front: |
-      SVEC-11.07.05 Synthesis:
+      SVEC-11.07.05 Theory:
       #### Partial Derivatives
       ##### Maximum and Minimum Values
       Define **saddle point**, and give an alternate name. List its hypotheses.
@@ -116,7 +116,7 @@ notes:
 - id: 1589409169522
   fields:
     Front: |
-      SVEC-11.07.06 Synthesis:
+      SVEC-11.07.06 Theory:
       #### Partial Derivatives
       ##### Maximum and Minimum Values
       State the **Second Derivatives Test**. List its hypotheses.
@@ -150,7 +150,7 @@ notes:
 - id: 1589409897572
   fields:
     Front: |
-      SVEC-11.07.07 Synthesis:
+      SVEC-11.07.07 Theory:
       #### Partial Derivatives
       ###### Absolute Maximum and Minimum Values
       Define **boundary point**.
@@ -165,7 +165,7 @@ notes:
   - path: ¢{file_dir}/images/SVEC-11.07.08.Sy.2.jpg
   fields:
     Front: |
-      SVEC-11.07.08 Synthesis:
+      SVEC-11.07.08 Theory:
       #### Partial Derivatives
       ###### Absolute Maximum and Minimum Values
       Define **closed set**.
@@ -190,7 +190,7 @@ notes:
 - id: 1589410062597
   fields:
     Front: |
-      SVEC-11.07.09 Synthesis:
+      SVEC-11.07.09 Theory:
       #### Partial Derivatives
       ###### Absolute Maximum and Minimum Values
       Define **bounded set**.
@@ -202,7 +202,7 @@ notes:
 - id: 1589410175546
   fields:
     Front: |
-      SVEC-11.07.10 Synthesis:
+      SVEC-11.07.10 Theory:
       #### Partial Derivatives
       ###### Absolute Maximum and Minimum Values
       State the **Extreme Value Theorem** for functions of two variables. List its hypotheses.
@@ -218,7 +218,7 @@ notes:
 - id: 1589410416397
   fields:
     Front: |
-      SVEC-11.07.11 Synthesis:
+      SVEC-11.07.11 Theory:
       #### Partial Derivatives
       ###### Absolute Maximum and Minimum Values
       State the _unnamed_ **characterization of extrema**. List its hypotheses.
@@ -234,7 +234,7 @@ notes:
 - id: 1589410581246
   fields:
     Front: |
-      SVEC-11.07.12 Synthesis:
+      SVEC-11.07.12 Theory:
       #### Partial Derivatives
       ###### Absolute Maximum and Minimum Values
       State the **Extended Closed Interval Method**. List its hypotheses.

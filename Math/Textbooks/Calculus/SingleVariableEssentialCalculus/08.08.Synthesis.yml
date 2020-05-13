@@ -5,7 +5,7 @@ defaults:
   - Textbooks
   - Math
   - Calculus
-  - Synthesis
+  - Theory
   - SingleVariableEssentialCalculus
   - SVEC-08-Series
   - SVEC-08.08-ApplicationsOfTaylorPolynomials
@@ -16,7 +16,7 @@ notes:
   skip: true
   fields:
     Front: |
-      SVEC-08.08-00 Synthesis Notes:
+      SVEC-08.08-00 Theory Notes:
       #### Summary of definitions:
       #### Summary of theorems:
 
@@ -27,7 +27,7 @@ notes:
 - id: 1586143569767
   fields:
     Front: |
-      SVEC-08.08-01 Synthesis:
+      SVEC-08.08-01 Theory:
       #### Applications of Taylor Polynomials
       What are three methods for estimating the size of the error of a Taylor approximation?
     Back: |
@@ -41,7 +41,10 @@ notes:
       $$
       R_{n}(x)=\frac{f^{(n+1)}(z)}{(n+1) !}(x-a)^{n+1}
       $$ where $z$ is a number that lies between $x$ and $a.$
-    Annotations: ''
+    Annotations: 'Memorize:<div>- 200409-1603: in first method, the thing to graph
+      is \(\|R_n\|.\)</div><div><br></div><div>Trouble:</div><div><div>- 200412-1954:
+      memory: conflating TRT and TF conclusions.</div></div>'
   tags:
-  - Theorems
   - Editing
+  - Theorems
+  - ann:memorize

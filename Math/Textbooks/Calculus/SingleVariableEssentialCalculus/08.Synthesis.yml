@@ -5,7 +5,7 @@ defaults:
   - Textbooks
   - Math
   - Calculus
-  - Synthesis
+  - Theory
   - SingleVariableEssentialCalculus
   - SVEC-08-Series
   markdownTabLength: 2
@@ -15,7 +15,7 @@ notes:
   skip: true
   fields:
     Front: |
-      SVEC-08-00 Synthesis Notes:
+      SVEC-08-00 Theory Notes:
       #### Summary of series-convergence tests:
 
       1. **Divergence Test**
@@ -36,7 +36,7 @@ notes:
 - id: 1585083223016
   fields:
     Front: |
-      SVEC-08-01 Synthesis:
+      SVEC-08-01 Theory:
       #### Series Convergence Tests:
       List the Series Convergence Tests.
     Back: |
@@ -55,7 +55,7 @@ notes:
 - id: 1585086759566
   fields:
     Front: |
-      SVEC-08-02 Synthesis:
+      SVEC-08-02 Theory:
       #### Series Convergence Tests:
       State the **Divergence Test.** List its conditions for application, convergence, divergence, and inconclusive results. When should it be considered?
     Back: |
@@ -73,12 +73,15 @@ notes:
 
       **When:**
       Consider for any series.
-    Annotations: ''
-  tags: []
+    Annotations: "Minor trouble:<div>- 200415-0136: can in fact consider its use for\
+      \ any series; I said \"only when term seq obviously doesn't converge to zero\"\
+      .</div>"
+  tags:
+  - ann:minor-trouble
 - id: 1585087432606
   fields:
     Front: |
-      SVEC-08-03 Synthesis:
+      SVEC-08-03 Theory:
       #### Series Convergence Tests:
       State the **Geometric Series Test.** List its conditions for application, convergence, divergence, and inconclusive results. When should it be considered?
     Back: |
@@ -101,7 +104,7 @@ notes:
 - id: 1585088520315
   fields:
     Front: |
-      SVEC-08-04 Synthesis:
+      SVEC-08-04 Theory:
       #### Series Convergence Tests:
       State the **$p$-Series Test.** List its conditions for application, convergence, divergence, and inconclusive results. When should it be considered?
     Back: |
@@ -125,7 +128,7 @@ notes:
 - id: 1585087910741
   fields:
     Front: |
-      SVEC-08-05 Synthesis:
+      SVEC-08-05 Theory:
       #### Series Convergence Tests:
       State the **Telescoping Series Test.** List its conditions for application, convergence, divergence, and inconclusive results. When should it be considered?
     Back: |
@@ -149,7 +152,7 @@ notes:
 - id: 1585089571441
   fields:
     Front: |
-      SVEC-08-06 Synthesis:
+      SVEC-08-06 Theory:
       #### Series Convergence Tests:
       State the **Integral Test.** List its conditions for application, convergence, divergence, and inconclusive results. When should it be considered?
     Back: |
@@ -173,12 +176,20 @@ notes:
 
       **When:**
       Consider when $f$ is continuous, positive, ultimately decreasing, and looks integrable.
-    Annotations: ''
-  tags: []
+    Annotations: "Trouble:<div>- 200415-0152: memory: I said \\(f\\) should be&nbsp;<i>ultimately</i>&nbsp;positive,\
+      \ but \\(n_0\\) should be chosen so \\(f\\) is <i>always</i>&nbsp;positive on\
+      \ \\([n_0,\\infty).\\)</div><div><br></div><div>Questions:</div><div>- 200415-0152:\
+      \ wrt above note: isn't this a matter of choice of \\(n_0?\\) that is, if \\\
+      (n_0\\) can be chosen s.t. \\(f\\) is positive on \\([n_0,\\infty)\\) then isn't\
+      \ it <i>ultimately</i>&nbsp;positive? Are there conditions under which an integrable\
+      \ function is ultimately positive but no such \\(n_0\\) can be identified?</div>"
+  tags:
+  - ann:questions
+  - ann:trouble
 - id: 1585089808465
   fields:
     Front: |
-      SVEC-08-07 Synthesis:
+      SVEC-08-07 Theory:
       #### Series Convergence Tests:
       State the **Direct Comparison Test.** List its conditions for application, convergence, divergence, and inconclusive results. When should it be considered?
     Back: |
@@ -210,7 +221,7 @@ notes:
 - id: 1585090303341
   fields:
     Front: |
-      SVEC-08-08 Synthesis:
+      SVEC-08-08 Theory:
       #### Series Convergence Tests:
       State the **Limit Comparison Test.** List its conditions for application, convergence, divergence, and inconclusive results. When should it be considered?
     Back: |
@@ -238,13 +249,16 @@ notes:
       - $\sum a_n$ is similar to geometric or $p$ series.
       - In particular, if $a_n$ is rational or algebraic wrt $n$ then compare with $p$ series.
       - The problem suggests dominance argument.
-    Annotations: ''
+    Annotations: 'Trouble:<div>- 200415-0233: memory: numerous small details surrounding:</div><div>&nbsp;
+      - Suggested use</div><div>&nbsp; - Loosened constraints for \(\lim_{n \to \infty}
+      a_n/b_n\)</div>'
   tags:
   - Editing
+  - ann:trouble
 - id: 1585091126941
   fields:
     Front: |
-      SVEC-08-09 Synthesis:
+      SVEC-08-09 Theory:
       #### Series Convergence Tests:
       State the **Alternating Series Test.** List its conditions for application, convergence, divergence, and inconclusive results. When should it be considered?
     Back: |
@@ -269,7 +283,7 @@ notes:
 - id: 1585091287116
   fields:
     Front: |
-      SVEC-08-10 Synthesis:
+      SVEC-08-10 Theory:
       #### Series Convergence Tests:
       State the **Ratio Test.** List its conditions for application, convergence, divergence, and inconclusive results. When should it be considered?
     Back: |
@@ -292,7 +306,7 @@ notes:
 - id: 1585091402015
   fields:
     Front: |
-      SVEC-08-11 Synthesis:
+      SVEC-08-11 Theory:
       #### Series Convergence Tests:
       State the **Root Test.** List its conditions for application, convergence, divergence, and inconclusive results. When should it be considered?
     Back: |

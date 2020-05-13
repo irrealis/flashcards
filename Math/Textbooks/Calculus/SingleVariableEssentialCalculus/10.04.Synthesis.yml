@@ -5,7 +5,7 @@ defaults:
   - Textbooks
   - Math
   - Calculus
-  - Synthesis
+  - Theory
   - SingleVariableEssentialCalculus
   - SVEC-10-VectorsAndTheGeometryOfSpace
   - SVEC-10.04-TheCrossProduct
@@ -16,7 +16,7 @@ notes:
   skip: true
   fields:
     Front: |
-      SVEC-10.04-00 Synthesis Notes:
+      SVEC-10.04-00 Theory Notes:
       Def: **cross product**. What its other common name? When is it defined?
       Def: **determinant of order 2**, **determinant of order 3**
       Thm: **definition of cross product using determinants**
@@ -37,7 +37,7 @@ notes:
 - id: 1588968641760
   fields:
     Front: |
-      SVEC-10.04-01 Synthesis:
+      SVEC-10.04-01 Theory:
       #### Vectors and the Geometry of Space
       ##### The Cross Product
       List the cross-product definitions and theorems.
@@ -62,7 +62,7 @@ notes:
 - id: 1588884729510
   fields:
     Front: |
-      SVEC-10.04-02 Synthesis:
+      SVEC-10.04-02 Theory:
       #### Vectors and the Geometry of Space
       ##### The Cross Product
       Define **cross product**. What its other common name? When is it defined?
@@ -80,7 +80,7 @@ notes:
 - id: 1588885031735
   fields:
     Front: |
-      SVEC-10.04-03 Synthesis:
+      SVEC-10.04-03 Theory:
       #### Vectors and the Geometry of Space
       ##### The Cross Product
       Define **determinant of order 2** and **determinant of order 3**.
@@ -114,7 +114,7 @@ notes:
 - id: 1588885454240
   fields:
     Front: |
-      SVEC-10.04-04 Synthesis:
+      SVEC-10.04-04 Theory:
       #### Vectors and the Geometry of Space
       ##### The Cross Product
       State the _unnamed_ **definition of cross product using determinants**. List its hypotheses.
@@ -149,7 +149,7 @@ notes:
 - id: 1588886442234
   fields:
     Front: |
-      SVEC-10.04-05 Synthesis:
+      SVEC-10.04-05 Theory:
       #### Vectors and the Geometry of Space
       ##### The Cross Product
       State the _unnamed_ **theorem of cross product orthogonality**.
@@ -163,7 +163,7 @@ notes:
   - path: ¢{file_dir}/images/SVEC-10.04-05.Sy.1.jpg
   fields:
     Front: |
-      SVEC-10.04-06 Synthesis:
+      SVEC-10.04-06 Theory:
       #### Vectors and the Geometry of Space
       ##### The Cross Product
       State the **right-hand rule for cross products**. What are its hypotheses?
@@ -182,7 +182,7 @@ notes:
 - id: 1588886443509
   fields:
     Front: |
-      SVEC-10.04-07 Synthesis:
+      SVEC-10.04-07 Theory:
       #### Vectors and the Geometry of Space
       ##### The Cross Product
       State the _unnamed_ **expression of cross product in terms of sine**. List its hypotheses.
@@ -200,7 +200,7 @@ notes:
 - id: 1588886623234
   fields:
     Front: |
-      SVEC-10.04-08 Synthesis:
+      SVEC-10.04-08 Theory:
       #### Vectors and the Geometry of Space
       ##### The Cross Product
       State the _unnamed_ **relationship between parallelism and cross product**.
@@ -217,7 +217,7 @@ notes:
   - path: ¢{file_dir}/images/SVEC-10.04-08.Sy.1.jpg
   fields:
     Front: |
-      SVEC-10.04-09 Synthesis:
+      SVEC-10.04-09 Theory:
       #### Vectors and the Geometry of Space
       ##### The Cross Product
       State the _unnamed_ **relationship between cross product and parallelogram area**.
@@ -238,7 +238,7 @@ notes:
 - id: 1588887935659
   fields:
     Front: |
-      SVEC-10.04-10 Synthesis:
+      SVEC-10.04-10 Theory:
       #### Vectors and the Geometry of Space
       ##### The Cross Product
       State the **Properties of the Cross Product**.
@@ -256,7 +256,7 @@ notes:
 - id: 1588888087059
   fields:
     Front: |
-      SVEC-10.04-11 Synthesis:
+      SVEC-10.04-11 Theory:
       #### Vectors and the Geometry of Space
       ##### The Cross Product
       Define **scalar triple product**.
@@ -277,7 +277,7 @@ notes:
   - path: ¢{file_dir}/images/SVEC-10.04-11.Sy.1.jpg
   fields:
     Front: |
-      SVEC-10.04-12 Synthesis:
+      SVEC-10.04-12 Theory:
       #### Vectors and the Geometry of Space
       ##### The Cross Product
       State the _unnamed_ **relationship between scalar triple product and parallelepiped volume**.
@@ -300,7 +300,7 @@ notes:
 - id: 1588888567984
   fields:
     Front: |
-      SVEC-10.04-13 Synthesis:
+      SVEC-10.04-13 Theory:
       #### Vectors and the Geometry of Space
       ##### The Cross Product
       State the _unnamed_ **relationship between scalar triple product, parallelepiped volume, and coplanarity**.
@@ -312,7 +312,7 @@ notes:
 - id: 1588888693935
   fields:
     Front: |
-      SVEC-10.04-14 Synthesis:
+      SVEC-10.04-14 Theory:
       #### Vectors and the Geometry of Space
       ##### The Cross Product
       Define **vector triple product**.
@@ -326,7 +326,7 @@ notes:
   - path: ¢{file_dir}/images/SVEC-10.04-14.Sy.1.jpg
   fields:
     Front: |
-      SVEC-10.04-15 Synthesis:
+      SVEC-10.04-15 Theory:
       #### Vectors and the Geometry of Space
       ##### The Cross Product
       Define **torque**. What is its magnitude?

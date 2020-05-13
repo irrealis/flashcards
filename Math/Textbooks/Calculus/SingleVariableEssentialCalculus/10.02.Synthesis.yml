@@ -5,7 +5,7 @@ defaults:
   - Textbooks
   - Math
   - Calculus
-  - Synthesis
+  - Theory
   - SingleVariableEssentialCalculus
   - SVEC-10-VectorsAndTheGeometryOfSpace
   - SVEC-10.02-Vectors
@@ -16,7 +16,7 @@ notes:
   skip: true
   fields:
     Front: |
-      SVEC-10.02-00 Synthesis Notes:
+      SVEC-10.02-00 Theory Notes:
       Definition: **vector**
       Definition: **displacement vector**, **initial point**, **terminal point**, **equivalent**
       Definition: **zero vector**
@@ -44,7 +44,7 @@ notes:
 - id: 1588784959360
   fields:
     Front: |
-      SVEC-10.02-01 Synthesis:
+      SVEC-10.02-01 Theory:
       #### Vectors and the Geometry of Space
       ##### Vectors
       List the vector definitions and theorems.
@@ -77,7 +77,7 @@ notes:
 - id: 1588785113072
   fields:
     Front: |
-      SVEC-10.02-02 Synthesis:
+      SVEC-10.02-02 Theory:
       #### Vectors and the Geometry of Space
       ##### Vectors
       List the vector theorems.
@@ -94,7 +94,7 @@ notes:
 - id: 1588785310834
   fields:
     Front: |
-      SVEC-10.02-03 Synthesis:
+      SVEC-10.02-03 Theory:
       #### Vectors and the Geometry of Space
       ##### Vectors
       Define **vector**. How is a vector denoted?
@@ -108,7 +108,7 @@ notes:
   - path: ¢{file_dir}/images/SVEC-10.02-04.Sy.1.jpg
   fields:
     Front: |
-      SVEC-10.02-04 Synthesis:
+      SVEC-10.02-04 Theory:
       #### Vectors and the Geometry of Space
       ##### Vectors
       Define **displacement vector**, **initial point**, **terminal point**, **equivalent**.
@@ -125,7 +125,7 @@ notes:
 - id: 1588785869589
   fields:
     Front: |
-      SVEC-10.02-05 Synthesis:
+      SVEC-10.02-05 Theory:
       #### Vectors and the Geometry of Space
       ##### Vectors
       Define **zero vector**.
@@ -137,7 +137,7 @@ notes:
 - id: 1588786204909
   fields:
     Front: |
-      SVEC-10.02-06 Synthesis:
+      SVEC-10.02-06 Theory:
       #### Vectors and the Geometry of Space
       ##### Vectors
       ###### Combining Vectors
@@ -154,7 +154,7 @@ notes:
   - path: ¢{file_dir}/images/SVEC-10.02-07.Sy.2.jpg
   fields:
     Front: |
-      SVEC-10.02-07 Synthesis:
+      SVEC-10.02-07 Theory:
       #### Vectors and the Geometry of Space
       ##### Vectors
       ###### Combining Vectors
@@ -179,7 +179,7 @@ notes:
   - path: ¢{file_dir}/images/SVEC-10.02-08.Sy.1.jpg
   fields:
     Front: |
-      SVEC-10.02-08 Synthesis:
+      SVEC-10.02-08 Theory:
       #### Vectors and the Geometry of Space
       ##### Vectors
       ###### Combining Vectors
@@ -204,7 +204,7 @@ notes:
   - path: ¢{file_dir}/images/SVEC-10.02-09.Sy.2.jpg
   fields:
     Front: |
-      SVEC-10.02-09 Synthesis:
+      SVEC-10.02-09 Theory:
       #### Vectors and the Geometry of Space
       ##### Vectors
       ###### Combining Vectors
@@ -230,7 +230,7 @@ notes:
   - path: ¢{file_dir}/images/SVEC-10.02-10.Sy.2.jpg
   fields:
     Front: |
-      SVEC-10.02-10 Synthesis:
+      SVEC-10.02-10 Theory:
       #### Vectors and the Geometry of Space
       ##### Vectors
       ###### Components
@@ -260,7 +260,7 @@ notes:
 - id: 1588788049184
   fields:
     Front: |
-      SVEC-10.02-11 Synthesis:
+      SVEC-10.02-11 Theory:
       #### Vectors and the Geometry of Space
       ##### Vectors
       ###### Components
@@ -276,7 +276,7 @@ notes:
   - path: ¢{file_dir}/images/SVEC-10.02-12.Sy.2.jpg
   fields:
     Front: |
-      SVEC-10.02-12 Synthesis:
+      SVEC-10.02-12 Theory:
       #### Vectors and the Geometry of Space
       ##### Vectors
       ###### Components
@@ -305,7 +305,7 @@ notes:
 - id: 1588789267310
   fields:
     Front: |
-      SVEC-10.02-13 Synthesis:
+      SVEC-10.02-13 Theory:
       #### Vectors and the Geometry of Space
       ##### Vectors
       ###### Components
@@ -318,7 +318,7 @@ notes:
 - id: 1588789267534
   fields:
     Front: |
-      SVEC-10.02-14 Synthesis:
+      SVEC-10.02-14 Theory:
       #### Vectors and the Geometry of Space
       ##### Vectors
       ###### Components
@@ -337,7 +337,7 @@ notes:
 - id: 1588789572309
   fields:
     Front: |
-      SVEC-10.02-15 Synthesis:
+      SVEC-10.02-15 Theory:
       #### Vectors and the Geometry of Space
       ##### Vectors
       ###### Components
@@ -364,7 +364,7 @@ notes:
 - id: 1588789726310
   fields:
     Front: |
-      SVEC-10.02-16 Synthesis:
+      SVEC-10.02-16 Theory:
       #### Vectors and the Geometry of Space
       ##### Vectors
       ###### Components
@@ -389,7 +389,7 @@ notes:
   - path: ¢{file_dir}/images/SVEC-10.02-17.Sy.2.jpg
   fields:
     Front: |
-      SVEC-10.02-17 Synthesis:
+      SVEC-10.02-17 Theory:
       #### Vectors and the Geometry of Space
       ##### Vectors
       ###### Components
@@ -413,7 +413,7 @@ notes:
 - id: 1588790374536
   fields:
     Front: |
-      SVEC-10.02-18 Synthesis:
+      SVEC-10.02-18 Theory:
       #### Vectors and the Geometry of Space
       ##### Vectors
       ###### Components
@@ -434,7 +434,7 @@ notes:
 - id: 1588790637935
   fields:
     Front: |
-      SVEC-10.02-19 Synthesis:
+      SVEC-10.02-19 Theory:
       #### Vectors and the Geometry of Space
       ##### Vectors
       ###### Components
@@ -448,7 +448,7 @@ notes:
 - id: 1588790638155
   fields:
     Front: |
-      SVEC-10.02-20 Synthesis:
+      SVEC-10.02-20 Theory:
       #### Vectors and the Geometry of Space
       ##### Vectors
       ###### Components
@@ -467,7 +467,7 @@ notes:
 - id: 1588790766185
   fields:
     Front: |
-      SVEC-10.02-21 Synthesis:
+      SVEC-10.02-21 Theory:
       #### Vectors and the Geometry of Space
       ##### Vectors
       ###### Applications

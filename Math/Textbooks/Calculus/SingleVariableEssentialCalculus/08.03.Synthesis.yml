@@ -5,7 +5,7 @@ defaults:
   - Textbooks
   - Math
   - Calculus
-  - Synthesis
+  - Theory
   - SingleVariableEssentialCalculus
   - SVEC-08-Series
   - SVEC-08.03-TheIntegralAndComparisonTests
@@ -16,7 +16,7 @@ notes:
   skip: true
   fields:
     Front: |
-      SVEC-08.03-00 Synthesis Notes:
+      SVEC-08.03-00 Theory Notes:
       #### Summary of definitions:
 
       - **$p$-series**
@@ -33,7 +33,7 @@ notes:
 - id: 1584661606891
   fields:
     Front: |
-      SVEC-08.03-01 Synthesis:
+      SVEC-08.03-01 Theory:
       ##### Integral and Comparison Tests:
       List the integral- and comparison-test definitions.
     Back: |
@@ -44,7 +44,7 @@ notes:
 - id: 1584661720566
   fields:
     Front: |
-      SVEC-08.03-02 Synthesis:
+      SVEC-08.03-02 Theory:
       ##### Integral and Comparison Tests:
       List the integral- and comparison-test theorems.
     Back: |
@@ -63,7 +63,7 @@ defaults:
   - Textbooks
   - Math
   - Calculus
-  - Synthesis
+  - Theory
   - Definition
   - SingleVariableEssentialCalculus
   - SVEC-08-Series
@@ -74,7 +74,7 @@ notes:
 - id: 1584661927116
   fields:
     Front: |
-      SVEC-08.03-03 Synthesis:
+      SVEC-08.03-03 Theory:
       ##### Integral and Comparison Tests
       Define **$p$-series.**
     Back: |
@@ -92,7 +92,7 @@ defaults:
   - Textbooks
   - Math
   - Calculus
-  - Synthesis
+  - Theory
   - Theorem
   - SingleVariableEssentialCalculus
   - SVEC-08-Series
@@ -103,7 +103,7 @@ notes:
 - id: 1584662742741
   fields:
     Front: |
-      SVEC-08.03-04 Synthesis:
+      SVEC-08.03-04 Theory:
       ##### Integral and Comparison Tests
       State the **Integral Test.** List its hypotheses and conclusions.
     Back: |
@@ -126,12 +126,15 @@ notes:
 
       - $\sum_{n=1}^{\infty} a_{n}$ converges iff $\int_{1}^{\infty} f(x) dx$ converges.
         - (Actually, $\sum_{n=n_0}^{\infty} a_{n}$ converges iff $\int_{n_0}^{\infty} f(x) dx$ converges.)
-    Annotations: ''
-  tags: []
+    Annotations: 'Trouble:<div>- 200414-2332: memory: wrote \(\{a_n\}\) ultimately
+      pos, dec. Wrong, must be \(f(x)\) pos, dec since this implies same for \(\{a_n\}\)
+      but converse not necessarily true.</div>'
+  tags:
+  - ann:trouble
 - id: 1584663101991
   fields:
     Front: |
-      SVEC-08.03-05 Synthesis:
+      SVEC-08.03-05 Theory:
       ##### Integral and Comparison Tests
       State the **$p$-Series Test.** List its hypotheses and conclusions.
     Back: |
@@ -149,7 +152,7 @@ notes:
 - id: 1584663623015
   fields:
     Front: |
-      SVEC-08.03-06 Synthesis:
+      SVEC-08.03-06 Theory:
       ##### Integral and Comparison Tests
       State the **Direct Comparison Test.** List its hypotheses and conclusions. What series are most often used for comparison?
     Back: |
@@ -171,12 +174,14 @@ notes:
 
       - If $\sum b_n$ is convergent then $\sum a_n$ is convergent.
         - Contrapositively, if $\sum a_n$ is divergent then $\sum b_n$ is divergent.
-    Annotations: ''
-  tags: []
+    Annotations: "Trouble:<div>- 200414-2338: memory: assumed bounded required, but\
+      \ it isn't.</div>"
+  tags:
+  - ann:trouble
 - id: 1584663997541
   fields:
     Front: |
-      SVEC-08.03-07 Synthesis:
+      SVEC-08.03-07 Theory:
       ##### Integral and Comparison Tests
       State the **Limit Comparison Test.** List its hypotheses and conclusions.
     Back: |
@@ -193,5 +198,6 @@ notes:
       Conclusions:
 
       - $\sum a_{n}$ converges iff $\sum b_{n}$ converges.
-    Annotations: ''
-  tags: []
+    Annotations: 'Trouble:<br><div>- 200414-2351: memory: forgot hypotheses.</div>'
+  tags:
+  - ann:trouble

@@ -5,7 +5,7 @@ defaults:
   - Textbooks
   - Math
   - Calculus
-  - Synthesis
+  - Theory
   - SingleVariableEssentialCalculus
   - SVEC-08-Series
   - SVEC-08.05-PowerSeries
@@ -16,7 +16,7 @@ notes:
   skip: true
   fields:
     Front: |
-      SVEC-08.05-00 Synthesis Notes:
+      SVEC-08.05-00 Theory Notes:
       #### Summary of definitions:
 
       1. **power series**, **power series centered at $a$**, **coefficients**
@@ -33,7 +33,7 @@ notes:
 - id: 1585678204640
   fields:
     Front: |
-      SVEC-08.05-01 Synthesis:
+      SVEC-08.05-01 Theory:
       #### Power Series
       List the power-series definitions.
     Back: |
@@ -45,7 +45,7 @@ notes:
 - id: 1585678204818
   fields:
     Front: |
-      SVEC-08.05-02 Synthesis:
+      SVEC-08.05-02 Theory:
       #### Power Series
       List the power-series theorems.
     Back: |
@@ -62,7 +62,7 @@ defaults:
   - Textbooks
   - Math
   - Calculus
-  - Synthesis
+  - Theory
   - Definition
   - SingleVariableEssentialCalculus
   - SVEC-08-Series
@@ -73,7 +73,7 @@ notes:
 - id: 1585678488091
   fields:
     Front: |
-      SVEC-08.05-03 Synthesis:
+      SVEC-08.05-03 Theory:
       #### Power Series
       Define **power series**, **power series centered at $a$**, and **coefficients**.
     Back: |
@@ -93,7 +93,7 @@ notes:
 - id: 1585678845617
   fields:
     Front: |
-      SVEC-08.05-04 Synthesis:
+      SVEC-08.05-04 Theory:
       #### Power Series
       Define **radius and interval of convergence**.
     Back: |
@@ -115,7 +115,7 @@ defaults:
   - Textbooks
   - Math
   - Calculus
-  - Synthesis
+  - Theory
   - Theorem
   - SingleVariableEssentialCalculus
   - SVEC-08-Series
@@ -126,7 +126,7 @@ notes:
 - id: 1585679074541
   fields:
     Front: |
-      SVEC-08.05-05 Synthesis:
+      SVEC-08.05-05 Theory:
       #### Power Series
       State the _Unnamed_ **RoC/IoC Possibilities Theorem**. List its hypotheses and conclusions.
     Back: |
@@ -149,10 +149,12 @@ notes:
 - id: 1585679237892
   fields:
     Front: |
-      SVEC-08.05-06 Synthesis:
+      SVEC-08.05-06 Theory:
       #### Power Series
       State the _Unnamed_ **RoC/IoC Determination Methods**.
     Back: |
       The Ratio Test (or sometimes the Root Test) should be used to determine the radius of convergence $R$ in most cases. The Ratio and Root Tests always fail when $x$ is an endpoint of the interval of convergence, so the endpoints must be checked with some other test.
-    Annotations: ''
-  tags: []
+    Annotations: 'Minor trouble:<div>- 200415-0038: forgot to include endpoints. Considering
+      minor because I do in fact know this.</div>'
+  tags:
+  - ann:minor-trouble

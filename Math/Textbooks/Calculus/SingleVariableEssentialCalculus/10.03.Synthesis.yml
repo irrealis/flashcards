@@ -5,7 +5,7 @@ defaults:
   - Textbooks
   - Math
   - Calculus
-  - Synthesis
+  - Theory
   - SingleVariableEssentialCalculus
   - SVEC-10-VectorsAndTheGeometryOfSpace
   - SVEC-10.03-TheDotProduct
@@ -16,7 +16,7 @@ notes:
   skip: true
   fields:
     Front: |
-      SVEC-10.03-00 Synthesis Notes:
+      SVEC-10.03-00 Theory Notes:
       Def: **dot product**
       Thm: **Properties of the Dot Product**
       Thm: _unnamed_ **expression of dot product in terms of cosine**
@@ -34,7 +34,7 @@ notes:
 - id: 1588968474660
   fields:
     Front: |
-      SVEC-10.03-01 Synthesis:
+      SVEC-10.03-01 Theory:
       #### Vectors and the Geometry of Space
       ##### The Dot Product
       List the dot-product definitions and theorems.
@@ -55,7 +55,7 @@ notes:
 - id: 1588880857585
   fields:
     Front: |
-      SVEC-10.03-02 Synthesis:
+      SVEC-10.03-02 Theory:
       #### Vectors and the Geometry of Space
       ##### The Dot Product
       Define **dot product**. What are two of its other common names?
@@ -71,7 +71,7 @@ notes:
 - id: 1588880971034
   fields:
     Front: |
-      SVEC-10.03-03 Synthesis:
+      SVEC-10.03-03 Theory:
       #### Vectors and the Geometry of Space
       ##### The Dot Product
       State the **Properties of the Dot Product**.
@@ -88,7 +88,7 @@ notes:
 - id: 1588881060935
   fields:
     Front: |
-      SVEC-10.03-04 Synthesis:
+      SVEC-10.03-04 Theory:
       #### Vectors and the Geometry of Space
       ##### The Dot Product
       Give the _unnamed_ **expression of dot product in terms of cosine**. What are its hypotheses?
@@ -107,7 +107,7 @@ notes:
 - id: 1588881121110
   fields:
     Front: |
-      SVEC-10.03-05 Synthesis:
+      SVEC-10.03-05 Theory:
       #### Vectors and the Geometry of Space
       ##### The Dot Product
       Give the _unnamed_ **expression of cosine in terms of dot product**. What are its hyptotheses?
@@ -127,7 +127,7 @@ notes:
 - id: 1588881374284
   fields:
     Front: |
-      SVEC-10.03-06 Synthesis:
+      SVEC-10.03-06 Theory:
       #### Vectors and the Geometry of Space
       ##### The Dot Product
       State the _unnamed_ **relationship between orthogonality and dot product**.
@@ -146,7 +146,7 @@ notes:
   - path: ¢{file_dir}/images/SVEC-10.03-06.Sy.1.jpg
   fields:
     Front: |
-      SVEC-10.03-07 Synthesis:
+      SVEC-10.03-07 Theory:
       #### Vectors and the Geometry of Space
       ##### The Dot Product
       ###### Projections
@@ -165,7 +165,7 @@ notes:
   - path: ¢{file_dir}/images/SVEC-10.03-07.Sy.1.jpg
   fields:
     Front: |
-      SVEC-10.03-08 Synthesis:
+      SVEC-10.03-08 Theory:
       #### Vectors and the Geometry of Space
       ##### The Dot Product
       ###### Projections
@@ -183,7 +183,7 @@ notes:
 - id: 1588882454384
   fields:
     Front: |
-      SVEC-10.03-09 Synthesis:
+      SVEC-10.03-09 Theory:
       #### Vectors and the Geometry of Space
       ##### The Dot Product
       ###### Projections
@@ -198,7 +198,7 @@ notes:
 - id: 1588882519234
   fields:
     Front: |
-      SVEC-10.03-10 Synthesis:
+      SVEC-10.03-10 Theory:
       #### Vectors and the Geometry of Space
       ##### The Dot Product
       ###### Projections
@@ -213,7 +213,7 @@ notes:
 - id: 1588882692609
   fields:
     Front: |
-      SVEC-10.03-11 Synthesis:
+      SVEC-10.03-11 Theory:
       #### Vectors and the Geometry of Space
       ##### The Dot Product
       ###### Projections
@@ -222,5 +222,5 @@ notes:
       To do.
     Annotations: ''
   tags:
-  - Theorem
   - Editing
+  - Theorem

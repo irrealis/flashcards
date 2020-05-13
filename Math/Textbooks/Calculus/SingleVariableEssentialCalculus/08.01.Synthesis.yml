@@ -5,7 +5,7 @@ defaults:
   - Textbooks
   - Math
   - Calculus
-  - Synthesis
+  - Theory
   - SingleVariableEssentialCalculus
   - SVEC-08-Series
   - SVEC-08.01-Sequences
@@ -16,7 +16,7 @@ notes:
   skip: true
   fields:
     Front: |
-      SVEC-08.01-00 Synthesis Notes:
+      SVEC-08.01-00 Theory Notes:
 
       - Definitions:
         - Sequence limits
@@ -90,7 +90,7 @@ notes:
 - id: 1584493470841
   fields:
     Front: |
-      SVEC-08.01-01 Synthesis:
+      SVEC-08.01-01 Theory:
       ##### Sequence Theory:
       List the sequence definitions.
     Back: |
@@ -106,13 +106,14 @@ notes:
         - Harmonic
         - Geometric
         - Fibonacci
-    Annotations: ''
+    Annotations: 'Trouble:<div>- 200414-2209: memory: forgot divergence.</div>'
   tags:
   - Definitions
+  - ann:trouble
 - id: 1584497679565
   fields:
     Front: |
-      SVEC-08.01-02 Synthesis:
+      SVEC-08.01-02 Theory:
       ##### Sequence Theory:
       List the sequence theorems.
     Back: |
@@ -143,7 +144,7 @@ defaults:
   - Textbooks
   - Math
   - Calculus
-  - Synthesis
+  - Theory
   - Definition
   - SingleVariableEssentialCalculus
   - SVEC-08-Series
@@ -154,7 +155,7 @@ notes:
 - id: 1584498826916
   fields:
     Front: |
-      SVEC-08.01-03 Synthesis:
+      SVEC-08.01-03 Theory:
       ##### Sequence Theory:
       Define **sequence.** How is a sequence denoted?
     Back: |
@@ -175,7 +176,7 @@ notes:
 - id: 1584567069517
   fields:
     Front: |
-      SVEC-08.01-04 Synthesis:
+      SVEC-08.01-04 Theory:
       ##### Sequence Theory:
       Give the precise definition of **limit of a sequence.**
     Back: |
@@ -191,7 +192,7 @@ notes:
 - id: 1584567262691
   fields:
     Front: |
-      SVEC-08.01-05 Synthesis:
+      SVEC-08.01-05 Theory:
       ##### Sequence Theory:
       Define $\lim _{n \rightarrow \infty} a_{n}=\infty.$
     Back: |
@@ -204,7 +205,7 @@ notes:
 - id: 1584567466965
   fields:
     Front: |
-      SVEC-08.01-06 Synthesis:
+      SVEC-08.01-06 Theory:
       ##### Sequence Theory:
       Define **convergent** and **divergent.**
     Back: |
@@ -214,7 +215,7 @@ notes:
 - id: 1584567898041
   fields:
     Front: |
-      SVEC-08.01-07 Synthesis:
+      SVEC-08.01-07 Theory:
       ##### Sequence Theory:
       Define **increasing,** **decreasing,** and **monotonic.**
     Back: |
@@ -232,7 +233,7 @@ notes:
 - id: 1584568173616
   fields:
     Front: |
-      SVEC-08.01-08 Synthesis:
+      SVEC-08.01-08 Theory:
       ##### Sequence Theory:
       Define **bounded above,** **bounded below,** and **bounded.**
     Back: |
@@ -248,7 +249,7 @@ notes:
 - id: 1584569202141
   fields:
     Front: |
-      SVEC-08.01-09 Synthesis:
+      SVEC-08.01-09 Theory:
       ##### Sequence Theory:
       What is an **arithmetic sequence?**
     Back: |
@@ -266,7 +267,7 @@ notes:
 - id: 1584569798991
   fields:
     Front: |
-      SVEC-08.01-10 Synthesis:
+      SVEC-08.01-10 Theory:
       ##### Sequence Theory:
       What is an **harmonic sequence?**
     Back: |
@@ -284,7 +285,7 @@ notes:
 - id: 1584570094441
   fields:
     Front: |
-      SVEC-08.01-11 Synthesis:
+      SVEC-08.01-11 Theory:
       ##### Sequence Theory:
       What is a **geometric sequence? common ratio?**
     Back: |
@@ -294,12 +295,13 @@ notes:
       $$
       a, a r, a r^{2}, a r^{3}, a r^{4}, \ldots
       $$ where $r \neq 0$ is the **common ratio** and $a$ is a **scale factor** equal to the sequence's start value.
-    Annotations: ''
-  tags: []
+    Annotations: 'Trouble:<div>- 200414-2223: memory: wrong name for \(a.\)</div>'
+  tags:
+  - ann:trouble
 - id: 1584570139866
   fields:
     Front: |
-      SVEC-08.01-12 Synthesis:
+      SVEC-08.01-12 Theory:
       ##### Sequence Theory:
       What is the **Fibonacci sequence?**
     Back: |
@@ -320,7 +322,7 @@ defaults:
   - Textbooks
   - Math
   - Calculus
-  - Synthesis
+  - Theory
   - Theorem
   - SingleVariableEssentialCalculus
   - SVEC-08-Series
@@ -331,7 +333,7 @@ notes:
 - id: 1584570401090
   fields:
     Front: |
-      SVEC-08.01-13 Synthesis:
+      SVEC-08.01-13 Theory:
       ##### Sequence Theory:
       State the _Unnamed_ **Function-Sequence Limit Relationship.** List its hypotheses and conclusions.
     Back: |
@@ -350,7 +352,7 @@ notes:
 - id: 1584570401366
   fields:
     Front: |
-      SVEC-08.01-14 Synthesis:
+      SVEC-08.01-14 Theory:
       ##### Sequence Theory:
       State the **Limit Laws for Sequences.** List their hypotheses and conclusions.
     Back: |
@@ -383,12 +385,13 @@ notes:
       - The limit of term products equals the product of sequence limits.
       - The limit of term quotients equals the quotient of sequence limits.
       - The limit of term powers equals the power of the sequence limit.
-    Annotations: ''
-  tags: []
+    Annotations: 'Trouble:<div>- 200414-2149: memory: remember in power law \(p,a_n&gt;0.\)</div>'
+  tags:
+  - ann:trouble
 - id: 1584570896641
   fields:
     Front: |
-      SVEC-08.01-15 Synthesis:
+      SVEC-08.01-15 Theory:
       ##### Sequence Theory:
        State the **Squeeze Theorem for Sequences.** List its hypotheses and conclusions.
     Back: |
@@ -408,7 +411,7 @@ notes:
 - id: 1584571104015
   fields:
     Front: |
-      SVEC-08.01-16 Synthesis:
+      SVEC-08.01-16 Theory:
       ##### Sequence Theory:
       State the _Unnamed **Absolute Limit Relationship for Sequences.**_ List its hypotheses and conclusions.
     Back: |
@@ -426,7 +429,7 @@ notes:
 - id: 1584571203816
   fields:
     Front: |
-      SVEC-08.01-17 Synthesis:
+      SVEC-08.01-17 Theory:
       ##### Sequence Theory:
       State the **Continuity and Convergence Theorem.** List its hypotheses and conclusions.
     Back: |
@@ -448,7 +451,7 @@ notes:
 - id: 1584571331715
   fields:
     Front: |
-      SVEC-08.01-18 Synthesis:
+      SVEC-08.01-18 Theory:
       ##### Sequence Theory:
       State the **Geometric Sequence Convergence Theorem.** List its hypotheses.
     Back: |
@@ -476,16 +479,18 @@ notes:
         \right.
         $$
     Annotations: "Trouble:<div>- 200328-1854: habit: I keep adding a scaling factor,\
-      \ but shouldn't.</div><div><br></div><div>Thoughts:</div><div>- 200328-1854:\
-      \ use of a scaling factor \\(a\\) muddies the theorem: if \\(a&lt;0\\) then\
-      \ signs change; if \\(a = 0\\) then the sequence always converges to zero.</div>"
+      \ but shouldn't.</div><div>- 200414-2134:</div><div>&nbsp; - Attention: conflated\
+      \ with geometric series convergence.<br></div><div><div>&nbsp; - Memory: need\
+      \ to remember to answer all four cases.</div></div><div><br></div><div>Thoughts:</div><div>-\
+      \ 200328-1854: use of a scaling factor \\(a\\) muddies the theorem: if \\(a&lt;0\\\
+      ) then signs change; if \\(a = 0\\) then the sequence always converges to zero.</div>"
   tags:
   - ann:thoughts
   - ann:trouble
 - id: 1584571557291
   fields:
     Front: |
-      SVEC-08.01-19 Synthesis:
+      SVEC-08.01-19 Theory:
       ##### Sequence Theory:
       State the **_(Strictly)_ Monotonic Sequence Theorem.** List its hypotheses and conclusions.
     Back: |

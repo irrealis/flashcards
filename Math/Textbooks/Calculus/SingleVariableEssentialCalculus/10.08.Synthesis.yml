@@ -5,7 +5,7 @@ defaults:
   - Textbooks
   - Math
   - Calculus
-  - Synthesis
+  - Theory
   - SingleVariableEssentialCalculus
   - SVEC-10-VectorsAndTheGeometryOfSpace
   - SVEC-10.08-ArcLengthAndCurvature
@@ -15,7 +15,7 @@ notes:
 - id: 1589045882042
   fields:
     Front: |
-      SVEC-10.08-01 Synthesis:
+      SVEC-10.08-01 Theory:
       #### Vectors and the Geometry of Space
       ##### Arc Length and Curvature
       List the arc-length and curvature definitions and theorems.
@@ -46,7 +46,7 @@ notes:
 - id: 1589046346618
   fields:
     Front: |
-      SVEC-10.08-02 Synthesis:
+      SVEC-10.08-02 Theory:
       #### Vectors and the Geometry of Space
       ##### Arc Length and Curvature
       ###### Length of a Curve
@@ -76,7 +76,7 @@ notes:
 - id: 1589046717843
   fields:
     Front: |
-      SVEC-10.08-03 Synthesis:
+      SVEC-10.08-03 Theory:
       #### Vectors and the Geometry of Space
       ##### Arc Length and Curvature
       ###### Length of a Curve
@@ -95,7 +95,7 @@ notes:
 - id: 1589046718085
   fields:
     Front: |
-      SVEC-10.08-04 Synthesis:
+      SVEC-10.08-04 Theory:
       #### Vectors and the Geometry of Space
       ##### Arc Length and Curvature
       ###### Length of a Curve
@@ -110,7 +110,7 @@ notes:
   - path: ¢{file_dir}/images/SVEC-10.08-05.Sy.1.jpg
   fields:
     Front: |
-      SVEC-10.08-05 Synthesis:
+      SVEC-10.08-05 Theory:
       #### Vectors and the Geometry of Space
       ##### Arc Length and Curvature
       ###### The Arc Length Function
@@ -145,7 +145,7 @@ notes:
 - id: 1589047942792
   fields:
     Front: |
-      SVEC-10.08-06 Synthesis:
+      SVEC-10.08-06 Theory:
       #### Vectors and the Geometry of Space
       ##### Arc Length and Curvature
       ###### The Arc Length Function
@@ -169,7 +169,7 @@ notes:
 - id: 1589048618617
   fields:
     Front: |
-      SVEC-10.08-07 Synthesis:
+      SVEC-10.08-07 Theory:
       #### Vectors and the Geometry of Space
       ##### Arc Length and Curvature
       ###### The Arc Length Function
@@ -193,7 +193,7 @@ notes:
 - id: 1589048897343
   fields:
     Front: |
-      SVEC-10.08-08 Synthesis:
+      SVEC-10.08-08 Theory:
       #### Vectors and the Geometry of Space
       ##### Arc Length and Curvature
       ###### Curvature
@@ -215,7 +215,7 @@ notes:
   - path: ¢{file_dir}/images/SVEC-10.08-09.Sy.1.jpg
   fields:
     Front: |
-      SVEC-10.08-09 Synthesis:
+      SVEC-10.08-09 Theory:
       #### Vectors and the Geometry of Space
       ##### Arc Length and Curvature
       ###### Curvature
@@ -245,7 +245,7 @@ notes:
 - id: 1589049638618
   fields:
     Front: |
-      SVEC-10.08-10 Synthesis:
+      SVEC-10.08-10 Theory:
       #### Vectors and the Geometry of Space
       ##### Arc Length and Curvature
       ###### Curvature
@@ -269,7 +269,7 @@ notes:
 - id: 1589049913467
   fields:
     Front: |
-      SVEC-10.08-11 Synthesis:
+      SVEC-10.08-11 Theory:
       #### Vectors and the Geometry of Space
       ##### Arc Length and Curvature
       ###### Curvature
@@ -290,7 +290,7 @@ notes:
 - id: 1589050138918
   fields:
     Front: |
-      SVEC-10.08-12 Synthesis:
+      SVEC-10.08-12 Theory:
       #### Vectors and the Geometry of Space
       ##### Arc Length and Curvature
       ###### Curvature
@@ -313,7 +313,7 @@ notes:
   - path: ¢{file_dir}/images/SVEC-10.08-13.Sy.1.jpg
   fields:
     Front: |
-      SVEC-10.08-13 Synthesis:
+      SVEC-10.08-13 Theory:
       #### Vectors and the Geometry of Space
       ##### Arc Length and Curvature
       ###### The Normal and Binormal Vectors
@@ -338,7 +338,7 @@ notes:
 - id: 1589051171768
   fields:
     Front: |
-      SVEC-10.08-14 Synthesis:
+      SVEC-10.08-14 Theory:
       #### Vectors and the Geometry of Space
       ##### Arc Length and Curvature
       ###### The Normal and Binormal Vectors
@@ -355,7 +355,7 @@ notes:
 - id: 1589051345843
   fields:
     Front: |
-      SVEC-10.08-15 Synthesis:
+      SVEC-10.08-15 Theory:
       #### Vectors and the Geometry of Space
       ##### Arc Length and Curvature
       ###### The Normal and Binormal Vectors

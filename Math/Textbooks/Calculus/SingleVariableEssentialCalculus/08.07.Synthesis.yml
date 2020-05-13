@@ -5,7 +5,7 @@ defaults:
   - Textbooks
   - Math
   - Calculus
-  - Synthesis
+  - Theory
   - SingleVariableEssentialCalculus
   - SVEC-08-Series
   - SVEC-08.07-TaylorAndMaclaurinSeries
@@ -16,7 +16,7 @@ notes:
   skip: true
   fields:
     Front: |
-      SVEC-08.07-00 Synthesis Notes:
+      SVEC-08.07-00 Theory Notes:
       #### Summary of definitions:
 
       1. **Taylor series of the function $f$ at $a$**
@@ -56,7 +56,7 @@ notes:
 - id: 1585684259092
   fields:
     Front: |
-      SVEC-08.07-01 Synthesis:
+      SVEC-08.07-01 Theory:
       #### Taylor and Maclaurin Series
       List the Taylor and Maclaurin Series definitions.
     Back: |
@@ -71,7 +71,7 @@ notes:
 - id: 1585684358892
   fields:
     Front: |
-      SVEC-08.07-02 Synthesis:
+      SVEC-08.07-02 Theory:
       #### Taylor and Maclaurin Series
       List the Taylor and Maclaurin Series theorems.
     Back: |
@@ -94,7 +94,7 @@ defaults:
   - Textbooks
   - Math
   - Calculus
-  - Synthesis
+  - Theory
   - Definitions
   - SingleVariableEssentialCalculus
   - SVEC-08-Series
@@ -105,7 +105,7 @@ notes:
 - id: 1585685090916
   fields:
     Front: |
-      SVEC-08.07-03 Synthesis:
+      SVEC-08.07-03 Theory:
       #### Taylor and Maclaurin Series
       Define **Taylor Coefficients**, **Taylor series of the function $f$ at $a$**, and **Maclaurin series of the function $f$**.
     Back: |
@@ -132,7 +132,7 @@ notes:
 - id: 1585686069090
   fields:
     Front: |
-      SVEC-08.07-04 Synthesis:
+      SVEC-08.07-04 Theory:
       #### Taylor and Maclaurin Series
       Define **$n$th-degree Taylor polynomial of $f$ at $a$**.
     Back: |
@@ -148,7 +148,7 @@ notes:
 - id: 1585867937815
   fields:
     Front: |
-      SVEC-08.07-05 Synthesis:
+      SVEC-08.07-05 Theory:
       #### Taylor and Maclaurin Series
       Define the **$n$-th degree remainder of a Taylor series**.
     Back: |
@@ -164,7 +164,7 @@ notes:
 - id: 1585868281715
   fields:
     Front: |
-      SVEC-08.07-06 Synthesis:
+      SVEC-08.07-06 Theory:
       #### Taylor and Maclaurin Series
       Define **Lagrange's form of the remainder term**.
     Back: |
@@ -177,7 +177,7 @@ notes:
 - id: 1585868777191
   fields:
     Front: |
-      SVEC-08.07-07 Synthesis:
+      SVEC-08.07-07 Theory:
       #### Taylor and Maclaurin Series
       Define **binomial series** and **binomial coefficients**.
     Back: |
@@ -198,7 +198,7 @@ notes:
 - id: 1585869030591
   fields:
     Front: |
-      SVEC-08.07-08 Synthesis:
+      SVEC-08.07-08 Theory:
       #### Taylor and Maclaurin Series
       What **important Maclaurin series** are listed in Section 8.7?
     Back: |
@@ -219,7 +219,7 @@ defaults:
   - Textbooks
   - Math
   - Calculus
-  - Synthesis
+  - Theory
   - Theorems
   - SingleVariableEssentialCalculus
   - SVEC-08-Series
@@ -230,7 +230,7 @@ notes:
 - id: 1585870348566
   fields:
     Front: |
-      SVEC-08.07-09 Synthesis:
+      SVEC-08.07-09 Theory:
       #### Taylor and Maclaurin Series
       State the _unnamed_ **Taylor coefficients theorem**. List its hypotheses and conclusions.
     Back: |
@@ -262,7 +262,7 @@ notes:
 - id: 1585870348761
   fields:
     Front: |
-      SVEC-08.07-10 Synthesis:
+      SVEC-08.07-10 Theory:
       #### Taylor and Maclaurin Series
       State the _unnamed_ **analytic-function remainder theorem**. List its hypotheses and conclusions.
     Back: |
@@ -284,7 +284,7 @@ notes:
 - id: 1585870348956
   fields:
     Front: |
-      SVEC-08.07-11 Synthesis:
+      SVEC-08.07-11 Theory:
       #### Taylor and Maclaurin Series
       State the **Taylor Remainder Theorem**. List its hypotheses and conclusions.
     Back: |
@@ -308,7 +308,7 @@ notes:
 - id: 1585870348956
   fields:
     Front: |
-      SVEC-08.07-12 Synthesis:
+      SVEC-08.07-12 Theory:
       #### Taylor and Maclaurin Series
       State **Taylor's Inequality**. List its hypotheses and conclusions.
     Back: |
@@ -337,7 +337,7 @@ notes:
 - id: 1585870349158
   fields:
     Front: |
-      SVEC-08.07-13 Synthesis:
+      SVEC-08.07-13 Theory:
       #### Taylor and Maclaurin Series
       State the _unnamed_ **power-factorial ratio limit**.
     Back: |
@@ -347,7 +347,7 @@ notes:
 - id: 1585870349358
   fields:
     Front: |
-      SVEC-08.07-14 Synthesis:
+      SVEC-08.07-14 Theory:
       #### Taylor and Maclaurin Series
       Give $\frac{1}{1-x}$ as its Taylor series sum. Give its radius of convergence.
     Back: |
@@ -364,7 +364,7 @@ notes:
 - id: 1585870349556
   fields:
     Front: |
-      SVEC-08.07-15 Synthesis:
+      SVEC-08.07-15 Theory:
       #### Taylor and Maclaurin Series
       Give $e^{x}$ as its Taylor series sum. Give its radius of convergence.
     Back: |
@@ -381,7 +381,7 @@ notes:
 - id: 1585870349740
   fields:
     Front: |
-      SVEC-08.07-16 Synthesis:
+      SVEC-08.07-16 Theory:
       #### Taylor and Maclaurin Series
       Give $e$ as a series sum.
     Back: |
@@ -393,7 +393,7 @@ notes:
 - id: 1585870349923
   fields:
     Front: |
-      SVEC-08.07-17 Synthesis:
+      SVEC-08.07-17 Theory:
       #### Taylor and Maclaurin Series
       Give $\sin x$ as its Taylor series sum. Give its radius of convergence.
     Back: |
@@ -410,7 +410,7 @@ notes:
 - id: 1585873002915
   fields:
     Front: |
-      SVEC-08.07-18 Synthesis:
+      SVEC-08.07-18 Theory:
       #### Taylor and Maclaurin Series
       Give $\cos x$ as its Taylor series sum. Give its radius of convergence.
     Back: |
@@ -429,7 +429,7 @@ notes:
 - id: 1585873003089
   fields:
     Front: |
-      SVEC-08.07-19 Synthesis:
+      SVEC-08.07-19 Theory:
       #### Taylor and Maclaurin Series
       Give $\tan ^{-1} x$ as its Taylor series sum. Give its radius of convergence.
     Back: |
@@ -448,7 +448,7 @@ notes:
 - id: 1585873003264
   fields:
     Front: |
-      SVEC-08.07-20 Synthesis:
+      SVEC-08.07-20 Theory:
       #### Taylor and Maclaurin Series
       Give $\ln (1+x)$ as its Taylor series sum. Give its radius of convergence.
     Back: |
@@ -465,7 +465,7 @@ notes:
 - id: 1585873003440
   fields:
     Front: |
-      SVEC-08.07-21 Synthesis:
+      SVEC-08.07-21 Theory:
       #### Taylor and Maclaurin Series
       Give $(1+x)^{k}$ as its Taylor series sum. Give its radius of convergence.
     Back: |
@@ -484,7 +484,7 @@ notes:
 - id: 1585870350107
   fields:
     Front: |
-      SVEC-08.07-22 Synthesis:
+      SVEC-08.07-22 Theory:
       #### Taylor and Maclaurin Series
       State **The Binomial Series Theorem**. List its hypotheses and conclusions.
     Back: |
@@ -515,7 +515,7 @@ notes:
 - id: 1585870350299
   fields:
     Front: |
-      SVEC-08.07-23 Synthesis:
+      SVEC-08.07-23 Theory:
       #### Taylor and Maclaurin Series
       State the _unnamed_ **power-series multiplication method**. List its hypotheses and conclusions.
     Back: |
@@ -575,7 +575,7 @@ notes:
   - path: ¢{file_dir}/images/SVEC-08.07-24.Sy.2.jpg
   fields:
     Front: |
-      SVEC-08.07-24 Synthesis:
+      SVEC-08.07-24 Theory:
       #### Taylor and Maclaurin Series
       State the _unnamed_ **power-series division method**. List its hypotheses and conclusions.
     Back: |

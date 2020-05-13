@@ -5,7 +5,7 @@ defaults:
   - Textbooks
   - Math
   - Calculus
-  - Synthesis
+  - Theory
   - SingleVariableEssentialCalculus
   - SVEC-08-Series
   - SVEC-08.04-OtherConvergenceTests
@@ -16,7 +16,7 @@ notes:
   skip: true
   fields:
     Front: |
-      SVEC-08.04-00 Synthesis Notes:
+      SVEC-08.04-00 Theory Notes:
       #### Summary of definitions:
 
       1. **alternating series**
@@ -50,7 +50,7 @@ notes:
 - id: 1585083041315
   fields:
     Front: |
-      SVEC-08.04-01 Synthesis:
+      SVEC-08.04-01 Theory:
       ##### Other Convergence Tests
       List definitions from the section "Other Convergence Tests."
     Back: |
@@ -63,7 +63,7 @@ notes:
 - id: 1585083118065
   fields:
     Front: |
-      SVEC-08.04-02 Synthesis:
+      SVEC-08.04-02 Theory:
       ##### Other Convergence Tests
       List theorems from the section "Other Convergence Tests."
     Back: |
@@ -83,7 +83,7 @@ defaults:
   - Textbooks
   - Math
   - Calculus
-  - Synthesis
+  - Theory
   - Definition
   - SingleVariableEssentialCalculus
   - SVEC-08-Series
@@ -94,7 +94,7 @@ notes:
 - id: 1585083386116
   fields:
     Front: |
-      SVEC-08.04-03 Synthesis:
+      SVEC-08.04-03 Theory:
       ##### Other Convergence Tests
       Define **alternating series.** Give an example of an alternating series.
     Back: |
@@ -115,7 +115,7 @@ notes:
 - id: 1585083558791
   fields:
     Front: |
-      SVEC-08.04-04 Synthesis:
+      SVEC-08.04-04 Theory:
       ##### Other Convergence Tests
       Define **absolutely convergent.** Give an example of absolute convergence.
     Back: |
@@ -134,7 +134,7 @@ notes:
 - id: 1585083703941
   fields:
     Front: |
-      SVEC-08.04-05 Synthesis:
+      SVEC-08.04-05 Theory:
       ##### Other Convergence Tests
       Define **conditionally convergent.** Give an example of conditional convergence.
     Back: |
@@ -158,7 +158,7 @@ defaults:
   - Textbooks
   - Math
   - Calculus
-  - Synthesis
+  - Theory
   - Theorem
   - SingleVariableEssentialCalculus
   - SVEC-08-Series
@@ -169,7 +169,7 @@ notes:
 - id: 1585083997441
   fields:
     Front: |
-      SVEC-08.04-06 Synthesis:
+      SVEC-08.04-06 Theory:
       ##### Other Convergence Tests
       State the **Alternating Series Test.** List its hypotheses and conclusions.
     Back: |
@@ -192,14 +192,16 @@ notes:
       Conclusions:
 
       - $\sum a_n$ is convergent
-    Annotations: 'Questions:<div>- 200326-1800: is it enough that \(\{\left|a_n\right|\}\)
-      be <i>ultimately</i>&nbsp;decreasing?</div>'
+    Annotations: '<div>Trouble:</div><div>- 200415-0026: memory: implies convergence,
+      but not necessarily absolute convergence.</div><div><br></div>Questions:<div>-
+      200326-1800: is it enough that \(\{\left|a_n\right|\}\) be <i>ultimately</i>&nbsp;decreasing?</div>'
   tags:
   - ann:questions
+  - ann:trouble
 - id: 1585084940791
   fields:
     Front: |
-      SVEC-08.04-07 Synthesis:
+      SVEC-08.04-07 Theory:
       ##### Other Convergence Tests
       State the **Alternating Series Estimation Theorem.** List its hypotheses and conclusions.
     Back: |
@@ -224,7 +226,7 @@ notes:
 - id: 1585085355866
   fields:
     Front: |
-      SVEC-08.04-08 Synthesis:
+      SVEC-08.04-08 Theory:
       ##### Other Convergence Tests
       State the _Unnamed **Absolute-Convergence and Convergence Relationship.**_ List its hypotheses and conclusions.
     Back: |
@@ -242,7 +244,7 @@ notes:
 - id: 1585085834266
   fields:
     Front: |
-      SVEC-08.04-09 Synthesis:
+      SVEC-08.04-09 Theory:
       ##### Other Convergence Tests
       State the **Ratio Test.** List is hypotheses and conclusions.
     Back: |
@@ -256,12 +258,14 @@ notes:
       - $\lim _{n \rightarrow \infty}\left|\frac{a_{n+1}}{a_{n}}\right| > 1:$ $\sum a_n$ diverges.
       - $\lim _{n \rightarrow \infty}\left|\frac{a_{n+1}}{a_{n}}\right| = 1:$ no conclusion.
 
-    Annotations: ''
-  tags: []
+    Annotations: "Minor trouble:<div>- 200415-0011: memory: included DNE as divergence\
+      \ criteria; apparently this can't happen?</div>"
+  tags:
+  - ann:minor-trouble
 - id: 1585086147140
   fields:
     Front: |
-      SVEC-08.04-10 Synthesis:
+      SVEC-08.04-10 Theory:
       ##### Other Convergence Tests
       State the **Root Test.** List is hypotheses and conclusions.
     Back: |

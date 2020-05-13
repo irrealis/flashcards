@@ -5,7 +5,7 @@ defaults:
   - Textbooks
   - Math
   - Calculus
-  - Synthesis
+  - Theory
   - SingleVariableEssentialCalculus
   - SVEC-10-VectorsAndTheGeometryOfSpace
   - SVEC-10.09-MotionInSpace-VelocityAndAcceleration
@@ -15,7 +15,7 @@ notes:
 - id: 1589123148645
   fields:
     Front: |
-      SVEC-10.09-01 Synthesis:
+      SVEC-10.09-01 Theory:
       #### Vectors and the Geometry of Space
       ##### Motion in Space: Velocity and Acceleration
       List the motion-in-space definitions and theorems.
@@ -48,7 +48,7 @@ notes:
   - path: ¢{file_dir}/images/SVEC-10.09-02.Sy.1.jpg
   fields:
     Front: |
-      SVEC-10.09-02 Synthesis:
+      SVEC-10.09-02 Theory:
       #### Vectors and the Geometry of Space
       ##### Motion in Space: Velocity and Acceleration
       Define **velocity vector**.
@@ -72,7 +72,7 @@ notes:
 - id: 1589123728417
   fields:
     Front: |
-      SVEC-10.09-03 Synthesis:
+      SVEC-10.09-03 Theory:
       #### Vectors and the Geometry of Space
       ##### Motion in Space: Velocity and Acceleration
       Define **speed**.
@@ -91,7 +91,7 @@ notes:
 - id: 1589123899917
   fields:
     Front: |
-      SVEC-10.09-04 Synthesis:
+      SVEC-10.09-04 Theory:
       #### Vectors and the Geometry of Space
       ##### Motion in Space: Velocity and Acceleration
       Define **acceleration**.
@@ -106,7 +106,7 @@ notes:
 - id: 1589124189143
   fields:
     Front: |
-      SVEC-10.09-05 Synthesis:
+      SVEC-10.09-05 Theory:
       #### Vectors and the Geometry of Space
       ##### Motion in Space: Velocity and Acceleration
       State the **formula to recover velocity given acceleration**. List its hypotheses.
@@ -125,7 +125,7 @@ notes:
 - id: 1589124326718
   fields:
     Front: |
-      SVEC-10.09-06 Synthesis:
+      SVEC-10.09-06 Theory:
       #### Vectors and the Geometry of Space
       ##### Motion in Space: Velocity and Acceleration
       State the **formula to recover position given velocity**. List its hypotheses.
@@ -144,7 +144,7 @@ notes:
 - id: 1589124443669
   fields:
     Front: |
-      SVEC-10.09-07 Synthesis:
+      SVEC-10.09-07 Theory:
       #### Vectors and the Geometry of Space
       ##### Motion in Space: Velocity and Acceleration
       State **Newton's Second Law of Motion**.
@@ -159,7 +159,7 @@ notes:
 - id: 1589125350718
   fields:
     Front: |
-      SVEC-10.09-08 Synthesis:
+      SVEC-10.09-08 Theory:
       #### Vectors and the Geometry of Space
       ##### Motion in Space: Velocity and Acceleration
       ###### Circular Motion
@@ -174,7 +174,7 @@ notes:
   - path: ¢{file_dir}/images/SVEC-10.09-09.Sy.1.jpg
   fields:
     Front: |
-      SVEC-10.09-09 Synthesis:
+      SVEC-10.09-09 Theory:
       #### Vectors and the Geometry of Space
       ##### Motion in Space: Velocity and Acceleration
       ###### Circular Motion
@@ -204,7 +204,7 @@ notes:
 - id: 1589125527168
   fields:
     Front: |
-      SVEC-10.09-10 Synthesis:
+      SVEC-10.09-10 Theory:
       #### Vectors and the Geometry of Space
       ##### Motion in Space: Velocity and Acceleration
       ###### Projectile Motion
@@ -223,7 +223,7 @@ notes:
   - path: ¢{file_dir}/images/SVEC-10.09-11.Sy.1.jpg
   fields:
     Front: |
-      SVEC-10.09-11 Synthesis:
+      SVEC-10.09-11 Theory:
       #### Vectors and the Geometry of Space
       ##### Motion in Space: Velocity and Acceleration
       ###### Projectile Motion
@@ -257,7 +257,7 @@ notes:
 - id: 1589127126043
   fields:
     Front: |
-      SVEC-10.09-12 Synthesis:
+      SVEC-10.09-12 Theory:
       #### Vectors and the Geometry of Space
       ##### Motion in Space: Velocity and Acceleration
       ###### Tangential and Normal Components of Acceleration
@@ -278,7 +278,7 @@ notes:
   - path: ¢{file_dir}/images/SVEC-10.09-13.Sy.1.jpg
   fields:
     Front: |
-      SVEC-10.09-13 Synthesis:
+      SVEC-10.09-13 Theory:
       #### Vectors and the Geometry of Space
       ##### Motion in Space: Velocity and Acceleration
       ###### Tangential and Normal Components of Acceleration
@@ -309,7 +309,7 @@ notes:
 - id: 1589128808517
   fields:
     Front: |
-      SVEC-10.09-14 Synthesis:
+      SVEC-10.09-14 Theory:
       #### Vectors and the Geometry of Space
       ##### Motion in Space: Velocity and Acceleration
       ###### Tangential and Normal Components of Acceleration
@@ -338,7 +338,7 @@ notes:
 - id: 1589129019893
   fields:
     Front: |
-      SVEC-10.09-15 Synthesis:
+      SVEC-10.09-15 Theory:
       #### Vectors and the Geometry of Space
       ##### Motion in Space: Velocity and Acceleration
       ###### Kepler's Laws of Planetary Motion
@@ -353,7 +353,7 @@ notes:
 - id: 1589129217392
   fields:
     Front: |
-      SVEC-10.09-16 Synthesis:
+      SVEC-10.09-16 Theory:
       #### Vectors and the Geometry of Space
       ##### Motion in Space: Velocity and Acceleration
       ###### Kepler's Laws of Planetary Motion

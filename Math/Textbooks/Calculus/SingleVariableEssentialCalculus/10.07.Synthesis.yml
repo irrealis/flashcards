@@ -5,7 +5,7 @@ defaults:
   - Textbooks
   - Math
   - Calculus
-  - Synthesis
+  - Theory
   - SingleVariableEssentialCalculus
   - SVEC-10-VectorsAndTheGeometryOfSpace
   - SVEC-10.07-VectorFunctionsAndSpaceCurves
@@ -15,7 +15,7 @@ notes:
 - id: 1589036977843
   fields:
     Front: |
-      SVEC-10.07-01 Synthesis:
+      SVEC-10.07-01 Theory:
       List the vector-function and space-curve definitions and theorems.
       Def: **vector function**
       Def: **component functions**
@@ -49,7 +49,7 @@ notes:
 - id: 1589037074517
   fields:
     Front: |
-      SVEC-10.07-02 Synthesis:
+      SVEC-10.07-02 Theory:
       #### Vectors and the Geometry of Space
       ##### Vector Functions and Space Curves
       Define **vector function**.
@@ -61,7 +61,7 @@ notes:
 - id: 1589037285742
   fields:
     Front: |
-      SVEC-10.07-03 Synthesis:
+      SVEC-10.07-03 Theory:
       #### Vectors and the Geometry of Space
       ##### Vector Functions and Space Curves
       Define **component functions**.
@@ -76,7 +76,7 @@ notes:
 - id: 1589037475518
   fields:
     Front: |
-      SVEC-10.07-04 Synthesis:
+      SVEC-10.07-04 Theory:
       #### Vectors and the Geometry of Space
       ##### Vector Functions and Space Curves
       ###### Limits and Continuity
@@ -98,7 +98,7 @@ notes:
 - id: 1589037812905
   fields:
     Front: |
-      SVEC-10.07-05 Synthesis:
+      SVEC-10.07-05 Theory:
       #### Vectors and the Geometry of Space
       ##### Vector Functions and Space Curves
       ###### Limits and Continuity
@@ -114,7 +114,7 @@ notes:
 - id: 1589037893192
   fields:
     Front: |
-      SVEC-10.07-06 Synthesis:
+      SVEC-10.07-06 Theory:
       #### Vectors and the Geometry of Space
       ##### Vector Functions and Space Curves
       ###### Limits and Continuity
@@ -127,7 +127,7 @@ notes:
 - id: 1589038345492
   fields:
     Front: |
-      SVEC-10.07-07 Synthesis:
+      SVEC-10.07-07 Theory:
       #### Vectors and the Geometry of Space
       ##### Vector Functions and Space Curves
       ###### Space curves
@@ -145,7 +145,7 @@ notes:
   - path: ¢{file_dir}/images/SVEC-10.07-08.Sy.1.jpg
   fields:
     Front: |
-      SVEC-10.07-08 Synthesis:
+      SVEC-10.07-08 Theory:
       #### Vectors and the Geometry of Space
       ##### Vector Functions and Space Curves
       ###### Space curves
@@ -172,7 +172,7 @@ notes:
   - path: ¢{file_dir}/images/SVEC-10.07-09.Sy.1.jpg
   fields:
     Front: |
-      SVEC-10.07-09 Synthesis:
+      SVEC-10.07-09 Theory:
       #### Vectors and the Geometry of Space
       ##### Vector Functions and Space Curves
       ###### Space curves
@@ -193,7 +193,7 @@ notes:
   - path: ¢{file_dir}/images/SVEC-10.07-10.Sy.1.jpg
   fields:
     Front: |
-      SVEC-10.07-10 Synthesis:
+      SVEC-10.07-10 Theory:
       #### Vectors and the Geometry of Space
       ##### Vector Functions and Space Curves
       ###### Using Computers to Draw Space Curves
@@ -216,7 +216,7 @@ notes:
   - path: ¢{file_dir}/images/SVEC-10.07-11.Sy.1.jpg
   fields:
     Front: |
-      SVEC-10.07-11 Synthesis:
+      SVEC-10.07-11 Theory:
       #### Vectors and the Geometry of Space
       ##### Vector Functions and Space Curves
       ###### Using Computers to Draw Space Curves
@@ -240,7 +240,7 @@ notes:
   - path: ¢{file_dir}/images/SVEC-10.07-12.Sy.3.jpg
   fields:
     Front: |
-      SVEC-10.07-12 Synthesis:
+      SVEC-10.07-12 Theory:
       #### Vectors and the Geometry of Space
       ##### Vector Functions and Space Curves
       ###### Using Computers to Draw Space Curves
@@ -266,7 +266,7 @@ notes:
 - id: 1589042276143
   fields:
     Front: |
-      SVEC-10.07-13 Synthesis:
+      SVEC-10.07-13 Theory:
       #### Vectors and the Geometry of Space
       ##### Vector Functions and Space Curves
       ###### Derivatives
@@ -289,7 +289,7 @@ notes:
   - path: ¢{file_dir}/images/SVEC-10.07-14.Sy.2.jpg
   fields:
     Front: |
-      SVEC-10.07-14 Synthesis:
+      SVEC-10.07-14 Theory:
       #### Vectors and the Geometry of Space
       ##### Vector Functions and Space Curves
       ###### Derivatives
@@ -320,7 +320,7 @@ notes:
 - id: 1589042496343
   fields:
     Front: |
-      SVEC-10.07-15 Synthesis:
+      SVEC-10.07-15 Theory:
       #### Vectors and the Geometry of Space
       ##### Vector Functions and Space Curves
       ###### Derivatives
@@ -339,7 +339,7 @@ notes:
 - id: 1589042776668
   fields:
     Front: |
-      SVEC-10.07-16 Synthesis:
+      SVEC-10.07-16 Theory:
       #### Vectors and the Geometry of Space
       ##### Vector Functions and Space Curves
       ###### Differentiation Rules
@@ -364,7 +364,7 @@ notes:
 - id: 1589043216592
   fields:
     Front: |
-      SVEC-10.07-17 Synthesis:
+      SVEC-10.07-17 Theory:
       #### Vectors and the Geometry of Space
       ##### Vector Functions and Space Curves
       ###### Integrals
@@ -386,7 +386,7 @@ notes:
 - id: 1589043658568
   fields:
     Front: |
-      SVEC-10.07-18 Synthesis:
+      SVEC-10.07-18 Theory:
       #### Vectors and the Geometry of Space
       ##### Vector Functions and Space Curves
       ###### Integrals

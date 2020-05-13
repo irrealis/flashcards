@@ -5,7 +5,7 @@ defaults:
   - Textbooks
   - Math
   - Calculus
-  - Synthesis
+  - Theory
   - SingleVariableEssentialCalculus
   - SVEC-09-ParametricEquationsAndPolarCoordinates
   - SVEC-09.02-CalculusWithParametricCurves
@@ -16,7 +16,7 @@ notes:
   skip: true
   fields:
     Front: |
-      SVEC-09.02-00 Synthesis Notes:
+      SVEC-09.02-00 Theory Notes:
       #### Summary of theorems:
       _Unnamed_ **derivative formula**
       _Unnamed_ **next derivative formula**
@@ -34,7 +34,7 @@ notes:
 - id: 1587507548017
   fields:
     Front: |
-      SVEC-09.02-01 Synthesis:
+      SVEC-09.02-01 Theory:
       #### Calculus with Parametric Curves
       List the parametric-curve calculus theorems.
     Back: |
@@ -53,7 +53,7 @@ defaults:
   - Textbooks
   - Math
   - Calculus
-  - Synthesis
+  - Theory
   - Theorem
   - SingleVariableEssentialCalculus
   - SVEC-09-ParametricEquationsAndPolarCoordinates
@@ -64,7 +64,7 @@ notes:
 - id: 1587507939500
   fields:
     Front: |
-      SVEC-09.02-02 Synthesis:
+      SVEC-09.02-02 Theory:
       #### Calculus with Parametric Curves
       State the _unnamed_ **derivative formula**. List its hypotheses and conclusions.
     Back: |
@@ -93,7 +93,7 @@ notes:
 - id: 1587508580200
   fields:
     Front: |
-      SVEC-09.02-03 Synthesis:
+      SVEC-09.02-03 Theory:
       #### Calculus with Parametric Curves
       State the _unnamed_ **next derivative formula**. List its hypotheses and conclusions.
     Back: |
@@ -121,7 +121,7 @@ notes:
 - id: 1587778586251
   fields:
     Front: |
-      SVEC-09.02-04 Synthesis:
+      SVEC-09.02-04 Theory:
       #### Calculus with Parametric Curves
       State the _unnamed_ **area formula**. List its hypotheses and conclusions.
     Back: |
@@ -155,7 +155,7 @@ notes:
 - id: 1587778878100
   fields:
     Front: |
-      SVEC-09.02-05 Synthesis:
+      SVEC-09.02-05 Theory:
       #### Calculus with Parametric Curves
       State the _unnamed_ **arc length formula**. List its hypotheses and conclusions.
     Back: |
@@ -187,7 +187,7 @@ defaults:
   - Textbooks
   - Math
   - Calculus
-  - Synthesis
+  - Theory
   - Proof
   - SingleVariableEssentialCalculus
   - SVEC-09-ParametricEquationsAndPolarCoordinates

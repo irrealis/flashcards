@@ -5,7 +5,7 @@ defaults:
   - Textbooks
   - Math
   - Calculus
-  - Synthesis
+  - Theory
   - SingleVariableEssentialCalculus
   - SVEC-09-ParametricEquationsAndPolarCoordinates
   - SVEC-09.01-ParametricCurves
@@ -16,7 +16,7 @@ notes:
   skip: true
   fields:
     Front: |
-      SVEC-09.01-00 Synthesis Notes:
+      SVEC-09.01-00 Theory Notes:
       #### Summary of definitions:
       **parametric equations**; **parameter**; **parametric curve;** **path**
       **initial point**; **terminal point**
@@ -29,7 +29,7 @@ notes:
 - id: 1586192959641
   fields:
     Front: |
-      SVEC-09.01-01 Synthesis:
+      SVEC-09.01-01 Theory:
       #### Parametric Curves
       List the parametric-curve definitions.
     Back: |
@@ -48,7 +48,7 @@ defaults:
   - Textbooks
   - Math
   - Calculus
-  - Synthesis
+  - Theory
   - Definition
   - SingleVariableEssentialCalculus
   - SVEC-09-ParametricEquationsAndPolarCoordinates
@@ -59,7 +59,7 @@ notes:
 - id: 1586193156716
   fields:
     Front: |
-      SVEC-09.01-02 Synthesis:
+      SVEC-09.01-02 Theory:
       #### Parametric Curves
       Define the following: **parametric equations**; **parameter**; **parametric curve**; **path**.
     Back: |
@@ -74,7 +74,7 @@ notes:
 - id: 1586193268666
   fields:
     Front: |
-      SVEC-09.01-03 Synthesis:
+      SVEC-09.01-03 Theory:
       #### Parametric Curves
       Define the following: **initial point**; **terminal point**.
     Back: |
@@ -89,7 +89,7 @@ notes:
   - path: ¢{file_dir}/images/SVEC-09.01-04.Sy.1.jpg
   fields:
     Front: |
-      SVEC-09.01-04 Synthesis:
+      SVEC-09.01-04 Theory:
       #### Parametric Curves
       Define **cycloid**. What are its parametric equations?
     Back: |

@@ -5,7 +5,7 @@ defaults:
   - Textbooks
   - Math
   - Calculus
-  - Synthesis
+  - Theory
   - SingleVariableEssentialCalculus
   - SVEC-10-VectorsAndTheGeometryOfSpace
   - SVEC-10.01-ThreeDimensionalCoordinateSystems
@@ -16,7 +16,7 @@ notes:
   skip: true
   fields:
     Front: |
-      SVEC-10.01-00 Synthesis Notes:
+      SVEC-10.01-00 Theory Notes:
       #### Summary of definitions:
       **coordinate axes**
       **right-hand rule**
@@ -34,7 +34,7 @@ notes:
 - id: 1588779185009
   fields:
     Front: |
-      SVEC-10.01-01 Synthesis:
+      SVEC-10.01-01 Theory:
       #### Vectors and the Geometry of Space
       ##### Three-Dimensional Coordinate Systems
       List the 3D-coordinate-system definitions.
@@ -52,7 +52,7 @@ notes:
 - id: 1588779284861
   fields:
     Front: |
-      SVEC-10.01-02 Synthesis:
+      SVEC-10.01-02 Theory:
       #### Vectors and the Geometry of Space
       ##### Three-Dimensional Coordinate Systems
       List the 3D-coordinate-system Theorems.
@@ -70,7 +70,7 @@ defaults:
   - Textbooks
   - Math
   - Calculus
-  - Synthesis
+  - Theory
   - Definition
   - SingleVariableEssentialCalculus
   - SVEC-10-VectorsAndTheGeometryOfSpace
@@ -81,7 +81,7 @@ notes:
 - id: 1588780350310
   fields:
     Front: |
-      SVEC-10.01-03 Synthesis:
+      SVEC-10.01-03 Theory:
       #### Vectors and the Geometry of Space
       ##### Three-Dimensional Coordinate Systems
       Define **coordinate axes**.
@@ -95,7 +95,7 @@ notes:
   - path: ¢{file_dir}/images/SVEC-10.01-04.Sy.2.jpg
   fields:
     Front: |
-      SVEC-10.01-04 Synthesis:
+      SVEC-10.01-04 Theory:
       #### Vectors and the Geometry of Space
       ##### Three-Dimensional Coordinate Systems
       Define **right-hand rule**.
@@ -117,7 +117,7 @@ notes:
   - path: ¢{file_dir}/images/SVEC-10.01-05.Sy.1.jpg
   fields:
     Front: |
-      SVEC-10.01-05 Synthesis:
+      SVEC-10.01-05 Theory:
       #### Vectors and the Geometry of Space
       ##### Three-Dimensional Coordinate Systems
       Define **coordinate planes**, **octants**, **first octant**.
@@ -135,7 +135,7 @@ notes:
   - path: ¢{file_dir}/images/SVEC-10.01-06.Sy.1.jpg
   fields:
     Front: |
-      SVEC-10.01-06 Synthesis:
+      SVEC-10.01-06 Theory:
       #### Vectors and the Geometry of Space
       ##### Three-Dimensional Coordinate Systems
       Define **coordinates**.
@@ -151,7 +151,7 @@ notes:
   - path: ¢{file_dir}/images/SVEC-10.01-07.Sy.1.jpg
   fields:
     Front: |
-      SVEC-10.01-07 Synthesis:
+      SVEC-10.01-07 Theory:
       #### Vectors and the Geometry of Space
       ##### Three-Dimensional Coordinate Systems
       Define **projection**.
@@ -166,7 +166,7 @@ notes:
 - id: 1588782211034
   fields:
     Front: |
-      SVEC-10.01-08 Synthesis:
+      SVEC-10.01-08 Theory:
       #### Vectors and the Geometry of Space
       ##### Three-Dimensional Coordinate Systems
       Define **three-dimensional rectangular coordinate system**.
@@ -177,7 +177,7 @@ notes:
 - id: 1588782339309
   fields:
     Front: |
-      SVEC-10.01-09 Synthesis:
+      SVEC-10.01-09 Theory:
       #### Vectors and the Geometry of Space
       ##### Three-Dimensional Coordinate Systems
       Define **surface**.
@@ -193,7 +193,7 @@ defaults:
   - Textbooks
   - Math
   - Calculus
-  - Synthesis
+  - Theory
   - Theorem
   - SingleVariableEssentialCalculus
   - SVEC-10-VectorsAndTheGeometryOfSpace
@@ -204,7 +204,7 @@ notes:
 - id: 1588782562234
   fields:
     Front: |
-      SVEC-10.01-10 Synthesis:
+      SVEC-10.01-10 Theory:
       #### Vectors and the Geometry of Space
       ##### Three-Dimensional Coordinate Systems
       State the **Distance Formula in Three Dimensions**.
@@ -218,7 +218,7 @@ notes:
 - id: 1588782637160
   fields:
     Front: |
-      SVEC-10.01-11 Synthesis:
+      SVEC-10.01-11 Theory:
       #### Vectors and the Geometry of Space
       ##### Three-Dimensional Coordinate Systems
       State the **Equation of a Sphere**.

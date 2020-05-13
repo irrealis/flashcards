@@ -5,7 +5,7 @@ defaults:
   - Textbooks
   - Math
   - Calculus
-  - Synthesis
+  - Theory
   - SingleVariableEssentialCalculus
   - SVEC-11-PartialDerivatives
   - SVEC-11.06-DirectionalDerivativesAndTheGradientVector
@@ -15,7 +15,7 @@ notes:
 - id: 1589393684022
   fields:
     Front: |
-      SVEC-11.06.01 Synthesis:
+      SVEC-11.06.01 Theory:
       #### Partial Derivatives
       ##### Directional Derivatives and the Gradient Vector
       List the directional-derivative and gradient-vector definitions and theorems.
@@ -45,14 +45,14 @@ notes:
     Annotations: ''
   tags:
   - Definitions
-  - Theorems
   - Editing
+  - Theorems
 - id: 1589394233422
   media:
   - path: ¢{file_dir}/images/SVEC-11.06.02.Sy.1.jpg
   fields:
     Front: |
-      SVEC-11.06.02 Synthesis:
+      SVEC-11.06.02 Theory:
       #### Partial Derivatives
       ##### Directional Derivatives and the Gradient Vector
       ###### Directional Derivatives
@@ -76,7 +76,7 @@ notes:
 - id: 1589394651147
   fields:
     Front: |
-      SVEC-11.06.03 Synthesis:
+      SVEC-11.06.03 Theory:
       #### Partial Derivatives
       ##### Directional Derivatives and the Gradient Vector
       ###### Directional Derivatives
@@ -92,12 +92,12 @@ notes:
       - $\mathbf{u}=\langle a, b\rangle$ is a unit vector.
     Annotations: ''
   tags:
-  - Theorem
   - Editing
+  - Theorem
 - id: 1589394943422
   fields:
     Front: |
-      SVEC-11.06.04 Synthesis:
+      SVEC-11.06.04 Theory:
       #### Partial Derivatives
       ##### Directional Derivatives and the Gradient Vector
       ###### Directional Derivatives
@@ -117,7 +117,7 @@ notes:
 - id: 1589395284762
   fields:
     Front: |
-      SVEC-11.06.05 Synthesis:
+      SVEC-11.06.05 Theory:
       #### Partial Derivatives
       ##### Directional Derivatives and the Gradient Vector
       ###### The Gradient Vector
@@ -141,7 +141,7 @@ notes:
 - id: 1589395694992
   fields:
     Front: |
-      SVEC-11.06.06 Synthesis:
+      SVEC-11.06.06 Theory:
       #### Partial Derivatives
       ##### Directional Derivatives and the Gradient Vector
       ###### The Gradient Vector
@@ -161,7 +161,7 @@ notes:
 - id: 1589396042247
   fields:
     Front: |
-      SVEC-11.06.07 Synthesis:
+      SVEC-11.06.07 Theory:
       #### Partial Derivatives
       ##### Directional Derivatives and the Gradient Vector
       ###### The Gradient Vector
@@ -181,7 +181,7 @@ notes:
 - id: 1589396248247
   fields:
     Front: |
-      SVEC-11.06.08 Synthesis:
+      SVEC-11.06.08 Theory:
       #### Partial Derivatives
       ##### Directional Derivatives and the Gradient Vector
       ###### Functions of Three Variables
@@ -202,7 +202,7 @@ notes:
 - id: 1589396654845
   fields:
     Front: |
-      SVEC-11.06.09 Synthesis:
+      SVEC-11.06.09 Theory:
       #### Partial Derivatives
       ##### Directional Derivatives and the Gradient Vector
       ###### Functions of Three Variables
@@ -223,7 +223,7 @@ notes:
 - id: 1589397005797
   fields:
     Front: |
-      SVEC-11.06.10 Synthesis:
+      SVEC-11.06.10 Theory:
       #### Partial Derivatives
       ##### Directional Derivatives and the Gradient Vector
       ###### Functions of Three Variables
@@ -244,7 +244,7 @@ notes:
 - id: 1589397216497
   fields:
     Front: |
-      SVEC-11.06.11 Synthesis:
+      SVEC-11.06.11 Theory:
       #### Partial Derivatives
       ##### Directional Derivatives and the Gradient Vector
       ###### Functions of Three Variables
@@ -267,7 +267,7 @@ notes:
 - id: 1589397465347
   fields:
     Front: |
-      SVEC-11.06.12 Synthesis:
+      SVEC-11.06.12 Theory:
       #### Partial Derivatives
       ##### Directional Derivatives and the Gradient Vector
       ###### Functions of Three Variables
@@ -288,7 +288,7 @@ notes:
 - id: 1589397745997
   fields:
     Front: |
-      SVEC-11.06.13 Synthesis:
+      SVEC-11.06.13 Theory:
       #### Partial Derivatives
       ##### Directional Derivatives and the Gradient Vector
       ###### Functions of Three Variables
@@ -309,7 +309,7 @@ notes:
 - id: 1589398066547
   fields:
     Front: |
-      SVEC-11.06.14 Synthesis:
+      SVEC-11.06.14 Theory:
       #### Partial Derivatives
       ##### Directional Derivatives and the Gradient Vector
       ###### Maximizing the Directional Derivative
@@ -328,7 +328,7 @@ notes:
   - path: ¢{file_dir}/images/SVEC-11.06.15.Sy.1.jpg
   fields:
     Front: |
-      SVEC-11.06.15 Synthesis:
+      SVEC-11.06.15 Theory:
       #### Partial Derivatives
       ##### Directional Derivatives and the Gradient Vector
       ###### Tangent Planes to Level Surfaces
@@ -350,12 +350,12 @@ notes:
       - $t_0$ is the parameter value for which $\mathbf{r}\left(t_{0}\right)=\left\langle x_{0}, y_{0}, z_{0}\right\rangle$ (so $\mathbf{r}\left(t_{0}\right)$ is the position vector of $P$).
     Annotations: ''
   tags:
-  - Theorem
   - Editing
+  - Theorem
 - id: 1589401984797
   fields:
     Front: |
-      SVEC-11.06.16 Synthesis:
+      SVEC-11.06.16 Theory:
       #### Partial Derivatives
       ##### Directional Derivatives and the Gradient Vector
       ###### Tangent Planes to Level Surfaces
@@ -399,7 +399,7 @@ notes:
   - path: ¢{file_dir}/images/SVEC-11.06.17.Sy.3.jpg
   fields:
     Front: |
-      SVEC-11.06.17 Synthesis:
+      SVEC-11.06.17 Theory:
       #### Partial Derivatives
       ##### Directional Derivatives and the Gradient Vector
       ###### Significance of the Gradient Vector
@@ -431,5 +431,5 @@ notes:
       - $\mathbf{x}_{0}$ is in the domain of $f.$
     Annotations: ''
   tags:
-  - Theorem
   - Editing
+  - Theorem

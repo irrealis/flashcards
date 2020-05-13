@@ -5,7 +5,7 @@ defaults:
   - Textbooks
   - Math
   - Calculus
-  - Synthesis
+  - Theory
   - SingleVariableEssentialCalculus
   - SVEC-11-PartialDerivatives
   - SVEC-11.02-LimitsAndContinuity
@@ -15,7 +15,7 @@ notes:
 - id: 1589233289717
   fields:
     Front: |
-      SVEC-11.02-01 Synthesis:
+      SVEC-11.02-01 Theory:
       List the multivariate-limits and -continuity definitions and theorems.
     Back: |
       Def: **limit of function of two variables**
@@ -37,7 +37,7 @@ notes:
 - id: 1589233389718
   fields:
     Front: |
-      SVEC-11.02-02 Synthesis:
+      SVEC-11.02-02 Theory:
       #### Partial Derivatives
       ##### Limits and Continuity
       Define **limit of function of two variables**. What are some of its alternate notations?
@@ -58,7 +58,7 @@ notes:
 - id: 1589233629567
   fields:
     Front: |
-      SVEC-11.02-03 Synthesis:
+      SVEC-11.02-03 Theory:
       #### Partial Derivatives
       ##### Limits and Continuity
       State the _unnamed_ **multipath test for limit nonexistence**. List its hypotheses.
@@ -74,7 +74,7 @@ notes:
 - id: 1589233973494
   fields:
     Front: |
-      SVEC-11.02-04 Synthesis:
+      SVEC-11.02-04 Theory:
       #### Partial Derivatives
       ##### Limits and Continuity
       State the **extension of Limit Laws to functions of two variables**.
@@ -89,7 +89,7 @@ notes:
 - id: 1589234247018
   fields:
     Front: |
-      SVEC-11.02-05 Synthesis:
+      SVEC-11.02-05 Theory:
       #### Partial Derivatives
       ##### Limits and Continuity
       State the **Squeeze Theorem**. List its hypotheses.
@@ -112,7 +112,7 @@ notes:
 - id: 1589234566693
   fields:
     Front: |
-      SVEC-11.02-06 Synthesis:
+      SVEC-11.02-06 Theory:
       #### Partial Derivatives
       ##### Limits and Continuity
       ###### Continuity
@@ -128,7 +128,7 @@ notes:
 - id: 1589234920167
   fields:
     Front: |
-      SVEC-11.02-07 Synthesis:
+      SVEC-11.02-07 Theory:
       #### Partial Derivatives
       ##### Limits and Continuity
       ###### Continuity
@@ -141,7 +141,7 @@ notes:
 - id: 1589235004342
   fields:
     Front: |
-      SVEC-11.02-08 Synthesis:
+      SVEC-11.02-08 Theory:
       #### Partial Derivatives
       ##### Limits and Continuity
       ###### Continuity
@@ -154,7 +154,7 @@ notes:
 - id: 1589235278468
   fields:
     Front: |
-      SVEC-11.02-09 Synthesis:
+      SVEC-11.02-09 Theory:
       #### Partial Derivatives
       ##### Limits and Continuity
       ###### Continuity
@@ -167,7 +167,7 @@ notes:
 - id: 1589235752393
   fields:
     Front: |
-      SVEC-11.02-10 Synthesis:
+      SVEC-11.02-10 Theory:
       #### Partial Derivatives
       ##### Limits and Continuity
       ###### Functions of Three or More Variables
@@ -187,7 +187,7 @@ notes:
 - id: 1589235956218
   fields:
     Front: |
-      SVEC-11.02-11 Synthesis:
+      SVEC-11.02-11 Theory:
       #### Partial Derivatives
       ##### Limits and Continuity
       ###### Functions of Three or More Variables

@@ -5,7 +5,7 @@ defaults:
   - Textbooks
   - Math
   - Calculus
-  - Synthesis
+  - Theory
   - SingleVariableEssentialCalculus
   - SVEC-10-VectorsAndTheGeometryOfSpace
   - SVEC-10.05-EquationsOfLinesAndPlanes
@@ -16,7 +16,7 @@ notes:
   skip: true
   fields:
     Front: |
-      SVEC-10.05-00 Synthesis Notes:
+      SVEC-10.05-00 Theory Notes:
       Thm: **vector equation of a line**, **direction**, and **parameter**
       Thm: **parametric equations of a line**
       Def: **direction numbers**
@@ -37,7 +37,7 @@ notes:
 - id: 1588968768488
   fields:
     Front: |
-      SVEC-10.05-01 Synthesis:
+      SVEC-10.05-01 Theory:
       #### Vectors and the Geometry of Space
       ##### Equations of Lines and Planes
       List the lines-and-planes definitions and theorems.
@@ -59,14 +59,14 @@ notes:
     Annotations: ''
   tags:
   - Definitions
-  - Theorems
   - Editing
+  - Theorems
 - id: 1588967939014
   media:
   - path: ¢{file_dir}/images/SVEC-10.05-01.Sy.1.jpg
   fields:
     Front: |
-      SVEC-10.05-02 Synthesis:
+      SVEC-10.05-02 Theory:
       #### Vectors and the Geometry of Space
       ##### Equations of Lines and Planes
       State the **vector equation of a line**, and define **direction** and **parameter**.
@@ -97,7 +97,7 @@ notes:
 - id: 1588969577560
   fields:
     Front: |
-      SVEC-10.05-03 Synthesis:
+      SVEC-10.05-03 Theory:
       #### Vectors and the Geometry of Space
       ##### Equations of Lines and Planes
       State the **parametric equations of a line**.
@@ -112,7 +112,7 @@ notes:
 - id: 1588970031985
   fields:
     Front: |
-      SVEC-10.05-04 Synthesis:
+      SVEC-10.05-04 Theory:
       #### Vectors and the Geometry of Space
       ##### Equations of Lines and Planes
       Define **direction numbers**.
@@ -133,7 +133,7 @@ notes:
 - id: 1588970849160
   fields:
     Front: |
-      SVEC-10.05-05 Synthesis:
+      SVEC-10.05-05 Theory:
       #### Vectors and the Geometry of Space
       ##### Equations of Lines and Planes
       Define **symmetric equations**. State the _unnamed_ **symmetric equations** theorem. What are its hypotheses?
@@ -165,7 +165,7 @@ notes:
 - id: 1588972306736
   fields:
     Front: |
-      SVEC-10.05-06 Synthesis:
+      SVEC-10.05-06 Theory:
       #### Vectors and the Geometry of Space
       ##### Equations of Lines and Planes
       State the **vector equation of a line segment**. List its hypotheses.
@@ -184,7 +184,7 @@ notes:
 - id: 1588972473759
   fields:
     Front: |
-      SVEC-10.05-07 Synthesis:
+      SVEC-10.05-07 Theory:
       #### Vectors and the Geometry of Space
       ##### Equations of Lines and Planes
       Define **skew lines**.
@@ -200,7 +200,7 @@ notes:
 - id: 1588972752760
   fields:
     Front: |
-      SVEC-10.05-08 Synthesis:
+      SVEC-10.05-08 Theory:
       #### Vectors and the Geometry of Space
       ##### Equations of Lines and Planes
       ###### Planes
@@ -212,7 +212,7 @@ notes:
 
       - The idea of a normal vector extends to $n>0$ dimensions. Any vector $\mathbf{v}$ in $\mathbb{R}^3$ is normal to a plane containing the origin, and any line in this plane is orthogonal to $\mathbf{v}.$
       - In $n$ dimensions, any subspace $U$ of $V$ has a null that can be considered orthogonal to $V^m$. I think the key characteristic of this idea is that subspaces $T$ and $U$ are orthogonal if any vector in $T$ is orthogonal to any vector in $U$.
-      - This relates to a question noted in _SVEC-10.03-06 Synthesis_: The idea that $\mathbf{0}$ is perpendicular to itself is excluded from the text's definition, which requires that orthogonal vectors be nonzero. _**Does this exclusion serve any purpose than to discard the degenerate case?**_
+      - This relates to a question noted in _SVEC-10.03-06 Theory_: The idea that $\mathbf{0}$ is perpendicular to itself is excluded from the text's definition, which requires that orthogonal vectors be nonzero. _**Does this exclusion serve any purpose than to discard the degenerate case?**_
     Annotations: ''
   tags:
   - Definition
@@ -221,7 +221,7 @@ notes:
   - path: ¢{file_dir}/images/SVEC-10.05-09.Sy.1.jpg
   fields:
     Front: |
-      SVEC-10.05-09 Synthesis:
+      SVEC-10.05-09 Theory:
       #### Vectors and the Geometry of Space
       ##### Equations of Lines and Planes
       ###### Planes
@@ -247,7 +247,7 @@ notes:
 - id: 1588977298236
   fields:
     Front: |
-      SVEC-10.05-10 Synthesis:
+      SVEC-10.05-10 Theory:
       #### Vectors and the Geometry of Space
       ##### Equations of Lines and Planes
       ###### Planes
@@ -275,7 +275,7 @@ notes:
 - id: 1588977646435
   fields:
     Front: |
-      SVEC-10.05-11 Synthesis:
+      SVEC-10.05-11 Theory:
       #### Vectors and the Geometry of Space
       ##### Equations of Lines and Planes
       ###### Planes
@@ -291,7 +291,7 @@ notes:
 - id: 1588977998960
   fields:
     Front: |
-      SVEC-10.05-12 Synthesis:
+      SVEC-10.05-12 Theory:
       #### Vectors and the Geometry of Space
       ##### Equations of Lines and Planes
       ###### Planes
@@ -319,7 +319,7 @@ notes:
   - path: ¢{file_dir}/images/SVEC-10.05-13.Sy.1.jpg
   fields:
     Front: |
-      SVEC-10.05-13 Synthesis:
+      SVEC-10.05-13 Theory:
       #### Vectors and the Geometry of Space
       ##### Equations of Lines and Planes
       ###### Planes
@@ -337,7 +337,7 @@ notes:
   - path: ¢{file_dir}/images/SVEC-10.05-14.Sy.1.jpg
   fields:
     Front: |
-      SVEC-10.05-14 Synthesis:
+      SVEC-10.05-14 Theory:
       #### Vectors and the Geometry of Space
       ##### Equations of Lines and Planes
       ###### Planes
@@ -352,5 +352,5 @@ notes:
       </p>
     Annotations: ''
   tags:
-  - Theorem
   - Editing
+  - Theorem

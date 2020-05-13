@@ -5,7 +5,7 @@ defaults:
   - Textbooks
   - Math
   - Calculus
-  - Synthesis
+  - Theory
   - SingleVariableEssentialCalculus
   - SVEC-09-ParametricEquationsAndPolarCoordinates
   - SVEC-09.04-AreasAndLengthsInPolarCoordinates
@@ -16,7 +16,7 @@ notes:
   skip: true
   fields:
     Front: |
-      SVEC-09.04-00 Synthesis Notes:
+      SVEC-09.04-00 Theory Notes:
       #### Summary of theorems:
       _unnamed_ **circle sector area formula**
       _unnamed_ **area formula**
@@ -27,7 +27,7 @@ notes:
 - id: 1587793420850
   fields:
     Front: |
-      SVEC-09.04-01 Synthesis:
+      SVEC-09.04-01 Theory:
       #### Areas and Lengths in Polar Coordinates
       List the polar integration theorems.
     Back: |
@@ -44,7 +44,7 @@ defaults:
   - Textbooks
   - Math
   - Calculus
-  - Synthesis
+  - Theory
   - Theorem
   - SingleVariableEssentialCalculus
   - SVEC-09-ParametricEquationsAndPolarCoordinates
@@ -55,7 +55,7 @@ notes:
 - id: 1587793607551
   fields:
     Front: |
-      SVEC-09.04-02 Synthesis:
+      SVEC-09.04-02 Theory:
       #### Areas and Lengths in Polar Coordinates
       State the _unnamed_ **circle sector area formula**.
     Back: |
@@ -67,7 +67,7 @@ notes:
 - id: 1587793900600
   fields:
     Front: |
-      SVEC-09.04-03 Synthesis:
+      SVEC-09.04-03 Theory:
       #### Areas and Lengths in Polar Coordinates
       State the _unnamed_ **area formula**.
     Back: |
@@ -84,7 +84,7 @@ notes:
 - id: 1587794322376
   fields:
     Front: |
-      SVEC-09.04-04 Synthesis:
+      SVEC-09.04-04 Theory:
       #### Areas and Lengths in Polar Coordinates
       State the _unnamed_ **curve length formula**. List its hypotheses and conclusions.
     Back: |

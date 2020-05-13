@@ -5,7 +5,7 @@ defaults:
   - Textbooks
   - Math
   - Calculus
-  - Synthesis
+  - Theory
   - SingleVariableEssentialCalculus
   - SVEC-11-PartialDerivatives
   - SVEC-11.05-TheChainRule
@@ -15,7 +15,7 @@ notes:
 - id: 1589326022843
   fields:
     Front: |
-      SVEC-11.05-01 Synthesis:
+      SVEC-11.05-01 Theory:
       List the chain-rule definitions and theorems.
     Back: |
       Thm: **Chain Rule, Case 1: $z = f\left( x(t), y(t) \right)$**
@@ -34,7 +34,7 @@ notes:
 - id: 1589326023087
   fields:
     Front: |
-      SVEC-11.05-02 Synthesis:
+      SVEC-11.05-02 Theory:
       #### Partial Derivatives
       ##### The Chain Rule
       State the **Chain Rule, Case 1: $z = f\left( x(t), y(t) \right)$**. List its hypotheses.
@@ -56,7 +56,7 @@ notes:
 - id: 1589327150543
   fields:
     Front: |
-      SVEC-11.05-03 Synthesis:
+      SVEC-11.05-03 Theory:
       #### Partial Derivatives
       ##### The Chain Rule
       (a) State the **Chain Rule, Case 2: $z = f\left( x(s,t), y(s,t) \right)$**. List its hypotheses.
@@ -90,7 +90,7 @@ notes:
   - path: ¢{file_dir}/images/SVEC-11.05-04.Sy.1.jpg
   fields:
     Front: |
-      SVEC-11.05-04 Synthesis:
+      SVEC-11.05-04 Theory:
       #### Partial Derivatives
       ##### The Chain Rule
       Define **tree diagram**.
@@ -109,7 +109,7 @@ notes:
 - id: 1589328371768
   fields:
     Front: |
-      SVEC-11.05-05 Synthesis:
+      SVEC-11.05-05 Theory:
       #### Partial Derivatives
       ##### The Chain Rule
       State the **Chain Rule, General Version**. List its hypotheses.
@@ -132,7 +132,7 @@ notes:
 - id: 1589330304142
   fields:
     Front: |
-      SVEC-11.05-06 Synthesis:
+      SVEC-11.05-06 Theory:
       #### Partial Derivatives
       ##### The Chain Rule
       State the **Implicit Function Theorem** for $F(x,y) = 0$. List its hypotheses and conclusions.
@@ -170,7 +170,7 @@ notes:
 - id: 1589331618668
   fields:
     Front: |
-      SVEC-11.05-07 Synthesis:
+      SVEC-11.05-07 Theory:
       #### Partial Derivatives
       ##### The Chain Rule
       State the **Implicit Function Theorem** for $F(x,y,z) = 0$. List its hypotheses.
@@ -210,7 +210,7 @@ notes:
 - id: 1589331618967
   fields:
     Front: |
-      SVEC-11.05-08 Synthesis:
+      SVEC-11.05-08 Theory:
       #### Partial Derivatives
       ##### The Chain Rule
       State the **Implicit Function Theorem** for $F(x_1,\ldots,x_n, u) = 0$. List its hypotheses.
@@ -246,5 +246,5 @@ notes:
 
     Annotations: ''
   tags:
-  - Theorem
   - Editing
+  - Theorem

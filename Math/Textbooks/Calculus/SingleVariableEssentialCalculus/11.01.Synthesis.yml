@@ -5,7 +5,7 @@ defaults:
   - Textbooks
   - Math
   - Calculus
-  - Synthesis
+  - Theory
   - SingleVariableEssentialCalculus
   - SVEC-11-PartialDerivatives
   - SVEC-11.01-FunctionsOfSeveralVariables
@@ -15,7 +15,7 @@ notes:
 - id: 1589132320643
   fields:
     Front: |
-      SVEC-11.01-01 Synthesis:
+      SVEC-11.01-01 Theory:
       #### Partial Derivatives
       ##### Functions of Several Variables
       List the multivariable-function definitions.
@@ -38,7 +38,7 @@ notes:
   - path: ¢{file_dir}/images/SVEC-11.01-02.Sy.1.jpg
   fields:
     Front: |
-      SVEC-11.01-02 Synthesis:
+      SVEC-11.01-02 Theory:
       #### Partial Derivatives
       ##### Functions of Several Variables
       Define **function of two variables**, **domain**, **range**, **independent variables**, and **dependent variable**.
@@ -57,7 +57,7 @@ notes:
 - id: 1589132700818
   fields:
     Front: |
-      SVEC-11.01-03 Synthesis:
+      SVEC-11.01-03 Theory:
       #### Partial Derivatives
       ##### Functions of Several Variables
       Define **graph of a function of two variables**.
@@ -69,7 +69,7 @@ notes:
 - id: 1589132946818
   fields:
     Front: |
-      SVEC-11.01-04 Synthesis:
+      SVEC-11.01-04 Theory:
       #### Partial Derivatives
       ##### Functions of Several Variables
       Define **linear function** and **equation of its graph**.
@@ -87,7 +87,7 @@ notes:
 - id: 1589133121467
   fields:
     Front: |
-      SVEC-11.01-05 Synthesis:
+      SVEC-11.01-05 Theory:
       #### Partial Derivatives
       ##### Functions of Several Variables
       ###### Level Curves
@@ -100,7 +100,7 @@ notes:
 - id: 1589133238842
   fields:
     Front: |
-      SVEC-11.01-06 Synthesis:
+      SVEC-11.01-06 Theory:
       #### Partial Derivatives
       ##### Functions of Several Variables
       ###### Functions of Three or More Variables
@@ -113,7 +113,7 @@ notes:
 - id: 1589133389093
   fields:
     Front: |
-      SVEC-11.01-07 Synthesis:
+      SVEC-11.01-07 Theory:
       #### Partial Derivatives
       ##### Functions of Several Variables
       ###### Functions of Three or More Variables
@@ -126,7 +126,7 @@ notes:
 - id: 1589133858818
   fields:
     Front: |
-      SVEC-11.01-08 Synthesis:
+      SVEC-11.01-08 Theory:
       #### Partial Derivatives
       ##### Functions of Several Variables
       ###### Functions of Three or More Variables
@@ -139,7 +139,7 @@ notes:
 - id: 1589133986293
   fields:
     Front: |
-      SVEC-11.01-09 Synthesis:
+      SVEC-11.01-09 Theory:
       #### Partial Derivatives
       ##### Functions of Several Variables
       ###### Functions of Three or More Variables

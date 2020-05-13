@@ -5,7 +5,7 @@ defaults:
   - Textbooks
   - Math
   - Calculus
-  - Synthesis
+  - Theory
   - SingleVariableEssentialCalculus
   - SVEC-11-PartialDerivatives
   - SVEC-11.03-PartialDerivatives
@@ -15,7 +15,7 @@ notes:
 - id: 1589238552168
   fields:
     Front: |
-      SVEC-11.03-01 Synthesis:
+      SVEC-11.03-01 Theory:
       #### Partial Derivatives
       ##### Partial Derivatives
       List the partial-derivatives definitions and theorems.
@@ -39,7 +39,7 @@ notes:
 - id: 1589239176742
   fields:
     Front: |
-      SVEC-11.03-02 Synthesis:
+      SVEC-11.03-02 Theory:
       #### Partial Derivatives
       ##### Partial Derivatives
       Define **partial derivatives of $z = f(x,y)$**. How is it denoted?
@@ -81,7 +81,7 @@ notes:
 - id: 1589239294018
   fields:
     Front: |
-      SVEC-11.03-03 Synthesis:
+      SVEC-11.03-03 Theory:
       #### Partial Derivatives
       ##### Partial Derivatives
       State the **Rules for Finding Partial Derivatives of $z = f(x,y)$**.
@@ -96,7 +96,7 @@ notes:
   - path: ¢{file_dir}/images/SVEC-11.03-04.Sy.1.jpg
   fields:
     Front: |
-      SVEC-11.03-04 Synthesis:
+      SVEC-11.03-04 Theory:
       #### Partial Derivatives
       ##### Partial Derivatives
       ###### Interpretations of Partial Derivatives
@@ -120,7 +120,7 @@ notes:
 - id: 1589240183293
   fields:
     Front: |
-      SVEC-11.03-05 Synthesis:
+      SVEC-11.03-05 Theory:
       #### Partial Derivatives
       ##### Partial Derivatives
       ###### Functions of More Than Two Variables
@@ -144,7 +144,7 @@ notes:
 - id: 1589240484743
   fields:
     Front: |
-      SVEC-11.03-06 Synthesis:
+      SVEC-11.03-06 Theory:
       #### Partial Derivatives
       ##### Partial Derivatives
       ###### Higher Derivatives
@@ -170,7 +170,7 @@ notes:
 - id: 1589241098542
   fields:
     Front: |
-      SVEC-11.03-07 Synthesis:
+      SVEC-11.03-07 Theory:
       #### Partial Derivatives
       ##### Partial Derivatives
       ###### Higher Derivatives
@@ -193,7 +193,7 @@ notes:
 - id: 1589241369842
   fields:
     Front: |
-      SVEC-11.03-08 Synthesis:
+      SVEC-11.03-08 Theory:
       #### Partial Derivatives
       ##### Partial Derivatives
       ###### Partial Differential Equations
@@ -206,7 +206,7 @@ notes:
 - id: 1589241456768
   fields:
     Front: |
-      SVEC-11.03-09 Synthesis:
+      SVEC-11.03-09 Theory:
       #### Partial Derivatives
       ##### Partial Derivatives
       ###### Partial Differential Equations
@@ -224,7 +224,7 @@ notes:
   - path: ¢{file_dir}/images/SVEC-11.03-10.Sy.1.jpg
   fields:
     Front: |
-      SVEC-11.03-10 Synthesis:
+      SVEC-11.03-10 Theory:
       #### Partial Derivatives
       ##### Partial Derivatives
       ###### Partial Differential Equations

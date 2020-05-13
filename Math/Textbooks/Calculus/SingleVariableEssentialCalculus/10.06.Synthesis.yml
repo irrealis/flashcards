@@ -5,7 +5,7 @@ defaults:
   - Textbooks
   - Math
   - Calculus
-  - Synthesis
+  - Theory
   - SingleVariableEssentialCalculus
   - SVEC-10-VectorsAndTheGeometryOfSpace
   - SVEC-10.06-CylindersAndQuadricSurfaces
@@ -15,7 +15,7 @@ notes:
 - id: 1588979834185
   fields:
     Front: |
-      SVEC-10.06-01 Synthesis:
+      SVEC-10.06-01 Theory:
       List the cylinders-and-quadrics definitions and theorems.
     Back: |
       Def: **traces**
@@ -37,7 +37,7 @@ notes:
 - id: 1588979952059
   fields:
     Front: |
-      SVEC-10.06-02 Synthesis:
+      SVEC-10.06-02 Theory:
       #### Vectors and the Geometry of Space
       ##### Cylinders and Quadric Surfaces
       Define **traces**, and give a common alternate name.
@@ -49,7 +49,7 @@ notes:
 - id: 1588980108234
   fields:
     Front: |
-      SVEC-10.06-03 Synthesis:
+      SVEC-10.06-03 Theory:
       #### Vectors and the Geometry of Space
       ##### Cylinders and Quadric Surfaces
       ###### Cylinders
@@ -64,7 +64,7 @@ notes:
   - path: ¢{file_dir}/images/SVEC-10.06-04.Sy.1.jpg
   fields:
     Front: |
-      SVEC-10.06-04 Synthesis:
+      SVEC-10.06-04 Theory:
       #### Vectors and the Geometry of Space
       ##### Cylinders and Quadric Surfaces
       ###### Cylinders
@@ -81,7 +81,7 @@ notes:
 - id: 1588980481810
   fields:
     Front: |
-      SVEC-10.06-05 Synthesis:
+      SVEC-10.06-05 Theory:
       #### Vectors and the Geometry of Space
       ##### Cylinders and Quadric Surfaces
       ###### Quadric Surfaces
@@ -102,7 +102,7 @@ notes:
   - path: ¢{file_dir}/images/SVEC-10.06-06.Sy.1.jpg
   fields:
     Front: |
-      SVEC-10.06-06 Synthesis:
+      SVEC-10.06-06 Theory:
       #### Vectors and the Geometry of Space
       ##### Cylinders and Quadric Surfaces
       ###### Quadric Surfaces
@@ -123,7 +123,7 @@ notes:
   - path: ¢{file_dir}/images/SVEC-10.06-07.Sy.1.jpg
   fields:
     Front: |
-      SVEC-10.06-07 Synthesis:
+      SVEC-10.06-07 Theory:
       #### Vectors and the Geometry of Space
       ##### Cylinders and Quadric Surfaces
       ###### Quadric Surfaces
@@ -144,7 +144,7 @@ notes:
   - path: ¢{file_dir}/images/SVEC-10.06-08.Sy.1.jpg
   fields:
     Front: |
-      SVEC-10.06-08 Synthesis:
+      SVEC-10.06-08 Theory:
       #### Vectors and the Geometry of Space
       ##### Cylinders and Quadric Surfaces
       ###### Quadric Surfaces
@@ -165,7 +165,7 @@ notes:
   - path: ¢{file_dir}/images/SVEC-10.06-09.Sy.1.jpg
   fields:
     Front: |
-      SVEC-10.06-09 Synthesis:
+      SVEC-10.06-09 Theory:
       #### Vectors and the Geometry of Space
       ##### Cylinders and Quadric Surfaces
       ###### Quadric Surfaces
@@ -186,7 +186,7 @@ notes:
   - path: ¢{file_dir}/images/SVEC-10.06-10.Sy.1.jpg
   fields:
     Front: |
-      SVEC-10.06-10 Synthesis:
+      SVEC-10.06-10 Theory:
       #### Vectors and the Geometry of Space
       ##### Cylinders and Quadric Surfaces
       ###### Quadric Surfaces
@@ -207,7 +207,7 @@ notes:
   - path: ¢{file_dir}/images/SVEC-10.06-11.Sy.1.jpg
   fields:
     Front: |
-      SVEC-10.06-11 Synthesis:
+      SVEC-10.06-11 Theory:
       #### Vectors and the Geometry of Space
       ##### Cylinders and Quadric Surfaces
       ###### Quadric Surfaces
