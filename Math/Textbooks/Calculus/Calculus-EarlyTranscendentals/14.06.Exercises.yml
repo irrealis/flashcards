@@ -1,0 +1,854 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-14-PartialDerivatives
+  - CET-14.06-DirectionalDerivativesAndTheGradientVector
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589404418095
+  fields:
+    Front: |
+      CET-14.06-01 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404418271
+  fields:
+    Front: |
+      CET-14.06-02 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404418454
+  fields:
+    Front: |
+      CET-14.06-03 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404418636
+  fields:
+    Front: |
+      CET-14.06-04 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404418815
+  fields:
+    Front: |
+      CET-14.06-05 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404419004
+  fields:
+    Front: |
+      CET-14.06-06 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404419203
+  fields:
+    Front: |
+      CET-14.06-07 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404419388
+  fields:
+    Front: |
+      CET-14.06-08 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404419605
+  fields:
+    Front: |
+      CET-14.06-09 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404419788
+  fields:
+    Front: |
+      CET-14.06-10 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404420006
+  fields:
+    Front: |
+      CET-14.06-11 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404420180
+  fields:
+    Front: |
+      CET-14.06-12 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404420362
+  fields:
+    Front: |
+      CET-14.06-13 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404420554
+  fields:
+    Front: |
+      CET-14.06-14 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404420726
+  fields:
+    Front: |
+      CET-14.06-15 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404420922
+  fields:
+    Front: |
+      CET-14.06-16 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404421104
+  fields:
+    Front: |
+      CET-14.06-17 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404421277
+  fields:
+    Front: |
+      CET-14.06-18 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404421446
+  fields:
+    Front: |
+      CET-14.06-19 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404421637
+  fields:
+    Front: |
+      CET-14.06-20 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404421837
+  fields:
+    Front: |
+      CET-14.06-21 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404422021
+  fields:
+    Front: |
+      CET-14.06-22 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404422241
+  fields:
+    Front: |
+      CET-14.06-23 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404422421
+  fields:
+    Front: |
+      CET-14.06-24 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404422637
+  fields:
+    Front: |
+      CET-14.06-25 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404422821
+  fields:
+    Front: |
+      CET-14.06-26 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404423028
+  fields:
+    Front: |
+      CET-14.06-27 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404423239
+  fields:
+    Front: |
+      CET-14.06-28 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404423437
+  fields:
+    Front: |
+      CET-14.06-29 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404423648
+  fields:
+    Front: |
+      CET-14.06-30 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404423871
+  fields:
+    Front: |
+      CET-14.06-31 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404424057
+  fields:
+    Front: |
+      CET-14.06-32 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404424241
+  fields:
+    Front: |
+      CET-14.06-33 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404424470
+  fields:
+    Front: |
+      CET-14.06-34 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404424654
+  fields:
+    Front: |
+      CET-14.06-35 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404424878
+  fields:
+    Front: |
+      CET-14.06-36 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404425072
+  fields:
+    Front: |
+      CET-14.06-37 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404425270
+  fields:
+    Front: |
+      CET-14.06-38 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404425470
+  fields:
+    Front: |
+      CET-14.06-39 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404425655
+  fields:
+    Front: |
+      CET-14.06-40 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404425828
+  fields:
+    Front: |
+      CET-14.06-41 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404426027
+  fields:
+    Front: |
+      CET-14.06-42 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404426238
+  fields:
+    Front: |
+      CET-14.06-43 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404426437
+  fields:
+    Front: |
+      CET-14.06-44 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404426650
+  fields:
+    Front: |
+      CET-14.06-45 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404426839
+  fields:
+    Front: |
+      CET-14.06-46 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404427056
+  fields:
+    Front: |
+      CET-14.06-47 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404427253
+  fields:
+    Front: |
+      CET-14.06-48 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404427438
+  fields:
+    Front: |
+      CET-14.06-49 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404427647
+  fields:
+    Front: |
+      CET-14.06-50 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404427855
+  fields:
+    Front: |
+      CET-14.06-51 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404428071
+  fields:
+    Front: |
+      CET-14.06-52 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404428254
+  fields:
+    Front: |
+      CET-14.06-53 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404428454
+  fields:
+    Front: |
+      CET-14.06-54 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404428626
+  fields:
+    Front: |
+      CET-14.06-55 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404428804
+  fields:
+    Front: |
+      CET-14.06-56 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404429029
+  fields:
+    Front: |
+      CET-14.06-57 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404429237
+  fields:
+    Front: |
+      CET-14.06-58 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404429437
+  fields:
+    Front: |
+      CET-14.06-59 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404429637
+  fields:
+    Front: |
+      CET-14.06-60 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404429856
+  fields:
+    Front: |
+      CET-14.06-61 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404430087
+  fields:
+    Front: |
+      CET-14.06-62 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404430266
+  fields:
+    Front: |
+      CET-14.06-63 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404430455
+  fields:
+    Front: |
+      CET-14.06-64 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404430648
+  fields:
+    Front: |
+      CET-14.06-65 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404430837
+  fields:
+    Front: |
+      CET-14.06-66 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404431072
+  fields:
+    Front: |
+      CET-14.06-67 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404431270
+  fields:
+    Front: |
+      CET-14.06-68 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404431454
+  fields:
+    Front: |
+      CET-14.06-69 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404431672
+  fields:
+    Front: |
+      CET-14.06-70 Exercise:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

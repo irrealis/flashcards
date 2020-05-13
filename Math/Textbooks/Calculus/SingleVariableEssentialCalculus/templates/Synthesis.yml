@@ -19,9 +19,12 @@
     Front: |
       SVEC-XX.XX-XX Synthesis:
       #### Partial Derivatives
-      ##### The Chain Rule
+      ##### Directional Derivatives and the Gradient Vector
+      ###### Tangent Planes to Level Surfaces
       Define . List its hypotheses.
     Back: |
+      X
+
       Hypotheses:
 
       - 
@@ -40,9 +43,12 @@
     Front: |
       SVEC-XX.XX-XX Synthesis:
       #### Partial Derivatives
-      ##### The Chain Rule
+      ##### Directional Derivatives and the Gradient Vector
+      ###### Tangent Planes to Level Surfaces
       State the . List its hypotheses.
     Back: |
+      X
+
       Hypotheses:
 
       - 

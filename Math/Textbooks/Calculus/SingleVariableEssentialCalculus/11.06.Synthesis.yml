@@ -1,0 +1,435 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Synthesis
+  - SingleVariableEssentialCalculus
+  - SVEC-11-PartialDerivatives
+  - SVEC-11.06-DirectionalDerivativesAndTheGradientVector
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589393684022
+  fields:
+    Front: |
+      SVEC-11.06.01 Synthesis:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      List the directional-derivative and gradient-vector definitions and theorems.
+    Back: |
+      ###### Directional Derivatives
+      Def: **directional derivative**
+      Thm: _unnamed_ **expression of directional derivative in terms of partials**
+      Thm: _unnamed_ **expression of directional derivative in terms of partials and sine/cosine**
+      ###### The Gradient Vector
+      Thm: _unnamed_ **expression of directional derivative as dot product**
+      Def: **gradient vector**, **grad**, **del**
+      Thm: **directional derivative as dot product with gradient**
+      ###### Functions of Three Variables
+      Def: **directional derivative** in three variables
+      Def: **directional derivative** in vector notation
+      Thm: _unnamed_ **expression of directional derivative in terms of partials** in three variables
+      Def: **gradient vector**, **grad**, **del** in three variables
+      Thm: **directional derivative as dot product with gradient** in three variables
+      Thm: **directional derivative as dot product with gradient** in vector notation
+      ###### Maximizing the Directional Derivative
+      Thm: _unnamed_ **maximized directional derivative**
+      ###### Tangent Planes to Level Surfaces
+      Thm: _unnamed_ **relationship between gradient vector and tangents to a level surface**
+      Thm: _unnamed_ **level surface tangent plane and normal line equations**
+      ###### Significance of the Gradient Vector
+      Thm: **summary of gradient-vector significance**
+    Annotations: ''
+  tags:
+  - Definitions
+  - Theorems
+  - Editing
+- id: 1589394233422
+  media:
+  - path: ¢{file_dir}/images/SVEC-11.06.02.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-11.06.02 Synthesis:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      ###### Directional Derivatives
+      Define **directional derivative**. List its hypotheses.
+    Back: |
+      The directional derivative of $f$ at $\left(x_{0}, y_{0}\right)$ in the direction of a unit vector $\mathbf{u}=\langle a, b\rangle$ is
+      $$
+      D_{\mathbf{u}} f\left(x_{0}, y_{0}\right)=\lim _{h \rightarrow 0} \frac{f\left(x_{0}+h a, y_{0}+h b\right)-f\left(x_{0}, y_{0}\right)}{h}
+      $$ if this limit exists.
+      <p align="center">
+      ![](SVEC-11.06.02.Sy.1.jpg)
+      _The **directional derivative** of $f$ at $(x_0,y_0)$ is the direction of $\mathbf{u}$ is the slope of the tangent line $T$ at $(x_0,y_0,z_0 = f(x_0, y_0)).$_
+      </p>
+      Hypotheses:
+
+      - $\mathbf{u}=\langle a, b\rangle$ is a unit vector.
+      - $\lim _{h \rightarrow 0} \frac{f\left(x_{0}+h a, y_{0}+h b\right)-f\left(x_{0}, y_{0}\right)}{h}$ exists.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589394651147
+  fields:
+    Front: |
+      SVEC-11.06.03 Synthesis:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      ###### Directional Derivatives
+      State the _unnamed_ **expression of directional derivative in terms of partials**. List its hypotheses.
+    Back: |
+      If $f$ is a differentiable function of $x$ and $y,$ then $f$ has a directional derivative in the direction of any unit vector $\mathbf{u}=\langle a, b\rangle$ and
+      $$
+      D_{\mathbf{u}} f(x, y)=f_{x}(x, y) a+f_{y}(x, y) b
+      $$
+      Hypotheses:
+
+      - $f(x,y)$ differentiable.
+      - $\mathbf{u}=\langle a, b\rangle$ is a unit vector.
+    Annotations: ''
+  tags:
+  - Theorem
+  - Editing
+- id: 1589394943422
+  fields:
+    Front: |
+      SVEC-11.06.04 Synthesis:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      ###### Directional Derivatives
+      State the _unnamed_ **expression of directional derivative in terms of partials and sine/cosine**. List its hypotheses.
+    Back: |
+      If the unit vector $\mathbf{u}$ makes an angle $\theta$ with the positive $x$-axis, then we can write $\mathbf{u}=\langle\cos \theta, \sin \theta\rangle$ and the formula for the directional derivative becomes
+      $$
+      D_{\mathbf{u}} f(x, y)=f_{x}(x, y) \cos \theta+f_{y}(x, y) \sin \theta
+      $$
+      Hypotheses:
+
+      - $f(x,y)$ differentiable.
+      - The unit vector $\mathbf{u}$ makes an angle $\theta$ with the positive $x$-axis.
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589395284762
+  fields:
+    Front: |
+      SVEC-11.06.05 Synthesis:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      ###### The Gradient Vector
+      State the _unnamed_ **expression of directional derivative as dot product**. List its hypotheses.
+    Back: |
+      Notice that the directional derivative of a differentiable function can be written as the dot product of two vectors:
+      $$
+      \begin{aligned}
+      D_{\mathbf{u}} f(x, y) &=f_{x}(x, y) a+f_{y}(x, y) b \\
+      &=\left\langle f_{x}(x, y), f_{y}(x, y)\right\rangle \cdot\langle a, b\rangle \\
+      &=\left\langle f_{x}(x, y), f_{y}(x, y)\right\rangle \cdot \mathbf{u}
+      \end{aligned}
+      $$
+      Hypotheses:
+
+      - $f(x,y)$ differentiable.
+      - $\mathbf{u}=\langle a, b\rangle$ is a unit vector.
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589395694992
+  fields:
+    Front: |
+      SVEC-11.06.06 Synthesis:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      ###### The Gradient Vector
+      Define **gradient vector**, **grad**, **del**. List their hypotheses.
+    Back: |
+      If $f$ is a function of two variables $x$ and $y,$ then the **gradient of $f$** is the vector function $\nabla f$ defined by
+      $$
+      \nabla f(x, y)=\left\langle f_{x}(x, y), f_{y}(x, y)\right\rangle=\frac{\partial f}{\partial x} \mathbf{i}+\frac{\partial f}{\partial y} \mathbf{j}
+      $$ This vector occurs not only in computing directional derivatives but in many other contexts as well. So we give it a special name (the **gradient of $f$**) and a special notation (**grad $f$** or $\nabla f,$ which is read "**del $f$**").
+
+      Hypotheses:
+
+      - $f(x,y)$ differentiable.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589396042247
+  fields:
+    Front: |
+      SVEC-11.06.07 Synthesis:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      ###### The Gradient Vector
+      State the **directional derivative as dot product with gradient**. List its hypotheses.
+    Back: |
+      $$
+      D_{\mathbf{u}} f(x, y)=\nabla f(x, y) \cdot \mathbf{u}
+      $$ This expresses the directional derivative in the direction of a unit vector $\mathbf{u}$ as the scalar projection of the gradient vector onto $\mathbf{u}.$
+
+      Hypotheses:
+
+      - $f(x,y)$ differentiable.
+      - $\mathbf{u}=\langle a, b\rangle$ is a unit vector.
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589396248247
+  fields:
+    Front: |
+      SVEC-11.06.08 Synthesis:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      ###### Functions of Three Variables
+      Define **directional derivative** in three variables. List its hypotheses.
+    Back: |
+      The directional derivative of $f$ at $\left(x_{0}, y_{0}, z_{0}\right)$ in the direction of a unit vector $\mathbf{u}=\langle a, b, c\rangle$ is
+      $$
+      D_{\mathbf{u}} f\left(x_{0}, y_{0}, z_{0}\right)=\lim _{h \rightarrow 0} \frac{f\left(x_{0}+h a, y_{0}+h b, z_{0}+h c\right)-f\left(x_{0}, y_{0}, z_{0}\right)}{h}
+      $$ if this limit exists.
+
+      Hypotheses:
+
+      - $\mathbf{u}=\langle a, b, c\rangle$ is a unit vector.
+      - $\lim _{h \rightarrow 0} \frac{f\left(x_{0}+h a, y_{0}+h b, z_{0}+h c\right)-f\left(x_{0}, y_{0}, z_{0}\right)}{h}$ exists.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589396654845
+  fields:
+    Front: |
+      SVEC-11.06.09 Synthesis:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      ###### Functions of Three Variables
+      Give the **directional derivative** in vector notation. List its hypotheses.
+    Back: |
+      If we use vector notation, then we can write the directional derivative in the compact form
+      $$
+      D_{\mathbf{u}} f\left(\mathbf{x}_{0}\right) = \lim _{h \rightarrow 0} \frac{f\left(\mathbf{x}_{0}+h \mathbf{u}\right)-f\left(\mathbf{x}_{0}\right)}{h}
+      $$ This is reasonable because the vector equation of the line through $\mathbf{x}_{0}$ in the direction of the vector $\mathbf{u}$ is given by $\mathbf{x}=\mathbf{x}_{0}+t \mathbf{u}$ and so $f\left(\mathbf{x}_{0}+h \mathbf{u}\right)$ represents the value of $f$ at a point on this line.
+
+      Hypotheses:
+
+      - $\mathbf{u}$ is a unit vector.
+      - $\lim _{h \rightarrow 0} \frac{f\left(\mathbf{x}_{0}+h \mathbf{u}\right)-f\left(\mathbf{x}_{0}\right)}{h}$ exists.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589397005797
+  fields:
+    Front: |
+      SVEC-11.06.10 Synthesis:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      ###### Functions of Three Variables
+      State the _unnamed_ **expression of directional derivative in terms of partials** in three variables. List its hypotheses.
+    Back: |
+      If $f(x, y, z)$ is differentiable and $\mathbf{u}=\langle a, b, c\rangle$ is a unit vector, then
+      $$
+      D_{\mathbf{u}} f(x, y, z)=f_{x}(x, y, z) a+f_{y}(x, y, z) b+f_{z}(x, y, z) c
+      $$
+
+      Hypotheses:
+
+      - $f(x, y, z)$ is differentiable.
+      - $\mathbf{u}=\langle a, b, c\rangle$ is a unit vector.
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589397216497
+  fields:
+    Front: |
+      SVEC-11.06.11 Synthesis:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      ###### Functions of Three Variables
+      Define **gradient vector**, **grad**, **del** in three variables. List its hypotheses.
+    Back: |
+      For a function $f$ of three variables, the gradient vector, denoted by $\nabla f$ or $\operatorname{grad} f,$ is
+      $$
+      \nabla f(x, y, z)=\left\langle f_{x}(x, y, z), f_{y}(x, y, z), f_{z}(x, y, z)\right\rangle
+      $$ or, for short,
+      $$
+      \nabla f=\left\langle f_{x}, f_{y}, f_{z}\right\rangle=\frac{\partial f}{\partial x} \mathbf{i}+\frac{\partial f}{\partial y} \mathbf{j}+\frac{\partial f}{\partial z} \mathbf{k}
+      $$
+
+      Hypotheses:
+
+      - $f(x, y, z)$ is differentiable.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589397465347
+  fields:
+    Front: |
+      SVEC-11.06.12 Synthesis:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      ###### Functions of Three Variables
+      State the **directional derivative as dot product with gradient** in three variables. List its hypotheses.
+    Back: |
+      Just as with functions of two variables, the directional derivative can be rewritten as
+      $$
+      D_{\mathbf{u}} f(x, y, z)=\nabla f(x, y, z) \cdot \mathbf{u}
+      $$
+
+      Hypotheses:
+
+      - $f(x, y, z)$ is differentiable.
+      - $\mathbf{u}=\langle a, b, c\rangle$ is a unit vector.
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589397745997
+  fields:
+    Front: |
+      SVEC-11.06.13 Synthesis:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      ###### Functions of Three Variables
+      State the **directional derivative as dot product with gradient** in vector notation. List its hypotheses.
+    Back: |
+      In general vector notation, the directional derivative can be rewritten as
+      $$
+      D_{\mathbf{u}} f(\mathbf{x})=\nabla f(\mathbf{x}) \cdot \mathbf{u}
+      $$
+
+      Hypotheses:
+
+      - $f(\mathbf{x})$ is differentiable.
+      - $\mathbf{u}$ is a unit vector.
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589398066547
+  fields:
+    Front: |
+      SVEC-11.06.14 Synthesis:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      ###### Maximizing the Directional Derivative
+      State the _unnamed_ **maximized directional derivative**. List its hypotheses.
+    Back: |
+      Suppose $f$ is a differentiable function of two or three variables. The maximum value of the directional derivative $D_{\mathbf{u}} f(\mathbf{x})$ is $|\nabla f(\mathbf{x})|$ and it occurs when $\mathbf{u}$ has the same direction as the gradient vector $\nabla f(\mathbf{x}).$
+
+      Hypotheses:
+
+      - $f$ is a differentiable function of two or three variables.
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589400899347
+  media:
+  - path: ¢{file_dir}/images/SVEC-11.06.15.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-11.06.15 Synthesis:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      ###### Tangent Planes to Level Surfaces
+      State the _unnamed_ **relationship between gradient vector and tangents to a level surface**. List its hypotheses.
+    Back: |
+      Suppose $S$ is a level surface with equation $F(x, y, z)=k,$ and let $P\left(x_{0}, y_{0}, z_{0}\right)$ be a point on $S$. Let $C$ be any curve that lies on the surface $S$ and passes through the point $P .$ As a space curve, $C$ is described by some continuous vector function $\mathbf{r}(t)=\langle x(t), y(t), z(t)\rangle .$ Let $t_{0}$ be the parameter value corresponding to $P ;$ that is, $\mathbf{r}\left(t_{0}\right)=\left\langle x_{0}, y_{0}, z_{0}\right\rangle .$ Then
+      $$
+      \nabla F\left(x_{0}, y_{0}, z_{0}\right) \cdot \mathbf{r}^{\prime}\left(t_{0}\right)=0,
+      $$ that is, _the gradient vector at $P, \nabla F\left(x_{0}, y_{0}, z_{0}\right),$ is perpendicular to the tangent vector $\mathbf{r}^{\prime}\left(t_{0}\right)$ to any curve $C$ on $S$ that passes through $P .$_ (See figure below.)
+      <p align="center">
+      ![](SVEC-11.06.15.Sy.1.jpg)
+      </p>
+      Hypotheses:
+
+      - $S$ is a level surface with equation $F(x, y, z)=k.$
+      - $P\left(x_{0}, y_{0}, z_{0}\right)$ is a point on $S.$
+      - $C$ is a curve the surface $S$ that passes through $P.$
+      - $\mathbf{r}(t)=\langle x(t), y(t), z(t)\rangle$ is the continuous function that describes $C$.
+      - $t_0$ is the parameter value for which $\mathbf{r}\left(t_{0}\right)=\left\langle x_{0}, y_{0}, z_{0}\right\rangle$ (so $\mathbf{r}\left(t_{0}\right)$ is the position vector of $P$).
+    Annotations: ''
+  tags:
+  - Theorem
+  - Editing
+- id: 1589401984797
+  fields:
+    Front: |
+      SVEC-11.06.16 Synthesis:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      ###### Tangent Planes to Level Surfaces
+      State the _unnamed_ **level surface tangent plane and normal line equations**. List its hypotheses.
+    Back: |
+      Let $S$ be a level surface with equation $F(x, y, z)=k,$ and let $P\left(x_{0}, y_{0}, z_{0}\right)$ be a point on $S.$
+
+      If $\nabla F\left(x_{0}, y_{0}, z_{0}\right) \neq \mathbf{0}$ then $\nabla F\left(x_{0}, y_{0}, z_{0}\right)$ defines the **tangent plane to $S$ at $P.$** This tangent plane has normal vector $\nabla F\left(x_{0}, y_{0}, z_{0}\right)$ and has the standard plane equation
+      $$
+      F_{x}\left(x_{0}, y_{0}, z_{0}\right)\left(x-x_{0}\right)+F_{y}\left(x_{0}, y_{0}, z_{0}\right)\left(y-y_{0}\right)+F_{z}\left(x_{0}, y_{0}, z_{0}\right)\left(z-z_{0}\right)=0
+      $$ The normal line to $S$ at $P$ is expressed by symmetric equations
+      $$
+      \frac{x-x_{0}}{F_{x}\left(x_{0}, y_{0}, z_{0}\right)}=\frac{y-y_{0}}{F_{y}\left(x_{0}, y_{0}, z_{0}\right)}=\frac{z-z_{0}}{F_{z}\left(x_{0}, y_{0}, z_{0}\right)}
+      $$ (See figure below.)
+      <p align="center">
+      ![](SVEC-11.06.15.Sy.1.jpg)
+      </p>
+      In the special case in which the equation of a surface $S$ is of the form $z=f(x, y)$ (that is, $S$ is the graph of a function $f$ of two variables), we can rewrite the equation as
+      $$
+      F(x, y, z)=f(x, y)-z=0
+      $$ and regard $S$ as a level surface (with $k=0$ ) of $F$. Then
+      $$
+      \begin{array}{l}
+      F_{x}\left(x_{0}, y_{0}, z_{0}\right)=f_{x}\left(x_{0}, y_{0}\right) \\
+      F_{y}\left(x_{0}, y_{0}, z_{0}\right)=f_{y}\left(x_{0}, y_{0}\right) \\
+      F_{z}\left(x_{0}, y_{0}, z_{0}\right)=-1
+      \end{array}
+      $$
+
+      Hypotheses:
+
+      - $S$ is a level surface with equation $F(x, y, z)=k.$
+      - $P\left(x_{0}, y_{0}, z_{0}\right)$ is a point on $S.$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589403745447
+  media:
+  - path: ¢{file_dir}/images/SVEC-11.06.17.Sy.1.jpg
+  - path: ¢{file_dir}/images/SVEC-11.06.17.Sy.2.jpg
+  - path: ¢{file_dir}/images/SVEC-11.06.17.Sy.3.jpg
+  fields:
+    Front: |
+      SVEC-11.06.17 Synthesis:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      ###### Significance of the Gradient Vector
+      Summarize the **significance of the gradient vector**. List its hypotheses.
+    Back: |
+      Let $\mathbf{x}_0$ be in the domain of real-valued $f(\mathbf{x}).$
+      1. The gradient vector $\nabla f(\mathbf{x}_0)$ gives the direction of fastest increase of $f.$
+      2. $\nabla f(\mathbf{x}_0)$ is orthogonal to level surface $S$ of $f$ through $\mathbf{x}_0.$
+
+      These two properties are quite compatible intuitively because as we move away from $\mathbf{x}_0$ on the level surface $S,$ the value of $f$ does not change at all. So it seems reasonable that if we move in the perpendicular direction, we get the maximum increase.
+
+      In the figure below we visualize a function $f$ of two variables and a point $P\left(x_{0}, y_{0}\right)$ in its domain.
+      <p align="center">
+      ![](SVEC-11.06.17.Sy.1.jpg)
+      </p>
+      Note that gradient vector $\nabla f\left(x_{0}, y_{0}\right)$ gives the direction of fastest increase of $f,$ and that $\nabla f\left(x_{0}, y_{0}\right)$ is perpendicular to the level curve $f(x, y)=k$ that passes through $P .$
+
+      If we consider a topographical map of a hill and let $f(x, y)$ represent the height above sea level at a point with coordinates $(x, y),$ then a curve of steepest ascent can be drawn, as in the following figure, by making it perpendicular to all of the contour lines.
+      <p align="center">
+      ![](SVEC-11.06.17.Sy.2.jpg)
+      </p>
+      Computer algebra systems have commands that plot sample gradient vectors. Each gradient vector $\nabla f(a, b)$ is plotted starting at the point $(a, b) .$ Figure 13 shows such a plot (called a gradient vector field) for the function $f(x, y)=x^{2}-y^{2}$ superimposed on a contour map of $f .$ As expected, the gradient vectors point "uphill" and are perpendicular to the level curves.
+      <p align="center">
+      ![](SVEC-11.06.17.Sy.3.jpg)
+      </p>
+      Hypotheses:
+
+      - $f(\mathbf{x})$ is differentiable.
+      - $\mathbf{x}_{0}$ is in the domain of $f.$
+    Annotations: ''
+  tags:
+  - Theorem
+  - Editing

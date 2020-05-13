@@ -1,0 +1,110 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-14-PartialDerivatives
+  - CET-14.06-DirectionalDerivativesAndTheGradientVector
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589404416346
+  fields:
+    Front: |
+      CET-14.06-1 Example:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404416537
+  fields:
+    Front: |
+      CET-14.06-2 Example:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404416720
+  fields:
+    Front: |
+      CET-14.06-3 Example:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404416953
+  fields:
+    Front: |
+      CET-14.06-4 Example:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404417186
+  fields:
+    Front: |
+      CET-14.06-5 Example:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404417392
+  fields:
+    Front: |
+      CET-14.06-6 Example:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404417587
+  fields:
+    Front: |
+      CET-14.06-7 Example:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589404417780
+  fields:
+    Front: |
+      CET-14.06-8 Example:
+      #### Partial Derivatives
+      ##### Directional Derivatives and the Gradient Vector
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
