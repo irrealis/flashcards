@@ -1,0 +1,722 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-14-PartialDerivatives
+  - CET-14.05-TheChainRule
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589333246192
+  fields:
+    Front: |
+      CET-14.05-01 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333246368
+  fields:
+    Front: |
+      CET-14.05-02 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333246551
+  fields:
+    Front: |
+      CET-14.05-03 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333246736
+  fields:
+    Front: |
+      CET-14.05-04 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333246943
+  fields:
+    Front: |
+      CET-14.05-05 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333247137
+  fields:
+    Front: |
+      CET-14.05-06 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333247354
+  fields:
+    Front: |
+      CET-14.05-07 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333247535
+  fields:
+    Front: |
+      CET-14.05-08 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333247714
+  fields:
+    Front: |
+      CET-14.05-09 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333247936
+  fields:
+    Front: |
+      CET-14.05-10 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333248118
+  fields:
+    Front: |
+      CET-14.05-11 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333248303
+  fields:
+    Front: |
+      CET-14.05-12 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333248520
+  fields:
+    Front: |
+      CET-14.05-13 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333248703
+  fields:
+    Front: |
+      CET-14.05-14 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333248902
+  fields:
+    Front: |
+      CET-14.05-15 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333249083
+  fields:
+    Front: |
+      CET-14.05-16 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333249302
+  fields:
+    Front: |
+      CET-14.05-17 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333249520
+  fields:
+    Front: |
+      CET-14.05-18 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333249736
+  fields:
+    Front: |
+      CET-14.05-19 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333249921
+  fields:
+    Front: |
+      CET-14.05-20 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333250124
+  fields:
+    Front: |
+      CET-14.05-21 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333250319
+  fields:
+    Front: |
+      CET-14.05-22 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333250497
+  fields:
+    Front: |
+      CET-14.05-23 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333250706
+  fields:
+    Front: |
+      CET-14.05-24 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333250902
+  fields:
+    Front: |
+      CET-14.05-25 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333251085
+  fields:
+    Front: |
+      CET-14.05-26 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333251269
+  fields:
+    Front: |
+      CET-14.05-27 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333251478
+  fields:
+    Front: |
+      CET-14.05-28 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333251687
+  fields:
+    Front: |
+      CET-14.05-29 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333251892
+  fields:
+    Front: |
+      CET-14.05-30 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333252086
+  fields:
+    Front: |
+      CET-14.05-31 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333252273
+  fields:
+    Front: |
+      CET-14.05-32 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333252502
+  fields:
+    Front: |
+      CET-14.05-33 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333252686
+  fields:
+    Front: |
+      CET-14.05-34 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333252868
+  fields:
+    Front: |
+      CET-14.05-35 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333253075
+  fields:
+    Front: |
+      CET-14.05-36 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333253252
+  fields:
+    Front: |
+      CET-14.05-37 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333253437
+  fields:
+    Front: |
+      CET-14.05-38 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333253635
+  fields:
+    Front: |
+      CET-14.05-39 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333253835
+  fields:
+    Front: |
+      CET-14.05-40 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333254017
+  fields:
+    Front: |
+      CET-14.05-41 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333254235
+  fields:
+    Front: |
+      CET-14.05-42 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333254452
+  fields:
+    Front: |
+      CET-14.05-43 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333254668
+  fields:
+    Front: |
+      CET-14.05-44 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333254852
+  fields:
+    Front: |
+      CET-14.05-45 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333255048
+  fields:
+    Front: |
+      CET-14.05-46 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333255235
+  fields:
+    Front: |
+      CET-14.05-47 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333255418
+  fields:
+    Front: |
+      CET-14.05-48 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333255610
+  fields:
+    Front: |
+      CET-14.05-49 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333255818
+  fields:
+    Front: |
+      CET-14.05-50 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333256002
+  fields:
+    Front: |
+      CET-14.05-51 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333256202
+  fields:
+    Front: |
+      CET-14.05-52 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333256403
+  fields:
+    Front: |
+      CET-14.05-53 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333256620
+  fields:
+    Front: |
+      CET-14.05-54 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333256818
+  fields:
+    Front: |
+      CET-14.05-55 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333257003
+  fields:
+    Front: |
+      CET-14.05-56 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333257193
+  fields:
+    Front: |
+      CET-14.05-57 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333257373
+  fields:
+    Front: |
+      CET-14.05-58 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333257590
+  fields:
+    Front: |
+      CET-14.05-59 Exercise:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

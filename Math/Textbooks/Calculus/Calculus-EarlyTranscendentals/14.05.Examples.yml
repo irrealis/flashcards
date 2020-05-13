@@ -1,0 +1,122 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-14-PartialDerivatives
+  - CET-14.05-TheChainRule
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589333244342
+  fields:
+    Front: |
+      CET-14.05-1 Example:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333244540
+  fields:
+    Front: |
+      CET-14.05-2 Example:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333244723
+  fields:
+    Front: |
+      CET-14.05-3 Example:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333244901
+  fields:
+    Front: |
+      CET-14.05-4 Example:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333245084
+  fields:
+    Front: |
+      CET-14.05-5 Example:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333245303
+  fields:
+    Front: |
+      CET-14.05-6 Example:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333245477
+  fields:
+    Front: |
+      CET-14.05-7 Example:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333245669
+  fields:
+    Front: |
+      CET-14.05-8 Example:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589333245863
+  fields:
+    Front: |
+      CET-14.05-9 Example:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

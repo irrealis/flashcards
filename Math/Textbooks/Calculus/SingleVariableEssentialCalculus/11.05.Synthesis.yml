@@ -1,0 +1,250 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Synthesis
+  - SingleVariableEssentialCalculus
+  - SVEC-11-PartialDerivatives
+  - SVEC-11.05-TheChainRule
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589326022843
+  fields:
+    Front: |
+      SVEC-11.05-01 Synthesis:
+      List the chain-rule definitions and theorems.
+    Back: |
+      Thm: **Chain Rule, Case 1: $z = f\left( x(t), y(t) \right)$**
+      Thm: **Chain Rule, Case 2: $z = f\left( x(s,t), y(s,t) \right)$**
+      Def: **independent**, **intermediate**, and **dependent** variables
+      Def: **tree diagram**
+      Thm: **Chain Rule, General Version**
+      ###### Implicit Differentiation
+      Thm: **Implicit Function Theorem** for $F(x,y) = 0$
+      Thm: **Implicit Function Theorem** for $F(x,y,z) = 0$
+      Thm: **Implicit Function Theorem** for $F(x_1,\ldots,x_n) = 0$
+    Annotations: ''
+  tags:
+  - Definitions
+  - Theorems
+- id: 1589326023087
+  fields:
+    Front: |
+      SVEC-11.05-02 Synthesis:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      State the **Chain Rule, Case 1: $z = f\left( x(t), y(t) \right)$**. List its hypotheses.
+    Back: |
+      Suppose that $z=f(x, y)$ is a differentiable function of $x$ and $y,$ where $x=g(t)$ and $y=h(t)$ are both differentiable functions of $t .$ Then $z$ is a differentiable function of $t$ and
+      $$
+      \frac{d z}{d t} = \frac{\partial f}{\partial x} \frac{d x}{d t}+\frac{\partial f}{\partial y} \frac{d y}{d t}
+      $$ which can also be written
+      $$
+      \frac{d z}{d t} = \frac{\partial z}{\partial x} \frac{d x}{d t}+\frac{\partial z}{\partial y} \frac{d y}{d t}
+      $$
+      Hypotheses:
+
+      - $z=f(x, y)$ is a differentiable function of $x$ and $y.$
+      - $x=g(t)$ and $y=h(t)$ are both differentiable functions of $t.$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589327150543
+  fields:
+    Front: |
+      SVEC-11.05-03 Synthesis:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      (a) State the **Chain Rule, Case 2: $z = f\left( x(s,t), y(s,t) \right)$**. List its hypotheses.
+      (b) Define **independent**, **intermediate**, and **dependent** variables.
+    Back: |
+      (a)
+
+      Suppose that $z=f(x, y)$ is a differentiable function of $x$ and $y,$ where $x=g(s, t)$ and $y=h(s, t)$ are differentiable functions of $s$ and $t .$ Then
+      $$
+      \frac{\partial z}{\partial s}=\frac{\partial z}{\partial x} \frac{\partial x}{\partial s}+\frac{\partial z}{\partial y} \frac{\partial y}{\partial s}
+      $$ and
+      $$
+      \frac{\partial z}{\partial t}=\frac{\partial z}{\partial x} \frac{\partial x}{\partial t}+\frac{\partial z}{\partial y} \frac{\partial y}{\partial t}
+      $$
+      Hypotheses:
+
+      - $z=f(x, y)$ is a differentiable function of $x$ and $y.$
+      - $x=g(s, t)$ and $y=h(s, t)$ are differentiable functions of $s$ and $t .$
+
+      (b)
+
+      This version of the Chain Rule contains three types of variables: $s$ and $t$ are **independent** variables, $x$ and $y$ are called **intermediate** variables, and $z$ is the **dependent** variable.
+
+      Notice that Case 2 has one term for each intermediate variable and each of these terms resembles the one-dimensional Chain Rule, Case 1. 
+    Annotations: ''
+  tags:
+  - Definition
+  - Theorem
+- id: 1589328038993
+  media:
+  - path: ¢{file_dir}/images/SVEC-11.05-04.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-11.05-04 Synthesis:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      Define **tree diagram**.
+    Back: |
+      To remember the Chain Rule it's helpful to draw the **tree diagram** below.
+      <p align="center">
+      ![](SVEC-11.05-04.Sy.1.jpg)
+      </p>
+      We draw branches from the dependent variable $z$ to the intermediate variables $x$ and $y$ to indicate that $z$ is a function of $x$ and $y .$ Then we draw branches from $x$ and $y$ to the independent variables $s$ and $t .$ On each branch we write the corresponding partial derivative. To find $\partial z / \partial s$ we find the product of the partial derivatives along each path from $z$ to $s$ and then add these products:
+      $$
+      \frac{\partial z}{\partial s}=\frac{\partial z}{\partial x} \frac{\partial x}{\partial s}+\frac{\partial z}{\partial y} \frac{\partial y}{\partial s}
+      $$ Similarly, we find $\partial z / \partial t$ by using the paths from $z$ to $t.$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589328371768
+  fields:
+    Front: |
+      SVEC-11.05-05 Synthesis:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      State the **Chain Rule, General Version**. List its hypotheses.
+    Back: |
+      Suppose that $u$ is a differentiable function of the $n$ variables $x_{1}, x_{2}, \ldots, x_{n}$ and each $x_{j}$ is a differentiable function of the $m$ variables $t_{1}, t_{2}, \ldots, t_{m} .$ Then $u$ is a function of $t_{1}, t_{2}, \ldots, t_{m}$ and
+      $$
+      \frac{\partial u}{\partial t_{i}}=\frac{\partial u}{\partial x_{1}} \frac{\partial x_{1}}{\partial t_{i}}+\frac{\partial u}{\partial x_{2}} \frac{\partial x_{2}}{\partial t_{i}}+\cdots+\frac{\partial u}{\partial x_{n}} \frac{\partial x_{n}}{\partial t_{i}}
+      $$ for each $i=1,2, \ldots, m.$
+
+      Notice that each $\frac{\partial u}{\partial t_{i}}$ is written with $n$ terms, one for each intermediate variable.
+
+
+      Hypotheses:
+
+      - $u$ is a differentiable function of $x_{1}, \ldots, x_{n}.$
+      - Each $x_{j}$ is a differentiable function of $t_{1}, \ldots, t_{m}.$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589330304142
+  fields:
+    Front: |
+      SVEC-11.05-06 Synthesis:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      State the **Implicit Function Theorem** for $F(x,y) = 0$. List its hypotheses and conclusions.
+    Back: |
+      Suppose $F(x, y)=0$ defines $y$ implicitly as a differentiable function of $x,$ that is, $y=f(x),$ where $F(x, f(x))=0$ for all $x$ in the domain of $f .$ If $F$ is differentiable then
+      $$
+      \frac{d y}{d x}=-\frac{\frac{\partial F}{\partial x}}{\frac{\partial F}{\partial y}}=-\frac{F_{x}}{F_{y}}
+      $$
+      Intermediate hypotheses:
+
+      - $F(x, y)=0$ implicitly defines $y = f(x)$ where $F(x, f(x))=0$ for all $x$ in the domain of $f .$ 
+      - $F$ is differentiable.
+
+      The conditions under which these assumptions are valid are given by the **Implicit Function Theorem**:
+
+      If $F$ is defined on a disk containing $(a, b),$ where $F(a, b)=0, F_{y}(a, b) \neq 0,$ and $F_{x}$ and $F_{y}$ are continuous on the disk, then the equation $F(x, y)=0$ defines $y$ as a function of $x$ near the point $(a, b)$ and the derivative of this function is given by the implicit differentiation formula above.
+
+      Hypotheses:
+
+      - $F$ is defined on a disk containing $(a,b).$
+      - $F(a,b) = 0.$
+      - $F_y(a,b) \ne 0.$
+      - $F_x$ and $F_y$ are continuous on the disk.
+
+      Conclusions:
+
+      - $F(x, y)=0$ implicitly defines a function $y = f(x)$ near $(a, b).$
+      - $dy/dx$ is given by the formula above, that is,
+        $$
+        \frac{d y}{d x} = -\frac{F_{x}}{F_{y}}
+        $$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589331618668
+  fields:
+    Front: |
+      SVEC-11.05-07 Synthesis:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      State the **Implicit Function Theorem** for $F(x,y,z) = 0$. List its hypotheses.
+    Back: |
+      Suppose that $z$ is given implicitly as a function $z=f(x, y)$ by an equation of the form $F(x, y, z)=0 .$ This means that $F(x, y, f(x, y))=0$ for all $(x, y)$ in the domain of $f .$ If $F$ and $f$ are differentiable then
+      $$
+      \frac{\partial z}{\partial x}=-\frac{\frac{\partial F}{\partial x}}{\frac{\partial F}{\partial z}} \quad \text{and} \quad \frac{\partial z}{\partial y}=-\frac{\frac{\partial F}{\partial y}}{\frac{\partial F}{\partial z}}
+      $$
+
+      Intermediate hypotheses:
+
+      - $F(x, y, z)=0$ implicitly defines a function $z = f(x, y).$
+      - $F(x, y, f(x, y))=0$ for all $(x,y)$ in the domain of $f .$ 
+      - $F$ is differentiable.
+      - $f$ is differentiable.
+
+      A version of the **Implicit Function Theorem** gives conditions under which our assumption is valid. If $F$ is defined within a sphere containing $(a, b, c),$ where $F(a, b, c)=0,$ $F_{z}(a, b, c) \neq 0,$ and $F_{x}, F_{y},$ and $F_{z}$ are continuous inside the sphere then the equation $F(x, y, z)=0$ defines $z$ as a function of $x$ and $y$ near the point $(a, b, c)$ and this function is differentiable, with partial derivatives given by the implicit differentiation formula above.
+
+      Hypotheses:
+
+      - $F$ is defined within a sphere containing $(a, b, c).$
+      - $F(a, b, c)=0.$
+      - $F_{z}(a, b, c) \neq 0.$
+      - $F_{x}, F_{y},$ and $F_{z}$ are continuous inside the sphere.
+
+      Conclusions:
+
+      - $F(x, y, z)=0$ implicitly defines a function $z = f(x, y)$ near $(a, b, c).$
+      - $f$ is differentiable, with partial derivatives given by the implicit differentiation formula above, that is,
+        $$
+        \frac{\partial z}{\partial x}=-\frac{F_x}{F_z} \quad \text{and} \quad \frac{\partial z}{\partial y}=-\frac{F_y}{F_z}
+        $$
+    Annotations: ''
+  tags:
+  - Editing
+  - Theorem
+- id: 1589331618967
+  fields:
+    Front: |
+      SVEC-11.05-08 Synthesis:
+      #### Partial Derivatives
+      ##### The Chain Rule
+      State the **Implicit Function Theorem** for $F(x_1,\ldots,x_n, u) = 0$. List its hypotheses.
+    Back: |
+      Suppose that $u$ is given implicitly as a function $u=f(x_1,\ldots,x_n)$ by an equation of the form $F(x_1,\ldots,x_n, u) = 0.$ This means that $F(x_1,\ldots,x_n, f(x_1,\ldots,x_n))=0$ for all $(x_1,\ldots,x_n)$ in the domain of $f .$ If $F$ and $f$ are differentiable then the partial derivatives of $f$ are given by
+      $$
+      \frac{\partial u}{\partial x_i}=-\frac{\frac{\partial F}{\partial x_i}}{\frac{\partial F}{\partial u}}=-\frac{F_{i}}{F_{u}}
+      $$
+
+      Intermediate hypotheses:
+
+      - $F(x_1, \ldots, x_n, u)=0$ implicitly defines a function $u = f(x_1,\ldots,x_n).$
+      - $F(x_1,\ldots,x_n, f(x_1,\ldots,x_n))=0$ for all $(x_1,\ldots,x_n)$ in the domain of $f.$
+      - $F$ is differentiable.
+      - $f$ is differentiable.
+
+      A version of the **Implicit Function Theorem** gives conditions under which our assumption is valid. If $F$ is defined within a hypersphere containing $(a_1,\ldots,a_{n+1}),$ where $F(a_1,\ldots,a_{n+1})=0,$ $F_{u}(a_1,\ldots,a_{n+1}) \neq 0,$ and $F_{1}, \ldots, F_{n},$ and $F_{u}$ are continuous inside the sphere then the equation $F(x_1\ldots,x_n, u)=0$ defines $u$ as a function of $x_1,\ldots,x_n$ near the point $(a_1,\dots,a_{n+1})$ and this function is differentiable, with partial derivatives given by the implicit differentiation formula above.
+
+      Hypotheses:
+
+      - $F$ is defined within a hypersphere containing $(a_1,\ldots,a_{n+1}).$
+      - $F(a_1,\ldots,a_{n+1})=0.$
+      - $F_{u}(a_1,\ldots,a_{n+1}) \neq 0.$
+      - $F_{1}, \ldots, F_{n},$ and $F_{u}$ are continuous inside the hypersphere.
+
+      Conclusions:
+
+      - $F(x_1\ldots,x_n)=0$ defines a function $u = f(x_1,\ldots,x_n)$ near $(a_1,\dots,a_n).$
+      - $f$ is differentiable, with partial derivatives given by the implicit differentiation formula above, that is,
+        $$
+        \frac{\partial u}{\partial x_i}=-\frac{F_{i}}{F_{u}}
+        $$
+
+    Annotations: ''
+  tags:
+  - Theorem
+  - Editing

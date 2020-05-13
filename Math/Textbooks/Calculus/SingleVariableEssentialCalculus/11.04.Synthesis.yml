@@ -34,7 +34,8 @@ notes:
       Def: **linear approximation**, **linearization**, **increment**, **differentiability**, and **differential** of a function of three or more variables
     Annotations: ''
   tags:
-  - Definition
+  - Definitions
+  - Theorems
 - id: 1589314496843
   media:
   - path: ¢{file_dir}/images/SVEC-11.04-02.Sy.1.jpg
@@ -238,44 +239,39 @@ notes:
     Back: |
       As for functions of two variables, linear approximations, differentiability, and differentials can be defined for functions of more than two variables.
 
-      If $w = f(x_1, \ldots, x_n)$, then $f$ is **differentiable** at $(a_1,\ldots,a_n)$ if the **increment**
+      If $u = f(x_1, \ldots, x_n)$, then $f$ is **differentiable** at $(a_1,\ldots,a_n)$ if the **increment**
       $$
-      \Delta w = f(a_1 + \Delta x_1, \ldots, a_n + \Delta x_n) - f(a_1, \ldots, a_n)
+      \Delta u = f(a_1 + \Delta x_1, \ldots, a_n + \Delta x_n) - f(a_1, \ldots, a_n)
       $$ can be expressed in the form
       $$
       \begin{aligned}
-      \Delta w
-      &= f_1(a_1, \ldots, a_n) \Delta x_1 + \cdots + f_n(a_1, \ldots, a_n) \Delta x_n \\
-      &+ \varepsilon_1 \Delta x_1 + \cdots + \varepsilon_n \Delta x_n
+      \Delta u
+      &= \sum_{i=1}^{n} \left[ f_i(a_1, \ldots, a_n) + \varepsilon_i \right] \Delta x_i \\
+      &= \sum_{i=1}^{n} \left( \frac{\partial u}{\partial x_i} + \varepsilon_i \right) \Delta x_i \\
       \end{aligned}
-      $$ where $\varepsilon_1, \ldots, \varepsilon_n \rightarrow 0$ as $(\Delta x_1, \ldots, \Delta x_n) \rightarrow \mathbf(0).$
+      $$ where $\varepsilon_1, \ldots, \varepsilon_n \rightarrow 0$ as $(\Delta x_1, \ldots, \Delta x_n) \rightarrow \mathbf{0}.$
 
       If the partial derivatives $f_1,\ldots,f_n$ exist and are continuous near $(a_1,\ldots,a_n),$ then $f$ is differentiable at $(a_1,\ldots,a_n).$
 
       For such functions the **linear approximation** is
       $$
       \begin{aligned}
-      f(x_1, \ldots, x_n) 
-      &\approx f(a_1, \ldots, a_n) \\
-      &+ f_1(a_1, \ldots, a_n)(x_1 - a_1) + \cdots + f_n(a_1, \ldots, a_n)(x_n - a_n)
+      f(x_1, \ldots, x_n)
+      &\approx f(a_1, \ldots, a_n) + \sum_{i=1}^{n}f_i(a_1, \ldots, a_n)(x_i - a_i) \\
+      &= f(a_1, \ldots, a_n) + \sum_{i=1}^{n}\frac{\partial u}{\partial x_i}(x_i - a_i) 
       \end{aligned}
       $$ and the **linearization** $L(x_1, \ldots, x_n)$ is the right side of this expression.
 
-      The **total differential** $dw$ is defined in terms of the differentials $dx_1, \ldots, dx_n$ of the independent variables by
+      The **total differential** $du$ is defined in terms of the differentials $dx_1, \ldots, dx_n$ of the independent variables by
       $$
-      \begin{aligned}
-      dw
-      &= f_1(a_1,\ldots,a_n)dx_1 + \cdots + f_n(a_1,\ldots,a_n)dx_n \\
-      &= \frac{\partial w}{\partial x_1}dx_1 + \cdots + \frac{\partial w}{\partial x_n}dx_n,
-      \end{aligned}
+      du = \sum_{i=1}^{n} f_i(a_1,\ldots,a_n)dx_i = \sum_{i=1}^{n} \frac{\partial u}{\partial x_i}dx_i,
       $$ and by writing $dx_i = (x_i - a_i),$ the linear approximation can be written in terms of differentials:
       $$
       \begin{aligned}
       f(x_1,\ldots,x_n)
-      &\approx f(a_1,\ldots,a_n) + dw \\
-      &= f(a_1,\ldots,a_n) + \frac{\partial w}{\partial x_1}dx_1 + \cdots + \frac{\partial w}{\partial x_n}dx_n \\
-      &= f(a_1, \ldots, a_n) \\
-      &+ f_1(a_1, \ldots, a_n)(x_1 - a_1) + \cdots + f_n(a_1, \ldots, a_n)(x_n - a_n)
+      &\approx f(a_1,\ldots,a_n) + du \\
+      &= f(a_1,\ldots,a_n) + \sum_{i=1}^{n}\frac{\partial u}{\partial x_i}dx_i \\
+      &= f(a_1, \ldots, a_n) + \sum_{i=1}^{n} f_i(a_1, \ldots, a_n)(x_i - a_i)
       \end{aligned}
       $$
       Hypotheses:
