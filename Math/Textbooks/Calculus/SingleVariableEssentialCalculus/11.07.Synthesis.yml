@@ -1,0 +1,252 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Synthesis
+  - SingleVariableEssentialCalculus
+  - SVEC-11-PartialDerivatives
+  - SVEC-11.07-MaximumAndMinimumValues
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589406794071
+  fields:
+    Front: |
+      SVEC-11.07.01 Synthesis:
+      #### Partial Derivatives
+      ##### Maximum and Minimum Values
+      List the extrema definitions and theorems.
+    Back: |
+      Def: **local/absolute minima/maxima**, **local/absolute minimum/maximum value**, **extrema**
+      Thm: _unnamed_ **partials at local extrema**
+      Def: **critical point** and alternate name
+      Def: **saddle point** and alternate name
+      Thm: **Second Derivatives Test**
+      ###### Absolute Maximum and Minimum Values
+      Def: **boundary point**
+      Def: **closed set**
+      Def: **bounded set**
+      Thm: **Extreme Value Theorem** for functions of two variables
+      Thm: _unnamed_ **characterization of extrema**
+      Thm: **Extended Closed Interval Method**
+    Annotations: ''
+  tags:
+  - Definitions
+  - Theorems
+- id: 1589406794322
+  fields:
+    Front: |
+      SVEC-11.07.02 Synthesis:
+      #### Partial Derivatives
+      ##### Maximum and Minimum Values
+      Define **local/absolute minima/maxima**, **local/absolute minimum/maximum value**, **extrema**.
+    Back: |
+      A function of two variables has a **local maximum** at $(a, b)$ if $f(x, y) \leqslant f(a, b)$ when $(x, y)$ is near $(a, b) .$ The number $f(a, b)$ is called a **local maximum value**.
+
+      If $f(x, y) \geqslant f(a, b)$ when $(x, y)$ is near $(a, b),$ then $f$ has a **local minimum** at $(a, b)$ and $f(a, b)$ is a **local minimum value**.
+
+      If these inequalities hold for _all_ points $(x, y)$ in the domain of $f,$ then $f$ has an **absolute maximum** (or **absolute minimum**) at $(a, b),$ and corresponding **absolute minimum/maximum values**.
+
+      The **extrema** of $f$ are its **local and absolute minima and maxima**. The **extreme values** of $f$ are its **local and absolute minimum and maximum values**.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589407172897
+  fields:
+    Front: |
+      SVEC-11.07.03 Synthesis:
+      #### Partial Derivatives
+      ##### Maximum and Minimum Values
+      State the _unnamed_ **values of partials at local extrema** and their geometric interpretation. List their hypotheses.
+    Back: |
+      If $f$ has a local maximum or minimum at $(a, b)$ and the first-order partial derivatives of $f$ exist there, then $f_{x}(a, b)=0$ and $f_{y}(a, b)=0.$
+
+      This conclusion can be stated in the notation of gradient vectors as $\nabla f(a, b)=\mathbf{0}.$
+
+      Hypotheses:
+
+      - $f$ has a local maximum or minimum at $(a, b).$
+      - The first-order partial derivatives of $f$ exist at $(a, b).$
+
+      If we put $f_{x}(a, b)=0$ and $f_{y}(a, b)=0$ in the equation of a tangent plane, we get $z=z_{0} .$ Thus the geometric interpretation of this theorem is that if the graph of $f$ has a tangent plane at a local maximum or minimum, then the tangent plane must be horizontal.
+
+      Hypotheses:
+
+      - $f$ has a local maximum or minimum at $(a, b).$
+      - The graph of $f$ has a tangent plane at $(a, b).$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589407615747
+  fields:
+    Front: |
+      SVEC-11.07.04 Synthesis:
+      #### Partial Derivatives
+      ##### Maximum and Minimum Values
+      Define **critical point**, and give an alternate name. List its hypotheses.
+    Back: |
+      A point $(a, b)$ is called a **critical point** (or **stationary point**) of $f$ if $f_{x}(a, b)=0$ and $f_{y}(a, b)=0,$ or if one of these partial derivatives does not exist.
+
+      Hypotheses:
+
+      - $f_{x}(a, b)=0$ and $f_{y}(a, b)=0,$ or one of these partial derivatives does not exist.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589408144347
+  fields:
+    Front: |
+      SVEC-11.07.05 Synthesis:
+      #### Partial Derivatives
+      ##### Maximum and Minimum Values
+      Define **saddle point**, and give an alternate name. List its hypotheses.
+    Back: |
+      A **saddle point** or **minimax point** of $f(x,y)$ is a point $(a,b)$ at which $f_{x}(a, b)=0$ and $f_{y}(a, b)=0$, but $(a,b)$ not a local extremum of $f.$
+
+      Hypotheses:
+
+      - $f_{x}(a, b)=0$ and $f_{y}(a, b)=0$. 
+      - $(a,b)$ not a local extremum of $f.$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589409169522
+  fields:
+    Front: |
+      SVEC-11.07.06 Synthesis:
+      #### Partial Derivatives
+      ##### Maximum and Minimum Values
+      State the **Second Derivatives Test**. List its hypotheses.
+    Back: |
+      Suppose the second partial derivatives of $f$ are continuous on a disk with center $(a, b),$ and suppose that $f_{x}(a, b)=0$ and $f_{y}(a, b)=0$ [that is, $(a, b)$ is a critical point of $f$]. Let
+      $$
+      D=D(a, b)=f_{x x}(a, b) f_{y y}(a, b)-\left[f_{x y}(a, b)\right]^{2}
+      $$
+      1. If $D>0$ and $f_{x x}(a, b)>0,$ then $f(a, b)$ is a local minimum.
+      2. If $D>0$ and $f_{x x}(a, b)<0,$ then $f(a, b)$ is a local maximum.
+      3. If $D=0,$ the test gives no information: $f$ could have a local maximum or local minimum at $(a, b),$ or $(a, b)$ could be a saddle point of $f.$
+      4. If $D<0$, then $f(a, b)$ is a saddle point.
+
+      Hypotheses:
+
+      - The second partial derivatives of $f$ are continuous on a disk with center $(a, b).$
+      - $f_{x}(a, b)=0$ and $f_{y}(a, b)=0.$
+
+      Notes:
+
+      - To remember the formula for $D$, it's helpful to write it as a determinant
+        $$
+        D=\left|\begin{array}{ll}
+        f_{x x} & f_{x y} \\
+        f_{y x} & f_{y y}
+        \end{array}\right|=f_{x x} f_{y y}-\left(f_{x y}\right)^{2}
+        $$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589409897572
+  fields:
+    Front: |
+      SVEC-11.07.07 Synthesis:
+      #### Partial Derivatives
+      ###### Absolute Maximum and Minimum Values
+      Define **boundary point**.
+    Back: |
+      A **boundary point** of a set $D$ is a point $(a, b)$ such that every disk with center $(a, b)$ contains points in $D$ and also points not in $D.$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589409897822
+  media:
+  - path: ¢{file_dir}/images/SVEC-11.07.08.Sy.1.jpg
+  - path: ¢{file_dir}/images/SVEC-11.07.08.Sy.2.jpg
+  fields:
+    Front: |
+      SVEC-11.07.08 Synthesis:
+      #### Partial Derivatives
+      ###### Absolute Maximum and Minimum Values
+      Define **closed set**.
+    Back: |
+      A closed set in $\mathbb{R}^{2}$ is one that contains all its boundary points.
+
+      For instance, the disk
+      $$
+      D=\left\{(x, y) | x^{2}+y^{2} \leq 1\right\}
+      $$ which consists of all points on or inside the circle $x^{2}+y^{2}=1,$ is a closed set because it contains all of its boundary points (which are the points on the circle $x^{2}+y^{2}=1$ ). But if even one point on the boundary curve were omitted, the set would not be closed. (See figures below.)
+      <p align="center">
+      ![](SVEC-11.07.08.Sy.1.jpg)
+      _Closed sets._
+      </p>
+      <p align="center">
+      ![](SVEC-11.07.08.Sy.2.jpg)
+      _Sets that are not closed._
+      </p>
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589410062597
+  fields:
+    Front: |
+      SVEC-11.07.09 Synthesis:
+      #### Partial Derivatives
+      ###### Absolute Maximum and Minimum Values
+      Define **bounded set**.
+    Back: |
+      A **bounded set** in $\mathbb{R}^{2}$ is one that is contained within some disk. In other words, it is finite in extent.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589410175546
+  fields:
+    Front: |
+      SVEC-11.07.10 Synthesis:
+      #### Partial Derivatives
+      ###### Absolute Maximum and Minimum Values
+      State the **Extreme Value Theorem** for functions of two variables. List its hypotheses.
+    Back: |
+      If $f$ is continuous on a closed, bounded set $D$ in $\mathbb{R}^{2},$ then $f$ attains an absolute maximum value $f\left(x_{1}, y_{1}\right)$ and an absolute minimum value $f\left(x_{2}, y_{2}\right)$ at some points $\left(x_{1}, y_{1}\right)$ and $\left(x_{2}, y_{2}\right)$ in $D.$
+
+      Hypotheses:
+
+      - $f$ is continuous on a closed, bounded set $D$ in $\mathbb{R}^{2}.$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589410416397
+  fields:
+    Front: |
+      SVEC-11.07.11 Synthesis:
+      #### Partial Derivatives
+      ###### Absolute Maximum and Minimum Values
+      State the _unnamed_ **characterization of extrema**. List its hypotheses.
+    Back: |
+      If $f$ has an extreme value at $\left(x_{1}, y_{1}\right),$ then $\left(x_{1}, y_{1}\right)$ is either a critical point of $f$ or a boundary point of $D$.
+
+      Hypotheses:
+
+      - $f$ has an extreme value at $\left(x_{1}, y_{1}\right).$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589410581246
+  fields:
+    Front: |
+      SVEC-11.07.12 Synthesis:
+      #### Partial Derivatives
+      ###### Absolute Maximum and Minimum Values
+      State the **Extended Closed Interval Method**. List its hypotheses.
+    Back: |
+      To find the absolute maximum and minimum values of a continuous function $f$ on a closed, bounded set $D:$
+      1. Find the values of $f$ at the critical points of $f$ in $D.$
+      2. Find the extreme values of $f$ on the boundary of $D.$
+      3. The largest of the values from steps 1 and 2 is the absolute maximum value the smallest of these values is the absolute minimum value.
+
+      Hypotheses:
+
+      - $f$ is continuous on a closed, bounded set $D.$
+    Annotations: ''
+  tags:
+  - Theorem

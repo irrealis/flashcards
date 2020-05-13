@@ -1,0 +1,98 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-14-PartialDerivatives
+  - CET-14.07-MinimumAndMaximumValues
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589410819397
+  fields:
+    Front: |
+      CET-14.07-1 Example:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410819601
+  fields:
+    Front: |
+      CET-14.07-2 Example:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410819774
+  fields:
+    Front: |
+      CET-14.07-3 Example:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410819952
+  fields:
+    Front: |
+      CET-14.07-4 Example:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410820135
+  fields:
+    Front: |
+      CET-14.07-5 Example:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410820345
+  fields:
+    Front: |
+      CET-14.07-6 Example:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410820525
+  fields:
+    Front: |
+      CET-14.07-7 Example:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

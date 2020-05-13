@@ -1,0 +1,734 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-14-PartialDerivatives
+  - CET-14.07-MinimumAndMaximumValues
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589410820847
+  fields:
+    Front: |
+      CET-14.07-01 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410821037
+  fields:
+    Front: |
+      CET-14.07-02 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410821218
+  fields:
+    Front: |
+      CET-14.07-03 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410821435
+  fields:
+    Front: |
+      CET-14.07-04 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410821640
+  fields:
+    Front: |
+      CET-14.07-05 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410821835
+  fields:
+    Front: |
+      CET-14.07-06 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410822024
+  fields:
+    Front: |
+      CET-14.07-07 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410822245
+  fields:
+    Front: |
+      CET-14.07-08 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410822451
+  fields:
+    Front: |
+      CET-14.07-09 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410822651
+  fields:
+    Front: |
+      CET-14.07-10 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410822835
+  fields:
+    Front: |
+      CET-14.07-11 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410823052
+  fields:
+    Front: |
+      CET-14.07-12 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410823236
+  fields:
+    Front: |
+      CET-14.07-13 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410823446
+  fields:
+    Front: |
+      CET-14.07-14 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410823635
+  fields:
+    Front: |
+      CET-14.07-15 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410823871
+  fields:
+    Front: |
+      CET-14.07-16 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410824054
+  fields:
+    Front: |
+      CET-14.07-17 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410824260
+  fields:
+    Front: |
+      CET-14.07-18 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410824440
+  fields:
+    Front: |
+      CET-14.07-19 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410824633
+  fields:
+    Front: |
+      CET-14.07-20 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410824834
+  fields:
+    Front: |
+      CET-14.07-21 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410825045
+  fields:
+    Front: |
+      CET-14.07-22 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410825252
+  fields:
+    Front: |
+      CET-14.07-23 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410825476
+  fields:
+    Front: |
+      CET-14.07-24 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410825670
+  fields:
+    Front: |
+      CET-14.07-25 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410825885
+  fields:
+    Front: |
+      CET-14.07-26 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410826065
+  fields:
+    Front: |
+      CET-14.07-27 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410826263
+  fields:
+    Front: |
+      CET-14.07-28 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410826486
+  fields:
+    Front: |
+      CET-14.07-29 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410826687
+  fields:
+    Front: |
+      CET-14.07-30 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410826871
+  fields:
+    Front: |
+      CET-14.07-31 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410827073
+  fields:
+    Front: |
+      CET-14.07-32 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410827286
+  fields:
+    Front: |
+      CET-14.07-33 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410827485
+  fields:
+    Front: |
+      CET-14.07-34 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410827686
+  fields:
+    Front: |
+      CET-14.07-35 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410827869
+  fields:
+    Front: |
+      CET-14.07-36 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410828102
+  fields:
+    Front: |
+      CET-14.07-37 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410828313
+  fields:
+    Front: |
+      CET-14.07-38 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410828546
+  fields:
+    Front: |
+      CET-14.07-39 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410828754
+  fields:
+    Front: |
+      CET-14.07-40 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410828952
+  fields:
+    Front: |
+      CET-14.07-41 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410829142
+  fields:
+    Front: |
+      CET-14.07-42 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410829350
+  fields:
+    Front: |
+      CET-14.07-43 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410829587
+  fields:
+    Front: |
+      CET-14.07-44 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410829769
+  fields:
+    Front: |
+      CET-14.07-45 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410829985
+  fields:
+    Front: |
+      CET-14.07-46 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410830185
+  fields:
+    Front: |
+      CET-14.07-47 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410830397
+  fields:
+    Front: |
+      CET-14.07-48 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410830635
+  fields:
+    Front: |
+      CET-14.07-49 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410830826
+  fields:
+    Front: |
+      CET-14.07-50 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410831020
+  fields:
+    Front: |
+      CET-14.07-51 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410831202
+  fields:
+    Front: |
+      CET-14.07-52 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410831412
+  fields:
+    Front: |
+      CET-14.07-53 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410831644
+  fields:
+    Front: |
+      CET-14.07-54 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410831835
+  fields:
+    Front: |
+      CET-14.07-55 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410832035
+  fields:
+    Front: |
+      CET-14.07-56 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410832236
+  fields:
+    Front: |
+      CET-14.07-57 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410832436
+  fields:
+    Front: |
+      CET-14.07-58 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410832623
+  fields:
+    Front: |
+      CET-14.07-59 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589410832836
+  fields:
+    Front: |
+      CET-14.07-60 Exercise:
+      #### Partial Derivatives
+      ##### Minimum and Maximum Values
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
