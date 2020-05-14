@@ -1,0 +1,178 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theory
+  - SingleVariableEssentialCalculus
+  - SVEC-12-MultipleIntegrals
+  - SVEC-12.01-DoubleIntegralsOverRectangles
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589492656221
+  fields:
+    Front: |
+      SVEC-12.01.01 Synthesis:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      List the rectangle-double-integral definitions and theorems.
+    Back: |
+      ###### Volumes and Double Integrals
+      Def: **volume** over a rectangle
+      Def: **double integral** and **double Riemann sum** over a rectangle, and **integrable**
+      Def: **volume** as integral
+      ###### The Midpoint Rule
+      Def: **Midpoint Rule for Double Integrals**
+      ###### Iterated Integrals
+      Thm: **partial integration with respect to $y$**
+      Def: **iterated integral**
+      Thm: **Fubini's Theorem**
+      ###### Average Value
+      Def: **average value*
+    Annotations: ''
+  tags:
+  - Definitions
+  - Editing
+  - Theorems
+- id: 1589493938894
+  media:
+  - path: ¢{file_dir}/images/SVEC-12.01.02.Sy.1.jpg
+  - path: ¢{file_dir}/images/SVEC-12.01.02.Sy.2.jpg
+  - path: ¢{file_dir}/images/SVEC-12.01.02.Sy.3.jpg
+  - path: ¢{file_dir}/images/SVEC-12.01.02.Sy.4.jpg
+  fields:
+    Front: |
+      SVEC-12.01.02 Synthesis:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Define **volume** over a rectangle.
+    Back: |
+      1. We consider a graph of $z = f(x,y)$ defined on a closed rectangle, assuming $f(x,y)\geqslant 0:$
+        $$
+        R=[a, b] \times[c, d]=\left\{(x, y) \in \mathbb{R}^{2} | a \leqslant x \leqslant b, c \leqslant y \leqslant d\right\}
+        $$ and let $S$ be the solid that lies above $R$ and under the graph of $f:$
+        $$
+        S=\left\{(x, y, z) \in \mathbb{R}^{3} | 0 \leqslant z \leqslant f(x, y),(x, y) \in R\right\}
+        $$ (See figure below.)
+        <p align="center">
+        ![](SVEC-12.01.02.Sy.1.jpg)
+        </p>
+      2. We take a partition $P$ of $R$ into subrectangles by dividing the intervals $[a, b]$ and $[c, d]$ as follows:
+        $$
+        \begin{array}{l}
+        a=x_{0}<x_{1}<\cdots<x_{i-1}<x_{i}<\cdots<x_{m}=b \\
+        c=y_{0}<y_{1}<\cdots<y_{j-1}<y_{j}<\cdots<y_{n}=d
+        \end{array}
+        $$ We form the subrectangles
+        $$
+        R_{i j}=\left[x_{i-1}, x_{i}\right] \times\left[y_{j-1}, y_{j}\right]=\left\{(x, y) | x_{i-1} \leqslant x \leqslant x_{i}, y_{j-1} \leqslant y \leqslant y_{j}\right\}
+        $$ We let $\Delta x_{i}=x_{i}-x_{i-1}$ and $\Delta y_{j}=y_{j}-y_{j-1}.$ The area of $R_{i j}$ is then
+        $$
+        \Delta A_{i j}=\Delta x_{i} \Delta y_{j}
+        $$
+        <p align="center">
+        ![](SVEC-12.01.02.Sy.2.jpg)
+        _Partition of a rectangle._
+        </p>
+      3. We choose a sample point $\left(x_{i j}^{*}, y_{i j}^{*}\right)$ in each $R_{i j},$ as shown above.
+      4. We approximate the part of $S$ that lies above each $R_{i j}$ by a thin rectangular box (or "column") with base $R_{i j}$ and height $f\left(x_{i j}^{*}, y_{i j}^{*}\right)$ as shown below.
+        <p align="center">
+        ![](SVEC-12.01.02.Sy.3.jpg)
+        </p>
+        The volume of this box is the height of the box times the area of the base rectangle:
+        $$
+        f\left(x_{i j}^{*}, y_{i j}^{*}\right) \Delta A_{ij}
+        $$ We follow this procedure for all the rectangles.
+      5. We add the volumes of the corresponding boxes to get an approximation to the total volume of $S:$
+        $$
+        V \approx \sum_{i=1}^{m} \sum_{j=1}^{n} f\left(x_{i j}^{*}, y_{i j}^{*}\right) \Delta A_{ij}
+        $$ as shown below.
+        <p align="center">
+        ![](SVEC-12.01.02.Sy.4.jpg)
+        </p>
+      6. We define the **volume** of the solid $S$ by the expression
+        $$
+        V=\lim _{\max \Delta x_{i}, \Delta y_{j} \rightarrow 0} \sum_{i=1}^{m} \sum_{j=1}^{n} f\left(x_{i j}^{*}, y_{i j}^{*}\right) \Delta A_{i j}
+        $$ if this limit exists.
+
+      Hypotheses:
+
+      - $f(x,y) \geqslant 0$ on $R.$
+      - $V=\lim _{\max \Delta x_{i}, \Delta y_{j} \rightarrow 0} \sum_{i=1}^{m} \sum_{j=1}^{n} f\left(x_{i j}^{*}, y_{i j}^{*}\right) \Delta A_{i j}$ exists.
+    Annotations: ''
+  tags:
+  - Definition
+  - Editing
+- id: 1589494864797
+  fields:
+    Front: |
+      SVEC-12.01.03 Synthesis:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Define **double integral** and **double Riemann sum** over a rectangle, and **integrable**. List their hypotheses.
+    Back: |
+      The **double integral** of $f$ over the rectangle $R$ is
+      $$
+      V=\lim _{\max \Delta x_{i}, \Delta y_{j} \rightarrow 0} \sum_{i=1}^{m} \sum_{j=1}^{n} f\left(x_{i j}^{*}, y_{i j}^{*}\right) \Delta A_{i j}
+      $$ if this limit exists, in which case $f$ is said to be **integrable**.
+
+      The precise meaning of this limit is that for every number $\varepsilon>0$ there is a corresponding number $\delta$ such that
+      $$
+      \left|\iint_{R} f(x, y) d A-\sum_{i=1}^{m} \sum_{j=1}^{n} f\left(x_{i j}^{*}, y_{i j}^{*}\right) \Delta A_{i j}\right|<\varepsilon
+      $$ for all partitions $P$ of $R$ whose subinterval lengths are less than $\delta$, and for any choice of sample points $\left(x_{i j}^{*}, y_{i j}^{*}\right)$ in $R_{i j}$
+
+      The sum
+      $$
+      \sum_{i=1}^{m} \sum_{j=1}^{n} f\left(x_{i j}^{*}, y_{i j}^{*}\right) \Delta A_{ij}
+      $$ is called a **double Riemann sum** and is used as an approximation to the value of the double integral.
+
+      Hypotheses:
+
+      - $f(x,y) \geqslant 0$ on $R.$
+      - $\lim _{m, n \rightarrow \infty} \sum_{i=1}^{m} \sum_{j=1}^{n} f\left(x_{i j}^{*}, y_{i j}^{*}\right) \Delta A$ exists.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589495991847
+  fields:
+    Front: |
+      SVEC-12.01.04 Synthesis:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Define **volume** as integral. List its hypotheses.
+    Back: |
+      If $f(x, y) \geqslant 0,$ then the volume $V$ of the solid that lies above the rectangle $R$ and below the surface $z=f(x, y)$ is
+      $$
+      V=\iint_{R} f(x, y) d A
+      $$
+
+      Hypotheses:
+
+      - $f(x, y) \geqslant 0$ on $R.$
+      - $f$ is integrable.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589496146721
+  fields:
+    Front: |
+      SVEC-12.01.05 Synthesis:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      ###### The Midpoint Rule
+      State the **Midpoint Rule for Double Integrals**. List its hypotheses.
+    Back: |
+      $$
+      \iint_{R} f(x, y) d A \approx \sum_{i=1}^{m} \sum_{j=1}^{n} f\left(\bar{x}_{i}, \bar{y}_{j}\right) \Delta A
+      $$ where $\bar{x}_{i}$ is the midpoint of $\left[x_{i-1}, x_{i}\right]$ and $\bar{y}_{j}$ is the midpoint of $\left[y_{j-1}, y_{j}\right].$
+
+      Hypotheses:
+
+      - $f(x, y) \geqslant 0$ on $R.$
+    Annotations: ''
+  tags:
+  - Theorem
+  - Editing

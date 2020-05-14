@@ -18,9 +18,9 @@
   fields:
     Front: |
       SVEC-XX.XX-XX Synthesis:
-      #### Partial Derivatives
-      ##### Lagrange Multipliers
-      ###### Two Constraints
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      ###### Average Value
       Define . List its hypotheses.
     Back: |
       X
@@ -42,9 +42,9 @@
   fields:
     Front: |
       SVEC-XX.XX-XX Synthesis:
-      #### Partial Derivatives
-      ##### Lagrange Multipliers
-      ###### Two Constraints
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      ###### Average Value
       State the . List its hypotheses.
     Back: |
       X

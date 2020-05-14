@@ -1,0 +1,638 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-15-MultipleIntegrals
+  - CET-15.01-DoubleIntegralsOverRectangles
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589500617323
+  fields:
+    Front: |
+      CET-15.01-01 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589500617541
+  fields:
+    Front: |
+      CET-15.01-02 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589500617740
+  fields:
+    Front: |
+      CET-15.01-03 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589500617924
+  fields:
+    Front: |
+      CET-15.01-04 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589500618106
+  fields:
+    Front: |
+      CET-15.01-05 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589500618292
+  fields:
+    Front: |
+      CET-15.01-06 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589500618523
+  fields:
+    Front: |
+      CET-15.01-07 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589500618712
+  fields:
+    Front: |
+      CET-15.01-08 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589500618907
+  fields:
+    Front: |
+      CET-15.01-09 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589500619140
+  fields:
+    Front: |
+      CET-15.01-10 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589500619340
+  fields:
+    Front: |
+      CET-15.01-11 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589500619557
+  fields:
+    Front: |
+      CET-15.01-12 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589500619773
+  fields:
+    Front: |
+      CET-15.01-13 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589500619973
+  fields:
+    Front: |
+      CET-15.01-14 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589500620190
+  fields:
+    Front: |
+      CET-15.01-15 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589500620421
+  fields:
+    Front: |
+      CET-15.01-16 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589500620625
+  fields:
+    Front: |
+      CET-15.01-17 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589500620823
+  fields:
+    Front: |
+      CET-15.01-18 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589500621025
+  fields:
+    Front: |
+      CET-15.01-19 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589500621206
+  fields:
+    Front: |
+      CET-15.01-20 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589500621423
+  fields:
+    Front: |
+      CET-15.01-21 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589500621608
+  fields:
+    Front: |
+      CET-15.01-22 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589500621823
+  fields:
+    Front: |
+      CET-15.01-23 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589500622041
+  fields:
+    Front: |
+      CET-15.01-24 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589500622256
+  fields:
+    Front: |
+      CET-15.01-25 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589500622474
+  fields:
+    Front: |
+      CET-15.01-26 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589500622708
+  fields:
+    Front: |
+      CET-15.01-27 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589500622909
+  fields:
+    Front: |
+      CET-15.01-28 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589500623106
+  fields:
+    Front: |
+      CET-15.01-29 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589500623323
+  fields:
+    Front: |
+      CET-15.01-30 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589500623523
+  fields:
+    Front: |
+      CET-15.01-31 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589500623723
+  fields:
+    Front: |
+      CET-15.01-32 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589500623923
+  fields:
+    Front: |
+      CET-15.01-33 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589500624126
+  fields:
+    Front: |
+      CET-15.01-34 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589500624323
+  fields:
+    Front: |
+      CET-15.01-35 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589500624508
+  fields:
+    Front: |
+      CET-15.01-36 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589500624708
+  fields:
+    Front: |
+      CET-15.01-37 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589500624906
+  fields:
+    Front: |
+      CET-15.01-38 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589500625106
+  fields:
+    Front: |
+      CET-15.01-39 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589500625294
+  fields:
+    Front: |
+      CET-15.01-40 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589500625523
+  fields:
+    Front: |
+      CET-15.01-41 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589500625731
+  fields:
+    Front: |
+      CET-15.01-42 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589500625925
+  fields:
+    Front: |
+      CET-15.01-43 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589500626107
+  fields:
+    Front: |
+      CET-15.01-44 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589500626321
+  fields:
+    Front: |
+      CET-15.01-45 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589500626508
+  fields:
+    Front: |
+      CET-15.01-46 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589500626706
+  fields:
+    Front: |
+      CET-15.01-47 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589500626907
+  fields:
+    Front: |
+      CET-15.01-48 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589500627107
+  fields:
+    Front: |
+      CET-15.01-49 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589500627306
+  fields:
+    Front: |
+      CET-15.01-50 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589500627511
+  fields:
+    Front: |
+      CET-15.01-51 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589500627706
+  fields:
+    Front: |
+      CET-15.01-52 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

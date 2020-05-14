@@ -52,8 +52,117 @@ notes:
 
       Hypotheses:
 
+      - $\nabla g \neq \mathbf{0}$ on the surface 02g(If
+      $$$$
+      f(x)=\frac{x^{2}-x}{x-1} \quad \text { and } \quad g(x)=x
+      $$$$
+      is it true that $f=g$?
+      - The maximum and minimum values of $f(x, y, z),$ under the constraint $g(x, y, z)=k,$ exist$f(x)=\rfac{x^{2$ [=\frac$(x-1)}x{-1}=x$ for $x-1 \neq 0,$ so $f$ and $g[\text { where } g(x)=x]$ are not equal because $f(1)$ is undefined and $g(1)=1$.
+
+      Questions:
+
+      - Regarding the hypothesis that $\nabla g \neq \mathbf{0}$ on the surface $g(x, y, z)=k:$ does this mean we disregard $(x,y,z)$ whenever $\nabla g \neq \mathbf{0},$ or does this mean the theorem fails if there is any point $(x,y,z)$ at which $\nabla g \neq \mathbf{0}$ on the surface $g(x,y,z)=k?$
+    Annotations: ''
+  tags:
+  - Theorem
+  - Editing
+- id: 1589489358097
+  fields:
+    Front: |
+      SVEC-11.08.03 Synthesis:
+      #### Partial Derivatives
+      ##### Lagrange Multipliers
+      ###### Two Constraints
+      State the **Method of Lagrange Multipliers** for two constraints. List its hypotheses.
+    Back: |
+      To find the maximum and minimum values of $f(x, y, z)$ subject to the constraints $g(x, y, z)=k$ and $h(x, y, z)=c$ [assuming that these extreme values exist, $\nabla g \neq \mathbf{0}$ on the surface $g(x, y, z)=k,$ $\nabla h \neq \mathbf{0}$ on the surface $h(x, y, z)=c,$ and $\nabla g$ and $\nabla h$ are not parallel]:
+
+      (a) Find all values of $x, y, z,$ and $\lambda$ such that
+      $$
+      \nabla f(x, y, z)=\lambda \nabla g(x, y, z) + \mu \nabla h(x, y, z),
+      $$
+      $$
+      g(x, y, z)=k, \quad h(x, y, z)=c, \quad \text{and} \quad \nabla g(x, y, z) \nparallel \nabla h(x, y, z)
+      $$
+      (b) Evaluate $f$ at all the points $(x, y, z)$ that result from step (a). The largest of these values is the maximum value of $f ;$ the smallest is the minimum value of $f.$
+
+      Hypotheses:
+
       - $\nabla g \neq \mathbf{0}$ on the surface $g(x, y, z)=k.$
-      - The maximum and minimum values of $f(x, y, z),$ under the constraint $g(x, y, z)=k,$ exist.
+      - $\nabla h \neq \mathbf{0}$ on the surface $h(x, y, z)=c.$
+      - $(x,y,z)$ is not considered when $\nabla g \parallel \nabla h.$
+      - The maximum and minimum values of $f(x, y, z),$ under the constraint $g(x, y, z)=k$ and $h(x, y, z)=c,$ exist.
+
+      Questions:
+
+      - See questions in **SVEC-11.08.03 Synthesis**.
+    Annotations: ''
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - 03
+  - The graph of a function $f$ is given.
+  (a) State the value of $f(1)$.
+  (b) Estimate the value of $f(-1)$.
+  (c) For what values of $x$ is $f(x)=1$?
+  (d) Estimate the value of $x$ such that $f(x)=0$.
+  (e) State the domain and range of $f$.
+  (f) On what interval is $f$ increasing?
+  - SingleVariableEssentialCalculus
+  - SVEC-11-PartialDerivatives
+  - SVEC-11.08-LagrangeMultipliers
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589412240771
+  fields:
+    Front: |
+      SVEC-11.08.01 Theory:
+      #### Partial Derivatives
+      ##### Lagrange Multipliers
+      List the langrange-multiplier definitions and theorems.
+    Back: |
+      Thm: **Method of Lagrange Multipliers**
+      Def: **Lagrange multiplier**
+      ###### Two Constraints
+      Thm: **Method of Lagrange Multipliers** for two constraints
+    Annotations: ''
+  tags:
+  - Definitions
+  - Theorems
+  - Editing
+- id: 1589488057848
+  fields:
+    Front: |
+      SVEC-11.08.02 Synthesis:
+      #### Partial Derivatives
+      ##### Lagrange Multipliers
+      State the **Method of Lagrange Multipliers**. List its hypotheses. Define **Lagrange multiplier**.
+    Back: |
+      To find the maximum and minimum values of $f(x, y, z)$ subject to the constraint $g(x, y, z)=k$ [assuming that these extreme values exist and $\nabla g \neq \mathbf{0}$ on the surface $g(x, y, z)=k$]:
+
+      (a) Find all values of $x, y, z,$ and $\lambda$ such that
+      $$
+      \nabla f(x, y, z)=\lambda \nabla g(x, y, z)
+      $$ and
+      $$
+      g(x, y, z)=k
+      $$
+      (b) Evaluate $f$ at all the points $(x, y, z)$ that result from step (a). The largest of these values is the maximum value of $f ;$ the smallest is the minimum value of $f.$
+
+      The number $\lambda$ in this theorem is called a **Lagrange multiplier**.
+
+      Hypotheses:
+
+      - $\nabla g \neq \mathbf{0}$ on the surface 02g(If
+      $$$$
+      f(x)=\frac{x^{2}-x}{x-1} \quad \text { and } \quad g(x)=x
+      $$$$
+      is it true that $f=g$?
+      - The maximum and minimum values of $f(x, y, z),$ under the constraint $g(x, y, z)=k,$ exist$f(x)=\rfac{x^{2$ [=\frac$(x-1)}x{-1}=x$ for $x-1 \neq 0,$ so $f$ and $g[\text { where } g(x)=x]$ are not equal because $f(1)$ is undefined and $g(1)=1$.
 
       Questions:
 
@@ -95,4 +204,3 @@ notes:
     Annotations: ''
   tags:
   - Theorem
-  - Editing

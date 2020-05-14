@@ -1,0 +1,385 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theory
+  - SingleVariableEssentialCalculus
+  - SVEC-12-MultipleIntegrals
+  - SVEC-12.01-DoubleIntegralsOverRectangles
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589492656221
+  fields:
+    Front: |
+      SVEC-12.01.01 Synthesis:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      List the rectangle-double-integral definitions and theorems.
+    Back: |
+      ###### Volumes and Double Integrals
+      Def: **volume** over a rectangle
+      Def: **double integral** and **double Riemann sum** over a rectangle, and **integrable**
+      Def: **volume** as integral
+      Thm: _unnamed_ **relationship between continuity and integrability**
+      Thm: **double integral** over a regularly-partitioned rectangle
+      ###### The Midpoint Rule
+      Def: **Midpoint Rule for Double Integrals**
+      ###### Iterated Integrals
+      Thm: **partial integration with respect to $y$**
+      Def: **iterated integral**
+      Thm: **Fubini's Theorem**
+      Thm: **Fubini's Theorem** when $f(x,y)$ factors
+      ###### Properties of Double Integrals
+      Thm: three **Properties of Double Integrals**
+      ###### Average Value
+      Def: **average value**
+      Thm: geometric interpretation of **average value**
+    Annotations: ''
+  tags:
+  - Definitions
+  - Editing
+  - Theorems
+- id: 1589493938894
+  media:
+  - path: ¢{file_dir}/images/SVEC-12.01.02.Sy.1.jpg
+  - path: ¢{file_dir}/images/SVEC-12.01.02.Sy.2.jpg
+  - path: ¢{file_dir}/images/SVEC-12.01.02.Sy.3.jpg
+  - path: ¢{file_dir}/images/SVEC-12.01.02.Sy.4.jpg
+  fields:
+    Front: |
+      SVEC-12.01.02 Synthesis:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Define **volume** over a rectangle.
+    Back: |
+      1. We consider a graph of $z = f(x,y)$ defined on a closed rectangle, assuming $f(x,y)\geqslant 0:$
+        $$
+        R=[a, b] \times[c, d]=\left\{(x, y) \in \mathbb{R}^{2} | a \leqslant x \leqslant b, c \leqslant y \leqslant d\right\}
+        $$ and let $S$ be the solid that lies above $R$ and under the graph of $f:$
+        $$
+        S=\left\{(x, y, z) \in \mathbb{R}^{3} | 0 \leqslant z \leqslant f(x, y),(x, y) \in R\right\}
+        $$ (See figure below.)
+        <p align="center">
+        ![](SVEC-12.01.02.Sy.1.jpg)
+        </p>
+      2. We take a partition $P$ of $R$ into subrectangles by dividing the intervals $[a, b]$ and $[c, d]$ as follows:
+        $$
+        \begin{array}{l}
+        a=x_{0}<x_{1}<\cdots<x_{i-1}<x_{i}<\cdots<x_{m}=b \\
+        c=y_{0}<y_{1}<\cdots<y_{j-1}<y_{j}<\cdots<y_{n}=d
+        \end{array}
+        $$ We form the subrectangles
+        $$
+        R_{i j}=\left[x_{i-1}, x_{i}\right] \times\left[y_{j-1}, y_{j}\right]=\left\{(x, y) | x_{i-1} \leqslant x \leqslant x_{i}, y_{j-1} \leqslant y \leqslant y_{j}\right\}
+        $$ We let $\Delta x_{i}=x_{i}-x_{i-1}$ and $\Delta y_{j}=y_{j}-y_{j-1}.$ The area of $R_{i j}$ is then
+        $$
+        \Delta A_{i j}=\Delta x_{i} \Delta y_{j}
+        $$
+        <p align="center">
+        ![](SVEC-12.01.02.Sy.2.jpg)
+        _Partition of a rectangle._
+        </p>
+      3. We choose a sample point $\left(x_{i j}^{*}, y_{i j}^{*}\right)$ in each $R_{i j},$ as shown above.
+      4. We approximate the part of $S$ that lies above each $R_{i j}$ by a thin rectangular box (or "column") with base $R_{i j}$ and height $f\left(x_{i j}^{*}, y_{i j}^{*}\right)$ as shown below.
+        <p align="center">
+        ![](SVEC-12.01.02.Sy.3.jpg)
+        </p>
+        The volume of this box is the height of the box times the area of the base rectangle:
+        $$
+        f\left(x_{i j}^{*}, y_{i j}^{*}\right) \Delta A_{ij}
+        $$ We follow this procedure for all the rectangles.
+      5. We add the volumes of the corresponding boxes to get an approximation to the total volume of $S:$
+        $$
+        V \approx \sum_{i=1}^{m} \sum_{j=1}^{n} f\left(x_{i j}^{*}, y_{i j}^{*}\right) \Delta A_{ij}
+        $$ as shown below.
+        <p align="center">
+        ![](SVEC-12.01.02.Sy.4.jpg)
+        </p>
+      6. We define the **volume** of the solid $S$ by the expression
+        $$
+        V=\lim _{\max \Delta x_{i}, \Delta y_{j} \rightarrow 0} \sum_{i=1}^{m} \sum_{j=1}^{n} f\left(x_{i j}^{*}, y_{i j}^{*}\right) \Delta A_{i j}
+        $$ if this limit exists.
+
+      Hypotheses:
+
+      - $f(x,y) \geqslant 0$ on $R.$
+      - $V=\lim _{\max \Delta x_{i}, \Delta y_{j} \rightarrow 0} \sum_{i=1}^{m} \sum_{j=1}^{n} f\left(x_{i j}^{*}, y_{i j}^{*}\right) \Delta A_{i j}$ exists.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589494864797
+  fields:
+    Front: |
+      SVEC-12.01.03 Synthesis:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Define **double integral** and **double Riemann sum** over a rectangle, and **integrable**. List their hypotheses.
+    Back: |
+      The **double integral** of $f$ over the rectangle $R$ is
+      $$
+      V=\lim _{\max \Delta x_{i}, \Delta y_{j} \rightarrow 0} \sum_{i=1}^{m} \sum_{j=1}^{n} f\left(x_{i j}^{*}, y_{i j}^{*}\right) \Delta A_{i j}
+      $$ if this limit exists, in which case $f$ is said to be **integrable**.
+
+      The precise meaning of this limit is that for every number $\varepsilon>0$ there is a corresponding number $\delta$ such that
+      $$
+      \left|\iint_{R} f(x, y) d A-\sum_{i=1}^{m} \sum_{j=1}^{n} f\left(x_{i j}^{*}, y_{i j}^{*}\right) \Delta A_{i j}\right|<\varepsilon
+      $$ for all partitions $P$ of $R$ whose subinterval lengths are less than $\delta$, and for any choice of sample points $\left(x_{i j}^{*}, y_{i j}^{*}\right)$ in $R_{i j}.$
+
+      The sum
+      $$
+      \sum_{i=1}^{m} \sum_{j=1}^{n} f\left(x_{i j}^{*}, y_{i j}^{*}\right) \Delta A_{ij}
+      $$ is called a **double Riemann sum** and is used as an approximation to the value of the double integral.
+
+      Hypotheses:
+
+      - $f(x,y) \geqslant 0$ on $R.$
+      - $\lim _{m, n \rightarrow \infty} \sum_{i=1}^{m} \sum_{j=1}^{n} f\left(x_{i j}^{*}, y_{i j}^{*}\right) \Delta A$ exists.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589497248622
+  fields:
+    Front: |
+      SVEC-12.01.04 Synthesis:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      ###### Iterated Integrals
+      State the _unnamed_ **relationship between continuity and integrability**. List its hypotheses.
+    Back: |
+      All continuous functions are integrable.
+
+      The double integral of $f$ also exists provided that $f$ is "not too discontinuous": if $f$ is bounded [that is, there is a constant $M$ such that $|f(x, y)| \leqslant M$ for all $(x, y)$ in $R],$ and $f$ is continuous there, except on a finite number of smooth curves, then $f$ is integrable over $R.$
+
+      Hypotheses:
+
+      - $f$ is bounded on $R.$
+      - $f$ is continuous on $R,$ except possibly on a finite number of smooth curves.
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589495991847
+  fields:
+    Front: |
+      SVEC-12.01.05 Synthesis:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      Define **volume** as integral. List its hypotheses.
+    Back: |
+      If $f(x, y) \geqslant 0,$ then the volume $V$ of the solid that lies above the rectangle $R$ and below the surface $z=f(x, y)$ is
+      $$
+      V=\iint_{R} f(x, y) d A
+      $$
+
+      Hypotheses:
+
+      - $f(x, y) \geqslant 0$ on $R.$
+      - $f$ is integrable.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589497608097
+  fields:
+    Front: |
+      SVEC-12.01.06 Synthesis:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      ###### Iterated Integrals
+      State the **double integral** over a regularly-partitioned rectangle. List its hypotheses.
+    Back: |
+      If we know that $f$ is integrable, we can choose the partitions $P$ to be regular, that is, all the subrectangles $R_{i j}$ have the same dimensions and therefore the same area: $\Delta A=\Delta x \Delta y .$ In this case we can simply let $m \rightarrow \infty$ and $n \rightarrow \infty .$ In addition, the sample point $\left(x_{i j}^{*}, y_{i j}^{*}\right)$ can be chosen to be any point in the subrectangle $R_{i j},$ but if we choose it to be the upper right-hand corner of $R_{i j}$ [namely $\left(x_{i}, y_{j}\right)$], then the expression for the double integral looks simpler:
+      $$
+      \iint_{R} f(x, y) d A=\lim _{m, n \rightarrow \infty} \sum_{i=1}^{m} \sum_{j=1}^{n} f\left(x_{i}, y_{j}\right) \Delta A
+      $$
+
+      Hypotheses:
+
+      - $f$ is integrable on $R.$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589496146721
+  fields:
+    Front: |
+      SVEC-12.01.07 Synthesis:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      ###### The Midpoint Rule
+      State the **Midpoint Rule for Double Integrals**. List its hypotheses.
+    Back: |
+      $$
+      \iint_{R} f(x, y) d A \approx \sum_{i=1}^{m} \sum_{j=1}^{n} f\left(\bar{x}_{i}, \bar{y}_{j}\right) \Delta A
+      $$ where $\bar{x}_{i}$ is the midpoint of $\left[x_{i-1}, x_{i}\right]$ and $\bar{y}_{j}$ is the midpoint of $\left[y_{j-1}, y_{j}\right].$
+
+      Hypotheses:
+
+      - $f(x, y) \geqslant 0$ on $R.$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589498263847
+  fields:
+    Front: |
+      SVEC-12.01.08 Synthesis:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      ###### Iterated Integrals
+      State the procedure of **partial integration with respect to $y$**. Define **iterated integral**. List its hypotheses.
+    Back: |
+      Suppose $f(x,y)$ is integrable on $R=[a, b] \times[c, d] .$ We use $\int_{c}^{d} f(x, y) d y$ to mean that $x$ is held fixed and $f(x, y)$ is integrated with respect to $y$ from $y=c$ to $y=d .$ This procedure is called **partial integration with respect to $y.$**
+
+      $\int_{c}^{d} f(x, y) d y$ defines a function of $x:$
+      $$
+      A(x)=\int_{c}^{d} f(x, y) d y
+      $$ Integrating $A$ with respect to $x$ from $x=a$ to $x=b,$ we get
+      $$
+      \int_{a}^{b} A(x) d x=\int_{a}^{b}\left[\int_{c}^{d} f(x, y) d y\right] d x
+      $$ The integral on the right is called an **iterated integral**. Usually the brackets are omitted. Thus
+      $$
+      \int_{a}^{b} \int_{c}^{d} f(x, y) d y d x=\int_{a}^{b}\left[\int_{c}^{d} f(x, y) d y\right] d x
+      $$ means that we integrate with respect to $y$ from $c$ to $d$ and then with respect to $x$ from $a$ to $b$ Similarly,
+      $$
+      \int_{c}^{d} \int_{a}^{b} f(x, y) d x d y=\int_{c}^{d}\left[\int_{a}^{b} f(x, y) d x\right] d y
+      $$ means that we integrate with respect to $x$ from $x=a$ to $x=b$ and then with respect to $y$ from $y=c$ to $y=d.$ Notice that in both equations we work from the inside out.
+
+      Hypotheses:
+
+      - $f(x,y)$ is integrable.
+      - The inner integral is itself integrable.
+
+      Notes:
+
+      - The textbook notes that the idea of **partial integration** is similar to **partial differentiation**.
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589498732297
+  fields:
+    Front: |
+      SVEC-12.01.09 Synthesis:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      ###### Iterated Integrals
+      State the **Fubini's Theorem**. List its hypotheses.
+    Back: |
+      If $f$ is continuous on the rectangle $R=\{(x, y) | a \leqslant x \leqslant b, c \leqslant y \leqslant d\},$ then
+      $$
+      \iint_{R} f(x, y) d A=\int_{a}^{b} \int_{c}^{d} f(x, y) d y d x=\int_{c}^{d} \int_{a}^{b} f(x, y) d x d y
+      $$ More generally, this is true if we assume that $f$ is bounded on $R, f$ is discontinuous only on a finite number of smooth curves, and the iterated integrals exist.
+
+      Hypotheses:
+
+      - $f$ is continuous on $R$ 
+
+      Or, more generally,
+
+      - $f$ is bounded on $R.$
+      - $f$ is discontinuous only on a finite number of smooth curves.
+      - The iterated integrals exist.
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589499106772
+  fields:
+    Front: |
+      SVEC-12.01.10 Synthesis:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      ###### Iterated Integrals
+      State the **Fubini's Theorem** when $f(x,y)$ factors. List its hypotheses.
+    Back: |
+      Suppose that $f(x, y)=g(x) h(y)$ and $R=[a, b] \times[c, d].$ Then Fubini's Theorem gives
+      $$
+      \iint_{R} f(x,y) d A=\iint_{R} g(x) h(y) d A=\int_{a}^{b} g(x) d x \int_{c}^{d} h(y) d y
+      $$ where $R=[a, b] \times[c, d].$
+
+      Hypotheses:
+
+      - $f(x, y)=g(x) h(y).$
+      - $g(x)$ is integrable on $[a,b].$
+      - $h(x)$ is integrable on $[c,d].$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589499494147
+  fields:
+    Front: |
+      SVEC-12.01.11 Synthesis:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      ###### Properties of Double Integrals
+      State three **Properties of Double Integrals**. List its hypotheses.
+    Back: |
+      1 & 2. Linearity:
+      $$
+      \iint_{R}[f(x, y)+g(x, y)] d A=\iint_{R} f(x, y) d A+\iint_{R} g(x, y) d A
+      $$ and
+      $$
+      \iint_{R} c f(x, y) d A=c \iint_{R} f(x, y) d A
+      $$ where $c$ is a constant.
+
+      Hypothesis: $f$ and $g$ are integrable on $R$.
+
+      3. If $f(x, y) \geqslant g(x, y)$ for all $(x, y)$ in $R,$ then
+      $$
+      \iint_{R} f(x, y) d A \geqslant \iint_{R} g(x, y) d A
+      $$
+
+      Hypotheses:
+
+      - $f$ and $g$ are integrable on $R$.
+      - $f \geqslant g$ on $R$.
+
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589499934822
+  fields:
+    Front: |
+      SVEC-12.01.12 Synthesis:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      ###### Average Value
+      Define **average value**. List its hypotheses.
+    Back: |
+      We define the **average value** of a function $f$ of two variables defined on a rectangle $R$ to be
+      $$
+      f_{\mathrm{ave}}=\frac{1}{A(R)} \iint_{R} f(x, y) d A
+      $$ where $A(R)$ is the area of $R$
+
+      Hypotheses:
+
+      - $f$ is integrable on $R.$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589500145621
+  media:
+  - path: ¢{file_dir}/images/SVEC-12.01.13.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-12.01.13 Synthesis:
+      #### Multiple Integrals
+      ##### Double Integrals over Rectangles
+      ###### Average Value
+      State the geometric interpretation of **average value**. List its hypotheses.
+    Back: |
+      If $f(x, y) \geqslant 0,$ the equation
+      $$
+      A(R) \times f_{\mathrm{ave}}=\iint_{R} f(x, y) d A
+      $$ says that the box with base $R$ and height $f_{\text {ave }}$ has the same volume as the solid that lies under the graph of $f.$ [If $z=f(x, y)$ describes a mountainous region and you chop off the tops of the mountains at height $f_{\text {ave }}$, then you can use them to fill in the valleys so that the region becomes completely flat. See below.]
+      <p align="center">
+      ![](SVEC-12.01.13.Sy.1.jpg)
+      </p>
+
+      Hypotheses:
+
+      - $f$ is integrable on $R.$
+      - $f \geqslant 0$ on $R.$
+    Annotations: ''
+  tags:
+  - Theorem
+  - Editing
