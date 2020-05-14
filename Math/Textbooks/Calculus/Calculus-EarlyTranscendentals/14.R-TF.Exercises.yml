@@ -1,0 +1,158 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-14-PartialDerivatives
+  - CET-14.R-TF-Review
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589491413376
+  fields:
+    Front: |
+      CET-14.R-TF-01 True-False:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491413579
+  fields:
+    Front: |
+      CET-14.R-TF-02 True-False:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491413772
+  fields:
+    Front: |
+      CET-14.R-TF-03 True-False:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491413972
+  fields:
+    Front: |
+      CET-14.R-TF-04 True-False:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491414156
+  fields:
+    Front: |
+      CET-14.R-TF-05 True-False:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491414355
+  fields:
+    Front: |
+      CET-14.R-TF-06 True-False:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491414542
+  fields:
+    Front: |
+      CET-14.R-TF-07 True-False:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491414727
+  fields:
+    Front: |
+      CET-14.R-TF-08 True-False:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491414930
+  fields:
+    Front: |
+      CET-14.R-TF-09 True-False:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491415122
+  fields:
+    Front: |
+      CET-14.R-TF-10 True-False:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491415323
+  fields:
+    Front: |
+      CET-14.R-TF-11 True-False:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491415538
+  fields:
+    Front: |
+      CET-14.R-TF-12 True-False:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

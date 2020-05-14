@@ -1,0 +1,74 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-14-PartialDerivatives
+  - CET-14.08-LagrangeMultipliers
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589489745521
+  fields:
+    Front: |
+      CET-14.08-1 Example:
+      #### Partial Derivatives
+      ##### Lagrange Multipliers
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589489745702
+  fields:
+    Front: |
+      CET-14.08-2 Example:
+      #### Partial Derivatives
+      ##### Lagrange Multipliers
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589489745879
+  fields:
+    Front: |
+      CET-14.08-3 Example:
+      #### Partial Derivatives
+      ##### Lagrange Multipliers
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589489746052
+  fields:
+    Front: |
+      CET-14.08-4 Example:
+      #### Partial Derivatives
+      ##### Lagrange Multipliers
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589489746245
+  fields:
+    Front: |
+      CET-14.08-5 Example:
+      #### Partial Derivatives
+      ##### Lagrange Multipliers
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

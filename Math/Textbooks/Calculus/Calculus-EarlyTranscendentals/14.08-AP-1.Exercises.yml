@@ -1,0 +1,86 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-14-PartialDerivatives
+  - CET-14.08-AP-1-AppliedProject-RocketScience
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589490929722
+  fields:
+    Front: |
+      CET-14.08-AP-1-1 Exercise:
+      #### Partial Derivatives
+      ##### Applied Project - Rocket Science
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589490929908
+  fields:
+    Front: |
+      CET-14.08-AP-1-2 Exercise:
+      #### Partial Derivatives
+      ##### Applied Project - Rocket Science
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589490930105
+  fields:
+    Front: |
+      CET-14.08-AP-1-3 Exercise:
+      #### Partial Derivatives
+      ##### Applied Project - Rocket Science
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589490930287
+  fields:
+    Front: |
+      CET-14.08-AP-1-4 Exercise:
+      #### Partial Derivatives
+      ##### Applied Project - Rocket Science
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589490930476
+  fields:
+    Front: |
+      CET-14.08-AP-1-5 Exercise:
+      #### Partial Derivatives
+      ##### Applied Project - Rocket Science
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589490930671
+  fields:
+    Front: |
+      CET-14.08-AP-1-6 Exercise:
+      #### Partial Derivatives
+      ##### Applied Project - Rocket Science
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

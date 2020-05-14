@@ -1,0 +1,74 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-14-PartialDerivatives
+  - CET-14.07-DP-DiscoveryProject-QuadraticApproximationsAndCriticalPoints
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589490744347
+  fields:
+    Front: |
+      CET-14.07-DP-1 Exercise:
+      #### Partial Derivatives
+      ##### Discovery Project - Quadratic Approximations and Critical Points
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589490744533
+  fields:
+    Front: |
+      CET-14.07-DP-2 Exercise:
+      #### Partial Derivatives
+      ##### Discovery Project - Quadratic Approximations and Critical Points
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589490744731
+  fields:
+    Front: |
+      CET-14.07-DP-3 Exercise:
+      #### Partial Derivatives
+      ##### Discovery Project - Quadratic Approximations and Critical Points
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589490744931
+  fields:
+    Front: |
+      CET-14.07-DP-4 Exercise:
+      #### Partial Derivatives
+      ##### Discovery Project - Quadratic Approximations and Critical Points
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589490745112
+  fields:
+    Front: |
+      CET-14.07-DP-5 Exercise:
+      #### Partial Derivatives
+      ##### Discovery Project - Quadratic Approximations and Critical Points
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

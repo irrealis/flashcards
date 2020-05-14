@@ -1,0 +1,62 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-14-PartialDerivatives
+  - CET-14.04-AP-AppliedProject-TheSpeedoLzrRacer
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589490284697
+  fields:
+    Front: |
+      CET-14.04-AP-1 Exercise:
+      #### Partial Derivatives
+      ##### Applied Project - The Speedo LZR Racer
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589490284898
+  fields:
+    Front: |
+      CET-14.04-AP-2 Exercise:
+      #### Partial Derivatives
+      ##### Applied Project - The Speedo LZR Racer
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589490285099
+  fields:
+    Front: |
+      CET-14.04-AP-3 Exercise:
+      #### Partial Derivatives
+      ##### Applied Project - The Speedo LZR Racer
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589490285332
+  fields:
+    Front: |
+      CET-14.04-AP-4 Exercise:
+      #### Partial Derivatives
+      ##### Applied Project - The Speedo LZR Racer
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

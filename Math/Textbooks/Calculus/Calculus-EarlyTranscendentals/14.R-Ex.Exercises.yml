@@ -1,0 +1,794 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-14-PartialDerivatives
+  - CET-14.R-Ex-Review
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589491400246
+  fields:
+    Front: |
+      CET-14.R-Ex-01 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491400427
+  fields:
+    Front: |
+      CET-14.R-Ex-02 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491400623
+  fields:
+    Front: |
+      CET-14.R-Ex-03 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491400827
+  fields:
+    Front: |
+      CET-14.R-Ex-04 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491401055
+  fields:
+    Front: |
+      CET-14.R-Ex-05 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491401272
+  fields:
+    Front: |
+      CET-14.R-Ex-06 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491401478
+  fields:
+    Front: |
+      CET-14.R-Ex-07 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491401705
+  fields:
+    Front: |
+      CET-14.R-Ex-08 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491401888
+  fields:
+    Front: |
+      CET-14.R-Ex-09 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491402089
+  fields:
+    Front: |
+      CET-14.R-Ex-10 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491402305
+  fields:
+    Front: |
+      CET-14.R-Ex-11 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491402488
+  fields:
+    Front: |
+      CET-14.R-Ex-12 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491402706
+  fields:
+    Front: |
+      CET-14.R-Ex-13 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491402921
+  fields:
+    Front: |
+      CET-14.R-Ex-14 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491403106
+  fields:
+    Front: |
+      CET-14.R-Ex-15 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491403289
+  fields:
+    Front: |
+      CET-14.R-Ex-16 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491403488
+  fields:
+    Front: |
+      CET-14.R-Ex-17 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491403688
+  fields:
+    Front: |
+      CET-14.R-Ex-18 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491403888
+  fields:
+    Front: |
+      CET-14.R-Ex-19 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491404119
+  fields:
+    Front: |
+      CET-14.R-Ex-20 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491404366
+  fields:
+    Front: |
+      CET-14.R-Ex-21 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491404575
+  fields:
+    Front: |
+      CET-14.R-Ex-22 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491404779
+  fields:
+    Front: |
+      CET-14.R-Ex-23 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491405005
+  fields:
+    Front: |
+      CET-14.R-Ex-24 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491405205
+  fields:
+    Front: |
+      CET-14.R-Ex-25 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491405378
+  fields:
+    Front: |
+      CET-14.R-Ex-26 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491405577
+  fields:
+    Front: |
+      CET-14.R-Ex-27 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491405788
+  fields:
+    Front: |
+      CET-14.R-Ex-28 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491405978
+  fields:
+    Front: |
+      CET-14.R-Ex-29 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491406171
+  fields:
+    Front: |
+      CET-14.R-Ex-30 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491406356
+  fields:
+    Front: |
+      CET-14.R-Ex-31 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491406538
+  fields:
+    Front: |
+      CET-14.R-Ex-32 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491406721
+  fields:
+    Front: |
+      CET-14.R-Ex-33 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491406905
+  fields:
+    Front: |
+      CET-14.R-Ex-34 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491407122
+  fields:
+    Front: |
+      CET-14.R-Ex-35 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491407321
+  fields:
+    Front: |
+      CET-14.R-Ex-36 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491407510
+  fields:
+    Front: |
+      CET-14.R-Ex-37 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491407709
+  fields:
+    Front: |
+      CET-14.R-Ex-38 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491407900
+  fields:
+    Front: |
+      CET-14.R-Ex-39 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491408108
+  fields:
+    Front: |
+      CET-14.R-Ex-40 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491408323
+  fields:
+    Front: |
+      CET-14.R-Ex-41 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491408506
+  fields:
+    Front: |
+      CET-14.R-Ex-42 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491408705
+  fields:
+    Front: |
+      CET-14.R-Ex-43 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491408924
+  fields:
+    Front: |
+      CET-14.R-Ex-44 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491409138
+  fields:
+    Front: |
+      CET-14.R-Ex-45 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491409339
+  fields:
+    Front: |
+      CET-14.R-Ex-46 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491409538
+  fields:
+    Front: |
+      CET-14.R-Ex-47 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491409748
+  fields:
+    Front: |
+      CET-14.R-Ex-48 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491409957
+  fields:
+    Front: |
+      CET-14.R-Ex-49 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491410130
+  fields:
+    Front: |
+      CET-14.R-Ex-50 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491410346
+  fields:
+    Front: |
+      CET-14.R-Ex-51 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491410555
+  fields:
+    Front: |
+      CET-14.R-Ex-52 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491410739
+  fields:
+    Front: |
+      CET-14.R-Ex-53 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491410939
+  fields:
+    Front: |
+      CET-14.R-Ex-54 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491411138
+  fields:
+    Front: |
+      CET-14.R-Ex-55 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491411339
+  fields:
+    Front: |
+      CET-14.R-Ex-56 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491411553
+  fields:
+    Front: |
+      CET-14.R-Ex-57 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491411755
+  fields:
+    Front: |
+      CET-14.R-Ex-58 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491411957
+  fields:
+    Front: |
+      CET-14.R-Ex-59 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491412142
+  fields:
+    Front: |
+      CET-14.R-Ex-60 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491412339
+  fields:
+    Front: |
+      CET-14.R-Ex-61 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491412522
+  fields:
+    Front: |
+      CET-14.R-Ex-62 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491412706
+  fields:
+    Front: |
+      CET-14.R-Ex-63 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491412905
+  fields:
+    Front: |
+      CET-14.R-Ex-64 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491413124
+  fields:
+    Front: |
+      CET-14.R-Ex-65 Exercise:
+      #### Partial Derivatives
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

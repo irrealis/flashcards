@@ -19,7 +19,8 @@
     Front: |
       SVEC-XX.XX-XX Synthesis:
       #### Partial Derivatives
-      ###### Absolute Maximum and Minimum Values
+      ##### Lagrange Multipliers
+      ###### Two Constraints
       Define . List its hypotheses.
     Back: |
       X
@@ -42,7 +43,8 @@
     Front: |
       SVEC-XX.XX-XX Synthesis:
       #### Partial Derivatives
-      ###### Absolute Maximum and Minimum Values
+      ##### Lagrange Multipliers
+      ###### Two Constraints
       State the . List its hypotheses.
     Back: |
       X

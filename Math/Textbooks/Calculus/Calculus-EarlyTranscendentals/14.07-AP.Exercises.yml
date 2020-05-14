@@ -1,0 +1,62 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-14-PartialDerivatives
+  - CET-14.07-AP-AppliedProject-DesigningADumpster
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589490469572
+  fields:
+    Front: |
+      CET-14.07-AP-1 Exercise:
+      #### Partial Derivatives
+      ##### Applied Project - Designing a Dumpster
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589490469788
+  fields:
+    Front: |
+      CET-14.07-AP-2 Exercise:
+      #### Partial Derivatives
+      ##### Applied Project - Designing a Dumpster
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589490470006
+  fields:
+    Front: |
+      CET-14.07-AP-3 Exercise:
+      #### Partial Derivatives
+      ##### Applied Project - Designing a Dumpster
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589490470204
+  fields:
+    Front: |
+      CET-14.07-AP-4 Exercise:
+      #### Partial Derivatives
+      ##### Applied Project - Designing a Dumpster
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

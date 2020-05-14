@@ -1,0 +1,62 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-14-PartialDerivatives
+  - CET-14.08-AP-2-AppliedProject-Hydro-TurbineOptimization
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589491004171
+  fields:
+    Front: |
+      CET-14.08-AP-2-1 Exercise:
+      #### Partial Derivatives
+      ##### Applied Project - Hydro-Turbine Optimization
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491004376
+  fields:
+    Front: |
+      CET-14.08-AP-2-2 Exercise:
+      #### Partial Derivatives
+      ##### Applied Project - Hydro-Turbine Optimization
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491004549
+  fields:
+    Front: |
+      CET-14.08-AP-2-3 Exercise:
+      #### Partial Derivatives
+      ##### Applied Project - Hydro-Turbine Optimization
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589491004729
+  fields:
+    Front: |
+      CET-14.08-AP-2-4 Exercise:
+      #### Partial Derivatives
+      ##### Applied Project - Hydro-Turbine Optimization
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
