@@ -1,0 +1,506 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-15-MultipleIntegrals
+  - CET-15.03-DoubleIntegralsInPolarCoordinates
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589586522147
+  fields:
+    Front: |
+      CET-15.03-01 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals in Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589586522436
+  fields:
+    Front: |
+      CET-15.03-02 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals in Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589586522702
+  fields:
+    Front: |
+      CET-15.03-03 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals in Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589586523002
+  fields:
+    Front: |
+      CET-15.03-04 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals in Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589586523285
+  fields:
+    Front: |
+      CET-15.03-05 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals in Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589586523552
+  fields:
+    Front: |
+      CET-15.03-06 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals in Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589586523854
+  fields:
+    Front: |
+      CET-15.03-07 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals in Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589586524151
+  fields:
+    Front: |
+      CET-15.03-08 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals in Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589586524434
+  fields:
+    Front: |
+      CET-15.03-09 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals in Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589586524725
+  fields:
+    Front: |
+      CET-15.03-10 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals in Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589586525034
+  fields:
+    Front: |
+      CET-15.03-11 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals in Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589586525302
+  fields:
+    Front: |
+      CET-15.03-12 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals in Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589586525588
+  fields:
+    Front: |
+      CET-15.03-13 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals in Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589586525888
+  fields:
+    Front: |
+      CET-15.03-14 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals in Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589586526186
+  fields:
+    Front: |
+      CET-15.03-15 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals in Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589586526450
+  fields:
+    Front: |
+      CET-15.03-16 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals in Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589586526801
+  fields:
+    Front: |
+      CET-15.03-17 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals in Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589586527102
+  fields:
+    Front: |
+      CET-15.03-18 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals in Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589586527355
+  fields:
+    Front: |
+      CET-15.03-19 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals in Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589586527669
+  fields:
+    Front: |
+      CET-15.03-20 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals in Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589586527922
+  fields:
+    Front: |
+      CET-15.03-21 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals in Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589586528201
+  fields:
+    Front: |
+      CET-15.03-22 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals in Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589586528502
+  fields:
+    Front: |
+      CET-15.03-23 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals in Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589586528784
+  fields:
+    Front: |
+      CET-15.03-24 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals in Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589586529086
+  fields:
+    Front: |
+      CET-15.03-25 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals in Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589586529385
+  fields:
+    Front: |
+      CET-15.03-26 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals in Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589586529668
+  fields:
+    Front: |
+      CET-15.03-27 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals in Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589586529988
+  fields:
+    Front: |
+      CET-15.03-28 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals in Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589586530319
+  fields:
+    Front: |
+      CET-15.03-29 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals in Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589586530625
+  fields:
+    Front: |
+      CET-15.03-30 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals in Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589586530953
+  fields:
+    Front: |
+      CET-15.03-31 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals in Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589586531253
+  fields:
+    Front: |
+      CET-15.03-32 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals in Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589586531557
+  fields:
+    Front: |
+      CET-15.03-33 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals in Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589586531852
+  fields:
+    Front: |
+      CET-15.03-34 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals in Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589586532142
+  fields:
+    Front: |
+      CET-15.03-35 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals in Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589586532435
+  fields:
+    Front: |
+      CET-15.03-36 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals in Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589586532693
+  fields:
+    Front: |
+      CET-15.03-37 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals in Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589586532985
+  fields:
+    Front: |
+      CET-15.03-38 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals in Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589586533239
+  fields:
+    Front: |
+      CET-15.03-39 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals in Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589586533522
+  fields:
+    Front: |
+      CET-15.03-40 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals in Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589586533820
+  fields:
+    Front: |
+      CET-15.03-41 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals in Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

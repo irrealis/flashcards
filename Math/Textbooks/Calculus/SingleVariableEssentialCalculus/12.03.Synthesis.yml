@@ -1,0 +1,215 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theory
+  - SingleVariableEssentialCalculus
+  - SVEC-12-MultipleIntegrals
+  - SVEC-12.03-DoubleIntegralsInPolarCoordinates
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589584333251
+  fields:
+    Front: |
+      SVEC-12.03.01 Synthesis:
+      #### Multiple Integrals
+      ##### Double Integrals in Polar Coordinates
+      List the polar-double-integral definitions and theorems.
+    Back: |
+      Rev: **polar circle identities**
+      Def: **polar rectangle**
+      Def: **center of a polar subrectangle**
+      Rev: **sector area**
+      Thm: **polar subrectangle area**
+      Def: **typical polar Riemann sum**
+      Thm: **Change to Polar Coodinates in a Double Integral**
+      Def: **infinitesimal polar rectangle** mnemonic
+      Thm: _unnamed_ **iterated general polar double integral formula**
+    Annotations: ''
+  tags:
+  - Definitions
+  - Theorems
+- id: 1589584421897
+  fields:
+    Front: |
+      SVEC-12.03.02 Synthesis:
+      #### Multiple Integrals
+      ##### Double Integrals in Polar Coordinates
+      Review the **polar circle identities**.
+    Back: |
+      $$
+      r^{2}=x^{2}+y^{2} \quad x=r \cos \theta \quad y=r \sin \theta
+      $$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589584658150
+  media:
+  - path: ¢{file_dir}/images/SVEC-12.03.03.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-12.03.03 Synthesis:
+      #### Multiple Integrals
+      ##### Double Integrals in Polar Coordinates
+      Define **polar rectangle**.
+    Back: |
+      A **polar rectangle** is a region of the form
+      $$
+      R=\{(r, \theta) | a \leqslant r \leqslant b, \alpha \leqslant \theta \leqslant \beta\}
+      $$ in polar coordinates, illustrated below.
+      <p align="center">
+      ![](SVEC-12.03.03.Sy.1.jpg)
+      _Polar rectangle._
+      </p>
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589584883874
+  media:
+  - path: ¢{file_dir}/images/SVEC-12.03.04.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-12.03.04 Synthesis:
+      #### Multiple Integrals
+      ##### Double Integrals in Polar Coordinates
+      Define **center of a polar subrectangle**.
+    Back: |
+      The **"center" of the polar subrectangle**
+      $$ R_{i j}=\left\{(r, \theta) | r_{i-1} \leqslant r \leqslant r_{i}, \theta_{j-1} \leqslant \theta \leqslant \theta_{j}\right\}
+      $$ has polar coordinates
+      $$
+      r_{i}^{*}=\frac{1}{2}\left(r_{i-1}+r_{i}\right) \quad \theta_{j}^{*}=\frac{1}{2}\left(\theta_{j-1}+\theta_{j}\right)
+      $$ as shown below.
+      <p align="center">
+      ![](SVEC-12.03.04.Sy.1.jpg)
+      _The center of a polar subrectangle._
+      </p>
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589585023973
+  fields:
+    Front: |
+      SVEC-12.03.05 Synthesis:
+      #### Multiple Integrals
+      ##### Double Integrals in Polar Coordinates
+      Review **sector area**.
+    Back: |
+      The **area of a sector** of a circle with radius $r$ and central angle $\theta$ is $\frac{1}{2} r^{2} \theta .$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589585168626
+  fields:
+    Front: |
+      SVEC-12.03.06 Synthesis:
+      #### Multiple Integrals
+      ##### Double Integrals in Polar Coordinates
+      Derive **polar subrectangle area**.
+    Back: |
+      We compute the area of $R_{i j}$ using the fact that the area of a sector of a circle with radius $r$ and central angle $\theta$ is $\frac{1}{2} r^{2} \theta .$ Subtracting the areas of two such sectors, each of which has central angle $\Delta \theta_{j},$ we find that the area of $R_{i j}$ is
+      $$
+      \begin{aligned}
+      \Delta A_{i j} &=\frac{1}{2} r_{i}^{2} \Delta \theta_{j}-\frac{1}{2} r_{i-1}^{2} \Delta \theta_{j}=\frac{1}{2}\left(r_{i}^{2}-r_{i-1}^{2}\right) \Delta \theta_{j} \\
+      &=\frac{1}{2}\left(r_{i}+r_{i-1}\right)\left(r_{i}-r_{i-1}\right) \Delta \theta_{j}=r_{i}^{*} \Delta r_{i} \Delta \theta_{j}
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589585419499
+  fields:
+    Front: |
+      SVEC-12.03.07 Synthesis:
+      #### Multiple Integrals
+      ##### Double Integrals in Polar Coordinates
+      Define **typical polar Riemann sum**
+    Back: |
+      The rectangular coordinates of the center of $R_{i j}$ are $\left(r_{i}^{*} \cos \theta_{j}^{*}, r_{i}^{*} \sin \theta_{j}^{*}\right),$ so a typical Riemann sum is
+      $$
+      \sum_{i=1}^{m} \sum_{j=1}^{n} f\left(r_{i}^{*} \cos \theta_{j}^{*}, r_{i}^{*} \sin \theta_{j}^{*}\right) \Delta A_{i j}=\sum_{i=1}^{m} \sum_{j=1}^{n} f\left(r_{i}^{*} \cos \theta_{j}^{*}, r_{i}^{*} \sin \theta_{j}^{*}\right) r_{i}^{*} \Delta r_{i} \Delta \theta_{j}
+      $$ If we write $g(r, \theta)=r f(r \cos \theta, r \sin \theta),$ this becomes
+      $$
+      \sum_{i=1}^{m} \sum_{j=1}^{n} g\left(r_{i}^{*}, \theta_{j}^{*}\right) \Delta r_{i} \Delta \theta_{j}
+      $$ which is a Riemann sum for the double integral
+      $$
+      \int_{\alpha}^{\beta} \int_{a}^{b} g(r, \theta) d r d \theta =\int_{\alpha}^{\beta} \int_{a}^{b} f(r \cos \theta, r \sin \theta) r d r d \theta
+      $$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589585627051
+  fields:
+    Front: |
+      SVEC-12.03.08 Synthesis:
+      #### Multiple Integrals
+      ##### Double Integrals in Polar Coordinates
+      State the **Change to Polar Coodinates in a Double Integral**. List its hypotheses.
+    Back: |
+      If $f$ is continuous on a polar rectangle $R$ given by $0 \leqslant a \leqslant r \leqslant b, \alpha \leqslant \theta \leqslant \beta,$ where $0 \leqslant \beta-\alpha \leqslant 2 \pi,$ then
+      $$
+      \iint_{R} f(x, y) d A=\int_{\alpha}^{\beta} \int_{a}^{b} f(r \cos \theta, r \sin \theta) r d r d \theta
+      $$
+
+      This says we convert from rectangular to polar coordinates in a double integral by writing $x=r \cos \theta$ and $y=r \sin \theta,$ using the appropriate limits of integration for $r$ and $\theta,$ and replacing $d A$ by $r d r d \theta .$
+
+      _Be careful not to forget the additional factor $r$ on the right side._
+
+      Hypotheses:
+
+      - $f$ is continuous on a polar rectangle $R$ given by $0 \leqslant a \leqslant r \leqslant b, \alpha \leqslant \theta \leqslant \beta.$
+      - $0 \leqslant \beta-\alpha \leqslant 2 \pi.$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589585880574
+  media:
+  - path: ¢{file_dir}/images/SVEC-12.03.09.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-12.03.09 Synthesis:
+      #### Multiple Integrals
+      ##### Double Integrals in Polar Coordinates
+      State the **infinitesimal polar rectangle** mnemonic.
+    Back: |
+      The **"infinitesimal" polar rectangle** can be thought of as an ordinary rectangle with dimensions $r d \theta$ and $d r$ and therefore has "area" $d A=r d r d \theta.$
+      <p align="center">
+      ![](SVEC-12.03.09.Sy.1.jpg)
+      </p>
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589586204773
+  media:
+  - path: ¢{file_dir}/images/SVEC-12.03.10.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-12.03.10 Synthesis:
+      #### Multiple Integrals
+      ##### Double Integrals in Polar Coordinates
+      State the _unnamed_ **iterated general polar double integral formula**. List its hypotheses.
+    Back: |
+      If $f$ is continuous on a polar region of the form
+      $$
+      D=\left\{(r, \theta) | \alpha \leqslant \theta \leqslant \beta, h_{1}(\theta) \leqslant r \leqslant h_{2}(\theta)\right\}
+      $$ (similar to a type-II region) then
+      $$
+      \iint_{D} f(x, y) d A=\int_{\alpha}^{\beta} \int_{h_{1}(\theta)}^{h_{2}(\theta)} f(r \cos \theta, r \sin \theta) r d r d \theta
+      $$ as illustrated below.
+      <p align="center">
+      ![](SVEC-12.03.10.Sy.1.jpg)
+      </p>
+
+      Hypotheses:
+
+      - $f$ is continuous on a polar region of the form
+        $$
+        D=\left\{(r, \theta) | \alpha \leqslant \theta \leqslant \beta, h_{1}(\theta) \leqslant r \leqslant h_{2}(\theta)\right\}
+        $$
+    Annotations: ''
+  tags:
+  - Theorem

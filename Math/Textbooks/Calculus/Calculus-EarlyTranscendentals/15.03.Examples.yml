@@ -1,0 +1,62 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-15-MultipleIntegrals
+  - CET-15.03-DoubleIntegralsInPolarCoordinates
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589586520924
+  fields:
+    Front: |
+      CET-15.03-1 Example:
+      #### Multiple Integrals
+      ##### Double Integrals in Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589586521193
+  fields:
+    Front: |
+      CET-15.03-2 Example:
+      #### Multiple Integrals
+      ##### Double Integrals in Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589586521495
+  fields:
+    Front: |
+      CET-15.03-3 Example:
+      #### Multiple Integrals
+      ##### Double Integrals in Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589586521769
+  fields:
+    Front: |
+      CET-15.03-4 Example:
+      #### Multiple Integrals
+      ##### Double Integrals in Polar Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
