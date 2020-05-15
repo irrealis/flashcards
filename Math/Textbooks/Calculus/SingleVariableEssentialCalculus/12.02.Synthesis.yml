@@ -1,0 +1,223 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theory
+  - SingleVariableEssentialCalculus
+  - SVEC-12-MultipleIntegrals
+  - SVEC-12.02-DoubleIntegralsOverGeneralRegions
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589579959297
+  fields:
+    Front: |
+      SVEC-12.02.01 Synthesis:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      List the general-double-integral definitions and theorems.
+    Back: |
+      Def: **double integral**
+      Def: **type I**
+      Thm: _unnamed_ **type-I iterated double integral formula**
+      Def: **type II**
+      Thm: _unnamed_ **type-II iterated double integral formula**
+      ###### Properties of Double Integrals
+      Thm: **Properties of Double Integrals**
+      1 & 2. _unnamed_ **linearity**
+      3. _unnamed_ **constant multiple**
+      4. _unnamed_ **comparison**
+      5. _unnamed_ **additivity**
+      6. _unnamed_ **unity integrand**
+      7. _unnamed_ **bounds**
+    Annotations: ''
+  tags:
+  - Definitions
+  - Theorems
+  - Editing
+- id: 1589580501199
+  fields:
+    Front: |
+      SVEC-12.02.02 Synthesis:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Define **double integral**. List its hypotheses.
+    Back: |
+      Suppose $f$ is defined on a region $D,$ and suppose $D$ is bounded by rectangle $R.$ Define the function $F$ on $R$ by
+      $$
+      F(x, y)=\left\{\begin{array}{ll}
+        f(x, y) & \text { if }(x, y) \text { is in } D \\
+        0 & \text { if }(x, y) \text { is in } R \text { but not in } D
+      \end{array}\right.
+      $$ If the double integral of $F$ exists over $R$, then we define the **double integral of $f$ over $D$** by
+      $$
+      \iint_{D} f(x, y) d A=\iint_{R} F(x, y) d A
+      $$
+      Hypotheses:
+
+      - $D$ is bounded by rectangle $R.$
+      - The double integral of $F$ exists over $R.$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589580779872
+  media:
+  - path: ¢{file_dir}/images/SVEC-12.02.03.Sy.1.jpg
+  - path: ¢{file_dir}/images/SVEC-12.02.03.Sy.2.jpg
+  - path: ¢{file_dir}/images/SVEC-12.02.03.Sy.3.jpg
+  fields:
+    Front: |
+      SVEC-12.02.03 Synthesis:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Define **type I**. List its hypotheses.
+    Back: |
+      A plane region $D$ is said to be of **type I** if it lies between the graphs of two continuous functions of $x,$ that is,
+      $$
+      D=\left\{(x, y) | a \leqslant x \leqslant b, g_{1}(x) \leqslant y \leqslant g_{2}(x)\right\}
+      $$ where $g_{1}$ and $g_{2}$ are continuous on $[a, b] .$ Some examples of type I regions are shown below.
+      <p align="center">
+      ![](SVEC-12.02.03.Sy.1.jpg)
+      </p>
+      <p align="center">
+      ![](SVEC-12.02.03.Sy.2.jpg)
+      </p>
+      <p align="center">
+      ![](SVEC-12.02.03.Sy.3.jpg)
+      _Some type I regions._
+      </p>
+      Hypotheses:
+
+      - $D$ lies between the graphs of two continuous functions of $x.$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589580973448
+  fields:
+    Front: |
+      SVEC-12.02.04 Synthesis:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      State the _unnamed_ **type-I iterated double integral formula**. List its hypotheses.
+    Back: |
+      If $f$ is continuous on a type I region $D$ such that
+      $$
+      D=\left\{(x, y) | a \leqslant x \leqslant b, g_{1}(x) \leqslant y \leqslant g_{2}(x)\right\}
+      $$ then
+      $$
+      \iint_{D} f(x, y) d A=\int_{a}^{b} \int_{g_{1}(x)}^{g_{2}(x)} f(x, y) d y d x
+      $$
+
+      Hypotheses:
+
+      - $f$ is continuous on a type I region $D.$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589581421923
+  media:
+  - path: ¢{file_dir}/images/SVEC-12.02.05.Sy.1.jpg
+  - path: ¢{file_dir}/images/SVEC-12.02.05.Sy.2.jpg
+  fields:
+    Front: |
+      SVEC-12.02.05 Synthesis:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Define **type II**. List its hypotheses.
+    Back: |
+      A plane region $D$ is said to be of **type II** if it lies between the graphs of two continuous functions of $y,$ that is,
+      $$
+      D=\left\{(x, y) | c \leqslant y \leqslant d, h_{1}(y) \leqslant x \leqslant h_{2}(y)\right\}
+      $$ where $h_{1}$ and $h_{2}$ are continuous on $[c, d].$ Two such regions are illustrated in below.
+      <p align="center">
+      ![](SVEC-12.02.05.Sy.1.jpg)
+      </p>
+      <p align="center">
+      ![](SVEC-12.02.05.Sy.2.jpg)
+      _Some type II regions._
+      </p>
+
+      Hypotheses:
+
+      - $D$ lies between the graphs of two continuous functions of $y.$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589581646523
+  fields:
+    Front: |
+      SVEC-12.02.06 Synthesis:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      State the _unnamed_ **type-II iterated double integral formula**. List its hypotheses.
+    Back: |
+      If $f$ is continuous on a type II region $D$ such that
+      $$
+      D=\left\{(x, y) | c \leqslant y \leqslant d, h_{1}(y) \leqslant x \leqslant h_{2}(y)\right\}
+      $$ then
+      $$
+      \iint_{D} f(x, y) d A=\int_{c}^{d} \int_{h_{1}(y)}^{h_{2}(y)} f(x, y) d x d y
+      $$
+
+      Hypotheses:
+
+      - $f$ is continuous on a type II region $D.$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589581945398
+  media:
+  - path: ¢{file_dir}/images/SVEC-12.02.07.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-12.02.07 Synthesis:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      ###### Properties of Double Integrals
+      State the **Properties of Double Integrals**.
+    Back: |
+      Suppose $\iint_{D} f(x, y) d A$ and $\iint_{D} g(x, y)] d A$ exist, and $c$ is constant. Then
+
+      1 & 2: _unnamed_ **linearity**:
+      $$
+      \iint_{D}[f(x, y)+g(x, y)] d A=\iint_{D} f(x, y) d A+\iint_{D} g(x, y) d A
+      $$
+      $$
+      \iint_{D} c f(x, y) d A=c \iint_{D} f(x, y) d A
+      $$
+
+      3: _unnamed_ **constant multiple**:
+      $$
+      \iint_{D} c f(x, y) d A=c \iint_{D} f(x, y) d A
+      $$
+
+      4: _unnamed_ **comparison**: If $f(x, y) \geqslant g(x, y)$ for all $(x, y)$ in $D,$ then
+      $$
+      \iint_{D} f(x, y) d A \geqslant \iint_{D} g(x, y) d A
+      $$
+
+      5: _unnamed_ **additivity**: If $D=D_{1} \cup D_{2},$ where $D_{1}$ and $D_{2}$ don't overlap except perhaps on their boundaries (see following figure), then
+      $$
+      \iint_{D} f(x, y) d A=\iint_{D_{1}} f(x, y) d A+\iint_{D_{2}} f(x, y) d A
+      $$
+      <p align="center">
+      ![](SVEC-12.02.07.Sy.1.jpg)
+      </p>
+
+      6: _unnamed_ **unity integrand**: If we integrate the constant function $f(x, y)=1$ over a region $D,$ we get the area of $D:$
+      $$
+      \iint_{D} 1 d A=A(D)
+      $$
+
+      7: _unnamed_ **bounds**: If $m \leqslant f(x, y) \leqslant M$ for all $(x, y)$ in $D,$ then
+      $$
+      m A(D) \leqslant \iint_{D} f(x, y) d A \leqslant M A(D)
+      $$
+
+    Annotations: ''
+  tags:
+  - Theorem
+  - Editing

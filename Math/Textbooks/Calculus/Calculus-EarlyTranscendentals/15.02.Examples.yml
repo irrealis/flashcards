@@ -1,0 +1,86 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-15-MultipleIntegrals
+  - CET-15.02-DoubleIntegralsOverGeneralRegions
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589582837747
+  fields:
+    Front: |
+      CET-15.02-1 Example:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582838017
+  fields:
+    Front: |
+      CET-15.02-2 Example:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582838269
+  fields:
+    Front: |
+      CET-15.02-3 Example:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582838533
+  fields:
+    Front: |
+      CET-15.02-4 Example:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582838784
+  fields:
+    Front: |
+      CET-15.02-5 Example:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582839050
+  fields:
+    Front: |
+      CET-15.02-6 Example:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

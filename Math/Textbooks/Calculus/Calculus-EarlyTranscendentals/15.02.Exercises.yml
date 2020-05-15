@@ -1,0 +1,854 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-15-MultipleIntegrals
+  - CET-15.02-DoubleIntegralsOverGeneralRegions
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589582839448
+  fields:
+    Front: |
+      CET-15.02-01 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582839738
+  fields:
+    Front: |
+      CET-15.02-02 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582840024
+  fields:
+    Front: |
+      CET-15.02-03 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582840302
+  fields:
+    Front: |
+      CET-15.02-04 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582840617
+  fields:
+    Front: |
+      CET-15.02-05 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582840886
+  fields:
+    Front: |
+      CET-15.02-06 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582841201
+  fields:
+    Front: |
+      CET-15.02-07 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582841469
+  fields:
+    Front: |
+      CET-15.02-08 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582841750
+  fields:
+    Front: |
+      CET-15.02-09 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582842010
+  fields:
+    Front: |
+      CET-15.02-10 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582842272
+  fields:
+    Front: |
+      CET-15.02-11 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582842540
+  fields:
+    Front: |
+      CET-15.02-12 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582842803
+  fields:
+    Front: |
+      CET-15.02-13 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582843069
+  fields:
+    Front: |
+      CET-15.02-14 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582843334
+  fields:
+    Front: |
+      CET-15.02-15 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582843646
+  fields:
+    Front: |
+      CET-15.02-16 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582843951
+  fields:
+    Front: |
+      CET-15.02-17 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582844218
+  fields:
+    Front: |
+      CET-15.02-18 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582844473
+  fields:
+    Front: |
+      CET-15.02-19 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582844769
+  fields:
+    Front: |
+      CET-15.02-20 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582845025
+  fields:
+    Front: |
+      CET-15.02-21 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582845314
+  fields:
+    Front: |
+      CET-15.02-22 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582845571
+  fields:
+    Front: |
+      CET-15.02-23 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582845838
+  fields:
+    Front: |
+      CET-15.02-24 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582846117
+  fields:
+    Front: |
+      CET-15.02-25 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582846373
+  fields:
+    Front: |
+      CET-15.02-26 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582846641
+  fields:
+    Front: |
+      CET-15.02-27 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582846918
+  fields:
+    Front: |
+      CET-15.02-28 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582847171
+  fields:
+    Front: |
+      CET-15.02-29 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582847452
+  fields:
+    Front: |
+      CET-15.02-30 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582847750
+  fields:
+    Front: |
+      CET-15.02-31 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582848004
+  fields:
+    Front: |
+      CET-15.02-32 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582848277
+  fields:
+    Front: |
+      CET-15.02-33 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582848556
+  fields:
+    Front: |
+      CET-15.02-34 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582848806
+  fields:
+    Front: |
+      CET-15.02-35 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582849085
+  fields:
+    Front: |
+      CET-15.02-36 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582849384
+  fields:
+    Front: |
+      CET-15.02-37 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582849643
+  fields:
+    Front: |
+      CET-15.02-38 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582849934
+  fields:
+    Front: |
+      CET-15.02-39 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582850235
+  fields:
+    Front: |
+      CET-15.02-40 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582850534
+  fields:
+    Front: |
+      CET-15.02-41 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582850788
+  fields:
+    Front: |
+      CET-15.02-42 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582851085
+  fields:
+    Front: |
+      CET-15.02-43 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582851400
+  fields:
+    Front: |
+      CET-15.02-44 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582851677
+  fields:
+    Front: |
+      CET-15.02-45 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582851952
+  fields:
+    Front: |
+      CET-15.02-46 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582852251
+  fields:
+    Front: |
+      CET-15.02-47 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582852523
+  fields:
+    Front: |
+      CET-15.02-48 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582852821
+  fields:
+    Front: |
+      CET-15.02-49 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582853073
+  fields:
+    Front: |
+      CET-15.02-50 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582853353
+  fields:
+    Front: |
+      CET-15.02-51 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582853644
+  fields:
+    Front: |
+      CET-15.02-52 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582853926
+  fields:
+    Front: |
+      CET-15.02-53 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582854202
+  fields:
+    Front: |
+      CET-15.02-54 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582854536
+  fields:
+    Front: |
+      CET-15.02-55 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582854801
+  fields:
+    Front: |
+      CET-15.02-56 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582855102
+  fields:
+    Front: |
+      CET-15.02-57 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582855403
+  fields:
+    Front: |
+      CET-15.02-58 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582855668
+  fields:
+    Front: |
+      CET-15.02-59 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582855943
+  fields:
+    Front: |
+      CET-15.02-60 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582856235
+  fields:
+    Front: |
+      CET-15.02-61 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582856491
+  fields:
+    Front: |
+      CET-15.02-62 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582856775
+  fields:
+    Front: |
+      CET-15.02-63 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582857052
+  fields:
+    Front: |
+      CET-15.02-64 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582857351
+  fields:
+    Front: |
+      CET-15.02-65 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582857639
+  fields:
+    Front: |
+      CET-15.02-66 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582857926
+  fields:
+    Front: |
+      CET-15.02-67 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582858202
+  fields:
+    Front: |
+      CET-15.02-68 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582858485
+  fields:
+    Front: |
+      CET-15.02-69 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589582858739
+  fields:
+    Front: |
+      CET-15.02-70 Exercise:
+      #### Multiple Integrals
+      ##### Double Integrals over General Regions
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
