@@ -1,0 +1,414 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theory
+  - SingleVariableEssentialCalculus
+  - SVEC-12-MultipleIntegrals
+  - SVEC-12.05-TripleIntegrals
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589662165364
+  fields:
+    Front: |
+      SVEC-12.05.01 Synthesis:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      List the triple-integral definitions and theorems.
+    Back: |
+      Def: **triple Riemann sum** on a box
+      Def: **triple integral** on a box
+      Thm: **Fubini's Theorem for Triple Integrals**
+      Def: **triple integral over a bounded region**
+      Def: **type 1**
+      Thm: _unnamed_ **type 1 iterated triple integral formulae**
+      Def: **type 2**
+      Thm: _unnamed_ **type 2 iterated triple integral formula**
+      Def: **type 3**
+      Thm: _unnamed_ **type 3 iterated triple integral formula**
+      ###### Applications of Triple Integrals
+      Def: **hypervolume**
+      Thm: **volume as a triple integral**
+      Def: **mass**, **moments**, **center of mass**, **centroid**, **moments of inertia**
+      Def: **electric charge**
+    Annotations: ''
+  tags:
+  - Definitions
+  - Editing
+  - Theorems
+- id: 1589662503071
+  media:
+  - path: ¢{file_dir}/images/SVEC-12.05.02.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-12.05.02 Synthesis:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Define **triple Riemann sum** on a box.
+    Back: |
+      We divide $B$ into sub-boxes by dividing the interval $[a, b]$ into $l$ subintervals $\left[x_{i-1}, x_{i}\right]$ with lengths $\Delta x_{i}=x_{i}-x_{i-1},$ dividing $[c, d]$ into $m$ sub intervals with lengths $\Delta y_{j}=y_{j}-y_{j-1},$ and dividing $[r, s]$ into $n$ subintervals with lengths $\Delta z_{k}=z_{k}-z_{k-1}$. The planes through the endpoints of these subintervals parallel to the coordinate planes divide the box $B$ into $lmn$ sub-boxes
+      $$
+      B_{i j k}=\left[x_{i-1}, x_{i}\right] \times\left[y_{j-1}, y_{j}\right] \times\left[z_{k-1}, z_{k}\right]
+      $$ which are shown below.
+      <p align="center">
+      ![](SVEC-12.05.02.Sy.1.jpg)
+      </p>
+      The sub-box $B_{i j k}$ has volume $\Delta V_{i j k}=\Delta x_{i} \Delta y_{j} \Delta z_{k}.$
+
+      We can now form the **triple Riemann sum**
+      $$
+      \sum_{i=1}^{l} \sum_{j=1}^{m} \sum_{k=1}^{n} f\left(x_{i j k}^{*}, y_{i j k}^{*}, z_{i j k}^{*}\right) \Delta V_{i j k}
+      $$ where the sample point $\left(x_{i j k}^{*}, y_{i j k}^{*}, z_{i j k}^{*}\right)$ is in $B_{i j k}.$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589662774599
+  fields:
+    Front: |
+      SVEC-12.05.03 Synthesis:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Define **triple integral** on a box. List its hypotheses.
+    Back: |
+      The triple integral of $f$ over the box $B$ is
+      $$
+      \iiint_{B} f(x, y, z) d V=\lim _{\max \Delta x_{i}, \Delta y_{j}, \Delta z_{k} \rightarrow 0} \sum_{i=1}^{l} \sum_{j=1}^{m} \sum_{k=1}^{n} f\left(x_{i j k}^{*}, y_{i j k}^{*}, z_{i j k}^{*}\right) \Delta V_{i j k}
+      $$ if this limit exists.
+
+      Again, the triple integral always exists if $f$ is continuous. We can choose the sample point to be any point in the sub-box, but if we choose it to be the point $\left(x_{i}, y_{j}, z_{k}\right),$ and if we choose sub-boxes with the same dimensions, so that $\Delta V_{i j k}=\Delta V$, we get a simplerlooking expression for the triple integral:
+      $$
+      \iiint_{B} f(x, y, z) d V=\lim _{l, m, n \rightarrow \infty} \sum_{i=1}^{l} \sum_{j=1}^{m} \sum_{k=1}^{n} f\left(x_{i}, y_{j}, z_{k}\right) \Delta V
+      $$
+
+      Hypotheses:
+
+      - $\lim _{\max \Delta x_{i}, \Delta y_{j}, \Delta z_{k} \rightarrow 0} \sum_{i=1}^{l} \sum_{j=1}^{m} \sum_{k=1}^{n} f\left(x_{i j k}^{*}, y_{i j k}^{*}, z_{i j k}^{*}\right) \Delta V_{i j k}$ exists.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589663011699
+  fields:
+    Front: |
+      SVEC-12.05.04 Synthesis:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      State the **Fubini's Theorem for Triple Integrals**. List its hypotheses.
+    Back: |
+      If $f$ is continuous on the rectangular box $B=[a, b] \times[c, d] \times[r, s],$ then
+      $$
+      \iiint_{B} f(x, y, z) d V=\int_{r}^{s} \int_{c}^{d} \int_{a}^{b} f(x, y, z) \, d x \, d y \, d z
+      $$
+
+      The iterated integral on the right side means that we integrate first with respect to $x$ (keeping $y$ and $z$ fixed), then we integrate with respect to $y$ (keeping $z \text { fixed }),$ and finally we integrate with respect to $z .$ There are five other possible orders in which we can integrate, all of which give the same value. For instance, if we integrate with respect to $y$, then $z$, and then $x$, we have
+      $$
+      \iiint_{B} f(x, y, z) d V=\int_{a}^{b} \int_{r}^{s} \int_{c}^{d} f(x, y, z) \, d y \, d z \, d x
+      $$
+
+      Hypotheses:
+
+      - $f$ is continuous on $B.$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589663761674
+  fields:
+    Front: |
+      SVEC-12.05.05 Synthesis:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Define **triple integral over a bounded region**. List its hypotheses.
+    Back: |
+      To define the **triple integral over a general bounded region $E$** in three-dimensional space (a solid) we use much the same procedure that we used for double integrals. We enclose $E$ in a box $B.$ Then we define a function $F$ so that it agrees with $f$ on $E$ but is 0 for points in $B$ that are outside $E .$ By definition,
+      $$
+      \iiint_{E} f(x, y, z) d V=\iiint_{B} F(x, y, z) d V
+      $$ This integral exists if $f$ is continuous and the boundary of $E$ is "reasonably smooth." The triple integral has essentially the same properties as the double integral.
+
+      Hypotheses:
+
+      - $f$ is integrable on $E$. Satisfied by:
+        - $f$ is continuous.
+        - The boundary of $E$ is "reasonably smooth."
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589664021926
+  media:
+  - path: ¢{file_dir}/images/SVEC-12.05.06.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-12.05.06 Synthesis:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Define **type 1**. List its hypotheses.
+    Back: |
+      A solid region $E$ is said to be of **type 1** if it lies between the graphs of two continuous functions of $x$ and $y,$ that is,
+      $$
+      E=\left\{(x, y, z) |(x, y) \in D, u_{1}(x, y) \leqslant z \leqslant u_{2}(x, y)\right\}
+      $$ where $D$ is the projection of $E$ onto the $x y$-plane as shown below.
+      <p align="center">
+      ![](SVEC-12.05.06.Sy.1.jpg)
+      _A type 1 solid region._
+      </p>
+      Notice that the upper boundary of the solid $E$ is the surface with equation $z=u_{2}(x, y),$ while the lower boundary is the surface $z=u_{1}(x, y).$
+
+      Hypotheses:
+
+      - $E$ lies between the graphs of two continuous functions of $x$ and $y.$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589664294524
+  media:
+  - path: ¢{file_dir}/images/SVEC-12.05.07.Sy.1.jpg
+  - path: ¢{file_dir}/images/SVEC-12.05.07.Sy.2.jpg
+  fields:
+    Front: |
+      SVEC-12.05.07 Synthesis:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      State the _unnamed_ **type 1 iterated triple integral formulae**. List their hypotheses.
+    Back: |
+      If $E$ is a type 1 region then
+      $$
+      \iiint_{E} f(x, y, z) d V=\iint_{D}\left[\int_{u_{1}(x, y)}^{u_{2}(x, y)} f(x, y, z) d z\right] d A
+      $$ The meaning of the inner integral on the right side is that $x$ and $y$ are held fixed, and therefore $u_{1}(x, y)$ and $u_{2}(x, y)$ are regarded as constants, while $f(x, y, z)$ is integrated with respect to $z.$
+      <p align="center">
+      ![](SVEC-12.05.06.Sy.1.jpg)
+      _A type 1 solid region._
+      </p>
+
+      If the projection $D$ of $E$ onto the $x y$-plane is a type I plane region (as shown in the following figure), then
+      $$
+      E=\left\{(x, y, z) | a \leqslant x \leqslant b, g_{1}(x) \leqslant y \leqslant g_{2}(x), u_{1}(x, y) \leqslant z \leqslant u_{2}(x, y)\right\}
+      $$ and
+      $$
+      \iiint_{E} f(x, y, z) d V=\int_{a}^{b} \int_{g_{1}(x)}^{g_{2}(x)} \int_{u_{1}(x, y)}^{u_{2}(x, y)} f(x, y, z) d z d y d x
+      $$
+      <p align="center">
+      ![](SVEC-12.05.07.Sy.1.jpg)
+      _A type 1 solid region where the projection $D$ is a type I plane region._
+      </p>
+
+      If, on the other hand, $D$ is a type II plane region (as in the next figure), then
+      $$
+      E=\left\{(x, y, z) | c \leqslant y \leqslant d, h_{1}(y) \leqslant x \leqslant h_{2}(y), u_{1}(x, y) \leqslant z \leqslant u_{2}(x, y)\right\}
+      $$ and
+      $$
+      \iiint_{E} f(x, y, z) d V=\int_{c}^{d} \int_{h_{1}(y)}^{h_{2}(y)} \int_{u_{1}(x, y)}^{u_{2}(x, y)} f(x, y, z) d z d x d y
+      $$
+      <p align="center">
+      ![](SVEC-12.05.07.Sy.2.jpg)
+      _Another type 1 solid region with a type II projection._
+      </p>
+
+      Hypotheses:
+
+      - $E$ is a type 1 region.
+      - $f$ is integrable on $E.$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589664865176
+  media:
+  - path: ¢{file_dir}/images/SVEC-12.05.08.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-12.05.08 Synthesis:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Define **type 2**. List its hypotheses.
+    Back: |
+      A solid region $E$ is of **type 2** if it is of the form
+      $$
+      E=\left\{(x, y, z) |(y, z) \in D, u_{1}(y, z) \leqslant x \leqslant u_{2}(y, z)\right\}
+      $$ where, this time, $D$ is the projection of $E$ onto the $y z$-plane (see below).
+      <p align="center">
+      ![](SVEC-12.05.08.Sy.1.jpg)
+      _A type 2 region._
+      </p>
+      The back surface is $x=u_{1}(y, z)$ and the front surface is $x=u_{2}(y, z).$
+
+      Hypotheses:
+
+      - $E$ lies between the graphs of two continuous functions of $y$ and $z.$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589665044123
+  fields:
+    Front: |
+      SVEC-12.05.09 Synthesis:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      State the _unnamed_ **type 2 iterated triple integral formula**. List its hypotheses.
+    Back: |
+      If $E$ is a type 2 region then
+      $$
+      \iiint_{E} f(x, y, z) d V=\iint_{D}\left[\int_{u_{1}(y, z)}^{u_{2}(y, z)} f(x, y, z) d x\right] d A
+      $$
+      <p align="center">
+      ![](SVEC-12.05.08.Sy.1.jpg)
+      _A type 2 region._
+      </p>
+      There may be two possible expressions for the integral depending on whether $D$ is a type I or type II plane region.
+
+      Hypotheses:
+
+      - $E$ is a type 2 region.
+      - $f$ is integrable on $E.$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589665228922
+  media:
+  - path: ¢{file_dir}/images/SVEC-12.05.10.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-12.05.10 Synthesis:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Define **type 3**. List its hypotheses.
+    Back: |
+      Finally, a **type 3** region is of the form
+      $$
+      E=\left\{(x, y, z) |(x, z) \in D, u_{1}(x, z) \leqslant y \leqslant u_{2}(x, z)\right\}
+      $$ where $D$ is the projection of $E$ onto the $x z$ -plane, $y=u_{1}(x, z)$ is the left surface, and $y=u_{2}(x, z)$ is the right surface (see below).
+      <p align="center">
+      ![](SVEC-12.05.10.Sy.1.jpg)
+      _A type 3 region._
+      </p>
+
+      Hypotheses:
+
+      - $E$ lies between the graphs of two continuous functions of $x$ and $z.$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589665446748
+  fields:
+    Front: |
+      SVEC-12.05.11 Synthesis:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      State the _unnamed_ **type 3 iterated triple integral formula**. List its hypotheses.
+    Back: |
+      If $E$ is a type 3 region then
+      $$
+      \iiint_{E} f(x, y, z) d V=\iint_{D}\left[\int_{u_{1}(x, z)}^{u_{2}(x, z)} f(x, y, z) d y\right] d A
+      $$
+      <p align="center">
+      ![](SVEC-12.05.10.Sy.1.jpg)
+      _A type 3 region._
+      </p>
+      There may be two possible expressions for the integral depending on whether $D$ is a type I or type II plane region.
+
+      Hypotheses:
+
+      - $E$ is a type 3 region.
+      - $f$ is integrable on $E.$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589665645271
+  fields:
+    Front: |
+      SVEC-12.05.12 Synthesis:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      ###### Applications of Triple Integrals
+      Define **hypervolume**.
+    Back: |
+      Recall that if $f(x) \geqslant 0$, then the single integral $\int_{a}^{b} f(x) d x$ represents the area under the curve $y=f(x)$ from $a$ to $b,$ and if $f(x, y) \geqslant 0,$ then the double integral $\iint_{D} f(x, y) d A$ represents the volume under the surface $z=f(x, y)$ and above $D .$
+
+      The corresponding interpretation of a triple integral $\iiint_{E} f(x, y, z) d V,$ where $f(x, y, z) \geqslant 0,$ is not very useful because it would be the **"hypervolume"** of a four-dimensional object and, of course, that is very difficult to visualize. (Remember that $E$ is just the domain of the function $f ;$ the graph of $f$ lies in four-dimensional space.)
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589665986676
+  fields:
+    Front: |
+      SVEC-12.05.13 Synthesis:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      ###### Applications of Triple Integrals
+      Express **volume as a triple integral**. List its hypotheses.
+    Back: |
+      In the special case where $f(x, y, z)=1$ for all points in $E ,$ the triple integral does represent the volume of $E:$
+      $$
+      V(E)=\iiint_{E} d V
+      $$ This is a type 1 region:
+      $$
+      \iiint_{E} 1 d V=\iint_{D}\left[\int_{u_{(x, y)}}^{u_{2}(x, y)} d z\right] d A=\iint_{D}\left[u_{2}(x, y)-u_{1}(x, y)\right] d A
+      $$ and we know this represents the volume that lies between the surfaces $z=u_{1}(x, y)$ and $z=u_{2}(x, y).$
+
+      Hypotheses:
+
+      - The boundary of $E$ is "reasonably smooth."
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589666270273
+  fields:
+    Front: |
+      SVEC-12.05.14 Synthesis:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      ###### Applications of Triple Integrals
+      Define **mass**, **moments**, **center of mass**, **centroid**, **moments of inertia**. List their hypotheses.
+    Back: |
+      If the density function of a solid object that occupies the region $E$ is $\rho(x, y, z)$, in units of mass per unit volume, at any given point $(x, y, z),$ then its **mass** is
+      $$
+      m=\iiint_{E} \rho(x, y, z) d V
+      $$ and its **moments** about the three coordinate planes are
+      $$
+      \begin{array}{c}
+      M_{y z}=\iiint_{E} x \rho(x, y, z) d V \quad M_{x z}=\iiint_{E} y \rho(x, y, z) d V \\
+      M_{x y}=\iiint_{E} z \rho(x, y, z) d V
+      \end{array}
+      $$ The **center of mass** is located at the point $(\bar{x}, \bar{y}, \bar{z}),$ where
+      $$
+      \bar{x}=\frac{M_{y z}}{m} \quad \bar{y}=\frac{M_{x z}}{m} \quad \bar{z}=\frac{M_{x y}}{m}
+      $$ If the density is constant, the center of mass of the solid is called the **centroid** of $E.$ The **moments of inertia** about the three coordinate axes are
+      $$
+      \begin{array}{c}
+      I_{x}=\iiint_{E}\left(y^{2}+z^{2}\right) \rho(x, y, z) d V \quad I_{y}=\iiint_{E}\left(x^{2}+z^{2}\right) \rho(x, y, z) d V \\
+      I_{z}=\iiint_{E}\left(x^{2}+y^{2}\right) \rho(x, y, z) d V
+      \end{array}
+      $$
+
+      Hypotheses:
+
+      - $\rho$ is continuous on $E.$
+
+      Questions:
+
+      - What are the radii of gyration wrt the axes in three dimensions?
+      - What is the center of gyration?
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589667016174
+  fields:
+    Front: |
+      SVEC-12.05.15 Synthesis:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      ###### Applications of Triple Integrals
+      Define **electric charge**. List its hypotheses.
+    Back: |
+      The total **electric charge** on a solid object occupying a region $E$ and having charge density $\sigma(x, y, z)$ is
+      $$
+      Q=\iiint_{E} \sigma(x, y, z) d V
+      $$
+
+      Hypotheses:
+
+      - $\sigma(x, y, z)$ is continuous on $E.$
+    Annotations: ''
+  tags:
+  - Definition
+  - Editing

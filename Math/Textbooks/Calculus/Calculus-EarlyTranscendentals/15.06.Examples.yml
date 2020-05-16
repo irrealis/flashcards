@@ -1,0 +1,86 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-15-MultipleIntegrals
+  - CET-15.06-TripleIntegrals
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589667176497
+  fields:
+    Front: |
+      CET-15.06-1 Example:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667176775
+  fields:
+    Front: |
+      CET-15.06-2 Example:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667177048
+  fields:
+    Front: |
+      CET-15.06-3 Example:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667177340
+  fields:
+    Front: |
+      CET-15.06-4 Example:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667177630
+  fields:
+    Front: |
+      CET-15.06-5 Example:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667177907
+  fields:
+    Front: |
+      CET-15.06-6 Example:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

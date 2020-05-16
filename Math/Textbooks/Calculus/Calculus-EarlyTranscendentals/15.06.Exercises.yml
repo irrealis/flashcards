@@ -1,0 +1,674 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-15-MultipleIntegrals
+  - CET-15.06-TripleIntegrals
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589667178322
+  fields:
+    Front: |
+      CET-15.06-01 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667178624
+  fields:
+    Front: |
+      CET-15.06-02 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667178891
+  fields:
+    Front: |
+      CET-15.06-03 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667179177
+  fields:
+    Front: |
+      CET-15.06-04 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667179457
+  fields:
+    Front: |
+      CET-15.06-05 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667179758
+  fields:
+    Front: |
+      CET-15.06-06 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667180042
+  fields:
+    Front: |
+      CET-15.06-07 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667180298
+  fields:
+    Front: |
+      CET-15.06-08 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667180590
+  fields:
+    Front: |
+      CET-15.06-09 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667180851
+  fields:
+    Front: |
+      CET-15.06-10 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667181142
+  fields:
+    Front: |
+      CET-15.06-11 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667181409
+  fields:
+    Front: |
+      CET-15.06-12 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667181708
+  fields:
+    Front: |
+      CET-15.06-13 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667182024
+  fields:
+    Front: |
+      CET-15.06-14 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667182276
+  fields:
+    Front: |
+      CET-15.06-15 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667182594
+  fields:
+    Front: |
+      CET-15.06-16 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667182926
+  fields:
+    Front: |
+      CET-15.06-17 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667183209
+  fields:
+    Front: |
+      CET-15.06-18 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667183492
+  fields:
+    Front: |
+      CET-15.06-19 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667183796
+  fields:
+    Front: |
+      CET-15.06-20 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667184092
+  fields:
+    Front: |
+      CET-15.06-21 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667184408
+  fields:
+    Front: |
+      CET-15.06-22 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667184676
+  fields:
+    Front: |
+      CET-15.06-23 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667184991
+  fields:
+    Front: |
+      CET-15.06-24 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667185247
+  fields:
+    Front: |
+      CET-15.06-25 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667185537
+  fields:
+    Front: |
+      CET-15.06-26 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667185808
+  fields:
+    Front: |
+      CET-15.06-27 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667186150
+  fields:
+    Front: |
+      CET-15.06-28 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667186441
+  fields:
+    Front: |
+      CET-15.06-29 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667186697
+  fields:
+    Front: |
+      CET-15.06-30 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667187009
+  fields:
+    Front: |
+      CET-15.06-31 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667187309
+  fields:
+    Front: |
+      CET-15.06-32 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667187576
+  fields:
+    Front: |
+      CET-15.06-33 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667187859
+  fields:
+    Front: |
+      CET-15.06-34 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667188135
+  fields:
+    Front: |
+      CET-15.06-35 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667188397
+  fields:
+    Front: |
+      CET-15.06-36 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667188709
+  fields:
+    Front: |
+      CET-15.06-37 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667189007
+  fields:
+    Front: |
+      CET-15.06-38 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667189266
+  fields:
+    Front: |
+      CET-15.06-39 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667189591
+  fields:
+    Front: |
+      CET-15.06-40 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667189909
+  fields:
+    Front: |
+      CET-15.06-41 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667190191
+  fields:
+    Front: |
+      CET-15.06-42 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667190459
+  fields:
+    Front: |
+      CET-15.06-43 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667190776
+  fields:
+    Front: |
+      CET-15.06-44 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667191044
+  fields:
+    Front: |
+      CET-15.06-45 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667191358
+  fields:
+    Front: |
+      CET-15.06-46 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667191617
+  fields:
+    Front: |
+      CET-15.06-47 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667191924
+  fields:
+    Front: |
+      CET-15.06-48 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667192198
+  fields:
+    Front: |
+      CET-15.06-49 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667192509
+  fields:
+    Front: |
+      CET-15.06-50 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667192778
+  fields:
+    Front: |
+      CET-15.06-51 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667193058
+  fields:
+    Front: |
+      CET-15.06-52 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667193343
+  fields:
+    Front: |
+      CET-15.06-53 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667193616
+  fields:
+    Front: |
+      CET-15.06-54 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589667193892
+  fields:
+    Front: |
+      CET-15.06-55 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
