@@ -1,0 +1,347 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theory
+  - SingleVariableEssentialCalculus
+  - SVEC-12-MultipleIntegrals
+  - SVEC-12.04-ApplicationsOfDoubleIntegrals
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589656133716
+  fields:
+    Front: |
+      SVEC-12.04.01 Synthesis:
+      #### Multiple Integrals
+      ##### Applications of Double Integrals
+      List the double-integral-application definitions and theorems.
+    Back: |
+      ###### Density and Mass
+      Def: **mass density**
+      Thm: **lamina mass formula**
+      Def: **charge density**
+      Thm: **lamina charge formula**
+      ###### Moments and Centers of Mass
+      Thm: **lamina moment about the $x$- and $y$-axes**
+      Thm: **lamina center of mass**
+      ###### Moments of Inertia
+      Def: **intertial moment** of a particle, and other common names
+      Thm: **lamina inertial moment about the $x$- and $y$-axes**
+      Thm: **lamina inertial moment about the origin** and other common names
+      Thm: **moments of inertia of a homogeneous disk**, as well as its **mass**
+      Thm: **significance of the inertial moment**
+      Thm: **radius of gyration of a lamina about an axis**, its significance, and its analogy with the center of mass
+    Annotations: ''
+  tags:
+  - Definitions
+  - Editing
+  - Theorems
+- id: 1589656400497
+  media:
+  - path: ¢{file_dir}/images/SVEC-12.04.02.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-12.04.02 Synthesis:
+      #### Multiple Integrals
+      ##### Applications of Double Integrals
+      ###### Density and Mass
+      Define **mass density**. List its hypotheses.
+    Back: |
+      Suppose a lamina occupies a region $D$ of the $x y$ -plane and its **mass density** (in units of mass per unit area) at a point $(x, y)$ in $D$ is given by $\rho(x, y),$ where $\rho$ is a continuous function on $D.$ This means that
+      $$
+      \rho(x, y)=\lim \frac{\Delta m}{\Delta A}
+      $$ where $\Delta m$ and $\Delta A$ are the mass and area of a small rectangle that contains $(x, y)$ and the limit is taken as the dimensions of the rectangle approach $0.$ (See figure below.)
+      <p align="center">
+      ![](SVEC-12.04.02.Sy.1.jpg)
+      </p>
+
+      Hypotheses:
+
+      - $\rho$ is continuous on $D.$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589656728348
+  media:
+  - path: ¢{file_dir}/images/SVEC-12.04.03.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-12.04.03 Synthesis:
+      #### Multiple Integrals
+      ##### Applications of Double Integrals
+      ###### Density and Mass
+      State the **lamina mass formula**. List its hypotheses.
+    Back: |
+      The total mass $m$ of a lamina occupyinig a region $D$ of the $x y$-plane, with density a point $(x, y)$ in $D$ is given by continuous $\rho(x, y),$ is
+      $$
+      \begin{aligned}
+      m
+      &=\lim _{\max \Delta x_{i}, \Delta y_{j} \rightarrow 0} \sum_{i=1}^{k} \sum_{j=1}^{l} \rho\left(x_{i j}^{*}, y_{i j}^{*}\right) \Delta A_{i j} \\
+      &=\iint_{D} \rho(x, y) d A
+      \end{aligned}
+      $$
+      To find $m$ we divide a rectangle $R$ containing $D$ into subrectangles $R_{i j}$ (as in the following figure) and consider $\rho(x, y)$ to be 0 outside $D$.
+      <p align="center">
+      ![](SVEC-12.04.03.Sy.1.jpg)
+      </p>
+      If we choose a point $\left(x_{i j}^{*}, y_{i j}^{*}\right)$ in $R_{i j},$ then the mass of the part of the lamina that occupies $R_{i j}$ is approximately $\rho\left(x_{i j}^{*}, y_{i j}^{*}\right) \Delta A_{i j},$ where $\Delta A_{i j}$ is the area of $R_{i j} .$ If we add all such masses we get an approximation to the total mass:
+      $$
+      m \approx \sum_{i=1}^{k} \sum_{j=1}^{l} \rho\left(x_{i j}^{*}, y_{i j}^{*}\right) \Delta A_{i j}
+      $$ If we now take finer partitions by using smaller subrectangles, we obtain the total mass $m$ of the lamina as the limiting value of the approximations.
+
+      Hypotheses:
+
+      - $\rho$ is continuous on $D.$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589657182247
+  fields:
+    Front: |
+      SVEC-12.04.04 Synthesis:
+      #### Multiple Integrals
+      ##### Applications of Double Integrals
+      ###### Density and Mass
+      Define **charge density**. List its hypotheses.
+    Back: |
+      Suppose a lamina occupies a region $D$ of the $x y$ -plane and its **charge density** (in units of charge per unit area) at a point $(x, y)$ in $D$ is given by $\sigma(x, y),$ where $\sigma$ is a continuous function on $D.$ This means that
+      $$
+      \sigma(x, y)=\lim \frac{\Delta Q}{\Delta A}
+      $$ where $\Delta Q$ and $\Delta A$ are the charge and area of a small rectangle that contains $(x, y)$ and the limit is taken as the dimensions of the rectangle approach $0.$
+
+      Hypotheses:
+
+      - $\sigma$ is continuous on $D.$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589657323573
+  fields:
+    Front: |
+      SVEC-12.04.05 Synthesis:
+      #### Multiple Integrals
+      ##### Applications of Double Integrals
+      ###### Density and Mass
+      State the **lamina charge formula**. List its hypotheses.
+    Back: |
+      If an electric charge is distributed over a region $D$ and the charge density (in units of charge per unit area) is given by $\sigma(x, y)$ at a point $(x, y)$ in $D,$ then the total charge $Q$ is given by
+      $$
+      Q=\iint_{D} \sigma(x, y) d A
+      $$
+
+      Hypotheses:
+
+      - $\sigma$ is continuous on $D.$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589657916797
+  fields:
+    Front: |
+      SVEC-12.04.06 Synthesis:
+      #### Multiple Integrals
+      ##### Applications of Double Integrals
+      ###### Moments and Centers of Mass
+      State the **lamina moment about the $x$- and $y$-axes**. List its hypotheses.
+    Back: |
+      Suppose a lamina occupies a region $D$ and has density function $\rho(x, y).$ Its **moment of the entire about the $x$-axis** is
+      $$
+      \begin{aligned}
+      M_{x}
+      &=\lim _{\max \Delta x_{i}, \Delta y_{j} \rightarrow 0} \sum_{i=1}^{m} \sum_{j=1}^{n} y_{i j}^{*} \rho\left(x_{i j}^{*}, y_{i j}^{*}\right) \Delta A_{i j} \\
+      &=\iint_{D} y \rho(x, y) d A
+      \end{aligned}
+      $$ Similarly, its **moment about the $y$-axis** is
+      $$
+      \begin{aligned}
+      M_{y}
+      &=\lim _{\max \Delta x_{i, A} \Delta y_{j} \rightarrow 0} \sum_{i=1}^{m} \sum_{j=1}^{n} x_{i j}^{*} \rho\left(x_{i j}^{*}, y_{i j}^{*}\right) \Delta A_{i j} \\
+      &=\iint_{D} x \rho(x, y) d A
+      \end{aligned}
+      $$
+      We divide $D$ into small rectangles as shown below.
+      <p align="center">
+      ![](SVEC-12.04.03.Sy.1.jpg)
+      </p>
+      Then the mass of $R_{i j}$ is approximately $\rho\left(x_{i j}^{*}, y_{i j}^{*}\right) \Delta A_{i j},$ so we can approximate the moment of $R_{i j}$ with respect to the $x$-axis by
+      $$
+      \left[\rho\left(x_{i j}^{*}, y_{i j}^{*}\right) \Delta A_{i j}\right] y_{i j}^{*}
+      $$ and its moment with respect to the $y$-axis by
+      $$
+      \left[\rho\left(x_{i j}^{*}, y_{i j}^{*}\right) \Delta A_{i j}\right] x_{i j}^{*}.
+      $$
+      If we now add these quantities and take the limit as the subrectangles become smaller, we obtain the moments of the entire lamina.
+
+      Hypotheses:
+
+      - $\rho$ is continuous on $D.$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589658160398
+  media:
+  - path: ¢{file_dir}/images/SVEC-12.04.07.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-12.04.07 Synthesis:
+      #### Multiple Integrals
+      ##### Applications of Double Integrals
+      ###### Moments and Centers of Mass
+      State the . List its hypotheses.
+    Back: |
+      The coordinates $(\bar{x}, \bar{y})$ of the center of mass of a lamina occupying the region $D$ and having density function $\rho(x, y)$ are
+      $$
+      \bar{x}=\frac{M_{y}}{m}=\frac{1}{m} \iint_{D} x \rho(x, y) d A \quad \bar{y}=\frac{M_{x}}{m}=\frac{1}{m} \iint_{D} y \rho(x, y) d A
+      $$ where the mass $m$ is given by
+      $$
+      m=\iint_{D} \rho(x, y) d A
+      $$
+
+      As usual, we define the center of mass $(\bar{x}, \bar{y})$ so that $m \bar{x}=M_{y}$ and $m \bar{y}=M_{x} .$ The physical significance is that the lamina behaves as if its entire mass is concentrated at its center of mass. Thus the lamina balances horizontally when supported at its center of mass (see figure below).
+      <p align="center">
+      ![](SVEC-12.04.07.Sy.1.jpg)
+      </p>
+
+      Hypotheses:
+
+      - $\rho$ is continuous on $D.$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589658379572
+  fields:
+    Front: |
+      SVEC-12.04.08 Synthesis:
+      #### Multiple Integrals
+      ##### Applications of Double Integrals
+      ###### Moments of Inertia
+      Define **intertial moment** of a particle, and give another common name.
+    Back: |
+      The **moment of inertia** (also called the **second moment**) of a particle of mass $m$ about an axis is defined to be $m r^{2},$ where $r$ is the distance from the particle to the axis.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589658775772
+  fields:
+    Front: |
+      SVEC-12.04.09 Synthesis:
+      #### Multiple Integrals
+      ##### Applications of Double Integrals
+      ###### Moments of Inertia
+      State the **lamina inertial moment about the $x$- and $y$-axes**. List its hypotheses.
+    Back: |
+      Suppose a lamina with continuous density function $\rho(x, y)$ occupies a region $D.$ Its **moment of inertia about the $x$-axis** is
+      $$
+      \begin{aligned}
+      I_{x}
+      &=\lim _{\max \Delta x_{i}, \Delta y_{j} \rightarrow 0} \sum_{i=1}^{m} \sum_{j=1}^{n}\left(y_{i j}^{*}\right)^{2} \rho\left(x_{i j}^{*}, y_{i j}^{*}\right) \Delta A_{i j} \\
+      &=\iint_{D} y^{2} \rho(x, y) d A
+      \end{aligned}
+      $$ Similarly, its **moment of inertia about the $y$-axis** is
+      $$
+      \begin{aligned}
+      I_{y}
+      &=\lim _{\max \Delta x_{i,}, \Delta y_{j} \rightarrow 0} \sum_{i=1}^{m} \sum_{j=1}^{n}\left(x_{i j}^{*}\right)^{2} \rho\left(x_{i j}^{*}, y_{i j}^{*}\right) \Delta A_{i j} \\
+      &=\iint_{D} x^{2} \rho(x, y) d A
+      \end{aligned}
+      $$
+      We divide $D$ into small rectangles, approximate the moment of inertia of each subrectangle about the $x$- and $y$-axis, respectively, and take the limits of these sums as the subrectangles become smaller. The results are the moment of inertia of the lamina about the $x$- and $y$-axes.
+
+      Hypotheses:
+
+      - $\rho$ is continuous on $D.$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589659025824
+  fields:
+    Front: |
+      SVEC-12.04.10 Synthesis:
+      #### Multiple Integrals
+      ##### Applications of Double Integrals
+      ###### Moments of Inertia
+      State the **lamina inertial moment about the origin** and give another common name. List its hypotheses.
+    Back: |
+      Suppose a lamina with continuous density function $\rho(x, y)$ occupies a region $D.$ Its **moment of inertia about the origin**, also called the **polar moment of inertia**, is
+      $$
+      \begin{aligned}
+      I_{0} &=\lim _{\max \Delta x_{i}, \Delta y_{j} \rightarrow 0} \sum_{i=1}^{m} \sum_{j=1}^{n}\left[\left(x_{i j}^{*}\right)^{2}+\left(y_{i j}^{*}\right)^{2}\right] \rho\left(x_{i j}^{*}, y_{i j}^{*}\right) \Delta A_{i j} \\
+      &=\iint_{D}\left(x^{2}+y^{2}\right) \rho(x, y) d A
+      \end{aligned}
+      $$ Note that $I_{0}=I_{x}+I_{y}.$
+
+      Hypotheses:
+
+      - $\rho$ is continuous on $D.$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589659463573
+  fields:
+    Front: |
+      SVEC-12.04.11 Synthesis:
+      #### Multiple Integrals
+      ##### Applications of Double Integrals
+      ###### Moments of Inertia
+      (Memorize after completing exercise CET-15.4-4.) State the **moments of inertia of a homogeneous disk**, as well as its **mass**.
+    Back: |
+      The **moments of inertia $I_{x}, I_{y},$ and $I_{0}$ of a homogeneous disk** $D$ with density $\rho(x, y)=\rho,$ center the origin, and radius $a$ are given by
+      $$
+      I_{x}=I_{y}=\frac{I_{0}}{2}=\frac{\pi \rho a^{4}}{4}
+      $$ The mass of the disk is
+      $$
+      m=\operatorname{density} \times \operatorname{area}=\rho\left(\pi a^{2}\right)
+      $$ so the moment of inertia of the disk about the origin (like a wheel about its axle) can be written as
+      $$
+      I_{0}=\frac{\pi \rho a^{4}}{2}=\frac{1}{2}\left(\rho \pi a^{2}\right) a^{2}=\frac{1}{2} m a^{2}
+      $$ Thus if we increase the mass or the radius of the disk, we thereby increase the moment of inertia.
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589659728974
+  fields:
+    Front: |
+      SVEC-12.04.12 Synthesis:
+      #### Multiple Integrals
+      ##### Applications of Double Integrals
+      ###### Moments of Inertia
+      State the **significance of the inertial moment**.
+    Back: |
+      In general, the moment of inertia plays much the same role in rotational motion that mass plays in linear motion. The moment of inertia of a wheel is what makes it difficult to start or stop the rotation of the wheel, just as the mass of a car is what makes it difficult to start or stop the motion of the car.
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589660217597
+  fields:
+    Front: |
+      SVEC-12.04.13 Synthesis:
+      #### Multiple Integrals
+      ##### Applications of Double Integrals
+      ###### Moments and Centers of Mass
+      State the **radius of gyration of a lamina about an axis**, its significance, and its analogy with the center of mass.
+    Back: |
+      The **radius of gyration of a lamina about an axis** is the number $R$ such that
+      $$
+      m R^{2}=I
+      $$ where $m$ is the mass of the lamina and $I$ is the moment of inertia about the given axis. In other words, if the mass of the lamina were concentrated at a distance $R$ from the axis, then the moment of inertia of this "point mass" would be the same as the moment of inertia of the lamina.
+
+      In particular, the radius of gyration $\bar{y}$ with respect to the $x$ -axis and the radius of gyration $\bar{x}$ with respect to the $y$-axis are given by the equations
+      $$
+      m \bar{\bar{y}}^{2}=I_{x} \quad m \bar{\bar{x}}^{2}=I_{y}
+      $$ Thus $(\bar{x}, \bar{y})$ is the point at which the mass of the lamina can be concentrated without changing the moments of inertia with respect to the coordinate axes.
+
+      Note the analogy with the center of mass:
+
+      - Moment $M_x$ to second moment $I_x$
+      - Moment $M_y$ to second moment $I_y$
+      - Center of mass $(\bar{x}, \bar{y})$ to center of gyration $(\bar{\bar{x}}, \bar{\bar{y}})$
+        - $m\bar{y} = M_x$ to $m\bar{\bar{y}} = I_x$
+        - $m\bar{x} = M_y$ to $m\bar{\bar{x}} = I_y$
+    Annotations: ''
+  tags:
+  - Theorem
+  - Editing

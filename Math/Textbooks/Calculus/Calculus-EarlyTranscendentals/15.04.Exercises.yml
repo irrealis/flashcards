@@ -1,0 +1,417 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-15-MultipleIntegrals
+  - CET-15.04-ApplicationsOfDoubleIntegrals
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589661246797
+  fields:
+    Front: |
+      CET-15.04-01 Exercise:
+      #### Multiple Integrals
+      ##### Applications of Double Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589661247059
+  fields:
+    Front: |
+      CET-15.04-02 Exercise:
+      #### Multiple Integrals
+      ##### Applications of Double Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589661247325
+  fields:
+    Front: |
+      CET-15.04-03 Exercise:
+      #### Multiple Integrals
+      ##### Applications of Double Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589661247626
+  fields:
+    Front: |
+      CET-15.04-04 Exercise:
+      #### Multiple Integrals
+      ##### Applications of Double Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589661247901
+  fields:
+    Front: |
+      CET-15.04-05 Exercise:
+      #### Multiple Integrals
+      ##### Applications of Double Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589661248162
+  fields:
+    Front: |
+      CET-15.04-06 Exercise:
+      #### Multiple Integrals
+      ##### Applications of Double Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589661248427
+  fields:
+    Front: |
+      CET-15.04-07 Exercise:
+      #### Multiple Integrals
+      ##### Applications of Double Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589661248711
+  fields:
+    Front: |
+      CET-15.04-08 Exercise:
+      #### Multiple Integrals
+      ##### Applications of Double Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589661248998
+  fields:
+    Front: |
+      CET-15.04-09 Exercise:
+      #### Multiple Integrals
+      ##### Applications of Double Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589661249309
+  fields:
+    Front: |
+      CET-15.04-10 Exercise:
+      #### Multiple Integrals
+      ##### Applications of Double Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589661249576
+  fields:
+    Front: |
+      CET-15.04-11 Exercise:
+      #### Multiple Integrals
+      ##### Applications of Double Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589661249894
+  fields:
+    Front: |
+      CET-15.04-12 Exercise:
+      #### Multiple Integrals
+      ##### Applications of Double Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589661250160
+  fields:
+    Front: |
+      CET-15.04-13 Exercise:
+      #### Multiple Integrals
+      ##### Applications of Double Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589661250444
+  fields:
+    Front: |
+      CET-15.04-14 Exercise:
+      #### Multiple Integrals
+      ##### Applications of Double Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589661250709
+  fields:
+    Front: |
+      CET-15.04-15 Exercise:
+      #### Multiple Integrals
+      ##### Applications of Double Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589661250992
+  fields:
+    Front: |
+      CET-15.04-16 Exercise:
+      #### Multiple Integrals
+      ##### Applications of Double Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589661251259
+  fields:
+    Front: |
+      CET-15.04-17 Exercise:
+      #### Multiple Integrals
+      ##### Applications of Double Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589661251542
+  fields:
+    Front: |
+      CET-15.04-18 Exercise:
+      #### Multiple Integrals
+      ##### Applications of Double Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589661251797
+  fields:
+    Front: |
+      CET-15.04-19 Exercise:
+      #### Multiple Integrals
+      ##### Applications of Double Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589661252111
+  fields:
+    Front: |
+      CET-15.04-20 Exercise:
+      #### Multiple Integrals
+      ##### Applications of Double Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589661252377
+  fields:
+    Front: |
+      CET-15.04-21 Exercise:
+      #### Multiple Integrals
+      ##### Applications of Double Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589661252692
+  fields:
+    Front: |
+      CET-15.04-22 Exercise:
+      #### Multiple Integrals
+      ##### Applications of Double Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589661252993
+  fields:
+    Front: |
+      CET-15.04-23 Exercise:
+      #### Multiple Integrals
+      ##### Applications of Double Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589661253276
+  fields:
+    Front: |
+      CET-15.04-24 Exercise:
+      #### Multiple Integrals
+      ##### Applications of Double Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589661253560
+  fields:
+    Front: |
+      CET-15.04-25 Exercise:
+      #### Multiple Integrals
+      ##### Applications of Double Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589661253864
+  fields:
+    Front: |
+      CET-15.04-26 Exercise:
+      #### Multiple Integrals
+      ##### Applications of Double Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589661254159
+  fields:
+    Front: |
+      CET-15.04-27 Exercise:
+      #### Multiple Integrals
+      ##### Applications of Double Integrals
+      Note: not covered in SVEC textbook.
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589661254459
+  fields:
+    Front: |
+      CET-15.04-28 Exercise:
+      #### Multiple Integrals
+      ##### Applications of Double Integrals
+      Note: not covered in SVEC textbook.
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589661254760
+  fields:
+    Front: |
+      CET-15.04-29 Exercise:
+      #### Multiple Integrals
+      ##### Applications of Double Integrals
+      Note: not covered in SVEC textbook.
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589661255027
+  fields:
+    Front: |
+      CET-15.04-30 Exercise:
+      #### Multiple Integrals
+      ##### Applications of Double Integrals
+      Note: not covered in SVEC textbook.
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589661255310
+  fields:
+    Front: |
+      CET-15.04-31 Exercise:
+      #### Multiple Integrals
+      ##### Applications of Double Integrals
+      Note: not covered in SVEC textbook.
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589661255592
+  fields:
+    Front: |
+      CET-15.04-32 Exercise:
+      #### Multiple Integrals
+      ##### Applications of Double Integrals
+      Note: not covered in SVEC textbook.
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589661255849
+  fields:
+    Front: |
+      CET-15.04-33 Exercise:
+      #### Multiple Integrals
+      ##### Applications of Double Integrals
+      Note: not covered in SVEC textbook.
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

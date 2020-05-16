@@ -1,0 +1,113 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-15-MultipleIntegrals
+  - CET-15.04-ApplicationsOfDoubleIntegrals
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589661244473
+  fields:
+    Front: |
+      CET-15.04-1 Example:
+      #### Multiple Integrals
+      ##### Applications of Double Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589661244759
+  fields:
+    Front: |
+      CET-15.04-2 Example:
+      #### Multiple Integrals
+      ##### Applications of Double Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589661245025
+  fields:
+    Front: |
+      CET-15.04-3 Example:
+      #### Multiple Integrals
+      ##### Applications of Double Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589661245309
+  fields:
+    Front: |
+      CET-15.04-4 Example:
+      #### Multiple Integrals
+      ##### Applications of Double Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589661245594
+  fields:
+    Front: |
+      CET-15.04-5 Example:
+      #### Multiple Integrals
+      ##### Applications of Double Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589661245876
+  fields:
+    Front: |
+      CET-15.04-6 Example:
+      #### Multiple Integrals
+      ##### Applications of Double Integrals
+      Note: not covered in SVEC textbook.
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589661246177
+  fields:
+    Front: |
+      CET-15.04-7 Example:
+      #### Multiple Integrals
+      ##### Applications of Double Integrals
+      Note: not covered in SVEC textbook.
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589661246426
+  fields:
+    Front: |
+      CET-15.04-8 Example:
+      #### Multiple Integrals
+      ##### Applications of Double Integrals
+      Note: not covered in SVEC textbook.
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
