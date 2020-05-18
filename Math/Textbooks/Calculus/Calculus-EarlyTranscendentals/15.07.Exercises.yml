@@ -1,0 +1,386 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-15-MultipleIntegrals
+  - CET-15.07-TripleIntegralsInCylindricalCoordinates
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589767648422
+  fields:
+    Front: |
+      CET-15.07-01 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Cylindrical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589767648711
+  fields:
+    Front: |
+      CET-15.07-02 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Cylindrical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589767649009
+  fields:
+    Front: |
+      CET-15.07-03 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Cylindrical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589767649278
+  fields:
+    Front: |
+      CET-15.07-04 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Cylindrical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589767649578
+  fields:
+    Front: |
+      CET-15.07-05 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Cylindrical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589767649860
+  fields:
+    Front: |
+      CET-15.07-06 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Cylindrical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589767650129
+  fields:
+    Front: |
+      CET-15.07-07 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Cylindrical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589767650427
+  fields:
+    Front: |
+      CET-15.07-08 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Cylindrical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589767650743
+  fields:
+    Front: |
+      CET-15.07-09 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Cylindrical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589767651028
+  fields:
+    Front: |
+      CET-15.07-10 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Cylindrical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589767651310
+  fields:
+    Front: |
+      CET-15.07-11 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Cylindrical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589767651612
+  fields:
+    Front: |
+      CET-15.07-12 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Cylindrical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589767651949
+  fields:
+    Front: |
+      CET-15.07-13 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Cylindrical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589767652277
+  fields:
+    Front: |
+      CET-15.07-14 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Cylindrical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589767652594
+  fields:
+    Front: |
+      CET-15.07-15 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Cylindrical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589767652870
+  fields:
+    Front: |
+      CET-15.07-16 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Cylindrical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589767653160
+  fields:
+    Front: |
+      CET-15.07-17 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Cylindrical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589767653461
+  fields:
+    Front: |
+      CET-15.07-18 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Cylindrical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589767653762
+  fields:
+    Front: |
+      CET-15.07-19 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Cylindrical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589767654061
+  fields:
+    Front: |
+      CET-15.07-20 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Cylindrical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589767654360
+  fields:
+    Front: |
+      CET-15.07-21 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Cylindrical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589767654695
+  fields:
+    Front: |
+      CET-15.07-22 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Cylindrical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589767654976
+  fields:
+    Front: |
+      CET-15.07-23 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Cylindrical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589767655260
+  fields:
+    Front: |
+      CET-15.07-24 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Cylindrical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589767655564
+  fields:
+    Front: |
+      CET-15.07-25 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Cylindrical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589767655845
+  fields:
+    Front: |
+      CET-15.07-26 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Cylindrical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589767656131
+  fields:
+    Front: |
+      CET-15.07-27 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Cylindrical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589767656460
+  fields:
+    Front: |
+      CET-15.07-28 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Cylindrical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589767656762
+  fields:
+    Front: |
+      CET-15.07-29 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Cylindrical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589767657026
+  fields:
+    Front: |
+      CET-15.07-30 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Cylindrical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589767657327
+  fields:
+    Front: |
+      CET-15.07-31 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Cylindrical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

@@ -1,0 +1,62 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-15-MultipleIntegrals
+  - CET-15.07-TripleIntegralsInCylindricalCoordinates
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589767646973
+  fields:
+    Front: |
+      CET-15.07-1 Example:
+      #### Multiple Integrals
+      ##### Triple Integrals in Cylindrical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589767647493
+  fields:
+    Front: |
+      CET-15.07-2 Example:
+      #### Multiple Integrals
+      ##### Triple Integrals in Cylindrical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589767647792
+  fields:
+    Front: |
+      CET-15.07-3 Example:
+      #### Multiple Integrals
+      ##### Triple Integrals in Cylindrical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589767648059
+  fields:
+    Front: |
+      CET-15.07-4 Example:
+      #### Multiple Integrals
+      ##### Triple Integrals in Cylindrical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

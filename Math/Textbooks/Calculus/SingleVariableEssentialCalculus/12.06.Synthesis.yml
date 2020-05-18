@@ -1,0 +1,127 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theory
+  - SingleVariableEssentialCalculus
+  - SVEC-12-MultipleIntegrals
+  - SVEC-12.06-TripleIntegralsInCylindricalCoordinates
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589765711669
+  fields:
+    Front: |
+      SVEC-12.06.01 Synthesis:
+      #### Multiple Integrals
+      ##### Triple Integrals in Cylindrical Coordinates
+      List the cylindrical triple-integral definitions and theorems.
+    Back: |
+      ###### Cylindrical Coordinates
+      Rev: **polar coordinate IDs**
+      Def: **cylindrical coordinates system**
+      Thm: _unnamed_ **formulae to convert between rectangular and cylindrical coordinates**
+      ###### Evaluating Triple Integrals with Cylindrical Coordinates
+      Thm: **formula for triple integration in cylindrical coordinates**
+    Annotations: ''
+  tags:
+  - Definitions
+  - Theorems
+- id: 1589765905198
+  media:
+  - path: ¢{file_dir}/images/SVEC-12.06.02.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-12.06.02 Synthesis:
+      #### Multiple Integrals
+      ##### Triple Integrals in Cylindrical Coordinates
+      ###### Cylindrical Coordinates
+      Review the **polar coordinate identities**. List their hypotheses.
+    Back: |
+      The following figure enables us to recall the connection between polar and Cartesian coordinates. If the point $P$ has Cartesian coordinates $(x, y)$ and polar coordinates $(r, \theta),$ then, from the figure,
+      $$
+      \begin{aligned}
+      x &=r \cos \theta & & y=r \sin \theta \\
+      r^{2} &=x^{2}+y^{2} & & \tan \theta=\frac{y}{x}
+      \end{aligned}
+      $$ The first pair of identities are useful for conversion from polar to rectangular coordinates. The latter pair are useful for conversion in the other direction, from rectangular to polar coordinates.
+      <p align="center">
+      ![](SVEC-12.06.02.Sy.1.jpg)
+      </p>
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589766235993
+  media:
+  - path: ¢{file_dir}/images/SVEC-12.06.03.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-12.06.03 Synthesis:
+      #### Multiple Integrals
+      ##### Triple Integrals in Cylindrical Coordinates
+      ###### Cylindrical Coordinates
+      Define **cylindrical coordinate system**.
+    Back: |
+      In the **cylindrical coordinate system**, a point $P$ in three-dimensional space is represented by the ordered triple $(r, \theta, z),$ where $r$ and $\theta$ are polar coordinates of the projection of $P$ onto the $x y$ -plane and $z$ is the directed distance from the $x y$ -plane to $P$. (See figure below.)
+      <p align="center">
+      ![](SVEC-12.06.03.Sy.1.jpg)
+      _The cylindrical coordinates of a point._
+      </p>
+      To convert from cylindrical to rectangular coordinates, we use the equations
+      $$
+      x=r \cos \theta \quad y=r \sin \theta \quad z=z
+      $$ whereas to convert from rectangular to cylindrical coordinates, we use
+      $$
+      r^{2}=x^{2}+y^{2} \quad \tan \theta=\frac{y}{x} \quad z=z
+      $$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589767253024
+  media:
+  - path: ¢{file_dir}/images/SVEC-12.06.04.Sy.1.jpg
+  - path: ¢{file_dir}/images/SVEC-12.06.04.Sy.2.jpg
+  fields:
+    Front: |
+      SVEC-12.06.04 Synthesis:
+      #### Multiple Integrals
+      ##### Triple Integrals in Cylindrical Coordinates
+      ###### Evaluating Triple Integrals with Cylindrical Coordinates
+      State the **formula for triple integration in cylindrical coordinates**. List its hypotheses.
+    Back: |
+      Suppose that $E$ is a type 1 region whose projection $D$ onto the $x y$ -plane is conveniently described in polar coordinates (see figure below).
+      <p align="center">
+      ![](SVEC-12.06.04.Sy.1.jpg)
+      </p>
+      In particular, suppose that $f$ is continuous and
+      $$
+      E=\left\{(x, y, z) |(x, y) \in D, u_{1}(x, y) \leqslant z \leqslant u_{2}(x, y)\right\}
+      $$ where $D$ is given in polar coordinates by
+      $$
+      D=\left\{(r, \theta) | \alpha \leqslant \theta \leqslant \beta, h_{1}(\theta) \leqslant r \leqslant h_{2}(\theta)\right\}
+      $$ Then
+      $$
+      \iiint_{E} f(x, y, z) d V=\int_{\alpha}^{\beta} \int_{h_{1}(\theta)}^{h_{2}(\theta)} \int_{u_{1}(r \cos \theta, r \sin \theta)}^{u_{2}(r \cos \theta, r \sin \theta)} f(r \cos \theta, r \sin \theta, z) r \, d z \, d r \, d \theta
+      $$ This says that we convert a triple integral from rectangular to cylindrical coordinates by writing $x=r \cos \theta, y=r \sin \theta,$ leaving $z$ as it is, using the appropriate limits of integration for $z, r,$ and $\theta,$ and replacing $d V$ by $r d z d r d \theta .$ (The figure below shows how to remember this.)
+      <p align="center">
+      ![](SVEC-12.06.04.Sy.1.jpg)
+      _Volume element in cylindrical coordinates: $d V=r \, dz \, dr \, d\theta.$_
+      </p>
+      It is worthwhile to use this formula when $E$ is a solid region easily described in cylindrical coordinates, and especially when the function $f(x, y, z)$ involves the expression $x^{2}+y^{2}$
+
+      Hypotheses:
+
+      - $E$ is a type 1 region:
+        $$
+        E=\left\{(x, y, z) |(x, y) \in D, u_{1}(x, y) \leqslant z \leqslant u_{2}(x, y)\right\}
+        $$ where the projection $D$ of $E$ onto the $x y$-plane is conveniently described in polar coordinates by
+        $$
+        D=\left\{(r, \theta) | \alpha \leqslant \theta \leqslant \beta, h_{1}(\theta) \leqslant r \leqslant h_{2}(\theta)\right\}
+        $$
+      - $f$ is continuous on $E.$
+    Annotations: ''
+  tags:
+  - Theorem

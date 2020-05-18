@@ -1,0 +1,602 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-15-MultipleIntegrals
+  - CET-15.08-TripleIntegralsInSphericalCoordinates
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589771115699
+  fields:
+    Front: |
+      CET-15.08-01 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589771116002
+  fields:
+    Front: |
+      CET-15.08-02 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589771116301
+  fields:
+    Front: |
+      CET-15.08-03 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589771116573
+  fields:
+    Front: |
+      CET-15.08-04 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589771116904
+  fields:
+    Front: |
+      CET-15.08-05 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589771117203
+  fields:
+    Front: |
+      CET-15.08-06 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589771117535
+  fields:
+    Front: |
+      CET-15.08-07 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589771117834
+  fields:
+    Front: |
+      CET-15.08-08 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589771118102
+  fields:
+    Front: |
+      CET-15.08-09 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589771118384
+  fields:
+    Front: |
+      CET-15.08-10 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589771118687
+  fields:
+    Front: |
+      CET-15.08-11 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589771118970
+  fields:
+    Front: |
+      CET-15.08-12 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589771119251
+  fields:
+    Front: |
+      CET-15.08-13 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589771119572
+  fields:
+    Front: |
+      CET-15.08-14 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589771119856
+  fields:
+    Front: |
+      CET-15.08-15 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589771120170
+  fields:
+    Front: |
+      CET-15.08-16 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589771120468
+  fields:
+    Front: |
+      CET-15.08-17 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589771120739
+  fields:
+    Front: |
+      CET-15.08-18 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589771121085
+  fields:
+    Front: |
+      CET-15.08-19 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589771121352
+  fields:
+    Front: |
+      CET-15.08-20 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589771121669
+  fields:
+    Front: |
+      CET-15.08-21 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589771121985
+  fields:
+    Front: |
+      CET-15.08-22 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589771122276
+  fields:
+    Front: |
+      CET-15.08-23 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589771122568
+  fields:
+    Front: |
+      CET-15.08-24 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589771122869
+  fields:
+    Front: |
+      CET-15.08-25 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589771123140
+  fields:
+    Front: |
+      CET-15.08-26 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589771123445
+  fields:
+    Front: |
+      CET-15.08-27 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589771123743
+  fields:
+    Front: |
+      CET-15.08-28 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589771124022
+  fields:
+    Front: |
+      CET-15.08-29 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589771124319
+  fields:
+    Front: |
+      CET-15.08-30 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589771124635
+  fields:
+    Front: |
+      CET-15.08-31 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589771124918
+  fields:
+    Front: |
+      CET-15.08-32 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589771125186
+  fields:
+    Front: |
+      CET-15.08-33 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589771125521
+  fields:
+    Front: |
+      CET-15.08-34 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589771125801
+  fields:
+    Front: |
+      CET-15.08-35 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589771126088
+  fields:
+    Front: |
+      CET-15.08-36 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589771126387
+  fields:
+    Front: |
+      CET-15.08-37 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589771126668
+  fields:
+    Front: |
+      CET-15.08-38 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589771127002
+  fields:
+    Front: |
+      CET-15.08-39 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589771127272
+  fields:
+    Front: |
+      CET-15.08-40 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589771127588
+  fields:
+    Front: |
+      CET-15.08-41 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589771127901
+  fields:
+    Front: |
+      CET-15.08-42 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589771128218
+  fields:
+    Front: |
+      CET-15.08-43 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589771128501
+  fields:
+    Front: |
+      CET-15.08-44 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589771128785
+  fields:
+    Front: |
+      CET-15.08-45 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589771129073
+  fields:
+    Front: |
+      CET-15.08-46 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589771129385
+  fields:
+    Front: |
+      CET-15.08-47 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589771129675
+  fields:
+    Front: |
+      CET-15.08-48 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589771129985
+  fields:
+    Front: |
+      CET-15.08-49 Exercise:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

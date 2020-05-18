@@ -1,0 +1,199 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theory
+  - SingleVariableEssentialCalculus
+  - SVEC-12-MultipleIntegrals
+  - SVEC-12.07-TripleIntegralsInSphericalCoordinates
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589765711669
+  fields:
+    Front: |
+      SVEC-12.07.01 Synthesis:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      List the cylindrical triple-integral definitions and theorems.
+    Back: |
+      ###### Spherical Coordinates
+      Def: **spherical coordinates**
+      Thm: _unnamed_ **formulae to convert between rectangular and spherical coordinates**
+      ###### Evaluating Triple Integrals with Spherical Coordinates
+      Def: **spherical wedge**
+      Thm: _unnamed_ **Riemann sum for triple integration in cylindrical coordinates**
+      Thm: **formula for triple integration in cylindrical coordinates**
+    Annotations: ''
+  tags:
+  - Definitions
+  - Theorems
+- id: 1589768726099
+  media:
+  - path: ¢{file_dir}/images/SVEC-12.07.02.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-12.07.02 Synthesis:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      ###### Spherical Coordinates
+      Define **spherical coordinates**.
+    Back: |
+      The **spherical coordinates** $(\rho, \theta, \phi)$ of a point $P$ in space are shown in in the following figure where $\rho=|O P|$ is the distance from the origin to $P, \theta$ is the same angle as in cylindrical coordinates, and $\phi$ is the angle between the positive $z$ -axis and the line segment $OP.$
+      <p align="center">
+      ![](SVEC-12.07.02.Sy.1.jpg)
+      _The spherical coordinates of a point._
+      </p>
+      Note that
+      $$
+      \rho \geqslant 0 \quad \text{and} \quad 0 \leqslant \phi \leqslant \pi
+      $$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589769029501
+  media:
+  - path: ¢{file_dir}/images/SVEC-12.07.03.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-12.07.03 Synthesis:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      ###### Spherical Coordinates
+      State the _unnamed_ **formulae to convert between rectangular and spherical coordinates**.
+    Back: |
+      The relationship between rectangular and spherical coordinates can be seen from the figure below.
+      <p align="center">
+      ![](SVEC-12.07.03.Sy.1.jpg)
+      </p>
+      From triangles $O P Q$ and $O P P^{\prime}$ we have
+      $$
+      z=\rho \cos \phi \quad r=\rho \sin \phi
+      $$ But $x=r \cos \theta$ and $y=r \sin \theta,$ so to convert from spherical to rectangular coordinates, we use the equations
+      $$
+      \begin{aligned}
+      x
+      &=\rho \sin \phi \cos \theta \\
+      y
+      &=\rho \sin \phi \sin \theta \\
+      z
+      &=\rho \cos \phi
+      \end{aligned}
+      $$ Also, the distance formula shows that
+      $$
+      \rho^{2}=x^{2}+y^{2}+z^{2}
+      $$ We use this equation in converting from rectangular to spherical coordinates.
+
+      _**WARNING:**_
+      There is not universal agreement on the notation for spherical coordinates. Most books on physics reverse the meanings of $\theta$ and $\phi$ and use $r$ in place of $\rho.$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589769616025
+  media:
+  - path: ¢{file_dir}/images/SVEC-12.07.04.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-12.07.04 Synthesis:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      Define **spherical wedge**.
+    Back: |
+      In the spherical coordinate system the counterpart of a rectangular box is a **spherical wedge**
+      $$
+      E=\{(\rho, \theta, \phi) | a \leqslant \rho \leqslant b, \alpha \leqslant \theta \leqslant \beta, c \leqslant \phi \leqslant d\}
+      $$ where $a \geqslant 0$ and $\beta-\alpha \leqslant 2 \pi,$ and $d-c \leqslant 2 \pi .$ Although we defined triple integrals by dividing solids into small boxes, it can be shown that dividing a solid into small spherical wedges always gives the same result. So we divide $E$ into smaller spherical wedges $E_{i j k}$ by means of spheres $\rho=\rho_{i},$ half-planes $\theta=\theta_{j},$ and half-cones $\phi=\phi_{k} .$ The following figure shows that $E_{i j k}$ is approximately a rectangular box with dimensions $\Delta \rho_{i}$ $\rho_{i} \Delta \phi_{k}$ (arc of a circle with radius $\rho_{i} ,$ angle $\Delta \phi_{k}$), and $\rho_{i} \sin \phi_{k} \Delta \theta_{j}$ (arc of a circle with radius $\rho_{i} \sin \phi_{k},$ angle $\Delta \theta_{j}$ ).
+      <p align="center">
+      ![](SVEC-12.07.04.Sy.1.jpg)
+      </p>
+      So an approximation to the volume of $E_{i j k}$ is given by
+      $$
+      \Delta V_{i j k} \approx\left(\Delta \rho_{i}\right)\left(\rho_{i} \Delta \phi_{k}\right)\left(\rho_{i} \sin \phi_{k} \Delta \theta_{j}\right)=\rho_{i}^{2} \sin \phi_{k} \Delta \rho_{i} \Delta \theta_{j} \Delta \phi_{k}
+      $$ In fact, it can be shown, with the aid of the Mean Value Theorem, that the volume of $E_{i j k}$ is given exactly by
+      $$
+      \Delta V_{i j k}=\tilde{\rho}_{i}^{2} \sin \tilde{\phi}_{k} \Delta \rho_{i} \Delta \theta_{j} \Delta \phi_{k}
+      $$ where $\left(\tilde{\rho}_{i}, \tilde{\theta}_{j}, \tilde{\phi}_{k}\right)$ is some point in $E_{i j k} .$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589770236148
+  fields:
+    Front: |
+      SVEC-12.07.05 Synthesis:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      State the _unnamed_ **Riemann sum for triple integration in cylindrical coordinates**. List its hypotheses.
+    Back: |
+      An approximation to the volume of the spherical wedge $E_{i j k}$ is given by
+      $$
+      \Delta V_{i j k} \approx\left(\Delta \rho_{i}\right)\left(\rho_{i} \Delta \phi_{k}\right)\left(\rho_{i} \sin \phi_{k} \Delta \theta_{j}\right)=\rho_{i}^{2} \sin \phi_{k} \Delta \rho_{i} \Delta \theta_{j} \Delta \phi_{k}
+      $$ It can be shown, with the aid of the Mean Value Theorem, that the volume of $E_{i j k}$ is given exactly by
+      $$
+      \Delta V_{i j k}=\tilde{\rho}_{i}^{2} \sin \tilde{\phi}_{k} \Delta \rho_{i} \Delta \theta_{j} \Delta \phi_{k}
+      $$ where $\left(\tilde{\rho}_{i}, \tilde{\theta}_{j}, \tilde{\phi}_{k}\right)$ is some point in $E_{i j k} .$ Let $\left(x_{i j k}^{*}, y_{i j k}^{*}, z_{i j k}^{*}\right)$ be the rectangular coordinates of this point. Then
+      $$
+      \begin{aligned}
+      &\iiint_{E} f(x, y, z) d V \\
+      &=\lim _{\max \Delta \rho_{r}, \lambda \theta_{r}, \Delta \phi_{z} \rightarrow 0} \sum_{i=1}^{l} \sum_{j=1}^{m} \sum_{k=1}^{n} f\left(x_{i j k}^{*}, y_{i j k}^{*}, z_{i j k}^{*}\right) \Delta V_{i j k} \\
+      &=\lim _{\max \Delta \rho_{p}, \Delta \theta_{s}, \Delta \phi_{k} \rightarrow 0} \sum_{i=1}^{l} \sum_{j=1}^{m} \sum_{k=1}^{n} F(\tilde{\rho}, \tilde{\theta}, \tilde{\phi}) \Delta \rho_{i} \Delta \theta_{j} \Delta \phi_{k}
+      \end{aligned}
+      $$ where
+      $$
+      F(\rho, \theta, \phi)=\rho^{2} \sin \phi f(\rho \sin \phi \cos \theta, \rho \sin \phi \sin \theta, \rho \cos \phi).
+      $$
+      Hypotheses:
+
+      - $E$ is the spherical wedge
+        $$
+        E=\{(\rho, \theta, \phi) | a \leqslant \rho \leqslant b, \alpha \leqslant \theta \leqslant \beta, c \leqslant \phi \leqslant d\}
+        $$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589770725749
+  media:
+  - path: ¢{file_dir}/images/SVEC-12.07.06.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-12.07.06 Synthesis:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      State the **formula for triple integration in cylindrical coordinates**. List its hypotheses.
+    Back: |
+      $$
+      \begin{aligned}
+      &\iiint_{E} f(x, y, z) d V \\
+      &=\int_{c}^{d} \int_{\alpha}^{\beta} \int_{a}^{b} f(\rho \sin \phi \cos \theta, \rho \sin \phi \sin \theta, \rho \cos \phi) \rho^{2} \sin \phi \, d\rho \, d\theta \, d\phi
+      \end{aligned}
+      $$ where $E$ is a spherical wedge given by
+      $$
+      E=\{(\rho, \theta, \phi) | a \leqslant \rho \leqslant b, \alpha \leqslant \theta \leqslant \beta, c \leqslant \phi \leqslant d\}
+      $$ This says that we convert a triple integral from rectangular coordinates to spherical coordinates by writing
+      $$
+      \begin{aligned}
+      x&=\rho \sin \phi \cos \theta \\
+      y&=\rho \sin \phi \sin \theta \\
+      z&=\rho \cos \phi
+      \end{aligned}
+      $$ using the appropriate limits of integration, and replacing $d V$ by $\rho^{2} \sin \phi \, d\rho \, d\theta \, d\phi.$ This is illustrated below.
+      <p align="center">
+      ![](SVEC-12.07.06.Sy.1.jpg)
+      _Volume element in spherical coordinates: $d V=\rho^{2} \sin \phi \, d\rho \, d\theta \, d\phi.$_
+      </p>
+      This formula can be extended to include more general spherical regions such as
+      $$
+      E=\left\{(\rho, \theta, \phi) | \alpha \leqslant \theta \leqslant \beta, c \leqslant \phi \leqslant d, g_{1}(\theta, \phi) \leqslant \rho \leqslant g_{2}(\theta, \phi)\right\}
+      $$ In this case the formula is the same except that the limits of integration for $\rho$ are $g_{1}(\theta, \phi)$ and $g_{2}(\theta, \phi).$
+
+      Usually, spherical coordinates are used in triple integrals when surfaces such as cones and spheres form the boundary of the region of integration.
+
+      Hypotheses:
+
+      - $E=\left\{(\rho, \theta, \phi) | \alpha \leqslant \theta \leqslant \beta, c \leqslant \phi \leqslant d, g_{1}(\theta, \phi) \leqslant \rho \leqslant g_{2}(\theta, \phi)\right\}.$
+      - $f$ is continuous on $E.$
+    Annotations: ''
+  tags:
+  - Theorem

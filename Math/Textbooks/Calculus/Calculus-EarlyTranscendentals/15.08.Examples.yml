@@ -1,0 +1,62 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-15-MultipleIntegrals
+  - CET-15.08-TripleIntegralsInSphericalCoordinates
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589771114422
+  fields:
+    Front: |
+      CET-15.08-1 Example:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589771114753
+  fields:
+    Front: |
+      CET-15.08-2 Example:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589771115044
+  fields:
+    Front: |
+      CET-15.08-3 Example:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589771115317
+  fields:
+    Front: |
+      CET-15.08-4 Example:
+      #### Multiple Integrals
+      ##### Triple Integrals in Spherical Coordinates
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
