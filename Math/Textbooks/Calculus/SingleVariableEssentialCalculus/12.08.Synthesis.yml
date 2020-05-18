@@ -1,0 +1,177 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theory
+  - SingleVariableEssentialCalculus
+  - SVEC-12-MultipleIntegrals
+  - SVEC-12.08-ChangeOfVariablesInMultipleIntegrals
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589840617143
+  fields:
+    Front: |
+      SVEC-12.08.01 Synthesis:
+      #### Multiple Integrals
+      ##### Change of Variables in Multiple Integrals
+      List the multiple-integral variable change definitions and theorems.
+    Back: |
+      Def: **transformation**, **$C^1$ transformation**, **point image**, **set image**, **one-to-one**, **inverse transformation**
+      Def: **Jacobian** in two dimensions
+      Thm: **Change of Variables in a Double Integral**
+      ###### Triple Integrals
+      Def: **Jacobian** in three dimensions
+      Thm: _unnamed_ **change of variables in a triple integral**
+    Annotations: ''
+  tags:
+  - Definitions
+  - Editing
+  - Theorems
+- id: 1589841398853
+  media:
+  - path: ¢{file_dir}/images/SVEC-12.08.02.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-12.08.02 Synthesis:
+      #### Multiple Integrals
+      ##### Change of Variables in Multiple Integrals
+      Define **transformation**, **$C^1$ transformation**, **point image**, **set image**, **one-to-one**, **inverse transformation**.
+    Back: |
+      In this context a **transformation** is a function $T$ that maps a subset $A$ of $X$ to another subset $B$ of $X$. (Note: this is not the usual definition of _transformation_.)
+
+      Here we consider a change of variables that is given by a transformation $T$ from the $u v$-plane to the $x y$-plane:
+      $$
+      T(u, v)=(x, y)
+      $$ where $x$ and $y$ are related to $u$ and $v$ by the equations
+      $$
+      x=g(u, v) \quad y=h(u, v)
+      $$ or, as we sometimes write,
+      $$
+      x=x(u, v) \quad y=y(u, v)
+      $$ or, as we sometimes write,
+      $$
+      x=x(u, v) \quad y=y(u, v)
+      $$ We usually assume that $T$ is a **$C^{1}$ transformation**, which means that $g$ and $h$ have continuous first-order partial derivatives.
+
+      If $T\left(u_{1}, v_{1}\right)=\left(x_{1}, y_{1}\right),$ then the point $\left(x_{1}, y_{1}\right)$ is called the **image** of the point $\left(u_{1}, v_{1}\right) .$ If no two points have the same image, $T$ is called **one-to-one**. The following figure shows the effect of a transformation $T$ on a region $S$ in the $u v$-plane. $T$ transforms $S$ into a region $R$ in the $x y$-plane called the **image** of $S,$ consisting of the images of all points in $S$
+      <p align="center">
+      ![](SVEC-12.08.02.Sy.1.jpg)
+      </p>
+      If $T$ is a one-to-one transformation, then it has an **inverse transformation** $T^{-1}$ from the $x y$-plane to the $u v$-plane and it may be possible to solve $u$ and $v$ in terms of $x$ and $y:$
+      $$
+      u=G(x, y) \quad v=H(x, y)
+      $$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589843024273
+  fields:
+    Front: |
+      SVEC-12.08.03 Synthesis:
+      #### Multiple Integrals
+      ##### Change of Variables in Multiple Integrals
+      Define **Jacobian** in two dimensions. List its hypotheses.
+    Back: |
+      The Jacobian of the transformation $T$ given by $x=g(u, v)$ and $y=h(u, v)$ is
+      $$
+      \frac{\partial(x, y)}{\partial(u, v)}=\left|\begin{array}{cc}\frac{\partial x}{\partial u} & \frac{\partial x}{\partial v} \\ \frac{\partial y}{\partial u} & \frac{\partial y}{\partial v}\end{array}\right|=\frac{\partial x}{\partial u} \frac{\partial y}{\partial v}-\frac{\partial x}{\partial v} \frac{\partial y}{\partial u}
+      $$
+
+      Hypotheses:
+
+      - $T$ is differentiable.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589843412945
+  fields:
+    Front: |
+      SVEC-12.08.04 Synthesis:
+      #### Multiple Integrals
+      ##### Change of Variables in Multiple Integrals
+      State the **Change of Variables in a Double Integral**. List its hypotheses.
+    Back: |
+      Suppose that $T$ is a $C^{1}$ transformation whose Jacobian is nonzero and that maps a region $S$ in the $u v$-plane onto a region $R$ in the $x y$-plane. Suppose that $f$ is continuous on $R$ and that $R$ and $S$ are type I or type II plane regions. Suppose also that $T$ is one-to-one, except perhaps on the boundary of $S .$ Then
+      $$
+      \iint_{R} f(x, y) d A=\iint_{S} f(x(u, v), y(u, v))\left|\frac{\partial(x, y)}{\partial(u, v)}\right| d u d v
+      $$
+
+      This says that we change from an integral in $x$ and $y$ to an integral in $u$ and $v$ by expressing $x$ and $y$ in terms of $u$ and $v$ and writing
+      $$
+      d A=\left|\frac{\partial(x, y)}{\partial(u, v)}\right| d u d v
+      $$
+
+      Hypotheses:
+
+      - $T$ maps $S$ in the $uv$-plane onto $R$ in the $xy$-plane.
+      - $T$ is one-to-one, except perhaps on the boundary of $S.$
+      - The Jacobian of $T$ is nonzero.
+      - $T$ is a $C^{1}$ transformation.
+      - $R$ and $S$ are type I or type II plane regions.
+      - $f$ is continuous on $R.$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589844123598
+  fields:
+    Front: |
+      SVEC-12.08.05 Synthesis:
+      #### Multiple Integrals
+      ##### Change of Variables in Multiple Integrals
+      ###### Triple Integrals
+      Define **Jacobian** in three dimensions. List its hypotheses.
+    Back: |
+      Let $T$ be a transformation that maps a region $S$ in $u v w$-space onto a region $R$ in $x y z$-space by means of the equations
+      $$
+      x=g(u, v, w) \quad y=h(u, v, w) \quad z=k(u, v, w)
+      $$ The Jacobian of $T$ is the following $3 \times 3$ determinant:
+      $$
+      \frac{\partial(x, y, z)}{\partial(u, v, w)}=\left|\begin{array}{lll}
+      \frac{\partial x}{\partial u} & \frac{\partial x}{\partial v} & \frac{\partial x}{\partial w} \\
+      \frac{\partial y}{\partial u} & \frac{\partial y}{\partial v} & \frac{\partial y}{\partial w} \\
+      \frac{\partial z}{\partial u} & \frac{\partial z}{\partial v} & \frac{\partial z}{\partial w}
+      \end{array}\right|
+      $$
+      Hypotheses:
+
+      - $T$ is differentiable.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589844436173
+  fields:
+    Front: |
+      SVEC-12.08.06 Synthesis:
+      #### Multiple Integrals
+      ##### Change of Variables in Multiple Integrals
+      ###### Triple Integrals
+      State the _unnamed_ **change of variables in a triple integral**. List its hypotheses.
+    Back: |
+      Suppose that $T$ is a $C^{1}$ transformation whose Jacobian is nonzero and that maps a region $S$ in the $uvw$-volume onto a region $R$ in the $xyz$-volume. Suppose that $f$ is continuous on $R$ and that $R$ and $S$ are type 1, 2, or 3 volume regions. Suppose also that $T$ is one-to-one, except perhaps on the boundary of $S .$ Then
+      $$
+      \begin{aligned}
+      & \iiint_{R} f(x, y, z) d V \\
+      & =\iiint_{S} f(x(u, v, w), y(u, v, w), z(u, v, w))\left|\frac{\partial(x, y, z)}{\partial(u, v, w)}\right| d u d v d w
+      \end{aligned}
+      $$
+
+      Hypotheses:
+
+      - $T$ maps $S$ in the $uvw$-volume onto $R$ in the $xyz$-volume.
+      - $T$ is one-to-one, except perhaps on the boundary of $S.$
+      - The Jacobian of $T$ is nonzero.
+      - $T$ is a $C^{1}$ transformation.
+      - $R$ and $S$ are type 1, 2, or 3 volume regions.
+      - $f$ is continuous on $R.$
+
+      Questions:
+
+      - Are the above hypotheses correct?
+    Annotations: ''
+  tags:
+  - Theorem
+  - Editing

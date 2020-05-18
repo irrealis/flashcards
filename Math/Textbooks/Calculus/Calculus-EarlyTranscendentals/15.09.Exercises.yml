@@ -1,0 +1,350 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-15-MultipleIntegrals
+  - CET-15.09-ChangeOfVariablesInMultipleIntegrals
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589844659125
+  fields:
+    Front: |
+      CET-15.09-01 Exercise:
+      #### Multiple Integrals
+      ##### Change of Variables in Multiple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589844659434
+  fields:
+    Front: |
+      CET-15.09-02 Exercise:
+      #### Multiple Integrals
+      ##### Change of Variables in Multiple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589844659745
+  fields:
+    Front: |
+      CET-15.09-03 Exercise:
+      #### Multiple Integrals
+      ##### Change of Variables in Multiple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589844660012
+  fields:
+    Front: |
+      CET-15.09-04 Exercise:
+      #### Multiple Integrals
+      ##### Change of Variables in Multiple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589844660328
+  fields:
+    Front: |
+      CET-15.09-05 Exercise:
+      #### Multiple Integrals
+      ##### Change of Variables in Multiple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589844660630
+  fields:
+    Front: |
+      CET-15.09-06 Exercise:
+      #### Multiple Integrals
+      ##### Change of Variables in Multiple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589844660929
+  fields:
+    Front: |
+      CET-15.09-07 Exercise:
+      #### Multiple Integrals
+      ##### Change of Variables in Multiple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589844661196
+  fields:
+    Front: |
+      CET-15.09-08 Exercise:
+      #### Multiple Integrals
+      ##### Change of Variables in Multiple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589844661512
+  fields:
+    Front: |
+      CET-15.09-09 Exercise:
+      #### Multiple Integrals
+      ##### Change of Variables in Multiple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589844661845
+  fields:
+    Front: |
+      CET-15.09-10 Exercise:
+      #### Multiple Integrals
+      ##### Change of Variables in Multiple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589844662133
+  fields:
+    Front: |
+      CET-15.09-11 Exercise:
+      #### Multiple Integrals
+      ##### Change of Variables in Multiple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589844662413
+  fields:
+    Front: |
+      CET-15.09-12 Exercise:
+      #### Multiple Integrals
+      ##### Change of Variables in Multiple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589844662728
+  fields:
+    Front: |
+      CET-15.09-13 Exercise:
+      #### Multiple Integrals
+      ##### Change of Variables in Multiple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589844663031
+  fields:
+    Front: |
+      CET-15.09-14 Exercise:
+      #### Multiple Integrals
+      ##### Change of Variables in Multiple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589844663319
+  fields:
+    Front: |
+      CET-15.09-15 Exercise:
+      #### Multiple Integrals
+      ##### Change of Variables in Multiple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589844663664
+  fields:
+    Front: |
+      CET-15.09-16 Exercise:
+      #### Multiple Integrals
+      ##### Change of Variables in Multiple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589844663947
+  fields:
+    Front: |
+      CET-15.09-17 Exercise:
+      #### Multiple Integrals
+      ##### Change of Variables in Multiple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589844664245
+  fields:
+    Front: |
+      CET-15.09-18 Exercise:
+      #### Multiple Integrals
+      ##### Change of Variables in Multiple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589844664529
+  fields:
+    Front: |
+      CET-15.09-19 Exercise:
+      #### Multiple Integrals
+      ##### Change of Variables in Multiple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589844664845
+  fields:
+    Front: |
+      CET-15.09-20 Exercise:
+      #### Multiple Integrals
+      ##### Change of Variables in Multiple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589844665179
+  fields:
+    Front: |
+      CET-15.09-21 Exercise:
+      #### Multiple Integrals
+      ##### Change of Variables in Multiple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589844665448
+  fields:
+    Front: |
+      CET-15.09-22 Exercise:
+      #### Multiple Integrals
+      ##### Change of Variables in Multiple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589844665752
+  fields:
+    Front: |
+      CET-15.09-23 Exercise:
+      #### Multiple Integrals
+      ##### Change of Variables in Multiple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589844666046
+  fields:
+    Front: |
+      CET-15.09-24 Exercise:
+      #### Multiple Integrals
+      ##### Change of Variables in Multiple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589844666345
+  fields:
+    Front: |
+      CET-15.09-25 Exercise:
+      #### Multiple Integrals
+      ##### Change of Variables in Multiple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589844666628
+  fields:
+    Front: |
+      CET-15.09-26 Exercise:
+      #### Multiple Integrals
+      ##### Change of Variables in Multiple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589844666930
+  fields:
+    Front: |
+      CET-15.09-27 Exercise:
+      #### Multiple Integrals
+      ##### Change of Variables in Multiple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589844667246
+  fields:
+    Front: |
+      CET-15.09-28 Exercise:
+      #### Multiple Integrals
+      ##### Change of Variables in Multiple Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
