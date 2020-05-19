@@ -1,0 +1,571 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theory
+  - SingleVariableEssentialCalculus
+  - SVEC-13-VectorCalculus
+  - SVEC-13.02-LineIntegrals
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589915187098
+  fields:
+    Front: |
+      SVEC-13.02.01 Synthesis:
+      #### Vector Calculus
+      ##### Line Integrals
+      List the line-integral definitions and theorems.
+    Back: |
+      ###### Line Integrals in the Plane
+      Def: **line integral of $f$ along $C$** and give an alternate name
+      Thm: _unnamed_ **line integral evaluation theorem**
+      Thm: _unnamed_ **line integral differential mnemonic**
+      Thm: _unnamed_ **relationship between line integral and parameterization**
+      Thm: _unnamed_ **interpretation of line integral as area**
+      Def: **piecewise-smooth curve**
+      Def: **line integral along a piecewise-smooth curve**
+      Thm: **mass of a wire**
+      Thm: **center of mass of a wire**
+      Def: **line integrals of $f$ along $C$ with respect to $x$ and $y$**
+      Thm: _unnamed_ **line integral evaluation theorem with respect to $x$ and $y$**
+      Def: **customary notation for combined line integrals with respect to $x$ and $y$**
+      Thm: _unnamed_ **relationship between line integral and path between endpoints**
+      Def: **orientation**
+      Thm: _unnamed_ **conditions under which line integral value changes with curve orientation**
+      ###### Line Integrals in Space
+      Def: **line integral of $f$ along $C$** in space
+      Thm: _unnamed_ **line integral evaluation theorem** in space
+      Thm: _unnamed_ **line integral evaluation theorem** in vector notation
+      Thm: _unnamed_ **line integral of $f(x,y,z)=1$** in vector notation
+      Def: **line integrals of $f$ along $C$ with respect to $x,$ $y,$ and $z$**
+      Def: **customary notation for combined line integrals with respect to $x,$ $y,$ and $z$**
+
+      ###### Line Integrals of Vector Fields
+      Def: **line integral of a vector field**
+      Thm: _unnamed_ **relationship between vector-field line integrals along $C$ and its reverse orientation**
+      Thm: _unnamed_ **relationship between vector-field and scalar-field line integrals**
+    Annotations: ''
+  tags:
+  - Definitions
+  - Theorems
+- id: 1589915415000
+  fields:
+    Front: |
+      SVEC-13.02.02 Synthesis:
+      #### Vector Calculus
+      ##### Line Integrals
+      ###### Line Integrals in the Plane
+      Define **line integral of $f$ along $C$** and give an alternate name. List its hypotheses.
+    Back: |
+      If $f$ is defined on a smooth plane curve $C$ given by the parametric equations
+      $$
+      x=x(t) \quad y=y(t) \quad a \leqslant t \leqslant b
+      $$ then the **line integral of $f$ along $C$** is
+      $$
+      \int_{C} f(x, y) d s=\lim _{\max \Delta s_{i} \rightarrow 0} \sum_{i=1}^{n} f\left(x_{i}^{*}, y_{i}^{*}\right) \Delta s_{i}
+      $$ if this limit exists.
+
+      This integral is also known as the **line integral with respect to arc length**.
+
+      Hypotheses:
+
+      - $f$ is defined on a smooth plane curve $C$ given by the parametric equations
+        $$
+        x=x(t) \quad y=y(t) \quad a \leqslant t \leqslant b.
+        $$
+      - $\lim _{\max \Delta s_{i} \rightarrow 0} \sum_{i=1}^{n} f\left(x_{i}^{*}, y_{i}^{*}\right) \Delta s_{i}$ exists.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589915618400
+  fields:
+    Front: |
+      SVEC-13.02.03 Synthesis:
+      #### Vector Calculus
+      ##### Line Integrals
+      ###### Line Integrals in the Plane
+      State the _unnamed_ **line integral evaluation theorem**. List its hypotheses.
+    Back: |
+      If $f$ is defined on a smooth plane curve $C$ given by the parametric equations
+      $$
+      x=x(t) \quad y=y(t) \quad a \leqslant t \leqslant b
+      $$ and $f$ is continuous on $C$ then
+      $$
+      \lim _{\max \Delta s_{i} \rightarrow 0} \sum_{i=1}^{n} f\left(x_{i}^{*}, y_{i}^{*}\right) \Delta s_{i}
+      $$ exists and
+      $$
+      \int_{C} f(x, y) d s=\int_{a}^{b} f(x(t), y(t)) \sqrt{\left(\frac{d x}{d t}\right)^{2}+\left(\frac{d y}{d t}\right)^{2}} d t
+      $$
+
+      Hypotheses:
+
+      - $f$ is defined on a smooth plane curve $C$ given by the parametric equations
+        $$
+        x=x(t) \quad y=y(t) \quad a \leqslant t \leqslant b.
+        $$
+      - $f$ is continuous on $C.$
+
+      Questions for professor:
+
+      - We often use "continuous" as a shorthand for a broader set of conditions under which a function $f$ is integrable, including as "piecewise continuous", "continuous except for a finite number of jump discontinuoities", or "continuous except possibly at the boundaries". Other than "$f$ is integrable", is there a succinct summary of these broader conditions?
+    Annotations: ''
+  tags:
+  - Questions
+  - Theorem
+- id: 1589915829597
+  fields:
+    Front: |
+      SVEC-13.02.04 Synthesis:
+      #### Vector Calculus
+      ##### Line Integrals
+      ###### Line Integrals in the Plane
+      State the _unnamed_ **relationship between line integral and parameterization**. List its hypotheses.
+    Back: |
+      The value of the line integral
+      $$
+      \int_{C} f(x, y) d s=\int_{a}^{b} f(x(t), y(t)) \sqrt{\left(\frac{d x}{d t}\right)^{2}+\left(\frac{d y}{d t}\right)^{2}} d t
+      $$ does not depend on the parametrization of the curve, provided that the curve is traversed exactly once as $t$ increases from $a$ to $b.$
+
+      Hypotheses:
+
+      - $C$ is traversed exactly once as $t$ increases from $a$ to $b.$
+      - $f$ is continuous on $C.$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589916491748
+  media:
+  - path: ¢{file_dir}/images/SVEC-13.02.05.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-13.02.05 Synthesis:
+      #### Vector Calculus
+      ##### Line Integrals
+      ###### Line Integrals in the Plane
+      State the _unnamed_ **interpretation of line integral as area**. List its hypotheses.
+    Back: |
+      Just as for an ordinary single integral, we can interpret the line integral of a _positive_ function as an area. In fact, if $f(x, y) \geqslant 0,$ $\int_{C} f(x, y) d s$ represents the area of one side of the "fence" or "curtain" whose base is $C$ and whose height above the point $(x, y)$ is $f(x, y),$ as in the figure below.
+      <p align="center">
+      ![](SVEC-13.02.05.Sy.1.jpg)
+      </p>
+
+      Hypotheses:
+
+      - $f(x, y) \geqslant 0.$
+      - $f$ is continuous on $C.$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589917416275
+  media:
+  - path: ¢{file_dir}/images/SVEC-13.02.06.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-13.02.06 Synthesis:
+      #### Vector Calculus
+      ##### Line Integrals
+      ###### Line Integrals in the Plane
+      Define **piecewise-smooth curve**. List its hypotheses.
+    Back: |
+      A **piecewise-smooth curve**; $C$ is a union of a finite number of smooth curves $C_{1}, C_{2}, \ldots, C_{n},$ where, as illustrated below, the initial point of $C_{i+1}$ is the terminal point of $C_{i} .$
+      <p align="center">
+      ![](SVEC-13.02.06.Sy.1.jpg)
+      _A piecewise-smooth curve._
+      </p>
+      Hypotheses:
+
+      - Each $C_{i+1}$ is smooth.
+      - The initial point of each $C_{i+1}$ is the terminal point of $C_{i} .$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589920020898
+  fields:
+    Front: |
+      SVEC-13.02.07 Synthesis:
+      #### Vector Calculus
+      ##### Line Integrals
+      ###### Line Integrals in the Plane
+      Define **line integral along a piecewise-smooth curve**. List its hypotheses.
+    Back: |
+      We define the integral of $f$ along a piecewise curve $C$ as the sum of the integrals of $f$ along each of the smooth pieces of $C:$
+      $$
+      \int_{C} f(x, y) d s=\int_{C_{1}} f(x, y) d s+\int_{C_{2}} f(x, y) d s+\cdots+\int_{C_{n}} f(x, y) d s
+      $$
+
+      Hypotheses:
+
+      - $C$ is a piecewise-smooth curve.
+      - $f$ is continuous on each $C_i.$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589920711322
+  media:
+  - path: ¢{file_dir}/images/SVEC-13.02.08.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-13.02.08 Synthesis:
+      #### Vector Calculus
+      ##### Line Integrals
+      ###### Line Integrals in the Plane
+      State the **mass of a wire**. List its hypotheses.
+    Back: |
+      Suppose that $\rho(x, y)$ represents the linear density at a point $(x, y)$ of a thin wire shaped like a curve $C .$ Then the mass of the part of the wire from $P_{i-1}$ to $P_{i}$ in the following figure is approximately $\rho\left(x_{i}^{*}, y_{i}^{*}\right) \Delta s_{i}$ and so the total mass of the wire is approximately $\sum \rho\left(x_{i}^{*}, y_{i}^{*}\right) \Delta s_{i} .$ By taking more and more points on the curve, we obtain the **mass $m$ of the wire** as the limiting value of these approximations:
+      $$
+      m=\lim _{\max \Delta s_{i} \rightarrow 0} \sum_{i=1}^{n} \rho\left(x_{i}^{*}, y_{i}^{*}\right) \Delta s_{i}=\int_{C} \rho(x, y) d s
+      $$
+      <p align="center">
+      ![](SVEC-13.02.08.Sy.1.jpg)
+      </p>
+
+      Hypotheses:
+
+      - $\rho(x, y)$ is continuous on $C.$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589920958072
+  fields:
+    Front: |
+      SVEC-13.02.09 Synthesis:
+      #### Vector Calculus
+      ##### Line Integrals
+      ###### Line Integrals in the Plane
+      State the **center of mass of a wire**. List its hypotheses.
+    Back: |
+      Suppose that a thin wire is shaped like a curve $C .$ Then the **center of mass of the wire** with density function $\rho$ is located at the point $(\bar{x}, \bar{y}),$ where
+      $$
+      \bar{x}=\frac{1}{m} \int_{C} x \rho(x, y) d s \quad \bar{y}=\frac{1}{m} \int_{C} y \rho(x, y) d s
+      $$ and 
+      $$
+      m=\int_{C} \rho(x, y) d s.
+      $$
+
+      Hypotheses:
+
+      - $\rho(x, y)$ is continuous on $C.$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589921302147
+  fields:
+    Front: |
+      SVEC-13.02.10 Synthesis:
+      #### Vector Calculus
+      ##### Line Integrals
+      ###### Line Integrals in the Plane
+      Define **line integrals of $f$ along $C$ with respect to $x$ and $y$**. List their hypotheses.
+    Back: |
+      Two other line integrals are obtained by replacing $\Delta s_{i}$ by either $\Delta x_{i}=x_{i}-x_{i-1}$ or $\Delta y_{i}=y_{i}-y_{i-1}$ in the definition of the line integral along $C$. They are called the **line integrals of $f$ along $C$ with respect to $x$ and $y:$**
+      $$
+      \begin{array}{l}
+      \int_{C} f(x, y) d x=\lim _{\max \Delta x_{i} \rightarrow 0} \sum_{i=1}^{n} f\left(x_{i}^{*}, y_{i}^{*}\right) \Delta x_{i} \\
+      \int_{C} f(x, y) d y=\lim _{\max \Delta y_{i} \rightarrow 0} \sum_{i=1}^{n} f\left(x_{i}^{*}, y_{i}^{*}\right) \Delta y_{i}
+      \end{array}
+      $$
+
+      Hypotheses:
+
+      - The above limits exist.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589921421273
+  fields:
+    Front: |
+      SVEC-13.02.11 Synthesis:
+      #### Vector Calculus
+      ##### Line Integrals
+      ###### Line Integrals in the Plane
+      State the _unnamed_ **line integral evaluation theorem with respect to $x$ and $y$**. List its hypotheses.
+    Back: |
+      The following formulas say that line integrals with respect to $x$ and $y$ can also be evaluated by expressing everything in terms of $t:$ $x=x(t),$ $y=y(t),$ $d x=x^{\prime}(t) d t,$ $d y=y^{\prime}(t) d t.$
+      $$
+      \begin{array}{l}
+      \int_{C} f(x, y) d x=\int_{a}^{b} f(x(t), y(t)) x^{\prime}(t) d t \\
+      \int_{C} f(x, y) d y=\int_{a}^{b} f(x(t), y(t)) y^{\prime}(t) d t
+      \end{array}
+      $$
+
+      Hypotheses:
+
+      - $f$ is continuous on $C.$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589921533347
+  fields:
+    Front: |
+      SVEC-13.02.12 Synthesis:
+      #### Vector Calculus
+      ##### Line Integrals
+      ###### Line Integrals in the Plane
+      Define **customary notation for combined line integrals with respect to $x$ and $y$**.
+    Back: |
+      It frequently happens that line integrals with respect to $x$ and $y$ occur together When this happens, it's customary to abbreviate by writing
+      $$
+      \int_{C} P(x, y) d x+\int_{C} Q(x, y) d y=\int_{C} P(x, y) d x+Q(x, y) d y
+      $$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589921817597
+  fields:
+    Front: |
+      SVEC-13.02.13 Synthesis:
+      #### Vector Calculus
+      ##### Line Integrals
+      ###### Line Integrals in the Plane
+      State the _unnamed_ **relationship between line integral and path between endpoints**.
+    Back: |
+      In general, the value of a line integral depends not just on the endpoints of the curve but also on the path. (But see SVEC-13.03 for conditions under which the integral is independent of the path.)
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589922095797
+  media:
+  - path: ¢{file_dir}/images/SVEC-13.02.14.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-13.02.14 Synthesis:
+      #### Vector Calculus
+      ##### Line Integrals
+      ###### Line Integrals in the Plane
+      Define **orientation**.
+    Back: |
+      In general, a given parametrization $x=x(t), y=y(t), a \leqslant t \leqslant b,$ determines an orientation of a curve $C,$ with the positive direction corresponding to increasing values of the parameter $t$. (See figure below, where the initial point $A$ corresponds to the parameter value $a$ and the terminal point $B$ corresponds to $t=b.$)
+      <p align="center">
+      ![](SVEC-13.02.14.Sy.1.jpg)
+      </p>
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589922225447
+  fields:
+    Front: |
+      SVEC-13.02.15 Synthesis:
+      #### Vector Calculus
+      ##### Line Integrals
+      ###### Line Integrals in the Plane
+      State the _unnamed_ **conditions under which line integral value changes with curve orientation**. List their hypotheses.
+    Back: |
+      If $-C$ denotes the curve consisting of the same points as $C$ but with the opposite orientation (from initial point $B$ to terminal point $A$ in the following figure), then we have
+      $$
+      \int_{-C} f(x, y) d x=-\int_{C} f(x, y) d x \quad \int_{-C} f(x, y) d y=-\int_{C} f(x, y) d y
+      $$
+      <p align="center">
+      ![](SVEC-13.02.14.Sy.1.jpg)
+      </p>
+      But if we integrate with respect to arc length, the value of the line integral does $n o t$ change when we reverse the orientation of the curve:
+      $$
+      \int_{-C} f(x, y) d s=\int_{C} f(x, y) d s
+      $$ This is because $\Delta s_{i}$ is always positive, whereas $\Delta x_{i}$ and $\Delta y_{i}$ change sign when we reverse the orientation of $C.$
+
+      Hypotheses:
+
+      - $f$ is continuous on $C.$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589926377851
+  fields:
+    Front: |
+      SVEC-13.02.16 Synthesis:
+      #### Vector Calculus
+      ##### Line Integrals
+      ###### Line Integrals in Space
+      Define **line integral of $f$ along $C$** in space. List its hypotheses.
+    Back: |
+      Suppose that $C$ is a smooth space curve given by the parametric equations
+      $$
+      x=x(t) \quad y=y(t) \quad z=z(t) \quad a \leqslant t \leqslant b
+      $$ or by a vector equation $\mathbf{r}(t)=x(t) \mathbf{i}+y(t) \mathbf{j}+z(t) \mathbf{k} .$ If $f$ is a function of three variables that is continuous on some region containing $C,$ then we define the **line integral of $f$ along $C$** (with respect to arc length) in a manner similar to that for plane curves:
+      $$
+      \int_{C} f(x, y, z) d s=\lim _{\max \Delta s_{i} \rightarrow 0} \sum_{i=1}^{n} f\left(x_{i}^{*}, y_{i}^{*}, z_{i}^{*}\right) \Delta s_{i}
+      $$
+
+      Hypotheses:
+
+      - $f$ is continuous on $C.$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589926528272
+  fields:
+    Front: |
+      SVEC-13.02.17 Synthesis:
+      #### Vector Calculus
+      ##### Line Integrals
+      ###### Line Integrals in Space
+      State the _unnamed_ **line integral evaluation theorem** in space. List its hypotheses.
+    Back: |
+      Suppose that $C$ is a smooth space curve given by the parametric equations
+      $$
+      x=x(t) \quad y=y(t) \quad z=z(t) \quad a \leqslant t \leqslant b
+      $$ or by a vector equation $\mathbf{r}(t)=x(t) \mathbf{i}+y(t) \mathbf{j}+z(t) \mathbf{k} .$ If $f$ is a function of three variables that is continuous on some region containing $C,$ then we evaluate the line integral of $f$ along $C$ using the formula:
+      $$
+      \int_{C} f(x, y, z) d s=\int_{a}^{b} f(x(t), y(t), z(t)) \sqrt{\left(\frac{d x}{d t}\right)^{2}+\left(\frac{d y}{d t}\right)^{2}+\left(\frac{d z}{d t}\right)^{2}} d t
+      $$
+
+      Hypotheses:
+
+      - $f$ is continuous on $C.$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589926761747
+  fields:
+    Front: |
+      SVEC-13.02.18 Synthesis:
+      #### Vector Calculus
+      ##### Line Integrals
+      ###### Line Integrals in Space
+      State the _unnamed_ **line integral evaluation theorem** in vector notation. List its hypotheses.
+    Back: |
+      In both of the formulae
+      $$
+      \int_{C} f(x, y) d s=\int_{a}^{b} f(x(t), y(t)) \sqrt{\left(\frac{d x}{d t}\right)^{2}+\left(\frac{d y}{d t}\right)^{2}} d t
+      $$ and
+      $$
+      \int_{C} f(x, y, z) d s=\int_{a}^{b} f(x(t), y(t), z(t)) \sqrt{\left(\frac{d x}{d t}\right)^{2}+\left(\frac{d y}{d t}\right)^{2}+\left(\frac{d z}{d t}\right)^{2}} d t
+      $$ the right-hand sides can be written in the more compact vector notation
+      $$
+      \int_{a}^{b} f(\mathbf{r}(t))\left|\mathbf{r}^{\prime}(t)\right| d t
+      $$
+
+      Hypotheses:
+
+      - $f$ is continuous on $C.$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589926933097
+  fields:
+    Front: |
+      SVEC-13.02.19 Synthesis:
+      #### Vector Calculus
+      ##### Line Integrals
+      ###### Line Integrals in Space
+      State the _unnamed_ **line integral of $f(x,y,z)=1$** in vector notation. List its hypotheses.
+    Back: |
+      For the special case $f(x, y, z)=1,$ we get
+      $$
+      \int_{C} d s=\int_{a}^{b}\left|\mathbf{r}^{\prime}(t)\right| d t=L
+      $$ where $L$ is the length of the curve $C.$
+
+      Hypotheses:
+
+      - $C$ is a smooth or piecewise-smooth curve.
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589927626696
+  fields:
+    Front: |
+      SVEC-13.02.20 Synthesis:
+      #### Vector Calculus
+      ##### Line Integrals
+      ###### Line Integrals in Space
+      Define **line integrals of $f$ along $C$ with respect to $x,$ $y,$ and $z$**. List their hypotheses.
+    Back: |
+      Line integrals along $C$ with respect to $x, y,$ and $z$ can be defined an in the following example.
+      $$
+      \int_{C} f(x, y, z) d z=\lim _{\max \Delta z_{i} \rightarrow 0} \sum_{i=1}^{n} f\left(x_{i}^{*}, y_{i}^{*}, z_{i}^{*}\right) \Delta z_{i}=\int_{a}^{b} f(x(t), y(t), z(t)) z^{\prime}(t) d t
+      $$
+
+      Hypotheses:
+
+      - $f$ is continuous on $C.$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589927793747
+  fields:
+    Front: |
+      SVEC-13.02.21 Synthesis:
+      #### Vector Calculus
+      ##### Line Integrals
+      ###### Line Integrals in Space
+      State the **customary notation for combined line integrals with respect to $x,$ $y,$ and $z$**. List its hypotheses.
+    Back: |
+      As with line integrals in the plane, we evaluate integrals of the form
+      $$
+      \int_{C} P(x, y, z) d x+Q(x, y, z) d y+R(x, y, z) d z
+      $$ by expressing everything $(x, y, z, d x, d y, d z)$ in terms of the parameter $t.$
+
+      Hypotheses:
+
+      - $P,$ $Q,$ and $R$ are continuous on $C.$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589928536947
+  fields:
+    Front: |
+      SVEC-13.02.22 Synthesis:
+      #### Vector Calculus
+      ##### Line Integrals
+      ###### Line Integrals of Vector Fields
+      Define **line integral of a vector field**. List its hypotheses.
+    Back: |
+      Let $\mathbf{F}$ be a continuous vector field defined on a smooth curve $C$ given by a vector function $\mathbf{r}(t),$ $a \leqslant t \leqslant b .$ Then the line integral of $\mathbf{F}$ along $C$ is
+      $$
+      \int_{C} \mathbf{F} \cdot d \mathbf{r}=\int_{a}^{b} \mathbf{F}(\mathbf{r}(t)) \cdot \mathbf{r}^{\prime}(t) d t=\int_{C} \mathbf{F} \cdot \mathbf{T} d s
+      $$
+
+      Remember that $\mathbf{F}(\mathbf{r}(t))$ is just an abbreviation for $\mathbf{F}(x(t), y(t), z(t)),$ so we evaluate $\mathbf{F}(\mathbf{r}(t))$ simply by putting $x=x(t), y=y(t),$ and $z=z(t)$ in the expression for $\mathbf{F}(x, y, z) .$ Notice also that we can formally write $d \mathbf{r}=\mathbf{r}^{\prime}(t) d t.$
+
+      Hypotheses:
+
+      - $C$ is a smooth curve $C$ given by a vector function $\mathbf{r}(t),$ $a \leqslant t \leqslant b .$
+      - $\mathbf{F}$ be a continuous vector field on $C.$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589928754322
+  fields:
+    Front: |
+      SVEC-13.02.23 Synthesis:
+      #### Vector Calculus
+      ##### Line Integrals
+      ###### Line Integrals of Vector Fields
+      State the _unnamed_ **relationship between vector-field line integrals along $C$ and its reverse orientation**. List its hypotheses.
+    Back: |
+      Even though $\int_{C} \mathbf{F} \cdot d \mathbf{r}=\int_{C} \mathbf{F} \cdot \mathbf{T} d s$ and integrals with respect to arc length are unchanged when orientation is reversed, it is still true that
+      $$
+      \int_{-C} \mathbf{F} \cdot d \mathbf{r}=-\int_{C} \mathbf{F} \cdot d \mathbf{r}
+      $$ because the unit tangent vector $\mathbf{T}$ is replaced by its negative when $C$ is replaced by $-C.$
+
+      Hypotheses:
+
+      - $C$ is a smooth curve $C$ given by a vector function $\mathbf{r}(t),$ $a \leqslant t \leqslant b .$
+      - $\mathbf{F}$ be a continuous vector field on $C.$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589929137474
+  fields:
+    Front: |
+      SVEC-13.02.24 Synthesis:
+      #### Vector Calculus
+      ##### Line Integrals
+      ###### Line Integrals of Vector Fields
+      State the _unnamed_ **relationship between vector-field and scalar-field line integrals**. List its hypotheses.
+    Back: |
+      Suppose the vector field $\mathbf{F}$ on $\mathbb{R}^{3}$ is given in component form by the equation $\mathbf{F}=P \mathbf{i}+Q \mathbf{j}+R \mathbf{k} .$ Then
+      $$
+      \int_{C} \mathbf{F} \cdot d \mathbf{r}=\int_{C} P d x+Q d y+R d z \quad \text { where } \mathbf{F}=P \mathbf{i}+Q \mathbf{j}+R \mathbf{k}
+      $$
+
+      Hypotheses:
+
+      - $\mathbf{F}=P \mathbf{i}+Q \mathbf{j}+R \mathbf{k}$ is continuous on $\mathbf{r}(t).$
+      - $\mathbf{r}(t)$ is a smooth curve.
+    Annotations: ''
+  tags:
+  - Theorem

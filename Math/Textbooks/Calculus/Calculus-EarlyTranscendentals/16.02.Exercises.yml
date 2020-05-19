@@ -1,0 +1,638 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-16-VectorCalculus
+  - CET-16.02-LineIntegrals
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589929489697
+  fields:
+    Front: |
+      CET-16.02-01 Exercise:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929489986
+  fields:
+    Front: |
+      CET-16.02-02 Exercise:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929490309
+  fields:
+    Front: |
+      CET-16.02-03 Exercise:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929490625
+  fields:
+    Front: |
+      CET-16.02-04 Exercise:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929490910
+  fields:
+    Front: |
+      CET-16.02-05 Exercise:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929491209
+  fields:
+    Front: |
+      CET-16.02-06 Exercise:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929491509
+  fields:
+    Front: |
+      CET-16.02-07 Exercise:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929491776
+  fields:
+    Front: |
+      CET-16.02-08 Exercise:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929492075
+  fields:
+    Front: |
+      CET-16.02-09 Exercise:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929492359
+  fields:
+    Front: |
+      CET-16.02-10 Exercise:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929492642
+  fields:
+    Front: |
+      CET-16.02-11 Exercise:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929492925
+  fields:
+    Front: |
+      CET-16.02-12 Exercise:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929493194
+  fields:
+    Front: |
+      CET-16.02-13 Exercise:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929493503
+  fields:
+    Front: |
+      CET-16.02-14 Exercise:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929493800
+  fields:
+    Front: |
+      CET-16.02-15 Exercise:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929494109
+  fields:
+    Front: |
+      CET-16.02-16 Exercise:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929494379
+  fields:
+    Front: |
+      CET-16.02-17 Exercise:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929494726
+  fields:
+    Front: |
+      CET-16.02-18 Exercise:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929495043
+  fields:
+    Front: |
+      CET-16.02-19 Exercise:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929495331
+  fields:
+    Front: |
+      CET-16.02-20 Exercise:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929495609
+  fields:
+    Front: |
+      CET-16.02-21 Exercise:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929495909
+  fields:
+    Front: |
+      CET-16.02-22 Exercise:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929496226
+  fields:
+    Front: |
+      CET-16.02-23 Exercise:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929496532
+  fields:
+    Front: |
+      CET-16.02-24 Exercise:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929496859
+  fields:
+    Front: |
+      CET-16.02-25 Exercise:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929497130
+  fields:
+    Front: |
+      CET-16.02-26 Exercise:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929497412
+  fields:
+    Front: |
+      CET-16.02-27 Exercise:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929497709
+  fields:
+    Front: |
+      CET-16.02-28 Exercise:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929498009
+  fields:
+    Front: |
+      CET-16.02-29 Exercise:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929498303
+  fields:
+    Front: |
+      CET-16.02-30 Exercise:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929498609
+  fields:
+    Front: |
+      CET-16.02-31 Exercise:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929498909
+  fields:
+    Front: |
+      CET-16.02-32 Exercise:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929499177
+  fields:
+    Front: |
+      CET-16.02-33 Exercise:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929499476
+  fields:
+    Front: |
+      CET-16.02-34 Exercise:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929499776
+  fields:
+    Front: |
+      CET-16.02-35 Exercise:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929500061
+  fields:
+    Front: |
+      CET-16.02-36 Exercise:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929500392
+  fields:
+    Front: |
+      CET-16.02-37 Exercise:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929500676
+  fields:
+    Front: |
+      CET-16.02-38 Exercise:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929500947
+  fields:
+    Front: |
+      CET-16.02-39 Exercise:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929501245
+  fields:
+    Front: |
+      CET-16.02-40 Exercise:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929501516
+  fields:
+    Front: |
+      CET-16.02-41 Exercise:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929501797
+  fields:
+    Front: |
+      CET-16.02-42 Exercise:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929502119
+  fields:
+    Front: |
+      CET-16.02-43 Exercise:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929502409
+  fields:
+    Front: |
+      CET-16.02-44 Exercise:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929502711
+  fields:
+    Front: |
+      CET-16.02-45 Exercise:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929503026
+  fields:
+    Front: |
+      CET-16.02-46 Exercise:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929503298
+  fields:
+    Front: |
+      CET-16.02-47 Exercise:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929503573
+  fields:
+    Front: |
+      CET-16.02-48 Exercise:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929503845
+  fields:
+    Front: |
+      CET-16.02-49 Exercise:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929504176
+  fields:
+    Front: |
+      CET-16.02-50 Exercise:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929504476
+  fields:
+    Front: |
+      CET-16.02-51 Exercise:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929504745
+  fields:
+    Front: |
+      CET-16.02-52 Exercise:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

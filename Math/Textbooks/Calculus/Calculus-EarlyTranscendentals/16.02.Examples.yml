@@ -1,0 +1,110 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-16-VectorCalculus
+  - CET-16.02-LineIntegrals
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589929487222
+  fields:
+    Front: |
+      CET-16.02-1 Example:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929487525
+  fields:
+    Front: |
+      CET-16.02-2 Example:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929487792
+  fields:
+    Front: |
+      CET-16.02-3 Example:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929488092
+  fields:
+    Front: |
+      CET-16.02-4 Example:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929488409
+  fields:
+    Front: |
+      CET-16.02-5 Example:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929488675
+  fields:
+    Front: |
+      CET-16.02-6 Example:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929488976
+  fields:
+    Front: |
+      CET-16.02-7 Example:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589929489275
+  fields:
+    Front: |
+      CET-16.02-8 Example:
+      #### Vector Calculus
+      ##### Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

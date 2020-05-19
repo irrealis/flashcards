@@ -19,8 +19,8 @@
     Front: |
       SVEC-XX.XX-XX Synthesis:
       #### Vector Calculus
-      ##### Vector Fields
-      ###### Gradient Fields
+      ##### Line Integrals
+      ###### Line Integrals of Vector Fields
       Define . List its hypotheses.
     Back: |
       X
@@ -43,8 +43,8 @@
     Front: |
       SVEC-XX.XX-XX Synthesis:
       #### Vector Calculus
-      ##### Vector Fields
-      ###### Gradient Fields
+      ##### Line Integrals
+      ###### Line Integrals of Vector Fields
       State the . List its hypotheses.
     Back: |
       X
