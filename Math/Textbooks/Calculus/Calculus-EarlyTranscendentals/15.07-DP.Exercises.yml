@@ -1,0 +1,74 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-15-MultipleIntegrals
+  - CET-15.07-DP-DiscoveryProject-TheIntersectionOfThreeCylinders
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589845537348
+  fields:
+    Front: |
+      CET-15.07-DP-1 Exercise:
+      #### Multiple Integrals
+      ##### Discovery Project - The Intersection of Three Cylinders
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589845537660
+  fields:
+    Front: |
+      CET-15.07-DP-2 Exercise:
+      #### Multiple Integrals
+      ##### Discovery Project - The Intersection of Three Cylinders
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589845538094
+  fields:
+    Front: |
+      CET-15.07-DP-3 Exercise:
+      #### Multiple Integrals
+      ##### Discovery Project - The Intersection of Three Cylinders
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589845538377
+  fields:
+    Front: |
+      CET-15.07-DP-4 Exercise:
+      #### Multiple Integrals
+      ##### Discovery Project - The Intersection of Three Cylinders
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589845538647
+  fields:
+    Front: |
+      CET-15.07-DP-5 Exercise:
+      #### Multiple Integrals
+      ##### Discovery Project - The Intersection of Three Cylinders
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

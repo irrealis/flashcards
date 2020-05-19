@@ -1,0 +1,170 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-15-MultipleIntegrals
+  - CET-15.PP-ProblemsPlus
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589846311825
+  fields:
+    Front: |
+      CET-15.PP-01 Exercise:
+      #### Multiple Integrals
+      ##### Problems Plus
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846312147
+  fields:
+    Front: |
+      CET-15.PP-02 Exercise:
+      #### Multiple Integrals
+      ##### Problems Plus
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846312455
+  fields:
+    Front: |
+      CET-15.PP-03 Exercise:
+      #### Multiple Integrals
+      ##### Problems Plus
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846312739
+  fields:
+    Front: |
+      CET-15.PP-04 Exercise:
+      #### Multiple Integrals
+      ##### Problems Plus
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846313055
+  fields:
+    Front: |
+      CET-15.PP-05 Exercise:
+      #### Multiple Integrals
+      ##### Problems Plus
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846313355
+  fields:
+    Front: |
+      CET-15.PP-06 Exercise:
+      #### Multiple Integrals
+      ##### Problems Plus
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846313640
+  fields:
+    Front: |
+      CET-15.PP-07 Exercise:
+      #### Multiple Integrals
+      ##### Problems Plus
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846313955
+  fields:
+    Front: |
+      CET-15.PP-08 Exercise:
+      #### Multiple Integrals
+      ##### Problems Plus
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846314258
+  fields:
+    Front: |
+      CET-15.PP-09 Exercise:
+      #### Multiple Integrals
+      ##### Problems Plus
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846314538
+  fields:
+    Front: |
+      CET-15.PP-10 Exercise:
+      #### Multiple Integrals
+      ##### Problems Plus
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846314855
+  fields:
+    Front: |
+      CET-15.PP-11 Exercise:
+      #### Multiple Integrals
+      ##### Problems Plus
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846315139
+  fields:
+    Front: |
+      CET-15.PP-12 Exercise:
+      #### Multiple Integrals
+      ##### Problems Plus
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846315457
+  fields:
+    Front: |
+      CET-15.PP-13 Exercise:
+      #### Multiple Integrals
+      ##### Problems Plus
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

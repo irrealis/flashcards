@@ -1,0 +1,122 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-15-MultipleIntegrals
+  - CET-15.R-TF-Review
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589846144681
+  fields:
+    Front: |
+      CET-15.R-TF-1 True-False:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846145001
+  fields:
+    Front: |
+      CET-15.R-TF-2 True-False:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846145282
+  fields:
+    Front: |
+      CET-15.R-TF-3 True-False:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846145584
+  fields:
+    Front: |
+      CET-15.R-TF-4 True-False:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846145867
+  fields:
+    Front: |
+      CET-15.R-TF-5 True-False:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846146200
+  fields:
+    Front: |
+      CET-15.R-TF-6 True-False:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846146500
+  fields:
+    Front: |
+      CET-15.R-TF-7 True-False:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846146784
+  fields:
+    Front: |
+      CET-15.R-TF-8 True-False:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846147083
+  fields:
+    Front: |
+      CET-15.R-TF-9 True-False:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

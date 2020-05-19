@@ -1,0 +1,86 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-15-MultipleIntegrals
+  - CET-15.08-AP-AppliedProject-RollerDerby
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589845728672
+  fields:
+    Front: |
+      CET-15.08-AP-1 Exercise:
+      #### Multiple Integrals
+      ##### Applied Project - Roller Derby
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589845728971
+  fields:
+    Front: |
+      CET-15.08-AP-2 Exercise:
+      #### Multiple Integrals
+      ##### Applied Project - Roller Derby
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589845729303
+  fields:
+    Front: |
+      CET-15.08-AP-3 Exercise:
+      #### Multiple Integrals
+      ##### Applied Project - Roller Derby
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589845729572
+  fields:
+    Front: |
+      CET-15.08-AP-4 Exercise:
+      #### Multiple Integrals
+      ##### Applied Project - Roller Derby
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589845729886
+  fields:
+    Front: |
+      CET-15.08-AP-5 Exercise:
+      #### Multiple Integrals
+      ##### Applied Project - Roller Derby
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589845730174
+  fields:
+    Front: |
+      CET-15.08-AP-6 Exercise:
+      #### Multiple Integrals
+      ##### Applied Project - Roller Derby
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

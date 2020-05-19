@@ -1,0 +1,734 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-15-MultipleIntegrals
+  - CET-15.R-Ex-Review
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589846126825
+  fields:
+    Front: |
+      CET-15.R-Ex-01 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846127138
+  fields:
+    Front: |
+      CET-15.R-Ex-02 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846127415
+  fields:
+    Front: |
+      CET-15.R-Ex-03 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846127702
+  fields:
+    Front: |
+      CET-15.R-Ex-04 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846128025
+  fields:
+    Front: |
+      CET-15.R-Ex-05 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846128315
+  fields:
+    Front: |
+      CET-15.R-Ex-06 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846128582
+  fields:
+    Front: |
+      CET-15.R-Ex-07 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846128866
+  fields:
+    Front: |
+      CET-15.R-Ex-08 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846129156
+  fields:
+    Front: |
+      CET-15.R-Ex-09 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846129431
+  fields:
+    Front: |
+      CET-15.R-Ex-10 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846129749
+  fields:
+    Front: |
+      CET-15.R-Ex-11 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846130032
+  fields:
+    Front: |
+      CET-15.R-Ex-12 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846130335
+  fields:
+    Front: |
+      CET-15.R-Ex-13 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846130634
+  fields:
+    Front: |
+      CET-15.R-Ex-14 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846130932
+  fields:
+    Front: |
+      CET-15.R-Ex-15 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846131232
+  fields:
+    Front: |
+      CET-15.R-Ex-16 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846131534
+  fields:
+    Front: |
+      CET-15.R-Ex-17 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846131817
+  fields:
+    Front: |
+      CET-15.R-Ex-18 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846132133
+  fields:
+    Front: |
+      CET-15.R-Ex-19 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846132423
+  fields:
+    Front: |
+      CET-15.R-Ex-20 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846132767
+  fields:
+    Front: |
+      CET-15.R-Ex-21 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846133048
+  fields:
+    Front: |
+      CET-15.R-Ex-22 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846133319
+  fields:
+    Front: |
+      CET-15.R-Ex-23 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846133650
+  fields:
+    Front: |
+      CET-15.R-Ex-24 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846133967
+  fields:
+    Front: |
+      CET-15.R-Ex-25 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846134249
+  fields:
+    Front: |
+      CET-15.R-Ex-26 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846134533
+  fields:
+    Front: |
+      CET-15.R-Ex-27 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846134802
+  fields:
+    Front: |
+      CET-15.R-Ex-28 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846135117
+  fields:
+    Front: |
+      CET-15.R-Ex-29 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846135400
+  fields:
+    Front: |
+      CET-15.R-Ex-30 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846135683
+  fields:
+    Front: |
+      CET-15.R-Ex-31 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846135985
+  fields:
+    Front: |
+      CET-15.R-Ex-32 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846136282
+  fields:
+    Front: |
+      CET-15.R-Ex-33 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846136584
+  fields:
+    Front: |
+      CET-15.R-Ex-34 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846136867
+  fields:
+    Front: |
+      CET-15.R-Ex-35 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846137167
+  fields:
+    Front: |
+      CET-15.R-Ex-36 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846137438
+  fields:
+    Front: |
+      CET-15.R-Ex-37 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846137733
+  fields:
+    Front: |
+      CET-15.R-Ex-38 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846138165
+  fields:
+    Front: |
+      CET-15.R-Ex-39 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846138485
+  fields:
+    Front: |
+      CET-15.R-Ex-40 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846138805
+  fields:
+    Front: |
+      CET-15.R-Ex-41 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846139083
+  fields:
+    Front: |
+      CET-15.R-Ex-42 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846139352
+  fields:
+    Front: |
+      CET-15.R-Ex-43 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846139633
+  fields:
+    Front: |
+      CET-15.R-Ex-44 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846139935
+  fields:
+    Front: |
+      CET-15.R-Ex-45 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846140216
+  fields:
+    Front: |
+      CET-15.R-Ex-46 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846140552
+  fields:
+    Front: |
+      CET-15.R-Ex-47 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846140850
+  fields:
+    Front: |
+      CET-15.R-Ex-48 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846141118
+  fields:
+    Front: |
+      CET-15.R-Ex-49 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846141399
+  fields:
+    Front: |
+      CET-15.R-Ex-50 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846141668
+  fields:
+    Front: |
+      CET-15.R-Ex-51 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846141965
+  fields:
+    Front: |
+      CET-15.R-Ex-52 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846142287
+  fields:
+    Front: |
+      CET-15.R-Ex-53 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846142567
+  fields:
+    Front: |
+      CET-15.R-Ex-54 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846142851
+  fields:
+    Front: |
+      CET-15.R-Ex-55 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846143168
+  fields:
+    Front: |
+      CET-15.R-Ex-56 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846143473
+  fields:
+    Front: |
+      CET-15.R-Ex-57 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846143751
+  fields:
+    Front: |
+      CET-15.R-Ex-58 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846144033
+  fields:
+    Front: |
+      CET-15.R-Ex-59 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589846144304
+  fields:
+    Front: |
+      CET-15.R-Ex-60 Exercise:
+      #### Multiple Integrals
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

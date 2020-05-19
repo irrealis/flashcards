@@ -1,0 +1,62 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-15-MultipleIntegrals
+  - CET-15.06-DP-DiscoveryProject-VolumesOfHyperspheres
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589845127748
+  fields:
+    Front: |
+      CET-15.06-DP-1 Exercise:
+      #### Multiple Integrals
+      ##### Discovery Project - Volumes of Hyperspheres
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589845128032
+  fields:
+    Front: |
+      CET-15.06-DP-2 Exercise:
+      #### Multiple Integrals
+      ##### Discovery Project - Volumes of Hyperspheres
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589845128380
+  fields:
+    Front: |
+      CET-15.06-DP-3 Exercise:
+      #### Multiple Integrals
+      ##### Discovery Project - Volumes of Hyperspheres
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589845128663
+  fields:
+    Front: |
+      CET-15.06-DP-4 Exercise:
+      #### Multiple Integrals
+      ##### Discovery Project - Volumes of Hyperspheres
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
