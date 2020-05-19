@@ -1,0 +1,446 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-16-VectorCalculus
+  - CET-16.01-VectorFields
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589849778170
+  fields:
+    Front: |
+      CET-16.01-01 Exercise:
+      #### Vector Calculus
+      ##### Vector Fields
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589849778495
+  fields:
+    Front: |
+      CET-16.01-02 Exercise:
+      #### Vector Calculus
+      ##### Vector Fields
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589849778778
+  fields:
+    Front: |
+      CET-16.01-03 Exercise:
+      #### Vector Calculus
+      ##### Vector Fields
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589849779067
+  fields:
+    Front: |
+      CET-16.01-04 Exercise:
+      #### Vector Calculus
+      ##### Vector Fields
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589849779350
+  fields:
+    Front: |
+      CET-16.01-05 Exercise:
+      #### Vector Calculus
+      ##### Vector Fields
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589849779619
+  fields:
+    Front: |
+      CET-16.01-06 Exercise:
+      #### Vector Calculus
+      ##### Vector Fields
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589849780002
+  fields:
+    Front: |
+      CET-16.01-07 Exercise:
+      #### Vector Calculus
+      ##### Vector Fields
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589849780290
+  fields:
+    Front: |
+      CET-16.01-08 Exercise:
+      #### Vector Calculus
+      ##### Vector Fields
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589849780571
+  fields:
+    Front: |
+      CET-16.01-09 Exercise:
+      #### Vector Calculus
+      ##### Vector Fields
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589849780897
+  fields:
+    Front: |
+      CET-16.01-10 Exercise:
+      #### Vector Calculus
+      ##### Vector Fields
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589849781181
+  fields:
+    Front: |
+      CET-16.01-11 Exercise:
+      #### Vector Calculus
+      ##### Vector Fields
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589849781498
+  fields:
+    Front: |
+      CET-16.01-12 Exercise:
+      #### Vector Calculus
+      ##### Vector Fields
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589849781798
+  fields:
+    Front: |
+      CET-16.01-13 Exercise:
+      #### Vector Calculus
+      ##### Vector Fields
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589849782098
+  fields:
+    Front: |
+      CET-16.01-14 Exercise:
+      #### Vector Calculus
+      ##### Vector Fields
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589849782369
+  fields:
+    Front: |
+      CET-16.01-15 Exercise:
+      #### Vector Calculus
+      ##### Vector Fields
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589849782688
+  fields:
+    Front: |
+      CET-16.01-16 Exercise:
+      #### Vector Calculus
+      ##### Vector Fields
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589849782991
+  fields:
+    Front: |
+      CET-16.01-17 Exercise:
+      #### Vector Calculus
+      ##### Vector Fields
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589849783269
+  fields:
+    Front: |
+      CET-16.01-18 Exercise:
+      #### Vector Calculus
+      ##### Vector Fields
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589849783581
+  fields:
+    Front: |
+      CET-16.01-19 Exercise:
+      #### Vector Calculus
+      ##### Vector Fields
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589849783922
+  fields:
+    Front: |
+      CET-16.01-20 Exercise:
+      #### Vector Calculus
+      ##### Vector Fields
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589849784217
+  fields:
+    Front: |
+      CET-16.01-21 Exercise:
+      #### Vector Calculus
+      ##### Vector Fields
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589849784530
+  fields:
+    Front: |
+      CET-16.01-22 Exercise:
+      #### Vector Calculus
+      ##### Vector Fields
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589849784819
+  fields:
+    Front: |
+      CET-16.01-23 Exercise:
+      #### Vector Calculus
+      ##### Vector Fields
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589849785116
+  fields:
+    Front: |
+      CET-16.01-24 Exercise:
+      #### Vector Calculus
+      ##### Vector Fields
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589849785518
+  fields:
+    Front: |
+      CET-16.01-25 Exercise:
+      #### Vector Calculus
+      ##### Vector Fields
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589849785999
+  fields:
+    Front: |
+      CET-16.01-26 Exercise:
+      #### Vector Calculus
+      ##### Vector Fields
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589849786322
+  fields:
+    Front: |
+      CET-16.01-27 Exercise:
+      #### Vector Calculus
+      ##### Vector Fields
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589849786697
+  fields:
+    Front: |
+      CET-16.01-28 Exercise:
+      #### Vector Calculus
+      ##### Vector Fields
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589849787061
+  fields:
+    Front: |
+      CET-16.01-29 Exercise:
+      #### Vector Calculus
+      ##### Vector Fields
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589849787435
+  fields:
+    Front: |
+      CET-16.01-30 Exercise:
+      #### Vector Calculus
+      ##### Vector Fields
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589849787856
+  fields:
+    Front: |
+      CET-16.01-31 Exercise:
+      #### Vector Calculus
+      ##### Vector Fields
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589849788236
+  fields:
+    Front: |
+      CET-16.01-32 Exercise:
+      #### Vector Calculus
+      ##### Vector Fields
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589849788517
+  fields:
+    Front: |
+      CET-16.01-33 Exercise:
+      #### Vector Calculus
+      ##### Vector Fields
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589849788851
+  fields:
+    Front: |
+      CET-16.01-34 Exercise:
+      #### Vector Calculus
+      ##### Vector Fields
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589849789181
+  fields:
+    Front: |
+      CET-16.01-35 Exercise:
+      #### Vector Calculus
+      ##### Vector Fields
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589849789682
+  fields:
+    Front: |
+      CET-16.01-36 Exercise:
+      #### Vector Calculus
+      ##### Vector Fields
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

@@ -1,0 +1,227 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theory
+  - SingleVariableEssentialCalculus
+  - SVEC-13-VectorCalculus
+  - SVEC-13.01-VectorFields
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589847244272
+  fields:
+    Front: |
+      SVEC-13.01.01 Synthesis:
+      #### Vector Calculus
+      ##### Vector Fields
+      List the vector-field definitions and theorems.
+    Back: |
+      Def: **vector field** in two dimensions
+      Def: **component functions** and **scalar fields** in two dimensions
+      Def: **vector field** in three dimensions
+      Thm: _unnamed_ **continuity relationship between vector fields and component functions**
+      Def: **velocity vector field**
+      Def: **force field**
+      Def: **gravitational field**
+      Def: **electric field**
+      ###### Gradient Fields
+      Def: **gradient vector field**
+      Def: **conservative vector field** and **potential function**
+    Annotations: ''
+  tags:
+  - Definitions
+  - Editing
+- id: 1589847383777
+  fields:
+    Front: |
+      SVEC-13.01.02 Synthesis:
+      #### Vector Calculus
+      ##### Vector Fields
+      Define **vector field** in two dimensions.
+    Back: |
+      Let $D$ be a set in $\mathbb{R}^{2}$ (a plane region). A vector field on $\mathbb{R}^{2}$ is a function $\mathbf{F}$ that assigns to each point $(x, y)$ in $D$ a two-dimensional vector $\mathbf{F}(x, y).$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589847621499
+  fields:
+    Front: |
+      SVEC-13.01.03 Synthesis:
+      #### Vector Calculus
+      ##### Vector Fields
+      Define **component functions** and **scalar fields** in two dimensions.
+    Back: |
+      Let $\mathbf{F}(x, y)$ be a vector field. Since $\mathbf{F}(x, y)$ is a two-dimensional vector, we can write it in terms of its **component functions** $P$ and $Q$ as follows:
+      $$
+      \mathbf{F}(x, y)=P(x, y) \mathbf{i}+Q(x, y) \mathbf{j}=\langle P(x, y), Q(x, y)\rangle
+      $$ or, for short,
+      $$
+      \mathbf{F}=P \mathbf{i}+Q \mathbf{j}.
+      $$ Notice that $P$ and $Q$ are scalar functions of two variables and are sometimes called **scalar fields** to distinguish them from vector fields.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589847754398
+  fields:
+    Front: |
+      SVEC-13.01.04 Synthesis:
+      #### Vector Calculus
+      ##### Vector Fields
+      Define **vector field** in three dimensions.
+    Back: |
+      Let $E$ be a subset of $\mathbb{R}^{3} .$ A vector field on $\mathbb{R}^{3}$ is a function $\mathbf{F}$ that assigns to each point $(x, y, z)$ in $E$ a three-dimensional vector $\mathbf{F}(x, y, z).$
+
+      We sometimes identify a point $(x, y, z)$ with its position vector $\mathbf{x}=\langle x, y, z\rangle$ and write $\mathbf{F}(\mathbf{x})$ instead of $\mathbf{F}(x, y, z) .$ Then $\mathbf{F}$ becomes a function that assigns a vector $\mathbf{F}(\mathbf{x})$ to a vector $\mathbf{x}.$
+
+      Observations:
+
+      - The domain and range of $\mathbf{F}$ need not be the same, nor of the same dimensions.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589847835448
+  fields:
+    Front: |
+      SVEC-13.01.05 Synthesis:
+      #### Vector Calculus
+      ##### Vector Fields
+      State the _unnamed_ **continuity relationship between vector fields and component functions**.
+    Back: |
+      $\mathbf{F}$ is continuous if and only if its component functions $P, Q,$ and $R$ are continuous.
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589848258523
+  media:
+  - path: ¢{file_dir}/images/SVEC-13.01.06.Sy.1.jpg
+  - path: ¢{file_dir}/images/SVEC-13.01.06.Sy.2.jpg
+  fields:
+    Front: |
+      SVEC-13.01.06 Synthesis:
+      #### Vector Calculus
+      ##### Vector Fields
+      Define **velocity vector field**.
+    Back: |
+      The vectors in the following figure are air velocity vectors that indicate the wind speed and direction at points $10 \mathrm{m}$ above the surface elevation in the San Francisco Bay area at 6:00 PM on March 1, 2010.
+      <p align="center">
+      ![](SVEC-13.01.06.Sy.1.jpg)
+      _San Francisco Bay wind patterns._
+      </p>
+      We see at a glance from the largest arrows that the greatest wind speeds at that time occurred as the winds entered the bay across the Golden Gate Bridge. Associated with every point in the air we can imagine a wind velocity vector. This is an example of a **velocity vector field**. Another example of a velocity vector field is illustrated below.
+      <p align="center">
+      ![](SVEC-13.01.06.Sy.2.jpg)
+      _Ocean currents off the coast of Nova Scotia._
+      </p>
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589848450223
+  fields:
+    Front: |
+      SVEC-13.01.07 Synthesis:
+      #### Vector Calculus
+      ##### Vector Fields
+      Define **force field**.
+    Back: |
+      A **force field** associates a force vector with each point in a region.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589848851722
+  fields:
+    Front: |
+      SVEC-13.01.08 Synthesis:
+      #### Vector Calculus
+      ##### Vector Fields
+      Define **gravitational field**.
+    Back: |
+      Newton's Law of Gravitation states that the magnitude of the gravitational force between two objects with masses $m$ and $M$ is
+      $$
+      |\mathbf{F}|=\frac{m M G}{r^{2}}
+      $$ where $r$ is the distance between the objects and $G$ is the gravitational constant. Let's assume that the object with mass $M$ is located at the origin in $\mathbb{R}^{3}$. Let the position vector of the object with mass $m$ be $\mathbf{x}=\langle x, y, z\rangle .$ Then $r=|\mathbf{x}|,$ so $r^{2}=|\mathbf{x}|^{2} .$ The gravitational force exerted on this second object acts toward the origin, and the unit vector in this direction is
+      $$
+      -\frac{\mathbf{x}}{|\mathbf{x}|}
+      $$ Therefore the gravitational force acting on the object at $\mathbf{x}=\langle x, y, z\rangle$ is
+      $$
+      \mathbf{F}(\mathbf{x})=-\frac{m M G}{|\mathbf{x}|^{3}} \mathbf{x}.
+      $$ [Physicists often use the notation $\mathbf{r}$ instead of $\mathbf{x}$ for the position vector, so you may the above formula written in the form $\mathbf{F}=-\left(m M G / r^{3}\right) \mathbf{r}.$] This function is an example of a vector field, called the **gravitational field**, because it associates a vector [the force $\mathbf{F}(\mathbf{x})]$ with every point $\mathbf{x}$ in space (except for the origin).
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589849064774
+  fields:
+    Front: |
+      SVEC-13.01.09 Synthesis:
+      #### Vector Calculus
+      ##### Vector Fields
+      Define **electric field**.
+    Back: |
+      Suppose an electric charge $Q$ is located at the origin. According to Coulomb's Law, the electric force $\mathbf{F}(\mathbf{x})$ exerted by this charge on a charge $q$ located at a point $(x, y, z)$ with position vector $\mathbf{x}=\langle x, y, z\rangle$ is
+      $$
+      \mathbf{F}(\mathbf{x})=\frac{\varepsilon q Q}{|\mathbf{x}|^{3}} \mathbf{x}
+      $$ where $\varepsilon$ is a constant (that depends on the units used). For like charges, we have $q Q>0$ and the force is repulsive; for unlike charges, we have $q Q<0$ and the force is attractive. Notice the similarity to the gravitational field. Both vector fields are examples of **force fields**.
+
+      Instead of considering the electric force $\mathbf{F}$, physicists often consider the force per unit charge:
+      $$
+      \mathbf{E}(\mathbf{x})=\frac{1}{q} \mathbf{F}(\mathbf{x})=\frac{\varepsilon Q}{|\mathbf{x}|^{3}} \mathbf{x}
+      $$ Then $\mathbf{E}$ is a vector field on $\mathbb{R}^{3}$ called the **electric field** of $Q.$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589849219872
+  fields:
+    Front: |
+      SVEC-13.01.10 Synthesis:
+      #### Vector Calculus
+      ##### Vector Fields
+      ###### Gradient Fields
+      Define **gradient vector field**. List its hypotheses.
+    Back: |
+      If $f$ is a scalar function of two variables, recall that its gradient $\nabla f$ (or grad $f$ ) is defined by
+      $$
+      \nabla f(x, y)=f_{x}(x, y) \mathbf{i}+f_{y}(x, y) \mathbf{j}.
+      $$ Therefore $\nabla f$ is really a vector field on $\mathbb{R}^{2}$ and is called a **gradient vector field**. Likewise, if $f$ is a scalar function of three variables, its gradient is a vector field on $\mathbb{R}^{3}$ given by
+      $$
+      \nabla f(x, y, z)=f_{x}(x, y, z) \mathbf{i}+f_{y}(x, y, z) \mathbf{j}+f_{z}(x, y, z) \mathbf{k}
+      $$
+
+      Hypotheses:
+
+      - $f$ is differentiable.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589849473122
+  fields:
+    Front: |
+      SVEC-13.01.11 Synthesis:
+      #### Vector Calculus
+      ##### Vector Fields
+      ###### Gradient Fields
+      Define **conservative vector field** and **potential function**. List their hypotheses.
+    Back: |
+      A vector field $\mathbf{F}$ is called a **conservative vector field** if it is the gradient of some scalar function, that is, if there exists a function $f$ such that $\mathbf{F}=\nabla f$. In this situation $f$ is called a **potential function** for $\mathbf{F}$
+
+      Not all vector fields are conservative, but such fields do arise frequently in physics. For example, the gravitational field $\mathbf{F}$ is conservative because if we define
+      $$
+      f(x, y, z)=\frac{m M G}{\sqrt{x^{2}+y^{2}+z^{2}}}
+      $$ then
+      $$
+      \begin{aligned}
+      \nabla f(x, y, z) &=\frac{\partial f}{\partial x} \mathbf{i}+\frac{\partial f}{\partial y} \mathbf{j}+\frac{\partial f}{\partial z} \mathbf{k} \\
+      &=\frac{-m M G x}{\left(x^{2}+y^{2}+z^{2}\right)^{3 / 2}} \mathbf{i}+\frac{-m M G y}{\left(x^{2}+y^{2}+z^{2}\right)^{3 / 2}} \mathbf{j}+\frac{-m M G z}{\left(x^{2}+y^{2}+z^{2}\right)^{3 / 2}} \mathbf{k} \\
+      &=\mathbf{F}(x, y, z)
+      \end{aligned}
+      $$
+
+      Hypotheses:
+
+      - There exists a function $f$ such that $\mathbf{F}=\nabla f$.
+    Annotations: ''
+  tags:
+  - Definition
+  - Editing

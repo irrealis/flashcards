@@ -18,9 +18,9 @@
   fields:
     Front: |
       SVEC-XX.XX-XX Synthesis:
-      #### Multiple Integrals
-      ##### Change of Variables in Multiple Integrals
-      ###### Triple Integrals
+      #### Vector Calculus
+      ##### Vector Fields
+      ###### Gradient Fields
       Define . List its hypotheses.
     Back: |
       X
@@ -42,9 +42,9 @@
   fields:
     Front: |
       SVEC-XX.XX-XX Synthesis:
-      #### Multiple Integrals
-      ##### Change of Variables in Multiple Integrals
-      ###### Triple Integrals
+      #### Vector Calculus
+      ##### Vector Fields
+      ###### Gradient Fields
       State the . List its hypotheses.
     Back: |
       X
