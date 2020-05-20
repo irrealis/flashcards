@@ -1,0 +1,74 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-16-VectorCalculus
+  - CET-16.03-TheFundamentalTheoremForLineIntegrals
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589937688648
+  fields:
+    Front: |
+      CET-16.03-1 Example:
+      #### Vector Calculus
+      ##### The Fundamental Theorem for Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589937688954
+  fields:
+    Front: |
+      CET-16.03-2 Example:
+      #### Vector Calculus
+      ##### The Fundamental Theorem for Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589937689239
+  fields:
+    Front: |
+      CET-16.03-3 Example:
+      #### Vector Calculus
+      ##### The Fundamental Theorem for Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589937689542
+  fields:
+    Front: |
+      CET-16.03-4 Example:
+      #### Vector Calculus
+      ##### The Fundamental Theorem for Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589937689805
+  fields:
+    Front: |
+      CET-16.03-5 Example:
+      #### Vector Calculus
+      ##### The Fundamental Theorem for Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

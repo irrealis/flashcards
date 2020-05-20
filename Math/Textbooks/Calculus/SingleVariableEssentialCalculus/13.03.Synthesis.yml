@@ -1,0 +1,338 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theory
+  - SingleVariableEssentialCalculus
+  - SVEC-13-VectorCalculus
+  - SVEC-13.03-TheFundamentalTheoremForLineIntegrals
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589930413147
+  fields:
+    Front: |
+      SVEC-13.03.01 Synthesis:
+      #### Vector Calculus
+      ##### The Fundamental Theorem for Line Integrals
+      List the theorems and definitions related to the Fundamental Theorem for line integrals.
+    Back: |
+      Thm: **The Fundamental Theorem for Line Integrals**
+      ###### Independence of Path
+      Def: **path**
+      Def: **independent of path**
+      Thm: _unnamed_ **relationship between convervative vector field line integrals and path dependence**
+      Def: **closed**
+      Thm: _unnamed_ **relationship between closed paths and independence of path**
+      Thm: _unnamed_ **relationship between convervative vector field line integrals and closed paths**
+      Def: **open**
+      Def: **connected**
+      Thm: _unnamed_ **relationship between independence of path and conservative vector fields**
+      Thm: _unnamed_ **relationship between conservative vector fields and component first-order partial derivatives**
+      Def: **simple curve** and **simple closed curve**
+      Def: **simply-connected region**
+      Thm: _unnamed_ **relationship between vector fields and component first-order partial derivatives on simply-connected regions**
+      ###### Conservation of Energy
+      **NOTE:** I'm assuming this section will be skipped in APPM 2350.
+      Def: **kinetic energy** and **potential energy**
+      Thm: **Law of Conservation of Energy**
+    Annotations: ''
+  tags:
+  - Definitions
+  - Theorems
+- id: 1589930413497
+  media:
+  - path: ¢{file_dir}/images/SVEC-13.03.02.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-13.03.02 Synthesis:
+      #### Vector Calculus
+      ##### The Fundamental Theorem for Line Integrals
+      State the **The Fundamental Theorem for Line Integrals**. List its hypotheses.
+    Back: |
+      Recall that Part 2 of the Fundamental Theorem of Calculus can be written as
+      $$
+      \int_{a}^{b} F^{\prime}(x) d x=F(b)-F(a)
+      $$ where $F^{\prime}$ is continuous on $[a, b] .$ We also called this the Net Change Theorem: The integral of a rate of change is the net change.
+
+      If we think of the gradient vector $\nabla f$ of a function $f$ of two or three variables as a sort of derivative of $f,$ then the following theorem can be regarded as a version of the Fundamental Theorem for Line Integrals.
+
+      Let $C$ be a smooth curve given by the vector function $\mathbf{r}(t),$ $a \leqslant t \leqslant b .$ Let $f$ be a differentiable function of two or three variables whose gradient vector $\nabla f$ is continuous on $C$. Then
+      $$
+      \int_{C} \nabla f \cdot d \mathbf{r}=f(\mathbf{r}(b))-f(\mathbf{r}(a))
+      $$ This says that we can evaluate the line integral of a conservative vector field (the gradient vector field of the potential function $f$) simply by knowing the value of $f$ at the endpoints of $C .$ In fact, it says that the line integral of $\nabla f$ is the net change in $f$. If $f$ is a function of two variables and $C$ is a plane curve with initial point $A\left(x_{1}, y_{1}\right)$ and terminal point $B\left(x_{2}, y_{2}\right),$ as in the following figure, then the theorem becomes
+      $$
+      \int_{C} \nabla f \cdot d \mathbf{r}=f\left(x_{2}, y_{2}\right)-f\left(x_{1}, y_{1}\right)
+      $$
+      <p align="center">
+      ![](SVEC-13.03.02.Sy.1.jpg)
+      </p>
+      If $f$ is a function of three variables and $C$ is a space curve joining the point $A\left(x_{1}, y_{1}, z_{1}\right)$ to the point $B\left(x_{2}, y_{2}, z_{2}\right),$ then we have
+      $$
+      \int_{C} \nabla f \cdot d \mathbf{r}=f\left(x_{2}, y_{2}, z_{2}\right)-f\left(x_{1}, y_{1}, z_{1}\right)
+      $$
+
+      Hypotheses:
+
+      - Vector function $C = \mathbf{r}(t),$ $a \leqslant t \leqslant b ,$ is a smooth curve.
+      - $f$ is differentiable on $C.$
+      - $\nabla f$ is continuous on $C$.
+
+      The Fundamental Theorem for Line Integrals is also true for piecewise-smooth curves.
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589932363849
+  fields:
+    Front: |
+      SVEC-13.03.03 Synthesis:
+      #### Vector Calculus
+      ##### The Fundamental Theorem for Line Integrals
+      ###### Independence of Path
+      Define **path**.
+    Back: |
+      Piecewise-smooth curves are called **paths**.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589932559673
+  fields:
+    Front: |
+      SVEC-13.03.04 Synthesis:
+      #### Vector Calculus
+      ##### The Fundamental Theorem for Line Integrals
+      ###### Independence of Path
+      Define **independent of path**. List its hypotheses.
+    Back: |
+      In general, if $\mathbf{F}$ is a continuous vector field with domain $D,$ we say that the line integral $\int_{C} \mathbf{F} \cdot d \mathbf{r}$ is **independent of path** if $\int_{C_{1}} \mathbf{F} \cdot d \mathbf{r}=\int_{C_{2}} \mathbf{F} \cdot d \mathbf{r}$ for any two paths $C_{1}$ and $C_{2}$ in $D$ that have the same initial and terminal points.
+
+      Hypotheses:
+
+      - $\mathbf{F}$ is a continuous vector field on $D.$
+      - $\int_{C_{1}} \mathbf{F} \cdot d \mathbf{r}=\int_{C_{2}} \mathbf{F} \cdot d \mathbf{r}$ for any two paths $C_{1}$ and $C_{2}$ in $D$ that have the same initial and terminal points.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589932650898
+  fields:
+    Front: |
+      SVEC-13.03.05 Synthesis:
+      #### Vector Calculus
+      ##### The Fundamental Theorem for Line Integrals
+      ###### Independence of Path
+      State the _unnamed_ **relationship between convervative vector field line integrals and path dependence**.
+    Back: |
+      Line integrals of conservative vector fields are independent of path.
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589932869947
+  media:
+  - path: ¢{file_dir}/images/SVEC-13.03.06.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-13.03.06 Synthesis:
+      #### Vector Calculus
+      ##### The Fundamental Theorem for Line Integrals
+      ###### Independence of Path
+      Define **closed**.
+    Back: |
+      A curve is called **closed** if its terminal point coincides with its initial point, that is, $\mathbf{r}(b)=\mathbf{r}(a) .$ (See figure below.) 
+      <p align="center">
+      ![](SVEC-13.03.06.Sy.1.jpg)
+      _A closed curve._
+      </p>
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589933064398
+  fields:
+    Front: |
+      SVEC-13.03.07 Synthesis:
+      #### Vector Calculus
+      ##### The Fundamental Theorem for Line Integrals
+      ###### Independence of Path
+      State the _unnamed_ **relationship between closed paths and independence of path**.
+    Back: |
+      $\int_{C} \mathbf{F} \cdot d \mathbf{r}$ is independent of path in $D$ if and only if $\int_{C} \mathbf{F} \cdot d \mathbf{r}=0$ for every closed path $C$ in $D.$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589933384673
+  fields:
+    Front: |
+      SVEC-13.03.08 Synthesis:
+      #### Vector Calculus
+      ##### The Fundamental Theorem for Line Integrals
+      ###### Independence of Path
+      State the _unnamed_ **relationship between convervative vector field line integrals and closed paths**. List its hypotheses.
+    Back: |
+      For any conservative vector field $\mathbf{F}$ and any closed path $C,$
+      $$
+      \int_{C} \mathbf{F} \cdot d \mathbf{r}=0
+      $$ The physical interpretation is that the work done by a conservative force field (such as the gravitational or electric field) as it moves an object around a closed path is $0.$
+
+      Hypotheses:
+
+      - $C$ is a closed path.
+      - $\mathbf{F}$ is a conservative vector field.
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589934075973
+  fields:
+    Front: |
+      SVEC-13.03.09 Synthesis:
+      #### Vector Calculus
+      ##### The Fundamental Theorem for Line Integrals
+      ###### Independence of Path
+      Define **open**. List its hypotheses.
+    Back: |
+      A region $D$ is **open** if and only if for every point $P$ in $D$ there is a disk with center $P$ that lies entirely in $D$. (So $D$ doesn't contain any of its boundary points.)
+
+      Hypotheses:
+
+      - For every point $P$ in $D$ there is a disk with center $P$ that lies entirely in $D$.
+      - That is, $D$ contains none of its boundary points.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589934200201
+  fields:
+    Front: |
+      SVEC-13.03.10 Synthesis:
+      #### Vector Calculus
+      ##### The Fundamental Theorem for Line Integrals
+      ###### Independence of Path
+      Define **connected**. List its hypotheses.
+    Back: |
+      A region $D$ is **connected** if and only if any two points in $D$ can be joined by a path that lies in $D.$
+
+      Hypotheses:
+
+      - Any two points in $D$ can be joined by a path that lies in $D.$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589934440951
+  fields:
+    Front: |
+      SVEC-13.03.11 Synthesis:
+      #### Vector Calculus
+      ##### The Fundamental Theorem for Line Integrals
+      ###### Independence of Path
+      State the _unnamed_ **relationship between independence of path and conservative vector fields**. List its hypotheses.
+    Back: |
+      Suppose $\mathbf{F}$ is a vector field that is continuous on an open connected region $D$. If $\int_{C} \mathbf{F} \cdot d \mathbf{r}$ is independent of path in $D,$ then $\mathbf{F}$ is a conservative vector field on $D ;$ that is, there exists a function $f$ such that $\nabla f=\mathbf{F}.$
+
+      This says that the only vector fields that are independent of path are conservative. It is stated and proved for plane curves, but there is a similar version for space curves.
+
+      Hypotheses:
+
+      - $D$ is an open region.
+      - $\mathbf{F}$ is a continuous vector field on $D$.
+      - $\int_{C} \mathbf{F} \cdot d \mathbf{r}$ is independent of path in $D.$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589934624004
+  fields:
+    Front: |
+      SVEC-13.03.12 Synthesis:
+      #### Vector Calculus
+      ##### The Fundamental Theorem for Line Integrals
+      ###### Independence of Path
+      State the _unnamed_ **relationship between conservative vector fields and component first-order partial derivatives**. List its hypotheses.
+    Back: |
+      If $\mathbf{F}(x, y)=P(x, y) \mathbf{i}+Q(x, y) \mathbf{j}$ is a conservative vector field, where $P$ and $Q$ have continuous first-order partial derivatives on a domain $D$ then throughout $D$ we have
+      $$
+      \frac{\partial P}{\partial y}=\frac{\partial Q}{\partial x}
+      $$
+
+      Hypotheses:
+
+      - $\mathbf{F}(x, y)=P(x, y) \mathbf{i}+Q(x, y) \mathbf{j}$ is a conservative vector field on $D.$
+      - $P$ and $Q$ have continuous first-order partial derivatives on $D.$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1589935577448
+  media:
+  - path: ¢{file_dir}/images/SVEC-13.03.13.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-13.03.13 Synthesis:
+      #### Vector Calculus
+      ##### The Fundamental Theorem for Line Integrals
+      ###### Independence of Path
+      Define **simple curve** and **simple closed curve**. List their hypotheses.
+    Back: |
+      A **simple curve** is one that doesn't intersect itself anywhere between its endpoints.
+
+      Hypotheses:
+
+      - A **simple curve** doesn't intersect itself anywhere between its endpoints.
+
+      For a **simple closed curve**, if $\mathbf{r}\left(t_{1}\right)$ and $\mathbf{r}\left(t_{2}\right)$ are its initial and terminal points then $\mathbf{r}(a)=\mathbf{r}(b)$, but $\mathbf{r}\left(t_{1}\right) \neq \mathbf{r}\left(t_{2}\right)$ when $a<t_{1}<t_{2}<b .$
+
+      Hypotheses:
+
+      - A **simple closed curve** intersects itself at its endpoints and nowhere else.
+      <p align="center">
+      ![](SVEC-13.03.13.Sy.1.jpg)
+      _Types of curves._
+      </p>
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589935775123
+  media:
+  - path: ¢{file_dir}/images/SVEC-13.03.14.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-13.03.14 Synthesis:
+      #### Vector Calculus
+      ##### The Fundamental Theorem for Line Integrals
+      ###### Independence of Path
+      Define **simply-connected region**. List its hypotheses.
+    Back: |
+      A **simply-connected region** in the plane is a connected region $D$ such that every simple closed curve in $D$ encloses only points that are in $D$.
+
+      Notice from the following figure that, intuitively speaking, a simply-connected region contains no hole and can't consist of two separate pieces.
+      <p align="center">
+      ![](SVEC-13.03.14.Sy.1.jpg)
+      </p>
+
+      Hypotheses:
+
+      - $D$ is a connected region.
+      - Every simple closed curve in $D$ encloses only points that are in $D$.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1589936177675
+  fields:
+    Front: |
+      SVEC-13.03.15 Synthesis:
+      #### Vector Calculus
+      ##### The Fundamental Theorem for Line Integrals
+      ###### Independence of Path
+      State the _unnamed_ **relationship between vector fields and component first-order partial derivatives on simply-connected regions**. List its hypotheses.
+    Back: |
+      Let $\mathbf{F}=P \mathbf{i}+Q \mathbf{j}$ be a vector field on an open simply-connected region $D$. Suppose that $P$ and $Q$ have continuous first-order derivatives and
+      $$
+      \frac{\partial P}{\partial y}=\frac{\partial Q}{\partial x} \quad \text { throughout } D
+      $$ Then $\mathbf{F}$ is conservative.
+
+      Hypotheses:
+
+      - $D$ is an open simply-connected region.
+      - $\mathbf{F}=P \mathbf{i}+Q \mathbf{j}$ is a vector field on $D.$
+      - $P$ and $Q$ have continuous first-order derivatives.
+      - $\frac{\partial P}{\partial y}=\frac{\partial Q}{\partial x}$ throughout $D.$
+    Annotations: ''
+  tags:
+  - Theorem

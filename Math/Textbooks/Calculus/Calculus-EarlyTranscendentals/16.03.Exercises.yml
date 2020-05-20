@@ -1,0 +1,446 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-16-VectorCalculus
+  - CET-16.03-TheFundamentalTheoremForLineIntegrals
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589937690192
+  fields:
+    Front: |
+      CET-16.03-01 Exercise:
+      #### Vector Calculus
+      ##### The Fundamental Theorem for Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589937690484
+  fields:
+    Front: |
+      CET-16.03-02 Exercise:
+      #### Vector Calculus
+      ##### The Fundamental Theorem for Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589937690788
+  fields:
+    Front: |
+      CET-16.03-03 Exercise:
+      #### Vector Calculus
+      ##### The Fundamental Theorem for Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589937691088
+  fields:
+    Front: |
+      CET-16.03-04 Exercise:
+      #### Vector Calculus
+      ##### The Fundamental Theorem for Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589937691378
+  fields:
+    Front: |
+      CET-16.03-05 Exercise:
+      #### Vector Calculus
+      ##### The Fundamental Theorem for Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589937691671
+  fields:
+    Front: |
+      CET-16.03-06 Exercise:
+      #### Vector Calculus
+      ##### The Fundamental Theorem for Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589937692008
+  fields:
+    Front: |
+      CET-16.03-07 Exercise:
+      #### Vector Calculus
+      ##### The Fundamental Theorem for Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589937692273
+  fields:
+    Front: |
+      CET-16.03-08 Exercise:
+      #### Vector Calculus
+      ##### The Fundamental Theorem for Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589937692588
+  fields:
+    Front: |
+      CET-16.03-09 Exercise:
+      #### Vector Calculus
+      ##### The Fundamental Theorem for Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589937692888
+  fields:
+    Front: |
+      CET-16.03-10 Exercise:
+      #### Vector Calculus
+      ##### The Fundamental Theorem for Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589937693191
+  fields:
+    Front: |
+      CET-16.03-11 Exercise:
+      #### Vector Calculus
+      ##### The Fundamental Theorem for Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589937693497
+  fields:
+    Front: |
+      CET-16.03-12 Exercise:
+      #### Vector Calculus
+      ##### The Fundamental Theorem for Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589937693804
+  fields:
+    Front: |
+      CET-16.03-13 Exercise:
+      #### Vector Calculus
+      ##### The Fundamental Theorem for Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589937694075
+  fields:
+    Front: |
+      CET-16.03-14 Exercise:
+      #### Vector Calculus
+      ##### The Fundamental Theorem for Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589937694369
+  fields:
+    Front: |
+      CET-16.03-15 Exercise:
+      #### Vector Calculus
+      ##### The Fundamental Theorem for Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589937694671
+  fields:
+    Front: |
+      CET-16.03-16 Exercise:
+      #### Vector Calculus
+      ##### The Fundamental Theorem for Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589937694988
+  fields:
+    Front: |
+      CET-16.03-17 Exercise:
+      #### Vector Calculus
+      ##### The Fundamental Theorem for Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589937695304
+  fields:
+    Front: |
+      CET-16.03-18 Exercise:
+      #### Vector Calculus
+      ##### The Fundamental Theorem for Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589937695574
+  fields:
+    Front: |
+      CET-16.03-19 Exercise:
+      #### Vector Calculus
+      ##### The Fundamental Theorem for Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589937695908
+  fields:
+    Front: |
+      CET-16.03-20 Exercise:
+      #### Vector Calculus
+      ##### The Fundamental Theorem for Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589937696188
+  fields:
+    Front: |
+      CET-16.03-21 Exercise:
+      #### Vector Calculus
+      ##### The Fundamental Theorem for Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589937696471
+  fields:
+    Front: |
+      CET-16.03-22 Exercise:
+      #### Vector Calculus
+      ##### The Fundamental Theorem for Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589937696788
+  fields:
+    Front: |
+      CET-16.03-23 Exercise:
+      #### Vector Calculus
+      ##### The Fundamental Theorem for Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589937697123
+  fields:
+    Front: |
+      CET-16.03-24 Exercise:
+      #### Vector Calculus
+      ##### The Fundamental Theorem for Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589937697421
+  fields:
+    Front: |
+      CET-16.03-25 Exercise:
+      #### Vector Calculus
+      ##### The Fundamental Theorem for Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589937697723
+  fields:
+    Front: |
+      CET-16.03-26 Exercise:
+      #### Vector Calculus
+      ##### The Fundamental Theorem for Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589937698021
+  fields:
+    Front: |
+      CET-16.03-27 Exercise:
+      #### Vector Calculus
+      ##### The Fundamental Theorem for Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589937698293
+  fields:
+    Front: |
+      CET-16.03-28 Exercise:
+      #### Vector Calculus
+      ##### The Fundamental Theorem for Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589937698621
+  fields:
+    Front: |
+      CET-16.03-29 Exercise:
+      #### Vector Calculus
+      ##### The Fundamental Theorem for Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589937698904
+  fields:
+    Front: |
+      CET-16.03-30 Exercise:
+      #### Vector Calculus
+      ##### The Fundamental Theorem for Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589937699229
+  fields:
+    Front: |
+      CET-16.03-31 Exercise:
+      #### Vector Calculus
+      ##### The Fundamental Theorem for Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589937699548
+  fields:
+    Front: |
+      CET-16.03-32 Exercise:
+      #### Vector Calculus
+      ##### The Fundamental Theorem for Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589937699838
+  fields:
+    Front: |
+      CET-16.03-33 Exercise:
+      #### Vector Calculus
+      ##### The Fundamental Theorem for Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589937700172
+  fields:
+    Front: |
+      CET-16.03-34 Exercise:
+      #### Vector Calculus
+      ##### The Fundamental Theorem for Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589937700456
+  fields:
+    Front: |
+      CET-16.03-35 Exercise:
+      #### Vector Calculus
+      ##### The Fundamental Theorem for Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1589937700771
+  fields:
+    Front: |
+      CET-16.03-36 Exercise:
+      #### Vector Calculus
+      ##### The Fundamental Theorem for Line Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
