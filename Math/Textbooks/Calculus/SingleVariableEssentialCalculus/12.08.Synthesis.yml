@@ -21,10 +21,10 @@ notes:
       List the multiple-integral variable change definitions and theorems.
     Back: |
       Def: **transformation**, **$C^1$ transformation**, **point image**, **set image**, **one-to-one**, **inverse transformation**
-      Def: **Jacobian** in two dimensions
+      Def: **Jacobian determinant** in two dimensions
       Thm: **Change of Variables in a Double Integral**
       ###### Triple Integrals
-      Def: **Jacobian** in three dimensions
+      Def: **Jacobian determinant** in three dimensions
       Thm: _unnamed_ **change of variables in a triple integral**
     Annotations: ''
   tags:
@@ -74,9 +74,9 @@ notes:
       SVEC-12.08.03 Synthesis:
       #### Multiple Integrals
       ##### Change of Variables in Multiple Integrals
-      Define **Jacobian** in two dimensions. List its hypotheses.
+      Define **Jacobian determinant** in two dimensions. List its hypotheses.
     Back: |
-      The Jacobian of the transformation $T$ given by $x=g(u, v)$ and $y=h(u, v)$ is
+      The Jacobian determinant of the transformation $T$ given by $x=g(u, v)$ and $y=h(u, v)$ is
       $$
       \frac{\partial(x, y)}{\partial(u, v)}=\left|\begin{array}{cc}\frac{\partial x}{\partial u} & \frac{\partial x}{\partial v} \\ \frac{\partial y}{\partial u} & \frac{\partial y}{\partial v}\end{array}\right|=\frac{\partial x}{\partial u} \frac{\partial y}{\partial v}-\frac{\partial x}{\partial v} \frac{\partial y}{\partial u}
       $$
@@ -95,7 +95,7 @@ notes:
       ##### Change of Variables in Multiple Integrals
       State the **Change of Variables in a Double Integral**. List its hypotheses.
     Back: |
-      Suppose that $T$ is a $C^{1}$ transformation whose Jacobian is nonzero and that maps a region $S$ in the $u v$-plane onto a region $R$ in the $x y$-plane. Suppose that $f$ is continuous on $R$ and that $R$ and $S$ are type I or type II plane regions. Suppose also that $T$ is one-to-one, except perhaps on the boundary of $S .$ Then
+      Suppose that $T$ is a $C^{1}$ transformation whose Jacobian determinant is nonzero and that maps a region $S$ in the $u v$-plane onto a region $R$ in the $x y$-plane. Suppose that $f$ is continuous on $R$ and that $R$ and $S$ are type I or type II plane regions. Suppose also that $T$ is one-to-one, except perhaps on the boundary of $S .$ Then
       $$
       \iint_{R} f(x, y) d A=\iint_{S} f(x(u, v), y(u, v))\left|\frac{\partial(x, y)}{\partial(u, v)}\right| d u d v
       $$
@@ -109,7 +109,7 @@ notes:
 
       - $T$ maps $S$ in the $uv$-plane onto $R$ in the $xy$-plane.
       - $T$ is one-to-one, except perhaps on the boundary of $S.$
-      - The Jacobian of $T$ is nonzero.
+      - The Jacobian determinant of $T$ is nonzero.
       - $T$ is a $C^{1}$ transformation.
       - $R$ and $S$ are type I or type II plane regions.
       - $f$ is continuous on $R.$
@@ -123,12 +123,12 @@ notes:
       #### Multiple Integrals
       ##### Change of Variables in Multiple Integrals
       ###### Triple Integrals
-      Define **Jacobian** in three dimensions. List its hypotheses.
+      Define **Jacobian determinant** in three dimensions. List its hypotheses.
     Back: |
       Let $T$ be a transformation that maps a region $S$ in $u v w$-space onto a region $R$ in $x y z$-space by means of the equations
       $$
       x=g(u, v, w) \quad y=h(u, v, w) \quad z=k(u, v, w)
-      $$ The Jacobian of $T$ is the following $3 \times 3$ determinant:
+      $$ The Jacobian determinant of $T$ is the following $3 \times 3$ determinant:
       $$
       \frac{\partial(x, y, z)}{\partial(u, v, w)}=\left|\begin{array}{lll}
       \frac{\partial x}{\partial u} & \frac{\partial x}{\partial v} & \frac{\partial x}{\partial w} \\
@@ -151,7 +151,7 @@ notes:
       ###### Triple Integrals
       State the _unnamed_ **change of variables in a triple integral**. List its hypotheses.
     Back: |
-      Suppose that $T$ is a $C^{1}$ transformation whose Jacobian is nonzero and that maps a region $S$ in the $uvw$-volume onto a region $R$ in the $xyz$-volume. Suppose that $f$ is continuous on $R$ and that $R$ and $S$ are type 1, 2, or 3 volume regions. Suppose also that $T$ is one-to-one, except perhaps on the boundary of $S .$ Then
+      Suppose that $T$ is a $C^{1}$ transformation whose Jacobian determinant is nonzero and that maps a region $S$ in the $uvw$-volume onto a region $R$ in the $xyz$-volume. Suppose that $f$ is continuous on $R$ and that $R$ and $S$ are type 1, 2, or 3 volume regions. Suppose also that $T$ is one-to-one, except perhaps on the boundary of $S .$ Then
       $$
       \begin{aligned}
       & \iiint_{R} f(x, y, z) d V \\
@@ -163,7 +163,7 @@ notes:
 
       - $T$ maps $S$ in the $uvw$-volume onto $R$ in the $xyz$-volume.
       - $T$ is one-to-one, except perhaps on the boundary of $S.$
-      - The Jacobian of $T$ is nonzero.
+      - The Jacobian determinant of $T$ is nonzero.
       - $T$ is a $C^{1}$ transformation.
       - $R$ and $S$ are type 1, 2, or 3 volume regions.
       - $f$ is continuous on $R.$
