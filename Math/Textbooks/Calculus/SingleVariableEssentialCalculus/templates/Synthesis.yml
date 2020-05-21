@@ -19,8 +19,8 @@
     Front: |
       SVEC-XX.XX-XX Synthesis:
       #### Vector Calculus
-      ##### Green's Theorem
-      ###### Extended Versions of Green's Theorem
+      ##### Curl and Divergence
+      ###### Vector Forms of Green's Theorem
       Define . List its hypotheses.
     Back: |
       X
@@ -43,8 +43,8 @@
     Front: |
       SVEC-XX.XX-XX Synthesis:
       #### Vector Calculus
-      ##### Green's Theorem
-      ###### Extended Versions of Green's Theorem
+      ##### Curl and Divergence
+      ###### Vector Forms of Green's Theorem
       State the . List its hypotheses.
     Back: |
       X

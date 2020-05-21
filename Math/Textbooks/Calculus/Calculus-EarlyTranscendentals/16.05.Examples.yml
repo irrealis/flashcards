@@ -1,0 +1,74 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-16-VectorCalculus
+  - CET-16.05-CurlAndDivergence
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1590105473383
+  fields:
+    Front: |
+      CET-16.05-1 Example:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590105473658
+  fields:
+    Front: |
+      CET-16.05-2 Example:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590105473927
+  fields:
+    Front: |
+      CET-16.05-3 Example:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590105474198
+  fields:
+    Front: |
+      CET-16.05-4 Example:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590105474458
+  fields:
+    Front: |
+      CET-16.05-5 Example:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

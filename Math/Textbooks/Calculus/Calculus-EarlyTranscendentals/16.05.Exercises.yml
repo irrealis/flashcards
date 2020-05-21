@@ -1,0 +1,482 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-16-VectorCalculus
+  - CET-16.05-CurlAndDivergence
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1590105474828
+  fields:
+    Front: |
+      CET-16.05-01 Exercise:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590105475108
+  fields:
+    Front: |
+      CET-16.05-02 Exercise:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590105475374
+  fields:
+    Front: |
+      CET-16.05-03 Exercise:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590105475635
+  fields:
+    Front: |
+      CET-16.05-04 Exercise:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590105475899
+  fields:
+    Front: |
+      CET-16.05-05 Exercise:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590105476158
+  fields:
+    Front: |
+      CET-16.05-06 Exercise:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590105476425
+  fields:
+    Front: |
+      CET-16.05-07 Exercise:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590105476685
+  fields:
+    Front: |
+      CET-16.05-08 Exercise:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590105476949
+  fields:
+    Front: |
+      CET-16.05-09 Exercise:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590105477208
+  fields:
+    Front: |
+      CET-16.05-10 Exercise:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590105477475
+  fields:
+    Front: |
+      CET-16.05-11 Exercise:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590105477735
+  fields:
+    Front: |
+      CET-16.05-12 Exercise:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590105478007
+  fields:
+    Front: |
+      CET-16.05-13 Exercise:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590105478265
+  fields:
+    Front: |
+      CET-16.05-14 Exercise:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590105478530
+  fields:
+    Front: |
+      CET-16.05-15 Exercise:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590105478810
+  fields:
+    Front: |
+      CET-16.05-16 Exercise:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590105479086
+  fields:
+    Front: |
+      CET-16.05-17 Exercise:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590105479364
+  fields:
+    Front: |
+      CET-16.05-18 Exercise:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590105479631
+  fields:
+    Front: |
+      CET-16.05-19 Exercise:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590105479887
+  fields:
+    Front: |
+      CET-16.05-20 Exercise:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590105480152
+  fields:
+    Front: |
+      CET-16.05-21 Exercise:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590105480414
+  fields:
+    Front: |
+      CET-16.05-22 Exercise:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590105480680
+  fields:
+    Front: |
+      CET-16.05-23 Exercise:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590105480938
+  fields:
+    Front: |
+      CET-16.05-24 Exercise:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590105481202
+  fields:
+    Front: |
+      CET-16.05-25 Exercise:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590105481473
+  fields:
+    Front: |
+      CET-16.05-26 Exercise:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590105481733
+  fields:
+    Front: |
+      CET-16.05-27 Exercise:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590105482003
+  fields:
+    Front: |
+      CET-16.05-28 Exercise:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590105482258
+  fields:
+    Front: |
+      CET-16.05-29 Exercise:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590105482524
+  fields:
+    Front: |
+      CET-16.05-30 Exercise:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590105482783
+  fields:
+    Front: |
+      CET-16.05-31 Exercise:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590105483052
+  fields:
+    Front: |
+      CET-16.05-32 Exercise:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590105483315
+  fields:
+    Front: |
+      CET-16.05-33 Exercise:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590105483582
+  fields:
+    Front: |
+      CET-16.05-34 Exercise:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590105483848
+  fields:
+    Front: |
+      CET-16.05-35 Exercise:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590105484108
+  fields:
+    Front: |
+      CET-16.05-36 Exercise:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590105484375
+  fields:
+    Front: |
+      CET-16.05-37 Exercise:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590105484636
+  fields:
+    Front: |
+      CET-16.05-38 Exercise:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590105484905
+  fields:
+    Front: |
+      CET-16.05-39 Exercise:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

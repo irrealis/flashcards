@@ -1,0 +1,349 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theory
+  - SingleVariableEssentialCalculus
+  - SVEC-13-VectorCalculus
+  - SVEC-13.05-CurlAndDivergence
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1590025224802
+  fields:
+    Front: |
+      SVEC-13.05.01 Synthesis:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      List the curl and divergence definitions and theorems.
+    Back: |
+      ###### Curl
+      Def: **curl**
+      Def: **curl** as a symbolic mnemonic
+      Thm: _unnamed_ **relationship from second-order partials to curl**
+      Thm: _unnamed_ **relationship from conservative vector fields to curl**
+      Thm: _unnamed_ **relationship from vector-field curl to conservativeness**
+      Thm: **physical interpretation of curl**
+      Def: **irrotational**
+      ###### Divergence
+      Def: **divergence**
+      Def: **divergence** as a symbolic mnemonic
+      Thm: _unnamed_ **relationship from vector-field second-order partials to div curl**
+      Thm: **physical interpretation of divergence**
+      Def: **incompressible**
+      Def: **Laplace operator**
+      ###### Vector Forms of Green's Theorem
+      Thm: **vector form of Green's Theorem in terms of curl**
+      Thm: **vector form of Green's Theorem in terms of divergence**
+    Annotations: ''
+  tags:
+  - Definitions
+  - Theorems
+- id: 1590025412297
+  fields:
+    Front: |
+      SVEC-13.05.02 Synthesis:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      ###### Curl
+      Define **curl**. List its hypotheses.
+    Back: |
+      If $\mathbf{F}=P \mathbf{i}+Q \mathbf{j}+R \mathbf{k}$ is a vector field on $\mathbb{R}^{3}$ and the partial derivatives of $P, Q,$ and $R$ all exist, then the curl of $\mathbf{F}$ is the vector field on $\mathbb{R}^{3}$ defined by
+      $$
+      \operatorname{curl} \mathbf{F}=\left(\frac{\partial R}{\partial y}-\frac{\partial Q}{\partial z}\right) \mathbf{i}+\left(\frac{\partial P}{\partial z}-\frac{\partial R}{\partial x}\right) \mathbf{j}+\left(\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y}\right) \mathbf{k}
+      $$
+
+      Hypotheses:
+
+      - $\mathbf{F}=P \mathbf{i}+Q \mathbf{j}+R \mathbf{k}$ is a vector field on $\mathbb{R}^{3}.$
+      - The partial derivatives of $P, Q,$ and $R$ all exist.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1590025677697
+  fields:
+    Front: |
+      SVEC-13.05.03 Synthesis:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      ###### Curl
+      Express **curl** as a symbolic mnemonic.
+    Back: |
+      The easiest way to remember the definition of curl is by means of the symbolic expression
+      $$
+      \operatorname{curl} \mathbf{F}=\nabla \times \mathbf{F}
+      $$ where $\nabla$ (a.k.a. "del") is expressed
+      $$
+      \nabla=\mathbf{i} \frac{\partial}{\partial x}+\mathbf{j} \frac{\partial}{\partial y}+\mathbf{k} \frac{\partial}{\partial z}
+      $$ and the symbolic cross-product resolves as
+      $$
+      \begin{aligned}
+      \nabla \times \mathbf{F} &=\left|\begin{array}{ccc}
+      \mathbf{i} & \mathbf{j} & \mathbf{k} \\
+      \frac{\partial}{\partial x} & \frac{\partial}{\partial y} & \frac{\partial}{\partial z} \\
+      P & Q & R
+      \end{array}\right|=\left(\frac{\partial R}{\partial y}-\frac{\partial Q}{\partial z}\right) \mathbf{i}+\left(\frac{\partial P}{\partial z}-\frac{\partial R}{\partial x}\right) \mathbf{j}+\left(\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y}\right) \mathbf{k} \\
+      &=\operatorname{curl} \mathbf{F}
+      \end{aligned}
+      $$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1590025945197
+  fields:
+    Front: |
+      SVEC-13.05.04 Synthesis:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      ###### Curl
+      State the _unnamed_ **relationship from second-order partials to curl**. List its hypotheses.
+    Back: |
+      If $f$ is a scalar function of three variables that has continuous second-order partial derivatives, then
+      $$
+      \operatorname{curl}(\nabla f)=\mathbf{0}
+      $$ In other words, the curl of a gradient vector field is $\mathbf{0}.$ Recall that the gradient of a scalar-valued function $f$ of three variables is a vector field on $\mathbb{R}^{3}$ and so we can compute its curl.
+
+      Hypotheses:
+
+      - $f$ is a scalar function of three variables.
+      - $f$ has continuous second-order partial derivatives.
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1590027278948
+  fields:
+    Front: |
+      SVEC-13.05.05 Synthesis:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      ###### Curl
+      State the _unnamed_ **relationship from conservative vector fields to curl**. List its hypotheses.
+    Back: |
+      If $\mathbf{F}$ is conservative, then $\operatorname{curl} \mathbf{F}=\mathbf{0}.$
+
+      This is just a restatement of the theorem that if a scalar function $f$ of three variables has continuous second-order partial derivatives, then
+      $$
+      \operatorname{curl}(\nabla f)=\mathbf{0}
+      $$ since a conservative vector field is one for which $\mathbf{F}=\nabla f$ for some function $f.$
+
+
+      Hypotheses:
+
+      - $\mathbf{F}$ is conservative.
+
+      **Questions:**
+
+      - Are there circumstances under which $\mathbf{F}$ is considered conservative on a restricted domain? (I think allowing this leads to failure of this unnamed theorem.)
+        - **Reason for question:** Consider $\nabla |x|,$ which isn't defined when $x=0.$ But if we define the vector field $$
+        \mathbf{F} = 
+        \begin{cases}
+          \left\langle -1,0,0 \right\rangle & \text{if $x<0$} \\
+          \left\langle +1,0,0 \right\rangle & \text{if $x \geqslant 0$}
+        \end{cases}
+        $$ then $\mathbf{F}$ is well defined, its curl is zero everywhere, and it equals $\nabla |x|$ except when $x=0.$ I think this exception implies $\mathbf{F}$ is not conservative, unless there are circumstances under which $\mathbf{F}$ is considered conservative on a restricted domain? But if we allow this then I think it would break certain theorems.
+        - **Probable answer:** I think this example implies that "conservative" has to apply to an entire vector space.
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1590032844723
+  fields:
+    Front: |
+      SVEC-13.05.06 Synthesis:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      ###### Curl
+      State the _unnamed_ **relationship from vector-field curl to conservativeness**. List its hypotheses.
+    Back: |
+      If $\mathbf{F}$ is a vector field defined on all of $\mathbb{R}^{3}$ whose component functions have continuous partial derivatives and $\operatorname{curl}\mathbf{F}=\mathbf{0},$ then $\mathbf{F}$ is a conservative vector field.
+
+      If $\mathbf{F}$ is conservative, then $\operatorname{curl} \mathbf{F}=\mathbf{0}.$
+
+      Thus the converse of "if $\mathbf{F}$ is conservative, then $\operatorname{curl} \mathbf{F}=\mathbf{0}$" is not true in general (see questions related to that theorem on note _SVEC-13.05.06 Synthesis_), but it _is_ true if $\mathbf{F}$ has continuous partials defined everywhere. (More generally it is true if the domain is simply-connected, that is, "has no hole.")
+
+      (This theorem is the three-dimensional version of theorem SVEC-13.03 6. Its proof requires Stokes' Theorem and is sketched at the end of SVEC-13.08.)
+
+      Hypotheses:
+
+      - $\mathbf{F}$ is a vector field defined on $\mathbb{R}^{3}.$
+      - $\mathbf{F}$ has continuous partial derivatives on $\mathbb{R}^{3}.$
+      - $\operatorname{curl}\mathbf{F}=\mathbf{0}.$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1590033147948
+  media:
+  - path: ¢{file_dir}/images/SVEC-13.05.07.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-13.05.07 Synthesis:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      ###### Curl
+      State the **physical interpretation of curl** and define **irrotational**.
+    Back: |
+      The reason for the name _curl_ is that the curl vector is associated with rotations. This occurs, for example, when $\mathbf{F}$ represents the velocity field in fluid flow. Particles near $(x, y, z)$ in the fluid tend to rotate about the axis that points in the direction of curl $\mathbf{F}(x, y, z)$ and the length of this curl vector is a measure of how quickly the particles move around the axis of this curl vector (see below).
+      <p align="center">
+      ![](SVEC-13.05.07.Sy.1.jpg)
+      </p>
+      If $\operatorname{curl} \mathbf{F}=\mathbf{0}$ at a point $P,$ then the fluid is free from rotations at $P$ and $\mathbf{F}$ is called **irrotational** at $P .$ In other words, there is no whirlpool or eddy at $P .$ If $\operatorname{curl} \mathbf{F}=\mathbf{0},$ then a tiny paddle wheel moves with the fluid but doesn't rotate about its axis. If curl $\mathbf{F} \neq \mathbf{0},$ the paddle wheel rotates about its axis.
+    Annotations: ''
+  tags:
+  - Definition
+  - Theorem
+- id: 1590102935635
+  fields:
+    Front: |
+      SVEC-13.05.08 Synthesis:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      ###### Divergence
+      Define **divergence**. List its hypotheses.
+    Back: |
+      If $\mathbf{F}=P \mathbf{i}+Q \mathbf{j}+R \mathbf{k}$ is a vector field on $\mathbb{R}^{3}$ and $\partial P / \partial x,$ $\partial Q / \partial y,$ and $\partial R / \partial z$ exist then the **divergence of $\mathbf{F}$** is the function of three variables defined by
+      $$
+      \operatorname{div} \mathbf{F}=\frac{\partial P}{\partial x}+\frac{\partial Q}{\partial y}+\frac{\partial R}{\partial z}
+      $$
+
+      Hypotheses:
+
+      - $\mathbf{F}=P \mathbf{i}+Q \mathbf{j}+R \mathbf{k}$ is a vector field on $\mathbb{R}^{3}$.
+      - $\partial P / \partial x,$ $\partial Q / \partial y,$ and $\partial R / \partial z$ exist.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1590103127985
+  fields:
+    Front: |
+      SVEC-13.05.09 Synthesis:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      ###### Divergence
+      Express **divergence** as a symbolic mnemonic.
+    Back: |
+      In terms of the gradient operator $\nabla=(\partial / \partial x) \mathbf{i}+(\partial / \partial y) \mathbf{j}+(\partial / \partial z) \mathbf{k},$ the divergence of $\mathbf{F}$ can be written symbolically as the dot product of $\nabla$ and $\mathbf{F}:$
+      $$
+      \operatorname{div} \mathbf{F}=\nabla \cdot \mathbf{F}
+      $$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1590103346310
+  fields:
+    Front: |
+      SVEC-13.05.10 Synthesis:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      ###### Divergence
+      State the _unnamed_ **relationship from vector-field second-order partials to div curl**. List its hypotheses.
+    Back: |
+      If $\mathbf{F}=P \mathbf{i}+Q \mathbf{j}+R \mathbf{k}$ is a vector field on $\mathbb{R}^{3}$ and $P,$ $Q,$ and $R$ have continuous second-order partial derivatives, then
+      $$
+      \operatorname{div} \operatorname{curl} \mathbf{F}=0
+      $$
+
+      Hypotheses:
+
+      - $\mathbf{F}=P \mathbf{i}+Q \mathbf{j}+R \mathbf{k}$ is a vector field on $\mathbb{R}^{3}.$
+      - $P,$ $Q,$ and $R$ have continuous second-order partial derivatives.
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1590103518135
+  fields:
+    Front: |
+      SVEC-13.05.11 Synthesis:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      ###### Divergence
+      State the **physical interpretation of divergence** and define **incompressible**.
+    Back: |
+      The reason for the name _divergence_ can be understood in the context of fluid flow. If $\mathbf{F}(x, y, z)$ is the velocity of a fluid (or gas), then $\operatorname{div} \mathbf{F}(x, y, z)$ represents the net rate of change (with respect to time) of the mass of fluid (or gas) flowing from the point $(x, y, z)$ per unit volume. In other words, $\operatorname{div} \mathbf{F}(x, y, z)$ measures the tendency of the fluid to diverge from the point $(x, y, z) .$ If $\operatorname{div} \mathbf{F}=0,$ then $\mathbf{F}$ is said to be **incompressible**.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1590103756083
+  fields:
+    Front: |
+      SVEC-13.05.12 Synthesis:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      ###### Divergence
+      Define **Laplace operator**.
+    Back: |
+      If $f$ is a function of three variables, we have
+      $$
+      \operatorname{div}(\nabla f)=\nabla \cdot(\nabla f)=\frac{\partial^{2} f}{\partial x^{2}}+\frac{\partial^{2} f}{\partial y^{2}}+\frac{\partial^{2} f}{\partial z^{2}}
+      $$ and this expression occurs so often that we abbreviate it as $\nabla^{2} f .$ The operator
+      $$
+      \nabla^{2}=\nabla \cdot \nabla
+      $$ is called the **Laplace operator** because of its relation to **Laplace's equation**
+      $$
+      \nabla^{2} f=\frac{\partial^{2} f}{\partial x^{2}}+\frac{\partial^{2} f}{\partial y^{2}}+\frac{\partial^{2} f}{\partial z^{2}}=0
+      $$ We can also apply the Laplace operator $\nabla^{2}$ to a vector field
+      $$
+      \mathbf{F}=P \mathbf{i}+Q \mathbf{j}+R \mathbf{k}
+      $$ in terms of its components:
+      $$
+      \nabla^{2} \mathbf{F}=\nabla^{2} P \mathbf{i}+\nabla^{2} Q \mathbf{j}+\nabla^{2} R \mathbf{k}
+      $$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1590104429558
+  fields:
+    Front: |
+      SVEC-13.05.13 Synthesis:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      ###### Vector Forms of Green's Theorem
+      State the **vector form of Green's Theorem in terms of curl**. List its hypotheses.
+    Back: |
+      Suppose that the plane region $D$, its boundary curve $C,$ and the functions $P$ and $Q$ satisfy the hypotheses of Green's Theorem. If $\mathbf{F}=P \mathbf{i}+Q \mathbf{j}$ is a vector field on $\mathbb{R}^2$ then, regarding $\mathbf{F}$ as a vector field on $\mathbb{R}^{3}$ with third component $0,$ we can rewrite the equation in Green's Theorem in the vector form
+      $$
+      \oint_{C} \mathbf{F} \cdot d \mathbf{r}=\iint_{D}(\operatorname{curl} \mathbf{F}) \cdot \mathbf{k} d A
+      $$ This expresses the line integral of the _tangential_ component of $\mathbf{F}$ along $C$ as the double integral of the vertical component of curl $\mathbf{F}$ over the region $D$ enclosed by $C .$
+
+      Hypotheses:
+
+      - $C$ is a positively oriented, piecewise-smooth, simple closed curve in the plane.
+      - $D$ is the region bounded by $C.$
+      - $P$ and $Q$ have continuous partial derivatives on an open region that contains $D.$
+      - $\mathbf{F}=P \mathbf{i}+Q \mathbf{j}$ is a vector field on $\mathbb{R}^2.$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1590104979959
+  fields:
+    Front: |
+      SVEC-13.05.14 Synthesis:
+      #### Vector Calculus
+      ##### Curl and Divergence
+      ###### Vector Forms of Green's Theorem
+      State the **vector form of Green's Theorem in terms of divergence**. List its hypotheses.
+    Back: |
+      Suppose that the plane region $D$, its boundary curve $C,$ and the functions $P$ and $Q$ satisfy the hypotheses of Green's Theorem. If $C$ is given by the vector equation
+      $$
+      \mathbf{r}(t)=x(t) \mathbf{i}+y(t) \mathbf{j} \quad a \leqslant t \leqslant b
+      $$ then the unit tangent vector is
+      $$
+      \mathbf{T}(t)=\frac{x^{\prime}(t)}{\left|\mathbf{r}^{\prime}(t)\right|} \mathbf{i}+\frac{y^{\prime}(t)}{\left|\mathbf{r}^{\prime}(t)\right|} \mathbf{j}
+      $$ and the outward unit normal vector to $C$ is given by
+      $$
+      \mathbf{n}(t)=\frac{y^{\prime}(t)}{\left|\mathbf{r}^{\prime}(t)\right|} \mathbf{i}-\frac{x^{\prime}(t)}{\left|\mathbf{r}^{\prime}(t)\right|} \mathbf{j}
+      $$ If $\mathbf{F}=P \mathbf{i}+Q \mathbf{j}$ is a vector field on $\mathbb{R}^2$ then we can rewrite the equation in Green's Theorem in the vector form
+      $$
+      \oint_{C} \mathbf{F} \cdot \mathbf{n} d s=\iint_{D} \operatorname{div} \mathbf{F}(x, y) d A
+      $$ This says that the line integral of the _normal_ component of $\mathbf{F}$ along $C$ is equal to the double integral of the divergence of $\mathbf{F}$ over the region $D$ enclosed by $C.$
+
+      Hypotheses:
+
+      - $C$ is a positively oriented, piecewise-smooth, simple closed curve in the plane.
+      - $D$ is the region bounded by $C.$
+      - $P$ and $Q$ have continuous partial derivatives on an open region that contains $D.$
+      - $\mathbf{F}=P \mathbf{i}+Q \mathbf{j}$ is a vector field on $\mathbb{R}^2.$
+    Annotations: ''
+  tags:
+  - Theorem
