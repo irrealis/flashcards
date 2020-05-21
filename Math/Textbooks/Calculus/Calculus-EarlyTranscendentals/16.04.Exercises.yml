@@ -1,0 +1,386 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-16-VectorCalculus
+  - CET-16.04-GreensTheorem
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1590022961248
+  fields:
+    Front: |
+      CET-16.04-01 Exercise:
+      #### Vector Calculus
+      ##### Green's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590022961570
+  fields:
+    Front: |
+      CET-16.04-02 Exercise:
+      #### Vector Calculus
+      ##### Green's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590022961836
+  fields:
+    Front: |
+      CET-16.04-03 Exercise:
+      #### Vector Calculus
+      ##### Green's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590022962154
+  fields:
+    Front: |
+      CET-16.04-04 Exercise:
+      #### Vector Calculus
+      ##### Green's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590022962469
+  fields:
+    Front: |
+      CET-16.04-05 Exercise:
+      #### Vector Calculus
+      ##### Green's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590022962752
+  fields:
+    Front: |
+      CET-16.04-06 Exercise:
+      #### Vector Calculus
+      ##### Green's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590022963036
+  fields:
+    Front: |
+      CET-16.04-07 Exercise:
+      #### Vector Calculus
+      ##### Green's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590022963339
+  fields:
+    Front: |
+      CET-16.04-08 Exercise:
+      #### Vector Calculus
+      ##### Green's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590022963636
+  fields:
+    Front: |
+      CET-16.04-09 Exercise:
+      #### Vector Calculus
+      ##### Green's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590022963936
+  fields:
+    Front: |
+      CET-16.04-10 Exercise:
+      #### Vector Calculus
+      ##### Green's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590022964222
+  fields:
+    Front: |
+      CET-16.04-11 Exercise:
+      #### Vector Calculus
+      ##### Green's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590022964519
+  fields:
+    Front: |
+      CET-16.04-12 Exercise:
+      #### Vector Calculus
+      ##### Green's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590022964803
+  fields:
+    Front: |
+      CET-16.04-13 Exercise:
+      #### Vector Calculus
+      ##### Green's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590022965089
+  fields:
+    Front: |
+      CET-16.04-14 Exercise:
+      #### Vector Calculus
+      ##### Green's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590022965386
+  fields:
+    Front: |
+      CET-16.04-15 Exercise:
+      #### Vector Calculus
+      ##### Green's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590022965690
+  fields:
+    Front: |
+      CET-16.04-16 Exercise:
+      #### Vector Calculus
+      ##### Green's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590022966053
+  fields:
+    Front: |
+      CET-16.04-17 Exercise:
+      #### Vector Calculus
+      ##### Green's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590022966336
+  fields:
+    Front: |
+      CET-16.04-18 Exercise:
+      #### Vector Calculus
+      ##### Green's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590022966670
+  fields:
+    Front: |
+      CET-16.04-19 Exercise:
+      #### Vector Calculus
+      ##### Green's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590022966973
+  fields:
+    Front: |
+      CET-16.04-20 Exercise:
+      #### Vector Calculus
+      ##### Green's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590022967303
+  fields:
+    Front: |
+      CET-16.04-21 Exercise:
+      #### Vector Calculus
+      ##### Green's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590022967620
+  fields:
+    Front: |
+      CET-16.04-22 Exercise:
+      #### Vector Calculus
+      ##### Green's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590022967903
+  fields:
+    Front: |
+      CET-16.04-23 Exercise:
+      #### Vector Calculus
+      ##### Green's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590022968221
+  fields:
+    Front: |
+      CET-16.04-24 Exercise:
+      #### Vector Calculus
+      ##### Green's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590022968570
+  fields:
+    Front: |
+      CET-16.04-25 Exercise:
+      #### Vector Calculus
+      ##### Green's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590022968890
+  fields:
+    Front: |
+      CET-16.04-26 Exercise:
+      #### Vector Calculus
+      ##### Green's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590022969175
+  fields:
+    Front: |
+      CET-16.04-27 Exercise:
+      #### Vector Calculus
+      ##### Green's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590022969490
+  fields:
+    Front: |
+      CET-16.04-28 Exercise:
+      #### Vector Calculus
+      ##### Green's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590022969770
+  fields:
+    Front: |
+      CET-16.04-29 Exercise:
+      #### Vector Calculus
+      ##### Green's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590022970104
+  fields:
+    Front: |
+      CET-16.04-30 Exercise:
+      #### Vector Calculus
+      ##### Green's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590022970388
+  fields:
+    Front: |
+      CET-16.04-31 Exercise:
+      #### Vector Calculus
+      ##### Green's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

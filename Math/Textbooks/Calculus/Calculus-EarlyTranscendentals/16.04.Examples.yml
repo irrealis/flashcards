@@ -1,0 +1,74 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-16-VectorCalculus
+  - CET-16.04-GreensTheorem
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1590022959697
+  fields:
+    Front: |
+      CET-16.04-1 Example:
+      #### Vector Calculus
+      ##### Green's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590022959986
+  fields:
+    Front: |
+      CET-16.04-2 Example:
+      #### Vector Calculus
+      ##### Green's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590022960302
+  fields:
+    Front: |
+      CET-16.04-3 Example:
+      #### Vector Calculus
+      ##### Green's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590022960603
+  fields:
+    Front: |
+      CET-16.04-4 Example:
+      #### Vector Calculus
+      ##### Green's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590022960886
+  fields:
+    Front: |
+      CET-16.04-5 Example:
+      #### Vector Calculus
+      ##### Green's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

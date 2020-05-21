@@ -1,0 +1,227 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theory
+  - SingleVariableEssentialCalculus
+  - SVEC-13-VectorCalculus
+  - SVEC-13.04-GreensTheorem
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1589941730814
+  fields:
+    Front: |
+      SVEC-13.04.01 Synthesis:
+      #### Vector Calculus
+      ##### Green's Theorem
+      List the theorems and definitions related to Green's Theorem.
+    Back: |
+      Def: **positive orientation**
+      Thm: **Green's Theorem**
+      Thm: **relationship between Green's Theorem and the Fundamental Theorem of Calculus**
+      Def: **simple region**
+      Thm: _unnamed_ **procedure to compute area using Green's Theorem**
+      ###### Extended Versions of Green's Theorem
+      Thm: **Green's Theorem extended to finite unions of simple regions**
+      Thm: **Green's Theorem extended to regions with holes**
+    Annotations: ''
+  tags:
+  - Definitions
+  - Theorems
+- id: 1590001659974
+  media:
+  - path: ¢{file_dir}/images/SVEC-13.04.02.Sy.1.jpg
+  - path: ¢{file_dir}/images/SVEC-13.04.02.Sy.2.jpg
+  fields:
+    Front: |
+      SVEC-13.04.02 Synthesis:
+      #### Vector Calculus
+      ##### Green's Theorem
+      Define . List its hypotheses.
+    Back: |
+      The **positive orientation** of a simple closed curve $C$ refers to a _single counterclockwise traversal_ of $C .$ Thus if $C$ is given by the vector function $\mathbf{r}(t), a \leqslant t \leqslant b,$ then the region $D$ is always on the left as the point $\mathbf{r}(t)$ traverses $C.$ (See figure below.)
+      <p align="center">
+      ![](SVEC-13.04.02.Sy.1.jpg)
+      _Positive orientation._
+      </p>
+      <p align="center">
+      ![](SVEC-13.04.02.Sy.2.jpg)
+      _Negative orientation._
+      </p>
+
+      Hypotheses:
+
+      - $C$ is traversed once.
+      - $C$ is traversed counterclockwise.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1590001858822
+  fields:
+    Front: |
+      SVEC-13.04.03 Synthesis:
+      #### Vector Calculus
+      ##### Green's Theorem
+      State **Green's Theorem**. List its hypotheses.
+    Back: |
+      Let $C$ be a positively oriented, piecewise-smooth, simple closed curve in the plane and let $D$ be the region bounded by $C .$ If $P$ and $Q$ have continuous partial derivatives on an open region that contains $D$, then
+      $$
+      \int_{C} P d x+Q d y=\iint_{D}\left(\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y}\right) d A
+      $$
+
+      Recall that the left side of this equation is another way of writing $\int_{C} \mathbf{F} \cdot d \mathbf{r}$ where $\mathbf{F}=P \mathbf{i}+Q \mathbf{j}.$
+
+      The notation
+      $$
+      \oint_{C} P d x+Q d y
+      $$ is sometimes used to indicate that the line integral is calculated using the positive orientation of the closed curve $C .$ Another notation for the positively oriented boundary curve of $D$ is $\partial D,$ so the equation in Green's Theorem can be written as
+      $$
+      \iint_{D}\left(\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y}\right) d A=\int_{\partial D} P d x+Q d y
+      $$
+
+      Hypotheses:
+
+      - $C$ is a positively oriented, piecewise-smooth, simple closed curve in the plane.
+      - $D$ is the region bounded by $C.$
+      - $P$ and $Q$ have continuous partial derivatives on an open region that contains $D.$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1590003440922
+  fields:
+    Front: |
+      SVEC-13.04.04 Synthesis:
+      #### Vector Calculus
+      ##### Green's Theorem
+      State the **relationship between Green's Theorem and the Fundamental Theorem of Calculus**.
+    Back: |
+      Green's Theorem should be regarded as the counterpart of the Fundamental Theorem of Calculus for double integrals. Compare the statement of Green's Theorem, below,
+      $$
+      \iint_{D}\left(\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y}\right) d A=\int_{\partial D} P d x+Q d y
+      $$ with the statement of the Fundamental Theorem of Calculus, Part 2, in the following equation:
+      $$
+      \int_{a}^{b} F^{\prime}(x) d x=F(b)-F(a)
+      $$ In both cases there is an integral involving derivatives ($F^{\prime},$ $\partial Q / \partial x,$ and $\partial P / \partial y$) on the left side of the equation. And in both cases the right side involves the values of the original functions ($F,$ $Q,$ and $P$) only on the boundary of the domain. (In the one-dimensional case, the domain is an interval $[a, b]$ whose boundary consists of just two points, $a$ and $b.$)
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1590004358047
+  fields:
+    Front: |
+      SVEC-13.04.05 Synthesis:
+      #### Vector Calculus
+      ##### Green's Theorem
+      Define **simple region**. List its hypotheses.
+    Back: |
+      A **simple region** is a region of both type I and type II. This means it can be expressed as
+      $$
+      D = \{(x, y) \,|\, g_1(x) \leqslant y \leqslant g_2(x), h_1(y) \leqslant x \leqslant h_2(y)\}
+      $$ where $g_1,$ $g_2,$ $h_1,$ and $h_2$ are continuous.
+
+      Hypotheses:
+      $$
+      D = \{(x, y) \,|\, g_1(x) \leqslant y \leqslant g_2(x), h_1(y) \leqslant x \leqslant h_2(y)\}
+      $$ where $g_1,$ $g_2,$ $h_1,$ and $h_2$ are continuous.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1590005040724
+  fields:
+    Front: |
+      SVEC-13.04.06 Synthesis:
+      #### Vector Calculus
+      ##### Green's Theorem
+      State the _unnamed_ **procedure to compute area using Green's Theorem**. List its hypotheses.
+    Back: |
+      The reverse direction of Green's Theorem can be used in computing areas. since the area of $D$ is $\iint_{D} 1 d A,$ we wish to choose $P$ and $Q$ so that
+      $$
+      \frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y}=1
+      $$ There are several possibilities:
+      $$
+      \begin{array}{lll}
+      P(x, y)=0 & P(x, y)=-y & P(x, y)=-\frac{1}{2} y \\
+      Q(x, y)=x & Q(x, y)=0 & Q(x, y)=\frac{1}{2} x
+      \end{array}
+      $$ Then Green's Theorem gives the following formulas for the area of $D:$
+      $$
+      A=\oint_{C} x d y, \quad A=-\oint_{C} y d x, \quad A=\frac{1}{2} \oint_{C} x d y-y d x
+      $$
+
+      Hypotheses:
+      $$
+      \frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y}=1
+      $$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1590006052124
+  media:
+  - path: ¢{file_dir}/images/SVEC-13.04.07.Sy.1.jpg
+  - path: ¢{file_dir}/images/SVEC-13.04.07.Sy.2.jpg
+  fields:
+    Front: |
+      SVEC-13.04.07 Synthesis:
+      #### Vector Calculus
+      ##### Green's Theorem
+      ###### Extended Versions of Green's Theorem
+      State **Green's Theorem extended to finite unions of simple regions**. List its hypotheses.
+    Back: |
+      Suppose $D$ is the simply-connected finite union of nonoverlapping simple regions shown below.
+      <p align="center">
+      ![](SVEC-13.04.07.Sy.1.jpg)
+      </p>
+      We can extend Green's Theorem to this case:
+      $$
+      \int_{C_{1} \cup C_{2}} P d x+Q d y=\iint_{D}\left(\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y}\right) d A
+      $$ which is Green's Theorem for $D=D_{1} \cup D_{2},$ since its boundary is $C=C_{1} \cup C_{2}.$ The same sort of argument allows us to establish Green's Theorem for any finite union of nonoverlapping simple regions (see figure below).
+      <p align="center">
+      ![](SVEC-13.04.07.Sy.2.jpg)
+      </p>
+
+      Hypotheses:
+
+      - $D$ is the simply-connected finite union of nonoverlapping simple regions.
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1590022588498
+  media:
+  - path: ¢{file_dir}/images/SVEC-13.04.08.Sy.1.jpg
+  - path: ¢{file_dir}/images/SVEC-13.04.08.Sy.2.jpg
+  fields:
+    Front: |
+      SVEC-13.04.08 Synthesis:
+      #### Vector Calculus
+      ##### Green's Theorem
+      ###### Extended Versions of Green's Theorem
+      State **Green's Theorem extended to regions with holes**. List its hypotheses.
+    Back: |
+      Green's Theorem can be extended to apply to regions with holes, that is, regions that are not simply-connected. Observe that the boundary $C$ of the region $D$ in the following figure consists of two simple closed curves $C_{1}$ and $C_{2} .$
+      <p align="center">
+      ![](SVEC-13.04.08.Sy.1.jpg)
+      </p>
+      We assume that these boundary curves are oriented so that the region $D$ is always on the left as the curve $C$ is traversed. Thus the positive direction is counterclockwise for the outer curve $C_{1}$ but clockwise for the inner curve $C_{2}$. If we divide $D$ into two regions $D^{\prime}$ and $D^{\prime \prime}$ by means of the lines shown in the figure below,
+      <p align="center">
+      ![](SVEC-13.04.08.Sy.2.jpg)
+      </p>
+      and then apply Green's Theorem to each of $D^{\prime}$ and $D^{\prime \prime}$ we get
+      $$
+      \begin{aligned}
+      \iint_{D}\left(\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y}\right) d A &=\iint_{D^{\prime}}\left(\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y}\right) d A+\iint_{D^{\prime \prime}}\left(\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y}\right) d A \\
+      &=\int_{\partial D^{\prime}} P d x+Q d y+\int_{\partial D^{\prime \prime}} P d x+Q d y
+      \end{aligned}
+      $$ Since the line integrals along the common boundary lines are in opposite directions, they cancel and we get
+      $$
+      \iint_{D}\left(\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y}\right) d A=\int_{C_{1}} P d x+Q d y+\int_{C_{2}} P d x+Q d y=\int_{C} P d x+Q d y
+      $$ which is Green's Theorem for the region $D.$
+
+      Hypotheses:
+
+      - 
+    Annotations: ''
+  tags:
+  - Theorem
