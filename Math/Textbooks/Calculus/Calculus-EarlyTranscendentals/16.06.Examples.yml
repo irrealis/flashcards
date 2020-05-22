@@ -1,0 +1,146 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-16-VectorCalculus
+  - CET-16.06-ParametricSurfacesAndTheirAreas
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1590110331659
+  fields:
+    Front: |
+      CET-16.06-01 Example:
+      #### Vector Calculus
+      ##### Parametric Surfaces and Their Areas
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590110331964
+  fields:
+    Front: |
+      CET-16.06-02 Example:
+      #### Vector Calculus
+      ##### Parametric Surfaces and Their Areas
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590110332242
+  fields:
+    Front: |
+      CET-16.06-03 Example:
+      #### Vector Calculus
+      ##### Parametric Surfaces and Their Areas
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590110332542
+  fields:
+    Front: |
+      CET-16.06-04 Example:
+      #### Vector Calculus
+      ##### Parametric Surfaces and Their Areas
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590110332841
+  fields:
+    Front: |
+      CET-16.06-05 Example:
+      #### Vector Calculus
+      ##### Parametric Surfaces and Their Areas
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590110333125
+  fields:
+    Front: |
+      CET-16.06-06 Example:
+      #### Vector Calculus
+      ##### Parametric Surfaces and Their Areas
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590110333442
+  fields:
+    Front: |
+      CET-16.06-07 Example:
+      #### Vector Calculus
+      ##### Parametric Surfaces and Their Areas
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590110333742
+  fields:
+    Front: |
+      CET-16.06-08 Example:
+      #### Vector Calculus
+      ##### Parametric Surfaces and Their Areas
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590110334009
+  fields:
+    Front: |
+      CET-16.06-09 Example:
+      #### Vector Calculus
+      ##### Parametric Surfaces and Their Areas
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590110334293
+  fields:
+    Front: |
+      CET-16.06-10 Example:
+      #### Vector Calculus
+      ##### Parametric Surfaces and Their Areas
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590110334576
+  fields:
+    Front: |
+      CET-16.06-11 Example:
+      #### Vector Calculus
+      ##### Parametric Surfaces and Their Areas
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
