@@ -1,0 +1,482 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theory
+  - SingleVariableEssentialCalculus
+  - SVEC-13-VectorCalculus
+  - SVEC-13.07-SurfaceIntegrals
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1590184804808
+  fields:
+    Front: |
+      SVEC-13.07.01 Synthesis:
+      #### Vector Calculus
+      ##### Surface Integrals
+      List the surface-integral definitions and theorems.
+    Back: |
+      ###### Parametric Surfaces
+      Def: **surface integral**
+      Thm: _unnamed_ **surface integral evaluation theorem**
+      Thm: _unnamed_ **surface-area formula**
+      Def: **mass** and **center of mass** of a sheet
+      ###### Graphs
+      Thm: _unnamed_ **graph surface integral**
+      Def: **piecewise-smooth surface**
+      Thm: _unnamed_ **piecewise-smooth surface integral formula**
+      ###### Oriented Surfaces
+      Def: **oriented surface** and **orientation**
+      Thm: _unnamed_ **natural orientation equation**
+      Def: **upward orientation**
+      Def: **closed surface**
+      Def: **positive orientation** and **negative orientation**
+      ###### Surface Integrals of Vector Fields
+      Def: **surface integral of a vector field** and give common alternate names
+      Thm: **physical interpretation of surface integral of a vector field**
+      Thm: _unnamed_ **formula for parametric-surface integral of a vector field**
+      Thm: _unnamed_ **formula for graph-surface integral of a vector field**
+      Def: **electric flux**
+      Thm: **Gauss's Law**
+      Def: **heat flow** and **conductivity**
+    Annotations: ''
+  tags:
+  - Definitions
+  - Theorems
+- id: 1590185246833
+  media:
+  - path: ¢{file_dir}/images/SVEC-13.07.02.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-13.07.02 Synthesis:
+      #### Vector Calculus
+      ##### Surface Integrals
+      ###### Parametric Surfaces
+      Define **surface integral**. List its hypotheses.
+    Back: |
+      Suppose surface $S$ has vector equation
+      $$
+      \mathbf{r}(u, v)=x(u, v) \mathbf{i}+y(u, v) \mathbf{j}+z(u, v) \mathbf{k} \quad(u, v) \in D
+      $$ We assume the parameter domain $D$ is a rectangle, and divide it into subrectangles $R_{i j}$ with dimensions $\Delta u_{i}$ and $\Delta v_{j} .$ Then the surface $S$ is divided into corresponding patches $S_{i j}$ as in the figure below.
+      <p align="center">
+      ![](SVEC-13.07.02.Sy.1.jpg)
+      </p>
+      We evaluate $f$ at a point $P_{i j}^{*}$ in each patch, multiply by the area $\Delta S_{i j}$ of the patch, and form the Riemann sum
+      $$
+      \sum_{i=1}^{m} \sum_{j=1}^{n} f\left(P_{i j}^{*}\right) \Delta S_{i j}
+      $$ We take the limit as the number of patches increases (and their dimensions decrease and define the **surface integral of $f$ over the surface $S$** as
+      $$
+      \iint_{S} f(x, y, z) d S=\lim _{\max \Delta u_{i}, \Delta v_{j} \rightarrow 0} \sum_{i=1}^{m} \sum_{j=1}^{n} f\left(P_{i j}^{*}\right) \Delta S_{i j}
+      $$ Notice the analogy with the definition of a line integral and also with the definition of a double integral.
+
+      Hypotheses:
+
+      - Parameter domain $D$ is a rectangle.
+      - $\lim _{\max \Delta u_{i}, \Delta v_{j} \rightarrow 0} \sum_{i=1}^{m} \sum_{j=1}^{n} f\left(P_{i j}^{*}\right) \Delta S_{i j}$ exists.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1590185573905
+  fields:
+    Front: |
+      SVEC-13.07.03 Synthesis:
+      #### Vector Calculus
+      ##### Surface Integrals
+      ###### Parametric Surfaces
+      State the _unnamed_ **surface integral evaluation theorem**. List its hypotheses.
+    Back: |
+      Suppose surface $S$ has vector equation
+      $$
+      \mathbf{r}(u, v)=x(u, v) \mathbf{i}+y(u, v) \mathbf{j}+z(u, v) \mathbf{k} \quad(u, v) \in D
+      $$ To evaluate the surface integral of $f$ over $S$ we approximate the patch area $\Delta S_{i j}$ by the area of an approximating parallelogram in the tangent plane:
+      $$
+      \Delta S_{i j} \approx\left|\mathbf{r}_{u} \times \mathbf{r}_{v}\right| \Delta u_{i} \Delta v_{j}
+      $$ where
+      $$
+      \mathbf{r}_{u}=\frac{\partial x}{\partial u} \mathbf{i}+\frac{\partial y}{\partial u} \mathbf{j}+\frac{\partial z}{\partial u} \mathbf{k} \quad \mathbf{r}_{v}=\frac{\partial x}{\partial v} \mathbf{i}+\frac{\partial y}{\partial v} \mathbf{j}+\frac{\partial z}{\partial v} \mathbf{k}
+      $$ are the tangent vectors at a corner of $S_{i j}$. If the components are continuous and $\mathbf{r}_{u}$ and $\mathbf{r}_{v}$ are nonzero and nonparallel in the interior of $D,$ then
+      $$\iint_{S} f(x, y, z) d S=\iint_{D} f(\mathbf{r}(u, v))\left|\mathbf{r}_{u} \times \mathbf{r}_{v}\right| d A
+      $$ This allows us to compute a surface integral by converting it into a double integral over the parameter domain $D .$ When using this formula, remember that $f(\mathbf{r}(u, v))$ is evaluated by writing $x=x(u, v), y=y(u, v),$ and $z=z(u, v)$ in the formula for $f(x, y, z).$
+
+      Hypotheses:
+
+      - The components of $\mathbf{r}$ are continuous on $D$.
+      - $\mathbf{r}_{u}$ and $\mathbf{r}_{v}$ are nonzero in the interior of $D.$
+      - $\mathbf{r}_{u}$ and $\mathbf{r}_{v}$ are nonparallel in the interior of $D.$
+      - $f$ is continuous on $S.$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1590185967209
+  fields:
+    Front: |
+      SVEC-13.07.04 Synthesis:
+      #### Vector Calculus
+      ##### Surface Integrals
+      ###### Parametric Surfaces
+      State the _unnamed_ **surface-area formula**. List its hypotheses.
+    Back: |
+      Suppose surface $S$ has vector equation
+      $$
+      \mathbf{r}(u, v)=x(u, v) \mathbf{i}+y(u, v) \mathbf{j}+z(u, v) \mathbf{k} \quad(u, v) \in D
+      $$ Observe that
+      $$
+      \iint_{S} 1 d S=\iint_{D}\left|\mathbf{r}_{u} \times \mathbf{r}_{v}\right| d A=A(S)
+      $$
+
+      Hypotheses:
+
+      - The components of $\mathbf{r}$ are continuous on $D$.
+      - $\mathbf{r}_{u}$ and $\mathbf{r}_{v}$ are nonzero in the interior of $D.$
+      - $\mathbf{r}_{u}$ and $\mathbf{r}_{v}$ are nonparallel in the interior of $D.$
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1590186198983
+  fields:
+    Front: |
+      SVEC-13.07.05 Synthesis:
+      #### Vector Calculus
+      ##### Surface Integrals
+      ###### Parametric Surfaces
+      Define **mass** and **center of mass** of a sheet. List their hypotheses.
+    Back: |
+      If a thin sheet has the shape of a surface $S$ and the density at $(x, y, z)$ is $\rho(x, y, z),$ then the total mass of the sheet is
+      $$
+      m=\iint_{S} \rho(x, y, z) d S
+      $$ and the center of mass is $(\bar{x}, \bar{y}, \bar{z}),$ where
+      $$
+      \bar{x}=\frac{1}{m} \iint_{S} x \rho(x, y, z) d S \quad \bar{y}=\frac{1}{m} \iint_{S} y \rho(x, y, z) d S \quad \bar{z}=\frac{1}{m} \iint_{S} z \rho(x, y, z) d S
+      $$ Moments of inertia can also be defined as before.
+
+      Hypotheses:
+
+      - $S$ is smooth.
+      - $\rho$ is continuous on $S.$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1590186478832
+  fields:
+    Front: |
+      SVEC-13.07.06 Synthesis:
+      #### Vector Calculus
+      ##### Surface Integrals
+      ###### Graphs
+      State the _unnamed_ **graph surface integral**.
+    Back: |
+      Any surface $S$ with equation $z=g(x, y)$ can be regarded as a parametric surface with parametric equations
+      $$
+      x=x \quad y=y \quad z=g(x, y)
+      $$ and so we have $\quad \mathbf{r}_{x}=\mathbf{i}+\left(\frac{\partial g}{\partial x}\right) \mathbf{k}$ and $\mathbf{r}_{y}=\mathbf{j}+\left(\frac{\partial g}{\partial y}\right) \mathbf{k}.$ Thus
+      $$
+      \mathbf{r}_{x} \times \mathbf{r}_{y}=-\frac{\partial g}{\partial x} \mathbf{i}-\frac{\partial g}{\partial y} \mathbf{j}+\mathbf{k}
+      $$ and
+      $$
+      \left|\mathbf{r}_{x} \times \mathbf{r}_{y}\right|=\sqrt{\left(\frac{\partial z}{\partial x}\right)^{2}+\left(\frac{\partial z}{\partial y}\right)^{2}+1}
+      $$ Therefore, in this case
+      $$
+      \iint_{S} f(x, y, z) d S=\iint_{D} f(x, y, g(x, y)) \sqrt{\left(\frac{\partial z}{\partial x}\right)^{2}+\left(\frac{\partial z}{\partial y}\right)^{2}+1} d A
+      $$
+      Similar formulas apply when it is more convenient to project $S$ onto the $y z$-plane or $x z$-plane.
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1590186857958
+  fields:
+    Front: |
+      SVEC-13.07.07 Synthesis:
+      #### Vector Calculus
+      ##### Surface Integrals
+      ###### Graphs
+      Define **piecewise-smooth surface**. List its hypotheses.
+    Back: |
+      $S$ is a **piecewise-smooth surface** if it is a finite union of smooth surfaces $S_{1}$ $S_{2}, \ldots, S_{n}$ that intersect only along their boundaries.
+
+      Hypotheses:
+
+      - $S = \bigcup_{i=1}^{n} S_{i}.$
+      - Each $S_{i}$ is a smooth surface.
+      - $S_{1}$ $S_{2}, \ldots, S_{n}$ intersect only along their boundaries.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1590186858303
+  fields:
+    Front: |
+      SVEC-13.07.08 Synthesis:
+      #### Vector Calculus
+      ##### Surface Integrals
+      ###### Graphs
+      State the _unnamed_ **piecewise-smooth surface integral formula**. List its hypotheses.
+    Back: |
+      If $S = \bigcup_{i=1}^{n} S_{i}$ is piecewise-smooth then the surface integral of $f$ over $S$ is defined by
+      $$
+      \iint_{S} f(x, y, z) d S=\iint_{S_{1}} f(x, y, z) d S+\cdots+\iint_{S_{n}} f(x, y, z) d S
+      $$
+
+      Hypotheses:
+
+      - $S$ is piecewise-smooth.
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1590188394233
+  media:
+  - path: ¢{file_dir}/images/SVEC-13.07.09.Sy.1.jpg
+  - path: ¢{file_dir}/images/SVEC-13.07.09.Sy.2.jpg
+  - path: ¢{file_dir}/images/SVEC-13.07.09.Sy.3.jpg
+  fields:
+    Front: |
+      SVEC-13.07.09 Synthesis:
+      #### Vector Calculus
+      ##### Surface Integrals
+      ###### Oriented Surfaces
+      Define **oriented surface** and **orientation**. List their hypotheses.
+    Back: |
+      If an ant were to crawl along a Möbius strip starting at a point $P,$ it would end up on the "other side" of the strip (that is, with its upper side pointing in the opposite direction, as in the figure below).
+      <p align="center">
+      ![](SVEC-13.07.09.Sy.1.jpg)
+      _A Möbius strip._
+      </p>
+      Then, if the ant continued to crawl in the same direction, it would end up back at the same point $P$ without ever having crossed an edge. Therefore a Möbius strip really has only one side.
+
+      An **oriented** surface is one that has two sides.
+
+      More precisely, suppose a surface $S$ has a tangent plane at every point $(x, y, z)$ on $S$ (except at any boundary point). There are two unit normal vectors $\mathbf{n}_{1}$ and $\mathbf{n}_{2}=-\mathbf{n}_{1}$ at $(x, y, z) .$ (See figure below.)
+      <p align="center">
+      ![](SVEC-13.07.09.Sy.2.jpg)
+      </p>
+      If it is possible to choose a unit normal vector $\mathbf{n}$ at every such point $(x, y, z)$ so that $\mathbf{n}$ varies continuously over $S,$ then $S$ is called an **oriented surface** and the given choice of $\mathbf{n}$ provides $S$ with an **orientation**. There are two possible orientations for any orientable surface (see figure below).
+      <p align="center">
+      ![](SVEC-13.07.09.Sy.3.jpg)
+      _The two orientations of an orientable surface._
+      </p>
+
+      Hypotheses:
+
+      - The surface has two sides.
+      - $S$ has a tangent plane at every point $(x, y, z)$ on $S$ except at any boundary point.
+      - It is possible to choose a unit normal vector $\mathbf{n}$ at every such point $(x, y, z)$ so that $\mathbf{n}$ varies continuously over $S.$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1590188832557
+  fields:
+    Front: |
+      SVEC-13.07.10 Synthesis:
+      #### Vector Calculus
+      ##### Surface Integrals
+      ###### Oriented Surfaces
+      State the _unnamed_ **natural orientation equation**. Define **upward orientation**. List their hypotheses.
+    Back: |
+      If $S$ is a smooth orientable surface given in parametric form by a vector function $\mathbf{r}(u, v),$ then it is automatically supplied with the **upward orientation** of the unit normal vector
+      $$
+      \mathbf{n}=\frac{\mathbf{r}_{u} \times \mathbf{r}_{v}}{\left|\mathbf{r}_{u} \times \mathbf{r}_{v}\right|}
+      $$ The opposite orientation is given by $-\mathbf{n}.$
+
+      Hypotheses:
+
+      - $g(x, y)$ is differentiable.
+    Annotations: ''
+  tags:
+  - Definition
+  - Equation
+- id: 1590527517172
+  fields:
+    Front: |
+      SVEC-13.07.11 Synthesis:
+      #### Vector Calculus
+      ##### Surface Integrals
+      ###### Oriented Surfaces
+      Define **closed surface**.
+    Back: |
+      A **closed surface** is the boundary of a solid region $E.$
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1590527758608
+  media:
+  - path: ¢{file_dir}/images/SVEC-13.07.12.Sy.1.jpg
+  - path: ¢{file_dir}/images/SVEC-13.07.12.Sy.2.jpg
+  fields:
+    Front: |
+      SVEC-13.07.12 Synthesis:
+      #### Vector Calculus
+      ##### Surface Integrals
+      ###### Oriented Surfaces
+      Define **positive orientation** and **negative orientation**. List their hypotheses.
+    Back: |
+      For a closed surface, the convention is that the positive orientation is the one for which the normal vectors point outward from $E,$ and inward-pointing normals give the negative orientation (see figures below).
+      <p align="center">
+      ![](SVEC-13.07.12.Sy.1.jpg)
+      _Positive orientation._
+      </p>
+      <p align="center">
+      ![](SVEC-13.07.12.Sy.2.jpg)
+      _Negative orientation._
+      </p>
+
+      Hypotheses:
+
+      - $E$ is a closed surface.
+
+      To do: verify hypotheses.
+    Annotations: ''
+  tags:
+  - Definition
+  - ToDo
+- id: 1590529763409
+  fields:
+    Front: |
+      SVEC-13.07.13 Synthesis:
+      #### Vector Calculus
+      ##### Surface Integrals
+      ###### Surface Integrals of Vector Fields
+      Define **surface integral of a vector field** and give common alternate names. List its hypotheses.
+    Back: |
+      If $\mathbf{F}$ is a continuous vector field defined on an oriented surface $S$ with unit normal vector $\mathbf{n}$, then the **surface integral** of $\mathbf{F}$ over $S$ is
+      $$
+      \iint_{S} \mathbf{F} \cdot d \mathbf{S}=\iint_{S} \mathbf{F} \cdot \mathbf{n} d S
+      $$ This integral is also called the **flux** of $\mathbf{F}$ across $S.$
+
+      In words, this definition says that the surface integral of a vector field over $S$ is equal to the surface integral of its normal component over $S.$
+
+      Hypotheses:
+
+      - $S$ is an oriented surface.
+      - $\mathbf{F}$ is a continuous vector field defined on $S.$
+
+      To do: verify hypotheses.
+    Annotations: ''
+  tags:
+  - Definition
+  - ToDo
+- id: 1590530356209
+  media:
+  - path: ¢{file_dir}/images/SVEC-13.07.14.Sy.1.jpg
+  fields:
+    Front: |
+      SVEC-13.07.14 Synthesis:
+      #### Vector Calculus
+      ##### Surface Integrals
+      ###### Surface Integrals of Vector Fields
+      Give a **physical interpretation of surface integral of a vector field**.
+    Back: |
+      Suppose that $S$ is an oriented surface with unit normal vector $\mathbf{n}$, and imagine a fluid with density $\rho(x, y, z)$ and velocity field $\mathbf{v}(x, y, z)$ flowing through $S$. (Think of $S$ as an imaginary surface that doesn't impede the fluid flow, like a fishing net across a stream.) Then the rate of flow (mass per unit time) per unit area is $\rho \mathbf{v} .$ If we divide $S$ into small patches $S_{i j},$ as in the following figure, then $S_{i j}$ is nearly planar and so we can approximate the mass of fluid crossing $S_{i j}$ in the direction of the normal n per unit time by the quantity
+      $$
+      (\rho \mathbf{v} \cdot \mathbf{n}) A\left(S_{i j}\right)
+      $$ where $\rho, \mathbf{v},$ and $\mathbf{n}$ are evaluated at some point on $S_{i j} .$
+      <p align="center">
+      ![](SVEC-13.07.14.Sy.1.jpg)
+      </p>
+      (Recall that the component of the vector $\rho \mathbf{v}$ in the direction of the unit vector $\mathbf{n}$ is $\rho \mathbf{v} \cdot \mathbf{n} .$) By summing these quantities and taking the limit we get the surface integral of the function $\rho \mathbf{v} \cdot \mathbf{n}$ over $S:$
+      $$
+      \iint_{S} \rho \mathbf{v} \cdot \mathbf{n} d S=\iint_{S} \rho(x, y, z) \mathbf{v}(x, y, z) \cdot \mathbf{n}(x, y, z) d S
+      $$ and this is interpreted physically as the rate of flow through $S.$ If we write $\mathbf{F}=\rho \mathbf{v},$ then $\mathbf{F}$ is also a vector field on $\mathbb{R}^{3}$ and the integral becomes
+      $$
+      \iint_{S} \mathbf{F} \cdot \mathbf{n} d S
+      $$ A surface integral of this form occurs frequently in physics, even when $\mathbf{F}$ is not $\rho \mathbf{v}$ and is called the _surface integral_ (or _flux integral_) of $\mathbf{F}$ over $S$.
+    Annotations: ''
+  tags:
+  - Theorem
+- id: 1590530820609
+  fields:
+    Front: |
+      SVEC-13.07.15 Synthesis:
+      #### Vector Calculus
+      ##### Surface Integrals
+      ###### Surface Integrals of Vector Fields
+      State the _unnamed_ **formula for parametric-surface integral of a vector field**. List its hypotheses.
+    Back: |
+      If $S$ is given by a vector function $\mathbf{r}(u, v),$ then
+      $$
+      \iint_{S} \mathbf{F} \cdot d \mathbf{S}=\iint_{D} \mathbf{F} \cdot\left(\mathbf{r}_{u} \times \mathbf{r}_{v}\right) d A
+      $$ where $D$ is the parameter domain.
+
+      Hypotheses:
+
+      - $S$ is given by a vector function $\mathbf{r}(u, v)$ on $D.$
+      - $S$ is an oriented surface.
+      - The components of $\mathbf{r}$ are continuous on $D$.
+      - $\mathbf{r}_{u}$ and $\mathbf{r}_{v}$ are nonzero in the interior of $D.$
+      - $\mathbf{r}_{u}$ and $\mathbf{r}_{v}$ are nonparallel in the interior of $D.$
+      - $\mathbf{F}$ is a continuous vector field defined on $S.$
+
+      To do: verify hypotheses.
+    Annotations: ''
+  tags:
+  - Theorem
+  - ToDo
+- id: 1590531683733
+  fields:
+    Front: |
+      SVEC-13.07.16 Synthesis:
+      #### Vector Calculus
+      ##### Surface Integrals
+      ###### Surface Integrals of Vector Fields
+      State the _unnamed_ **formula for graph-surface integral of a vector field**. List its hypotheses.
+    Back: |
+      In the case of a surface $S$ given by a graph $z=g(x, y),$
+      $$
+      \iint_{S} \mathbf{F} \cdot d \mathbf{S}=\iint_{D}\left(-P \frac{\partial g}{\partial x}-Q \frac{\partial g}{\partial y}+R\right) d A
+      $$ This formula assumes the upward orientation of $S ;$ for a downward orientation we multiply by $-1 .$ Similar formulas can be worked out if $S$ is given by $y=h(x, z)$ or $x=k(y, z).$
+
+      Hypotheses:
+
+      - $S$ is given by a graph $z=g(x,y)$ on $D.$
+      - $S$ is an oriented surface.
+      - $g(x, y)$ is differentiable.
+      - The partial derivatives of $g$ are continuous.
+      - $\mathbf{F}$ is a continuous vector field defined on $S.$
+
+      To do: verify hypotheses.
+    Annotations: ''
+  tags:
+  - Theorem
+  - ToDo
+- id: 1590531998335
+  fields:
+    Front: |
+      SVEC-13.07.17 Synthesis:
+      #### Vector Calculus
+      ##### Surface Integrals
+      ###### Surface Integrals of Vector Fields
+      Define **electric flux**, and state **Gauss's Law**.
+    Back: |
+      If $\mathbf{E}$ is an electric field, then the surface integral
+      $$
+      \iint_{S} \mathbf{E} \cdot d \mathbf{S}
+      $$ is called the **electric flux** of $\mathbf{E}$ through the surface $S .$
+
+      One of the important laws of electrostatics is **Gauss's Law**, which says that the net charge enclosed by a closed surface $S$ is
+      $$
+      Q=\varepsilon_{0} \iint_{S} \mathbf{E} \cdot d \mathbf{S}
+      $$ where $\varepsilon_{0}$ is a constant (called the permittivity of free space) that depends on the units used. (In the SI system, $\varepsilon_{0} \approx 8.8542 \times 10^{-12} \mathrm{C}^{2} / \mathrm{N} \cdot \mathrm{m}^{2}$.)
+    Annotations: ''
+  tags:
+  - Definition
+  - Theorem
+- id: 1590532199258
+  fields:
+    Front: |
+      SVEC-13.07.18 Synthesis:
+      #### Vector Calculus
+      ##### Surface Integrals
+      ###### Surface Integrals of Vector Fields
+      Define **heat flow** and **conductivity**.
+    Back: |
+      Suppose the temperature at a point $(x, y, z)$ in a body is $u(x, y, z) .$ Then the **heat flow at $(x, y, z)$** is defined as the vector field
+      $$
+      \mathbf{F}=-K \nabla u
+      $$ where $K$ is an experimentally determined constant called the **conductivity** of the substance. The rate of **heat flow across the surface $S$** in the body is then given by the surface integral
+      $$
+      \iint_{S} \mathbf{F} \cdot d \mathbf{S}=-K \iint_{S} \nabla u \cdot d \mathbf{S}
+      $$
+    Annotations: ''
+  tags:
+  - Definition

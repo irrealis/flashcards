@@ -1,0 +1,602 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-16-VectorCalculus
+  - CET-16.07-SurfaceIntegrals
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1590532523734
+  fields:
+    Front: |
+      CET-16.07-01 Exercise:
+      #### Vector Calculus
+      ##### Surface Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590532524062
+  fields:
+    Front: |
+      CET-16.07-02 Exercise:
+      #### Vector Calculus
+      ##### Surface Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590532524406
+  fields:
+    Front: |
+      CET-16.07-03 Exercise:
+      #### Vector Calculus
+      ##### Surface Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590532524748
+  fields:
+    Front: |
+      CET-16.07-04 Exercise:
+      #### Vector Calculus
+      ##### Surface Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590532525083
+  fields:
+    Front: |
+      CET-16.07-05 Exercise:
+      #### Vector Calculus
+      ##### Surface Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590532525416
+  fields:
+    Front: |
+      CET-16.07-06 Exercise:
+      #### Vector Calculus
+      ##### Surface Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590532525755
+  fields:
+    Front: |
+      CET-16.07-07 Exercise:
+      #### Vector Calculus
+      ##### Surface Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590532526084
+  fields:
+    Front: |
+      CET-16.07-08 Exercise:
+      #### Vector Calculus
+      ##### Surface Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590532526416
+  fields:
+    Front: |
+      CET-16.07-09 Exercise:
+      #### Vector Calculus
+      ##### Surface Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590532526751
+  fields:
+    Front: |
+      CET-16.07-10 Exercise:
+      #### Vector Calculus
+      ##### Surface Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590532527085
+  fields:
+    Front: |
+      CET-16.07-11 Exercise:
+      #### Vector Calculus
+      ##### Surface Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590532527436
+  fields:
+    Front: |
+      CET-16.07-12 Exercise:
+      #### Vector Calculus
+      ##### Surface Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590532527778
+  fields:
+    Front: |
+      CET-16.07-13 Exercise:
+      #### Vector Calculus
+      ##### Surface Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590532528127
+  fields:
+    Front: |
+      CET-16.07-14 Exercise:
+      #### Vector Calculus
+      ##### Surface Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590532528483
+  fields:
+    Front: |
+      CET-16.07-15 Exercise:
+      #### Vector Calculus
+      ##### Surface Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590532528815
+  fields:
+    Front: |
+      CET-16.07-16 Exercise:
+      #### Vector Calculus
+      ##### Surface Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590532529150
+  fields:
+    Front: |
+      CET-16.07-17 Exercise:
+      #### Vector Calculus
+      ##### Surface Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590532529489
+  fields:
+    Front: |
+      CET-16.07-18 Exercise:
+      #### Vector Calculus
+      ##### Surface Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590532529830
+  fields:
+    Front: |
+      CET-16.07-19 Exercise:
+      #### Vector Calculus
+      ##### Surface Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590532530175
+  fields:
+    Front: |
+      CET-16.07-20 Exercise:
+      #### Vector Calculus
+      ##### Surface Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590532530508
+  fields:
+    Front: |
+      CET-16.07-21 Exercise:
+      #### Vector Calculus
+      ##### Surface Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590532530853
+  fields:
+    Front: |
+      CET-16.07-22 Exercise:
+      #### Vector Calculus
+      ##### Surface Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590532531186
+  fields:
+    Front: |
+      CET-16.07-23 Exercise:
+      #### Vector Calculus
+      ##### Surface Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590532531516
+  fields:
+    Front: |
+      CET-16.07-24 Exercise:
+      #### Vector Calculus
+      ##### Surface Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590532531858
+  fields:
+    Front: |
+      CET-16.07-25 Exercise:
+      #### Vector Calculus
+      ##### Surface Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590532532201
+  fields:
+    Front: |
+      CET-16.07-26 Exercise:
+      #### Vector Calculus
+      ##### Surface Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590532532558
+  fields:
+    Front: |
+      CET-16.07-27 Exercise:
+      #### Vector Calculus
+      ##### Surface Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590532532903
+  fields:
+    Front: |
+      CET-16.07-28 Exercise:
+      #### Vector Calculus
+      ##### Surface Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590532533251
+  fields:
+    Front: |
+      CET-16.07-29 Exercise:
+      #### Vector Calculus
+      ##### Surface Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590532533587
+  fields:
+    Front: |
+      CET-16.07-30 Exercise:
+      #### Vector Calculus
+      ##### Surface Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590532533929
+  fields:
+    Front: |
+      CET-16.07-31 Exercise:
+      #### Vector Calculus
+      ##### Surface Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590532534266
+  fields:
+    Front: |
+      CET-16.07-32 Exercise:
+      #### Vector Calculus
+      ##### Surface Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590532534605
+  fields:
+    Front: |
+      CET-16.07-33 Exercise:
+      #### Vector Calculus
+      ##### Surface Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590532534949
+  fields:
+    Front: |
+      CET-16.07-34 Exercise:
+      #### Vector Calculus
+      ##### Surface Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590532535283
+  fields:
+    Front: |
+      CET-16.07-35 Exercise:
+      #### Vector Calculus
+      ##### Surface Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590532535628
+  fields:
+    Front: |
+      CET-16.07-36 Exercise:
+      #### Vector Calculus
+      ##### Surface Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590532535984
+  fields:
+    Front: |
+      CET-16.07-37 Exercise:
+      #### Vector Calculus
+      ##### Surface Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590532536326
+  fields:
+    Front: |
+      CET-16.07-38 Exercise:
+      #### Vector Calculus
+      ##### Surface Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590532536683
+  fields:
+    Front: |
+      CET-16.07-39 Exercise:
+      #### Vector Calculus
+      ##### Surface Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590532537025
+  fields:
+    Front: |
+      CET-16.07-40 Exercise:
+      #### Vector Calculus
+      ##### Surface Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590532537359
+  fields:
+    Front: |
+      CET-16.07-41 Exercise:
+      #### Vector Calculus
+      ##### Surface Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590532537725
+  fields:
+    Front: |
+      CET-16.07-42 Exercise:
+      #### Vector Calculus
+      ##### Surface Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590532538059
+  fields:
+    Front: |
+      CET-16.07-43 Exercise:
+      #### Vector Calculus
+      ##### Surface Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590532538387
+  fields:
+    Front: |
+      CET-16.07-44 Exercise:
+      #### Vector Calculus
+      ##### Surface Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590532538730
+  fields:
+    Front: |
+      CET-16.07-45 Exercise:
+      #### Vector Calculus
+      ##### Surface Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590532539066
+  fields:
+    Front: |
+      CET-16.07-46 Exercise:
+      #### Vector Calculus
+      ##### Surface Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590532539403
+  fields:
+    Front: |
+      CET-16.07-47 Exercise:
+      #### Vector Calculus
+      ##### Surface Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590532539737
+  fields:
+    Front: |
+      CET-16.07-48 Exercise:
+      #### Vector Calculus
+      ##### Surface Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590532540078
+  fields:
+    Front: |
+      CET-16.07-49 Exercise:
+      #### Vector Calculus
+      ##### Surface Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

@@ -1,0 +1,86 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-16-VectorCalculus
+  - CET-16.07-SurfaceIntegrals
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1590532521584
+  fields:
+    Front: |
+      CET-16.07-1 Example:
+      #### Vector Calculus
+      ##### Surface Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590532521933
+  fields:
+    Front: |
+      CET-16.07-2 Example:
+      #### Vector Calculus
+      ##### Surface Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590532522278
+  fields:
+    Front: |
+      CET-16.07-3 Example:
+      #### Vector Calculus
+      ##### Surface Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590532522612
+  fields:
+    Front: |
+      CET-16.07-4 Example:
+      #### Vector Calculus
+      ##### Surface Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590532522951
+  fields:
+    Front: |
+      CET-16.07-5 Example:
+      #### Vector Calculus
+      ##### Surface Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590532523283
+  fields:
+    Front: |
+      CET-16.07-6 Example:
+      #### Vector Calculus
+      ##### Surface Integrals
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
