@@ -10,20 +10,557 @@ defaults:
   - CET-08-FurtherApplicationsOfIntegration
   - CET-08.01-ArcLength
   markdownTabLength: 2
+  stringTemplDelim: ¢
 notes:
-- id: 1577653608994
+- id: 1590604230083
   fields:
-    Front: >
+    Front: |
       CET-08.01-01 Exercise:
-
-      Use the Leibniz-notation arc length formula to find the length of the curve
-      $y=2 x-5,-1 \leqslant x \leqslant 3 .$ Check your answer by noting that the
-      curve is a line segment and calculating its length by the distance formula.
-    Back: >
-      $y=2 x-5 \Rightarrow L=\int_{-1}^{3} \sqrt{1+(d y / d x)^{2}} d x$ $=\int_{-1}^{3}
-      \sqrt{1+(2)^{2}} d x$ $=\sqrt{5}[3-(-1)]$ $=4 \sqrt{5}.$ The arc length can
-      be calculated using the distance formula, since the curve is a line segment,
-      so $L=[\text { distance from }(-1,-7) \text { to }(3,1)]$ $=\sqrt{[3-(-1)]^{2}+[1-(-7)]^{2}}$
-      $=\sqrt{80}=4 \sqrt{5}.$
+      #### Further Applications of Integration
+      ##### Arc Length
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
     Annotations: ''
-  tags: []
+  tags:
+  - ToDo
+- id: 1590604230468
+  fields:
+    Front: |
+      CET-08.01-02 Exercise:
+      #### Further Applications of Integration
+      ##### Arc Length
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590604230840
+  fields:
+    Front: |
+      CET-08.01-03 Exercise:
+      #### Further Applications of Integration
+      ##### Arc Length
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590604231216
+  fields:
+    Front: |
+      CET-08.01-04 Exercise:
+      #### Further Applications of Integration
+      ##### Arc Length
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590604231595
+  fields:
+    Front: |
+      CET-08.01-05 Exercise:
+      #### Further Applications of Integration
+      ##### Arc Length
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590604232019
+  fields:
+    Front: |
+      CET-08.01-06 Exercise:
+      #### Further Applications of Integration
+      ##### Arc Length
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590604232400
+  fields:
+    Front: |
+      CET-08.01-07 Exercise:
+      #### Further Applications of Integration
+      ##### Arc Length
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590604232786
+  fields:
+    Front: |
+      CET-08.01-08 Exercise:
+      #### Further Applications of Integration
+      ##### Arc Length
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590604233150
+  fields:
+    Front: |
+      CET-08.01-09 Exercise:
+      #### Further Applications of Integration
+      ##### Arc Length
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590604233522
+  fields:
+    Front: |
+      CET-08.01-10 Exercise:
+      #### Further Applications of Integration
+      ##### Arc Length
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590604233934
+  fields:
+    Front: |
+      CET-08.01-11 Exercise:
+      #### Further Applications of Integration
+      ##### Arc Length
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590604234300
+  fields:
+    Front: |
+      CET-08.01-12 Exercise:
+      #### Further Applications of Integration
+      ##### Arc Length
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590604234681
+  fields:
+    Front: |
+      CET-08.01-13 Exercise:
+      #### Further Applications of Integration
+      ##### Arc Length
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590604235072
+  fields:
+    Front: |
+      CET-08.01-14 Exercise:
+      #### Further Applications of Integration
+      ##### Arc Length
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590604235452
+  fields:
+    Front: |
+      CET-08.01-15 Exercise:
+      #### Further Applications of Integration
+      ##### Arc Length
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590604235835
+  fields:
+    Front: |
+      CET-08.01-16 Exercise:
+      #### Further Applications of Integration
+      ##### Arc Length
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590604236201
+  fields:
+    Front: |
+      CET-08.01-17 Exercise:
+      #### Further Applications of Integration
+      ##### Arc Length
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590604236567
+  fields:
+    Front: |
+      CET-08.01-18 Exercise:
+      #### Further Applications of Integration
+      ##### Arc Length
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590604236968
+  fields:
+    Front: |
+      CET-08.01-19 Exercise:
+      #### Further Applications of Integration
+      ##### Arc Length
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590604237369
+  fields:
+    Front: |
+      CET-08.01-20 Exercise:
+      #### Further Applications of Integration
+      ##### Arc Length
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590604237759
+  fields:
+    Front: |
+      CET-08.01-21 Exercise:
+      #### Further Applications of Integration
+      ##### Arc Length
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590604238151
+  fields:
+    Front: |
+      CET-08.01-22 Exercise:
+      #### Further Applications of Integration
+      ##### Arc Length
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590604238550
+  fields:
+    Front: |
+      CET-08.01-23 Exercise:
+      #### Further Applications of Integration
+      ##### Arc Length
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590604238918
+  fields:
+    Front: |
+      CET-08.01-24 Exercise:
+      #### Further Applications of Integration
+      ##### Arc Length
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590604239319
+  fields:
+    Front: |
+      CET-08.01-25 Exercise:
+      #### Further Applications of Integration
+      ##### Arc Length
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590604239717
+  fields:
+    Front: |
+      CET-08.01-26 Exercise:
+      #### Further Applications of Integration
+      ##### Arc Length
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590604240117
+  fields:
+    Front: |
+      CET-08.01-27 Exercise:
+      #### Further Applications of Integration
+      ##### Arc Length
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590604240517
+  fields:
+    Front: |
+      CET-08.01-28 Exercise:
+      #### Further Applications of Integration
+      ##### Arc Length
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590604240885
+  fields:
+    Front: |
+      CET-08.01-29 Exercise:
+      #### Further Applications of Integration
+      ##### Arc Length
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590604241256
+  fields:
+    Front: |
+      CET-08.01-30 Exercise:
+      #### Further Applications of Integration
+      ##### Arc Length
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590604241684
+  fields:
+    Front: |
+      CET-08.01-31 Exercise:
+      #### Further Applications of Integration
+      ##### Arc Length
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590604242101
+  fields:
+    Front: |
+      CET-08.01-32 Exercise:
+      #### Further Applications of Integration
+      ##### Arc Length
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590604242470
+  fields:
+    Front: |
+      CET-08.01-33 Exercise:
+      #### Further Applications of Integration
+      ##### Arc Length
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590604242868
+  fields:
+    Front: |
+      CET-08.01-34 Exercise:
+      #### Further Applications of Integration
+      ##### Arc Length
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590604243267
+  fields:
+    Front: |
+      CET-08.01-35 Exercise:
+      #### Further Applications of Integration
+      ##### Arc Length
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590604243634
+  fields:
+    Front: |
+      CET-08.01-36 Exercise:
+      #### Further Applications of Integration
+      ##### Arc Length
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590604244035
+  fields:
+    Front: |
+      CET-08.01-37 Exercise:
+      #### Further Applications of Integration
+      ##### Arc Length
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590604244405
+  fields:
+    Front: |
+      CET-08.01-38 Exercise:
+      #### Further Applications of Integration
+      ##### Arc Length
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590604244819
+  fields:
+    Front: |
+      CET-08.01-39 Exercise:
+      #### Further Applications of Integration
+      ##### Arc Length
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590604245267
+  fields:
+    Front: |
+      CET-08.01-40 Exercise:
+      #### Further Applications of Integration
+      ##### Arc Length
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590604245668
+  fields:
+    Front: |
+      CET-08.01-41 Exercise:
+      #### Further Applications of Integration
+      ##### Arc Length
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590604246035
+  fields:
+    Front: |
+      CET-08.01-42 Exercise:
+      #### Further Applications of Integration
+      ##### Arc Length
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590604246400
+  fields:
+    Front: |
+      CET-08.01-43 Exercise:
+      #### Further Applications of Integration
+      ##### Arc Length
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590604246774
+  fields:
+    Front: |
+      CET-08.01-44 Exercise:
+      #### Further Applications of Integration
+      ##### Arc Length
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590604247185
+  fields:
+    Front: |
+      CET-08.01-45 Exercise:
+      #### Further Applications of Integration
+      ##### Arc Length
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590604247602
+  fields:
+    Front: |
+      CET-08.01-46 Exercise:
+      #### Further Applications of Integration
+      ##### Arc Length
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

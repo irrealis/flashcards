@@ -10,10 +10,11 @@ defaults:
   - CET-08-FurtherApplicationsOfIntegration
   - CET-08.02-AreaOfASurfaceOfRevolution
   markdownTabLength: 2
+  stringTemplDelim: ¢
 notes:
 - id: 1577658880095
   media:
-  - path: ${file_dir}/images/CET-08.02-01.Pf.1.jpg
+  - path: ¢{file_dir}/images/CET-08.02-01.Pf.1.jpg
   fields:
     Front: |
       CET-08.02-01 Proof:
@@ -24,15 +25,15 @@ notes:
       ![](CET-08.02-01.Pf.1.jpg)
       </p>
       We know that, in general, the area of a sector of a circle with radius $l$ and angle $\theta$ is $\frac{1}{2} l^{2} \theta$ (see Exercise 7.3.35) and so in this case the area is
-      $$$
+      $$
       A=\frac{1}{2} l^{2} \theta=\frac{1}{2} l^{2}\left(\frac{2 \pi r}{l}\right)=\pi r l
-      $$$ Therefore we define the lateral surface area of a cone to be $A=\pi r l.$
+      $$ Therefore we define the lateral surface area of a cone to be $A=\pi r l.$
       $\square$
     Annotations: ''
   tags: []
 - id: 1577659786246
   media:
-  - path: ${file_dir}/images/CET-08.02-02.Pf.1.jpg
+  - path: ¢{file_dir}/images/CET-08.02-02.Pf.1.jpg
   fields:
     Front: |
       CET-08.02-02 Proof:
@@ -43,126 +44,71 @@ notes:
       ![](CET-08.02-02.Pf.1.jpg)
       </p>
       The area of the band (or frustum of a cone) with slant height $l$ and upper and lower radii $r_{1}$ and $r_{2}$ is found by subtracting the areas of two cones:
-      $$$
+      $$
       A=\pi r_{2}\left(l_{1}+l\right)-\pi r_{1} l_{1}=\pi\left[\left(r_{2}-r_{1}\right) l_{1}+r_{2} l\right]
-      $$$ From similar triangles we have
-      $$$
+      $$ From similar triangles we have
+      $$
       \frac{l_{1}}{r_{1}}=\frac{l_{1}+l}{r_{2}}
-      $$$ which gives
-      $$$
+      $$ which gives
+      $$
       r_{2} l_{1}=r_{1} l_{1}+r_{1} l \quad \text { or } \quad\left(r_{2}-r_{1}\right) l_{1}=r_{1} l
-      $$$ Putting this into the formula for $A,$ we get
-      $$$
+      $$ Putting this into the formula for $A,$ we get
+      $$
       A = \pi (r_1 l + r_2 l) = \pi (r_1 + r_2) l
-      $$$ or
-      $$$
+      $$ or
+      $$
       A = 2 \pi r l \quad\text{where}\quad r = \tfrac{1}{2}(r_1 + r_2)
-      $$$ $\square$
+      $$ $\square$
     Annotations: ''
   tags: []
 - id: 1577660478298
   media:
-  - path: ${file_dir}/images/CET-08.02-03.Pf.1.jpg
-  - path: ${file_dir}/images/CET-08.02-03.Pf.2.jpg
+  - path: ¢{file_dir}/images/CET-08.02-03.Pf.1.jpg
+  - path: ¢{file_dir}/images/CET-08.02-03.Pf.2.jpg
   fields:
     Front: |
       CET-08.02-03 Proof:
       Derive the Riemann approximation to the area of the complete surface of revolution.
-    Back: >
-      Consider the surface shown below, obtained by rotating the curve $y=f(x), a
-      \leqslant x \leqslant b,$ about the $x$ -axis, where $f$ is positive and has
-      a continuous derivative.
-
-      <p align="center">
-
-      ![](CET-08.02-03.Pf.1.jpg)
-
-      Surface of revolution
-
-      </p>
-
-      <p align="center">
-
-      ![](CET-08.02-03.Pf.1.jpg)
-
-      Approximating band
-
-      </p>
-
-      In order to define its surface area, we divide the interval $[a, b]$ into $n$
-      subintervals with endpoints $x_{0}, x_{1}, \ldots, x_{n}$ and equal width $\Delta
-      x$ as we did in determining arc length. If $y_{i}=f\left(x_{i}\right),$ then
-      the point $P_{i}\left(x_{i}, y_{i}\right)$ lies on the curve. The part of the
-      surface between $x_{i-1}$ and $x_{i}$ is approximated by taking the line segment
-      $P_{i-1} P_{i}$ and rotating it about the $x$ -axis. The result is a band with
-      slant height $l=\left|P_{i-1} P_{i}\right|$ and average radius $r=\frac{1}{2}\left(y_{i-1}+y_{i}\right)$
-      so its surface area is
-
-      $$$
-
-      2 \pi \frac{y_{i-1}+y_{i}}{2}\left|P_{i-1} P_{i}\right|
-
-      $$$ As in the proof of Theorem $8.1 .2,$ we have
-
-      $$$
-
-      \left|P_{i-1} P_{i}\right|=\sqrt{1+\left[f^{\prime}\left(x_{i}^{*}\right)\right]^{2}}
-      \Delta x
-
-      $$$ where $x_{i}^{*}$ is some number in $\left[x_{i-1}, x_{i}\right] .$ When
-      $\Delta x$ is small, we have $y_{i}=f\left(x_{i}^{*}\right)$ and also $y_{i-1}=f\left(x_{i-1}\right)
-      \approx f\left(x_{i}^{*}\right),$ since $f$ is continuous. Therefore
-
-      $$$
-
-      2 \pi \frac{y_{i-1}+y_{i}}{2}\left|P_{i-1} P_{i}\right| \approx 2 \pi f\left(x_{i}^{*}\right)
-      \sqrt{1+\left[f^{\prime}\left(x_{i}^{*}\right)\right]^{2}} \Delta x
-
-      $$$ and so an approximation to what we think of as the area of the complete
-      surface of revolution is
-
-      $$$
-
-      \sum_{i=1}^{n} 2 \pi f\left(x_{i}^{*}\right) \sqrt{1+\left[f^{\prime}\left(x_{i}^{*}\right)\right]^{2}}
-      \Delta x
-
-      $$$ $\square$
+    Back: |
+      Consider the surface shown below, obtained by rotating the curve $y=f(x), a \leqslant x \leqslant b,$ about the $x$ -axis, where $f$ is positive and has a continuous derivative.  
+      <p align="center"> 
+      ![](CET-08.02-03.Pf.1.jpg) 
+      _Surface of revolution_
+      </p> 
+      <p align="center"> 
+      ![](CET-08.02-03.Pf.1.jpg) 
+      _Approximating band_ 
+      </p> 
+      In order to define its surface area, we divide the interval $[a, b]$ into $n$ subintervals with endpoints $x_{0}, x_{1}, \ldots, x_{n}$ and equal width $\Delta x$ as we did in determining arc length. If $y_{i}=f\left(x_{i}\right),$ then the point $P_{i}\left(x_{i}, y_{i}\right)$ lies on the curve. The part of the surface between $x_{i-1}$ and $x_{i}$ is approximated by taking the line segment $P_{i-1} P_{i}$ and rotating it about the $x$ -axis. The result is a band with slant height $l=\left|P_{i-1} P_{i}\right|$ and average radius $r=\frac{1}{2}\left(y_{i-1}+y_{i}\right)$ so its surface area is 
+      $$ 
+      2 \pi \frac{y_{i-1}+y_{i}}{2}\left|P_{i-1} P_{i}\right| 
+      $$ As in the proof of Theorem $8.1 .2,$ we have 
+      $$ 
+      \left|P_{i-1} P_{i}\right|=\sqrt{1+\left[f^{\prime}\left(x_{i}^{*}\right)\right]^{2}} \Delta x 
+      $$ where $x_{i}^{*}$ is some number in $\left[x_{i-1}, x_{i}\right] .$ When $\Delta x$ is small, we have $y_{i}=f\left(x_{i}^{*}\right)$ and also $y_{i-1}=f\left(x_{i-1}\right) \approx f\left(x_{i}^{*}\right),$ since $f$ is continuous. Therefore 
+      $$ 
+      2 \pi \frac{y_{i-1}+y_{i}}{2}\left|P_{i-1} P_{i}\right| \approx 2 \pi f\left(x_{i}^{*}\right) \sqrt{1+\left[f^{\prime}\left(x_{i}^{*}\right)\right]^{2}} \Delta x 
+      $$ and so an approximation to what we think of as the area of the complete surface of revolution is 
+      $$ 
+      \sum_{i=1}^{n} 2 \pi f\left(x_{i}^{*}\right) \sqrt{1+\left[f^{\prime}\left(x_{i}^{*}\right)\right]^{2}} \Delta x 
+      $$ $\square$
     Annotations: ''
   tags: []
 - id: 1577661249356
   fields:
-    Front: >
-      CET-08.02-04 Proof:
-
-      Derive the surface area of the surface obtained by rotating the curve $y=f(x),$
-      $a \leqslant x \leqslant b,$ about the $x$-axis, in the case where $f$ is positive
-      and has a continuous derivative.
-    Back: >
-      An approximation to what we think of as the area of the complete surface of
-      revolution is
-
-      $$$
-
-      \sum_{i=1}^{n} 2 \pi f\left(x_{i}^{*}\right) \sqrt{1+\left[f^{\prime}\left(x_{i}^{*}\right)\right]^{2}}
-      \Delta x
-
-      $$$ This approximation appears to become better as $n \rightarrow \infty$ and,
-      recognizing it as a Riemann sum for the function $g(x)=2 \pi f(x) \sqrt{1+\left[f^{\prime}(x)\right]^{2}},$
-      we have
-
-      $$$
-
-      \lim _{n \rightarrow \infty} \sum_{i=1}^{n} 2 \pi f\left(x_{i}^{*}\right) \sqrt{1+\left[f^{\prime}\left(x_{i}^{*}\right)\right]^{2}}
-      \Delta x=\int_{a}^{b} 2 \pi f(x) \sqrt{1+\left[f^{\prime}(x)\right]^{2}} d x
-
-      $$$ Therefore, in the case where $f$ is positive and has a continuous derivative,
-      we define the surface area of the surface obtained by rotating the curve $y=f(x),
-      a \leqslant x \leqslant b,$ about the $x$ -axis as
-
-      $$$
-
-      S=\int_{a}^{b} 2 \pi f(x) \sqrt{1+\left[f^{\prime}(x)\right]^{2}} d x
-
-      $$$ $\square$
+    Front: |
+      CET-08.02-04 Proof: 
+      Derive the surface area of the surface obtained by rotating the curve $y=f(x),$ $a \leqslant x \leqslant b,$ about the $x$-axis, in the case where $f$ is positive and has a continuous derivative.
+    Back: |
+      An approximation to what we think of as the area of the complete surface of revolution is 
+      $$ 
+      \sum_{i=1}^{n} 2 \pi f\left(x_{i}^{*}\right) \sqrt{1+\left[f^{\prime}\left(x_{i}^{*}\right)\right]^{2}} \Delta x 
+      $$ This approximation appears to become better as $n \rightarrow \infty$ and, recognizing it as a Riemann sum for the function $g(x)=2 \pi f(x) \sqrt{1+\left[f^{\prime}(x)\right]^{2}},$ we have 
+      $$ 
+      \lim _{n \rightarrow \infty} \sum_{i=1}^{n} 2 \pi f\left(x_{i}^{*}\right) \sqrt{1+\left[f^{\prime}\left(x_{i}^{*}\right)\right]^{2}} \Delta x=\int_{a}^{b} 2 \pi f(x) \sqrt{1+\left[f^{\prime}(x)\right]^{2}} d x 
+      $$ Therefore, in the case where $f$ is positive and has a continuous derivative, we define the surface area of the surface obtained by rotating the curve $y=f(x), a \leqslant x \leqslant b,$ about the $x$-axis as 
+      $$ 
+      S=\int_{a}^{b} 2 \pi f(x) \sqrt{1+\left[f^{\prime}(x)\right]^{2}} d x 
+      $$ $\square$
     Annotations: ''
   tags: []

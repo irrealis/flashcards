@@ -11,7 +11,150 @@ defaults:
   - CET-08.03-ApplicationsToPhysicsAndEngineering
   markdownTabLength: 2
   stringTemplDelim: ¢
-notes: []
+notes:
+- id: 1590613187530
+  fields:
+    Front: |
+      CET-08.03-15 Exercise:
+      #### Further Applications of Integration
+      ##### Applications to Physics and Engineering
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags: []
+- id: 1590613187915
+  fields:
+    Front: |
+      CET-08.03-18 Exercise:
+      #### Further Applications of Integration
+      ##### Applications to Physics and Engineering
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags: []
+- id: 1590613188329
+  fields:
+    Front: |
+      CET-08.03-20 Exercise:
+      #### Further Applications of Integration
+      ##### Applications to Physics and Engineering
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags: []
+- id: 1590613188727
+  fields:
+    Front: |
+      CET-08.03-21 Exercise:
+      #### Further Applications of Integration
+      ##### Applications to Physics and Engineering
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags: []
+- id: 1590613189162
+  fields:
+    Front: |
+      CET-08.03-33 Exercise:
+      #### Further Applications of Integration
+      ##### Applications to Physics and Engineering
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags: []
+- id: 1590613189595
+  fields:
+    Front: |
+      CET-08.03-36 Exercise:
+      #### Further Applications of Integration
+      ##### Applications to Physics and Engineering
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags: []
+- id: 1590613190010
+  fields:
+    Front: |
+      CET-08.03-37 Exercise:
+      #### Further Applications of Integration
+      ##### Applications to Physics and Engineering
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags: []
+- id: 1590613190380
+  fields:
+    Front: |
+      CET-08.03-38 Exercise:
+      #### Further Applications of Integration
+      ##### Applications to Physics and Engineering
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags: []
+- id: 1590613190813
+  fields:
+    Front: |
+      CET-08.03-42 Exercise:
+      #### Further Applications of Integration
+      ##### Applications to Physics and Engineering
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags: []
+- id: 1590613191194
+  fields:
+    Front: |
+      CET-08.03-43 Exercise:
+      #### Further Applications of Integration
+      ##### Applications to Physics and Engineering
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags: []
+- id: 1590613191576
+  fields:
+    Front: |
+      CET-08.03-47 Exercise:
+      #### Further Applications of Integration
+      ##### Applications to Physics and Engineering
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags: []
+- id: 1590613191977
+  fields:
+    Front: |
+      CET-08.03-48 Exercise:
+      #### Further Applications of Integration
+      ##### Applications to Physics and Engineering
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags: []
+- id: 1590613192343
+  fields:
+    Front: |
+      CET-08.03-49 Exercise:
+      #### Further Applications of Integration
+      ##### Applications to Physics and Engineering
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags: []
 ---
 defaults:
   deckName: Staging
@@ -34,6 +177,8 @@ notes:
     Front: |
       CET-08.03-01 Exercise:
       SVEC-07.06-25 through 29 Exercise:
+      #### Further Applications of Integration
+      ##### Applications to Physics and Engineering
       An aquarium $5 \text{ ft}$ long, $2 \text{ ft}$ wide, and $3 \text{ ft}$ deep is full of water. Find (a) the hydrostatic pressure on the bottom of the aquarium, (b) the hydrostatic force on the bottom, and (c) the hydrostatic force on one end of the aquarium.
     Back: |
       The weight density of water is $\delta=62.5 \text{ lb} / \mathrm{ft}^{3}$
@@ -47,6 +192,8 @@ notes:
     Front: |
       CET-08.03-02 Exercise:
       SVEC-07.06-25 through 29 Exercise:
+      #### Further Applications of Integration
+      ##### Applications to Physics and Engineering
       A tank is $8 \text{ m}$ long, $4 \text{ m}$ wide, $2 \text{ m}$ high, and contains kerosene with density $820 \text{ kg} / \mathrm{m}^{3}$ to a depth of $1.5 \text{ m} .$ Find (a) the hydrostatic pressure on the bottom of the tank, (b) the hydrostatic force on the bottom, and (c) the hydrostatic force on one end of the tank.
     Back: |
       (a) $P=\rho g d$ $=\left(820 \text{ kg} / \mathrm{m}^{3}\right)\left(9.8 \text{ m} / \mathrm{s}^{2}\right)(1.5 \text{ m})$ $=12,054 \text{ Pa} \approx 12 \text{ kPa}$.
@@ -62,6 +209,8 @@ notes:
     Front: |
       CET-08.03-03 Exercise:
       SVEC-07.06-25 through 29 Exercise:
+      #### Further Applications of Integration
+      ##### Applications to Physics and Engineering
       A vertical plate is submerged (or partially submerged) in water and has the indicated shape. Explain how to approximate the hydrostatic force against one side of the plate by a Riemann sum. Then express the force as an integral and evaluate it.
       <p align="center">
       ![](CET-08.03-03.Xs.1.jpg)
@@ -94,6 +243,8 @@ notes:
     Front: |
       CET-08.03-04 Exercise:
       SVEC-07.06-25 through 29 Exercise:
+      #### Further Applications of Integration
+      ##### Applications to Physics and Engineering
       A vertical plate is submerged (or partially submerged) in water and has the indicated shape. Explain how to approximate the hydrostatic force against one side of the plate by a Riemann sum. Then express the force as an integral and evaluate it.
       <p align="center">
       ![](CET-08.03-04.Xs.1.jpg)
@@ -129,6 +280,8 @@ notes:
     Front: |
       CET-08.03-05 Exercise:
       SVEC-07.06-25 through 29 Exercise:
+      #### Further Applications of Integration
+      ##### Applications to Physics and Engineering
       A vertical plate is submerged (or partially submerged) in water and has the indicated shape. Explain how to approximate the hydrostatic force against one side of the plate by a Riemann sum. Then express the force as an integral and evaluate it.
       <p align="center">
       ![](CET-08.03-05.Xs.1.jpg)
@@ -160,6 +313,8 @@ notes:
     Front: |
       CET-08.03-06 Exercise:
       SVEC-07.06-25 through 29 Exercise:
+      #### Further Applications of Integration
+      ##### Applications to Physics and Engineering
       A vertical plate is submerged (or partially submerged) in water and has the indicated shape. Explain how to approximate the hydrostatic force against one side of the plate by a Riemann sum. Then express the force as an integral and evaluate it.
       <p align="center">
       ![](CET-08.03-06.Xs.1.jpg)
@@ -218,6 +373,8 @@ notes:
     Front: |
       CET-08.03-07 Exercise:
       SVEC-07.06-29 Exercise:
+      #### Further Applications of Integration
+      ##### Applications to Physics and Engineering
       A vertical plate is submerged (or partially submerged) in water and has the indicated shape. Explain how to approximate the hydrostatic force against one side of the plate by a Riemann sum. Then express the force as an integral and evaluate it.
       <p align="center">
       ![](CET-08.03-07.Xs.1.jpg)
@@ -252,6 +409,8 @@ notes:
     Front: |
       CET-08.03-08 Exercise:
       SVEC-07.06-25 through 29 Exercise:
+      #### Further Applications of Integration
+      ##### Applications to Physics and Engineering
       A vertical plate is submerged (or partially submerged) in water and has the indicated shape. Explain how to approximate the hydrostatic force against one side of the plate by a Riemann sum. Then express the force as an integral and evaluate it.
       <p align="center">
       ![](CET-08.03-08.Xs.1.jpg)
@@ -286,6 +445,8 @@ notes:
     Front: |
       CET-08.03-09 Exercise:
       SVEC-07.06-25 through 29 Exercise:
+      #### Further Applications of Integration
+      ##### Applications to Physics and Engineering
       A vertical plate is submerged (or partially submerged) in water and has the indicated shape. Explain how to approximate the hydrostatic force against one side of the plate by a Riemann sum. Then express the force as an integral and evaluate it.
       <p align="center">
       ![](CET-08.03-09.Xs.1.jpg)
@@ -319,6 +480,8 @@ notes:
     Front: |
       CET-08.03-10 Exercise:
       SVEC-07.06-25 through 29 Exercise:
+      #### Further Applications of Integration
+      ##### Applications to Physics and Engineering
       A vertical plate is submerged (or partially submerged) in water and has the indicated shape. Explain how to approximate the hydrostatic force against one side of the plate by a Riemann sum. Then express the force as an integral and evaluate it.
       <p align="center">
       ![](CET-08.03-10.Xs.1.jpg)
@@ -363,6 +526,8 @@ notes:
     Front: |
       CET-08.03-11 Exercise:
       SVEC-07.06-25 through 29 Exercise:
+      #### Further Applications of Integration
+      ##### Applications to Physics and Engineering
       A vertical plate is submerged (or partially submerged) in water and has the indicated shape. Explain how to approximate the hydrostatic force against one side of the plate by a Riemann sum. Then express the force as an integral and evaluate it.
       <p align="center">
       ![](CET-08.03-11.Xs.1.jpg)
@@ -394,6 +559,8 @@ notes:
     Front: |
       CET-08.03-12 Exercise:
       SVEC-07.06-30 Exercise:
+      #### Further Applications of Integration
+      ##### Applications to Physics and Engineering
       A milk truck carries milk with density $64.6 \text{ lb} / \mathrm{ft}^{3}$ in a horizontal cylindrical tank with diameter $6 \text{ ft}$.
       (a) Find the force exerted by the milk on one end of the tank when the tank is full.
       (b) What if the tank is half full?
@@ -413,6 +580,8 @@ notes:
     Front: |
       CET-08.03-13 Exercise:
       SVEC-07.06-31 Exercise:
+      #### Further Applications of Integration
+      ##### Applications to Physics and Engineering
       A trough is filled with a liquid of density $840 \text{ kg} / \mathrm{m}^{3} .$ The ends of the trough are equilateral triangles with sides $8 \text{ m}$ long and vertex at the bottom. Find the hydrostatic force on one end of the trough.
     Back: |
       $$
@@ -425,6 +594,8 @@ notes:
     Front: |
       CET-08.03-16 Exercise:
       SVEC-07.06-32 Exercise:
+      #### Further Applications of Integration
+      ##### Applications to Physics and Engineering
       A dam is inclined at an angle of $30^{\circ}$ from the vertical and has the shape of an isosceles trapezoid $100 \text{ ft}$ wide at the top and $50 \text{ ft}$ wide at the bottom and with a slant height of $70 \text{ ft}$. Find the hydrostatic force on the dam when it is full of water.
     Back: |
       $$
@@ -437,6 +608,8 @@ notes:
     Front: |
       CET-08.03-17 Exercise:
       SVEC-07.06-33 Exercise:
+      #### Further Applications of Integration
+      ##### Applications to Physics and Engineering
       A swimming pool is $20 \text{ ft}$ wide and $40 \text{ ft}$ long and its bottom is an inclined plane, the shallow end having a depth of $3 \text{ ft}$ and the deep end, $9 \text{ ft}$. If the pool is full of water, find the hydrostatic force on (a) the shallow end, (b) the deep end, (c) one of the sides, and (d) the bottom of the pool.
     Back: |
       (a)
@@ -464,6 +637,8 @@ notes:
     Front: |
       CET-08.03-14 Exercise:
       SVEC-07.06-34 Exercise:
+      #### Further Applications of Integration
+      ##### Applications to Physics and Engineering
       A vertical dam has a semicircular gate as shown in the figure. Find the hydrostatic force against the gate.
       <p align="center">
       ![](CET-08.03-14.Xs.1.jpg)
@@ -479,6 +654,8 @@ notes:
     Front: |
       CET-08.03-19 Exercise:
       SVEC-07.06-35 Exercise:
+      #### Further Applications of Integration
+      ##### Applications to Physics and Engineering
       A metal plate was found submerged vertically in seawater, which has density $64 \text{ lb} / \mathrm{ft}^{3}$. Measurements of the width of the plate were taken at the indicated depths. Use Simpson's Rule to estimate the force of the water against the plate.
     Back: |
       $$
@@ -493,6 +670,8 @@ notes:
     Front: |
       CET-08.03-22 Exercise:
       SVEC-07.06-36 Exercise:
+      #### Further Applications of Integration
+      ##### Applications to Physics and Engineering
       <p align="center">
       ![](CET-08.03-22.Xs.1.jpg)
       </p>
@@ -506,6 +685,8 @@ notes:
     Front: |
       CET-08.03-23 Exercise:
       SVEC-07.06-37 Exercise:
+      #### Further Applications of Integration
+      ##### Applications to Physics and Engineering
       The masses $m_{i}$ are located at the points $P_{i} .$ Find the moments $M_{x}$ and $M_{y}$ and the center of mass of the system.
       $m_{1}=4, m_{2}=2, m_{3}=4$;
       $P_{1}(2,-3), P_{2}(-3,1), P_{3}(3,5)$
@@ -520,6 +701,8 @@ notes:
     Front: |
       CET-08.03-24 Exercise:
       SVEC-07.06-38 Exercise:
+      #### Further Applications of Integration
+      ##### Applications to Physics and Engineering
       The masses $m_{i}$ are located at the points $P_{i} .$ Find the moments $M_{x}$ and $M_{y}$ and the center of mass of the system.
       $m_{1}=5, m_{2}=4, m_{3}=3, m_{4}=6$;
       $P_{1}(-4,2), P_{2}(0,5), P_{3}(3,2), P_{4}(1,-2)$
@@ -535,6 +718,8 @@ notes:
     Front: |
       CET-08.03-25 Exercise:
       SVEC-07.06-39 Exercise:
+      #### Further Applications of Integration
+      ##### Applications to Physics and Engineering
       Sketch the region bounded by the curves, and visually estimate the location of the centroid. Then find the exact coordinates of the centroid.
       $$
       y=2 x, \quad y=0, \quad x=1
@@ -550,6 +735,8 @@ notes:
     Front: |
       CET-08.03-26 Exercise:
       SVEC-07.06-40 Exercise:
+      #### Further Applications of Integration
+      ##### Applications to Physics and Engineering
       Sketch the region bounded by the curves, and visually estimate the location of the centroid. Then find the exact coordinates of the centroid.
       $$
       y=\sqrt{x}, \quad y=0, \quad x=4
@@ -565,6 +752,8 @@ notes:
     Front: |
       CET-08.03-27 Exercise:
       SVEC-07.06-41 Exercise:
+      #### Further Applications of Integration
+      ##### Applications to Physics and Engineering
       Sketch the region bounded by the curves, and visually estimate the location of the centroid. Then find the exact coordinates of the centroid.
       $$
       y=e^{x}, \quad y=0, \quad x=0, \quad x=1
@@ -580,6 +769,8 @@ notes:
     Front: |
       CET-08.03-28 Exercise:
       SVEC-07.06-42 Exercise:
+      #### Further Applications of Integration
+      ##### Applications to Physics and Engineering
       Sketch the region bounded by the curves, and visually estimate the location of the centroid. Then find the exact coordinates of the centroid.
       $$
       y=\sin x, \quad y=0, \quad 0 \leqslant x \leqslant \pi
@@ -595,6 +786,8 @@ notes:
     Front: |
       CET-08.03-29 Exercise:
       SVEC-07.06-43 Exercise:
+      #### Further Applications of Integration
+      ##### Applications to Physics and Engineering
       Find the centroid of the region bounded by the given curves.
       $$
       y=x^{2}, \quad x=y^{2}
@@ -610,6 +803,8 @@ notes:
     Front: |
       CET-08.03-30 Exercise:
       SVEC-07.06-44 Exercise:
+      #### Further Applications of Integration
+      ##### Applications to Physics and Engineering
       Find the centroid of the region bounded by the given curves.
       $$
       y=2-x^{2}, \quad y=x
@@ -625,6 +820,8 @@ notes:
     Front: |
       CET-08.03-31 Exercise:
       SVEC-07.06-45 Exercise:
+      #### Further Applications of Integration
+      ##### Applications to Physics and Engineering
       Find the centroid of the region bounded by the given curves.
       $$
       y=\sin x, \quad y=\cos x, \quad x=0, \quad x=\pi / 4
@@ -640,6 +837,8 @@ notes:
     Front: |
       CET-08.03-32 Exercise:
       SVEC-07.06-46 Exercise:
+      #### Further Applications of Integration
+      ##### Applications to Physics and Engineering
       Find the centroid of the region bounded by the given curves.
       $$
       y=x^{3}, \quad x+y=2, \quad y=0
@@ -688,6 +887,8 @@ notes:
     Front: |
       CET-08.03-35 Exercise:
       SVEC-07.06-47 to 48 Exercise:
+      #### Further Applications of Integration
+      ##### Applications to Physics and Engineering
       Calculate the moments $M_{x}$ and $M_{y}$ and the center of mass of a lamina with the given density and shape.
       $\rho=6$
       <p align="center">
@@ -722,6 +923,8 @@ notes:
     Front: |
       CET-08.03-39 Exercise:
       SVEC-07.06-49 Exercise:
+      #### Further Applications of Integration
+      ##### Applications to Physics and Engineering
       Prove that the centroid of any triangle is located at the point of intersection of the medians. [Hints: Place the axes so that the vertices are $(a, 0),(0, b),$ and $(c, 0) .$ Recall that a median is a line segment from a vertex to the midpoint of the opposite side. Recall also that the medians intersect at a point two-thirds of the way from each vertex (along the median) to the opposite side.]
     Back: |
       Choose $x-$ and $y$ -axes so that the base (one side of the triangle) lies along the $x$ -axis with the other vertex along the positive $y$ -axis as shown.
@@ -786,7 +989,11 @@ notes:
     Front: |
       CET-08.03-40 Exercise:
       SVEC-07.06-50 Exercise:
+      #### Further Applications of Integration
+      ##### Applications to Physics and Engineering
       Find the centroid of the region shown, not by integration, but by locating the centroids of the rectangles and triangles (from Exercise CET-8.3-39/SVEC-7.6-49) and using additivity of moments.
+      #### Further Applications of Integration
+      ##### Applications to Physics and Engineering
       <p align="center">
       ![](CET-08.03-40.Xs.1.jpg)
       </p>
@@ -803,6 +1010,8 @@ notes:
     Front: |
       CET-08.03-41 Exercise:
       SVEC-07.06-51 Exercise:
+      #### Further Applications of Integration
+      ##### Applications to Physics and Engineering
       Find the centroid of the region shown, not by integration, but by locating the centroids of the rectangles and triangles (from Exercise CET-8.3-39/SVEC-7.6-49) and using additivity of moments.
       <p align="center">
       ![](CET-08.03-41.Xs.1.jpg)
@@ -818,6 +1027,8 @@ notes:
     Front: |
       CET-08.03-44 Exercise:
       SVEC-07.06-52 Exercise:
+      #### Further Applications of Integration
+      ##### Applications to Physics and Engineering
       Use the Theorem of Pappus to find the volume of the given solid:
       A sphere of radius $r$ (Use Example CET-8.3-8/SVEC-7.6-4.)
     Back: |
@@ -838,6 +1049,8 @@ notes:
     Front: |
       CET-08.03-45 Exercise:
       SVEC-07.06-53 Exercise:
+      #### Further Applications of Integration
+      ##### Applications to Physics and Engineering
       Use the Theorem of Pappus to find the volume of the given solid:
       A cone with height $h$ and base radius $r$
     Back: |
@@ -864,6 +1077,8 @@ notes:
     Front: |
       CET-08.03-46 Exercise:
       SVEC-07.06-54 Exercise:
+      #### Further Applications of Integration
+      ##### Applications to Physics and Engineering
       Use the Theorem of Pappus to find the volume of the given solid:
       The solid obtained by rotating the triangle with vertices $(2,3),(2,5),$ and $(5,4)$ about the $x$ -axis
     Back: |
@@ -881,6 +1096,8 @@ notes:
     Front: |
       CET-08.03-51 Exercise:
       SVEC-07.06-55 Exercise:
+      #### Further Applications of Integration
+      ##### Applications to Physics and Engineering
       Prove Formulas CET-08.03-9/SVEC-7.6-13.
     Back: |
       Suppose the region lies between two curves $y=f(x)$ and $y=g(x)$ where $f(x) \geq g(x),$ as illustrated below.
@@ -943,6 +1160,8 @@ notes:
     Front: |
       CET-08.03-50 Exercise:
       SVEC-07.06-56 Exercise:
+      #### Further Applications of Integration
+      ##### Applications to Physics and Engineering
       Let $\mathscr{R}$ be the region that lies between the curves
       $$
       y=x^{m} \quad y=x^{n} \quad 0 \leqslant x \leqslant 1

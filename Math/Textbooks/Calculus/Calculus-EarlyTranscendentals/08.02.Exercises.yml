@@ -16,6 +16,8 @@ notes:
   fields:
     Front: |
       CET-08.02-01 Exercise:
+      #### Further Applications of Integration
+      ##### Area of a Surface of Revolution
       (a) Set up an integral for the area of the surface obtained by rotating the curve about (i) the $x$ -axis and (ii) the $y$ -axis.
       (b) Use the numerical integration capability of a calculator to evaluate the surface areas correct to four decimal places.
       $$
@@ -40,6 +42,8 @@ notes:
   fields:
     Front: |
       CET-08.02-02 Exercise:
+      #### Further Applications of Integration
+      ##### Area of a Surface of Revolution
       (a) Set up an integral for the area of the surface obtained by rotating the curve about (i) the $x$ -axis and (ii) the $y$ -axis.
       (b) Use the numerical integration capability of a calculator to evaluate the surface areas correct to four decimal places.
       $$
@@ -57,6 +61,8 @@ notes:
   fields:
     Front: |
       CET-08.02-03 Exercise:
+      #### Further Applications of Integration
+      ##### Area of a Surface of Revolution
       (a) Set up an integral for the area of the surface obtained by rotating the curve about (i) the $x$ -axis and (ii) the $y$ -axis.
       (b) Use the numerical integration capability of a calculator to evaluate the surface areas correct to four decimal places.
       $$
@@ -74,6 +80,8 @@ notes:
   fields:
     Front: |
       CET-08.02-04 Exercise:
+      #### Further Applications of Integration
+      ##### Area of a Surface of Revolution
       (a) Set up an integral for the area of the surface obtained by rotating the curve about (i) the $x$ -axis and (ii) the $y$ -axis.
       (b) Use the numerical integration capability of a calculator to evaluate the surface areas correct to four decimal places.
       $$
@@ -91,6 +99,8 @@ notes:
   fields:
     Front: |
       CET-08.02-05 Exercise:
+      #### Further Applications of Integration
+      ##### Area of a Surface of Revolution
       (a) Set up an integral for the area of the surface obtained by rotating the curve about (i) the $x$ -axis and (ii) the $y$ -axis.
       (b) Use the numerical integration capability of a calculator to evaluate the surface areas correct to four decimal places.
       $$
@@ -108,6 +118,8 @@ notes:
   fields:
     Front: |
       CET-08.02-06 Exercise:
+      #### Further Applications of Integration
+      ##### Area of a Surface of Revolution
       (a) Set up an integral for the area of the surface obtained by rotating the curve about (i) the $x$ -axis and (ii) the $y$ -axis.
       (b) Use the numerical integration capability of a calculator to evaluate the surface areas correct to four decimal places.
       $$
@@ -125,6 +137,8 @@ notes:
   fields:
     Front: |
       CET-08.02-07 Exercise:
+      #### Further Applications of Integration
+      ##### Area of a Surface of Revolution
       Find the exact area of the surface obtained by rotating the curve about the $x$ -axis.
       $y=x^{3}, \quad 0 \leqslant x \leqslant 2$
     Back: |
@@ -145,6 +159,8 @@ notes:
   fields:
     Front: |
       CET-08.02-08 Exercise:
+      #### Further Applications of Integration
+      ##### Area of a Surface of Revolution
       Find the exact area of the surface obtained by rotating the curve about the $x$ -axis.
       $y=\sqrt{5-x}, \quad 3 \leqslant x \leqslant 5$
     Back: |
@@ -172,6 +188,8 @@ notes:
   fields:
     Front: |
       CET-08.02-09 Exercise:
+      #### Further Applications of Integration
+      ##### Area of a Surface of Revolution
       Find the exact area of the surface obtained by rotating the curve about the $x$ -axis.
       $y^{2}=x+1, \quad 0 \leqslant x \leqslant 3$
     Back: |
@@ -198,6 +216,8 @@ notes:
   fields:
     Front: |
       CET-08.02-10 Exercise:
+      #### Further Applications of Integration
+      ##### Area of a Surface of Revolution
       Find the exact area of the surface obtained by rotating the curve about the $x$ -axis.
       $y=\sqrt{1+e^{x}}, \quad  0 \leqslant x \leqslant 1$
     Back: |
@@ -219,6 +239,8 @@ notes:
   fields:
     Front: |
       CET-08.02-11 Exercise:
+      #### Further Applications of Integration
+      ##### Area of a Surface of Revolution
       Find the exact area of the surface obtained by rotating the curve about the $x$ -axis.
       $y=\cos \left(\frac{1}{2} x\right), \quad  0 \leqslant x \leqslant \pi$
     Back: |
@@ -244,6 +266,8 @@ notes:
   fields:
     Front: |
       CET-08.02-12 Exercise:
+      #### Further Applications of Integration
+      ##### Area of a Surface of Revolution
       Find the exact area of the surface obtained by rotating the curve about the $x$ -axis.
       $y=\frac{x^{3}}{6}+\frac{1}{2 x}, \quad  \frac{1}{2} \leq x \leq 1$
     Back: |
@@ -266,6 +290,8 @@ notes:
   fields:
     Front: |
       CET-08.02-13 Exercise:
+      #### Further Applications of Integration
+      ##### Area of a Surface of Revolution
       Find the exact area of the surface obtained by rotating the curve about the $x$ -axis.
       $x=\frac{1}{3}\left(y^{2}+2\right)^{3 / 2}, \quad  1 \leqslant y \leqslant 2$
     Back: |
@@ -277,6 +303,8 @@ notes:
   fields:
     Front: |
       CET-08.02-14 Exercise:
+      #### Further Applications of Integration
+      ##### Area of a Surface of Revolution
       Find the exact area of the surface obtained by rotating the curve about the $x$ -axis.
       $x=1+2 y^{2}, \quad  1 \leqslant y \leqslant 2$
     Back: |
@@ -288,6 +316,8 @@ notes:
   fields:
     Front: |
       CET-08.02-15 Exercise:
+      #### Further Applications of Integration
+      ##### Area of a Surface of Revolution
       The given curve is rotated about the $y$ -axis. Find the area of the resulting surface.
       $$
       y=\frac{1}{3} x^{3 / 2}, \quad  0 \leqslant x \leqslant 12
@@ -318,6 +348,8 @@ notes:
   fields:
     Front: |
       CET-08.02-16 Exercise:
+      #### Further Applications of Integration
+      ##### Area of a Surface of Revolution
       The given curve is rotated about the $y$ -axis. Find the area of the resulting surface.
       $$
       x^{2 / 3}+y^{2 / 3}=1, \quad 0 \leq y \leq 1
@@ -331,6 +363,8 @@ notes:
   fields:
     Front: |
       CET-08.02-17 Exercise:
+      #### Further Applications of Integration
+      ##### Area of a Surface of Revolution
       The given curve is rotated about the $y$ -axis. Find the area of the resulting surface.
       $$
       x=\sqrt{a^{2}-y^{2}}, \quad  0 \leqslant y \leqslant a / 2
@@ -346,6 +380,8 @@ notes:
   fields:
     Front: |
       CET-08.02-18 Exercise:
+      #### Further Applications of Integration
+      ##### Area of a Surface of Revolution
       The given curve is rotated about the $y$ -axis. Find the area of the resulting surface.
       $$
       y=\frac{1}{4} x^{2}-\frac{1}{2} \ln x, \quad  1 \leqslant x \leqslant 2
@@ -369,6 +405,8 @@ notes:
   fields:
     Front: |
       CET-08.02-19 Exercise:
+      #### Further Applications of Integration
+      ##### Area of a Surface of Revolution
       Use Simpson's Rule with $n=10$ to approximate the area of the surface obtained by rotating the curve about the $x$ -axis. Compare your answer with the value of the integral produced by a calculator.
       $y=\frac{1}{5} x^{5}, \quad 0 \leqslant x \leqslant 5$
     Back: |
@@ -382,6 +420,8 @@ notes:
   fields:
     Front: |
       CET-08.02-20 Exercise:
+      #### Further Applications of Integration
+      ##### Area of a Surface of Revolution
       Use Simpson's Rule with $n=10$ to approximate the area of the surface obtained by rotating the curve about the $x$ -axis. Compare your answer with the value of the integral produced by a calculator.
       $y=x+x^{2}, \quad 0 \leqslant x \leqslant 1$
     Back: |
@@ -395,6 +435,8 @@ notes:
   fields:
     Front: |
       CET-08.02-21 Exercise:
+      #### Further Applications of Integration
+      ##### Area of a Surface of Revolution
       Use Simpson's Rule with $n=10$ to approximate the area of the surface obtained by rotating the curve about the $x$ -axis. Compare your answer with the value of the integral produced by a calculator.
       $y=x e^{x}, \quad 0 \leqslant x \leqslant 1$
     Back: |
@@ -408,6 +450,8 @@ notes:
   fields:
     Front: |
       CET-08.02-22 Exercise:
+      #### Further Applications of Integration
+      ##### Area of a Surface of Revolution
       Use Simpson's Rule with $n=10$ to approximate the area of the surface obtained by rotating the curve about the $x$ -axis. Compare your answer with the value of the integral produced by a calculator.
       $y=x \ln x, \quad 1 \leqslant x \leqslant 2$
     Back: |
@@ -421,6 +465,8 @@ notes:
   fields:
     Front: |
       CET-08.02-23 Exercise:
+      #### Further Applications of Integration
+      ##### Area of a Surface of Revolution
       Use either a CAS or a table of integrals to find the exact area of the surface obtained by rotating the given curve about the $x$ -axis.
       $y=1 / x, \quad 1 \leqslant x \leqslant 2$
     Back: |
@@ -431,6 +477,8 @@ notes:
   fields:
     Front: |
       CET-08.02-24 Exercise:
+      #### Further Applications of Integration
+      ##### Area of a Surface of Revolution
       Use either a CAS or a table of integrals to find the exact area of the surface obtained by rotating the given curve about the $x$ -axis.
       $y=\sqrt{x^{2}+1}, \quad 0 \leqslant x \leqslant 3$
     Back: |
@@ -441,6 +489,8 @@ notes:
   fields:
     Front: |
       CET-08.02-25 Exercise:
+      #### Further Applications of Integration
+      ##### Area of a Surface of Revolution
       Use a CAS to find the exact area of the surface obtained by rotating the curve about the $y$ -axis. If your CAS has trouble evaluating the integral, express the surface area as an integral in the other variable.
       $y=x^{3}, 0 \leqslant y \leqslant 1$
     Back: |
@@ -451,6 +501,8 @@ notes:
   fields:
     Front: |
       CET-08.02-26 Exercise:
+      #### Further Applications of Integration
+      ##### Area of a Surface of Revolution
       Use a CAS to find the exact area of the surface obtained by rotating the curve about the $y$ -axis. If your CAS has trouble evaluating the integral, express the surface area as an integral in the other variable.
       $y=\ln (x+1), 0 \leqslant x \leqslant 1$
     Back: |
@@ -463,6 +515,8 @@ notes:
   fields:
     Front: |
       CET-08.02-27 Exercise:
+      #### Further Applications of Integration
+      ##### Area of a Surface of Revolution
       If the region $\mathscr{R}=\{(x, y) | x \geqslant 1,0 \leq y \leq 1 / x\}$ is rotated about the $x$ -axis, the volume of the resulting solid is finite (see Exercise $7.8 .63) .$ Show that the surface area is infinite. (The surface is shown in the figure and is known as Gabriel's horn.)
       <p align="center">
       ![](CET-08.02-27.Xs.1.jpg)
@@ -475,6 +529,8 @@ notes:
   fields:
     Front: |
       CET-08.02-28 Exercise:
+      #### Further Applications of Integration
+      ##### Area of a Surface of Revolution
       If the infinite curve $y=e^{-x}, x \geqslant 0,$ is rotated about the $x$ -axis, find the area of the resulting surface.
     Back: |
       $$
@@ -486,6 +542,8 @@ notes:
   fields:
     Front: |
       CET-08.02-29 Exercise:
+      #### Further Applications of Integration
+      ##### Area of a Surface of Revolution
       (a) If $a>0,$ find the area of the surface generated by rotating the loop of the curve $3 a y^{2}=x(a-x)^{2}$ about the $x$ -axis.
       (b) Find the surface area if the loop is rotated about the $y-$ axis.
     Back: |
@@ -503,6 +561,8 @@ notes:
   fields:
     Front: |
       CET-08.02-30 Exercise:
+      #### Further Applications of Integration
+      ##### Area of a Surface of Revolution
       A group of engineers is building a parabolic satellite dish whose shape will be formed by rotating the curve $y=a x^{2}$ about the $y$ -axis. If the dish is to have a 10 -ft diameter and a maximum depth of $2 \mathrm{ft}$, find the value of $a$ and the surface area of the dish.
     Back: |
       $$
@@ -514,6 +574,8 @@ notes:
   fields:
     Front: |
       CET-08.02-31 Exercise:
+      #### Further Applications of Integration
+      ##### Area of a Surface of Revolution
       (a) The ellipse
       $$
       \frac{x^{2}}{a^{2}}+\frac{y^{2}}{b^{2}}=1 \quad a>b
@@ -538,6 +600,8 @@ notes:
   fields:
     Front: |
       CET-08.02-32 Exercise:
+      #### Further Applications of Integration
+      ##### Area of a Surface of Revolution
       [Parts (a) and (b) below come from exercise 6.2.63.]
       (a) Set up an integral for the volume of a solid torus (the donut-shaped solid shown in the figure) with radii $r$ and $R$
       (b) By interpreting the integral as an area, find the volume of the torus.
@@ -564,10 +628,14 @@ notes:
   fields:
     Front: |
       CET-08.02-33 Exercise:
+      #### Further Applications of Integration
+      ##### Area of a Surface of Revolution
       (Exercise 34 included below.)
       If the curve $y=f(x), a \leqslant x \leqslant b,$ is rotated about the horizontal line $y=c,$ where $f(x) \leqslant c,$ find a formula for the area of the resulting surface.
 
       CET-08.02-34 Exercise:
+      #### Further Applications of Integration
+      ##### Area of a Surface of Revolution
       Use the result of Exercise 33 to set up an integral to find the area of the surface generated by rotating the curve $y=\sqrt{x}$ $0 \leqslant x \leqslant 4,$ about the line $y=4 .$ Then use a CAS to evaluate the integral.
     Back: |
       $$
@@ -587,6 +655,8 @@ notes:
   fields:
     Front: |
       CET-08.02-35 Exercise:
+      #### Further Applications of Integration
+      ##### Area of a Surface of Revolution
       Find the area of the surface obtained by rotating the circle $x^{2}+y^{2}=r^{2}$ about the line $y=r$.
     Back: |
       $$
@@ -600,6 +670,8 @@ notes:
   fields:
     Front: |
       CET-08.02-36 Exercise:
+      #### Further Applications of Integration
+      ##### Area of a Surface of Revolution
       (a) Show that the surface area of a zone of a sphere that lies between two parallel planes is $S=2 \pi R h,$ where $R$ is the radius of the sphere and $h$ is the distance between the planes. (Notice that $S$ depends only on the distance between the planes and not on their location, provided that both planes intersect the sphere.
       (b) Show that the surface area of a zone of a cylinder with radius $R$ and height $h$ is the same as the surface area of the zone of a sphere in part (a).
     Back: |
@@ -634,6 +706,8 @@ notes:
   fields:
     Front: |
       CET-08.02-37 Exercise:
+      #### Further Applications of Integration
+      ##### Area of a Surface of Revolution
       Show that if we rotate the curve $y=e^{x / 2}+e^{-x / 2}$ about the $x$ -axis, the area of the resulting surface is the same value as the enclosed volume for any interval $a \leqslant x \leqslant b$
     Back: |
       $y=e^{x / 2}+e^{-x / 2} $ $\Rightarrow y^{\prime}=\frac{1}{2} e^{x / 2}-\frac{1}{2} e^{-x / 2} $ $\Rightarrow 1+\left(y^{\prime}\right)^{2}=1+\left(\frac{1}{2} e^{x / 2}-\frac{1}{2} e^{-x / 2}\right)^{2}$ $=1+\frac{1}{4} e^{x}-\frac{1}{2}+\frac{1}{4} e^{-x}$ $=\frac{1}{4} e^{x}+\frac{1}{2}+\frac{1}{4} e^{-x}$ $=\left(\frac{1}{2} e^{x / 2}+\frac{1}{2} e^{-x / 2}\right)^{2}.$ If we rotate the curve about the $x$ -axis on the interval $a \leq x \leq b,$ the resulting surface area is $S=\int_{a}^{b} 2 \pi y \sqrt{1+\left(y^{\prime}\right)^{2}} d x$ $=2 \pi \int_{a}^{b}\left(e^{x / 2}+e^{-x / 2}\right)\left(\frac{1}{2} e^{x / 2}+\frac{1}{2} e^{-x / 2}\right) d x$ $=\pi \int_{a}^{b}\left(e^{x / 2}+e^{-x / 2}\right)^{2} d x,$ which is the same as the volume obtained by rotating the curve $y$ about the $x$ -axis on the interval $a \leq x \leq b,$ namely, $V=\pi \int_{a}^{b} y^{2} d x$.
@@ -643,6 +717,8 @@ notes:
   fields:
     Front: |
       CET-08.02-38 Exercise:
+      #### Further Applications of Integration
+      ##### Area of a Surface of Revolution
       Let $L$ be the length of the curve $y=f(x), a \leqslant x \leqslant b$ where $f$ is positive and has a continuous derivative. Let $S_{f}$ be the surface area generated by rotating the curve about the $x$ -axis. If $c$ is a positive constant, define $g(x)=f(x)+c$ and let $S_{g}$ be the corresponding surface area generated by the curve $y=g(x), a \leqslant x \leqslant b .$ Express $S_{g}$ in terms of $S_{f}$ and $L$.
     Back: |
       Since $g(x)=f(x)+c,$ we have $g^{\prime}(x)=f^{\prime}(x) .$ Thus,
@@ -658,6 +734,8 @@ notes:
   fields:
     Front: |
       CET-08.02-39 Exercise:
+      #### Further Applications of Integration
+      ##### Area of a Surface of Revolution
       Formula 4 is valid only when $f(x) \geqslant 0 .$ Show that when $f(x)$ is not necessarily positive, the formula for surface area becomes
       $$
       S=\int_{a}^{b} 2 \pi|f(x)| \sqrt{1+\left[f^{\prime}(x)\right]^{2}} d x
@@ -666,3 +744,87 @@ notes:
       In the derivation of $(4),$ we computed a typical contribution to the surface area to be $2 \pi \frac{y_{i-1}+y_{i}}{2}\left|P_{i-1} P_{i}\right|$, the area of a frustum of a cone. When $f(x)$ is not necessarily positive, the approximations $y_{i}=f\left(x_{i}\right) \approx f\left(x_{i}^{*}\right)$ and $y_{i-1}=f\left(x_{i-1}\right) $ $\approx f\left(x_{i}^{*}\right) $ $\approx f\left(x_{i}^{*}\right)$ must be replaced by $y_{i}=\left|f\left(x_{i}^{*}\right)\right|$ and $y_{i-1}=\left|f\left(x_{i-1}\right)\right| \approx\left|f\left(x_{i}^{*}\right)\right| .$ Thus, $2 \pi \frac{y_{i-1}+y_{i}}{2}\left|P_{i-1} P_{i}\right| \approx 2 \pi\left|f\left(x_{i}^{*}\right)\right| \sqrt{1+\left[f^{\prime}\left(x_{i}^{*}\right)\right]^{2}} \Delta x .$ Continuing with the rest of the derivation as before, we obtain $S=\int_{a}^{b} 2 \pi|f(x)| \sqrt{1+\left[f^{\prime}(x)\right]^{2}} d x$.
     Annotations: ''
   tags: []
+- id: 1590614097684
+  fields:
+    Front: |
+      CET-08.02-40 Exercise:
+      #### Further Applications of Integration
+      ##### Area of a Surface of Revolution
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590614098083
+  fields:
+    Front: |
+      CET-08.02-41 Exercise:
+      #### Further Applications of Integration
+      ##### Area of a Surface of Revolution
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590614098494
+  fields:
+    Front: |
+      CET-08.02-42 Exercise:
+      #### Further Applications of Integration
+      ##### Area of a Surface of Revolution
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590614098875
+  fields:
+    Front: |
+      CET-08.02-43 Exercise:
+      #### Further Applications of Integration
+      ##### Area of a Surface of Revolution
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590614099243
+  fields:
+    Front: |
+      CET-08.02-44 Exercise:
+      #### Further Applications of Integration
+      ##### Area of a Surface of Revolution
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590614099645
+  fields:
+    Front: |
+      CET-08.02-45 Exercise:
+      #### Further Applications of Integration
+      ##### Area of a Surface of Revolution
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590614100058
+  fields:
+    Front: |
+      CET-08.02-46 Exercise:
+      #### Further Applications of Integration
+      ##### Area of a Surface of Revolution
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
