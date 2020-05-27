@@ -1,0 +1,398 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-16-VectorCalculus
+  - CET-16.09-TheDivergenceTheorem
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1590545989309
+  fields:
+    Front: |
+      CET-16.09-01 Exercise:
+      #### Vector Calculus
+      ##### The Divergence Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590545989642
+  fields:
+    Front: |
+      CET-16.09-02 Exercise:
+      #### Vector Calculus
+      ##### The Divergence Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590545989992
+  fields:
+    Front: |
+      CET-16.09-03 Exercise:
+      #### Vector Calculus
+      ##### The Divergence Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590545990342
+  fields:
+    Front: |
+      CET-16.09-04 Exercise:
+      #### Vector Calculus
+      ##### The Divergence Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590545990692
+  fields:
+    Front: |
+      CET-16.09-05 Exercise:
+      #### Vector Calculus
+      ##### The Divergence Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590545991058
+  fields:
+    Front: |
+      CET-16.09-06 Exercise:
+      #### Vector Calculus
+      ##### The Divergence Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590545991392
+  fields:
+    Front: |
+      CET-16.09-07 Exercise:
+      #### Vector Calculus
+      ##### The Divergence Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590545991745
+  fields:
+    Front: |
+      CET-16.09-08 Exercise:
+      #### Vector Calculus
+      ##### The Divergence Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590545992142
+  fields:
+    Front: |
+      CET-16.09-09 Exercise:
+      #### Vector Calculus
+      ##### The Divergence Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590545992542
+  fields:
+    Front: |
+      CET-16.09-10 Exercise:
+      #### Vector Calculus
+      ##### The Divergence Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590545992875
+  fields:
+    Front: |
+      CET-16.09-11 Exercise:
+      #### Vector Calculus
+      ##### The Divergence Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590545993259
+  fields:
+    Front: |
+      CET-16.09-12 Exercise:
+      #### Vector Calculus
+      ##### The Divergence Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590545993627
+  fields:
+    Front: |
+      CET-16.09-13 Exercise:
+      #### Vector Calculus
+      ##### The Divergence Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590545993992
+  fields:
+    Front: |
+      CET-16.09-14 Exercise:
+      #### Vector Calculus
+      ##### The Divergence Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590545994342
+  fields:
+    Front: |
+      CET-16.09-15 Exercise:
+      #### Vector Calculus
+      ##### The Divergence Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590545994709
+  fields:
+    Front: |
+      CET-16.09-16 Exercise:
+      #### Vector Calculus
+      ##### The Divergence Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590545995093
+  fields:
+    Front: |
+      CET-16.09-17 Exercise:
+      #### Vector Calculus
+      ##### The Divergence Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590545995444
+  fields:
+    Front: |
+      CET-16.09-18 Exercise:
+      #### Vector Calculus
+      ##### The Divergence Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590545995837
+  fields:
+    Front: |
+      CET-16.09-19 Exercise:
+      #### Vector Calculus
+      ##### The Divergence Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590545996193
+  fields:
+    Front: |
+      CET-16.09-20 Exercise:
+      #### Vector Calculus
+      ##### The Divergence Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590545996545
+  fields:
+    Front: |
+      CET-16.09-21 Exercise:
+      #### Vector Calculus
+      ##### The Divergence Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590545996894
+  fields:
+    Front: |
+      CET-16.09-22 Exercise:
+      #### Vector Calculus
+      ##### The Divergence Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590545997244
+  fields:
+    Front: |
+      CET-16.09-23 Exercise:
+      #### Vector Calculus
+      ##### The Divergence Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590545997601
+  fields:
+    Front: |
+      CET-16.09-24 Exercise:
+      #### Vector Calculus
+      ##### The Divergence Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590545997942
+  fields:
+    Front: |
+      CET-16.09-25 Exercise:
+      #### Vector Calculus
+      ##### The Divergence Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590545998292
+  fields:
+    Front: |
+      CET-16.09-26 Exercise:
+      #### Vector Calculus
+      ##### The Divergence Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590545998625
+  fields:
+    Front: |
+      CET-16.09-27 Exercise:
+      #### Vector Calculus
+      ##### The Divergence Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590545998976
+  fields:
+    Front: |
+      CET-16.09-28 Exercise:
+      #### Vector Calculus
+      ##### The Divergence Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590545999326
+  fields:
+    Front: |
+      CET-16.09-29 Exercise:
+      #### Vector Calculus
+      ##### The Divergence Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590545999676
+  fields:
+    Front: |
+      CET-16.09-30 Exercise:
+      #### Vector Calculus
+      ##### The Divergence Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590546000042
+  fields:
+    Front: |
+      CET-16.09-31 Exercise:
+      #### Vector Calculus
+      ##### The Divergence Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590546000393
+  fields:
+    Front: |
+      CET-16.09-32 Exercise:
+      #### Vector Calculus
+      ##### The Divergence Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

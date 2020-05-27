@@ -1,0 +1,50 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-16-VectorCalculus
+  - CET-16.09-TheDivergenceTheorem
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1590545988134
+  fields:
+    Front: |
+      CET-16.09-1 Example:
+      #### Vector Calculus
+      ##### The Divergence Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590545988509
+  fields:
+    Front: |
+      CET-16.09-2 Example:
+      #### Vector Calculus
+      ##### The Divergence Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590545988894
+  fields:
+    Front: |
+      CET-16.09-3 Example:
+      #### Vector Calculus
+      ##### The Divergence Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

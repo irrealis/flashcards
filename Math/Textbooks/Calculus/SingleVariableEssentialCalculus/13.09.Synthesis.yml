@@ -1,0 +1,162 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theory
+  - SingleVariableEssentialCalculus
+  - SVEC-13-VectorCalculus
+  - SVEC-13.09-TheDivergenceTheorem
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1590539125858
+  fields:
+    Front: |
+      SVEC-13.09.01 Synthesis:
+      #### Vector Calculus
+      ##### The Divergence Theorem
+      List definitions and theorems pertaining to the Divergence Theorem.
+    Back: |
+      Def: **simple solid region**
+      Thm: **Diverge Theorem**
+      Thm: _unnamed_ **expression of fluid divergence**
+      Def: **source** and **sink**
+    Annotations: ''
+  tags:
+  - Definitions
+  - Theorems
+  - Editing
+- id: 1590539393034
+  fields:
+    Front: |
+      SVEC-13.09.02 Synthesis:
+      #### Vector Calculus
+      ##### The Divergence Theorem
+      Define **simple solid region**. List its hypotheses.
+    Back: |
+      A region $E$ that is simultaneously of types 1, 2, and 3 is called a **simple solid region**. (For instance, regions bounded by ellipsoids or rectangular boxes are simple solid regions.)
+
+      The boundary $S$ of $E$ is a closed surface, and we use the convention that the positive orientation is outward; that is, the unit normal vector $\mathbf{n}$ is directed outward from $E.$
+
+      Hypotheses:
+
+      - $E$ that is simultaneously of types 1, 2, and 3.
+
+      To do: verify hypotheses.
+    Annotations: ''
+  tags:
+  - Definition
+  - ToDo
+- id: 1590545102611
+  fields:
+    Front: |
+      SVEC-13.09.03 Synthesis:
+      #### Vector Calculus
+      ##### The Divergence Theorem
+      State the **Diverge Theorem**. List its hypotheses.
+    Back: |
+      Let $E$ be a simple solid region and let $S$ be the boundary surface of $E$, given with positive (outward) orientation. Let $\mathbf{F}$ be a vector field whose component functions have continuous partial derivatives on an open region that contains $E$. Then
+      $$
+      \iint_{S} \mathbf{F} \cdot d \mathbf{S}=\iiint_{E} \operatorname{div} \mathbf{F} d V
+      $$
+
+      Hypotheses:
+
+      - $E$ is a simple solid region.
+      - $S$ is the boundary surface of $E.$
+      - $S$ is given with positive (outward) orientation.
+      - The component functions of $\mathbf{F}$ have continuous partial derivatives on an open region that contains $E.$
+
+      To do: verify hypotheses.
+    Annotations: ''
+  tags:
+  - Theorem
+  - ToDo
+- id: 1590545585206
+  fields:
+    Front: |
+      SVEC-13.09.04 Synthesis:
+      #### Vector Calculus
+      ##### The Divergence Theorem
+      State the _unnamed_ **expression of fluid divergence**. Define **source** and **sink**. List their hypotheses.
+    Back: |
+      Let $\mathbf{v}(x, y, z)$ be the velocity field of a fluid with constant density $\rho .$ If $P_{0}\left(x_{0}, y_{0}, z_{0}\right)$ is a point in the fluid and $B_{a}$ is a ball with center $P_{0}$ and very small radius $a,$ then we approximate the flux over the boundary sphere $S_{a}$ as follows:
+      $$
+      \iint_{S_{a}} \mathbf{F} \cdot d \mathbf{S}=\iiint_{B_{a}} \operatorname{div} \mathbf{F} d V \approx \iiint_{B_{a}} \operatorname{div} \mathbf{F}\left(P_{0}\right) d V=\operatorname{div} \mathbf{F}\left(P_{0}\right) V\left(B_{a}\right)
+      $$ This approximation becomes better as $a \rightarrow 0$ and suggests that
+      $$
+      \operatorname{div} \mathbf{F}\left(P_{0}\right)=\lim _{a \rightarrow 0} \frac{1}{V\left(B_{a}\right)} \iint_{S_{a}} \mathbf{F} \cdot d \mathbf{S}
+      $$ This says that $\operatorname{div} \mathbf{F}\left(P_{0}\right)$ is the net rate of outward flux per unit volume at $P_{0}$ (This is the reason for the name divergence.) If $\operatorname{div} \mathbf{F}(P)>0,$ the net flow is outward near $P$ and $P$ is called a **source**. If $\operatorname{div} \mathbf{F}(P)<0$, the net flow is inward near $P$ and $P$ is called a **sink**.
+
+      Hypotheses:
+
+      - The fluid has constant density $\rho .$
+      - The components of $\mathbf{v}$ have continuous partial derivatives on an open region that contains $P_0 .$
+
+      To do: verify hypotheses.
+    Annotations: ''
+  tags:
+  - Theorem
+  - ToDo
+  - Editing
+- id: 1590546224408
+  media:
+  - path: ¢{file_dir}/images/SVEC-13.09.05.Sy.1.jpg
+  - path: ¢{file_dir}/images/SVEC-13.09.05.Sy.2.jpg
+  - path: ¢{file_dir}/images/SVEC-13.09.05.Sy.3.jpg
+  - path: ¢{file_dir}/images/SVEC-13.09.05.Sy.4.jpg
+  - path: ¢{file_dir}/images/SVEC-13.09.05.Sy.5.jpg
+  fields:
+    Front: |
+      SVEC-13.09.05 Synthesis:
+      #### Vector Calculus
+      ##### The Divergence Theorem
+      Summarize the Fundamental Theorem of Calculus and its higher-dimensional versions.
+    Back: |
+      **Fundamental Theorem of Calculus**
+      <p align="center">
+      ![](SVEC-13.09.05.Sy.1.jpg)
+      </p>
+      $$
+      \int_{a}^{b} F^{\prime}(x) d x=F(b)-F(a)
+      $$
+
+      **Fundamental Theorem of Calculus for Line Integrals**
+      <p align="center">
+      ![](SVEC-13.09.05.Sy.2.jpg)
+      </p>
+      $$
+      \int_{C} \nabla f \cdot d \mathbf{r}=f(\mathbf{r}(b))-f(\mathbf{r}(a))
+      $$
+
+      **Green's Theorem**
+      <p align="center">
+      ![](SVEC-13.09.05.Sy.3.jpg)
+      </p>
+      $$
+      \iint_{D}\left(\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y}\right) d A=\int_{C} P d x+Q d y
+      $$
+
+      **Stokes' Theorem**
+      <p align="center">
+      ![](SVEC-13.09.05.Sy.4.jpg)
+      </p>
+      $$
+      \iint_{S} \operatorname{curl} \mathbf{F} \cdot d \mathbf{S}=\int_{C} \mathbf{F} \cdot d \mathbf{r}
+      $$
+
+      **Divergence Theorem**
+      <p align="center">
+      ![](SVEC-13.09.05.Sy.5.jpg)
+      </p>
+      $$
+      \iiint_{E} \operatorname{div} \mathbf{F} d V=\iint_{S} \mathbf{F} \cdot d \mathbf{S}
+      $$
+
+    Annotations: ''
+  tags:
+  - Editing
+  - Theorems
