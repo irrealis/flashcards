@@ -1,0 +1,170 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-16-VectorCalculus
+  - CET-16.R-TF-Review
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1590594505583
+  fields:
+    Front: |
+      CET-16.R-TF-01 True-False:
+      #### Vector Calculus
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590594505926
+  fields:
+    Front: |
+      CET-16.R-TF-02 True-False:
+      #### Vector Calculus
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590594506251
+  fields:
+    Front: |
+      CET-16.R-TF-03 True-False:
+      #### Vector Calculus
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590594506578
+  fields:
+    Front: |
+      CET-16.R-TF-04 True-False:
+      #### Vector Calculus
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590594506904
+  fields:
+    Front: |
+      CET-16.R-TF-05 True-False:
+      #### Vector Calculus
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590594507232
+  fields:
+    Front: |
+      CET-16.R-TF-06 True-False:
+      #### Vector Calculus
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590594507549
+  fields:
+    Front: |
+      CET-16.R-TF-07 True-False:
+      #### Vector Calculus
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590594507897
+  fields:
+    Front: |
+      CET-16.R-TF-08 True-False:
+      #### Vector Calculus
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590594508213
+  fields:
+    Front: |
+      CET-16.R-TF-09 True-False:
+      #### Vector Calculus
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590594508533
+  fields:
+    Front: |
+      CET-16.R-TF-10 True-False:
+      #### Vector Calculus
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590594508854
+  fields:
+    Front: |
+      CET-16.R-TF-11 True-False:
+      #### Vector Calculus
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590594509183
+  fields:
+    Front: |
+      CET-16.R-TF-12 True-False:
+      #### Vector Calculus
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590594509501
+  fields:
+    Front: |
+      CET-16.R-TF-13 True-False:
+      #### Vector Calculus
+      ##### Review
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

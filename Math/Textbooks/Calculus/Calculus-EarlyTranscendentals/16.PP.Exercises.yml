@@ -1,0 +1,86 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-16-VectorCalculus
+  - CET-16.PP-ProblemsPlus
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1590594942838
+  fields:
+    Front: |
+      CET-16.PP-01 Exercise:
+      #### Vector Calculus
+      ##### Problems Plus
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590594943208
+  fields:
+    Front: |
+      CET-16.PP-02 Exercise:
+      #### Vector Calculus
+      ##### Problems Plus
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590594943532
+  fields:
+    Front: |
+      CET-16.PP-03 Exercise:
+      #### Vector Calculus
+      ##### Problems Plus
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590594943854
+  fields:
+    Front: |
+      CET-16.PP-04 Exercise:
+      #### Vector Calculus
+      ##### Problems Plus
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590594944180
+  fields:
+    Front: |
+      CET-16.PP-05 Exercise:
+      #### Vector Calculus
+      ##### Problems Plus
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590594944500
+  fields:
+    Front: |
+      CET-16.PP-06 Exercise:
+      #### Vector Calculus
+      ##### Problems Plus
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
