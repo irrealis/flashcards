@@ -9,7 +9,7 @@ variables = dict(
   chapter_title = "Vector Calculus",
 
   section_num = "08",
-  section_title = "Stoke's Theorem",
+  section_title = "Stokes' Theorem",
   section_tag = "CET-16.08-StokesTheorem",
 
   problem_type = "Example",
