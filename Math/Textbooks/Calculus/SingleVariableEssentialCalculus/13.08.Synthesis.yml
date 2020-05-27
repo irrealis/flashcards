@@ -24,7 +24,7 @@ notes:
       Thm: **Stokes' Theorem**
       Thm: _unnamed_ **relationship between different surfaces with same boundary curve**
       Def: **circulation**
-      Thm: _unnamed_ **expression of fluid rotation about an axis**
+      Thm: _unnamed_ **expression of fluid rotation**
     Back: |
     Annotations: ''
   tags:
@@ -143,7 +143,7 @@ notes:
       #### Vector Calculus
       ##### Surface Integrals
       ###### Stokes' Theorem
-      State the _unnamed_ **expression of fluid rotation about and axis**. List its hypotheses.
+      State the _unnamed_ **expression of fluid rotation**. List its hypotheses.
     Back: |
       Suppose that $\mathbf{v}$ represents the velocity field in a fluid flow. Let $P_{0}\left(x_{0}, y_{0}, z_{0}\right)$ be a point in the fluid and let $S_{a}$ be a small disk with radius $a$ and center $P_{0} .$ Then $(\operatorname{curl} \mathbf{v})(P) \approx(\operatorname{curl} \mathbf{v})\left(P_{0}\right)$ for all points $P$ on $S_{a}$ because curl $\mathbf{v}$ is continuous. Thus, by Stokes' Theorem, we get the following approximation to the circulation around the boundary circle $C_{a}$
       $$
