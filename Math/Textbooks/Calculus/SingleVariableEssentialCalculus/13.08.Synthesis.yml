@@ -18,10 +18,10 @@ notes:
       SVEC-13.08.01 Synthesis:
       #### Vector Calculus
       ##### Surface Integrals
-      ###### Stoke's Theorem
-      List definitions and theorems pertaining to Stoke's Theorem.
+      ###### Stokes' Theorem
+      List definitions and theorems pertaining to Stokes' Theorem.
       Def: **positive orientation of boundary curve**
-      Thm: **Stoke's Theorem**
+      Thm: **Stokes' Theorem**
       Thm: _unnamed_ **relationship between different surfaces with same boundary curve**
       Def: **circulation**
       Thm: _unnamed_ **expression of fluid rotation about an axis**
@@ -38,7 +38,7 @@ notes:
       SVEC-13.08.02 Synthesis:
       #### Vector Calculus
       ##### Surface Integrals
-      ###### Stoke's Theorem
+      ###### Stokes' Theorem
       Define **positive orientation of boundary curve**. List its hypotheses.
     Back: |
       The orientation of a bounded surface $S$ induces the **positive orientation of the boundary curve $C$** shown in the figure below.
@@ -63,8 +63,8 @@ notes:
       SVEC-13.08.03 Synthesis:
       #### Vector Calculus
       ##### Surface Integrals
-      ###### Stoke's Theorem
-      State **Stoke's Theorem**. List its hypotheses.
+      ###### Stokes' Theorem
+      State **Stokes' Theorem**. List its hypotheses.
     Back: |
       Let $S$ be an oriented piecewise-smooth surface that is bounded by a simple, closed, piecewise-smooth boundary curve $C$ with posi tive orientation. Let $\mathbf{F}$ be a vector field whose components have continuous partial derivatives on an open region in $\mathbb{R}^{3}$ that contains $S$. Then
       $$
@@ -89,7 +89,7 @@ notes:
       SVEC-13.08.04 Synthesis:
       #### Vector Calculus
       ##### Surface Integrals
-      ###### Stoke's Theorem
+      ###### Stokes' Theorem
       State the _unnamed_ **relationship between different surfaces with same boundary curve**. List its hypotheses.
     Back: |
       In general, if $S_{1}$ and $S_{2}$ are oriented surfaces with the same oriented boundary curve $C$ and both satisfy the hypotheses of Stokes' Theorem, then
@@ -115,7 +115,7 @@ notes:
       SVEC-13.08.05 Synthesis:
       #### Vector Calculus
       ##### Surface Integrals
-      ###### Stoke's Theorem
+      ###### Stokes' Theorem
       Define **circulation**. List its hypotheses.
     Back: |
       Suppose that $C$ is an oriented closed curve and $\mathbf{v}$ represents the velocity field in a fluid flow. Consider the line integral
@@ -142,7 +142,7 @@ notes:
       SVEC-13.08.06 Synthesis:
       #### Vector Calculus
       ##### Surface Integrals
-      ###### Stoke's Theorem
+      ###### Stokes' Theorem
       State the _unnamed_ **expression of fluid rotation about and axis**. List its hypotheses.
     Back: |
       Suppose that $\mathbf{v}$ represents the velocity field in a fluid flow. Let $P_{0}\left(x_{0}, y_{0}, z_{0}\right)$ be a point in the fluid and let $S_{a}$ be a small disk with radius $a$ and center $P_{0} .$ Then $(\operatorname{curl} \mathbf{v})(P) \approx(\operatorname{curl} \mathbf{v})\left(P_{0}\right)$ for all points $P$ on $S_{a}$ because curl $\mathbf{v}$ is continuous. Thus, by Stokes' Theorem, we get the following approximation to the circulation around the boundary circle $C_{a}$
