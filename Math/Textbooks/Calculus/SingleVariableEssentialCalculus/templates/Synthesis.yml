@@ -20,7 +20,7 @@
       SVEC-XX.XX-XX Synthesis:
       #### Vector Calculus
       ##### Surface Integrals
-      ###### Surface Integrals of Vector Fields
+      ###### Stoke's Theorem
       Define . List its hypotheses.
     Back: |
       X
@@ -28,9 +28,12 @@
       Hypotheses:
 
       - 
+
+      To do: verify hypotheses.
     Annotations: ''
   tags:
   - Definition
+  - ToDo
   - Editing
 
   media:
@@ -44,7 +47,7 @@
       SVEC-XX.XX-XX Synthesis:
       #### Vector Calculus
       ##### Surface Integrals
-      ###### Surface Integrals of Vector Fields
+      ###### Stoke's Theorem
       State the . List its hypotheses.
     Back: |
       X
@@ -52,7 +55,10 @@
       Hypotheses:
 
       - 
+
+      To do: verify hypotheses.
     Annotations: ''
   tags:
   - Theorem
+  - ToDo
   - Editing

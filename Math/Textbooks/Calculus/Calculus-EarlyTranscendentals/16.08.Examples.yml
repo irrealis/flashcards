@@ -1,0 +1,38 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-16-VectorCalculus
+  - CET-16.08-StokesTheorem
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1590537571433
+  fields:
+    Front: |
+      CET-16.08-1 Example:
+      #### Vector Calculus
+      ##### Stoke's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590537571778
+  fields:
+    Front: |
+      CET-16.08-2 Example:
+      #### Vector Calculus
+      ##### Stoke's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

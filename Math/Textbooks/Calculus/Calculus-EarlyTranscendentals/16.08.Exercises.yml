@@ -1,0 +1,254 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-16-VectorCalculus
+  - CET-16.08-StokesTheorem
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1590537572189
+  fields:
+    Front: |
+      CET-16.08-01 Exercise:
+      #### Vector Calculus
+      ##### Stoke's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590537572556
+  fields:
+    Front: |
+      CET-16.08-02 Exercise:
+      #### Vector Calculus
+      ##### Stoke's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590537572889
+  fields:
+    Front: |
+      CET-16.08-03 Exercise:
+      #### Vector Calculus
+      ##### Stoke's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590537573275
+  fields:
+    Front: |
+      CET-16.08-04 Exercise:
+      #### Vector Calculus
+      ##### Stoke's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590537573623
+  fields:
+    Front: |
+      CET-16.08-05 Exercise:
+      #### Vector Calculus
+      ##### Stoke's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590537573973
+  fields:
+    Front: |
+      CET-16.08-06 Exercise:
+      #### Vector Calculus
+      ##### Stoke's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590537574341
+  fields:
+    Front: |
+      CET-16.08-07 Exercise:
+      #### Vector Calculus
+      ##### Stoke's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590537574713
+  fields:
+    Front: |
+      CET-16.08-08 Exercise:
+      #### Vector Calculus
+      ##### Stoke's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590537575073
+  fields:
+    Front: |
+      CET-16.08-09 Exercise:
+      #### Vector Calculus
+      ##### Stoke's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590537575456
+  fields:
+    Front: |
+      CET-16.08-10 Exercise:
+      #### Vector Calculus
+      ##### Stoke's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590537575793
+  fields:
+    Front: |
+      CET-16.08-11 Exercise:
+      #### Vector Calculus
+      ##### Stoke's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590537576189
+  fields:
+    Front: |
+      CET-16.08-12 Exercise:
+      #### Vector Calculus
+      ##### Stoke's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590537576556
+  fields:
+    Front: |
+      CET-16.08-13 Exercise:
+      #### Vector Calculus
+      ##### Stoke's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590537576925
+  fields:
+    Front: |
+      CET-16.08-14 Exercise:
+      #### Vector Calculus
+      ##### Stoke's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590537577289
+  fields:
+    Front: |
+      CET-16.08-15 Exercise:
+      #### Vector Calculus
+      ##### Stoke's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590537577673
+  fields:
+    Front: |
+      CET-16.08-16 Exercise:
+      #### Vector Calculus
+      ##### Stoke's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590537578009
+  fields:
+    Front: |
+      CET-16.08-17 Exercise:
+      #### Vector Calculus
+      ##### Stoke's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590537578357
+  fields:
+    Front: |
+      CET-16.08-18 Exercise:
+      #### Vector Calculus
+      ##### Stoke's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590537578742
+  fields:
+    Front: |
+      CET-16.08-19 Exercise:
+      #### Vector Calculus
+      ##### Stoke's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590537579142
+  fields:
+    Front: |
+      CET-16.08-20 Exercise:
+      #### Vector Calculus
+      ##### Stoke's Theorem
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
