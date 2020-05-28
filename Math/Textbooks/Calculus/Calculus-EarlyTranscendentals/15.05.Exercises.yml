@@ -1,0 +1,302 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Exercises
+  - Calculus-EarlyTrancendentals
+  - CET-15-MultipleIntegrals
+  - CET-15.05-SurfaceArea
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1590698999958
+  fields:
+    Front: |
+      CET-15.05-01 Exercise:
+      #### Multiple Integrals
+      ##### Surface Area
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590699000334
+  fields:
+    Front: |
+      CET-15.05-02 Exercise:
+      #### Multiple Integrals
+      ##### Surface Area
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590699000716
+  fields:
+    Front: |
+      CET-15.05-03 Exercise:
+      #### Multiple Integrals
+      ##### Surface Area
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590699001084
+  fields:
+    Front: |
+      CET-15.05-04 Exercise:
+      #### Multiple Integrals
+      ##### Surface Area
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590699001482
+  fields:
+    Front: |
+      CET-15.05-05 Exercise:
+      #### Multiple Integrals
+      ##### Surface Area
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590699001836
+  fields:
+    Front: |
+      CET-15.05-06 Exercise:
+      #### Multiple Integrals
+      ##### Surface Area
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590699002201
+  fields:
+    Front: |
+      CET-15.05-07 Exercise:
+      #### Multiple Integrals
+      ##### Surface Area
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590699002551
+  fields:
+    Front: |
+      CET-15.05-08 Exercise:
+      #### Multiple Integrals
+      ##### Surface Area
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590699002903
+  fields:
+    Front: |
+      CET-15.05-09 Exercise:
+      #### Multiple Integrals
+      ##### Surface Area
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590699003266
+  fields:
+    Front: |
+      CET-15.05-10 Exercise:
+      #### Multiple Integrals
+      ##### Surface Area
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590699003616
+  fields:
+    Front: |
+      CET-15.05-11 Exercise:
+      #### Multiple Integrals
+      ##### Surface Area
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590699004008
+  fields:
+    Front: |
+      CET-15.05-12 Exercise:
+      #### Multiple Integrals
+      ##### Surface Area
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590699004366
+  fields:
+    Front: |
+      CET-15.05-13 Exercise:
+      #### Multiple Integrals
+      ##### Surface Area
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590699004766
+  fields:
+    Front: |
+      CET-15.05-14 Exercise:
+      #### Multiple Integrals
+      ##### Surface Area
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590699005135
+  fields:
+    Front: |
+      CET-15.05-15 Exercise:
+      #### Multiple Integrals
+      ##### Surface Area
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590699005519
+  fields:
+    Front: |
+      CET-15.05-16 Exercise:
+      #### Multiple Integrals
+      ##### Surface Area
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590699005901
+  fields:
+    Front: |
+      CET-15.05-17 Exercise:
+      #### Multiple Integrals
+      ##### Surface Area
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590699006238
+  fields:
+    Front: |
+      CET-15.05-18 Exercise:
+      #### Multiple Integrals
+      ##### Surface Area
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590699006599
+  fields:
+    Front: |
+      CET-15.05-19 Exercise:
+      #### Multiple Integrals
+      ##### Surface Area
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590699006968
+  fields:
+    Front: |
+      CET-15.05-20 Exercise:
+      #### Multiple Integrals
+      ##### Surface Area
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590699007367
+  fields:
+    Front: |
+      CET-15.05-21 Exercise:
+      #### Multiple Integrals
+      ##### Surface Area
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590699007734
+  fields:
+    Front: |
+      CET-15.05-22 Exercise:
+      #### Multiple Integrals
+      ##### Surface Area
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590699008118
+  fields:
+    Front: |
+      CET-15.05-23 Exercise:
+      #### Multiple Integrals
+      ##### Surface Area
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590699008499
+  fields:
+    Front: |
+      CET-15.05-24 Exercise:
+      #### Multiple Integrals
+      ##### Surface Area
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

@@ -16,7 +16,8 @@ notes:
   fields:
     Front: |
       SVEC-07.07-01 Theory:
-      ##### differential equations
+      #### Applications of Integration
+      ##### Differential Equations
       Define **differential equation.**
     Back: |
       A **differential equation** is an equation that contains an unknown function and one or more of its derivatives. Here are some examples:
@@ -26,12 +27,13 @@ notes:
       \frac{d^{3} y}{d x^{3}}+x \frac{d^{2} y}{d x^{2}}+\frac{d y}{d x}-2 y=e^{-x}
       $$ In each of these differential equations $y$ is an unknown function of $x .$ The importance of differential equations lies in the fact that when a scientist or engineer formulates a physical law in mathematical terms, it frequently turns out to be a differential equation.
     Annotations: ''
-  tags: []
+  tags:
+  - Definition
 - id: 1577830710658
   fields:
     Front: |
-      SVEC-07.07-02 Theory:
-      ##### differential equations
+      #### Applications of Integration
+      ##### Differential Equations
       Define **order** of a differential equation.
     Back: |
       The **order** of a differential equation is the order of the highest derivative that occurs in the equation. Thus the following differential quations are of order $1,$ $2,$ and $3,$ respectively.
@@ -41,12 +43,14 @@ notes:
       \frac{d^{3} y}{d x^{3}}+x \frac{d^{2} y}{d x^{2}}+\frac{d y}{d x}-2 y=e^{-x}
       $$
     Annotations: ''
-  tags: []
+  tags:
+  - Definition
 - id: 1577830833845
   fields:
     Front: |
       SVEC-07.07-03 Theory:
-      ##### differential equations
+      #### Applications of Integration
+      ##### Differential Equations
       Define **solution** of a differential equation.
     Back: |
       A function $f$ is called a **solution** of a differential equation if the equation is satisfied when $y=f(x)$ and its derivatives are substituted into the equation. Thus $f$ is a solution of $y^{\prime}=x y$ if
@@ -54,12 +58,15 @@ notes:
       f^{\prime}(x)=x f(x)
       $$ for all values of $x$ in some interval.
     Annotations: ''
-  tags: []
+  tags:
+  - Definition
 - id: 1577831475036
   fields:
     Front: |
       SVEC-07.07-04 Theory:
-      ##### separable equations
+      #### Applications of Integration
+      ##### Differential Equations
+      ###### Separable Equations
       Define **separable** equation.
     Back: |
       A **separable** equation is a first-order differential equation that can be written in the form
@@ -71,12 +78,15 @@ notes:
       \frac{d y}{d x}=\frac{g(x)}{h(y)}
       $$ where $h(y)=1 / f(y).$
     Annotations: ''
-  tags: []
+  tags:
+  - Definition
 - id: 1577915467022
   fields:
     Front: |
       SVEC-07.07-05 Theory:
-      ##### separable equations
+      #### Applications of Integration
+      ##### Differential Equations
+      ###### Separable Equations
       What general procedure is used to solve a separable equation?
     Back: |
       A separable equation is a first-order differential equation that can be written in the form
@@ -93,24 +103,30 @@ notes:
       \int h(y) d y=\int g(x) d x
       $$ This defines $y$ implicitly as a function of $x .$ In some cases we may be able to solve for $y$ in tems of $x.$
     Annotations: ''
-  tags: []
+  tags:
+  - Theorem
 - id: 1577916018218
   fields:
     Front: |
       SVEC-07.07-06 Theory:
-      ##### separable equations
+      #### Applications of Integration
+      ##### Differential Equations
+      ###### Separable Equations
       What is an **initial-value problem?**
     Back: |
       When applying differential equations, we are usually not as interested in finding a family of solutions (the _general solution_) as we are in finding a solution that satisfies some additional requirement. In many physical problems we need to find the particular solution that satisfies a condition of the form $y\left(x_{0}\right)=y_{0} .$ This is called an **initial condition,** and the problem of finding a solution of the differential equation that satisfies the initial condition is called an **initial-value problem.**
     Annotations: ''
-  tags: []
+  tags:
+  - Definition
 - id: 1577917610991
   media:
   - path: ¢{file_dir}/images/SVEC-07.07-07.Th.1.jpg
   fields:
     Front: |
       SVEC-07.07-07 Theory:
-      ##### logistic growth
+      #### Applications of Integration
+      ##### Differential Equations
+      ###### Logistic Growth
       What is the **logistic differential equation?** What does its graph look like? What is **carrying capacity?** In what context is this typically used?
     Back: |
       $$
@@ -125,7 +141,8 @@ notes:
       </p>
       At first the graph is concave upward and the growth curve appears to be almost exponential, but then it is concave downward and approaches the limiting population $M$
     Annotations: ''
-  tags: []
+  tags:
+  - Definition
 - id: 1577918350491
   media:
   - path: ¢{file_dir}/images/SVEC-07.07-09.Th.1.jpg
@@ -169,12 +186,15 @@ notes:
       ![](SVEC-07.07-09.Th.1.jpg)
       </p>
     Annotations: ''
-  tags: []
+  tags:
+  - Theorem
 - id: 1578326521664
   fields:
     Front: |
       SVEC-07.07-09 Theory:
-      ##### mixing problems
+      #### Applications of Integration
+      ##### Differential Equations
+      ###### Mixing Problems
       What is a **mixing problem?**
     Back: |
       A typical **mixing problem** involves a tank of fixed capacity filled with a thoroughly mixed solution of some substance, such as salt. A solution of a given concentration enters the tank at a fixed rate and the mixture, thoroughly stirred, leaves at a fixed rate, which may differ from the entering rate. If $y(t)$ denotes the amount of substance in the tank at time $t,$ then $y^{\prime}(t)$ is the rate at which the substance is being added minus the rate at which it is being removed.
@@ -184,12 +204,15 @@ notes:
       \frac{d y}{d t}=(\text { rate in })-(\text { rate out })
       $$ We can use the same type of reasoning to model a variety of phenomena: chemical reactions, discharge of pollutants into a lake, injection of a drug into the bloodstream.
     Annotations: ''
-  tags: []
+  tags:
+  - Definition
 - id: 1578336704340
   fields:
     Front: |
       SVEC-07.07-10 Theory:
-      ##### direction field
+      #### Applications of Integration
+      ##### Differential Equations
+      ###### Direction Field
       Define **direction field** (a.k.a. **slope field**).
     Back: |
       Suppose we are given a first-order differential equation of the form
@@ -197,4 +220,5 @@ notes:
       y^{\prime}=F(x, y)
       $$ where $F(x, y)$ is some expression in $x$ and $y .$ [Recall that a separable equation is the special case in which $F(x, y)$ can be factored as a function of $x$ times a function of $y$.] Even if it is impossible to find a formula for the solution, we can still visualize the solution curves by means of a direction field. If a solution curve passes through a point $(x, y),$ then its slope at that point is $y^{\prime},$ which is equal to $F(x, y) .$ If we draw short line segments with slopes $F(x, y)$ at several points $(x, y),$ the result is called a **direction field** (or **slope field**). These line segments indicate the direction in which a solution curve is heading, so the direction field helps us visualize the general shape of these curves.
     Annotations: ''
-  tags: []
+  tags:
+  - Definition

@@ -1,0 +1,38 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - Calculus-EarlyTrancendentals
+  - CET-15-MultipleIntegrals
+  - CET-15.05-SurfaceArea
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1590698999158
+  fields:
+    Front: |
+      CET-15.05-1 Example:
+      #### Multiple Integrals
+      ##### Surface Area
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590698999517
+  fields:
+    Front: |
+      CET-15.05-2 Example:
+      #### Multiple Integrals
+      ##### Surface Area
+      Temporary: work out of CET textbook.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

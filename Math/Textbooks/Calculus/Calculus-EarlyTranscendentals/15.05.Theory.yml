@@ -1,0 +1,105 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Theory
+  - Calculus-EarlyTrancendentals
+  - CET-15-MultipleIntegrals
+  - CET-15.05-SurfaceArea
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1590697634393
+  fields:
+    Front: |
+      CET-15.05-01 Theory:
+      #### Further Applications of Integration
+      ##### Applications to Physics and Engineering
+      List the surface-area definitions and theorems.
+    Back: |
+      Def: **surface area**
+      Thm: **surface area formula**
+    Annotations: ''
+  tags:
+  - Definitions
+  - Theorems
+- id: 1590698159211
+  media:
+  - path: ¢{file_dir}/images/CET-15.05-02.Th.1.jpg
+  fields:
+    Front: |
+      CET-15.05-02 Theory:
+      #### Further Applications of Integration
+      ##### Area of a Surface of Revolution
+      Define **surface area**. List its hypotheses.
+    Back: |
+      Let $S$ be a surface with equation $z=f(x, y),$ where $f$ has continuous partial derivatives. Assume that $f(x, y) \geqslant 0$ and the domain $D$ of $f$ is a rectangle. We divide $D$ into small rectangles $R_{i j}$ with area $\Delta A=\Delta x \Delta y .$ If $\left(x_{i}, y_{j}\right)$ is the corner of $R_{i j}$ closest to the origin, let $P_{i j}\left(x_{i}, y_{j}, f\left(x_{i}, y_{j}\right)\right)$ be the point on $S$ directly above it (see figure below).
+      <p align="center">
+      ![](CET-15.05-02.Th.1.jpg)
+      </p>
+      The tangent plane to $S$ at $P_{i j}$ is an approximation to $S$ near $P_{i j} .$ So the area $\Delta T_{i j}$ of the part of this tangent plane (a parallelogram) that lies directly above $R_{i j}$ is an approximation to the area $\Delta S_{i j}$ of the part of $S$ that lies directly above $R_{i j}$. Thus the sum $\sum \sum \Delta T_{i j}$ is an approximation to the total area of $S$, and this approximation appears to improve as the number of rectangles increases. Therefore we define the **surface area** of $S$ to be
+      $$
+      A(S)=\lim _{m, n \rightarrow \infty} \sum_{i=1}^{m} \sum_{j=1}^{n} \Delta T_{i j}
+      $$ Let $\mathbf{a}$ and $\mathbf{b}$ be the vectors that start at $P_{i j}$ and lie along the sides of the parallelogram with area $\Delta T_{i j }.$ Then $\Delta T_{i j}=|\mathbf{a} \times \mathbf{b}| .$ Recall that $f_{x}\left(x_{i}, y_{j}\right)$ and $f_{y}\left(x_{i}, y_{j}\right)$ are the slopes of the tangent lines through $P_{i j}$ in the directions of $\mathbf{a}$ and $\mathbf{b}.$ Therefore
+      $$
+      \begin{array}{l}
+      \mathbf{a}=\Delta x \mathbf{i}+f_{x}\left(x_{i}, y_{j}\right) \Delta x \mathbf{k} \\
+      \mathbf{b}=\Delta y \mathbf{j}+f_{y}\left(x_{i}, y_{j}\right) \Delta y \mathbf{k}
+      \end{array}
+      $$ and
+      $$
+      \begin{aligned}
+      \mathbf{a} \times \mathbf{b} &=\left|\begin{array}{ccc}
+      \mathbf{i} & \mathbf{j} & \mathbf{k} \\
+      \Delta x & 0 & f_{x}\left(x_{i}, y_{j}\right) \Delta x \\
+      0 & \Delta y & f_{y}\left(x_{i}, y_{j}\right) \Delta y
+      \end{array}\right| \\
+      &=-f_{x}\left(x_{i}, y_{j}\right) \Delta x \Delta y \mathbf{i}-f_{y}\left(x_{i}, y_{j}\right) \Delta x \Delta y \mathbf{j}+\Delta x \Delta y \mathbf{k} \\
+      &=\left[-f_{x}\left(x_{i}, y_{j}\right) \mathbf{i}-f_{y}\left(x_{i}, y_{j}\right) \mathbf{j}+\mathbf{k}\right] \Delta A
+      \end{aligned}
+      $$ Thus
+      $$
+      \Delta T_{i j}=|\mathbf{a} \times \mathbf{b}|=\sqrt{\left[f_{x}\left(x_{i}, y_{j}\right)\right]^{2}+\left[f_{y}\left(x_{i}, y_{j}\right)\right]^{2}+1} \Delta A
+      $$ and
+      $$
+      \begin{aligned}
+      A(S) &=\lim _{m, n \rightarrow \infty} \sum_{i=1}^{m} \sum_{j=1}^{n} \Delta T_{i j} \\
+      &=\lim _{m, n \rightarrow \infty} \sum_{i=1}^{m} \sum_{j=1}^{n} \sqrt{\left[f_{x}\left(x_{i}, y_{j}\right)\right]^{2}+\left[f_{y}\left(x_{i}, y_{j}\right)\right]^{2}+1} \Delta A
+      \end{aligned}
+      $$
+
+      Hypotheses:
+
+      - The domain $D$ of $f$ is a rectangle.
+      - $f$ has continuous partial derivatives.
+      - $f(x, y) \geqslant 0.$
+      - $\lim _{m, n \rightarrow \infty} \sum_{i=1}^{m} \sum_{j=1}^{n} \sqrt{\left[f_{x}\left(x_{i}, y_{j}\right)\right]^{2}+\left[f_{y}\left(x_{i}, y_{j}\right)\right]^{2}+1} \Delta A$ exists.
+    Annotations: ''
+  tags:
+  - Definition
+- id: 1590698751410
+  fields:
+    Front: |
+      CET-15.05-03 Theory:
+      #### Further Applications of Integration
+      ##### Area of a Surface of Revolution
+      State the **surface area formula**. List its hypotheses.
+    Back: |
+      The area of the surface with equation $z=f(x, y),$ $(x, y) \in D,$ where $f_{x}$ and $f_{y}$ are continuous, is
+      $$
+      \begin{align}
+      A(S)
+      &=\iint_{D} \sqrt{\left[f_{x}(x, y)\right]^{2}+\left[f_{y}(x, y)\right]^{2}+1} d A \\
+      &=\iint_{D} \sqrt{1+\left(\frac{\partial z}{\partial x}\right)^{2}+\left(\frac{\partial z}{\partial y}\right)^{2}} d A
+      \end{align}
+      $$
+
+      Hypotheses:
+
+      - $f_{x}$ and $f_{y}$ are continuous.
+    Annotations: ''
+  tags:
+  - Theorem
