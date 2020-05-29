@@ -1,0 +1,14 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Calculus
+  - Classes
+  - CU-Boulder
+  - WrittenHomework
+  - ${course_tag}
+  - ${assignment_tag}
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:

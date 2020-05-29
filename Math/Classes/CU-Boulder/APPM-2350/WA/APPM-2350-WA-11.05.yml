@@ -1,0 +1,69 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Calculus
+  - Classes
+  - CU-Boulder
+  - WrittenHomework
+  - APPM-2350-Calculus3
+  - APPM-2350-WA-11.05
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1590787167854
+  fields:
+    Front: |
+      APPM-2350-WA-11.05-1 WebAssign:
+      ##### SVEC 11.05
+      Temporary: work out of assignment PDF.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590787168282
+  fields:
+    Front: |
+      APPM-2350-WA-11.05-2 WebAssign:
+      ##### SVEC 11.05
+      Temporary: work out of assignment PDF.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590787168639
+  fields:
+    Front: |
+      APPM-2350-WA-11.05-3 WebAssign:
+      ##### SVEC 11.05
+      Temporary: work out of assignment PDF.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590787169023
+  fields:
+    Front: |
+      APPM-2350-WA-11.05-4 WebAssign:
+      ##### SVEC 11.05
+      Temporary: work out of assignment PDF.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590787169635
+  fields:
+    Front: |
+      APPM-2350-WA-11.05-5 WebAssign:
+      ##### SVEC 11.05
+      Temporary: work out of assignment PDF.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

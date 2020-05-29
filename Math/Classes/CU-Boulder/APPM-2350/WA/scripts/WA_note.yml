@@ -1,0 +1,11 @@
+- id: 0
+  fields:
+    Front: |
+      ${assignment_tag}-${problem_num} ${problem_type}:
+      ##### ${sections}
+      Temporary: work out of assignment PDF.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
