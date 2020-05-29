@@ -1,0 +1,14 @@
+defaults:
+  deckName: ${deck_name}
+  modelName: ${model_name}
+  extraTags:
+  - Textbooks
+  - Math
+  - Calculus
+  - Examples
+  - ${textbook_tag}
+  - ${chapter_tag}
+  - ${section_tag}
+  markdownTabLength: ${markdown_tab_length}
+  stringTemplDelim: ${string_templ_delim}
+notes:

@@ -1,0 +1,80 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - Calculus
+  - WrittenHomework
+  - CU-Boulder
+  - APPM-2350-Calculus3
+  - APPM-2350-HW08
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1590784682234
+  fields:
+    Front: |
+      APPM-2350-HW08-1 Written Homework:
+      ##### SVEC 13.4b to 13.9b and surface area
+      Temporary: work out of assignment PDF.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590784682625
+  fields:
+    Front: |
+      APPM-2350-HW08-2 Written Homework:
+      ##### SVEC 13.4b to 13.9b and surface area
+      Temporary: work out of assignment PDF.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590784683025
+  fields:
+    Front: |
+      APPM-2350-HW08-3 Written Homework:
+      ##### SVEC 13.4b to 13.9b and surface area
+      Temporary: work out of assignment PDF.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590784683391
+  fields:
+    Front: |
+      APPM-2350-HW08-4 Written Homework:
+      ##### SVEC 13.4b to 13.9b and surface area
+      Temporary: work out of assignment PDF.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590784683796
+  fields:
+    Front: |
+      APPM-2350-HW08-5 Written Homework:
+      ##### SVEC 13.4b to 13.9b and surface area
+      Temporary: work out of assignment PDF.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590784684176
+  fields:
+    Front: |
+      APPM-2350-HW08-6 Written Homework:
+      ##### SVEC 13.4b to 13.9b and surface area
+      Temporary: work out of assignment PDF.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo

@@ -1,0 +1,80 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - Calculus
+  - WrittenHomework
+  - CU-Boulder
+  - APPM-2350-Calculus3
+  - APPM-2350-HW04
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1590783962683
+  fields:
+    Front: |
+      APPM-2350-HW04-1 Written Homework:
+      ##### SVEC 11.4b to 11.8b and Taylor Series
+      Temporary: work out of assignment PDF.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590783963083
+  fields:
+    Front: |
+      APPM-2350-HW04-2 Written Homework:
+      ##### SVEC 11.4b to 11.8b and Taylor Series
+      Temporary: work out of assignment PDF.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590783963484
+  fields:
+    Front: |
+      APPM-2350-HW04-3 Written Homework:
+      ##### SVEC 11.4b to 11.8b and Taylor Series
+      Temporary: work out of assignment PDF.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590783963866
+  fields:
+    Front: |
+      APPM-2350-HW04-4 Written Homework:
+      ##### SVEC 11.4b to 11.8b and Taylor Series
+      Temporary: work out of assignment PDF.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590783964233
+  fields:
+    Front: |
+      APPM-2350-HW04-5 Written Homework:
+      ##### SVEC 11.4b to 11.8b and Taylor Series
+      Temporary: work out of assignment PDF.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1590783964604
+  fields:
+    Front: |
+      APPM-2350-HW04-6 Written Homework:
+      ##### SVEC 11.4b to 11.8b and Taylor Series
+      Temporary: work out of assignment PDF.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
