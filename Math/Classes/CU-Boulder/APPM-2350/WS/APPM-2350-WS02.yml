@@ -3,119 +3,119 @@ defaults:
   modelName: PWeave
   extraTags:
   - Math
-  - Calculus
   - Classes
+  - Calculus
+  - RecitationWorksheet
   - CU-Boulder
-  - WrittenHomework
   - APPM-2350-Calculus3
-  - APPM-2350-WA-10.06
+  - APPM-2350-WS02
   markdownTabLength: 2
   stringTemplDelim: ¢
 notes:
-- id: 1591390398284
+- id: 1591391494510
   fields:
     Front: |
-      APPM-2350-WA-10.06-01 WebAssign:
-      ##### SVEC 10.06
+      APPM-2350-WS02-01 Recitation Worksheet:
+      ##### SVEC 10.3 to 10.4
       Temporary: work out of assignment PDF.
     Back: |
       To do.
     Annotations: ''
   tags:
   - ToDo
-- id: 1591390398661
+- id: 1591391494959
   fields:
     Front: |
-      APPM-2350-WA-10.06-02 WebAssign:
-      ##### SVEC 10.06
+      APPM-2350-WS02-02 Recitation Worksheet:
+      ##### SVEC 10.3 to 10.4
       Temporary: work out of assignment PDF.
     Back: |
       To do.
     Annotations: ''
   tags:
   - ToDo
-- id: 1591390399050
+- id: 1591391495373
   fields:
     Front: |
-      APPM-2350-WA-10.06-03 WebAssign:
-      ##### SVEC 10.06
+      APPM-2350-WS02-03 Recitation Worksheet:
+      ##### SVEC 10.3 to 10.4
       Temporary: work out of assignment PDF.
     Back: |
       To do.
     Annotations: ''
   tags:
   - ToDo
-- id: 1591390399486
+- id: 1591391495758
   fields:
     Front: |
-      APPM-2350-WA-10.06-04 WebAssign:
-      ##### SVEC 10.06
+      APPM-2350-WS02-04 Recitation Worksheet:
+      ##### SVEC 10.3 to 10.4
       Temporary: work out of assignment PDF.
     Back: |
       To do.
     Annotations: ''
   tags:
   - ToDo
-- id: 1591390399901
+- id: 1591391496166
   fields:
     Front: |
-      APPM-2350-WA-10.06-05 WebAssign:
-      ##### SVEC 10.06
+      APPM-2350-WS02-05 Recitation Worksheet:
+      ##### SVEC 10.3 to 10.4
       Temporary: work out of assignment PDF.
     Back: |
       To do.
     Annotations: ''
   tags:
   - ToDo
-- id: 1591390400284
+- id: 1591391496549
   fields:
     Front: |
-      APPM-2350-WA-10.06-06 WebAssign:
-      ##### SVEC 10.06
+      APPM-2350-WS02-06 Recitation Worksheet:
+      ##### SVEC 10.3 to 10.4
       Temporary: work out of assignment PDF.
     Back: |
       To do.
     Annotations: ''
   tags:
   - ToDo
-- id: 1591390400684
+- id: 1591391496941
   fields:
     Front: |
-      APPM-2350-WA-10.06-07 WebAssign:
-      ##### SVEC 10.06
+      APPM-2350-WS02-07 Recitation Worksheet:
+      ##### SVEC 10.3 to 10.4
       Temporary: work out of assignment PDF.
     Back: |
       To do.
     Annotations: ''
   tags:
   - ToDo
-- id: 1591390401057
+- id: 1591391497359
   fields:
     Front: |
-      APPM-2350-WA-10.06-08 WebAssign:
-      ##### SVEC 10.06
+      APPM-2350-WS02-08 Recitation Worksheet:
+      ##### SVEC 10.3 to 10.4
       Temporary: work out of assignment PDF.
     Back: |
       To do.
     Annotations: ''
   tags:
   - ToDo
-- id: 1591390401469
+- id: 1591391497740
   fields:
     Front: |
-      APPM-2350-WA-10.06-09 WebAssign:
-      ##### SVEC 10.06
+      APPM-2350-WS02-09 Recitation Worksheet:
+      ##### SVEC 10.3 to 10.4
       Temporary: work out of assignment PDF.
     Back: |
       To do.
     Annotations: ''
   tags:
   - ToDo
-- id: 1591390401852
+- id: 1591391498142
   fields:
     Front: |
-      APPM-2350-WA-10.06-10 WebAssign:
-      ##### SVEC 10.06
+      APPM-2350-WS02-10 Recitation Worksheet:
+      ##### SVEC 10.3 to 10.4
       Temporary: work out of assignment PDF.
     Back: |
       To do.

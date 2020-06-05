@@ -145,9 +145,11 @@ notes:
     Back: |
       **Definition of Vector Addition**:
       If $\mathbf{u}$ and $\mathbf{v}$ are vectors positioned so the initial point of $\mathbf{v}$ is at the terminal point of $\mathbf{u},$ then the **sum** $\mathbf{u}+\mathbf{v}$ is the vector from the initial point of $\mathbf{u}$ to the terminal point of $\mathbf{v}.$
-    Annotations: ''
+    Annotations: 'Memorize:<div>- 200601-1841: remember, this definition is a matter
+      of initial and terminal points.</div>'
   tags:
   - Definition
+  - ann:memorize
 - id: 1588786508885
   media:
   - path: ¢{file_dir}/images/SVEC-10.02-07.Sy.1.jpg
@@ -195,9 +197,11 @@ notes:
       ![](SVEC-10.02-08.Sy.1.jpg)
       </p>
       We see that real numbers work like scaling factors here; that's why we call them scalars. Notice that two nonzero vectors are **parallel** if they are scalar multiples of one another. In particular, the vector $-\mathbf{v}=(-1) \mathbf{v}$ has the same length as $\mathbf{v}$ but points in the opposite direction. We call it the **negative** of $\mathbf{v}.$
-    Annotations: ''
+    Annotations: 'Memorize:<div>- 200601-1902: \(\mathbf{a}\) and \(\mathbf{b}\) are
+      parallel if they are nonzero scalar multiples of one another.</div>'
   tags:
   - Definition
+  - ann:memorize
 - id: 1588787427260
   media:
   - path: ¢{file_dir}/images/SVEC-10.02-09.Sy.1.jpg
@@ -208,7 +212,7 @@ notes:
       #### Vectors and the Geometry of Space
       ##### Vectors
       ###### Combining Vectors
-      Define **difference**, and illustrate using the **Parallelogram Law**, as well as the **Triangle Law*.
+      Define **difference**, and illustrate using the **Parallelogram Law**, as well as the **Triangle Law**.
     Back: |
       By the difference $\mathbf{u}-\mathbf{v}$ of two vectors we mean
       $$
@@ -221,9 +225,12 @@ notes:
       <p align="center">
       ![](SVEC-10.02-09.Sy.2.jpg)
       </p>
-    Annotations: ''
+    Annotations: 'Memorize:<div>- 200601-1910: unlike the definition of vector sum,
+      the definition of vector difference is not given in terms of initial and terminal
+      points, but it terms of vector sum and scalar multiplication.</div>'
   tags:
   - Definition
+  - ann:memorize
 - id: 1588787972509
   media:
   - path: ¢{file_dir}/images/SVEC-10.02-10.Sy.1.jpg
@@ -309,7 +316,7 @@ notes:
       #### Vectors and the Geometry of Space
       ##### Vectors
       ###### Components
-      Define **magnitude**, **length**.
+      Define **magnitude**, **length**. How is it denoted?
     Back: |
       The **magnitude** or **length** of the vector $\mathbf{v}$ is the length of any of its representations and is denoted by the symbol $|\mathbf{v}|$ or $\|\mathbf{v}\|.$
     Annotations: ''

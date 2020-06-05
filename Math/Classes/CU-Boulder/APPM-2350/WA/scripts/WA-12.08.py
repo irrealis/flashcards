@@ -30,4 +30,4 @@ variables = dict(
   note_file = os.path.join(base_dir, "scripts/WA_note.yml"),
 )
 
-generate_hw_yml(variables, 5)
+generate_hw_yml(variables, 10)

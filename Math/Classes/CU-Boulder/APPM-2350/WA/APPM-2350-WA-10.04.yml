@@ -12,10 +12,10 @@ defaults:
   markdownTabLength: 2
   stringTemplDelim: ¢
 notes:
-- id: 1590787150599
+- id: 1591203450077
   fields:
     Front: |
-      APPM-2350-WA-10.04-1 WebAssign:
+      APPM-2350-WA-10.04-01 WebAssign:
       ##### SVEC 10.04
       Temporary: work out of assignment PDF.
     Back: |
@@ -23,10 +23,10 @@ notes:
     Annotations: ''
   tags:
   - ToDo
-- id: 1590787150965
+- id: 1591203450441
   fields:
     Front: |
-      APPM-2350-WA-10.04-2 WebAssign:
+      APPM-2350-WA-10.04-02 WebAssign:
       ##### SVEC 10.04
       Temporary: work out of assignment PDF.
     Back: |
@@ -34,10 +34,10 @@ notes:
     Annotations: ''
   tags:
   - ToDo
-- id: 1590787151351
+- id: 1591203450844
   fields:
     Front: |
-      APPM-2350-WA-10.04-3 WebAssign:
+      APPM-2350-WA-10.04-03 WebAssign:
       ##### SVEC 10.04
       Temporary: work out of assignment PDF.
     Back: |
@@ -45,10 +45,10 @@ notes:
     Annotations: ''
   tags:
   - ToDo
-- id: 1590787151718
+- id: 1591203451209
   fields:
     Front: |
-      APPM-2350-WA-10.04-4 WebAssign:
+      APPM-2350-WA-10.04-04 WebAssign:
       ##### SVEC 10.04
       Temporary: work out of assignment PDF.
     Back: |
@@ -56,10 +56,76 @@ notes:
     Annotations: ''
   tags:
   - ToDo
-- id: 1590787152166
+- id: 1591203451576
   fields:
     Front: |
-      APPM-2350-WA-10.04-5 WebAssign:
+      APPM-2350-WA-10.04-05 WebAssign:
+      ##### SVEC 10.04
+      Temporary: work out of assignment PDF.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1591203451976
+  fields:
+    Front: |
+      APPM-2350-WA-10.04-06 WebAssign:
+      ##### SVEC 10.04
+      Temporary: work out of assignment PDF.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1591203452344
+  fields:
+    Front: |
+      APPM-2350-WA-10.04-07 WebAssign:
+      ##### SVEC 10.04
+      Temporary: work out of assignment PDF.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1591203452709
+  fields:
+    Front: |
+      APPM-2350-WA-10.04-08 WebAssign:
+      ##### SVEC 10.04
+      Temporary: work out of assignment PDF.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1591203453059
+  fields:
+    Front: |
+      APPM-2350-WA-10.04-09 WebAssign:
+      ##### SVEC 10.04
+      Temporary: work out of assignment PDF.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1591203453464
+  fields:
+    Front: |
+      APPM-2350-WA-10.04-10 WebAssign:
+      ##### SVEC 10.04
+      Temporary: work out of assignment PDF.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1591203453876
+  fields:
+    Front: |
+      APPM-2350-WA-10.04-11 WebAssign:
       ##### SVEC 10.04
       Temporary: work out of assignment PDF.
     Back: |

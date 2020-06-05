@@ -21,6 +21,7 @@ notes:
       Thm: **parametric equations of a line**
       Def: **direction numbers**
       Thm: **symmetric equations** theorem
+      Thm: **symmetric equations of a line through two points**
       Thm: **vector equation of a line segment**
       Def: **skew lines**
       ###### Planes
@@ -34,7 +35,7 @@ notes:
     Back: |
     Annotations: ''
   tags: []
-- id: 1588968768488
+- id: 1591325590610
   fields:
     Front: |
       SVEC-10.05-01 Theory:
@@ -46,6 +47,7 @@ notes:
       Thm: **parametric equations of a line**
       Def: **direction numbers**
       Thm: **symmetric equations** theorem
+      Thm: **symmetric equations of a line through two points**
       Thm: **vector equation of a line segment**
       Def: **skew lines**
       ###### Planes
@@ -61,7 +63,7 @@ notes:
   - Definitions
   - Editing
   - Theorems
-- id: 1588967939014
+- id: 1591325591159
   media:
   - path: ¢{file_dir}/images/SVEC-10.05-01.Sy.1.jpg
   fields:
@@ -94,7 +96,7 @@ notes:
     Annotations: ''
   tags:
   - Theorem
-- id: 1588969577560
+- id: 1591325591634
   fields:
     Front: |
       SVEC-10.05-03 Theory:
@@ -109,7 +111,7 @@ notes:
     Annotations: ''
   tags:
   - Theorem
-- id: 1588970031985
+- id: 1591325592081
   fields:
     Front: |
       SVEC-10.05-04 Theory:
@@ -130,7 +132,7 @@ notes:
     Annotations: ''
   tags:
   - Definition
-- id: 1588970849160
+- id: 1591325592609
   fields:
     Front: |
       SVEC-10.05-05 Theory:
@@ -162,10 +164,33 @@ notes:
   tags:
   - Definition
   - Theorem
-- id: 1588972306736
+- id: 1591325593061
   fields:
     Front: |
       SVEC-10.05-06 Theory:
+      #### Vectors and the Geometry of Space
+      ##### Equations of Lines and Planes
+      State the **symmetric equations of a line through two points**. What are its hypotheses?
+    Back: |
+      In general, direction numbers of the line $L$ through the points $P_{0}\left(x_{0}, y_{0}, z_{0}\right)$ and $P_{1}\left(x_{1}, y_{1}, z_{1}\right)$ are $x_{1}-x_{0}, y_{1}-y_{0},$ and $z_{1}-z_{0}$ and so symmetric equations of $L$ are
+      $$
+      \frac{x-x_{0}}{x_{1}-x_{0}}=\frac{y-y_{0}}{y_{1}-y_{0}}=\frac{z-z_{0}}{z_{1}-z_{0}}
+      $$
+
+      Hypotheses:
+
+      - As stated, $x_0 \ne x_1,$ $y_0 \ne y_1,$ and $z_0 \ne z_1.$ But if, say, $x_0 = x_1,$ then the symmetric equations would be
+      $$
+      x = x_{0} \quad \frac{y-y_{0}}{y_{1}-y_{0}}=\frac{z-z_{0}}{z_{1}-z_{0}}
+      $$
+    Annotations: ''
+  tags:
+  - Definition
+  - Theorem
+- id: 1591325593489
+  fields:
+    Front: |
+      SVEC-10.05-07 Theory:
       #### Vectors and the Geometry of Space
       ##### Equations of Lines and Planes
       State the **vector equation of a line segment**. List its hypotheses.
@@ -181,10 +206,10 @@ notes:
     Annotations: ''
   tags:
   - Theorem
-- id: 1588972473759
+- id: 1591325593953
   fields:
     Front: |
-      SVEC-10.05-07 Theory:
+      SVEC-10.05-08 Theory:
       #### Vectors and the Geometry of Space
       ##### Equations of Lines and Planes
       Define **skew lines**.
@@ -197,10 +222,10 @@ notes:
     Annotations: ''
   tags:
   - Definition
-- id: 1588972752760
+- id: 1591325594391
   fields:
     Front: |
-      SVEC-10.05-08 Theory:
+      SVEC-10.05-09 Theory:
       #### Vectors and the Geometry of Space
       ##### Equations of Lines and Planes
       ###### Planes
@@ -212,16 +237,16 @@ notes:
 
       - The idea of a normal vector extends to $n>0$ dimensions. Any vector $\mathbf{v}$ in $\mathbb{R}^3$ is normal to a plane containing the origin, and any line in this plane is orthogonal to $\mathbf{v}.$
       - In $n$ dimensions, any subspace $U$ of $V$ has a null that can be considered orthogonal to $V^m$. I think the key characteristic of this idea is that subspaces $T$ and $U$ are orthogonal if any vector in $T$ is orthogonal to any vector in $U$.
-      - This relates to a question noted in _SVEC-10.03-06 Theory_: The idea that $\mathbf{0}$ is perpendicular to itself is excluded from the text's definition, which requires that orthogonal vectors be nonzero. _**Does this exclusion serve any purpose than to discard the degenerate case?**_
+      - This relates to a question noted in _SVEC-10.03-07 Theory_: The idea that $\mathbf{0}$ is perpendicular to itself is excluded from the text's definition, which requires that orthogonal vectors be nonzero. _**Does this exclusion serve any purpose than to discard the degenerate case?**_
     Annotations: ''
   tags:
   - Definition
-- id: 1588975612935
+- id: 1591325594840
   media:
   - path: ¢{file_dir}/images/SVEC-10.05-09.Sy.1.jpg
   fields:
     Front: |
-      SVEC-10.05-09 Theory:
+      SVEC-10.05-10 Theory:
       #### Vectors and the Geometry of Space
       ##### Equations of Lines and Planes
       ###### Planes
@@ -244,10 +269,10 @@ notes:
     Annotations: ''
   tags:
   - Theorem
-- id: 1588977298236
+- id: 1591325595334
   fields:
     Front: |
-      SVEC-10.05-10 Theory:
+      SVEC-10.05-11 Theory:
       #### Vectors and the Geometry of Space
       ##### Equations of Lines and Planes
       ###### Planes
@@ -272,10 +297,10 @@ notes:
     Annotations: ''
   tags:
   - Theorem
-- id: 1588977646435
+- id: 1591325595759
   fields:
     Front: |
-      SVEC-10.05-11 Theory:
+      SVEC-10.05-12 Theory:
       #### Vectors and the Geometry of Space
       ##### Equations of Lines and Planes
       ###### Planes
@@ -288,10 +313,10 @@ notes:
     Annotations: ''
   tags:
   - Definition
-- id: 1588977998960
+- id: 1591325596241
   fields:
     Front: |
-      SVEC-10.05-12 Theory:
+      SVEC-10.05-13 Theory:
       #### Vectors and the Geometry of Space
       ##### Equations of Lines and Planes
       ###### Planes
@@ -314,12 +339,12 @@ notes:
     Annotations: ''
   tags:
   - Theorem
-- id: 1588978451759
+- id: 1591325596712
   media:
   - path: ¢{file_dir}/images/SVEC-10.05-13.Sy.1.jpg
   fields:
     Front: |
-      SVEC-10.05-13 Theory:
+      SVEC-10.05-14 Theory:
       #### Vectors and the Geometry of Space
       ##### Equations of Lines and Planes
       ###### Planes
@@ -332,12 +357,12 @@ notes:
     Annotations: ''
   tags:
   - Theorem
-- id: 1588978677885
+- id: 1591325597152
   media:
   - path: ¢{file_dir}/images/SVEC-10.05-14.Sy.1.jpg
   fields:
     Front: |
-      SVEC-10.05-14 Theory:
+      SVEC-10.05-15 Theory:
       #### Vectors and the Geometry of Space
       ##### Equations of Lines and Planes
       ###### Planes

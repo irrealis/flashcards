@@ -1,4 +1,3 @@
-
 import os, sys
 
 script_path = os.path.abspath(__file__)
@@ -10,24 +9,26 @@ sys.path.insert(0, cur_dir)
 
 from yml_generators import generate_hw_yml
 
+
 variables = dict(
   course_title = "Calculus 3",
   course_abbrev = "APPM-2350",
 
-  problem_type = "WebAssign",
-  problem_abbrev = "WA-",
+  problem_type = "Recitation Worksheet",
+  problem_abbrev = "Ws",
 
-  assignment_num = "11.06",
-  sections = "SVEC 11.06",
+  assignment_num = "01",
+  assignment_tag = "APPM-2350-WS01",
+  sections = "SVEC 10.1 to 10.2",
 
   deck_name = "Staging",
   model_name = "PWeave",
   markdown_tab_length = "2",
   string_templ_delim = "¢",
 
-  base_dir = "/mnt/Work/Repos/irrealis/flashcards/Math/Classes/CU-Boulder/APPM-2350/WA",
-  header_file = os.path.join(base_dir, "scripts/WA_header.yml"),
-  note_file = os.path.join(base_dir, "scripts/WA_note.yml"),
+  base_dir = base_dir,
+  header_file = os.path.join(base_dir, "scripts/WS_header.yml"),
+  note_file = os.path.join(base_dir, "scripts/WS_note.yml"),
 )
 
-generate_hw_yml(variables, 10)
+generate_hw_yml(variables, 6)

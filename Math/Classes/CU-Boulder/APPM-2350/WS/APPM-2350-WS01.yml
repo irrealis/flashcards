@@ -1,0 +1,80 @@
+defaults:
+  deckName: Staging
+  modelName: PWeave
+  extraTags:
+  - Math
+  - Classes
+  - Calculus
+  - RecitationWorksheet
+  - CU-Boulder
+  - APPM-2350-Calculus3
+  - APPM-2350-WS01
+  markdownTabLength: 2
+  stringTemplDelim: ¢
+notes:
+- id: 1591391267514
+  fields:
+    Front: |
+      APPM-2350-WS01-1 Recitation Worksheet:
+      ##### SVEC 10.1 to 10.2
+      Temporary: work out of assignment PDF.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1591391267885
+  fields:
+    Front: |
+      APPM-2350-WS01-2 Recitation Worksheet:
+      ##### SVEC 10.1 to 10.2
+      Temporary: work out of assignment PDF.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1591391268265
+  fields:
+    Front: |
+      APPM-2350-WS01-3 Recitation Worksheet:
+      ##### SVEC 10.1 to 10.2
+      Temporary: work out of assignment PDF.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1591391268634
+  fields:
+    Front: |
+      APPM-2350-WS01-4 Recitation Worksheet:
+      ##### SVEC 10.1 to 10.2
+      Temporary: work out of assignment PDF.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1591391269017
+  fields:
+    Front: |
+      APPM-2350-WS01-5 Recitation Worksheet:
+      ##### SVEC 10.1 to 10.2
+      Temporary: work out of assignment PDF.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
+- id: 1591391269411
+  fields:
+    Front: |
+      APPM-2350-WS01-6 Recitation Worksheet:
+      ##### SVEC 10.1 to 10.2
+      Temporary: work out of assignment PDF.
+    Back: |
+      To do.
+    Annotations: ''
+  tags:
+  - ToDo
