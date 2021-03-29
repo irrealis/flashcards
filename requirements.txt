@@ -55,7 +55,7 @@ pycodestyle==2.4.0
 pycurl==7.43.0.2
 pydocstyle==2.1.1
 pyflakes==2.0.0
-Pygments==2.2.0
+Pygments==2.7.4
 pymdown-extensions==6.2.1
 pymediawiki==0.4.1
 pypandoc==1.4
